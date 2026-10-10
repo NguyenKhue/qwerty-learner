@@ -56,7 +56,7 @@
   {
     "name": "appetizer",
     "trans": [
-      "开胃品"
+      "món khai vị"
     ]
   },
   {
@@ -176,7 +176,7 @@
   {
     "name": "knife",
     "trans": [
-      "小刀"
+      "con dao nhỏ"
     ]
   },
   {
@@ -242,7 +242,7 @@
   {
     "name": "wine",
     "trans": [
-      "葡萄酒"
+      "rượu vang"
     ]
   },
   {
@@ -326,7 +326,7 @@
   {
     "name": "registered letter",
     "trans": [
-      "挂号信"
+      "thư gửi bảo đảm"
     ]
   },
   {
@@ -380,7 +380,7 @@
   {
     "name": "library card",
     "trans": [
-      "借书证"
+      "thẻ mượn sách"
     ]
   },
   {
@@ -404,7 +404,7 @@
   {
     "name": "renew",
     "trans": [
-      "续借"
+      "gia hạn mượn"
     ]
   },
   {
@@ -608,7 +608,7 @@
   {
     "name": "heart attack",
     "trans": [
-      "心脏病"
+      "bệnh tim"
     ]
   },
   {
@@ -890,7 +890,7 @@
   {
     "name": "double room",
     "trans": [
-      "双人间"
+      "Phòng cho hai người, phòng đôi"
     ]
   },
   {
@@ -926,7 +926,7 @@
   {
     "name": "room service",
     "trans": [
-      "客户服务"
+      "dịch vụ khách hàng"
     ]
   },
   {
@@ -974,7 +974,7 @@
   {
     "name": "lobby",
     "trans": [
-      "大堂"
+      "sảnh, sảnh lớn"
     ]
   },
   {
@@ -1046,7 +1046,7 @@
   {
     "name": "shuttle bus",
     "trans": [
-      "班车"
+      "xe buýt theo lịch"
     ]
   },
   {
@@ -1106,7 +1106,7 @@
   {
     "name": "coach/carriage",
     "trans": [
-      "车厢"
+      "toa tàu, khoang xe"
     ]
   },
   {
@@ -1142,19 +1142,19 @@
   {
     "name": "traffic lights",
     "trans": [
-      "交通灯"
+      "đèn giao thông"
     ]
   },
   {
     "name": "traffic rules",
     "trans": [
-      "交通规则"
+      "luật giao thông"
     ]
   },
   {
     "name": "driving license",
     "trans": [
-      "驾照"
+      "giấy phép lái xe"
     ]
   },
   {
@@ -1208,7 +1208,7 @@
   {
     "name": "express train",
     "trans": [
-      "特快列车"
+      "tàu tốc hành"
     ]
   },
   {
@@ -1292,7 +1292,7 @@
   {
     "name": "check in",
     "trans": [
-      "办理登机手续"
+      "làm thủ tục bay, thủ tục cửa khởi hành"
     ]
   },
   {
@@ -1310,7 +1310,7 @@
   {
     "name": "(Flight Number)",
     "trans": [
-      "航班号"
+      "số hiệu chuyến bay"
     ]
   },
   {
@@ -1340,7 +1340,7 @@
   {
     "name": "one-way ticket",
     "trans": [
-      "单程票"
+      "vé một chiều"
     ]
   },
   {
@@ -1520,7 +1520,7 @@
   {
     "name": "land",
     "trans": [
-      "降落"
+      "hạ cánh"
     ]
   },
   {
@@ -1670,7 +1670,7 @@
   {
     "name": "expensive/dear",
     "trans": [
-      "昂贵的"
+      "đắt đỏa, đắt tiền"
     ]
   },
   {
@@ -1958,7 +1958,7 @@
   {
     "name": "strong/high wind",
     "trans": [
-      "大风"
+      "gió lớn"
     ]
   },
   {
@@ -2072,7 +2072,7 @@
   {
     "name": "weather forecast",
     "trans": [
-      "天气预报"
+      "dự báo thời tiết"
     ]
   },
   {
@@ -2162,13 +2162,13 @@
   {
     "name": "river",
     "trans": [
-      "河流"
+      "dòng sông; con sông"
     ]
   },
   {
     "name": "lake",
     "trans": [
-      "湖泊"
+      "hồ; hồ nước"
     ]
   },
   {
@@ -2216,7 +2216,7 @@
   {
     "name": "travel agency",
     "trans": [
-      "旅行社"
+      "công ty du lịch"
     ]
   },
   {
@@ -2324,19 +2324,19 @@
   {
     "name": "part-time job",
     "trans": [
-      "兼职工作"
+      "việc làm thêm"
     ]
   },
   {
     "name": "full-time job",
     "trans": [
-      "全职工作"
+      "công việc toàn thời gian"
     ]
   },
   {
     "name": "psychologist",
     "trans": [
-      "心理学家"
+      "nhà tâm lý học"
     ]
   },
   {
@@ -2750,7 +2750,7 @@
   {
     "name": "promotion",
     "trans": [
-      "晋升"
+      "thăng chức"
     ]
   },
   {
@@ -2828,13 +2828,13 @@
   {
     "name": "manager",
     "trans": [
-      "经理"
+      "quản lý"
     ]
   },
   {
     "name": "HR manager",
     "trans": [
-      "人事经理"
+      "quản lý nhân sự"
     ]
   },
   {
@@ -2876,7 +2876,7 @@
   {
     "name": "detective film",
     "trans": [
-      "侦探片"
+      "phim trinh thám"
     ]
   },
   {
@@ -2972,7 +2972,7 @@
   {
     "name": "spare time",
     "trans": [
-      "业余时间"
+      "thời gian nhàn rải"
     ]
   },
   {
@@ -3002,7 +3002,7 @@
   {
     "name": "taste",
     "trans": [
-      "口味"
+      "khẩu vị"
     ]
   },
   {
@@ -3050,7 +3050,7 @@
   {
     "name": "climb mountains",
     "trans": [
-      "爬山"
+      "leo núi"
     ]
   },
   {
@@ -3122,7 +3122,7 @@
   {
     "name": "deposit",
     "trans": [
-      "押金"
+      "tiền đặt cọc"
     ]
   },
   {
@@ -3140,7 +3140,7 @@
   {
     "name": "heat",
     "trans": [
-      "暖气"
+      "hệ thống sưởi, sưởi ấm"
     ]
   },
   {
@@ -3206,7 +3206,7 @@
   {
     "name": "toilet",
     "trans": [
-      "卫生间"
+      "nhà vệ sinh"
     ]
   },
   {

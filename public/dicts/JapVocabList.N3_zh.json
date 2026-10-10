@@ -100,7 +100,7 @@
     {
         "name": "wazato",
         "trans": [
-            "故意"
+            "cố ý; cố tình"
         ],
         "notation": "わざと"
     },
@@ -198,7 +198,7 @@
     {
         "name": "seijin",
         "trans": [
-            "成人"
+            "người lớn"
         ],
         "notation": "成人(せいじん)"
     },
@@ -345,7 +345,7 @@
     {
         "name": "sumimasen",
         "trans": [
-            "对不起，对不起"
+            "xin lỗi; xin lỗi"
         ],
         "notation": "すみません"
     },
@@ -842,7 +842,7 @@
     {
         "name": "insatsu",
         "trans": [
-            "印刷"
+            "in; in ấn"
         ],
         "notation": "印刷(いんさつ)"
     },
@@ -1143,7 +1143,7 @@
     {
         "name": "kouchi",
         "trans": [
-            "长途汽车"
+            "xe khách đường dài"
         ],
         "notation": "コーチ"
     },
@@ -1248,7 +1248,7 @@
     {
         "name": "sutaa",
         "trans": [
-            "星"
+            "ngôi sao"
         ],
         "notation": "スター"
     },
@@ -1619,7 +1619,7 @@
     {
         "name": "shitagatte",
         "trans": [
-            "因此，因此，根据"
+            "do đó; vì vậy; theo"
         ],
         "notation": "したがって"
     },
@@ -1640,7 +1640,7 @@
     {
         "name": "umai",
         "trans": [
-            "美味"
+            "ngon"
         ],
         "notation": "うまい"
     },
@@ -2634,7 +2634,7 @@
     {
         "name": "tamesu",
         "trans": [
-            "尝试，测试"
+            "thử; kiểm tra"
         ],
         "notation": "試(ため)す"
     },
@@ -3019,7 +3019,7 @@
     {
         "name": "gomennasai",
         "trans": [
-            "对不起，对不起"
+            "xin lỗi; xin lỗi"
         ],
         "notation": "ごめんなさい"
     },
@@ -3502,7 +3502,7 @@
     {
         "name": "shihon",
         "trans": [
-            "资金、资本"
+            "vốn; tài vốn"
         ],
         "notation": "資本(しほん)"
     },
@@ -3593,7 +3593,7 @@
     {
         "name": "itadakimasu",
         "trans": [
-            "饭前表达感激之情"
+            "nói lời cảm tạ trước bữa ăn"
         ],
         "notation": "いただきます"
     },
@@ -3782,7 +3782,7 @@
     {
         "name": "araware",
         "trans": [
-            "具体实施方式，物化"
+            "phương thức thực hiện cụ thể, vật chất hóa"
         ],
         "notation": "現(あらわ)れ"
     },
@@ -4125,7 +4125,7 @@
     {
         "name": "tokoroga",
         "trans": [
-            "然而，虽然，即使"
+            "tuy nhiên; mặc dù; dù"
         ],
         "notation": "ところが"
     },
@@ -4916,7 +4916,7 @@
     {
         "name": "hori",
         "trans": [
-            "护城河"
+            "hào phòng thủ; hào nước"
         ],
         "notation": "濠(ほり)"
     },
@@ -5035,7 +5035,7 @@
     {
         "name": "juyou",
         "trans": [
-            "需求，请求"
+            "nhu cầu; yêu cầu"
         ],
         "notation": "需要(じゅよう)"
     },
@@ -5812,7 +5812,7 @@
     {
         "name": "arayuru",
         "trans": [
-            "所有，每个"
+            "mọi, mỗi"
         ],
         "notation": "あらゆる"
     },
@@ -5833,7 +5833,7 @@
     {
         "name": "tanin",
         "trans": [
-            "另一个人，无关的人，局外人，陌生人"
+            "người khác, người không liên quan, người ngoài cuộc, người xa lạ"
         ],
         "notation": "他人(たにん)"
     },
@@ -6547,7 +6547,7 @@
     {
         "name": "kanari",
         "trans": [
-            "相当，公平，相当"
+            "khá; công bằng; khá"
         ],
         "notation": "かなり"
     },
@@ -6757,7 +6757,7 @@
     {
         "name": "sokode",
         "trans": [
-            "所以（conj），因此，现在，然后，因此"
+            "nên (conj); vì vậy; bây giờ; sau đó; do đó"
         ],
         "notation": "そこで"
     },
@@ -6918,7 +6918,7 @@
     {
         "name": "achikochi",
         "trans": [
-            "这里和那里"
+            "đây và đó, khắp nơi"
         ],
         "notation": "あちこち"
     },
@@ -7212,7 +7212,7 @@
     {
         "name": "chigai",
         "trans": [
-            "差异，差异"
+            "khác biệt, sự khác biệt"
         ],
         "notation": "違(ちが)い"
     },
@@ -7233,7 +7233,7 @@
     {
         "name": "sorezore",
         "trans": [
-            "每个，每个，要么，分别，几个"
+            "mỗi, từng, hoặc, tương ứng, vài"
         ],
         "notation": "それぞれ"
     },
@@ -7821,7 +7821,7 @@
     {
         "name": "tamaranai",
         "trans": [
-            "无法忍受，无法忍受，无法忍受"
+            "không thể chịu nổi; không chịu nổi; quá đáng"
         ],
         "notation": "たまらない"
     },
@@ -7905,7 +7905,7 @@
     {
         "name": "masani",
         "trans": [
-            "正确，肯定"
+            "đúng; chắc chắn; dứt khoát"
         ],
         "notation": "まさに"
     },
@@ -7961,7 +7961,7 @@
     {
         "name": "kono",
         "trans": [
-            "这"
+            "này; cái này"
         ],
         "notation": "この"
     },
@@ -8619,7 +8619,7 @@
     {
         "name": "kokkyou",
         "trans": [
-            "国家或州边界"
+            "biên giới quốc gia hoặc tiểu bang"
         ],
         "notation": "国境(こっきょう)"
     },
@@ -8689,7 +8689,7 @@
     {
         "name": "ojiisan",
         "trans": [
-            "爷爷，男性老年人"
+            "ông nội, người đàn ông lớn tuổi"
         ],
         "notation": "おじいさん"
     },
@@ -8941,7 +8941,7 @@
     {
         "name": "ishi",
         "trans": [
-            "意图、目的"
+            "mục đích, ý định"
         ],
         "notation": "意思(いし)"
     },
@@ -9536,7 +9536,7 @@
     {
         "name": "joushiki",
         "trans": [
-            "常识"
+            "kiến thức thông thường"
         ],
         "notation": "常識(じょうしき)"
     },
@@ -9872,7 +9872,7 @@
     {
         "name": "yoroshii",
         "trans": [
-            "好吧，适当，适当，最好的问候，请记住我"
+            "được rồi; thích hợp; thích đáng; lời chào tốt nhất; nhớ tôi"
         ],
         "notation": "宜(よろ)しい"
     },
@@ -10124,7 +10124,7 @@
     {
         "name": "hitokoto",
         "trans": [
-            "单字"
+            "một chữ đơn; từ đơn"
         ],
         "notation": "一言(ひとこと)"
     },
@@ -10327,7 +10327,7 @@
     {
         "name": "dore",
         "trans": [
-            "好吧，现在，让我看看，哪个（三个或更多）"
+            "được rồi, giờ, để tôi xem, cái nào (từ ba trở lên)"
         ],
         "notation": "どれ"
     },
@@ -10355,7 +10355,7 @@
     {
         "name": "nuno",
         "trans": [
-            "布"
+            "vải"
         ],
         "notation": "布(ぬの)"
     },
@@ -10782,7 +10782,7 @@
     {
         "name": "guruupu",
         "trans": [
-            "群"
+            "nhóm"
         ],
         "notation": "グループ"
     },
@@ -11125,7 +11125,7 @@
     {
         "name": "aruiha",
         "trans": [
-            "或者，可能"
+            "hoặc; có thể"
         ],
         "notation": "あるいは"
     },
@@ -11307,7 +11307,7 @@
     {
         "name": "nesshin",
         "trans": [
-            "热忱，热情"
+            "nhiệt tình; hăng hái"
         ],
         "notation": "熱心(ねっしん)"
     },
@@ -11440,7 +11440,7 @@
     {
         "name": "kyouryoku",
         "trans": [
-            "合作，协作"
+            "hợp tác, cộng tác"
         ],
         "notation": "協力(きょうりょく)"
     },
@@ -11776,7 +11776,7 @@
     {
         "name": "ooini",
         "trans": [
-            "非常，非常，非常"
+            "rất, rất, vô cùng"
         ],
         "notation": "大(おお)いに"
     },
@@ -12511,7 +12511,7 @@
     {
         "name": "tsuneni",
         "trans": [
-            "永远，不断"
+            "mãi mãi; không ngừng"
         ],
         "notation": "常(つね)に"
     },
@@ -12567,7 +12567,7 @@
     {
         "name": "bikkuri",
         "trans": [
-            "惊讶，惊讶，害怕，惊讶"
+            "kinh ngạc, ngạc nhiên, sợ hãi, kinh động"
         ],
         "notation": "びっくり"
     },
@@ -12672,7 +12672,7 @@
     {
         "name": "shinri",
         "trans": [
-            "心态"
+            "tâm lý, thái độ"
         ],
         "notation": "心理(しんり)"
     },

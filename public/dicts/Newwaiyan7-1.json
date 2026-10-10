@@ -133,7 +133,7 @@
     {
         "name": "dining hall",
         "trans": [
-            "食堂"
+            "nhà ăn, căng-tin"
         ],
         "usphone": "",
         "ukphone": ""
@@ -357,7 +357,7 @@
         "trans": [
             "意义",
             "意思",
-            "含义"
+            "ý nghĩa"
         ],
         "usphone": "miːnɪŋ",
         "ukphone": "miːnɪŋ"
@@ -411,7 +411,7 @@
         "trans": [
             "vấn đề; câu hỏi",
             "难题",
-            "困难"
+            "khó khăn"
         ],
         "usphone": "prɒbləm",
         "ukphone": "prɒbləm"
@@ -656,7 +656,7 @@
     {
         "name": "suddenly",
         "trans": [
-            "突然",
+            "đột ngột, bất ngờ",
             "突如其来地"
         ],
         "usphone": "sʌdənli",
@@ -725,7 +725,7 @@
     {
         "name": "instrument",
         "trans": [
-            "乐器"
+            "nhạc cụ"
         ],
         "usphone": "ɪnstrʊmənt",
         "ukphone": "ɪnstrʊmənt"
@@ -783,7 +783,7 @@
     {
         "name": "social media",
         "trans": [
-            "社交媒体",
+            "mạng xã hội",
             "社会化媒体"
         ],
         "usphone": "",
@@ -792,9 +792,9 @@
     {
         "name": "knowledge",
         "trans": [
-            "知识",
+            "kiến thức",
             "学问",
-            "认识"
+            "nhận thức"
         ],
         "usphone": "nɒlɪdʒ",
         "ukphone": "nɒlɪdʒ"
@@ -1277,7 +1277,7 @@
     {
         "name": "trailer",
         "trans": [
-            "拖车",
+            "xe kéo",
             "挂车"
         ],
         "usphone": "treɪlər",
@@ -1481,7 +1481,7 @@
         "trans": [
             "形",
             "n. hình dạng, hình thù",
-            "外形"
+            "hình dáng bên ngoài"
         ],
         "usphone": "ʃeɪp",
         "ukphone": "ʃeɪp"
@@ -1500,7 +1500,7 @@
         "trans": [
             "n. lát, mảnh, tấm; n. phim, phần",
             "khối; miếng",
-            "段",
+            "đoạn",
             "截"
         ],
         "usphone": "piːs",
@@ -1728,7 +1728,7 @@
         "name": "medical",
         "trans": [
             "y khoa; thuộc về y học",
-            "医疗的"
+            "y tế, y khoa"
         ],
         "usphone": "mɛdɪkəl",
         "ukphone": "mɛdɪkəl"
@@ -1853,7 +1853,7 @@
         "name": "recognize",
         "trans": [
             "nhận ra",
-            "认识",
+            "nhận thức",
             "nhận ra, xác định"
         ],
         "usphone": "rɛkəɡnaɪz",
@@ -1918,7 +1918,7 @@
     {
         "name": "get lost",
         "trans": [
-            "迷路"
+            "lạc đường, đi lạc"
         ],
         "usphone": null,
         "ukphone": null
@@ -1946,7 +1946,7 @@
         "trans": [
             "adj. đủ; đủ dùng",
             "(adj.) đủ; dồi dào",
-            "充分的"
+            "đầy đủ"
         ],
         "usphone": "ɪˈnʌf",
         "ukphone": "ɪˈnʌf"
@@ -2345,7 +2345,7 @@
     {
         "name": "natural",
         "trans": [
-            "自然的",
+            "tự nhiên",
             "天然的"
         ],
         "usphone": "nætʃərəl",
@@ -2463,7 +2463,7 @@
     {
         "name": "key",
         "trans": [
-            "至关重要的",
+            "quan trọng sống còn",
             "không thể thiếu, cần thiết",
             "then chốt, mấu chốt"
         ],
@@ -2483,7 +2483,7 @@
     {
         "name": "news",
         "trans": [
-            "消息"
+            "tin tức, tin nhắn"
         ],
         "usphone": "njuːz",
         "ukphone": "njuːz"
@@ -2515,7 +2515,7 @@
     {
         "name": "adult",
         "trans": [
-            "成人",
+            "người lớn",
             "nguoi truong thanh nien"
         ],
         "usphone": "ædʌlt",
@@ -2551,7 +2551,7 @@
     {
         "name": "yard",
         "trans": [
-            "庭院"
+            "sân vườn, sân trong"
         ],
         "usphone": "jɑːrd",
         "ukphone": "jɑːd"

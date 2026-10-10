@@ -74,7 +74,7 @@
     {
         "name": "north",
         "trans": [
-            "北"
+            "bắc"
         ],
         "usphone": "nɔːrθ",
         "ukphone": "nɔːθ"
@@ -82,7 +82,7 @@
     {
         "name": "south",
         "trans": [
-            "南"
+            "nam"
         ],
         "usphone": "saʊθ",
         "ukphone": "saʊθ"
@@ -186,7 +186,7 @@
     {
         "name": "Toronto",
         "trans": [
-            "多伦多"
+            "Toronto"
         ],
         "usphone": "tɔːˈrɑːn.toʊ",
         "ukphone": "tɔːˈrɒn.təʊ"
@@ -202,7 +202,7 @@
     {
         "name": "Washington",
         "trans": [
-            "华盛顿"
+            "Washington"
         ],
         "usphone": "ˈwɑːʃ.ɪŋ.tən",
         "ukphone": "ˈwɒʃ.ɪŋ.tən"
@@ -210,7 +210,7 @@
     {
         "name": "the British Museum",
         "trans": [
-            "大英博物馆"
+            "Bảo tàng Anh Quốc"
         ],
         "usphone": "ðə ˈbrɪt.ɪʃ mjuˈziː.əm",
         "ukphone": "ðə ˈbrɪt.ɪʃ mjuˈziːəm"
@@ -298,7 +298,7 @@
     {
         "name": "sunrise",
         "trans": [
-            "日出"
+            "bình minh, mặt trời mọc"
         ],
         "usphone": "ˈsʌn.raɪz",
         "ukphone": "ˈsʌn.raɪz"
@@ -516,7 +516,7 @@
         "name": "ill",
         "trans": [
             "bệnh",
-            "不舒服的"
+            "khó chịu"
         ],
         "usphone": "ɪl",
         "ukphone": "ɪl"

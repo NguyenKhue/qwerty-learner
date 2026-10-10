@@ -100,7 +100,7 @@
     {
         "name": "unten",
         "trans": [
-            "开车"
+            "lái xe, lái xe"
         ],
         "notation": "運転(うんてん)"
     },
@@ -128,7 +128,7 @@
     {
         "name": "koutougakkou",
         "trans": [
-            "高中"
+            "trung học phổ thông"
         ],
         "notation": "高等(こうとう)学校(がっこう)"
     },
@@ -205,7 +205,7 @@
     {
         "name": "umai",
         "trans": [
-            "美味"
+            "ngon"
         ],
         "notation": "うまい"
     },
@@ -219,7 +219,7 @@
     {
         "name": "sutereo",
         "trans": [
-            "立体声"
+            "âm thanh nổi, lập thể"
         ],
         "notation": "ステレオ"
     },
@@ -842,7 +842,7 @@
     {
         "name": "okoru",
         "trans": [
-            "生气，生气"
+            "tức giận, giận dữ"
         ],
         "notation": "怒(おこ)る"
     },
@@ -870,7 +870,7 @@
     {
         "name": "juudou",
         "trans": [
-            "柔道"
+            "judo"
         ],
         "notation": "柔道(じゅうどう)"
     },
@@ -1388,7 +1388,7 @@
     {
         "name": "kubi",
         "trans": [
-            "脖子"
+            "cổ"
         ],
         "notation": "首(くび)"
     },
@@ -1402,7 +1402,7 @@
     {
         "name": "koukou",
         "trans": [
-            "高中"
+            "trung học phổ thông"
         ],
         "notation": "高校(こうこう)"
     },
@@ -1486,7 +1486,7 @@
     {
         "name": "kachou",
         "trans": [
-            "部门经理"
+            "quản lý bộ phận, trưởng phòng"
         ],
         "notation": "課長(かちょう)"
     },
@@ -1612,7 +1612,7 @@
     {
         "name": "nemui",
         "trans": [
-            "困"
+            "buồn ngủ; bị trói buộc"
         ],
         "notation": "眠(ねむ)い"
     },
@@ -1626,7 +1626,7 @@
     {
         "name": "arubaito",
         "trans": [
-            "兼职工作"
+            "việc làm thêm"
         ],
         "notation": "アルバイト"
     },
@@ -1640,7 +1640,7 @@
     {
         "name": "henji",
         "trans": [
-            "答"
+            "trả lời; đáp"
         ],
         "notation": "返事(へんじ)"
     },
@@ -1654,7 +1654,7 @@
     {
         "name": "yogiru",
         "trans": [
-            "超过。"
+            "vượt quá; hơn"
         ],
         "notation": "過(よ)ぎる"
     },
@@ -1997,7 +1997,7 @@
     {
         "name": "narubeku",
         "trans": [
-            "尽可能多"
+            "nhiều nhất có thể; càng nhiều càng tốt"
         ],
         "notation": "なるべく"
     },
@@ -2053,7 +2053,7 @@
     {
         "name": "you",
         "trans": [
-            "用"
+            "dùng"
         ],
         "notation": "用(よう)"
     },
@@ -2403,7 +2403,7 @@
     {
         "name": "rusu",
         "trans": [
-            "缺席"
+            "vắng mặt, vắng mặt"
         ],
         "notation": "留守(るす)"
     },
@@ -2851,7 +2851,7 @@
     {
         "name": "kokusai",
         "trans": [
-            "国际"
+            "quốc tế"
         ],
         "notation": "国際(こくさい)"
     },
@@ -2998,7 +2998,7 @@
     {
         "name": "hige",
         "trans": [
-            "胡子"
+            "râu"
         ],
         "notation": "ひげ"
     },
@@ -3516,14 +3516,14 @@
     {
         "name": "nigai",
         "trans": [
-            "苦"
+            "đắng"
         ],
         "notation": "苦(にが)い"
     },
     {
         "name": "hoshi",
         "trans": [
-            "星"
+            "ngôi sao"
         ],
         "notation": "星(ほし)"
     },
@@ -3677,7 +3677,7 @@
     {
         "name": "gasorinsutando",
         "trans": [
-            "加油站"
+            "trạm xăng, cây xăng"
         ],
         "notation": "ガソリンスタンド"
     },
@@ -3992,7 +3992,7 @@
     {
         "name": "tenkiyohou",
         "trans": [
-            "天气预报"
+            "dự báo thời tiết"
         ],
         "notation": "天気(てんき)予報(よほう)"
     },
@@ -4027,7 +4027,7 @@
     {
         "name": "dekirudake",
         "trans": [
-            "尽可能多"
+            "nhiều nhất có thể; càng nhiều càng tốt"
         ],
         "notation": "できるだけ"
     },
@@ -4384,14 +4384,14 @@
     {
         "name": "hazu",
         "trans": [
-            "应该是这样"
+            "lẽ ra phải như vậy; đáng lẽ"
         ],
         "notation": "はず"
     },
     {
         "name": "dondon",
         "trans": [
-            "越来越多"
+            "ngày càng nhiều"
         ],
         "notation": "どんどん"
     },

@@ -212,7 +212,7 @@
     {
         "name": "oishii",
         "trans": [
-            "美味"
+            "ngon"
         ],
         "notation": "おいしい"
     },
@@ -296,7 +296,7 @@
     {
         "name": "minami",
         "trans": [
-            "南"
+            "nam"
         ],
         "notation": "南(みなみ)"
     },
@@ -324,7 +324,7 @@
     {
         "name": "kami",
         "trans": [
-            "纸"
+            "giấy"
         ],
         "notation": "紙(かみ)"
     },
@@ -632,7 +632,7 @@
     {
         "name": "tamago",
         "trans": [
-            "蛋"
+            "trứng"
         ],
         "notation": "卵(たまご)"
     },
@@ -821,7 +821,7 @@
     {
         "name": "maitoshi",
         "trans": [
-            "每年"
+            "mỗi năm; hằng năm"
         ],
         "notation": "毎年(まいとし)"
     },
@@ -933,7 +933,7 @@
     {
         "name": "acchi",
         "trans": [
-            "那边"
+            "bên kia; kia"
         ],
         "notation": "あっち"
     },
@@ -961,7 +961,7 @@
     {
         "name": "hontou",
         "trans": [
-            "真理"
+            "chân lý"
         ],
         "notation": "本当(ほんとう)"
     },
@@ -982,7 +982,7 @@
     {
         "name": "amai",
         "trans": [
-            "甜"
+            "ngọt"
         ],
         "notation": "甘(あま)い"
     },
@@ -1108,7 +1108,7 @@
     {
         "name": "mukou",
         "trans": [
-            "那边"
+            "bên kia; kia"
         ],
         "notation": "向(む)こう"
     },
@@ -1325,7 +1325,7 @@
     {
         "name": "ao",
         "trans": [
-            "蓝"
+            "xanh"
         ],
         "notation": "青(あお)"
     },
@@ -1353,7 +1353,7 @@
     {
         "name": "sebiro",
         "trans": [
-            "西装"
+            "bộ com-lê"
         ],
         "notation": "背広(せびろ)"
     },
@@ -1367,7 +1367,7 @@
     {
         "name": "koucha",
         "trans": [
-            "红茶"
+            "trà đỏ"
         ],
         "notation": "紅茶(こうちゃ)"
     },
@@ -1458,7 +1458,7 @@
     {
         "name": "shouyu",
         "trans": [
-            "酱油"
+            "nước tương"
         ],
         "notation": "醤油(しょうゆ)"
     },
@@ -1906,7 +1906,7 @@
     {
         "name": "iroiro",
         "trans": [
-            "各种"
+            "nhiều loại; đủ thứ"
         ],
         "notation": "いろいろ"
     },
@@ -1969,7 +1969,7 @@
     {
         "name": "kariru",
         "trans": [
-            "借用"
+            "mượn sử dụng"
         ],
         "notation": "借(か)りる"
     },
@@ -2060,7 +2060,7 @@
     {
         "name": "ryouri",
         "trans": [
-            "菜"
+            "món ăn, rau"
         ],
         "notation": "料理(りょうり)"
     },
@@ -2340,7 +2340,7 @@
     {
         "name": "shokudou",
         "trans": [
-            "食堂"
+            "nhà ăn, căng-tin"
         ],
         "notation": "食堂(しょくどう)"
     },
@@ -2970,7 +2970,7 @@
     {
         "name": "kita",
         "trans": [
-            "北"
+            "bắc"
         ],
         "notation": "北(きた)"
     },
@@ -3117,7 +3117,7 @@
     {
         "name": "peeji",
         "trans": [
-            "页"
+            "trang"
         ],
         "notation": "ページ"
     },
@@ -3180,7 +3180,7 @@
     {
         "name": "sochira",
         "trans": [
-            "那边"
+            "bên kia; kia"
         ],
         "notation": "そちら"
     },
@@ -3201,7 +3201,7 @@
     {
         "name": "dou",
         "trans": [
-            "如何，以何种方式"
+            "như thế nào, bằng cách nào"
         ],
         "notation": "どう"
     },
@@ -3285,7 +3285,7 @@
     {
         "name": "kutsushita",
         "trans": [
-            "袜子"
+            "tất"
         ],
         "notation": "靴下(くつした)"
     },
@@ -3544,7 +3544,7 @@
     {
         "name": "asoko",
         "trans": [
-            "那边"
+            "bên kia; kia"
         ],
         "notation": "あそこ"
     },
@@ -3649,7 +3649,7 @@
     {
         "name": "uru",
         "trans": [
-            "出售"
+            "v. bán ra"
         ],
         "notation": "売(う)る"
     },
@@ -3691,7 +3691,7 @@
     {
         "name": "ano",
         "trans": [
-            "那边"
+            "bên kia; kia"
         ],
         "notation": "あの"
     },
@@ -3712,14 +3712,14 @@
     {
         "name": "muzukashii",
         "trans": [
-            "难"
+            "khó"
         ],
         "notation": "難(むずか)しい"
     },
     {
         "name": "otona",
         "trans": [
-            "成人"
+            "người lớn"
         ],
         "notation": "大人(おとな)"
     },
@@ -3754,7 +3754,7 @@
     {
         "name": "kore",
         "trans": [
-            "这"
+            "này; cái này"
         ],
         "notation": "これ"
     },
@@ -3922,7 +3922,7 @@
     {
         "name": "megane",
         "trans": [
-            "眼镜"
+            "kính mắt"
         ],
         "notation": "眼鏡(めがね)"
     },
@@ -3978,14 +3978,14 @@
     {
         "name": "aoi",
         "trans": [
-            "蓝"
+            "xanh"
         ],
         "notation": "青(あお)い"
     },
     {
         "name": "kono",
         "trans": [
-            "这"
+            "này; cái này"
         ],
         "notation": "この"
     },
@@ -4027,7 +4027,7 @@
     {
         "name": "ichinichi",
         "trans": [
-            "一天"
+            "một ngày"
         ],
         "notation": "一(いち)日(にち)"
     },
@@ -4307,7 +4307,7 @@
     {
         "name": "karee",
         "trans": [
-            "咖哩"
+            "cà ri"
         ],
         "notation": "カレー"
     },
@@ -4349,7 +4349,7 @@
     {
         "name": "otouto",
         "trans": [
-            "弟弟"
+            "em trai"
         ],
         "notation": "弟(おとうと)"
     },
@@ -4363,7 +4363,7 @@
     {
         "name": "socchi",
         "trans": [
-            "那边"
+            "bên kia; kia"
         ],
         "notation": "そっち"
     },
