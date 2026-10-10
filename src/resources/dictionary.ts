@@ -4156,11 +4156,27 @@ const indonesianDicts: DictionaryResource[] = [
   },
 ]
 
+// My own vocabulary
+const myVocab: DictionaryResource[] = [
+  {
+    id: 'myVocab',
+    name: 'My Vocabulary',
+    description: 'Personal IT and general English vocabulary with Vietnamese meanings',
+    category: 'My Vocabulary',
+    tags: ['Personal'],
+    url: '/dicts/my-vocab.json',
+    length: 555,
+    language: 'en',
+    languageCategory: 'en',
+  },
+]
+
 /**
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
  */
 export const dictionaryResources: DictionaryResource[] = [
+  ...myVocab,
   ...chinaExam,
   ...internationalExam,
   ...childrenEnglish,

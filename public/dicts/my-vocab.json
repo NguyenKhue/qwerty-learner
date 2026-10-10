@@ -1,0 +1,5296 @@
+[
+    {
+        "name": "strict",
+        "trans": [
+            "adj. nghiêm ngặt, chặt chẽ",
+            "adj. khắc khe (quy định, con người)",
+            "adj. (IT) chế độ kiểm soát nghiêm ngặt"
+        ],
+        "usphone": "strɪkt",
+        "ukphone": "strɪkt"
+    },
+    {
+        "name": "enforcement",
+        "trans": [
+            "n. sự thực thi, ép buộc tuân thủ",
+            "n. (IT) việc bắt buộc tuân thủ quy tắc",
+            "n. việc thực thi pháp luật"
+        ],
+        "usphone": "ɪnˈfɔːrsmənt",
+        "ukphone": "ɪnˈfɔːsmənt"
+    },
+    {
+        "name": "interchange",
+        "trans": [
+            "v. trao đổi, hoán đổi qua lại",
+            "n. sự trao đổi",
+            "n. nút giao thông"
+        ],
+        "usphone": "ˈɪntərˌtʃeɪndʒ",
+        "ukphone": "ˈɪntətʃeɪndʒ"
+    },
+    {
+        "name": "safeguard",
+        "trans": [
+            "n. biện pháp bảo vệ, phòng ngừa",
+            "v. bảo vệ, che chở khỏi nguy hiểm",
+            "n. (IT) cơ chế bảo vệ hệ thống"
+        ],
+        "usphone": "ˈseɪfˌɡɑːrd",
+        "ukphone": "ˈseɪfɡɑːd"
+    },
+    {
+        "name": "foundational",
+        "trans": [
+            "adj. nền tảng, cơ bản",
+            "adj. (IT) làm cơ sở cho hệ thống khác",
+            "adj. căn bản, yêu cầu phải có trước"
+        ],
+        "usphone": "faʊnˈdeɪʃənəl",
+        "ukphone": "faʊnˈdeɪʃənəl"
+    },
+    {
+        "name": "unified",
+        "trans": [
+            "adj. thống nhất, hợp nhất",
+            "adj. (IT) đồng bộ, nhất quán giữa các phần",
+            "adj. đoàn kết, cùng chung mục tiêu"
+        ],
+        "usphone": "ˈjuːnɪˌfaɪd",
+        "ukphone": "ˈjuːnɪfaɪd"
+    },
+    {
+        "name": "universal",
+        "trans": [
+            "adj. phổ quát, đúng với tất cả",
+            "adj. (IT) tương thích với mọi nền tảng",
+            "adj. áp dụng được ở mọi nơi"
+        ],
+        "usphone": "juːˈnɪvɜːrsəl",
+        "ukphone": "juːˈnɪvɜːsəl"
+    },
+    {
+        "name": "exchange",
+        "trans": [
+            "n. sự trao đổi",
+            "v. trao đổi, đổi lấy",
+            "n. sàn giao dịch (tài chính)"
+        ],
+        "usphone": "ɪkˈstʃeɪndʒ",
+        "ukphone": "ɪksˈtʃeɪndʒ"
+    },
+    {
+        "name": "authentic",
+        "trans": [
+            "adj. chân thực, xác thực",
+            "adj. đúng là thật, không giả mạo",
+            "adj. (IT) xác thực, không bị làm giả"
+        ],
+        "usphone": "ɔːˈθɛntɪk",
+        "ukphone": "ɔːˈθɛntɪk"
+    },
+    {
+        "name": "convention",
+        "trans": [
+            "n. quy ước, thói quen được chấp nhận",
+            "n. (IT) quy ước lập trình (naming, coding style)",
+            "n. hội nghị, đại hội"
+        ],
+        "usphone": "kənˈvɛnʃən",
+        "ukphone": "kənˈvenʃən"
+    },
+    {
+        "name": "ideally",
+        "trans": [
+            "adv. trong điều kiện hoàn hảo, lý tưởng nhất",
+            "adv. đúng ra thì, nên là",
+            "adv. (IT) trạng thái hệ thống mong muốn"
+        ],
+        "usphone": "aɪˈdɪəli",
+        "ukphone": "aɪˈdɪəli"
+    },
+    {
+        "name": "verbose",
+        "trans": [
+            "adj. dông dài, rườm rà, quá nhiều lời",
+            "adj. (IT) chế độ hiển thị chi tiết",
+            "n. verbose mode/logging"
+        ],
+        "usphone": "vɜːrˈboʊs",
+        "ukphone": "vɜːˈboʊs"
+    },
+    {
+        "name": "evolve",
+        "trans": [
+            "v. tiến hóa, phát triển dần dần",
+            "v. (IT) phát triển/nâng cấp hệ thống",
+            "v. thích nghi tốt hơn qua thời gian"
+        ],
+        "usphone": "ɪˈvɑːlv",
+        "ukphone": "ɪˈvɒlv"
+    },
+    {
+        "name": "migrate",
+        "trans": [
+            "v. di chuyển, chuyển đi",
+            "v. (IT) chuyển dữ liệu/hệ thống sang nền tảng khác",
+            "v. di cư, chuyển nơi định cư"
+        ],
+        "usphone": "maɪˈɡreɪt",
+        "ukphone": "maɪˈɡreɪt"
+    },
+    {
+        "name": "legitimate",
+        "trans": [
+            "adj. hợp pháp, đúng quy chuẩn",
+            "adj. uy tín, tin cậy, hàng thật",
+            "adj. (IT) hợp lệ, không phải spam/tấn công"
+        ],
+        "usphone": "lɪˈdʒɪtɪmət",
+        "ukphone": "ləˈdʒɪtɪmət"
+    },
+    {
+        "name": "seamless",
+        "trans": [
+            "adj. liền mạch, mượt mà",
+            "adj. (IT) trơn tru, không gián đoạn",
+            "adj. đúc nguyên khối, không đường may"
+        ],
+        "usphone": "ˈsiːmləs",
+        "ukphone": "ˈsiːmləs"
+    },
+    {
+        "name": "granular",
+        "trans": [
+            "adj. chi tiết, tỉ mỉ, chi tiết nhất",
+            "adj. (IT) có mức độ chi tiết cao",
+            "adj. phân nhỏ thành từng phần tử"
+        ],
+        "usphone": "ˈɡrænjələr",
+        "ukphone": "ˈɡrænjʊlə"
+    },
+    {
+        "name": "obtain",
+        "trans": [
+            "v. đạt được, giành được",
+            "v. lấy được, thu thập",
+            "v. (IT) lấy dữ liệu/quyền từ hệ thống"
+        ],
+        "usphone": "əbˈteɪn",
+        "ukphone": "əbˈteɪn"
+    },
+    {
+        "name": "cryptographic",
+        "trans": [
+            "adj. liên quan đến mật mã hóa",
+            "adj. (IT) thuộc về an toàn thông tin bằng toán học",
+            "adj. bảo mật dữ liệu bằng mã hóa"
+        ],
+        "usphone": "ˌkrɪptəˈɡræfɪk",
+        "ukphone": "ˌkrɪptəˈɡræfɪk"
+    },
+    {
+        "name": "serialization",
+        "trans": [
+            "n. tuần tự hóa, đóng gói dữ liệu",
+            "n. (IT) chuyển đổi object thành byte/văn bản",
+            "n. quá trình biến đổi dữ liệu để lưu trữ/truyền"
+        ],
+        "usphone": "ˌsɪriəlaɪˈzeɪʃən",
+        "ukphone": "ˌsɪriəlaɪˈzeɪʃən"
+    },
+    {
+        "name": "deserialization",
+        "trans": [
+            "n. giải tuần tự hóa, lắp ráp lại dữ liệu",
+            "n. (IT) chuyển đổi byte/văn bản thành object",
+            "n. quá trình khôi phục dữ liệu từ định dạng đóng gói"
+        ],
+        "usphone": "ˌdiːsɪriəlaɪˈzeɪʃən",
+        "ukphone": "ˌdiːsɪriəlaɪˈzeɪʃən"
+    },
+    {
+        "name": "issuance",
+        "trans": [
+            "n. sự cấp phát, phát hành",
+            "n. (IT) cấp phát chứng chỉ/token",
+            "n. hành động phát hành tiền, thẻ, cổ phiếu"
+        ],
+        "usphone": "ˈɪʃuəns",
+        "ukphone": "ˈɪʃuːəns"
+    },
+    {
+        "name": "enable",
+        "trans": [
+            "v. bật, kích hoạt tính năng",
+            "v. (IT) làm cho một tính năng có thể hoạt động",
+            "v. tạo điều kiện, giúp ai đó làm được gì"
+        ],
+        "usphone": "ɪnˈeɪbəl",
+        "ukphone": "ɪnˈeɪbəl"
+    },
+    {
+        "name": "expose",
+        "trans": [
+            "v. vạch trần, phơi bày",
+            "v. (IT) mở cổng, công khai để bên ngoài truy cập",
+            "v. làm lộ thông tin, rò rỉ dữ liệu"
+        ],
+        "usphone": "ɪkˈspoʊz",
+        "ukphone": "ɪkˈspəʊz"
+    },
+    {
+        "name": "authenticate",
+        "trans": [
+            "v. xác thực danh tính",
+            "v. (IT) kiểm tra xem thông tin có khớp không",
+            "v. xác minh hàng thật, không giả mạo"
+        ],
+        "usphone": "ɔːˈθɛntɪkeɪt",
+        "ukphone": "ɔːˈθɛntɪkeɪt"
+    },
+    {
+        "name": "reactively",
+        "trans": [
+            "adv. một cách thụ động, chỉ phản ứng sau sự kiện xảy ra",
+            "adv. lập trình phản ứng, giao diện cập nhật tự động khi dữ liệu thay đổi",
+            "adv. sửa chữa lỗi sau khi sự cố xảy ra"
+        ],
+        "usphone": "ri æk tɪv li",
+        "ukphone": "ri æk tɪv li"
+    },
+    {
+        "name": "proactively",
+        "trans": [
+            "adv. chủ động, tự tìm giải pháp trước khi vấn đề xảy ra",
+            "adv. phòng ngừa, thiết kế hệ thống tối ưu và bảo mật từ trước",
+            "adv. chuẩn bị kế hoạch đón đầu"
+        ],
+        "usphone": "proʊ æk tɪv li",
+        "ukphone": "proʊ æk tɪv li"
+    },
+    {
+        "name": "unauthorized",
+        "trans": [
+            "adj. trái phép, không được sự cho phép chính thức",
+            "adj. bất hợp pháp, truy cập lậu vào hệ thống",
+            "adj. vượt quyền hạn, không có thẩm quyền"
+        ],
+        "usphone": "ʌn ɔ θə raɪzd",
+        "ukphone": "ʌn ɔ θə raɪzd"
+    },
+    {
+        "name": "beyond",
+        "trans": [
+            "prep./adv. vượt ra ngoài, vượt quá giới hạn",
+            "prep./adv. nằm ngoài tầm kiểm soát hoặc khả năng",
+            "prep./adv. vượt ngoài mong đợi, vượt trên cả kỳ vọng"
+        ],
+        "usphone": "bɪ jɑnd",
+        "ukphone": "bɪ jɒnd"
+    },
+    {
+        "name": "in close succession",
+        "trans": [
+            "adv. liên tiếp nhanh chóng, dồn dập cùng một lúc",
+            "adv. xảy ra nối đuôi nhau trong khoảng thời gian rất ngắn",
+            "adv. diễn ra gần sát nhau, liên tục"
+        ],
+        "usphone": "ɪn kloʊs sək sɛʃən",
+        "ukphone": "ɪn kləʊs sək sɛʃən"
+    },
+    {
+        "name": "robust",
+        "trans": [
+            "adj. mạnh mẽ, kiên cố, khó bị sập dễ dàng",
+            "adj. có khả năng chống chịu lỗi cao, bắt lỗi toàn diện",
+            "adj. bền bỉ, nồi đồng cối đá (về cấu trúc)"
+        ],
+        "usphone": "roʊ bʌst",
+        "ukphone": "rə bʌst"
+    },
+    {
+        "name": "embrace",
+        "trans": [
+            "v. đón nhận, chủ động ứng dụng công nghệ hay tư duy mới",
+            "v. chấp nhận thay đổi và thích nghi, chuyển đổi sang cách mới",
+            "v. ôm lấy, ôm chặt"
+        ],
+        "usphone": "ɪm breɪs",
+        "ukphone": "ɪm breɪs"
+    },
+    {
+        "name": "distribute",
+        "trans": [
+            "v. phân phối, chia đều lượng người dùng hoặc tải giữa các máy chủ",
+            "v. phát hành, đem đi khắp nơi",
+            "v. chia sẻ, phân tán dữ liệu"
+        ],
+        "usphone": "dɪ strɪb jut",
+        "ukphone": "dɪ strɪb juːt"
+    },
+    {
+        "name": "geographical",
+        "trans": [
+            "adj. thuộc về địa lý, vị trí trên bản đồ",
+            "adj. phân vùng theo khu vực địa lý hoặc quốc gia khác nhau",
+            "adj. theo vị trí địa lý, dự phòng địa lý"
+        ],
+        "usphone": "dʒi ə græ fɪ kəl",
+        "ukphone": "dʒi ə græ fɪ kəl"
+    },
+    {
+        "name": "relatively",
+        "trans": [
+            "adv. tương đối, so với mặt bằng chung thì...",
+            "adv. khá là, vừa phải (khi so sánh với những thứ khác)",
+            "adv. theo quan hệ tương đối, không tuyệt đối"
+        ],
+        "usphone": "rɛ lə tɪv li",
+        "ukphone": "rɛ lə tɪv li"
+    },
+    {
+        "name": "traffic",
+        "trans": [
+            "n. lưu lượng mạng, số lượng truy cập website hoặc hệ thống",
+            "n. giao thông, xe cộ đi lại trên đường",
+            "n. lưu lượng dữ liệu, người dùng truy cập"
+        ],
+        "usphone": "træ fɪk",
+        "ukphone": "træ fɪk"
+    },
+    {
+        "name": "volume",
+        "trans": [
+            "n. ổ đĩa, phân vùng lưu trữ dữ liệu trên máy chủ",
+            "n. âm lượng, độ to nhỏ của âm thanh",
+            "n. thể tích, dung lượng, khối lượng hàng hóa bán ra"
+        ],
+        "usphone": "vɑl jum",
+        "ukphone": "vɒl juːm"
+    },
+    {
+        "name": "sudden",
+        "trans": [
+            "adj. đột ngột, bất thình lình không có cảnh báo trước",
+            "adj. xảy ra nhanh chóng bất ngờ, sự cố bất ngờ",
+            "adj. biến động đột xuất, thay đổi nhanh chóng"
+        ],
+        "usphone": "sʌ dən",
+        "ukphone": "sʌ dən"
+    },
+    {
+        "name": "spike",
+        "trans": [
+            "n. lượng truy cập hoặc tài nguyên tăng vọt đột biến",
+            "n. giá cả tăng mạnh, tăng đột biến trong thống kê",
+            "v. đập bóng mạnh (bóng chuyền)"
+        ],
+        "usphone": "spaɪk",
+        "ukphone": "spaɪk"
+    },
+    {
+        "name": "redundancy",
+        "trans": [
+            "n. cơ chế dự phòng để tránh sập hệ thống, sao lưu tự động",
+            "n. sao lưu dữ liệu ở nhiều nơi, dự phòng địa lý",
+            "n. sự dư thừa, cắt giảm nhân sự do tự động hóa"
+        ],
+        "usphone": "rɪ dʌn dən si",
+        "ukphone": "rɪ dʌn dən si"
+    },
+    {
+        "name": "intensive",
+        "trans": [
+            "adj. ngốn phần cứng hoặc tài nguyên rất nhiều (CPU-intensive)",
+            "adj. cấp tốc, cường độ cao, tập trung đông đúc",
+            "adj. lao động chặp chỉ, tốn công sức lao động"
+        ],
+        "usphone": "ɪn tɛn sɪv",
+        "ukphone": "ɪn tɛn sɪv"
+    },
+    {
+        "name": "batch",
+        "trans": [
+            "n./v. xử lý dữ liệu theo mẻ, chạy hàng loạt (batch processing)",
+            "n. lô hàng, mẻ sản phẩm được làm trong cùng một đợt",
+            "n. một nhóm, tập hợp được gom lại cùng một lúc"
+        ],
+        "usphone": "bætʃ",
+        "ukphone": "bætʃ"
+    },
+    {
+        "name": "problematic",
+        "trans": [
+            "adj. có vấn đề, lỗi, tính năng gây rắc rối hệ thống",
+            "adj. khó chấp nhận, gây tranh cãi",
+            "adj. không ổn định, dễ gây crash hoặc lỗi"
+        ],
+        "usphone": "prɑ blə mæ tɪk",
+        "ukphone": "prɒ blə mæ tɪk"
+    },
+    {
+        "name": "moderate",
+        "trans": [
+            "adj. vừa phải, ở mức giữa, không quá cao không quá thấp",
+            "v. kiểm duyệt nội dung (bình luận, hình ảnh trên mạng)",
+            "adj. ôn hòa, phải chăng, vừa sức"
+        ],
+        "usphone": "mɑ dər ət (adj); mɑ də reɪt (v)",
+        "ukphone": "mɒ dər ət (adj); mɒ də reɪt (v)"
+    },
+    {
+        "name": "concrete",
+        "trans": [
+            "adj. cụ thể, rõ ràng, chi tiết (không trừu tượng, không mơ hồ)",
+            "n. bê tông, vật liệu xây dựng kiên cố",
+            "adj. thực tế, có hình thức cụ thể, đối lập trừu tượng"
+        ],
+        "usphone": "kɑŋ krit",
+        "ukphone": "kɒŋ kriːt"
+    },
+    {
+        "name": "slightly",
+        "trans": [
+            "adv. hơi hơi, một chút, không đáng kể hay to tát",
+            "adv. nhẹ nhàng, ở mức độ thấp, giảm nhẹ",
+            "adv. khác một chút, sửa đổi nhẹ"
+        ],
+        "usphone": "slaɪt li",
+        "ukphone": "slaɪt li"
+    },
+    {
+        "name": "manageable",
+        "trans": [
+            "adj. có thể quản lý hoặc kiểm soát được",
+            "adj. xoay xở được, trong tầm kiểm soát dù còn khó",
+            "adj. vừa sức, không quá tải, chịu đựng được"
+        ],
+        "usphone": "mæ nɪ dʒə bəl",
+        "ukphone": "mæ nɪ dʒə bəl"
+    },
+    {
+        "name": "strategy",
+        "trans": [
+            "n. chiến lược, kế hoạch tổng thể để đạt mục tiêu dài hạn",
+            "n. cách tiếp cận, hướng giải quyết một vấn đề lớn",
+            "n. chiến lược kinh doanh, phát triển sản phẩm hoặc dự án"
+        ],
+        "usphone": "stræ tə dʒi",
+        "ukphone": "stræ tɪ dʒi"
+    },
+    {
+        "name": "characteristic",
+        "trans": [
+            "n./adj. đặc điểm, nét riêng, tính chất giúp phân biệt",
+            "adj. đặc trưng, tiêu biểu cho một người hay vật nào đó",
+            "n. thuộc tính, hành vi điển hình hoặc đặc thù"
+        ],
+        "usphone": "kær ɪk tə rɪ stɪk",
+        "ukphone": "kær ɪk tə rɪ stɪk"
+    },
+    {
+        "name": "specific",
+        "trans": [
+            "adj. cụ thể, rõ ràng (không chung chung, không mơ hồ)",
+            "adj. được xác định rõ, chỉ định, tường minh",
+            "adj. riêng biệt, chỉ áp dụng cho tình huống này không cái khác"
+        ],
+        "usphone": "spɪ sɪ fɪk",
+        "ukphone": "spɪ sɪ fɪk"
+    },
+    {
+        "name": "disclamer",
+        "trans": [
+            "n. tuyên bố miễn trừ trách nhiệm",
+            "n. thông báo miễn trừ trách nhiệm pháp lý",
+            "n. rào trước (để tránh bị hiểu lầm)"
+        ],
+        "usphone": "dɪsˈkleɪmər",
+        "ukphone": "dɪsˈkleɪmə"
+    },
+    {
+        "name": "frame",
+        "trans": [
+            "n. khung, khung sườn",
+            "n. bối cảnh",
+            "v. đóng khung",
+            "v. diễn đạt (theo một cách nhất định)"
+        ],
+        "usphone": "freɪm",
+        "ukphone": "freɪm"
+    },
+    {
+        "name": "nuance",
+        "trans": [
+            "n. sắc thái, điểm khác biệt tinh tế",
+            "n. khác biệt tinh tế (dễ bị bỏ qua)",
+            "n. sắc thái ý nghĩa, cảm xúc"
+        ],
+        "usphone": "ˈnuːɑns",
+        "ukphone": "ˈnjuːɑːns"
+    },
+    {
+        "name": "relative",
+        "trans": [
+            "adj. tương đối, so sánh với cái khác",
+            "n. người thân, họ hàng",
+            "adj. đúng/có ý nghĩa khi so với cái khác"
+        ],
+        "usphone": "ˈrelətɪv",
+        "ukphone": "ˈrelətɪv"
+    },
+    {
+        "name": "retention",
+        "trans": [
+            "n. sự giữ lại, duy trì",
+            "n. chính sách lưu trữ dữ liệu",
+            "n. tỷ lệ giữ chân người dùng/nhân viên"
+        ],
+        "usphone": "rɪˈtenʃən",
+        "ukphone": "rɪˈtenʃən"
+    },
+    {
+        "name": "reponsive",
+        "trans": [
+            "adj. phản hồi nhanh, đáp ứng tốt",
+            "adj. nhanh nhạy tiếp thu phản hồi",
+            "adj. tự động thích ứng (thiết kế)"
+        ],
+        "usphone": "rɪˈspɑnsɪv",
+        "ukphone": "rɪˈspɒnsɪv"
+    },
+    {
+        "name": "increasingly",
+        "trans": [
+            "adv. ngày càng",
+            "adv. ngày càng tăng/phổ biến",
+            "adv. theo xu hướng thay đổi dần"
+        ],
+        "usphone": "ɪnˈkresɪŋli",
+        "ukphone": "ɪnˈkresɪŋli"
+    },
+    {
+        "name": "universally",
+        "trans": [
+            "adv. một cách phổ quát",
+            "adv. ở khắp mọi nơi, không ngoại lệ",
+            "adv. được chấp nhận rộng rãi"
+        ],
+        "usphone": "juːnɪˈvɜrsəli",
+        "ukphone": "juːnɪˈvɜːsəli"
+    },
+    {
+        "name": "relevant",
+        "trans": [
+            "adj. có liên quan, phù hợp với ngữ cảnh",
+            "adj. đáng chú ý",
+            "adj. vẫn còn phù hợp, chưa lỗi thời"
+        ],
+        "usphone": "ˈreləvənt",
+        "ukphone": "ˈreləvənt"
+    },
+    {
+        "name": "holistic",
+        "trans": [
+            "adj. toàn diện, nhìn tổng thể",
+            "adj. xem xét không tách rời các phần",
+            "adj. liên quan đến mọi khía cạnh"
+        ],
+        "usphone": "hoʊˈlɪstɪk",
+        "ukphone": "həʊˈlɪstɪk"
+    },
+    {
+        "name": "systematic",
+        "trans": [
+            "adj. có hệ thống, bài bản",
+            "adj. theo một trình tự, kế hoạch rõ ràng",
+            "adj. lặp lại được, dự đoán được"
+        ],
+        "usphone": "sɪstəˈmætɪk",
+        "ukphone": "sɪstəˈmætɪk"
+    },
+    {
+        "name": "fluid",
+        "trans": [
+            "adj. linh hoạt, dễ thay đổi",
+            "adj. trôi chảy",
+            "n. chất lỏng"
+        ],
+        "usphone": "ˈfluːɪd",
+        "ukphone": "ˈfluːɪd"
+    },
+    {
+        "name": "measurement",
+        "trans": [
+            "n. sự đo lường, phép đo",
+            "n. kích thước, số đo",
+            "n. chỉ số, giá trị đo được"
+        ],
+        "usphone": "ˈmeʒərmənt",
+        "ukphone": "ˈmeʒəmənt"
+    },
+    {
+        "name": "grounded in",
+        "trans": [
+            "dựa trên nền tảng của",
+            "bắt nguồn từ",
+            "có cơ sở, chứng cứ rõ ràng"
+        ],
+        "usphone": "ˈɡraʊndɪd ɪn",
+        "ukphone": "ˈɡraʊndɪd ɪn"
+    },
+    {
+        "name": "empirical",
+        "trans": [
+            "adj. dựa trên thực nghiệm, quan sát thực tế",
+            "adj. dựa trên dữ liệu, bằng chứng",
+            "adj. có chứng cứ đo được"
+        ],
+        "usphone": "ɪmˈpɪrɪkəl",
+        "ukphone": "ɪmˈpɪrɪkəl"
+    },
+    {
+        "name": "assumption",
+        "trans": [
+            "n. giả định, điều mặc định",
+            "n. suy đoán, dự đoán",
+            "n. tiền đề ngầm hiểu là đúng"
+        ],
+        "usphone": "əˈsʌmpʃən",
+        "ukphone": "əˈsʌmpʃən"
+    },
+    {
+        "name": "theoretical",
+        "trans": [
+            "adj. thuộc về lý thuyết, trên giấy tờ",
+            "adj. chưa kiểm chứng, chưa áp dụng thực tế",
+            "adj. dựa trên suy luận logic"
+        ],
+        "usphone": "θiəˈrɛtɪkəl",
+        "ukphone": "θɪəˈretɪkəl"
+    },
+    {
+        "name": "baseline Metrics",
+        "trans": [
+            "n. các chỉ số nền, mốc đo lường ban đầu",
+            "n. giá trị cơ bản để so sánh",
+            "n. mốc đánh giá hiệu năng"
+        ],
+        "usphone": "ˈbeɪslaɪn ˈmetrɪks",
+        "ukphone": "ˈbeɪslaɪn ˈmetrɪks"
+    },
+    {
+        "name": "objective data",
+        "trans": [
+            "n. dữ liệu khách quan",
+            "n. dữ liệu đo lường được",
+            "n. thông tin thực tế không bị thiên vị"
+        ],
+        "usphone": "əbˈdʒɛktɪv ˈdeɪtə",
+        "ukphone": "əbˈdʒɛktɪv ˈdeɪtə"
+    },
+    {
+        "name": "against which",
+        "trans": [
+            "mà dựa vào đó",
+            "mà so với đó",
+            "mà được đối chiếu với"
+        ],
+        "usphone": "əˈɡɛnst wɪtʃ",
+        "ukphone": "əˈɡɛnst wɪtʃ"
+    },
+    {
+        "name": "reveal",
+        "trans": [
+            "v. tiết lộ, hé lộ",
+            "v. làm lộ ra điều ẩn giấu",
+            "n. khoảnh khắc/buổi công bố"
+        ],
+        "usphone": "rɪˈvil",
+        "ukphone": "rɪˈviːl"
+    },
+    {
+        "name": "perform",
+        "trans": [
+            "v. thực hiện, hoàn thành",
+            "v. biểu diễn, trình diễn",
+            "v. hoạt động, vận hành"
+        ],
+        "usphone": "pərˈfɔrm",
+        "ukphone": "pəˈfɔːm"
+    },
+    {
+        "name": "targeted",
+        "trans": [
+            "adj. được nhắm mục tiêu, có chủ đích",
+            "adj. hướng đến đối tượng cụ thể",
+            "adj. chuyên biệt, không dàn trải"
+        ],
+        "usphone": "ˈtɑrɡɪtɪd",
+        "ukphone": "ˈtɑːɡɪtɪd"
+    },
+    {
+        "name": "instrumentation",
+        "trans": [
+            "n. việc gắn công cụ đo lường/giám sát",
+            "n. thiết bị, cảm biến theo dõi",
+            "n. việc thêm logging/metrics vào hệ thống"
+        ],
+        "usphone": "ˌɪnstrəmɛnˈteɪʃən",
+        "ukphone": "ˌɪnstrəmɛnˈteɪʃən"
+    },
+    {
+        "name": "targeted instrumentation",
+        "trans": [
+            "n. đo lường có chủ đích, đúng chỗ cần",
+            "n. công cụ giám sát chuyên biệt",
+            "n. việc instrument chỉ vào phần quan trọng"
+        ],
+        "usphone": "ˈtɑrɡɪtɪd ˌɪnstrəmɛnˈteɪʃən",
+        "ukphone": "ˈtɑːɡɪtɪd ˌɪnstrəmɛnˈteɪʃən"
+    },
+    {
+        "name": "incremental",
+        "trans": [
+            "adj. từng bước nhỏ, tăng dần",
+            "adj. cập nhật từng phần (không toàn bộ)",
+            "adj. dần dần, tích lũy theo thời gian"
+        ],
+        "usphone": "ɪnˈkrɛməntəl",
+        "ukphone": "ɪnˈkrɛməntəl"
+    },
+    {
+        "name": "regression",
+        "trans": [
+            "n. lỗi hồi quy (tính năng cũ bị hỏng)",
+            "n. kiểm thử hồi quy",
+            "n. sự thụt lùi, suy giảm"
+        ],
+        "usphone": "rɪˈɡrɛʃən",
+        "ukphone": "rɪˈɡrɛʃən"
+    },
+    {
+        "name": "speculative",
+        "trans": [
+            "adj. mang tính suy đoán, chưa chắc chắn",
+            "adj. dựa trên phỏng đoán, không có bằng chứng",
+            "adj. rủi ro cao, chưa được xác nhận"
+        ],
+        "usphone": "ˈspɛkjələtɪv",
+        "ukphone": "ˈspɛkjələtɪv"
+    },
+    {
+        "name": "refactoring",
+        "trans": [
+            "n. tái cấu trúc code (không đổi chức năng)",
+            "n. sắp xếp lại, tổ chức mã nguồn"
+        ],
+        "usphone": "riːˈfæktərɪŋ",
+        "ukphone": "riːˈfæktərɪŋ"
+    },
+    {
+        "name": "implication",
+        "trans": [
+            "n. hệ quả, tác động kéo theo",
+            "n. điều ngụ ý, ám chỉ",
+            "n. rủi ro, ảnh hưởng tiềm tàng"
+        ],
+        "usphone": "ˌɪmpləˈkeɪʃən",
+        "ukphone": "ˌɪmpləˈkeɪʃən"
+    },
+    {
+        "name": "dedication",
+        "trans": [
+            "n. sự tận tâm, cống hiến",
+            "n. lòng trung thành, hết lòng vì",
+            "n. lời đề tặng (trong sách, tác phẩm)"
+        ],
+        "usphone": "ˌdɛdɪˈkeɪʃən",
+        "ukphone": "ˌdɛdɪˈkeɪʃən"
+    },
+    {
+        "name": "honor",
+        "trans": [
+            "n. danh dự, vinh dự",
+            "v. tôn trọng, tuân thủ (cam kết, quy tắc)",
+            "v. thực hiện đúng lời hứa"
+        ],
+        "usphone": "ˈɑnər",
+        "ukphone": "ˈɒnə"
+    },
+    {
+        "name": "solid",
+        "trans": [
+            "adj. vững chắc, đáng tin cậy",
+            "adj. chắc chắn, có nền tảng tốt",
+            "adj. không có lỗ hổng, ổn định"
+        ],
+        "usphone": "ˈsɑlɪd",
+        "ukphone": "ˈsɒlɪd"
+    },
+    {
+        "name": "deployment",
+        "trans": [
+            "n. triển khai phần mềm, phát hành",
+            "n. bố trí, dàn quân",
+            "n. đưa vào hoạt động thực tế"
+        ],
+        "usphone": "dɪˈplɔɪmənt",
+        "ukphone": "dɪˈplɔɪmənt"
+    },
+    {
+        "name": "actually",
+        "trans": [
+            "adv. thực ra, trên thực tế",
+            "adv. đúng là, thực sự",
+            "adv. ngoài dự kiến, bất ngờ"
+        ],
+        "usphone": "ˈæktʃuəli",
+        "ukphone": "ˈæktʃuəli"
+    },
+    {
+        "name": "innovation",
+        "trans": [
+            "n. sự đổi mới, sáng tạo",
+            "n. ý tưởng/sản phẩm/phương pháp mới",
+            "n. đổi mới công nghệ, giải pháp mới"
+        ],
+        "usphone": "ˌɪnəˈveɪʃən",
+        "ukphone": "ˌɪnəˈveɪʃən"
+    },
+    {
+        "name": "demonstrate",
+        "trans": [
+            "v. chứng minh, chứng tỏ rõ ràng",
+            "v. thể hiện, trình diễn",
+            "v. tái hiện (lỗi, vấn đề cụ thể)"
+        ],
+        "usphone": "ˈdɛmənˌstreɪt",
+        "ukphone": "ˈdɛmənˌstreɪt"
+    },
+    {
+        "name": "operational",
+        "trans": [
+            "adj. đang hoạt động, sẵn sàng vận hành",
+            "adj. liên quan đến vận hành hàng ngày",
+            "adj. không gặp sự cố, bình thường"
+        ],
+        "usphone": "ˌɑpəˈreɪʃənəl",
+        "ukphone": "ˌɒpəˈreɪʃənəl"
+    },
+    {
+        "name": "halt",
+        "trans": [
+            "v. dừng lại hoàn toàn, khiến dừng lại",
+            "n. sự dừng lại đột ngột",
+            "v. tạm dừng (quy trình, tiến trình)"
+        ],
+        "usphone": "hɔlt",
+        "ukphone": "hɔːlt"
+    },
+    {
+        "name": "widepread",
+        "trans": [
+            "adj. lan rộng, phổ biến khắp nơi",
+            "adj. ảnh hưởng rộng rãi, mở rộng",
+            "adj. được áp dụng/sử dụng rộng rãi"
+        ],
+        "usphone": "ˈwaɪdˌsprɛd",
+        "ukphone": "ˈwaɪdˌsprɛd"
+    },
+    {
+        "name": "formalize the practice",
+        "trans": [
+            "v. chính thức hóa một thói quen",
+            "v. đưa cách làm thành quy trình chính thức"
+        ],
+        "usphone": "ˈfɔrməˌlaɪz ðə ˈpræktɪs",
+        "ukphone": "ˈfɔːməlaɪz ðə ˈpræktɪs"
+    },
+    {
+        "name": "formalize",
+        "trans": [
+            "v. chính thức hóa",
+            "v. đưa vào dạng chính thức, có cấu trúc",
+            "v. viết thành tài liệu, quy định chính thức"
+        ],
+        "usphone": "ˈfɔrməˌlaɪz",
+        "ukphone": "ˈfɔːməlaɪz"
+    },
+    {
+        "name": "severity",
+        "trans": [
+            "n. mức độ nghiêm trọng, độ nặng nhẹ",
+            "n. mức độ ảnh hưởng (của lỗi, sự cố)"
+        ],
+        "usphone": "səˈvɛrɪti",
+        "ukphone": "səˈvɛrɪti"
+    },
+    {
+        "name": "take an approach",
+        "trans": [
+            "v. áp dụng một cách tiếp cận, phương pháp",
+            "v. chọn cách xử lý (vấn đề, tình huống)"
+        ],
+        "usphone": "teɪk ən əˈproʊtʃ",
+        "ukphone": "teɪk ən əˈprəʊtʃ"
+    },
+    {
+        "name": "sunset",
+        "trans": [
+            "v. khai tử, ngừng hỗ trợ dần",
+            "n. ngày chính thức kết thúc (hỗ trợ)",
+            "v. dần chấm dứt (chương trình, tính năng)"
+        ],
+        "usphone": "ˈsʌnˌsɛt",
+        "ukphone": "ˈsʌnˌsɛt"
+    },
+    {
+        "name": "deliver",
+        "trans": [
+            "v. giao hàng, bàn giao sản phẩm",
+            "v. hoàn thành đúng hạn, theo cam kết",
+            "v. thực hiện, đáp ứng kỳ vọng"
+        ],
+        "usphone": "dɪˈlɪvər",
+        "ukphone": "dɪˈlɪvə"
+    },
+    {
+        "name": "strategic",
+        "trans": [
+            "adj. mang tính chiến lược, có tính toán",
+            "adj. phục vụ mục tiêu dài hạn",
+            "adj. khôn ngoan, có chủ đích"
+        ],
+        "usphone": "strəˈtɛdʒɪk",
+        "ukphone": "strəˈtɛdʒɪk"
+    },
+    {
+        "name": "prompt",
+        "trans": [
+            "n. câu lệnh, prompt (cho AI)",
+            "v. thúc đẩy, nhắc nhở hành động",
+            "adj. nhanh chóng, đúng giờ, kịp thời"
+        ],
+        "usphone": "prɑmpt",
+        "ukphone": "prɒmpt"
+    },
+    {
+        "name": "necessity",
+        "trans": [
+            "n. sự cần thiết, điều bắt buộc",
+            "n. nhu cầu thiết yếu, tất yếu"
+        ],
+        "usphone": "nəˈsɛsɪti",
+        "ukphone": "nəˈsɛsɪti"
+    },
+    {
+        "name": "user base",
+        "trans": [
+            "n. tập hợp người dùng, cơ sở người dùng",
+            "n. cộng đồng người dùng hiện có"
+        ],
+        "usphone": "ˈjuːzər beɪs",
+        "ukphone": "ˈjuːzə beɪs"
+    },
+    {
+        "name": "justification",
+        "trans": [
+            "n. sự biện minh, lý do chứng minh",
+            "n. căn cứ hợp lý cho một quyết định"
+        ],
+        "usphone": "dʒʌstɪfɪkeɪʃən",
+        "ukphone": "dʒʌstɪfɪkeɪʃən"
+    },
+    {
+        "name": "friction",
+        "trans": [
+            "n. sự cản trở, trở ngại",
+            "n. xung khắc, bất đồng giữa các cá nhân"
+        ],
+        "usphone": "frɪkʃən",
+        "ukphone": "frɪkʃən"
+    },
+    {
+        "name": "compelling",
+        "trans": [
+            "adj. thuyết phục, lôi cuốn",
+            "adj. đủ mạnh không thể bác bỏ"
+        ],
+        "usphone": "kəmpɛlɪŋ",
+        "ukphone": "kəmpɛlɪŋ"
+    },
+    {
+        "name": "deprecation",
+        "trans": [
+            "n. sự khai tử, đánh dấu không khuyến khích dùng",
+            "n. cảnh báo rằng tính năng/API sắp bị loại bỏ"
+        ],
+        "usphone": "dɛprɪkeɪʃən",
+        "ukphone": "dɛprɪkeɪʃən"
+    },
+    {
+        "name": "vulnerability",
+        "trans": [
+            "n. lỗ hổng bảo mật, điểm yếu dễ bị khai thác",
+            "n. sự dễ tổn thương, yếu điểm cảm xúc"
+        ],
+        "usphone": "vʌlnərəbɪləti",
+        "ukphone": "vʌlnərəbɪləti"
+    },
+    {
+        "name": "flaw",
+        "trans": [
+            "n. khiếm khuyết, sai sót trong thiết kế",
+            "n. điểm yếu, khuyết điểm"
+        ],
+        "usphone": "flɔ",
+        "ukphone": "flɔː"
+    },
+    {
+        "name": "regulated",
+        "trans": [
+            "adj. được quản lý, kiểm soát bởi luật lệ",
+            "adj. được điều tiết theo quy tắc"
+        ],
+        "usphone": "rɛɡjəleɪtɪd",
+        "ukphone": "rɛɡjəleɪtɪd"
+    },
+    {
+        "name": "regulatory",
+        "trans": [
+            "adj. liên quan đến quản lý, tuân thủ pháp luật",
+            "adj. thuộc về cơ quan có thẩm quyền quản lý"
+        ],
+        "usphone": "rɛɡjələtɔri",
+        "ukphone": "rɛɡjələtəri"
+    },
+    {
+        "name": "regulation",
+        "trans": [
+            "n. quy định, luật lệ chính thức",
+            "n. sự kiểm soát, điều tiết tự động"
+        ],
+        "usphone": "rɛɡjəleɪʃən",
+        "ukphone": "rɛɡjəleɪʃən"
+    },
+    {
+        "name": "consolidate",
+        "trans": [
+            "v. hợp nhất, gộp lại thành một",
+            "v. củng cố, làm vững chắc hơn"
+        ],
+        "usphone": "kənsɑlɪdeɪt",
+        "ukphone": "kənsɒlɪdeɪt"
+    },
+    {
+        "name": "consist of",
+        "trans": [
+            "v. bao gồm, được tạo thành từ",
+            "v. liệt kê các thành phần cấu tạo"
+        ],
+        "usphone": "kənsɪst əv",
+        "ukphone": "kənsɪst əv"
+    },
+    {
+        "name": "prominent",
+        "trans": [
+            "adj. nổi bật, dễ nhận thấy, để ý ngay",
+            "adj. nổi tiếng, có vị thế quan trọng"
+        ],
+        "usphone": "prɑmɪnənt",
+        "ukphone": "prɒmɪnənt"
+    },
+    {
+        "name": "disruptive",
+        "trans": [
+            "adj. mang tính đột phá, thay đổi cuộc chơi",
+            "adj. gây gián đoạn, phá rối trật tự"
+        ],
+        "usphone": "dɪsrʌptɪv",
+        "ukphone": "dɪsrʌptɪv"
+    },
+    {
+        "name": "persistent",
+        "trans": [
+            "adj. bền bỉ, kiên trì, không ngừng",
+            "adj. dai dẳng, kéo dài lâu không dứt"
+        ],
+        "usphone": "pɚsɪstənt",
+        "ukphone": "pəsɪstənt"
+    },
+    {
+        "name": "timeframe",
+        "trans": [
+            "n. khung thời gian, khoảng thời gian xác định",
+            "n. mốc thời gian cụ thể để hoàn thành"
+        ],
+        "usphone": "taɪmfreɪm",
+        "ukphone": "taɪmfreɪm"
+    },
+    {
+        "name": "compromise",
+        "trans": [
+            "n. thỏa hiệp, nhượng bộ lẫn nhau",
+            "v. bị xâm phạm, bị chiếm quyền kiểm soát (bảo mật)"
+        ],
+        "usphone": "kɑmprəmaɪz",
+        "ukphone": "kɒmprəmaɪz"
+    },
+    {
+        "name": "adequate",
+        "trans": [
+            "adj. đủ, tạm ổn, vừa đủ đáp ứng",
+            "adj. đạt yêu cầu tối thiểu"
+        ],
+        "usphone": "ædɪkwət",
+        "ukphone": "ædɪkwət"
+    },
+    {
+        "name": "further",
+        "trans": [
+            "adv. xa hơn, thêm nữa, sâu hơn",
+            "adj. thêm, bổ sung, lần nữa"
+        ],
+        "usphone": "fɝðɚ",
+        "ukphone": "fɜːðə"
+    },
+    {
+        "name": "consideration",
+        "trans": [
+            "n. sự cân nhắc, xem xét kỹ lưỡng",
+            "n. yếu tố cần được xem xét",
+            "n. sự quan tâm, tôn trọng cảm xúc người khác"
+        ],
+        "usphone": "kənsɪdəreɪʃən",
+        "ukphone": "kənsɪdəreɪʃən"
+    },
+    {
+        "name": "debt",
+        "trans": [
+            "n. khoản nợ tiền, nợ tài chính",
+            "n. nợ kỹ thuật (technical debt), công nợ"
+        ],
+        "usphone": "dɛt",
+        "ukphone": "det"
+    },
+    {
+        "name": "practice",
+        "trans": [
+            "n. sự luyện tập, thực hành liên tục",
+            "n. cách làm, thông lệ phổ biến",
+            "v. luyện tập, thực hành để giỏi hơn"
+        ],
+        "usphone": "præktɪs",
+        "ukphone": "præktɪs"
+    },
+    {
+        "name": "criteria",
+        "trans": [
+            "n. tiêu chí, chuẩn mực để đánh giá",
+            "n. điều kiện phải đáp ứng"
+        ],
+        "usphone": "kraɪtɪriə",
+        "ukphone": "kraɪtɪəriə"
+    },
+    {
+        "name": "demographics",
+        "trans": [
+            "n. đặc điểm nhân khẩu học (tuổi, giới tính, thu nhập)",
+            "n. chân dung tệp khách hàng"
+        ],
+        "usphone": "dɛməɡræfɪks",
+        "ukphone": "deməɡræfɪks"
+    },
+    {
+        "name": "specification",
+        "trans": [
+            "n. thông số kỹ thuật, mô tả chi tiết",
+            "n. yêu cầu kỹ thuật cụ thể"
+        ],
+        "usphone": "spɛsɪfɪkeɪʃən",
+        "ukphone": "spɛsɪfɪkeɪʃən"
+    },
+    {
+        "name": "form Factor",
+        "trans": [
+            "n. kiểu dáng, kích thước vật lý (thiết bị)",
+            "n. hình dạng, cấu hình bên ngoài"
+        ],
+        "usphone": "fɔrm fæktər",
+        "ukphone": "fɔːm fæktə"
+    },
+    {
+        "name": "cohort",
+        "trans": [
+            "n. nhóm người có cùng đặc điểm/thời điểm",
+            "n. nhóm sinh viên cùng khóa",
+            "n. nhóm đối tượng trong nghiên cứu khoa học"
+        ],
+        "usphone": "koʊhɔːrt",
+        "ukphone": "kəʊhɔːt"
+    },
+    {
+        "name": "dedicated",
+        "trans": [
+            "adj. dành riêng, không chia sẻ",
+            "adj. tận tâm, hết lòng",
+            "adj. được cấu hình/dành riêng cho mục đích cụ thể"
+        ],
+        "usphone": "dɛdɪkeɪtɪd",
+        "ukphone": "dɛdɪkeɪtɪd"
+    },
+    {
+        "name": "intervention",
+        "trans": [
+            "n. sự can thiệp",
+            "n. can thiệp thủ công",
+            "n. can thiệp sớm (trước khi vấn đề trở nên nghiêm trọng)"
+        ],
+        "usphone": "ɪntɚvɛnʃən",
+        "ukphone": "ɪntəvɛnʃən"
+    },
+    {
+        "name": "contain",
+        "trans": [
+            "v. chứa đựng",
+            "v. kiềm chế, ngăn không cho lan rộng",
+            "v. khoanh vùng, ngăn chặn sự cố"
+        ],
+        "usphone": "kənteɪn",
+        "ukphone": "kənteɪn"
+    },
+    {
+        "name": "properly",
+        "trans": [
+            "adv. đúng cách, đúng chuẩn",
+            "adv. được cấu hình đúng cách",
+            "adv. hoàn chỉnh, không làm thiếu sót"
+        ],
+        "usphone": "prɑpɚli",
+        "ukphone": "prɒpəli"
+    },
+    {
+        "name": "transform",
+        "trans": [
+            "v. biến đổi, chuyển đổi",
+            "v. chuyển đổi dữ liệu (từ định dạng này sang khác)",
+            "v. thay đổi hoàn toàn"
+        ],
+        "usphone": "trænsfɔːrm",
+        "ukphone": "trænzfɔːm"
+    },
+    {
+        "name": "visibility",
+        "trans": [
+            "n. khả năng nhìn thấy, tầm nhìn",
+            "n. khả năng quan sát hệ thống",
+            "n. mức độ được biết đến, chú ý"
+        ],
+        "usphone": "vɪzəbɪləti",
+        "ukphone": "vɪzɪbɪləti"
+    },
+    {
+        "name": "insight",
+        "trans": [
+            "n. sự hiểu biết sâu sắc, cái nhìn thấu đáo",
+            "n. phát hiện/hiểu biết giá trị từ phân tích dữ liệu",
+            "n. sự thấu hiểu về vấn đề/con người"
+        ],
+        "usphone": "ɪnsaɪt",
+        "ukphone": "ɪnsaɪt"
+    },
+    {
+        "name": "drive",
+        "trans": [
+            "v. thúc đẩy, dẫn dắt kết quả",
+            "n. động lực, nghị lực",
+            "n. ổ đĩa, ổ lưu trữ"
+        ],
+        "usphone": "draɪv",
+        "ukphone": "draɪv"
+    },
+    {
+        "name": "propose",
+        "trans": [
+            "v. đề xuất giải pháp/ý tưởng",
+            "v. cầu hôn",
+            "v. đưa ra kế hoạch để xem xét"
+        ],
+        "usphone": "prəpoʊz",
+        "ukphone": "prəpəʊz"
+    },
+    {
+        "name": "conversion",
+        "trans": [
+            "n. sự chuyển đổi định dạng",
+            "n. tỷ lệ chuyển đổi (conversion rate)",
+            "n. chuyển đổi tiền tệ/đơn vị"
+        ],
+        "usphone": "kənvɜːrʒən",
+        "ukphone": "kənvɜːʒən"
+    },
+    {
+        "name": "inform",
+        "trans": [
+            "v. thông báo, cung cấp thông tin",
+            "v. cung cấp cơ sở cho (quyết định)",
+            "v. làm nền, tác động đến"
+        ],
+        "usphone": "ɪnfɔːrm",
+        "ukphone": "ɪnfɔːm"
+    },
+    {
+        "name": "exception",
+        "trans": [
+            "n. ngoại lệ, trường hợp đặc biệt",
+            "n. lỗi ngoại lệ (trong lập trình)",
+            "n. trường hợp không theo quy tắc chung"
+        ],
+        "usphone": "ɪksɛpʃən",
+        "ukphone": "ɪksɛpʃən"
+    },
+    {
+        "name": "fatal",
+        "trans": [
+            "adj. gây chết người",
+            "adj. lỗi nghiêm trọng khiến chương trình dừng hẳn",
+            "adj. sai lầm chí mạng"
+        ],
+        "usphone": "feɪtəl",
+        "ukphone": "feɪtəl"
+    },
+    {
+        "name": "commercial",
+        "trans": [
+            "adj. mang tính kinh doanh, thương mại",
+            "adj. dành cho mục đích sinh lợi",
+            "n. đoạn quảng cáo (trên TV)"
+        ],
+        "usphone": "kəmɜːrʃəl",
+        "ukphone": "kəmɜːʃəl"
+    },
+    {
+        "name": "differentiate",
+        "trans": [
+            "v. phân biệt giữa các trường hợp khác nhau",
+            "v. tạo sự khác biệt, làm nổi bật",
+            "v. xử lý khác nhau tùy loại"
+        ],
+        "usphone": "dɪfərenʃieɪt",
+        "ukphone": "dɪfərenʃieɪt"
+    },
+    {
+        "name": "statistical",
+        "trans": [
+            "adj. thuộc về thống kê",
+            "adj. dựa trên phân tích số liệu",
+            "adj. ý nghĩa thống kê"
+        ],
+        "usphone": "stətɪstɪkəl",
+        "ukphone": "stətɪstɪkəl"
+    },
+    {
+        "name": "validity",
+        "trans": [
+            "n. tính hợp lệ, thời hạn hiệu lực",
+            "n. tính đúng đắn, có căn cứ",
+            "n. kiểm tra hợp lệ (của dữ liệu)"
+        ],
+        "usphone": "vəlɪdəti",
+        "ukphone": "vəlɪdɪti"
+    },
+    {
+        "name": "representative",
+        "trans": [
+            "adj. mang tính đại diện, tiêu biểu",
+            "n. người đại diện",
+            "adj. phản ánh đúng đặc điểm của tổng thể"
+        ],
+        "usphone": "reprɪzɛntətɪv",
+        "ukphone": "reprɪzɛntətɪv"
+    },
+    {
+        "name": "session",
+        "trans": [
+            "n. phiên (làm việc, đăng nhập)",
+            "n. khoảng thời gian dành cho hoạt động cụ thể",
+            "n. buổi (tập luyện, họp)"
+        ],
+        "usphone": "sɛʃən",
+        "ukphone": "sɛʃən"
+    },
+    {
+        "name": "batching",
+        "trans": [
+            "n. gộp thành lô, xử lý theo nhóm",
+            "n. gom nhiều yêu cầu để xử lý cùng lúc",
+            "n. nấu ăn/chuẩn bị theo lô lớn"
+        ],
+        "usphone": "bætʃɪŋ",
+        "ukphone": "bætʃɪŋ"
+    },
+    {
+        "name": "contextual",
+        "trans": [
+            "adj. thuộc về ngữ cảnh",
+            "adj. phụ thuộc vào bối cảnh/hoàn cảnh cụ thể",
+            "adj. thay đổi tùy tình huống"
+        ],
+        "usphone": "kəntɛkʃuəl",
+        "ukphone": "kəntɛkʃuəl"
+    },
+    {
+        "name": "multidimensional",
+        "trans": [
+            "adj. đa chiều, mảng đa chiều",
+            "adj. có nhiều khía cạnh/tầng lớp",
+            "adj. xử lý trong không gian đa chiều"
+        ],
+        "usphone": "mʌltidaɪmɛnʃənəl",
+        "ukphone": "mʌltidaɪmɛnʃənəl"
+    },
+    {
+        "name": "segmentation",
+        "trans": [
+            "n. sự phân khúc thị trường",
+            "n. chia nhỏ thành các nhóm/vùng",
+            "n. phân đoạn hình ảnh (trong AI)"
+        ],
+        "usphone": "sɛɡməntteɪʃən",
+        "ukphone": "seɡmenteɪʃən"
+    },
+    {
+        "name": "cross cutting",
+        "trans": [
+            "adj. xuyên suốt, ảnh hưởng đến nhiều phần",
+            "adj. mối quan tâm xuyên suốt hệ thống",
+            "adj. liên quan đến nhiều bộ phận"
+        ],
+        "usphone": "krɔs kʌtɪŋ",
+        "ukphone": "krɒs kʌtɪŋ"
+    },
+    {
+        "name": "concern",
+        "trans": [
+            "n. mối lo ngại, vấn đề cần quan tâm",
+            "v. liên quan đến, khiến ai lo lắng",
+            "n. khía cạnh/trách nhiệm trong thiết kế hệ thống"
+        ],
+        "usphone": "kənˈsɜrn",
+        "ukphone": "kənˈsɜːn"
+    },
+    {
+        "name": "stance",
+        "trans": [
+            "n. lập trường, quan điểm rõ ràng"
+        ],
+        "usphone": "stæns",
+        "ukphone": "stɑːns"
+    },
+    {
+        "name": "audience",
+        "trans": [
+            "n. khán giả, người theo dõi",
+            "n. đối tượng mục tiêu, độc giả"
+        ],
+        "usphone": "ˈɔdiəns",
+        "ukphone": "ˈɔːdiəns"
+    },
+    {
+        "name": "intend",
+        "trans": [
+            "v. có ý định, dự định",
+            "v. mục đích thiết kế ban đầu"
+        ],
+        "usphone": "ɪnˈtend",
+        "ukphone": "ɪnˈtend"
+    },
+    {
+        "name": "dramatically",
+        "trans": [
+            "adv. một cách đáng kể, rõ rệt",
+            "adv. thay đổi lớn, mạnh mẽ"
+        ],
+        "usphone": "drəˈmætɪkli",
+        "ukphone": "drəˈmætɪkli"
+    },
+    {
+        "name": "visual",
+        "trans": [
+            "adj. thuộc về hình ảnh, trực quan",
+            "n. hình ảnh minh họa, đồ họa"
+        ],
+        "usphone": "ˈvɪʒuəl",
+        "ukphone": "ˈvɪʒuəl"
+    },
+    {
+        "name": "symbol",
+        "trans": [
+            "n. ký hiệu, biểu tượng đại diện",
+            "n. tên định danh trong code"
+        ],
+        "usphone": "ˈsɪmbəl",
+        "ukphone": "ˈsɪmbəl"
+    },
+    {
+        "name": "imagery",
+        "trans": [
+            "n. hình ảnh (nói chung), dữ liệu ảnh",
+            "n. hình ảnh gợi tả sống động"
+        ],
+        "usphone": "ˈɪmɪdʒri",
+        "ukphone": "ˈɪmɪdʒəri"
+    },
+    {
+        "name": "connotation",
+        "trans": [
+            "n. nghĩa hàm ý, sắc thái",
+            "n. ý nghĩa phụ, cảm xúc ẩn sau từ ngữ"
+        ],
+        "usphone": "ˌkɑnəˈteɪʃən",
+        "ukphone": "ˌkɒnəˈteɪʃən"
+    },
+    {
+        "name": "accommodate",
+        "trans": [
+            "v. đáp ứng nhu cầu, chứa đựng",
+            "v. thích nghi, sắp xếp để phù hợp"
+        ],
+        "usphone": "əˈkɑmədeɪt",
+        "ukphone": "əˈkɒmədeɪt"
+    },
+    {
+        "name": "contraction",
+        "trans": [
+            "n. sự co lại, rút gọn",
+            "n. từ viết tắt (don't, can't)"
+        ],
+        "usphone": "kənˈtrækʃən",
+        "ukphone": "kənˈtrækʃən"
+    },
+    {
+        "name": "exponentially",
+        "trans": [
+            "adv. theo cấp số nhân, tăng cực nhanh",
+            "adv. không theo đường thẳng, vượt bậc"
+        ],
+        "usphone": "ˌekspəˈnenʃəli",
+        "ukphone": "ˌekspəˈnenʃəli"
+    },
+    {
+        "name": "afterthought",
+        "trans": [
+            "n. điều nghĩ thêm sau, không được ưu tiên",
+            "n. ý tưởng chợt đến muộn màng"
+        ],
+        "usphone": "ˈæftərθɔt",
+        "ukphone": "ˈɑːftərθɔːt"
+    },
+    {
+        "name": "ingest",
+        "trans": [
+            "v. nạp dữ liệu vào hệ thống",
+            "v. ăn, nuốt vào cơ thể"
+        ],
+        "usphone": "ɪnˈdʒest",
+        "ukphone": "ɪnˈdʒest"
+    },
+    {
+        "name": "artificially",
+        "trans": [
+            "adv. một cách nhân tạo, do can thiệp",
+            "adv. không tự nhiên, giả tạo"
+        ],
+        "usphone": "ɑrˈtɪfɪʃəli",
+        "ukphone": "ɑːˈtɪfɪʃəli"
+    },
+    {
+        "name": "elongate",
+        "trans": [
+            "v. kéo dài ra, làm dài hơn",
+            "adj. thon dài, hình dáng kéo dài"
+        ],
+        "usphone": "ɪˈlɔŋɡeɪt",
+        "ukphone": "ɪˈlɒŋɡeɪt"
+    },
+    {
+        "name": "accented",
+        "trans": [
+            "adj. được nhấn giọng, mang chất giọng vùng miền",
+            "adj. được tô điểm, làm nổi bật"
+        ],
+        "usphone": "ˈæksentɪd",
+        "ukphone": "ˈæksentɪd"
+    },
+    {
+        "name": "script",
+        "trans": [
+            "n. đoạn mã lệnh, tự động hóa",
+            "n. kịch bản, lời thoại định sẵn"
+        ],
+        "usphone": "ˈskrɪpt",
+        "ukphone": "ˈskrɪpt"
+    },
+    {
+        "name": "tighten",
+        "trans": [
+            "v. siết chặt, làm chặt hơn",
+            "v. siết chặt bảo mật, quy tắc"
+        ],
+        "usphone": "ˈtaɪtən",
+        "ukphone": "ˈtaɪtən"
+    },
+    {
+        "name": "ethical",
+        "trans": [
+            "adj. có đạo đức, tuân theo chuẩn mực",
+            "adj. công bằng, minh bạch"
+        ],
+        "usphone": "ˈeθɪkəl",
+        "ukphone": "ˈeθɪkəl"
+    },
+    {
+        "name": "synchronization",
+        "trans": [
+            "n. đồng bộ hóa, làm khớp nhau",
+            "n. đồng bộ hóa dữ liệu giữa các hệ thống"
+        ],
+        "usphone": "ˌsɪŋkrənəˈzeɪʃən",
+        "ukphone": "ˌsɪŋkrənəɪˈzeɪʃən"
+    },
+    {
+        "name": "consent",
+        "trans": [
+            "n. sự đồng ý, chấp thuận tự nguyện",
+            "v. đồng ý cho phép"
+        ],
+        "usphone": "kənˈsent",
+        "ukphone": "kənˈsent"
+    },
+    {
+        "name": "regulatory landscapes",
+        "trans": [
+            "n. bối cảnh pháp lý, toàn cảnh quy định",
+            "n. hệ thống luật lệ đang thay đổi"
+        ],
+        "usphone": "ˈreɡjəˌletəri ˈlændskeɪps",
+        "ukphone": "ˈreɡjələtəri ˈlændskeɪps"
+    },
+    {
+        "name": "jurisdiction",
+        "trans": [
+            "n. thẩm quyền pháp lý, phạm vi quyền hạn",
+            "n. khu vực mà luật lệ áp dụng"
+        ],
+        "usphone": "ˌdʒʊrɪsˈdɪkʃən",
+        "ukphone": "ˌdʒʊərɪsˈdɪkʃən"
+    },
+    {
+        "name": "framework",
+        "trans": [
+            "n. khung làm việc, bộ khung cấu trúc",
+            "n. thư viện, bộ công cụ nền tảng"
+        ],
+        "usphone": "ˈfreɪmwɜrk",
+        "ukphone": "ˈfreɪmwɜːk"
+    },
+    {
+        "name": "dictate",
+        "trans": [
+            "v. ra lệnh, chi phối",
+            "v. áp đặt, quyết định cách diễn ra",
+            "v. đọc cho người khác viết lại"
+        ],
+        "usphone": "dɪkteɪt",
+        "ukphone": "dɪkteɪt"
+    },
+    {
+        "name": "anonymization",
+        "trans": [
+            "n. ẩn danh hóa, xóa bỏ thông tin định danh",
+            "n. loại bỏ thông tin nhận dạng cá nhân"
+        ],
+        "usphone": "ænənɪməzeɪʃən",
+        "ukphone": "ænənɪməzeɪʃən"
+    },
+    {
+        "name": "conduct",
+        "trans": [
+            "v. tiến hành, thực hiện",
+            "v. chỉ huy dàn nhạc",
+            "n. hành vi, cách cư xử"
+        ],
+        "usphone": "kəndʌkt",
+        "ukphone": "kəndʌkt"
+    },
+    {
+        "name": "pseudonymization",
+        "trans": [
+            "n. thay thế thông tin định danh bằng bí danh",
+            "n. có thể khôi phục lại được danh tính"
+        ],
+        "usphone": "suːdənɪməzeɪʃən",
+        "ukphone": "sjuːdɒnɪməzeɪʃən"
+    },
+    {
+        "name": "penetration",
+        "trans": [
+            "n. sự xuyên qua, thâm nhập",
+            "n. kiểm thử xâm nhập (pentest)",
+            "n. tỷ lệ thâm nhập thị trường"
+        ],
+        "usphone": "penɪtreɪʃən",
+        "ukphone": "penɪtreɪʃən"
+    },
+    {
+        "name": "regular",
+        "trans": [
+            "adj. đều đặn, thường xuyên",
+            "adj. thông thường, tiêu chuẩn"
+        ],
+        "usphone": "reɡjələr",
+        "ukphone": "reɡjələ"
+    },
+    {
+        "name": "threat",
+        "trans": [
+            "n. mối đe dọa, nguy cơ",
+            "n. mối đe dọa an ninh mạng"
+        ],
+        "usphone": "θret",
+        "ukphone": "θret"
+    },
+    {
+        "name": "cutting-edge",
+        "trans": [
+            "adj. tiên tiến nhất, công nghệ mới nhất",
+            "adj. đi đầu xu hướng"
+        ],
+        "usphone": "kʌtɪŋ edʒ",
+        "ukphone": "kʌtɪŋ edʒ"
+    },
+    {
+        "name": "differential",
+        "trans": [
+            "adj. liên quan đến sự khác biệt, chênh lệch",
+            "n. sự chênh lệch, sao lưu vi sai"
+        ],
+        "usphone": "dɪfərenʃəl",
+        "ukphone": "dɪfərenʃəl"
+    },
+    {
+        "name": "federated",
+        "trans": [
+            "adj. liên kết, liên hợp nhiều thành phần độc lập",
+            "adj. học liên kết (AI huấn luyện phân tán)"
+        ],
+        "usphone": "fedəreɪtɪd",
+        "ukphone": "fedəreɪtɪd"
+    },
+    {
+        "name": "inclusive",
+        "trans": [
+            "adj. bao gồm tất cả, không loại trừ",
+            "adj. thiết kế hòa nhập cho mọi người dùng"
+        ],
+        "usphone": "ɪnklusɪv",
+        "ukphone": "ɪnklusɪv"
+    },
+    {
+        "name": "exclusive",
+        "trans": [
+            "adj. độc quyền, riêng biệt",
+            "adj. chỉ dành riêng cho một nhóm"
+        ],
+        "usphone": "ɪksklusɪv",
+        "ukphone": "ɪksklusɪv"
+    },
+    {
+        "name": "majestic",
+        "trans": [
+            "adj. hùng vĩ, uy nghi",
+            "adj. tráng lệ, oai phong"
+        ],
+        "usphone": "məˈdʒɛstɪk",
+        "ukphone": "məˈdʒɛstɪk"
+    },
+    {
+        "name": "magnificent",
+        "trans": [
+            "adj. tráng lệ, lộng lẫy",
+            "adj. xuất sắc, vượt trội"
+        ],
+        "usphone": "mæɡnɪfəsənt",
+        "ukphone": "mæɡnɪfɪsənt"
+    },
+    {
+        "name": "grand",
+        "trans": [
+            "adj. hoành tráng, to lớn",
+            "adj. ấn tượng về quy mô"
+        ],
+        "usphone": "ɡrænd",
+        "ukphone": "ɡrænd"
+    },
+    {
+        "name": "breathtaking",
+        "trans": [
+            "adj. ngoạn mục, đẹp đến nghẹt thở",
+            "adj. gây choáng ngợi mạnh"
+        ],
+        "usphone": "breθ teɪkɪŋ",
+        "ukphone": "breθ teɪkɪŋ"
+    },
+    {
+        "name": "trench",
+        "trans": [
+            "n. chiến hào, rãnh sâu đào xuống đất",
+            "n. rãnh đào để lắp đặt cáp ngầm"
+        ],
+        "usphone": "trenʃ",
+        "ukphone": "trenʃ"
+    },
+    {
+        "name": "scar",
+        "trans": [
+            "n. vết sẹo, dấu vết sau tổn thương",
+            "n. di chứng tâm lý kéo dài"
+        ],
+        "usphone": "skɑr",
+        "ukphone": "skɑː"
+    },
+    {
+        "name": "rhythm",
+        "trans": [
+            "n. nhịp điệu, chu kỳ lặp lại đều đặn",
+            "n. nhịp sinh học tự nhiên"
+        ],
+        "usphone": "rɪðəm",
+        "ukphone": "rɪðəm"
+    },
+    {
+        "name": "puzzled",
+        "trans": [
+            "adj. bối rối, khó hiểu",
+            "adj. không lý giải được ngay lập tức"
+        ],
+        "usphone": "pʌzəld",
+        "ukphone": "pʌzəld"
+    },
+    {
+        "name": "brutal",
+        "trans": [
+            "adj. tàn khốc, khắc nghiệt",
+            "adj. thẳng thừng, phũ phàng"
+        ],
+        "usphone": "brutəl",
+        "ukphone": "brutəl"
+    },
+    {
+        "name": "pragmatic",
+        "trans": [
+            "adj. thực dụng, thực tế",
+            "adj. ưu tiên hiệu quả hơn lý thuyết"
+        ],
+        "usphone": "præɡmætɪk",
+        "ukphone": "præɡmætɪk"
+    },
+    {
+        "name": "stakeholders",
+        "trans": [
+            "n. các bên liên quan, người có lợi ích",
+            "n. bất kỳ cá nhân/tổ chức nào bị ảnh hưởng"
+        ],
+        "usphone": "steɪk hoʊldərz",
+        "ukphone": "steɪk həʊldəz"
+    },
+    {
+        "name": "admit",
+        "trans": [
+            "v. thừa nhận, công nhận sự thật",
+            "v. cho phép vào, chấp nhận vào"
+        ],
+        "usphone": "ədmɪt",
+        "ukphone": "ədmɪt"
+    },
+    {
+        "name": "messiness",
+        "trans": [
+            "n. sự lộn xộn, thiếu tổ chức",
+            "n. sự rắc rối, phức tạp"
+        ],
+        "usphone": "mesɪnəs",
+        "ukphone": "mesɪnəs"
+    },
+    {
+        "name": "compound",
+        "trans": [
+            "n. hợp chất (hóa học), khu nhà có tường bao",
+            "v. làm trầm trọng thêm, cộng dồn (lãi kép)",
+            "adj. ghép, phức hợp"
+        ],
+        "usphone": "ˈkɑmpaʊnd",
+        "ukphone": "ˈkɒmpaʊnd"
+    },
+    {
+        "name": "complicated",
+        "trans": [
+            "adj. phức tạp, rắc rối",
+            "adj. khó hiểu, đan xen"
+        ],
+        "usphone": "ˈkɑmpləˌkeɪtɪd",
+        "ukphone": "ˈkɒmplɪkeɪtɪd"
+    },
+    {
+        "name": "accommplish",
+        "trans": [
+            "v. hoàn thành, đạt được (mục tiêu)",
+            "v. cảm thấy mãn nguyện, tự hào"
+        ],
+        "usphone": "əˈkɑmplɪʃ",
+        "ukphone": "əˈkɒmplɪʃ"
+    },
+    {
+        "name": "deterministic",
+        "trans": [
+            "adj. có tính xác định, luôn cho cùng kết quả",
+            "adj. không ngẫu nhiên (hàm, thuật toán)"
+        ],
+        "usphone": "dɪˌtɝmənˈɪstɪk",
+        "ukphone": "dɪˌtɜːmɪnˈɪstɪk"
+    },
+    {
+        "name": "philosophy",
+        "trans": [
+            "n. triết học, môn học",
+            "n. triết lý, quan điểm cốt lõi",
+            "n. nguyên tắc nền tảng (thiết kế, phát triển)"
+        ],
+        "usphone": "fɪˈlɑsəfi",
+        "ukphone": "fɪˈlɒsəfi"
+    },
+    {
+        "name": "canonical",
+        "trans": [
+            "adj. chuẩn mực, được công nhận là đúng đắn",
+            "adj. dạng chuẩn, cách biểu diễn chính thức",
+            "adj. chính thống, thuộc nguồn gốc/tác giả gốc"
+        ],
+        "usphone": "kəˈnɑnɪkəl",
+        "ukphone": "kəˈnɒnɪkəl"
+    },
+    {
+        "name": "mutually",
+        "trans": [
+            "adv. lẫn nhau, cả hai bên",
+            "adv. loại trừ lẫn nhau (mutually exclusive)",
+            "adv. cùng có lợi, tương thích lẫn nhau"
+        ],
+        "usphone": "ˈmjuʃuəli",
+        "ukphone": "ˈmjuːtʃuəli"
+    },
+    {
+        "name": "sparingly",
+        "trans": [
+            "adv. một cách tiết kiệm, dùng ít",
+            "adv. hạn chế, có chọn lọc"
+        ],
+        "usphone": "ˈsperɪŋli",
+        "ukphone": "ˈspeərɪŋli"
+    },
+    {
+        "name": "subpar",
+        "trans": [
+            "adj. dưới mức tiêu chuẩn, kém",
+            "adj. hiệu năng/chất lượng dưới chuẩn"
+        ],
+        "usphone": "ˌsʌbˈpɑr",
+        "ukphone": "ˌsʌbˈpɑː"
+    },
+    {
+        "name": "principle",
+        "trans": [
+            "n. nguyên tắc, quy luật cơ bản",
+            "n. chuẩn mực đạo đức nền tảng",
+            "n. nguyên tắc thiết kế, quy luật kỹ thuật"
+        ],
+        "usphone": "ˈprɪnsəpəl",
+        "ukphone": "ˈprɪnsəpəl"
+    },
+    {
+        "name": "pattern",
+        "trans": [
+            "n. khuôn mẫu, quy luật lặp lại",
+            "n. quy luật có thể nhận biết được",
+            "n. hoa văn, thiết kế (vải, giấy dán tường)"
+        ],
+        "usphone": "ˈpætərn",
+        "ukphone": "ˈpætən"
+    },
+    {
+        "name": "impairment",
+        "trans": [
+            "n. sự suy giảm chức năng, khiếm khuyết",
+            "n. khiếm thị, khiếm thính (cần thiết kế accessibility)",
+            "n. suy giảm nhận thức (cognitive impairment)"
+        ],
+        "usphone": "ɪmˈpermənt",
+        "ukphone": "ɪmˈpeəmənt"
+    },
+    {
+        "name": "sufficiently",
+        "trans": [
+            "adv. đủ mức, ở mức đủ để đáp ứng yêu cầu",
+            "adv. đủ kỹ, đủ an toàn, đủ kiểm thử"
+        ],
+        "usphone": "səˈfɪʃəntli",
+        "ukphone": "səˈfɪʃəntli"
+    },
+    {
+        "name": "throughout",
+        "trans": [
+            "prep./adv. xuyên suốt, khắp cả",
+            "prep./adv. từ đầu đến cuối, liên tục",
+            "prep./adv. nhất quán xuyên suốt (toàn bộ hệ thống)"
+        ],
+        "usphone": "θruˈaʊt",
+        "ukphone": "θruːˈaʊt"
+    },
+    {
+        "name": "actively",
+        "trans": [
+            "adv. một cách chủ động, tích cực",
+            "adv. lắng nghe chủ động (actively listening)",
+            "adv. đang hoạt động trực tiếp, đang chạy ngầm"
+        ],
+        "usphone": "ˈæktɪvli",
+        "ukphone": "ˈæktɪvli"
+    },
+    {
+        "name": "invaluable",
+        "trans": [
+            "adj. vô giá, cực kỳ hữu ích",
+            "adj. không thể thiếu, không thể thay thế",
+            "adj. nguồn tài nguyên quý giá (tài liệu, kinh nghiệm)"
+        ],
+        "usphone": "ɪnˈvæljuəbəl",
+        "ukphone": "ɪnˈvæljuəbəl"
+    },
+    {
+        "name": "re-engage",
+        "trans": [
+            "v. thu hút lại, tham gia trở lại",
+            "v. kết nối lại (khách hàng, người dùng, nhân viên)",
+            "v. làm cho quan tâm, gắn kết trở lại"
+        ],
+        "usphone": "ˌriɪnˈɡeɪdʒ",
+        "ukphone": "ˌriːɪnˈɡeɪdʒ"
+    },
+    {
+        "name": "inherent",
+        "trans": [
+            "adj. vốn có, cố hữu, nội tại",
+            "adj. không thể tách rời từ bản chất",
+            "adj. rủi ro/hạn chế vốn có (sẵn trong hệ thống)"
+        ],
+        "usphone": "ɪnˈherənt",
+        "ukphone": "ɪnˈherənt"
+    },
+    {
+        "name": "intermediary",
+        "trans": [
+            "n./adj. người trung gian, tổ chức trung gian",
+            "n./adj. thiết bị mạng trung gian, máy chủ proxy",
+            "n./adj. mã trung gian, bytecode (Java)"
+        ],
+        "usphone": "ɪntɚˈmiːdiəri",
+        "ukphone": "ɪntəˈmiːdiəri"
+    },
+    {
+        "name": "supplementary",
+        "trans": [
+            "adj. bổ sung, phụ thêm",
+            "adj. tài liệu/thông tin bổ sung đi kèm",
+            "adj. ký tự bổ sung, emoji (Unicode)"
+        ],
+        "usphone": "ˌsʌpləˈmentəri",
+        "ukphone": "ˌsʌpləˈmentri"
+    },
+    {
+        "name": "broader",
+        "trans": [
+            "adj. rộng hơn, bao quát hơn",
+            "adj. khái quát hơn, vĩ mô hơn",
+            "adj. phạm vi/tệp người dùng rộng lớn hơn"
+        ],
+        "usphone": "ˈbrɔdər",
+        "ukphone": "ˈbrɔːdə"
+    },
+    {
+        "name": "acquisition",
+        "trans": [
+            "n. sự thu nhận, mua lại, giành được",
+            "n. thu hút khách hàng/người dùng mới",
+            "n. sự tiếp thu kiến thức, kỹ năng (language acquisition)"
+        ],
+        "usphone": "ˌækwɪˈzɪʃən",
+        "ukphone": "ˌækwɪˈzɪʃən"
+    },
+    {
+        "name": "constraint",
+        "trans": [
+            "n. sự ràng buộc, giới hạn, điều kiện bắt buộc",
+            "n. điều kiện ràng buộc (cơ sở dữ liệu)",
+            "n. layout ràng buộc, định vị (UI/UX)"
+        ],
+        "usphone": "kənˈstreɪnt",
+        "ukphone": "kənˈstreɪnt"
+    },
+    {
+        "name": "impractical",
+        "trans": [
+            "adj. không thực tế, không khả thi",
+            "adj. thiếu thực tế, viển vông",
+            "adj. không mang lại giá trị thực tế so với công sức"
+        ],
+        "usphone": "ɪmˈpræktɪkəl",
+        "ukphone": "ɪmˈpræktɪkəl"
+    },
+    {
+        "name": "justify",
+        "trans": [
+            "v. chứng minh là hợp lý, thanh minh",
+            "v. đưa ra lý do chính đáng (chi phí, quyết định)",
+            "v. căn lề đều hai bên (văn bản, UI)"
+        ],
+        "usphone": "ˈdʒʌstɪˌfaɪ",
+        "ukphone": "ˈdʒʌstɪfaɪ"
+    },
+    {
+        "name": "complete",
+        "trans": [
+            "adj. đầy đủ, hoàn chỉnh, trọn vẹn",
+            "v. hoàn thành",
+            "adj. (IT) hoàn chỉnh (tài liệu, tính năng)",
+            "v. (IT) hoàn thành (nhiệm vụ)"
+        ],
+        "usphone": "kəmˈplɪt",
+        "ukphone": "kəmˈplɪt"
+    },
+    {
+        "name": "stage",
+        "trans": [
+            "n. giai đoạn",
+            "n. sân khấu",
+            "n. (IT) môi trường staging, giai đoạn pipeline",
+            "v. dàn dựng, tổ chức"
+        ],
+        "usphone": "steɪdʒ",
+        "ukphone": "steɪdʒ"
+    },
+    {
+        "name": "delivery",
+        "trans": [
+            "n. sự bàn giao, phát hành",
+            "n. giao hàng",
+            "n. (IT) việc phát hành/triển khai tính năng",
+            "n. (IT) Continuous Delivery, khả năng phát hành liên tục"
+        ],
+        "usphone": "dɪˈlɪvəri",
+        "ukphone": "dɪˈlɪvəri"
+    },
+    {
+        "name": "analysis",
+        "trans": [
+            "n. sự phân tích, phân tích kỹ lưỡng",
+            "n. (IT) phân tích nguyên nhân gốc rễ",
+            "n. (IT) phân tích dữ liệu/hiệu năng",
+            "n. (IT) static analysis"
+        ],
+        "usphone": "əˈnæləsɪs",
+        "ukphone": "əˈnæləsɪs"
+    },
+    {
+        "name": "accumulate",
+        "trans": [
+            "v. tích lũy, tăng dần theo thời gian",
+            "v. (IT) tích lũy nợ kỹ thuật",
+            "v. (IT) tích lũy dữ liệu/log",
+            "v. tích lũy kiến thức, kinh nghiệm"
+        ],
+        "usphone": "əˈkjuːmjəleɪt",
+        "ukphone": "əˈkjuːmjəleɪt"
+    },
+    {
+        "name": "authenticity",
+        "trans": [
+            "n. tính xác thực, tính chân thật",
+            "n. (IT) tính xác thực của dữ liệu, danh tính",
+            "n. sự chân thành, bản chất thật",
+            "n. (IT) data authenticity, verify authenticity"
+        ],
+        "usphone": "ɔːˌθɛntɪˈsɪti",
+        "ukphone": "ɔːˌθɛntɪˈsɪti"
+    },
+    {
+        "name": "profile",
+        "trans": [
+            "n. hồ sơ, thông tin cá nhân",
+            "n. đường nét bên, mặt nghiêng",
+            "v. (IT) đo lường hiệu năng, profiling",
+            "n. (IT) user profile, hồ sơ người dùng"
+        ],
+        "usphone": "ˈproʊfaɪl",
+        "ukphone": "ˈprəʊfaɪl"
+    },
+    {
+        "name": "provision",
+        "trans": [
+            "n. điều khoản (hợp đồng, luật)",
+            "n. sự chuẩn bị, cấp phát sẵn",
+            "v. (IT) cấp phát, khởi tạo tài nguyên",
+            "v. (IT) automated provisioning"
+        ],
+        "usphone": "prəˈvɪʒən",
+        "ukphone": "prəˈvɪʒən"
+    },
+    {
+        "name": "introduce",
+        "trans": [
+            "v. giới thiệu (người với người)",
+            "v. đưa vào lần đầu, ra mắt",
+            "v. (IT) đưa vào tính năng mới",
+            "v. (IT) gây ra lỗi mới, introduce a bug"
+        ],
+        "usphone": "ɪntrəˈduːs",
+        "ukphone": "ɪntrəˈdjuːs"
+    },
+    {
+        "name": "proven",
+        "trans": [
+            "adj. đã được chứng minh, qua kiểm chứng",
+            "adj. (IT) đã được chứng minh (công nghệ, giải pháp)",
+            "adj. đáng tin cậy, đã qua thử thách thực tế",
+            "adj. có thành tích đã được chứng minh"
+        ],
+        "usphone": "ˈpruːvən",
+        "ukphone": "ˈpruːvən"
+    },
+    {
+        "name": "drastically",
+        "trans": [
+            "adv. một cách quyết liệt, mạnh mẽ",
+            "adv. thay đổi cực đoan, triệt để",
+            "adv. (IT) giảm/cắt mạnh mẽ (chi phí, tài nguyên)",
+            "adv. thay đổi dứt khoát"
+        ],
+        "usphone": "ˈdræstɪkli",
+        "ukphone": "ˈdræstɪkli"
+    },
+    {
+        "name": "critical",
+        "trans": [
+            "adj. then chốt, cực kỳ quan trọng",
+            "adj. (IT) lỗi nghiêm trọng, Critical bug",
+            "adj. (IT) mission-critical system",
+            "adj. mang tính phê bình, chỉ trích"
+        ],
+        "usphone": "ˈkrɪtɪkəl",
+        "ukphone": "ˈkrɪtɪkəl"
+    },
+    {
+        "name": "crucial",
+        "trans": [
+            "adj. then chốt, cực kỳ quan trọng",
+            "adj. (IT) crucial step, crucial to preventing",
+            "adj. quyết định, có tính quyết định",
+            "adj. không thể thay thế"
+        ],
+        "usphone": "ˈkruːʃəl",
+        "ukphone": "ˈkruːʃəl"
+    },
+    {
+        "name": "navigate",
+        "trans": [
+            "v. điều hướng, xoay sở vượt qua",
+            "v. xử lý tình huống phức tạp, khó khăn",
+            "v. (IT) điều hướng qua trang web/ứng dụng",
+            "v. (IT) navigate the interface, navigate between pages"
+        ],
+        "usphone": "ˈnævɪɡeɪt",
+        "ukphone": "ˈnævɪɡeɪt"
+    },
+    {
+        "name": "identify",
+        "trans": [
+            "v. xác định, nhận diện, chỉ ra",
+            "v. (IT) xác định nguyên nhân gốc rễ",
+            "v. (IT) identify the issue, identify a pattern",
+            "v. nhận ra, xác minh danh tính"
+        ],
+        "usphone": "aɪˈdɛntɪfaɪ",
+        "ukphone": "aɪˈdɛntɪfaɪ"
+    },
+    {
+        "name": "verification",
+        "trans": [
+            "n. sự xác minh, kiểm tra tính đúng đắn",
+            "n. (IT) xác minh danh tính, email verification",
+            "n. (IT) verification process, two-factor verification",
+            "n. kiểm tra tính chính xác, hợp lệ"
+        ],
+        "usphone": "ˌvɛrɪfɪˈkeɪʃən",
+        "ukphone": "ˌvɛrɪfɪˈkeɪʃən"
+    },
+    {
+        "name": "scramble",
+        "trans": [
+            "v. xáo trộn, vội vã, xoay xở",
+            "v. (IT) xáo trộn dữ liệu, scramble data",
+            "v. tranh giành tài nguyên",
+            "v. cuống cuồng, hỗn loạn"
+        ],
+        "usphone": "ˈskræmbəl",
+        "ukphone": "ˈskræmbəl"
+    },
+    {
+        "name": "intact",
+        "trans": [
+            "adj. nguyên vẹn, không bị tổn hại",
+            "adj. (IT) dữ liệu/hệ thống nguyên vẹn",
+            "adj. giữ nguyên trạng thái",
+            "adj. không bị ảnh hưởng tiêu cực"
+        ],
+        "usphone": "ɪnˈtækt",
+        "ukphone": "ɪnˈtækt"
+    },
+    {
+        "name": "intermittent",
+        "trans": [
+            "adj. gián đoạn, không liên tục, ngắt quãng",
+            "adj. (IT) intermittent connection, intermittent failure",
+            "adj. (IT) intermittent bug, lỗi xuất hiện lúc có lúc không",
+            "adj. lúc có lúc không, không đều đặn"
+        ],
+        "usphone": "ˌɪntərˈmɪtənt",
+        "ukphone": "ˌɪntəˈmɪtənt"
+    },
+    {
+        "name": "proportional",
+        "trans": [
+            "adj. tỷ lệ thuận, cân xứng, tương xứng",
+            "adj. (IT) proportional scaling, co giãn theo tỷ lệ",
+            "adj. (IT) proportional font, proportional resource allocation",
+            "adj. công bằng, đúng tỷ lệ"
+        ],
+        "usphone": "prəˈpɔːrʃənəl",
+        "ukphone": "prəˈpɔːʃənəl"
+    },
+    {
+        "name": "dominate",
+        "trans": [
+            "v. thống trị, áp đảo, chiếm ưu thế",
+            "v. (IT) dominate CPU usage, chiếm dụng tài nguyên",
+            "v. (IT) dominate the market, chiếm lĩnh thị trường",
+            "v. áp đảo cuộc thảo luận"
+        ],
+        "usphone": "ˈdɑːmɪneɪt",
+        "ukphone": "ˈdɒmɪneɪt"
+    },
+    {
+        "name": "emerge",
+        "trans": [
+            "v. nổi lên, hiện ra, xuất hiện",
+            "v. (IT) emerge a bug, xuất hiện lỗi mới",
+            "v. (IT) emerging technologies, công nghệ mới nổi",
+            "v. lộ diện, vươn lên"
+        ],
+        "usphone": "ɪˈmɜːrdʒ",
+        "ukphone": "ɪˈmɜːdʒ"
+    },
+    {
+        "name": "assess",
+        "trans": [
+            "v. đánh giá, ước lượng, định giá",
+            "v. (IT) assess security risks, đánh giá rủi ro bảo mật",
+            "v. (IT) assess the impact, đánh giá mức độ ảnh hưởng",
+            "v. xem xét kỹ, thẩm định"
+        ],
+        "usphone": "əˈsɛs",
+        "ukphone": "əˈsɛs"
+    },
+    {
+        "name": "thoroughly",
+        "trans": [
+            "adv. một cách kỹ lưỡng, triệt để",
+            "adv. (IT) thoroughly test, kiểm thử triệt để",
+            "adv. (IT) thoroughly review, rà soát kỹ lưỡng",
+            "adv. từ đầu đến cuối, không bỏ sót"
+        ],
+        "usphone": "ˈθɜːroʊli",
+        "ukphone": "ˈθɜːəli"
+    },
+    {
+        "name": "business",
+        "trans": [
+            "n. công việc kinh doanh, doanh nghiệp",
+            "n. (IT) business logic, logic nghiệp vụ",
+            "n. (IT) business requirements, yêu cầu nghiệp vụ",
+            "n. bổn phận, việc riêng"
+        ],
+        "usphone": "ˈbɪznɪs",
+        "ukphone": "ˈbɪznəs"
+    },
+    {
+        "name": "interface",
+        "trans": [
+            "n. giao diện, bề mặt chung",
+            "v. kết nối, giao tiếp với"
+        ],
+        "usphone": "intərfeɪs",
+        "ukphone": "intərfeɪs"
+    },
+    {
+        "name": "adaptable",
+        "trans": [
+            "adj. linh hoạt, dễ co giãn, thích ứng được"
+        ],
+        "usphone": "ədæptəbəl",
+        "ukphone": "ədæptəbəl"
+    },
+    {
+        "name": "generally",
+        "trans": [
+            "adv. nhìn chung, nói chung, thường là"
+        ],
+        "usphone": "dʒɛnərəli",
+        "ukphone": "dʒɛnərəli"
+    },
+    {
+        "name": "extremely",
+        "trans": [
+            "adv. cực kỳ, vô cùng, cực độ"
+        ],
+        "usphone": "ɪkstrimli",
+        "ukphone": "ɪkstrimli"
+    },
+    {
+        "name": "glanceable",
+        "trans": [
+            "adj. dễ nhìn lướt qua, trực quan, dễ nắm bắt"
+        ],
+        "usphone": "ɡlænsəbəl",
+        "ukphone": "ɡlænsəbəl"
+    },
+    {
+        "name": "substantially",
+        "trans": [
+            "adv. đáng kể, rất nhiều, về mặt bản chất"
+        ],
+        "usphone": "səbstænʃəli",
+        "ukphone": "səbstænʃəli"
+    },
+    {
+        "name": "pose",
+        "trans": [
+            "v. gây ra (rủi ro), đặt ra",
+            "n. tư thế, dáng điệu"
+        ],
+        "usphone": "poʊz",
+        "ukphone": "pəʊz"
+    },
+    {
+        "name": "capability",
+        "trans": [
+            "n. khả năng, năng lực, tính năng"
+        ],
+        "usphone": "keɪpəbɪləti",
+        "ukphone": "keɪpəbɪləti"
+    },
+    {
+        "name": "adoption",
+        "trans": [
+            "n. sự đón nhận, sự áp dụng, sự thông qua"
+        ],
+        "usphone": "ədɑpʃən",
+        "ukphone": "ədɒpʃən"
+    },
+    {
+        "name": "augment",
+        "trans": [
+            "v. tăng cường, gia tăng, mở rộng"
+        ],
+        "usphone": "ɔːɡmɛnt",
+        "ukphone": "ɔːɡmɛnt"
+    },
+    {
+        "name": "weighing",
+        "trans": [
+            "v. cân nhắc, xem xét, đôn đáp"
+        ],
+        "usphone": "weɪɪŋ",
+        "ukphone": "weɪɪŋ"
+    },
+    {
+        "name": "authentication",
+        "trans": [
+            "n. xác thực, xác nhận danh tính, kiểm chứng"
+        ],
+        "usphone": "ɔːθɛntɪkeɪʃən",
+        "ukphone": "ɔːθɛntɪkeɪʃən"
+    },
+    {
+        "name": "authorization",
+        "trans": [
+            "n. cấp phép, ủy quyền, cho phép"
+        ],
+        "usphone": "ɔːθərɪzeɪʃən",
+        "ukphone": "ɔːθərɪzeɪʃən"
+    },
+    {
+        "name": "guidance",
+        "trans": [
+            "n. hướng dẫn, chỉ dẫn, sự tư vấn"
+        ],
+        "usphone": "ɡaɪdəns",
+        "ukphone": "ɡaɪdəns"
+    },
+    {
+        "name": "coordinate",
+        "trans": [
+            "v. phối hợp, điều phối, đồng bộ"
+        ],
+        "usphone": "koʊɔːrdɪneɪt",
+        "ukphone": "kəɔːdɪneɪt"
+    },
+    {
+        "name": "align",
+        "trans": [
+            "v. sắp xếp thẳng hàng, làm phù hợp, thống nhất"
+        ],
+        "usphone": "əlaɪn",
+        "ukphone": "əlaɪn"
+    },
+    {
+        "name": "heuristic",
+        "trans": [
+            "adj. theo kinh nghiệm, dựa trên ước lượng",
+            "n. phương pháp heuristic, quy tắc kinh nghiệm"
+        ],
+        "usphone": "hjuːrɪstɪk",
+        "ukphone": "hjuːrɪstɪk"
+    },
+    {
+        "name": "arbitrary",
+        "trans": [
+            "adj. tùy tiện, bất kỳ, ngẫu nhiên"
+        ],
+        "usphone": "ɑːrbɪtrɛri",
+        "ukphone": "ɑːbɪtrəri"
+    },
+    {
+        "name": "mitigation",
+        "trans": [
+            "n. giảm nhẹ, biện pháp giảm thiểu, giảm tác động"
+        ],
+        "usphone": "mɪtɪɡeɪʃən",
+        "ukphone": "mɪtɪɡeɪʃən"
+    },
+    {
+        "name": "intimidate",
+        "trans": [
+            "v. đe dọa, hù dọa, khiến sợ hãi"
+        ],
+        "usphone": "ɪntɪmədeɪt",
+        "ukphone": "ɪntɪmədeɪt"
+    },
+    {
+        "name": "particular",
+        "trans": [
+            "adj. cụ thể, đặc biệt, riêng biệt"
+        ],
+        "usphone": "pɚtɪkjɚlɚ",
+        "ukphone": "pətɪkjələ"
+    },
+    {
+        "name": "idiomatic",
+        "trans": [
+            "adj. mang tính thành ngữ, tự nhiên, đúng chuẩn"
+        ],
+        "usphone": "ɪdiəmætɪk",
+        "ukphone": "ɪdiəmætɪk"
+    },
+    {
+        "name": "significant",
+        "trans": [
+            "adj. đáng kể, quan trọng, có ý nghĩa"
+        ],
+        "usphone": "sɪɡnɪfɪkənt",
+        "ukphone": "sɪɡnɪfɪkənt"
+    },
+    {
+        "name": "examine",
+        "trans": [
+            "v. xem xét, kiểm tra, nghiên cứu"
+        ],
+        "usphone": "ɪɡzæmən",
+        "ukphone": "ɪɡzæmən"
+    },
+    {
+        "name": "essential",
+        "trans": [
+            "adj. thiết yếu, cốt yếu, cần thiết"
+        ],
+        "usphone": "ɪsɛnʃəl",
+        "ukphone": "ɪsɛnʃəl"
+    },
+    {
+        "name": "excel as",
+        "trans": [
+            "v. xuất sắc, nổi bật trong vai trò",
+            "v. thể hiện tài năng vượt trội"
+        ],
+        "usphone": "ɪkˈsɛl æz",
+        "ukphone": "ɪkˈsel æz"
+    },
+    {
+        "name": "extraordinary",
+        "trans": [
+            "adj. phi thường, đặc biệt",
+            "adj. xuất sắc, vượt trội",
+            "adj. bất thường, ngoài lệ"
+        ],
+        "usphone": "ɪkˈstrɔːrdəneri",
+        "ukphone": "ɪkˈstrɔːdənəri"
+    },
+    {
+        "name": "underscore",
+        "trans": [
+            "v. nhấn mạnh, làm nổi bật",
+            "n. ký tự gạch dưới"
+        ],
+        "usphone": "ˈʌndərˌskoʊr",
+        "ukphone": "ˈʌndəˌskɔː"
+    },
+    {
+        "name": "shift",
+        "trans": [
+            "n. sự chuyển dịch, sự thay đổi",
+            "n. ca làm việc",
+            "v. chuyển dịch, di chuyển"
+        ],
+        "usphone": "ʃɪft",
+        "ukphone": "ʃɪft"
+    },
+    {
+        "name": "experiment",
+        "trans": [
+            "n. thí nghiệm, thử nghiệm",
+            "v. thử nghiệm, tiến hành thí nghiệm"
+        ],
+        "usphone": "ɪkˈspɛrəmənt",
+        "ukphone": "ɪkˈsperɪmənt"
+    },
+    {
+        "name": "incorporate",
+        "trans": [
+            "v. tích hợp, kết hợp",
+            "v. tiếp thu phản hồi",
+            "v. thành lập công ty"
+        ],
+        "usphone": "ɪnˈkɔrpəreɪt",
+        "ukphone": "ɪnˈkɔːpəreɪt"
+    },
+    {
+        "name": "feature-rich",
+        "trans": [
+            "adj. giàu tính năng, đa dạng chức năng"
+        ],
+        "usphone": "ˈfiːtʃər rɪtʃ",
+        "ukphone": "ˈfiːtʃə rɪtʃ"
+    },
+    {
+        "name": "practical",
+        "trans": [
+            "adj. thực tế, áp dụng được",
+            "adj. hữu ích, thiết thực"
+        ],
+        "usphone": "ˈpræktɪkəl",
+        "ukphone": "ˈpræktɪkəl"
+    },
+    {
+        "name": "efficiency",
+        "trans": [
+            "n. hiệu quả, hiệu suất",
+            "n. tính tiết kiệm",
+            "n. năng suất"
+        ],
+        "usphone": "ɪˈfɪʃənsi",
+        "ukphone": "ɪˈfɪʃənsi"
+    },
+    {
+        "name": "deviations",
+        "trans": [
+            "n. sự sai lệch, chệch hướng",
+            "n. độ lệch chuẩn (thống kê)"
+        ],
+        "usphone": "ˌdevɪˈeɪʃənz",
+        "ukphone": "ˌdevɪˈeɪʃənz"
+    },
+    {
+        "name": "revolutionize",
+        "trans": [
+            "v. cách mạng hóa, thay đổi triệt để",
+            "v. làm thay đổi căn bản"
+        ],
+        "usphone": "ˌrevəˈluːʃənaɪz",
+        "ukphone": "ˌrevəˈluːʃənaɪz"
+    },
+    {
+        "name": "seamlessly",
+        "trans": [
+            "adv. một cách liền mạch, trơn tru",
+            "adv. không gián đoạn, nhịp nhàng"
+        ],
+        "usphone": "ˈsiːmlɪsli",
+        "ukphone": "ˈsiːmlɪsli"
+    },
+    {
+        "name": "reliability",
+        "trans": [
+            "n. độ tin cậy, tính đáng tin cậy",
+            "n. sự ổn định"
+        ],
+        "usphone": "rɪˌlaɪəˈbɪləti",
+        "ukphone": "rɪˌlaɪəˈbɪləti"
+    },
+    {
+        "name": "straightforward",
+        "trans": [
+            "adj. đơn giản, dễ hiểu",
+            "adj. thẳng thắn, rõ ràng"
+        ],
+        "usphone": "ˌstreɪtˈfɔrwərd",
+        "ukphone": "ˌstreɪtˈfɔːwəd"
+    },
+    {
+        "name": "scenarios",
+        "trans": [
+            "n. kịch bản, tình huống giả định"
+        ],
+        "usphone": "səˈnɛrioʊz",
+        "ukphone": "səˈnɑːrɪəʊz"
+    },
+    {
+        "name": "non-functional",
+        "trans": [
+            "adj. phi chức năng, không liên quan tính năng",
+            "adj. không hoạt động"
+        ],
+        "usphone": "ˌnɑnˈfʌŋkʃənəl",
+        "ukphone": "ˌnɒnˈfʌŋkʃənəl"
+    },
+    {
+        "name": "revision",
+        "trans": [
+            "n. sự chỉnh sửa, sửa đổi",
+            "n. bản chỉnh sửa, phiên bản cập nhật"
+        ],
+        "usphone": "rɪˈvɪʒən",
+        "ukphone": "rɪˈvɪʒən"
+    },
+    {
+        "name": "primarily",
+        "trans": [
+            "adv. chủ yếu, trước hết",
+            "adv. chính yếu, hầu hết là"
+        ],
+        "usphone": "ˈpraɪˌmɛrəli",
+        "ukphone": "ˈpraɪmərəli"
+    },
+    {
+        "name": "client-driven",
+        "trans": [
+            "adj. lấy khách hàng làm trung tâm",
+            "adj. được định hướng bởi nhu cầu khách"
+        ],
+        "usphone": "ˈklaɪənt ˈdrɪvən",
+        "ukphone": "ˈklaɪənt ˈdrɪvən"
+    },
+    {
+        "name": "adapt",
+        "trans": [
+            "v. thích nghi, điều chỉnh",
+            "v. chuyển thể"
+        ],
+        "usphone": "əˈdæpt",
+        "ukphone": "əˈdæpt"
+    },
+    {
+        "name": "accordingly",
+        "trans": [
+            "adv. theo đó, cho phù hợp",
+            "adv. tương ứng"
+        ],
+        "usphone": "əˈkɔrdɪŋli",
+        "ukphone": "əˈkɔːdɪŋli"
+    },
+    {
+        "name": "regardless of",
+        "trans": [
+            "prep. bất kể, không quan tâm đến",
+            "prep. dù cho"
+        ],
+        "usphone": "rɪˈɡɑrdləs əv",
+        "ukphone": "rɪˈɡɑːdləs əv"
+    },
+    {
+        "name": "remaining",
+        "trans": [
+            "adj. còn lại, vẫn còn"
+        ],
+        "usphone": "rɪˈmeɪnɪŋ",
+        "ukphone": "rɪˈmeɪnɪŋ"
+    },
+    {
+        "name": "illustrated",
+        "trans": [
+            "adj. được minh họa, có hình vẽ",
+            "v. minh họa, làm rõ bằng ví dụ"
+        ],
+        "usphone": "ˈɪləˌstreɪtəd",
+        "ukphone": "ˈɪləstreɪtɪd"
+    },
+    {
+        "name": "functionality",
+        "trans": [
+            "n. chức năng, tính năng",
+            "n. khả năng hoạt động"
+        ],
+        "usphone": "ˌfʌŋkʃəˈnæləti",
+        "ukphone": "ˌfʌŋkʃəˈnæləti"
+    },
+    {
+        "name": "deserve",
+        "trans": [
+            "v. xứng đáng nhận được",
+            "v. xứng đáng được ghi nhận"
+        ],
+        "usphone": "dɪˈzɝv",
+        "ukphone": "dɪˈzɜːv"
+    },
+    {
+        "name": "optimal",
+        "trans": [
+            "adj. tối ưu",
+            "adj. tốt nhất có thể đạt được"
+        ],
+        "usphone": "ˈɑːptɪməl",
+        "ukphone": "ˈɒptɪməl"
+    },
+    {
+        "name": "preserving",
+        "trans": [
+            "v. bảo tồn",
+            "v. giữ gìn, duy trì"
+        ],
+        "usphone": "prɪˈzɝvɪŋ",
+        "ukphone": "prɪˈzɜːvɪŋ"
+    },
+    {
+        "name": "integrity",
+        "trans": [
+            "n. tính toàn vẹn, tính chính xác",
+            "n. tính chính trực, tính đạo đức"
+        ],
+        "usphone": "ɪnˈteɡrəti",
+        "ukphone": "ɪnˈteɡrəti"
+    },
+    {
+        "name": "cap",
+        "trans": [
+            "n. mũ, nắp",
+            "v. giới hạn, đặt mức trần"
+        ],
+        "usphone": "kæp",
+        "ukphone": "kæp"
+    },
+    {
+        "name": "unify",
+        "trans": [
+            "v. hợp nhất",
+            "v. thống nhất, tạo sự đồng bộ"
+        ],
+        "usphone": "ˈjuːnɪfaɪ",
+        "ukphone": "ˈjuːnɪfaɪ"
+    },
+    {
+        "name": "vary",
+        "trans": [
+            "v. thay đổi",
+            "v. khác nhau tùy từng trường hợp"
+        ],
+        "usphone": "ˈveri",
+        "ukphone": "ˈveəri"
+    },
+    {
+        "name": "determining",
+        "trans": [
+            "v. xác định",
+            "v. quyết định, ảnh hưởng tới"
+        ],
+        "usphone": "dɪˈtɝmɪnɪŋ",
+        "ukphone": "dɪˈtɜːmɪnɪŋ"
+    },
+    {
+        "name": "gradually",
+        "trans": [
+            "adv. dần dần",
+            "adv. từ từ, theo từng giai đoạn"
+        ],
+        "usphone": "ˈɡrædʒuəli",
+        "ukphone": "ˈɡrædʒuəli"
+    },
+    {
+        "name": "striking",
+        "trans": [
+            "adj. nổi bật, đáng chú ý",
+            "adj. gây ấn tượng mạnh"
+        ],
+        "usphone": "ˈstraɪkɪŋ",
+        "ukphone": "ˈstraɪkɪŋ"
+    },
+    {
+        "name": "usability",
+        "trans": [
+            "n. tính khả dụng",
+            "n. tính dễ sử dụng, tính thân thiện"
+        ],
+        "usphone": "ˌjuːzəˈbɪləti",
+        "ukphone": "ˌjuːzəˈbɪləti"
+    },
+    {
+        "name": "pioneer",
+        "trans": [
+            "n. người tiên phong",
+            "v. đi tiên phong, khai phá"
+        ],
+        "usphone": "ˌpaɪəˈnɪr",
+        "ukphone": "ˌpaɪəˈnɪə"
+    },
+    {
+        "name": "competing",
+        "trans": [
+            "v. cạnh tranh",
+            "adj. xung khắc, mâu thuẫn nhau"
+        ],
+        "usphone": "kəmˈpetɪŋ",
+        "ukphone": "kəmˈpetɪŋ"
+    },
+    {
+        "name": "employed",
+        "trans": [
+            "v. được tuyển dụng",
+            "v. được sử dụng, được áp dụng"
+        ],
+        "usphone": "ɪmˈplɔɪd",
+        "ukphone": "ɪmˈplɔɪd"
+    },
+    {
+        "name": "fine-tune",
+        "trans": [
+            "v. tinh chỉnh",
+            "v. điều chỉnh chi tiết để hoàn thiện"
+        ],
+        "usphone": "faɪn tjuːn",
+        "ukphone": "faɪn tjuːn"
+    },
+    {
+        "name": "fine-grained",
+        "trans": [
+            "adj. chi tiết",
+            "adj. kiểm soát ở mức độ nhỏ nhất"
+        ],
+        "usphone": "faɪn ɡreɪnd",
+        "ukphone": "faɪn ɡreɪnd"
+    },
+    {
+        "name": "particularly",
+        "trans": [
+            "adv. đặc biệt là",
+            "adv. nhất là, nổi bật hơn"
+        ],
+        "usphone": "pərˈtɪkjələrli",
+        "ukphone": "pəˈtɪkjələli"
+    },
+    {
+        "name": "optimistic Concurrency",
+        "trans": [
+            "n. kiểm soát tương tranh lạc quan"
+        ],
+        "usphone": "ɑːptɪmɪstɪk kənˈkɝənsi",
+        "ukphone": "ɒptɪmɪstɪk kənˈkɜːrənsi"
+    },
+    {
+        "name": "eventual",
+        "trans": [
+            "adj. cuối cùng",
+            "adj. sẽ xảy ra sau một khoảng thời gian"
+        ],
+        "usphone": "ɪˈventʃuəl",
+        "ukphone": "ɪˈventʃuəl"
+    },
+    {
+        "name": "adopt",
+        "trans": [
+            "v. áp dụng",
+            "v. chấp nhận sử dụng"
+        ],
+        "usphone": "əˈdɑːpt",
+        "ukphone": "əˈdɒpt"
+    },
+    {
+        "name": "resolution",
+        "trans": [
+            "n. sự giải quyết, giải pháp",
+            "n. độ phân giải"
+        ],
+        "usphone": "ˌrezəˈluːʃn",
+        "ukphone": "ˌrezəˈluːʃn"
+    },
+    {
+        "name": "unintelligible",
+        "trans": [
+            "adj. không thể hiểu được",
+            "adj. hoàn toàn khó hiểu"
+        ],
+        "usphone": "ʌnɪnˈtelɪdʒəbəl",
+        "ukphone": "ʌnɪnˈtelɪdʒəbəl"
+    },
+    {
+        "name": "enclave",
+        "trans": [
+            "n. vùng biệt lập",
+            "n. khu vực cô lập bên trong một hệ thống lớn"
+        ],
+        "usphone": "ˈɑːnkleɪv",
+        "ukphone": "ˈɒŋkleɪv"
+    },
+    {
+        "name": "derive",
+        "trans": [
+            "v. bắt nguồn từ",
+            "v. suy ra, rút ra từ dữ liệu"
+        ],
+        "usphone": "dɪˈraɪv",
+        "ukphone": "dɪˈraɪv"
+    },
+    {
+        "name": "resilient",
+        "trans": [
+            "adj. có khả năng phục hồi",
+            "adj. kiên cường, bền bỉ"
+        ],
+        "usphone": "rɪˈzɪliənt",
+        "ukphone": "rɪˈzɪliənt"
+    },
+    {
+        "name": "idempotent",
+        "trans": [
+            "adj. bất biến khi lặp lại, không gây tác dụng phụ tích lũy",
+            "n. tính chất của phép toán/API mà dù gọi nhiều lần vẫn cho kết quả như gọi một lần"
+        ],
+        "usphone": "aɪdəmˈpoʊtənt",
+        "ukphone": "aɪdəmˈpəʊtənt"
+    },
+    {
+        "name": "throttle",
+        "trans": [
+            "v. giới hạn số lượng request, lưu lượng truy cập để tránh quá tải",
+            "v. kiểm soát tốc độ, lưu lượng dữ liệu",
+            "n. bộ phận điều chỉnh tốc độ động cơ"
+        ],
+        "usphone": "ˈθrɑtəl",
+        "ukphone": "ˈθrɒtəl"
+    },
+    {
+        "name": "substantial",
+        "trans": [
+            "adj. đáng kể, to lớn, có thực chất",
+            "adj. khoản tiền/số lượng đủ lớn để được coi là quan trọng",
+            "adj. có bằng chứng xác đáng, vững chắc"
+        ],
+        "usphone": "səbˈstænʃəl",
+        "ukphone": "səbˈstænʃəl"
+    },
+    {
+        "name": "manifest",
+        "trans": [
+            "v. biểu hiện, thể hiện rõ ràng ra bên ngoài",
+            "n. tệp khai báo chứa metadata, cấu hình của ứng dụng/gói phần mềm",
+            "adj. rõ ràng, hiển nhiên, dễ nhận thấy"
+        ],
+        "usphone": "ˈmænɪfɛst",
+        "ukphone": "ˈmænɪfɛst"
+    },
+    {
+        "name": "simultaneously",
+        "trans": [
+            "adv. đồng thời, cùng một lúc, xảy ra chính xác cùng thời điểm",
+            "adv. xử lý/chạy song song cùng lúc (IT)"
+        ],
+        "usphone": "ˌsɪməlˈteɪniəsli",
+        "ukphone": "ˌsɪməlˈteɪniəsli"
+    },
+    {
+        "name": "establish",
+        "trans": [
+            "v. thiết lập một kết nối, phiên làm việc, cấu hình",
+            "v. thành lập, xây dựng một cách chính thức, lâu dài, vững chắc"
+        ],
+        "usphone": "ɪˈstæblɪʃ",
+        "ukphone": "ɪˈstæblɪʃ"
+    },
+    {
+        "name": "traction",
+        "trans": [
+            "n. lực kéo, lực ma sát giúp phương tiện di chuyển không bị trượt",
+            "n. sự thu hút, đà phát triển, mức độ được thị trường chấp nhận"
+        ],
+        "usphone": "ˈtrækʃən",
+        "ukphone": "ˈtrækʃən"
+    },
+    {
+        "name": "comprehensive",
+        "trans": [
+            "adj. toàn diện, đầy đủ, bao quát mọi khía cạnh",
+            "adj. kiểm thử/tài liệu bao phủ đầy đủ mọi trường hợp, tình huống"
+        ],
+        "usphone": "ˌkɑmprɪˈhɛnsɪv",
+        "ukphone": "ˌkɒmprɪˈhɛnsɪv"
+    },
+    {
+        "name": "congestion",
+        "trans": [
+            "n. tắc nghẽn mạng, quá tải lưu lượng dữ liệu",
+            "n. ùn tắc giao thông",
+            "n. sự ứ đọng, quá tải (Y tế: nghẹt mũi)"
+        ],
+        "usphone": "kənˈdʒɛstʃən",
+        "ukphone": "kənˈdʒɛstʃən"
+    },
+    {
+        "name": "in practice",
+        "trans": [
+            "Trên thực tế, khi áp dụng vào thực tiễn, khác với lý thuyết"
+        ],
+        "usphone": "ɪn ˈpræktɪs",
+        "ukphone": "ɪn ˈpræktɪs"
+    },
+    {
+        "name": "extensive",
+        "trans": [
+            "adj. rộng lớn, sâu rộng, bao quát nhiều khía cạnh",
+            "adj. kinh nghiệm/kiến thức/nghiên cứu sâu rộng, chi tiết"
+        ],
+        "usphone": "ɪkˈstɛnsɪv",
+        "ukphone": "ɪkˈstɛnsɪv"
+    },
+    {
+        "name": "excessive",
+        "trans": [
+            "adj. quá mức, thái quá, vượt quá mức cần thiết",
+            "adj. chi phí/thời gian/sử dụng tài nguyên quá mức"
+        ],
+        "usphone": "ɪkˈsɛsɪv",
+        "ukphone": "ɪkˈsɛsɪv"
+    },
+    {
+        "name": "thoughtful",
+        "trans": [
+            "adj. chu đáo, cân nhắc kỹ lưỡng, thể hiện suy nghĩ sâu sắc",
+            "adj. quan tâm, chu đáo đến cảm xúc/nhu cầu của người khác"
+        ],
+        "usphone": "ˈθɔtfəl",
+        "ukphone": "ˈθɔːtfəl"
+    },
+    {
+        "name": "throughput",
+        "trans": [
+            "n. thông lượng, lượng dữ liệu/yêu cầu hệ thống xử lý được trong đơn vị thời gian",
+            "n. chỉ số hiệu suất (IT, mạng lưới)"
+        ],
+        "usphone": "ˈθruˌpʊt",
+        "ukphone": "ˈθruːˌpʊt"
+    },
+    {
+        "name": "bandwidth",
+        "trans": [
+            "n. băng thông, dung lượng tối đa truyền dữ liệu qua kênh",
+            "n. khả năng, năng lực/thời gian còn lại để đảm nhận công việc (nghĩa bóng)"
+        ],
+        "usphone": "ˈbændˌwɪdθ",
+        "ukphone": "ˈbændˌwɪdθ"
+    },
+    {
+        "name": "favorable",
+        "trans": [
+            "adj. thuận lợi, có lợi, tạo điều kiện tốt",
+            "adj. tích cực, ủng hộ (đánh giá, phản hồi)"
+        ],
+        "usphone": "ˈfeɪvərəbəl",
+        "ukphone": "ˈfeɪvərəbəl"
+    },
+    {
+        "name": "perceptually",
+        "trans": [
+            "adv. về mặt cảm nhận, theo cảm nhận chủ quan của người quan sát",
+            "adv. cảm thấy (khác về mặt cảm nhận với thực tế đo lường)"
+        ],
+        "usphone": "pərˈsɛpʃuəli",
+        "ukphone": "pərˈsɛpʃuəli"
+    },
+    {
+        "name": "utilization",
+        "trans": [
+            "n. mức độ sử dụng tài nguyên (CPU, bộ nhớ, nhân sự) so với công suất tối đa",
+            "n. sự khai thác, tận dụng nguồn lực"
+        ],
+        "usphone": "ˌjutɪlɪˈzeɪʃən",
+        "ukphone": "ˌjuːtɪlɪˈzeɪʃən"
+    },
+    {
+        "name": "gracefully",
+        "trans": [
+            "adv. một cách khéo léo, êm ái, có kiểm soát (xử lý lỗi/sự cố)",
+            "adv. xử lý mượt mà mà không gây sập hệ thống"
+        ],
+        "usphone": "ˈɡreɪsfəli",
+        "ukphone": "ˈɡreɪsfəli"
+    },
+    {
+        "name": "taking into account",
+        "trans": [
+            "Cân nhắc, tính đến, xem xét (yếu tố nào đó) khi đưa ra quyết định"
+        ],
+        "usphone": "ˈteɪkɪŋ ˈɪntu əˈkaʊnt",
+        "ukphone": "ˈteɪkɪŋ ˈɪntuː əˈkaʊnt"
+    },
+    {
+        "name": "being mindful of",
+        "trans": [
+            "Lưu tâm đến, chú ý, ý thức về (yếu tố nào đó) khi thực hiện hành động"
+        ],
+        "usphone": "ˈbiɪŋ ˈmaɪndfəl əv",
+        "ukphone": "ˈbiːɪŋ ˈmaɪndfəl əv"
+    },
+    {
+        "name": "stale",
+        "trans": [
+            "adj. cũ, không còn tươi mới, hết hạn sử dụng",
+            "adj. dữ liệu/cache/thông tin cũ, lỗi thời, không cập nhật"
+        ],
+        "usphone": "steɪl",
+        "ukphone": "steɪl"
+    },
+    {
+        "name": "metric",
+        "trans": [
+            "n. chỉ số đo lường, thước đo hiệu suất",
+            "n. chỉ số cụ thể dùng để đánh giá kết quả (IT, kinh doanh)"
+        ],
+        "usphone": "ˈmɛtrɪk",
+        "ukphone": "ˈmetrɪk"
+    },
+    {
+        "name": "pertinent",
+        "trans": [
+            "adj. liên quan, thích đáng, xác đáng với vấn đề đang bàn",
+            "adj. thông tin/chi tiết có liên quan trực tiếp, cần thiết"
+        ],
+        "usphone": "ˈpɜrtɪnənt",
+        "ukphone": "ˈpɜːtɪnənt"
+    },
+    {
+        "name": "clunky",
+        "trans": [
+            "adj. cồng kềnh, vụng về, thiếu mượt mà, lỗi thời",
+            "adj. giao diện/quy trình khó sử dụng, rườm rà, kém tối ưu"
+        ],
+        "usphone": "ˈklʌŋki",
+        "ukphone": "ˈklʌŋki"
+    },
+    {
+        "name": "immersive",
+        "trans": [
+            "adj. đắm chìm, sống động, cuốn hút hoàn toàn",
+            "n. trải nghiệm công nghệ VR/AR đắm chìm",
+            "adj. (giáo dục) học tập theo phương pháp hòa nhập toàn bộ"
+        ],
+        "usphone": "ɪˈmɜrsɪv",
+        "ukphone": "ɪˈmɜːsɪv"
+    },
+    {
+        "name": "perspective",
+        "trans": [
+            "n. góc nhìn, quan điểm",
+            "n. cách nhìn nhận từ một vị trí/vai trò cụ thể",
+            "n. phối cảnh (trong nghệ thuật)"
+        ],
+        "usphone": "pərˈspɛktɪv",
+        "ukphone": "pəˈspɛktɪv"
+    },
+    {
+        "name": "interpret",
+        "trans": [
+            "v. diễn giải, giải thích ý nghĩa",
+            "v. thông dịch (từ ngôn ngữ này sang ngôn ngữ khác)",
+            "v. (dữ liệu) hiểu theo cách cụ thể"
+        ],
+        "usphone": "ɪnˈtɜrprɪt",
+        "ukphone": "ɪnˈtɜːprɪt"
+    },
+    {
+        "name": "diagonal",
+        "trans": [
+            "n. đường chéo (hình học)",
+            "adj. xiên, chéo góc",
+            "n. (IT) phần tử đường chéo của ma trận"
+        ],
+        "usphone": "daɪˈæɡənəl",
+        "ukphone": "daɪˈæɡənəl"
+    },
+    {
+        "name": "interoperate",
+        "trans": [
+            "v. tương tác, phối hợp hoạt động giữa các hệ thống khác nhau",
+            "n. khả năng tương tác (danh từ liên quan)",
+            "adj. có thể tương tác được với nhau"
+        ],
+        "usphone": "ɪntərˈɑpəreɪt",
+        "ukphone": "ɪntərˈɒpəreɪt"
+    },
+    {
+        "name": "harmoniously",
+        "trans": [
+            "adv. một cách hài hòa, hòa hợp",
+            "adv. làm việc ăn khớp, nhịp nhàng",
+            "adv. (hệ thống) hoạt động phối hợp không xung đột"
+        ],
+        "usphone": "hɑrˈmoʊniəsli",
+        "ukphone": "hɑːˈməʊniəsli"
+    },
+    {
+        "name": "coherent",
+        "trans": [
+            "adj. mạch lạc, nhất quán, logic",
+            "adj. có sự liên kết chặt chẽ giữa các phần",
+            "adj. (kỹ thuật) các thành phần phối hợp, dễ hiểu"
+        ],
+        "usphone": "koʊˈhɪrənt",
+        "ukphone": "kəʊˈhɪərənt"
+    },
+    {
+        "name": "anticipate",
+        "trans": [
+            "v. dự đoán, lường trước",
+            "v. đón đầu, chuẩn bị trước tình huống",
+            "v. (IT) lường trước vấn đề kỹ thuật có thể xảy ra"
+        ],
+        "usphone": "ænˈtɪsəpeɪt",
+        "ukphone": "ænˈtɪsɪpeɪt"
+    },
+    {
+        "name": "moderation",
+        "trans": [
+            "n. kiểm duyệt nội dung (mạng xã hội)",
+            "n. sự điều độ, vừa phải",
+            "n. quá trình giám sát, quản lý nội dung trực tuyến"
+        ],
+        "usphone": "ˌmɑdəˈreɪʃən",
+        "ukphone": "ˌmɒdəˈreɪʃən"
+    },
+    {
+        "name": "monetization",
+        "trans": [
+            "n. sự kiếm tiền, thương mại hóa",
+            "n. chiến lược kiếm tiền từ sản phẩm/nền tảng",
+            "n. cách kiếm tiền từ nội dung/dữ liệu"
+        ],
+        "usphone": "ˌmɑnətəˈzeɪʃən",
+        "ukphone": "ˌmɒnɪtaɪˈzeɪʃən"
+    },
+    {
+        "name": "sophisticated",
+        "trans": [
+            "adj. tinh vi, phức tạp, tiên tiến",
+            "adj. (công nghệ) có mức độ phức tạp cao",
+            "adj. (người) am hiểu, có gu thẩm mỹ tinh tế"
+        ],
+        "usphone": "səˈfɪstɪkeɪtɪd",
+        "ukphone": "səˈfɪstɪkeɪtɪd"
+    },
+    {
+        "name": "streamline",
+        "trans": [
+            "v. tinh gọn, hợp lý hóa quy trình",
+            "v. đơn giản hóa, loại bỏ bước thừa",
+            "v. (IT) tăng hiệu suất, dễ bảo trì hơn"
+        ],
+        "usphone": "ˈstrimlaɪn",
+        "ukphone": "ˈstriːmlaɪn"
+    },
+    {
+        "name": "declarative",
+        "trans": [
+            "adj. (IT) mang tính khai báo, mô tả kết quả mong muốn",
+            "adj. (ngôn ngữ) trần thuật, khẳng định",
+            "adj. (cấu hình) khai báo YAML/Kubernetes"
+        ],
+        "usphone": "dɪˈklærətɪv",
+        "ukphone": "dɪˈklærətɪv"
+    },
+    {
+        "name": "utilize",
+        "trans": [
+            "v. sử dụng, tận dụng hiệu quả",
+            "v. khai thác tiềm năng/giá trị của thứ gì đó",
+            "v. (IT) sử dụng công nghệ/thuật toán cụ thể"
+        ],
+        "usphone": "ˈjuːtəlaɪz",
+        "ukphone": "ˈjuːtɪlaɪz"
+    },
+    {
+        "name": "manipulate",
+        "trans": [
+            "v. thao tác, xử lý dữ liệu/giá trị",
+            "v. (IT) thao tác DOM, thay đổi dữ liệu",
+            "v. thao túng, điều khiển người khác một cách khéo léo"
+        ],
+        "usphone": "məˈnɪpjuleɪt",
+        "ukphone": "məˈnɪpjʊleɪt"
+    },
+    {
+        "name": "semantics",
+        "trans": [
+            "n. ngữ nghĩa, ý nghĩa thực sự",
+            "n. (IT) hành vi mà đoạn mã/lệnh thực hiện",
+            "n. (khác syntax) ý nghĩa vs hình thức viết"
+        ],
+        "usphone": "səˈmæntɪks",
+        "ukphone": "səˈmæntɪks"
+    },
+    {
+        "name": "on the fly",
+        "trans": [
+            "adv. ngay lập tức, trong lúc đang thực hiện",
+            "adv. (IT) xử lý ngay khi chạy, không chuẩn bị trước",
+            "adv. ứng biến nhanh theo tình huống thực tế"
+        ],
+        "usphone": "ɑn ðə flaɪ",
+        "ukphone": "ɒn ðə flaɪ"
+    },
+    {
+        "name": "trickle down",
+        "trans": [
+            "v. chảy nhỏ giọt xuống dần",
+            "v. (kinh tế) lan tỏa từ cấp cao xuống thấp",
+            "v. (công ty) ảnh hưởng từ quản lý cấp cao truyền xuống nhân viên"
+        ],
+        "usphone": "ˈtrɪkəl daʊn",
+        "ukphone": "ˈtrɪkəl daʊn"
+    },
+    {
+        "name": "supplement",
+        "trans": [
+            "v. bổ sung thêm thông tin/nguồn lực",
+            "n. thực phẩm chức năng, vitamin bổ sung",
+            "n. khoản thu nhập/thanh toán bổ sung"
+        ],
+        "usphone": "ˈsʌpləmənt",
+        "ukphone": "ˈsʌplɪmənt"
+    },
+    {
+        "name": "accessibility",
+        "trans": [
+            "n. khả năng tiếp cận (người khuyết tật)",
+            "n. (IT) thiết kế cho mọi người sử dụng được",
+            "n. (WCAG) tiêu chuẩn truy cập web, khả năng truy cập"
+        ],
+        "usphone": "ækˈsɛsəbɪləti",
+        "ukphone": "ækˈsɛsɪbɪləti"
+    },
+    {
+        "name": "repetitive",
+        "trans": [
+            "adj. lặp đi lặp lại, đơn điệu",
+            "adj. (công việc) tác vụ lặp lại không thay đổi",
+            "n. (y tế) chấn thương do lặp lại (RSI)"
+        ],
+        "usphone": "rɪˈpɛtətɪv",
+        "ukphone": "rɪˈpɛtɪtɪv"
+    },
+    {
+        "name": "serve",
+        "trans": [
+            "v. phục vụ, cung cấp dịch vụ",
+            "v. (IT) phục vụ nội dung/yêu cầu đến người dùng",
+            "v. đóng vai trò là, phục vụ một mục đích"
+        ],
+        "usphone": "sɜrv",
+        "ukphone": "sɜːv"
+    },
+    {
+        "name": "repository",
+        "trans": [
+            "n. kho lưu trữ (mã nguồn, dữ liệu)",
+            "n. (Git) nơi lưu trữ mã nguồn của dự án",
+            "n. (dữ liệu) nơi lưu trữ tập trung, trung tâm"
+        ],
+        "usphone": "rɪˈpɑzətɔri",
+        "ukphone": "rɪˈpɒzətəri"
+    },
+    {
+        "name": "concept",
+        "trans": [
+            "n. khái niệm, ý tưởng",
+            "n. POC (proof of concept) bằng chứng khái niệm",
+            "n. (IT) nguyên lý, ý tưởng nền tảng"
+        ],
+        "usphone": "ˈkɑnsɛpt",
+        "ukphone": "ˈkɒnsɛpt"
+    },
+    {
+        "name": "architecture",
+        "trans": [
+            "n. kiến trúc, cấu trúc tổng thể hệ thống",
+            "n. (IT) thiết kế hệ thống phần mềm, cách tổ chức thành phần",
+            "n. microservices/monolithic kiến trúc"
+        ],
+        "usphone": "ˈɑrkɪtɛktʃər",
+        "ukphone": "ˈɑːkɪtɛktʃə"
+    },
+    {
+        "name": "architectural",
+        "trans": [
+            "adj. liên quan đến kiến trúc hệ thống",
+            "adj. thuộc về cấu trúc xây dựng"
+        ],
+        "usphone": "arkɪtɛktʃərəl",
+        "ukphone": "ɑːkɪtɛktʃərəl"
+    },
+    {
+        "name": "encounter",
+        "trans": [
+            "v. gặp phải, đối mặt",
+            "n. cuộc gặp gỡ, sự đối mặt"
+        ],
+        "usphone": "ɪnkaʊntər",
+        "ukphone": "ɪnkaʊntər"
+    },
+    {
+        "name": "certain",
+        "trans": [
+            "adj. chắc chắn, tin tưởng",
+            "adj. nào đó, nhất định"
+        ],
+        "usphone": "sɜrtn",
+        "ukphone": "sɜːtn"
+    },
+    {
+        "name": "strengthen",
+        "trans": [
+            "v. củng cố, tăng cường",
+            "v. làm cho mạnh hơn"
+        ],
+        "usphone": "strɛŋθən",
+        "ukphone": "streŋθən"
+    },
+    {
+        "name": "cram",
+        "trans": [
+            "v. nhồi nhét, chứa",
+            "v. học gấp, học dồn"
+        ],
+        "usphone": "kræm",
+        "ukphone": "kræm"
+    },
+    {
+        "name": "pitfall",
+        "trans": [
+            "n. cạm bẫy, sai lầm tiềm ẩn",
+            "n. rủi ro dễ mắc phải"
+        ],
+        "usphone": "pɪtfɔl",
+        "ukphone": "pɪtfɔːl"
+    },
+    {
+        "name": "effect",
+        "trans": [
+            "n. kết quả, tác động",
+            "n. hiệu ứng, hậu quả"
+        ],
+        "usphone": "ɪfɛkt",
+        "ukphone": "ɪfɛkt"
+    },
+    {
+        "name": "retain",
+        "trans": [
+            "v. giữ lại, duy trì",
+            "v. ghi nhớ, lưu giữ"
+        ],
+        "usphone": "rɪteɪn",
+        "ukphone": "rɪteɪn"
+    },
+    {
+        "name": "elegantly",
+        "trans": [
+            "adv. một cách thanh lịch, tinh tế",
+            "adv. gọn gàng nhưng hiệu quả"
+        ],
+        "usphone": "ɛləɡəntli",
+        "ukphone": "ɛlɪɡəntli"
+    },
+    {
+        "name": "trade-off",
+        "trans": [
+            "n. sự đánh đổi",
+            "n. sự cân bằng lợi-hại"
+        ],
+        "usphone": "treɪd ɔf",
+        "ukphone": "treɪd ɒf"
+    },
+    {
+        "name": "for instance",
+        "trans": [
+            "adv. ví dụ như",
+            "adv. chẳng hạn"
+        ],
+        "usphone": "fɔr ɪnstəns",
+        "ukphone": "fɔː ɪnstəns"
+    },
+    {
+        "name": "structure",
+        "trans": [
+            "n. cấu trúc, tổ chức",
+            "v. sắp xếp, tổ chức"
+        ],
+        "usphone": "strʌktʃər",
+        "ukphone": "strʌktʃə"
+    },
+    {
+        "name": "occasionally",
+        "trans": [
+            "adv. thỉnh thoảng",
+            "adv. đôi khi"
+        ],
+        "usphone": "əkeɪʒənəli",
+        "ukphone": "əkeɪʒənəli"
+    },
+    {
+        "name": "authority",
+        "trans": [
+            "n. thẩm quyền, quyền lực",
+            "n. cơ quan chức trách"
+        ],
+        "usphone": "ɔθɑrəti",
+        "ukphone": "ɔːθɒrəti"
+    },
+    {
+        "name": "accomplish",
+        "trans": [
+            "v. hoàn thành, đạt được",
+            "v. hoàn tất một mục tiêu"
+        ],
+        "usphone": "əkɑmplɪʃ",
+        "ukphone": "əkɒmplɪʃ"
+    },
+    {
+        "name": "hierarchy",
+        "trans": [
+            "n. hệ thống cấp bậc",
+            "n. thứ bậc, phân cấp"
+        ],
+        "usphone": "haɪərɑrki",
+        "ukphone": "haɪərɑːki"
+    },
+    {
+        "name": "propagation",
+        "trans": [
+            "n. sự lan truyền",
+            "n. sự truyền bá"
+        ],
+        "usphone": "prɑpəɡeɪʃən",
+        "ukphone": "prɒpəɡeɪʃən"
+    },
+    {
+        "name": "stripping out",
+        "trans": [
+            "v. loại bỏ hoàn toàn",
+            "v. tước bỏ, gỡ bỏ"
+        ],
+        "usphone": "strɪpɪŋ aʊt",
+        "ukphone": "strɪpɪŋ aʊt"
+    },
+    {
+        "name": "preference",
+        "trans": [
+            "n. sở thích",
+            "n. lựa chọn ưa thích"
+        ],
+        "usphone": "prɛfərəns",
+        "ukphone": "prɛfərəns"
+    },
+    {
+        "name": "enforce",
+        "trans": [
+            "v. thực thi",
+            "v. cưỡng chế, buộc tuân theo"
+        ],
+        "usphone": "ɪnfɔrs",
+        "ukphone": "ɪnfɔːs"
+    },
+    {
+        "name": "embody",
+        "trans": [
+            "v. thể hiện",
+            "v. là hiện thân của"
+        ],
+        "usphone": "ɪmbɑdi",
+        "ukphone": "ɪmbɒdi"
+    },
+    {
+        "name": "at its heart",
+        "trans": [
+            "adv. về bản chất",
+            "adv. ở cốt lõi, sâu xa nhất"
+        ],
+        "usphone": "ət ɪts hɑrt",
+        "ukphone": "ət ɪts hɑːt"
+    },
+    {
+        "name": "reflect",
+        "trans": [
+            "v. phản ánh, thể hiện",
+            "v. suy ngẫm, nhìn lại"
+        ],
+        "usphone": "rɪflɛkt",
+        "ukphone": "rɪflɛkt"
+    },
+    {
+        "name": "effectively",
+        "trans": [
+            "adv. một cách hiệu quả",
+            "adv. trên thực tế, về cơ bản"
+        ],
+        "usphone": "ɪfɛktɪvli",
+        "ukphone": "ɪfɛktɪvli"
+    },
+    {
+        "name": "essentially",
+        "trans": [
+            "adv. về cơ bản",
+            "adv. về bản chất"
+        ],
+        "usphone": "ɪsɛnʃəli",
+        "ukphone": "ɪsenʃəli"
+    },
+    {
+        "name": "blueprint",
+        "trans": [
+            "n. bản thiết kế, kế hoạch chi tiết",
+            "n. khuôn mẫu, mô hình để làm theo"
+        ],
+        "usphone": "bluprɪnt",
+        "ukphone": "bluprɪnt"
+    },
+    {
+        "name": "ultimately",
+        "trans": [
+            "adv. cuối cùng, rốt cuộc",
+            "adv. xét đến cùng, sau cùng"
+        ],
+        "usphone": "ʌltɪmətli",
+        "ukphone": "ʌltɪmətli"
+    },
+    {
+        "name": "prescribe",
+        "trans": [
+            "v. kê đơn thuốc",
+            "v. quy định, chỉ định cách thực hiện"
+        ],
+        "usphone": "prɪskraɪb",
+        "ukphone": "prɪskraɪb"
+    },
+    {
+        "name": "distinction",
+        "trans": [
+            "n. sự phân biệt, sự khác biệt rõ ràng",
+            "n. danh dự, vinh dự (tốt nghiệp loại xuất sắc)"
+        ],
+        "usphone": "dɪstɪŋkʃən",
+        "ukphone": "dɪstɪŋkʃən"
+    },
+    {
+        "name": "portion",
+        "trans": [
+            "n. phần, một phần của tổng thể",
+            "n. khẩu phần ăn, lượng ăn"
+        ],
+        "usphone": "pɔrʃən",
+        "ukphone": "pɔːʃən"
+    },
+    {
+        "name": "caught up",
+        "trans": [
+            "adj. bị cuốn vào, mải mê trong",
+            "adj. đã bắt kịp, cập nhật công việc"
+        ],
+        "usphone": "kɔt ʌp",
+        "ukphone": "kɔːt ʌp"
+    },
+    {
+        "name": "typically",
+        "trans": [
+            "adv. thông thường, điển hình",
+            "adv. theo cách phổ biến nhất"
+        ],
+        "usphone": "tɪpɪkəli",
+        "ukphone": "tɪpɪkəli"
+    },
+    {
+        "name": "makes sense",
+        "trans": [
+            "v. hợp lý, có ý nghĩa",
+            "v. dễ hiểu, logic"
+        ],
+        "usphone": "meɪks sens",
+        "ukphone": "meɪks sens"
+    },
+    {
+        "name": "entangling",
+        "trans": [
+            "v. vướng mắc, làm rối rắm với nhau",
+            "v. làm phức tạp, khó tách rời"
+        ],
+        "usphone": "ɪntæŋɡəlɪŋ",
+        "ukphone": "ɪntæŋɡəlɪŋ"
+    },
+    {
+        "name": "awareness",
+        "trans": [
+            "n. nhận thức, ý thức về",
+            "n. sự hiểu biết, phát hiện"
+        ],
+        "usphone": "əwɛrnəs",
+        "ukphone": "əweənəs"
+    },
+    {
+        "name": "acknowledge",
+        "trans": [
+            "v. công nhận, thừa nhận",
+            "v. xác nhận đã nhận được (trong IT)"
+        ],
+        "usphone": "əknɑlɪdʒ",
+        "ukphone": "əknɒlɪdʒ"
+    },
+    {
+        "name": "harness",
+        "trans": [
+            "v. khai thác, tận dụng sức mạnh",
+            "v. kiểm soát, sử dụng hiệu quả"
+        ],
+        "usphone": "hɑrnɪs",
+        "ukphone": "hɑːnɪs"
+    },
+    {
+        "name": "literally",
+        "trans": [
+            "adv. theo nghĩa đen, chính xác",
+            "adv. (thông tục) thực sự, thực ra"
+        ],
+        "usphone": "lɪtərəli",
+        "ukphone": "lɪtərəli"
+    },
+    {
+        "name": "dedicate",
+        "trans": [
+            "v. cống hiến, dành riêng cho",
+            "v. chuyên dụng, tập trung toàn bộ vào"
+        ],
+        "usphone": "dɛdɪkeɪt",
+        "ukphone": "dɛdɪkeɪt"
+    },
+    {
+        "name": "empower",
+        "trans": [
+            "v. trao quyền, cho phép hành động độc lập",
+            "v. tăng cường năng lực, khả năng"
+        ],
+        "usphone": "ɪmpaʊər",
+        "ukphone": "ɪmpaʊə"
+    },
+    {
+        "name": "inspire",
+        "trans": [
+            "v. truyền cảm hứng, khơi dậy",
+            "v. gợi ý, đúc kết từ ý tưởng"
+        ],
+        "usphone": "ɪnspaɪr",
+        "ukphone": "ɪnspaɪə"
+    },
+    {
+        "name": "accessible",
+        "trans": [
+            "adj. dễ tiếp cận, có thể truy cập được",
+            "adj. dễ hiểu, dễ tiếp nhận"
+        ],
+        "usphone": "əksɛsəbəl",
+        "ukphone": "əksɛsɪbəl"
+    },
+    {
+        "name": "forefront",
+        "trans": [
+            "n. hàng đầu, vị trí tiên phong",
+            "n. dẫn đầu trong một lĩnh vực"
+        ],
+        "usphone": "fɔrfrʌnt",
+        "ukphone": "fɔːfrʌnt"
+    },
+    {
+        "name": "elsewhere",
+        "trans": [
+            "adv. ở nơi khác, chỗ khác",
+            "adv. trong nguồn/tài liệu khác"
+        ],
+        "usphone": "elswɛər",
+        "ukphone": "elsweə"
+    },
+    {
+        "name": "trauma",
+        "trans": [
+            "n. chấn thương thể chất",
+            "n. sang chấn tâm lý, tổn thương tinh thần"
+        ],
+        "usphone": "traʊmə",
+        "ukphone": "trɔːmə"
+    },
+    {
+        "name": "practically",
+        "trans": [
+            "adv. một cách thực tế, dựa trên khả thi",
+            "adv. gần như, hầu như"
+        ],
+        "usphone": "præktɪkəli",
+        "ukphone": "præktɪkəli"
+    },
+    {
+        "name": "featured",
+        "trans": [
+            "adj. được giới thiệu nổi bật",
+            "adj. xuất hiện, có sự tham gia"
+        ],
+        "usphone": "fiːtʃərd",
+        "ukphone": "fiːtʃəd"
+    },
+    {
+        "name": "outline",
+        "trans": [
+            "n. dàn ý, bản tóm tắt các điểm chính",
+            "n. đường viền, hình dáng bên ngoài",
+            "v. phác thảo, vạch ra"
+        ],
+        "usphone": "aʊtlaɪn",
+        "ukphone": "aʊtlaɪn"
+    },
+    {
+        "name": "overall",
+        "trans": [
+            "adj. tổng thể, bao quát",
+            "adv. nhìn chung, nói chung"
+        ],
+        "usphone": "oʊvərɔl",
+        "ukphone": "əʊvərɔːl"
+    },
+    {
+        "name": "come up",
+        "trans": [
+            "v. xuất hiện, nảy sinh bất ngờ",
+            "v. (come up with) nghĩ ra, đưa ra giải pháp"
+        ],
+        "usphone": "kʌm ʌp",
+        "ukphone": "kʌm ʌp"
+    },
+    {
+        "name": "terminology",
+        "trans": [
+            "n. hệ thống thuật ngữ chuyên ngành",
+            "n. cách gọi tên chuyên biệt trong lĩnh vực",
+            "n. tập hợp từ vựng chuẩn hóa"
+        ],
+        "usphone": "tɝmɪnɑlədʒi",
+        "ukphone": "tɜːmɪnɒlədʒi"
+    },
+    {
+        "name": "integration",
+        "trans": [
+            "n. sự tích hợp, hợp nhất",
+            "n. kết nối hệ thống/API liền mạch",
+            "n. sự hòa nhập xã hội/văn hóa"
+        ],
+        "usphone": "ɪntɪɡreɪʃən",
+        "ukphone": "ɪntɪɡreɪʃən"
+    },
+    {
+        "name": "tend",
+        "trans": [
+            "v. có xu hướng, thường có khuynh hướng",
+            "v. chăm sóc, trông nom"
+        ],
+        "usphone": "tend",
+        "ukphone": "tend"
+    },
+    {
+        "name": "coverage",
+        "trans": [
+            "n. độ bao phủ, phạm vi bao quát",
+            "n. phạm vi bảo hiểm",
+            "n. sự đưa tin của truyền thông"
+        ],
+        "usphone": "kʌvərɪdʒ",
+        "ukphone": "kʌvərɪdʒ"
+    },
+    {
+        "name": "flaky",
+        "trans": [
+            "adj. không ổn định, hay bị lỗi thất thường",
+            "adj. không đáng tin cậy",
+            "adj. hay bong tróc, vỡ vụn (lit.)"
+        ],
+        "usphone": "fleɪki",
+        "ukphone": "fleɪki"
+    },
+    {
+        "name": "measure",
+        "trans": [
+            "v. đo lường, xác định kích thước/số lượng",
+            "n. biện pháp, hành động cụ thể",
+            "n. thước đo, chỉ số"
+        ],
+        "usphone": "meʒər",
+        "ukphone": "meʒə"
+    },
+    {
+        "name": "fundamental",
+        "trans": [
+            "adj. cơ bản, nền tảng, căn bản",
+            "adj. cốt yếu, không thể thiếu",
+            "n. (plural: fundamentals) những nguyên lý cơ bản"
+        ],
+        "usphone": "fʌndəmentəl",
+        "ukphone": "fʌndəmentəl"
+    },
+    {
+        "name": "hermetic",
+        "trans": [
+            "adj. kín, cách ly hoàn toàn",
+            "adj. tự chứa, không phụ thuộc môi trường ngoài",
+            "adj. niêm phong kín khí"
+        ],
+        "usphone": "hərmetɪk",
+        "ukphone": "hɛmetɪk"
+    },
+    {
+        "name": "customize",
+        "trans": [
+            "v. tùy chỉnh, điều chỉnh theo yêu cầu riêng",
+            "v. cá nhân hóa giao diện/tính năng"
+        ],
+        "usphone": "kʌstəmaɪz",
+        "ukphone": "kʌstəmaɪz"
+    },
+    {
+        "name": "mechanism",
+        "trans": [
+            "n. cơ chế, cơ cấu hoạt động",
+            "n. quy trình kỹ thuật, hệ thống phối hợp",
+            "n. cách thức vận hành"
+        ],
+        "usphone": "mekənɪzəm",
+        "ukphone": "mekənɪzəm"
+    },
+    {
+        "name": "discard",
+        "trans": [
+            "v. loại bỏ, vứt bỏ",
+            "v. không dùng nữa, từ bỏ",
+            "v. loại bỏ dữ liệu/gói tin không hợp lệ"
+        ],
+        "usphone": "dɪskɑrd",
+        "ukphone": "dɪskɑːd"
+    },
+    {
+        "name": "briefly",
+        "trans": [
+            "adv. ngắn gọn, súc tích",
+            "adv. trong thời gian ngắn, chốc lát"
+        ],
+        "usphone": "brifli",
+        "ukphone": "briːfli"
+    },
+    {
+        "name": "struggle",
+        "trans": [
+            "v. vật lộn, đấu tranh, gặp khó khăn",
+            "v. nỗ lực hết sức để đối phó",
+            "n. cuộc đấu tranh, sự vật lộn"
+        ],
+        "usphone": "strʌɡəl",
+        "ukphone": "strʌɡəl"
+    },
+    {
+        "name": "transactional",
+        "trans": [
+            "adj. thuộc về giao dịch, liên quan đến giao dịch",
+            "adj. có tính trao đổi lợi ích qua lại",
+            "adj. đảm bảo tính toàn vẹn dữ liệu"
+        ],
+        "usphone": "trænzækʃənəl",
+        "ukphone": "trænzækʃənəl"
+    },
+    {
+        "name": "operation",
+        "trans": [
+            "n. hoạt động, thao tác cụ thể",
+            "n. quá trình vận hành, hành động",
+            "n. ca phẫu thuật (medical)"
+        ],
+        "usphone": "ɑpəreɪʃən",
+        "ukphone": "ɒpəreɪʃən"
+    },
+    {
+        "name": "maintaining",
+        "trans": [
+            "v. duy trì, bảo trì ổn định",
+            "v. giữ vững, không để xuống cấp",
+            "n. sự bảo trì, duy trì"
+        ],
+        "usphone": "meɪnteɪnɪŋ",
+        "ukphone": "meɪnteɪnɪŋ"
+    },
+    {
+        "name": "retrieval",
+        "trans": [
+            "n. sự truy xuất, lấy lại dữ liệu",
+            "n. truy xuất thông tin từ hệ thống lưu trữ",
+            "n. thời gian/tốc độ truy xuất"
+        ],
+        "usphone": "rɪtrivəl",
+        "ukphone": "rɪtriːvəl"
+    },
+    {
+        "name": "manipulation",
+        "trans": [
+            "n. sự thao tác, xử lý dữ liệu",
+            "n. sự thao túng, điều khiển khéo léo",
+            "n. xử lý chuỗi/mảng (IT)"
+        ],
+        "usphone": "mənɪpjəleɪʃən",
+        "ukphone": "mənɪpjuːleɪʃən"
+    },
+    {
+        "name": "indexing",
+        "trans": [
+            "n. việc đánh chỉ mục, lập chỉ mục",
+            "n. tạo mục lục để tìm kiếm nhanh",
+            "n. việc lập chỉ mục công cụ tìm kiếm"
+        ],
+        "usphone": "ɪndeksɪŋ",
+        "ukphone": "ɪndeksɪŋ"
+    },
+    {
+        "name": "entity",
+        "trans": [
+            "n. thực thể, đối tượng tồn tại độc lập",
+            "n. pháp nhân, thực thể pháp lý",
+            "n. đối tượng dữ liệu trong hệ thống"
+        ],
+        "usphone": "entɪti",
+        "ukphone": "entɪti"
+    },
+    {
+        "name": "foundation",
+        "trans": [
+            "n. nền tảng, nền móng, cơ sở",
+            "n. kiến thức cơ bản cần nắm vững",
+            "n. tổ chức từ thiện, pháp nhân từ thiện"
+        ],
+        "usphone": "faʊndeɪʃən",
+        "ukphone": "faʊndeɪʃən"
+    },
+    {
+        "name": "compel",
+        "trans": [
+            "v. bắt buộc, thúc ép phải làm",
+            "v. buộc ai đó tuân theo quy định",
+            "v. cưỡng chế, bắt buộc"
+        ],
+        "usphone": "kəmpel",
+        "ukphone": "kəmpel"
+    },
+    {
+        "name": "stand out",
+        "trans": [
+            "v. nổi bật, khác biệt rõ rệt",
+            "v. dễ nhận thấy, không hòa lẫn",
+            "v. xuất sắc hơn người khác"
+        ],
+        "usphone": "stænd aʊt",
+        "ukphone": "stænd aʊt"
+    },
+    {
+        "name": "advantage",
+        "trans": [
+            "n. lợi thế, ưu thế so với người khác",
+            "n. lợi ích, ưu điểm thuận lợi",
+            "n. điều kiện tốt hơn trong cạnh tranh"
+        ],
+        "usphone": "ədvæntɪdʒ",
+        "ukphone": "ədvɑːntɪdʒ"
+    },
+    {
+        "name": "portable",
+        "trans": [
+            "adj. di động, dễ mang theo",
+            "adj. có thể chạy trên nhiều nền tảng",
+            "adj. linh hoạt, có thể ứng dụng rộng rãi"
+        ],
+        "usphone": "pɔrtəbəl",
+        "ukphone": "pɔːtəbəl"
+    },
+    {
+        "name": "at rest",
+        "trans": [
+            "n. dữ liệu ở trạng thái lưu trữ",
+            "adj. ở trạng thái tĩnh, không chuyển động"
+        ],
+        "usphone": "ət rɛst",
+        "ukphone": "ət rest"
+    },
+    {
+        "name": "transit",
+        "trans": [
+            "n. dữ liệu đang truyền",
+            "n. vận chuyển, quá cảnh",
+            "n. giao thông công cộng"
+        ],
+        "usphone": "trænzət",
+        "ukphone": "trænzɪt"
+    },
+    {
+        "name": "rigid",
+        "trans": [
+            "adj. cứng nhắc, không linh hoạt",
+            "adj. cứng rắn, khó uốn cong"
+        ],
+        "usphone": "rɪdʒɪd",
+        "ukphone": "rɪdʒɪd"
+    },
+    {
+        "name": "methodical",
+        "trans": [
+            "adj. có phương pháp, bài bản",
+            "adj. cẩn thận, tỉ mỉ"
+        ],
+        "usphone": "məθɑdɪkəl",
+        "ukphone": "məθɒdɪkəl"
+    },
+    {
+        "name": "reasoning",
+        "trans": [
+            "n. sự suy luận",
+            "n. khả năng suy luận logic",
+            "n. lập luận, lý lẽ"
+        ],
+        "usphone": "riːzənɪŋ",
+        "ukphone": "riːzənɪŋ"
+    },
+    {
+        "name": "backed by",
+        "trans": [
+            "adj. được hậu thuẫn bởi",
+            "adj. được hỗ trợ bởi"
+        ],
+        "usphone": "bækt baɪ",
+        "ukphone": "bækt baɪ"
+    },
+    {
+        "name": "reconcile",
+        "trans": [
+            "v. dung hòa, làm cho khớp nhau",
+            "v. đối chiếu, kiểm tra",
+            "v. hòa giải"
+        ],
+        "usphone": "rɛkənsaɪl",
+        "ukphone": "rɛkənsaɪl"
+    },
+    {
+        "name": "hazard",
+        "trans": [
+            "n. mối nguy hiểm",
+            "n. mối nguy hiểm bảo mật",
+            "n. rủi ro tiềm ẩn"
+        ],
+        "usphone": "hæzərd",
+        "ukphone": "hæzəd"
+    },
+    {
+        "name": "enumerate",
+        "trans": [
+            "v. liệt kê các mục",
+            "v. liệt kê các giá trị (lập trình)",
+            "v. đếm và nêu ra từng phần tử"
+        ],
+        "usphone": "ɪnuːməreɪt",
+        "ukphone": "ɪnjuːməreɪt"
+    },
+    {
+        "name": "retroactively",
+        "trans": [
+            "adv. hồi tố, áp dụng ngược về trước"
+        ],
+        "usphone": "reːtroʊæktɪvli",
+        "ukphone": "reːtrəʊæktɪvli"
+    },
+    {
+        "name": "deliberate",
+        "trans": [
+            "adj. cố ý, có chủ đích",
+            "v. cân nhắc kỹ lưỡng"
+        ],
+        "usphone": "dɪlɪbərət",
+        "ukphone": "dɪlɪbərət"
+    },
+    {
+        "name": "conservative",
+        "trans": [
+            "adj. thận trọng, an toàn",
+            "adj. sử dụng công nghệ đã kiểm chứng"
+        ],
+        "usphone": "kənsɜrvətɪv",
+        "ukphone": "kənsɜːvətɪv"
+    },
+    {
+        "name": "genuinely",
+        "trans": [
+            "adv. thực sự, chân thành"
+        ],
+        "usphone": "dʒɛnjuɪnli",
+        "ukphone": "dʒɛnjuɪnli"
+    },
+    {
+        "name": "hypothesis",
+        "trans": [
+            "n. giả thuyết",
+            "n. giả định cần được kiểm chứng"
+        ],
+        "usphone": "haɪpɑθəsɪs",
+        "ukphone": "haɪpɒθəsɪs"
+    },
+    {
+        "name": "conceptually",
+        "trans": [
+            "adv. về mặt khái niệm, nguyên lý",
+            "adv. về mặt lý thuyết"
+        ],
+        "usphone": "kɑnsɛptʃuəli",
+        "ukphone": "kɒnsɛptʃuəli"
+    },
+    {
+        "name": "interference",
+        "trans": [
+            "n. sự nhiễu tín hiệu",
+            "n. sự can thiệp",
+            "n. sự gây trở ngại"
+        ],
+        "usphone": "ɪntərfɪrəns",
+        "ukphone": "ɪntəfɪrəns"
+    },
+    {
+        "name": "compensate",
+        "trans": [
+            "v. bù đắp cho hạn chế",
+            "v. trả lương, bồi thường"
+        ],
+        "usphone": "kɑmpənseɪt",
+        "ukphone": "kɒmpənseɪt"
+    },
+    {
+        "name": "bolt",
+        "trans": [
+            "n. bu lông",
+            "v. gắn thêm một cách không tích hợp sâu"
+        ],
+        "usphone": "boʊlt",
+        "ukphone": "bəʊlt"
+    },
+    {
+        "name": "bidirectional",
+        "trans": [
+            "adj. hai chiều, song hướng",
+            "adj. truyền dữ liệu cả hai hướng"
+        ],
+        "usphone": "baɪdərɛkʃənəl",
+        "ukphone": "baɪdɪrɛkʃənəl"
+    },
+    {
+        "name": "asymmetric",
+        "trans": [
+            "adj. bất đối xứng (mã hóa)",
+            "adj. không cân xứng"
+        ],
+        "usphone": "eɪsɪmɛtrɪk",
+        "ukphone": "eɪsɪmɛtrɪk"
+    },
+    {
+        "name": "recall",
+        "trans": [
+            "n. độ nhạy, khả năng bắt được các trường hợp thật (ML)",
+            "n. sự thu hồi sản phẩm",
+            "v. nhớ lại"
+        ],
+        "usphone": "rɪkɔl",
+        "ukphone": "rɪkɔːl"
+    },
+    {
+        "name": "matter",
+        "trans": [
+            "v. quan trọng, có ý nghĩa",
+            "n. vấn đề, chủ đề",
+            "n. vật chất"
+        ],
+        "usphone": "mætər",
+        "ukphone": "mætə"
+    },
+    {
+        "name": "masquerade",
+        "trans": [
+            "n. sự giả danh, đội lốt",
+            "v. giả danh, mạo danh"
+        ],
+        "usphone": "mæskəreɪd",
+        "ukphone": "mɑːskəreɪd"
+    },
+    {
+        "name": "aggregate",
+        "trans": [
+            "v. tổng hợp, gộp lại",
+            "adj. tổng, tổng hợp"
+        ],
+        "usphone": "æɡrɪɡeɪt",
+        "ukphone": "æɡrɪɡeɪt"
+    },
+    {
+        "name": "impersonation",
+        "trans": [
+            "n. sự mạo danh, đóng giả",
+            "n. hành vi giả danh người khác"
+        ],
+        "usphone": "ɪmpərsəneɪʃən",
+        "ukphone": "ɪmpəsəneɪʃən"
+    },
+    {
+        "name": "tamper",
+        "trans": [
+            "v. can thiệp trái phép (dữ liệu/thiết bị)",
+            "v. thay đổi không được phép",
+            "n. sự can thiệp trái phép"
+        ],
+        "usphone": "tæmpɚ",
+        "ukphone": "tæmpə"
+    },
+    {
+        "name": "outbound",
+        "trans": [
+            "adj. hướng ra bên ngoài (lưu lượng, kết nối)",
+            "adj. chủ động tiếp cận (kinh doanh)",
+            "adj. khởi hành (chuyến bay)"
+        ],
+        "usphone": "aʊtbaʊnd",
+        "ukphone": "aʊtbaʊnd"
+    },
+    {
+        "name": "rogue",
+        "trans": [
+            "adj. trái phép, không được ủy quyền (thiết bị)",
+            "adj. bất hảo, không tuân thủ quy tắc",
+            "adj. hoạt động độc lập, ngoài vòng kiểm soát"
+        ],
+        "usphone": "roʊg",
+        "ukphone": "rəʊg"
+    },
+    {
+        "name": "sufficient",
+        "trans": [
+            "adj. đủ, đầy đủ (để đáp ứng yêu cầu)",
+            "adj. thỏa đáng, đạt chuẩn"
+        ],
+        "usphone": "səfɪʃənt",
+        "ukphone": "səfɪʃənt"
+    },
+    {
+        "name": "ephemeral",
+        "trans": [
+            "adj. tạm thời, phù du (bộ nhớ, container)",
+            "adj. ngắn ngủi, mong manh",
+            "adj. thoáng qua, chỉ tồn tại trong thời gian ngắn"
+        ],
+        "usphone": "ɪfɛmərəl",
+        "ukphone": "ɪfɛmərəl"
+    },
+    {
+        "name": "hardened",
+        "trans": [
+            "adj. được tăng cường bảo mật (hệ thống)",
+            "adj. được làm cứng, vững chắc (vật liệu)",
+            "adj. chắc chắn, không dễ gẫy"
+        ],
+        "usphone": "hɑrdənd",
+        "ukphone": "hɑːdənd"
+    },
+    {
+        "name": "complementary",
+        "trans": [
+            "adj. bổ trợ lẫn nhau, hoàn thiện lẫn nhau",
+            "adj. bổ sung để tạo thành tổng thể"
+        ],
+        "usphone": "kɑmpləmɛntəri",
+        "ukphone": "kɒmpləmɛntəri"
+    },
+    {
+        "name": "merely",
+        "trans": [
+            "adv. chỉ đơn thuần, chẳng qua là",
+            "adv. không gì hơn, đơn giản"
+        ],
+        "usphone": "mɪrli",
+        "ukphone": "mɪərli"
+    },
+    {
+        "name": "attestation",
+        "trans": [
+            "n. sự chứng thực, xác nhận chính thức",
+            "n. bằng chứng xác thực",
+            "n. chứng chỉ, giấy chứng nhận"
+        ],
+        "usphone": "ætɛsteɪʃən",
+        "ukphone": "ætɛsteɪʃən"
+    },
+    {
+        "name": "forge",
+        "trans": [
+            "v. làm giả (chứng chỉ, chữ ký, dữ liệu)",
+            "v. tạo ra một bản sao giả mạo",
+            "v. xây dựng vững chắc"
+        ],
+        "usphone": "fɔrdʒ",
+        "ukphone": "fɔːdʒ"
+    },
+    {
+        "name": "privileged",
+        "trans": [
+            "adj. có đặc quyền, quyền truy cập cao (tài khoản)",
+            "adj. được ưu tiên, có lợi thế",
+            "adj. có địa vị thuận lợi"
+        ],
+        "usphone": "prɪvəlɪdʒd",
+        "ukphone": "prɪvɪlɪdʒd"
+    },
+    {
+        "name": "corrupt",
+        "trans": [
+            "adj. bị hỏng, lỗi (dữ liệu)",
+            "adj. tham nhũng, đồi bại (hành vi)",
+            "v. làm hỏng, làm sai lệch"
+        ],
+        "usphone": "kərʌpt",
+        "ukphone": "kərʌpt"
+    },
+    {
+        "name": "additionally",
+        "trans": [
+            "adv. ngoài ra, thêm vào đó",
+            "adv. bổ sung, thêm thắt"
+        ],
+        "usphone": "ədɪʃənəli",
+        "ukphone": "ədɪʃənəli"
+    },
+    {
+        "name": "restriction",
+        "trans": [
+            "n. sự hạn chế, giới hạn",
+            "n. điều kiện ràng buộc, quy định",
+            "n. hạn chế quyền truy cập"
+        ],
+        "usphone": "rɪstrɪkʃən",
+        "ukphone": "rɪstrɪkʃən"
+    },
+    {
+        "name": "aim",
+        "trans": [
+            "v. nhắm đến, hướng tới (mục tiêu)",
+            "n. mục tiêu, mục đích cụ thể",
+            "v. nhắm (vũ khí, máy ảnh)"
+        ],
+        "usphone": "eɪm",
+        "ukphone": "eɪm"
+    },
+    {
+        "name": "vet",
+        "trans": [
+            "v. thẩm định, kiểm tra kỹ lưỡng",
+            "v. xác minh, xác thực danh tính",
+            "v. đánh giá tính hợp lệ"
+        ],
+        "usphone": "vɛt",
+        "ukphone": "vɛt"
+    },
+    {
+        "name": "emulate",
+        "trans": [
+            "v. mô phỏng, giả lập (hành vi hệ thống)",
+            "v. bắt chước, noi theo để đạt thành công",
+            "v. tạo môi trường ảo giả"
+        ],
+        "usphone": "ɛmjəleɪt",
+        "ukphone": "ɛmjəleɪt"
+    },
+    {
+        "name": "openness",
+        "trans": [
+            "n. sự cởi mở, tính minh bạch",
+            "n. sự sẵn sàng tiếp nhận ý kiến",
+            "n. tính mở của kiến trúc/tiêu chuẩn"
+        ],
+        "usphone": "oʊpənnəs",
+        "ukphone": "əʊpənnəs"
+    },
+    {
+        "name": "carrier",
+        "trans": [
+            "n. nhà mạng di động (viễn thông)",
+            "n. người/vật mang, chở, truyền tải",
+            "n. người mang mầm bệnh (y tế)"
+        ],
+        "usphone": "kæriər",
+        "ukphone": "kæriə"
+    },
+    {
+        "name": "malicious",
+        "trans": [
+            "adj. ác ý, có chủ đích xấu",
+            "adj. độc hại (phần mềm, lưu lượng)",
+            "adj. gây hại, phá hoại"
+        ],
+        "usphone": "məlɪʃəs",
+        "ukphone": "məlɪʃəs"
+    },
+    {
+        "name": "rule out",
+        "trans": [
+            "v. loại trừ, loại bỏ khỏi xem xét",
+            "v. loại bỏ khả năng sau khi kiểm tra"
+        ],
+        "usphone": "rul aʊt",
+        "ukphone": "ruːl aʊt"
+    },
+    {
+        "name": "solely",
+        "trans": [
+            "adv. chỉ, duy nhất, độc nhất",
+            "adv. chỉ dựa vào một yếu tố duy nhất",
+            "adv. chỉ để một mục đích cụ thể"
+        ],
+        "usphone": "soʊlli",
+        "ukphone": "səʊlli"
+    },
+    {
+        "name": "feasible",
+        "trans": [
+            "adj. khả thi, có thể thực hiện được",
+            "adj. thực tế, hợp lý (trên phương diện kỹ thuật/kinh tế)"
+        ],
+        "usphone": "fizəbəl",
+        "ukphone": "fiːzəbəl"
+    },
+    {
+        "name": "isolation",
+        "trans": [
+            "n. sự cô lập, tách biệt",
+            "n. sự tách rời khỏi những thứ xung quanh",
+            "n. trạng thái độc lập, không kết nối"
+        ],
+        "usphone": "aɪsəleɪʃən",
+        "ukphone": "aɪsəleɪʃən"
+    },
+    {
+        "name": "full-fledged",
+        "trans": [
+            "adj. đầy đủ, hoàn chỉnh, trưởng thành",
+            "adj. sẵn sàng hoạt động toàn diện (không ở giai đoạn thử nghiệm)"
+        ],
+        "usphone": "fʊlflɛdʒd",
+        "ukphone": "fʊlflɛdʒd"
+    },
+    {
+        "name": "identity",
+        "trans": [
+            "n. danh tính, bản sắc, đặc điểm nhận dạng",
+            "n. (IT) thông tin xác định một người dùng hoặc hệ thống",
+            "n. bản sắc thương hiệu, hình ảnh đặc trưng"
+        ],
+        "usphone": "aɪˈdɛntəti",
+        "ukphone": "aɪˈdɛntɪti"
+    },
+    {
+        "name": "define",
+        "trans": [
+            "v. định nghĩa, khai báo cấu trúc",
+            "v. xác định rõ ràng phạm vi, yêu cầu",
+            "v. (IT) thiết lập cấu trúc hoặc chức năng của một đối tượng"
+        ],
+        "usphone": "dɪˈfaɪn",
+        "ukphone": "dɪˈfaɪn"
+    },
+    {
+        "name": "sandbox",
+        "trans": [
+            "n. (IT/bảo mật) môi trường cô lập an toàn để chạy mã",
+            "n. (phát triển) môi trường thử nghiệm riêng biệt",
+            "n. hộp cát, không gian an toàn cách biệt"
+        ],
+        "usphone": "ˈsændbɑks",
+        "ukphone": "ˈsændbɒks"
+    },
+    {
+        "name": "appreciate",
+        "trans": [
+            "v. cảm kích, biết ơn sự giúp đỡ",
+            "v. đánh giá cao, hiểu rõ giá trị hoặc tầm quan trọng",
+            "v. tăng giá trị theo thời gian"
+        ],
+        "usphone": "əˈpriːʃieɪt",
+        "ukphone": "əˈpriːʃieɪt"
+    },
+    {
+        "name": "visualize",
+        "trans": [
+            "v. hình dung, trực quan hóa dữ liệu",
+            "v. (IT) biến dữ liệu số thành biểu đồ, hình ảnh",
+            "v. hình dung ra cấu trúc, luồng hoạt động của hệ thống"
+        ],
+        "usphone": "ˈvɪʒuəlaɪz",
+        "ukphone": "ˈvɪʒuəlaɪz"
+    },
+    {
+        "name": "vital",
+        "trans": [
+            "adj. sống còn, thiết yếu, cực kỳ quan trọng",
+            "adj. không thể thiếu để một hệ thống hoạt động",
+            "adj. (y tế) các chỉ số sống còn của cơ thể"
+        ],
+        "usphone": "ˈvaɪtəl",
+        "ukphone": "ˈvaɪtəl"
+    },
+    {
+        "name": "foster",
+        "trans": [
+            "v. thúc đẩy, nuôi dưỡng, khuyến khích phát triển",
+            "v. tạo điều kiện phát triển của một môi trường, văn hóa",
+            "v. (IT) thiết kế hệ thống khuyến khích mở rộng dễ dàng"
+        ],
+        "usphone": "ˈfɔstər",
+        "ukphone": "ˈfɒstə"
+    },
+    {
+        "name": "thrive",
+        "trans": [
+            "v. phát triển mạnh mẽ, thịnh vượng",
+            "v. đạt trạng thái tốt nhất có thể trong môi trường thuận lợi",
+            "v. (IT/công nghệ) được áp dụng rộng rãi, phổ biến"
+        ],
+        "usphone": "θraɪv",
+        "ukphone": "θraɪv"
+    },
+    {
+        "name": "rigorous",
+        "trans": [
+            "adj. nghiêm ngặt, kỹ lưỡng, chặt chẽ",
+            "adj. quy trình được thực hiện một cách cẩn thận, chính xác",
+            "adj. tuân theo tiêu chuẩn cao, không lơ là"
+        ],
+        "usphone": "ˈrɪɡərəs",
+        "ukphone": "ˈrɪɡərəs"
+    },
+    {
+        "name": "arguably",
+        "trans": [
+            "adv. có thể lập luận rằng, có cơ sở để nói rằng",
+            "adv. có thể nói là, có thể coi là",
+            "adv. mở cửa cho tranh luận nhưng có căn cứ hợp lý"
+        ],
+        "usphone": "ˈɑrɡjuəbli",
+        "ukphone": "ˈɑːɡjuəbli"
+    },
+    {
+        "name": "susceptible",
+        "trans": [
+            "adj. dễ bị ảnh hưởng, dễ tổn thương",
+            "adj. (IT/bảo mật) dễ bị tấn công, khai thác",
+            "adj. (y tế) dễ mắc bệnh, nhiễm trùng"
+        ],
+        "usphone": "səˈsɛptəbəl",
+        "ukphone": "səˈsɛptɪbəl"
+    },
+    {
+        "name": "interception",
+        "trans": [
+            "n. sự chặn bắt, đánh chặn",
+            "n. (IT/bảo mật) chặn bắt dữ liệu đang truyền trước khi đến người nhận",
+            "n. (quân sự) chặn bắt tín hiệu, liên lạc của đối phương"
+        ],
+        "usphone": "ɪntərˈsɛpʃən",
+        "ukphone": "ɪntəˈsɛpʃən"
+    },
+    {
+        "name": "redaction",
+        "trans": [
+            "n. sự biên tập, che/xóa thông tin nhạy cảm",
+            "n. (pháp lý) che xóa các phần nhạy cảm trong tài liệu",
+            "n. (IT) xóa hoặc che giấu dữ liệu cá nhân, nhạy cảm"
+        ],
+        "usphone": "rɪˈdækʃən",
+        "ukphone": "rɪˈdækʃən"
+    },
+    {
+        "name": "corporate",
+        "trans": [
+            "adj. thuộc về doanh nghiệp, tập đoàn",
+            "adj. liên quan đến toàn bộ công ty, mang tính chính sách chung",
+            "adj. (IT) hệ thống, hạ tầng công nghệ phục vụ toàn bộ tổ chức"
+        ],
+        "usphone": "ˈkɔrprət",
+        "ukphone": "ˈkɔːpərət"
+    },
+    {
+        "name": "validate",
+        "trans": [
+            "v. xác thực, kiểm chứng tính hợp lệ",
+            "v. (IT) kiểm tra dữ liệu đầu vào có đúng định dạng",
+            "v. kiểm chứng tính đúng đắn, khả thi của ý tưởng"
+        ],
+        "usphone": "ˈvælədeɪt",
+        "ukphone": "ˈvælədeɪt"
+    },
+    {
+        "name": "resistant",
+        "trans": [
+            "adj. có khả năng chống lại, kháng",
+            "adj. (IT/bảo mật) có khả năng chống lại các cuộc tấn công",
+            "adj. (y tế) chống lại thuốc, bệnh tật, nhiễm trùng"
+        ],
+        "usphone": "rɪˈzɪstənt",
+        "ukphone": "rɪˈzɪstənt"
+    },
+    {
+        "name": "enterprise",
+        "trans": [
+            "n. doanh nghiệp, công ty, tổ chức kinh doanh",
+            "adj. (IT) cấp độ doanh nghiệp, phức tạp, độ tin cậy cao",
+            "n. dự án, hoạt động mang tính rủi ro, táo bạo"
+        ],
+        "usphone": "ˈɛntərpraɪz",
+        "ukphone": "ˈɛntəpraɪz"
+    },
+    {
+        "name": "facade",
+        "trans": [
+            "n. mặt tiền, vẻ bề ngoài của tòa nhà",
+            "n. (IT) mẫu thiết kế che giấu sự phức tạp bên dưới",
+            "n. lớp vỏ, vẻ bề ngoài giả tạo che giấu bản chất thực"
+        ],
+        "usphone": "fəˈsɑd",
+        "ukphone": "fəˈsɑːd"
+    },
+    {
+        "name": "exfiltration",
+        "trans": [
+            "n. sự đánh cắp dữ liệu, rút dữ liệu trái phép",
+            "n. (IT/bảo mật) chuyển dữ liệu nhạy cảm ra ngoài mạng trái phép",
+            "n. hoạt động rút quân, đặc vụ ra khỏi khu vực nguy hiểm"
+        ],
+        "usphone": "ɛksfɪlˈtreɪʃən",
+        "ukphone": "ɛksfɪlˈtreɪʃən"
+    },
+    {
+        "name": "credential",
+        "trans": [
+            "n. thông tin xác thực (tên đăng nhập, mật khẩu, token)",
+            "n. (IT/bảo mật) thông tin dùng để xác thực danh tính người dùng",
+            "n. bằng cấp, chứng chỉ chứng minh năng lực, tư cách"
+        ],
+        "usphone": "krəˈdɛnʃəl",
+        "ukphone": "krɪˈdɛnʃəl"
+    },
+    {
+        "name": "vault",
+        "trans": [
+            "n. hộc, két sắt, hầm chứa an toàn",
+            "n. (IT/bảo mật) hệ thống lưu trữ tập trung bảo mật cho bí mật",
+            "n. kho lưu trữ khóa mã hóa, mật khẩu"
+        ],
+        "usphone": "vɔlt",
+        "ukphone": "vɔːlt"
+    },
+    {
+        "name": "breach",
+        "trans": [
+            "n. sự vi phạm, xâm nhập trái phép",
+            "n. (IT/bảo mật) sự cố xâm nhập, rò rỉ dữ liệu hệ thống",
+            "n. (pháp lý) vi phạm điều khoản, hợp đồng đã ký"
+        ],
+        "usphone": "britʃ",
+        "ukphone": "briːtʃ"
+    },
+    {
+        "name": "exploit",
+        "trans": [
+            "v. khai thác, lợi dụng lỗ hổng bảo mật",
+            "n. (IT/bảo mật) đoạn mã, kỹ thuật lợi dụng lỗ hổng",
+            "v. khai thác, tận dụng tối đa một cơ hội, tài nguyên"
+        ],
+        "usphone": "ɪkˈsplɔɪt",
+        "ukphone": "ɪkˈsplɔɪt"
+    },
+    {
+        "name": "victim",
+        "trans": [
+            "n. nạn nhân, người bị hại",
+            "n. (IT/bảo mật) người dùng, tổ chức bị tấn công mạng",
+            "n. người bị hại bởi hành vi phạm tội, gian lận"
+        ],
+        "usphone": "ˈvɪktɪm",
+        "ukphone": "ˈvɪktɪm"
+    },
+    {
+        "name": "hijack",
+        "trans": [
+            "v. cướp, chiếm đoạt trái phép",
+            "v. (IT/bảo mật) chiếm quyền kiểm soát một phiên làm việc",
+            "v. cướp máy bay, tàu, xe bằng vũ lực hoặc đe dọa"
+        ],
+        "usphone": "ˈhaɪdʒæk",
+        "ukphone": "ˈhaɪdʒæk"
+    },
+    {
+        "name": "espionage",
+        "trans": [
+            "n. hoạt động do thám, gián điệp",
+            "n. gián điệp mạng",
+            "n. gián điệp doanh nghiệp"
+        ],
+        "usphone": "ɛspiənaʒ",
+        "ukphone": "ɛspjənaʒ"
+    },
+    {
+        "name": "lapse",
+        "trans": [
+            "n. sơ suất, lỗi nhỏ",
+            "n. sự hết hạn",
+            "v. hết hạn, mất hiệu lực"
+        ],
+        "usphone": "læps",
+        "ukphone": "læps"
+    },
+    {
+        "name": "judgment",
+        "trans": [
+            "n. phán đoán, nhận định",
+            "n. khả năng ra quyết định",
+            "n. phán quyết của tòa"
+        ],
+        "usphone": "dʒʌdʒmənt",
+        "ukphone": "dʒʌdʒmənt"
+    },
+    {
+        "name": "leakage",
+        "trans": [
+            "n. sự rò rỉ dữ liệu",
+            "n. rò rỉ bộ nhớ",
+            "n. rò rỉ thông tin"
+        ],
+        "usphone": "liːkɪdʒ",
+        "ukphone": "liːkɪdʒ"
+    },
+    {
+        "name": "snippet",
+        "trans": [
+            "n. đoạn mã ngắn",
+            "n. trích đoạn văn bản",
+            "n. mẩu thông tin"
+        ],
+        "usphone": "snɪpət",
+        "ukphone": "snɪpɪt"
+    },
+    {
+        "name": "aid",
+        "trans": [
+            "n. công cụ hỗ trợ",
+            "n. sự giúp đỡ, viện trợ",
+            "v. hỗ trợ"
+        ],
+        "usphone": "eɪd",
+        "ukphone": "eɪd"
+    },
+    {
+        "name": "paramount",
+        "trans": [
+            "adj. tối thượng, hàng đầu",
+            "adj. quan trọng nhất",
+            "adj. ưu tiên tuyệt đối"
+        ],
+        "usphone": "pærəmaʊnt",
+        "ukphone": "pærəmaʊnt"
+    },
+    {
+        "name": "intellectual",
+        "trans": [
+            "adj. liên quan đến trí tuệ",
+            "n. sở hữu trí tuệ (IP)",
+            "n. trí thức"
+        ],
+        "usphone": "ɪntəlɛktʃuəl",
+        "ukphone": "ɪntəlɛktʃuəl"
+    },
+    {
+        "name": "posture",
+        "trans": [
+            "n. tư thế cơ thể",
+            "n. trạng thái bảo mật",
+            "n. lập trường chiến lược"
+        ],
+        "usphone": "pɑːstʃər",
+        "ukphone": "pɒstʃə"
+    },
+    {
+        "name": "permanently",
+        "trans": [
+            "adv. vĩnh viễn, mãi mãi",
+            "adv. không thể hoàn tác",
+            "adv. lâu dài"
+        ],
+        "usphone": "pɜːrmənəntli",
+        "ukphone": "pɜːmənəntli"
+    },
+    {
+        "name": "remediation",
+        "trans": [
+            "n. sự khắc phục lỗ hổng",
+            "n. quá trình xử lý sự cố",
+            "n. biện pháp sửa chữa"
+        ],
+        "usphone": "rɛmədiːeɪʃən",
+        "ukphone": "rɛmədiːeɪʃən"
+    },
+    {
+        "name": "harmful",
+        "trans": [
+            "adj. gây hại",
+            "adj. có tác dụng phụ",
+            "adj. nguy hiểm"
+        ],
+        "usphone": "hɑːrmfəl",
+        "ukphone": "hɑːmfəl"
+    },
+    {
+        "name": "containment",
+        "trans": [
+            "n. sự ngăn chặn",
+            "n. khoanh vùng vi phạm",
+            "n. giai đoạn kiểm soát"
+        ],
+        "usphone": "kənteɪnmənt",
+        "ukphone": "kənteɪnmənt"
+    },
+    {
+        "name": "interconnect",
+        "trans": [
+            "v. kết nối liên thông",
+            "v. nối kết lẫn nhau",
+            "n. sự kết nối liên thông"
+        ],
+        "usphone": "ɪntərəkɛkt",
+        "ukphone": "ɪntərəkɛkt"
+    },
+    {
+        "name": "repurpose",
+        "trans": [
+            "v. tái sử dụng cho mục đích khác",
+            "v. chuyển đổi mục đích sử dụng"
+        ],
+        "usphone": "riːpɜːpəs",
+        "ukphone": "riːpɜːpəs"
+    },
+    {
+        "name": "cryptographically",
+        "trans": [
+            "adv. về mặt mật mã học",
+            "adv. bằng kỹ thuật mã hóa",
+            "adv. được ký bằng mật mã"
+        ],
+        "usphone": "krɪptəɡræfɪkli",
+        "ukphone": "krɪptəɡræfɪkli"
+    },
+    {
+        "name": "imitation",
+        "trans": [
+            "n. bản sao, hàng giả",
+            "n. sự bắt chước, mô phỏng",
+            "n. phiên bản giả mạo"
+        ],
+        "usphone": "ɪməteɪʃən",
+        "ukphone": "ɪməteɪʃən"
+    },
+    {
+        "name": "consequence",
+        "trans": [
+            "n. hậu quả, kết quả",
+            "n. tác động",
+            "n. hệ quả, kết cục"
+        ],
+        "usphone": "kɑːnsəkwɛns",
+        "ukphone": "kɒnsɪkwəns"
+    },
+    {
+        "name": "invest",
+        "trans": [
+            "v. đầu tư (tiền)",
+            "v. bỏ tiền vào",
+            "v. dành thời gian cho"
+        ],
+        "usphone": "ɪnvɛst",
+        "ukphone": "ɪnvɛst"
+    },
+    {
+        "name": "sanitizer",
+        "trans": [
+            "n. chất khử trùng",
+            "n. bộ lọc làm sạch dữ liệu",
+            "n. nước rửa tay khử trùng"
+        ],
+        "usphone": "sænɪtaɪzər",
+        "ukphone": "sænɪtaɪzə"
+    },
+    {
+        "name": "opaque",
+        "trans": [
+            "adj. mờ đục, không trong suốt",
+            "adj. không minh bạch, khó hiểu",
+            "adj. không rõ ràng"
+        ],
+        "usphone": "oʊpeɪk",
+        "ukphone": "əʊpeɪk"
+    },
+    {
+        "name": "overwhelming",
+        "trans": [
+            "adj. áp đảo, quá tải",
+            "adj. choáng ngợp",
+            "adj. số lượng lớn áp đảo"
+        ],
+        "usphone": "oʊvərwɛlmɪŋ",
+        "ukphone": "əʊvəwɛlmɪŋ"
+    },
+    {
+        "name": "assure",
+        "trans": [
+            "v. đảm bảo",
+            "v. trấn an, cam đoan",
+            "v. làm yên tâm"
+        ],
+        "usphone": "əʃʊr",
+        "ukphone": "əʃɔː"
+    },
+    {
+        "name": "periodically",
+        "trans": [
+            "adv. định kỳ, theo chu kỳ",
+            "adv. lặp lại theo lịch trình",
+            "adv. thường xuyên có khoảng cách"
+        ],
+        "usphone": "pɪriːɑdɪkli",
+        "ukphone": "pɪriːɒdɪkli"
+    },
+    {
+        "name": "infect",
+        "trans": [
+            "v. lây nhiễm",
+            "v. làm nhiễm phần mềm độc hại",
+            "v. xâm nhập vào hệ thống"
+        ],
+        "usphone": "ɪnfɛkt",
+        "ukphone": "ɪnfɛkt"
+    },
+    {
+        "name": "Future-Proof",
+        "trans": [
+            "adj. bền vững theo thời gian",
+            "adj. không bị lỗi thời",
+            "adj. được thiết kế để đáp ứng nhu cầu tương lai"
+        ],
+        "usphone": "ˈfjuːtʃər pruːf",
+        "ukphone": "ˈfjuːtʃə pruːf"
+    },
+    {
+        "name": "well-funded",
+        "trans": [
+            "adj. được cấp vốn dồi dào",
+            "adj. có nguồn lực tài chính mạnh",
+            "adj. được đầu tư lớn"
+        ],
+        "usphone": "wel ˈfʌndɪd",
+        "ukphone": "wel ˈfʌndɪd"
+    },
+    {
+        "name": "knowledgeable",
+        "trans": [
+            "adj. am hiểu",
+            "adj. có nhiều kiến thức",
+            "adj. thành thạo, am tường"
+        ],
+        "usphone": "ˈnɑːlɪdʒəbəl",
+        "ukphone": "ˈnɒlɪdʒəbəl"
+    },
+    {
+        "name": "identically",
+        "trans": [
+            "adv. một cách giống hệt nhau",
+            "adv. y hệt nhau",
+            "adv. hoàn toàn trùng khớp"
+        ],
+        "usphone": "aɪˈdentɪkəli",
+        "ukphone": "aɪˈdentɪkəli"
+    },
+    {
+        "name": "contiguous",
+        "trans": [
+            "adj. liền kề",
+            "adj. tiếp giáp nhau",
+            "adj. liên tục không bị phân mảnh"
+        ],
+        "usphone": "kənˈtɪɡjuəs",
+        "ukphone": "kənˈtɪɡjuəs"
+    }
+]
