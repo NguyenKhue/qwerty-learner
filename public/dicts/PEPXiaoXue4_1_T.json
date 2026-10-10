@@ -2,7 +2,7 @@
     {
         "name": "classroom",
         "trans": [
-            "教室"
+            "lớp học, phòng học"
         ],
         "usphone": "'klæsrʊm",
         "ukphone": "'klɑːsruːm; -rʊm"
@@ -10,7 +10,7 @@
     {
         "name": "window",
         "trans": [
-            "窗户"
+            "cửa sổ"
         ],
         "usphone": "'wɪndo",
         "ukphone": "'wɪndəʊ"
@@ -18,7 +18,7 @@
     {
         "name": "blackboard",
         "trans": [
-            "黑板"
+            "bảng đen"
         ],
         "usphone": "'blækbɔrd",
         "ukphone": "'blækbɔːd"
@@ -34,7 +34,7 @@
     {
         "name": "picture",
         "trans": [
-            "图画"
+            "tranh vẽ; hình vẽ"
         ],
         "usphone": "'pɪktʃɚ",
         "ukphone": "'pɪktʃə"
@@ -42,7 +42,7 @@
     {
         "name": "door",
         "trans": [
-            "门"
+            "n. cửa"
         ],
         "usphone": "dɔr",
         "ukphone": "dɔː"
@@ -58,7 +58,7 @@
     {
         "name": "computer",
         "trans": [
-            "计算机"
+            "máy tính, máy tính điện tử"
         ],
         "usphone": "kəm'pjutɚ",
         "ukphone": "kəm'pjuːtə"
@@ -66,7 +66,7 @@
     {
         "name": "fan",
         "trans": [
-            "风扇"
+            "quạt"
         ],
         "usphone": "fæn",
         "ukphone": "fæn"
@@ -82,7 +82,7 @@
     {
         "name": "floor",
         "trans": [
-            "地板"
+            "sàn nhà"
         ],
         "usphone": "flɔr",
         "ukphone": "flɔː"
@@ -106,7 +106,7 @@
     {
         "name": "TV",
         "trans": [
-            "电视"
+            "tivi"
         ],
         "usphone": "ˌti vi",
         "ukphone": "ˌti: ˈvi:"
@@ -114,7 +114,7 @@
     {
         "name": "clean",
         "trans": [
-            "打扫"
+            "dọn dẹp"
         ],
         "usphone": "klin",
         "ukphone": "kliːn"
@@ -122,7 +122,7 @@
     {
         "name": "help",
         "trans": [
-            "帮助"
+            "giúp đỡ"
         ],
         "usphone": "hɛlp",
         "ukphone": "help"
@@ -130,7 +130,7 @@
     {
         "name": "schoolbag",
         "trans": [
-            "书包"
+            "n. cặp sách, ba lô"
         ],
         "usphone": "ˈskulˌbæɡ",
         "ukphone": "'skuːlbæɡ"
@@ -162,7 +162,7 @@
     {
         "name": "storybook",
         "trans": [
-            "故事书"
+            "sách truyện"
         ],
         "usphone": "'stɔrɪ'bʊk",
         "ukphone": "'stɔːrɪbʊk"
@@ -170,7 +170,7 @@
     {
         "name": "candy",
         "trans": [
-            "糖果"
+            "kẹo, kẹo ngọt, đường"
         ],
         "usphone": "ˈkændɪ",
         "ukphone": "'kændɪ"
@@ -178,7 +178,7 @@
     {
         "name": "notebook",
         "trans": [
-            "笔记本"
+            "sổ tay, vở ghi chép"
         ],
         "usphone": "'notbʊk",
         "ukphone": "'nəʊtbʊk"
@@ -186,7 +186,7 @@
     {
         "name": "toy",
         "trans": [
-            "玩具"
+            "đồ chơi; món đồ chơi"
         ],
         "usphone": "tɔɪ",
         "ukphone": "tɒɪ"
@@ -194,7 +194,7 @@
     {
         "name": "key",
         "trans": [
-            "钥匙"
+            "chìa khóa"
         ],
         "usphone": "",
         "ukphone": "kiː"
@@ -226,7 +226,7 @@
     {
         "name": "cute",
         "trans": [
-            "可爱的"
+            "đáng yêu, dễ thương"
         ],
         "usphone": "kjʊt",
         "ukphone": "kjuːt"
@@ -234,7 +234,7 @@
     {
         "name": "strong",
         "trans": [
-            "强壮的"
+            "manh me"
         ],
         "usphone": "strɔŋ",
         "ukphone": "strɒŋ"
@@ -242,7 +242,7 @@
     {
         "name": "friendly",
         "trans": [
-            "友好的"
+            "thân thiện"
         ],
         "usphone": "ˈfrɛndlɪ",
         "ukphone": "ˈfrendlɪ"
@@ -250,7 +250,7 @@
     {
         "name": "quiet",
         "trans": [
-            "安静的"
+            "yên tĩnh; lặng lẽ"
         ],
         "usphone": "'kwaɪət",
         "ukphone": "'kwaɪət"
@@ -258,7 +258,7 @@
     {
         "name": "hair",
         "trans": [
-            "头发"
+            "tóc"
         ],
         "usphone": "hɛr",
         "ukphone": "heə"
@@ -266,7 +266,7 @@
     {
         "name": "shoe",
         "trans": [
-            "鞋"
+            "n. giày, dép"
         ],
         "usphone": "ʃu",
         "ukphone": "ʃuː"
@@ -282,7 +282,7 @@
     {
         "name": "his",
         "trans": [
-            "他的"
+            "của hắn; của anh; của ông"
         ],
         "usphone": "hɪz",
         "ukphone": "hɪz"
@@ -306,7 +306,7 @@
     {
         "name": "hat",
         "trans": [
-            "帽子"
+            "mũ, nón"
         ],
         "usphone": "hæt",
         "ukphone": "hæt"
@@ -314,7 +314,7 @@
     {
         "name": "her",
         "trans": [
-            "她的"
+            "của cô ấy; của chị ấy; của bà ấy"
         ],
         "usphone": "hɚ",
         "ukphone": "hɜː"
@@ -322,7 +322,7 @@
     {
         "name": "bedroom",
         "trans": [
-            "卧室"
+            "phòng ngủ"
         ],
         "usphone": "'bɛdrum",
         "ukphone": "'bedruːm; -rʊm"
@@ -346,7 +346,7 @@
     {
         "name": "kitchen",
         "trans": [
-            "厨房"
+            "nhà bếp"
         ],
         "usphone": "'kɪtʃɪn",
         "ukphone": "'kɪtʃɪn; -tʃ(ə)n"
@@ -354,7 +354,7 @@
     {
         "name": "bathroom",
         "trans": [
-            "浴室"
+            "phòng tắm"
         ],
         "usphone": "'bæθrum",
         "ukphone": "'bɑːθruːm; -rʊm"
@@ -362,7 +362,7 @@
     {
         "name": "bed",
         "trans": [
-            "床"
+            "giường"
         ],
         "usphone": "bɛd",
         "ukphone": "bed"
@@ -370,7 +370,7 @@
     {
         "name": "phone",
         "trans": [
-            "电话"
+            "điện thoại"
         ],
         "usphone": "fon",
         "ukphone": "fəʊn"
@@ -378,7 +378,7 @@
     {
         "name": "table",
         "trans": [
-            "桌子"
+            "bàn, bàn làm việc"
         ],
         "usphone": "'tebl",
         "ukphone": "'teɪb(ə)l"
@@ -386,7 +386,7 @@
     {
         "name": "sofa",
         "trans": [
-            "长沙发"
+            "ghế dài, sofa"
         ],
         "usphone": "'sofə",
         "ukphone": "'səʊfə"
@@ -394,7 +394,7 @@
     {
         "name": "fridge",
         "trans": [
-            "冰箱"
+            "tủ lạnh"
         ],
         "usphone": "frɪdʒ",
         "ukphone": "frɪdʒ"
@@ -402,7 +402,7 @@
     {
         "name": "find",
         "trans": [
-            "找到"
+            "tìm thấy"
         ],
         "usphone": "faɪnd",
         "ukphone": "faɪnd"
@@ -410,7 +410,7 @@
     {
         "name": "them",
         "trans": [
-            "他们"
+            "họ; chúng; họ chúng"
         ],
         "usphone": "ðɛm; ðəm",
         "ukphone": "ðem; ðəm"
@@ -418,7 +418,7 @@
     {
         "name": "beef",
         "trans": [
-            "牛肉"
+            "thịt bò"
         ],
         "usphone": "bif",
         "ukphone": "biːf"
@@ -426,7 +426,7 @@
     {
         "name": "chicken",
         "trans": [
-            "鸡肉"
+            "thịt gà"
         ],
         "usphone": "ˈtʃɪkɪn",
         "ukphone": "'tʃɪkɪn"
@@ -434,7 +434,7 @@
     {
         "name": "noodles",
         "trans": [
-            "面条"
+            "mì"
         ],
         "usphone": "ˈnudlz",
         "ukphone": "ˈnu:dlz"
@@ -442,7 +442,7 @@
     {
         "name": "soup",
         "trans": [
-            "汤"
+            "n. món súp, canh"
         ],
         "usphone": "sup",
         "ukphone": "suːp"
@@ -450,7 +450,7 @@
     {
         "name": "vegetable",
         "trans": [
-            "蔬菜"
+            "rau; rau củ"
         ],
         "usphone": "ˈvɛdʒtəbl",
         "ukphone": "ˈvedʒtəbl"
@@ -458,7 +458,7 @@
     {
         "name": "chopsticks",
         "trans": [
-            "筷子"
+            "đũa"
         ],
         "usphone": "'tʃɑp,stɪks",
         "ukphone": "'tʃɒpstɪks"
@@ -466,7 +466,7 @@
     {
         "name": "bowl",
         "trans": [
-            "碗"
+            "bát, tô"
         ],
         "usphone": "bol",
         "ukphone": "bəʊl"
@@ -482,7 +482,7 @@
     {
         "name": "knife",
         "trans": [
-            "刀"
+            "dao"
         ],
         "usphone": "naɪf",
         "ukphone": "naɪf"
@@ -522,7 +522,7 @@
     {
         "name": "pass",
         "trans": [
-            "给"
+            "cho, tặng"
         ],
         "usphone": "pæs",
         "ukphone": "pɑːs"
@@ -538,7 +538,7 @@
     {
         "name": "parents",
         "trans": [
-            "父母"
+            "cha mẹ"
         ],
         "usphone": "'pɛrənts",
         "ukphone": "'peərənts"
@@ -554,7 +554,7 @@
     {
         "name": "uncle",
         "trans": [
-            "叔叔"
+            "chú; bác"
         ],
         "usphone": "'ʌŋkl",
         "ukphone": "'ʌŋk(ə)l"
@@ -578,7 +578,7 @@
     {
         "name": "doctor",
         "trans": [
-            "医生"
+            "bác sĩ, thầy thuốc"
         ],
         "usphone": "'dɑktɚ",
         "ukphone": "'dɒktə"
@@ -586,7 +586,7 @@
     {
         "name": "cook",
         "trans": [
-            "厨师"
+            "đầu bếp, đầu bếp"
         ],
         "usphone": "kʊk",
         "ukphone": "kʊk"
@@ -594,7 +594,7 @@
     {
         "name": "driver",
         "trans": [
-            "司机"
+            "tài xế"
         ],
         "usphone": "'draɪvɚ",
         "ukphone": "'draɪvə"
@@ -602,7 +602,7 @@
     {
         "name": "farmer",
         "trans": [
-            "农民"
+            "nông dân"
         ],
         "usphone": "'fɑmɚ",
         "ukphone": "'fɑːmə"
@@ -610,7 +610,7 @@
     {
         "name": "nurse",
         "trans": [
-            "护士"
+            "y tá"
         ],
         "usphone": "nɝs",
         "ukphone": "nɜːs"
@@ -618,7 +618,7 @@
     {
         "name": "people",
         "trans": [
-            "人们"
+            "con người"
         ],
         "usphone": "'pipl",
         "ukphone": "'piːp(ə)l"
@@ -626,7 +626,7 @@
     {
         "name": "but",
         "trans": [
-            "但是"
+            "nhưng, mà"
         ],
         "usphone": "bʌt",
         "ukphone": "bʌt; bət"
@@ -634,7 +634,7 @@
     {
         "name": "little",
         "trans": [
-            "小的"
+            "nhỏ; bé"
         ],
         "usphone": "'lɪtl",
         "ukphone": "'lɪt(ə)l"
@@ -658,7 +658,7 @@
     {
         "name": "job",
         "trans": [
-            "工作"
+            "làm việc; công việc"
         ],
         "usphone": "",
         "ukphone": "dʒɒb"
@@ -666,7 +666,7 @@
     {
         "name": "basketball",
         "trans": [
-            "篮球"
+            "bóng rổ"
         ],
         "usphone": "'bæskɪtbɔl",
         "ukphone": "'bɑːskɪtbɔːl"

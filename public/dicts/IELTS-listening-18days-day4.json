@@ -1,294 +1,440 @@
 [
     {
         "name": "trousers",
-        "trans": ["n. 裤子"]
+        "trans": [
+            "n. quần"
+        ]
     },
     {
         "name": "service",
-        "trans": ["n. 服务"]
+        "trans": [
+            "n. dịch vụ"
+        ]
     },
     {
         "name": "viewpoint",
-        "trans": ["n. 观点"]
+        "trans": [
+            "n. quan điểm"
+        ]
     },
     {
         "name": "freezer",
-        "trans": ["n. 制冷"]
+        "trans": [
+            "n. làm lạnh"
+        ]
     },
     {
         "name": "zoom",
-        "trans": ["n. 急速上升"]
+        "trans": [
+            "n. sự tăng vọt"
+        ]
     },
     {
         "name": "financial",
-        "trans": ["adj. 金融的"]
+        "trans": [
+            "adj. tài chính"
+        ]
     },
     {
         "name": "buffet",
-        "trans": ["n. 自助餐"]
+        "trans": [
+            "n. đồ ăn tự phục vụ"
+        ]
     },
     {
         "name": "manager",
-        "trans": ["n. 经理"]
+        "trans": [
+            "n. giám đốc, quản lý"
+        ]
     },
     {
         "name": "expense",
-        "trans": ["n. 开支"]
+        "trans": [
+            "n. chi phí"
+        ]
     },
     {
         "name": "college",
-        "trans": ["n. 大学"]
+        "trans": [
+            "n. trường đại học"
+        ]
     },
     {
         "name": "opposite",
-        "trans": ["adj. 相反的"]
+        "trans": [
+            "adj. ngược lại; đối lập"
+        ]
     },
     {
         "name": "cheque",
-        "trans": ["n. 支票"]
+        "trans": [
+            "n. séc"
+        ]
     },
     {
         "name": "supervisor",
-        "trans": ["n. 监督人"]
+        "trans": [
+            "n. người giám sát"
+        ]
     },
     {
         "name": "refrigerator",
-        "trans": ["n. 冰箱"]
+        "trans": [
+            "n. tủ lạnh"
+        ]
     },
     {
         "name": "science",
-        "trans": ["n. 科学"]
+        "trans": [
+            "n. khoa học"
+        ]
     },
     {
         "name": "collection",
-        "trans": ["n. 采集"]
+        "trans": [
+            "n. việc thu thập"
+        ]
     },
     {
         "name": "collect",
-        "trans": ["v. 收集"]
+        "trans": [
+            "v. thu thập"
+        ]
     },
     {
         "name": "literature",
-        "trans": ["n. 文学"]
+        "trans": [
+            "n. văn học"
+        ]
     },
     {
         "name": "bank",
-        "trans": ["n. 银行"]
+        "trans": [
+            "n. ngân hàng"
+        ]
     },
     {
         "name": "state",
-        "trans": ["n. 情形"]
+        "trans": [
+            "n. tình huống"
+        ]
     },
     {
         "name": "item",
-        "trans": ["n. 项目"]
+        "trans": [
+            "n. dự án"
+        ]
     },
     {
         "name": "snake",
-        "trans": ["n. 蛇"]
+        "trans": [
+            "n. con rắn"
+        ]
     },
     {
         "name": "phone bill",
-        "trans": ["n. 电话账单"]
+        "trans": [
+            "n. hóa đơn điện thoại"
+        ]
     },
     {
         "name": "wildlife",
-        "trans": ["n. 野生动植物"]
+        "trans": [
+            "n. động vật hoang dã"
+        ]
     },
     {
         "name": "photocopy",
-        "trans": ["n. 复印件"]
+        "trans": [
+            "n. bản sao"
+        ]
     },
     {
         "name": "camera",
-        "trans": ["n. 照相机"]
+        "trans": [
+            "n. máy ảnh"
+        ]
     },
     {
         "name": "reservation",
-        "trans": ["n. 预约"]
+        "trans": [
+            "n. cuộc hẹn"
+        ]
     },
     {
         "name": "hold",
-        "trans": ["v. 持有"]
+        "trans": [
+            "v. sở hữu"
+        ]
     },
     {
         "name": "catalogue",
-        "trans": ["n. 目录"]
+        "trans": [
+            "n. mục lục, danh mục"
+        ]
     },
     {
         "name": "book",
-        "trans": ["v. 预订"]
+        "trans": [
+            "v. đặt trước"
+        ]
     },
     {
         "name": "noisy",
-        "trans": ["adj. 吵闹的"]
+        "trans": [
+            "adj. ồn ào"
+        ]
     },
     {
         "name": "deposit",
-        "trans": ["n. 押金"]
+        "trans": [
+            "n. tiền đặt cọc"
+        ]
     },
     {
         "name": "transfer",
-        "trans": ["v. 转让"]
+        "trans": [
+            "v. chuyển nhượng"
+        ]
     },
     {
         "name": "uniform",
-        "trans": ["n. 制服"]
+        "trans": [
+            "n. đồng phục, bộ áo"
+        ]
     },
     {
         "name": "tropical",
-        "trans": ["adj. 热带的"]
+        "trans": [
+            "adj. nhiệt đới"
+        ]
     },
     {
         "name": "preferred",
-        "trans": ["adj. 优先的"]
+        "trans": [
+            "adj. ưu tiên"
+        ]
     },
     {
         "name": "firework",
-        "trans": ["n. 烟花"]
+        "trans": [
+            "n. pháo hoa"
+        ]
     },
     {
         "name": "loan",
-        "trans": ["n. 贷款"]
+        "trans": [
+            "n. khoản vay"
+        ]
     },
     {
         "name": "coach",
-        "trans": ["n. 教练"]
+        "trans": [
+            "n. huấn luyện viên"
+        ]
     },
     {
         "name": "identification",
-        "trans": ["n. 身份证明"]
+        "trans": [
+            "n. giấy tờ tùy thân"
+        ]
     },
     {
         "name": "beach",
-        "trans": ["n. 海滩"]
+        "trans": [
+            "n. bãi biển"
+        ]
     },
     {
         "name": "statement",
-        "trans": ["n. 清单"]
+        "trans": [
+            "n. danh sách"
+        ]
     },
     {
         "name": "expire",
-        "trans": ["v. 期满"]
+        "trans": [
+            "v. hết hạn"
+        ]
     },
     {
         "name": "librarian",
-        "trans": ["n. 图书管理员"]
+        "trans": [
+            "n. thủ thư"
+        ]
     },
     {
         "name": "nationality",
-        "trans": ["n. 国籍"]
+        "trans": [
+            "n. quốc tịch"
+        ]
     },
     {
         "name": "guidance",
-        "trans": ["n. 指导"]
+        "trans": [
+            "n. hướng dẫn"
+        ]
     },
     {
         "name": "gift",
-        "trans": ["n. 礼物"]
+        "trans": [
+            "n. món quà"
+        ]
     },
     {
         "name": "rule",
-        "trans": ["n. 规则"]
+        "trans": [
+            "n. quy tắc"
+        ]
     },
     {
         "name": "side door",
-        "trans": ["n. 侧门"]
+        "trans": [
+            "n. cửa bên"
+        ]
     },
     {
         "name": "fix",
-        "trans": ["v. 修理"]
+        "trans": [
+            "v. sửa chữa"
+        ]
     },
     {
         "name": "theme",
-        "trans": ["n. 主题"]
+        "trans": [
+            "n. chủ đề"
+        ]
     },
     {
         "name": "normal",
-        "trans": ["adj. 正常的"]
+        "trans": [
+            "adj. bình thường"
+        ]
     },
     {
         "name": "benefit",
-        "trans": ["n. 好处"]
+        "trans": [
+            "n. lợi ích"
+        ]
     },
     {
         "name": "tennis",
-        "trans": ["n. 网球"]
+        "trans": [
+            "n. quần vợt"
+        ]
     },
     {
         "name": "interest rate",
-        "trans": ["n. 利率"]
+        "trans": [
+            "n. lãi suất"
+        ]
     },
     {
         "name": "cable car",
-        "trans": ["n. 缆车"]
+        "trans": [
+            "n. xe cáp"
+        ]
     },
     {
         "name": "online",
-        "trans": ["adj. 在线的"]
+        "trans": [
+            "adj. trực tuyến"
+        ]
     },
     {
         "name": "source",
-        "trans": ["n. 来源"]
+        "trans": [
+            "n. nguồn"
+        ]
     },
     {
         "name": "branch",
-        "trans": ["n. 分支"]
+        "trans": [
+            "n. nhánh"
+        ]
     },
     {
         "name": "Canadian",
-        "trans": ["n. 加拿大人"]
+        "trans": [
+            "n. người Canada"
+        ]
     },
     {
         "name": "reference number",
-        "trans": ["n. 参考号"]
+        "trans": [
+            "n. mã tham chiếu"
+        ]
     },
     {
         "name": "amount",
-        "trans": ["n. 数量"]
+        "trans": [
+            "n. số lượng"
+        ]
     },
     {
         "name": "automatically",
-        "trans": ["adv. 自动地"]
+        "trans": [
+            "adv. tự động"
+        ]
     },
     {
         "name": "basement",
-        "trans": ["n. 地下室"]
+        "trans": [
+            "n. tầng dưới lòng đất"
+        ]
     },
     {
         "name": "wet",
-        "trans": ["adj. 潮湿的"]
+        "trans": [
+            "adj. ẩm, ướt"
+        ]
     },
     {
         "name": "action movie",
-        "trans": ["n. 动作片"]
+        "trans": [
+            "n. phim hành động"
+        ]
     },
     {
         "name": "engineer",
-        "trans": ["n. 工程师"]
+        "trans": [
+            "n. kỹ sư"
+        ]
     },
     {
         "name": "signature",
-        "trans": ["n. 署名"]
+        "trans": [
+            "n. chữ ký"
+        ]
     },
     {
         "name": "payment",
-        "trans": ["n. 支付"]
+        "trans": [
+            "n. khoản thanh toán"
+        ]
     },
     {
         "name": "minimum",
-        "trans": ["n. 最小值"]
+        "trans": [
+            "n. giá trị nhỏ nhất"
+        ]
     },
     {
         "name": "relaxation",
-        "trans": ["n. 放松"]
+        "trans": [
+            "n. sự thư giãn"
+        ]
     },
     {
         "name": "scheme",
-        "trans": ["n. 计划：体系"]
+        "trans": [
+            "n. kế hoạch; hệ thống"
+        ]
     },
     {
         "name": "racket",
-        "trans": ["n. 球拍"]
+        "trans": [
+            "n. vợt"
+        ]
     }
 ]

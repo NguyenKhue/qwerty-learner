@@ -2,8 +2,8 @@
     {
         "name": "live",
         "trans": [
-            "居住",
-            "生活"
+            "cư trú, sống ở",
+            "cuộc sống; sinh hoạt"
         ],
         "usphone": "lɪv",
         "ukphone": "lɪv"
@@ -12,7 +12,7 @@
         "name": "quite",
         "trans": [
             "很",
-            "相当"
+            "khá; tương đối"
         ],
         "usphone": "kwaɪt",
         "ukphone": "kwaɪt"
@@ -20,7 +20,7 @@
     {
         "name": "scarf",
         "trans": [
-            "围巾"
+            "n. khăn quàng"
         ],
         "usphone": "skɑːrf",
         "ukphone": "skɑːrf"
@@ -28,7 +28,7 @@
     {
         "name": "airport",
         "trans": [
-            "机场"
+            "sân bay"
         ],
         "usphone": "ˈɛr.pɔːrt",
         "ukphone": "ˈeə.pɔːt"
@@ -44,7 +44,7 @@
     {
         "name": "arrive",
         "trans": [
-            "到达"
+            "đến nơi; tới"
         ],
         "usphone": "əˈraɪv",
         "ukphone": "əˈraɪv"
@@ -53,7 +53,7 @@
         "name": "meet",
         "trans": [
             "迎接",
-            "遇见",
+            "gặp; gặp gỡ, tình cờ chạm phải",
             "会面"
         ],
         "usphone": "mit",
@@ -62,7 +62,7 @@
     {
         "name": "wardrobe",
         "trans": [
-            "衣柜"
+            "tủ quần áo"
         ],
         "usphone": "ˈwɔr.droʊb",
         "ukphone": "ˈwɔː.droʊb"
@@ -86,7 +86,7 @@
     {
         "name": "art gallery",
         "trans": [
-            "画廊",
+            "phòng tranh",
             "艺术馆"
         ],
         "usphone": "ɑːrt ˈɡæləri",
@@ -127,7 +127,7 @@
     {
         "name": "volunteer",
         "trans": [
-            "志愿者"
+            "tình nguyện viên"
         ],
         "usphone": "ˌvɑːlənˈtɪr",
         "ukphone": "ˌvɒlənˈtɪə"
@@ -135,7 +135,7 @@
     {
         "name": "sandwich",
         "trans": [
-            "三明治"
+            "bánh mì kẹp"
         ],
         "usphone": "ˈsæn.wɪtʃ",
         "ukphone": "ˈsæn.wɪtʃ"
@@ -152,7 +152,7 @@
     {
         "name": "habit",
         "trans": [
-            "习惯"
+            "thói quen; tật; thói lệ"
         ],
         "usphone": "ˈhæb.ɪt",
         "ukphone": "ˈhæb.ɪt"
@@ -160,9 +160,9 @@
     {
         "name": "idea",
         "trans": [
-            "主意",
+            "ý tưởng; ý kiến; kế",
             "想法",
-            "意见"
+            "ý kiến"
         ],
         "usphone": "aɪˈdiə",
         "ukphone": "aɪˈdɪə"
@@ -178,7 +178,7 @@
     {
         "name": "at least",
         "trans": [
-            "至少"
+            "ít nhất"
         ],
         "usphone": "ət list",
         "ukphone": "ət li:st"
@@ -194,7 +194,7 @@
     {
         "name": "hockey",
         "trans": [
-            "曲棍球",
+            "khúc côn cầu; hockey",
             "冰上曲棍球"
         ],
         "usphone": "ˈhoʊk.i",
@@ -203,7 +203,7 @@
     {
         "name": "together",
         "trans": [
-            "一起"
+            "cùng nhau; cùng; dưới"
         ],
         "usphone": "təˈɡeðər",
         "ukphone": "təˈɡeðər"
@@ -228,7 +228,7 @@
     {
         "name": "raccoon",
         "trans": [
-            "浣熊"
+            "gấu rửa (raccoon)"
         ],
         "usphone": "ˈræk.əʊn",
         "ukphone": "ˈræk.əʊn"
@@ -244,7 +244,7 @@
     {
         "name": "countryside",
         "trans": [
-            "农村",
+            "nông thôn, miền quê",
             "乡下"
         ],
         "usphone": "ˈkʌn.tri.saɪd",
@@ -253,7 +253,7 @@
     {
         "name": "Thanksgiving",
         "trans": [
-            "感恩节"
+            "Ngày Lễ Tạ Ơn"
         ],
         "usphone": "ˌθæŋksˈɡɪv.ɪŋ",
         "ukphone": "θæŋksˈɡɪv.ɪŋ"
@@ -269,7 +269,7 @@
     {
         "name": "squirrel",
         "trans": [
-            "松鼠"
+            "sóc"
         ],
         "usphone": "ˈskwɜːr.əl",
         "ukphone": "ˈskwɪr.əl"
@@ -277,7 +277,7 @@
     {
         "name": "swan",
         "trans": [
-            "天鹅"
+            "thiên nga"
         ],
         "usphone": "swɑːn",
         "ukphone": "swɒn"
@@ -293,7 +293,7 @@
     {
         "name": "frog",
         "trans": [
-            "青蛙"
+            "con ếch"
         ],
         "usphone": "frɔːɡ",
         "ukphone": "frɒɡ"
@@ -309,7 +309,7 @@
     {
         "name": "shopping centre",
         "trans": [
-            "购物中心"
+            "Trung tâm mua sắm"
         ],
         "usphone": "ˈʃɑː.pɪŋ ˌsɛn.tər",
         "ukphone": "ˈʃɒp.ɪŋ ˌsɛn.tə"
@@ -334,7 +334,7 @@
     {
         "name": "hot pot",
         "trans": [
-            "火锅"
+            "lẩu; nồi lửa; lẩu nóng"
         ],
         "usphone": "hɑːt pɑːt",
         "ukphone": "hɒt pɒt"

@@ -2,7 +2,7 @@
     {
         "name": "book",
         "trans": [
-            "书",
+            "sách",
             "书本"
         ],
         "usphone": "bʊk",
@@ -19,7 +19,7 @@
     {
         "name": "pencil",
         "trans": [
-            "铅笔"
+            "bút chì"
         ],
         "usphone": "ˈpɛnsəl",
         "ukphone": "ˈpɛnsəl"
@@ -27,7 +27,7 @@
     {
         "name": "schoolbag",
         "trans": [
-            "书包"
+            "n. cặp sách, ba lô"
         ],
         "usphone": "ˈskulˌbæɡ",
         "ukphone": "ˈskuːlˌbæɡ"
@@ -35,7 +35,7 @@
     {
         "name": "teacher",
         "trans": [
-            "教师"
+            "giáo viên"
         ],
         "usphone": "ˈtiːtʃər",
         "ukphone": "ˈtiːtʃər"
@@ -43,7 +43,7 @@
     {
         "name": "I",
         "trans": [
-            "我"
+            "tôi; tao"
         ],
         "usphone": "aɪ",
         "ukphone": "aɪ"
@@ -51,7 +51,7 @@
     {
         "name": "have",
         "trans": [
-            "有"
+            "có; sở hữu"
         ],
         "usphone": "hæv",
         "ukphone": "hæv"
@@ -67,7 +67,7 @@
     {
         "name": "face",
         "trans": [
-            "脸"
+            "n. khuôn mặt; mặt"
         ],
         "usphone": "feɪs",
         "ukphone": "feɪs"
@@ -75,7 +75,7 @@
     {
         "name": "ear",
         "trans": [
-            "耳朵"
+            "n. tai"
         ],
         "usphone": "ɪr",
         "ukphone": "ɪər"
@@ -83,7 +83,7 @@
     {
         "name": "eye",
         "trans": [
-            "眼睛"
+            "n. mắt; con mắt"
         ],
         "usphone": "aɪ",
         "ukphone": "aɪ"
@@ -91,7 +91,7 @@
     {
         "name": "nose",
         "trans": [
-            "鼻子"
+            "mũi"
         ],
         "usphone": "noʊz",
         "ukphone": "nəʊz"
@@ -115,7 +115,7 @@
     {
         "name": "is",
         "trans": [
-            "是"
+            "là; có"
         ],
         "usphone": "ɪz",
         "ukphone": "ɪz"
@@ -123,7 +123,7 @@
     {
         "name": "my",
         "trans": [
-            "我的"
+            "của tôi; của ta"
         ],
         "usphone": "maɪ",
         "ukphone": "maɪ"
@@ -131,7 +131,7 @@
     {
         "name": "dog",
         "trans": [
-            "狗"
+            "chó"
         ],
         "usphone": "dɔːɡ",
         "ukphone": "dɒɡ"
@@ -139,7 +139,7 @@
     {
         "name": "bird",
         "trans": [
-            "鸟"
+            "chim"
         ],
         "usphone": "bɜːrd",
         "ukphone": "bɜːrd"
@@ -147,7 +147,7 @@
     {
         "name": "tiger",
         "trans": [
-            "老虎"
+            "hổ; con hổ"
         ],
         "usphone": "ˈtaɪɡər",
         "ukphone": "ˈtaɪɡər"
@@ -155,7 +155,7 @@
     {
         "name": "monkey",
         "trans": [
-            "猴子"
+            "khỉ; con khỉ"
         ],
         "usphone": "ˈmʌŋki",
         "ukphone": "ˈmʌŋki"
@@ -163,7 +163,7 @@
     {
         "name": "cat",
         "trans": [
-            "猫"
+            "mèo"
         ],
         "usphone": "kæt",
         "ukphone": "kæt"
@@ -171,7 +171,7 @@
     {
         "name": "what",
         "trans": [
-            "什么"
+            "gì"
         ],
         "usphone": "wʌt",
         "ukphone": "wɒt"
@@ -179,7 +179,7 @@
     {
         "name": "it",
         "trans": [
-            "它"
+            "nó"
         ],
         "usphone": "ɪt",
         "ukphone": "ɪt"
@@ -187,7 +187,7 @@
     {
         "name": "one",
         "trans": [
-            "一"
+            "một"
         ],
         "usphone": "wʌn",
         "ukphone": "wʌn"
@@ -195,7 +195,7 @@
     {
         "name": "two",
         "trans": [
-            "二"
+            "hai"
         ],
         "usphone": "tuː",
         "ukphone": "tuː"
@@ -203,7 +203,7 @@
     {
         "name": "three",
         "trans": [
-            "三"
+            "ba"
         ],
         "usphone": "θriː",
         "ukphone": "θriː"
@@ -211,7 +211,7 @@
     {
         "name": "four",
         "trans": [
-            "四"
+            "bốn"
         ],
         "usphone": "fɔːr",
         "ukphone": "fɔːr"
@@ -219,7 +219,7 @@
     {
         "name": "five",
         "trans": [
-            "五"
+            "năm"
         ],
         "usphone": "faɪv",
         "ukphone": "faɪv"
@@ -227,7 +227,7 @@
     {
         "name": "six",
         "trans": [
-            "六"
+            "sáu"
         ],
         "usphone": "sɪks",
         "ukphone": "sɪks"
@@ -235,7 +235,7 @@
     {
         "name": "seven",
         "trans": [
-            "七"
+            "bảy"
         ],
         "usphone": "ˈsɛvən",
         "ukphone": "ˈsɛvən"
@@ -243,7 +243,7 @@
     {
         "name": "eight",
         "trans": [
-            "八"
+            "tám"
         ],
         "usphone": "eɪt",
         "ukphone": "eɪt"
@@ -251,7 +251,7 @@
     {
         "name": "nine",
         "trans": [
-            "九"
+            "chín"
         ],
         "usphone": "naɪn",
         "ukphone": "naɪn"
@@ -259,7 +259,7 @@
     {
         "name": "ten",
         "trans": [
-            "十"
+            "muoi"
         ],
         "usphone": "tɛn",
         "ukphone": "tɛn"
@@ -283,7 +283,7 @@
     {
         "name": "are",
         "trans": [
-            "是"
+            "là; có"
         ],
         "usphone": "ɑr",
         "ukphone": "ɑr"
@@ -299,8 +299,8 @@
     {
         "name": "black",
         "trans": [
-            "黑色",
-            "黑色的"
+            "màu đen",
+            "đen, đen sẫm"
         ],
         "usphone": "blæk",
         "ukphone": "blæk"
@@ -308,8 +308,8 @@
     {
         "name": "yellow",
         "trans": [
-            "黄色",
-            "黄色的"
+            "màu vàng",
+            "vàng"
         ],
         "usphone": "ˈjɛloʊ",
         "ukphone": "ˈjɛləʊ"
@@ -317,7 +317,7 @@
     {
         "name": "blue",
         "trans": [
-            "蓝色",
+            "màu xanh",
             "蓝色的"
         ],
         "usphone": "bluː",
@@ -326,8 +326,8 @@
     {
         "name": "red",
         "trans": [
-            "红色",
-            "红色的"
+            "màu đỏ; đỏ",
+            "màu đỏ (adj.)"
         ],
         "usphone": "rɛd",
         "ukphone": "rɛd"
@@ -335,8 +335,8 @@
     {
         "name": "green",
         "trans": [
-            "绿色",
-            "绿色的"
+            "xanh lục",
+            "xanh lá; màu xanh lá"
         ],
         "usphone": "ɡriːn",
         "ukphone": "ɡriːn"
@@ -344,7 +344,7 @@
     {
         "name": "colour",
         "trans": [
-            "颜色"
+            "màu, màu sắc"
         ],
         "usphone": "ˈkʌlər",
         "ukphone": "ˈkʌlər"
@@ -352,7 +352,7 @@
     {
         "name": "apple",
         "trans": [
-            "苹果"
+            "táo"
         ],
         "usphone": "ˈæpl",
         "ukphone": "ˈæpl"
@@ -360,7 +360,7 @@
     {
         "name": "pear",
         "trans": [
-            "梨"
+            "lê"
         ],
         "usphone": "pɛr",
         "ukphone": "pɛər"
@@ -368,7 +368,7 @@
     {
         "name": "banana",
         "trans": [
-            "香蕉"
+            "chuối"
         ],
         "usphone": "bəˈnænə",
         "ukphone": "bəˈnɑːnə"
@@ -393,7 +393,7 @@
     {
         "name": "you",
         "trans": [
-            "你",
+            "bạn",
             "你们"
         ],
         "usphone": "ju",

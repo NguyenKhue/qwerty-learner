@@ -1,310 +1,464 @@
 [
     {
         "name": "gym",
-        "trans": ["n. 健身房"]
+        "trans": [
+            "n. nhà tập luyện, phòng tập"
+        ]
     },
     {
         "name": "laundry",
-        "trans": ["n. 洗衣店"]
+        "trans": [
+            "n. tiệm giặt giũ"
+        ]
     },
     {
         "name": "harbour",
-        "trans": ["n. 海港"]
+        "trans": [
+            "n. cảng biển"
+        ]
     },
     {
         "name": "balcony",
-        "trans": ["n. 阳台"]
+        "trans": [
+            "n. ban công"
+        ]
     },
     {
         "name": "intermediate",
-        "trans": ["adj. 中级的"]
+        "trans": [
+            "adj. trung cấp, bậc trung"
+        ]
     },
     {
         "name": "electricity",
-        "trans": ["n. 电力"]
+        "trans": [
+            "n. điện lực"
+        ]
     },
     {
         "name": "Africa",
-        "trans": ["n. 非洲"]
+        "trans": [
+            "n. châu Phi"
+        ]
     },
     {
         "name": "vegetarian",
-        "trans": ["n. 素食主义者"]
+        "trans": [
+            "n. người ăn chay"
+        ]
     },
     {
         "name": "India",
-        "trans": ["n. 印度"]
+        "trans": [
+            "n. Ấn Độ"
+        ]
     },
     {
         "name": "navigation",
-        "trans": ["n. 导航"]
+        "trans": [
+            "n. định vị, hoa tiêu"
+        ]
     },
     {
         "name": "translate",
-        "trans": ["v. 翻译"]
+        "trans": [
+            "v. dịch, phiên dịch"
+        ]
     },
     {
         "name": "helicopter",
-        "trans": ["n. 直升机"]
+        "trans": [
+            "n. trực thăng"
+        ]
     },
     {
         "name": "event",
-        "trans": ["n. 事件"]
+        "trans": [
+            "n. sự việc, sự cố"
+        ]
     },
     {
         "name": "organic",
-        "trans": ["adj. 有机的"]
+        "trans": [
+            "adj. hữu cơ, hữu sinh"
+        ]
     },
     {
         "name": "vacant",
-        "trans": ["adj. 空缺的"]
+        "trans": [
+            "adj. để trống, bỏ trống"
+        ]
     },
     {
         "name": "exhibition",
-        "trans": ["n. 展览会"]
+        "trans": [
+            "n. triển lãm, hội chợ trưng bày"
+        ]
     },
     {
         "name": "waitress",
-        "trans": ["n. 女服务员"]
+        "trans": [
+            "n. nữ phục vụ, nữ bồi bàn"
+        ]
     },
     {
         "name": "detail",
-        "trans": ["n. 细节"]
+        "trans": [
+            "n. chi tiết, tiểu tiết"
+        ]
     },
     {
         "name": "leaflet",
-        "trans": ["n. 传单"]
+        "trans": [
+            "n. tờ rơi, tờ khai"
+        ]
     },
     {
         "name": "coastline",
-        "trans": ["n. 海岸线"]
+        "trans": [
+            "n. đường bờ biển, bờ biển"
+        ]
     },
     {
         "name": "keyboard",
-        "trans": ["n. 键盘"]
+        "trans": [
+            "n. bàn phím"
+        ]
     },
     {
         "name": "ruin",
-        "trans": ["n. 废墟"]
+        "trans": [
+            "n. phế tích, tàn tích"
+        ]
     },
     {
         "name": "database",
-        "trans": ["n. 数据库"]
+        "trans": [
+            "n. cơ sở dữ liệu"
+        ]
     },
     {
         "name": "accommodation",
-        "trans": ["n. 住宿"]
+        "trans": [
+            "n. chỗ ở, lưu trú"
+        ]
     },
     {
         "name": "slide",
-        "trans": ["n. 滑梯"]
+        "trans": [
+            "n. cầu trượt"
+        ]
     },
     {
         "name": "stair lift",
-        "trans": ["n. 电梯"]
+        "trans": [
+            "n. thang máy, thang điện"
+        ]
     },
     {
         "name": "hostel",
-        "trans": ["n. 招待所"]
+        "trans": [
+            "n. nhà trọ"
+        ]
     },
     {
         "name": "average",
-        "trans": ["adj. 普通的"]
+        "trans": [
+            "adj. thường"
+        ]
     },
     {
         "name": "travel",
-        "trans": ["v. 旅行"]
+        "trans": [
+            "v. đi du lịch"
+        ]
     },
     {
         "name": "challenge",
-        "trans": ["n. 挑战"]
+        "trans": [
+            "n. thử thách"
+        ]
     },
     {
         "name": "teenager",
-        "trans": ["n. 青少年"]
+        "trans": [
+            "n. thanh niên, thiếu niên"
+        ]
     },
     {
         "name": "junior",
-        "trans": ["n. 青少年"]
+        "trans": [
+            "n. thanh niên, thiếu niên"
+        ]
     },
     {
         "name": "rent",
-        "trans": ["n. 租金"]
+        "trans": [
+            "n. tiền thuê"
+        ]
     },
     {
         "name": "fax",
-        "trans": ["n. 传真"]
+        "trans": [
+            "n. bản fax"
+        ]
     },
     {
         "name": "landlady",
-        "trans": ["n. 女房东"]
+        "trans": [
+            "n. chủ nhà nữ"
+        ]
     },
     {
         "name": "switch",
-        "trans": ["n. 开关"]
+        "trans": [
+            "n. công tắc"
+        ]
     },
     {
         "name": "hire",
-        "trans": ["v. 租用"]
+        "trans": [
+            "v. thuê"
+        ]
     },
     {
         "name": "heater",
-        "trans": ["n. 加热器"]
+        "trans": [
+            "n. bộ sưởi"
+        ]
     },
     {
         "name": "maid",
-        "trans": ["n. 女仆"]
+        "trans": [
+            "n. hầu gái"
+        ]
     },
     {
         "name": "fridge",
-        "trans": ["n. 电冰箱"]
+        "trans": [
+            "n. tủ lạnh"
+        ]
     },
     {
         "name": "lock",
-        "trans": ["n. 锁"]
+        "trans": [
+            "n. ổ khóa"
+        ]
     },
     {
         "name": "midnight",
-        "trans": ["n. 午夜"]
+        "trans": [
+            "n. nửa đêm"
+        ]
     },
     {
         "name": "department",
-        "trans": ["n. 部门"]
+        "trans": [
+            "n. bộ phận"
+        ]
     },
     {
         "name": "further",
-        "trans": ["adj. 更远的"]
+        "trans": [
+            "adj. xa hơn"
+        ]
     },
     {
         "name": "personal",
-        "trans": ["adj. 个人的"]
+        "trans": [
+            "adj. cá nhân"
+        ]
     },
     {
         "name": "recruitment",
-        "trans": ["n. 招聘"]
+        "trans": [
+            "n. tuyển dụng"
+        ]
     },
     {
         "name": "fight",
-        "trans": ["n. 打仗"]
+        "trans": [
+            "n. chiến tranh"
+        ]
     },
     {
         "name": "occasional",
-        "trans": ["adj. 偶尔的"]
+        "trans": [
+            "adj. thỉnh thoảng"
+        ]
     },
     {
         "name": "skill",
-        "trans": ["n. 技能"]
+        "trans": [
+            "n. kỹ năng"
+        ]
     },
     {
         "name": "requirement",
-        "trans": ["n. 要求"]
+        "trans": [
+            "n. yêu cầu"
+        ]
     },
     {
         "name": "vision",
-        "trans": ["n. 视力"]
+        "trans": [
+            "n. thị lực"
+        ]
     },
     {
         "name": "math",
-        "trans": ["n. 数学"]
+        "trans": [
+            "n. toán học"
+        ]
     },
     {
         "name": "prepare",
-        "trans": ["v. 准备"]
+        "trans": [
+            "v. chuẩn bị"
+        ]
     },
     {
         "name": "customer",
-        "trans": ["n. 顾客"]
+        "trans": [
+            "n. khách"
+        ]
     },
     {
         "name": "cultural",
-        "trans": ["adj. 文化的"]
+        "trans": [
+            "adj. văn hóa"
+        ]
     },
     {
         "name": "refreshment",
-        "trans": ["n. 点心"]
+        "trans": [
+            "n. bánh ngọt"
+        ]
     },
     {
         "name": "accommodation",
-        "trans": ["n. 住宿"]
+        "trans": [
+            "n. chỗ ở, lưu trú"
+        ]
     },
     {
         "name": "awareness",
-        "trans": ["n. 意识"]
+        "trans": [
+            "n. ý thức"
+        ]
     },
     {
         "name": "cash",
-        "trans": ["n. 现金"]
+        "trans": [
+            "n. tiền mặt"
+        ]
     },
     {
         "name": "advice",
-        "trans": ["n. 建议"]
+        "trans": [
+            "n. đề nghị, kiến nghị"
+        ]
     },
     {
         "name": "museum",
-        "trans": ["n. 博物馆"]
+        "trans": [
+            "n. bảo tàng"
+        ]
     },
     {
         "name": "credit card",
-        "trans": ["n. 信用卡"]
+        "trans": [
+            "n. thẻ tín dụng"
+        ]
     },
     {
         "name": "snowboarding",
-        "trans": ["n. 单板滑雪"]
+        "trans": [
+            "n. trượt tuyết"
+        ]
     },
     {
         "name": "sailing",
-        "trans": ["n. 航海"]
+        "trans": [
+            "n. hàng hải; sự đi biển"
+        ]
     },
     {
         "name": "in advance",
-        "trans": ["提前"]
+        "trans": [
+            "sớm; trước"
+        ]
     },
     {
         "name": "mountain",
-        "trans": ["n. 山"]
+        "trans": [
+            "n. núi"
+        ]
     },
     {
         "name": "destination",
-        "trans": ["n. 目的地"]
+        "trans": [
+            "n. điểm đến"
+        ]
     },
     {
         "name": "suggestion",
-        "trans": ["n. 建议"]
+        "trans": [
+            "n. đề nghị, kiến nghị"
+        ]
     },
     {
         "name": "alternative",
-        "trans": ["adj. 选择性的"]
+        "trans": [
+            "adj. có tính lựa chọn"
+        ]
     },
     {
         "name": "job agency",
-        "trans": ["n. 招聘中介"]
+        "trans": [
+            "n. công ty môi giới việc làm"
+        ]
     },
     {
         "name": "booklet",
-        "trans": ["n. 小册子"]
+        "trans": [
+            "danh từ: tờ rơi; brochure"
+        ]
     },
     {
         "name": "European",
-        "trans": ["n. 欧洲人"]
+        "trans": [
+            "n. người Châu Âu"
+        ]
     },
     {
         "name": "contact",
-        "trans": ["v. 联系"]
+        "trans": [
+            "v. liên lạc"
+        ]
     },
     {
         "name": "flat",
-        "trans": ["n. 公寓"]
+        "trans": [
+            "n. căn hộ"
+        ]
     },
     {
         "name": "plant",
-        "trans": ["v. 种植"]
+        "trans": [
+            "v. trồng"
+        ]
     },
     {
         "name": "venue",
-        "trans": ["n. 集会/聚会场所"]
+        "trans": [
+            "n. nơi tụ họp"
+        ]
     },
     {
         "name": "interviewer",
-        "trans": ["n. 面试者"]
+        "trans": [
+            "n. người phỏng vấn"
+        ]
     }
 ]

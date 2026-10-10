@@ -1,314 +1,470 @@
 [
     {
         "name": "referee",
-        "trans": ["证明人"]
+        "trans": [
+            "người làm chứng"
+        ]
     },
     {
         "name": "puzzling",
-        "trans": ["莫名其妙的"]
+        "trans": [
+            "khó hiểu"
+        ]
     },
     {
         "name": "perspective",
-        "trans": ["观点"]
+        "trans": [
+            "quan điểm"
+        ]
     },
     {
         "name": "path",
-        "trans": ["小路"]
+        "trans": [
+            "lối nhỏ"
+        ]
     },
     {
         "name": "representative",
-        "trans": ["有代表性的"]
+        "trans": [
+            "có tính đại diện"
+        ]
     },
     {
         "name": "discontinue",
-        "trans": ["终止"]
+        "trans": [
+            "chấm dứt"
+        ]
     },
     {
         "name": "accounting",
-        "trans": ["会记学"]
+        "trans": [
+            "kỹ thuật ghi nhớ"
+        ]
     },
     {
         "name": "satellite",
-        "trans": ["卫星"]
+        "trans": [
+            "vệ tinh"
+        ]
     },
     {
         "name": "permission",
-        "trans": ["允许"]
+        "trans": [
+            "cho phép"
+        ]
     },
     {
         "name": "variation",
-        "trans": ["变化"]
+        "trans": [
+            "thay đổi, biến đổi"
+        ]
     },
     {
         "name": "innovation",
-        "trans": ["创新"]
+        "trans": [
+            "đổi mới; sáng tạo"
+        ]
     },
     {
         "name": "divide",
-        "trans": ["划分"]
+        "trans": [
+            "phân chia"
+        ]
     },
     {
         "name": "diet",
-        "trans": ["饮食"]
+        "trans": [
+            "ăn uống, ẩm thực"
+        ]
     },
     {
         "name": "partly",
-        "trans": ["部分地"]
+        "trans": [
+            "một phần; từng phần"
+        ]
     },
     {
         "name": "stimulating",
-        "trans": ["刺激的"]
+        "trans": [
+            "gây kích thích, kích thích"
+        ]
     },
     {
         "name": "master",
-        "trans": ["硕士"]
+        "trans": [
+            "thạc sĩ"
+        ]
     },
     {
         "name": "microbiology",
-        "trans": ["微生物学"]
+        "trans": [
+            "vi sinh vật học"
+        ]
     },
     {
         "name": "essay",
-        "trans": ["论文"]
+        "trans": [
+            "n. luận án; bài báo khoa học"
+        ]
     },
     {
         "name": "strategy",
-        "trans": ["战略"]
+        "trans": [
+            "chiến lược"
+        ]
     },
     {
         "name": "cosmetics",
-        "trans": ["化妆品"]
+        "trans": [
+            "mỹ phẩm; đồ trang điểm"
+        ]
     },
     {
         "name": "extension",
-        "trans": ["延期"]
+        "trans": [
+            "hoãn lại; kéo dài thời gian"
+        ]
     },
     {
         "name": "record",
-        "trans": ["记录"]
+        "trans": [
+            "ghi; ghi chép"
+        ]
     },
     {
         "name": "bibliography",
-        "trans": ["参考书目"]
+        "trans": [
+            "thư mục"
+        ]
     },
     {
         "name": "incorrect",
-        "trans": ["错误的"]
+        "trans": [
+            "sai; sai lầm"
+        ]
     },
     {
         "name": "thorough",
-        "trans": ["彻底的"]
+        "trans": [
+            "hoàn toàn; triệt để; tuyệt đối"
+        ]
     },
     {
         "name": "definition",
-        "trans": ["定义"]
+        "trans": [
+            "định nghĩa"
+        ]
     },
     {
         "name": "connective",
-        "trans": ["连接词"]
+        "trans": [
+            "từ nối"
+        ]
     },
     {
         "name": "solution",
-        "trans": ["解决方案"]
+        "trans": [
+            "giải pháp"
+        ]
     },
     {
         "name": "leisure",
-        "trans": ["闲暇"]
+        "trans": [
+            "thời giờ rảnh"
+        ]
     },
     {
         "name": "decisive",
-        "trans": ["果断的"]
+        "trans": [
+            "dứt khoát"
+        ]
     },
     {
         "name": "ambitious",
-        "trans": ["野心勃勃的"]
+        "trans": [
+            "tham vọng"
+        ]
     },
     {
         "name": "specialised",
-        "trans": ["专业的"]
+        "trans": [
+            "chuyên nghiệp"
+        ]
     },
     {
         "name": "observe",
-        "trans": ["观察"]
+        "trans": [
+            "quan sát"
+        ]
     },
     {
         "name": "dominance",
-        "trans": ["支配"]
+        "trans": [
+            "thống trị"
+        ]
     },
     {
         "name": "stick",
-        "trans": ["刺"]
+        "trans": [
+            "gai"
+        ]
     },
     {
         "name": "imaginable",
-        "trans": ["可想象的"]
+        "trans": [
+            "có thể tưởng tượng"
+        ]
     },
     {
         "name": "worthy",
-        "trans": ["值得的"]
+        "trans": [
+            "đáng giá"
+        ]
     },
     {
         "name": "interpersonal",
-        "trans": ["人际的"]
+        "trans": [
+            "liên người"
+        ]
     },
     {
         "name": "accessible",
-        "trans": ["可接近的"]
+        "trans": [
+            "dễ tiếp cận"
+        ]
     },
     {
         "name": "regrettable",
-        "trans": ["令人遗憾的"]
+        "trans": [
+            "đáng tiếc"
+        ]
     },
     {
         "name": "wind",
-        "trans": ["风"]
+        "trans": [
+            "gió"
+        ]
     },
     {
         "name": "economics",
-        "trans": ["经济学"]
+        "trans": [
+            "kinh tế học"
+        ]
     },
     {
         "name": "postgraduate",
-        "trans": ["研究生"]
+        "trans": [
+            "sinh viên sau đại học"
+        ]
     },
     {
         "name": "management",
-        "trans": ["管理"]
+        "trans": [
+            "quản lý, quản trị"
+        ]
     },
     {
         "name": "adviser",
-        "trans": ["顾问"]
+        "trans": [
+            "cố vấn"
+        ]
     },
     {
         "name": "folder",
-        "trans": ["文件夹"]
+        "trans": [
+            "thư mục"
+        ]
     },
     {
         "name": "identify",
-        "trans": ["辨认出"]
+        "trans": [
+            "nhận ra, xác định"
+        ]
     },
     {
         "name": "worksheet",
-        "trans": ["练习册"]
+        "trans": [
+            "vở bài tập"
+        ]
     },
     {
         "name": "access",
-        "trans": ["接近"]
+        "trans": [
+            "gần, tiến gần"
+        ]
     },
     {
         "name": "profit",
-        "trans": ["利益"]
+        "trans": [
+            "lợi ích"
+        ]
     },
     {
         "name": "cultivate",
-        "trans": ["培养"]
+        "trans": [
+            "nuôi dưỡng, đào tạo"
+        ]
     },
     {
         "name": "highlight",
-        "trans": ["精彩部分"]
+        "trans": [
+            "phần hay nhất"
+        ]
     },
     {
         "name": "diploma",
-        "trans": ["文凭"]
+        "trans": [
+            "bằng, văn bằng"
+        ]
     },
     {
         "name": "tutorial",
-        "trans": ["指导"]
+        "trans": [
+            "hướng dẫn; chỉ đạo"
+        ]
     },
     {
         "name": "assessment",
-        "trans": ["评定"]
+        "trans": [
+            "đánh giá"
+        ]
     },
     {
         "name": "brand",
-        "trans": ["牌子"]
+        "trans": [
+            "bảng hiệu"
+        ]
     },
     {
         "name": "image",
-        "trans": ["图像"]
+        "trans": [
+            "hình ảnh"
+        ]
     },
     {
         "name": "residential",
-        "trans": ["住宅的"]
+        "trans": [
+            "dân dụng"
+        ]
     },
     {
         "name": "intimacy",
-        "trans": ["亲密行为"]
+        "trans": [
+            "hành vi thân mật"
+        ]
     },
     {
         "name": "inappropriate",
-        "trans": ["不合适的"]
+        "trans": [
+            "không phù hợp"
+        ]
     },
     {
         "name": "underline",
-        "trans": ["强调"]
+        "trans": [
+            "nhấn mạnh"
+        ]
     },
     {
         "name": "analyse",
-        "trans": ["分析"]
+        "trans": [
+            "phân tích"
+        ]
     },
     {
         "name": "quote",
-        "trans": ["引述"]
+        "trans": [
+            "trích dẫn; dẫn lời"
+        ]
     },
     {
         "name": "sub-topic",
-        "trans": ["小标题"]
+        "trans": [
+            "tiểu đề"
+        ]
     },
     {
         "name": "frustrated",
-        "trans": ["挫败的"]
+        "trans": [
+            "bực bội"
+        ]
     },
     {
         "name": "premise",
-        "trans": ["前提"]
+        "trans": [
+            "Điều kiện tiên quyết"
+        ]
     },
     {
         "name": "intelligent",
-        "trans": ["聪明的"]
+        "trans": [
+            "thông minh, khôn lỏi"
+        ]
     },
     {
         "name": "sector",
-        "trans": ["部门"]
+        "trans": [
+            "bộ phận, ban"
+        ]
     },
     {
         "name": "transcription",
-        "trans": ["抄写"]
+        "trans": [
+            "chép, sao chép"
+        ]
     },
     {
         "name": "chimpanzee",
-        "trans": ["黑猩猩"]
+        "trans": [
+            "tinh tinh"
+        ]
     },
     {
         "name": "imitate",
-        "trans": ["模仿"]
+        "trans": [
+            "bắt chước"
+        ]
     },
     {
         "name": "nutshell",
-        "trans": ["坚果的外壳"]
+        "trans": [
+            "vỏ quả hạt"
+        ]
     },
     {
         "name": "invalid",
-        "trans": ["无效的"]
+        "trans": [
+            "vô hiệu, không có giá trị"
+        ]
     },
     {
         "name": "ability",
-        "trans": ["能力"]
+        "trans": [
+            "khả năng, năng lực"
+        ]
     },
     {
         "name": "leadership",
-        "trans": ["领导能力"]
+        "trans": [
+            "khả năng lãnh đạo"
+        ]
     },
     {
         "name": "majority",
-        "trans": ["多数"]
+        "trans": [
+            "đa số"
+        ]
     },
     {
         "name": "seat belt",
-        "trans": ["安全带"]
+        "trans": [
+            "dây an toàn"
+        ]
     },
     {
         "name": "theory",
-        "trans": ["理论"]
+        "trans": [
+            "lý thuyết; lý luận"
+        ]
     }
 ]

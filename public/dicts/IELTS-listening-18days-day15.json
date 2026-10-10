@@ -1,310 +1,478 @@
 [
     {
         "name": "intelligence",
-        "trans": ["智力"]
+        "trans": [
+            "trí tuệ, trí lực"
+        ]
     },
     {
         "name": "gene",
-        "trans": ["[遗]基因"]
+        "trans": [
+            "gen di truyền"
+        ]
     },
     {
         "name": "seasonal",
-        "trans": ["季节的"]
+        "trans": [
+            "theo mùa, mang tính mùa"
+        ]
     },
     {
         "name": "science",
-        "trans": ["科学", "技术"]
+        "trans": [
+            "n. khoa học",
+            "cong nghe"
+        ]
     },
     {
         "name": "crocodile",
-        "trans": ["鳄鱼"]
+        "trans": [
+            "cá sấu"
+        ]
     },
     {
         "name": "wetland",
-        "trans": ["湿地", "沼泽地"]
+        "trans": [
+            "đầm lầy",
+            "đầm lầy, ruộng lầy"
+        ]
     },
     {
         "name": "population",
-        "trans": ["人口"]
+        "trans": [
+            "dân số"
+        ]
     },
     {
         "name": "depth",
-        "trans": ["深度", "深奥"]
+        "trans": [
+            "độ sâu",
+            "thâm sâu, khó hiểu"
+        ]
     },
     {
         "name": "cultivation",
-        "trans": ["培养", "耕作"]
+        "trans": [
+            "nuôi dưỡng, đào tạo",
+            "canh tác"
+        ]
     },
     {
         "name": "relationship",
-        "trans": ["关系", "关联"]
+        "trans": [
+            "quan hệ; liên hệ; mối liên hệ; mối quan tâm",
+            "liên quan, mối liên kết"
+        ]
     },
     {
         "name": "ingredients",
-        "trans": ["材料", "作料"]
+        "trans": [
+            "vật liệu; nguyên liệu",
+            "gia vị, liệu thuốc ăn"
+        ]
     },
     {
         "name": "motivation",
-        "trans": ["动机"]
+        "trans": [
+            "động cơ; lý do, động lực"
+        ]
     },
     {
         "name": "organic",
-        "trans": ["有机的"]
+        "trans": [
+            "hữu cơ"
+        ]
     },
     {
         "name": "business",
-        "trans": ["商人"]
+        "trans": [
+            "thương gia, nhà buôn bán"
+        ]
     },
     {
         "name": "preparation",
-        "trans": ["准备"]
+        "trans": [
+            "chuẩn bị; sẵn sàng"
+        ]
     },
     {
         "name": "senior",
-        "trans": ["资深的"]
+        "trans": [
+            "lão lớn, lâu năm"
+        ]
     },
     {
         "name": "outdoor",
-        "trans": ["户外的"]
+        "trans": [
+            "ngoài trời"
+        ]
     },
     {
         "name": "display",
-        "trans": ["展示"]
+        "trans": [
+            "trưng bày, triển lãm"
+        ]
     },
     {
         "name": "merchandiser",
-        "trans": ["商人"]
+        "trans": [
+            "thương gia, nhà buôn bán"
+        ]
     },
     {
         "name": "lateral",
-        "trans": ["侧面的"]
+        "trans": [
+            "bên hông, phía bên"
+        ]
     },
     {
         "name": "rope",
-        "trans": ["绳子"]
+        "trans": [
+            "dây"
+        ]
     },
     {
         "name": "lack",
-        "trans": ["缺少"]
+        "trans": [
+            "thiếu, thiếu hụt"
+        ]
     },
     {
         "name": "danger",
-        "trans": ["危险"]
+        "trans": [
+            "nguy hiểm"
+        ]
     },
     {
         "name": "sensitive",
-        "trans": ["敏感的"]
+        "trans": [
+            "adj. nhạy cảm, nhạy"
+        ]
     },
     {
         "name": "history",
-        "trans": ["历史"]
+        "trans": [
+            "lịch sử"
+        ]
     },
     {
         "name": "lifestyle",
-        "trans": ["生活方式"]
+        "trans": [
+            "lối sống; phong cách sống"
+        ]
     },
     {
         "name": "create",
-        "trans": ["创造"]
+        "trans": [
+            "sáng tạo, tạo ra"
+        ]
     },
     {
         "name": "social class",
-        "trans": ["社会地位"]
+        "trans": [
+            "địa vị xã hội"
+        ]
     },
     {
         "name": "reason",
-        "trans": ["原因"]
+        "trans": [
+            "lý do, nguyên nhân"
+        ]
     },
     {
         "name": "training",
-        "trans": ["训练"]
+        "trans": [
+            "v. huấn luyện; tập luyện"
+        ]
     },
     {
         "name": "fear",
-        "trans": ["害怕"]
+        "trans": [
+            "sợ"
+        ]
     },
     {
         "name": "instead of",
-        "trans": ["代替"]
+        "trans": [
+            "thay cho, thay thế"
+        ]
     },
     {
         "name": "competition",
-        "trans": ["竞争"]
+        "trans": [
+            "cạnh tranh"
+        ]
     },
     {
         "name": "conflict",
-        "trans": ["冲突"]
+        "trans": [
+            "xung đột, xung kích"
+        ]
     },
     {
         "name": "a sense of community",
-        "trans": ["集体归属感"]
+        "trans": [
+            "cảm giác thuộc về tập thể"
+        ]
     },
     {
         "name": "inefficient",
-        "trans": ["无效率的"]
+        "trans": [
+            "không hiệu quả, lãng phí"
+        ]
     },
     {
         "name": "rate",
-        "trans": ["率"]
+        "trans": [
+            "tỷ lệ, hệ số"
+        ]
     },
     {
         "name": "attitude",
-        "trans": ["态度"]
+        "trans": [
+            "thái độ"
+        ]
     },
     {
         "name": "completion",
-        "trans": ["完成"]
+        "trans": [
+            "hoàn thành"
+        ]
     },
     {
         "name": "psychology",
-        "trans": ["心理学"]
+        "trans": [
+            "tâm lý học"
+        ]
     },
     {
         "name": "desert",
-        "trans": ["遗弃"]
+        "trans": [
+            "bỏ rơi, ruồng bỏ"
+        ]
     },
     {
         "name": "olive oil",
-        "trans": ["橄榄油"]
+        "trans": [
+            "dầu ô liu"
+        ]
     },
     {
         "name": "vegetation",
-        "trans": ["植被", "植物"]
+        "trans": [
+            "thảm thực vật, cây cỏ",
+            "thực vật; cây"
+        ]
     },
     {
         "name": "underground",
-        "trans": ["地下的", "秘密的"]
+        "trans": [
+            "dưới lòng đất, ngầm",
+            "bí mật"
+        ]
     },
     {
         "name": "desert",
-        "trans": ["遗弃", "沙漠"]
+        "trans": [
+            "bỏ rơi, ruồng bỏ",
+            "sa mạc"
+        ]
     },
     {
         "name": "migration",
-        "trans": ["迁移", "移民"]
+        "trans": [
+            "di cư, di dời",
+            "nhập cư"
+        ]
     },
     {
         "name": "shrimp",
-        "trans": ["虾", "小虾"]
+        "trans": [
+            "tôm",
+            "tôm nhỏ"
+        ]
     },
     {
         "name": "worm",
-        "trans": ["虫", "蠕虫"]
+        "trans": [
+            "con côn trùng",
+            "sâu, giun"
+        ]
     },
     {
         "name": "nutrition",
-        "trans": ["营养"]
+        "trans": [
+            "dinh dưỡng"
+        ]
     },
     {
         "name": "temperature",
-        "trans": ["温度"]
+        "trans": [
+            "nhiet do"
+        ]
     },
     {
         "name": "entertainment",
-        "trans": ["娱乐", "消遣"]
+        "trans": [
+            "giải trí, vui chơi",
+            "giải trí, tiêu khiển"
+        ]
     },
     {
         "name": "journalism",
-        "trans": ["新闻业"]
+        "trans": [
+            "ngành báo chí, báo chí"
+        ]
     },
     {
         "name": "symbolism",
-        "trans": ["象征"]
+        "trans": [
+            "bi hieu"
+        ]
     },
     {
         "name": "castle",
-        "trans": ["城堡"]
+        "trans": [
+            "lâu đài, thành trì"
+        ]
     },
     {
         "name": "method",
-        "trans": ["方式"]
+        "trans": [
+            "cách; phương thức"
+        ]
     },
     {
         "name": "portrait",
-        "trans": ["肖像"]
+        "trans": [
+            "chân dung, tranh chân dung"
+        ]
     },
     {
         "name": "poet",
-        "trans": ["诗人"]
+        "trans": [
+            "nhà thơ"
+        ]
     },
     {
         "name": "male",
-        "trans": ["男性"]
+        "trans": [
+            "nam giới; nam tính"
+        ]
     },
     {
         "name": "female",
-        "trans": ["女性"]
+        "trans": [
+            "phụ nữ"
+        ]
     },
     {
         "name": "elephant",
-        "trans": ["大象"]
+        "trans": [
+            "n. voi"
+        ]
     },
     {
         "name": "weight",
-        "trans": ["重量"]
+        "trans": [
+            "trọng lượng, sức nặng"
+        ]
     },
     {
         "name": "wild",
-        "trans": ["荒野"]
+        "trans": [
+            "vùng đất hoang dã"
+        ]
     },
     {
         "name": "ancient",
-        "trans": ["古代的"]
+        "trans": [
+            "cổ đại, thời cổ"
+        ]
     },
     {
         "name": "extreme sport",
-        "trans": ["极限运动"]
+        "trans": [
+            "thể thao mạo hiểm"
+        ]
     },
     {
         "name": "equipment",
-        "trans": ["设备"]
+        "trans": [
+            "thiết bị, máy móc"
+        ]
     },
     {
         "name": "golf",
-        "trans": ["高尔夫球"]
+        "trans": [
+            "golf; quả bóng golf"
+        ]
     },
     {
         "name": "regulation",
-        "trans": ["规则"]
+        "trans": [
+            "quy tắc"
+        ]
     },
     {
         "name": "restricted",
-        "trans": ["有受限制的"]
+        "trans": [
+            "bị hạn chế, bị giới hạn"
+        ]
     },
     {
         "name": "confront",
-        "trans": ["面对"]
+        "trans": [
+            "đối mặt"
+        ]
     },
     {
         "name": "entertainment",
-        "trans": ["娱乐节目"]
+        "trans": [
+            "chương trình giải trí"
+        ]
     },
     {
         "name": "individual",
-        "trans": ["个人的"]
+        "trans": [
+            "cá nhân, riêng tư"
+        ]
     },
     {
         "name": "tend to",
-        "trans": ["倾向于"]
+        "trans": [
+            "nghiêng về, có xu hướng"
+        ]
     },
     {
         "name": "authority",
-        "trans": ["权威"]
+        "trans": [
+            "uy quyền; quyền uy"
+        ]
     },
     {
         "name": "lecture",
-        "trans": ["讲座"]
+        "trans": [
+            "bài giảng, buổi nói chuyện"
+        ]
     },
     {
         "name": "absent",
-        "trans": ["缺席的"]
+        "trans": [
+            "vắng mặt"
+        ]
     },
     {
         "name": "recall",
-        "trans": ["召回", "回忆起"]
+        "trans": [
+            "Gọi lại",
+            "nhớ lại, hồi tưởng"
+        ]
     },
     {
         "name": "sentence",
-        "trans": ["句子"]
+        "trans": [
+            "n. câu, câu văn"
+        ]
     }
 ]

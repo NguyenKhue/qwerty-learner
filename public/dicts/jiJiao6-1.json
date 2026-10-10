@@ -2,10 +2,10 @@
     {
         "name": "home",
         "trans": [
-            "n. 家，住宅；产地；家乡；避难所",
-            "adj. 国内的，家庭的；有效的",
-            "vt. 归巢，回家",
-            "adv. 在家，回家；深入地"
+            "n. nhà, nơi ở; nơi sinh sản; quê hương; nơi trú ẩn",
+            "adj. nội địa, gia đình; hiệu quả",
+            "vt. quay trở về nhà, về nhà",
+            "adv. ở nhà, về nhà; sâu sắc"
         ],
         "usphone": "[hoʊm]",
         "ukphone": "[həʊm]"
@@ -13,9 +13,9 @@
     {
         "name": "time",
         "trans": [
-            "n. 时间；时代；次数；节拍；倍数",
-            "adj. 定时的；定期的；分期的",
-            "vt. 计时；测定…的时间；安排…的速度"
+            "n. thời gian; thời đại; số lần; nhịp; bội số",
+            "adj. có hẹn giờ; định kỳ; trả góp",
+            "vt. đếm giờ; đo thời gian của; sắp xếp tốc độ của"
         ],
         "usphone": "[taɪm]",
         "ukphone": "[taɪm]"
@@ -33,9 +33,9 @@
     {
         "name": "house",
         "trans": [
-            "n. 住宅；家庭；机构；议会；某种用途的建筑物",
-            "vt. 覆盖；给…房子住；把…储藏在房内",
-            "vi. 住"
+            "n. nhà ở; gia đình; cơ quan; quốc hội; tòa nhà",
+            "vt. che phủ; cho ở; lưu trữ",
+            "vi. ở"
         ],
         "usphone": "[haʊs]",
         "ukphone": "[haʊs]"
@@ -43,9 +43,9 @@
     {
         "name": "study",
         "trans": [
-            "n. 学习，研究；课题；书房；学问",
-            "vt. 学习；考虑；攻读；细察",
-            "vi. 研究；用功"
+            "n. học tập, nghiên cứu; chủ đề; phòng học; học vấn",
+            "vt. học; cân nhắc; học tập; quan sát kỹ",
+            "vi. nghiên cứu; học hành chăm chỉ"
         ],
         "usphone": "[ˈstʌdi]",
         "ukphone": "[ˈstʌdi]"
@@ -53,7 +53,7 @@
     {
         "name": "kitchen",
         "trans": [
-            "n. 厨房；炊具；炊事人员"
+            "n. nhà bếp; dụng cụ nấu nướng; nhân viên nấu ăn"
         ],
         "usphone": "[ˈkɪtʃɪn]",
         "ukphone": "[ˈkɪtʃɪn]"
@@ -61,9 +61,9 @@
     {
         "name": "toilet",
         "trans": [
-            "n. 厕所，盥洗室；梳妆，打扮",
-            "vt. 给…梳妆打扮",
-            "vi. 梳妆，打扮"
+            "n. nhà vệ sinh, phòng rửa; việc trang điểm, việc trang hoàng",
+            "vt. trang điểm cho...",
+            "vi. trang điểm, ăn mặc"
         ],
         "usphone": "[ˈtɔɪlət]",
         "ukphone": "[ˈtɔɪlət]"
@@ -71,8 +71,8 @@
     {
         "name": "floor",
         "trans": [
-            "n. 地板，地面；楼层；基底；议员席",
-            "vt. 铺地板；打倒，击倒；（被困难）难倒"
+            "n. sàn nhà, mặt đất; tầng; nền tảng; ghế quốc hội",
+            "vt. lát sàn; đánh ngã; làm bối rối"
         ],
         "usphone": "[flɔːr]",
         "ukphone": "[flɔː(r)]"
@@ -90,9 +90,9 @@
     {
         "name": "breakfast",
         "trans": [
-            "n. 早餐；早饭",
-            "vt. 为…供应早餐",
-            "vi. 吃早餐"
+            "n. bữa ăn sáng; cơm sáng",
+            "vt. cung cấp bữa ăn sáng cho",
+            "vi. ăn bữa ăn sáng"
         ],
         "usphone": "[ˈbrekfəst]",
         "ukphone": "[ˈbrekfəst]"
@@ -100,9 +100,9 @@
     {
         "name": "table",
         "trans": [
-            "n. 桌子；表格；平地层",
-            "vt. 制表；搁置；嵌合",
-            "adj. 桌子的"
+            "danh từ: bàn; bảng; lớp phẳng",
+            "động từ ngoại: lập bảng; tạm dừng; nhúng",
+            "tính từ: của bàn"
         ],
         "usphone": "[ˈteɪbl]",
         "ukphone": "[ˈteɪb(ə)l]"
@@ -121,9 +121,9 @@
     {
         "name": "half",
         "trans": [
-            "n. 一半；半场；半学年",
-            "adj. 一半的；不完全的；半途的",
-            "adv. 一半地；部分地"
+            "n. một nửa; hiệp một; nửa học kỳ",
+            "adj. một nửa; không hoàn toàn; nửa chừng",
+            "adv. một nửa; một phần"
         ],
         "usphone": "[hæf]",
         "ukphone": "[hɑːf]"
@@ -131,7 +131,7 @@
     {
         "name": "dinner",
         "trans": [
-            "n. 晚餐，晚宴；宴会；正餐"
+            "n. bữa ăn tối; bữa tiệc tối; bữa tiệc; bữa ăn chính"
         ],
         "usphone": "[ˈdɪnər]",
         "ukphone": "[ˈdɪnə(r)]"
@@ -141,7 +141,7 @@
         "trans": [
             "adj. 下流的，卑鄙的；肮脏的；恶劣的；暗淡的",
             "vt. 弄脏",
-            "vi. 变脏"
+            "vi. trở nên bẩn"
         ],
         "usphone": "[ˈdɜːrti]",
         "ukphone": "[ˈdɜːti]"
@@ -149,9 +149,9 @@
     {
         "name": "lunch",
         "trans": [
-            "n. 午餐",
-            "vt. 吃午餐；供给午餐",
-            "vi. 吃午餐；供给午餐"
+            "n. bữa trưa",
+            "vt. ăn bữa trưa; cung cấp bữa trưa",
+            "vi. ăn bữa trưa"
         ],
         "usphone": "[lʌntʃ]",
         "ukphone": "[lʌntʃ]"
@@ -159,7 +159,7 @@
     {
         "name": "me",
         "trans": [
-            "pron. 我（宾格）",
+            "pron. tôi (tân ngữ)",
             "n. 自我；极端自私的人；自我的一部分"
         ],
         "usphone": "[mi; miː]",
@@ -169,7 +169,7 @@
         "name": "I",
         "trans": [
             "n. 碘元素；英语字母I",
-            "pron. 我"
+            "pron. tôi"
         ],
         "usphone": "[aɪ]",
         "ukphone": "[aɪ]"
@@ -177,7 +177,7 @@
     {
         "name": "him",
         "trans": [
-            "pron. 他（宾格）"
+            "pron. anh ấy (tân ngữ)"
         ],
         "usphone": "[hɪm; ɪm]",
         "ukphone": "[hɪm; ɪm]"
@@ -186,7 +186,7 @@
         "name": "he",
         "trans": [
             "n. 男孩，男人；它（雄性动物）",
-            "pron. 他"
+            "pron. anh ông, hắn"
         ],
         "usphone": "[hi; iː; i; hiː]",
         "ukphone": "[hi; iː; i; hiː]"
@@ -235,7 +235,7 @@
     {
         "name": "umbrella",
         "trans": [
-            "n. 雨伞；保护伞；庇护；伞形结构"
+            "n. ô; dù che chở; sự che chở; cấu trúc hình chiếc dù"
         ],
         "usphone": "[ʌmˈbrelə]",
         "ukphone": "[ʌmˈbrelə]"
@@ -243,7 +243,7 @@
     {
         "name": "Ms.",
         "trans": [
-            "女士"
+            "cô; quý bà"
         ],
         "usphone": "[mɪz; məz]",
         "ukphone": "[mɪz; məz]"
@@ -251,7 +251,7 @@
     {
         "name": "driver",
         "trans": [
-            "n. 驾驶员；驱动程序；起子；传动器"
+            "n. tài xế; chương trình điều khiển; tuốc nơ vít; bộ truyền động"
         ],
         "usphone": "[ˈdraɪvər]",
         "ukphone": "[ˈdraɪvə(r)]"
@@ -259,10 +259,10 @@
     {
         "name": "well",
         "trans": [
-            "n. 井；源泉",
-            "adj. 良好的；健康的；适宜的",
-            "adv. 很好地；充分地；满意地；适当地",
-            "v. 涌出"
+            "danh từ: giếng; suối",
+            "tính từ: tốt; khỏe mạnh; thích hợp",
+            "trạng từ: tốt; đầy đủ; thỏa mãn; thích hợp",
+            "động từ: phun ra; chảy ra"
         ],
         "usphone": "[wel]",
         "ukphone": "[wel]"
@@ -270,8 +270,8 @@
     {
         "name": "class",
         "trans": [
-            "n. 阶级；班级；种类；班；等级",
-            "adj. 极好的；很好的，优秀的，出色的",
+            "n. giai cấp; lớp; loại; tổ; cấp",
+            "adj. cực tốt; rất tốt, xuất sắc, nổi bật",
             "vt. 分类；把…分等级"
         ],
         "usphone": "[klæs]",
@@ -290,8 +290,8 @@
     {
         "name": "lesson",
         "trans": [
-            "n. 教训；课",
-            "vt. 教训；上课"
+            "n. bài học; lớp học",
+            "vt. dạy; giảng dạy"
         ],
         "usphone": "[ˈlesn]",
         "ukphone": "[ˈlesn]"
@@ -299,7 +299,7 @@
     {
         "name": "its",
         "trans": [
-            "pron. 它的"
+            "pron. của nó"
         ],
         "usphone": "[ɪts]",
         "ukphone": "[ɪts]"
@@ -308,7 +308,7 @@
         "name": "word",
         "trans": [
             "n. [语] 单词；话语；消息；诺言；命令",
-            "vt. 用言辞表达"
+            "vt. diễn đạt bằng lời"
         ],
         "usphone": "[wɜːrd]",
         "ukphone": "[wɜːd]"
@@ -324,7 +324,7 @@
     {
         "name": "sometimes",
         "trans": [
-            "adv. 有时，间或"
+            "adv. thỉnh thoảng, đôi khi"
         ],
         "usphone": "[ˈsʌmtaɪmz]",
         "ukphone": "[ˈsʌmtaɪmz]"
@@ -332,9 +332,9 @@
     {
         "name": "season",
         "trans": [
-            "n. 时期；季节；赛季",
-            "vt. 给…调味；使适应",
-            "vi. 变得成熟；变干燥"
+            "n. thời kỳ; mùa; mùa giải",
+            "vt. nêm nếm; thích nghi",
+            "vi. trưởng thành; trở nên khô"
         ],
         "usphone": "[ˈsiːzn]",
         "ukphone": "[ˈsiːzn]"
@@ -342,10 +342,10 @@
     {
         "name": "spring",
         "trans": [
-            "n. 春天；弹簧；泉水；活力；跳跃",
-            "adj. 春天的",
-            "vt. 使跳起；使爆炸；突然提出；使弹开",
-            "vi. 生长；涌出；跃出；裂开"
+            "n. mùa xuân; lò xo; suối; sức sống; bước nhảy",
+            "adj. mùa xuân",
+            "vt. làm nhảy; làm nổ; đề cập đột ngột",
+            "vi. mọc lên; phun ra; nhảy lên; nứt ra"
         ],
         "usphone": "[sprɪŋ]",
         "ukphone": "[sprɪŋ]"
@@ -353,9 +353,9 @@
     {
         "name": "summer",
         "trans": [
-            "n. 夏季；全盛时期",
-            "adj. 夏季的",
-            "vi. 避暑；过夏天"
+            "n. mùa hè; thời kỳ vinh quang",
+            "adj. mùa hè",
+            "vi. tránh nắng nóng; qua mùa hè"
         ],
         "usphone": "[ˈsʌmər]",
         "ukphone": "[ˈsʌmə(r)]"
@@ -363,8 +363,8 @@
     {
         "name": "autumn",
         "trans": [
-            "n. 秋天；成熟期；渐衰期，凋落期",
-            "adj. 秋天的，秋季的"
+            "n. mùa thu; giai đoạn chín muồi; thời kỳ suy thoái",
+            "adj. mùa thu; tháng chín; thuộc mùa thu"
         ],
         "usphone": "[ˈɔːtəm; ˈɑːtəm]",
         "ukphone": "[ˈɔːtəm]"
@@ -372,9 +372,9 @@
     {
         "name": "winter",
         "trans": [
-            "n. 冬季；年岁；萧条期",
-            "adj. 冬天的；越冬的",
-            "vi. 过冬"
+            "n. mùa đông; tuổi; thời kỳ suy thoái",
+            "adj. mùa đông; tập tính nhân đông",
+            "vi. qua mùa đông; đông ngủ"
         ],
         "usphone": "[ˈwɪntər]",
         "ukphone": "[ˈwɪntə(r)]"
@@ -398,8 +398,8 @@
     {
         "name": "again",
         "trans": [
-            "adv. 又，此外；再一次；再说；增加",
-            "n. （英、保）阿盖恩"
+            "adv. lại; ngoài ra; thêm nữa; một lần nữa",
+            "n. Again"
         ],
         "usphone": "[əˈɡen; əˈɡeɪn]",
         "ukphone": "[əˈɡen]"
@@ -407,8 +407,8 @@
     {
         "name": "body",
         "trans": [
-            "n. 身体；主体；大量；团体；主要部分",
-            "vt. 赋以形体"
+            "n. cơ thể; phần chính; lượng lớn; nhóm; phần chủ yếu",
+            "vt. tạo hình; cho có hình thể"
         ],
         "usphone": "[ˈbɑːdi]",
         "ukphone": "[ˈbɒdi]"
@@ -436,10 +436,10 @@
     {
         "name": "head",
         "trans": [
-            "n. 头；头痛；上端；最前的部分；理解力",
-            "adj. 头的；主要的；在顶端的",
-            "vt. 前进；用头顶；作为…的首领；站在…的前头；给…加标题",
-            "vi. 出发；成头状物；船驶往"
+            "n. đầu; đau đầu; phía trên; phần đầu tiên; khả năng hiểu biết",
+            "adj. thuộc về đầu; chính, chủ yếu; ở đỉnh",
+            "vt. tiến lên; dùng đầu đẩy; làm đầu ...; đứng đầu ...; đặt tiêu đề cho ...",
+            "vi. xuất phát, rời đi; dồn thành đầu; tàu đi về phía"
         ],
         "usphone": "[hed]",
         "ukphone": "[hed]"
@@ -456,9 +456,9 @@
     {
         "name": "arm",
         "trans": [
-            "n. 手臂；武器；袖子；装备；部门",
-            "vt. 武装；备战",
-            "vi. 武装起来"
+            "n. cánh tay; vũ khí; tay áo; trang bị; bộ phận",
+            "vt. vũ trang; chuẩn bị chiến đấu",
+            "vi. vũ trang"
         ],
         "usphone": "[ɑːrm]",
         "ukphone": "[ɑːm]"
@@ -466,7 +466,7 @@
     {
         "name": "leg",
         "trans": [
-            "n. 腿；支柱"
+            "n. chân; cột"
         ],
         "usphone": "[leɡ]",
         "ukphone": "[leɡ]"
@@ -474,8 +474,8 @@
     {
         "name": "eye",
         "trans": [
-            "n. 眼睛；视力；眼光；见解，观点",
-            "vt. 注视，看"
+            "n. mắt; thị lực; tầm nhìn; ý kiến; quan điểm",
+            "vt. nhìn chằm chằm; nhìn"
         ],
         "usphone": "[aɪ]",
         "ukphone": "[aɪ]"
@@ -565,7 +565,7 @@
     {
         "name": "tomorrow",
         "trans": [
-            "n. 明天；未来",
+            "n. ngày mai; tương lai",
             "adv. 明天；未来地（等于to-morrow）"
         ],
         "usphone": "[təˈmɑːroʊ]",
@@ -590,10 +590,10 @@
     {
         "name": "open",
         "trans": [
-            "adj. 公开的；敞开的；空旷的；坦率的；营业着的",
-            "vi. 开始；展现",
-            "vt. 公开；打开",
-            "n. 公开；空旷；户外"
+            "adj. công khai; mở; rộng; thẳng thắn; đang hoạt động",
+            "vi. bắt đầu; hiển thị",
+            "vt. công bố; mở ra",
+            "n. công khai; không gian mở; ngoài trời"
         ],
         "usphone": "[ˈoʊpən]",
         "ukphone": "[ˈəʊpən]"

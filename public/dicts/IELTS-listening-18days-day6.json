@@ -1,310 +1,464 @@
 [
     {
         "name": "deliver",
-        "trans": ["v. 递送"]
+        "trans": [
+            "v. chuyển giao, giao"
+        ]
     },
     {
         "name": "purse",
-        "trans": ["n. 钱包"]
+        "trans": [
+            "n. ví tiền, bóp da"
+        ]
     },
     {
         "name": "suit",
-        "trans": ["n. 套装"]
+        "trans": [
+            "n. bộ đồ, bộ vest"
+        ]
     },
     {
         "name": "brick",
-        "trans": ["n. 砖块"]
+        "trans": [
+            "n. viên gạch, khối gạch"
+        ]
     },
     {
         "name": "assignment",
-        "trans": ["n. 作业"]
+        "trans": [
+            "n. bài tập, bài vở"
+        ]
     },
     {
         "name": "register",
-        "trans": ["v. 注册"]
+        "trans": [
+            "v. đăng ký"
+        ]
     },
     {
         "name": "research",
-        "trans": ["n./v. 研究"]
+        "trans": [
+            "n./v. nghiên cứu, học tập"
+        ]
     },
     {
         "name": "soil",
-        "trans": ["n. 土壤"]
+        "trans": [
+            "n. đất, thổ nhưỡng"
+        ]
     },
     {
         "name": "residence",
-        "trans": ["n. 住处，住宅"]
+        "trans": [
+            "n. chỗ ở, nhà ở"
+        ]
     },
     {
         "name": "designer",
-        "trans": ["n. 设计师"]
+        "trans": [
+            "n. nhà thiết kế"
+        ]
     },
     {
         "name": "board game",
-        "trans": ["n. 桌游"]
+        "trans": [
+            "n. trò chơi bàn, cờ vua"
+        ]
     },
     {
         "name": "locker",
-        "trans": ["n. 储物柜"]
+        "trans": [
+            "n. tủ locker, tủ gửi đồ"
+        ]
     },
     {
         "name": "century",
-        "trans": ["n. 世纪"]
+        "trans": [
+            "n. thế kỷ"
+        ]
     },
     {
         "name": "agriculture",
-        "trans": ["n. 农业"]
+        "trans": [
+            "n. nông nghiệp"
+        ]
     },
     {
         "name": "fair",
-        "trans": ["n. 展览会"]
+        "trans": [
+            "n. triển lãm, hội chợ trưng bày"
+        ]
     },
     {
         "name": "region",
-        "trans": ["n. 地区"]
+        "trans": [
+            "n. khu vực, vùng"
+        ]
     },
     {
         "name": "website",
-        "trans": ["n. 网站"]
+        "trans": [
+            "n. trang web, website"
+        ]
     },
     {
         "name": "formal",
-        "trans": ["adj. 正式的"]
+        "trans": [
+            "adj. chính thức, trang trọng"
+        ]
     },
     {
         "name": "log in",
-        "trans": ["v. 登录"]
+        "trans": [
+            "v. đăng nhập"
+        ]
     },
     {
         "name": "cover",
-        "trans": ["v. 包括"]
+        "trans": [
+            "v. bao gồm"
+        ]
     },
     {
         "name": "development",
-        "trans": ["n. 发展"]
+        "trans": [
+            "n. sự phát triển, phát triển"
+        ]
     },
     {
         "name": "shelf",
-        "trans": ["n. 架子"]
+        "trans": [
+            "n. kệ, giá đỡ"
+        ]
     },
     {
         "name": "save",
-        "trans": ["v. 节省"]
+        "trans": [
+            "v. tiết kiệm, tiết kiệm"
+        ]
     },
     {
         "name": "audience",
-        "trans": ["n. 观众"]
+        "trans": [
+            "n. khán giả"
+        ]
     },
     {
         "name": "heat",
-        "trans": ["n. 高温"]
+        "trans": [
+            "n. nhiệt độ cao"
+        ]
     },
     {
         "name": "indicator",
-        "trans": ["n. 指标"]
+        "trans": [
+            "n. chỉ số"
+        ]
     },
     {
         "name": "kilogram",
-        "trans": ["n. 公斤"]
+        "trans": [
+            "n. kilôgam, kg"
+        ]
     },
     {
         "name": "specially",
-        "trans": ["adv. 特别地"]
+        "trans": [
+            "adv. đặc biệt, riêng biệt"
+        ]
     },
     {
         "name": "traditional",
-        "trans": ["adj. 传统的"]
+        "trans": [
+            "adj. truyền thống"
+        ]
     },
     {
         "name": "refund",
-        "trans": ["v. 退还"]
+        "trans": [
+            "v. trả lại, hoàn trả"
+        ]
     },
     {
         "name": "trip",
-        "trans": ["n. 旅行"]
+        "trans": [
+            "n. chuyến đi"
+        ]
     },
     {
         "name": "sick",
-        "trans": ["n. 病人"]
+        "trans": [
+            "n. benh nhan"
+        ]
     },
     {
         "name": "tap water",
-        "trans": ["n. 自来水"]
+        "trans": [
+            "n. nước máy"
+        ]
     },
     {
         "name": "destination",
-        "trans": ["n. 目的地"]
+        "trans": [
+            "n. điểm đến"
+        ]
     },
     {
         "name": "advance",
-        "trans": ["n. 发展"]
+        "trans": [
+            "n. sự phát triển, phát triển"
+        ]
     },
     {
         "name": "match",
-        "trans": ["v. 比赛"]
+        "trans": [
+            "v. thi đấu, tranh tài"
+        ]
     },
     {
         "name": "length",
-        "trans": ["n. 长度"]
+        "trans": [
+            "n. độ dài"
+        ]
     },
     {
         "name": "remove",
-        "trans": ["v. 移除"]
+        "trans": [
+            "v. gỡ bỏ, loại bỏ"
+        ]
     },
     {
         "name": "change",
-        "trans": ["v. 改变"]
+        "trans": [
+            "v. thay đổi, sửa đổi"
+        ]
     },
     {
         "name": "tools",
-        "trans": ["n. 工具"]
+        "trans": [
+            "n. công cụ, dụng cụ"
+        ]
     },
     {
         "name": "garden",
-        "trans": ["n. 花园"]
+        "trans": [
+            "n. vườn, hoa viên"
+        ]
     },
     {
         "name": "overfill",
-        "trans": ["v. 装满"]
+        "trans": [
+            "v. đổ đầy, làm đầy"
+        ]
     },
     {
         "name": "ferry",
-        "trans": ["n. 渡轮"]
+        "trans": [
+            "n. phà"
+        ]
     },
     {
         "name": "plastic",
-        "trans": ["adj. 塑料的"]
+        "trans": [
+            "adj. bằng nhựa, plastic"
+        ]
     },
     {
         "name": "waterproof",
-        "trans": ["adj. 防水的"]
+        "trans": [
+            "adj. chống nước, không thấm nước"
+        ]
     },
     {
         "name": "station",
-        "trans": ["n. 车站"]
+        "trans": [
+            "n. nhà ga, trạm"
+        ]
     },
     {
         "name": "dancing",
-        "trans": ["n. 舞蹈"]
+        "trans": [
+            "n. điệu nhảy, múa"
+        ]
     },
     {
         "name": "monitor",
-        "trans": ["v. 监视"]
+        "trans": [
+            "v. theo dõi, giám sát"
+        ]
     },
     {
         "name": "questionnaire",
-        "trans": ["n. 调查问卷"]
+        "trans": [
+            "n. bảng khảo sát, bảng hỏi"
+        ]
     },
     {
         "name": "silver",
-        "trans": ["n. 银"]
+        "trans": [
+            "n. bạc"
+        ]
     },
     {
         "name": "experiment",
-        "trans": ["n. 实验"]
+        "trans": [
+            "n. thí nghiệm"
+        ]
     },
     {
         "name": "chip",
-        "trans": ["n. 芯片"]
+        "trans": [
+            "n. chip, vi mạch"
+        ]
     },
     {
         "name": "firewood",
-        "trans": ["n. 柴火"]
+        "trans": [
+            "n. củi"
+        ]
     },
     {
         "name": "information",
-        "trans": ["n. 信息"]
+        "trans": [
+            "n. tin, thông tin"
+        ]
     },
     {
         "name": "prize",
-        "trans": ["n. 奖品"]
+        "trans": [
+            "n. giải thưởng, phần thưởng"
+        ]
     },
     {
         "name": "inspection",
-        "trans": ["n. 视察"]
+        "trans": [
+            "n. sự thanh tra, sự kiểm tra"
+        ]
     },
     {
         "name": "fee",
-        "trans": ["n. 费用"]
+        "trans": [
+            "n. chi phí, phí tổn"
+        ]
     },
     {
         "name": "budget",
-        "trans": ["n. 预算"]
+        "trans": [
+            "n. ngân sách"
+        ]
     },
     {
         "name": "insurance",
-        "trans": ["n. 保险"]
+        "trans": [
+            "n. bảo hiểm"
+        ]
     },
     {
         "name": "health",
-        "trans": ["n. 健康"]
+        "trans": [
+            "n. sức khoẻ"
+        ]
     },
     {
         "name": "land",
-        "trans": ["n. 陆地"]
+        "trans": [
+            "n. đất liền"
+        ]
     },
     {
         "name": "labour",
-        "trans": ["n. 劳动力"]
+        "trans": [
+            "n. sức lao động, nhân lực"
+        ]
     },
     {
         "name": "furniture",
-        "trans": ["n. 家具"]
+        "trans": [
+            "n. nội thất, đồ gỗ"
+        ]
     },
     {
         "name": "feature",
-        "trans": ["n. 特色"]
+        "trans": [
+            "n. đặc sản"
+        ]
     },
     {
         "name": "art",
-        "trans": ["n. 艺术"]
+        "trans": [
+            "n. nghệ thuật"
+        ]
     },
     {
         "name": "participate",
-        "trans": ["v. 参与"]
+        "trans": [
+            "v. tham gia, tham dự"
+        ]
     },
     {
         "name": "mixed",
-        "trans": ["adj. 混合的"]
+        "trans": [
+            "adj. hỗn hợp"
+        ]
     },
     {
         "name": "attend",
-        "trans": ["v. 出席"]
+        "trans": [
+            "v. dự, tham dự"
+        ]
     },
     {
         "name": "assignment",
-        "trans": ["n. 作业"]
+        "trans": [
+            "n. bài tập, bài vở"
+        ]
     },
     {
         "name": "government",
-        "trans": ["n. 政府"]
+        "trans": [
+            "n. chính phủ"
+        ]
     },
     {
         "name": "fund",
-        "trans": ["n. 资助"]
+        "trans": [
+            "n. sự tài trợ, trợ cấp"
+        ]
     },
     {
         "name": "salary",
-        "trans": ["n. 工资"]
+        "trans": [
+            "n. lương, tiền lương"
+        ]
     },
     {
         "name": "confidence",
-        "trans": ["n. 信心"]
+        "trans": [
+            "n. lòng tin, niềm tin"
+        ]
     },
     {
         "name": "register",
-        "trans": ["v. 注册"]
+        "trans": [
+            "v. đăng ký"
+        ]
     },
     {
         "name": "flexible",
-        "trans": ["adj. 灵活的"]
+        "trans": [
+            "adj. linh hoạt, cơ hội"
+        ]
     },
     {
         "name": "password",
-        "trans": ["n. 密码"]
+        "trans": [
+            "n. mật khẩu, mật mã"
+        ]
     },
     {
         "name": "flat",
-        "trans": ["adj. 平的"]
+        "trans": [
+            "adj. phẳng, bằng phẳng"
+        ]
     }
 ]

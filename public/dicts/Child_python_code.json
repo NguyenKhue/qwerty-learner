@@ -2,115 +2,115 @@
     {
         "name": "if",
         "trans": [
-            "如果"
+            "nếu; nếu như; giả sử"
         ]
     },
     {
         "name": "else",
         "trans": [
-            "否则"
+            "nếu không thì"
         ]
     },
     {
         "name": "while",
         "trans": [
-            "while 型循环"
+            "n. vòng lặp kiểu while"
         ]
     },
     {
         "name": "for",
-        "trans":[
-            "for 型循环"
+        "trans": [
+            "n. vòng lặp kiểu for"
         ]
     },
     {
         "name": "and",
         "trans": [
-            "逻辑与运算符"
+            "n. toán tử AND logic"
         ]
     },
     {
         "name": "or",
         "trans": [
-            "逻辑或运算符"
+            "n. toán tử OR logic"
         ]
     },
     {
         "name": "not",
         "trans": [
-            "逻辑非运算符"
+            "n. toán tử NOT logic"
         ]
     },
     {
         "name": "TRUE",
         "trans": [
-            "真"
+            "adj. đúng, sự thật"
         ]
     },
     {
         "name": "FALSE",
         "trans": [
-            "假"
+            "adj. sai, giả"
         ]
     },
     {
         "name": "None",
         "trans": [
-            "空值"
+            "n. giá trị rỗng"
         ]
     },
     {
         "name": "continue",
         "trans": [
-            "跳出本次循环，继续下一轮循环"
+            "v. bỏ qua vòng lặp hiện tại, tiếp tục vòng lặp tiếp theo"
         ]
     },
     {
         "name": "break",
         "trans": [
-            "跳出整个循环"
+            "v. thoát khỏi toàn bộ vòng lặp"
         ]
     },
     {
         "name": "pass",
         "trans": [
-            "空语句，不做任何事情"
+            "n. câu lệnh rỗng, không làm gì"
         ]
     },
     {
         "name": "def",
         "trans": [
-            "define的缩写，定义一个函数"
+            "v. viết tắt của define, định nghĩa hàm"
         ]
     },
     {
         "name": "return",
         "trans": [
-            "返回语句，退出def语句块"
+            "n. câu lệnh return, thoát khỏi khối def"
         ]
     },
     {
         "name": "global",
         "trans": [
-            "声明全局变量"
+            "v. khai báo biến toàn cục"
         ]
     },
     {
         "name": "class",
         "trans": [
-            "定义一个类"
+            "v. định nghĩa lớp"
         ]
     },
     {
         "name": "import",
         "trans": [
-            "导入模块"
+            "v. nhập khẩu mô-đun"
         ]
     },
     {
         "name": "from",
         "trans": [
-            "与import配合导入模块"
+            "v. nhập mô-đun cùng với import"
         ]
     }
 ]

@@ -1,210 +1,328 @@
 [
     {
         "name": "evidence",
-        "trans": ["证据"]
+        "trans": [
+            "n. bằng chứng; chứng cứ"
+        ]
     },
     {
         "name": "alternative",
-        "trans": ["可供选择的"]
+        "trans": [
+            "có thể lựa chọn"
+        ]
     },
     {
         "name": "intention",
-        "trans": ["意图"]
+        "trans": [
+            "ý định, mục đích"
+        ]
     },
     {
         "name": "relevant",
-        "trans": ["相关的"]
+        "trans": [
+            "liên quan; có liên quan"
+        ]
     },
     {
         "name": "outline",
-        "trans": ["轮廓", "大纲"]
+        "trans": [
+            "đường viền; dáng",
+            "dàn ý"
+        ]
     },
     {
         "name": "extinct",
-        "trans": ["灭绝的"]
+        "trans": [
+            "Tuyệt chủng"
+        ]
     },
     {
         "name": "wing",
-        "trans": ["翅膀"]
+        "trans": [
+            "cánh"
+        ]
     },
     {
         "name": "nest",
-        "trans": ["巢", "窝"]
+        "trans": [
+            "tổ",
+            "tổ"
+        ]
     },
     {
         "name": "interference",
-        "trans": ["干预", "干涉"]
+        "trans": [
+            "can thiệp",
+            "can thiệp"
+        ]
     },
     {
         "name": "standard",
-        "trans": ["标准"]
+        "trans": [
+            "tiêu chuẩn, chuẩn mực"
+        ]
     },
     {
         "name": "subtopic",
-        "trans": ["副主题"]
+        "trans": [
+            "chủ đề phụ"
+        ]
     },
     {
         "name": "therapy",
-        "trans": ["治疗", "疗法"]
+        "trans": [
+            "chữa bệnh, điều trị",
+            "liệu pháp"
+        ]
     },
     {
         "name": "morality",
-        "trans": ["道德"]
+        "trans": [
+            "đạo đức; đạo lý"
+        ]
     },
     {
         "name": "participation",
-        "trans": ["参加", "参与"]
+        "trans": [
+            "tham dự",
+            "v. tham gia; tham dự"
+        ]
     },
     {
         "name": "faculty",
-        "trans": ["科", "系", "能力"]
+        "trans": [
+            "chuyên khoa",
+            "khoa",
+            "khả năng, năng lực"
+        ]
     },
     {
         "name": "fit",
-        "trans": ["健康的"]
+        "trans": [
+            "khỏe mạnh"
+        ]
     },
     {
         "name": "useful",
-        "trans": ["有用的"]
+        "trans": [
+            "có ích, hữu dụng"
+        ]
     },
     {
         "name": "confuse",
-        "trans": ["使混乱"]
+        "trans": [
+            "gây hỗn loạn"
+        ]
     },
     {
         "name": "inconvenient",
-        "trans": ["不便的"]
+        "trans": [
+            "bất tiện"
+        ]
     },
     {
         "name": "valuable",
-        "trans": ["有价值的"]
+        "trans": [
+            "có giá trị"
+        ]
     },
     {
         "name": "advisor",
-        "trans": ["顾问"]
+        "trans": [
+            "cố vấn"
+        ]
     },
     {
         "name": "forget",
-        "trans": ["忘记"]
+        "trans": [
+            "quên"
+        ]
     },
     {
         "name": "lecturer",
-        "trans": ["讲师"]
+        "trans": [
+            "giảng viên"
+        ]
     },
     {
         "name": "content",
-        "trans": ["内容"]
+        "trans": [
+            "nội dung, dung ý"
+        ]
     },
     {
         "name": "practical",
-        "trans": ["实际的"]
+        "trans": [
+            "thực tế; cụ thể"
+        ]
     },
     {
         "name": "improvement",
-        "trans": ["改进"]
+        "trans": [
+            "cải thiện"
+        ]
     },
     {
         "name": "repetitive",
-        "trans": ["重复性的"]
+        "trans": [
+            "lặp đi lặp lại"
+        ]
     },
     {
         "name": "village",
-        "trans": ["村庄"]
+        "trans": [
+            "làng"
+        ]
     },
     {
         "name": "mission",
-        "trans": ["使命"]
+        "trans": [
+            "sứ mệnh"
+        ]
     },
     {
         "name": "qualification",
-        "trans": ["资格"]
+        "trans": [
+            "tiêu chuẩn"
+        ]
     },
     {
         "name": "curriculum",
-        "trans": ["课程"]
+        "trans": [
+            "khóa học, môn học"
+        ]
     },
     {
         "name": "training",
-        "trans": ["训练"]
+        "trans": [
+            "v. huấn luyện; tập luyện"
+        ]
     },
     {
         "name": "colleague",
-        "trans": ["同事"]
+        "trans": [
+            "đồng nghiệp, đồng sự nghiệp"
+        ]
     },
     {
         "name": "description",
-        "trans": ["描述"]
+        "trans": [
+            "mô tả"
+        ]
     },
     {
         "name": "administration",
-        "trans": ["管理"]
+        "trans": [
+            "quản lý, quản trị"
+        ]
     },
     {
         "name": "farming",
-        "trans": ["农业", "耕作"]
+        "trans": [
+            "nông nghiệp",
+            "canh tác"
+        ]
     },
     {
         "name": "damage",
-        "trans": ["损害", "损毁"]
+        "trans": [
+            "tổn hại, gây hại",
+            "phá hủy"
+        ]
     },
     {
         "name": "checklist",
-        "trans": ["清单", "检查表"]
+        "trans": [
+            "danh sách",
+            "bảng kiểm tra"
+        ]
     },
     {
         "name": "figures",
-        "trans": ["价格", "金额"]
+        "trans": [
+            "giá; giá cả",
+            "số tiền"
+        ]
     },
     {
         "name": "presentation",
-        "trans": ["陈述", "展示"]
+        "trans": [
+            "tuyên bố, phát biểu",
+            "trưng bày, triển lãm"
+        ]
     },
     {
         "name": "professor",
-        "trans": ["教授", "教师"]
+        "trans": [
+            "giáo sư; giảng viên; dạy",
+            "giáo viên"
+        ]
     },
     {
         "name": "seminar",
-        "trans": ["讨论会"]
+        "trans": [
+            "hội thảo"
+        ]
     },
     {
         "name": "chemistry",
-        "trans": ["化学"]
+        "trans": [
+            "hóa học"
+        ]
     },
     {
         "name": "trade",
-        "trans": ["贸易", "交易"]
+        "trans": [
+            "thương mại",
+            "giao dịch"
+        ]
     },
     {
         "name": "payment",
-        "trans": ["支付"]
+        "trans": [
+            "thanh toán; trả"
+        ]
     },
     {
         "name": "portable",
-        "trans": ["便携的"]
+        "trans": [
+            "cầm tay"
+        ]
     },
     {
         "name": "comedy",
-        "trans": ["喜剧"]
+        "trans": [
+            "hài kịch"
+        ]
     },
     {
         "name": "pattern",
-        "trans": ["模式"]
+        "trans": [
+            "chế độ; mô hình, kiểu"
+        ]
     },
     {
         "name": "fresh",
-        "trans": ["新鲜的"]
+        "trans": [
+            "tươi mới"
+        ]
     },
     {
         "name": "application",
-        "trans": ["申请"]
+        "trans": [
+            "đơn, đơn xin, xin"
+        ]
     },
     {
         "name": "employee",
-        "trans": ["雇员"]
+        "trans": [
+            "nhân viên"
+        ]
     },
     {
         "name": "evaporate",
-        "trans": ["蒸发"]
+        "trans": [
+            "bốc hơi, bay hơi"
+        ]
     }
 ]

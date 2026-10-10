@@ -34,7 +34,7 @@
   {
     "name": "mammal",
     "trans": [
-      "n. [脊椎] 哺乳动物"
+      "n. [động vật có vú] loài có vú"
     ],
     "usphone": "ˈmæml",
     "ukphone": "ˈmæml"
@@ -50,7 +50,7 @@
   {
     "name": "amazing",
     "trans": [
-      "adj. 令人惊异的 v. 使吃惊（amaze的ing形式）"
+      "adj. gây kinh ngạc v. làm kinh ngạc (dạng từ của amaze)"
     ],
     "usphone": "əˈmeɪzɪŋ",
     "ukphone": "əˈmeɪzɪŋ"
@@ -58,7 +58,7 @@
   {
     "name": "captain",
     "trans": [
-      "n. 队长，首领；船长；上尉；海军上校 vt. 指挥；率领"
+      "n. đội trưởng, thủ lĩnh; thuyền trưởng; đại úy; thiếu tá hải quân vt. chỉ huy; dẫn dắt"
     ],
     "usphone": "ˈkæptɪn",
     "ukphone": "ˈkæptɪn"
@@ -104,7 +104,7 @@
   {
     "name": "costume",
     "trans": [
-      "n. 服装，装束；戏装，剧装 vt. 给…穿上服装"
+      "n. quần áo; trang phục; trang phục sân khấu vt. mặc quần áo cho..."
     ],
     "usphone": "ˈkɒstjuːm",
     "ukphone": "ˈkɒstjuːm"
@@ -176,7 +176,7 @@
   {
     "name": "scratch",
     "trans": [
-      "n. 擦伤；抓痕；刮擦声；乱写 adj. 打草稿用的；凑合的；碰巧的 vt. 抓；刮；挖出；乱涂 vi. 抓；搔；发刮擦声；勉强糊口；退出比赛"
+      "n. sự xước, vết xước; vết cào; tiếng cào, tiếng rít; nguệch ngoạch adj. dùng để nháp; tạm bợ, ăn đại; tình cờ vt. cào, gãi; cào; đào ra; viết bậy, vẽ bậy vi. cào, gãi; kêu rít; sống tạm bợ; bỏ giải"
     ],
     "usphone": "skrætʃ",
     "ukphone": "skrætʃ"
@@ -208,7 +208,7 @@
   {
     "name": "sticky",
     "trans": [
-      "adj. 粘的；粘性的"
+      "(adj.) dính; có tính dính"
     ],
     "usphone": "ˈstɪki",
     "ukphone": "ˈstɪki"
@@ -272,7 +272,7 @@
   {
     "name": "hay",
     "trans": [
-      "n. 干草 vt. 把晒干 vi. 割草晒干"
+      "n. cỏ khô vt. làm phơi khô vi. cắt cỏ phơi khô"
     ],
     "usphone": "heɪ",
     "ukphone": "heɪ"
@@ -296,7 +296,7 @@
   {
     "name": "library",
     "trans": [
-      "n. 图书馆，藏书室；文库"
+      "n. thư viện, phòng lưu trữ sách; kho tài liệu"
     ],
     "usphone": "ˈlaɪbrəri; ˈlaɪbri",
     "ukphone": "ˈlaɪbrəri; ˈlaɪbri"
@@ -336,7 +336,7 @@
   {
     "name": "backyard",
     "trans": [
-      "n. 后院；后庭"
+      "n. sân sau; phía sau nhà"
     ],
     "usphone": "ˌbækˈjɑːd",
     "ukphone": "ˌbækˈjɑːd"
@@ -352,7 +352,7 @@
   {
     "name": "flashlight",
     "trans": [
-      "n. 手电筒；闪光灯"
+      "n. đèn pin; đèn chớp"
     ],
     "usphone": "ˈflæʃlaɪt",
     "ukphone": "ˈflæʃlaɪt"
@@ -368,7 +368,7 @@
   {
     "name": "sleeping bag",
     "trans": [
-      "睡袋"
+      "túi ngủ"
     ],
     "usphone": "ˈsliːpɪŋ bæɡ",
     "ukphone": "ˈsliːpɪŋ bæɡ"
@@ -528,7 +528,7 @@
   {
     "name": "earthquake",
     "trans": [
-      "n. 地震；大动荡"
+      "n. động đất; sự rung động lớn"
     ],
     "usphone": "ˈɜːθkweɪk",
     "ukphone": "ˈɜːθkweɪk"
@@ -536,7 +536,7 @@
   {
     "name": "quilt",
     "trans": [
-      "n. 被子；棉被 vt. 东拼西凑地编；加软衬料后缝制 vi. 缝被子"
+      "n. Chan; chan dap vt. Va chap va; khau them lop mem vao vi. May chan"
     ],
     "usphone": "kwɪlt",
     "ukphone": "kwɪlt"
@@ -624,7 +624,7 @@
   {
     "name": "different",
     "trans": [
-      "adj. 不同的；个别的，与众不同的"
+      "adj. khác nhau; riêng biệt, đặc thù"
     ],
     "usphone": "ˈdɪfrənt",
     "ukphone": "ˈdɪfrənt"
@@ -704,7 +704,7 @@
   {
     "name": "babysitter",
     "trans": [
-      "n. 临时照顾幼儿者"
+      "danh từ. người trông trẻ tạm thời"
     ],
     "usphone": "ˈbeɪbisɪtə(r)",
     "ukphone": "ˈbeɪbisɪtə(r)"
@@ -728,7 +728,7 @@
   {
     "name": "firefighter",
     "trans": [
-      "n. 消防队员"
+      "(n.) lính cứu hỏa"
     ],
     "usphone": "ˈfaɪəfaɪtə(r)",
     "ukphone": "ˈfaɪəfaɪtə(r)"
@@ -936,7 +936,7 @@
   {
     "name": "picnic",
     "trans": [
-      "n. 野餐 vi. 去野餐"
+      "n. Bua an ngoai troi vi. Di da ngoai an"
     ],
     "usphone": "ˈpɪknɪk",
     "ukphone": "ˈpɪknɪk"
@@ -968,7 +968,7 @@
   {
     "name": "hungry",
     "trans": [
-      "adj. 饥饿的；渴望的；荒年的；不毛的"
+      "adj. đói; khao khát; cằn cỗi; vô sinh"
     ],
     "usphone": "ˈhʌŋɡri",
     "ukphone": "ˈhʌŋɡri"
@@ -984,7 +984,7 @@
   {
     "name": "trash",
     "trans": [
-      "n. 垃圾；废物 vt. 丢弃；修剪树枝"
+      "n. Rac; rac roi vt. Vut bo; tia canh"
     ],
     "usphone": "træʃ",
     "ukphone": "træʃ"
@@ -1088,7 +1088,7 @@
   {
     "name": "food",
     "trans": [
-      "n. 食物；养料"
+      "n. thức ăn; chất dinh dưỡng"
     ],
     "usphone": "fuːd",
     "ukphone": "fuːd"
@@ -1112,7 +1112,7 @@
   {
     "name": "bulb",
     "trans": [
-      "n. 电灯泡；鳞茎；球状物 vi. 生球茎；膨胀成球状"
+      "n. bóng đèn; củ; vật hình cầu vi. sinh củ; phồng thành hình cầu"
     ],
     "usphone": "bʌlb",
     "ukphone": "bʌlb"
@@ -1184,7 +1184,7 @@
   {
     "name": "subway",
     "trans": [
-      "n. 地铁；地道 vi. 乘地铁"
+      "n. tàu điện ngầm; đường hầm vi. đi tàu điện ngầm"
     ],
     "usphone": "ˈsʌbweɪ",
     "ukphone": "ˈsʌbweɪ"
@@ -1208,7 +1208,7 @@
   {
     "name": "Easter",
     "trans": [
-      "n. 复活节"
+      "n. lễ Phục Sinh"
     ],
     "usphone": "ˈiːstə(r)",
     "ukphone": "ˈiːstə(r)"
@@ -1272,7 +1272,7 @@
   {
     "name": "vegetable",
     "trans": [
-      "n. 蔬菜；植物；植物人 adj. 蔬菜的；植物的"
+      "n. rau củ; cây; người sống đời thực vật adj. rau; thực vật"
     ],
     "usphone": "ˈvedʒtəbl",
     "ukphone": "ˈvedʒtəbl"
@@ -1280,7 +1280,7 @@
   {
     "name": "cucumber",
     "trans": [
-      "n. 黄瓜；胡瓜"
+      "n. dưa chuột"
     ],
     "usphone": "ˈkjuːkʌmbə(r)",
     "ukphone": "ˈkjuːkʌmbə(r)"
@@ -1296,7 +1296,7 @@
   {
     "name": "onion",
     "trans": [
-      "n. 洋葱；洋葱头"
+      "n. hành; củ hành"
     ],
     "usphone": "ˈʌnjən",
     "ukphone": "ˈʌnjən"
@@ -1318,7 +1318,7 @@
   {
     "name": "create",
     "trans": [
-      "vt. 创造，创作；造成"
+      "vt. tạo ra; sáng tác; gây ra"
     ],
     "usphone": "kriˈeɪt",
     "ukphone": "kriˈeɪt"
@@ -1326,7 +1326,7 @@
   {
     "name": "enjoy",
     "trans": [
-      "vt. 欣赏，享受；喜爱；使过得快活"
+      " vt. thưởng thức, tận hưởng; thích; làm cho vui vẻ"
     ],
     "usphone": "ɪnˈdʒɔɪ",
     "ukphone": "ɪnˈdʒɔɪ"
@@ -1342,7 +1342,7 @@
   {
     "name": "relax",
     "trans": [
-      "vi. 放松，休息；松懈，松弛；变从容；休养 vt. 放松；使休息；使松弛；缓和；使松懈"
+      "vi. thả lỏng, nghỉ ngơi; buông lỏng, xẹp xuống; trở nên điềm tĩnh; nghỉ dưỡng vt. thả lỏng; cho nghỉ ngơi; làm xẹp xuống; dịu dàng; làm buông lỏng"
     ],
     "usphone": "rɪˈlæks",
     "ukphone": "rɪˈlæks"
@@ -1442,7 +1442,7 @@
   {
     "name": "important",
     "trans": [
-      "adj. 重要的，重大的；有地位的；有权力的"
+      "(adj.) quan trọng; đáng kể; có ảnh hưởng"
     ],
     "usphone": "ɪmˈpɔːtnt",
     "ukphone": "ɪmˈpɔːtnt"
@@ -1576,7 +1576,7 @@
   {
     "name": "mistake",
     "trans": [
-      "n. 错误；误会；过失 vt. 弄错；误解 vi. 弄错；误解"
+      "n. sai lầm; nhầm lẫn; lỗi lầm vt. nhầm, hiểu lầm vi. sai; hiểu lầm"
     ],
     "usphone": "mɪˈsteɪk",
     "ukphone": "mɪˈsteɪk"
@@ -1624,7 +1624,7 @@
   {
     "name": "salty",
     "trans": [
-      "adj. 咸的；含盐的"
+      "adj. mặn; chứa muối"
     ],
     "usphone": "ˈsɔːlti; ˈsɒlti",
     "ukphone": "ˈsɔːlti; ˈsɒlti"
@@ -1656,7 +1656,7 @@
   {
     "name": "insect",
     "trans": [
-      "n. 昆虫；卑鄙的人"
+      "n. côn trùng; kẻ đáng khinh"
     ],
     "usphone": "ˈɪnsekt",
     "ukphone": "ˈɪnsekt"
@@ -1696,7 +1696,7 @@
   {
     "name": "haircut",
     "trans": [
-      "n. 理发；发型"
+      "n. sự cắt tóc; kiểu tóc, mái tóc"
     ],
     "usphone": "ˈheəkʌt",
     "ukphone": "ˈheəkʌt"
@@ -1752,7 +1752,7 @@
   {
     "name": "idea",
     "trans": [
-      "n. 想法；主意；概念"
+      "n. ý tưởng; ý kiến; khái niệm"
     ],
     "usphone": "aɪˈdɪə",
     "ukphone": "aɪˈdɪə"
@@ -1816,7 +1816,7 @@
   {
     "name": "slice",
     "trans": [
-      "n. 薄片；部分；菜刀，火铲 vt. 切下；把…分成部分；将…切成薄片 vi. 切开；割破"
+      "n. lát mỏng, khoanh; phần; dao bếp, chảo xào vt. cắt; chia thành phần; cắt thành lát vi. cắt; rạch"
     ],
     "usphone": "slaɪs",
     "ukphone": "slaɪs"
@@ -1944,7 +1944,7 @@
   {
     "name": "spider",
     "trans": [
-      "n. 蜘蛛；设圈套者；三脚架"
+      "n. nhện; người đặt bẫy; chân máy ba chân"
     ],
     "usphone": "ˈspaɪdə(r)",
     "ukphone": "ˈspaɪdə(r)"
@@ -2048,7 +2048,7 @@
   {
     "name": "nervous",
     "trans": [
-      "adj. 神经的；紧张不安的；强健有力的"
+      "adj. thần kinh; lo lắng; mạnh mẽ; khỏe khoắn"
     ],
     "usphone": "ˈnɜːvəs",
     "ukphone": "ˈnɜːvəs"
@@ -2064,7 +2064,7 @@
   {
     "name": "bakery",
     "trans": [
-      "n. 面包店"
+      "n. tiệm bánh; cửa hàng bánh; lò bánh"
     ],
     "usphone": "ˈbeɪkəri",
     "ukphone": "ˈbeɪkəri"
@@ -2080,7 +2080,7 @@
   {
     "name": "neighborhood",
     "trans": [
-      "n. 附近；街坊；接近；街区"
+      "n. lân cận; hàng xóm; gần gũi; khu phố"
     ],
     "usphone": "'neɪbə,hʊd",
     "ukphone": "'neɪbə,hʊd"
@@ -2096,7 +2096,7 @@
   {
     "name": "freeway",
     "trans": [
-      "n. 高速公路"
+      "n. đường cao tốc"
     ],
     "usphone": "ˈfriːweɪ",
     "ukphone": "ˈfriːweɪ"
@@ -2120,7 +2120,7 @@
   {
     "name": "learn",
     "trans": [
-      "vt. 学习；得知；认识到 vi. 学习；获悉"
+      "vt. học; biết; nhận ra vi. học; biết được"
     ],
     "usphone": "lɜːn",
     "ukphone": "lɜːn"
@@ -2216,7 +2216,7 @@
   {
     "name": "choose",
     "trans": [
-      "vt. 选择，决定 vi. 选择，挑选"
+      "vt. chọn, quyết định vi. chọn, lựa chọn"
     ],
     "usphone": "tʃuːz",
     "ukphone": "tʃuːz"
@@ -2232,7 +2232,7 @@
   {
     "name": "night",
     "trans": [
-      "n. 夜晚，晚上；黑暗，黑夜 adj. 夜晚的，夜间的"
+      "n. ban đêm, buổi tối; bóng tối adj. ban đêm, về đêm"
     ],
     "usphone": "naɪt",
     "ukphone": "naɪt"
@@ -2264,7 +2264,7 @@
   {
     "name": "pie",
     "trans": [
-      "n. 馅饼；饼图；爱说话的人 vt. 使杂乱"
+      "n. bánh nhân; biểu đồ tròn; người hay nói vt. làm lung tung"
     ],
     "usphone": "paɪ",
     "ukphone": "paɪ"
@@ -2296,7 +2296,7 @@
   {
     "name": "password",
     "trans": [
-      "n. 密码；口令"
+      "n. mật khẩu; mã quyền"
     ],
     "usphone": "ˈpɑːswɜːd",
     "ukphone": "ˈpɑːswɜːd"
@@ -2320,7 +2320,7 @@
   {
     "name": "children",
     "trans": [
-      "n. 孩子们（child的复数）"
+      "n. những đứa trẻ (số nhiều của child)"
     ],
     "usphone": "ˈtʃɪldrən",
     "ukphone": "ˈtʃɪldrən"
@@ -2336,7 +2336,7 @@
   {
     "name": "path",
     "trans": [
-      "n. 道路；小路；轨道"
+      "n. đường; mòi; quỹ đạo"
     ],
     "usphone": "pɑːθ",
     "ukphone": "pɑːθ"
@@ -2344,7 +2344,7 @@
   {
     "name": "playground",
     "trans": [
-      "n. 运动场，操场；游乐场"
+      "n. sân thể thao; sân chơi"
     ],
     "usphone": "ˈpleɪɡraʊnd",
     "ukphone": "ˈpleɪɡraʊnd"
@@ -2408,7 +2408,7 @@
   {
     "name": "breath",
     "trans": [
-      "n. 呼吸，气息；一口气，（呼吸的）一次；瞬间，瞬息；微风；迹象；无声音，气音"
+      "n. hơi thở, thở; một hơi, (một lần thở); khoảnh khắc, thoáng chốc; gió nhẹ; dấu hiệu; không âm, âm vô thanh"
     ],
     "usphone": "breθ",
     "ukphone": "breθ"
@@ -2590,7 +2590,7 @@
   {
     "name": "mouse",
     "trans": [
-      "n. 鼠标；老鼠；胆小羞怯的人 vt. 探出 vi. 捕鼠；窥探"
+      "n. chuột; chuột; kẻ nhút nhát, bỡn cợt vt. thò ra vi. bắt chuột; dòm ngó"
     ],
     "usphone": "maʊs",
     "ukphone": "maʊs"
@@ -2598,7 +2598,7 @@
   {
     "name": "owl",
     "trans": [
-      "n. 猫头鹰；枭；惯于晚上活动的人"
+      "n. cú; chim cú; người thích hoạt động ban đêm"
     ],
     "usphone": "aʊl",
     "ukphone": "aʊl"
@@ -2606,7 +2606,7 @@
   {
     "name": "squirrel",
     "trans": [
-      "n. 松鼠；松鼠毛皮 vt. 贮藏"
+      "n. sóc; lông sóc vt. cất giữ, tích trữ"
     ],
     "usphone": "ˈskwɪrəl",
     "ukphone": "ˈskwɪrəl"
@@ -2630,7 +2630,7 @@
   {
     "name": "scary",
     "trans": [
-      "adj. （事物）可怕的；恐怖的；吓人的；（人）提心吊胆的；引起惊慌的；胆小的"
+      "adj. (sự vật) đáng sợ; khủng bố; đáng sợ; (người) luôn cảnh giác; gây hoảng loạn; nhát gan"
     ],
     "usphone": "ˈskeəri",
     "ukphone": "ˈskeəri"
@@ -2670,7 +2670,7 @@
   {
     "name": "soup",
     "trans": [
-      "n. 汤，羹；马力 vt. 加速；增加马力"
+      "n. súp, canh; mã lực vt. tăng tốc; tăng công suất"
     ],
     "usphone": "suːp",
     "ukphone": "suːp"
@@ -2694,7 +2694,7 @@
   {
     "name": "music",
     "trans": [
-      "n. 音乐，乐曲"
+      "n. âm nhạc, bài hát"
     ],
     "usphone": "ˈmjuːzɪk",
     "ukphone": "ˈmjuːzɪk"
@@ -2822,7 +2822,7 @@
   {
     "name": "player",
     "trans": [
-      "n. 运动员，比赛者；游戏者，做游戏的人；演奏者，表演者；演员；播放器"
+      "n. vận động viên; người chơi; người biểu diễn; diễn viên; máy phát"
     ],
     "usphone": "ˈpleɪə(r)",
     "ukphone": "ˈpleɪə(r)"
@@ -2886,7 +2886,7 @@
   {
     "name": "eyesight",
     "trans": [
-      "n. 视力；目力"
+      "(n.) tầm nhìn; thị lực; khả năng nhìn"
     ],
     "usphone": "ˈaɪsaɪt",
     "ukphone": "ˈaɪsaɪt"
@@ -2962,7 +2962,7 @@
   {
     "name": "birthday",
     "trans": [
-      "n. 生日，诞辰；诞生的日子"
+      "n. sinh nhật; ngày sinh"
     ],
     "usphone": "ˈbɜːθdeɪ",
     "ukphone": "ˈbɜːθdeɪ"
@@ -3082,7 +3082,7 @@
   {
     "name": "menu",
     "trans": [
-      "n. 菜单 饭菜"
+      "n. thực đơn; món ăn"
     ],
     "usphone": "ˈmenjuː",
     "ukphone": "ˈmenjuː"
@@ -3226,7 +3226,7 @@
   {
     "name": "clothes",
     "trans": [
-      "n. 衣服"
+      "n. quần áo"
     ],
     "usphone": "kləʊðz; kləʊz",
     "ukphone": "kləʊðz; kləʊz"
@@ -3346,7 +3346,7 @@
   {
     "name": "tortoise",
     "trans": [
-      "n. 龟，[脊椎] 乌龟（等于testudo）；迟缓的人"
+      "n. rùa, [động vật có xương sống] rùa (tương đương testudo); người chậm chạp"
     ],
     "usphone": "ˈtɔːtəs",
     "ukphone": "ˈtɔːtəs"
@@ -3354,7 +3354,7 @@
   {
     "name": "aunt",
     "trans": [
-      "n. 阿姨；姑妈；伯母；舅妈"
+      "n. cô; dì; mợ; chị dâu"
     ],
     "usphone": "ɑːnt",
     "ukphone": "ɑːnt"

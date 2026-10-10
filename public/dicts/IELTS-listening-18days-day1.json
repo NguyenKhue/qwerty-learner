@@ -1,298 +1,446 @@
 [
     {
         "name": "beginner",
-        "trans": ["n. 初学者"]
+        "trans": [
+            "n. người mới bắt đầu"
+        ]
     },
     {
         "name": "account",
-        "trans": ["n. 账户"]
+        "trans": [
+            "n. tài khoản"
+        ]
     },
     {
         "name": "leather shoes",
-        "trans": ["n. 皮鞋"]
+        "trans": [
+            "n. giày da"
+        ]
     },
     {
         "name": "garage",
-        "trans": ["n. 车库"]
+        "trans": [
+            "n. nhà để xe"
+        ]
     },
     {
         "name": "wheel",
-        "trans": ["n. 轮子"]
+        "trans": [
+            "n. bánh xe"
+        ]
     },
     {
         "name": "moderate",
-        "trans": ["adj. 温和的：适度的"]
+        "trans": [
+            "adj. ôn hòa; vừa phải"
+        ]
     },
     {
         "name": "waterfall",
-        "trans": ["n. 瀑布"]
+        "trans": [
+            "n. thác nước"
+        ]
     },
     {
         "name": "express",
-        "trans": ["n. 快递"]
+        "trans": [
+            "n. chuyển phát nhanh"
+        ]
     },
     {
         "name": "code",
-        "trans": ["n. 代码编码"]
+        "trans": [
+            "n. mã hoá"
+        ]
     },
     {
         "name": "avenue",
-        "trans": ["n. （南北向）街道"]
+        "trans": [
+            "n. đường (theo hướng bắc nam)"
+        ]
     },
     {
         "name": "drama",
-        "trans": ["n. 戏剧"]
+        "trans": [
+            "n. kịch"
+        ]
     },
     {
         "name": "gas",
-        "trans": ["n. 气体"]
+        "trans": [
+            "n. khí"
+        ]
     },
     {
         "name": "fluent",
-        "trans": ["adj. 流畅的"]
+        "trans": [
+            "adj. trôi chảy; mượt mà"
+        ]
     },
     {
         "name": "shower",
-        "trans": ["n. 淋浴"]
+        "trans": [
+            "n. vòi hoa sen"
+        ]
     },
     {
         "name": "minibus",
-        "trans": ["n. 面包车"]
+        "trans": [
+            "n. xe van"
+        ]
     },
     {
         "name": "plant",
-        "trans": ["n. 工厂"]
+        "trans": [
+            "n. nhà máy"
+        ]
     },
     {
         "name": "transit",
-        "trans": ["n. 运送"]
+        "trans": [
+            "n. vận chuyển"
+        ]
     },
     {
         "name": "cookery",
-        "trans": ["n. 烹饪"]
+        "trans": [
+            "n. nấu ăn"
+        ]
     },
     {
         "name": "cinema",
-        "trans": ["n. 电影：电影院"]
+        "trans": [
+            "n. phim, rạp chiếu phim"
+        ]
     },
     {
         "name": "tank",
-        "trans": ["n. 坦克；水槽；水池"]
+        "trans": [
+            "n. xe tăng; bể nước"
+        ]
     },
     {
         "name": "enjoyable",
-        "trans": ["adj. 快乐的：有乐趣"]
+        "trans": [
+            "adj. thú vị, dễ chịu"
+        ]
     },
     {
         "name": "warehouse",
-        "trans": ["n. 仓库"]
+        "trans": [
+            "n. kho"
+        ]
     },
     {
         "name": "yoga",
-        "trans": ["n. 瑜伽"]
+        "trans": [
+            "n. yoga"
+        ]
     },
     {
         "name": "mat",
-        "trans": ["n. 垫子"]
+        "trans": [
+            "n. tấm đệm, tấm lót"
+        ]
     },
     {
         "name": "Asian",
-        "trans": ["n. 亚洲人"]
+        "trans": [
+            "n. người châu Á"
+        ]
     },
     {
         "name": "knife",
-        "trans": ["n. 刀子"]
+        "trans": [
+            "n. dao"
+        ]
     },
     {
         "name": "container",
-        "trans": ["n. 集装箱：容器"]
+        "trans": [
+            "n. container, vật chứa"
+        ]
     },
     {
         "name": "mirror",
-        "trans": ["n. 镜子"]
+        "trans": [
+            "n. gương"
+        ]
     },
     {
         "name": "first aid",
-        "trans": ["n. 急救"]
+        "trans": [
+            "n. cấp cứu"
+        ]
     },
     {
         "name": "campaign",
-        "trans": ["n. 活动"]
+        "trans": [
+            "n. hoạt động"
+        ]
     },
     {
         "name": "conference",
-        "trans": ["n. 会议，协商"]
+        "trans": [
+            "n. cuộc họp, thương lượng"
+        ]
     },
     {
         "name": "limited",
-        "trans": ["adj. 有限的"]
+        "trans": [
+            "adj. hữu hạn, giới hạn"
+        ]
     },
     {
         "name": "exterior",
-        "trans": ["adj. 外部的"]
+        "trans": [
+            "adj. bên ngoài"
+        ]
     },
     {
         "name": "basis",
-        "trans": ["n. 基础"]
+        "trans": [
+            "n. nền tảng"
+        ]
     },
     {
         "name": "internet",
-        "trans": ["n. 因特网"]
+        "trans": [
+            "n. Internet"
+        ]
     },
     {
         "name": "resume",
-        "trans": ["n. 履历，简历"]
+        "trans": [
+            "n. lý lịch, sơ lược"
+        ]
     },
     {
         "name": "type",
-        "trans": ["n. 类型"]
+        "trans": [
+            "n. loại"
+        ]
     },
     {
         "name": "layout",
-        "trans": ["n. 布局"]
+        "trans": [
+            "n. bố cục"
+        ]
     },
     {
         "name": "correction",
-        "trans": ["n. 改正，修正"]
+        "trans": [
+            "n. sự sửa chữa, hiệu chỉnh"
+        ]
     },
     {
         "name": "experience",
-        "trans": ["n. 经验"]
+        "trans": [
+            "n. kinh nghiệm"
+        ]
     },
     {
         "name": "avoid",
-        "trans": ["v. 避免"]
+        "trans": [
+            "v. tránh"
+        ]
     },
     {
         "name": "bakery",
-        "trans": ["n. 面包店"]
+        "trans": [
+            "n. tiệm bánh; cửa hàng bánh; lò bánh"
+        ]
     },
     {
         "name": "reference",
-        "trans": ["n. 参考"]
+        "trans": [
+            "n. tham khảo"
+        ]
     },
     {
         "name": "agency",
-        "trans": ["n. 代理"]
+        "trans": [
+            "n. đại lý"
+        ]
     },
     {
         "name": "manufacture",
-        "trans": ["v. 制造"]
+        "trans": [
+            "v. sản xuất"
+        ]
     },
     {
         "name": "tutor",
-        "trans": ["n. 导师"]
+        "trans": [
+            "n. gia sư, người hướng dẫn"
+        ]
     },
     {
         "name": "kid",
-        "trans": ["n. 小孩子"]
+        "trans": [
+            "n. trẻ con"
+        ]
     },
     {
         "name": "example",
-        "trans": ["n. 例子"]
+        "trans": [
+            "n. ví dụ"
+        ]
     },
     {
         "name": "private",
-        "trans": ["adj. 私人的"]
+        "trans": [
+            "adj. riêng tư"
+        ]
     },
     {
         "name": "screen",
-        "trans": ["n. 屏幕"]
+        "trans": [
+            "n. màn hình"
+        ]
     },
     {
         "name": "manager",
-        "trans": ["n. 经理"]
+        "trans": [
+            "n. giám đốc, quản lý"
+        ]
     },
     {
         "name": "choice",
-        "trans": ["n. 选择"]
+        "trans": [
+            "n. lựa chọn"
+        ]
     },
     {
         "name": "available",
-        "trans": ["adj. 可利用的"]
+        "trans": [
+            "adj. sẵn có, dùng được"
+        ]
     },
     {
         "name": "instruction",
-        "trans": ["n. 说明"]
+        "trans": [
+            "n. giải thích, mô tả"
+        ]
     },
     {
         "name": "freezer",
-        "trans": ["n. 冰箱"]
+        "trans": [
+            "n. tủ lạnh"
+        ]
     },
     {
         "name": "financial",
-        "trans": ["adj. 金融的"]
+        "trans": [
+            "adj. tài chính"
+        ]
     },
     {
         "name": "camping",
-        "trans": ["n. 露营度假"]
+        "trans": [
+            "n. cắm trại"
+        ]
     },
     {
         "name": "block",
-        "trans": ["n. 街区"]
+        "trans": [
+            "n. khu phố, khối"
+        ]
     },
     {
         "name": "climbing",
-        "trans": ["n. 爬山"]
+        "trans": [
+            "n. leo núi"
+        ]
     },
     {
         "name": "free",
-        "trans": ["adj. 免费的"]
+        "trans": [
+            "adj. miễn phí"
+        ]
     },
     {
         "name": "view",
-        "trans": ["n. 视野"]
+        "trans": [
+            "n. tầm nhìn"
+        ]
     },
     {
         "name": "include",
-        "trans": ["v. 包括"]
+        "trans": [
+            "v. bao gồm"
+        ]
     },
     {
         "name": "cancel",
-        "trans": ["v. 取消"]
+        "trans": [
+            "v. hủy"
+        ]
     },
     {
         "name": "performer",
-        "trans": ["n. 演奏者"]
+        "trans": [
+            "n. người trình diễn"
+        ]
     },
     {
         "name": "suitable",
-        "trans": ["adj. 适当的"]
+        "trans": [
+            "adj. thích hợp"
+        ]
     },
     {
         "name": "opera",
-        "trans": ["n. 歌剧院"]
+        "trans": [
+            "n. nhà hát opera"
+        ]
     },
     {
         "name": "theatre",
-        "trans": ["n. 戏院"]
+        "trans": [
+            "n. nhà hát"
+        ]
     },
     {
         "name": "library",
-        "trans": ["n. 图书馆"]
+        "trans": [
+            "n. thư viện"
+        ]
     },
     {
         "name": "townhall",
-        "trans": ["n. 市政厅"]
+        "trans": [
+            "n. toà nhà thị chính"
+        ]
     },
     {
         "name": "studio",
-        "trans": ["n. 工作室"]
+        "trans": [
+            "n. xưởng"
+        ]
     },
     {
         "name": "interview",
-        "trans": ["v. 采访"]
+        "trans": [
+            "v. phỏng vấn"
+        ]
     },
     {
         "name": "select",
-        "trans": ["v. 选择"]
+        "trans": [
+            "v. chọn"
+        ]
     },
     {
         "name": "edit",
-        "trans": ["v. 编辑"]
+        "trans": [
+            "v. biên tập"
+        ]
     },
     {
         "name": "parking",
-        "trans": ["n. 停车"]
+        "trans": [
+            "n. đậu xe"
+        ]
     }
 ]

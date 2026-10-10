@@ -1,1746 +1,2618 @@
 [
   {
     "name": "blow",
-    "trans": ["吹"]
+    "trans": [
+      "thổi"
+    ]
   },
   {
     "name": "burst",
-    "trans": ["爆发"]
+    "trans": [
+      "v. bùng nổ; n. sự bùng phát"
+    ]
   },
   {
     "name": "hiss",
-    "trans": ["嘶嘶声"]
+    "trans": [
+      "tiếng xì xạo, tiếng rít"
+    ]
   },
   {
     "name": "misc",
-    "trans": ["其它"]
+    "trans": [
+      "khác, cái khác"
+    ]
   },
   {
     "name": "suction",
-    "trans": ["抽吸"]
+    "trans": [
+      "hút, hút chân không"
+    ]
   },
   {
     "name": "door",
-    "trans": ["门"]
+    "trans": [
+      "n. cửa"
+    ]
   },
   {
     "name": "helicopter",
-    "trans": ["直升机"]
+    "trans": [
+      "trực thăng"
+    ]
   },
   {
     "name": "interior",
-    "trans": ["航空舱"]
+    "trans": [
+      "khoang máy bay"
+    ]
   },
   {
     "name": "jet",
-    "trans": ["喷气式飞机"]
+    "trans": [
+      "máy bay phản lực"
+    ]
   },
   {
     "name": "mechanism",
-    "trans": ["机械"]
+    "trans": [
+      "máy móc, thiết bị cơ khí"
+    ]
   },
   {
     "name": "military",
-    "trans": ["军用"]
+    "trans": [
+      "quân sự"
+    ]
   },
   {
     "name": "prop",
-    "trans": ["螺旋桨飞机"]
+    "trans": [
+      "máy bay cánh quạt"
+    ]
   },
   {
     "name": "radio controlled",
-    "trans": ["塔台"]
+    "trans": [
+      "tháp điều khiển"
+    ]
   },
   {
     "name": "rocket",
-    "trans": ["火箭"]
+    "trans": [
+      "tên lửa"
+    ]
   },
   {
     "name": "bell",
-    "trans": ["警铃"]
+    "trans": [
+      "chuông báo động"
+    ]
   },
   {
     "name": "buzzer",
-    "trans": ["蜂鸣器"]
+    "trans": [
+      "bộ báo, loa hú"
+    ]
   },
   {
     "name": "clock",
-    "trans": ["钟表"]
+    "trans": [
+      "đồng hồ"
+    ]
   },
   {
     "name": "electronic",
-    "trans": ["电器"]
+    "trans": [
+      "đồ dùng điện, thiết bị điện tử"
+    ]
   },
   {
     "name": "siren",
-    "trans": ["警报"]
+    "trans": [
+      "báo động, cảnh báo"
+    ]
   },
   {
     "name": "air",
-    "trans": ["空气"]
+    "trans": [
+      "không khí"
+    ]
   },
   {
     "name": "alpine",
-    "trans": ["高山"]
+    "trans": [
+      "núi cao, vùng núi cao"
+    ]
   },
   {
     "name": "amusement",
-    "trans": ["娱乐"]
+    "trans": [
+      "giải trí, vui chơi"
+    ]
   },
   {
     "name": "birdsong",
-    "trans": ["鸟鸣"]
+    "trans": [
+      "tiếng chim kêu, tiếng chim"
+    ]
   },
   {
     "name": "celebration",
-    "trans": ["庆典"]
+    "trans": [
+      "lễ hội, lễ kỷ niệm"
+    ]
   },
   {
     "name": "construction",
-    "trans": ["施工"]
+    "trans": [
+      "thi công, xây dựng"
+    ]
   },
   {
     "name": "desert",
-    "trans": ["沙漠"]
+    "trans": [
+      "sa mạc"
+    ]
   },
   {
     "name": "designed",
-    "trans": ["设计"]
+    "trans": [
+      "thiết kế"
+    ]
   },
   {
     "name": "emergency",
-    "trans": ["紧急"]
+    "trans": [
+      "khẩn cấp, gấp gáp"
+    ]
   },
   {
     "name": "fantasy",
-    "trans": ["奇幻"]
+    "trans": [
+      "kỳ diệu, huyền ảo"
+    ]
   },
   {
     "name": "farm",
-    "trans": ["农场"]
+    "trans": [
+      "nông trại, trang trại"
+    ]
   },
   {
     "name": "forest",
-    "trans": ["森林"]
+    "trans": [
+      "rừng"
+    ]
   },
   {
     "name": "grassland",
-    "trans": ["草地"]
+    "trans": [
+      "đồng cỏ, bãi cỏ"
+    ]
   },
   {
     "name": "historical",
-    "trans": ["历史年代"]
+    "trans": [
+      "thời đại lịch sử, thời kỳ"
+    ]
   },
   {
     "name": "hitech",
-    "trans": ["高科技"]
+    "trans": [
+      "công nghệ cao"
+    ]
   },
   {
     "name": "hospital",
-    "trans": ["医院"]
+    "trans": [
+      "bệnh viện; nhà thương"
+    ]
   },
   {
     "name": "industrial",
-    "trans": ["工业"]
+    "trans": [
+      "công nghiệp"
+    ]
   },
   {
     "name": "insect",
-    "trans": ["昆虫"]
+    "trans": [
+      "côn trùng"
+    ]
   },
   {
     "name": "lakeside",
-    "trans": ["湖岸"]
+    "trans": [
+      "bờ hồ"
+    ]
   },
   {
     "name": "market",
-    "trans": ["市场"]
+    "trans": [
+      "thị trường; chợ"
+    ]
   },
   {
     "name": "nautical",
-    "trans": ["航海"]
+    "trans": [
+      "hàng hải, thuyền bách"
+    ]
   },
   {
     "name": "office",
-    "trans": ["办公室"]
+    "trans": [
+      "văn phòng"
+    ]
   },
   {
     "name": "park",
-    "trans": ["公园"]
+    "trans": [
+      "công viên"
+    ]
   },
   {
     "name": "prison",
-    "trans": ["监狱"]
+    "trans": [
+      "nhà tù"
+    ]
   },
   {
     "name": "protest",
-    "trans": ["游行"]
+    "trans": [
+      "diễu hành"
+    ]
   },
   {
     "name": "public place",
-    "trans": ["公共场所"]
+    "trans": [
+      "nơi công cộng"
+    ]
   },
   {
     "name": "religious",
-    "trans": ["宗教场所"]
+    "trans": [
+      "nơi tôn giáo, đền chùa"
+    ]
   },
   {
     "name": "residential",
-    "trans": ["住宅区"]
+    "trans": [
+      "khu dân cư"
+    ]
   },
   {
     "name": "restaurant & bar",
-    "trans": ["餐馆"]
+    "trans": [
+      "nhà hàng"
+    ]
   },
   {
     "name": "room tone",
-    "trans": ["房间底噪"]
+    "trans": [
+      "tiếng nền trong phòng"
+    ]
   },
   {
     "name": "rural",
-    "trans": ["农村"]
+    "trans": [
+      "nông thôn, miền quê"
+    ]
   },
   {
     "name": "school",
-    "trans": ["校园"]
+    "trans": [
+      "trường học, khuôn viên trường"
+    ]
   },
   {
     "name": "scifi",
-    "trans": ["科幻"]
+    "trans": [
+      "viễn tưởng khoa học"
+    ]
   },
   {
     "name": "seaside",
-    "trans": ["海边"]
+    "trans": [
+      "bờ biển, vùng biển"
+    ]
   },
   {
     "name": "sport",
-    "trans": ["运动场"]
+    "trans": [
+      "sân vận động, sân thể thao"
+    ]
   },
   {
     "name": "suburban",
-    "trans": ["郊区"]
+    "trans": [
+      "ngoai o"
+    ]
   },
   {
     "name": "swamp",
-    "trans": ["沼泽地"]
+    "trans": [
+      "đầm lầy, ruộng lầy"
+    ]
   },
   {
     "name": "town",
-    "trans": ["小镇"]
+    "trans": [
+      "thị trấn nhỏ, thôn"
+    ]
   },
   {
     "name": "traffic",
-    "trans": ["交通"]
+    "trans": [
+      "giao thông; sự đi lại"
+    ]
   },
   {
     "name": "transportation",
-    "trans": ["交通工具"]
+    "trans": [
+      "phương tiện giao thông"
+    ]
   },
   {
     "name": "tropical",
-    "trans": ["热带"]
+    "trans": [
+      "nhiệt đới"
+    ]
   },
   {
     "name": "tundra",
-    "trans": ["冻土"]
+    "trans": [
+      "đất đông, đất bị đông cứng"
+    ]
   },
   {
     "name": "underground",
-    "trans": ["地下"]
+    "trans": [
+      "dưới lòng đất, ngầm"
+    ]
   },
   {
     "name": "underwater",
-    "trans": ["水下"]
+    "trans": [
+      "dưới nước, ngập nước"
+    ]
   },
   {
     "name": "urban",
-    "trans": ["城市"]
+    "trans": [
+      "thành phố, đô thị"
+    ]
   },
   {
     "name": "warfare",
-    "trans": ["战争"]
+    "trans": [
+      "chiến tranh"
+    ]
   },
   {
     "name": "amphibian",
-    "trans": ["两栖动物"]
+    "trans": [
+      "động vật lưỡng cư"
+    ]
   },
   {
     "name": "aquatic",
-    "trans": ["水生动物"]
+    "trans": [
+      "động vật thủy sinh"
+    ]
   },
   {
     "name": "bat",
-    "trans": ["蝙蝠"]
+    "trans": [
+      "dơi"
+    ]
   },
   {
     "name": "cat domestic",
-    "trans": ["家猫"]
+    "trans": [
+      "mèo nhà, mèo"
+    ]
   },
   {
     "name": "cat wild",
-    "trans": ["猫科动物"]
+    "trans": [
+      "động vật họ Mèo, loài mèo"
+    ]
   },
   {
     "name": "dog",
-    "trans": ["狗"]
+    "trans": [
+      "chó"
+    ]
   },
   {
     "name": "dog wild",
-    "trans": ["犬科动物"]
+    "trans": [
+      "động vật họ Chó"
+    ]
   },
   {
     "name": "horse",
-    "trans": ["马"]
+    "trans": [
+      "ngựa; con ngựa"
+    ]
   },
   {
     "name": "primate",
-    "trans": ["灵长类"]
+    "trans": [
+      "động vật linh trưởng, linh trưởng"
+    ]
   },
   {
     "name": "reptile",
-    "trans": ["爬行动物"]
+    "trans": [
+      "loài bò sát"
+    ]
   },
   {
     "name": "rodent",
-    "trans": ["啮齿动物"]
+    "trans": [
+      "động vật gặm nhấm"
+    ]
   },
   {
     "name": "wild",
-    "trans": ["野生动物"]
+    "trans": [
+      "động vật hoang dã"
+    ]
   },
   {
     "name": "adr",
-    "trans": ["ADR"]
+    "trans": [
+      "ADR"
+    ]
   },
   {
     "name": "asset",
-    "trans": ["资源"]
+    "trans": [
+      "tài nguyên"
+    ]
   },
   {
     "name": "bounce",
-    "trans": ["导出"]
+    "trans": [
+      "xuất"
+    ]
   },
   {
     "name": "impulse response",
-    "trans": ["卷积混响素材"]
+    "trans": [
+      "mẫu vọng âm tích chập"
+    ]
   },
   {
     "name": "loop group",
-    "trans": ["循环群组"]
+    "trans": [
+      "nhóm vòng lặp"
+    ]
   },
   {
     "name": "mix",
-    "trans": ["混音"]
+    "trans": [
+      "trộn âm"
+    ]
   },
   {
     "name": "pfx",
-    "trans": ["现场音效"]
+    "trans": [
+      "âm thanh hiện trường"
+    ]
   },
   {
     "name": "production",
-    "trans": ["现场对白"]
+    "trans": [
+      "đối thoại hiện trường"
+    ]
   },
   {
     "name": "raw",
-    "trans": ["原始素材"]
+    "trans": [
+      "nguyên liệu thô"
+    ]
   },
   {
     "name": "reference",
-    "trans": ["参考素材"]
+    "trans": [
+      "nguyên liệu tham khảo"
+    ]
   },
   {
     "name": "scene",
-    "trans": ["场景素材"]
+    "trans": [
+      "nguyên liệu cảnh"
+    ]
   },
   {
     "name": "test tone",
-    "trans": ["测试音"]
+    "trans": [
+      "tiếng thử"
+    ]
   },
   {
     "name": "trademarked",
-    "trans": ["商标音"]
+    "trans": [
+      "tiếng logo"
+    ]
   },
   {
     "name": "work in progress",
-    "trans": ["过程中素材"]
+    "trans": [
+      "nguyên liệu đang làm dở"
+    ]
   },
   {
     "name": "wtf",
-    "trans": ["未确认素材"]
+    "trans": [
+      "nguyên liệu chưa xác nhận"
+    ]
   },
   {
     "name": "appliance",
-    "trans": ["电器"]
+    "trans": [
+      "đồ dùng điện, thiết bị điện tử"
+    ]
   },
   {
     "name": "general",
-    "trans": ["通用"]
+    "trans": [
+      "đa dụng"
+    ]
   },
   {
     "name": "lofi",
-    "trans": ["低保真"]
+    "trans": [
+      "độ trung thực thấp"
+    ]
   },
   {
     "name": "medical",
-    "trans": ["医疗器械"]
+    "trans": [
+      "thiết bị y tế"
+    ]
   },
   {
     "name": "timer",
-    "trans": ["计时器"]
+    "trans": [
+      "đồng hồ đếm ngược"
+    ]
   },
   {
     "name": "vehicle",
-    "trans": ["车辆"]
+    "trans": [
+      "xe cộ; phương tiện; xe"
+    ]
   },
   {
     "name": "animal",
-    "trans": ["动物"]
+    "trans": [
+      "động vật"
+    ]
   },
   {
     "name": "doorbell",
-    "trans": ["门铃"]
+    "trans": [
+      "chuông cửa"
+    ]
   },
   {
     "name": "gong",
-    "trans": ["锣"]
+    "trans": [
+      "cồng"
+    ]
   },
   {
     "name": "handbell",
-    "trans": ["手铃"]
+    "trans": [
+      "chuông tay"
+    ]
   },
   {
     "name": "large",
-    "trans": ["大钟"]
+    "trans": [
+      "chuông lớn"
+    ]
   },
   {
     "name": "bird of prey",
-    "trans": ["猛禽"]
+    "trans": [
+      "chim săn mồi"
+    ]
   },
   {
     "name": "crow",
-    "trans": ["乌鸦"]
+    "trans": [
+      "quạ"
+    ]
   },
   {
     "name": "fowl",
-    "trans": ["家禽"]
+    "trans": [
+      "gia cầm"
+    ]
   },
   {
     "name": "sea",
-    "trans": ["海鸟"]
+    "trans": [
+      "chim biển"
+    ]
   },
   {
     "name": "songbird",
-    "trans": ["鸣鸟"]
+    "trans": [
+      "chim hót"
+    ]
   },
   {
     "name": "tropical",
-    "trans": ["热带"]
+    "trans": [
+      "nhiệt đới"
+    ]
   },
   {
     "name": "wading",
-    "trans": ["水鸟"]
+    "trans": [
+      "chim nước"
+    ]
   },
   {
     "name": "air boat",
-    "trans": ["汽艇"]
+    "trans": [
+      "thuyền tốc hành"
+    ]
   },
   {
     "name": "bow wash",
-    "trans": ["船浪"]
+    "trans": [
+      "sóng tàu"
+    ]
   },
   {
     "name": "electric",
-    "trans": ["电动船"]
+    "trans": [
+      "thuyền điện"
+    ]
   },
   {
     "name": "fishing",
-    "trans": ["捕鱼"]
+    "trans": [
+      "đánh cá"
+    ]
   },
   {
     "name": "horn",
-    "trans": ["船笛"]
+    "trans": [
+      "còi tàu"
+    ]
   },
   {
     "name": "motorboat",
-    "trans": ["摩托艇"]
+    "trans": [
+      "xe thuyền máy"
+    ]
   },
   {
     "name": "racing",
-    "trans": ["赛艇"]
+    "trans": [
+      "thuyền đua"
+    ]
   },
   {
     "name": "rowboat",
-    "trans": ["划艇"]
+    "trans": [
+      "xuồng chèo"
+    ]
   },
   {
     "name": "sailboat",
-    "trans": ["帆船"]
+    "trans": [
+      "thuyền buồm"
+    ]
   },
   {
     "name": "ship",
-    "trans": ["大船"]
+    "trans": [
+      "tàu lớn"
+    ]
   },
   {
     "name": "steam",
-    "trans": ["蒸汽船"]
+    "trans": [
+      "tàu hơi"
+    ]
   },
   {
     "name": "submarine",
-    "trans": ["潜艇"]
+    "trans": [
+      "tàu ngầm"
+    ]
   },
   {
     "name": "by",
-    "trans": ["飞过"]
+    "trans": [
+      "bay qua"
+    ]
   },
   {
     "name": "impact",
-    "trans": ["击中"]
+    "trans": [
+      "đánh trúng"
+    ]
   },
   {
     "name": "ricochet",
-    "trans": ["弹跳"]
+    "trans": [
+      "bật lên, nảy"
+    ]
   },
   {
     "name": "shell",
-    "trans": ["弹壳"]
+    "trans": [
+      "vỏ đạn"
+    ]
   },
   {
     "name": "boing",
-    "trans": ["弹簧音"]
+    "trans": [
+      "tiếng lò xo"
+    ]
   },
   {
     "name": "clang",
-    "trans": ["咣当"]
+    "trans": [
+      "tiếng va đập mạng"
+    ]
   },
   {
     "name": "creak",
-    "trans": ["嘎吱"]
+    "trans": [
+      "tiếng két két"
+    ]
   },
   {
     "name": "horn",
-    "trans": ["号"]
+    "trans": [
+      "cây hi-hat"
+    ]
   },
   {
     "name": "impact",
-    "trans": ["打击"]
+    "trans": [
+      "gõ"
+    ]
   },
   {
     "name": "machine",
-    "trans": ["机器"]
+    "trans": [
+      "máy; máy móc"
+    ]
   },
   {
     "name": "musical",
-    "trans": ["音乐性"]
+    "trans": [
+      "tính nhạc"
+    ]
   },
   {
     "name": "pluck",
-    "trans": ["弹拨"]
+    "trans": [
+      "gảy"
+    ]
   },
   {
     "name": "pop",
-    "trans": ["道具"]
+    "trans": [
+      "đạo cụ"
+    ]
   },
   {
     "name": "shake",
-    "trans": ["摇晃"]
+    "trans": [
+      "lắc lư"
+    ]
   },
   {
     "name": "splat",
-    "trans": ["啪嗒"]
+    "trans": [
+      "tiếng bộp"
+    ]
   },
   {
     "name": "squeak",
-    "trans": ["摩擦"]
+    "trans": [
+      "ma sát"
+    ]
   },
   {
     "name": "stretch",
-    "trans": ["伸缩"]
+    "trans": [
+      "nong giãn"
+    ]
   },
   {
     "name": "swish",
-    "trans": ["嗖嗖"]
+    "trans": [
+      "tiếng xoẹt xoẹt"
+    ]
   },
   {
     "name": "twang",
-    "trans": ["弹拨声"]
+    "trans": [
+      "tiếng gảy"
+    ]
   },
   {
     "name": "vehicle",
-    "trans": ["载具"]
+    "trans": [
+      "phương tiện giao thông"
+    ]
   },
   {
     "name": "vocal",
-    "trans": ["语音"]
+    "trans": [
+      "giọng nói, thanh âm"
+    ]
   },
   {
     "name": "warble",
-    "trans": ["颤音"]
+    "trans": [
+      "rung động"
+    ]
   },
   {
     "name": "whistle",
-    "trans": ["哨子"]
+    "trans": [
+      "còi"
+    ]
   },
   {
     "name": "zip",
-    "trans": ["拉链"]
+    "trans": [
+      "khóa kéo"
+    ]
   },
   {
     "name": "break",
-    "trans": ["打破"]
+    "trans": [
+      "phá vỡ, làm vỡ"
+    ]
   },
   {
     "name": "crash & debris",
-    "trans": ["碎片"]
+    "trans": [
+      "mảnh vỡ"
+    ]
   },
   {
     "name": "friction",
-    "trans": ["挤压"]
+    "trans": [
+      "bóp chặt"
+    ]
   },
   {
     "name": "handle",
-    "trans": ["抓取"]
+    "trans": [
+      "nắm bắt"
+    ]
   },
   {
     "name": "movement",
-    "trans": ["移动"]
+    "trans": [
+      "di chuyển; vận động"
+    ]
   },
   {
     "name": "tonal",
-    "trans": ["音乐性"]
+    "trans": [
+      "tính nhạc"
+    ]
   },
   {
     "name": "break",
-    "trans": ["断裂"]
+    "trans": [
+      "đứt gãy"
+    ]
   },
   {
     "name": "hitech",
-    "trans": ["高科技"]
+    "trans": [
+      "công nghệ cao"
+    ]
   },
   {
     "name": "acid",
-    "trans": ["腐蚀"]
+    "trans": [
+      "ăn mòn"
+    ]
   },
   {
     "name": "reaction",
-    "trans": ["反应"]
+    "trans": [
+      "phản ứng"
+    ]
   },
   {
     "name": "chime",
-    "trans": ["风铃"]
+    "trans": [
+      "chuông gió"
+    ]
   },
   {
     "name": "mechanics",
-    "trans": ["机械"]
+    "trans": [
+      "máy móc, thiết bị cơ khí"
+    ]
   },
   {
     "name": "tick",
-    "trans": ["嘀嗒"]
+    "trans": [
+      "tiếng tí tách"
+    ]
   },
   {
     "name": "flap",
-    "trans": ["抖动"]
+    "trans": [
+      "run rẩy"
+    ]
   },
   {
     "name": "rip",
-    "trans": ["撕扯"]
+    "trans": [
+      "xé xác"
+    ]
   },
   {
     "name": "audio visual",
-    "trans": ["影视设备"]
+    "trans": [
+      "thiết bị phim ảnh và truyền hình"
+    ]
   },
   {
     "name": "camera",
-    "trans": ["照相机"]
+    "trans": [
+      "máy ảnh"
+    ]
   },
   {
     "name": "cellphone",
-    "trans": ["手机"]
+    "trans": [
+      "điện thoại"
+    ]
   },
   {
     "name": "microphone",
-    "trans": ["麦克风"]
+    "trans": [
+      "micro"
+    ]
   },
   {
     "name": "phonograph",
-    "trans": ["留声机"]
+    "trans": [
+      "đĩa than"
+    ]
   },
   {
     "name": "radio",
-    "trans": ["收音机"]
+    "trans": [
+      "radio"
+    ]
   },
   {
     "name": "static",
-    "trans": ["干扰"]
+    "trans": [
+      "nhiễu"
+    ]
   },
   {
     "name": "telemetry",
-    "trans": ["无线电"]
+    "trans": [
+      "vô tuyến; radio"
+    ]
   },
   {
     "name": "telephone",
-    "trans": ["电话"]
+    "trans": [
+      "điện thoại"
+    ]
   },
   {
     "name": "television",
-    "trans": ["电视机"]
+    "trans": [
+      "ti vi"
+    ]
   },
   {
     "name": "transceiver",
-    "trans": ["信号收发机"]
+    "trans": [
+      "máy thu phát sóng"
+    ]
   },
   {
     "name": "typewriter",
-    "trans": ["打字机"]
+    "trans": [
+      "máy đánh chữ"
+    ]
   },
   {
     "name": "hard drive",
-    "trans": ["硬盘"]
+    "trans": [
+      "ổ cứng"
+    ]
   },
   {
     "name": "keyboard & mouse",
-    "trans": ["键鼠"]
+    "trans": [
+      "bàn phím và chuột"
+    ]
   },
   {
     "name": "aquatic",
-    "trans": ["水生"]
+    "trans": [
+      "thủy sinh"
+    ]
   },
   {
     "name": "avian",
-    "trans": ["奇幻禽类"]
+    "trans": [
+      "chim thần thoại"
+    ]
   },
   {
     "name": "beast",
-    "trans": ["野兽"]
+    "trans": [
+      "thú dữ"
+    ]
   },
   {
     "name": "blob",
-    "trans": ["黏体生物"]
+    "trans": [
+      "sinh vật nhớp dính"
+    ]
   },
   {
     "name": "dinosaur",
-    "trans": ["恐龙"]
+    "trans": [
+      "khủng long"
+    ]
   },
   {
     "name": "dragon",
-    "trans": ["龙"]
+    "trans": [
+      "con rồng"
+    ]
   },
   {
     "name": "elemental",
-    "trans": ["精灵生物"]
+    "trans": [
+      "sinh vật linh hồn"
+    ]
   },
   {
     "name": "ethereal",
-    "trans": ["鬼魂"]
+    "trans": [
+      "ma"
+    ]
   },
   {
     "name": "humanoid",
-    "trans": ["类人动物"]
+    "trans": [
+      "động vật hình người"
+    ]
   },
   {
     "name": "insectoid",
-    "trans": ["巨型昆虫"]
+    "trans": [
+      "côn trùng khổng lồ"
+    ]
   },
   {
     "name": "monster",
-    "trans": ["怪兽"]
+    "trans": [
+      "quái vật"
+    ]
   },
   {
     "name": "reptilian",
-    "trans": ["巨型爬行生物"]
+    "trans": [
+      "sinh vật bò sát khổng lồ"
+    ]
   },
   {
     "name": "small",
-    "trans": ["小型神话生物"]
+    "trans": [
+      "sinh vật thần thoại nhỏ"
+    ]
   },
   {
     "name": "source",
-    "trans": ["人声包"]
+    "trans": [
+      "gói giọng hát"
+    ]
   },
   {
     "name": "angry",
-    "trans": ["愤怒"]
+    "trans": [
+      "tức giận"
+    ]
   },
   {
     "name": "applause",
-    "trans": ["喝彩"]
+    "trans": [
+      "hò reo"
+    ]
   },
   {
     "name": "battle",
-    "trans": ["打斗"]
+    "trans": [
+      "đánh nhau, giao tranh"
+    ]
   },
   {
     "name": "celebration",
-    "trans": ["庆祝"]
+    "trans": [
+      "ăn mừng, kỷ niệm"
+    ]
   },
   {
     "name": "cheering",
-    "trans": ["欢呼"]
+    "trans": [
+      "hoan hô, reo hò"
+    ]
   },
   {
     "name": "children",
-    "trans": ["儿童"]
+    "trans": [
+      "trẻ em"
+    ]
   },
   {
     "name": "conversation",
-    "trans": ["谈话"]
+    "trans": [
+      "noi chuyen"
+    ]
   },
   {
     "name": "laughter",
-    "trans": ["笑"]
+    "trans": [
+      "cười"
+    ]
   },
   {
     "name": "loop group",
-    "trans": ["循环群杂"]
+    "trans": [
+      "vòng lặp tổng hợp"
+    ]
   },
   {
     "name": "panic",
-    "trans": ["恐惧"]
+    "trans": [
+      "sợ hãi"
+    ]
   },
   {
     "name": "quiet",
-    "trans": ["安静"]
+    "trans": [
+      "yên tĩnh"
+    ]
   },
   {
     "name": "reaction",
-    "trans": ["反应"]
+    "trans": [
+      "phản ứng"
+    ]
   },
   {
     "name": "singing",
-    "trans": ["歌唱"]
+    "trans": [
+      "hát"
+    ]
   },
   {
     "name": "walla",
-    "trans": ["群杂"]
+    "trans": [
+      "tổng hợp"
+    ]
   },
   {
     "name": "bass dive",
-    "trans": ["低频下潜"]
+    "trans": [
+      "tần số thấp chìm xuống"
+    ]
   },
   {
     "name": "boom",
-    "trans": ["低频轰鸣"]
+    "trans": [
+      "tiếng ù trầm"
+    ]
   },
   {
     "name": "braam",
-    "trans": ["低频号角"]
+    "trans": [
+      "còi tần số thấp"
+    ]
   },
   {
     "name": "distortion",
-    "trans": ["失真"]
+    "trans": [
+      "méo"
+    ]
   },
   {
     "name": "drone",
-    "trans": ["低音氛围"]
+    "trans": [
+      "không khí âm trầm"
+    ]
   },
   {
     "name": "eerie",
-    "trans": ["毛骨悚然"]
+    "trans": [
+      "rợn người"
+    ]
   },
   {
     "name": "ethereal",
-    "trans": ["鬼魅飘渺"]
+    "trans": [
+      "ma mịch huyền ảo"
+    ]
   },
   {
     "name": "granular",
-    "trans": ["粒状"]
+    "trans": [
+      "hạt"
+    ]
   },
   {
     "name": "morph",
-    "trans": ["合成器"]
+    "trans": [
+      "bộ tổng hợp"
+    ]
   },
   {
     "name": "riser",
-    "trans": ["渐强"]
+    "trans": [
+      "tăng dần cường độ"
+    ]
   },
   {
     "name": "rumble",
-    "trans": ["次声波"]
+    "trans": [
+      "hạ âm"
+    ]
   },
   {
     "name": "rhythmic",
-    "trans": ["节奏性"]
+    "trans": [
+      "có nhịp điệu"
+    ]
   },
   {
     "name": "stinger",
-    "trans": ["重音强调"]
+    "trans": [
+      "nhấn mạnh trọng âm"
+    ]
   },
   {
     "name": "synthetic",
-    "trans": ["电子合成"]
+    "trans": [
+      "tổng hợp điện tử"
+    ]
   },
   {
     "name": "vocal",
-    "trans": ["人声"]
+    "trans": [
+      "giọng hát"
+    ]
   },
   {
     "name": "whoosh",
-    "trans": ["呼声"]
+    "trans": [
+      "tiếng gọi"
+    ]
   },
   {
     "name": "collapse",
-    "trans": ["倒塌"]
+    "trans": [
+      "sập đổ, đổ"
+    ]
   },
   {
     "name": "dust",
-    "trans": ["灰尘"]
+    "trans": [
+      "n. bụi; bụi bặm"
+    ]
   },
   {
     "name": "antique",
-    "trans": ["古董"]
+    "trans": [
+      "cổ vật, đồ cổ"
+    ]
   },
   {
     "name": "cabinet",
-    "trans": ["箱柜"]
+    "trans": [
+      "hòm và tủ"
+    ]
   },
   {
     "name": "composite",
-    "trans": ["特殊材料"]
+    "trans": [
+      "vật liệu đặc biệt"
+    ]
   },
   {
     "name": "dungeon",
-    "trans": ["传统大门"]
+    "trans": [
+      "cổng truyền thống"
+    ]
   },
   {
     "name": "gate",
-    "trans": ["大门"]
+    "trans": [
+      "cổng"
+    ]
   },
   {
     "name": "glass",
-    "trans": ["玻璃门"]
+    "trans": [
+      "cửa kính"
+    ]
   },
   {
     "name": "hardware",
-    "trans": ["锁具"]
+    "trans": [
+      "khóa"
+    ]
   },
   {
     "name": "hydraulic & pneumatic",
-    "trans": ["液压与气动"]
+    "trans": [
+      "thủy lực và khí nén"
+    ]
   },
   {
     "name": "knock",
-    "trans": ["敲门"]
+    "trans": [
+      "gõ cửa"
+    ]
   },
   {
     "name": "metal",
-    "trans": ["金属门"]
+    "trans": [
+      "cửa kim loại"
+    ]
   },
   {
     "name": "plastic",
-    "trans": ["塑料门"]
+    "trans": [
+      "cửa nhựa"
+    ]
   },
   {
     "name": "prison",
-    "trans": ["牢门"]
+    "trans": [
+      "cửa nhà tù"
+    ]
   },
   {
     "name": "revolving",
-    "trans": ["旋转门"]
+    "trans": [
+      "cửa xoay"
+    ]
   },
   {
     "name": "sliding",
-    "trans": ["滑动门"]
+    "trans": [
+      "cửa trượt"
+    ]
   },
   {
     "name": "stone",
-    "trans": ["石门"]
+    "trans": [
+      "cửa đá"
+    ]
   },
   {
     "name": "swinging",
-    "trans": ["双开门"]
+    "trans": [
+      "cửa đôi"
+    ]
   },
   {
     "name": "wood",
-    "trans": ["木门"]
+    "trans": [
+      "cửa gỗ"
+    ]
   },
   {
     "name": "arc",
-    "trans": ["电弧"]
+    "trans": [
+      "hồ quang điện"
+    ]
   },
   {
     "name": "buzz & hum",
-    "trans": ["电流噪声"]
+    "trans": [
+      "tiếng ồn dòng điện"
+    ]
   },
   {
     "name": "electromagnetic",
-    "trans": ["电磁"]
+    "trans": [
+      "điện từ"
+    ]
   },
   {
     "name": "sparks",
-    "trans": ["电火花"]
+    "trans": [
+      "tia lửa điện"
+    ]
   },
   {
     "name": "zap",
-    "trans": ["漏电"]
+    "trans": [
+      "rò rỉ điện"
+    ]
   },
   {
     "name": "bridle & tack",
-    "trans": ["挽具"]
+    "trans": [
+      "dây đai"
+    ]
   },
   {
     "name": "recreational",
-    "trans": ["户外装备"]
+    "trans": [
+      "dụng cụ ngoài trời"
+    ]
   },
   {
     "name": "tactical",
-    "trans": ["军事装备"]
+    "trans": [
+      "thiết bị quân sự"
+    ]
   },
   {
     "name": "real",
-    "trans": ["真实"]
+    "trans": [
+      "chân thực"
+    ]
   },
   {
     "name": "bodyfall",
-    "trans": ["跌倒"]
+    "trans": [
+      "ngã"
+    ]
   },
   {
     "name": "cloth",
-    "trans": ["衣服"]
+    "trans": [
+      "quần áo, y phục"
+    ]
   },
   {
     "name": "grab",
-    "trans": ["抓握"]
+    "trans": [
+      "cầm nắm"
+    ]
   },
   {
     "name": "burning",
-    "trans": ["燃烧"]
+    "trans": [
+      "cháy, đốt cháy"
+    ]
   },
   {
     "name": "crackle",
-    "trans": ["爆裂"]
+    "trans": [
+      "bùng nổ"
+    ]
   },
   {
     "name": "gas",
-    "trans": ["气体"]
+    "trans": [
+      "khí"
+    ]
   },
   {
     "name": "ignite",
-    "trans": ["点火"]
+    "trans": [
+      "châm lửa"
+    ]
   },
   {
     "name": "sizzle",
-    "trans": ["滋滋声"]
+    "trans": [
+      "tiếng rì rào"
+    ]
   },
   {
     "name": "torch",
-    "trans": ["火炬"]
+    "trans": [
+      "đuốc"
+    ]
   },
   {
     "name": "turbulent",
-    "trans": ["汹涌火势"]
+    "trans": [
+      "ngọn lửa dữ dội"
+    ]
   },
   {
     "name": "commercial",
-    "trans": ["商业表演"]
+    "trans": [
+      "trình diễn thương mại"
+    ]
   },
   {
     "name": "recreational",
-    "trans": ["自娱"]
+    "trans": [
+      "tự giải trí"
+    ]
   },
   {
     "name": "feet",
-    "trans": ["脚步"]
+    "trans": [
+      "bước chân, tiếng bước chân"
+    ]
   },
   {
     "name": "hands",
-    "trans": ["手"]
+    "trans": [
+      "tay; bàn tay"
+    ]
   },
   {
     "name": "prop",
-    "trans": ["道具"]
+    "trans": [
+      "đạo cụ"
+    ]
   },
   {
     "name": "cooking",
-    "trans": ["烹饪"]
+    "trans": [
+      "nấu ăn, nấu nướng"
+    ]
   },
   {
     "name": "drinking",
-    "trans": ["喝"]
+    "trans": [
+      "v. uống"
+    ]
   },
   {
     "name": "eating",
-    "trans": ["吃东西"]
+    "trans": [
+      "ăn uống"
+    ]
   },
   {
     "name": "glassware",
-    "trans": ["玻璃器皿"]
+    "trans": [
+      "đồ dùng thủy tinh"
+    ]
   },
   {
     "name": "ingredients",
-    "trans": ["食材"]
+    "trans": [
+      "nguyên liệu nấu ăn"
+    ]
   },
   {
     "name": "kitchenware",
-    "trans": ["厨具"]
+    "trans": [
+      "dụng cụ bếp núc"
+    ]
   },
   {
     "name": "pour",
-    "trans": ["泼洒"]
+    "trans": [
+      "vẩy, rải tung"
+    ]
   },
   {
     "name": "tableware",
-    "trans": ["餐具"]
+    "trans": [
+      "đồ ăn, dụng cụ ăn uống"
+    ]
   },
   {
     "name": "creature",
-    "trans": ["怪物"]
+    "trans": [
+      "quái vật"
+    ]
   },
   {
     "name": "human",
-    "trans": ["人类"]
+    "trans": [
+      "loài người"
+    ]
   },
   {
     "name": "arcade",
-    "trans": ["街机游戏"]
+    "trans": [
+      "trò chơi máy arcade"
+    ]
   },
   {
     "name": "board",
-    "trans": ["桌游"]
+    "trans": [
+      "trò chơi bàn"
+    ]
   },
   {
     "name": "casino",
-    "trans": ["赌场"]
+    "trans": [
+      "sòng bạc"
+    ]
   },
   {
     "name": "video",
-    "trans": ["单机"]
+    "trans": [
+      "máy độc lập; trò chơi một người chơi"
+    ]
   },
   {
     "name": "fumarole",
-    "trans": ["热浆"]
+    "trans": [
+      "nước sốt nóng"
+    ]
   },
   {
     "name": "geyser",
-    "trans": ["间歇泉"]
+    "trans": [
+      "mạch suối nóng"
+    ]
   },
   {
     "name": "lava",
-    "trans": ["岩浆"]
+    "trans": [
+      "dung nham"
+    ]
   },
   {
     "name": "mud pots",
-    "trans": ["泥浆"]
+    "trans": [
+      "bùn, nước bùn"
+    ]
   },
   {
     "name": "blood",
-    "trans": ["血流"]
+    "trans": [
+      "dòng máu"
+    ]
   },
   {
     "name": "bone",
-    "trans": ["骨头"]
+    "trans": [
+      "xương"
+    ]
   },
   {
     "name": "burn",
-    "trans": ["燃烧"]
+    "trans": [
+      "cháy, đốt cháy"
+    ]
   },
   {
     "name": "flesh",
-    "trans": ["血肉"]
+    "trans": [
+      "thịt và máu"
+    ]
   },
   {
     "name": "ooze",
-    "trans": ["渗血"]
+    "trans": [
+      "rỉ máu, thấm máu"
+    ]
   },
   {
     "name": "splat",
-    "trans": ["洒溅"]
+    "trans": [
+      "bắn tung tóe, vẩy tung"
+    ]
   },
   {
     "name": "squish",
-    "trans": ["血浆"]
+    "trans": [
+      "huyết tương"
+    ]
   },
   {
     "name": "stab",
-    "trans": ["捅"]
+    "trans": [
+      "đâm, chọc"
+    ]
   },
   {
     "name": "antique",
-    "trans": ["古董枪"]
+    "trans": [
+      "súng cổ"
+    ]
   },
   {
     "name": "artillery",
-    "trans": ["火炮"]
+    "trans": [
+      "pháo"
+    ]
   },
   {
     "name": "automatic",
-    "trans": ["自动化武器"]
+    "trans": [
+      "vũ khí tự động"
+    ]
   },
   {
     "name": "cannon",
-    "trans": ["加农炮"]
+    "trans": [
+      "pháo thủy"
+    ]
   },
   {
     "name": "handle",
-    "trans": ["操作"]
+    "trans": [
+      "vận hành; thao tác"
+    ]
   },
   {
     "name": "mechanism",
-    "trans": ["机枪"]
+    "trans": [
+      "súng liên thanh"
+    ]
   },
   {
     "name": "pistol",
-    "trans": ["手枪"]
+    "trans": [
+      "súng lục"
+    ]
   },
   {
     "name": "rifle",
-    "trans": ["步枪"]
+    "trans": [
+      "súng trường"
+    ]
   },
   {
     "name": "shotgun",
-    "trans": ["霰弹枪"]
+    "trans": [
+      "súng săn nòng nổ"
+    ]
   },
   {
     "name": "suppressed",
-    "trans": ["消音枪"]
+    "trans": [
+      "súng giảm thanh"
+    ]
   },
   {
     "name": "air powered",
-    "trans": ["气压式"]
+    "trans": [
+      "dạng khí nén"
+    ]
   },
   {
     "name": "traditional",
-    "trans": ["传统"]
+    "trans": [
+      "truyền thống; thói quen"
+    ]
   },
   {
     "name": "breath",
-    "trans": ["呼吸"]
+    "trans": [
+      "hơi thở"
+    ]
   },
   {
     "name": "burp",
-    "trans": ["打嗝"]
+    "trans": [
+      "ợ nóng, xả hơi"
+    ]
   },
   {
     "name": "cough",
-    "trans": ["咳嗽"]
+    "trans": [
+      "ho, ho khan"
+    ]
   },
   {
     "name": "heartbeat",
-    "trans": ["心跳"]
+    "trans": [
+      "nhịp tim"
+    ]
   },
   {
     "name": "kiss",
-    "trans": ["接吻"]
+    "trans": [
+      "hôn"
+    ]
   },
   {
     "name": "pee",
-    "trans": ["尿"]
+    "trans": [
+      "nước tiểu"
+    ]
   },
   {
     "name": "skin",
-    "trans": ["皮肤"]
+    "trans": [
+      "n. da, làn da"
+    ]
   },
   {
     "name": "sneeze",
-    "trans": ["打喷嚏"]
+    "trans": [
+      "v. hắt hơi"
+    ]
   },
   {
     "name": "sniff",
-    "trans": ["闻"]
+    "trans": [
+      "ngửi"
+    ]
   },
   {
     "name": "snore",
-    "trans": ["打鼾"]
+    "trans": [
+      "ngáy"
+    ]
   },
   {
     "name": "spit",
-    "trans": ["吐"]
+    "trans": [
+      "nôn, ói"
+    ]
   },
   {
     "name": "vomit",
-    "trans": ["呕吐"]
+    "trans": [
+      "nôn ói"
+    ]
   },
   {
     "name": "beam",
-    "trans": ["光束"]
+    "trans": [
+      "tia sáng, chùm sáng"
+    ]
   },
   {
     "name": "gun",
-    "trans": ["武器"]
+    "trans": [
+      "vũ khí"
+    ]
   },
   {
     "name": "bubbles",
-    "trans": ["气泡"]
+    "trans": [
+      "bong bóng khí"
+    ]
   },
   {
     "name": "suction",
-    "trans": ["抽吸"]
+    "trans": [
+      "hút, hút chân không"
+    ]
   },
   {
     "name": "elevator",
-    "trans": ["电梯"]
+    "trans": [
+      "thang máy"
+    ]
   },
   {
     "name": "escalator",
-    "trans": ["自动扶梯"]
+    "trans": [
+      "thang cuốn"
+    ]
   },
   {
     "name": "fan",
-    "trans": ["风扇"]
+    "trans": [
+      "quạt"
+    ]
   },
   {
     "name": "garden",
-    "trans": ["花园"]
+    "trans": [
+      "vườn"
+    ]
   },
   {
     "name": "gym",
-    "trans": ["健身房"]
+    "trans": [
+      "phòng tập; nhà tập"
+    ]
   },
   {
     "name": "hvac",
-    "trans": ["空调"]
+    "trans": [
+      "máy điều hòa"
+    ]
   },
   {
     "name": "pump",
-    "trans": ["泵"]
+    "trans": [
+      "bơm"
+    ]
   },
   {
     "name": "angelic",
-    "trans": ["天使"]
+    "trans": [
+      "thiên thần"
+    ]
   },
   {
     "name": "elemental",
-    "trans": ["元素"]
+    "trans": [
+      "n. nguyên tố; yếu tố"
+    ]
   },
   {
     "name": "evil",
-    "trans": ["邪恶"]
+    "trans": [
+      "cái ác, điều ác"
+    ]
   },
   {
     "name": "poof",
-    "trans": ["嘭"]
+    "trans": [
+      "bụp, rầm"
+    ]
   },
   {
     "name": "shimmer",
-    "trans": ["闪耀"]
+    "trans": [
+      "lấp lánh, chói sáng"
+    ]
   },
   {
     "name": "spell",
-    "trans": ["咒语"]
+    "trans": [
+      "câu thần chú"
+    ]
   },
   {
     "name": "click",
-    "trans": ["咔哒"]
+    "trans": [
+      "lạo xạo, tách"
+    ]
   },
   {
     "name": "gears",
-    "trans": ["齿轮"]
+    "trans": [
+      "bánh răng"
+    ]
   },
   {
     "name": "latch",
-    "trans": ["插销"]
+    "trans": [
+      "then chốt, chốt"
+    ]
   },
   {
     "name": "lever",
-    "trans": ["操纵杆"]
+    "trans": [
+      "cần điều khiển"
+    ]
   },
   {
     "name": "lock",
-    "trans": ["锁"]
+    "trans": [
+      "ổ khóa; khóa lại"
+    ]
   },
   {
     "name": "pulley",
-    "trans": ["滑轮"]
+    "trans": [
+      "ròng rọc"
+    ]
   },
   {
     "name": "ratchet",
-    "trans": ["棘轮"]
+    "trans": [
+      "bánh răng"
+    ]
   },
   {
     "name": "relay",
-    "trans": ["传动"]
+    "trans": [
+      "truyền động"
+    ]
   },
   {
     "name": "roller",
-    "trans": ["滚筒"]
+    "trans": [
+      "trục quay, con lăn"
+    ]
   },
   {
     "name": "switch",
-    "trans": ["开关"]
+    "trans": [
+      "cong tac"
+    ]
   },
   {
     "name": "combustion",
-    "trans": ["内燃机"]
+    "trans": [
+      "động cơ đốt trong"
+    ]
   },
   {
     "name": "servo",
-    "trans": ["伺服电机"]
+    "trans": [
+      "động cơ servo"
+    ]
   },
   {
     "name": "turbine",
-    "trans": ["涡轮"]
+    "trans": [
+      "bánh tuabin"
+    ]
   },
   {
     "name": "activity",
-    "trans": ["活动"]
+    "trans": [
+      "hoạt động, sự vận động"
+    ]
   },
   {
     "name": "presence",
-    "trans": ["状态"]
+    "trans": [
+      "trang thai"
+    ]
   },
   {
     "name": "bells",
-    "trans": ["钟铃"]
+    "trans": [
+      "chuông"
+    ]
   },
   {
     "name": "brass",
-    "trans": ["铜管"]
+    "trans": [
+      "ống đồng"
+    ]
   },
   {
     "name": "chime",
-    "trans": ["排铃"]
+    "trans": [
+      "dãy chuông, chuông tổ hợp"
+    ]
   },
   {
     "name": "choral",
-    "trans": ["合唱"]
+    "trans": [
+      "hợp thanh, đồng ca"
+    ]
   },
   {
     "name": "experimental",
-    "trans": ["实验"]
+    "trans": [
+      "n. thí nghiệm; việc thử nghiệm"
+    ]
   },
   {
     "name": "instrument",
-    "trans": ["器乐"]
+    "trans": [
+      "khí nhạc"
+    ]
   },
   {
     "name": "keyed",
-    "trans": ["键控"]
+    "trans": [
+      "điều khiển bằng phím"
+    ]
   },
   {
     "name": "loop",
-    "trans": ["循环"]
+    "trans": [
+      "vòng lặp, chu kỳ"
+    ]
   },
   {
     "name": "percussion",
-    "trans": ["打击"]
+    "trans": [
+      "gõ"
+    ]
   },
   {
     "name": "percussion tuned",
-    "trans": ["打击乐"]
+    "trans": [
+      "nhạc cụ gõ"
+    ]
   },
   {
     "name": "performance",
-    "trans": ["表演"]
+    "trans": [
+      "biểu diễn, trình diễn"
+    ]
   },
   {
     "name": "plucked",
-    "trans": ["拨弦乐"]
+    "trans": [
+      "nhạc cụ gảy"
+    ]
   },
   {
     "name": "sample",
-    "trans": ["采样"]
+    "trans": [
+      "lấy mẫu"
+    ]
   },
   {
     "name": "shaken",
-    "trans": ["摇动"]
+    "trans": [
+      "v. lắc, rung, lắc lư"
+    ]
   },
   {
     "name": "song & phrase",
-    "trans": ["乐句"]
+    "trans": [
+      "câu nhạc, mệnh đề nhạc"
+    ]
   },
   {
     "name": "stinger",
-    "trans": ["重击音"]
+    "trans": [
+      "tiếng đậm nặng"
+    ]
   },
   {
     "name": "stringed",
-    "trans": ["弦乐"]
+    "trans": [
+      "nhạc lễ"
+    ]
   },
   {
     "name": "synthesized",
-    "trans": ["合成器"]
+    "trans": [
+      "bộ tổng hợp"
+    ]
   },
   {
     "name": "toy",
-    "trans": ["玩具"]
+    "trans": [
+      "đồ chơi; món đồ chơi"
+    ]
   },
   {
     "name": "woodwind",
-    "trans": ["木管"]
+    "trans": [
+      "nhạc khí gỗ"
+    ]
   },
   {
     "name": "avalanche",
-    "trans": ["雪崩"]
+    "trans": [
+      "tuyết lở"
+    ]
   },
   {
     "name": "earthquake",
-    "trans": ["地震"]
+    "trans": [
+      "n. động đất"
+    ]
   },
   {
     "name": "tornado",
-    "trans": ["龙卷风"]
+    "trans": [
+      "lốc xoáy, xoáy nước"
+    ]
   },
   {
     "name": "tsunami",
-    "trans": ["热带风暴"]
+    "trans": [
+      "bão nhiệt đới"
+    ]
   },
   {
     "name": "typhoon",
-    "trans": ["台风"]
+    "trans": [
+      "bão; bão nhiệt đới"
+    ]
   },
   {
     "name": "volcano",
-    "trans": ["火山喷发"]
+    "trans": [
+      "phun trào núi lửa"
+    ]
   },
   {
     "name": "bag",
-    "trans": ["袋子"]
+    "trans": [
+      "túi"
+    ]
   },
   {
     "name": "book",
-    "trans": ["书籍"]
+    "trans": [
+      "sách vở"
+    ]
   },
   {
     "name": "coin",
-    "trans": ["硬币"]
+    "trans": [
+      "đồng tiền, tiền xu"
+    ]
   },
   {
     "name": "container",
-    "trans": ["箱盒"]
+    "trans": [
+      "hộp, thùng"
+    ]
   },
   {
     "name": "fashion",
-    "trans": ["花园"]
+    "trans": [
+      "vườn"
+    ]
   },
   {
     "name": "furniture",
-    "trans": ["健身房"]
+    "trans": [
+      "phòng tập; nhà tập"
+    ]
   },
   {
     "name": "household",
-    "trans": ["家用品"]
+    "trans": [
+      "đồ dùng gia đình"
+    ]
   },
   {
     "name": "jewelry",
-    "trans": ["珠宝首饰"]
+    "trans": [
+      "trang sức"
+    ]
   },
   {
     "name": "keys",
-    "trans": ["钥匙"]
+    "trans": [
+      "chìa khóa"
+    ]
   },
   {
     "name": "luggage",
-    "trans": ["行李"]
+    "trans": [
+      "hành lý"
+    ]
   },
   {
     "name": "packaging",
-    "trans": ["包装品"]
+    "trans": [
+      "bao bì"
+    ]
   },
   {
     "name": "tape",
-    "trans": ["胶带制品"]
+    "trans": [
+      "sản phẩm băng keo"
+    ]
   },
   {
     "name": "umbrella",
-    "trans": ["伞"]
+    "trans": [
+      "ô; dù; ô che"
+    ]
   },
   {
     "name": "wheeled",
-    "trans": ["有轮制品"]
+    "trans": [
+      "sản phẩm có bánh xe"
+    ]
   },
   {
     "name": "writing",
-    "trans": ["书写用品"]
+    "trans": [
+      "dụng cụ viết"
+    ]
   },
   {
     "name": "zipper",
-    "trans": ["拉链"]
+    "trans": [
+      "khóa kéo"
+    ]
   },
   {
     "name": "flutter",
-    "trans": ["抖动"]
+    "trans": [
+      "run rẩy"
+    ]
   },
   {
     "name": "friction",
-    "trans": ["碰撞"]
+    "trans": [
+      "va chạm, đụng"
+    ]
   },
   {
     "name": "handle",
-    "trans": ["手持噪音"]
+    "trans": [
+      "tiếng ồn cầm tay"
+    ]
   },
   {
     "name": "impact",
-    "trans": ["摩擦"]
+    "trans": [
+      "ma sát"
+    ]
   },
   {
     "name": "concrete",
-    "trans": ["水泥"]
+    "trans": [
+      "xi măng"
+    ]
   },
   {
     "name": "general",
-    "trans": ["通用"]
+    "trans": [
+      "đa dụng"
+    ]
   },
   {
     "name": "vegetation",
-    "trans": ["植物"]
+    "trans": [
+      "thực vật; cây"
+    ]
   },
   {
     "name": "water",
-    "trans": ["水"]
+    "trans": [
+      "nước"
+    ]
   },
   {
     "name": "alien",
-    "trans": ["外星人"]
+    "trans": [
+      "người ngoài hành tinh"
+    ]
   },
   {
     "name": "baby",
-    "trans": ["婴儿"]
+    "trans": [
+      "trẻ sơ sinh"
+    ]
   },
   {
     "name": "cheer",
-    "trans": ["欢呼"]
+    "trans": [
+      "hoan hô, reo hò"
+    ]
   },
   {
     "name": "child",
-    "trans": ["儿童"]
+    "trans": [
+      "trẻ em"
+    ]
   },
   {
     "name": "crying",
-    "trans": ["哭泣"]
+    "trans": [
+      "khóc"
+    ]
   },
   {
     "name": "efforts",
-    "trans": ["呼喝"]
+    "trans": [
+      "quát thét, hô"
+    ]
   },
   {
     "name": "female",
-    "trans": ["女性"]
+    "trans": [
+      "phụ nữ"
+    ]
   },
   {
     "name": "futzed",
-    "trans": ["音响化"]
+    "trans": [
+      "phát thanh, khuếch đại âm thanh"
+    ]
   },
   {
     "name": "historical",
-    "trans": ["历史感"]
+    "trans": [
+      "cảm giác lịch sử"
+    ]
   },
   {
     "name": "laugh",
-    "trans": ["笑"]
+    "trans": [
+      "cười"
+    ]
   },
   {
     "name": "male",
-    "trans": ["男性"]
+    "trans": [
+      "nam giới; nam tính"
+    ]
   },
   {
     "name": "scream",
-    "trans": ["尖叫"]
+    "trans": [
+      "v. hét lên; n. tiếng hét"
+    ]
   },
   {
     "name": "whisper",
-    "trans": ["窃语"]
+    "trans": [
+      "thì thầm"
+    ]
   },
   {
     "name": "drain",
-    "trans": ["排水"]
+    "trans": [
+      "thoát nước"
+    ]
   },
   {
     "name": "drip",
-    "trans": ["滴"]
+    "trans": [
+      "giọt"
+    ]
   },
   {
     "name": "fizz",
-    "trans": ["气泡"]
+    "trans": [
+      "bong bóng khí"
+    ]
   },
   {
     "name": "flow",
-    "trans": ["水流"]
+    "trans": [
+      "dòng nước"
+    ]
   },
   {
     "name": "fountain",
-    "trans": ["喷泉"]
+    "trans": [
+      "đài phun nước"
+    ]
   },
   {
     "name": "lap",
-    "trans": ["拍浪"]
+    "trans": [
+      "sóng vỗ"
+    ]
   },
   {
     "name": "plumbing",
-    "trans": ["水管道"]
+    "trans": [
+      "đường ống nước"
+    ]
   },
   {
     "name": "spray",
-    "trans": ["水花"]
+    "trans": [
+      "bụng nước, bắn nước"
+    ]
   },
   {
     "name": "steam",
-    "trans": ["蒸汽"]
+    "trans": [
+      "hơi nước, hơi"
+    ]
   },
   {
     "name": "surf",
-    "trans": ["浪花拍岸"]
+    "trans": [
+      "sóng vỗ vào bờ"
+    ]
   },
   {
     "name": "waterfall",
-    "trans": ["瀑布"]
+    "trans": [
+      "thác nước"
+    ]
   },
   {
     "name": "wave",
-    "trans": ["波浪"]
+    "trans": [
+      "sóng"
+    ]
   },
   {
     "name": "armor",
-    "trans": ["护甲"]
+    "trans": [
+      "giáp"
+    ]
   },
   {
     "name": "arrow",
-    "trans": ["箭"]
+    "trans": [
+      "mũi tên"
+    ]
   },
   {
     "name": "axe",
-    "trans": ["斧"]
+    "trans": [
+      "rìu"
+    ]
   },
   {
     "name": "blunt",
-    "trans": ["钝器"]
+    "trans": [
+      "vũ khí cùn"
+    ]
   },
   {
     "name": "bow",
-    "trans": ["弓"]
+    "trans": [
+      "cung"
+    ]
   },
   {
     "name": "knife",
-    "trans": ["刀"]
+    "trans": [
+      "dao"
+    ]
   },
   {
     "name": "polearm",
-    "trans": ["矛"]
+    "trans": [
+      "giáo"
+    ]
   },
   {
     "name": "siege",
-    "trans": ["投石机"]
+    "trans": [
+      "máy bắn đá"
+    ]
   },
   {
     "name": "sword",
-    "trans": ["剑"]
+    "trans": [
+      "kiếm"
+    ]
   },
   {
     "name": "whip",
-    "trans": ["鞭"]
+    "trans": [
+      "roi"
+    ]
   },
   {
     "name": "hail",
-    "trans": ["冰雹"]
+    "trans": [
+      "mưa đá"
+    ]
   },
   {
     "name": "storm",
-    "trans": ["风暴"]
+    "trans": [
+      "bao"
+    ]
   },
   {
     "name": "thunder",
-    "trans": ["雷"]
+    "trans": [
+      "sấm sét"
+    ]
   },
   {
     "name": "gust",
-    "trans": ["阵风"]
+    "trans": [
+      "cơn gió giật"
+    ]
   },
   {
     "name": "covering",
-    "trans": ["遮挡物"]
+    "trans": [
+      "vật che chắn"
+    ]
   },
   {
     "name": "hardware",
-    "trans": ["窗具"]
+    "trans": [
+      "đồ dùng cửa sổ"
+    ]
   },
   {
     "name": "knock",
-    "trans": ["敲窗"]
+    "trans": [
+      "gõ cửa sổ"
+    ]
   }
 ]

@@ -1,306 +1,465 @@
 [
     {
         "name": "power steering",
-        "trans": ["动力方向盘"]
+        "trans": [
+            "vô-lăng trợ lực"
+        ]
     },
     {
         "name": "photo journalism",
-        "trans": ["图片新闻", "摄影新闻"]
+        "trans": [
+            "tin ảnh",
+            "tin nhiếp ảnh"
+        ]
     },
     {
         "name": "structure",
-        "trans": ["结构"]
+        "trans": [
+            "cau truc"
+        ]
     },
     {
         "name": "repetition",
-        "trans": ["重复"]
+        "trans": [
+            "lặp lại"
+        ]
     },
     {
         "name": "invest",
-        "trans": ["投资"]
+        "trans": [
+            "đầu tư"
+        ]
     },
     {
         "name": "framing",
-        "trans": ["框架"]
+        "trans": [
+            "khung"
+        ]
     },
     {
         "name": "crime",
-        "trans": ["罪行"]
+        "trans": [
+            "tội phạm"
+        ]
     },
     {
         "name": "creative",
-        "trans": ["有创造力的"]
+        "trans": [
+            "sáng tạo"
+        ]
     },
     {
         "name": "frame",
-        "trans": ["设计"]
+        "trans": [
+            "thiết kế"
+        ]
     },
     {
         "name": "inspire",
-        "trans": ["鼓舞"]
+        "trans": [
+            "cổ vũ"
+        ]
     },
     {
         "name": "handout",
-        "trans": ["讲义"]
+        "trans": [
+            "bài giảng"
+        ]
     },
     {
         "name": "disappoint",
-        "trans": ["使失望"]
+        "trans": [
+            "làm thất vọng"
+        ]
     },
     {
         "name": "independent",
-        "trans": ["独立的"]
+        "trans": [
+            "độc lập"
+        ]
     },
     {
         "name": "external",
-        "trans": ["外部的"]
+        "trans": [
+            "bên ngoài"
+        ]
     },
     {
         "name": "obey",
-        "trans": ["遵守"]
+        "trans": [
+            "tuân thủ"
+        ]
     },
     {
         "name": "procedure",
-        "trans": ["手续", "过程"]
+        "trans": [
+            "thủ tục",
+            "quá trình; tiến trình"
+        ]
     },
     {
         "name": "consumer",
-        "trans": ["消费者"]
+        "trans": [
+            "người tiêu dùng"
+        ]
     },
     {
         "name": "effect",
-        "trans": ["影响"]
+        "trans": [
+            "ảnh hưởng"
+        ]
     },
     {
         "name": "mineral",
-        "trans": ["矿物"]
+        "trans": [
+            "khoáng sản; khoáng chất"
+        ]
     },
     {
         "name": "stitch",
-        "trans": ["缝补"]
+        "trans": [
+            "vá"
+        ]
     },
     {
         "name": "pure",
-        "trans": ["纯净的"]
+        "trans": [
+            "thuần khiết, tinh khiết"
+        ]
     },
     {
         "name": "virus",
-        "trans": ["病毒"]
+        "trans": [
+            "vi-rút"
+        ]
     },
     {
         "name": "identity",
-        "trans": ["身份"]
+        "trans": [
+            "danh tính; tư cách"
+        ]
     },
     {
         "name": "evaluation",
-        "trans": ["评估"]
+        "trans": [
+            "đánh giá"
+        ]
     },
     {
         "name": "sound quality",
-        "trans": ["音质"]
+        "trans": [
+            "chất lượng âm thanh"
+        ]
     },
     {
         "name": "case study",
-        "trans": ["案例分析"]
+        "trans": [
+            "phân tích tình huống"
+        ]
     },
     {
         "name": "coral",
-        "trans": ["珊瑚"]
+        "trans": [
+            "san hô"
+        ]
     },
     {
         "name": "frog",
-        "trans": ["青蛙"]
+        "trans": [
+            "con ếch"
+        ]
     },
     {
         "name": "bacteria",
-        "trans": ["细菌"]
+        "trans": [
+            "vi khuẩn"
+        ]
     },
     {
         "name": "smooth",
-        "trans": ["光滑的"]
+        "trans": [
+            "nhẵn nhụi, trơn tru"
+        ]
     },
     {
         "name": "chain",
-        "trans": ["连锁"]
+        "trans": [
+            "chuỗi; liên kết xích"
+        ]
     },
     {
         "name": "optimisation",
-        "trans": ["最佳化"]
+        "trans": [
+            "tối ưu hóa"
+        ]
     },
     {
         "name": "fibre",
-        "trans": ["纤维"]
+        "trans": [
+            "sợi"
+        ]
     },
     {
         "name": "stabilise",
-        "trans": ["使稳定", "使稳固"]
+        "trans": [
+            "làm ổn định, ổn định hóa",
+            "làm vững chắc, củng cố"
+        ]
     },
     {
         "name": "bone",
-        "trans": ["骨头"]
+        "trans": [
+            "xương"
+        ]
     },
     {
         "name": "patterns",
-        "trans": ["模式"]
+        "trans": [
+            "chế độ; mô hình, kiểu"
+        ]
     },
     {
         "name": "robot",
-        "trans": ["机器人"]
+        "trans": [
+            "robot; con robot"
+        ]
     },
     {
         "name": "attention",
-        "trans": ["注意力"]
+        "trans": [
+            "sự chú ý"
+        ]
     },
     {
         "name": "smell",
-        "trans": ["嗅"]
+        "trans": [
+            "ngửi, đánh hơi"
+        ]
     },
     {
         "name": "delay",
-        "trans": ["延期"]
+        "trans": [
+            "hoãn lại; kéo dài thời gian"
+        ]
     },
     {
         "name": "accurate",
-        "trans": ["正确的"]
+        "trans": [
+            "đúng, chính xác"
+        ]
     },
     {
         "name": "chapter",
-        "trans": ["章"]
+        "trans": [
+            "chương"
+        ]
     },
     {
         "name": "darkroom",
-        "trans": ["暗室"]
+        "trans": [
+            "phòng tối, buồng tối"
+        ]
     },
     {
         "name": "volume",
-        "trans": ["音量"]
+        "trans": [
+            "âm lượng, độ lớn tiếng"
+        ]
     },
     {
         "name": "craft",
-        "trans": ["手工"]
+        "trans": [
+            "thủ công; làm tay"
+        ]
     },
     {
         "name": "packing",
-        "trans": ["包装"]
+        "trans": [
+            "bao bì; đóng gói"
+        ]
     },
     {
         "name": "appreciate",
-        "trans": ["感激"]
+        "trans": [
+            "biết ơn, cảm kích"
+        ]
     },
     {
         "name": "accurate",
-        "trans": ["精确的"]
+        "trans": [
+            "chính xác"
+        ]
     },
     {
         "name": "stimulate",
-        "trans": ["刺激"]
+        "trans": [
+            "kich thich"
+        ]
     },
     {
         "name": "utility",
-        "trans": ["实用性"]
+        "trans": [
+            "tính thực tiễn, tính dụng"
+        ]
     },
     {
         "name": "strict",
-        "trans": ["严格的"]
+        "trans": [
+            "nghiem ngat"
+        ]
     },
     {
         "name": "font",
-        "trans": ["字体"]
+        "trans": [
+            "phông chữ"
+        ]
     },
     {
         "name": "retail",
-        "trans": ["零售"]
+        "trans": [
+            "bán lẻ"
+        ]
     },
     {
         "name": "staircase",
-        "trans": ["楼梯间"]
+        "trans": [
+            "gian cầu thang"
+        ]
     },
     {
         "name": "accumulate",
-        "trans": ["积累"]
+        "trans": [
+            "tích lũy"
+        ]
     },
     {
         "name": "steam",
-        "trans": ["蒸汽"]
+        "trans": [
+            "hơi nước, hơi"
+        ]
     },
     {
         "name": "timber",
-        "trans": ["木材"]
+        "trans": [
+            "gỗ, vật liệu gỗ"
+        ]
     },
     {
         "name": "aggressive",
-        "trans": ["侵略的"]
+        "trans": [
+            "xâm lược, mang tính xâm lược"
+        ]
     },
     {
         "name": "analysis",
-        "trans": ["分析"]
+        "trans": [
+            "phân tích"
+        ]
     },
     {
         "name": "additive",
-        "trans": ["添加剂"]
+        "trans": [
+            "chất phụ gia, phụ gia"
+        ]
     },
     {
         "name": "proofread",
-        "trans": ["校对"]
+        "trans": [
+            "hiệu đính, kiểm tra"
+        ]
     },
     {
         "name": "ignore",
-        "trans": ["忽略"]
+        "trans": [
+            "bỏ qua"
+        ]
     },
     {
         "name": "rural",
-        "trans": ["乡下的"]
+        "trans": [
+            "nông thôn, thuộc vùng quê"
+        ]
     },
     {
         "name": "nitrogen",
-        "trans": ["氮气"]
+        "trans": [
+            "khí nitơ"
+        ]
     },
     {
         "name": "ozone layer",
-        "trans": ["臭氧层"]
+        "trans": [
+            "tầng ozon"
+        ]
     },
     {
         "name": "sculpture",
-        "trans": ["雕刻"]
+        "trans": [
+            "khắc, điêu khắc"
+        ]
     },
     {
         "name": "moisture",
-        "trans": ["水分", "湿气"]
+        "trans": [
+            "hàm lượng nước, độ ẩm",
+            "hơi ẩm, không khí ẩm"
+        ]
     },
     {
         "name": "rubber",
-        "trans": ["橡胶轮胎"]
+        "trans": [
+            "lốp xe cao su"
+        ]
     },
     {
         "name": "downhill",
-        "trans": ["下坡路"]
+        "trans": [
+            "đường đi xuống đồi, dốc xuống"
+        ]
     },
     {
         "name": "roof",
-        "trans": ["房顶"]
+        "trans": [
+            "mái nhà"
+        ]
     },
     {
         "name": "condition",
-        "trans": ["条件", "状况"]
+        "trans": [
+            "điều kiện",
+            "tình hình, hiện trạng"
+        ]
     },
     {
         "name": "fluid",
-        "trans": ["液体", "流体"]
+        "trans": [
+            "chất lỏng",
+            "chất lỏng chảy"
+        ]
     },
     {
         "name": "kidney",
-        "trans": ["肾", "肾脏"]
+        "trans": [
+            "thận",
+            "thận"
+        ]
     },
     {
         "name": "machine",
-        "trans": ["机械"]
+        "trans": [
+            "máy móc, thiết bị cơ khí"
+        ]
     },
     {
         "name": "eyesight",
-        "trans": ["视力"]
+        "trans": [
+            "thị lực"
+        ]
     },
     {
         "name": "camel",
-        "trans": ["骆驼"]
+        "trans": [
+            "lạc đà"
+        ]
     }
 ]

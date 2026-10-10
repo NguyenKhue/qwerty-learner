@@ -9,8 +9,8 @@
     {
         "name": "cashier",
         "trans": [
-            "n. 出纳员；司库；收银员",
-            "vt. 解雇；抛弃"
+            "n. nhân viên quỹ; thủ quỹ; nhân viên thu ngân",
+            "vt. sa thải; bỏ rơi"
         ],
         "usphone": "[kæˈʃɪr]",
         "ukphone": "[kæˈʃɪə(r)]"
@@ -26,8 +26,8 @@
     {
         "name": "soup",
         "trans": [
-            "n. 汤，羹；马力",
-            "vt. 加速；增加马力"
+            "n. canh; mã lực",
+            "vt. tăng tốc; tăng mã lực"
         ],
         "usphone": "[suːp]",
         "ukphone": "[suːp]"
@@ -51,7 +51,7 @@
     {
         "name": "enjoy",
         "trans": [
-            "vt. 欣赏，享受；喜爱；使过得快活"
+            " vt. thưởng thức, tận hưởng; thích; làm cho vui vẻ"
         ],
         "usphone": "[ɪnˈdʒɔɪ]",
         "ukphone": "[ɪnˈdʒɔɪ]"
@@ -68,8 +68,8 @@
     {
         "name": "later",
         "trans": [
-            "adv. 后来；稍后；随后",
-            "adj. 更迟的；更后的"
+            "adv. sau này; sau đó",
+            "adj. muộn hơn; sau hơn"
         ],
         "usphone": "[ˈleɪtər]",
         "ukphone": "[ˈleɪtə(r)]"
@@ -83,8 +83,8 @@
     {
         "name": "dark",
         "trans": [
-            "n. 黑暗；夜；黄昏；模糊",
-            "adj. 黑暗的，深色的；模糊的；无知的；忧郁的"
+            "n. bóng tối; đêm; chạng vạng; mơ hồ",
+            "adj. tối; màu tối; mơ hồ; vô học; ủ ê"
         ],
         "usphone": "[dɑːrk]",
         "ukphone": "[dɑːk]"
@@ -92,9 +92,9 @@
     {
         "name": "cloud",
         "trans": [
-            "n. 云；阴云；云状物；一大群；黑斑",
-            "vt. 使混乱；以云遮敝；使忧郁；玷污",
-            "vi. 阴沉；乌云密布"
+            "n. mây; mây đen; như mây; đàn; vết",
+            "vt. làm lộn xộn; che phủ; làm ảm đạm; làm nhơ",
+            "vi. ảm đạm; dầy đặc"
         ],
         "usphone": "[klaʊd]",
         "ukphone": "[klaʊd]"
@@ -108,10 +108,10 @@
     {
         "name": "dry",
         "trans": [
-            "n. 干涸",
-            "adj. 干的；口渴的；枯燥无味的；禁酒的",
-            "vt. 把…弄干",
-            "vi. 变干"
+            "(n) khô hạn",
+            "(adj) khô; khát; nhàm chán; cấm rượu",
+            "(vt) làm khô",
+            "(vi) trở nên khô"
         ],
         "usphone": "[draɪ]",
         "ukphone": "[draɪ]"
@@ -119,9 +119,9 @@
     {
         "name": "stay",
         "trans": [
-            "n. 逗留；停止；支柱",
-            "vi. 停留；坚持；暂住；停下",
-            "vt. 坚持；暂住；抑制"
+            "n. sự ở lại; sự dừng; trụ",
+            "vi. ở lại; kiên định; tạm trú; dừng lại",
+            "vt. kiên định; tạm trú; ngăn chặn"
         ],
         "usphone": "[steɪ]",
         "ukphone": "[steɪ]"
@@ -137,11 +137,11 @@
     {
         "name": "close",
         "trans": [
-            "n. 结束",
-            "adj. 紧密的；亲密的；亲近的",
-            "vt. 关；结束；使靠近",
-            "vi. 关；结束；关闭",
-            "adv. 紧密地"
+            "n. kết thúc",
+            "adj. chặt chẽ; thân mật; gần gũi",
+            "vt. đóng; kết thúc; tiếp cận",
+            "vi. đóng; kết thúc",
+            "adv. chặt chẽ"
         ],
         "usphone": "[kloʊz; kloʊs]",
         "ukphone": "[kləʊz]"
@@ -157,10 +157,10 @@
     {
         "name": "left",
         "trans": [
-            "adj. 左边的；左派的；剩下的",
-            "adv. 在左面",
-            "n. 左边；左派；激进分子",
-            "v. 离开（leave的过去式）"
+            "adj. bên trái; cánh tả; còn lại",
+            "adv. ở phía bên trái",
+            "n. bên trái; cánh tả; nhân vật cực đoan",
+            "v. rời đi"
         ],
         "usphone": "[left]",
         "ukphone": "[left]"
@@ -168,7 +168,7 @@
     {
         "name": "shine",
         "trans": [
-            "vt. 照射，擦亮；把…的光投向；（口）通过擦拭使…变得有光泽或光",
+            "vt. chiếu sáng; đánh bóng; chiếu sáng; làm bóng bằng cách lau",
             "vi. 发出光；反射光，闪耀；出类拔萃，表现突出；露出；照耀；显露；出众",
             "n. 光亮，光泽；好天气；擦亮；晴天；擦皮鞋；鬼把戏或诡计"
         ],
@@ -178,9 +178,9 @@
     {
         "name": "cry",
         "trans": [
-            "n. 叫喊；叫声；口号；呼叫",
-            "vi. 哭；叫；喊",
-            "vt. 叫喊；哭出；大声说"
+            "n. tiếng hô; tiếng kêu; khẩu hiệu; cuộc gọi",
+            "vi. khóc; kêu; hô",
+            "vt. hô; khóc ra; nói to"
         ],
         "usphone": "[kraɪ]",
         "ukphone": "[kraɪ]"
@@ -196,9 +196,9 @@
     {
         "name": "need",
         "trans": [
-            "n. 需要，要求；缺乏；必要之物",
-            "vt. 需要",
-            "vi. 需要"
+            "danh từ: nhu cầu; yêu cầu; thiếu; vật cần thiết",
+            "động từ ngoại: cần",
+            "động từ nội: cần"
         ],
         "usphone": "[niːd]",
         "ukphone": "[niːd]"
@@ -206,9 +206,9 @@
     {
         "name": "grab",
         "trans": [
-            "n. 攫取；霸占；夺取之物",
-            "vt. 攫取；霸占；将…深深吸引",
-            "vi. 攫取；夺取"
+            "n. chiếm đoạt; cắp cúp; chiến lợi phẩm",
+            "vt. chiếm đoạt; cắp cúp; thu hút sâu sắc",
+            "vi. chiếm đoạt; cướp"
         ],
         "usphone": "[ɡræb]",
         "ukphone": "[ɡræb]"
@@ -216,7 +216,7 @@
     {
         "name": "balloon",
         "trans": [
-            "n. 气球",
+            "n. bóng bay",
             "adj. 像气球般鼓起的",
             "vt. 使像气球般鼓起；使激增",
             "vi. 激增；膨胀如气球"
@@ -233,7 +233,7 @@
     {
         "name": "stairs",
         "trans": [
-            "n. 楼梯；梯级（stair的复数）"
+            "n. cầu thang; bậc"
         ],
         "usphone": "[sterz]",
         "ukphone": "[steəz]"
@@ -241,9 +241,9 @@
     {
         "name": "telephone",
         "trans": [
-            "n. （美）电话；电话机；电话耳机",
-            "vt. 打电话给…",
-            "vi. 打电话"
+            "n. điện thoại; máy điện thoại; ống nghe",
+            "vt. gọi điện thoại; gọi điện",
+            "vi. gọi điện thoại"
         ],
         "usphone": "[ˈtelɪfoʊn]",
         "ukphone": "[ˈtelɪfəʊn]"
@@ -251,9 +251,9 @@
     {
         "name": "ring",
         "trans": [
-            "n. 戒指；铃声，钟声；拳击场；环形物",
-            "vi. 按铃；敲钟；回响；成环形",
-            "vt. 按铃；包围；敲钟；套住"
+            "n. nhẫn; tiếng chuông, tiếng loa; sân boxing; vật hình vòng",
+            "vi. bấm chuông; gõ chuông; vang vọng; tạo hình vòng",
+            "vt. bấm chuông; bao vây; gõ chuông; quấn quanh"
         ],
         "usphone": "[rɪŋ]",
         "ukphone": "[rɪŋ]"
@@ -261,7 +261,7 @@
     {
         "name": "bell",
         "trans": [
-            "n. 铃，钟；钟声，铃声；钟状物",
+            "n. chuông; tiếng chuông; vật hình chuông",
             "vt. 装钟于，系铃于",
             "vi. 鸣钟；成钟状鼓起"
         ],
@@ -280,7 +280,7 @@
     {
         "name": "arrive",
         "trans": [
-            "vi. 到达；成功；达成；出生"
+            "vi. đến nơi; thành công; đạt được; sinh ra"
         ],
         "usphone": "[əˈraɪv]",
         "ukphone": "[əˈraɪv]"
@@ -288,7 +288,7 @@
     {
         "name": "hardly",
         "trans": [
-            "adv. 几乎不，简直不；刚刚"
+            "adv. hầu như không; gần như không; vừa mới"
         ],
         "usphone": "[ˈhɑːrdli]",
         "ukphone": "[ˈhɑːdli]"
@@ -296,7 +296,7 @@
     {
         "name": "raincoat",
         "trans": [
-            "n. （美）雨衣"
+            "n. (Mỹ) áo mưa"
         ],
         "usphone": "[ˈreɪnkoʊt]",
         "ukphone": "[ˈreɪnkəʊt]"
@@ -304,9 +304,9 @@
     {
         "name": "tunnel",
         "trans": [
-            "n. 隧道；坑道；洞穴通道",
-            "vt. 挖；在…打开通道；在…挖掘隧道",
-            "vi. 挖掘隧道；打开通道"
+            "n. đường hầm; hầm mỏ; lối đi dưới lòng đất",
+            "vt. đào; khai thác; chôn dập",
+            "vi. đào hầm; mở lối đi"
         ],
         "usphone": "[ˈtʌnl]",
         "ukphone": "[ˈtʌn(ə)l]"
@@ -314,10 +314,10 @@
     {
         "name": "home",
         "trans": [
-            "n. 家，住宅；产地；家乡；避难所",
-            "adj. 国内的，家庭的；有效的",
-            "vt. 归巢，回家",
-            "adv. 在家，回家；深入地"
+            "n. nhà, nơi ở; nơi sinh sản; quê hương; nơi trú ẩn",
+            "adj. nội địa, gia đình; hiệu quả",
+            "vt. quay trở về nhà, về nhà",
+            "adv. ở nhà, về nhà; sâu sắc"
         ],
         "usphone": "[hoʊm]",
         "ukphone": "[həʊm]"
@@ -325,9 +325,9 @@
     {
         "name": "earth",
         "trans": [
-            "n. 地球；地表，陆地；土地，土壤；尘事，俗事；兽穴",
-            "vt. 把（电线）[电] 接地；盖（土）；追赶入洞穴",
-            "vi. 躲进地洞"
+            "n. trái đất; mặt đất; đất; bụi bặm; hang động",
+            "vt. nối đất (dây điện); đắp đất lên; đuổi vào hang",
+            "vi. chạy vào hang"
         ],
         "usphone": "[ɜːrθ]",
         "ukphone": "[ɜːθ]"
@@ -370,7 +370,7 @@
     {
         "name": "spaceship",
         "trans": [
-            "n. [航] 宇宙飞船"
+            "n. [hàng không] tàu vũ trụ"
         ],
         "usphone": "[ˈspeɪsʃɪp]",
         "ukphone": "[ˈspeɪsʃɪp]"
@@ -396,10 +396,10 @@
     {
         "name": "model",
         "trans": [
-            "n. 模型；典型；模范；模特儿；样式",
-            "vt. 模拟；塑造；模仿",
-            "vi. 做模型；做模特儿",
-            "adj. 模范的；作模型用的"
+            "danh từ. mô hình; mẫu; kiểu mẫu; người mẫu; kiểu",
+            "động từ ngoại. tạo mô hình; tạo hình; bắt chước",
+            "động từ nội. tạo mô hình; làm người mẫu",
+            "tính từ. gương mẫu; dùng làm mô hình"
         ],
         "usphone": "[ˈmɑːdl]",
         "ukphone": "[ˈmɒd(ə)l]"
@@ -415,7 +415,7 @@
     {
         "name": "national",
         "trans": [
-            "adj. 国家的；国民的；民族的；国立的",
+            "(adj.) của quốc gia; quốc dân; dân tộc; quốc lập",
             "n. 国民"
         ],
         "usphone": "[ˈnæʃnəl]",
@@ -424,7 +424,7 @@
     {
         "name": "flag",
         "trans": [
-            "n. 标志；旗子",
+            "n. cờ; lá cờ",
             "vt. 标记；插旗",
             "vi. 标记；衰退；枯萎"
         ],
@@ -434,9 +434,9 @@
     {
         "name": "seed",
         "trans": [
-            "n. 种子；根据；精液；萌芽；子孙；原由",
-            "vt. 播种；结实；成熟；去…籽",
-            "vi. 播种；（植物）结实"
+            "n. hạt giống; cơ sở; tinh trùng; mầm; con cháu; nguyên nhân",
+            "vt. gieo; kết hạt; nuôi dạy; tẩy hạt",
+            "vi. gieo; kết hạt"
         ],
         "usphone": "[siːd]",
         "ukphone": "[siːd]"
@@ -488,7 +488,7 @@
     {
         "name": "illness",
         "trans": [
-            "n. 病；疾病"
+            "(n.) bệnh; bệnh tật"
         ],
         "usphone": "[ˈɪlnəs]",
         "ukphone": "[ˈɪlnəs]"
@@ -496,11 +496,11 @@
     {
         "name": "round",
         "trans": [
-            "n. 圆；循环；一回合；圆形物",
-            "prep. 附近；绕过；大约；在…周围",
-            "adj. 圆的；完全的；大概的；肥胖的",
-            "vt. 完成；围捕；绕行；弄圆",
-            "adv. 在周围；迂回地；朝反方向；挨个"
+            "n. vòng tròn; chu kỳ; một vòng; vật tròn",
+            "prep. gần; xung quanh; khoảng",
+            "adj. tròn; hoàn toàn; khoảng; béo",
+            "vt. hoàn thành; bao vây; vòng quanh; làm tròn",
+            "adv. xung quanh; vòng quanh; ngược chiều; lần lượt"
         ],
         "usphone": "[raʊnd]",
         "ukphone": "[raʊnd]"
@@ -514,8 +514,8 @@
     {
         "name": "cup",
         "trans": [
-            "n. 杯子；奖杯；酒杯",
-            "vt. 使成杯状；为…拔火罐"
+            "n. cốc; cup vô địch; ly rượu",
+            "vt. làm thành hình cốc; hút giác cho ..."
         ],
         "usphone": "[kʌp]",
         "ukphone": "[kʌp]"
@@ -523,7 +523,7 @@
     {
         "name": "classmate",
         "trans": [
-            "n. 同班同学"
+            "n. bạn cùng lớp"
         ],
         "usphone": "[ˈklæsmeɪt]",
         "ukphone": "[ˈklɑːsmeɪt]"
@@ -558,9 +558,9 @@
     {
         "name": "mistake",
         "trans": [
-            "n. 错误；误会；过失",
-            "vt. 弄错；误解",
-            "vi. 弄错；误解"
+            "n. lỗi; sai lầm; hiểu lầm",
+            "vt. làm sai; hiểu lầm",
+            "vi. làm sai; hiểu lầm"
         ],
         "usphone": "[mɪˈsteɪk]",
         "ukphone": "[mɪˈsteɪk]"
@@ -575,7 +575,7 @@
         "name": "word",
         "trans": [
             "n. [语] 单词；话语；消息；诺言；命令",
-            "vt. 用言辞表达"
+            "vt. diễn đạt bằng lời"
         ],
         "usphone": "[wɜːrd]",
         "ukphone": "[wɜːd]"
@@ -583,9 +583,9 @@
     {
         "name": "wish",
         "trans": [
-            "n. 希望；祝福；心愿",
-            "vt. 祝愿；渴望；向…致问候语",
-            "vi. 愿望；需要"
+            "n. hy vọng; phước; nguyện vọng",
+            "vt. chúc mừng; khao khát; chào hỏi",
+            "vi. mong muốn; cần"
         ],
         "usphone": "[wɪʃ]",
         "ukphone": "[wɪʃ]"
@@ -608,8 +608,8 @@
     {
         "name": "primary",
         "trans": [
-            "n. 原色；最主要者",
-            "adj. 主要的；初级的；基本的"
+            "n. màu gốc; người/vật quan trọng nhất",
+            "adj. chính; sơ cấp; cơ bản"
         ],
         "usphone": "[ˈpraɪmeri]",
         "ukphone": "[ˈpraɪməri]"
@@ -617,15 +617,15 @@
     {
         "name": "primary school",
         "trans": [
-            "n. 小学"
+            "n. trường tiểu học"
         ]
     },
     {
         "name": "keep",
         "trans": [
-            "vt. 保持；经营；遵守；饲养",
-            "vi. 保持；继续不断",
-            "n. 保持；生计；生活费"
+            "vt. giữ; kinh doanh; tuân thủ; nuôi dưỡng",
+            "vi. giữ; tiếp tục",
+            "n. sự giữ; sinh kế; chi phí sống"
         ],
         "usphone": "[kiːp]",
         "ukphone": "[kiːp]"
@@ -633,7 +633,7 @@
     {
         "name": "forever",
         "trans": [
-            "adv. 永远；不断地；常常"
+            "adv. mãi mãi; không ngừng; thường xuyên"
         ],
         "usphone": "[fərˈevər]",
         "ukphone": "[fərˈevə(r)]"
@@ -641,7 +641,7 @@
     {
         "name": "joy",
         "trans": [
-            "n. 欢乐，快乐；乐趣；高兴",
+            "(n.) vui vẻ, hạnh phúc; niềm vui; mừng rỡ",
             "vi. 欣喜，欢喜",
             "vt. 高兴，使快乐"
         ],
@@ -651,7 +651,7 @@
     {
         "name": "future",
         "trans": [
-            "n. 未来；前途；期货；将来时",
+            "n. tương lai; triển vọng; hợp đồng tương lai; thì tương lai",
             "adj. 将来的，未来"
         ],
         "usphone": "[ˈfjuːtʃər]",
@@ -668,7 +668,7 @@
     {
         "name": "wonderful",
         "trans": [
-            "adj. 极好的，精彩的，绝妙的；奇妙的；美妙；胜；神妙"
+            "adj. tuyệt vời; tuyệt diệu; kỳ diệu; tỏa sáng"
         ],
         "usphone": "[ˈwʌndərf(ə)l]",
         "ukphone": "[ˈwʌndəf(ə)l]"
@@ -676,7 +676,7 @@
     {
         "name": "happiness",
         "trans": [
-            "n. 幸福"
+            "n. hạnh phúc; niềm vui"
         ],
         "usphone": "[ˈhæpinəs]",
         "ukphone": "[ˈhæpinəs]"
@@ -684,8 +684,8 @@
     {
         "name": "middle",
         "trans": [
-            "adj. 中间的，中部的；中级的，中等的",
-            "n. 中间，中央；腰部"
+            "adj. ở giữa; trung bình; trung cấp",
+            "n. giữa; trung tâm; thắt lưng"
         ],
         "usphone": "[ˈmɪd(ə)l]",
         "ukphone": "[ˈmɪd(ə)l]"
@@ -709,7 +709,7 @@
     {
         "name": "September",
         "trans": [
-            "n. 九月"
+            "n. tháng chín"
         ],
         "usphone": "[sepˈtembər]",
         "ukphone": "[sepˈtembə(r)]"
@@ -726,7 +726,7 @@
     {
         "name": "geography",
         "trans": [
-            "n. 地理；地形"
+            "n. địa lý; địa hình"
         ],
         "usphone": "[dʒiˈɑːɡrəfi]",
         "ukphone": "[dʒiˈɒɡrəfi]"
@@ -766,7 +766,7 @@
     {
         "name": "sometime",
         "trans": [
-            "adj. 以前的；某一时间的",
+            "(adj.) trước đó; vào một thời nào đó",
             "adv. 改天；来日；在某一时候"
         ],
         "usphone": "[ˈsʌmtaɪm]",
@@ -781,7 +781,7 @@
     {
         "name": "chemistry",
         "trans": [
-            "n. 化学；化学过程"
+            "n. hóa học; quá trình hóa học"
         ],
         "usphone": "[ˈkemɪstri]",
         "ukphone": "[ˈkemɪstri]"
@@ -789,7 +789,7 @@
     {
         "name": "physics",
         "trans": [
-            "n. 物理学；物理现象"
+            "n. vật lý; hiện tượng vật lý"
         ],
         "usphone": "[ˈfɪzɪks]",
         "ukphone": "[ˈfɪzɪks]"

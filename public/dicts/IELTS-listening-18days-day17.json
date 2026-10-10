@@ -1,186 +1,278 @@
 [
     {
         "name": "compose",
-        "trans": ["构成"]
+        "trans": [
+            "cấu thành, hình thành"
+        ]
     },
     {
         "name": "trace",
-        "trans": ["痕迹"]
+        "trans": [
+            "vết; dấu vết; dấu"
+        ]
     },
     {
         "name": "mineral",
-        "trans": ["矿物"]
+        "trans": [
+            "khoáng sản; khoáng chất"
+        ]
     },
     {
         "name": "metabolism",
-        "trans": ["新陈代谢"]
+        "trans": [
+            "chuyển hoá"
+        ]
     },
     {
         "name": "deserve",
-        "trans": ["应得"]
+        "trans": [
+            "xứng đáng"
+        ]
     },
     {
         "name": "maintenance",
-        "trans": ["维护"]
+        "trans": [
+            "bảo trì, bảo vệ"
+        ]
     },
     {
         "name": "intrigue",
-        "trans": ["激起"]
+        "trans": [
+            "kích thích, gợi lên"
+        ]
     },
     {
         "name": "poison",
-        "trans": ["毒"]
+        "trans": [
+            "chất độc; độc dược"
+        ]
     },
     {
         "name": "decline",
-        "trans": ["下降"]
+        "trans": [
+            "giảm, sụt"
+        ]
     },
     {
         "name": "aging",
-        "trans": ["老化"]
+        "trans": [
+            "lão hóa, già hóa"
+        ]
     },
     {
         "name": "ocean",
-        "trans": ["大洋"]
+        "trans": [
+            "đại dương, biển lớn"
+        ]
     },
     {
         "name": "marriage",
-        "trans": ["结婚"]
+        "trans": [
+            "kết hôn; cưới"
+        ]
     },
     {
         "name": "curve",
-        "trans": ["曲线"]
+        "trans": [
+            "đường cong"
+        ]
     },
     {
         "name": "constant",
-        "trans": ["不变的"]
+        "trans": [
+            "bất biến"
+        ]
     },
     {
         "name": "muscle",
-        "trans": ["肌肉"]
+        "trans": [
+            "cơ bắp; bắp thịt"
+        ]
     },
     {
         "name": "immune",
-        "trans": ["免疫的"]
+        "trans": [
+            "miễn dịch"
+        ]
     },
     {
         "name": "spider",
-        "trans": ["蜘蛛"]
+        "trans": [
+            "con nhện"
+        ]
     },
     {
         "name": "extensive",
-        "trans": ["广泛的"]
+        "trans": [
+            "rộng rãi"
+        ]
     },
     {
         "name": "pottery",
-        "trans": ["陶瓷"]
+        "trans": [
+            "gốm sứ, sứ"
+        ]
     },
     {
         "name": "enrollment",
-        "trans": ["登记"]
+        "trans": [
+            "đăng ký"
+        ]
     },
     {
         "name": "oxygen",
-        "trans": ["氧气"]
+        "trans": [
+            "oxy"
+        ]
     },
     {
         "name": "shark",
-        "trans": ["鲨鱼"]
+        "trans": [
+            "n. cá mập"
+        ]
     },
     {
         "name": "straightforward",
-        "trans": ["简单的"]
+        "trans": [
+            "adj. đơn giản, dễ"
+        ]
     },
     {
         "name": "injury",
-        "trans": ["伤害"]
+        "trans": [
+            "làm tổn thương; tổn thương; gây hại"
+        ]
     },
     {
         "name": "corporate",
-        "trans": ["公司的"]
+        "trans": [
+            "của công ty, thuộc về công ty"
+        ]
     },
     {
         "name": "attack",
-        "trans": ["攻击"]
+        "trans": [
+            "tấn công"
+        ]
     },
     {
         "name": "reserve",
-        "trans": ["储备"]
+        "trans": [
+            "dự trữ, tích trữ"
+        ]
     },
     {
         "name": "plough",
-        "trans": ["耕地"]
+        "trans": [
+            "đất canh tác, ruộng"
+        ]
     },
     {
         "name": "commodity",
-        "trans": ["商品"]
+        "trans": [
+            "hàng hoá; hàng"
+        ]
     },
     {
         "name": "transportation",
-        "trans": ["运输"]
+        "trans": [
+            "vận chuyển"
+        ]
     },
     {
         "name": "operational",
-        "trans": ["合作"]
+        "trans": [
+            "hợp tác, cộng tác"
+        ]
     },
     {
         "name": "aerial",
-        "trans": ["空中的"]
+        "trans": [
+            "trên không, trong không trung"
+        ]
     },
     {
         "name": "barrier",
-        "trans": ["障碍物"]
+        "trans": [
+            "vat can, rao chan"
+        ]
     },
     {
         "name": "fertilizer",
-        "trans": ["肥料"]
+        "trans": [
+            "phân bón"
+        ]
     },
     {
         "name": "yield",
-        "trans": ["产出"]
+        "trans": [
+            "sản xuất, sản phẩm"
+        ]
     },
     {
         "name": "shellfish",
-        "trans": ["甲壳类动物"]
+        "trans": [
+            "động vật giáp xác"
+        ]
     },
     {
         "name": "nomadic",
-        "trans": ["游动的"]
+        "trans": [
+            "di chuyển, đi nhanh"
+        ]
     },
     {
         "name": "grain",
-        "trans": ["谷类"]
+        "trans": [
+            "ngũ cốc"
+        ]
     },
     {
         "name": "pedal",
-        "trans": ["踏板"]
+        "trans": [
+            "bàn đạp"
+        ]
     },
     {
         "name": "stomach",
-        "trans": ["胃"]
+        "trans": [
+            "da day"
+        ]
     },
     {
         "name": "peer",
-        "trans": ["同龄人"]
+        "trans": [
+            "người cùng tuổi"
+        ]
     },
     {
         "name": "confusion",
-        "trans": ["困惑"]
+        "trans": [
+            "bối rối, nghi hoặc"
+        ]
     },
     {
         "name": "drum",
-        "trans": ["鼓"]
+        "trans": [
+            "n. trống; đánh trống"
+        ]
     },
     {
         "name": "intensity",
-        "trans": ["强度"]
+        "trans": [
+            "cường độ, độ mạnh"
+        ]
     },
     {
         "name": "fade",
-        "trans": ["逐渐消失"]
+        "trans": [
+            "dần dần biến mất, mai một"
+        ]
     },
     {
         "name": "pirate",
-        "trans": ["海盗"]
+        "trans": [
+            "cướp biển"
+        ]
     }
 ]

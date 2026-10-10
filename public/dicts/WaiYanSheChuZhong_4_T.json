@@ -3,7 +3,7 @@
         "name": "smell",
         "trans": [
             "(smelled, smelled; smelt, smelt) 有……的气味；闻；闻出",
-            "气味"
+            "n. mùi, mùi thơm"
         ],
         "usphone": "smɛl",
         "ukphone": "smel"
@@ -43,7 +43,7 @@
     {
         "name": "pizza",
         "trans": [
-            "比萨饼"
+            "bánh pizza"
         ],
         "usphone": "'pitsə",
         "ukphone": "'piːtsə; 'pɪtsə"
@@ -115,7 +115,7 @@
     {
         "name": "jam",
         "trans": [
-            "果酱"
+            "mứt"
         ],
         "usphone": "dʒæm",
         "ukphone": "dʒæm"
@@ -139,7 +139,7 @@
     {
         "name": "ear",
         "trans": [
-            "耳朵"
+            "n. tai"
         ],
         "usphone": "ɪr",
         "ukphone": "ɪə"
@@ -227,7 +227,7 @@
     {
         "name": "hobby",
         "trans": [
-            "业余爱好"
+            "sở thích"
         ],
         "usphone": "'hɑbi",
         "ukphone": "'hɒbɪ"
@@ -340,7 +340,7 @@
     {
         "name": "invite",
         "trans": [
-            "邀请"
+            "mời"
         ],
         "usphone": "ɪn'vaɪt",
         "ukphone": "ɪn'vaɪt"
@@ -364,7 +364,7 @@
     {
         "name": "Germany",
         "trans": [
-            "德国"
+            "Đức"
         ],
         "usphone": "'dʒɝməni",
         "ukphone": "'dʒɜːmənɪ"
@@ -380,7 +380,7 @@
     {
         "name": "tower",
         "trans": [
-            "塔"
+            "tháp; chóp"
         ],
         "usphone": "'taʊɚ",
         "ukphone": "'taʊə"
@@ -412,7 +412,7 @@
     {
         "name": "Arabic",
         "trans": [
-            "阿拉伯语"
+            "tiếng Ả Rập"
         ],
         "usphone": "ˈærəbɪk",
         "ukphone": "'ærəbik"
@@ -460,7 +460,7 @@
     {
         "name": "earth",
         "trans": [
-            "地球"
+            "n. Trái Đất; quả địa cầu"
         ],
         "usphone": "ɝθ",
         "ukphone": "ɜːθ"
@@ -484,7 +484,7 @@
     {
         "name": "planet",
         "trans": [
-            "行星"
+            "hành tinh"
         ],
         "usphone": "'plænɪt",
         "ukphone": "'plænɪt"
@@ -516,7 +516,7 @@
     {
         "name": "model",
         "trans": [
-            "模型"
+            "mô hình; mẫu"
         ],
         "usphone": "'mɑdl",
         "ukphone": "'mɒdl"
@@ -572,7 +572,7 @@
     {
         "name": "astronaut",
         "trans": [
-            "宇航员"
+            "nhà du hành vũ trụ"
         ],
         "usphone": "'æstrəˌnɔt",
         "ukphone": "'æstrənɔːt"
@@ -596,7 +596,7 @@
     {
         "name": "environment",
         "trans": [
-            "环境"
+            "n. môi trường"
         ],
         "usphone": "ɪn'vaɪrənmənt",
         "ukphone": "ɪnˈvaɪrənmənt"
@@ -644,7 +644,7 @@
     {
         "name": "galaxy",
         "trans": [
-            "星系"
+            "thiên hà"
         ],
         "usphone": "'ɡæləksi",
         "ukphone": "'gæləksɪ"
@@ -652,7 +652,7 @@
     {
         "name": "universe",
         "trans": [
-            "宇宙"
+            "vũ trụ"
         ],
         "usphone": "'junɪvɝs",
         "ukphone": "'juːnɪvɜːs"
@@ -692,8 +692,8 @@
     {
         "name": "cough",
         "trans": [
-            "咳嗽",
-            "咳嗽"
+            "ho, ho khan",
+            "ho, ho khan"
         ],
         "usphone": "kɔf",
         "ukphone": "kɒf"
@@ -709,7 +709,7 @@
     {
         "name": "headache",
         "trans": [
-            "头痛"
+            "đau đầu"
         ],
         "usphone": "ˈhɛdˌek",
         "ukphone": "'hedeɪk"
@@ -741,7 +741,7 @@
     {
         "name": "toothache",
         "trans": [
-            "牙痛"
+            "đau răng; sâu răng"
         ],
         "usphone": "'tuθek",
         "ukphone": "'tuːθeɪk"
@@ -782,7 +782,7 @@
     {
         "name": "catch a cold",
         "trans": [
-            "感冒"
+            "bị cảm"
         ],
         "usphone": "",
         "ukphone": ""
@@ -815,7 +815,7 @@
     {
         "name": "health",
         "trans": [
-            "健康（状况）"
+            "sức khoẻ"
         ],
         "usphone": "hɛlθ",
         "ukphone": "helθ"
@@ -823,7 +823,7 @@
     {
         "name": "well",
         "trans": [
-            "健康的"
+            "khỏe mạnh"
         ],
         "usphone": "wɛl",
         "ukphone": "wel"
@@ -919,7 +919,7 @@
     {
         "name": "illness",
         "trans": [
-            "病；疾病"
+            "bệnh; bệnh tật"
         ],
         "usphone": "'ɪlnəs",
         "ukphone": "ˈɪlnəs"
@@ -959,7 +959,7 @@
     {
         "name": "perhaps",
         "trans": [
-            "可能；也许"
+            "có thể; có lẽ"
         ],
         "usphone": "pərˈhæps",
         "ukphone": "pəˈhæps"
@@ -1080,7 +1080,7 @@
     {
         "name": "schoolbag",
         "trans": [
-            "书包"
+            "n. cặp sách, ba lô"
         ],
         "usphone": "ˈskulˌbæɡ",
         "ukphone": "'skuːlbæɡ"
@@ -1168,7 +1168,7 @@
     {
         "name": "own",
         "trans": [
-            "自己的"
+            "của mình; bản thân"
         ],
         "usphone": "on",
         "ukphone": "əʊn"
@@ -1184,7 +1184,7 @@
     {
         "name": "create",
         "trans": [
-            "创造"
+            "sáng tạo, tạo ra"
         ],
         "usphone": "krɪ'et",
         "ukphone": "kriː'eɪt"
@@ -1208,7 +1208,7 @@
     {
         "name": "stamp",
         "trans": [
-            "邮票"
+            "tem thu"
         ],
         "usphone": "stæmp",
         "ukphone": "stæmp"
@@ -1248,7 +1248,7 @@
     {
         "name": "coin",
         "trans": [
-            "硬币"
+            "đồng tiền, tiền xu"
         ],
         "usphone": "kɔɪn",
         "ukphone": "kɒɪn"
@@ -1256,7 +1256,7 @@
     {
         "name": "note",
         "trans": [
-            "纸币"
+            "tiền giấy"
         ],
         "usphone": "not",
         "ukphone": "nəʊt"
@@ -1264,7 +1264,7 @@
     {
         "name": "pound",
         "trans": [
-            "英镑"
+            "bảng Anh"
         ],
         "usphone": "paʊnd",
         "ukphone": "paʊnd"
@@ -1344,7 +1344,7 @@
     {
         "name": "activity",
         "trans": [
-            "活动"
+            "hoạt động, sự vận động"
         ],
         "usphone": "ækˈtɪvətɪ",
         "ukphone": "ækˈtɪvətɪ"
@@ -1368,7 +1368,7 @@
     {
         "name": "result",
         "trans": [
-            "结果；后果"
+            "kết quả; hậu quả"
         ],
         "usphone": "rɪ'zʌlt",
         "ukphone": "rɪ'zʌlt"
@@ -1480,7 +1480,7 @@
     {
         "name": "weight",
         "trans": [
-            "重量"
+            "trọng lượng, sức nặng"
         ],
         "usphone": "wet",
         "ukphone": "weɪt"
@@ -1488,7 +1488,7 @@
     {
         "name": "passport",
         "trans": [
-            "护照"
+            "ho chieu"
         ],
         "usphone": "'pæspɔrt",
         "ukphone": "'pɑːspɔːt"
@@ -1496,7 +1496,7 @@
     {
         "name": "culture",
         "trans": [
-            "文化"
+            "văn hóa"
         ],
         "usphone": "'kʌltʃɚ",
         "ukphone": "'kʌltʃə"
@@ -1504,7 +1504,7 @@
     {
         "name": "at the same time",
         "trans": [
-            "同时"
+            "đồng thời; cùng lúc"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1716,7 +1716,7 @@
     {
         "name": "human",
         "trans": [
-            "人"
+            "người; con người"
         ],
         "usphone": "'hjumən",
         "ukphone": "'hjuːmən"
@@ -1813,7 +1813,7 @@
     {
         "name": "refuse",
         "trans": [
-            "拒绝"
+            "từ chối, khước từ"
         ],
         "usphone": "ri'fjʊz",
         "ukphone": "rɪ'fjuːz"
@@ -1829,7 +1829,7 @@
     {
         "name": "herself",
         "trans": [
-            "她自己"
+            "cô ấy tự mình; bản thân cô ấy"
         ],
         "usphone": "hɝ'sɛlf",
         "ukphone": "hɜː'self"
@@ -1837,7 +1837,7 @@
     {
         "name": "whether",
         "trans": [
-            "是否"
+            "có phải không"
         ],
         "usphone": "'wɛðɚ",
         "ukphone": "'weðə"
@@ -1885,7 +1885,7 @@
     {
         "name": "join in",
         "trans": [
-            "参加"
+            "tham dự"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1982,7 +1982,7 @@
     {
         "name": "glue",
         "trans": [
-            "胶水"
+            "keo dán"
         ],
         "usphone": "ɡlu",
         "ukphone": "gluː"
@@ -2111,7 +2111,7 @@
     {
         "name": "part-time",
         "trans": [
-            "兼职的"
+            "bán thời gian"
         ],
         "usphone": ",pɑrt'taɪm",
         "ukphone": ",pɑ:t'taɪm"

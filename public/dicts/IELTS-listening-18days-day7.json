@@ -1,302 +1,452 @@
 [
     {
         "name": "personal officer",
-        "trans": ["n. 人事部员工"]
+        "trans": [
+            "n. nhân viên phòng nhân sự"
+        ]
     },
     {
         "name": "booking form",
-        "trans": ["n. 预定表格"]
+        "trans": [
+            "n. mẫu đơn đặt trước, phiếu đặt"
+        ]
     },
     {
         "name": "file",
-        "trans": ["n. 文件"]
+        "trans": [
+            "n. tài liệu, văn bản"
+        ]
     },
     {
         "name": "cabin",
-        "trans": ["n. 船舱"]
+        "trans": [
+            "n. buồng tàu"
+        ]
     },
     {
         "name": "bill",
-        "trans": ["n. 清单"]
+        "trans": [
+            "n. danh sách"
+        ]
     },
     {
         "name": "neutral",
-        "trans": ["adj. 中立的"]
+        "trans": [
+            "adj. trung lập, trung tính"
+        ]
     },
     {
         "name": "luggage",
-        "trans": ["n. 行李"]
+        "trans": [
+            "n. hành lý"
+        ]
     },
     {
         "name": "documentary film",
-        "trans": ["n. 纪录片"]
+        "trans": [
+            "n. phim tài liệu"
+        ]
     },
     {
         "name": "unloaded",
-        "trans": ["adj. 卸货"]
+        "trans": [
+            "adj. để hàng, giải phóng hàng"
+        ]
     },
     {
         "name": "parking lot",
-        "trans": ["n. 停车场"]
+        "trans": [
+            "n. bãi đỗ xe; bãi gửi xe"
+        ]
     },
     {
         "name": "comedy",
-        "trans": ["n. 喜剧"]
+        "trans": [
+            "n. hài kịch"
+        ]
     },
     {
         "name": "campsite",
-        "trans": ["n. 营地"]
+        "trans": [
+            "n. địa điểm cắm trại"
+        ]
     },
     {
         "name": "fiction",
-        "trans": ["n. 小说"]
+        "trans": [
+            "n. tiểu thuyết"
+        ]
     },
     {
         "name": "metal paint",
-        "trans": ["n. 金属漆"]
+        "trans": [
+            "n. sơn mạt kẽm, sơn kim loại"
+        ]
     },
     {
         "name": "meadow",
-        "trans": ["n. 草地"]
+        "trans": [
+            "n. bãi cỏ, thảm cỏ"
+        ]
     },
     {
         "name": "metal detector",
-        "trans": ["n. 金属探测器"]
+        "trans": [
+            "n. máy dò kim loại"
+        ]
     },
     {
         "name": "cash point",
-        "trans": ["n. 提款机"]
+        "trans": [
+            "n. máy rút tiền ATM"
+        ]
     },
     {
         "name": "label",
-        "trans": ["n. 标签"]
+        "trans": [
+            "n. nhãn, tem"
+        ]
     },
     {
         "name": "ink",
-        "trans": ["n. 墨水"]
+        "trans": [
+            "n. mực"
+        ]
     },
     {
         "name": "statue",
-        "trans": ["n. 雕塑"]
+        "trans": [
+            "n. tác phẩm điêu khắc, tượng"
+        ]
     },
     {
         "name": "seed",
-        "trans": ["n. 种子"]
+        "trans": [
+            "n. hạt giống"
+        ]
     },
     {
         "name": "award",
-        "trans": ["n. 奖品"]
+        "trans": [
+            "n. giải thưởng, phần thưởng"
+        ]
     },
     {
         "name": "vehicle",
-        "trans": ["n. 车辆"]
+        "trans": [
+            "n. phương tiện, xe cộ"
+        ]
     },
     {
         "name": "herb",
-        "trans": ["n. 草药"]
+        "trans": [
+            "n. thảo dược"
+        ]
     },
     {
         "name": "excursion",
-        "trans": ["n. 短途旅行"]
+        "trans": [
+            "n. chuyến đi ngắn"
+        ]
     },
     {
         "name": "blanket",
-        "trans": ["n. 毛毯"]
+        "trans": [
+            "n. chăn, mền"
+        ]
     },
     {
         "name": "extra",
-        "trans": ["adj. 额外的"]
+        "trans": [
+            "adj. thêm, phụ thuộc"
+        ]
     },
     {
         "name": "coal",
-        "trans": ["n. 煤"]
+        "trans": [
+            "n. than, than đá"
+        ]
     },
     {
         "name": "terrain",
-        "trans": ["n. 地形"]
+        "trans": [
+            "n. địa hình, địa thế"
+        ]
     },
     {
         "name": "aspect",
-        "trans": ["n. 方面"]
+        "trans": [
+            "n. phương diện, mặt"
+        ]
     },
     {
         "name": "allow",
-        "trans": ["v. 允许"]
+        "trans": [
+            "v. cho phép, được phép"
+        ]
     },
     {
         "name": "recommend",
-        "trans": ["v. 推荐"]
+        "trans": [
+            "v. giới thiệu; đề xuất; khuyến nghị"
+        ]
     },
     {
         "name": "mine",
-        "trans": ["n. 矿"]
+        "trans": [
+            "n. quặng, mỏ"
+        ]
     },
     {
         "name": "reception",
-        "trans": ["n. 接待处"]
+        "trans": [
+            "n. nơi tiếp tân, quầy lễ tân"
+        ]
     },
     {
         "name": "technological",
-        "trans": ["adj. 科技的"]
+        "trans": [
+            "adj. công nghệ, khoa học công nghệ"
+        ]
     },
     {
         "name": "staff",
-        "trans": ["n. 职员"]
+        "trans": [
+            "n. nhân viên, cán bộ"
+        ]
     },
     {
         "name": "insight",
-        "trans": ["n. 洞察力"]
+        "trans": [
+            "n. sự thấu hiểu, khả năng nhìn thấu"
+        ]
     },
     {
         "name": "elevator",
-        "trans": ["n. 电梯"]
+        "trans": [
+            "n. thang máy, thang điện"
+        ]
     },
     {
         "name": "underground",
-        "trans": ["n. 地铁"]
+        "trans": [
+            "n. tàu điện ngầm"
+        ]
     },
     {
         "name": "employee",
-        "trans": ["n. 员工"]
+        "trans": [
+            "n. nhân viên, lao động"
+        ]
     },
     {
         "name": "notice board",
-        "trans": ["n. 布告栏"]
+        "trans": [
+            "n. bảng thông báo"
+        ]
     },
     {
         "name": "supportive",
-        "trans": ["adj. 支持的"]
+        "trans": [
+            "adj. ủng hộ, có tính ủng hộ"
+        ]
     },
     {
         "name": "budget",
-        "trans": ["n. 预算"]
+        "trans": [
+            "n. ngân sách"
+        ]
     },
     {
         "name": "responsibility",
-        "trans": ["n. 责任"]
+        "trans": [
+            "n. trách nhiệm"
+        ]
     },
     {
         "name": "atmosphere",
-        "trans": ["n. 气氛"]
+        "trans": [
+            "n. không khí, bầu không khí"
+        ]
     },
     {
         "name": "guest",
-        "trans": ["n. 客人"]
+        "trans": [
+            "n. khách, khách khứa"
+        ]
     },
     {
         "name": "screen",
-        "trans": ["n. 屏幕"]
+        "trans": [
+            "n. màn hình"
+        ]
     },
     {
         "name": "deliver",
-        "trans": ["v. 递送"]
+        "trans": [
+            "v. chuyển giao, giao"
+        ]
     },
     {
         "name": "store room",
-        "trans": ["n. 储藏室"]
+        "trans": [
+            "n. kho, phòng chứa đồ"
+        ]
     },
     {
         "name": "main hall",
-        "trans": ["n. 大厅"]
+        "trans": [
+            "n. đại sảnh, sảnh lớn"
+        ]
     },
     {
         "name": "lobby",
-        "trans": ["n. 大厅"]
+        "trans": [
+            "n. đại sảnh, sảnh lớn"
+        ]
     },
     {
         "name": "tax",
-        "trans": ["n. 税"]
+        "trans": [
+            "n. thuế"
+        ]
     },
     {
         "name": "accountant",
-        "trans": ["n. 会计师"]
+        "trans": [
+            "n. kế toán viên"
+        ]
     },
     {
         "name": "architecture",
-        "trans": ["n. 建筑"]
+        "trans": [
+            "n. công trình xây dựng, kiến trúc"
+        ]
     },
     {
         "name": "waterfall",
-        "trans": ["n. 瀑布"]
+        "trans": [
+            "n. thác nước"
+        ]
     },
     {
         "name": "rent",
-        "trans": ["n. 租金"]
+        "trans": [
+            "n. tiền thuê"
+        ]
     },
     {
         "name": "solar energy",
-        "trans": ["n. 太阳能"]
+        "trans": [
+            "n. năng lượng mặt trời"
+        ]
     },
     {
         "name": "villa",
-        "trans": ["n. 别墅"]
+        "trans": [
+            "n. biệt thự, nhà biệt thự"
+        ]
     },
     {
         "name": "picnic",
-        "trans": ["n. 野餐"]
+        "trans": [
+            "n. dã ngoại"
+        ]
     },
     {
         "name": "pond",
-        "trans": ["n. 池塘"]
+        "trans": [
+            "n. ao"
+        ]
     },
     {
         "name": "pool",
-        "trans": ["n. 游泳池"]
+        "trans": [
+            "n. bể bơi"
+        ]
     },
     {
         "name": "agent",
-        "trans": ["n. 中介"]
+        "trans": [
+            "n. môi giới, người trung gian"
+        ]
     },
     {
         "name": "real estate",
-        "trans": ["n. 房地产"]
+        "trans": [
+            "n. bất động sản"
+        ]
     },
     {
         "name": "worthwhile",
-        "trans": ["adj. 值得的"]
+        "trans": [
+            "adj. xứng đáng, đáng giá"
+        ]
     },
     {
         "name": "location",
-        "trans": ["n. 位置"]
+        "trans": [
+            "n. vi tri"
+        ]
     },
     {
         "name": "suitable",
-        "trans": ["adj. 适当的"]
+        "trans": [
+            "adj. thích hợp"
+        ]
     },
     {
         "name": "decorate",
-        "trans": ["v. 装饰"]
+        "trans": [
+            "v. trang trí, trang sức"
+        ]
     },
     {
         "name": "appointment",
-        "trans": ["n. 约定"]
+        "trans": [
+            "n. hẹn, cuộc hẹn"
+        ]
     },
     {
         "name": "single",
-        "trans": ["adj. 单一的"]
+        "trans": [
+            "adj. đơn lẻ, chỉ một"
+        ]
     },
     {
         "name": "garage",
-        "trans": ["n. 车库"]
+        "trans": [
+            "n. nhà để xe"
+        ]
     },
     {
         "name": "spare room",
-        "trans": ["n. 空房"]
+        "trans": [
+            "n. phòng trống, nhà trống"
+        ]
     },
     {
         "name": "shade",
-        "trans": ["n. 树荫"]
+        "trans": [
+            "n. bóng cây"
+        ]
     },
     {
         "name": "string",
-        "trans": ["n. 线"]
+        "trans": [
+            "n. sợi, tuyến"
+        ]
     },
     {
         "name": "lettuce",
-        "trans": ["n. 生菜"]
+        "trans": [
+            "n. rau diếp xanh"
+        ]
     },
     {
         "name": "spoon",
-        "trans": ["n. 勺子"]
+        "trans": [
+            "n. muỗng, thìa"
+        ]
     }
 ]

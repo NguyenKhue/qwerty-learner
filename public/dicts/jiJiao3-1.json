@@ -45,7 +45,7 @@
     {
         "name": "teacher",
         "trans": [
-            "n. 教师；导师"
+            "n. giáo viên; thầy; giảng viên"
         ],
         "usphone": "[ˈtiːtʃər]",
         "ukphone": "[ˈtiːtʃə(r)]"
@@ -53,8 +53,8 @@
     {
         "name": "school",
         "trans": [
-            "n. 学校；学院；学派；鱼群",
-            "vt. 教育"
+            "n. trường học; học viện; trường phái; đàn cá",
+            "vt. giáo dục"
         ],
         "usphone": "[skuːl]",
         "ukphone": "[skuːl]"
@@ -62,8 +62,8 @@
     {
         "name": "book",
         "trans": [
-            "n. 书籍；卷；帐簿；名册；工作簿",
-            "vt. 预订；登记"
+            "n. sách; tập; sổ cái; danh sách; sổ bài tập",
+            "vt. đặt chỗ; ghi danh"
         ],
         "usphone": "[bʊk]",
         "ukphone": "[bʊk]"
@@ -71,8 +71,8 @@
     {
         "name": "chair",
         "trans": [
-            "n. 椅子；讲座；（会议的）主席位；大学教授的职位",
-            "vt. 担任（会议的）主席；使…入座；使就任要职"
+            "n. ghế; bài giảng; vị chủ tịch (của cuộc họp); vị trí giáo sư",
+            "vt. làm chủ tịch (của cuộc họp); làm cho ngồi; bổ nhiệm vào chức vụ"
         ],
         "usphone": "[tʃer]",
         "ukphone": "[tʃeə(r)]"
@@ -92,7 +92,7 @@
             "pron. 一个人；任何人",
             "adj. 一的；唯一的",
             "n. 一",
-            "num. 一；一个"
+            "num. một"
         ],
         "usphone": "[wʌn]",
         "ukphone": "[wʌn]"
@@ -100,9 +100,9 @@
     {
         "name": "two",
         "trans": [
-            "num. 二",
-            "n. 两个",
-            "adj. 两个的"
+            "num. hai",
+            "n. hai cái; hai người",
+            "adj. thuộc về hai"
         ],
         "usphone": "[tuː]",
         "ukphone": "[tuː]"
@@ -110,7 +110,7 @@
     {
         "name": "three",
         "trans": [
-            "num. 三",
+            "num. ba",
             "n. 三，三个",
             "adj. 三的，三个的"
         ],
@@ -212,7 +212,7 @@
         "trans": [
             "n. 九，九个",
             "num. 九；九个",
-            "adj. 九的，九个的"
+            "adj. chín, gồm chín cái"
         ],
         "usphone": "[naɪn]",
         "ukphone": "[naɪn]"
@@ -244,8 +244,8 @@
     {
         "name": "red",
         "trans": [
-            "n. 红色，红颜料；赤字",
-            "adj. 红色的；红肿的，充血的"
+            "n. màu đỏ; lỗ",
+            "adj. đỏ; sưng tấy; sung huyết"
         ],
         "usphone": "[red]",
         "ukphone": "[red]"
@@ -253,10 +253,10 @@
     {
         "name": "yellow",
         "trans": [
-            "n. 黄色；黄种人；黄色颜料",
-            "adj. 黄色的；黄皮肤的",
-            "vt. 使变黄或发黄",
-            "vi. 变黄或发黄"
+            "n. màu vàng; người da vàng; sắc tố vàng",
+            "adj. vàng; da vàng",
+            "vt. làm vàng; làm ố vàng",
+            "vi. trở nên vàng; ố vàng"
         ],
         "usphone": "[ˈjeloʊ]",
         "ukphone": "[ˈjeləʊ]"
@@ -264,10 +264,10 @@
     {
         "name": "blue",
         "trans": [
-            "adj. 蓝色的；沮丧的，忧郁的；下流的",
-            "n. 蓝色；[复数]（美国海、陆、空三军穿的）蓝色制服；蓝颜料；[the blue(s)][用作单数或复数]布鲁斯（歌曲）（一种伤感的美国黑人民歌",
-            "vi. 变成蓝色，呈蓝色",
-            "vt. 把…染成蓝色；使成蓝色；给…用上蓝剂；用上蓝剂于"
+            "adj. màu xanh; buồn bã, u buồn; bẩn thỉu, thấp kém",
+            "n. màu xanh; [số nhiều] quân phục xanh của Hải quân, Lục quân, Không quân Mỹ; thuốc nhuộm xanh; [the blue(s)] [dùng số ít hoặc số nhiều] blues (thể loại ca khúc Mỹ da đen mang sẻ buồn",
+            "vi. trở nên xanh, có màu xanh",
+            "vt. nhuộm ... màu xanh; làm cho ... thành màu xanh; dùng thuốc nhuộm xanh cho ...; dùng thuốc nhuộm xanh lên"
         ],
         "usphone": "[bluː]",
         "ukphone": "[bluː]"
@@ -275,10 +275,10 @@
     {
         "name": "green",
         "trans": [
-            "n. 绿色；青春",
-            "adj. 绿色的；青春的",
-            "vt. 使…变绿色",
-            "vi. 变绿色"
+            "n. màu xanh lục; tuổi trẻ",
+            "adj. xanh lục; trẻ trung",
+            "vt. làm cho chuyển sang màu xanh lục",
+            "vi. chuyển sang màu xanh lục"
         ],
         "usphone": "[ɡriːn]",
         "ukphone": "[ɡriːn]"
@@ -286,8 +286,8 @@
     {
         "name": "orange",
         "trans": [
-            "adj. 橙色的；橘色的",
-            "n. 橙；橙色；桔子"
+            "adj. cam; vàng cam",
+            "n. cam; màu cam"
         ],
         "usphone": "[ˈɔrɪndʒ]",
         "ukphone": "[ˈɒrɪndʒ]"
@@ -326,9 +326,9 @@
     {
         "name": "cold",
         "trans": [
-            "n. 寒冷；感冒",
-            "adj. 寒冷的；冷淡的，不热情的；失去知觉的",
-            "adv. 完全地"
+            "n. lạnh giá; cảm lạnh",
+            "adj. lạnh; lạnh lùng; mất ý thức",
+            "adv. hoàn toàn"
         ],
         "usphone": "[kəʊld]",
         "ukphone": "[kəʊld]"
@@ -336,10 +336,10 @@
     {
         "name": "hot",
         "trans": [
-            "adj. 热的；辣的；热情的；激动的；紧迫的",
-            "vt. 增加；给…加温",
-            "adv. 热；紧迫地",
-            "vi. 变热"
+            "adj. nóng; cay; nhiệt tình; phấn khích; cấp bách",
+            "vt. tăng; làm nóng",
+            "adv. nóng bỏng; cấp bách",
+            "vi. trở nên nóng"
         ],
         "usphone": "[hɑːt]",
         "ukphone": "[hɒt]"
@@ -347,8 +347,8 @@
     {
         "name": "tired",
         "trans": [
-            "v. 疲倦；对…腻烦（tire的过去分词形式）",
-            "adj. 疲倦的；厌倦的，厌烦的"
+            "v. Mệt mỏi; chán ngán",
+            "adj. Mệt mỏi; chán chường; buồn"
         ],
         "usphone": "[ˈtaɪərd]",
         "ukphone": "[ˈtaɪəd]"
@@ -372,8 +372,8 @@
     {
         "name": "body",
         "trans": [
-            "n. 身体；主体；大量；团体；主要部分",
-            "vt. 赋以形体"
+            "n. cơ thể; phần chính; lượng lớn; nhóm; phần chủ yếu",
+            "vt. tạo hình; cho có hình thể"
         ],
         "usphone": "[ˈbɑːdi]",
         "ukphone": "[ˈbɒdi]"
@@ -381,8 +381,8 @@
     {
         "name": "hand",
         "trans": [
-            "n. 手，手艺；帮助；指针；插手",
-            "vt. 传递，交给；支持；搀扶"
+            "danh từ: tay; tay nghề; sự giúp đỡ; con trỏ; can thiệp",
+            "động từ ngoại: chuyển; trao; hỗ trợ; giúp"
         ],
         "usphone": "[hænd]",
         "ukphone": "[hænd]"
@@ -390,10 +390,10 @@
     {
         "name": "head",
         "trans": [
-            "n. 头；头痛；上端；最前的部分；理解力",
-            "adj. 头的；主要的；在顶端的",
-            "vt. 前进；用头顶；作为…的首领；站在…的前头；给…加标题",
-            "vi. 出发；成头状物；船驶往"
+            "n. đầu; đau đầu; phía trên; phần đầu tiên; khả năng hiểu biết",
+            "adj. thuộc về đầu; chính, chủ yếu; ở đỉnh",
+            "vt. tiến lên; dùng đầu đẩy; làm đầu ...; đứng đầu ...; đặt tiêu đề cho ...",
+            "vi. xuất phát, rời đi; dồn thành đầu; tàu đi về phía"
         ],
         "usphone": "[hed]",
         "ukphone": "[hed]"
@@ -401,9 +401,9 @@
     {
         "name": "arm",
         "trans": [
-            "n. 手臂；武器；袖子；装备；部门",
-            "vt. 武装；备战",
-            "vi. 武装起来"
+            "n. cánh tay; vũ khí; tay áo; trang bị; bộ phận",
+            "vt. vũ trang; chuẩn bị chiến đấu",
+            "vi. vũ trang"
         ],
         "usphone": "[ɑːrm]",
         "ukphone": "[ɑːm]"
@@ -411,7 +411,7 @@
     {
         "name": "leg",
         "trans": [
-            "n. 腿；支柱"
+            "n. chân; cột"
         ],
         "usphone": "[leɡ]",
         "ukphone": "[leɡ]"
@@ -419,9 +419,9 @@
     {
         "name": "foot",
         "trans": [
-            "n. 脚；英尺；步调；末尾",
-            "vt. 支付；给……换底",
-            "vi. 步行；跳舞；总计"
+            "n. chân; bước; nhịp điệu; cuối cùng",
+            "vt. trả tiền; thay đế giày",
+            "vi. đi bộ; nhảy; tính thành"
         ],
         "usphone": "[fʊt]",
         "ukphone": "[fʊt]"
@@ -429,10 +429,10 @@
     {
         "name": "left",
         "trans": [
-            "adj. 左边的；左派的；剩下的",
-            "adv. 在左面",
-            "n. 左边；左派；激进分子",
-            "v. 离开（leave的过去式）"
+            "adj. bên trái; cánh tả; còn lại",
+            "adv. ở phía bên trái",
+            "n. bên trái; cánh tả; nhân vật cực đoan",
+            "v. rời đi"
         ],
         "usphone": "[left]",
         "ukphone": "[left]"
@@ -440,11 +440,11 @@
     {
         "name": "right",
         "trans": [
-            "n. 正确；右边；正义",
-            "adj. 正确的；直接的；右方的",
-            "vt. 纠正",
-            "adv. 正确地；恰当地；彻底地",
-            "vi. 复正；恢复平稳"
+            "n. điều đúng; bên phải; công lý",
+            "adj. đúng; trực tiếp; bên phải",
+            "vt. sửa chữa",
+            "adv. đúng; thích hợp; hoàn toàn",
+            "vi. khôi phục; ổn định"
         ],
         "usphone": "[raɪt]",
         "ukphone": "[raɪt]"
@@ -463,8 +463,8 @@
     {
         "name": "eye",
         "trans": [
-            "n. 眼睛；视力；眼光；见解，观点",
-            "vt. 注视，看"
+            "n. mắt; thị lực; tầm nhìn; ý kiến; quan điểm",
+            "vt. nhìn chằm chằm; nhìn"
         ],
         "usphone": "[aɪ]",
         "ukphone": "[aɪ]"
@@ -501,9 +501,9 @@
     {
         "name": "face",
         "trans": [
-            "n. 脸；表面；面子；面容；外观；威信",
-            "vi. 向；朝",
-            "vt. 面对；面向；承认；抹盖"
+            "n. mặt; bề mặt; thể diện; diện mạo; vẻ ngoài; uy tín",
+            "vi. hướng về; hướng",
+            "vt. đối mặt; hướng về; thừa nhận; che lấp"
         ],
         "usphone": "[feɪs]",
         "ukphone": "[feɪs]"
@@ -511,10 +511,10 @@
     {
         "name": "warm",
         "trans": [
-            "n. 取暖；加热",
-            "adj. 温暖的；热情的",
-            "vt. 使…兴奋；使…温暖；使…感兴趣",
-            "vi. 同情；激动；变温暖"
+            "n. sưởi ấm; làm nóng",
+            "adj. ấm áp; nhiệt tình",
+            "vt. làm nóng; hâm nóng; gây hứng thú",
+            "vi. thương hại; xúc động; ấm lên"
         ],
         "usphone": "[wɔːrm]",
         "ukphone": "[wɔːm]"
@@ -522,11 +522,11 @@
     {
         "name": "cool",
         "trans": [
-            "n. 凉爽；凉爽的空气",
-            "adj. 凉爽的；冷静的；出色的",
-            "vt. 使…冷却；使…平静下来",
-            "vi. 变凉；平息",
-            "adv. 冷静地"
+            "n. sự mát mẻ; không khí mát",
+            "adj. mát mẻ; bình tĩnh; xuất sắc",
+            "vt. làm mát; làm bình tĩnh",
+            "vi. hạ nhiệt; yên tĩnh",
+            "adv. một cách bình tĩnh"
         ],
         "usphone": "[kuːl]",
         "ukphone": "[kuːl]"
@@ -534,9 +534,9 @@
     {
         "name": "doctor",
         "trans": [
-            "vt. 修理；篡改，伪造；为…治病；授以博士学位",
-            "n. 医生；博士",
-            "vi. 就医；行医"
+            "động từ ngoại. sửa chữa; giả mạo; chữa trị; cấp bằng tiến sĩ",
+            "danh từ. bác sĩ; tiến sĩ",
+            "động từ nội. đi khám bệnh; hành nghề bác sĩ"
         ],
         "usphone": "[ˈdɑːktər]",
         "ukphone": "[ˈdɒktə(r)]"
@@ -552,7 +552,7 @@
         "name": "family",
         "trans": [
             "n. 家庭；亲属；家族；子女；[生]科；语族；[化]族",
-            "adj. 家庭的；家族的；适合于全家的"
+            "adj. gia đình; gia tộc; phù hợp với toàn bộ gia đình"
         ],
         "usphone": "[ˈfæməli]",
         "ukphone": "[ˈfæməli]"
@@ -569,9 +569,9 @@
     {
         "name": "mother",
         "trans": [
-            "n. 母亲；大娘；女修道院院长",
-            "vt. 生下；养育；像母亲般关怀或照管",
-            "adj. 母亲的；出生地的"
+            "n. mẹ; phụ nữ; nữ trưởng tu viện",
+            "vt. sinh ra; nuôi dưỡng; chăm sóc như mẹ",
+            "adj. của mẹ; quê hương"
         ],
         "usphone": "[ˈmʌðər]",
         "ukphone": "[ˈmʌðə(r)]"
@@ -588,8 +588,8 @@
     {
         "name": "sister",
         "trans": [
-            "n. 姐妹；（称志同道合者）姐妹；修女；护士",
-            "adj. 姐妹般的；同类型的"
+            "n. chị em; tu sĩ nữ; y tá",
+            "adj. như chị em; cùng loại"
         ],
         "usphone": "[ˈsɪstər]",
         "ukphone": "[ˈsɪstə(r)]"
@@ -608,9 +608,9 @@
     {
         "name": "short",
         "trans": [
-            "n. 短；缺乏；短路；短裤",
-            "adj. 短的；不足的；矮的，低的",
-            "adv. 不足；突然；唐突地"
+            "n. ngắn; thiếu; đoản mạch; quần ngắn",
+            "adj. ngắn; không đủ; thấp",
+            "adv. không đủ; đột ngột"
         ],
         "usphone": "[ʃɔːrt]",
         "ukphone": "[ʃɔːt]"
@@ -635,8 +635,8 @@
     {
         "name": "bus",
         "trans": [
-            "n. 公共汽车",
-            "乘公共汽车"
+            "danh từ: xe buýt",
+            "đi xe buýt"
         ],
         "usphone": "[bʌs]",
         "ukphone": "[bʌs]"
@@ -644,7 +644,7 @@
     {
         "name": "driver",
         "trans": [
-            "n. 驾驶员；驱动程序；起子；传动器"
+            "n. tài xế; chương trình điều khiển; tuốc nơ vít; bộ truyền động"
         ],
         "usphone": "[ˈdraɪvər]",
         "ukphone": "[ˈdraɪvə(r)]"
@@ -652,7 +652,7 @@
     {
         "name": "worker",
         "trans": [
-            "n. 工人；劳动者；职蚁"
+            "n. Công nhân; lao động; kiến công"
         ],
         "usphone": "[ˈwɜːrkər]",
         "ukphone": "[ˈwɜːkə(r)]"
@@ -669,8 +669,8 @@
     {
         "name": "young",
         "trans": [
-            "n. 年轻人；（动物的）崽，仔",
-            "adj. 年轻的；初期的；没有经验的"
+            "n. người trẻ; (động vật) con non",
+            "adj. trẻ; giai đoạn đầu; thiếu kinh nghiệm"
         ],
         "usphone": "[jʌŋ]",
         "ukphone": "[jʌŋ]"
@@ -678,7 +678,7 @@
     {
         "name": "birthday",
         "trans": [
-            "n. 生日，诞辰；诞生的日子"
+            "n. sinh nhật; ngày sinh"
         ],
         "usphone": "[ˈbɜːrθdeɪ]",
         "ukphone": "[ˈbɜːθdeɪ]"

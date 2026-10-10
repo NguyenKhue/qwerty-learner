@@ -2,163 +2,163 @@
     {
         "name": "screensize",
         "trans": [
-            "设置画布大小及颜色"
+            "v. đặt kích thước và màu sắc của canvas"
         ]
     },
     {
         "name": "setup",
         "trans": [
-            "设置窗口大小和位置"
+            "v. đặt kích thước và vị trí của cửa sổ"
         ]
     },
     {
         "name": "forward",
         "trans": [
-            "向当前画笔方向移动dist像素长，简化为fd(dist)"
+            "v. di chuyển dist pixel theo hướng bút hiện tại"
         ]
     },
     {
         "name": "backward",
         "trans": [
-            "向当前画笔相反方向移动dist像素长度，简化为bk(dist)"
+            "v. di chuyển dist pixel theo hướng ngược lại của bút"
         ]
     },
     {
         "name": "right",
         "trans": [
-            "顺时针转动degree°"
+            "v. xoay theo chiều kim đồng hồ degree°"
         ]
     },
     {
         "name": "left",
         "trans": [
-            "逆时针转动degree°"
+            "v. xoay ngược chiều kim đồng hồ degree°"
         ]
     },
     {
         "name": "circle",
         "trans": [
-            "逆时针画半径为r整圆"
+            "Vẽ hình tròn hoàn chỉnh bán kính r theo chiều ngược kim đồng hồ"
         ]
     },
     {
         "name": "dot",
         "trans": [
-            "按给定直径画圆点"
+            "Vẽ các chấm tròn theo đường kính được chỉ định"
         ]
     },
     {
         "name": "speed",
         "trans": [
-            "画笔绘制的速度，s为0-10的整数(1-10越来越快,0表示最快)"
+            "Tốc độ vẽ của bút; s là số nguyên 0-10 (1-10 càng nhanh; 0 là nhanh nhất)"
         ]
     },
     {
         "name": "pendown",
         "trans": [
-            "移动时绘制图形，缺省时也为绘制，简化为down()"
+            "Vẽ hình khi di chuyển; mặc định cũng là vẽ; đơn giản hóa thành down()"
         ]
     },
     {
         "name": "penup",
         "trans": [
-            "移动时不绘制图形，提起笔，用于另起一个地方绘制时用，简化为up()"
+            "Không vẽ hình khi di chuyển; nâng bút; dùng khi bắt đầu vẽ ở vị trí khác; đơn giản hóa thành up()"
         ]
     },
     {
         "name": "goto",
         "trans": [
-            "将画笔移动到坐标为x,y的位置"
+            "Di chuyển bút đến vị trí có tọa độ x, y"
         ]
     },
     {
         "name": "setx",
         "trans": [
-            "将当前x轴移动到指定位置"
+            "Di chuyển trục x hiện tại đến vị trí được chỉ định"
         ]
     },
     {
         "name": "sety",
         "trans": [
-            "将当前y轴移动到指定位置"
+            "Di chuyển trục y hiện tại đến vị trí được chỉ định"
         ]
     },
     {
         "name": "setheading",
         "trans": [
-            "设置当前朝向为angle角度，简化为seth(angle)"
+            "Đặt hướng hiện tại thành angle độ; đơn giản hóa thành seth(angle)"
         ]
     },
     {
         "name": "home",
         "trans": [
-            "设置当前画笔位置为原点(0,0)，并恢复默认朝向为向东(0)"
+            "Đặt vị trí bút thành gốc (0,0) và khôi phục hướng mặc định về phía đông (0)"
         ]
     },
     {
         "name": "pensize",
         "trans": [
-            "绘制图形时的画笔宽度"
+            "Chiều rộng bút khi vẽ hình"
         ]
     },
     {
         "name": "pencolor",
         "trans": [
-            "画笔颜色"
+            "Màu bút"
         ]
     },
     {
         "name": "shape",
         "trans": [
-            "画笔外观形状，可选classic/arrow/turtle/circle/square/triangle"
+            "Hình dạng ngoại hình bút; tùy chọn classic; arrow; turtle; circle; square; triangle"
         ]
     },
     {
         "name": "fillcolor",
         "trans": [
-            "图形的填充颜色"
+            "Màu tô của hình"
         ]
     },
     {
         "name": "color",
         "trans": [
-            "同时设置pencolor=c1, fillcolor=c2"
+            "Đặt pencolor=c1 và fillcolor=c2 cùng lúc"
         ]
     },
     {
         "name": "begin_fill",
         "trans": [
-            "准备开始填充图形"
+            "Chuẩn bị bắt đầu tô hình"
         ]
     },
     {
         "name": "end_fill",
         "trans": [
-            "填充完成"
+            "Hoàn thành tô"
         ]
     },
     {
         "name": "hideturtle",
         "trans": [
-            "隐藏箭头显示，简化为ht()"
+            "Ẩn hiển thị mũi tên; đơn giản hóa thành ht()"
         ]
     },
     {
         "name": "showturtle",
         "trans": [
-            "与hideturtle()函数对应，简化为st()"
+            "Tương ứng với hàm hideturtle(); đơn giản hóa thành st()"
         ]
     },
     {
         "name": "clear",
         "trans": [
-            "清空turtle窗口，但是turtle的位置和状态不会改变"
+            "Xóa cửa sổ turtle nhưng vị trí và trạng thái turtle không thay đổi"
         ]
     },
     {
         "name": "reset",
         "trans": [
-            "清空窗口，重置turtle状态为起始状态"
+            "Xóa cửa sổ; đặt lại trạng thái turtle thành trạng thái ban đầu"
         ]
     }
 ]

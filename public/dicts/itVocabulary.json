@@ -42,7 +42,7 @@
     {
         "name": "if",
         "trans": [
-            "conj.如果"
+            "conj. nếu"
         ],
         "usphone": "ɪf",
         "ukphone": "ɪf"
@@ -105,7 +105,7 @@
     {
         "name": "format",
         "trans": [
-            "n.格式"
+            "n. định dạng; khuôn dạng"
         ],
         "usphone": "ˈfɔrmæt",
         "ukphone": "'fɔːrmæt"
@@ -169,7 +169,7 @@
     {
         "name": "current",
         "trans": [
-            "n.电流"
+            "n. dòng điện"
         ],
         "usphone": "ˈkɜrənt",
         "ukphone": "'kɜːrənt"
@@ -201,7 +201,7 @@
     {
         "name": "move",
         "trans": [
-            "v.移动"
+            "v. di chuyển"
         ],
         "usphone": "muv",
         "ukphone": "muːv"
@@ -392,7 +392,7 @@
     {
         "name": "select",
         "trans": [
-            "vt.选择"
+            "vt. chọn, lựa chọn"
         ],
         "usphone": "sɪˈlɛkt",
         "ukphone": "sɪ'lekt"
@@ -646,7 +646,7 @@
     {
         "name": "selection",
         "trans": [
-            "n.选择"
+            "n. sự lựa chọn"
         ],
         "usphone": "sɪˈlɛkʃən",
         "ukphone": "sɪ'lekʃn"
@@ -1736,7 +1736,7 @@
     {
         "name": "environment",
         "trans": [
-            "n.环境"
+            "n. môi trường"
         ],
         "usphone": "ɛnˈvaɪrənmənt, -ˈvaɪən-",
         "ukphone": "ɪnˈvaɪrənmənt"
@@ -2048,7 +2048,7 @@
     {
         "name": "history",
         "trans": [
-            "n.历史"
+            "n. lịch sử"
         ],
         "usphone": "ˈhɪstəri",
         "ukphone": "'hɪst(ə)rɪ"
@@ -2095,7 +2095,7 @@
     {
         "name": "install",
         "trans": [
-            "vt.安装"
+            "vt. lắp đặt"
         ],
         "usphone": "ɪnˈstɔl",
         "ukphone": "ɪn'stɔːl"
@@ -2182,7 +2182,7 @@
     {
         "name": "application",
         "trans": [
-            "n.应用"
+            "n. ứng dụng; sự áp dụng"
         ],
         "usphone": "ˌæplɪˈkeʃən",
         "ukphone": "ˌæplɪ'keɪʃn"
@@ -2206,7 +2206,7 @@
     {
         "name": "hold",
         "trans": [
-            "v.保持"
+            "v. giữ, duy trì"
         ],
         "usphone": "hoʊld",
         "ukphone": "həʊld"
@@ -2737,7 +2737,7 @@
     {
         "name": "math",
         "trans": [
-            "n.数学"
+            "n. toán học, môn toán"
         ],
         "usphone": "mæθ",
         "ukphone": "mæθ"
@@ -3344,7 +3344,7 @@
     {
         "name": "during",
         "trans": [
-            "prep.在…期间"
+            "prep. trong suốt..., trong khoảng..."
         ],
         "usphone": "ˈdʊrɪŋ",
         "ukphone": "'djʊərɪŋ"
@@ -3573,7 +3573,7 @@
     {
         "name": "result",
         "trans": [
-            "n.结果"
+            "n. kết quả"
         ],
         "usphone": "rɪˈzʌlt",
         "ukphone": "rɪ'zʌlt"
@@ -3891,7 +3891,7 @@
     {
         "name": "exact",
         "trans": [
-            "a.正确的"
+            "a. đúng, chính xác"
         ],
         "usphone": "ɪɡˈzækt",
         "ukphone": "ɪg'zækt; eg-"
@@ -5483,7 +5483,7 @@
     {
         "name": "connect",
         "trans": [
-            "v.连接"
+            "v. kết nối, nối"
         ],
         "usphone": "kəˈnɛkt",
         "ukphone": "kə'nekt"
@@ -6167,7 +6167,7 @@
     {
         "name": "dot",
         "trans": [
-            "n.点"
+            "n. dấu chấm"
         ],
         "usphone": "dɑt",
         "ukphone": "dɑːt"
@@ -6207,7 +6207,7 @@
     {
         "name": "heading",
         "trans": [
-            "n.标题"
+            "n. tiêu đề"
         ],
         "usphone": "ˈhɛdɪŋ",
         "ukphone": "'hedɪŋ"
@@ -6594,7 +6594,7 @@
     {
         "name": "relative",
         "trans": [
-            "a.相对的"
+            "a. tương đối, đối lập"
         ],
         "usphone": "ˈrɛlətɪv",
         "ukphone": "'relətɪv"
@@ -6999,7 +6999,7 @@
     {
         "name": "prefix",
         "trans": [
-            "n.前缀"
+            "n. tiền tố"
         ],
         "usphone": "ˈpriˌfɪks",
         "ukphone": "'priːfɪks"
@@ -7260,7 +7260,7 @@
     {
         "name": "question",
         "trans": [
-            "n.问题"
+            "n. vấn đề, câu hỏi"
         ],
         "usphone": "ˈkwɛstʃən",
         "ukphone": "'kwestʃ(ə)n"
@@ -7292,7 +7292,7 @@
     {
         "name": "middle",
         "trans": [
-            "a.中间的"
+            "adj. ở giữa, trung gian"
         ],
         "usphone": "ˈmidl",
         "ukphone": "'mɪd(ə)l"
@@ -7667,7 +7667,7 @@
     {
         "name": "nor",
         "trans": [
-            "conj.也不"
+            "conj. cũng không"
         ],
         "usphone": "nɔr",
         "ukphone": "nɔː; nə"
@@ -7880,7 +7880,7 @@
     {
         "name": "protect",
         "trans": [
-            "vt.保护"
+            "vt. bảo vệ"
         ],
         "usphone": "prəˈtɛkt",
         "ukphone": "prə'tekt"
@@ -7992,7 +7992,7 @@
     {
         "name": "apple",
         "trans": [
-            "n.苹果"
+            "n. quả táo"
         ],
         "usphone": "ˈæpəl",
         "ukphone": "'æp(ə)l"
@@ -9276,7 +9276,7 @@
     {
         "name": "prepare",
         "trans": [
-            "v.准备"
+            "v. chuẩn bị"
         ],
         "usphone": "prɪˈper",
         "ukphone": "prɪ'peə"
@@ -9403,7 +9403,7 @@
     {
         "name": "lightning",
         "trans": [
-            "n.闪电"
+            "n. tia chớp, tia sét"
         ],
         "usphone": "ˈlaɪtnɪŋ",
         "ukphone": "'laɪtnɪŋ"
@@ -9936,7 +9936,7 @@
     {
         "name": "height",
         "trans": [
-            "n.高度"
+            "n. chiều cao, độ cao"
         ],
         "usphone": "haɪt",
         "ukphone": "haɪt"
@@ -9983,7 +9983,7 @@
     {
         "name": "external",
         "trans": [
-            "a.外部的"
+            "a. bên ngoài, thuộc phía ngoài"
         ],
         "usphone": "ɪkˈstɜrnl",
         "ukphone": "ɪk'stɜːrnl"
@@ -10141,7 +10141,7 @@
     {
         "name": "incorrect",
         "trans": [
-            "a.错误的，不正确的"
+            "a. sai, không đúng"
         ],
         "usphone": "ˌɪnkəˈrɛkt",
         "ukphone": "ɪnkə'rekt"
@@ -10164,7 +10164,7 @@
     {
         "name": "simple",
         "trans": [
-            "a.简单的"
+            "a. đơn giản, giản dị"
         ],
         "usphone": "ˈsɪmpəl",
         "ukphone": "'sɪmp(ə)l"
@@ -10203,7 +10203,7 @@
     {
         "name": "noted",
         "trans": [
-            "a.著名的"
+            "a. nổi tiếng, danh tiếng"
         ],
         "usphone": "ˈnoʊtɪd",
         "ukphone": "'noutɪd"
@@ -10532,7 +10532,7 @@
     {
         "name": "glass",
         "trans": [
-            "n.玻璃"
+            "n. kính"
         ],
         "usphone": "glæs",
         "ukphone": "glɑːs"
@@ -10540,7 +10540,7 @@
     {
         "name": "pattern",
         "trans": [
-            "n.模式"
+            "n. mô hình; kiểu"
         ],
         "usphone": "ˈpætərn",
         "ukphone": "'pætərn"
@@ -10730,7 +10730,7 @@
     {
         "name": "habit",
         "trans": [
-            "n.习惯"
+            "n. thói quen"
         ],
         "usphone": "ˈhæbɪt",
         "ukphone": "'hæbɪt"
@@ -11055,7 +11055,7 @@
     {
         "name": "prefer",
         "trans": [
-            "vt.更喜欢，宁愿"
+            "vt. thích hơn, thà"
         ],
         "usphone": "prɪˈfɚ",
         "ukphone": "prɪ'fɜː"
@@ -11649,7 +11649,7 @@
     {
         "name": "possibility",
         "trans": [
-            "n.可能性"
+            "n. khả năng; tính khả thi"
         ],
         "usphone": "ˌpɑsəˈbɪləti",
         "ukphone": ",pɒsɪ'bɪlɪtɪ"
@@ -11812,7 +11812,7 @@
     {
         "name": "indefinitely",
         "trans": [
-            "ad.无限地，无穷地"
+            "ad. vô hạn, vô tận, không bờ"
         ],
         "usphone": "ɪnˈdefɪnətli",
         "ukphone": "ɪn'defɪnɪtlɪ"
@@ -11820,7 +11820,7 @@
     {
         "name": "major",
         "trans": [
-            "a.较大的，主要的"
+            "adj. lớn hơn, chính, chủ yếu"
         ],
         "usphone": "ˈmedʒɚ",
         "ukphone": "'meɪdʒər"
@@ -11828,7 +11828,7 @@
     {
         "name": "wise",
         "trans": [
-            "a.聪明的"
+            "a. thông minh, khôn lỏi, sắc bén"
         ],
         "usphone": "waɪz",
         "ukphone": "waɪz"
@@ -11867,7 +11867,7 @@
     {
         "name": "disappear",
         "trans": [
-            "vi.消失"
+            "vi. biến mất, thoát đi"
         ],
         "usphone": "ˌdɪsəˈpɪr",
         "ukphone": "dɪsə'pɪə"
@@ -12336,7 +12336,7 @@
     {
         "name": "price",
         "trans": [
-            "n.价格"
+            "n. giá, giá cả"
         ],
         "usphone": "praɪs",
         "ukphone": "praɪs"
@@ -12528,7 +12528,7 @@
     {
         "name": "interpret",
         "trans": [
-            "v.解释"
+            "v. giải thích"
         ],
         "usphone": "ɪnˈtɜrprɪt",
         "ukphone": "ɪn'tɜːrprɪt"
@@ -12560,7 +12560,7 @@
     {
         "name": "cad",
         "trans": [
-            "计算机辅助设计"
+            "thiết kế hỗ trợ máy tính"
         ],
         "usphone": "kæd",
         "ukphone": "kæd"
@@ -12615,7 +12615,7 @@
     {
         "name": "clean",
         "trans": [
-            "a.清洁的，干净的"
+            "a. sạch sẽ, gọn gàng"
         ],
         "usphone": "klin",
         "ukphone": "kliːn"
@@ -12916,7 +12916,7 @@
     {
         "name": "stream",
         "trans": [
-            "n.流"
+            "n. dòng chảy, luồng"
         ],
         "usphone": "strim",
         "ukphone": "striːm"
@@ -13042,7 +13042,7 @@
     {
         "name": "national",
         "trans": [
-            "a.国家的"
+            "a. của quốc gia, thuộc nhà nước"
         ],
         "usphone": "ˈnæʃənəl, ˈnæʃnəl",
         "ukphone": "'næʃ(ə)n(ə)l"

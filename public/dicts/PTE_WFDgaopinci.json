@@ -80,7 +80,7 @@
             "prep. （表示对象、用途等）给，对；为了，以帮助；为了 （表示目的、用途）；（表示感情的对象）对于；代表；受雇于；意思是，表示；支持，拥护；因为，由于；为得到，为获取；换取；就……而言；对（某人）来说；……后（更好、更快乐等）；（表示去向）往，向；（用来表示时间或距离）达，计；（安排或预定）在……时；为 （某场合或时间）；由……负责；要不是；想要；取（某人的）名；表名单或系列中的某些部分；表数字或数量间的联系；表一顿饭中的食物",
             "abbr. 外国（foreign）；林业（forestry）",
             "adv. 支持地",
-            "conj. 因为，由于"
+            "conj. bởi vì, do"
         ],
         "ukphone": "[fɔː(r); fə(r)]",
         "usphone": "[fɔːr; fər]"
@@ -212,7 +212,7 @@
     {
         "name": "you",
         "trans": [
-            "pron. 你；你们",
+            "pron. bạn; các bạn",
             "n. （You）人名；（柬）尤；（东南亚国家华语）猷"
         ],
         "ukphone": "[juː; jʊ]",
@@ -594,7 +594,7 @@
     {
         "name": "student",
         "trans": [
-            "n. 学生；学者",
+            "n. học sinh; nhà học giả",
             "n. （Student）人名；（德）施图登特"
         ],
         "ukphone": "[ˈstjuːd(ə)nt]",
@@ -839,7 +839,7 @@
             "adj. 现在的；<非正式>流行的，时髦的",
             "conj. 由于，既然",
             "adv. 现在，此刻；马上，立刻；（用于引起注意或用于转换话题）好了；到现在为止，迄今；这样一来；（用于婉转地强调请求或命令）好了；你要知道（用于信息承上启下）；然而；用于叙述过去的事当时，那时；现在到了这个地步；嗯（在决定下面说什么时的停顿用语）；（用于讽刺性反问的结尾）哦；<文>时而",
-            "n. 现在，此刻"
+            "n. hiện tại, lúc này"
         ],
         "ukphone": "[naʊ]",
         "usphone": "[naʊ]"
@@ -891,7 +891,7 @@
     {
         "name": "educational",
         "trans": [
-            "adj. 教育的；有教育意义的"
+            "adj. giáo dục; có ý nghĩa giáo dục"
         ],
         "ukphone": "[ˌedʒuˈkeɪʃən(ə)l]",
         "usphone": "[ˌedʒuˈkeɪʃən(ə)l]"
@@ -1006,7 +1006,7 @@
     {
         "name": "theater",
         "trans": [
-            "n. 电影院，戏院，剧场；戏剧；手术室"
+            "n. rạp chiếu phim, nhà hát, sân khấu; kịch; phòng mổ"
         ],
         "ukphone": "[ˈθɪətə(r)]",
         "usphone": "[ˈθiːətər]"
@@ -1192,10 +1192,10 @@
     {
         "name": "wide",
         "trans": [
-            "adv. 广泛地；广阔地；充分地",
+            "adv. rộng rãi; rộng mở; đầy đủ",
             "n. （Wide）人名；（瑞典、芬）维德",
-            "adj. 广泛的；宽的，广阔的；张大的；远离目标的",
-            "n. 大千世界"
+            "adj. rộng; rộng rãi, rộng mở; đang mở; xa mục tiêu",
+            "n. thế giới rộng lớn"
         ],
         "ukphone": "[waɪd]",
         "usphone": "[waɪd]"
@@ -1485,7 +1485,7 @@
     {
         "name": "mathematics",
         "trans": [
-            "n. 数学；数学运算"
+            "n. toán học; phép toán học"
         ],
         "ukphone": "[ˌmæθəˈmætɪks]",
         "usphone": "[ˌmæθəˈmætɪks]"
@@ -1493,7 +1493,7 @@
     {
         "name": "undergraduates",
         "trans": [
-            "n. 本科生，大学生"
+            "n. sinh viên đại học"
         ],
         "ukphone": null,
         "usphone": "[ˌʌndərˈɡrædʒʊɪt]"
@@ -1564,7 +1564,7 @@
         "name": "human",
         "trans": [
             "adj. 人的，人类的；（尤指缺点或弱点）显示人的本性的；有人情味的",
-            "n. 人，人类",
+            "n. con người, nhân loại",
             "【名】 （Human）（英）休曼（人名）"
         ],
         "ukphone": "[ˈhjuːmən]",
@@ -1688,7 +1688,7 @@
     {
         "name": "statistical",
         "trans": [
-            "adj. 统计的，统计学的"
+            "adj. mang tính thống kê, thuộc thống kê học"
         ],
         "ukphone": "[stəˈtɪstɪk(ə)l]",
         "usphone": "[stəˈtɪstɪk(ə)l]"
@@ -1892,7 +1892,7 @@
     {
         "name": "follow",
         "trans": [
-            "n. 跟随，追随",
+            "n. việc đi theo, sự theo sau",
             "v. 跟着，跟随；跟踪；（时间或顺序）在……后；循着，沿着（道路等）；沿着……伸延；遵循，听从；仿效，追随；理解，明白；可以推断；注视，密切关注；信奉，信仰；（电影、书等）呈现，描述；从事（行业、职业）"
         ],
         "ukphone": "[ˈfɒləʊ]",
@@ -2159,7 +2159,7 @@
     {
         "name": "further",
         "trans": [
-            "v. 促进，推进",
+            "v. thúc đẩy, xúc tiến",
             "adj. 更多的，进一步的；（距离上）更远的，较远的",
             "adv. 更远地，再往前地；进一步；此外，而且"
         ],
@@ -2513,7 +2513,7 @@
         "name": "camera",
         "trans": [
             "n. （Camera）人名；（英、意、西）卡梅拉",
-            "n. 照相机；摄影机"
+            "n. máy ảnh; máy quay phim"
         ],
         "ukphone": "[ˈkæm(ə)rə]",
         "usphone": "[ˈkæm(ə)rə]"
@@ -2658,7 +2658,7 @@
         "name": "evidence",
         "trans": [
             "n. 根据，证明；（呈上法庭的）证据，证词；迹象，痕迹",
-            "v. 证实，证明"
+            "v. xác nhận, chứng minh"
         ],
         "ukphone": "[ˈevɪdəns]",
         "usphone": "[ˈevɪdəns]"
@@ -2999,7 +2999,7 @@
     {
         "name": "morning",
         "trans": [
-            "n. 早晨；黎明；初期"
+            "n. sáng sớm; bình minh"
         ],
         "ukphone": "[ˈmɔːnɪŋ]",
         "usphone": "[ˈmɔːrnɪŋ]"
@@ -3117,7 +3117,7 @@
     {
         "name": "third",
         "trans": [
-            "adj. 第三的；三分之一的",
+            "adj. thứ ba; một phần ba",
             "num. 第三；三分之一；（机动车变速器的）第三档；（音乐）三度音",
             "adv. 第三（点）",
             "n. 三分之一；三等学位（英国大学中低于平均水平的学位）"
@@ -3290,9 +3290,9 @@
     {
         "name": "two",
         "trans": [
-            "n. 两个",
-            "num. 二",
-            "adj. 两个的"
+            "n. hai cái; hai người",
+            "num. hai",
+            "adj. thuộc về hai"
         ],
         "ukphone": "[tuː]",
         "usphone": "[tuː]"
@@ -3412,7 +3412,7 @@
         "name": "scholarships",
         "trans": [
             "学问成就",
-            "n. 奖学金"
+            "n. học bổng"
         ],
         "ukphone": null,
         "usphone": "[ˈskɑːlərʃɪps]"
@@ -3459,7 +3459,7 @@
     {
         "name": "maps",
         "trans": [
-            "abbr. 管理分析与规划系统（Management Analysis and Planning System）"
+            "abbr. Hệ thống Phân tích và Lập kế hoạch Quản lý (Management Analysis and Planning System)"
         ],
         "ukphone": "[mæps]",
         "usphone": "[mæps]"
@@ -3484,7 +3484,7 @@
     {
         "name": "classroom",
         "trans": [
-            "n. 教室"
+            "n. lớp học"
         ],
         "ukphone": "[ˈklɑːsruːm]",
         "usphone": "[ˈklæsruːm]"
@@ -3680,7 +3680,7 @@
         "name": "my",
         "trans": [
             "int. 哎呀（表示惊奇等）；喔唷",
-            "pron. 我的",
+            "pron. của tôi, của ta",
             "n. （My）人名；（越）美；（老、柬）米"
         ],
         "ukphone": "[maɪ]",
@@ -3948,7 +3948,7 @@
     {
         "name": "exempt",
         "trans": [
-            "v. 免除，豁免",
+            "v. miễn trừ, tha",
             "adj. 被免除……的，获豁免的",
             "n. 被免除（义务或责任）的人（尤指被免税者）"
         ],
@@ -4107,7 +4107,7 @@
         "trans": [
             "【名】 （Bar）（德、法、俄、罗、捷、波、葡、以、阿拉伯）巴尔（人名）",
             "n. 酒吧；吧台；小吃店；块，棒；（金属）条，栏杆；球门横梁；障碍；小节；条纹，带；功能条；律师职业；（法庭中的）围栏，被告席；电热棒；沙洲，暗礁；军阶杠；巴（气压单位）",
-            "prep. 除……外",
+            "prep. ngoại trừ…",
             "v. 封，堵；阻挡，拦住；阻止，禁止；做条纹标记"
         ],
         "ukphone": "[bɑː(r)]",
@@ -4260,7 +4260,7 @@
     {
         "name": "enrollment",
         "trans": [
-            "n. 登记；入伍"
+            "n. sự đăng ký; nhập ngũ"
         ],
         "ukphone": "[ɪnˈrəʊlmənt]",
         "usphone": "[ɪnˈroʊlmənt]"
@@ -4285,7 +4285,7 @@
     {
         "name": "microscope",
         "trans": [
-            "n. 显微镜"
+            "n. kính hiển vi"
         ],
         "ukphone": "[ˈmaɪkrəskəʊp]",
         "usphone": "[ˈmaɪkrəskoʊp]"
@@ -4329,7 +4329,7 @@
         "trans": [
             "v. 旅行（travel 的现在分词）",
             "n. 走步（等于 walking）",
-            "adj. 旅行（用）的；移动的"
+            "adj. du lịch; di động"
         ],
         "ukphone": "[ˈtræv(ə)lɪŋ]",
         "usphone": "[ˈtrævlɪŋ]"
@@ -4437,9 +4437,9 @@
         "name": "encourages",
         "trans": [
             "受到鼓舞的",
-            "鼓励",
-            "鼓舞",
-            "激励"
+            "v. khuyến khích; động viên",
+            "cổ vũ",
+            "động viên; truyền cảm hứng"
         ],
         "ukphone": null,
         "usphone": null
@@ -4570,7 +4570,7 @@
     {
         "name": "collaborate",
         "trans": [
-            "v. 合作，协作；勾结，通敌"
+            "v. hợp tác, cộng tác; thông đồng, phản bội"
         ],
         "ukphone": "[kəˈlæbəreɪt]",
         "usphone": "[kəˈlæbəreɪt]"
@@ -4587,8 +4587,8 @@
     {
         "name": "wildlife",
         "trans": [
-            "n. 野生动植物",
-            "adj. 野生动植物的"
+            "n. động vật hoang dã",
+            "adj. thuộc động vật hoang dã"
         ],
         "ukphone": "[ˈwaɪldlaɪf]",
         "usphone": "[ˈwaɪldlaɪf]"
@@ -4709,7 +4709,7 @@
     {
         "name": "hydrogen",
         "trans": [
-            "n. 氢，氢气"
+            "n. hiđro, khí hiđro"
         ],
         "ukphone": "[ˈhaɪdrədʒən]",
         "usphone": "[ˈhaɪdrədʒən]"
@@ -4833,7 +4833,7 @@
     {
         "name": "sometimes",
         "trans": [
-            "adv. 有时，间或"
+            "adv. thỉnh thoảng, đôi khi"
         ],
         "ukphone": "[ˈsʌmtaɪmz]",
         "usphone": "[ˈsʌmtaɪmz]"
@@ -5014,7 +5014,7 @@
         "trans": [
             "n. （His）（法）伊斯（人名）",
             "det. 他的；它的（指雄性动物）",
-            "pron. 他的"
+            "pron. của anh ấy"
         ],
         "ukphone": "[hɪz; ɪz]",
         "usphone": "[hɪz; ɪz]"
@@ -5268,7 +5268,7 @@
         "name": "sales",
         "trans": [
             "n. （Sales）人名；（意、西、葡）萨莱斯；（法）萨勒；（英）塞尔斯",
-            "adj. 销售的，售货的；有关销售的",
+            "adj. bán hàng; bán lẻ",
             "n. 销售（sale 的复数）；销售额"
         ],
         "ukphone": "[ˈseɪlz]",
@@ -5391,8 +5391,8 @@
     {
         "name": "roman",
         "trans": [
-            "adj. 罗马的；罗马人的",
-            "n. 罗马人；古罗马语"
+            "adj. của La Mã; của người La Mã",
+            "n. người La Mã; tiếng La Tinh cổ đại"
         ],
         "ukphone": "[ˈrəʊmən]",
         "usphone": "[ˈroʊmən]"
@@ -5400,7 +5400,7 @@
     {
         "name": "republic",
         "trans": [
-            "n. 共和国，共和政体"
+            "n. cộng hòa, chế độ cộng hòa"
         ],
         "ukphone": "[rɪˈpʌblɪk]",
         "usphone": "[rɪˈpʌblɪk]"
@@ -5491,7 +5491,7 @@
         "name": "researching",
         "trans": [
             "研究员",
-            "研究"
+            "nghiên cứu"
         ],
         "ukphone": null,
         "usphone": null
@@ -5644,7 +5644,7 @@
     {
         "name": "antibiotics",
         "trans": [
-            "n. [药] 抗生素；抗生学"
+            "n. kháng sinh; học về kháng sinh"
         ],
         "ukphone": "[ˌæntibaɪˈɒtɪks]",
         "usphone": "[ˌæntibaɪˈɑːtɪks]"
@@ -5652,7 +5652,7 @@
     {
         "name": "archeologist",
         "trans": [
-            "n. 考古学家"
+            "n. nhà khảo cổ học"
         ],
         "ukphone": "[ˌɑːkɪˈɒlədʒɪst]",
         "usphone": "[ˌɑːrkiˈɑːlədʒɪst]"
@@ -5809,7 +5809,7 @@
         "trans": [
             "v. （休闲场所、活动）以……主题",
             "n. （谈话、书籍、电影等的）题目，主题；（音乐的）主旋律；（电影、电视节目、广播节目的）主题音乐，主题曲；（学生的）作文；（聚会、房间等的）风格；（句子的）主位；（名词、动词等的）词干；<史>（拜占庭帝国的）行政区",
-            "adj. 以奇想主题布置的"
+            "adj. được trang trí theo chủ đề tưởng tượng"
         ],
         "ukphone": "[θiːm]",
         "usphone": "[θiːm]"
@@ -5953,8 +5953,8 @@
         "trans": [
             "v. 考虑，斟酌；认为，视为；体贴，顾及（consider 的现在分词形式）",
             "adv. <非正式>从各方面考虑，通盘考虑",
-            "conj. 考虑到，鉴于",
-            "prep. 考虑到，鉴于"
+            "conj. xét đến, do",
+            "prep. xét đến, do"
         ],
         "ukphone": "[kənˈsɪdərɪŋ]",
         "usphone": "[kənˈsɪdərɪŋ]"
@@ -6014,7 +6014,7 @@
     {
         "name": "weather",
         "trans": [
-            "adj. 露天的；迎风的",
+            "adj. ngoài trời, hở; hướng ra gió",
             "n. 天气，气象；恶劣天气（指寒冷、潮湿等），自然力；气象预报；处境；气候",
             "【名】 （Weather）（英）韦瑟（人名）",
             "v. （受风吹雨打而）（使）褪色，（使）风化；平安度过（困境）；（船）航行到（海角）的上风，安全绕过（海角）；使（板，瓦片）交搭向下倾斜以挡雨；让（鹰）在露天栖息一段时间"
@@ -6088,7 +6088,7 @@
     {
         "name": "Thursday",
         "trans": [
-            "n. 星期四"
+            "n. thứ năm"
         ],
         "ukphone": "[ˈθɜːzdeɪ]",
         "usphone": "[ˈθɜːrzdeɪ]"
@@ -6271,7 +6271,7 @@
     {
         "name": "raw",
         "trans": [
-            "n. 擦伤处",
+            "n. vết xước",
             "【名】 （Raw）（英）罗（人名）",
             "adj. 生的，未煮过的；天然的，未经加工的；（信息）未经处理的，原始的；（感情，品质）强烈的，不掩饰的；（皮肤）刺痛的；（人）生疏无知的，未经训练的；（天气）阴冷的；（音乐、艺术、语言等）质朴的，未经琢磨的；<美，非正式>（语言）粗俗的；（布料边缘）无褶边的；（文字）不加掩饰的，如实坦陈的；<南非>（非洲黑人）源自传统部落（或乡村）文化的；强大的，真实的；（污水）未经处理的"
         ],
@@ -6449,7 +6449,7 @@
     {
         "name": "expands",
         "trans": [
-            "扩大"
+            "v. mở rộng; nới rộng"
         ],
         "ukphone": null,
         "usphone": "[ɪkˈspændz]"
@@ -6578,7 +6578,7 @@
         "trans": [
             "【名】 （Harm）（德）哈尔姆（人名）",
             "v. 危害，损害（某事物）；伤害（人或动物）",
-            "n. 伤害，损害"
+            "n. tổn hại, tổn thương"
         ],
         "ukphone": "[hɑːm]",
         "usphone": "[hɑːrm]"
@@ -6587,7 +6587,7 @@
         "name": "active",
         "trans": [
             "adj. 好动的；积极主动的；定期进行的，起作用的；（思想等）活跃的；切实的；（火山）活的；主动语态的；活性的；（疾病）恶化的；服役的；参战的；（动词）表动作的；（电路系统）在运转中的",
-            "n. 主动语态"
+            "n. chủ động"
         ],
         "ukphone": "[ˈæktɪv]",
         "usphone": "[ˈæktɪv]"
@@ -6630,7 +6630,7 @@
     {
         "name": "coffee",
         "trans": [
-            "n. 咖啡；咖啡豆；咖啡色",
+            "n. cà phê; hạt cà phê; màu cà phê",
             "n. （Coffee）人名；（英）科菲"
         ],
         "ukphone": "[ˈkɒfi]",
@@ -6724,7 +6724,7 @@
     {
         "name": "rationally",
         "trans": [
-            "adv. 理性地；讲道理地"
+            "adv. lý tính; hợp lý"
         ],
         "ukphone": "[ˈræʃnəli]",
         "usphone": "[ˈræʃnəli]"
@@ -6801,7 +6801,7 @@
         "name": "following",
         "trans": [
             "v. 跟随；沿行；（时间、顺序）排在……之后（follow 的现在分词形式）",
-            "n. 追随者，拥护者",
+            "n. người theo, người ủng hộ",
             "prep. 在……之后，紧接着",
             "adj. 之后的，接下来的；下列的，以下的；顺风的"
         ],
@@ -6842,7 +6842,7 @@
         "name": "ago",
         "trans": [
             "【名】 （Ago）（美）阿戈（人名）",
-            "adv. 以前，从前",
+            "adv. trước đây, ngày xưa",
             "adj. 以前的"
         ],
         "ukphone": "[əˈɡəʊ]",
@@ -7029,7 +7029,7 @@
     {
         "name": "programming",
         "trans": [
-            "n. 设计，规划；编制程序，[计] 程序编制"
+            "(n.) thiết kế, lập kế hoạch; lập trình, [máy tính] lập trình"
         ],
         "ukphone": "[ˈprəʊɡræmɪŋ]",
         "usphone": "[ˈproʊɡræmɪŋ]"
@@ -7076,7 +7076,7 @@
             "adj. 低脂的，低糖的",
             "【名】 （Diet）（法）迪耶（人名）",
             "n. 规定饮食；大量单调的活动；日常饮食",
-            "v. 节食"
+            "v. ăn kiêng"
         ],
         "ukphone": "[ˈdaɪət]",
         "usphone": "[ˈdaɪət]"
@@ -7095,7 +7095,7 @@
         "trans": [
             "adv. 大大地，远远地；<美>非常，很",
             "n. 方法，手段；习俗，习惯，行为方式；（行事）作风，（某事发生的）方式；道路，路线；行进路线，通路；方向；……路（用于道路的名称）；出入通道，门口；距离，时段；方面；（两种之一的）选择；情况，状态；（某人居住的）地区，地方；（分成的）部分；<苏格兰，正式>职业，行当；（船）航行，动力；船台，滑道（ways）",
-            "adj. 途中的",
+            "adj. đang trên đường",
             "【名】 （Way）韦（人名）"
         ],
         "ukphone": "[weɪ]",
@@ -7192,7 +7192,7 @@
         "trans": [
             "【名】 （Say）（土）萨伊，（法、老、柬）赛，（英）塞伊，（匈、罗）绍伊（人名）",
             "int. <美，非正式> （吃惊或吸引注意力）哎呀，喂",
-            "n. 发言权，决定权",
+            "n. quyền phát biểu, quyền quyết định",
             "vt. 说，讲；宣称，说明；认为，据说；发音，读；确信，确定（事实）；（对某人）意味着；表达，传达；指明，表明；假设，比如说；让某人做（某事）；复述，诵念；念，背诵；替（某人或某事）说好话（坏话）"
         ],
         "ukphone": "[seɪ]",
@@ -7509,7 +7509,7 @@
     {
         "name": "end",
         "trans": [
-            "v. 结束，终止",
+            "v. kết thúc, chấm dứt",
             "【名】 （End）（英、德）恩德（人名）",
             "n. 最后部分，末尾；结束，结局；端点；目的；剩余物，残余；过世；部分，方面；半边球场；城区；边锋"
         ],
@@ -7694,7 +7694,7 @@
     {
         "name": "Wednesday",
         "trans": [
-            "n. 星期三"
+            "n. thứ tư"
         ],
         "ukphone": "[ˈwenzdeɪ]",
         "usphone": "[ˈwenzdeɪ]"
@@ -7743,7 +7743,7 @@
     {
         "name": "seminars",
         "trans": [
-            "n. 研讨会（seminar的复数）；专题讨论会"
+            "n. hội thảo; cuộc thảo luận chuyên đề"
         ],
         "ukphone": null,
         "usphone": null
@@ -7790,7 +7790,7 @@
         "name": "nearby",
         "trans": [
             "adj. 附近的",
-            "adv. 在附近"
+            "adv. ở gần đó"
         ],
         "ukphone": "[ˌnɪəˈbaɪ]",
         "usphone": "[ˌnɪrˈbaɪ]"
@@ -7977,7 +7977,7 @@
     {
         "name": "visual",
         "trans": [
-            "adj. 视觉的，视力的；栩栩如生的",
+            "adj. thị giác, nhìn thấy; sống động",
             "n. 视觉资料（指说明性的图片、影片等）"
         ],
         "ukphone": "[ˈvɪʒuəl]",
@@ -8038,7 +8038,7 @@
     {
         "name": "geological",
         "trans": [
-            "adj. 地质的，地质学的"
+            "tính từ. địa chất; học về địa chất"
         ],
         "ukphone": "[ˌdʒiːəˈlɒdʒɪkl]",
         "usphone": "[ˌdʒiːəˈlɑːdʒɪk(ə)l]"
@@ -8157,7 +8157,7 @@
         "name": "several",
         "trans": [
             "det. 几个，数个",
-            "pron. 几个，数个",
+            "pron. vài, mấy",
             "adj. 不同的，各自的；<法律>单独，各个"
         ],
         "ukphone": "[ˈsevrəl]",
@@ -8216,7 +8216,7 @@
     {
         "name": "debate",
         "trans": [
-            "n. 讨论，辩论",
+            "n. cuộc thảo luận, tranh luận",
             "v. 反复思考，斟酌；讨论，辩论"
         ],
         "ukphone": "[dɪˈbeɪt]",
@@ -8262,7 +8262,7 @@
     {
         "name": "Monday",
         "trans": [
-            "n. 星期一"
+            "n. thứ Hai"
         ],
         "ukphone": "[ˈmʌndeɪ; ˈmʌndi]",
         "usphone": "[ˈmʌndeɪ; ˈmʌndi]"
@@ -8282,7 +8282,7 @@
     {
         "name": "Saturday",
         "trans": [
-            "n. 星期六"
+            "n. thứ bảy"
         ],
         "ukphone": "[ˈsætədeɪ]",
         "usphone": "[ˈsætərdeɪ]"
@@ -8306,7 +8306,7 @@
     {
         "name": "continuously",
         "trans": [
-            "adv. 连续不断地"
+            "adv. liên tục không gián đoạn"
         ],
         "ukphone": "[kənˈtɪnjuəsli]",
         "usphone": "[kənˈtɪnjuəsli]"
@@ -8333,7 +8333,7 @@
         "name": "listening",
         "trans": [
             "v. 听，倾听；听从，听信（listen 的现在分词）",
-            "n. 倾听"
+            "n. sự lắng nghe"
         ],
         "ukphone": "[ˈlɪsənɪŋ]",
         "usphone": "[ˈlɪsnɪŋ]"
@@ -8424,8 +8424,8 @@
     {
         "name": "guidelines",
         "trans": [
-            "参考",
-            "n. 指导方针"
+            "tham khảo",
+            "n. hướng dẫn; nguyên tắc"
         ],
         "ukphone": "[ˈɡaɪdlaɪnz]",
         "usphone": "[ˈɡaɪdlaɪnz]"
@@ -8487,7 +8487,7 @@
     {
         "name": "begins",
         "trans": [
-            "开始"
+            "bắt đầu"
         ],
         "ukphone": "[bɪˈɡɪnz]",
         "usphone": "[bɪˈɡɪnz]"
@@ -8597,7 +8597,7 @@
         "trans": [
             "adv. （用于问句）为什么，为何；（反问，表示不必）何必；……的原因；为什么（不）；为什么（表生气或恼火）",
             "int. 哎呀",
-            "n. 理由，原因"
+            "n. lý do, nguyên nhân"
         ],
         "ukphone": "[waɪ]",
         "usphone": "[waɪ]"
@@ -8624,7 +8624,7 @@
         "trans": [
             "【名】 （Bad）（罗）巴德（人名）",
             "adv. <美，非正式>很，非常；<美，非正式>厉害地",
-            "n. 坏人，坏事",
+            "n. kẻ xấu, điều xấu",
             "adj. 坏的，不好的，令人不悦的；难以接受的，令人遗憾的；粗鲁的，下流的；抱歉的，难过的；质量差的，不合格的；邪恶的，不道德的；顽皮的，不乖的；有病的，疼痛的；腐烂的，变质的；严重的，剧烈的；不明智的，不合适的；不利的，不幸的；拙于，不擅；无价值的，伪造的；<美，非正式> 非常好的（比较级badder，最高级baddest）"
         ],
         "ukphone": "[bæd]",
@@ -8968,7 +8968,7 @@
     {
         "name": "compulsory",
         "trans": [
-            "n. （花样滑冰、竞技体操等的）规定动作",
+            "n. động tác bắt buộc",
             "adj. 必须做的，义务的，强制的"
         ],
         "ukphone": "[kəmˈpʌlsəri]",
@@ -9003,7 +9003,7 @@
     {
         "name": "website",
         "trans": [
-            "n. 网站（全球资讯网的主机站）"
+            "n. trang web (máy chủ của mạng toàn cầu)"
         ],
         "ukphone": "[ˈwebsaɪt]",
         "usphone": "[ˈwebsaɪt]"
@@ -9204,7 +9204,7 @@
     {
         "name": "reporting",
         "trans": [
-            "n. 报告；报导",
+            "(n.) báo cáo; thông tấn",
             "adj. 报告的"
         ],
         "ukphone": "[rɪˈpɔːtɪŋ]",
@@ -9240,7 +9240,7 @@
     {
         "name": "rapidly",
         "trans": [
-            "adv. 快速地，迅速地"
+            "adv. nhanh chóng, nhanh lẹ"
         ],
         "ukphone": "[ˈræpɪdli]",
         "usphone": "[ˈræpɪdli]"
@@ -9345,7 +9345,7 @@
         "name": "cease",
         "trans": [
             "v. 终止，结束",
-            "n. 停止"
+            "n. dừng lại"
         ],
         "ukphone": "[siːs]",
         "usphone": "[siːs]"
@@ -9526,7 +9526,7 @@
     {
         "name": "textbook",
         "trans": [
-            "n. 教科书，课本",
+            "n. sách giáo khoa, sách bài",
             "adj. 规范的，典型的"
         ],
         "ukphone": "[ˈtekstbʊk]",
@@ -9623,7 +9623,7 @@
     {
         "name": "curriculum",
         "trans": [
-            "n. 课程"
+            "n. khóa học; chương trình"
         ],
         "ukphone": "[kəˈrɪkjələm]",
         "usphone": "[kəˈrɪkjələm]"
@@ -9677,7 +9677,7 @@
         "name": "me",
         "trans": [
             "n. （Me）人名；（日）马（姓）；（朝）袂；（阿拉伯、柬、老）梅",
-            "pron. 我（宾格）",
+            "pron. tôi (tân ngữ)",
             "n. 自我；极端自私的人；自我的一部分"
         ],
         "ukphone": "[miː; mi]",
@@ -9741,7 +9741,7 @@
     {
         "name": "simultaneously",
         "trans": [
-            "adv. 同时地"
+            "adv. đồng thời"
         ],
         "ukphone": "[ˌsɪm(ə)lˈteɪniəsli]",
         "usphone": "[ˌsaɪm(ə)lˈteɪniəsli]"
@@ -9793,7 +9793,7 @@
     {
         "name": "concise",
         "trans": [
-            "adj. 简明的，简洁的"
+            "adj. ngắn gọn, tức thời"
         ],
         "ukphone": "[kənˈsaɪs]",
         "usphone": "[kənˈsaɪs]"
@@ -10061,7 +10061,7 @@
     {
         "name": "component",
         "trans": [
-            "adj. 组成的，构成的",
+            "adj. tạo thành; cấu thành",
             "n. 组成部分，成分，部件"
         ],
         "ukphone": "[kəmˈpəʊnənt]",
@@ -10070,7 +10070,7 @@
     {
         "name": "broad",
         "trans": [
-            "adv. 宽阔地",
+            "adv. một cách rộng",
             "adj. 宽广的，宽阔的；……宽；咧开嘴的；广泛的，普遍的；大致的，概括的；明确的，明显的；粗俗滑稽的；口音重的",
             "【名】 （Broad）（英、德）布罗德（人名）",
             "n. <美>对女人的粗俗称呼；宽阔部分"
@@ -10106,8 +10106,8 @@
     {
         "name": "lifestyle",
         "trans": [
-            "保健的",
-            "n. 生活方式"
+            "liên quan sức khỏe; chăm sóc sức khỏe",
+            "(n.) lối sống; cách sống"
         ],
         "ukphone": "[ˈlaɪfstaɪl]",
         "usphone": "[ˈlaɪfstaɪl]"
@@ -10416,7 +10416,7 @@
     {
         "name": "criminal",
         "trans": [
-            "n. 罪犯",
+            "n. tội phạm, kẻ phạm tội",
             "adj. 犯法的，犯罪的；刑事的；应受责备的，可耻的；罪犯的，犯人的；<非正式>（行为或情形）令人遗憾的，令人震惊的"
         ],
         "ukphone": "[ˈkrɪmɪn(ə)l]",
@@ -10442,7 +10442,7 @@
     {
         "name": "publishing",
         "trans": [
-            "n. 出版；出版业",
+            "n. xuất bản; ngành xuất bản",
             "v. 出版，发行（书、杂志等）；（作家、 音乐家等）发表（自己的作品），使（作品）出版；（在互联网上）发表（publish 的现在分词）"
         ],
         "ukphone": "[ˈpʌblɪʃɪŋ]",
@@ -10515,7 +10515,7 @@
     {
         "name": "priority",
         "trans": [
-            "adj. 优先的",
+            "adj. ưu tiên",
             "n. 优先事项，最重要的事；优先，优先权，重点；<英>优先通行权"
         ],
         "ukphone": "[praɪˈɒrəti]",

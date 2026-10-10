@@ -2,7 +2,7 @@
     {
         "name": "UK",
         "trans": [
-            "英国"
+            "Anh quốc, Vương quốc Anh"
         ],
         "usphone": "",
         "ukphone": ""
@@ -10,7 +10,7 @@
     {
         "name": "Canada",
         "trans": [
-            "加拿大"
+            "Canada"
         ],
         "usphone": "'kænədə",
         "ukphone": "'kænədə"
@@ -26,7 +26,7 @@
     {
         "name": "China",
         "trans": [
-            "中国"
+            "Trung Quốc"
         ],
         "usphone": "",
         "ukphone": "ˈtʃaɪnə"
@@ -82,7 +82,7 @@
     {
         "name": "and",
         "trans": [
-            "和"
+            "và"
         ],
         "usphone": "ənd, ən,ænd",
         "ukphone": "ənd; (ə)n; ænd"
@@ -138,7 +138,7 @@
     {
         "name": "man",
         "trans": [
-            "男人"
+            "đàn ông; người đàn ông"
         ],
         "usphone": "mæn",
         "ukphone": "mæn"
@@ -146,7 +146,7 @@
     {
         "name": "woman",
         "trans": [
-            "女人"
+            "người phụ nữ"
         ],
         "usphone": "'wʊmən",
         "ukphone": "'wʊmən"
@@ -218,7 +218,7 @@
     {
         "name": "thin",
         "trans": [
-            "瘦的"
+            "gầy"
         ],
         "usphone": "θɪn",
         "ukphone": "θɪn"
@@ -234,7 +234,7 @@
     {
         "name": "tall",
         "trans": [
-            "高的"
+            "cao; cao"
         ],
         "usphone": "tɔl",
         "ukphone": "tɔːl"
@@ -250,7 +250,7 @@
     {
         "name": "long",
         "trans": [
-            "长的"
+            "dài"
         ],
         "usphone": "lɔŋ",
         "ukphone": "lɒŋ"
@@ -258,7 +258,7 @@
     {
         "name": "small",
         "trans": [
-            "小的"
+            "nhỏ; bé"
         ],
         "usphone": "smɔl",
         "ukphone": "smɔːl"
@@ -266,7 +266,7 @@
     {
         "name": "big",
         "trans": [
-            "大的"
+            "lớn; to"
         ],
         "usphone": "bɪɡ",
         "ukphone": "bɪg"
@@ -274,7 +274,7 @@
     {
         "name": "giraffe",
         "trans": [
-            "长颈鹿"
+            "hươu cao cổ"
         ],
         "usphone": "dʒəˈræf; dʒəˈræf",
         "ukphone": "dʒɪˈrɑ:f"
@@ -290,7 +290,7 @@
     {
         "name": "children",
         "trans": [
-            "儿童"
+            "trẻ em"
         ],
         "usphone": "'tʃɪldrən",
         "ukphone": "'tʃɪldrən"
@@ -298,7 +298,7 @@
     {
         "name": "child",
         "trans": [
-            "儿童"
+            "trẻ em"
         ],
         "usphone": "tʃaɪld",
         "ukphone": "tʃaɪld"
@@ -306,7 +306,7 @@
     {
         "name": "tail",
         "trans": [
-            "尾巴"
+            "duoi"
         ],
         "usphone": "tel",
         "ukphone": "teɪl"
@@ -338,7 +338,7 @@
     {
         "name": "chair",
         "trans": [
-            "椅子"
+            "ghế"
         ],
         "usphone": "tʃɛr",
         "ukphone": "tʃeə"
@@ -346,7 +346,7 @@
     {
         "name": "desk",
         "trans": [
-            "书桌"
+            "bàn viết"
         ],
         "usphone": "dɛsk",
         "ukphone": "desk"
@@ -354,7 +354,7 @@
     {
         "name": "cap",
         "trans": [
-            "帽子"
+            "mũ, nón"
         ],
         "usphone": "kæp",
         "ukphone": "kæp"
@@ -362,7 +362,7 @@
     {
         "name": "ball",
         "trans": [
-            "球"
+            "quả bóng"
         ],
         "usphone": "bɔl",
         "ukphone": "bɔːl"
@@ -386,7 +386,7 @@
     {
         "name": "map",
         "trans": [
-            "地图"
+            "bản đồ"
         ],
         "usphone": "mæp",
         "ukphone": "mæp"
@@ -394,7 +394,7 @@
     {
         "name": "toy",
         "trans": [
-            "玩具"
+            "đồ chơi; món đồ chơi"
         ],
         "usphone": "tɔɪ",
         "ukphone": "tɒɪ"
@@ -410,7 +410,7 @@
     {
         "name": "pear",
         "trans": [
-            "梨"
+            "lê"
         ],
         "usphone": "pɛr",
         "ukphone": "peə"
@@ -418,7 +418,7 @@
     {
         "name": "apple",
         "trans": [
-            "苹果"
+            "táo"
         ],
         "usphone": "'æpl",
         "ukphone": "'æp(ə)l"
@@ -434,7 +434,7 @@
     {
         "name": "banana",
         "trans": [
-            "香蕉"
+            "chuối"
         ],
         "usphone": "bə'nænə",
         "ukphone": "bə'nɑːnə"
@@ -442,7 +442,7 @@
     {
         "name": "watermelon",
         "trans": [
-            "西瓜"
+            "dưa hấu"
         ],
         "usphone": "'wɔtɚmɛlən",
         "ukphone": "'wɔːtəmelən"
@@ -450,7 +450,7 @@
     {
         "name": "strawberry",
         "trans": [
-            "草莓"
+            "dau"
         ],
         "usphone": "'strɔbɛri",
         "ukphone": "'strɔːb(ə)rɪ"
@@ -458,7 +458,7 @@
     {
         "name": "grape",
         "trans": [
-            "葡萄"
+            "nho"
         ],
         "usphone": "ɡrep",
         "ukphone": "greɪp"
@@ -466,7 +466,7 @@
     {
         "name": "buy",
         "trans": [
-            "买"
+            "mua"
         ],
         "usphone": "baɪ",
         "ukphone": "baɪ"
@@ -474,7 +474,7 @@
     {
         "name": "fruit",
         "trans": [
-            "水果"
+            "trái cây"
         ],
         "usphone": "frut",
         "ukphone": "fruːt"
@@ -482,7 +482,7 @@
     {
         "name": "eleven",
         "trans": [
-            "十一"
+            "num. mười một"
         ],
         "usphone": "ɪ'lɛvn",
         "ukphone": "ɪ'lev(ə)n"
@@ -490,7 +490,7 @@
     {
         "name": "twelve",
         "trans": [
-            "十二"
+            "mười hai"
         ],
         "usphone": "twɛlv",
         "ukphone": "twelv"
@@ -498,7 +498,7 @@
     {
         "name": "thirteen",
         "trans": [
-            "十三"
+            "mười ba"
         ],
         "usphone": "'θɝ'tin",
         "ukphone": "θɜː'tiːn; 'θɜːtiːn"
@@ -506,7 +506,7 @@
     {
         "name": "fourteen",
         "trans": [
-            "十四"
+            "mười bốn"
         ],
         "usphone": ",fɔr'tin",
         "ukphone": "fɔː'tiːn; 'fɔːtiːn"
@@ -514,7 +514,7 @@
     {
         "name": "fifteen",
         "trans": [
-            "十五"
+            "mười lăm"
         ],
         "usphone": ",fɪf'tin",
         "ukphone": "fɪf'tiːn; 'fɪftiːn"
@@ -522,7 +522,7 @@
     {
         "name": "sixteen",
         "trans": [
-            "十六"
+            "mười sáu"
         ],
         "usphone": ",sɪks'tin",
         "ukphone": "sɪks'tiːn; 'sɪkstiːn"
@@ -530,7 +530,7 @@
     {
         "name": "seventeen",
         "trans": [
-            "十七"
+            "mười bảy"
         ],
         "usphone": ",sɛvn'tin",
         "ukphone": "sev(ə)n'tiːn; 'sev(ə)ntiːn"
@@ -538,7 +538,7 @@
     {
         "name": "eighteen",
         "trans": [
-            "十八"
+            "mười tám"
         ],
         "usphone": ",e'tin",
         "ukphone": "eɪ'tiːn; 'eɪtiːn"
@@ -546,7 +546,7 @@
     {
         "name": "nineteen",
         "trans": [
-            "十九"
+            "mười chín"
         ],
         "usphone": ",naɪn'tin",
         "ukphone": "naɪn'tiːn; 'naɪntiːn"
@@ -554,7 +554,7 @@
     {
         "name": "twenty",
         "trans": [
-            "二十"
+            "hai mươi"
         ],
         "usphone": "'twɛnti",
         "ukphone": "'twentɪ"
@@ -562,7 +562,7 @@
     {
         "name": "kite",
         "trans": [
-            "风筝"
+            "diều"
         ],
         "usphone": "kaɪt",
         "ukphone": "kaɪt"
@@ -570,7 +570,7 @@
     {
         "name": "beautiful",
         "trans": [
-            "美丽的"
+            "đẹp đẽ; xinh đẹp"
         ],
         "usphone": "'bjʊtəfəl",
         "ukphone": "ˈbju:tɪfl"

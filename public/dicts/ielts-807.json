@@ -20,13 +20,13 @@
   {
     "name": "major",
     "trans": [
-      "专业"
+      "chuyen ngan"
     ]
   },
   {
     "name": "discipline",
     "trans": [
-      "纪律，学科"
+      "kỷ luật, môn học"
     ]
   },
   {
@@ -38,25 +38,25 @@
   {
     "name": "anthropology",
     "trans": [
-      "人类学"
+      "nhân văn học"
     ]
   },
   {
     "name": "anthropologist",
     "trans": [
-      "人类学家"
+      "nhân chủng học gia"
     ]
   },
   {
     "name": "sociology",
     "trans": [
-      "社会学"
+      "xã hội học"
     ]
   },
   {
     "name": "biology",
     "trans": [
-      "生物学"
+      "sinh học"
     ]
   },
   {
@@ -68,7 +68,7 @@
   {
     "name": "microbiology",
     "trans": [
-      "微生物学"
+      "vi sinh vật học"
     ]
   },
   {
@@ -86,7 +86,7 @@
   {
     "name": "psychology",
     "trans": [
-      "心理学"
+      "tâm lý học"
     ]
   },
   {
@@ -110,13 +110,13 @@
   {
     "name": "physical",
     "trans": [
-      "身体的"
+      "thuộc về cơ thể; thể chất"
     ]
   },
   {
     "name": "mathematics",
     "trans": [
-      "数学"
+      "toán học"
     ]
   },
   {
@@ -128,13 +128,13 @@
   {
     "name": "market",
     "trans": [
-      "市场"
+      "thị trường; chợ"
     ]
   },
   {
     "name": "marketing",
     "trans": [
-      "市场营销"
+      "tiếp thị"
     ]
   },
   {
@@ -146,13 +146,13 @@
   {
     "name": "philosophy",
     "trans": [
-      "哲学"
+      "triết học"
     ]
   },
   {
     "name": "geography",
     "trans": [
-      "地理"
+      "địa lý"
     ]
   },
   {
@@ -170,7 +170,7 @@
   {
     "name": "history",
     "trans": [
-      "历史"
+      "lịch sử"
     ]
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "astronomy",
     "trans": [
-      "天文学"
+      "thiên văn học"
     ]
   },
   {
@@ -200,61 +200,61 @@
   {
     "name": "media",
     "trans": [
-      "媒体"
+      "phương tiện truyền thông"
     ]
   },
   {
     "name": "language",
     "trans": [
-      "语言"
+      "ngôn ngữ; tiếng"
     ]
   },
   {
     "name": "linguistics",
     "trans": [
-      "语言学"
+      "ngôn ngữ học"
     ]
   },
   {
     "name": "politics",
     "trans": [
-      "政治"
+      "chính trị; chính trị học"
     ]
   },
   {
     "name": "physics",
     "trans": [
-      "物理学"
+      "vật lý học"
     ]
   },
   {
     "name": "statistics",
     "trans": [
-      "统计学"
+      "thống kê học"
     ]
   },
   {
     "name": "economics",
     "trans": [
-      "经济学"
+      "kinh tế học"
     ]
   },
   {
     "name": "economy",
     "trans": [
-      "经济"
+      "n. kinh tế"
     ]
   },
   {
     "name": "economic",
     "trans": [
-      "经济的"
+      "tiết kiệm, kinh tế"
     ]
   },
   {
     "name": "economical",
     "trans": [
-      "节约的"
+      "tiết kiệm"
     ]
   },
   {
@@ -266,7 +266,7 @@
   {
     "name": "environment",
     "trans": [
-      "环境"
+      "n. môi trường"
     ]
   },
   {
@@ -278,31 +278,31 @@
   {
     "name": "environmentally-friendly",
     "trans": [
-      "环保的"
+      "thân thiện với môi trường, sinh thái"
     ]
   },
   {
     "name": "chemistry",
     "trans": [
-      "化学"
+      "hóa học"
     ]
   },
   {
     "name": "management",
     "trans": [
-      "管理"
+      "quản lý, quản trị"
     ]
   },
   {
     "name": "archaeological",
     "trans": [
-      "考古学的"
+      "khảo cổ học"
     ]
   },
   {
     "name": "archaeology",
     "trans": [
-      "考古学"
+      "Khảo cổ học"
     ]
   },
   {
@@ -320,13 +320,13 @@
   {
     "name": "computer",
     "trans": [
-      "电脑"
+      "máy tính, vi tính"
     ]
   },
   {
     "name": "literature",
     "trans": [
-      "文学"
+      "văn học; văn chương"
     ]
   },
   {
@@ -344,7 +344,7 @@
   {
     "name": "business",
     "trans": [
-      "商业"
+      "thương mại"
     ]
   },
   {
@@ -368,13 +368,13 @@
   {
     "name": "musician",
     "trans": [
-      "音乐家"
+      "nhạc sỹ"
     ]
   },
   {
     "name": "musical",
     "trans": [
-      "音乐的"
+      "(adj.) âm nhạc"
     ]
   },
   {
@@ -392,19 +392,19 @@
   {
     "name": "college",
     "trans": [
-      "学院"
+      "viện, học viện"
     ]
   },
   {
     "name": "review",
     "trans": [
-      "复习"
+      "ôn tập"
     ]
   },
   {
     "name": "learning",
     "trans": [
-      "学习"
+      "học tập; học"
     ]
   },
   {
@@ -422,7 +422,7 @@
   {
     "name": "humans",
     "trans": [
-      "人类"
+      "loài người"
     ]
   },
   {
@@ -512,7 +512,7 @@
   {
     "name": "financial markets",
     "trans": [
-      "金融市场"
+      "thị trường tài chính"
     ]
   },
   {
@@ -566,7 +566,7 @@
   {
     "name": "marketing management",
     "trans": [
-      "销售管理"
+      "quản lý bán hàng"
     ]
   },
   {
@@ -584,13 +584,13 @@
   {
     "name": "social science",
     "trans": [
-      "社会科学"
+      "khoa học xã hội"
     ]
   },
   {
     "name": "life science",
     "trans": [
-      "生命科学"
+      "khoa học sự sống"
     ]
   },
   {
@@ -626,13 +626,13 @@
   {
     "name": "mass media",
     "trans": [
-      "大众传媒"
+      "truyền thông đại chúng"
     ]
   },
   {
     "name": "media room",
     "trans": [
-      "媒体室"
+      "phòng truyền thông"
     ]
   },
   {
@@ -686,7 +686,7 @@
   {
     "name": "environmental science",
     "trans": [
-      "环境科学"
+      "khoa học môi trường"
     ]
   },
   {
@@ -698,7 +698,7 @@
   {
     "name": "environmental issues",
     "trans": [
-      "环境问题"
+      "vấn đề môi trường"
     ]
   },
   {
@@ -722,7 +722,7 @@
   {
     "name": "stress management",
     "trans": [
-      "压力管理"
+      "quản lý căng thẳng"
     ]
   },
   {
@@ -788,13 +788,13 @@
   {
     "name": "higher education",
     "trans": [
-      "高等教育"
+      "giáo dục đại học"
     ]
   },
   {
     "name": "tertiary education",
     "trans": [
-      "高等教育"
+      "giáo dục đại học"
     ]
   },
   {
@@ -806,7 +806,7 @@
   {
     "name": "global market",
     "trans": [
-      "全球市场"
+      "thị trường toàn cầu"
     ]
   },
   {
@@ -818,31 +818,31 @@
   {
     "name": "register",
     "trans": [
-      "注册"
+      "đăng ký"
     ]
   },
   {
     "name": "registration",
     "trans": [
-      "注册"
+      "đăng ký"
     ]
   },
   {
     "name": "enroll",
     "trans": [
-      "登记"
+      "đăng ký"
     ]
   },
   {
     "name": "enrollment",
     "trans": [
-      "登记，注册"
+      "đăng ký, ghi danh"
     ]
   },
   {
     "name": "curriculum",
     "trans": [
-      "课程"
+      "khóa học, môn học"
     ]
   },
   {
@@ -854,7 +854,7 @@
   {
     "name": "term",
     "trans": [
-      "学期"
+      "học kỳ"
     ]
   },
   {
@@ -866,19 +866,19 @@
   {
     "name": "virtual",
     "trans": [
-      "虚拟的"
+      "ảo"
     ]
   },
   {
     "name": "test",
     "trans": [
-      "测试"
+      "kiem tra"
     ]
   },
   {
     "name": "course",
     "trans": [
-      "课程"
+      "khóa học, môn học"
     ]
   },
   {
@@ -890,7 +890,7 @@
   {
     "name": "compulsory",
     "trans": [
-      "强制性的"
+      "bắt buộc"
     ]
   },
   {
@@ -902,13 +902,13 @@
   {
     "name": "practice",
     "trans": [
-      "练习"
+      "luyện tập; bài tập"
     ]
   },
   {
     "name": "email",
     "trans": [
-      "电子邮件"
+      "n. thư điện tử; email"
     ]
   },
   {
@@ -920,7 +920,7 @@
   {
     "name": "lecture",
     "trans": [
-      "讲座"
+      "bài giảng, buổi nói chuyện"
     ]
   },
   {
@@ -932,31 +932,31 @@
   {
     "name": "internship",
     "trans": [
-      "实习"
+      "thực tập"
     ]
   },
   {
     "name": "evaluation",
     "trans": [
-      "评估"
+      "đánh giá"
     ]
   },
   {
     "name": "self-evaluation",
     "trans": [
-      "自我评估"
+      "tự đánh giá"
     ]
   },
   {
     "name": "assessment",
     "trans": [
-      "评估"
+      "đánh giá"
     ]
   },
   {
     "name": "self-assessment",
     "trans": [
-      "自我评估"
+      "tự đánh giá"
     ]
   },
   {
@@ -968,19 +968,19 @@
   {
     "name": "exam",
     "trans": [
-      "考试"
+      "n. kỳ thi; bài thi"
     ]
   },
   {
     "name": "examination",
     "trans": [
-      "考试"
+      "n. kỳ thi; bài thi"
     ]
   },
   {
     "name": "failure",
     "trans": [
-      "失败"
+      "thất bại; thua"
     ]
   },
   {
@@ -1004,7 +1004,7 @@
   {
     "name": "record",
     "trans": [
-      "记录"
+      "ghi; ghi chép"
     ]
   },
   {
@@ -1016,25 +1016,25 @@
   {
     "name": "recorder",
     "trans": [
-      "录音机"
+      "máy ghi âm"
     ]
   },
   {
     "name": "tape",
     "trans": [
-      "磁带"
+      "bang dia"
     ]
   },
   {
     "name": "cassette",
     "trans": [
-      "磁带"
+      "bang dia"
     ]
   },
   {
     "name": "video",
     "trans": [
-      "录像"
+      "ghi hình, băng hình"
     ]
   },
   {
@@ -1064,7 +1064,7 @@
   {
     "name": "rate",
     "trans": [
-      "比率"
+      "tỷ lệ"
     ]
   },
   {
@@ -1076,13 +1076,13 @@
   {
     "name": "office",
     "trans": [
-      "办公室"
+      "văn phòng"
     ]
   },
   {
     "name": "parent",
     "trans": [
-      "父母"
+      "cha mẹ"
     ]
   },
   {
@@ -1100,19 +1100,19 @@
   {
     "name": "receptionist",
     "trans": [
-      "接待员"
+      "lễ tân"
     ]
   },
   {
     "name": "goal",
     "trans": [
-      "目标"
+      "mục tiêu, chỉ tiêu"
     ]
   },
   {
     "name": "plus",
     "trans": [
-      "加"
+      "cộng; thêm"
     ]
   },
   {
@@ -1136,7 +1136,7 @@
   {
     "name": "advanced4",
     "trans": [
-      "高级的"
+      "adj. cao cấp, cấp cao; n. lớp cao"
     ]
   },
   {
@@ -1148,13 +1148,13 @@
   {
     "name": "fundamental",
     "trans": [
-      "基础的，基本的"
+      "cơ sở, cơ bản"
     ]
   },
   {
     "name": "elementary",
     "trans": [
-      "初级的"
+      "sơ cấp; nhập môn"
     ]
   },
   {
@@ -1172,13 +1172,13 @@
   {
     "name": "midnight",
     "trans": [
-      "午夜"
+      "nửa đêm"
     ]
   },
   {
     "name": "midday",
     "trans": [
-      "中午"
+      "trưa; buổi trưa"
     ]
   },
   {
@@ -1202,13 +1202,13 @@
   {
     "name": "discussion",
     "trans": [
-      "讨论"
+      "thảo luận, bàn luận"
     ]
   },
   {
     "name": "discuss",
     "trans": [
-      "讨论"
+      "thảo luận, bàn luận"
     ]
   },
   {
@@ -1226,7 +1226,7 @@
   {
     "name": "unemployment",
     "trans": [
-      "失业"
+      "thất nghiệp"
     ]
   },
   {
@@ -1244,19 +1244,19 @@
   {
     "name": "diet",
     "trans": [
-      "饮食"
+      "ăn uống, ẩm thực"
     ]
   },
   {
     "name": "dietary",
     "trans": [
-      "饮食的"
+      "ẩm thực"
     ]
   },
   {
     "name": "deadline",
     "trans": [
-      "最后期限"
+      "han cuoi cung"
     ]
   },
   {
@@ -1268,13 +1268,13 @@
   {
     "name": "cramming",
     "trans": [
-      "填鸭式教学"
+      "phương pháp dạy học máy móc"
     ]
   },
   {
     "name": "feedback",
     "trans": [
-      "反馈"
+      "phản hồi"
     ]
   },
   {
@@ -1292,25 +1292,25 @@
   {
     "name": "diploma",
     "trans": [
-      "毕业证书"
+      "bằng cấp"
     ]
   },
   {
     "name": "certificate",
     "trans": [
-      "证书"
+      "giấy chứng nhận"
     ]
   },
   {
     "name": "workshop",
     "trans": [
-      "工作室"
+      "xep phong lam viec"
     ]
   },
   {
     "name": "panic",
     "trans": [
-      "恐惧"
+      "sợ hãi"
     ]
   },
   {
@@ -1328,13 +1328,13 @@
   {
     "name": "headmaster",
     "trans": [
-      "校长"
+      "hiệu trưởng"
     ]
   },
   {
     "name": "principal",
     "trans": [
-      "主要的"
+      "chính; quan trọng nhất"
     ]
   },
   {
@@ -1352,13 +1352,13 @@
   {
     "name": "scientist",
     "trans": [
-      "科学家"
+      "nhà khoa học"
     ]
   },
   {
     "name": "secretary",
     "trans": [
-      "秘书"
+      "n. thư ký"
     ]
   },
   {
@@ -1376,25 +1376,25 @@
   {
     "name": "administration",
     "trans": [
-      "管理"
+      "quản lý, quản trị"
     ]
   },
   {
     "name": "professor",
     "trans": [
-      "教授"
+      "giáo sư; giảng viên; dạy"
     ]
   },
   {
     "name": "officer",
     "trans": [
-      "军官"
+      "sĩ quan"
     ]
   },
   {
     "name": "official",
     "trans": [
-      "官方的"
+      "chính thức"
     ]
   },
   {
@@ -1406,7 +1406,7 @@
   {
     "name": "tutor",
     "trans": [
-      "导师"
+      "người hướng dẫn; thầy giáo; cố vấn"
     ]
   },
   {
@@ -1418,19 +1418,19 @@
   {
     "name": "assignment",
     "trans": [
-      "作业"
+      "bài tập; việc nhà; công việc"
     ]
   },
   {
     "name": "advise",
     "trans": [
-      "建议"
+      "đề nghị, khuyến nghị"
     ]
   },
   {
     "name": "advice",
     "trans": [
-      "建议"
+      "đề nghị, khuyến nghị"
     ]
   },
   {
@@ -1442,31 +1442,31 @@
   {
     "name": "supervisor",
     "trans": [
-      "导师"
+      "người hướng dẫn; thầy giáo; cố vấn"
     ]
   },
   {
     "name": "supervise",
     "trans": [
-      "监督"
+      "giám sát, giám thị"
     ]
   },
   {
     "name": "supervision",
     "trans": [
-      "监督"
+      "giám sát, giám thị"
     ]
   },
   {
     "name": "assistant",
     "trans": [
-      "助手"
+      "trợ lý"
     ]
   },
   {
     "name": "seminar",
     "trans": [
-      "研讨会"
+      "hội thảo"
     ]
   },
   {
@@ -1478,7 +1478,7 @@
   {
     "name": "schedule",
     "trans": [
-      "时间表"
+      "n. lịch trình, thời biểu"
     ]
   },
   {
@@ -1490,7 +1490,7 @@
   {
     "name": "timetable",
     "trans": [
-      "时间表"
+      "n. lịch trình, thời biểu"
     ]
   },
   {
@@ -1508,7 +1508,7 @@
   {
     "name": "surroundings",
     "trans": [
-      "环境"
+      "n. môi trường"
     ]
   },
   {
@@ -1526,13 +1526,13 @@
   {
     "name": "achievements",
     "trans": [
-      "成就"
+      "thành tựu"
     ]
   },
   {
     "name": "culture",
     "trans": [
-      "文化"
+      "văn hóa"
     ]
   },
   {
@@ -1544,7 +1544,7 @@
   {
     "name": "problem-solving",
     "trans": [
-      "解决问题"
+      "giải quyết vấn đề"
     ]
   },
   {
@@ -1658,7 +1658,7 @@
   {
     "name": "optional course",
     "trans": [
-      "选修课"
+      "môn học tự chọn"
     ]
   },
   {
@@ -1724,7 +1724,7 @@
   {
     "name": "business studies",
     "trans": [
-      "商业研究"
+      "nghiên cứu kinh doanh"
     ]
   },
   {
@@ -1736,19 +1736,19 @@
   {
     "name": "case study",
     "trans": [
-      "案例研究"
+      "nghiên cứu tình huống"
     ]
   },
   {
     "name": "case studies",
     "trans": [
-      "案例研究"
+      "nghiên cứu tình huống"
     ]
   },
   {
     "name": "study aids",
     "trans": [
-      "教具"
+      "dụng cụ dạy học"
     ]
   },
   {
@@ -1772,7 +1772,7 @@
   {
     "name": "email address",
     "trans": [
-      "电子邮件地址"
+      "địa chỉ email"
     ]
   },
   {
@@ -1790,13 +1790,13 @@
   {
     "name": "field trip",
     "trans": [
-      "实习"
+      "thực tập"
     ]
   },
   {
     "name": "field work",
     "trans": [
-      "实地研究"
+      "nghiên cứu thực địa"
     ]
   },
   {
@@ -1808,7 +1808,7 @@
   {
     "name": "open-book exam",
     "trans": [
-      "开卷考试"
+      "kỳ thi mở sách"
     ]
   },
   {
@@ -1820,7 +1820,7 @@
   {
     "name": "failure rate",
     "trans": [
-      "不及格率"
+      "tỷ lệ không đạt"
     ]
   },
   {
@@ -1838,7 +1838,7 @@
   {
     "name": "video recording",
     "trans": [
-      "录像"
+      "ghi hình, băng hình"
     ]
   },
   {
@@ -1850,13 +1850,13 @@
   {
     "name": "tape recorder",
     "trans": [
-      "录音机"
+      "máy ghi âm"
     ]
   },
   {
     "name": "cassette recorder",
     "trans": [
-      "录音机"
+      "máy ghi âm"
     ]
   },
   {
@@ -1880,7 +1880,7 @@
   {
     "name": "rate of speed",
     "trans": [
-      "速率"
+      "tốc độ"
     ]
   },
   {
@@ -1898,7 +1898,7 @@
   {
     "name": "tutorial group",
     "trans": [
-      "讨论小组"
+      "nhóm thảo luận"
     ]
   },
   {
@@ -1922,13 +1922,13 @@
   {
     "name": "head office",
     "trans": [
-      "总部"
+      "Trụ sở chính"
     ]
   },
   {
     "name": "careers officer",
     "trans": [
-      "就业指导办公室"
+      "Văn phòng Hướng dẫn Việc làm"
     ]
   },
   {
@@ -2108,7 +2108,7 @@
   {
     "name": "final deadline",
     "trans": [
-      "最后期限"
+      "han cuoi cung"
     ]
   },
   {
@@ -2168,19 +2168,19 @@
   {
     "name": "drama workshop",
     "trans": [
-      "戏剧社"
+      "câu lạc bộ kịch nghệ"
     ]
   },
   {
     "name": "teaching syllabus",
     "trans": [
-      "教学大纲"
+      "chương trình giảng dạy"
     ]
   },
   {
     "name": "teaching method",
     "trans": [
-      "教学方法"
+      "phương pháp giảng dạy"
     ]
   },
   {
@@ -2216,7 +2216,7 @@
   {
     "name": "assistant professor",
     "trans": [
-      "助教"
+      "trợ giảng"
     ]
   },
   {
@@ -2252,7 +2252,7 @@
   {
     "name": "shop assistant",
     "trans": [
-      "售货员"
+      "nhân viên bán hàng"
     ]
   },
   {
@@ -2282,13 +2282,13 @@
   {
     "name": "essay",
     "trans": [
-      "文章"
+      "bài viết; bài báo"
     ]
   },
   {
     "name": "dissertation",
     "trans": [
-      "论文"
+      "n. luận án; bài báo khoa học"
     ]
   },
   {
@@ -2300,7 +2300,7 @@
   {
     "name": "abstract",
     "trans": [
-      "摘要"
+      "tóm tắt, bản tóm lược"
     ]
   },
   {
@@ -2312,7 +2312,7 @@
   {
     "name": "bibliography",
     "trans": [
-      "参考书目"
+      "thư mục"
     ]
   },
   {
@@ -2324,7 +2324,7 @@
   {
     "name": "project",
     "trans": [
-      "项目"
+      "dự án"
     ]
   },
   {
@@ -2336,13 +2336,13 @@
   {
     "name": "observation",
     "trans": [
-      "观察"
+      "quan sát"
     ]
   },
   {
     "name": "observe",
     "trans": [
-      "观察"
+      "quan sát"
     ]
   },
   {
@@ -2372,13 +2372,13 @@
   {
     "name": "revise",
     "trans": [
-      "修改"
+      "sửa đổi"
     ]
   },
   {
     "name": "extensive",
     "trans": [
-      "广泛的"
+      "rộng rãi"
     ]
   },
   {
@@ -2402,19 +2402,19 @@
   {
     "name": "research",
     "trans": [
-      "研究，调查"
+      "nghiên cứu, điều tra"
     ]
   },
   {
     "name": "reading",
     "trans": [
-      "阅读"
+      "đọc"
     ]
   },
   {
     "name": "data",
     "trans": [
-      "数据"
+      "dữ liệu"
     ]
   },
   {
@@ -2426,19 +2426,19 @@
   {
     "name": "analytical",
     "trans": [
-      "分析的"
+      "phân tích"
     ]
   },
   {
     "name": "analyst",
     "trans": [
-      "分析家"
+      "nhà phân tích"
     ]
   },
   {
     "name": "draft",
     "trans": [
-      "草稿"
+      "n. bản nháp"
     ]
   },
   {
@@ -2450,13 +2450,13 @@
   {
     "name": "ambitious",
     "trans": [
-      "有雄心的"
+      "có tham vọng, đầy khát vọng"
     ]
   },
   {
     "name": "project",
     "trans": [
-      "项目"
+      "dự án"
     ]
   },
   {
@@ -2468,13 +2468,13 @@
   {
     "name": "subtopics",
     "trans": [
-      "小标题"
+      "tiểu đề"
     ]
   },
   {
     "name": "title",
     "trans": [
-      "标题，题目"
+      "tiêu đề"
     ]
   },
   {
@@ -2492,7 +2492,7 @@
   {
     "name": "conclusion",
     "trans": [
-      "结论"
+      "kết luận"
     ]
   },
   {
@@ -2504,25 +2504,25 @@
   {
     "name": "topic",
     "trans": [
-      "话题"
+      "chủ đề; đề tài; câu chuyện"
     ]
   },
   {
     "name": "presentation",
     "trans": [
-      "演讲"
+      "diễn thuyết; bài nói"
     ]
   },
   {
     "name": "background",
     "trans": [
-      "n. 背景"
+      "n. bối cảnh, nền"
     ]
   },
   {
     "name": "example",
     "trans": [
-      "n.例子"
+      "n. ví dụ"
     ]
   },
   {
@@ -2534,7 +2534,7 @@
   {
     "name": "train",
     "trans": [
-      "训练"
+      "v. huấn luyện; tập luyện"
     ]
   },
   {
@@ -2546,7 +2546,7 @@
   {
     "name": "laser",
     "trans": [
-      "激光"
+      "tia laze"
     ]
   },
   {
@@ -2558,19 +2558,19 @@
   {
     "name": "chapter",
     "trans": [
-      "章节"
+      "chương"
     ]
   },
   {
     "name": "report",
     "trans": [
-      "报告"
+      "báo cáo"
     ]
   },
   {
     "name": "introduction",
     "trans": [
-      "介绍"
+      "giới thiệu"
     ]
   },
   {
@@ -2594,31 +2594,31 @@
   {
     "name": "conclusion",
     "trans": [
-      "结论"
+      "kết luận"
     ]
   },
   {
     "name": "reference",
     "trans": [
-      "参考书目"
+      "thư mục"
     ]
   },
   {
     "name": "bibliography",
     "trans": [
-      "参考书目"
+      "thư mục"
     ]
   },
   {
     "name": "title",
     "trans": [
-      "标题"
+      "tiêu đề; nhan đề"
     ]
   },
   {
     "name": "method",
     "trans": [
-      "n.方法"
+      "n. phương pháp"
     ]
   },
   {
@@ -2636,25 +2636,25 @@
   {
     "name": "theory",
     "trans": [
-      "理论"
+      "lý thuyết; lý luận"
     ]
   },
   {
     "name": "theoretical",
     "trans": [
-      "理论的"
+      "lý thuyết, thuộc lý thuyết"
     ]
   },
   {
     "name": "whiteboard",
     "trans": [
-      "白板"
+      "bảng trắng"
     ]
   },
   {
     "name": "aid",
     "trans": [
-      "帮助"
+      "giúp đỡ"
     ]
   },
   {
@@ -2666,7 +2666,7 @@
   {
     "name": "subjective",
     "trans": [
-      "主观的"
+      "chu quan"
     ]
   },
   {
@@ -2684,13 +2684,13 @@
   {
     "name": "oral",
     "trans": [
-      "口头的"
+      "bằng lời nói"
     ]
   },
   {
     "name": "visual",
     "trans": [
-      "视觉的"
+      "thị giác"
     ]
   },
   {
@@ -2708,13 +2708,13 @@
   {
     "name": "audience",
     "trans": [
-      "观众"
+      "khán giả"
     ]
   },
   {
     "name": "finding",
     "trans": [
-      "发现"
+      "khám phá, phát hiện"
     ]
   },
   {
@@ -2726,7 +2726,7 @@
   {
     "name": "departmental",
     "trans": [
-      "部门的"
+      "thuộc bộ phận"
     ]
   },
   {
@@ -2738,25 +2738,25 @@
   {
     "name": "heading",
     "trans": [
-      "标题"
+      "tiêu đề; nhan đề"
     ]
   },
   {
     "name": "strategy",
     "trans": [
-      "战略，策略"
+      "chiến lược, chiến thuật"
     ]
   },
   {
     "name": "outline",
     "trans": [
-      "大纲"
+      "dàn ý"
     ]
   },
   {
     "name": "script",
     "trans": [
-      "手稿"
+      "bản thảo, bản viết tay"
     ]
   },
   {
@@ -2768,19 +2768,19 @@
   {
     "name": "summarize",
     "trans": [
-      "总结"
+      "tổng kết, kết luận"
     ]
   },
   {
     "name": "scientific",
     "trans": [
-      "科学的"
+      "khoa học"
     ]
   },
   {
     "name": "review",
     "trans": [
-      "评论"
+      "bình luận"
     ]
   },
   {
@@ -2804,7 +2804,7 @@
   {
     "name": "reference books",
     "trans": [
-      "参考书"
+      "sách tham khảo"
     ]
   },
   {
@@ -2918,7 +2918,7 @@
   {
     "name": "scientific research",
     "trans": [
-      "科学研究"
+      "nghiên cứu khoa học"
     ]
   },
   {
@@ -2996,13 +2996,13 @@
   {
     "name": "project outline",
     "trans": [
-      "项目大纲"
+      "đề cương dự án"
     ]
   },
   {
     "name": "project work",
     "trans": [
-      "项目"
+      "dự án"
     ]
   },
   {
@@ -3056,7 +3056,7 @@
   {
     "name": "training session",
     "trans": [
-      "培训课程"
+      "khóa huấn luyện, lớp đào tạo"
     ]
   },
   {
@@ -3104,7 +3104,7 @@
   {
     "name": "teaching method",
     "trans": [
-      "教学方法"
+      "phương pháp giảng dạy"
     ]
   },
   {
@@ -3182,7 +3182,7 @@
   {
     "name": "study aids",
     "trans": [
-      "教具"
+      "dụng cụ dạy học"
     ]
   },
   {
@@ -3218,7 +3218,7 @@
   {
     "name": "department store",
     "trans": [
-      "商场"
+      "trung tâm thương mại, cửa hàng"
     ]
   },
   {
@@ -3236,19 +3236,19 @@
   {
     "name": "library",
     "trans": [
-      "图书馆"
+      "thư viện"
     ]
   },
   {
     "name": "librarian",
     "trans": [
-      "图书管理员"
+      "thủ thư, quản thủ viện"
     ]
   },
   {
     "name": "catalog",
     "trans": [
-      "目录"
+      "mục lục, danh mục"
     ]
   },
   {
@@ -3272,43 +3272,43 @@
   {
     "name": "circulation",
     "trans": [
-      "循环"
+      "vòng lặp, chu kỳ"
     ]
   },
   {
     "name": "classification",
     "trans": [
-      "分类"
+      "phân loại"
     ]
   },
   {
     "name": "classify",
     "trans": [
-      "分类"
+      "phân loại"
     ]
   },
   {
     "name": "periodical",
     "trans": [
-      "期刊"
+      "Tạp chí"
     ]
   },
   {
     "name": "reserve",
     "trans": [
-      "预定"
+      "Đặt hàng trước"
     ]
   },
   {
     "name": "internet",
     "trans": [
-      "互联网"
+      "internet"
     ]
   },
   {
     "name": "recall",
     "trans": [
-      "回忆"
+      "ký ức; nhớ lại"
     ]
   },
   {
@@ -3320,25 +3320,25 @@
   {
     "name": "stack",
     "trans": [
-      "堆"
+      "đống; chồng"
     ]
   },
   {
     "name": "circle",
     "trans": [
-      "圆"
+      "hình tròn"
     ]
   },
   {
     "name": "copy",
     "trans": [
-      "复制"
+      "sao chép, sao lại"
     ]
   },
   {
     "name": "photocopy",
     "trans": [
-      "影印，复印"
+      "sao chụp, in sao"
     ]
   },
   {
@@ -3368,7 +3368,7 @@
   {
     "name": "date slip",
     "trans": [
-      "期限"
+      "hạn chót, kỳ hạn"
     ]
   },
   {
@@ -3512,13 +3512,13 @@
   {
     "name": "student",
     "trans": [
-      "学生"
+      "học sinh; sinh viên"
     ]
   },
   {
     "name": "local",
     "trans": [
-      "当地的"
+      "địa phương"
     ]
   },
   {
@@ -3572,7 +3572,7 @@
   {
     "name": "representative",
     "trans": [
-      "n. 代表"
+      "n. đại diện"
     ]
   },
   {
@@ -3584,7 +3584,7 @@
   {
     "name": "master",
     "trans": [
-      "硕士"
+      "thạc sĩ"
     ]
   },
   {
@@ -3608,7 +3608,7 @@
   {
     "name": "postgraduate",
     "trans": [
-      "研究生"
+      "sinh viên sau đại học"
     ]
   },
   {
@@ -3620,13 +3620,13 @@
   {
     "name": "overseas",
     "trans": [
-      "在海外，在国外"
+      "Nước ngoài, nước ngoài"
     ]
   },
   {
     "name": "mature",
     "trans": [
-      "成熟的"
+      "trưởng thành; chín"
     ]
   },
   {
@@ -3644,7 +3644,7 @@
   {
     "name": "certificate",
     "trans": [
-      "证书"
+      "giấy chứng nhận"
     ]
   },
   {
@@ -3662,13 +3662,13 @@
   {
     "name": "permit",
     "trans": [
-      "许可"
+      "cho phép, giấy phép"
     ]
   },
   {
     "name": "licence",
     "trans": [
-      "许可证"
+      "giấy phép"
     ]
   },
   {
@@ -3680,7 +3680,7 @@
   {
     "name": "primary school",
     "trans": [
-      "小学"
+      "tiểu học"
     ]
   },
   {
@@ -3746,7 +3746,7 @@
   {
     "name": "local resident",
     "trans": [
-      "当地居民"
+      "dân cư địa phương"
     ]
   },
   {
@@ -3806,7 +3806,7 @@
   {
     "name": "boarding school",
     "trans": [
-      "寄宿学校"
+      "trường nội trú"
     ]
   },
   {
@@ -3860,19 +3860,19 @@
   {
     "name": "Bachelor's degree",
     "trans": [
-      "学士学位"
+      "bằng cử nhân"
     ]
   },
   {
     "name": "Master's degree",
     "trans": [
-      "硕士学位"
+      "bằng thạc sĩ"
     ]
   },
   {
     "name": "Doctor's degree",
     "trans": [
-      "博士学位"
+      "tiến sĩ"
     ]
   },
   {
@@ -3890,7 +3890,7 @@
   {
     "name": "student support service",
     "trans": [
-      "学生服务"
+      "dịch vụ sinh viên"
     ]
   },
   {
@@ -3962,7 +3962,7 @@
   {
     "name": "biography",
     "trans": [
-      "传记"
+      "tiểu sử"
     ]
   },
   {
@@ -3980,19 +3980,19 @@
   {
     "name": "booklet",
     "trans": [
-      "小册子"
+      "tập sách nhỏ, sổ tay"
     ]
   },
   {
     "name": "brochure",
     "trans": [
-      "小册子"
+      "tập sách nhỏ, sổ tay"
     ]
   },
   {
     "name": "notebook",
     "trans": [
-      "笔记本"
+      "sổ tay, vở ghi chép"
     ]
   },
   {
@@ -4010,13 +4010,13 @@
   {
     "name": "text",
     "trans": [
-      "文本"
+      "van ban"
     ]
   },
   {
     "name": "passage",
     "trans": [
-      "文章"
+      "bài viết; bài báo"
     ]
   },
   {
@@ -4034,13 +4034,13 @@
   {
     "name": "institute",
     "trans": [
-      "学院"
+      "viện, học viện"
     ]
   },
   {
     "name": "academic",
     "trans": [
-      "学术的"
+      "học thuật"
     ]
   },
   {
@@ -4052,13 +4052,13 @@
   {
     "name": "journal",
     "trans": [
-      "期刊"
+      "Tạp chí"
     ]
   },
   {
     "name": "introduction",
     "trans": [
-      "介绍"
+      "giới thiệu"
     ]
   },
   {
@@ -4070,7 +4070,7 @@
   {
     "name": "handout",
     "trans": [
-      "讲义"
+      "bài giảng"
     ]
   },
   {
@@ -4082,13 +4082,13 @@
   {
     "name": "article",
     "trans": [
-      "n. 文章"
+      "n. bài báo, bài viết"
     ]
   },
   {
     "name": "encyclopedia",
     "trans": [
-      "百科全书"
+      "bách khoa toàn thư"
     ]
   },
   {
@@ -4100,7 +4100,7 @@
   {
     "name": "newspaper",
     "trans": [
-      "报纸"
+      "báo"
     ]
   },
   {
@@ -4118,13 +4118,13 @@
   {
     "name": "version",
     "trans": [
-      "版本"
+      "phiên bản; ấn phẩm"
     ]
   },
   {
     "name": "editor",
     "trans": [
-      "编辑"
+      "v. biên tập; n. biên tập viên"
     ]
   },
   {
@@ -4142,7 +4142,7 @@
   {
     "name": "print",
     "trans": [
-      "打印"
+      "in; in ấn"
     ]
   },
   {
@@ -4160,43 +4160,43 @@
   {
     "name": "printing",
     "trans": [
-      "打印"
+      "in; in ấn"
     ]
   },
   {
     "name": "book",
     "trans": [
-      "书"
+      "sách"
     ]
   },
   {
     "name": "bookshop",
     "trans": [
-      "书店"
+      "tiệm sách, hiệu sách"
     ]
   },
   {
     "name": "bookshelf",
     "trans": [
-      "书架"
+      "kệ sách"
     ]
   },
   {
     "name": "opera",
     "trans": [
-      "歌剧"
+      "tuồn opera, nhạc kịch"
     ]
   },
   {
     "name": "novel",
     "trans": [
-      "小说"
+      "tiểu thuyết"
     ]
   },
   {
     "name": "format",
     "trans": [
-      "格式"
+      "định dạng"
     ]
   },
   {
@@ -4244,7 +4244,7 @@
   {
     "name": "academic report",
     "trans": [
-      "学术报告"
+      "bài báo học thuật"
     ]
   },
   {
@@ -4298,13 +4298,13 @@
   {
     "name": "laser printing",
     "trans": [
-      "激光打印"
+      "in bằng laser"
     ]
   },
   {
     "name": "structure",
     "trans": [
-      "结构"
+      "cau truc"
     ]
   },
   {
@@ -4328,13 +4328,13 @@
   {
     "name": "direction",
     "trans": [
-      "方向"
+      "hướng, phương hướng"
     ]
   },
   {
     "name": "monument",
     "trans": [
-      "纪念碑"
+      "bia tưởng niệm; đài kỷ niệm"
     ]
   },
   {
@@ -4346,19 +4346,19 @@
   {
     "name": "boiler",
     "trans": [
-      "锅炉"
+      "nồi hơi"
     ]
   },
   {
     "name": "instinct",
     "trans": [
-      "本能"
+      "bản năng"
     ]
   },
   {
     "name": "reward",
     "trans": [
-      "回报"
+      "đền đáp, hoàn lại"
     ]
   },
   {
@@ -4382,13 +4382,13 @@
   {
     "name": "oyster",
     "trans": [
-      "牡蛎"
+      "hàu"
     ]
   },
   {
     "name": "expectation",
     "trans": [
-      "期望"
+      "mong đợi"
     ]
   },
   {
@@ -4400,7 +4400,7 @@
   {
     "name": "incident",
     "trans": [
-      "n. 事件"
+      "n. sự việc, sự cố"
     ]
   },
   {
@@ -4412,25 +4412,25 @@
   {
     "name": "trust",
     "trans": [
-      "相信，信任"
+      "tin, tin tưởng"
     ]
   },
   {
     "name": "leader",
     "trans": [
-      "领导"
+      "lãnh đạo, dẫn dắt"
     ]
   },
   {
     "name": "shape",
     "trans": [
-      "形状"
+      "n. hình dạng, hình thù"
     ]
   },
   {
     "name": "democratic",
     "trans": [
-      "民主的"
+      "dân chủ"
     ]
   },
   {
@@ -4442,37 +4442,37 @@
   {
     "name": "panel",
     "trans": [
-      "面板"
+      "bảng; tấm"
     ]
   },
   {
     "name": "translation",
     "trans": [
-      "翻译"
+      "dịch; phiên dịch; người dịch"
     ]
   },
   {
     "name": "humor",
     "trans": [
-      "幽默"
+      "hài hước"
     ]
   },
   {
     "name": "odor",
     "trans": [
-      "气味"
+      "n. mùi, mùi thơm"
     ]
   },
   {
     "name": "immigrant",
     "trans": [
-      "移民"
+      "nhập cư"
     ]
   },
   {
     "name": "immigration",
     "trans": [
-      "移民"
+      "nhập cư"
     ]
   },
   {
@@ -4490,7 +4490,7 @@
   {
     "name": "complex",
     "trans": [
-      "复杂的"
+      "phức tạp, rắc rối"
     ]
   },
   {
@@ -4502,61 +4502,61 @@
   {
     "name": "cosmetics",
     "trans": [
-      "化妆品"
+      "mỹ phẩm; đồ trang điểm"
     ]
   },
   {
     "name": "perfume",
     "trans": [
-      "香水"
+      "nước hoa"
     ]
   },
   {
     "name": "pirate",
     "trans": [
-      "海盗"
+      "cướp biển"
     ]
   },
   {
     "name": "aspiration",
     "trans": [
-      "渴望"
+      "khao khát, mong muốn"
     ]
   },
   {
     "name": "template",
     "trans": [
-      "模板，样板"
+      "mẫu; bản mẫu"
     ]
   },
   {
     "name": "vision",
     "trans": [
-      "视力"
+      "thị lực"
     ]
   },
   {
     "name": "bag",
     "trans": [
-      "包"
+      "túi; gói"
     ]
   },
   {
     "name": "napkin",
     "trans": [
-      "纸巾"
+      "khăn giấy"
     ]
   },
   {
     "name": "partner",
     "trans": [
-      "伙伴"
+      "đối tác; bạn"
     ]
   },
   {
     "name": "correct",
     "trans": [
-      "正确的"
+      "đúng, chính xác"
     ]
   },
   {
@@ -4574,25 +4574,25 @@
   {
     "name": "reluctant",
     "trans": [
-      "不情愿的"
+      "miễn cưỡng, không sẵn lòng"
     ]
   },
   {
     "name": "shock",
     "trans": [
-      "震惊"
+      "n. sự chấn động; v. làm kinh ngạc"
     ]
   },
   {
     "name": "disorder",
     "trans": [
-      "混乱"
+      "hỗn loạn"
     ]
   },
   {
     "name": "disguise",
     "trans": [
-      "伪装"
+      "lốt đeo"
     ]
   },
   {
@@ -4622,49 +4622,49 @@
   {
     "name": "purchase",
     "trans": [
-      "购买"
+      "mua; mua sắm"
     ]
   },
   {
     "name": "agricultural",
     "trans": [
-      "农业的"
+      "nông nghiệp"
     ]
   },
   {
     "name": "agriculture",
     "trans": [
-      "农业"
+      "nông nghiệp"
     ]
   },
   {
     "name": "pesticide",
     "trans": [
-      "杀虫剂"
+      "thuốc trừ sâu"
     ]
   },
   {
     "name": "contribution",
     "trans": [
-      "贡献"
+      "đóng góp, góp phần"
     ]
   },
   {
     "name": "control",
     "trans": [
-      "控制"
+      "kiểm soát, khống chế"
     ]
   },
   {
     "name": "extreme",
     "trans": [
-      "极端的"
+      "cực đoan, cực đoan nhất"
     ]
   },
   {
     "name": "poverty",
     "trans": [
-      "贫穷"
+      "nghèo; nghèo khó"
     ]
   },
   {
@@ -4682,19 +4682,19 @@
   {
     "name": "barrier",
     "trans": [
-      "障碍"
+      "rào cản; trở ngại"
     ]
   },
   {
     "name": "crew",
     "trans": [
-      "船员"
+      "thuyền viên, thủy thủ"
     ]
   },
   {
     "name": "guideline",
     "trans": [
-      "指导"
+      "hướng dẫn; chỉ đạo"
     ]
   },
   {
@@ -4706,13 +4706,13 @@
   {
     "name": "herbivorous",
     "trans": [
-      "食草的"
+      "ăn cỏ, ăn thực vật"
     ]
   },
   {
     "name": "tongue",
     "trans": [
-      "舌头"
+      "lưỡi"
     ]
   },
   {
@@ -4730,7 +4730,7 @@
   {
     "name": "ax",
     "trans": [
-      "斧子"
+      "rìu"
     ]
   },
   {
@@ -4742,7 +4742,7 @@
   {
     "name": "soldier",
     "trans": [
-      "士兵"
+      "n. lính, quân nhân"
     ]
   },
   {
@@ -4760,7 +4760,7 @@
   {
     "name": "skyscraper",
     "trans": [
-      "摩天大楼"
+      "tòa nhà chọc trời"
     ]
   },
   {
@@ -4790,13 +4790,13 @@
   {
     "name": "motivation",
     "trans": [
-      "动机"
+      "động cơ; lý do, động lực"
     ]
   },
   {
     "name": "reaction",
     "trans": [
-      "反应"
+      "phản ứng"
     ]
   },
   {
@@ -4808,7 +4808,7 @@
   {
     "name": "quick",
     "trans": [
-      "快的"
+      "nhanh; nhanh nhẹn"
     ]
   },
   {
@@ -4820,19 +4820,19 @@
   {
     "name": "calculator",
     "trans": [
-      "计算器"
+      "máy tính"
     ]
   },
   {
     "name": "box",
     "trans": [
-      "盒子"
+      "hộp"
     ]
   },
   {
     "name": "request",
     "trans": [
-      "要求"
+      "yêu cầu, đòi hỏi"
     ]
   },
   {
@@ -4850,13 +4850,13 @@
   {
     "name": "apology",
     "trans": [
-      "道歉"
+      "xin lỗi"
     ]
   },
   {
     "name": "entire",
     "trans": [
-      "整个的"
+      "adj. toàn bộ; cả"
     ]
   },
   {
@@ -4874,7 +4874,7 @@
   {
     "name": "sustainable",
     "trans": [
-      "可持续的"
+      "bền vững"
     ]
   },
   {
@@ -4898,7 +4898,7 @@
   {
     "name": "pause",
     "trans": [
-      "暂停"
+      "tạm dừng"
     ]
   },
   {
@@ -4916,7 +4916,7 @@
   {
     "name": "crowded",
     "trans": [
-      "拥挤的"
+      "chật chội; đông đúc"
     ]
   },
   {
@@ -4928,19 +4928,19 @@
   {
     "name": "nightmare",
     "trans": [
-      "噩梦"
+      "ác mộng"
     ]
   },
   {
     "name": "retail",
     "trans": [
-      "零售"
+      "bán lẻ"
     ]
   },
   {
     "name": "wholesale",
     "trans": [
-      "批发"
+      "bán buôn, bán sỉ"
     ]
   },
   {
@@ -4952,55 +4952,55 @@
   {
     "name": "mission",
     "trans": [
-      "任务"
+      "nhiệm vụ; công tác"
     ]
   },
   {
     "name": "comprehension",
     "trans": [
-      "理解"
+      "hiểu, hiểu biết"
     ]
   },
   {
     "name": "port",
     "trans": [
-      "港口"
+      "cảng biển; cảng"
     ]
   },
   {
     "name": "leg",
     "trans": [
-      "腿"
+      "chân"
     ]
   },
   {
     "name": "aisle",
     "trans": [
-      "过道"
+      "lối đi, hành lang"
     ]
   },
   {
     "name": "highway",
     "trans": [
-      "公路"
+      "đường cao tốc"
     ]
   },
   {
     "name": "digestion",
     "trans": [
-      "消化"
+      "tiêu hoá"
     ]
   },
   {
     "name": "target",
     "trans": [
-      "目标"
+      "mục tiêu, chỉ tiêu"
     ]
   },
   {
     "name": "job",
     "trans": [
-      "工作"
+      "làm việc; công việc"
     ]
   },
   {
@@ -5018,31 +5018,31 @@
   {
     "name": "drought",
     "trans": [
-      "干旱"
+      "n. hạn hán; khô cạn"
     ]
   },
   {
     "name": "gravity",
     "trans": [
-      "重力"
+      "trọng lực; lực hút"
     ]
   },
   {
     "name": "container",
     "trans": [
-      "容器"
+      "thùng chứa, bình chứa"
     ]
   },
   {
     "name": "lid",
     "trans": [
-      "盖子"
+      "nắp; vung, đậy"
     ]
   },
   {
     "name": "warning",
     "trans": [
-      "警告"
+      "cảnh báo, lời cảnh cáo"
     ]
   },
   {
@@ -5054,19 +5054,19 @@
   {
     "name": "product",
     "trans": [
-      "产品"
+      "sản phẩm"
     ]
   },
   {
     "name": "production",
     "trans": [
-      "生产"
+      "sản xuất"
     ]
   },
   {
     "name": "concentrate",
     "trans": [
-      "集中"
+      "tập trung, gom"
     ]
   },
   {
@@ -5078,43 +5078,43 @@
   {
     "name": "basin",
     "trans": [
-      "盆地"
+      "lưu vực; chậu"
     ]
   },
   {
     "name": "tail",
     "trans": [
-      "尾巴"
+      "duoi"
     ]
   },
   {
     "name": "tale",
     "trans": [
-      "故事"
+      "cau chuyen"
     ]
   },
   {
     "name": "earth",
     "trans": [
-      "地球"
+      "n. Trái Đất; quả địa cầu"
     ]
   },
   {
     "name": "arrow",
     "trans": [
-      "箭头"
+      "mũi tên"
     ]
   },
   {
     "name": "spear",
     "trans": [
-      "矛"
+      "giáo"
     ]
   },
   {
     "name": "slow",
     "trans": [
-      "慢的"
+      "adj. chậm, chậm rãi"
     ]
   },
   {
@@ -5126,13 +5126,13 @@
   {
     "name": "ink",
     "trans": [
-      "墨水"
+      "mực"
     ]
   },
   {
     "name": "cartridge",
     "trans": [
-      "盒子"
+      "hộp"
     ]
   },
   {
@@ -5150,7 +5150,7 @@
   {
     "name": "nesting",
     "trans": [
-      "筑巢"
+      "xây tổ"
     ]
   },
   {
@@ -5162,13 +5162,13 @@
   {
     "name": "fresh",
     "trans": [
-      "新鲜的"
+      "tươi mới"
     ]
   },
   {
     "name": "challenge",
     "trans": [
-      "挑战"
+      "thử thách"
     ]
   },
   {
@@ -5186,55 +5186,55 @@
   {
     "name": "obstacle",
     "trans": [
-      "障碍"
+      "rào cản; trở ngại"
     ]
   },
   {
     "name": "gas",
     "trans": [
-      "气体"
+      "khí"
     ]
   },
   {
     "name": "liquid",
     "trans": [
-      "液体的"
+      "lỏng, thuộc thể lỏng"
     ]
   },
   {
     "name": "solid",
     "trans": [
-      "固体"
+      "chất rắn"
     ]
   },
   {
     "name": "fluid",
     "trans": [
-      "流体"
+      "chất lỏng chảy"
     ]
   },
   {
     "name": "stimulation",
     "trans": [
-      "刺激"
+      "kich thich"
     ]
   },
   {
     "name": "simulation",
     "trans": [
-      "模拟"
+      "mo phong"
     ]
   },
   {
     "name": "passive",
     "trans": [
-      "被动的"
+      "bị động"
     ]
   },
   {
     "name": "active",
     "trans": [
-      "主动的"
+      "chủ động"
     ]
   },
   {
@@ -5252,7 +5252,7 @@
   {
     "name": "cloud",
     "trans": [
-      "云"
+      "mây"
     ]
   },
   {
@@ -5264,13 +5264,13 @@
   {
     "name": "limit",
     "trans": [
-      "限制"
+      "hạn chế; giới hạn"
     ]
   },
   {
     "name": "limitation",
     "trans": [
-      "限制"
+      "hạn chế; giới hạn"
     ]
   },
   {
@@ -5282,25 +5282,25 @@
   {
     "name": "rival",
     "trans": [
-      "对手"
+      "đối thủ; đối thủ"
     ]
   },
   {
     "name": "acceptable",
     "trans": [
-      "可接受的"
+      "có thể chấp nhận"
     ]
   },
   {
     "name": "clay",
     "trans": [
-      "黏土"
+      "đất sét"
     ]
   },
   {
     "name": "chalk",
     "trans": [
-      "粉笔"
+      "phấn viết"
     ]
   },
   {
@@ -5336,7 +5336,7 @@
   {
     "name": "coin",
     "trans": [
-      "硬币"
+      "đồng tiền, tiền xu"
     ]
   },
   {
@@ -5360,7 +5360,7 @@
   {
     "name": "slave",
     "trans": [
-      "奴隶"
+      "nô lệ"
     ]
   },
   {
@@ -5378,31 +5378,31 @@
   {
     "name": "torch",
     "trans": [
-      "火炬"
+      "đuốc"
     ]
   },
   {
     "name": "fear",
     "trans": [
-      "害怕"
+      "sợ"
     ]
   },
   {
     "name": "shock",
     "trans": [
-      "震惊"
+      "n. sự chấn động; v. làm kinh ngạc"
     ]
   },
   {
     "name": "foundation",
     "trans": [
-      "基础"
+      "nền tảng; cơ sở"
     ]
   },
   {
     "name": "wood",
     "trans": [
-      "木头"
+      "gỗ"
     ]
   },
   {
@@ -5414,43 +5414,43 @@
   {
     "name": "proposal",
     "trans": [
-      "建议"
+      "đề nghị, khuyến nghị"
     ]
   },
   {
     "name": "rocket",
     "trans": [
-      "火箭"
+      "tên lửa"
     ]
   },
   {
     "name": "brain",
     "trans": [
-      "大脑"
+      "não, não bộ"
     ]
   },
   {
     "name": "morale",
     "trans": [
-      "士气"
+      "sĩ khí, tinh thần"
     ]
   },
   {
     "name": "extinction",
     "trans": [
-      "灭绝"
+      "v. tuyệt chủng; tiêu diệt"
     ]
   },
   {
     "name": "fuel",
     "trans": [
-      "燃料"
+      "nhiên liệu"
     ]
   },
   {
     "name": "immediately",
     "trans": [
-      "立刻，马上"
+      "ngay; tức thì"
     ]
   },
   {
@@ -5462,7 +5462,7 @@
   {
     "name": "committee",
     "trans": [
-      "委员会"
+      "ủy ban"
     ]
   },
   {
@@ -5474,37 +5474,37 @@
   {
     "name": "portable",
     "trans": [
-      "便携的"
+      "cầm tay"
     ]
   },
   {
     "name": "young",
     "trans": [
-      "年轻的"
+      "trẻ"
     ]
   },
   {
     "name": "change",
     "trans": [
-      "变化"
+      "thay đổi, biến đổi"
     ]
   },
   {
     "name": "comparison",
     "trans": [
-      "比较"
+      "so sánh"
     ]
   },
   {
     "name": "inhabitant",
     "trans": [
-      "居民"
+      "cư dân; dân cư"
     ]
   },
   {
     "name": "habitat",
     "trans": [
-      "栖息地"
+      "môi trường sống; nơi cư trú"
     ]
   },
   {
@@ -5516,37 +5516,37 @@
   {
     "name": "interaction",
     "trans": [
-      "互动"
+      "tương tác"
     ]
   },
   {
     "name": "storm",
     "trans": [
-      "风暴"
+      "bao"
     ]
   },
   {
     "name": "seed",
     "trans": [
-      "种子"
+      "n. hạt giống, hạt"
     ]
   },
   {
     "name": "barrier",
     "trans": [
-      "障碍"
+      "rào cản; trở ngại"
     ]
   },
   {
     "name": "trash",
     "trans": [
-      "垃圾"
+      "rác"
     ]
   },
   {
     "name": "firewood",
     "trans": [
-      "柴火"
+      "củi, than"
     ]
   },
   {
@@ -5558,13 +5558,13 @@
   {
     "name": "demand",
     "trans": [
-      "要求"
+      "yêu cầu, đòi hỏi"
     ]
   },
   {
     "name": "outcome",
     "trans": [
-      "后果"
+      "hậu quả"
     ]
   },
   {
@@ -5612,19 +5612,19 @@
   {
     "name": "rainbow",
     "trans": [
-      "彩虹"
+      "cầu vồng"
     ]
   },
   {
     "name": "prison",
     "trans": [
-      "监狱"
+      "nhà tù"
     ]
   },
   {
     "name": "disappear",
     "trans": [
-      "消失"
+      "biến mất"
     ]
   },
   {
@@ -5654,13 +5654,13 @@
   {
     "name": "machinery",
     "trans": [
-      "机械"
+      "máy móc, thiết bị cơ khí"
     ]
   },
   {
     "name": "coconut",
     "trans": [
-      "椰子"
+      "dừa"
     ]
   },
   {
@@ -5672,49 +5672,49 @@
   {
     "name": "collection",
     "trans": [
-      "收集"
+      "thu thập, gom góp"
     ]
   },
   {
     "name": "powder",
     "trans": [
-      "粉末"
+      "bột; bụi"
     ]
   },
   {
     "name": "participation",
     "trans": [
-      "参加"
+      "tham dự"
     ]
   },
   {
     "name": "participant",
     "trans": [
-      "参加者"
+      "người tham gia"
     ]
   },
   {
     "name": "remember",
     "trans": [
-      "记住"
+      "nhớ lại"
     ]
   },
   {
     "name": "compete",
     "trans": [
-      "竞争"
+      "cạnh tranh"
     ]
   },
   {
     "name": "competition",
     "trans": [
-      "竞争"
+      "cạnh tranh"
     ]
   },
   {
     "name": "increase",
     "trans": [
-      "提升"
+      "nâng lên; thăng chức; cải thiện"
     ]
   },
   {
@@ -5726,25 +5726,25 @@
   {
     "name": "decrease",
     "trans": [
-      "下降"
+      "giảm, sụt"
     ]
   },
   {
     "name": "memory",
     "trans": [
-      "记忆"
+      "ký ức; trí nhớ"
     ]
   },
   {
     "name": "pest",
     "trans": [
-      "害虫"
+      "sâu hại"
     ]
   },
   {
     "name": "tag",
     "trans": [
-      "标签"
+      "nhãn; nhãn dán"
     ]
   },
   {
@@ -5756,25 +5756,25 @@
   {
     "name": "gift",
     "trans": [
-      "礼物"
+      "món quà"
     ]
   },
   {
     "name": "display",
     "trans": [
-      "展示"
+      "trưng bày, triển lãm"
     ]
   },
   {
     "name": "firework",
     "trans": [
-      "烟花"
+      "pháo hoa"
     ]
   },
   {
     "name": "venue",
     "trans": [
-      "地点"
+      "n. địa điểm, nơi chốn"
     ]
   },
   {
@@ -5786,13 +5786,13 @@
   {
     "name": "dance",
     "trans": [
-      "舞蹈"
+      "nhảy, điệu nhảy"
     ]
   },
   {
     "name": "file",
     "trans": [
-      "文件"
+      "tài liệu, văn bản"
     ]
   },
   {
@@ -5804,7 +5804,7 @@
   {
     "name": "nationality",
     "trans": [
-      "国籍"
+      "quốc tịch"
     ]
   },
   {
@@ -5816,7 +5816,7 @@
   {
     "name": "automatic",
     "trans": [
-      "自动的"
+      "tự động"
     ]
   },
   {
@@ -5846,13 +5846,13 @@
   {
     "name": "cigar",
     "trans": [
-      "雪茄"
+      "xì gà"
     ]
   },
   {
     "name": "inside",
     "trans": [
-      "内部"
+      "ben trong"
     ]
   },
   {
@@ -5864,13 +5864,13 @@
   {
     "name": "scene",
     "trans": [
-      "景色"
+      "phong cảnh"
     ]
   },
   {
     "name": "software",
     "trans": [
-      "软件"
+      "phần mềm"
     ]
   },
   {
@@ -5906,19 +5906,19 @@
   {
     "name": "leather",
     "trans": [
-      "皮革"
+      "da"
     ]
   },
   {
     "name": "antique",
     "trans": [
-      "古董"
+      "cổ vật, đồ cổ"
     ]
   },
   {
     "name": "brush",
     "trans": [
-      "刷子"
+      "bàn chải"
     ]
   },
   {
@@ -5930,13 +5930,13 @@
   {
     "name": "confident",
     "trans": [
-      "自信的"
+      "tự tin; có tự tin; tin tưởng bản thân"
     ]
   },
   {
     "name": "sing",
     "trans": [
-      "唱歌"
+      "hát"
     ]
   },
   {
@@ -5948,31 +5948,31 @@
   {
     "name": "singing",
     "trans": [
-      "唱歌"
+      "hát"
     ]
   },
   {
     "name": "voice",
     "trans": [
-      "声音"
+      "n. âm thanh, tiếng, giọng nói"
     ]
   },
   {
     "name": "excellent",
     "trans": [
-      "优秀的"
+      "adj. xuất sắc; tuyệt vời"
     ]
   },
   {
     "name": "hill",
     "trans": [
-      "小山"
+      "đồi"
     ]
   },
   {
     "name": "indoor",
     "trans": [
-      "室内"
+      "trong nhà; ở trong phòng"
     ]
   },
   {
@@ -5984,7 +5984,7 @@
   {
     "name": "mask",
     "trans": [
-      "面具"
+      "mặt nạ"
     ]
   },
   {
@@ -5996,25 +5996,25 @@
   {
     "name": "quiet",
     "trans": [
-      "安静的"
+      "yên tĩnh; lặng lẽ"
     ]
   },
   {
     "name": "facility",
     "trans": [
-      "设施"
+      "n. cơ sở; thiết bị"
     ]
   },
   {
     "name": "laptop",
     "trans": [
-      "笔记本电脑"
+      "máy tính xách tay"
     ]
   },
   {
     "name": "microphone",
     "trans": [
-      "麦克风"
+      "micro"
     ]
   },
   {
@@ -6038,43 +6038,43 @@
   {
     "name": "modern",
     "trans": [
-      "现代的"
+      "hiện đại, đương đại"
     ]
   },
   {
     "name": "achievement",
     "trans": [
-      "成功"
+      "thành công"
     ]
   },
   {
     "name": "sentence",
     "trans": [
-      "句子"
+      "n. câu, câu văn"
     ]
   },
   {
     "name": "monologue",
     "trans": [
-      "独白"
+      "độc thoại"
     ]
   },
   {
     "name": "understanding",
     "trans": [
-      "理解"
+      "hiểu, hiểu biết"
     ]
   },
   {
     "name": "understand",
     "trans": [
-      "理解"
+      "hiểu, hiểu biết"
     ]
   },
   {
     "name": "recommendation",
     "trans": [
-      "推荐"
+      "giới thiệu; đề xuất"
     ]
   },
   {
@@ -6104,7 +6104,7 @@
   {
     "name": "meeting",
     "trans": [
-      "会议"
+      "cuộc họp, hội nghị"
     ]
   },
   {
@@ -6140,25 +6140,25 @@
   {
     "name": "significant",
     "trans": [
-      "重要的"
+      "quan trọng"
     ]
   },
   {
     "name": "important",
     "trans": [
-      "重要的"
+      "quan trọng"
     ]
   },
   {
     "name": "unimportant",
     "trans": [
-      "不重要的"
+      "không quan trọng, vô nghĩa"
     ]
   },
   {
     "name": "detail",
     "trans": [
-      "细节"
+      "chi tiết"
     ]
   },
   {
@@ -6170,7 +6170,7 @@
   {
     "name": "material",
     "trans": [
-      "材料"
+      "vật liệu; nguyên liệu"
     ]
   },
   {
@@ -6182,7 +6182,7 @@
   {
     "name": "public",
     "trans": [
-      "公共的"
+      "công cộng; công ích; chung"
     ]
   },
   {
@@ -6194,7 +6194,7 @@
   {
     "name": "music",
     "trans": [
-      "音乐"
+      "âm nhạc; nhạc"
     ]
   },
   {
@@ -6230,13 +6230,13 @@
   {
     "name": "spirit",
     "trans": [
-      "精神"
+      "tinh than"
     ]
   },
   {
     "name": "spiritual",
     "trans": [
-      "精神的"
+      "tinh thần; tâm lý"
     ]
   },
   {
@@ -6260,31 +6260,31 @@
   {
     "name": "equipment",
     "trans": [
-      "设备"
+      "thiết bị, máy móc"
     ]
   },
   {
     "name": "central",
     "trans": [
-      "中央的"
+      "ở giữa, thuộc về trung tâm"
     ]
   },
   {
     "name": "culture",
     "trans": [
-      "文化"
+      "văn hóa"
     ]
   },
   {
     "name": "cultural",
     "trans": [
-      "文化的"
+      "văn hóa"
     ]
   },
   {
     "name": "quality",
     "trans": [
-      "质量"
+      "chất lượng; khối lượng"
     ]
   },
   {
@@ -6296,7 +6296,7 @@
   {
     "name": "support",
     "trans": [
-      "支持"
+      "ho tro"
     ]
   },
   {
@@ -6308,7 +6308,7 @@
   {
     "name": "clarity",
     "trans": [
-      "清楚"
+      "rõ ràng, minh bạch"
     ]
   },
   {
@@ -6326,25 +6326,25 @@
   {
     "name": "service",
     "trans": [
-      "服务"
+      "n. dịch vụ; v. phục vụ, phụng sự"
     ]
   },
   {
     "name": "practical",
     "trans": [
-      "实际的"
+      "thực tế; cụ thể"
     ]
   },
   {
     "name": "standard",
     "trans": [
-      "标准"
+      "tiêu chuẩn, chuẩn mực"
     ]
   },
   {
     "name": "choice",
     "trans": [
-      "选择"
+      "sự lựa chọn; chọn, lựa"
     ]
   },
   {
@@ -6356,7 +6356,7 @@
   {
     "name": "option",
     "trans": [
-      "选择"
+      "sự lựa chọn; chọn, lựa"
     ]
   },
   {
@@ -6374,13 +6374,13 @@
   {
     "name": "profession",
     "trans": [
-      "职业"
+      "nghề nghiệp"
     ]
   },
   {
     "name": "professional",
     "trans": [
-      "专业的"
+      "chuyên nghiệp"
     ]
   },
   {
@@ -6392,13 +6392,13 @@
   {
     "name": "occupation",
     "trans": [
-      "职业"
+      "nghề nghiệp"
     ]
   },
   {
     "name": "experiment",
     "trans": [
-      "实验"
+      "n. thí nghiệm; việc thử nghiệm"
     ]
   },
   {
@@ -6410,25 +6410,25 @@
   {
     "name": "suggestion",
     "trans": [
-      "建议"
+      "đề nghị, khuyến nghị"
     ]
   },
   {
     "name": "communication",
     "trans": [
-      "交流"
+      "giao tiếp, trao đổi"
     ]
   },
   {
     "name": "international",
     "trans": [
-      "国际的"
+      "quốc tế"
     ]
   },
   {
     "name": "issue",
     "trans": [
-      "问题"
+      "vấn đề; câu hỏi"
     ]
   },
   {
@@ -6440,7 +6440,7 @@
   {
     "name": "distance",
     "trans": [
-      "距离"
+      "khoảng cách"
     ]
   },
   {
@@ -6452,19 +6452,19 @@
   {
     "name": "smooth",
     "trans": [
-      "光滑的"
+      "nhẵn nhụi, trơn tru"
     ]
   },
   {
     "name": "vocabulary",
     "trans": [
-      "词汇"
+      "từ vựng"
     ]
   },
   {
     "name": "common",
     "trans": [
-      "普通的"
+      "thường; bình thường"
     ]
   },
   {
@@ -6488,13 +6488,13 @@
   {
     "name": "field",
     "trans": [
-      "领域"
+      "lĩnh vực, phạm vi"
     ]
   },
   {
     "name": "prepare",
     "trans": [
-      "准备"
+      "chuẩn bị; sẵn sàng"
     ]
   },
   {
@@ -6506,13 +6506,13 @@
   {
     "name": "completed",
     "trans": [
-      "完全的"
+      "hoàn toàn; toàn vẹn"
     ]
   },
   {
     "name": "auditorium",
     "trans": [
-      "礼堂"
+      "hội trường"
     ]
   },
   {
@@ -6530,7 +6530,7 @@
   {
     "name": "aim",
     "trans": [
-      "目的"
+      "mục đích; mục tiêu"
     ]
   },
   {
@@ -6542,13 +6542,13 @@
   {
     "name": "resource",
     "trans": [
-      "资源"
+      "tài nguyên"
     ]
   },
   {
     "name": "protect",
     "trans": [
-      "保护"
+      "bảo vệ, giữ gìn"
     ]
   },
   {
@@ -6560,49 +6560,49 @@
   {
     "name": "protection",
     "trans": [
-      "保护"
+      "bảo vệ, giữ gìn"
     ]
   },
   {
     "name": "nursing",
     "trans": [
-      "护理"
+      "sự chăm sóc"
     ]
   },
   {
     "name": "nursery",
     "trans": [
-      "幼儿园"
+      "trường mẫu giáo"
     ]
   },
   {
     "name": "lab",
     "trans": [
-      "实验室"
+      "phòng thí nghiệm"
     ]
   },
   {
     "name": "laboratory",
     "trans": [
-      "实验室"
+      "phòng thí nghiệm"
     ]
   },
   {
     "name": "guidance",
     "trans": [
-      "指导"
+      "hướng dẫn; chỉ đạo"
     ]
   },
   {
     "name": "speech",
     "trans": [
-      "演讲"
+      "diễn thuyết; bài nói"
     ]
   },
   {
     "name": "reserve",
     "trans": [
-      "预定"
+      "Đặt hàng trước"
     ]
   },
   {
@@ -6614,31 +6614,31 @@
   {
     "name": "booking",
     "trans": [
-      "预定"
+      "Đặt hàng trước"
     ]
   },
   {
     "name": "thinking",
     "trans": [
-      "思考"
+      "suy nghĩ; suy tư"
     ]
   },
   {
     "name": "drama",
     "trans": [
-      "戏剧"
+      "n. kịch; tuồng"
     ]
   },
   {
     "name": "style",
     "trans": [
-      "风格"
+      "phong cach"
     ]
   },
   {
     "name": "source",
     "trans": [
-      "来源"
+      "n. nguồn gốc, nguồn"
     ]
   },
   {
@@ -6650,13 +6650,13 @@
   {
     "name": "sign",
     "trans": [
-      "标记"
+      "dấu hiệu, nhãn hiệu"
     ]
   },
   {
     "name": "signature",
     "trans": [
-      "签名"
+      "n. chữ ký; v. ký tên"
     ]
   },
   {
@@ -6668,13 +6668,13 @@
   {
     "name": "solve",
     "trans": [
-      "解决"
+      "giải quyết"
     ]
   },
   {
     "name": "solution",
     "trans": [
-      "解决方案"
+      "giải pháp"
     ]
   },
   {
@@ -6686,13 +6686,13 @@
   {
     "name": "survive",
     "trans": [
-      "生存"
+      "song"
     ]
   },
   {
     "name": "survival",
     "trans": [
-      "生存"
+      "song"
     ]
   },
   {
@@ -6704,13 +6704,13 @@
   {
     "name": "information",
     "trans": [
-      "信息"
+      "thông tin"
     ]
   },
   {
     "name": "accessible",
     "trans": [
-      "可接近的"
+      "dễ tiếp cận"
     ]
   },
   {
@@ -6722,19 +6722,19 @@
   {
     "name": "university",
     "trans": [
-      "大学"
+      "đại học; trường đại học"
     ]
   },
   {
     "name": "update",
     "trans": [
-      "更新"
+      "cập nhật; làm mới; cải tổ"
     ]
   },
   {
     "name": "center",
     "trans": [
-      "中心"
+      "trung tâm, trung tâm"
     ]
   },
   {
@@ -6746,31 +6746,31 @@
   {
     "name": "investigation",
     "trans": [
-      "调查"
+      "điều tra; khảo sát"
     ]
   },
   {
     "name": "similar",
     "trans": [
-      "相似的"
+      "tương tự, giống nhau"
     ]
   },
   {
     "name": "familiar",
     "trans": [
-      "熟悉的"
+      "quen; quen thuộc"
     ]
   },
   {
     "name": "laboratory",
     "trans": [
-      "实验室"
+      "phòng thí nghiệm"
     ]
   },
   {
     "name": "formula",
     "trans": [
-      "公式"
+      "công thức"
     ]
   },
   {
@@ -6788,67 +6788,67 @@
   {
     "name": "lesson",
     "trans": [
-      "课程"
+      "khóa học, môn học"
     ]
   },
   {
     "name": "wide",
     "trans": [
-      "广泛的"
+      "rộng rãi"
     ]
   },
   {
     "name": "expert",
     "trans": [
-      "专家"
+      "chuyên gia, nhà chuyên môn"
     ]
   },
   {
     "name": "specialist",
     "trans": [
-      "专家"
+      "chuyên gia, nhà chuyên môn"
     ]
   },
   {
     "name": "intelligence",
     "trans": [
-      "智力"
+      "trí tuệ, trí lực"
     ]
   },
   {
     "name": "intelligent",
     "trans": [
-      "智力的"
+      "thuộc về trí tuệ, có trí tuệ"
     ]
   },
   {
     "name": "technique",
     "trans": [
-      "技术"
+      "cong nghe"
     ]
   },
   {
     "name": "chart",
     "trans": [
-      "图表"
+      "biểu đồ"
     ]
   },
   {
     "name": "habit",
     "trans": [
-      "习惯"
+      "thói quen; tật; thói lệ"
     ]
   },
   {
     "name": "dictation",
     "trans": [
-      "听写"
+      "chính tả, bài chép"
     ]
   },
   {
     "name": "dictate",
     "trans": [
-      "听写"
+      "chính tả, bài chép"
     ]
   },
   {
@@ -6860,25 +6860,25 @@
   {
     "name": "monopoly",
     "trans": [
-      "垄断"
+      "độc quyền"
     ]
   },
   {
     "name": "inquiry",
     "trans": [
-      "咨询"
+      "tư vấn, tham khảo ý kiến"
     ]
   },
   {
     "name": "description",
     "trans": [
-      "描述"
+      "mô tả"
     ]
   },
   {
     "name": "royal",
     "trans": [
-      "皇家的"
+      "hoàng gia; thuộc về triều đình"
     ]
   },
   {
@@ -6890,13 +6890,13 @@
   {
     "name": "headphones",
     "trans": [
-      "耳机"
+      "tai nghe; khuyên tai"
     ]
   },
   {
     "name": "earphones",
     "trans": [
-      "耳机"
+      "tai nghe; khuyên tai"
     ]
   },
   {
@@ -6926,7 +6926,7 @@
   {
     "name": "campus",
     "trans": [
-      "校园"
+      "trường học, khuôn viên trường"
     ]
   },
   {
@@ -6938,7 +6938,7 @@
   {
     "name": "ability",
     "trans": [
-      "能力"
+      "khả năng, năng lực"
     ]
   },
   {
@@ -6956,7 +6956,7 @@
   {
     "name": "rule",
     "trans": [
-      "规则"
+      "quy tắc"
     ]
   },
   {
@@ -6974,7 +6974,7 @@
   {
     "name": "lonely",
     "trans": [
-      "孤独"
+      "cô đơn"
     ]
   },
   {
@@ -7088,7 +7088,7 @@
   {
     "name": "extreme sports",
     "trans": [
-      "极限运动"
+      "thể thao mạo hiểm"
     ]
   },
   {
@@ -7328,7 +7328,7 @@
   {
     "name": "farming products",
     "trans": [
-      "农产品"
+      "nông sản, sản phẩm nông nghiệp"
     ]
   },
   {
@@ -7394,13 +7394,13 @@
   {
     "name": "fresh meat",
     "trans": [
-      "新鲜的肉"
+      "thịt tươi"
     ]
   },
   {
     "name": "fresh food",
     "trans": [
-      "新鲜的食物"
+      "thức ăn tươi"
     ]
   },
   {
@@ -7460,7 +7460,7 @@
   {
     "name": "knife handle",
     "trans": [
-      "刀柄"
+      "cán dao"
     ]
   },
   {
@@ -7472,7 +7472,7 @@
   {
     "name": "olive oil",
     "trans": [
-      "橄榄油"
+      "dầu ô liu"
     ]
   },
   {
@@ -7640,7 +7640,7 @@
   {
     "name": "grocery store",
     "trans": [
-      "杂货店"
+      "cửa hàng tạp hoá"
     ]
   },
   {
@@ -7730,7 +7730,7 @@
   {
     "name": "leather jacket",
     "trans": [
-      "皮夹克"
+      "áo da"
     ]
   },
   {
@@ -7778,7 +7778,7 @@
   {
     "name": "sports facilities",
     "trans": [
-      "体育设施"
+      "cơ sở thể thao"
     ]
   },
   {
@@ -7832,13 +7832,13 @@
   {
     "name": "outdoor swimming pool",
     "trans": [
-      "室外游泳池"
+      "bể bơi ngoài trời"
     ]
   },
   {
     "name": "letter of recommendation",
     "trans": [
-      "推荐信"
+      "thư giới thiệu"
     ]
   },
   {
@@ -7862,7 +7862,7 @@
   {
     "name": "information desk",
     "trans": [
-      "咨询台"
+      "bàn tư vấn"
     ]
   },
   {
@@ -7880,7 +7880,7 @@
   {
     "name": "technical vocabulary",
     "trans": [
-      "术语"
+      "thuat ngu"
     ]
   },
   {
@@ -7898,7 +7898,7 @@
   {
     "name": "education system",
     "trans": [
-      "教育系统"
+      "hệ thống giáo dục"
     ]
   },
   {
@@ -7916,7 +7916,7 @@
   {
     "name": "immune system",
     "trans": [
-      "免疫系统"
+      "hệ thống miễn dịch"
     ]
   },
   {
@@ -7946,7 +7946,7 @@
   {
     "name": "conference reports",
     "trans": [
-      "会议报告"
+      "báo cáo cuộc họp"
     ]
   },
   {
@@ -8174,19 +8174,19 @@
   {
     "name": "air quality",
     "trans": [
-      "空气质量"
+      "chất lượng không khí"
     ]
   },
   {
     "name": "quality of life",
     "trans": [
-      "生活质量"
+      "chất lượng cuộc sống"
     ]
   },
   {
     "name": "water quality",
     "trans": [
-      "水的质量"
+      "Chất lượng nước"
     ]
   },
   {
@@ -8210,7 +8210,7 @@
   {
     "name": "student service",
     "trans": [
-      "学生服务"
+      "dịch vụ sinh viên"
     ]
   },
   {
@@ -8252,7 +8252,7 @@
   {
     "name": "optional course",
     "trans": [
-      "选修课"
+      "môn học tự chọn"
     ]
   },
   {
@@ -8264,7 +8264,7 @@
   {
     "name": "dance classes",
     "trans": [
-      "舞蹈课"
+      "lớp học múa"
     ]
   },
   {
@@ -8312,7 +8312,7 @@
   {
     "name": "environmental issues",
     "trans": [
-      "环境问题"
+      "vấn đề môi trường"
     ]
   },
   {
@@ -8330,7 +8330,7 @@
   {
     "name": "distance learning",
     "trans": [
-      "远程教育"
+      "giáo dục từ xa"
     ]
   },
   {
@@ -8354,7 +8354,7 @@
   {
     "name": "technical vocabulary",
     "trans": [
-      "术语"
+      "thuat ngu"
     ]
   },
   {
@@ -8462,7 +8462,7 @@
   {
     "name": "chemistry lab",
     "trans": [
-      "化学实验室"
+      "phòng thí nghiệm hóa học"
     ]
   },
   {
@@ -8480,7 +8480,7 @@
   {
     "name": "critical thinking",
     "trans": [
-      "批判性思维"
+      "tư duy phản biện"
     ]
   },
   {
@@ -8510,13 +8510,13 @@
   {
     "name": "in advance",
     "trans": [
-      "预先"
+      "trước; sẵn sàng"
     ]
   },
   {
     "name": "ahead of time",
     "trans": [
-      "预先"
+      "trước; sẵn sàng"
     ]
   },
   {
@@ -8528,7 +8528,7 @@
   {
     "name": "lifestyle",
     "trans": [
-      "生活方式"
+      "lối sống; phong cách sống"
     ]
   },
   {
@@ -8600,7 +8600,7 @@
   {
     "name": "application form",
     "trans": [
-      "申请表"
+      "đơn xin, đơn đăng ký"
     ]
   },
   {
@@ -8648,7 +8648,7 @@
   {
     "name": "mass media",
     "trans": [
-      "大众传媒"
+      "truyền thông đại chúng"
     ]
   },
   {
@@ -8660,25 +8660,25 @@
   {
     "name": "sports center",
     "trans": [
-      "体育中心"
+      "trung tâm thể thao"
     ]
   },
   {
     "name": "shopping center",
     "trans": [
-      "购物中心"
+      "Trung tâm mua sắm"
     ]
   },
   {
     "name": "medical center",
     "trans": [
-      "医疗中心"
+      "trung tâm y tế"
     ]
   },
   {
     "name": "fitness center",
     "trans": [
-      "健身中心"
+      "trung tâm thể dục"
     ]
   },
   {
@@ -8714,7 +8714,7 @@
   {
     "name": "global warming",
     "trans": [
-      "全球变暖"
+      "nóng lên toàn cầu"
     ]
   },
   {
@@ -8732,7 +8732,7 @@
   {
     "name": "study techniques",
     "trans": [
-      "学习技巧"
+      "n. kỹ năng học tập; mẹo học"
     ]
   },
   {
@@ -8774,7 +8774,7 @@
   {
     "name": "application form",
     "trans": [
-      "申请表"
+      "đơn xin, đơn đăng ký"
     ]
   },
   {
@@ -8852,13 +8852,13 @@
   {
     "name": "carpet",
     "trans": [
-      "地毯"
+      "thảm"
     ]
   },
   {
     "name": "dust",
     "trans": [
-      "灰尘"
+      "n. bụi; bụi bặm"
     ]
   },
   {
@@ -8876,13 +8876,13 @@
   {
     "name": "workload",
     "trans": [
-      "工作量"
+      "khối lượng công việc"
     ]
   },
   {
     "name": "isolation",
     "trans": [
-      "隔离"
+      "cách ly"
     ]
   },
   {
@@ -8900,25 +8900,25 @@
   {
     "name": "frequency",
     "trans": [
-      "频率"
+      "tần số"
     ]
   },
   {
     "name": "loyal",
     "trans": [
-      "忠诚的"
+      "trung thành"
     ]
   },
   {
     "name": "loyalty",
     "trans": [
-      "忠诚"
+      "trung thành, lòng trung thành"
     ]
   },
   {
     "name": "satisfactory",
     "trans": [
-      "满意的"
+      "hài lòng"
     ]
   },
   {
@@ -8942,19 +8942,19 @@
   {
     "name": "employment",
     "trans": [
-      "雇用"
+      "Thuê mướn"
     ]
   },
   {
     "name": "law",
     "trans": [
-      "法律"
+      "luật pháp; pháp luật"
     ]
   },
   {
     "name": "favor",
     "trans": [
-      "喜爱"
+      "yêu thích"
     ]
   },
   {
@@ -8966,49 +8966,49 @@
   {
     "name": "robber",
     "trans": [
-      "强盗"
+      "cướp"
     ]
   },
   {
     "name": "thief",
     "trans": [
-      "小偷"
+      "tên trộm; kẻ trộm"
     ]
   },
   {
     "name": "blind",
     "trans": [
-      "盲的"
+      "mù"
     ]
   },
   {
     "name": "threat",
     "trans": [
-      "威胁"
+      "đe dọa; mối đe dọa"
     ]
   },
   {
     "name": "grammar",
     "trans": [
-      "语法"
+      "ngữ pháp"
     ]
   },
   {
     "name": "step",
     "trans": [
-      "步骤，台阶"
+      "bước; bậc thang"
     ]
   },
   {
     "name": "award",
     "trans": [
-      "奖励"
+      "phần thưởng"
     ]
   },
   {
     "name": "gesture",
     "trans": [
-      "手势"
+      "cử chỉ"
     ]
   },
   {
@@ -9020,31 +9020,31 @@
   {
     "name": "slim",
     "trans": [
-      "瘦的"
+      "gầy"
     ]
   },
   {
     "name": "female",
     "trans": [
-      "女性"
+      "phụ nữ"
     ]
   },
   {
     "name": "making",
     "trans": [
-      "制造"
+      "sản xuất; chế tạo, làm ra"
     ]
   },
   {
     "name": "advertising",
     "trans": [
-      "广告"
+      "quảng cáo"
     ]
   },
   {
     "name": "advertise",
     "trans": [
-      "做广告"
+      "quảng cáo, làm quảng cáo"
     ]
   },
   {
@@ -9056,13 +9056,13 @@
   {
     "name": "advert",
     "trans": [
-      "广告"
+      "quảng cáo"
     ]
   },
   {
     "name": "advertisement",
     "trans": [
-      "广告"
+      "quảng cáo"
     ]
   },
   {
@@ -9074,37 +9074,37 @@
   {
     "name": "duty",
     "trans": [
-      "责任"
+      "n. trách nhiệm"
     ]
   },
   {
     "name": "abuse",
     "trans": [
-      "虐待"
+      "ngược đãi, hành hạ"
     ]
   },
   {
     "name": "dependent",
     "trans": [
-      "依赖的"
+      "phụ thuộc"
     ]
   },
   {
     "name": "depend",
     "trans": [
-      "依靠"
+      "dựa vào, phụ thuộc"
     ]
   },
   {
     "name": "ray",
     "trans": [
-      "光线"
+      "ánh sáng; tia sáng"
     ]
   },
   {
     "name": "acid",
     "trans": [
-      "酸"
+      "axit; vị chua, sự chua"
     ]
   },
   {
@@ -9134,13 +9134,13 @@
   {
     "name": "give sb the sack",
     "trans": [
-      "解雇"
+      "sa thải, đuổi việc"
     ]
   },
   {
     "name": "kick sb out of work",
     "trans": [
-      "解雇"
+      "sa thải, đuổi việc"
     ]
   },
   {
@@ -9158,7 +9158,7 @@
   {
     "name": "precious stone",
     "trans": [
-      "宝石"
+      "đá quý"
     ]
   },
   {
@@ -9194,7 +9194,7 @@
   {
     "name": "washing",
     "trans": [
-      "洗"
+      "rửa"
     ]
   },
   {
@@ -9206,7 +9206,7 @@
   {
     "name": "robot",
     "trans": [
-      "机器人"
+      "robot; con robot"
     ]
   },
   {
@@ -9218,19 +9218,19 @@
   {
     "name": "clever",
     "trans": [
-      "聪明的"
+      "thông minh, khôn lỏi"
     ]
   },
   {
     "name": "smart",
     "trans": [
-      "聪明的"
+      "thông minh, khôn lỏi"
     ]
   },
   {
     "name": "souvenir",
     "trans": [
-      "纪念品"
+      "n. kỷ niệm, quà lưu niệm"
     ]
   },
   {
@@ -9260,13 +9260,13 @@
   {
     "name": "online",
     "trans": [
-      "在线"
+      "trực tuyến"
     ]
   },
   {
     "name": "flag",
     "trans": [
-      "旗"
+      "cờ"
     ]
   },
   {
@@ -9278,31 +9278,31 @@
   {
     "name": "guitar",
     "trans": [
-      "吉他"
+      "ghi-ta; đàn ghi-ta"
     ]
   },
   {
     "name": "piano",
     "trans": [
-      "钢琴"
+      "đàn piano; piano"
     ]
   },
   {
     "name": "design",
     "trans": [
-      "设计"
+      "thiết kế"
     ]
   },
   {
     "name": "designer",
     "trans": [
-      "设计师"
+      "nhà thiết kế"
     ]
   },
   {
     "name": "beat",
     "trans": [
-      "跳动"
+      "nhảy, đập"
     ]
   },
   {
@@ -9314,13 +9314,13 @@
   {
     "name": "telescope",
     "trans": [
-      "望远镜"
+      "kính viễn vọng"
     ]
   },
   {
     "name": "microscope",
     "trans": [
-      "显微镜"
+      "kính hiểu"
     ]
   },
   {
@@ -9344,13 +9344,13 @@
   {
     "name": "pleasure",
     "trans": [
-      "乐趣"
+      "niềm vui"
     ]
   },
   {
     "name": "delight",
     "trans": [
-      "高兴"
+      "vui"
     ]
   },
   {
@@ -9362,19 +9362,19 @@
   {
     "name": "visible",
     "trans": [
-      "可见的"
+      "nhìn thấy được"
     ]
   },
   {
     "name": "silence",
     "trans": [
-      "安静"
+      "yên tĩnh"
     ]
   },
   {
     "name": "silent",
     "trans": [
-      "安静的"
+      "yên tĩnh; lặng lẽ"
     ]
   },
   {
@@ -9386,13 +9386,13 @@
   {
     "name": "controversy",
     "trans": [
-      "争议"
+      "tranh cãi, gây tranh cãi"
     ]
   },
   {
     "name": "debate",
     "trans": [
-      "辩论"
+      "tranh luận, tranh cãi"
     ]
   },
   {
@@ -9404,7 +9404,7 @@
   {
     "name": "rat",
     "trans": [
-      "老鼠"
+      "chuột"
     ]
   },
   {
@@ -9422,13 +9422,13 @@
   {
     "name": "risk",
     "trans": [
-      "冒险"
+      "mạo hiểm"
     ]
   },
   {
     "name": "adventure",
     "trans": [
-      "冒险"
+      "mạo hiểm"
     ]
   },
   {
@@ -9458,13 +9458,13 @@
   {
     "name": "pal",
     "trans": [
-      "伙伴"
+      "đối tác; bạn"
     ]
   },
   {
     "name": "actor",
     "trans": [
-      "男演员"
+      "diễn viên, tài tử"
     ]
   },
   {
@@ -9476,19 +9476,19 @@
   {
     "name": "measurement",
     "trans": [
-      "测量"
+      "đo lường; đo"
     ]
   },
   {
     "name": "stability",
     "trans": [
-      "稳定"
+      "ổn định"
     ]
   },
   {
     "name": "stable",
     "trans": [
-      "稳定的"
+      "on dinh"
     ]
   },
   {
@@ -9500,13 +9500,13 @@
   {
     "name": "broad",
     "trans": [
-      "广泛的"
+      "rộng rãi"
     ]
   },
   {
     "name": "timber",
     "trans": [
-      "木材"
+      "gỗ, vật liệu gỗ"
     ]
   },
   {
@@ -9518,19 +9518,19 @@
   {
     "name": "concession",
     "trans": [
-      "让步"
+      "nhượng bộ, sự nhượng bộ"
     ]
   },
   {
     "name": "existence",
     "trans": [
-      "存在"
+      "tồn tại; có"
     ]
   },
   {
     "name": "exist",
     "trans": [
-      "存在"
+      "tồn tại; có"
     ]
   },
   {
@@ -9542,7 +9542,7 @@
   {
     "name": "existing",
     "trans": [
-      "存在"
+      "tồn tại; có"
     ]
   },
   {
@@ -9560,19 +9560,19 @@
   {
     "name": "divorce",
     "trans": [
-      "离婚"
+      "ly hôn; ly dị; chia tay"
     ]
   },
   {
     "name": "breathe",
     "trans": [
-      "v.呼吸"
+      "v. thở, hô hấp"
     ]
   },
   {
     "name": "breath",
     "trans": [
-      "n.呼吸"
+      "n. hơi thở, hơi thở vào"
     ]
   },
   {
@@ -9584,49 +9584,49 @@
   {
     "name": "majority",
     "trans": [
-      "多数"
+      "đa số"
     ]
   },
   {
     "name": "major",
     "trans": [
-      "主要的"
+      "chính; quan trọng nhất"
     ]
   },
   {
     "name": "exchange",
     "trans": [
-      "交换"
+      "trao đổi, hoán đổi"
     ]
   },
   {
     "name": "net",
     "trans": [
-      "网"
+      "lưới; mạng"
     ]
   },
   {
     "name": "slang",
     "trans": [
-      "俚语"
+      "tiếng lóng"
     ]
   },
   {
     "name": "switch",
     "trans": [
-      "开关"
+      "cong tac"
     ]
   },
   {
     "name": "overall",
     "trans": [
-      "整个的"
+      "adj. toàn bộ; cả"
     ]
   },
   {
     "name": "whole",
     "trans": [
-      "整个的"
+      "adj. toàn bộ; cả"
     ]
   },
   {
@@ -9638,31 +9638,31 @@
   {
     "name": "ground",
     "trans": [
-      "场地"
+      "sân, địa điểm"
     ]
   },
   {
     "name": "playground",
     "trans": [
-      "操场"
+      "sân chơi; bãi cỏ trường"
     ]
   },
   {
     "name": "fair",
     "trans": [
-      "公平的"
+      "công bằng"
     ]
   },
   {
     "name": "unfair",
     "trans": [
-      "不公平的"
+      "bất công"
     ]
   },
   {
     "name": "memorise",
     "trans": [
-      "记住"
+      "nhớ lại"
     ]
   },
   {
@@ -9680,7 +9680,7 @@
   {
     "name": "ending",
     "trans": [
-      "结果"
+      "kết quả"
     ]
   },
   {
@@ -9704,13 +9704,13 @@
   {
     "name": "supermarket",
     "trans": [
-      "超市"
+      "sieu thi"
     ]
   },
   {
     "name": "rock",
     "trans": [
-      "岩石"
+      "đá núi; đá"
     ]
   },
   {
@@ -9728,37 +9728,37 @@
   {
     "name": "information",
     "trans": [
-      "信息"
+      "thông tin"
     ]
   },
   {
     "name": "agreement",
     "trans": [
-      "同意"
+      "đồng ý, chấp thuận"
     ]
   },
   {
     "name": "disagreement",
     "trans": [
-      "不同意"
+      "không đồng ý"
     ]
   },
   {
     "name": "domestic",
     "trans": [
-      "内部的"
+      "bên trong; nội bộ"
     ]
   },
   {
     "name": "religion",
     "trans": [
-      "宗教"
+      "tôn giáo"
     ]
   },
   {
     "name": "empty",
     "trans": [
-      "空的"
+      "adj. rỗng; trống"
     ]
   },
   {
@@ -9770,7 +9770,7 @@
   {
     "name": "pack",
     "trans": [
-      "包装"
+      "bao bì; đóng gói"
     ]
   },
   {
@@ -9782,7 +9782,7 @@
   {
     "name": "package",
     "trans": [
-      "包装"
+      "bao bì; đóng gói"
     ]
   },
   {
@@ -9812,31 +9812,31 @@
   {
     "name": "story",
     "trans": [
-      "故事"
+      "cau chuyen"
     ]
   },
   {
     "name": "evidence",
     "trans": [
-      "证据"
+      "n. bằng chứng; chứng cứ"
     ]
   },
   {
     "name": "positive",
     "trans": [
-      "积极的"
+      "tích cực"
     ]
   },
   {
     "name": "negative",
     "trans": [
-      "消极的"
+      "tiêu cực, thụ động"
     ]
   },
   {
     "name": "exciting",
     "trans": [
-      "令人兴奋的"
+      "(adj.) kích thích, thú vị"
     ]
   },
   {
@@ -9848,7 +9848,7 @@
   {
     "name": "excited",
     "trans": [
-      "兴奋的"
+      "phấn khích"
     ]
   },
   {
@@ -9872,19 +9872,19 @@
   {
     "name": "virtually",
     "trans": [
-      "几乎"
+      "gần như"
     ]
   },
   {
     "name": "almost",
     "trans": [
-      "几乎，差不多"
+      "gần như"
     ]
   },
   {
     "name": "worthwhile",
     "trans": [
-      "值得的"
+      "đáng giá"
     ]
   },
   {
@@ -9896,19 +9896,19 @@
   {
     "name": "main",
     "trans": [
-      "主要的"
+      "chính; quan trọng nhất"
     ]
   },
   {
     "name": "grass",
     "trans": [
-      "草"
+      "cỏ; thảo"
     ]
   },
   {
     "name": "cliff",
     "trans": [
-      "悬崖"
+      "vực núi"
     ]
   },
   {
@@ -9920,31 +9920,31 @@
   {
     "name": "physical",
     "trans": [
-      "身体的"
+      "thuộc về cơ thể; thể chất"
     ]
   },
   {
     "name": "irrigation",
     "trans": [
-      "灌溉"
+      "tưới tiêu; tưới"
     ]
   },
   {
     "name": "irrigate",
     "trans": [
-      "v.灌溉"
+      "v. tưới, tưới nước"
     ]
   },
   {
     "name": "irritation",
     "trans": [
-      "愤怒"
+      "tức giận"
     ]
   },
   {
     "name": "scarce",
     "trans": [
-      "不足的"
+      "Thiếu"
     ]
   },
   {
@@ -9974,19 +9974,19 @@
   {
     "name": "herbivorous",
     "trans": [
-      "食草的"
+      "ăn cỏ, ăn thực vật"
     ]
   },
   {
     "name": "scent",
     "trans": [
-      "气味"
+      "n. mùi, mùi thơm"
     ]
   },
   {
     "name": "scheme",
     "trans": [
-      "方案"
+      "phương án, kế hoạch"
     ]
   },
   {
@@ -10004,31 +10004,31 @@
   {
     "name": "likelihood",
     "trans": [
-      "可能性"
+      "khả năng, xác suất"
     ]
   },
   {
     "name": "possibility",
     "trans": [
-      "可能性"
+      "khả năng, xác suất"
     ]
   },
   {
     "name": "danger",
     "trans": [
-      "危险"
+      "nguy hiểm"
     ]
   },
   {
     "name": "dangerous",
     "trans": [
-      "危险的"
+      "Nguy hiểm"
     ]
   },
   {
     "name": "hazardous",
     "trans": [
-      "危险的"
+      "Nguy hiểm"
     ]
   },
   {
@@ -10040,7 +10040,7 @@
   {
     "name": "repeat",
     "trans": [
-      "重复"
+      "lặp lại"
     ]
   },
   {
@@ -10070,19 +10070,19 @@
   {
     "name": "depth",
     "trans": [
-      "深度"
+      "độ sâu"
     ]
   },
   {
     "name": "approval",
     "trans": [
-      "同意"
+      "đồng ý, chấp thuận"
     ]
   },
   {
     "name": "enthusiasm",
     "trans": [
-      "热情"
+      "nhiệt tình, hăng hái"
     ]
   },
   {
@@ -10100,7 +10100,7 @@
   {
     "name": "housework",
     "trans": [
-      "家务"
+      "việc nhà; nội trợ"
     ]
   },
   {
@@ -10118,13 +10118,13 @@
   {
     "name": "performer",
     "trans": [
-      "表演者"
+      "người biểu diễn"
     ]
   },
   {
     "name": "miserable",
     "trans": [
-      "痛苦的"
+      "đau đớn, khổ sở"
     ]
   },
   {
@@ -10136,25 +10136,25 @@
   {
     "name": "hero",
     "trans": [
-      "英雄"
+      "anh hùng"
     ]
   },
   {
     "name": "political",
     "trans": [
-      "政治的"
+      "chính trị"
     ]
   },
   {
     "name": "author",
     "trans": [
-      "作者"
+      "tác giả"
     ]
   },
   {
     "name": "serious",
     "trans": [
-      "严肃的"
+      "nghiêm túc"
     ]
   },
   {
@@ -10166,13 +10166,13 @@
   {
     "name": "essential",
     "trans": [
-      "基本的"
+      "cơ bản"
     ]
   },
   {
     "name": "fundamental",
     "trans": [
-      "基本的"
+      "cơ bản"
     ]
   },
   {
@@ -10190,31 +10190,31 @@
   {
     "name": "tradition",
     "trans": [
-      "传统"
+      "truyền thống; thói quen"
     ]
   },
   {
     "name": "traditional",
     "trans": [
-      "传统的"
+      "truyền thống, cổ truyền"
     ]
   },
   {
     "name": "ordinary",
     "trans": [
-      "普通的"
+      "thường; bình thường"
     ]
   },
   {
     "name": "preposition",
     "trans": [
-      "介词"
+      "giới từ"
     ]
   },
   {
     "name": "wing",
     "trans": [
-      "翅膀，翼"
+      "cánh, đôi cánh"
     ]
   },
   {
@@ -10232,7 +10232,7 @@
   {
     "name": "cheerful",
     "trans": [
-      "高兴的"
+      "vui, hân hoan"
     ]
   },
   {
@@ -10250,13 +10250,13 @@
   {
     "name": "reform",
     "trans": [
-      "改革"
+      "cải cách"
     ]
   },
   {
     "name": "contract",
     "trans": [
-      "合同"
+      "hợp đồng"
     ]
   },
   {
@@ -10268,19 +10268,19 @@
   {
     "name": "event",
     "trans": [
-      "事件"
+      "n. sự kiện; vụ việc"
     ]
   },
   {
     "name": "intervention",
     "trans": [
-      "干涉"
+      "can thiệp"
     ]
   },
   {
     "name": "metal",
     "trans": [
-      "金属"
+      "kim loại"
     ]
   },
   {
@@ -10304,7 +10304,7 @@
   {
     "name": "independence",
     "trans": [
-      "独立"
+      "độc lập"
     ]
   },
   {
@@ -10322,7 +10322,7 @@
   {
     "name": "immune",
     "trans": [
-      "免疫的"
+      "miễn dịch"
     ]
   },
   {
@@ -10340,7 +10340,7 @@
   {
     "name": "carving",
     "trans": [
-      "雕刻"
+      "khắc, điêu khắc"
     ]
   },
   {
@@ -10370,7 +10370,7 @@
   {
     "name": "hunting",
     "trans": [
-      "打猎"
+      "săn; săn bắn; đi săn"
     ]
   },
   {
@@ -10382,7 +10382,7 @@
   {
     "name": "tune",
     "trans": [
-      "曲调"
+      "điệu nhạc; giai điệu; nốt nhạc"
     ]
   },
   {
@@ -10394,7 +10394,7 @@
   {
     "name": "sailing",
     "trans": [
-      "航行"
+      "hành trình; bay"
     ]
   },
   {
@@ -10412,37 +10412,37 @@
   {
     "name": "maintenance",
     "trans": [
-      "维护"
+      "bảo trì, bảo vệ"
     ]
   },
   {
     "name": "former",
     "trans": [
-      "以前的"
+      "trước đây"
     ]
   },
   {
     "name": "previous",
     "trans": [
-      "以前的"
+      "trước đây"
     ]
   },
   {
     "name": "toy",
     "trans": [
-      "玩具"
+      "đồ chơi; món đồ chơi"
     ]
   },
   {
     "name": "expectancy",
     "trans": [
-      "期待"
+      "v. mong đợi; hy vọng"
     ]
   },
   {
     "name": "fabric",
     "trans": [
-      "纺织品"
+      "dệt may"
     ]
   },
   {
@@ -10454,7 +10454,7 @@
   {
     "name": "section",
     "trans": [
-      "部分"
+      "phần; một phần"
     ]
   },
   {
@@ -10466,7 +10466,7 @@
   {
     "name": "artistic",
     "trans": [
-      "艺术的"
+      "thuộc nghệ thuật"
     ]
   },
   {
@@ -10478,19 +10478,19 @@
   {
     "name": "funding",
     "trans": [
-      "资助"
+      "Tài trợ"
     ]
   },
   {
     "name": "self-funded",
     "trans": [
-      "自给自足"
+      "tự cung cấp; tự túc"
     ]
   },
   {
     "name": "self-sufficient",
     "trans": [
-      "自给自足"
+      "tự cung cấp; tự túc"
     ]
   },
   {
@@ -10502,13 +10502,13 @@
   {
     "name": "additional",
     "trans": [
-      "额外的"
+      "adj. thêm; phụ"
     ]
   },
   {
     "name": "kick",
     "trans": [
-      "踢"
+      "đá; đá bóng"
     ]
   },
   {
@@ -10526,7 +10526,7 @@
   {
     "name": "preference",
     "trans": [
-      "偏爱"
+      "thiên vị"
     ]
   },
   {
@@ -10562,19 +10562,19 @@
   {
     "name": "vary",
     "trans": [
-      "变化"
+      "thay đổi, biến đổi"
     ]
   },
   {
     "name": "variable",
     "trans": [
-      "变量"
+      "biến số"
     ]
   },
   {
     "name": "variation",
     "trans": [
-      "变化"
+      "thay đổi, biến đổi"
     ]
   },
   {
@@ -10586,19 +10586,19 @@
   {
     "name": "harbour",
     "trans": [
-      "港口"
+      "cảng biển; cảng"
     ]
   },
   {
     "name": "port",
     "trans": [
-      "港口"
+      "cảng biển; cảng"
     ]
   },
   {
     "name": "heroine",
     "trans": [
-      "女主人公"
+      "nữ chính"
     ]
   },
   {
@@ -10616,7 +10616,7 @@
   {
     "name": "pianist",
     "trans": [
-      "钢琴家"
+      "người chơi piano"
     ]
   },
   {
@@ -10628,19 +10628,19 @@
   {
     "name": "household",
     "trans": [
-      "家庭"
+      "gia đình"
     ]
   },
   {
     "name": "naught",
     "trans": [
-      "零"
+      "không"
     ]
   },
   {
     "name": "stair",
     "trans": [
-      "楼梯"
+      "cau thang"
     ]
   },
   {
@@ -10652,7 +10652,7 @@
   {
     "name": "complaint",
     "trans": [
-      "抱怨"
+      "phàn nàn, oán thán"
     ]
   },
   {
@@ -10664,49 +10664,49 @@
   {
     "name": "potential",
     "trans": [
-      "潜在的"
+      "tiềm ẩn; ẩn dụ"
     ]
   },
   {
     "name": "value",
     "trans": [
-      "价值"
+      "giá trị; giá; dùng"
     ]
   },
   {
     "name": "mixture",
     "trans": [
-      "混合物"
+      "hỗn hợp"
     ]
   },
   {
     "name": "irritable",
     "trans": [
-      "易怒的"
+      "nóng nảy, dễ giận"
     ]
   },
   {
     "name": "irritation",
     "trans": [
-      "愤怒"
+      "tức giận"
     ]
   },
   {
     "name": "arrival",
     "trans": [
-      "到达"
+      "đến nơi; tới"
     ]
   },
   {
     "name": "satisfaction",
     "trans": [
-      "满意"
+      "hài lòng; thoả mãn"
     ]
   },
   {
     "name": "status",
     "trans": [
-      "地位"
+      "dia vi"
     ]
   },
   {
@@ -10718,13 +10718,13 @@
   {
     "name": "discovery",
     "trans": [
-      "发现"
+      "khám phá, phát hiện"
     ]
   },
   {
     "name": "parcel",
     "trans": [
-      "包裹"
+      "bưu kiện; gói hàng"
     ]
   },
   {
@@ -10742,25 +10742,25 @@
   {
     "name": "usual",
     "trans": [
-      "普通的"
+      "thường; bình thường"
     ]
   },
   {
     "name": "latest",
     "trans": [
-      "最新的"
+      "mới nhất"
     ]
   },
   {
     "name": "developing",
     "trans": [
-      "发展的"
+      "dang phat trien"
     ]
   },
   {
     "name": "development",
     "trans": [
-      "发展"
+      "phát triển"
     ]
   },
   {
@@ -10772,13 +10772,13 @@
   {
     "name": "weapon",
     "trans": [
-      "武器"
+      "vũ khí"
     ]
   },
   {
     "name": "trade",
     "trans": [
-      "贸易"
+      "thương mại"
     ]
   },
   {
@@ -10802,13 +10802,13 @@
   {
     "name": "edge",
     "trans": [
-      "边缘"
+      "n. cạnh; mép"
     ]
   },
   {
     "name": "theft",
     "trans": [
-      "盗窃"
+      "trộm cắp; ăn cắp"
     ]
   },
   {
@@ -10826,7 +10826,7 @@
   {
     "name": "cotton",
     "trans": [
-      "棉花"
+      "bông, bông vải"
     ]
   },
   {
@@ -10856,7 +10856,7 @@
   {
     "name": "unique",
     "trans": [
-      "独特的"
+      "độc đáo; riêng biệt; khác biệt"
     ]
   },
   {
@@ -10874,13 +10874,13 @@
   {
     "name": "knife",
     "trans": [
-      "刀"
+      "dao"
     ]
   },
   {
     "name": "critical",
     "trans": [
-      "批评的"
+      "chỉ trích, phê bình"
     ]
   },
   {
@@ -10892,7 +10892,7 @@
   {
     "name": "consumer",
     "trans": [
-      "消费者"
+      "người tiêu dùng"
     ]
   },
   {
@@ -10904,37 +10904,37 @@
   {
     "name": "crisis",
     "trans": [
-      "危机"
+      "khủng hoảng, cơn khủng hoảng"
     ]
   },
   {
     "name": "belt",
     "trans": [
-      "带子"
+      "dây, xạc"
     ]
   },
   {
     "name": "steady",
     "trans": [
-      "稳定的"
+      "on dinh"
     ]
   },
   {
     "name": "deteriorate",
     "trans": [
-      "恶化"
+      "xấu đi, suy biến"
     ]
   },
   {
     "name": "surface",
     "trans": [
-      "表面"
+      "be mat"
     ]
   },
   {
     "name": "cupboard",
     "trans": [
-      "橱柜"
+      "tủ, bếp tủ"
     ]
   },
   {
@@ -10946,85 +10946,85 @@
   {
     "name": "free",
     "trans": [
-      "自由的"
+      "tự do"
     ]
   },
   {
     "name": "freedom",
     "trans": [
-      "自由"
+      "tự do; tự tại"
     ]
   },
   {
     "name": "response",
     "trans": [
-      "回答"
+      "trả lời"
     ]
   },
   {
     "name": "answer",
     "trans": [
-      "回答"
+      "trả lời"
     ]
   },
   {
     "name": "jewelry",
     "trans": [
-      "珠宝"
+      "trang sức"
     ]
   },
   {
     "name": "journalism",
     "trans": [
-      "新闻业"
+      "ngành báo chí, báo chí"
     ]
   },
   {
     "name": "journalist",
     "trans": [
-      "记者"
+      "phóng viên, nhà báo"
     ]
   },
   {
     "name": "repair",
     "trans": [
-      "修理"
+      "sửa chữa"
     ]
   },
   {
     "name": "cage",
     "trans": [
-      "笼子"
+      "lồng, chuồng"
     ]
   },
   {
     "name": "candle",
     "trans": [
-      "蜡烛"
+      "nến"
     ]
   },
   {
     "name": "wax",
     "trans": [
-      "蜡"
+      "sáp"
     ]
   },
   {
     "name": "sensible",
     "trans": [
-      "明智的"
+      "khôn ngoan"
     ]
   },
   {
     "name": "depression",
     "trans": [
-      "沮丧"
+      "chán nản, tuyệt vọng"
     ]
   },
   {
     "name": "layer",
     "trans": [
-      "阶层"
+      "tầng lớp"
     ]
   },
   {
@@ -11036,13 +11036,13 @@
   {
     "name": "excuse",
     "trans": [
-      "借口"
+      "n. lý do; cái cớ"
     ]
   },
   {
     "name": "lessen",
     "trans": [
-      "减轻"
+      "v. giảm nhẹ; làm dịu"
     ]
   },
   {
@@ -11072,19 +11072,19 @@
   {
     "name": "gene",
     "trans": [
-      "基因"
+      "gen"
     ]
   },
   {
     "name": "genetic",
     "trans": [
-      "遗传的"
+      "di truyền"
     ]
   },
   {
     "name": "import",
     "trans": [
-      "进口"
+      "nhập khẩu"
     ]
   },
   {
@@ -11096,25 +11096,25 @@
   {
     "name": "bridge",
     "trans": [
-      "桥"
+      "cầu"
     ]
   },
   {
     "name": "chat",
     "trans": [
-      "聊天"
+      "trò chuyện"
     ]
   },
   {
     "name": "strike",
     "trans": [
-      "罢工"
+      "dong cong"
     ]
   },
   {
     "name": "basis",
     "trans": [
-      "基础"
+      "nền tảng; cơ sở"
     ]
   },
   {
@@ -11126,7 +11126,7 @@
   {
     "name": "amazing",
     "trans": [
-      "令人惊讶的"
+      "(adj.) đáng ngạc nhiên; bất ngờ"
     ]
   },
   {
@@ -11138,43 +11138,43 @@
   {
     "name": "shelf",
     "trans": [
-      "架子"
+      "n. kệ, giá đỡ"
     ]
   },
   {
     "name": "frequency",
     "trans": [
-      "频率"
+      "tần số"
     ]
   },
   {
     "name": "frequent",
     "trans": [
-      "频繁的"
+      "thường xuyên"
     ]
   },
   {
     "name": "enhance",
     "trans": [
-      "提高"
+      "v. cải thiện; nâng cao"
     ]
   },
   {
     "name": "improve",
     "trans": [
-      "提高"
+      "v. cải thiện; nâng cao"
     ]
   },
   {
     "name": "petrol",
     "trans": [
-      "汽油"
+      "xăng, nhiên liệu xăng"
     ]
   },
   {
     "name": "petroleum",
     "trans": [
-      "石油"
+      "dầu mỏ, dầu thô"
     ]
   },
   {
@@ -11186,13 +11186,13 @@
   {
     "name": "adequate",
     "trans": [
-      "充足的"
+      "(adj.) đủ; dồi dào"
     ]
   },
   {
     "name": "soundproof",
     "trans": [
-      "隔音的"
+      "cách âm; chặn âm"
     ]
   },
   {
@@ -11210,19 +11210,19 @@
   {
     "name": "resistance",
     "trans": [
-      "抵抗"
+      "chống lại; kháng cự"
     ]
   },
   {
     "name": "authority",
     "trans": [
-      "权威"
+      "uy quyền; quyền uy"
     ]
   },
   {
     "name": "opportunity",
     "trans": [
-      "机会"
+      "cơ hội"
     ]
   },
   {
@@ -11234,37 +11234,37 @@
   {
     "name": "band",
     "trans": [
-      "乐队"
+      "ban nhạc"
     ]
   },
   {
     "name": "banned",
     "trans": [
-      "v.禁止"
+      "v. cấm; ngăn cấm"
     ]
   },
   {
     "name": "ban",
     "trans": [
-      "禁止"
+      "cấm"
     ]
   },
   {
     "name": "replacement",
     "trans": [
-      "替代"
+      "thay thế"
     ]
   },
   {
     "name": "container",
     "trans": [
-      "容器"
+      "thùng chứa, bình chứa"
     ]
   },
   {
     "name": "contain",
     "trans": [
-      "包含"
+      "chứa, bao hàm"
     ]
   },
   {
@@ -11276,31 +11276,31 @@
   {
     "name": "wedding",
     "trans": [
-      "婚礼"
+      "đám cưới"
     ]
   },
   {
     "name": "satellite",
     "trans": [
-      "卫星"
+      "vệ tinh"
     ]
   },
   {
     "name": "assistance",
     "trans": [
-      "援助"
+      "viện trợ, trợ giúp"
     ]
   },
   {
     "name": "reverse",
     "trans": [
-      "相反的"
+      "ngược lại, trái"
     ]
   },
   {
     "name": "awful",
     "trans": [
-      "可怕的"
+      "đáng sợ"
     ]
   },
   {
@@ -11312,19 +11312,19 @@
   {
     "name": "agriculture",
     "trans": [
-      "农业"
+      "nông nghiệp"
     ]
   },
   {
     "name": "oil",
     "trans": [
-      "油"
+      "dầu; mỡ"
     ]
   },
   {
     "name": "anger",
     "trans": [
-      "愤怒"
+      "tức giận"
     ]
   },
   {
@@ -11336,7 +11336,7 @@
   {
     "name": "delay",
     "trans": [
-      "耽搁"
+      "lỡ chậm, chậm trễ"
     ]
   },
   {
@@ -11348,19 +11348,19 @@
   {
     "name": "perfect",
     "trans": [
-      "完美的"
+      "hoàn hảo"
     ]
   },
   {
     "name": "suitable",
     "trans": [
-      "合适的"
+      "thích hợp"
     ]
   },
   {
     "name": "dial",
     "trans": [
-      "拨号"
+      "quay số"
     ]
   },
   {
@@ -11378,7 +11378,7 @@
   {
     "name": "sting",
     "trans": [
-      "刺"
+      "gai"
     ]
   },
   {
@@ -11390,7 +11390,7 @@
   {
     "name": "sponsor",
     "trans": [
-      "赞助者"
+      "nha tai tro"
     ]
   },
   {
@@ -11402,37 +11402,37 @@
   {
     "name": "relevant",
     "trans": [
-      "相关的"
+      "liên quan; có liên quan"
     ]
   },
   {
     "name": "beautiful",
     "trans": [
-      "美丽的"
+      "đẹp đẽ; xinh đẹp"
     ]
   },
   {
     "name": "percent",
     "trans": [
-      "百分比"
+      "phần trăm"
     ]
   },
   {
     "name": "nurse",
     "trans": [
-      "护士"
+      "y tá"
     ]
   },
   {
     "name": "nursery",
     "trans": [
-      "托儿所"
+      "nhà trẻ"
     ]
   },
   {
     "name": "companion",
     "trans": [
-      "同伴"
+      "bạn đồng hành"
     ]
   },
   {
@@ -11444,19 +11444,19 @@
   {
     "name": "usage",
     "trans": [
-      "使用"
+      "dùng; sử dụng; dùng để"
     ]
   },
   {
     "name": "strength",
     "trans": [
-      "力量"
+      "sức mạnh"
     ]
   },
   {
     "name": "relief",
     "trans": [
-      "减轻"
+      "v. giảm nhẹ; làm dịu"
     ]
   },
   {
@@ -11468,25 +11468,25 @@
   {
     "name": "hunt",
     "trans": [
-      "打猎"
+      "săn; săn bắn; đi săn"
     ]
   },
   {
     "name": "emperor",
     "trans": [
-      "皇帝"
+      "hoàng đế"
     ]
   },
   {
     "name": "king",
     "trans": [
-      "国王"
+      "vua"
     ]
   },
   {
     "name": "mile",
     "trans": [
-      "英里"
+      "dặm"
     ]
   },
   {
@@ -11516,19 +11516,19 @@
   {
     "name": "appointment",
     "trans": [
-      "预约"
+      "Đặt trước"
     ]
   },
   {
     "name": "pleasant",
     "trans": [
-      "愉快的"
+      "vui vẻ, dễ chịu"
     ]
   },
   {
     "name": "steering",
     "trans": [
-      "操纵"
+      "điều khiển, điều hướng"
     ]
   },
   {
@@ -11540,7 +11540,7 @@
   {
     "name": "influence",
     "trans": [
-      "影响"
+      "ảnh hưởng"
     ]
   },
   {
@@ -11552,7 +11552,7 @@
   {
     "name": "instruction",
     "trans": [
-      "指示"
+      "chỉ dẫn; chỉ thị"
     ]
   },
   {
@@ -11564,13 +11564,13 @@
   {
     "name": "disposal",
     "trans": [
-      "处理"
+      "xu ly"
     ]
   },
   {
     "name": "illegal",
     "trans": [
-      "非法的"
+      "phi hợp pháp; trái phép; không hợp lệ"
     ]
   },
   {
@@ -11582,13 +11582,13 @@
   {
     "name": "television",
     "trans": [
-      "电视"
+      "tivi"
     ]
   },
   {
     "name": "magnificent",
     "trans": [
-      "华丽的"
+      "lộng lẫy"
     ]
   },
   {
@@ -11612,19 +11612,19 @@
   {
     "name": "nomadic",
     "trans": [
-      "游牧的"
+      "du mục"
     ]
   },
   {
     "name": "measure",
     "trans": [
-      "测量"
+      "đo lường; đo"
     ]
   },
   {
     "name": "decline",
     "trans": [
-      "下降"
+      "giảm, sụt"
     ]
   },
   {
@@ -11636,7 +11636,7 @@
   {
     "name": "beauty",
     "trans": [
-      "美丽"
+      "xinh đẹp"
     ]
   },
   {
@@ -11648,7 +11648,7 @@
   {
     "name": "mood",
     "trans": [
-      "情绪"
+      "tâm trạng, tình cảm"
     ]
   },
   {
@@ -11660,7 +11660,7 @@
   {
     "name": "floor",
     "trans": [
-      "地板"
+      "sàn nhà"
     ]
   },
   {
@@ -11678,25 +11678,25 @@
   {
     "name": "sculpture",
     "trans": [
-      "雕刻"
+      "khắc, điêu khắc"
     ]
   },
   {
     "name": "serial",
     "trans": [
-      "连续的"
+      "liên tiếp, liên tục, nối tiếp"
     ]
   },
   {
     "name": "network",
     "trans": [
-      "网络"
+      "mạng; mạng lưới"
     ]
   },
   {
     "name": "badge",
     "trans": [
-      "徽章"
+      "huy hiệu"
     ]
   },
   {
@@ -11714,7 +11714,7 @@
   {
     "name": "river",
     "trans": [
-      "河"
+      "sông"
     ]
   },
   {
@@ -11726,7 +11726,7 @@
   {
     "name": "legal",
     "trans": [
-      "合法的"
+      "hợp pháp"
     ]
   },
   {
@@ -11744,13 +11744,13 @@
   {
     "name": "filter",
     "trans": [
-      "过滤"
+      "lọc"
     ]
   },
   {
     "name": "rank",
     "trans": [
-      "等级"
+      "cấp bậc; cấp; hạng"
     ]
   },
   {
@@ -11762,19 +11762,19 @@
   {
     "name": "concentration",
     "trans": [
-      "集中"
+      "tập trung, gom"
     ]
   },
   {
     "name": "microchip",
     "trans": [
-      "芯片"
+      "con chip"
     ]
   },
   {
     "name": "automobile",
     "trans": [
-      "汽车"
+      "ô tô, xe hơi"
     ]
   },
   {
@@ -11792,7 +11792,7 @@
   {
     "name": "brick",
     "trans": [
-      "砖"
+      "gạch"
     ]
   },
   {
@@ -11810,37 +11810,37 @@
   {
     "name": "flooding",
     "trans": [
-      "洪水"
+      "lũ lụt"
     ]
   },
   {
     "name": "altitude",
     "trans": [
-      "高度"
+      "chiều cao; độ cao"
     ]
   },
   {
     "name": "drums",
     "trans": [
-      "鼓"
+      "n. trống; đánh trống"
     ]
   },
   {
     "name": "tunes",
     "trans": [
-      "曲调"
+      "điệu nhạc; giai điệu; nốt nhạc"
     ]
   },
   {
     "name": "concert",
     "trans": [
-      "音乐会"
+      "buổi hòa nhạc, đêm nhạc"
     ]
   },
   {
     "name": "stretching",
     "trans": [
-      "伸展的"
+      "adj. giãn ra, duỗi thẳng"
     ]
   },
   {
@@ -11852,25 +11852,25 @@
   {
     "name": "petrol",
     "trans": [
-      "汽油"
+      "xăng, nhiên liệu xăng"
     ]
   },
   {
     "name": "attitude",
     "trans": [
-      "态度"
+      "thái độ"
     ]
   },
   {
     "name": "sector",
     "trans": [
-      "部分"
+      "phần; một phần"
     ]
   },
   {
     "name": "digital",
     "trans": [
-      "数字的"
+      "thuộc về số, số"
     ]
   },
   {
@@ -11882,7 +11882,7 @@
   {
     "name": "radar",
     "trans": [
-      "雷达"
+      "radar"
     ]
   },
   {
@@ -11900,19 +11900,19 @@
   {
     "name": "decade",
     "trans": [
-      "十年"
+      "mười năm, thập niên"
     ]
   },
   {
     "name": "accountable",
     "trans": [
-      "负责的"
+      "chịu trách nhiệm"
     ]
   },
   {
     "name": "philosophers",
     "trans": [
-      "哲学家"
+      "nhà triết học"
     ]
   },
   {
@@ -11924,37 +11924,37 @@
   {
     "name": "morality",
     "trans": [
-      "道德"
+      "đạo đức; đạo lý"
     ]
   },
   {
     "name": "mortality",
     "trans": [
-      "死亡"
+      "cái chết, tử vong"
     ]
   },
   {
     "name": "election",
     "trans": [
-      "选举"
+      "n. bầu cử"
     ]
   },
   {
     "name": "link",
     "trans": [
-      "连接"
+      "kết nối, nối liền"
     ]
   },
   {
     "name": "manufacture",
     "trans": [
-      "生产"
+      "sản xuất"
     ]
   },
   {
     "name": "evolution",
     "trans": [
-      "进化"
+      "tiến hóa"
     ]
   },
   {
@@ -11984,13 +11984,13 @@
   {
     "name": "buried",
     "trans": [
-      "埋葬的"
+      "chôn cất, tang lễ"
     ]
   },
   {
     "name": "batteries",
     "trans": [
-      "电池"
+      "pin"
     ]
   },
   {
@@ -12002,7 +12002,7 @@
   {
     "name": "hearing",
     "trans": [
-      "听觉"
+      "thính giác"
     ]
   },
   {
@@ -12014,25 +12014,25 @@
   {
     "name": "shade",
     "trans": [
-      "阴影"
+      "n. bóng tối, bóng đổ"
     ]
   },
   {
     "name": "climate",
     "trans": [
-      "气候"
+      "khí hậu"
     ]
   },
   {
     "name": "flooding",
     "trans": [
-      "洪水"
+      "lũ lụt"
     ]
   },
   {
     "name": "preservation",
     "trans": [
-      "保存"
+      "bảo quản, lưu giữ"
     ]
   },
   {
@@ -12092,7 +12092,7 @@
   {
     "name": "heart beats",
     "trans": [
-      "心跳"
+      "nhịp tim"
     ]
   },
   {
@@ -12188,7 +12188,7 @@
   {
     "name": "units of measurement",
     "trans": [
-      "测量单位"
+      "Đơn vị đo lường"
     ]
   },
   {
@@ -12224,7 +12224,7 @@
   {
     "name": "mosquito nets",
     "trans": [
-      "蚊帐"
+      "màn chống muỗi"
     ]
   },
   {
@@ -12326,7 +12326,7 @@
   {
     "name": "main road",
     "trans": [
-      "主路"
+      "đường chính"
     ]
   },
   {
@@ -12506,7 +12506,7 @@
   {
     "name": "immune system",
     "trans": [
-      "免疫系统"
+      "hệ thống miễn dịch"
     ]
   },
   {
@@ -12548,13 +12548,13 @@
   {
     "name": "stuffed toys",
     "trans": [
-      "毛绒玩具"
+      "đồ chơi nhồi bông, búp bê lông"
     ]
   },
   {
     "name": "life expectancy",
     "trans": [
-      "寿命"
+      "tuổi thọ, vòng đời"
     ]
   },
   {
@@ -12590,7 +12590,7 @@
   {
     "name": "give sb the sack",
     "trans": [
-      "解雇"
+      "sa thải, đuổi việc"
     ]
   },
   {
@@ -12650,7 +12650,7 @@
   {
     "name": "social status",
     "trans": [
-      "社会地位"
+      "địa vị xã hội"
     ]
   },
   {
@@ -12662,7 +12662,7 @@
   {
     "name": "developing countries",
     "trans": [
-      "发展中国家"
+      "nước đang phát triển"
     ]
   },
   {
@@ -12740,7 +12740,7 @@
   {
     "name": "seat belt",
     "trans": [
-      "安全带"
+      "dây an toàn"
     ]
   },
   {
@@ -12854,7 +12854,7 @@
   {
     "name": "working opportunity",
     "trans": [
-      "工作机会"
+      "cơ hội việc làm"
     ]
   },
   {
@@ -12872,7 +12872,7 @@
   {
     "name": "wedding photos",
     "trans": [
-      "婚礼照片"
+      "ảnh cưới"
     ]
   },
   {
@@ -12908,13 +12908,13 @@
   {
     "name": "alternative energy",
     "trans": [
-      "可替代能源"
+      "năng lượng thay thế"
     ]
   },
   {
     "name": "insurance company",
     "trans": [
-      "保险公司"
+      "công ty bảo hiểm"
     ]
   },
   {
@@ -12944,7 +12944,7 @@
   {
     "name": "hunt for",
     "trans": [
-      "寻找"
+      "v. tìm, tìm kiếm"
     ]
   },
   {
@@ -13040,7 +13040,7 @@
   {
     "name": "raw material",
     "trans": [
-      "原材料"
+      "Nguyên liệu thô"
     ]
   },
   {
@@ -13124,7 +13124,7 @@
   {
     "name": "head office",
     "trans": [
-      "总部"
+      "Trụ sở chính"
     ]
   },
   {
@@ -13148,7 +13148,7 @@
   {
     "name": "information sector",
     "trans": [
-      "问讯处"
+      "quầy hỏi thông tin, bàn hỏi tin"
     ]
   },
   {
@@ -13226,13 +13226,13 @@
   {
     "name": "salary",
     "trans": [
-      "薪水"
+      "tiền lương"
     ]
   },
   {
     "name": "order",
     "trans": [
-      "命令"
+      "mệnh lệnh; ra lệnh, sai bảo"
     ]
   },
   {
@@ -13244,25 +13244,25 @@
   {
     "name": "card",
     "trans": [
-      "卡片"
+      "thẻ, lá bài"
     ]
   },
   {
     "name": "price",
     "trans": [
-      "价格"
+      "giá; giá cả"
     ]
   },
   {
     "name": "VISA",
     "trans": [
-      "信用卡"
+      "thẻ tín dụng"
     ]
   },
   {
     "name": "extra",
     "trans": [
-      "额外的"
+      "adj. thêm; phụ"
     ]
   },
   {
@@ -13274,25 +13274,25 @@
   {
     "name": "purse",
     "trans": [
-      "钱包"
+      "ví tiền; ví"
     ]
   },
   {
     "name": "dollar",
     "trans": [
-      "美元"
+      "đô la Mỹ"
     ]
   },
   {
     "name": "pound",
     "trans": [
-      "英镑"
+      "bảng Anh"
     ]
   },
   {
     "name": "bank",
     "trans": [
-      "银行"
+      "ngân hàng"
     ]
   },
   {
@@ -13304,25 +13304,25 @@
   {
     "name": "payment",
     "trans": [
-      "报酬"
+      "thù lao, tiền công"
     ]
   },
   {
     "name": "pay",
     "trans": [
-      "付款"
+      "thanh toán"
     ]
   },
   {
     "name": "cash",
     "trans": [
-      "现金"
+      "tiền mặt"
     ]
   },
   {
     "name": "credit card",
     "trans": [
-      "信用卡"
+      "thẻ tín dụng"
     ]
   },
   {
@@ -13334,7 +13334,7 @@
   {
     "name": "cashier",
     "trans": [
-      "出纳员"
+      "thủ quỹ, người giữ tiền"
     ]
   },
   {
@@ -13346,7 +13346,7 @@
   {
     "name": "bill",
     "trans": [
-      "账单"
+      "hóa đơn"
     ]
   },
   {
@@ -13382,13 +13382,13 @@
   {
     "name": "cover",
     "trans": [
-      "包括"
+      "bao gồm, gồm"
     ]
   },
   {
     "name": "coverage",
     "trans": [
-      "覆盖"
+      "phủ, che phủ"
     ]
   },
   {
@@ -13400,25 +13400,25 @@
   {
     "name": "corporate",
     "trans": [
-      "公司的"
+      "của công ty, thuộc về công ty"
     ]
   },
   {
     "name": "loan",
     "trans": [
-      "贷款"
+      "khoản vay"
     ]
   },
   {
     "name": "scholarship",
     "trans": [
-      "奖学金"
+      "n. học bổng"
     ]
   },
   {
     "name": "scholar",
     "trans": [
-      "学者"
+      "học giả"
     ]
   },
   {
@@ -13436,13 +13436,13 @@
   {
     "name": "tuition",
     "trans": [
-      "学费"
+      "học phí"
     ]
   },
   {
     "name": "expense",
     "trans": [
-      "花费"
+      "chi tien"
     ]
   },
   {
@@ -13454,7 +13454,7 @@
   {
     "name": "spending",
     "trans": [
-      "花费"
+      "chi tien"
     ]
   },
   {
@@ -13478,7 +13478,7 @@
   {
     "name": "overdraft",
     "trans": [
-      "透支"
+      "thuyếp chi"
     ]
   },
   {
@@ -13490,7 +13490,7 @@
   {
     "name": "diary",
     "trans": [
-      "日记"
+      "nhật ký"
     ]
   },
   {
@@ -13502,25 +13502,25 @@
   {
     "name": "currency",
     "trans": [
-      "货币"
+      "tiền tệ"
     ]
   },
   {
     "name": "Yen",
     "trans": [
-      "日元"
+      "Đồng yên"
     ]
   },
   {
     "name": "money",
     "trans": [
-      "钱"
+      "tiền; tiền bạc"
     ]
   },
   {
     "name": "debt",
     "trans": [
-      "债务"
+      "nợ, khoản nợ"
     ]
   },
   {
@@ -13538,25 +13538,25 @@
   {
     "name": "pocket",
     "trans": [
-      "口袋"
+      "túi; túi áo"
     ]
   },
   {
     "name": "statement",
     "trans": [
-      "陈述"
+      "tuyên bố, phát biểu"
     ]
   },
   {
     "name": "mileage",
     "trans": [
-      "里程表"
+      "đồng hồ đo quãng đường"
     ]
   },
   {
     "name": "investment",
     "trans": [
-      "投资"
+      "đầu tư"
     ]
   },
   {
@@ -13568,7 +13568,7 @@
   {
     "name": "wealth",
     "trans": [
-      "财富"
+      "của cải; sự giàu có; phú quý"
     ]
   },
   {
@@ -13580,13 +13580,13 @@
   {
     "name": "fortune",
     "trans": [
-      "财产"
+      "tài sản; của cải"
     ]
   },
   {
     "name": "concert",
     "trans": [
-      "音乐会"
+      "buổi hòa nhạc, đêm nhạc"
     ]
   },
   {
@@ -13598,13 +13598,13 @@
   {
     "name": "allowance",
     "trans": [
-      "津贴"
+      "trợ cấp, phụ cấp"
     ]
   },
   {
     "name": "subsidy",
     "trans": [
-      "津贴"
+      "trợ cấp, phụ cấp"
     ]
   },
   {
@@ -13628,7 +13628,7 @@
   {
     "name": "prize",
     "trans": [
-      "奖金"
+      "tiền thưởng"
     ]
   },
   {
@@ -13646,13 +13646,13 @@
   {
     "name": "income",
     "trans": [
-      "收入"
+      "thu nhập"
     ]
   },
   {
     "name": "tax",
     "trans": [
-      "税收"
+      "thuế"
     ]
   },
   {
@@ -13688,7 +13688,7 @@
   {
     "name": "water bill",
     "trans": [
-      "水费"
+      "tiền nước"
     ]
   },
   {
@@ -13724,13 +13724,13 @@
   {
     "name": "repair cost",
     "trans": [
-      "维修费用"
+      "phí bảo trì, chi phí sửa chữa"
     ]
   },
   {
     "name": "water fee",
     "trans": [
-      "水费"
+      "tiền nước"
     ]
   },
   {
@@ -13742,7 +13742,7 @@
   {
     "name": "course fee",
     "trans": [
-      "学费"
+      "học phí"
     ]
   },
   {
@@ -13802,7 +13802,7 @@
   {
     "name": "living expenses",
     "trans": [
-      "生活费"
+      "chi phí sinh hoạt"
     ]
   },
   {
@@ -13886,7 +13886,7 @@
   {
     "name": "financial market",
     "trans": [
-      "金融市场"
+      "thị trường tài chính"
     ]
   },
   {
@@ -13934,7 +13934,7 @@
   {
     "name": "business card",
     "trans": [
-      "名片"
+      "danh thiếp, thẻ tên"
     ]
   },
   {
@@ -14006,7 +14006,7 @@
   {
     "name": "cheque book",
     "trans": [
-      "支票本"
+      "sổ séc"
     ]
   },
   {
@@ -14132,7 +14132,7 @@
   {
     "name": "middle class",
     "trans": [
-      "中产阶级"
+      "tầng lớp trung gian"
     ]
   },
   {
@@ -14264,7 +14264,7 @@
   {
     "name": "traveler",
     "trans": [
-      "游客"
+      "du khách"
     ]
   },
   {
@@ -14276,25 +14276,25 @@
   {
     "name": "embassy",
     "trans": [
-      "大使馆"
+      "đại sứ quán"
     ]
   },
   {
     "name": "cottage",
     "trans": [
-      "小屋"
+      "căn nhà nhỏ, lều"
     ]
   },
   {
     "name": "church",
     "trans": [
-      "教堂"
+      "nhà thờ"
     ]
   },
   {
     "name": "cathedral",
     "trans": [
-      "大教堂"
+      "nhà thờ lớn"
     ]
   },
   {
@@ -14306,7 +14306,7 @@
   {
     "name": "waterfall",
     "trans": [
-      "瀑布"
+      "thác nước"
     ]
   },
   {
@@ -14318,25 +14318,25 @@
   {
     "name": "opinion",
     "trans": [
-      "观点"
+      "quan điểm"
     ]
   },
   {
     "name": "park",
     "trans": [
-      "公园"
+      "công viên"
     ]
   },
   {
     "name": "parking",
     "trans": [
-      "停车"
+      "đỗ xe"
     ]
   },
   {
     "name": "garden",
     "trans": [
-      "花园"
+      "vườn"
     ]
   },
   {
@@ -14348,13 +14348,13 @@
   {
     "name": "coutryside",
     "trans": [
-      "乡村"
+      "nông thôn, làng"
     ]
   },
   {
     "name": "suburb",
     "trans": [
-      "郊区"
+      "ngoai o"
     ]
   },
   {
@@ -14372,13 +14372,13 @@
   {
     "name": "urban",
     "trans": [
-      "城市的"
+      "của thành phố, thuộc đô thị"
     ]
   },
   {
     "name": "rural",
     "trans": [
-      "乡下的"
+      "nông thôn, thuộc vùng quê"
     ]
   },
   {
@@ -14390,13 +14390,13 @@
   {
     "name": "car",
     "trans": [
-      "汽车"
+      "ô tô, xe hơi"
     ]
   },
   {
     "name": "vehicle",
     "trans": [
-      "车辆"
+      "xe cộ; phương tiện; xe"
     ]
   },
   {
@@ -14408,19 +14408,19 @@
   {
     "name": "museum",
     "trans": [
-      "博物馆"
+      "bảo tàng"
     ]
   },
   {
     "name": "station",
     "trans": [
-      "车站"
+      "nha ga"
     ]
   },
   {
     "name": "ticket",
     "trans": [
-      "票"
+      "vé; phiếu"
     ]
   },
   {
@@ -14432,13 +14432,13 @@
   {
     "name": "boat",
     "trans": [
-      "船"
+      "thuyền"
     ]
   },
   {
     "name": "safety",
     "trans": [
-      "安全"
+      "an toàn"
     ]
   },
   {
@@ -14456,13 +14456,13 @@
   {
     "name": "train",
     "trans": [
-      "火车"
+      "tàu hỏa; xe lửa"
     ]
   },
   {
     "name": "round",
     "trans": [
-      "圆的"
+      "tròn"
     ]
   },
   {
@@ -14474,7 +14474,7 @@
   {
     "name": "store",
     "trans": [
-      "储存"
+      "lưu trữ; dự trữ"
     ]
   },
   {
@@ -14486,67 +14486,67 @@
   {
     "name": "entry",
     "trans": [
-      "进入"
+      "v. vào; đi vào"
     ]
   },
   {
     "name": "entrance",
     "trans": [
-      "入口"
+      "n. lối vào; cửa vào"
     ]
   },
   {
     "name": "zoo",
     "trans": [
-      "动物园"
+      "sở thú"
     ]
   },
   {
     "name": "entertainment",
     "trans": [
-      "娱乐"
+      "giải trí, vui chơi"
     ]
   },
   {
     "name": "recreational",
     "trans": [
-      "娱乐的"
+      "giải trí"
     ]
   },
   {
     "name": "property",
     "trans": [
-      "财产"
+      "tài sản; của cải"
     ]
   },
   {
     "name": "photo",
     "trans": [
-      "照片"
+      "ảnh; bức ảnh"
     ]
   },
   {
     "name": "photography",
     "trans": [
-      "摄影"
+      "nhiếp ảnh"
     ]
   },
   {
     "name": "photograph",
     "trans": [
-      "照片"
+      "ảnh; bức ảnh"
     ]
   },
   {
     "name": "guide",
     "trans": [
-      "导游"
+      "hướng dẫn viên; người hướng dẫn"
     ]
   },
   {
     "name": "scenery",
     "trans": [
-      "风景"
+      "phong cảnh; cảnh quan"
     ]
   },
   {
@@ -14558,7 +14558,7 @@
   {
     "name": "brake",
     "trans": [
-      "刹车"
+      "phanh"
     ]
   },
   {
@@ -14576,13 +14576,13 @@
   {
     "name": "rubber",
     "trans": [
-      "橡胶"
+      "cao su"
     ]
   },
   {
     "name": "tour guide",
     "trans": [
-      "导游"
+      "hướng dẫn viên; người hướng dẫn"
     ]
   },
   {
@@ -14654,7 +14654,7 @@
   {
     "name": "central park",
     "trans": [
-      "中央公园"
+      "Công viên Trung tâm"
     ]
   },
   {
@@ -14714,7 +14714,7 @@
   {
     "name": "Rose Garden",
     "trans": [
-      "玫瑰花园"
+      "vườn hoa hồng"
     ]
   },
   {
@@ -14726,13 +14726,13 @@
   {
     "name": "garden lounge",
     "trans": [
-      "花园大厅"
+      "đại sảnh vườn hoa"
     ]
   },
   {
     "name": "country music",
     "trans": [
-      "乡村音乐"
+      "nhạc đồng quê"
     ]
   },
   {
@@ -14804,7 +14804,7 @@
   {
     "name": "railway station",
     "trans": [
-      "火车站"
+      "ga tàu"
     ]
   },
   {
@@ -14852,7 +14852,7 @@
   {
     "name": "return ticket",
     "trans": [
-      "往返票"
+      "vé khứ hồi"
     ]
   },
   {
@@ -14882,7 +14882,7 @@
   {
     "name": "safety regualtions",
     "trans": [
-      "安全规则"
+      "quy tắc an toàn"
     ]
   },
   {
@@ -14966,13 +14966,13 @@
   {
     "name": "family",
     "trans": [
-      "家庭"
+      "gia đình"
     ]
   },
   {
     "name": "child",
     "trans": [
-      "儿童"
+      "trẻ em"
     ]
   },
   {
@@ -14996,7 +14996,7 @@
   {
     "name": "shopper",
     "trans": [
-      "购物者"
+      "người mua sắm"
     ]
   },
   {
@@ -15032,7 +15032,7 @@
   {
     "name": "peer",
     "trans": [
-      "同龄人"
+      "người cùng tuổi"
     ]
   },
   {
@@ -15092,13 +15092,13 @@
   {
     "name": "Children's Day",
     "trans": [
-      "儿童节"
+      "Ngày Thiếu nhi"
     ]
   },
   {
     "name": "family name",
     "trans": [
-      "姓"
+      "họ, họ tên"
     ]
   },
   {
@@ -15146,13 +15146,13 @@
   {
     "name": "transport",
     "trans": [
-      "交通"
+      "giao thông; sự đi lại"
     ]
   },
   {
     "name": "transportation",
     "trans": [
-      "运输，运送"
+      "vận chuyển, chuyên chở"
     ]
   },
   {
@@ -15164,7 +15164,7 @@
   {
     "name": "airplane",
     "trans": [
-      "飞机"
+      "máy bay"
     ]
   },
   {
@@ -15176,7 +15176,7 @@
   {
     "name": "congestion",
     "trans": [
-      "拥挤"
+      "chật ních, chen chúc"
     ]
   },
   {
@@ -15188,31 +15188,31 @@
   {
     "name": "wheelchair",
     "trans": [
-      "轮椅"
+      "xe lăn"
     ]
   },
   {
     "name": "taxi",
     "trans": [
-      "出租车"
+      "xe taxi"
     ]
   },
   {
     "name": "bus",
     "trans": [
-      "公共汽车"
+      "xe buýt, xe khách"
     ]
   },
   {
     "name": "railway",
     "trans": [
-      "铁路"
+      "duong sat"
     ]
   },
   {
     "name": "underground",
     "trans": [
-      "地下的"
+      "dưới lòng đất, ngầm"
     ]
   },
   {
@@ -15224,7 +15224,7 @@
   {
     "name": "helicopter",
     "trans": [
-      "直升机"
+      "trực thăng"
     ]
   },
   {
@@ -15260,13 +15260,13 @@
   {
     "name": "bicycle",
     "trans": [
-      "自行车"
+      "xe đạp"
     ]
   },
   {
     "name": "cycle",
     "trans": [
-      "骑自行车"
+      "đạp xe đạp, đi xe đạp"
     ]
   },
   {
@@ -15278,43 +15278,43 @@
   {
     "name": "trolley",
     "trans": [
-      "电车"
+      "xe điện"
     ]
   },
   {
     "name": "tram",
     "trans": [
-      "有轨电车"
+      "Xe điện có ray"
     ]
   },
   {
     "name": "steam",
     "trans": [
-      "蒸汽"
+      "hơi nước, hơi"
     ]
   },
   {
     "name": "ship",
     "trans": [
-      "船"
+      "thuyền"
     ]
   },
   {
     "name": "shipping",
     "trans": [
-      "运输"
+      "vận chuyển"
     ]
   },
   {
     "name": "tractor",
     "trans": [
-      "拖拉机"
+      "máy kéo"
     ]
   },
   {
     "name": "motorcycle",
     "trans": [
-      "摩托车"
+      "xe máy; mô tô"
     ]
   },
   {
@@ -15326,13 +15326,13 @@
   {
     "name": "flight",
     "trans": [
-      "航班"
+      "n. chuyến bay"
     ]
   },
   {
     "name": "driver",
     "trans": [
-      "司机"
+      "tài xế"
     ]
   },
   {
@@ -15350,31 +15350,31 @@
   {
     "name": "light",
     "trans": [
-      "灯"
+      "đèn"
     ]
   },
   {
     "name": "cave",
     "trans": [
-      "洞穴"
+      "hang động"
     ]
   },
   {
     "name": "temple",
     "trans": [
-      "寺庙"
+      "chua"
     ]
   },
   {
     "name": "tool",
     "trans": [
-      "工具"
+      "công cụ"
     ]
   },
   {
     "name": "tower",
     "trans": [
-      "塔"
+      "tháp; chóp"
     ]
   },
   {
@@ -15386,7 +15386,7 @@
   {
     "name": "wise",
     "trans": [
-      "明智的"
+      "khôn ngoan"
     ]
   },
   {
@@ -15398,7 +15398,7 @@
   {
     "name": "dangerous",
     "trans": [
-      "危险的"
+      "Nguy hiểm"
     ]
   },
   {
@@ -15416,25 +15416,25 @@
   {
     "name": "fossil",
     "trans": [
-      "化石"
+      "hóa thạch"
     ]
   },
   {
     "name": "leisure",
     "trans": [
-      "休闲"
+      "thư giãn; giải trí"
     ]
   },
   {
     "name": "town",
     "trans": [
-      "小镇"
+      "thị trấn nhỏ, thôn"
     ]
   },
   {
     "name": "downtown",
     "trans": [
-      "市中心"
+      "n. trung tâm thành phố"
     ]
   },
   {
@@ -15446,7 +15446,7 @@
   {
     "name": "wildlife",
     "trans": [
-      "野生动物"
+      "động vật hoang dã"
     ]
   },
   {
@@ -15458,7 +15458,7 @@
   {
     "name": "route",
     "trans": [
-      "路线"
+      "tuyến đường, lộ trình"
     ]
   },
   {
@@ -15470,31 +15470,31 @@
   {
     "name": "ballroonm",
     "trans": [
-      "舞厅"
+      "phòng nhảy, vũ trường"
     ]
   },
   {
     "name": "castle",
     "trans": [
-      "城堡"
+      "lâu đài, thành trì"
     ]
   },
   {
     "name": "lake",
     "trans": [
-      "湖"
+      "hồ"
     ]
   },
   {
     "name": "occasion",
     "trans": [
-      "场合"
+      "dịp; hoàn cảnh"
     ]
   },
   {
     "name": "passport",
     "trans": [
-      "护照"
+      "ho chieu"
     ]
   },
   {
@@ -15506,13 +15506,13 @@
   {
     "name": "smoke",
     "trans": [
-      "吸烟"
+      "v. hút thuốc lá"
     ]
   },
   {
     "name": "date",
     "trans": [
-      "日期"
+      "ngày tháng"
     ]
   },
   {
@@ -15524,13 +15524,13 @@
   {
     "name": "emergency",
     "trans": [
-      "紧急"
+      "khẩn cấp, gấp gáp"
     ]
   },
   {
     "name": "region",
     "trans": [
-      "地区"
+      "khu vực; vùng"
     ]
   },
   {
@@ -15542,31 +15542,31 @@
   {
     "name": "mountain",
     "trans": [
-      "山脉"
+      "dãy núi"
     ]
   },
   {
     "name": "ancient",
     "trans": [
-      "古代的"
+      "cổ đại, thời cổ"
     ]
   },
   {
     "name": "modern",
     "trans": [
-      "现代的"
+      "hiện đại, đương đại"
     ]
   },
   {
     "name": "palace",
     "trans": [
-      "宫殿"
+      "cung điện; dinh thự"
     ]
   },
   {
     "name": "map",
     "trans": [
-      "地图"
+      "bản đồ"
     ]
   },
   {
@@ -15584,7 +15584,7 @@
   {
     "name": "beach",
     "trans": [
-      "海滩"
+      "bãi biển"
     ]
   },
   {
@@ -15602,19 +15602,19 @@
   {
     "name": "manmade",
     "trans": [
-      "人造的"
+      "nhân tạo"
     ]
   },
   {
     "name": "skiing",
     "trans": [
-      "滑雪"
+      "v. trượt tuyết"
     ]
   },
   {
     "name": "excursion",
     "trans": [
-      "远足"
+      "đi dã ngoại"
     ]
   },
   {
@@ -15626,7 +15626,7 @@
   {
     "name": "hiking",
     "trans": [
-      "徒步旅行"
+      "đi bộ; trekking"
     ]
   },
   {
@@ -15638,7 +15638,7 @@
   {
     "name": "helmet",
     "trans": [
-      "头盔"
+      "mũ bảo hiểm"
     ]
   },
   {
@@ -15650,7 +15650,7 @@
   {
     "name": "coast",
     "trans": [
-      "海岸"
+      "bờ biển"
     ]
   },
   {
@@ -15674,25 +15674,25 @@
   {
     "name": "landscape",
     "trans": [
-      "风景"
+      "phong cảnh; cảnh quan"
     ]
   },
   {
     "name": "population",
     "trans": [
-      "人口"
+      "dân số"
     ]
   },
   {
     "name": "person",
     "trans": [
-      "人"
+      "người; con người"
     ]
   },
   {
     "name": "personal",
     "trans": [
-      "个人的"
+      "cá nhân, riêng tư"
     ]
   },
   {
@@ -15704,19 +15704,19 @@
   {
     "name": "accident",
     "trans": [
-      "事故"
+      "tai nạn, sự cố"
     ]
   },
   {
     "name": "exhibition",
     "trans": [
-      "展览"
+      "n. triển lãm; trưng bày"
     ]
   },
   {
     "name": "ocean",
     "trans": [
-      "海洋"
+      "đại dương"
     ]
   },
   {
@@ -15740,7 +15740,7 @@
   {
     "name": "height",
     "trans": [
-      "高度"
+      "chiều cao; độ cao"
     ]
   },
   {
@@ -15752,7 +15752,7 @@
   {
     "name": "destination",
     "trans": [
-      "目的地"
+      "điểm đến"
     ]
   },
   {
@@ -15770,7 +15770,7 @@
   {
     "name": "tunnel",
     "trans": [
-      "隧道"
+      "đường hầm; hầm"
     ]
   },
   {
@@ -15782,7 +15782,7 @@
   {
     "name": "public transport",
     "trans": [
-      "公共交通"
+      "giao thông công cộng"
     ]
   },
   {
@@ -15890,7 +15890,7 @@
   {
     "name": "bus stop",
     "trans": [
-      "公交车站"
+      "bến xe buýt, điểm dừng xe buýt"
     ]
   },
   {
@@ -15902,13 +15902,13 @@
   {
     "name": "railway worker",
     "trans": [
-      "铁路工人"
+      "công nhân đường sắt"
     ]
   },
   {
     "name": "railway rail",
     "trans": [
-      "铁轨"
+      "đường ray"
     ]
   },
   {
@@ -15932,7 +15932,7 @@
   {
     "name": "underground railway",
     "trans": [
-      "地铁"
+      "tuyen meto"
     ]
   },
   {
@@ -15956,7 +15956,7 @@
   {
     "name": "steam engine ship",
     "trans": [
-      "蒸汽船"
+      "tàu hơi"
     ]
   },
   {
@@ -16046,7 +16046,7 @@
   {
     "name": "leisure acitivties",
     "trans": [
-      "休闲活动"
+      "hoạt động giải trí"
     ]
   },
   {
@@ -16142,13 +16142,13 @@
   {
     "name": "route map",
     "trans": [
-      "线路图"
+      "sơ đồ tuyến"
     ]
   },
   {
     "name": "long beach",
     "trans": [
-      "长滩"
+      "Bãi Dài"
     ]
   },
   {
@@ -16184,7 +16184,7 @@
   {
     "name": "population rise",
     "trans": [
-      "人口增长"
+      "tăng dân số, tăng trưởng dân số"
     ]
   },
   {
@@ -16244,7 +16244,7 @@
   {
     "name": "exhibition hall",
     "trans": [
-      "展厅"
+      "phòng trưng bày, hội trường triển lãm"
     ]
   },
   {
@@ -16256,7 +16256,7 @@
   {
     "name": "ocean current",
     "trans": [
-      "洋流"
+      "Hải lưu"
     ]
   },
   {
@@ -16274,7 +16274,7 @@
   {
     "name": "wind tunnels",
     "trans": [
-      "风洞"
+      "Ống gió"
     ]
   },
   {
@@ -16292,7 +16292,7 @@
   {
     "name": "pre-booking",
     "trans": [
-      "预定"
+      "Đặt hàng trước"
     ]
   },
   {
@@ -16304,25 +16304,25 @@
   {
     "name": "residence",
     "trans": [
-      "居住"
+      "cư trú, sống ở"
     ]
   },
   {
     "name": "resident",
     "trans": [
-      "居民"
+      "cư dân; dân cư"
     ]
   },
   {
     "name": "city",
     "trans": [
-      "城市"
+      "thành phố, đô thị"
     ]
   },
   {
     "name": "ground",
     "trans": [
-      "地面"
+      "mặt đất; nền đất"
     ]
   },
   {
@@ -16346,7 +16346,7 @@
   {
     "name": "accommodation",
     "trans": [
-      "住宿"
+      "chỗ ở, lưu trú"
     ]
   },
   {
@@ -16406,13 +16406,13 @@
   {
     "name": "bedroom",
     "trans": [
-      "卧室"
+      "phòng ngủ"
     ]
   },
   {
     "name": "basement",
     "trans": [
-      "地下室"
+      "tầng hầm"
     ]
   },
   {
@@ -16424,19 +16424,19 @@
   {
     "name": "house",
     "trans": [
-      "房子"
+      "nhà; căn nhà"
     ]
   },
   {
     "name": "bungalow",
     "trans": [
-      "平房"
+      "nhà cấp một; nhà thấp"
     ]
   },
   {
     "name": "cottage",
     "trans": [
-      "小屋"
+      "căn nhà nhỏ, lều"
     ]
   },
   {
@@ -16448,13 +16448,13 @@
   {
     "name": "motel",
     "trans": [
-      "汽车旅馆"
+      "khách sạn nhỏ cho lái xe ô tô"
     ]
   },
   {
     "name": "foyer",
     "trans": [
-      "门厅"
+      "sảnh"
     ]
   },
   {
@@ -16472,7 +16472,7 @@
   {
     "name": "suite",
     "trans": [
-      "套房"
+      "can ho"
     ]
   },
   {
@@ -16484,7 +16484,7 @@
   {
     "name": "address",
     "trans": [
-      "地址"
+      "địa chỉ"
     ]
   },
   {
@@ -16496,7 +16496,7 @@
   {
     "name": "block",
     "trans": [
-      "街区"
+      "khu phố"
     ]
   },
   {
@@ -16514,31 +16514,31 @@
   {
     "name": "street",
     "trans": [
-      "街道"
+      "pho"
     ]
   },
   {
     "name": "lane",
     "trans": [
-      "小巷"
+      "ngõ; hẻm"
     ]
   },
   {
     "name": "road",
     "trans": [
-      "路"
+      "đường"
     ]
   },
   {
     "name": "postcode",
     "trans": [
-      "邮编"
+      "mã bưu điện"
     ]
   },
   {
     "name": "shared",
     "trans": [
-      "共享的"
+      "dùng chung"
     ]
   },
   {
@@ -16568,7 +16568,7 @@
   {
     "name": "landlady",
     "trans": [
-      "女房东"
+      "chủ nhà nữ"
     ]
   },
   {
@@ -16586,13 +16586,13 @@
   {
     "name": "non-smoker",
     "trans": [
-      "不吸烟的人"
+      "người không hút thuốc"
     ]
   },
   {
     "name": "neighbour",
     "trans": [
-      "邻居"
+      "hàng xóm"
     ]
   },
   {
@@ -16718,7 +16718,7 @@
   {
     "name": "streets and roads",
     "trans": [
-      "街道"
+      "pho"
     ]
   },
   {
@@ -16730,7 +16730,7 @@
   {
     "name": "post office",
     "trans": [
-      "邮局"
+      "bưu điện"
     ]
   },
   {
@@ -16766,25 +16766,25 @@
   {
     "name": "roof",
     "trans": [
-      "房顶"
+      "mái nhà"
     ]
   },
   {
     "name": "mirror",
     "trans": [
-      "镜子"
+      "gương"
     ]
   },
   {
     "name": "warm",
     "trans": [
-      "温暖的"
+      "ấm áp"
     ]
   },
   {
     "name": "towel",
     "trans": [
-      "毛巾"
+      "khăn; khăn tắm"
     ]
   },
   {
@@ -16796,13 +16796,13 @@
   {
     "name": "curtain",
     "trans": [
-      "窗帘"
+      "rèm cửa"
     ]
   },
   {
     "name": "lift",
     "trans": [
-      "电梯"
+      "thang máy"
     ]
   },
   {
@@ -16814,7 +16814,7 @@
   {
     "name": "lock",
     "trans": [
-      "锁"
+      "ổ khóa; khóa lại"
     ]
   },
   {
@@ -16826,13 +16826,13 @@
   {
     "name": "blanket",
     "trans": [
-      "毯子"
+      "chăn"
     ]
   },
   {
     "name": "sheet",
     "trans": [
-      "床单"
+      "ga trải giường"
     ]
   },
   {
@@ -16844,7 +16844,7 @@
   {
     "name": "key",
     "trans": [
-      "钥匙"
+      "chìa khóa"
     ]
   },
   {
@@ -16856,13 +16856,13 @@
   {
     "name": "community",
     "trans": [
-      "社区"
+      "cộng đồng"
     ]
   },
   {
     "name": "garage",
     "trans": [
-      "车库"
+      "nhà để xe"
     ]
   },
   {
@@ -16874,7 +16874,7 @@
   {
     "name": "wall",
     "trans": [
-      "墙"
+      "bức tường"
     ]
   },
   {
@@ -16886,7 +16886,7 @@
   {
     "name": "fridge",
     "trans": [
-      "冰箱"
+      "tủ lạnh"
     ]
   },
   {
@@ -16904,25 +16904,25 @@
   {
     "name": "microwave",
     "trans": [
-      "微波"
+      "lò vi sóng"
     ]
   },
   {
     "name": "oven",
     "trans": [
-      "烤箱"
+      "lò nướng"
     ]
   },
   {
     "name": "dishwasher",
     "trans": [
-      "洗碗机"
+      "máy rửa chén"
     ]
   },
   {
     "name": "heat",
     "trans": [
-      "热"
+      "nóng; nhiệt"
     ]
   },
   {
@@ -16940,7 +16940,7 @@
   {
     "name": "air-conditioner",
     "trans": [
-      "空调"
+      "máy điều hòa"
     ]
   },
   {
@@ -16958,13 +16958,13 @@
   {
     "name": "toaster",
     "trans": [
-      "烤面包机"
+      "máy nướng bánh mì"
     ]
   },
   {
     "name": "phone",
     "trans": [
-      "电话"
+      "điện thoại"
     ]
   },
   {
@@ -16982,13 +16982,13 @@
   {
     "name": "mobile",
     "trans": [
-      "移动电话"
+      "điện thoại di động"
     ]
   },
   {
     "name": "sound",
     "trans": [
-      "声音"
+      "n. âm thanh, tiếng, giọng nói"
     ]
   },
   {
@@ -17000,19 +17000,19 @@
   {
     "name": "signal",
     "trans": [
-      "信号"
+      "n. tín hiệu, hiệu; v. ra hiệu"
     ]
   },
   {
     "name": "radio",
     "trans": [
-      "收音机"
+      "radio"
     ]
   },
   {
     "name": "vacuum",
     "trans": [
-      "真空"
+      "chân không"
     ]
   },
   {
@@ -17024,37 +17024,37 @@
   {
     "name": "lamp",
     "trans": [
-      "灯"
+      "đèn"
     ]
   },
   {
     "name": "shower",
     "trans": [
-      "淋浴"
+      "n. vòi sen, tắm; v. tắm"
     ]
   },
   {
     "name": "bath",
     "trans": [
-      "洗澡"
+      "tắm"
     ]
   },
   {
     "name": "alarm",
     "trans": [
-      "警报"
+      "báo động, cảnh báo"
     ]
   },
   {
     "name": "private",
     "trans": [
-      "私人的"
+      "riêng tư; cá nhân"
     ]
   },
   {
     "name": "electric",
     "trans": [
-      "电子的"
+      "điện tử"
     ]
   },
   {
@@ -17066,13 +17066,13 @@
   {
     "name": "camera",
     "trans": [
-      "相机"
+      "máy ảnh"
     ]
   },
   {
     "name": "door",
     "trans": [
-      "门"
+      "n. cửa"
     ]
   },
   {
@@ -17084,13 +17084,13 @@
   {
     "name": "spot",
     "trans": [
-      "地点"
+      "n. địa điểm, nơi chốn"
     ]
   },
   {
     "name": "remark",
     "trans": [
-      "评价"
+      "đánh giá"
     ]
   },
   {
@@ -17102,43 +17102,43 @@
   {
     "name": "settlement",
     "trans": [
-      "定居"
+      "v. định cư, ổn định"
     ]
   },
   {
     "name": "disturbance",
     "trans": [
-      "打扰"
+      "làm phiền, quấy rầy"
     ]
   },
   {
     "name": "insurance",
     "trans": [
-      "保险"
+      "bảo hiểm"
     ]
   },
   {
     "name": "letter",
     "trans": [
-      "信"
+      "tin; lá thư; tín"
     ]
   },
   {
     "name": "mail",
     "trans": [
-      "邮件"
+      "thư; bưu kiện; email"
     ]
   },
   {
     "name": "male",
     "trans": [
-      "男性"
+      "nam giới; nam tính"
     ]
   },
   {
     "name": "window",
     "trans": [
-      "窗户"
+      "cửa sổ"
     ]
   },
   {
@@ -17150,7 +17150,7 @@
   {
     "name": "code",
     "trans": [
-      "密码"
+      "mật khẩu"
     ]
   },
   {
@@ -17162,7 +17162,7 @@
   {
     "name": "alteration",
     "trans": [
-      "改变"
+      "thay đổi"
     ]
   },
   {
@@ -17180,37 +17180,37 @@
   {
     "name": "pump",
     "trans": [
-      "泵"
+      "bơm"
     ]
   },
   {
     "name": "furniture",
     "trans": [
-      "家具"
+      "đồ đạc, nội thất"
     ]
   },
   {
     "name": "chair",
     "trans": [
-      "椅子"
+      "ghế"
     ]
   },
   {
     "name": "table",
     "trans": [
-      "桌子"
+      "bàn, bàn làm việc"
     ]
   },
   {
     "name": "cabinet",
     "trans": [
-      "橱柜"
+      "tủ, bếp tủ"
     ]
   },
   {
     "name": "drawer",
     "trans": [
-      "抽屉"
+      "ngăn kéo"
     ]
   },
   {
@@ -17222,19 +17222,19 @@
   {
     "name": "size",
     "trans": [
-      "尺寸"
+      "kích thước, cỡ"
     ]
   },
   {
     "name": "sides",
     "trans": [
-      "边"
+      "n. cạnh, mép, bờ"
     ]
   },
   {
     "name": "double",
     "trans": [
-      "双的"
+      "adj. đôi; kép"
     ]
   },
   {
@@ -17246,7 +17246,7 @@
   {
     "name": "cream",
     "trans": [
-      "奶油色的"
+      "màu kem"
     ]
   },
   {
@@ -17258,7 +17258,7 @@
   {
     "name": "do the laundry",
     "trans": [
-      "洗衣服"
+      "giặt quần áo"
     ]
   },
   {
@@ -17366,13 +17366,13 @@
   {
     "name": "microwave oven",
     "trans": [
-      "微波炉"
+      "lò vi sóng"
     ]
   },
   {
     "name": "washing machine",
     "trans": [
-      "洗衣机"
+      "máy giặt"
     ]
   },
   {
@@ -17390,7 +17390,7 @@
   {
     "name": "water heater",
     "trans": [
-      "热水器"
+      "máy nước nóng"
     ]
   },
   {
@@ -17420,7 +17420,7 @@
   {
     "name": "video camera",
     "trans": [
-      "录像机"
+      "máy quay video"
     ]
   },
   {
@@ -17432,7 +17432,7 @@
   {
     "name": "phone bill",
     "trans": [
-      "电话账单"
+      "hóa đơn điện thoại"
     ]
   },
   {
@@ -17450,7 +17450,7 @@
   {
     "name": "mobile phone",
     "trans": [
-      "手机"
+      "điện thoại"
     ]
   },
   {
@@ -17504,7 +17504,7 @@
   {
     "name": "fire alarm",
     "trans": [
-      "火警"
+      "báo động cháy"
     ]
   },
   {
@@ -17516,7 +17516,7 @@
   {
     "name": "alarm clock",
     "trans": [
-      "闹钟"
+      "đồng hồ báo thức"
     ]
   },
   {
@@ -17636,7 +17636,7 @@
   {
     "name": "insurance companies",
     "trans": [
-      "保险公司"
+      "công ty bảo hiểm"
     ]
   },
   {
@@ -17678,7 +17678,7 @@
   {
     "name": "bar code",
     "trans": [
-      "条形码"
+      "Mã vạch"
     ]
   },
   {
@@ -17696,7 +17696,7 @@
   {
     "name": "air pump",
     "trans": [
-      "空气泵"
+      "bơm không khí"
     ]
   },
   {
@@ -17750,19 +17750,19 @@
   {
     "name": "canteen",
     "trans": [
-      "餐厅"
+      "nhà hàng"
     ]
   },
   {
     "name": "dining",
     "trans": [
-      "吃饭"
+      "ăn cơm, dùng bữa"
     ]
   },
   {
     "name": "diner",
     "trans": [
-      "餐厅"
+      "nhà hàng"
     ]
   },
   {
@@ -17774,7 +17774,7 @@
   {
     "name": "café",
     "trans": [
-      "咖啡馆"
+      "quán cà phê"
     ]
   },
   {
@@ -17792,13 +17792,13 @@
   {
     "name": "milk",
     "trans": [
-      "牛奶"
+      "sữa; sữa bò"
     ]
   },
   {
     "name": "cola",
     "trans": [
-      "可乐"
+      "cola"
     ]
   },
   {
@@ -17810,55 +17810,55 @@
   {
     "name": "water",
     "trans": [
-      "水"
+      "nước"
     ]
   },
   {
     "name": "drink",
     "trans": [
-      "饮料"
+      "thức uống"
     ]
   },
   {
     "name": "tea",
     "trans": [
-      "茶"
+      "tra"
     ]
   },
   {
     "name": "juice",
     "trans": [
-      "果汁"
+      "nước ép"
     ]
   },
   {
     "name": "mineral",
     "trans": [
-      "矿物"
+      "khoáng sản; khoáng chất"
     ]
   },
   {
     "name": "potato",
     "trans": [
-      "土豆"
+      "khoai tây"
     ]
   },
   {
     "name": "sweet",
     "trans": [
-      "甜的"
+      "ngot"
     ]
   },
   {
     "name": "sour",
     "trans": [
-      "酸的"
+      "adj. chua"
     ]
   },
   {
     "name": "bitter",
     "trans": [
-      "苦的"
+      "đắng"
     ]
   },
   {
@@ -17870,7 +17870,7 @@
   {
     "name": "hot",
     "trans": [
-      "热的"
+      "nóng; nóng nóng"
     ]
   },
   {
@@ -17882,19 +17882,19 @@
   {
     "name": "honey",
     "trans": [
-      "蜂蜜"
+      "mật ong; mật"
     ]
   },
   {
     "name": "soup",
     "trans": [
-      "汤"
+      "n. món súp, canh"
     ]
   },
   {
     "name": "food",
     "trans": [
-      "食物"
+      "thức ăn"
     ]
   },
   {
@@ -17906,25 +17906,25 @@
   {
     "name": "breakfast",
     "trans": [
-      "早餐"
+      "bữa sáng"
     ]
   },
   {
     "name": "lunch",
     "trans": [
-      "午餐"
+      "bữa trưa; bữa cơm trưa"
     ]
   },
   {
     "name": "dinner",
     "trans": [
-      "晚餐"
+      "bữa tối"
     ]
   },
   {
     "name": "eating",
     "trans": [
-      "吃饭"
+      "ăn cơm, dùng bữa"
     ]
   },
   {
@@ -17942,7 +17942,7 @@
   {
     "name": "burger",
     "trans": [
-      "汉堡包"
+      "bánh mì kẹp thịt; bánh hamburger"
     ]
   },
   {
@@ -17954,7 +17954,7 @@
   {
     "name": "chocolate",
     "trans": [
-      "巧克力"
+      "sô cô la"
     ]
   },
   {
@@ -17972,19 +17972,19 @@
   {
     "name": "steak",
     "trans": [
-      "牛排"
+      "bitchap"
     ]
   },
   {
     "name": "picnic",
     "trans": [
-      "野餐"
+      "dã ngoại; bữa ăn ngoài trời"
     ]
   },
   {
     "name": "barbecue",
     "trans": [
-      "烧烤"
+      "nướng; đồ nướng"
     ]
   },
   {
@@ -18008,25 +18008,25 @@
   {
     "name": "snake",
     "trans": [
-      "蛇"
+      "n. rắn, con rắn"
     ]
   },
   {
     "name": "refreshment",
     "trans": [
-      "小吃"
+      "n. món ăn vặt, món ăn nhẹ"
     ]
   },
   {
     "name": "kitchen",
     "trans": [
-      "厨房"
+      "nhà bếp"
     ]
   },
   {
     "name": "vegetable",
     "trans": [
-      "蔬菜"
+      "rau; rau củ"
     ]
   },
   {
@@ -18038,19 +18038,19 @@
   {
     "name": "cake",
     "trans": [
-      "蛋糕"
+      "bánh kem, bánh ngọt"
     ]
   },
   {
     "name": "fish",
     "trans": [
-      "鱼"
+      "cá"
     ]
   },
   {
     "name": "fishing",
     "trans": [
-      "钓鱼"
+      "câu cá"
     ]
   },
   {
@@ -18068,25 +18068,25 @@
   {
     "name": "cheese",
     "trans": [
-      "奶酪"
+      "pho mát"
     ]
   },
   {
     "name": "fruit",
     "trans": [
-      "水果"
+      "trái cây"
     ]
   },
   {
     "name": "sugar",
     "trans": [
-      "糖"
+      "duong"
     ]
   },
   {
     "name": "salt",
     "trans": [
-      "盐"
+      "muối"
     ]
   },
   {
@@ -18098,49 +18098,49 @@
   {
     "name": "vinegar",
     "trans": [
-      "醋"
+      "giấm"
     ]
   },
   {
     "name": "flour",
     "trans": [
-      "面粉"
+      "bột mì"
     ]
   },
   {
     "name": "utensil",
     "trans": [
-      "器具"
+      "dụng cụ, khí cụ"
     ]
   },
   {
     "name": "pizza",
     "trans": [
-      "比萨饼"
+      "bánh pizza"
     ]
   },
   {
     "name": "vitamin",
     "trans": [
-      "维生素"
+      "vitamin"
     ]
   },
   {
     "name": "protein",
     "trans": [
-      "蛋白质"
+      "protein"
     ]
   },
   {
     "name": "spoon",
     "trans": [
-      "勺子"
+      "mui o"
     ]
   },
   {
     "name": "tomato",
     "trans": [
-      "西红柿"
+      "cà chua"
     ]
   },
   {
@@ -18152,13 +18152,13 @@
   {
     "name": "desert",
     "trans": [
-      "沙漠"
+      "sa mạc"
     ]
   },
   {
     "name": "dessert",
     "trans": [
-      "甜点"
+      "món tráng miệng"
     ]
   },
   {
@@ -18170,31 +18170,31 @@
   {
     "name": "sandwich",
     "trans": [
-      "三明治"
+      "bánh mì kẹp"
     ]
   },
   {
     "name": "nut",
     "trans": [
-      "坚果"
+      "hạt cứng; quả hạt"
     ]
   },
   {
     "name": "salad",
     "trans": [
-      "沙拉"
+      "salad; xalát"
     ]
   },
   {
     "name": "coffee",
     "trans": [
-      "咖啡"
+      "cà phê"
     ]
   },
   {
     "name": "catering",
     "trans": [
-      "饮食"
+      "ăn uống, ẩm thực"
     ]
   },
   {
@@ -18206,25 +18206,25 @@
   {
     "name": "buffet",
     "trans": [
-      "自助餐"
+      "đồ ăn tự phục vụ, buffet"
     ]
   },
   {
     "name": "cutlery",
     "trans": [
-      "餐具"
+      "đồ ăn, dụng cụ ăn uống"
     ]
   },
   {
     "name": "cup",
     "trans": [
-      "杯子"
+      "cốc, chén"
     ]
   },
   {
     "name": "nutrition",
     "trans": [
-      "营养"
+      "dinh dưỡng"
     ]
   },
   {
@@ -18236,7 +18236,7 @@
   {
     "name": "dining room",
     "trans": [
-      "餐厅"
+      "nhà hàng"
     ]
   },
   {
@@ -18260,7 +18260,7 @@
   {
     "name": "self-service restaurant",
     "trans": [
-      "自助餐厅"
+      "nhà hàng tự phục vụ, buffet"
     ]
   },
   {
@@ -18296,7 +18296,7 @@
   {
     "name": "mineral water",
     "trans": [
-      "矿泉水"
+      "nước khoáng"
     ]
   },
   {
@@ -18308,7 +18308,7 @@
   {
     "name": "waterproof",
     "trans": [
-      "防水的"
+      "chống nước"
     ]
   },
   {
@@ -18356,13 +18356,13 @@
   {
     "name": "fruit juice",
     "trans": [
-      "果汁"
+      "nước ép"
     ]
   },
   {
     "name": "apple juice",
     "trans": [
-      "苹果汁"
+      "nước táo"
     ]
   },
   {
@@ -18380,7 +18380,7 @@
   {
     "name": "chewing gum",
     "trans": [
-      "口香糖"
+      "kẹo cao su"
     ]
   },
   {
@@ -18440,7 +18440,7 @@
   {
     "name": "kitchen table",
     "trans": [
-      "餐桌"
+      "bàn ăn"
     ]
   },
   {
@@ -18464,7 +18464,7 @@
   {
     "name": "fish tank",
     "trans": [
-      "鱼缸"
+      "bể cá"
     ]
   },
   {
@@ -18482,7 +18482,7 @@
   {
     "name": "fishing industry",
     "trans": [
-      "渔业"
+      "nghề cá"
     ]
   },
   {
@@ -18548,7 +18548,7 @@
   {
     "name": "hot dog",
     "trans": [
-      "热狗"
+      "bánh mì xúc xích; xúc xích"
     ]
   },
   {
@@ -18560,7 +18560,7 @@
   {
     "name": "vitamin",
     "trans": [
-      "维生素"
+      "vitamin"
     ]
   },
   {
@@ -18650,13 +18650,13 @@
   {
     "name": "shop",
     "trans": [
-      "商店"
+      "n. cửa hàng, tiệm"
     ]
   },
   {
     "name": "shopping",
     "trans": [
-      "购物"
+      "mua sắm"
     ]
   },
   {
@@ -18668,13 +18668,13 @@
   {
     "name": "bookshop",
     "trans": [
-      "书店"
+      "tiệm sách, hiệu sách"
     ]
   },
   {
     "name": "item",
     "trans": [
-      "项目"
+      "dự án"
     ]
   },
   {
@@ -18686,31 +18686,31 @@
   {
     "name": "interesting",
     "trans": [
-      "有趣的"
+      "thú vị"
     ]
   },
   {
     "name": "festival",
     "trans": [
-      "节日"
+      "lễ hội"
     ]
   },
   {
     "name": "balloon",
     "trans": [
-      "气球"
+      "bóng bay"
     ]
   },
   {
     "name": "guest",
     "trans": [
-      "客人"
+      "khách; khách khứa"
     ]
   },
   {
     "name": "candle",
     "trans": [
-      "蜡烛"
+      "nến"
     ]
   },
   {
@@ -18728,13 +18728,13 @@
   {
     "name": "fancy",
     "trans": [
-      "喜欢"
+      "thích"
     ]
   },
   {
     "name": "clothes",
     "trans": [
-      "服装"
+      "trang phục, quần áo"
     ]
   },
   {
@@ -18746,7 +18746,7 @@
   {
     "name": "dress",
     "trans": [
-      "连衣裙"
+      "váy liền thân"
     ]
   },
   {
@@ -18758,19 +18758,19 @@
   {
     "name": "velvet",
     "trans": [
-      "天鹅绒"
+      "nhung"
     ]
   },
   {
     "name": "dark",
     "trans": [
-      "黑暗的"
+      "tối"
     ]
   },
   {
     "name": "skirt",
     "trans": [
-      "短裙"
+      "váy ngắn"
     ]
   },
   {
@@ -18800,19 +18800,19 @@
   {
     "name": "swim",
     "trans": [
-      "游泳"
+      "boi"
     ]
   },
   {
     "name": "swimming",
     "trans": [
-      "游泳"
+      "boi"
     ]
   },
   {
     "name": "rain",
     "trans": [
-      "雨"
+      "mưa; cơn mưa"
     ]
   },
   {
@@ -18824,7 +18824,7 @@
   {
     "name": "raincoat",
     "trans": [
-      "雨衣"
+      "áo mưa"
     ]
   },
   {
@@ -18842,13 +18842,13 @@
   {
     "name": "sweater",
     "trans": [
-      "毛衣"
+      "áo len"
     ]
   },
   {
     "name": "comfortable",
     "trans": [
-      "舒适的"
+      "thoải mái, dễ chịu"
     ]
   },
   {
@@ -18860,19 +18860,19 @@
   {
     "name": "trousers",
     "trans": [
-      "裤子"
+      "quần; quần dài"
     ]
   },
   {
     "name": "uniform",
     "trans": [
-      "制服"
+      "đồng phục; đạo trang phục"
     ]
   },
   {
     "name": "boot",
     "trans": [
-      "靴子"
+      "giày boots"
     ]
   },
   {
@@ -18890,7 +18890,7 @@
   {
     "name": "blouse",
     "trans": [
-      "女式衬衫"
+      "áo sơ mi nữ"
     ]
   },
   {
@@ -18902,19 +18902,19 @@
   {
     "name": "shoe",
     "trans": [
-      "鞋"
+      "n. giày, dép"
     ]
   },
   {
     "name": "sandal",
     "trans": [
-      "凉鞋"
+      "dép xỏ ngón, dép"
     ]
   },
   {
     "name": "jacket",
     "trans": [
-      "夹克"
+      "áo khoác"
     ]
   },
   {
@@ -18932,7 +18932,7 @@
   {
     "name": "shopping center",
     "trans": [
-      "购物中心"
+      "Trung tâm mua sắm"
     ]
   },
   {
@@ -18968,7 +18968,7 @@
   {
     "name": "film festival",
     "trans": [
-      "电影节"
+      "liên hoan phim"
     ]
   },
   {
@@ -19040,13 +19040,13 @@
   {
     "name": "swimming pool",
     "trans": [
-      "游泳池"
+      "bể bơi"
     ]
   },
   {
     "name": "swimming suit",
     "trans": [
-      "游泳衣"
+      "đồ bơi"
     ]
   },
   {
@@ -19100,7 +19100,7 @@
   {
     "name": "black velvet",
     "trans": [
-      "黑天鹅绒"
+      "nhung đen"
     ]
   },
   {
@@ -19166,7 +19166,7 @@
   {
     "name": "school uniform",
     "trans": [
-      "校服"
+      "đồng phục"
     ]
   },
   {
@@ -19178,7 +19178,7 @@
   {
     "name": "wet suit",
     "trans": [
-      "游泳衣"
+      "đồ bơi"
     ]
   },
   {
@@ -19226,7 +19226,7 @@
   {
     "name": "shrimp",
     "trans": [
-      "虾"
+      "tôm"
     ]
   },
   {
@@ -19244,19 +19244,19 @@
   {
     "name": "frog",
     "trans": [
-      "青蛙"
+      "con ếch"
     ]
   },
   {
     "name": "butterfly",
     "trans": [
-      "蝴蝶"
+      "con bướm"
     ]
   },
   {
     "name": "lizard",
     "trans": [
-      "蜥蜴"
+      "thằn lằn"
     ]
   },
   {
@@ -19268,7 +19268,7 @@
   {
     "name": "mouse",
     "trans": [
-      "老鼠"
+      "chuột"
     ]
   },
   {
@@ -19280,7 +19280,7 @@
   {
     "name": "rabbit",
     "trans": [
-      "兔子"
+      "thỏ; con thỏ"
     ]
   },
   {
@@ -19292,49 +19292,49 @@
   {
     "name": "animal",
     "trans": [
-      "动物"
+      "động vật"
     ]
   },
   {
     "name": "zebra",
     "trans": [
-      "斑马"
+      "ngựa vằn"
     ]
   },
   {
     "name": "elephant",
     "trans": [
-      "大象"
+      "n. voi"
     ]
   },
   {
     "name": "crocodile",
     "trans": [
-      "鳄鱼"
+      "cá sấu"
     ]
   },
   {
     "name": "dolphin",
     "trans": [
-      "海豚"
+      "cá heo"
     ]
   },
   {
     "name": "kangaroo",
     "trans": [
-      "袋鼠"
+      "kangaroo"
     ]
   },
   {
     "name": "koala",
     "trans": [
-      "考拉"
+      "gấu koala"
     ]
   },
   {
     "name": "rhino",
     "trans": [
-      "犀牛"
+      "tê giác"
     ]
   },
   {
@@ -19352,37 +19352,37 @@
   {
     "name": "skin",
     "trans": [
-      "皮肤"
+      "n. da, làn da"
     ]
   },
   {
     "name": "migration",
     "trans": [
-      "移民"
+      "nhập cư"
     ]
   },
   {
     "name": "mammal",
     "trans": [
-      "哺乳动物"
+      "động vật có vú"
     ]
   },
   {
     "name": "camel",
     "trans": [
-      "骆驼"
+      "lạc đà"
     ]
   },
   {
     "name": "falcon",
     "trans": [
-      "鹰"
+      "đại bàng"
     ]
   },
   {
     "name": "horse",
     "trans": [
-      "马"
+      "ngựa; con ngựa"
     ]
   },
   {
@@ -19400,7 +19400,7 @@
   {
     "name": "mosquito",
     "trans": [
-      "蚊子"
+      "con muỗi"
     ]
   },
   {
@@ -19412,13 +19412,13 @@
   {
     "name": "hen",
     "trans": [
-      "母鸡"
+      "gà mái; gà"
     ]
   },
   {
     "name": "sheep",
     "trans": [
-      "羊"
+      "n. cừu, dê"
     ]
   },
   {
@@ -19430,19 +19430,19 @@
   {
     "name": "spider",
     "trans": [
-      "蜘蛛"
+      "con nhện"
     ]
   },
   {
     "name": "kangaroo",
     "trans": [
-      "袋鼠"
+      "kangaroo"
     ]
   },
   {
     "name": "koala",
     "trans": [
-      "考拉"
+      "gấu koala"
     ]
   },
   {
@@ -19460,13 +19460,13 @@
   {
     "name": "pet",
     "trans": [
-      "宠物"
+      "thú cưng"
     ]
   },
   {
     "name": "ape",
     "trans": [
-      "猿"
+      "khỉ, đười ươi"
     ]
   },
   {
@@ -19478,7 +19478,7 @@
   {
     "name": "insect",
     "trans": [
-      "昆虫"
+      "côn trùng"
     ]
   },
   {
@@ -19496,19 +19496,19 @@
   {
     "name": "mane",
     "trans": [
-      "鬃毛"
+      "lông cừu, lông ngựa"
     ]
   },
   {
     "name": "feather",
     "trans": [
-      "羽毛"
+      "lông chim"
     ]
   },
   {
     "name": "wasp",
     "trans": [
-      "黄蜂"
+      "ong vàng"
     ]
   },
   {
@@ -19538,31 +19538,31 @@
   {
     "name": "lion",
     "trans": [
-      "狮子"
+      "sư tử; con sư tử"
     ]
   },
   {
     "name": "donkey",
     "trans": [
-      "驴"
+      "lừa"
     ]
   },
   {
     "name": "harmful",
     "trans": [
-      "有害的"
+      "có hại, gây hại"
     ]
   },
   {
     "name": "shell",
     "trans": [
-      "贝壳"
+      "vỏ sò, vỏ ốc"
     ]
   },
   {
     "name": "wild animal",
     "trans": [
-      "野生动物"
+      "động vật hoang dã"
     ]
   },
   {
@@ -19592,7 +19592,7 @@
   {
     "name": "female butterflies",
     "trans": [
-      "蝴蝶"
+      "con bướm"
     ]
   },
   {
@@ -19694,7 +19694,7 @@
   {
     "name": "mosquito net",
     "trans": [
-      "蚊帐"
+      "màn chống muỗi"
     ]
   },
   {
@@ -19706,7 +19706,7 @@
   {
     "name": "sheep and cattle",
     "trans": [
-      "羊和牛"
+      "cừu và bò"
     ]
   },
   {
@@ -19760,7 +19760,7 @@
   {
     "name": "horse hair",
     "trans": [
-      "马毛"
+      "lông ngựa"
     ]
   },
   {
@@ -19778,7 +19778,7 @@
   {
     "name": "sea urchin",
     "trans": [
-      "海胆"
+      "hải trù"
     ]
   },
   {
@@ -19832,37 +19832,37 @@
   {
     "name": "fruit",
     "trans": [
-      "水果"
+      "trái cây"
     ]
   },
   {
     "name": "wood",
     "trans": [
-      "木材"
+      "gỗ, vật liệu gỗ"
     ]
   },
   {
     "name": "bush",
     "trans": [
-      "灌木"
+      "bụi cây"
     ]
   },
   {
     "name": "pea",
     "trans": [
-      "豌豆"
+      "đậu"
     ]
   },
   {
     "name": "tree",
     "trans": [
-      "树"
+      "cây"
     ]
   },
   {
     "name": "leaf",
     "trans": [
-      "叶子"
+      "lá"
     ]
   },
   {
@@ -19874,13 +19874,13 @@
   {
     "name": "flower",
     "trans": [
-      "花朵"
+      "hoa"
     ]
   },
   {
     "name": "flour",
     "trans": [
-      "面粉"
+      "bột mì"
     ]
   },
   {
@@ -19892,19 +19892,19 @@
   {
     "name": "bean",
     "trans": [
-      "豆子"
+      "đậu"
     ]
   },
   {
     "name": "soybean",
     "trans": [
-      "大豆"
+      "đậu nành, đậu tương"
     ]
   },
   {
     "name": "corn",
     "trans": [
-      "玉米"
+      "ngô"
     ]
   },
   {
@@ -19916,31 +19916,31 @@
   {
     "name": "grain",
     "trans": [
-      "谷物"
+      "ngũ cốc, hạt ngũ cốc"
     ]
   },
   {
     "name": "lemon",
     "trans": [
-      "柠檬"
+      "chanh"
     ]
   },
   {
     "name": "vegetation",
     "trans": [
-      "植被"
+      "thảm thực vật, cây cỏ"
     ]
   },
   {
     "name": "planting",
     "trans": [
-      "种植"
+      "trồng"
     ]
   },
   {
     "name": "plant",
     "trans": [
-      "植物"
+      "thực vật; cây"
     ]
   },
   {
@@ -19982,7 +19982,7 @@
   {
     "name": "pine tree",
     "trans": [
-      "松树"
+      "cây thông"
     ]
   },
   {
@@ -20054,7 +20054,7 @@
   {
     "name": "employ",
     "trans": [
-      "雇佣"
+      "v. thuê; tuyển dụng"
     ]
   },
   {
@@ -20066,7 +20066,7 @@
   {
     "name": "employer",
     "trans": [
-      "雇主"
+      "chủ lao động"
     ]
   },
   {
@@ -20090,13 +20090,13 @@
   {
     "name": "accountant",
     "trans": [
-      "会计"
+      "kế toán"
     ]
   },
   {
     "name": "merchandise",
     "trans": [
-      "商品"
+      "hàng hoá; hàng"
     ]
   },
   {
@@ -20114,13 +20114,13 @@
   {
     "name": "engine",
     "trans": [
-      "发动机"
+      "n. động cơ; máy"
     ]
   },
   {
     "name": "engineer",
     "trans": [
-      "工程师"
+      "n. kỹ sư"
     ]
   },
   {
@@ -20138,19 +20138,19 @@
   {
     "name": "customer",
     "trans": [
-      "顾客"
+      "khách hàng"
     ]
   },
   {
     "name": "contact",
     "trans": [
-      "接触"
+      "tiếp xúc"
     ]
   },
   {
     "name": "colleague",
     "trans": [
-      "同事"
+      "đồng nghiệp, đồng sự nghiệp"
     ]
   },
   {
@@ -20162,7 +20162,7 @@
   {
     "name": "organization",
     "trans": [
-      "组织"
+      "tổ chức"
     ]
   },
   {
@@ -20174,13 +20174,13 @@
   {
     "name": "farm",
     "trans": [
-      "农场"
+      "nông trại, trang trại"
     ]
   },
   {
     "name": "farmer",
     "trans": [
-      "农民"
+      "nông dân"
     ]
   },
   {
@@ -20192,25 +20192,25 @@
   {
     "name": "agriculture",
     "trans": [
-      "农业"
+      "nông nghiệp"
     ]
   },
   {
     "name": "firm",
     "trans": [
-      "公司"
+      "công ty"
     ]
   },
   {
     "name": "clean",
     "trans": [
-      "干净的"
+      "sạch sẽ"
     ]
   },
   {
     "name": "cleaning",
     "trans": [
-      "清洁"
+      "sạch sẽ"
     ]
   },
   {
@@ -20228,7 +20228,7 @@
   {
     "name": "recruit",
     "trans": [
-      "招聘"
+      "tuyển dụng"
     ]
   },
   {
@@ -20240,25 +20240,25 @@
   {
     "name": "cooperation",
     "trans": [
-      "合作"
+      "hợp tác, cộng tác"
     ]
   },
   {
     "name": "co-operative",
     "trans": [
-      "合作的"
+      "hợp tác"
     ]
   },
   {
     "name": "corporation",
     "trans": [
-      "公司"
+      "công ty"
     ]
   },
   {
     "name": "forest",
     "trans": [
-      "森林"
+      "rừng"
     ]
   },
   {
@@ -20282,19 +20282,19 @@
   {
     "name": "marsh",
     "trans": [
-      "沼泽"
+      "đầm lầy"
     ]
   },
   {
     "name": "wind",
     "trans": [
-      "风"
+      "gió"
     ]
   },
   {
     "name": "industrial",
     "trans": [
-      "工业的"
+      "công nghiệp"
     ]
   },
   {
@@ -20324,13 +20324,13 @@
   {
     "name": "factory",
     "trans": [
-      "工厂"
+      "nhà máy"
     ]
   },
   {
     "name": "commission",
     "trans": [
-      "委员会"
+      "ủy ban"
     ]
   },
   {
@@ -20342,13 +20342,13 @@
   {
     "name": "growth",
     "trans": [
-      "成长"
+      "lớn lên; trưởng thành"
     ]
   },
   {
     "name": "council",
     "trans": [
-      "委员会"
+      "ủy ban"
     ]
   },
   {
@@ -20360,13 +20360,13 @@
   {
     "name": "trip",
     "trans": [
-      "旅行"
+      "du lịch"
     ]
   },
   {
     "name": "role",
     "trans": [
-      "角色"
+      "vai trò"
     ]
   },
   {
@@ -20378,19 +20378,19 @@
   {
     "name": "subcommittee",
     "trans": [
-      "小组委员会"
+      "tiểu ban"
     ]
   },
   {
     "name": "welfare",
     "trans": [
-      "福利"
+      "phúc lợi"
     ]
   },
   {
     "name": "flexible",
     "trans": [
-      "灵活的"
+      "linh hoạt"
     ]
   },
   {
@@ -20420,7 +20420,7 @@
   {
     "name": "mining industry",
     "trans": [
-      "矿业"
+      "ngành mỏ"
     ]
   },
   {
@@ -20432,13 +20432,13 @@
   {
     "name": "fishing industry",
     "trans": [
-      "渔业"
+      "nghề cá"
     ]
   },
   {
     "name": "traditional industries",
     "trans": [
-      "传统工业"
+      "công nghiệp truyền thống"
     ]
   },
   {
@@ -20456,7 +20456,7 @@
   {
     "name": "center manager",
     "trans": [
-      "中心经理"
+      "quản lý trung tâm"
     ]
   },
   {
@@ -20558,7 +20558,7 @@
   {
     "name": "farming products",
     "trans": [
-      "农产品"
+      "nông sản, sản phẩm nông nghiệp"
     ]
   },
   {
@@ -20600,7 +20600,7 @@
   {
     "name": "wind power",
     "trans": [
-      "风能"
+      "năng lượng gió"
     ]
   },
   {
@@ -20684,7 +20684,7 @@
   {
     "name": "industrial material",
     "trans": [
-      "工业材料"
+      "vật liệu công nghiệp"
     ]
   },
   {
@@ -20732,7 +20732,7 @@
   {
     "name": "business card",
     "trans": [
-      "名片"
+      "danh thiếp, thẻ tên"
     ]
   },
   {
@@ -20762,7 +20762,7 @@
   {
     "name": "business area",
     "trans": [
-      "商务区"
+      "khu thương mại, khu kinh doanh"
     ]
   },
   {
@@ -20780,7 +20780,7 @@
   {
     "name": "population growth",
     "trans": [
-      "人口增长"
+      "tăng dân số, tăng trưởng dân số"
     ]
   },
   {
@@ -20846,13 +20846,13 @@
   {
     "name": "post office",
     "trans": [
-      "邮局"
+      "bưu điện"
     ]
   },
   {
     "name": "post cards",
     "trans": [
-      "明信片"
+      "phúc thiếp; bưu thiếp"
     ]
   },
   {
@@ -20870,7 +20870,7 @@
   {
     "name": "police",
     "trans": [
-      "警察"
+      "cảnh sát"
     ]
   },
   {
@@ -20888,7 +20888,7 @@
   {
     "name": "crime",
     "trans": [
-      "犯罪"
+      "phạm tội, tội phạm"
     ]
   },
   {
@@ -20924,7 +20924,7 @@
   {
     "name": "medicine",
     "trans": [
-      "药物"
+      "thuốc; dược phẩm"
     ]
   },
   {
@@ -20936,25 +20936,25 @@
   {
     "name": "antibiotics",
     "trans": [
-      "抗生素"
+      "kháng sinh"
     ]
   },
   {
     "name": "capsule",
     "trans": [
-      "胶囊"
+      "viên nang, con nhộng"
     ]
   },
   {
     "name": "pill",
     "trans": [
-      "药丸"
+      "viên thuốc"
     ]
   },
   {
     "name": "aspirin",
     "trans": [
-      "阿司匹林"
+      "aspirin"
     ]
   },
   {
@@ -20966,19 +20966,19 @@
   {
     "name": "eyedrops",
     "trans": [
-      "眼药水"
+      "thuốc nhỏ mắt"
     ]
   },
   {
     "name": "ointment",
     "trans": [
-      "药膏"
+      "cao thuốc"
     ]
   },
   {
     "name": "syrup",
     "trans": [
-      "糖浆"
+      "siro"
     ]
   },
   {
@@ -20990,7 +20990,7 @@
   {
     "name": "suncream",
     "trans": [
-      "防晒霜"
+      "kem chống nắng"
     ]
   },
   {
@@ -21002,19 +21002,19 @@
   {
     "name": "injection",
     "trans": [
-      "注射"
+      "tiêm, mũi tiêm"
     ]
   },
   {
     "name": "tablet",
     "trans": [
-      "药片"
+      "vien thuoc"
     ]
   },
   {
     "name": "herb",
     "trans": [
-      "草药"
+      "thuốc thảo; thảo dược"
     ]
   },
   {
@@ -21032,13 +21032,13 @@
   {
     "name": "surgery",
     "trans": [
-      "外科手术"
+      "phau thuat"
     ]
   },
   {
     "name": "disease",
     "trans": [
-      "疾病"
+      "bệnh, bệnh tật"
     ]
   },
   {
@@ -21050,25 +21050,25 @@
   {
     "name": "flu",
     "trans": [
-      "流感"
+      "cúm"
     ]
   },
   {
     "name": "toe",
     "trans": [
-      "脚趾"
+      "ngón chân"
     ]
   },
   {
     "name": "pneumonia",
     "trans": [
-      "肺炎"
+      "viêm phổi"
     ]
   },
   {
     "name": "epidemic",
     "trans": [
-      "流行病"
+      "dịch bệnh"
     ]
   },
   {
@@ -21080,7 +21080,7 @@
   {
     "name": "allergic",
     "trans": [
-      "过敏的"
+      "dị ứng"
     ]
   },
   {
@@ -21098,7 +21098,7 @@
   {
     "name": "sleep",
     "trans": [
-      "睡觉"
+      "v. ngủ"
     ]
   },
   {
@@ -21110,7 +21110,7 @@
   {
     "name": "sleeping",
     "trans": [
-      "睡眠"
+      "giấc ngủ"
     ]
   },
   {
@@ -21122,13 +21122,13 @@
   {
     "name": "insomnia",
     "trans": [
-      "失眠"
+      "mất ngủ"
     ]
   },
   {
     "name": "injury",
     "trans": [
-      "受伤"
+      "bị thương"
     ]
   },
   {
@@ -21140,13 +21140,13 @@
   {
     "name": "chest",
     "trans": [
-      "胸部"
+      "ngực, vú"
     ]
   },
   {
     "name": "teeth",
     "trans": [
-      "牙齿"
+      "răng; răng"
     ]
   },
   {
@@ -21158,13 +21158,13 @@
   {
     "name": "eyesight",
     "trans": [
-      "视力"
+      "thị lực"
     ]
   },
   {
     "name": "malaria",
     "trans": [
-      "疟疾"
+      "sốt rét"
     ]
   },
   {
@@ -21176,43 +21176,43 @@
   {
     "name": "symptom",
     "trans": [
-      "症状"
+      "trieu chung"
     ]
   },
   {
     "name": "fever",
     "trans": [
-      "发烧"
+      "sốt"
     ]
   },
   {
     "name": "cough",
     "trans": [
-      "咳嗽"
+      "ho, ho khan"
     ]
   },
   {
     "name": "stomachache",
     "trans": [
-      "胃痛"
+      "dau da day"
     ]
   },
   {
     "name": "headache",
     "trans": [
-      "头痛"
+      "đau đầu"
     ]
   },
   {
     "name": "tooth",
     "trans": [
-      "牙齿"
+      "răng; răng"
     ]
   },
   {
     "name": "toothache",
     "trans": [
-      "牙痛"
+      "đau răng; sâu răng"
     ]
   },
   {
@@ -21230,13 +21230,13 @@
   {
     "name": "surgeon",
     "trans": [
-      "外科医生"
+      "bác sĩ phẫu thuật"
     ]
   },
   {
     "name": "physician",
     "trans": [
-      "内科医生"
+      "bác sĩ nội khoa"
     ]
   },
   {
@@ -21248,13 +21248,13 @@
   {
     "name": "dentist",
     "trans": [
-      "牙医"
+      "nha sĩ"
     ]
   },
   {
     "name": "vet",
     "trans": [
-      "兽医"
+      "bác sĩ thú y; thú y"
     ]
   },
   {
@@ -21272,19 +21272,19 @@
   {
     "name": "patient",
     "trans": [
-      "病人"
+      "bệnh nhân"
     ]
   },
   {
     "name": "clinic",
     "trans": [
-      "诊所"
+      "phòng khám, phòng chẩn trị"
     ]
   },
   {
     "name": "bandage",
     "trans": [
-      "绷带"
+      "băng cấp cứu; dải băng"
     ]
   },
   {
@@ -21308,25 +21308,25 @@
   {
     "name": "finger",
     "trans": [
-      "手指"
+      "ngón tay"
     ]
   },
   {
     "name": "chin",
     "trans": [
-      "下巴"
+      "cằm"
     ]
   },
   {
     "name": "eyes",
     "trans": [
-      "眼睛"
+      "n. mắt; con mắt"
     ]
   },
   {
     "name": "nose",
     "trans": [
-      "鼻子"
+      "mũi"
     ]
   },
   {
@@ -21338,7 +21338,7 @@
   {
     "name": "ear",
     "trans": [
-      "耳朵"
+      "n. tai"
     ]
   },
   {
@@ -21356,25 +21356,25 @@
   {
     "name": "illness",
     "trans": [
-      "疾病"
+      "bệnh, bệnh tật"
     ]
   },
   {
     "name": "ill",
     "trans": [
-      "生病的"
+      "adj. bị bệnh, ốm"
     ]
   },
   {
     "name": "vaccine",
     "trans": [
-      "疫苗"
+      "vắc xin"
     ]
   },
   {
     "name": "bacteria",
     "trans": [
-      "细菌"
+      "vi khuẩn"
     ]
   },
   {
@@ -21386,19 +21386,19 @@
   {
     "name": "external",
     "trans": [
-      "外部的"
+      "bên ngoài"
     ]
   },
   {
     "name": "internal",
     "trans": [
-      "内部的"
+      "bên trong; nội bộ"
     ]
   },
   {
     "name": "treatment",
     "trans": [
-      "治疗"
+      "chữa bệnh, điều trị"
     ]
   },
   {
@@ -21416,7 +21416,7 @@
   {
     "name": "chemist's",
     "trans": [
-      "药店"
+      "hiệu thuốc, nhà thuốc"
     ]
   },
   {
@@ -21434,13 +21434,13 @@
   {
     "name": "lung",
     "trans": [
-      "肺"
+      "phổi"
     ]
   },
   {
     "name": "recipe",
     "trans": [
-      "处方"
+      "đơn thuốc"
     ]
   },
   {
@@ -21464,13 +21464,13 @@
   {
     "name": "health",
     "trans": [
-      "健康"
+      "sức khoẻ; sức khỏe"
     ]
   },
   {
     "name": "healthy",
     "trans": [
-      "健康的"
+      "khỏe mạnh"
     ]
   },
   {
@@ -21482,19 +21482,19 @@
   {
     "name": "sick",
     "trans": [
-      "生病的"
+      "adj. bị bệnh, ốm"
     ]
   },
   {
     "name": "sickness",
     "trans": [
-      "疾病"
+      "bệnh, bệnh tật"
     ]
   },
   {
     "name": "relaxation",
     "trans": [
-      "放松"
+      "thư giãn; thả lỏng"
     ]
   },
   {
@@ -21512,13 +21512,13 @@
   {
     "name": "hospital",
     "trans": [
-      "医院"
+      "bệnh viện; nhà thương"
     ]
   },
   {
     "name": "precaution",
     "trans": [
-      "预防"
+      "phòng ngừa; phòng tránh"
     ]
   },
   {
@@ -21536,19 +21536,19 @@
   {
     "name": "mental",
     "trans": [
-      "精神的"
+      "tinh thần; tâm lý"
     ]
   },
   {
     "name": "physical",
     "trans": [
-      "肉体的"
+      "thể xác, xác thịt"
     ]
   },
   {
     "name": "prevention",
     "trans": [
-      "预防"
+      "phòng ngừa; phòng tránh"
     ]
   },
   {
@@ -21560,31 +21560,31 @@
   {
     "name": "ambulance",
     "trans": [
-      "救护车"
+      "xe cứu thương"
     ]
   },
   {
     "name": "blood",
     "trans": [
-      "血"
+      "máu"
     ]
   },
   {
     "name": "ankle",
     "trans": [
-      "脚踝"
+      "mắt cá chân"
     ]
   },
   {
     "name": "virus",
     "trans": [
-      "病毒"
+      "vi-rút"
     ]
   },
   {
     "name": "germ",
     "trans": [
-      "细菌"
+      "vi khuẩn"
     ]
   },
   {
@@ -21656,7 +21656,7 @@
   {
     "name": "medical centre",
     "trans": [
-      "医疗中心"
+      "trung tâm y tế"
     ]
   },
   {
@@ -21686,7 +21686,7 @@
   {
     "name": "yellow fever",
     "trans": [
-      "黄热病"
+      "bệnh sốt vàng"
     ]
   },
   {
@@ -21734,7 +21734,7 @@
   {
     "name": "decayed teeth",
     "trans": [
-      "蛀牙"
+      "răng sâu"
     ]
   },
   {
@@ -21776,7 +21776,7 @@
   {
     "name": "ice pack",
     "trans": [
-      "冰袋"
+      "túi đá"
     ]
   },
   {
@@ -21824,13 +21824,13 @@
   {
     "name": "make an appointment",
     "trans": [
-      "预约"
+      "Đặt trước"
     ]
   },
   {
     "name": "internal clock",
     "trans": [
-      "生物钟"
+      "đồng hồ sinh học"
     ]
   },
   {
@@ -21884,7 +21884,7 @@
   {
     "name": "health check",
     "trans": [
-      "体检"
+      "khám sức khỏe tổng quát"
     ]
   },
   {
@@ -21908,7 +21908,7 @@
   {
     "name": "nursing care",
     "trans": [
-      "护理"
+      "sự chăm sóc"
     ]
   },
   {
@@ -21920,7 +21920,7 @@
   {
     "name": "health department",
     "trans": [
-      "卫生部"
+      "bộ y tế"
     ]
   },
   {
@@ -21950,7 +21950,7 @@
   {
     "name": "life cycle",
     "trans": [
-      "生命周期"
+      "vòng đời"
     ]
   },
   {
@@ -21974,7 +21974,7 @@
   {
     "name": "blood flow",
     "trans": [
-      "血流"
+      "dòng máu"
     ]
   },
   {
@@ -21998,13 +21998,13 @@
   {
     "name": "plastic",
     "trans": [
-      "塑料"
+      "nhựa; vật liệu nhựa"
     ]
   },
   {
     "name": "waste",
     "trans": [
-      "浪费"
+      "lãng phí"
     ]
   },
   {
@@ -22016,7 +22016,7 @@
   {
     "name": "pollute",
     "trans": [
-      "污染"
+      "ô nhiễm; làm bẩn"
     ]
   },
   {
@@ -22028,7 +22028,7 @@
   {
     "name": "pollutant",
     "trans": [
-      "污染物"
+      "chất ô nhiễm"
     ]
   },
   {
@@ -22052,13 +22052,13 @@
   {
     "name": "air",
     "trans": [
-      "空气"
+      "không khí"
     ]
   },
   {
     "name": "rubbish",
     "trans": [
-      "垃圾"
+      "rác"
     ]
   },
   {
@@ -22076,31 +22076,31 @@
   {
     "name": "nature",
     "trans": [
-      "自然"
+      "tự nhiên"
     ]
   },
   {
     "name": "hothouse",
     "trans": [
-      "温室"
+      "nhà kính"
     ]
   },
   {
     "name": "green",
     "trans": [
-      "绿色"
+      "xanh lục"
     ]
   },
   {
     "name": "greenhouse",
     "trans": [
-      "温室效应"
+      "hiệu ứng nhà kính"
     ]
   },
   {
     "name": "impact",
     "trans": [
-      "影响"
+      "ảnh hưởng"
     ]
   },
   {
@@ -22130,7 +22130,7 @@
   {
     "name": "recycling",
     "trans": [
-      "回收"
+      "thu hồi; tái chế"
     ]
   },
   {
@@ -22148,37 +22148,37 @@
   {
     "name": "handling",
     "trans": [
-      "处理"
+      "xu ly"
     ]
   },
   {
     "name": "temperature",
     "trans": [
-      "温度"
+      "nhiet do"
     ]
   },
   {
     "name": "damage",
     "trans": [
-      "毁坏"
+      "phá hủy"
     ]
   },
   {
     "name": "carbon",
     "trans": [
-      "碳"
+      "cacbon"
     ]
   },
   {
     "name": "dioxide",
     "trans": [
-      "二氧化碳"
+      "khí cacbonic"
     ]
   },
   {
     "name": "organic",
     "trans": [
-      "有机的"
+      "hữu cơ"
     ]
   },
   {
@@ -22190,7 +22190,7 @@
   {
     "name": "plastic bags",
     "trans": [
-      "塑料袋"
+      "túi nhựa"
     ]
   },
   {
@@ -22244,7 +22244,7 @@
   {
     "name": "social influences",
     "trans": [
-      "社会影响"
+      "ảnh hưởng xã hội"
     ]
   },
   {
@@ -22256,7 +22256,7 @@
   {
     "name": "global warming",
     "trans": [
-      "全球变暖"
+      "nóng lên toàn cầu"
     ]
   },
   {
@@ -22292,7 +22292,7 @@
   {
     "name": "high temperatures",
     "trans": [
-      "高温"
+      "nhiệt độ cao"
     ]
   },
   {
@@ -22304,7 +22304,7 @@
   {
     "name": "centigrade",
     "trans": [
-      "摄氏度"
+      "Độ Celsius"
     ]
   },
   {
@@ -22322,7 +22322,7 @@
   {
     "name": "carbon dioxide",
     "trans": [
-      "二氧化碳"
+      "khí cacbonic"
     ]
   },
   {
@@ -22352,7 +22352,7 @@
   {
     "name": "hall",
     "trans": [
-      "大厅"
+      "sảnh; đại sảnh"
     ]
   },
   {
@@ -22364,13 +22364,13 @@
   {
     "name": "basketball",
     "trans": [
-      "篮球"
+      "bóng rổ"
     ]
   },
   {
     "name": "dive",
     "trans": [
-      "跳水"
+      "nhảy cầu"
     ]
   },
   {
@@ -22382,7 +22382,7 @@
   {
     "name": "squash",
     "trans": [
-      "壁球"
+      "bóng chuyền tường (squash)"
     ]
   },
   {
@@ -22394,7 +22394,7 @@
   {
     "name": "riding",
     "trans": [
-      "骑"
+      "cưỡi"
     ]
   },
   {
@@ -22406,19 +22406,19 @@
   {
     "name": "surfing",
     "trans": [
-      "冲浪"
+      "luoi"
     ]
   },
   {
     "name": "football",
     "trans": [
-      "足球"
+      "bóng đá"
     ]
   },
   {
     "name": "camp",
     "trans": [
-      "露营"
+      "cắm trại"
     ]
   },
   {
@@ -22430,13 +22430,13 @@
   {
     "name": "club",
     "trans": [
-      "俱乐部"
+      "câu lạc bộ"
     ]
   },
   {
     "name": "centre",
     "trans": [
-      "中心"
+      "trung tâm, trung tâm"
     ]
   },
   {
@@ -22454,19 +22454,19 @@
   {
     "name": "sportswear",
     "trans": [
-      "运动服"
+      "quan ao the thao"
     ]
   },
   {
     "name": "activity",
     "trans": [
-      "活动"
+      "hoạt động, sự vận động"
     ]
   },
   {
     "name": "yoga",
     "trans": [
-      "瑜伽"
+      "yoga"
     ]
   },
   {
@@ -22484,43 +22484,43 @@
   {
     "name": "skating",
     "trans": [
-      "滑冰"
+      "v. trượt băng, trượt"
     ]
   },
   {
     "name": "roller-skating",
     "trans": [
-      "滑旱冰"
+      "trượt đất; trượt giày trụ"
     ]
   },
   {
     "name": "badminton",
     "trans": [
-      "羽毛球"
+      "cầu lông"
     ]
   },
   {
     "name": "tennis",
     "trans": [
-      "网球"
+      "quyen vong"
     ]
   },
   {
     "name": "exercise",
     "trans": [
-      "练习"
+      "luyện tập; bài tập"
     ]
   },
   {
     "name": "weight",
     "trans": [
-      "重量"
+      "trọng lượng, sức nặng"
     ]
   },
   {
     "name": "cycling",
     "trans": [
-      "骑自行车"
+      "đạp xe đạp, đi xe đạp"
     ]
   },
   {
@@ -22544,7 +22544,7 @@
   {
     "name": "instructor",
     "trans": [
-      "教练"
+      "huấn luyện viên"
     ]
   },
   {
@@ -22568,13 +22568,13 @@
   {
     "name": "gym",
     "trans": [
-      "健身房"
+      "phòng tập; nhà tập"
     ]
   },
   {
     "name": "gymnastics",
     "trans": [
-      "体操"
+      "thể dục"
     ]
   },
   {
@@ -22586,25 +22586,25 @@
   {
     "name": "movement",
     "trans": [
-      "移动"
+      "di chuyển; vận động"
     ]
   },
   {
     "name": "muscle",
     "trans": [
-      "肌肉"
+      "cơ bắp; bắp thịt"
     ]
   },
   {
     "name": "adopt",
     "trans": [
-      "收养"
+      "nhận nuôi"
     ]
   },
   {
     "name": "artificial",
     "trans": [
-      "人工的"
+      "nhân tạo"
     ]
   },
   {
@@ -22616,7 +22616,7 @@
   {
     "name": "advantage",
     "trans": [
-      "优势"
+      "ưu thế, lợi thế"
     ]
   },
   {
@@ -22628,7 +22628,7 @@
   {
     "name": "question",
     "trans": [
-      "问题"
+      "vấn đề; câu hỏi"
     ]
   },
   {
@@ -22640,37 +22640,37 @@
   {
     "name": "third",
     "trans": [
-      "第三"
+      "thứ ba; số thứ ba"
     ]
   },
   {
     "name": "lack",
     "trans": [
-      "缺乏"
+      "thiếu; thiếu hụt"
     ]
   },
   {
     "name": "working",
     "trans": [
-      "工作"
+      "làm việc; công việc"
     ]
   },
   {
     "name": "reason",
     "trans": [
-      "理由"
+      "lý do, lý lẽ"
     ]
   },
   {
     "name": "skill",
     "trans": [
-      "技能"
+      "n. kỹ năng, kỹ thuật"
     ]
   },
   {
     "name": "problem",
     "trans": [
-      "问题"
+      "vấn đề; câu hỏi"
     ]
   },
   {
@@ -22682,37 +22682,37 @@
   {
     "name": "type",
     "trans": [
-      "类型，种类"
+      "loại, kiểu"
     ]
   },
   {
     "name": "typical",
     "trans": [
-      "典型的"
+      "điển hình; đặc trưng; tiêu biểu"
     ]
   },
   {
     "name": "million",
     "trans": [
-      "百万"
+      "triệu"
     ]
   },
   {
     "name": "Town Hall",
     "trans": [
-      "市政厅"
+      "tòa thị chính"
     ]
   },
   {
     "name": "lecture hall",
     "trans": [
-      "阶梯教室"
+      "giảng đường bậc thang"
     ]
   },
   {
     "name": "center hall",
     "trans": [
-      "中央大厅"
+      "đại sảnh Trung tâm"
     ]
   },
   {
@@ -22730,7 +22730,7 @@
   {
     "name": "fitness center",
     "trans": [
-      "健身中心"
+      "trung tâm thể dục"
     ]
   },
   {
@@ -22760,13 +22760,13 @@
   {
     "name": "dive into water",
     "trans": [
-      "跳水"
+      "nhảy cầu"
     ]
   },
   {
     "name": "horse riding",
     "trans": [
-      "骑马"
+      "cưỡi ngựa"
     ]
   },
   {
@@ -22856,19 +22856,19 @@
   {
     "name": "sports centre",
     "trans": [
-      "运动中心"
+      "trung tâm thể thao"
     ]
   },
   {
     "name": "sports shoes",
     "trans": [
-      "运动鞋"
+      "n. giày thể thao, giày vải"
     ]
   },
   {
     "name": "sports suit",
     "trans": [
-      "运动服"
+      "quan ao the thao"
     ]
   },
   {
@@ -22910,13 +22910,13 @@
   {
     "name": "outside activity",
     "trans": [
-      "户外活动"
+      "hoạt động ngoài trời"
     ]
   },
   {
     "name": "human activities",
     "trans": [
-      "人类活动"
+      "hoạt động của con người"
     ]
   },
   {
@@ -22928,7 +22928,7 @@
   {
     "name": "movement of building",
     "trans": [
-      "建筑物的移动"
+      "sự di dời công trình"
     ]
   },
   {
@@ -22946,7 +22946,7 @@
   {
     "name": "table tennis",
     "trans": [
-      "乒乓球"
+      "bóng bàn"
     ]
   },
   {
@@ -22988,7 +22988,7 @@
   {
     "name": "gym membership",
     "trans": [
-      "健身房会员"
+      "hội viên phòng tập thể hình"
     ]
   },
   {
@@ -23078,7 +23078,7 @@
   {
     "name": "documentary",
     "trans": [
-      "纪录片"
+      "phim tài liệu"
     ]
   },
   {
@@ -23132,7 +23132,7 @@
   {
     "name": "cartoon",
     "trans": [
-      "卡通片，动画片"
+      "hoạt hình; phim hoạt họa"
     ]
   },
   {
@@ -23144,7 +23144,7 @@
   {
     "name": "famous",
     "trans": [
-      "著名的"
+      "nổi tiếng"
     ]
   },
   {
@@ -23156,19 +23156,19 @@
   {
     "name": "factor",
     "trans": [
-      "因素"
+      "yếu tố"
     ]
   },
   {
     "name": "world",
     "trans": [
-      "世界"
+      "thế giới"
     ]
   },
   {
     "name": "seat",
     "trans": [
-      "座位"
+      "n. chỗ ngồi, ghế"
     ]
   },
   {
@@ -23180,13 +23180,13 @@
   {
     "name": "century",
     "trans": [
-      "世纪"
+      "thế kỷ"
     ]
   },
   {
     "name": "idea",
     "trans": [
-      "主意"
+      "ý tưởng; ý kiến; kế"
     ]
   },
   {
@@ -23204,31 +23204,31 @@
   {
     "name": "result",
     "trans": [
-      "结果"
+      "kết quả"
     ]
   },
   {
     "name": "government",
     "trans": [
-      "政府"
+      "chính phủ; chính quyền"
     ]
   },
   {
     "name": "speed",
     "trans": [
-      "速度"
+      "toc do"
     ]
   },
   {
     "name": "offer",
     "trans": [
-      "提供"
+      "cung cấp"
     ]
   },
   {
     "name": "quantity",
     "trans": [
-      "数量"
+      "số lượng, lượng"
     ]
   },
   {
@@ -23246,7 +23246,7 @@
   {
     "name": "energy",
     "trans": [
-      "能量"
+      "n. năng lượng"
     ]
   },
   {
@@ -23264,13 +23264,13 @@
   {
     "name": "clock",
     "trans": [
-      "钟"
+      "chuông; đồng hồ"
     ]
   },
   {
     "name": "trouble",
     "trans": [
-      "麻烦"
+      "phiền toái; rắc rối; khó khăn"
     ]
   },
   {
@@ -23282,7 +23282,7 @@
   {
     "name": "purpose",
     "trans": [
-      "目的"
+      "mục đích; mục tiêu"
     ]
   },
   {
@@ -23294,7 +23294,7 @@
   {
     "name": "relation",
     "trans": [
-      "关系"
+      "quan hệ; liên hệ; mối liên hệ; mối quan tâm"
     ]
   },
   {
@@ -23312,7 +23312,7 @@
   {
     "name": "paint",
     "trans": [
-      "油漆"
+      "sơn"
     ]
   },
   {
@@ -23324,19 +23324,19 @@
   {
     "name": "range",
     "trans": [
-      "范围"
+      "phạm vi"
     ]
   },
   {
     "name": "effective",
     "trans": [
-      "有效的"
+      "adj. hiệu quả; có hiệu lực"
     ]
   },
   {
     "name": "efficient",
     "trans": [
-      "有效率的"
+      "hiệu quả, có hiệu suất"
     ]
   },
   {
@@ -23354,37 +23354,37 @@
   {
     "name": "effectively",
     "trans": [
-      "有效地"
+      "hữu hiệu, có hiệu quả"
     ]
   },
   {
     "name": "efficiently",
     "trans": [
-      "有效率的"
+      "hiệu quả, có hiệu suất"
     ]
   },
   {
     "name": "individual",
     "trans": [
-      "个人的"
+      "cá nhân, riêng tư"
     ]
   },
   {
     "name": "difference",
     "trans": [
-      "差异，差别"
+      "sự khác biệt, phân biệt"
     ]
   },
   {
     "name": "different",
     "trans": [
-      "不同的"
+      "khac nhau"
     ]
   },
   {
     "name": "requirement",
     "trans": [
-      "要求"
+      "yêu cầu, đòi hỏi"
     ]
   },
   {
@@ -23396,7 +23396,7 @@
   {
     "name": "variety",
     "trans": [
-      "种类"
+      "loại; chủng loại"
     ]
   },
   {
@@ -23408,19 +23408,19 @@
   {
     "name": "affect",
     "trans": [
-      "影响"
+      "ảnh hưởng"
     ]
   },
   {
     "name": "chance",
     "trans": [
-      "机会"
+      "cơ hội"
     ]
   },
   {
     "name": "hint",
     "trans": [
-      "暗示"
+      "ám chỉ; gợi ý"
     ]
   },
   {
@@ -23432,25 +23432,25 @@
   {
     "name": "attention",
     "trans": [
-      "注意"
+      "chú ý; lưu ý"
     ]
   },
   {
     "name": "awareness",
     "trans": [
-      "意识"
+      "ý thức, nhận thức"
     ]
   },
   {
     "name": "aware",
     "trans": [
-      "意识到的"
+      "nhận thức được; ý thức"
     ]
   },
   {
     "name": "luck",
     "trans": [
-      "运气"
+      "vận may; may mắn"
     ]
   },
   {
@@ -23462,7 +23462,7 @@
   {
     "name": "solution",
     "trans": [
-      "解决"
+      "giải quyết"
     ]
   },
   {
@@ -23480,7 +23480,7 @@
   {
     "name": "machine",
     "trans": [
-      "机器"
+      "máy; máy móc"
     ]
   },
   {
@@ -23510,7 +23510,7 @@
   {
     "name": "notice",
     "trans": [
-      "注意"
+      "chú ý; lưu ý"
     ]
   },
   {
@@ -23528,7 +23528,7 @@
   {
     "name": "guy",
     "trans": [
-      "家伙"
+      "gã; tên; thằng"
     ]
   },
   {
@@ -23540,7 +23540,7 @@
   {
     "name": "main",
     "trans": [
-      "主要的"
+      "chính; quan trọng nhất"
     ]
   },
   {
@@ -23552,19 +23552,19 @@
   {
     "name": "career",
     "trans": [
-      "事业"
+      "sự nghiệp, công việc"
     ]
   },
   {
     "name": "part-time",
     "trans": [
-      "兼职的"
+      "bán thời gian"
     ]
   },
   {
     "name": "sense",
     "trans": [
-      "感觉"
+      "cảm giác"
     ]
   },
   {
@@ -23588,13 +23588,13 @@
   {
     "name": "special",
     "trans": [
-      "特别的"
+      "đặc biệt"
     ]
   },
   {
     "name": "personality",
     "trans": [
-      "个性"
+      "cá tính"
     ]
   },
   {
@@ -23606,37 +23606,37 @@
   {
     "name": "gender",
     "trans": [
-      "性别"
+      "giới tính"
     ]
   },
   {
     "name": "related",
     "trans": [
-      "相关的"
+      "liên quan; có liên quan"
     ]
   },
   {
     "name": "relation",
     "trans": [
-      "关系"
+      "quan hệ; liên hệ; mối liên hệ; mối quan tâm"
     ]
   },
   {
     "name": "total",
     "trans": [
-      "总数"
+      "tong so"
     ]
   },
   {
     "name": "responsibility",
     "trans": [
-      "责任"
+      "n. trách nhiệm"
     ]
   },
   {
     "name": "army",
     "trans": [
-      "军队"
+      "quân đội"
     ]
   },
   {
@@ -23648,7 +23648,7 @@
   {
     "name": "sample",
     "trans": [
-      "样本"
+      "mẫu"
     ]
   },
   {
@@ -23660,19 +23660,19 @@
   {
     "name": "cinema",
     "trans": [
-      "电影院"
+      "rạp chiếu phim"
     ]
   },
   {
     "name": "qualification",
     "trans": [
-      "资格"
+      "tiêu chuẩn"
     ]
   },
   {
     "name": "selection",
     "trans": [
-      "选择"
+      "sự lựa chọn; chọn, lựa"
     ]
   },
   {
@@ -23684,13 +23684,13 @@
   {
     "name": "migratory",
     "trans": [
-      "迁移的"
+      "di cư, di chuyển"
     ]
   },
   {
     "name": "popular",
     "trans": [
-      "时髦的"
+      "thời trang"
     ]
   },
   {
@@ -23702,7 +23702,7 @@
   {
     "name": "supply",
     "trans": [
-      "提供"
+      "cung cấp"
     ]
   },
   {
@@ -23714,19 +23714,19 @@
   {
     "name": "aristocrat",
     "trans": [
-      "贵族"
+      "quý tộc; giới quý tộc"
     ]
   },
   {
     "name": "British",
     "trans": [
-      "英国的"
+      "của Anh"
     ]
   },
   {
     "name": "collection",
     "trans": [
-      "收集"
+      "thu thập, gom góp"
     ]
   },
   {
@@ -23738,13 +23738,13 @@
   {
     "name": "ignore",
     "trans": [
-      "忽视"
+      "bỏ qua; coi thường; xem nhẹ"
     ]
   },
   {
     "name": "explosion",
     "trans": [
-      "爆炸"
+      "nổ, vỡ"
     ]
   },
   {
@@ -23756,19 +23756,19 @@
   {
     "name": "model",
     "trans": [
-      "模型"
+      "mô hình; mẫu"
     ]
   },
   {
     "name": "foreign",
     "trans": [
-      "国外的"
+      "(adj.) nước ngoài, từ nước ngoài"
     ]
   },
   {
     "name": "domestic",
     "trans": [
-      "国内的"
+      "adj. trong nước"
     ]
   },
   {
@@ -23780,13 +23780,13 @@
   {
     "name": "document",
     "trans": [
-      "文件"
+      "tài liệu, văn bản"
     ]
   },
   {
     "name": "heavy",
     "trans": [
-      "重的"
+      "nặng; nặng nề"
     ]
   },
   {
@@ -23798,19 +23798,19 @@
   {
     "name": "fashion",
     "trans": [
-      "时尚"
+      "thời trang"
     ]
   },
   {
     "name": "fashionable",
     "trans": [
-      "时髦的"
+      "thời trang"
     ]
   },
   {
     "name": "gold",
     "trans": [
-      "金子"
+      "vàng"
     ]
   },
   {
@@ -23828,13 +23828,13 @@
   {
     "name": "bronze",
     "trans": [
-      "青铜"
+      "đồng thau"
     ]
   },
   {
     "name": "strong",
     "trans": [
-      "强壮的"
+      "manh me"
     ]
   },
   {
@@ -23852,13 +23852,13 @@
   {
     "name": "slim",
     "trans": [
-      "苗条的"
+      "gầy, mảnh khảnh"
     ]
   },
   {
     "name": "united",
     "trans": [
-      "联合的"
+      "liên hợp; chung; hợp tác"
     ]
   },
   {
@@ -23870,7 +23870,7 @@
   {
     "name": "normal",
     "trans": [
-      "正常的"
+      "bình thường"
     ]
   },
   {
@@ -23882,19 +23882,19 @@
   {
     "name": "theatre",
     "trans": [
-      "剧院"
+      "nhà hát; rạp hát"
     ]
   },
   {
     "name": "fiber",
     "trans": [
-      "纤维"
+      "sợi"
     ]
   },
   {
     "name": "tribe",
     "trans": [
-      "部落"
+      "bộ lạc"
     ]
   },
   {
@@ -23906,7 +23906,7 @@
   {
     "name": "processing",
     "trans": [
-      "处理"
+      "xu ly"
     ]
   },
   {
@@ -23918,13 +23918,13 @@
   {
     "name": "exaggerate",
     "trans": [
-      "夸张"
+      "Nói khoa, cường điệu"
     ]
   },
   {
     "name": "overstate",
     "trans": [
-      "夸大"
+      "phóng đại, thổi phồng"
     ]
   },
   {
@@ -23936,7 +23936,7 @@
   {
     "name": "several",
     "trans": [
-      "几个"
+      "num. mấy, vài; det. một vài"
     ]
   },
   {
@@ -23948,7 +23948,7 @@
   {
     "name": "volunteer",
     "trans": [
-      "志愿者"
+      "tình nguyện viên"
     ]
   },
   {
@@ -23960,7 +23960,7 @@
   {
     "name": "technique",
     "trans": [
-      "技术"
+      "cong nghe"
     ]
   },
   {
@@ -23972,31 +23972,31 @@
   {
     "name": "direct",
     "trans": [
-      "直接的"
+      "trực tiếp, thẳng"
     ]
   },
   {
     "name": "directly",
     "trans": [
-      "直接地"
+      "trực tiếp"
     ]
   },
   {
     "name": "short",
     "trans": [
-      "短的"
+      "adj. ngắn, cụt"
     ]
   },
   {
     "name": "shortage",
     "trans": [
-      "缺点"
+      "nhược điểm; điểm yếu"
     ]
   },
   {
     "name": "classical",
     "trans": [
-      "古典的"
+      "cổ điển"
     ]
   },
   {
@@ -24008,13 +24008,13 @@
   {
     "name": "architect",
     "trans": [
-      "建筑师"
+      "kiến trúc sư"
     ]
   },
   {
     "name": "storehouse",
     "trans": [
-      "仓库"
+      "kho; kho hàng"
     ]
   },
   {
@@ -24026,7 +24026,7 @@
   {
     "name": "useful",
     "trans": [
-      "有用的"
+      "có ích, hữu dụng"
     ]
   },
   {
@@ -24044,25 +24044,25 @@
   {
     "name": "participant",
     "trans": [
-      "参加者"
+      "người tham gia"
     ]
   },
   {
     "name": "trend",
     "trans": [
-      "趋势"
+      "xu hướng; khuynh hướng"
     ]
   },
   {
     "name": "lawyer",
     "trans": [
-      "律师"
+      "luật sư"
     ]
   },
   {
     "name": "familiar",
     "trans": [
-      "熟悉的"
+      "quen; quen thuộc"
     ]
   },
   {
@@ -24092,31 +24092,31 @@
   {
     "name": "overcome",
     "trans": [
-      "克服"
+      "vượt qua; khắc phục"
     ]
   },
   {
     "name": "impossible",
     "trans": [
-      "不可能的"
+      "không thể"
     ]
   },
   {
     "name": "possible",
     "trans": [
-      "可能的"
+      "có thể; khả dĩ"
     ]
   },
   {
     "name": "farmer",
     "trans": [
-      "农民"
+      "nông dân"
     ]
   },
   {
     "name": "identity",
     "trans": [
-      "身份"
+      "danh tính; tư cách"
     ]
   },
   {
@@ -24134,13 +24134,13 @@
   {
     "name": "breed",
     "trans": [
-      "喂养"
+      "cho ăn"
     ]
   },
   {
     "name": "hobby",
     "trans": [
-      "爱好"
+      "sở thích; niềm thích"
     ]
   },
   {
@@ -24152,7 +24152,7 @@
   {
     "name": "fake",
     "trans": [
-      "假的，伪造的"
+      "Giả mạo"
     ]
   },
   {
@@ -24176,13 +24176,13 @@
   {
     "name": "exciting",
     "trans": [
-      "令人兴奋的"
+      "(adj.) kích thích, thú vị"
     ]
   },
   {
     "name": "rising",
     "trans": [
-      "上升的"
+      "đang lên"
     ]
   },
   {
@@ -24194,73 +24194,73 @@
   {
     "name": "simple",
     "trans": [
-      "简单的"
+      "adj. đơn giản, dễ"
     ]
   },
   {
     "name": "amount",
     "trans": [
-      "数量"
+      "số lượng, lượng"
     ]
   },
   {
     "name": "average",
     "trans": [
-      "平均"
+      "trung binh"
     ]
   },
   {
     "name": "delegate",
     "trans": [
-      "代表"
+      "đại diện"
     ]
   },
   {
     "name": "delegation",
     "trans": [
-      "代表团"
+      "phái đoàn"
     ]
   },
   {
     "name": "fly",
     "trans": [
-      "飞行"
+      "bay"
     ]
   },
   {
     "name": "behavior",
     "trans": [
-      "行为"
+      "hành vi"
     ]
   },
   {
     "name": "spare",
     "trans": [
-      "多余的"
+      "(adj.) thừa, dôi dư"
     ]
   },
   {
     "name": "retirement",
     "trans": [
-      "退休"
+      "nghỉ hưu"
     ]
   },
   {
     "name": "movie",
     "trans": [
-      "电影"
+      "phim"
     ]
   },
   {
     "name": "sun",
     "trans": [
-      "太阳"
+      "mat troi"
     ]
   },
   {
     "name": "sunlight",
     "trans": [
-      "阳光"
+      "anh nang"
     ]
   },
   {
@@ -24272,25 +24272,25 @@
   {
     "name": "sunshield",
     "trans": [
-      "遮阳板"
+      "tấm che nắng"
     ]
   },
   {
     "name": "specific",
     "trans": [
-      "特别的"
+      "đặc biệt"
     ]
   },
   {
     "name": "export",
     "trans": [
-      "出口"
+      "n. lối ra; cửa ra"
     ]
   },
   {
     "name": "import",
     "trans": [
-      "进口"
+      "nhập khẩu"
     ]
   },
   {
@@ -24302,7 +24302,7 @@
   {
     "name": "benefit",
     "trans": [
-      "优势"
+      "ưu thế, lợi thế"
     ]
   },
   {
@@ -24332,19 +24332,19 @@
   {
     "name": "formal",
     "trans": [
-      "正式的"
+      "chính thức"
     ]
   },
   {
     "name": "informal",
     "trans": [
-      "非正式的"
+      "không chính thức; thân mật"
     ]
   },
   {
     "name": "cocktail",
     "trans": [
-      "鸡尾酒"
+      "cocktail"
     ]
   },
   {
@@ -24356,7 +24356,7 @@
   {
     "name": "site",
     "trans": [
-      "位置"
+      "vị trí; chỗ"
     ]
   },
   {
@@ -24374,13 +24374,13 @@
   {
     "name": "rapid",
     "trans": [
-      "快速的"
+      "nhanh; nhanh chóng"
     ]
   },
   {
     "name": "rapidly",
     "trans": [
-      "快速地"
+      "nhanh chóng"
     ]
   },
   {
@@ -24392,37 +24392,37 @@
   {
     "name": "controversy",
     "trans": [
-      "争论"
+      "tranh luận"
     ]
   },
   {
     "name": "percentage",
     "trans": [
-      "百分比"
+      "phần trăm"
     ]
   },
   {
     "name": "rate",
     "trans": [
-      "比率"
+      "tỷ lệ"
     ]
   },
   {
     "name": "success",
     "trans": [
-      "成功"
+      "thành công"
     ]
   },
   {
     "name": "successful",
     "trans": [
-      "成功的"
+      "thành công"
     ]
   },
   {
     "name": "safe",
     "trans": [
-      "安全的"
+      "an toàn"
     ]
   },
   {
@@ -24434,7 +24434,7 @@
   {
     "name": "nervous",
     "trans": [
-      "紧张的"
+      "cang"
     ]
   },
   {
@@ -24446,13 +24446,13 @@
   {
     "name": "convenient",
     "trans": [
-      "方便的"
+      "tiện lợi, thuận tiện"
     ]
   },
   {
     "name": "convenience",
     "trans": [
-      "方便，便利"
+      "sự tiện lợi"
     ]
   },
   {
@@ -24464,7 +24464,7 @@
   {
     "name": "convince",
     "trans": [
-      "说服"
+      "thuyết phục"
     ]
   },
   {
@@ -24476,43 +24476,43 @@
   {
     "name": "airport",
     "trans": [
-      "机场"
+      "sân bay"
     ]
   },
   {
     "name": "port",
     "trans": [
-      "港口"
+      "cảng biển; cảng"
     ]
   },
   {
     "name": "island",
     "trans": [
-      "岛屿"
+      "đảo"
     ]
   },
   {
     "name": "stone",
     "trans": [
-      "石头"
+      "da"
     ]
   },
   {
     "name": "adequate",
     "trans": [
-      "令人满意的"
+      "đáng hài lòng"
     ]
   },
   {
     "name": "inadequate",
     "trans": [
-      "不足的"
+      "Thiếu"
     ]
   },
   {
     "name": "hat",
     "trans": [
-      "帽子"
+      "mũ, nón"
     ]
   },
   {
@@ -24530,7 +24530,7 @@
   {
     "name": "state",
     "trans": [
-      "州"
+      "Bang"
     ]
   },
   {
@@ -24554,13 +24554,13 @@
   {
     "name": "weather",
     "trans": [
-      "天气"
+      "thời tiết"
     ]
   },
   {
     "name": "conversation",
     "trans": [
-      "对话"
+      "cuộc đối thoại, đàm thoại"
     ]
   },
   {
@@ -24572,31 +24572,31 @@
   {
     "name": "conservative",
     "trans": [
-      "保守的"
+      "bảo thủ, thận trọng"
     ]
   },
   {
     "name": "gap",
     "trans": [
-      "缝隙"
+      "khe hở"
     ]
   },
   {
     "name": "lifespan",
     "trans": [
-      "寿命"
+      "tuổi thọ, vòng đời"
     ]
   },
   {
     "name": "crack",
     "trans": [
-      "裂缝"
+      "khe nứt, kẽ hở"
     ]
   },
   {
     "name": "temper",
     "trans": [
-      "脾气"
+      "tính khí, khí chất"
     ]
   },
   {
@@ -24608,13 +24608,13 @@
   {
     "name": "donate",
     "trans": [
-      "捐赠"
+      "v. quyên góp; tặng"
     ]
   },
   {
     "name": "bone",
     "trans": [
-      "骨头"
+      "xương"
     ]
   },
   {
@@ -24626,7 +24626,7 @@
   {
     "name": "announcement",
     "trans": [
-      "宣布"
+      "tuyên bố, tuyên truyền"
     ]
   },
   {
@@ -24638,7 +24638,7 @@
   {
     "name": "decision",
     "trans": [
-      "决定"
+      "quyết định"
     ]
   },
   {
@@ -24650,13 +24650,13 @@
   {
     "name": "sex",
     "trans": [
-      "性别"
+      "giới tính"
     ]
   },
   {
     "name": "night",
     "trans": [
-      "夜晚"
+      "đêm; ban đêm"
     ]
   },
   {
@@ -24668,13 +24668,13 @@
   {
     "name": "length",
     "trans": [
-      "长度"
+      "chiều dài; độ dài"
     ]
   },
   {
     "name": "association",
     "trans": [
-      "协会"
+      "hiệp hội"
     ]
   },
   {
@@ -24692,7 +24692,7 @@
   {
     "name": "horror film",
     "trans": [
-      "恐怖片"
+      "phim kinh dị"
     ]
   },
   {
@@ -24746,7 +24746,7 @@
   {
     "name": "the 21st century",
     "trans": [
-      "21世纪"
+      "thế kỷ 21"
     ]
   },
   {
@@ -24770,7 +24770,7 @@
   {
     "name": "biological clock",
     "trans": [
-      "生物钟"
+      "đồng hồ sinh học"
     ]
   },
   {
@@ -24842,7 +24842,7 @@
   {
     "name": "result in",
     "trans": [
-      "导致"
+      "dẫn đến; gây ra"
     ]
   },
   {
@@ -24914,7 +24914,7 @@
   {
     "name": "at least",
     "trans": [
-      "至少"
+      "ít nhất"
     ]
   },
   {
@@ -25034,7 +25034,7 @@
   {
     "name": "focus on",
     "trans": [
-      "注意"
+      "chú ý; lưu ý"
     ]
   },
   {
@@ -25184,7 +25184,7 @@
   {
     "name": "gold medal",
     "trans": [
-      "金牌"
+      "huy chương vàng"
     ]
   },
   {
@@ -25250,7 +25250,7 @@
   {
     "name": "a couple of",
     "trans": [
-      "几个"
+      "num. mấy, vài; det. một vài"
     ]
   },
   {
@@ -25262,13 +25262,13 @@
   {
     "name": "communication technology",
     "trans": [
-      "通信技术"
+      "công nghệ viễn thông"
     ]
   },
   {
     "name": "classical music",
     "trans": [
-      "古典音乐"
+      "nhạc cổ điển"
     ]
   },
   {
@@ -25364,7 +25364,7 @@
   {
     "name": "sun's position",
     "trans": [
-      "太阳的位置"
+      "vị trí của mặt trời"
     ]
   },
   {
@@ -25394,7 +25394,7 @@
   {
     "name": "precious stones",
     "trans": [
-      "宝石"
+      "đá quý"
     ]
   },
   {
@@ -25442,19 +25442,19 @@
   {
     "name": "construction",
     "trans": [
-      "建设"
+      "xây dựng"
     ]
   },
   {
     "name": "construct",
     "trans": [
-      "建筑"
+      "kiến trúc"
     ]
   },
   {
     "name": "balcony",
     "trans": [
-      "阳台"
+      "ban công"
     ]
   },
   {
@@ -25484,7 +25484,7 @@
   {
     "name": "block",
     "trans": [
-      "街区"
+      "khu phố"
     ]
   },
   {
@@ -25496,7 +25496,7 @@
   {
     "name": "land",
     "trans": [
-      "土地"
+      "đất; đất đai"
     ]
   },
   {
@@ -25508,19 +25508,19 @@
   {
     "name": "touching",
     "trans": [
-      "接触"
+      "tiếp xúc"
     ]
   },
   {
     "name": "touch",
     "trans": [
-      "触摸"
+      "chạm; đụng; sờ"
     ]
   },
   {
     "name": "space",
     "trans": [
-      "空间"
+      "n. không gian, khoảng trống"
     ]
   },
   {
@@ -25532,7 +25532,7 @@
   {
     "name": "charity",
     "trans": [
-      "慈善"
+      "từ thiện"
     ]
   },
   {
@@ -25544,13 +25544,13 @@
   {
     "name": "solar",
     "trans": [
-      "太阳的"
+      "adj. thuộc về mặt trời, ánh nắng"
     ]
   },
   {
     "name": "tractor",
     "trans": [
-      "拖拉机"
+      "máy kéo"
     ]
   },
   {
@@ -25562,7 +25562,7 @@
   {
     "name": "client",
     "trans": [
-      "客户"
+      "khách hàng, khách"
     ]
   },
   {
@@ -25574,25 +25574,25 @@
   {
     "name": "base",
     "trans": [
-      "基础"
+      "nền tảng; cơ sở"
     ]
   },
   {
     "name": "redundant",
     "trans": [
-      "多余的"
+      "(adj.) thừa, dôi dư"
     ]
   },
   {
     "name": "bowl",
     "trans": [
-      "碗"
+      "bát, tô"
     ]
   },
   {
     "name": "abbreviation",
     "trans": [
-      "缩写"
+      "chữ viết tắt"
     ]
   },
   {
@@ -25604,7 +25604,7 @@
   {
     "name": "flourish",
     "trans": [
-      "繁荣"
+      "thịnh vượng"
     ]
   },
   {
@@ -25616,7 +25616,7 @@
   {
     "name": "soil",
     "trans": [
-      "土壤"
+      "n. đất, đất đai"
     ]
   },
   {
@@ -25634,13 +25634,13 @@
   {
     "name": "pressure",
     "trans": [
-      "压力"
+      "áp lực; căng thẳng"
     ]
   },
   {
     "name": "wave",
     "trans": [
-      "波浪"
+      "sóng"
     ]
   },
   {
@@ -25652,13 +25652,13 @@
   {
     "name": "refuge",
     "trans": [
-      "避难所"
+      "nơi lánh nạn"
     ]
   },
   {
     "name": "plan",
     "trans": [
-      "计划"
+      "kế hoạch; lên kế hoạch"
     ]
   },
   {
@@ -25676,19 +25676,19 @@
   {
     "name": "useful",
     "trans": [
-      "有用的"
+      "có ích, hữu dụng"
     ]
   },
   {
     "name": "dialogue",
     "trans": [
-      "对话"
+      "cuộc đối thoại, đàm thoại"
     ]
   },
   {
     "name": "dedication",
     "trans": [
-      "奉献"
+      "sự cống hiến"
     ]
   },
   {
@@ -25700,7 +25700,7 @@
   {
     "name": "attempt",
     "trans": [
-      "努力"
+      "n. cố gắng; v. nỗ lực"
     ]
   },
   {
@@ -25718,13 +25718,13 @@
   {
     "name": "handy",
     "trans": [
-      "方便的"
+      "tiện lợi, thuận tiện"
     ]
   },
   {
     "name": "magazine",
     "trans": [
-      "杂志"
+      "tạp chí"
     ]
   },
   {
@@ -25736,19 +25736,19 @@
   {
     "name": "ownership",
     "trans": [
-      "所有权"
+      "quyền sở hữu"
     ]
   },
   {
     "name": "profit",
     "trans": [
-      "利润"
+      "lợi nhuận; lãi"
     ]
   },
   {
     "name": "figure",
     "trans": [
-      "数字"
+      "số; chữ số"
     ]
   },
   {
@@ -25760,7 +25760,7 @@
   {
     "name": "resistant",
     "trans": [
-      "抵抗的"
+      "chống đối"
     ]
   },
   {
@@ -25784,7 +25784,7 @@
   {
     "name": "tilled land",
     "trans": [
-      "耕地"
+      "đất canh tác, ruộng"
     ]
   },
   {
@@ -25802,7 +25802,7 @@
   {
     "name": "storage space",
     "trans": [
-      "存储空间"
+      "không gian lưu trữ"
     ]
   },
   {
@@ -25814,13 +25814,13 @@
   {
     "name": "charitable organization",
     "trans": [
-      "慈善机构"
+      "tổ chức từ thiện"
     ]
   },
   {
     "name": "solar power",
     "trans": [
-      "太阳能"
+      "năng lượng mặt trời"
     ]
   },
   {
@@ -25832,7 +25832,7 @@
   {
     "name": "conference center",
     "trans": [
-      "会议中心"
+      "trung tâm hội nghị"
     ]
   },
   {
@@ -25850,7 +25850,7 @@
   {
     "name": "raw materials",
     "trans": [
-      "原材料"
+      "Nguyên liệu thô"
     ]
   },
   {
@@ -25862,7 +25862,7 @@
   {
     "name": "building materials",
     "trans": [
-      "建筑材料"
+      "vật liệu xây dựng"
     ]
   },
   {
@@ -25874,7 +25874,7 @@
   {
     "name": "water pipes",
     "trans": [
-      "水管"
+      "đường ống nước"
     ]
   },
   {
@@ -26012,7 +26012,7 @@
   {
     "name": "volcanic dust",
     "trans": [
-      "火山灰"
+      "tro núi lửa"
     ]
   },
   {

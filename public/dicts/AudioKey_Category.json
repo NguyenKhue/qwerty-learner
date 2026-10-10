@@ -1,330 +1,494 @@
 [
     {
-      "name": "air",
-      "trans": ["气体"]
+        "name": "air",
+        "trans": [
+            "khí"
+        ]
     },
     {
-      "name": "aircraft",
-      "trans": ["航空器"]
+        "name": "aircraft",
+        "trans": [
+            "phương tiện bay, máy bay"
+        ]
     },
     {
-      "name": "alarms",
-      "trans": ["警报"]
+        "name": "alarms",
+        "trans": [
+            "báo động, cảnh báo"
+        ]
     },
     {
-      "name": "ambience",
-      "trans": ["环境"]
+        "name": "ambience",
+        "trans": [
+            "n. môi trường"
+        ]
     },
     {
-      "name": "animals",
-      "trans": ["动物"]
+        "name": "animals",
+        "trans": [
+            "động vật"
+        ]
     },
     {
-      "name": "archived",
-      "trans": ["归档"]
+        "name": "archived",
+        "trans": [
+            "lưu trữ, lưu danh mục"
+        ]
     },
     {
-      "name": "beeps",
-      "trans": ["提示音"]
+        "name": "beeps",
+        "trans": [
+            "âm báo, tiếng nhắc nhở"
+        ]
     },
     {
-      "name": "bells",
-      "trans": ["钟铃"]
+        "name": "bells",
+        "trans": [
+            "chuông"
+        ]
     },
     {
-      "name": "birds",
-      "trans": ["鸟类"]
+        "name": "birds",
+        "trans": [
+            "loài chim, chim"
+        ]
     },
     {
-      "name": "boats",
-      "trans": ["船舶"]
+        "name": "boats",
+        "trans": [
+            "tàu, phương tiện tàu thủy"
+        ]
     },
     {
-      "name": "bullets",
-      "trans": ["子弹"]
+        "name": "bullets",
+        "trans": [
+            "đạn"
+        ]
     },
     {
-      "name": "cartoon",
-      "trans": ["卡通"]
+        "name": "cartoon",
+        "trans": [
+            "hoạt hình, phim hoạt hình"
+        ]
     },
     {
-      "name": "ceramics",
-      "trans": ["陶瓷"]
+        "name": "ceramics",
+        "trans": [
+            "gốm sứ, sứ"
+        ]
     },
     {
-      "name": "chains",
-      "trans": ["链条"]
+        "name": "chains",
+        "trans": [
+            "xích"
+        ]
     },
     {
-      "name": "chemicals",
-      "trans": ["化学"]
+        "name": "chemicals",
+        "trans": [
+            "hóa học"
+        ]
     },
     {
-      "name": "clocks",
-      "trans": ["钟表"]
+        "name": "clocks",
+        "trans": [
+            "đồng hồ"
+        ]
     },
     {
-      "name": "cloth",
-      "trans": ["布料"]
+        "name": "cloth",
+        "trans": [
+            "vải, vải vóc"
+        ]
     },
     {
-      "name": "communications",
-      "trans": ["通讯"]
+        "name": "communications",
+        "trans": [
+            "viễn thông, liên lạc"
+        ]
     },
     {
-      "name": "computers",
-      "trans": ["电脑"]
+        "name": "computers",
+        "trans": [
+            "máy tính, vi tính"
+        ]
     },
     {
-      "name": "creatures",
-      "trans": ["生物"]
+        "name": "creatures",
+        "trans": [
+            "sinh vật"
+        ]
     },
     {
-      "name": "crowds",
-      "trans": ["人群"]
+        "name": "crowds",
+        "trans": [
+            "đám đông"
+        ]
     },
     {
-      "name": "designed",
-      "trans": ["声音设计"]
+        "name": "designed",
+        "trans": [
+            "thiết kế âm thanh"
+        ]
     },
     {
-      "name": "destruction",
-      "trans": ["拆除"]
+        "name": "destruction",
+        "trans": [
+            "phá dỡ, tháo dỡ"
+        ]
     },
     {
-      "name": "dirt & sand",
-      "trans": ["沙土"]
+        "name": "dirt & sand",
+        "trans": [
+            "cát, đất cát"
+        ]
     },
     {
-      "name": "doors",
-      "trans": ["门"]
+        "name": "doors",
+        "trans": [
+            "n. cửa"
+        ]
     },
     {
-      "name": "drawers",
-      "trans": ["抽屉"]
+        "name": "drawers",
+        "trans": [
+            "ngăn kéo"
+        ]
     },
     {
-      "name": "electricity",
-      "trans": ["电流"]
+        "name": "electricity",
+        "trans": [
+            "dòng điện"
+        ]
     },
     {
-      "name": "equipment",
-      "trans": ["器具"]
+        "name": "equipment",
+        "trans": [
+            "dụng cụ, khí cụ"
+        ]
     },
     {
-      "name": "explosions",
-      "trans": ["爆炸"]
+        "name": "explosions",
+        "trans": [
+            "nổ, vỡ"
+        ]
     },
     {
-      "name": "farts",
-      "trans": ["放屁"]
+        "name": "farts",
+        "trans": [
+            "đánh hơi, xả hơi"
+        ]
     },
     {
-      "name": "fight",
-      "trans": ["打斗"]
+        "name": "fight",
+        "trans": [
+            "đánh nhau, giao tranh"
+        ]
     },
     {
-      "name": "fire",
-      "trans": ["火"]
+        "name": "fire",
+        "trans": [
+            "lửa"
+        ]
     },
     {
-      "name": "fireworks",
-      "trans": ["烟花"]
+        "name": "fireworks",
+        "trans": [
+            "pháo hoa"
+        ]
     },
     {
-      "name": "foley",
-      "trans": ["拟音"]
+        "name": "foley",
+        "trans": [
+            "tạo tiếng động, lồng tiếng"
+        ]
     },
     {
-      "name": "food & drink",
-      "trans": ["食物"]
+        "name": "food & drink",
+        "trans": [
+            "thức ăn"
+        ]
     },
     {
-      "name": "footsteps",
-      "trans": ["脚步"]
+        "name": "footsteps",
+        "trans": [
+            "bước chân, tiếng bước chân"
+        ]
     },
     {
-      "name": "games",
-      "trans": ["游戏"]
+        "name": "games",
+        "trans": [
+            "trò chơi"
+        ]
     },
     {
-      "name": "geothermal",
-      "trans": ["地热"]
+        "name": "geothermal",
+        "trans": [
+            "nhiệt địa, hơi nóng lòng đất"
+        ]
     },
     {
-      "name": "glass",
-      "trans": ["玻璃"]
+        "name": "glass",
+        "trans": [
+            "kính"
+        ]
     },
     {
-      "name": "gore",
-      "trans": ["血"]
+        "name": "gore",
+        "trans": [
+            "máu"
+        ]
     },
     {
-      "name": "guns",
-      "trans": ["枪炮"]
+        "name": "guns",
+        "trans": [
+            "súng đạn"
+        ]
     },
     {
-      "name": "horns",
-      "trans": ["号角"]
+        "name": "horns",
+        "trans": [
+            "kèn, kèn tưởng"
+        ]
     },
     {
-      "name": "human",
-      "trans": ["人"]
+        "name": "human",
+        "trans": [
+            "người; con người"
+        ]
     },
     {
-      "name": "ice",
-      "trans": ["冰"]
+        "name": "ice",
+        "trans": [
+            "băng; đá"
+        ]
     },
     {
-      "name": "lasers",
-      "trans": ["激光"]
+        "name": "lasers",
+        "trans": [
+            "tia laze"
+        ]
     },
     {
-      "name": "leather",
-      "trans": ["皮革"]
+        "name": "leather",
+        "trans": [
+            "da"
+        ]
     },
     {
-      "name": "liquid & mud",
-      "trans": ["液体与流体"]
+        "name": "liquid & mud",
+        "trans": [
+            "chất lỏng và chất lưu"
+        ]
     },
     {
-      "name": "machines",
-      "trans": ["机器"]
+        "name": "machines",
+        "trans": [
+            "máy; máy móc"
+        ]
     },
     {
-      "name": "magic",
-      "trans": ["魔法"]
+        "name": "magic",
+        "trans": [
+            "phép thuật; ma thuật"
+        ]
     },
     {
-      "name": "mechanical",
-      "trans": ["机械"]
+        "name": "mechanical",
+        "trans": [
+            "máy móc, thiết bị cơ khí"
+        ]
     },
     {
-      "name": "metal",
-      "trans": ["金属"]
+        "name": "metal",
+        "trans": [
+            "kim loại"
+        ]
     },
     {
-      "name": "motors",
-      "trans": ["马达"]
+        "name": "motors",
+        "trans": [
+            "động cơ, mô tơ"
+        ]
     },
     {
-      "name": "movement",
-      "trans": ["移动"]
+        "name": "movement",
+        "trans": [
+            "di chuyển; vận động"
+        ]
     },
     {
-      "name": "musical",
-      "trans": ["乐句"]
+        "name": "musical",
+        "trans": [
+            "câu nhạc, mệnh đề nhạc"
+        ]
     },
     {
-      "name": "natural disaster",
-      "trans": ["自然灾害"]
+        "name": "natural disaster",
+        "trans": [
+            "thiên tai"
+        ]
     },
     {
-      "name": "objects",
-      "trans": ["物件"]
+        "name": "objects",
+        "trans": [
+            "đồ vật, vật dụng"
+        ]
     },
     {
-      "name": "paper",
-      "trans": ["纸张"]
+        "name": "paper",
+        "trans": [
+            "giấy"
+        ]
     },
     {
-      "name": "plastic",
-      "trans": ["塑料"]
+        "name": "plastic",
+        "trans": [
+            "nhựa; vật liệu nhựa"
+        ]
     },
     {
-      "name": "rain",
-      "trans": ["雨"]
+        "name": "rain",
+        "trans": [
+            "mưa; cơn mưa"
+        ]
     },
     {
-      "name": "robots",
-      "trans": ["机器人"]
+        "name": "robots",
+        "trans": [
+            "robot; con robot"
+        ]
     },
     {
-      "name": "rocks",
-      "trans": ["岩石"]
+        "name": "rocks",
+        "trans": [
+            "đá núi; đá"
+        ]
     },
     {
-      "name": "rope",
-      "trans": ["绳索"]
+        "name": "rope",
+        "trans": [
+            "dây thừng, dây"
+        ]
     },
     {
-      "name": "rubber",
-      "trans": ["橡胶"]
+        "name": "rubber",
+        "trans": [
+            "cao su"
+        ]
     },
     {
-      "name": "scifi",
-      "trans": ["科幻"]
+        "name": "scifi",
+        "trans": [
+            "viễn tưởng khoa học"
+        ]
     },
     {
-      "name": "snow",
-      "trans": ["雪"]
+        "name": "snow",
+        "trans": [
+            "n. tuyết"
+        ]
     },
     {
-      "name": "sports",
-      "trans": ["运动"]
+        "name": "sports",
+        "trans": [
+            "thể thao; vận động, chuyển động"
+        ]
     },
     {
-      "name": "swooshes",
-      "trans": ["嗖嗖声"]
+        "name": "swooshes",
+        "trans": [
+            "tiếng hú, tiếng vùi vùi"
+        ]
     },
     {
-      "name": "tools",
-      "trans": ["工具"]
+        "name": "tools",
+        "trans": [
+            "công cụ"
+        ]
     },
     {
-      "name": "toys",
-      "trans": ["玩具"]
+        "name": "toys",
+        "trans": [
+            "đồ chơi; món đồ chơi"
+        ]
     },
     {
-      "name": "trains",
-      "trans": ["火车"]
+        "name": "trains",
+        "trans": [
+            "tàu hỏa; xe lửa"
+        ]
     },
     {
-      "name": "user interface",
-      "trans": ["用户界面"]
+        "name": "user interface",
+        "trans": [
+            "giao diện người dùng"
+        ]
     },
     {
-      "name": "vegetation",
-      "trans": ["植物"]
+        "name": "vegetation",
+        "trans": [
+            "thực vật; cây"
+        ]
     },
     {
-      "name": "vehicles",
-      "trans": ["车辆"]
+        "name": "vehicles",
+        "trans": [
+            "xe cộ; phương tiện; xe"
+        ]
     },
     {
-      "name": "voices",
-      "trans": ["语音"]
+        "name": "voices",
+        "trans": [
+            "giọng nói, thanh âm"
+        ]
     },
     {
-      "name": "water",
-      "trans": ["水"]
+        "name": "water",
+        "trans": [
+            "nước"
+        ]
     },
     {
-      "name": "weapons",
-      "trans": ["武器"]
+        "name": "weapons",
+        "trans": [
+            "vũ khí"
+        ]
     },
     {
-      "name": "weather",
-      "trans": ["天气"]
+        "name": "weather",
+        "trans": [
+            "thời tiết"
+        ]
     },
     {
-      "name": "whistles",
-      "trans": ["哨音"]
+        "name": "whistles",
+        "trans": [
+            "tiếng còi"
+        ]
     },
     {
-      "name": "wind",
-      "trans": ["风"]
+        "name": "wind",
+        "trans": [
+            "gió"
+        ]
     },
     {
-      "name": "windows",
-      "trans": ["窗户"]
+        "name": "windows",
+        "trans": [
+            "cửa sổ"
+        ]
     },
     {
-      "name": "wings",
-      "trans": ["翅膀"]
+        "name": "wings",
+        "trans": [
+            "cánh"
+        ]
     },
     {
-      "name": "wood",
-      "trans": ["木头"]
+        "name": "wood",
+        "trans": [
+            "gỗ"
+        ]
     }
-  ]
+]

@@ -1,306 +1,458 @@
 [
     {
         "name": "printer",
-        "trans": ["n. 打印机"]
+        "trans": [
+            "n. máy in"
+        ]
     },
     {
         "name": "withdraw",
-        "trans": ["v. 收回"]
+        "trans": [
+            "v. thu hồi"
+        ]
     },
     {
         "name": "outstanding",
-        "trans": ["adj. 杰出的"]
+        "trans": [
+            "adj. xuất sắc"
+        ]
     },
     {
         "name": "canteen",
-        "trans": ["n. 食堂"]
+        "trans": [
+            "n. nhà ăn"
+        ]
     },
     {
         "name": "exact",
-        "trans": ["adj. 精确的"]
+        "trans": [
+            "adj. chính xác"
+        ]
     },
     {
         "name": "switch off",
-        "trans": ["v. 关掉"]
+        "trans": [
+            "v. tắt"
+        ]
     },
     {
         "name": "boot",
-        "trans": ["n. 靴子"]
+        "trans": [
+            "n. giày"
+        ]
     },
     {
         "name": "wood",
-        "trans": ["n. 木材"]
+        "trans": [
+            "n. gỗ"
+        ]
     },
     {
         "name": "forbid",
-        "trans": ["v. 禁止"]
+        "trans": [
+            "v. cấm, đề cấm"
+        ]
     },
     {
         "name": "client",
-        "trans": ["n. 客户"]
+        "trans": [
+            "n. khách hàng"
+        ]
     },
     {
         "name": "rail",
-        "trans": ["n. 铁轨"]
+        "trans": [
+            "n. đường sắt"
+        ]
     },
     {
         "name": "intermediate",
-        "trans": ["adj. 中间的"]
+        "trans": [
+            "adj. ở giữa, trung gian"
+        ]
     },
     {
         "name": "appliance",
-        "trans": ["n. 电器"]
+        "trans": [
+            "n. thiết bị điện tử, đồ gia dụng điện"
+        ]
     },
     {
         "name": "intensive",
-        "trans": ["adj. 加强的"]
+        "trans": [
+            "adj. được tăng cường"
+        ]
     },
     {
         "name": "allergy",
-        "trans": ["n. 过敏"]
+        "trans": [
+            "n. dị ứng"
+        ]
     },
     {
         "name": "vegetarian",
-        "trans": ["n. 素食者"]
+        "trans": [
+            "n. người ăn chay"
+        ]
     },
     {
         "name": "bargain",
-        "trans": ["n. 便宜货"]
+        "trans": [
+            "n. hàng rẻ tiền"
+        ]
     },
     {
         "name": "relative",
-        "trans": ["adj. 相对的"]
+        "trans": [
+            "adj. tương đối"
+        ]
     },
     {
         "name": "condition",
-        "trans": ["n. 情况"]
+        "trans": [
+            "n. tình hình, trường hợp"
+        ]
     },
     {
         "name": "package",
-        "trans": ["n. 包裹"]
+        "trans": [
+            "n. gói hàng, bưu kiện"
+        ]
     },
     {
         "name": "fare",
-        "trans": ["n. 费用"]
+        "trans": [
+            "n. chi phí, phí tổn"
+        ]
     },
     {
         "name": "armchair",
-        "trans": ["n. 扶手椅"]
+        "trans": [
+            "n. ghế bành"
+        ]
     },
     {
         "name": "advanced",
-        "trans": ["adj. 高级的"]
+        "trans": [
+            "adj. cao cấp, cấp cao"
+        ]
     },
     {
         "name": "material",
-        "trans": ["n. 物质"]
+        "trans": [
+            "n. vật chất"
+        ]
     },
     {
         "name": "jeans",
-        "trans": ["n. 牛仔裤"]
+        "trans": [
+            "n. quần jean, quần bò"
+        ]
     },
     {
         "name": "trolley",
-        "trans": ["n. 手推车"]
+        "trans": [
+            "n. xe đẩy tay, xe cửa hàng"
+        ]
     },
     {
         "name": "sightseeing",
-        "trans": ["n. 观光"]
+        "trans": [
+            "n. tham quan"
+        ]
     },
     {
         "name": "post office",
-        "trans": ["n. 邮局"]
+        "trans": [
+            "n. bưu điện"
+        ]
     },
     {
         "name": "rent",
-        "trans": ["n. 租金"]
+        "trans": [
+            "n. tiền thuê"
+        ]
     },
     {
         "name": "sports centre",
-        "trans": ["n. 体育中心"]
+        "trans": [
+            "n. nhà thể thao, trung tâm thể thao"
+        ]
     },
     {
         "name": "Monday",
-        "trans": ["n. 星期一"]
+        "trans": [
+            "n. thứ Hai"
+        ]
     },
     {
         "name": "Sunday",
-        "trans": ["n. 星期天"]
+        "trans": [
+            "n. chủ nhật"
+        ]
     },
     {
         "name": "rail",
-        "trans": ["n. 铁轨，栏杆"]
+        "trans": [
+            "n. đường ray, lan can"
+        ]
     },
     {
         "name": "stair lift",
-        "trans": ["n. 楼梯升降机"]
+        "trans": [
+            "n. thang máy"
+        ]
     },
     {
         "name": "seat",
-        "trans": ["n. 座位"]
+        "trans": [
+            "n. chỗ ngồi, ghế"
+        ]
     },
     {
         "name": "living room",
-        "trans": ["n. 客厅起居室"]
+        "trans": [
+            "n. phòng khách"
+        ]
     },
     {
         "name": "bathroom",
-        "trans": ["n. 浴室，卫生间"]
+        "trans": [
+            "n. phòng tắm, nhà vệ sinh"
+        ]
     },
     {
         "name": "kitchen",
-        "trans": ["n. 厨房"]
+        "trans": [
+            "n. nhà bếp, bếp"
+        ]
     },
     {
         "name": "washing machine",
-        "trans": ["n. 洗衣机"]
+        "trans": [
+            "n. máy giặt"
+        ]
     },
     {
         "name": "video",
-        "trans": ["n. 电视，录像机"]
+        "trans": [
+            "n. ti vi, máy quay video"
+        ]
     },
     {
         "name": "basin",
-        "trans": ["n. 盆"]
+        "trans": [
+            "n. chậu, bồn"
+        ]
     },
     {
         "name": "campus",
-        "trans": ["n. 校园"]
+        "trans": [
+            "n. trường học, khuôn viên trường"
+        ]
     },
     {
         "name": "balcony",
-        "trans": ["n. 阳台"]
+        "trans": [
+            "n. ban công"
+        ]
     },
     {
         "name": "lamp",
-        "trans": ["n. 灯"]
+        "trans": [
+            "n. đèn, ngọn đèn"
+        ]
     },
     {
         "name": "survey",
-        "trans": ["n. 调查，测量"]
+        "trans": [
+            "n. điều tra, khảo sát"
+        ]
     },
     {
         "name": "community",
-        "trans": ["n. 社区，共同体"]
+        "trans": [
+            "n. cộng đồng"
+        ]
     },
     {
         "name": "dissatisfaction",
-        "trans": ["n. 不满"]
+        "trans": [
+            "n. sự không hài lòng"
+        ]
     },
     {
         "name": "quality",
-        "trans": ["n. 质量，品质"]
+        "trans": [
+            "n. chất lượng"
+        ]
     },
     {
         "name": "local",
-        "trans": ["adj. 当地的"]
+        "trans": [
+            "adj. địa phương, bản địa"
+        ]
     },
     {
         "name": "swimming pool",
-        "trans": ["n. 游泳池"]
+        "trans": [
+            "n. bể bơi"
+        ]
     },
     {
         "name": "bedsheet",
-        "trans": ["n. 床单"]
+        "trans": [
+            "n. ga trải giường"
+        ]
     },
     {
         "name": "carpet",
-        "trans": ["n. 地毯"]
+        "trans": [
+            "n. tấm thảm, thảm"
+        ]
     },
     {
         "name": "Thursday",
-        "trans": ["n. 星期四"]
+        "trans": [
+            "n. thứ năm"
+        ]
     },
     {
         "name": "iron",
-        "trans": ["n. 熨烫"]
+        "trans": [
+            "n. hơi là, ủi"
+        ]
     },
     {
         "name": "suburb",
-        "trans": ["n. 郊区"]
+        "trans": [
+            "n. ngoại ô, vùng ngoại vi"
+        ]
     },
     {
         "name": "exterior",
-        "trans": ["adj. 外面的"]
+        "trans": [
+            "adj. bên ngoài, bên ngoài vợi"
+        ]
     },
     {
         "name": "setting",
-        "trans": ["n. 环境"]
+        "trans": [
+            "n. môi trường"
+        ]
     },
     {
         "name": "ceremony",
-        "trans": ["n. 典礼仪式"]
+        "trans": [
+            "n. nghi lễ, lễ tế"
+        ]
     },
     {
         "name": "consult",
-        "trans": ["v. 咨询"]
+        "trans": [
+            "v. tư vấn"
+        ]
     },
     {
         "name": "premium",
-        "trans": ["adj. 高品质的"]
+        "trans": [
+            "adj. chất lượng cao, cao cấp"
+        ]
     },
     {
         "name": "apply",
-        "trans": ["v. 申请"]
+        "trans": [
+            "v. ứng tuyển, xin việc"
+        ]
     },
     {
         "name": "brochure",
-        "trans": ["n. 小册子"]
+        "trans": [
+            "danh từ: tờ rơi; brochure"
+        ]
     },
     {
         "name": "reception",
-        "trans": ["n. 招待"]
+        "trans": [
+            "n. tiếp tân, chiêu đãi"
+        ]
     },
     {
         "name": "annual",
-        "trans": ["adj. 每年的"]
+        "trans": [
+            "adj. hằng năm, thường niên"
+        ]
     },
     {
         "name": "guard",
-        "trans": ["n. 保卫"]
+        "trans": [
+            "n. bảo vệ, giữ gìn"
+        ]
     },
     {
         "name": "poster",
-        "trans": ["n. 海报"]
+        "trans": [
+            "n. áp phích, biểu ngữ"
+        ]
     },
     {
         "name": "health check",
-        "trans": ["n. 体检"]
+        "trans": [
+            "n. khám sức khoẻ tổng quát"
+        ]
     },
     {
         "name": "petrol",
-        "trans": ["n. 汽油"]
+        "trans": [
+            "n. xăng"
+        ]
     },
     {
         "name": "literacy",
-        "trans": ["n. 读写能力"]
+        "trans": [
+            "n. khả năng đọc và viết, kỹ năng đọc viết"
+        ]
     },
     {
         "name": "comedy",
-        "trans": ["n. 喜剧"]
+        "trans": [
+            "n. hài kịch"
+        ]
     },
     {
         "name": "lounge",
-        "trans": ["n. 休息厅"]
+        "trans": [
+            "n. phòng nghỉ"
+        ]
     },
     {
         "name": "Spanish",
-        "trans": ["n. 西班牙语"]
+        "trans": [
+            "n. tiếng Tây Ban Nha"
+        ]
     },
     {
         "name": "yoga",
-        "trans": ["n. 瑜伽"]
+        "trans": [
+            "n. yoga"
+        ]
     },
     {
         "name": "headache",
-        "trans": ["n. 头疼"]
+        "trans": [
+            "n. đau đầu"
+        ]
     },
     {
         "name": "burglar",
-        "trans": ["n. 盗贼"]
+        "trans": [
+            "n. kẻ trộm, tên cướp"
+        ]
     },
     {
         "name": "goods",
-        "trans": ["n. 商品"]
+        "trans": [
+            "n. hàng hóa, sản phẩm"
+        ]
     }
 ]

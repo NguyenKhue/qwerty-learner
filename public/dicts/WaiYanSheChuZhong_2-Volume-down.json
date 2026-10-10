@@ -2,10 +2,10 @@
     {
         "name": "weather",
         "trans": [
-            "n. 天气；气象；气候；处境",
-            "vt. 经受住；使风化；侵蚀；使受风吹雨打",
-            "adj. 露天的；迎风的",
-            "vi. 风化；受侵蚀；经受风雨"
+            "n. thời tiết; khí tượng; khí hậu; hoàn cảnh",
+            "vt. chịu đựng nổi; làm phong hóa; xói mòn; để gió mưa bào mòn",
+            "adj. ngoài trời, hở; hướng ra gió",
+            "vi. phong hóa; bị xói mòn; chịu đựng gió mưa"
         ],
         "usphone": "[ˈweðər]",
         "ukphone": "[ˈweðə(r)]"
@@ -13,7 +13,7 @@
     {
         "name": "like",
         "trans": [
-            "vt. 喜欢；想；愿意",
+            "vt. thích; muốn; sẵn lòng",
             "vi. 喜欢；希望",
             "prep. 像；如同",
             "adj. 同样的；相似的",
@@ -53,9 +53,9 @@
     {
         "name": "cap",
         "trans": [
-            "n. 盖；帽子",
-            "vt. 覆盖；胜过；给…戴帽；加盖于",
-            "vi. 脱帽致意"
+            "n. nắp; mũ",
+            "vt. che phủ; vượt qua; đội mũ cho ...; đậy lên trên",
+            "vi. cởi mũ chào"
         ],
         "usphone": "[kæp]",
         "ukphone": "[kæp]"
@@ -100,9 +100,9 @@
     {
         "name": "ski",
         "trans": [
-            "n. 滑雪橇",
-            "vi. 滑雪",
-            "adj. 滑雪（用）的"
+            "n. cái trượt tuyết",
+            "vi. trượt tuyết",
+            "adj. dùng để trượt tuyết"
         ],
         "usphone": "[skiː]",
         "ukphone": "[skiː]"
@@ -110,9 +110,9 @@
     {
         "name": "radio",
         "trans": [
-            "n. 收音机；无线电广播设备",
-            "vt. 用无线电发送",
-            "vi. 用无线电进行通信"
+            "n. đài phát thanh; thiết bị phát thanh vô tuyến",
+            "vt. phát sóng vô tuyến",
+            "vi. thông tin liên lạc vô tuyến"
         ],
         "usphone": "[ˈreɪdioʊ]",
         "ukphone": "[ˈreɪdiəʊ]"
@@ -120,7 +120,7 @@
     {
         "name": "photo",
         "trans": [
-            "n. 照片"
+            "n. anh chup"
         ],
         "usphone": "[ˈfoʊtoʊ]",
         "ukphone": "[ˈfəʊtəʊ]"
@@ -128,9 +128,9 @@
     {
         "name": "newspaper",
         "trans": [
-            "n. 报纸",
-            "报社",
-            "旧报纸"
+            "(n.) tờ báo; báo chí",
+            "cơ quan báo",
+            "báo cũ"
         ],
         "usphone": "[ˈnuːzpeɪpər]",
         "ukphone": "[ˈnjuːzpeɪpə(r)]"
@@ -148,7 +148,7 @@
     {
         "name": "camera",
         "trans": [
-            "n. 照相机；摄影机"
+            "n. máy ảnh; máy quay phim"
         ],
         "usphone": "[ˈkæm(ə)rə]",
         "ukphone": "[ˈkæm(ə)rə]"
@@ -166,9 +166,9 @@
     {
         "name": "draw",
         "trans": [
-            "n. 平局；抽签",
-            "vi. 拉；拖",
-            "vt. 画；拉；吸引"
+            "n. trận hòa; rút thăm",
+            "vi. kéo; kéo lê",
+            "vt. vẽ; kéo; thu hút"
         ],
         "usphone": "[drɔː]",
         "ukphone": "[drɔː]"
@@ -176,8 +176,8 @@
     {
         "name": "picture",
         "trans": [
-            "n. 照片，图画；影片；景色；化身",
-            "vt. 画；想像；描写"
+            "n. ảnh; hình ảnh; phim; cảnh; hình thành",
+            "vt. vẽ; tưởng tượng; mô tả"
         ],
         "usphone": "[ˈpɪktʃər]",
         "ukphone": "[ˈpɪktʃə(r)]"
@@ -194,9 +194,9 @@
     {
         "name": "letter",
         "trans": [
-            "n. 信；字母，文字；证书；文学，学问；字面意义",
-            "vt. 写字母于",
-            "vi. 写印刷体字母"
+            "n. thư; chữ cái; chứng chỉ; văn học; kiến thức; nghĩa đen",
+            "vt. viết chữ cái lên",
+            "vi. viết chữ in hoa"
         ],
         "usphone": "[ˈletər]",
         "ukphone": "[ˈletə(r)]"
@@ -225,9 +225,9 @@
     {
         "name": "room",
         "trans": [
-            "n. 房间；空间；余地；机会；房间里所有的人",
-            "vt. 为…提供住处；租房，合住；投宿，住宿；留…住宿",
-            "vi. 居住；住宿"
+            "danh từ: phòng; không gian; chỗ trống; cơ hội; mọi người trong phòng",
+            "động từ ngoại: cung cấp nhà ở; thuê phòng; ở lại; cho ở lại",
+            "động từ nội: sống; ở lại"
         ],
         "usphone": "[ruːm; rʊm]",
         "ukphone": "[ruːm]"
@@ -247,7 +247,7 @@
     {
         "name": "homework",
         "trans": [
-            "n. 家庭作业，课外作业"
+            "n. bài tập về nhà, bài tập ngoài giờ"
         ],
         "usphone": "[ˈhoʊmwɜːrk]",
         "ukphone": "[ˈhəʊmwɜːk]"
@@ -255,8 +255,8 @@
     {
         "name": "sleep",
         "trans": [
-            "n. 睡眠",
-            "vi. 睡，睡觉"
+            "n. giấc ngủ",
+            "vi. ngủ"
         ],
         "usphone": "[sliːp]",
         "ukphone": "[sliːp]"
@@ -292,7 +292,7 @@
     {
         "name": "science",
         "trans": [
-            "n. 科学；技术；学科；理科"
+            "n. khoa học; công nghệ; ngành học; khoa học tự nhiên"
         ],
         "usphone": "[ˈsaɪəns]",
         "ukphone": "[ˈsaɪəns]"
@@ -309,9 +309,9 @@
     {
         "name": "call",
         "trans": [
-            "n. 电话；呼叫；要求；访问",
-            "vi. 呼叫；拜访；叫牌",
-            "vt. 呼叫；称呼；召集"
+            "n. điện thoại; cuộc gọi; yêu cầu; thăm viếng",
+            "vi. gọi; thăm viếng; gọi bài",
+            "vt. gọi; gọi là; triệu tập"
         ],
         "usphone": "[kɔːl]",
         "ukphone": "[kɔːl]"
@@ -339,9 +339,9 @@
     {
         "name": "talk",
         "trans": [
-            "n. 谈话；演讲；空谈",
-            "vi. 谈话；说闲话",
-            "vt. 说；谈话；讨论"
+            "n. đối thoại; bài nói; chuyện phiếm",
+            "vi. nói chuyện; nói chuyện phiếm",
+            "vt. nói; trò chuyện; thảo luận"
         ],
         "usphone": "[tɔːk]",
         "ukphone": "[tɔːk]"
@@ -385,8 +385,8 @@
     {
         "name": "seek",
         "trans": [
-            "vt. 寻求；寻找；探索；搜索",
-            "vi. 寻找；探索；搜索"
+            "tìm kiếm; tìm; khám phá; tìm kiếm",
+            "tìm; khám phá; tìm kiếm"
         ],
         "usphone": "[siːk]",
         "ukphone": "[siːk]"
@@ -402,9 +402,9 @@
     {
         "name": "skip",
         "trans": [
-            "n. 跳跃；跳读",
-            "vt. 跳过；遗漏",
-            "vi. 跳跃；跳绳；遗漏；跳读"
+            "n. bước nhảy; bỏ qua",
+            "vt. bỏ qua; bỏ sót",
+            "vi. nhảy; nhảy dây; bỏ sót; đọc nhảy"
         ],
         "usphone": "[skɪp]",
         "ukphone": "[skɪp]"
@@ -412,7 +412,7 @@
     {
         "name": "hurry up",
         "trans": [
-            "na. 催促；赶快"
+            "na. thúc đẩy; vội vã"
         ],
         "usphone": "['hɜːrɪ ʌp]",
         "ukphone": "['hʌrɪ ʌp]"
@@ -420,8 +420,8 @@
     {
         "name": "late",
         "trans": [
-            "adj. 晚的；迟的；已故的；最近的",
-            "adv. 晚；迟；最近；在晚期"
+            "adj. muộn; quá cố; gần đây",
+            "adv. muộn; gần đây; ở giai đoạn cuối"
         ],
         "usphone": "[leɪt]",
         "ukphone": "[leɪt]"
@@ -457,9 +457,9 @@
     {
         "name": "clap",
         "trans": [
-            "n. 鼓掌；拍手声",
-            "vt. 拍手，鼓掌；轻轻拍打某人",
-            "vi. 鼓掌，拍手；啪地关上"
+            "n. phe phe; tiếng vỗ tay",
+            "vt. vỗ tay; gõ nhẹ",
+            "vi. vỗ tay; đóng lại phát ra tiếng"
         ],
         "usphone": "[klæp]",
         "ukphone": "[klæp]"
@@ -467,9 +467,9 @@
     {
         "name": "game",
         "trans": [
-            "n. 游戏；比赛",
-            "adj. 勇敢的",
-            "vi. 赌博"
+            "n. trò chơi; cuộc đua",
+            "adj. dũng cảm",
+            "vi. cá cược"
         ],
         "usphone": "[ɡeɪm]",
         "ukphone": "[ɡeɪm]"
@@ -483,10 +483,10 @@
     {
         "name": "well",
         "trans": [
-            "n. 井；源泉",
-            "adj. 良好的；健康的；适宜的",
-            "adv. 很好地；充分地；满意地；适当地",
-            "v. 涌出"
+            "danh từ: giếng; suối",
+            "tính từ: tốt; khỏe mạnh; thích hợp",
+            "trạng từ: tốt; đầy đủ; thỏa mãn; thích hợp",
+            "động từ: phun ra; chảy ra"
         ],
         "usphone": "[wel]",
         "ukphone": "[wel]"
@@ -505,9 +505,9 @@
     {
         "name": "catch",
         "trans": [
-            "n. 捕捉；捕获物；窗钩",
-            "vt. 赶上；抓住；感染；了解",
-            "vi. 赶上；抓住"
+            "n. bắt; con mồi; khóa cửa",
+            "vt. kịp; nắm giữ; lây nhiễm; hiểu",
+            "vi. kịp; nắm giữ"
         ],
         "usphone": "[kætʃ]",
         "ukphone": "[kætʃ]"
@@ -521,7 +521,7 @@
     {
         "name": "usually",
         "trans": [
-            "adv. 通常，经常"
+            "adv. thường, thường xuyên"
         ],
         "usphone": "[ˈjuːʒuəli; ˈjuːʒəli]",
         "ukphone": "[ˈjuːʒuəli]"
@@ -529,7 +529,7 @@
     {
         "name": "us",
         "trans": [
-            "pron. 我们"
+            "pron. chúng tôi, chúng ta"
         ],
         "usphone": "[əs; ʌs]",
         "ukphone": "[əs; ʌs]"
@@ -537,9 +537,9 @@
     {
         "name": "ride",
         "trans": [
-            "n. 骑；乘坐；交通工具；可供骑行的路；（乘坐汽车等的）旅行；乘骑；（乘车或骑车的）短途旅程；供乘骑的游乐设施",
-            "vi. 骑马；乘车；依靠；漂浮",
-            "vt. 骑；乘；控制；（骑马、自行车等）穿越；搭乘；飘浮"
+            "n. cưỡi; chuyến đi; phương tiện; con đường; chuyến xe; công trình giải trí",
+            "vi. cưỡi; phụ thuộc; trôi nổi",
+            "vt. cưỡi; điều khiển; vượt qua; trôi nổi"
         ],
         "usphone": "[raɪd]",
         "ukphone": "[raɪd]"
@@ -565,9 +565,9 @@
     {
         "name": "cook",
         "trans": [
-            "n. 厨师，厨子",
-            "vt. 烹调，煮",
-            "vi. 烹调，做菜"
+            "n. đầu bếp, bếp trưởng",
+            "vt. nấu ăn, nấu",
+            "vi. nấu ăn, làm việc bếp"
         ],
         "usphone": "[kʊk]",
         "ukphone": "[kʊk]"
@@ -589,7 +589,7 @@
     {
         "name": "kitchen",
         "trans": [
-            "n. 厨房；炊具；炊事人员"
+            "n. nhà bếp; dụng cụ nấu nướng; nhân viên nấu ăn"
         ],
         "usphone": "[ˈkɪtʃɪn]",
         "ukphone": "[ˈkɪtʃɪn]"
@@ -611,9 +611,9 @@
     {
         "name": "play",
         "trans": [
-            "n. 游戏；比赛；剧本",
-            "vt. 游戏；扮演；演奏；播放；同…比赛",
-            "vi. 演奏；玩耍；上演；参加比赛"
+            "(n.) trò chơi; trận đấu; vở kịch",
+            "(vt.) chơi; diễn; biểu diễn; thi đấu",
+            "(vi.) biểu diễn; chơi; tham gia đua"
         ],
         "usphone": "[pleɪ]",
         "ukphone": "[pleɪ]"
@@ -621,7 +621,7 @@
     {
         "name": "say",
         "trans": [
-            "vt. 讲；说明；例如；声称；假设；指明",
+            "vt. nói; giải thích; ví dụ; tuyên bố; giả định; chỉ định",
             "vi. 讲；表示；念；假定；背诵"
         ],
         "usphone": "[seɪ]",
@@ -630,7 +630,7 @@
     {
         "name": "poem",
         "trans": [
-            "n. 诗"
+            "n. thơ"
         ],
         "usphone": "[ˈpoʊəm]",
         "ukphone": "[ˈpəʊɪm]"
@@ -638,7 +638,7 @@
     {
         "name": "dragon",
         "trans": [
-            "n. 龙；凶暴的人，凶恶的人；严厉而有警觉性的女人"
+            "n. rồng; kẻ hung dữ, người ác; người phụ nữ nghiêm khắc và cảnh giác"
         ],
         "usphone": "[ˈdræɡən]",
         "ukphone": "[ˈdræɡən]"
@@ -654,8 +654,8 @@
     {
         "name": "picnic",
         "trans": [
-            "n. 野餐",
-            "vi. 去野餐"
+            "n. dã ngoại",
+            "vi. đi dã ngoại"
         ],
         "usphone": "[ˈpɪknɪk]",
         "ukphone": "[ˈpɪknɪk]"
@@ -664,7 +664,7 @@
         "name": "family",
         "trans": [
             "n. 家庭；亲属；家族；子女；[生]科；语族；[化]族",
-            "adj. 家庭的；家族的；适合于全家的"
+            "adj. gia đình; gia tộc; phù hợp với toàn bộ gia đình"
         ],
         "usphone": "[ˈfæməli]",
         "ukphone": "[ˈfæməli]"
@@ -672,9 +672,9 @@
     {
         "name": "beach",
         "trans": [
-            "n. 海滩；湖滨",
-            "vt. 将…拖上岸",
-            "vi. 搁浅；定居"
+            "danh từ: bãi biển; bờ hồ",
+            "động từ ngoại: kéo lên bãi biển",
+            "động từ nội: chạy mắc cạn; định cư"
         ],
         "usphone": "[biːtʃ]",
         "ukphone": "[biːtʃ]"
@@ -682,7 +682,7 @@
     {
         "name": "hill",
         "trans": [
-            "n. 小山；丘陵；斜坡；山冈"
+            "n. đồi nhỏ; danh lam thắng cảnh; sườn dốc; gò"
         ],
         "usphone": "[hɪl]",
         "ukphone": "[hɪl]"
@@ -701,8 +701,8 @@
     {
         "name": "station",
         "trans": [
-            "n. 车站；驻地；地位；身份",
-            "vt. 配置；安置；驻扎"
+            "n. trạm; vị trí; địa vị",
+            "vt. đặt; bố trí; đóng quân"
         ],
         "usphone": "[ˈsteɪʃn]",
         "ukphone": "[ˈsteɪʃ(ə)n]"
@@ -710,7 +710,7 @@
     {
         "name": "hospital",
         "trans": [
-            "n. 医院"
+            "n. bệnh viện, viện bệnh"
         ],
         "usphone": "[ˈhɑːspɪtl]",
         "ukphone": "[ˈhɒspɪt(ə)l]"
@@ -718,9 +718,9 @@
     {
         "name": "stop",
         "trans": [
-            "n. 停止；车站；障碍；逗留",
-            "vi. 停止；中止；逗留；被塞住",
-            "vt. 停止；堵塞；断绝"
+            "n. dừng lại; trạm; chướng ngại; lưu trú",
+            "vi. dừng lại; ngừng; lưu trú; bị tắc",
+            "vt. dừng lại; tắc; ngắt đứt"
         ],
         "usphone": "[stɑːp]",
         "ukphone": "[stɒp]"
@@ -728,9 +728,9 @@
     {
         "name": "turn",
         "trans": [
-            "n. 转弯；变化；(损害或有益于别人的)行为，举动，举止",
-            "vi. 转向；转变；转动",
-            "vt. 转动，使旋转；转弯；翻过来；兑换"
+            "n. cong; thay đổi; hành động",
+            "vi. quay; thay đổi; xoay",
+            "vt. xoay, quay; quay; lật; đổi"
         ],
         "usphone": "[tɜːrn]",
         "ukphone": "[tɜːn]"
@@ -753,11 +753,11 @@
     {
         "name": "ground",
         "trans": [
-            "n. 地面；土地；范围；战场;根据",
-            "v. 研磨（grind的过去分词）；压迫",
-            "adj. 土地的；地面上的；磨碎的；磨过的",
-            "vt. 使接触地面；打基础；使搁浅",
-            "vi. 着陆；搁浅"
+            "n. mặt đất; đất; phạm vi; chiến trường; cơ sở",
+            "v. nghiền; áp bức",
+            "adj. thuộc đất; trên mặt đất; bị nghiền; được mài",
+            "vt. làm chạm mặt đất; đặt nền tảng; làm mắc cạn",
+            "vi. hạ cánh; mắc cạn"
         ],
         "usphone": "[ɡraʊnd]",
         "ukphone": "[ɡraʊnd]"
@@ -765,8 +765,8 @@
     {
         "name": "again",
         "trans": [
-            "adv. 又，此外；再一次；再说；增加",
-            "n. （英、保）阿盖恩"
+            "adv. lại; ngoài ra; thêm nữa; một lần nữa",
+            "n. Again"
         ],
         "usphone": "[əˈɡen; əˈɡeɪn]",
         "ukphone": "[əˈɡen]"
@@ -774,9 +774,9 @@
     {
         "name": "jump",
         "trans": [
-            "n. 跳跃；暴涨；惊跳",
-            "vt. 跳跃；使跳跃；跳过；突升",
-            "vi. 跳跃；暴涨；猛增"
+            "n. bước nhảy; tăng vọt; giật mình",
+            "vt. nhảy; làm nhảy; bỏ qua; tăng vọt",
+            "vi. nhảy; tăng vọt; tăng đột ngột"
         ],
         "usphone": "[dʒʌmp]",
         "ukphone": "[dʒʌmp]"
@@ -784,11 +784,11 @@
     {
         "name": "back",
         "trans": [
-            "n. 后面；背部；靠背；足球等的后卫；书报等的末尾",
-            "adj. 后面的；过去的；拖欠的",
-            "vt. 支持；后退；背书；下赌注",
-            "adv. 以前；向后地；来回地；上溯；回来；回原处",
-            "vi. 后退；背靠；倒退"
+            "n. phía sau; lưng; tựa lưng; hậu vệ; trang cuối",
+            "adj. phía sau; quá khứ; còn nợ",
+            "vt. ủng hộ; lùi lại; ký bảo lãnh; đặt cược",
+            "adv. trước đây; hướng sau; qua lại; trở lại; về chỗ cũ",
+            "vi. lùi lại; dựa lưng; lùi xuống"
         ],
         "usphone": "[bæk]",
         "ukphone": "[bæk]"
@@ -804,10 +804,10 @@
     {
         "name": "left",
         "trans": [
-            "adj. 左边的；左派的；剩下的",
-            "adv. 在左面",
-            "n. 左边；左派；激进分子",
-            "v. 离开（leave的过去式）"
+            "adj. bên trái; cánh tả; còn lại",
+            "adv. ở phía bên trái",
+            "n. bên trái; cánh tả; nhân vật cực đoan",
+            "v. rời đi"
         ],
         "usphone": "[left]",
         "ukphone": "[left]"
@@ -823,11 +823,11 @@
     {
         "name": "right",
         "trans": [
-            "n. 正确；右边；正义",
-            "adj. 正确的；直接的；右方的",
-            "vt. 纠正",
-            "adv. 正确地；恰当地；彻底地",
-            "vi. 复正；恢复平稳"
+            "n. điều đúng; bên phải; công lý",
+            "adj. đúng; trực tiếp; bên phải",
+            "vt. sửa chữa",
+            "adv. đúng; thích hợp; hoàn toàn",
+            "vi. khôi phục; ổn định"
         ],
         "usphone": "[raɪt]",
         "ukphone": "[raɪt]"
@@ -859,9 +859,9 @@
     {
         "name": "straight",
         "trans": [
-            "n. 直；直线；直男，直女，异性恋者",
-            "adj. 直的；连续的；笔直的；正直的；整齐的；异性恋的",
-            "adv. 直接地；不断地；立即；坦率地"
+            "n. thẳng; đường thẳng; người dị tính",
+            "adj. thẳng; liên tục; trực; chính trực; ngăn nắp; dị tính",
+            "adv. trực tiếp; liên tục; ngay lập tức; thẳng thắn"
         ],
         "usphone": "[streɪt]",
         "ukphone": "[streɪt]"
@@ -875,8 +875,8 @@
     {
         "name": "lost",
         "trans": [
-            "adj. 失去的；丧失的；迷惑的",
-            "v. 遗失（lose的过去分词）；失败"
+            "(adj.) mất; bị lạc",
+            "(v.) mất; thất bại"
         ],
         "usphone": "[lɔːst]",
         "ukphone": "[lɒst]"
@@ -911,7 +911,7 @@
     {
         "name": "cousin",
         "trans": [
-            "n. 堂兄弟姊妹；表兄弟姊妹"
+            "n. anh em họ"
         ],
         "usphone": "[ˈkʌzn]",
         "ukphone": "[ˈkʌzn]"
@@ -919,7 +919,7 @@
     {
         "name": "supermarket",
         "trans": [
-            "n. 超级市场；自助售货商店"
+            "n. siêu thị; cửa hàng bán tự phục vụ"
         ],
         "usphone": "[ˈsuːpərmɑːrkɪt]",
         "ukphone": "[ˈsuːpəmɑːkɪt]"
@@ -927,10 +927,10 @@
     {
         "name": "wrong",
         "trans": [
-            "n. 坏事；不公正",
-            "adj. 错误的；失常的；不适当的",
-            "vt. 委屈；无理地对待；诽谤",
-            "adv. 错误地；邪恶地，不正当地"
+            "n. điều xấu; sự bất công",
+            "adj. sai; bất thường; không thích hợp",
+            "vt. làm ấm ức; đối xử vô lý; vu oan",
+            "adv. sai lầm; tà dâm, bất chính"
         ],
         "usphone": "[rɔːŋ]",
         "ukphone": "[rɒŋ]"
@@ -938,9 +938,9 @@
     {
         "name": "way",
         "trans": [
-            "n. 方法；道路；方向；行业；习惯",
-            "adj. 途中的",
-            "adv. 大大地；远远地"
+            "n. phương pháp; con đường; hướng; ngành; thói quen",
+            "adj. đang trên đường",
+            "adv. rất; khoảng cách xa"
         ],
         "usphone": "[weɪ]",
         "ukphone": "[weɪ]"
@@ -954,11 +954,11 @@
     {
         "name": "front",
         "trans": [
-            "n. 前面；正面；前线",
-            "adj. 前面的；正面的",
-            "vt. 面对；朝向；对付",
-            "vi. 朝向",
-            "adv. 在前面；向前"
+            "n. phía trước; mặt trước; tiền tuyến",
+            "adj. phía trước; hướng về phía trước",
+            "vt. đối mặt; quay mặt về; ứng phó",
+            "vi. quay mặt về",
+            "adv. phía trước; tiến về phía trước"
         ],
         "usphone": "[frʌnt]",
         "ukphone": "[frʌnt]"
@@ -974,10 +974,10 @@
     {
         "name": "well",
         "trans": [
-            "n. 井；源泉",
-            "adj. 良好的；健康的；适宜的",
-            "adv. 很好地；充分地；满意地；适当地",
-            "v. 涌出"
+            "danh từ: giếng; suối",
+            "tính từ: tốt; khỏe mạnh; thích hợp",
+            "trạng từ: tốt; đầy đủ; thỏa mãn; thích hợp",
+            "động từ: phun ra; chảy ra"
         ],
         "usphone": "[wel]",
         "ukphone": "[wel]"
@@ -985,9 +985,9 @@
     {
         "name": "taxi",
         "trans": [
-            "n. 出租汽车",
-            "vt. 使滑行；用出租车送",
-            "vi. 乘出租车；滑行"
+            "n. taxi; xe taxi",
+            "vt. cho trượt; chở bằng taxi",
+            "vi. đi taxi; trượt"
         ],
         "usphone": "[ˈtæksi]",
         "ukphone": "[ˈtæksi]"

@@ -93,7 +93,7 @@
     {
         "name": "vet",
         "trans": [
-            "兽医"
+            "bác sĩ thú y; thú y"
         ],
         "usphone": "vɛt",
         "ukphone": "vet"
@@ -232,7 +232,7 @@
         "name": "thunder",
         "trans": [
             "打雷；雷鸣",
-            "雷；雷声"
+            "sét; tiếng sấm"
         ],
         "usphone": "'θʌndɚ",
         "ukphone": "'θʌndə"
@@ -320,7 +320,7 @@
     {
         "name": "suffer",
         "trans": [
-            "遭受；忍受；经历"
+            "chịu đựng; chịu; kinh nghiệm"
         ],
         "usphone": "'sʌfɚ",
         "ukphone": "'sʌfə"
@@ -458,7 +458,7 @@
     {
         "name": "disagree",
         "trans": [
-            "不同意"
+            "không đồng ý"
         ],
         "usphone": ",dɪsə'ɡri",
         "ukphone": "dɪsə'griː"
@@ -508,7 +508,7 @@
     {
         "name": "swap",
         "trans": [
-            "交换"
+            "trao đổi, hoán đổi"
         ],
         "usphone": "swɑp",
         "ukphone": "swɒp"
@@ -556,7 +556,7 @@
     {
         "name": "official",
         "trans": [
-            "官方的；正式的；公务的"
+            "chính thức của cơ quan nhà nước; chính thức; công vụ"
         ],
         "usphone": "əˈfɪʃəl; oʊˈfɪʃəl",
         "ukphone": "ə'fɪʃ(ə)l"
@@ -564,7 +564,7 @@
     {
         "name": "voyage",
         "trans": [
-            "航行；航海"
+            "đi lại; thuyền bài"
         ],
         "usphone": "'vɔɪɪdʒ",
         "ukphone": "'vɒɪɪdʒ"
@@ -621,7 +621,7 @@
     {
         "name": "actually",
         "trans": [
-            "实际上；事实上"
+            "thực tế; sự thật là"
         ],
         "usphone": "'æktʃuəli",
         "ukphone": "ˈæktʃuəli"
@@ -629,7 +629,7 @@
     {
         "name": "AD",
         "trans": [
-            "公元"
+            "Công Nguyên"
         ],
         "usphone": "",
         "ukphone": ""
@@ -646,7 +646,7 @@
     {
         "name": "at present",
         "trans": [
-            "现在；目前"
+            "bây giờ; hiện nay"
         ],
         "usphone": "",
         "ukphone": ""
@@ -751,7 +751,7 @@
     {
         "name": "fluent",
         "trans": [
-            "流利的；流畅的"
+            "trôi chảy; trơn tru, mượt mà"
         ],
         "usphone": "'fluənt",
         "ukphone": "'fluːənt"
@@ -833,7 +833,7 @@
     {
         "name": "dialect",
         "trans": [
-            "方言"
+            "Phương ngữ"
         ],
         "usphone": "'daɪə'lɛkt",
         "ukphone": "'daɪəlekt"
@@ -866,7 +866,7 @@
     {
         "name": "Spanish",
         "trans": [
-            "西班牙的；西班牙人的；西班牙语的",
+            "của Tây Ban Nha; thuộc về người Tây Ban Nha; thuộc tiếng Tây Ban Nha",
             "西班牙人；西班牙语"
         ],
         "usphone": "'spænɪʃ",
@@ -979,7 +979,7 @@
     {
         "name": "lightning",
         "trans": [
-            "闪电"
+            "tia chớp; sét"
         ],
         "usphone": "'laɪtnɪŋ",
         "ukphone": "'laɪtnɪŋ"
@@ -1004,7 +1004,7 @@
     {
         "name": "cab",
         "trans": [
-            "出租车"
+            "xe taxi"
         ],
         "usphone": "kæb",
         "ukphone": "kæb"
@@ -1045,7 +1045,7 @@
     {
         "name": "fare",
         "trans": [
-            "费用"
+            "n. chi phí; phí tổn"
         ],
         "usphone": "fɛr",
         "ukphone": "feə"
@@ -1094,7 +1094,7 @@
     {
         "name": "cycle",
         "trans": [
-            "骑自行车"
+            "đạp xe đạp, đi xe đạp"
         ],
         "usphone": "'saɪkl",
         "ukphone": "'saɪk(ə)l"
@@ -1102,7 +1102,7 @@
     {
         "name": "graduate",
         "trans": [
-            "毕业",
+            "tốt nghiệp",
             "大学毕业生"
         ],
         "usphone": "ˈɡrædʒuˌet",
@@ -1144,7 +1144,7 @@
     {
         "name": "shortcoming",
         "trans": [
-            "缺点"
+            "nhược điểm; điểm yếu"
         ],
         "usphone": "'ʃɔrtkʌmɪŋ",
         "ukphone": "'ʃɔːtkʌmɪŋ"
@@ -1289,7 +1289,7 @@
     {
         "name": "waterfall",
         "trans": [
-            "瀑布"
+            "thác nước"
         ],
         "usphone": "'wɔtɚfɔl",
         "ukphone": "'wɔːtəfɔːl"
@@ -1323,7 +1323,7 @@
     {
         "name": "delta",
         "trans": [
-            "三角洲"
+            "đồng bằng tam giác"
         ],
         "usphone": "'dɛltə",
         "ukphone": "'deltə"
@@ -1331,7 +1331,7 @@
     {
         "name": "attitude",
         "trans": [
-            "态度；看法"
+            "thái độ; quan điểm"
         ],
         "usphone": "'ætɪtʊd",
         "ukphone": "'ætɪtjuːd"
@@ -1355,8 +1355,8 @@
     {
         "name": "forecast",
         "trans": [
-            "预测；预报",
-            "预测；预报"
+            "dự báo; báo trước",
+            "dự báo; báo trước"
         ],
         "usphone": "'fɔrkæst",
         "ukphone": "'fɔːkɑːst"
@@ -1372,7 +1372,7 @@
     {
         "name": "insurance",
         "trans": [
-            "保险"
+            "bảo hiểm"
         ],
         "usphone": "ɪn'ʃʊrəns",
         "ukphone": "ɪn'ʃʊər(ə)ns"
@@ -1494,7 +1494,7 @@
     {
         "name": "earthquake",
         "trans": [
-            "地震"
+            "n. động đất"
         ],
         "usphone": "'ɝθ'kwek",
         "ukphone": "'ɜːθkweɪk"
@@ -1502,7 +1502,7 @@
     {
         "name": "quake",
         "trans": [
-            "地震"
+            "n. động đất"
         ],
         "usphone": "kwek",
         "ukphone": "kweɪk"
@@ -1518,7 +1518,7 @@
     {
         "name": "well",
         "trans": [
-            "井"
+            "giếng"
         ],
         "usphone": "wɛl",
         "ukphone": "wel"
@@ -1568,7 +1568,7 @@
     {
         "name": "million",
         "trans": [
-            "百万"
+            "triệu"
         ],
         "usphone": "'mɪljən",
         "ukphone": "'mɪljən"
@@ -1632,7 +1632,7 @@
     {
         "name": "ruin",
         "trans": [
-            "废墟",
+            "phế tích, tàn tích",
             "使破产；毁灭"
         ],
         "usphone": "'ruɪn",
@@ -1748,7 +1748,7 @@
     {
         "name": "electricity",
         "trans": [
-            "电"
+            "điện"
         ],
         "usphone": "ɪ'lɛk'trɪsəti",
         "ukphone": ",ɪlek'trɪsɪtɪ; ,el-; ,iːl-"
@@ -1820,7 +1820,7 @@
     {
         "name": "reporter",
         "trans": [
-            "记者"
+            "phóng viên, nhà báo"
         ],
         "usphone": "rɪ'pɔrtɚ",
         "ukphone": "rɪ'pɔːtə"
@@ -1919,7 +1919,7 @@
     {
         "name": "cyclist",
         "trans": [
-            "骑自行车的人"
+            "người đi xe đạp"
         ],
         "usphone": "'saɪklɪst",
         "ukphone": "'saɪklɪst"
@@ -1991,7 +1991,7 @@
     {
         "name": "selfish",
         "trans": [
-            "自私的"
+            "vị kỷ"
         ],
         "usphone": "'sɛlfɪʃ",
         "ukphone": "'selfɪʃ"
@@ -2055,7 +2055,7 @@
     {
         "name": "invader",
         "trans": [
-            "侵略者"
+            "kẻ xâm lược"
         ],
         "usphone": "ɪn'vedɚ",
         "ukphone": "ɪn'veɪdə(r)"
@@ -2071,7 +2071,7 @@
     {
         "name": "republic",
         "trans": [
-            "共和国；共和政体"
+            "cộng hòa; chế độ cộng hòa"
         ],
         "usphone": "rɪ'pʌblɪk",
         "ukphone": "rɪ'pʌblɪk"
@@ -2135,7 +2135,7 @@
     {
         "name": "mankind",
         "trans": [
-            "人类"
+            "loài người"
         ],
         "usphone": "mæn'kaɪnd",
         "ukphone": ",mæn'kaɪnd"
@@ -2151,7 +2151,7 @@
     {
         "name": "lawyer",
         "trans": [
-            "律师"
+            "luật sư"
         ],
         "usphone": "'lɔjɚ",
         "ukphone": "'lɔːjə; 'lɒɪə"
@@ -2183,7 +2183,7 @@
     {
         "name": "passbook",
         "trans": [
-            "银行存折"
+            "sổ tiết kiệm ngân hàng"
         ],
         "usphone": "'pæs'bʊk",
         "ukphone": "'pɑːsbʊk"
@@ -2199,7 +2199,7 @@
     {
         "name": "out of work",
         "trans": [
-            "失业"
+            "thất nghiệp"
         ],
         "usphone": "",
         "ukphone": ""
@@ -2344,7 +2344,7 @@
     {
         "name": "release",
         "trans": [
-            "释放；发行"
+            "thả; phát hành"
         ],
         "usphone": "rɪ'lis",
         "ukphone": "rɪ'liːs"

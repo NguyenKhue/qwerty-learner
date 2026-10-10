@@ -82,7 +82,7 @@
     {
         "name": "water heater",
         "trans": [
-            "热水器"
+            "máy nước nóng"
         ],
         "ukphone": "ˈwɔːtə ˈhiːtə",
         "usphone": "ˈwɔtər ˈhitər"
@@ -106,7 +106,7 @@
     {
         "name": "refrigerator",
         "trans": [
-            "冰箱"
+            "tủ lạnh"
         ],
         "ukphone": "rɪˈfrɪʤᵊreɪtə",
         "usphone": "rəˈfrɪʤəˌreɪtər"
@@ -114,7 +114,7 @@
     {
         "name": "fridge",
         "trans": [
-            "冰箱"
+            "tủ lạnh"
         ],
         "ukphone": "frɪʤ",
         "usphone": "frɪʤ"
@@ -122,7 +122,7 @@
     {
         "name": "bed linen",
         "trans": [
-            "床上用品"
+            "đồ dùng giường; bộ ga giường"
         ],
         "ukphone": "bɛd ˈlɪnɪn",
         "usphone": "bɛd ˈlɪnən"
@@ -146,7 +146,7 @@
     {
         "name": "landlord",
         "trans": [
-            "房东"
+            "chủ nhà"
         ],
         "ukphone": "ˈlænlɔːd",
         "usphone": "ˈlænˌdlɔrd"
@@ -154,7 +154,7 @@
     {
         "name": "landlady",
         "trans": [
-            "房东"
+            "chủ nhà"
         ],
         "ukphone": "ˈlændˌleɪdi",
         "usphone": "ˈlænˌdleɪdi"
@@ -162,7 +162,7 @@
     {
         "name": "on lease",
         "trans": [
-            "出租"
+            "cho thuê; cho mướn"
         ],
         "ukphone": "ɒn liːs",
         "usphone": "ɑn lis"
@@ -170,7 +170,7 @@
     {
         "name": "for rent",
         "trans": [
-            "出租"
+            "cho thuê; cho mướn"
         ],
         "ukphone": "fɔː rɛnt",
         "usphone": "fɔr rɛnt"
@@ -210,7 +210,7 @@
     {
         "name": "humid",
         "trans": [
-            "潮湿的"
+            "ẩm, ẩm ướt"
         ],
         "ukphone": "ˈhjuːmɪd",
         "usphone": "ˈhjuməd"
@@ -258,7 +258,7 @@
     {
         "name": "cassette recorder",
         "trans": [
-            "录音机"
+            "máy ghi âm"
         ],
         "ukphone": "kæˈsɛt rɪˈkɔːdə",
         "usphone": "kəˈsɛt rɪˈkɔrdər"
@@ -266,7 +266,7 @@
     {
         "name": "fire place",
         "trans": [
-            "壁炉"
+            "lò sưởi"
         ],
         "ukphone": "ˈfaɪə pleɪs",
         "usphone": "ˈfaɪər pleɪs"
@@ -282,7 +282,7 @@
     {
         "name": "surroundings",
         "trans": [
-            "环境"
+            "n. môi trường"
         ],
         "ukphone": "səˈraʊndɪŋz",
         "usphone": "səˈraʊndɪŋz"
@@ -290,7 +290,7 @@
     {
         "name": "rural areas",
         "trans": [
-            "农村"
+            "nông thôn, miền quê"
         ],
         "ukphone": "ˈrʊərəl ˈeərɪəz",
         "usphone": "ˈrʊrəl ˈɛriəz"
@@ -298,7 +298,7 @@
     {
         "name": "suburb",
         "trans": [
-            "郊区"
+            "ngoai o"
         ],
         "ukphone": "ˈsʌbɜːb",
         "usphone": "ˈsʌbərb"
@@ -338,7 +338,7 @@
     {
         "name": "flat",
         "trans": [
-            "公寓"
+            "căn hộ, chung cư"
         ],
         "ukphone": "flæt",
         "usphone": "flæt"
@@ -346,7 +346,7 @@
     {
         "name": "apartment",
         "trans": [
-            "公寓"
+            "căn hộ, chung cư"
         ],
         "ukphone": "əˈpɑːtmənt",
         "usphone": "əˈpɑrtmənt"
@@ -354,7 +354,7 @@
     {
         "name": "dormitory",
         "trans": [
-            "宿舍"
+            "ky tuc xa"
         ],
         "ukphone": "ˈdɔːmɪtri",
         "usphone": "ˈdɔrməˌtɔri"
@@ -362,7 +362,7 @@
     {
         "name": "dorm",
         "trans": [
-            "宿舍"
+            "ky tuc xa"
         ],
         "ukphone": "dɔːm",
         "usphone": "dɔrm"
@@ -402,7 +402,7 @@
     {
         "name": "entrance hall",
         "trans": [
-            "门厅"
+            "sảnh"
         ],
         "ukphone": "ˈɛntrəns hɔːl",
         "usphone": "ˈɛntrəns hɔl"
@@ -410,7 +410,7 @@
     {
         "name": "lobby",
         "trans": [
-            "门厅"
+            "sảnh"
         ],
         "ukphone": "ˈlɒbi",
         "usphone": "ˈlɑbi"
@@ -418,7 +418,7 @@
     {
         "name": "porch",
         "trans": [
-            "门厅"
+            "sảnh"
         ],
         "ukphone": "pɔːʧ",
         "usphone": "pɔrʧ"
@@ -426,7 +426,7 @@
     {
         "name": "balcony",
         "trans": [
-            "阳台"
+            "ban công"
         ],
         "ukphone": "ˈbælkəni",
         "usphone": "ˈbælkəni"
@@ -442,7 +442,7 @@
     {
         "name": "bedroom",
         "trans": [
-            "卧室"
+            "phòng ngủ"
         ],
         "ukphone": "ˈbɛdruːm",
         "usphone": "ˈbɛˌdrum"
@@ -450,7 +450,7 @@
     {
         "name": "living room",
         "trans": [
-            "起居室"
+            "phòng khách"
         ],
         "ukphone": "ˈlɪvɪŋ ruːm",
         "usphone": "ˈlɪvɪŋ rum"
@@ -458,7 +458,7 @@
     {
         "name": "lounge",
         "trans": [
-            "起居室"
+            "phòng khách"
         ],
         "ukphone": "laʊnʤ",
         "usphone": "laʊnʤ"
@@ -466,7 +466,7 @@
     {
         "name": "single room",
         "trans": [
-            "单人间"
+            "phòng đơn"
         ],
         "ukphone": "ˈsɪŋɡᵊl ruːm",
         "usphone": "ˈsɪŋɡəl rum"
@@ -482,7 +482,7 @@
     {
         "name": "bathroom",
         "trans": [
-            "浴室"
+            "phòng tắm"
         ],
         "ukphone": "ˈbɑːθruːm",
         "usphone": "ˈbæˌθrum"
@@ -490,7 +490,7 @@
     {
         "name": "shower",
         "trans": [
-            "淋浴"
+            "n. vòi sen, tắm; v. tắm"
         ],
         "ukphone": "ˈʃaʊə",
         "usphone": "ˈʃaʊər"
@@ -498,7 +498,7 @@
     {
         "name": "kitchen",
         "trans": [
-            "厨房"
+            "nhà bếp"
         ],
         "ukphone": "ˈkɪʧɪn",
         "usphone": "ˈkɪʧən"
@@ -514,7 +514,7 @@
     {
         "name": "garage",
         "trans": [
-            "车库"
+            "nhà để xe"
         ],
         "ukphone": "ˈɡærɑːʒ",
         "usphone": "ɡəˈrɑʒ"
@@ -522,7 +522,7 @@
     {
         "name": "carpet",
         "trans": [
-            "地毯"
+            "thảm"
         ],
         "ukphone": "ˈkɑːpɪt",
         "usphone": "ˈkɑrpət"
@@ -554,7 +554,7 @@
     {
         "name": "mattress",
         "trans": [
-            "床垫"
+            "nệm, đệm giường"
         ],
         "ukphone": "ˈmætrɪs",
         "usphone": "ˈmætrəs"
@@ -570,7 +570,7 @@
     {
         "name": "pillow",
         "trans": [
-            "枕头"
+            "gối"
         ],
         "ukphone": "ˈpɪləʊ",
         "usphone": "ˈpɪloʊ"
@@ -586,7 +586,7 @@
     {
         "name": "blanket",
         "trans": [
-            "毯子"
+            "chăn"
         ],
         "ukphone": "ˈblæŋkɪt",
         "usphone": "ˈblæŋkət"
@@ -594,7 +594,7 @@
     {
         "name": "towel",
         "trans": [
-            "毛巾"
+            "khăn; khăn tắm"
         ],
         "ukphone": "ˈtaʊəl",
         "usphone": "ˈtaʊəl"
@@ -602,7 +602,7 @@
     {
         "name": "coffee table",
         "trans": [
-            "茶几"
+            "bàn trà"
         ],
         "ukphone": "ˈkɒfi ˈteɪbᵊl",
         "usphone": "ˈkɑfi ˈteɪbəl"
@@ -618,7 +618,7 @@
     {
         "name": "sofa",
         "trans": [
-            "沙发"
+            "n. sofa, ghế sofa"
         ],
         "ukphone": "ˈsəʊfə",
         "usphone": "ˈsoʊfə"
@@ -626,7 +626,7 @@
     {
         "name": "kettle",
         "trans": [
-            "水壶"
+            "ấm nước, ấm trà"
         ],
         "ukphone": "ˈkɛtᵊl",
         "usphone": "ˈkɛtəl"
@@ -642,7 +642,7 @@
     {
         "name": "tap",
         "trans": [
-            "水龙头"
+            "vòi nước"
         ],
         "ukphone": "tæp",
         "usphone": "tæp"
@@ -658,7 +658,7 @@
     {
         "name": "cupboard",
         "trans": [
-            "橱柜"
+            "tủ, bếp tủ"
         ],
         "ukphone": "ˈkʌbəd",
         "usphone": "ˈkʌbərd"
@@ -666,7 +666,7 @@
     {
         "name": "bath",
         "trans": [
-            "浴缸"
+            "bồn tắm"
         ],
         "ukphone": "bɑːθ",
         "usphone": "bæθ"
@@ -674,7 +674,7 @@
     {
         "name": "toilet",
         "trans": [
-            "马桶"
+            "bồn cầu; toilet; nhà vệ sinh"
         ],
         "ukphone": "ˈtɔɪlɪt",
         "usphone": "ˈtɔɪlət"
@@ -682,7 +682,7 @@
     {
         "name": "stove",
         "trans": [
-            "炉子"
+            "lò"
         ],
         "ukphone": "stəʊv",
         "usphone": "stoʊv"
@@ -690,7 +690,7 @@
     {
         "name": "oven",
         "trans": [
-            "烤箱"
+            "lò nướng"
         ],
         "ukphone": "ˈʌvᵊn",
         "usphone": "ˈʌvən"
@@ -698,7 +698,7 @@
     {
         "name": "dishwasher",
         "trans": [
-            "洗碗机"
+            "máy rửa chén"
         ],
         "ukphone": "ˈdɪʃˌwɒʃə",
         "usphone": "ˈdɪˌʃwɑʃər"
@@ -714,7 +714,7 @@
     {
         "name": "telephone",
         "trans": [
-            "电话"
+            "điện thoại"
         ],
         "ukphone": "ˈtɛlɪfəʊn",
         "usphone": "ˈtɛləˌfoʊn"
@@ -722,7 +722,7 @@
     {
         "name": "washing machine",
         "trans": [
-            "洗衣机"
+            "máy giặt"
         ],
         "ukphone": "ˈwɒʃɪŋ məˈʃiːn",
         "usphone": "ˈwɑʃɪŋ məˈʃin"
@@ -730,7 +730,7 @@
     {
         "name": "air-conditioner",
         "trans": [
-            "空调"
+            "máy điều hòa"
         ],
         "ukphone": "ˈeəkənˌdɪʃᵊnə",
         "usphone": "ɛr-kənˈdɪʃənər"
@@ -762,7 +762,7 @@
     {
         "name": "microwave oven",
         "trans": [
-            "微波炉"
+            "lò vi sóng"
         ],
         "ukphone": "ˈmaɪkrəʊweɪv ˈʌvᵊn",
         "usphone": "ˈmaɪkrəˌweɪv ˈʌvən"
@@ -842,7 +842,7 @@
     {
         "name": "mobile phone",
         "trans": [
-            "手机"
+            "điện thoại"
         ],
         "ukphone": "ˈməʊbaɪl fəʊn",
         "usphone": "ˈmoʊbəl foʊn"
@@ -850,7 +850,7 @@
     {
         "name": "cellular phone",
         "trans": [
-            "手机"
+            "điện thoại"
         ],
         "ukphone": "ˈsɛljələ fəʊn",
         "usphone": "ˈsɛljələr foʊn"
@@ -930,7 +930,7 @@
     {
         "name": "client",
         "trans": [
-            "客户"
+            "khách hàng, khách"
         ],
         "ukphone": "ˈklaɪənt",
         "usphone": "ˈklaɪənt"
@@ -986,7 +986,7 @@
     {
         "name": "accommodation",
         "trans": [
-            "住宿"
+            "chỗ ở, lưu trú"
         ],
         "ukphone": "əˌkɒməˈdeɪʃᵊn",
         "usphone": "əˌkɑməˈdeɪʃən"
@@ -1010,7 +1010,7 @@
     {
         "name": "suite",
         "trans": [
-            "套房"
+            "can ho"
         ],
         "ukphone": "swiːt",
         "usphone": "swit"
@@ -1018,7 +1018,7 @@
     {
         "name": "decorate",
         "trans": [
-            "装饰"
+            "trang trí, đồ trang trí"
         ],
         "ukphone": "ˈdɛkəreɪt",
         "usphone": "ˈdɛkəˌreɪt"
@@ -1050,7 +1050,7 @@
     {
         "name": "curtain",
         "trans": [
-            "窗帘"
+            "rèm cửa"
         ],
         "ukphone": "ˈkɜːtᵊn",
         "usphone": "ˈkɜrtən"
@@ -1074,7 +1074,7 @@
     {
         "name": "snorkeling",
         "trans": [
-            "潜水"
+            "lặn"
         ],
         "ukphone": "ˈsnɔːkᵊlɪŋ",
         "usphone": "ˈsnɔrkəˌlɪŋ"
@@ -1090,7 +1090,7 @@
     {
         "name": "coral",
         "trans": [
-            "珊瑚"
+            "san hô"
         ],
         "ukphone": "ˈkɒrəl",
         "usphone": "ˈkɔrəl"
@@ -1122,7 +1122,7 @@
     {
         "name": "sunset",
         "trans": [
-            "日落"
+            "hoàng hôn, mặt trời lặn"
         ],
         "ukphone": "ˈsʌnsɛt",
         "usphone": "ˈsʌnˌsɛt"
@@ -1138,7 +1138,7 @@
     {
         "name": "sun block",
         "trans": [
-            "防晒霜"
+            "kem chống nắng"
         ],
         "ukphone": "sʌn blɒk",
         "usphone": "sʌn blɑk"
@@ -1146,7 +1146,7 @@
     {
         "name": "sun screen",
         "trans": [
-            "防晒霜"
+            "kem chống nắng"
         ],
         "ukphone": "sʌn skriːn",
         "usphone": "sʌn skrin"
@@ -1186,7 +1186,7 @@
     {
         "name": "sunglass",
         "trans": [
-            "太阳镜"
+            "kinh mat"
         ],
         "ukphone": "sunglass",
         "usphone": "ˈsʌnˌɡlæs"
@@ -1202,7 +1202,7 @@
     {
         "name": "tent",
         "trans": [
-            "帐篷"
+            "luoi"
         ],
         "ukphone": "tɛnt",
         "usphone": "tɛnt"
@@ -1210,7 +1210,7 @@
     {
         "name": "picnic",
         "trans": [
-            "野餐"
+            "dã ngoại; bữa ăn ngoài trời"
         ],
         "ukphone": "ˈpɪknɪk",
         "usphone": "ˈpɪkˌnɪk"
@@ -1242,7 +1242,7 @@
     {
         "name": "compass",
         "trans": [
-            "指南针"
+            "la bàn"
         ],
         "ukphone": "ˈkʌmpəs",
         "usphone": "ˈkʌmpəs"
@@ -1250,7 +1250,7 @@
     {
         "name": "helmet",
         "trans": [
-            "头盔"
+            "mũ bảo hiểm"
         ],
         "ukphone": "ˈhɛlmɪt",
         "usphone": "ˈhɛlmət"
@@ -1258,7 +1258,7 @@
     {
         "name": "torch",
         "trans": [
-            "手电筒"
+            "đèn pin"
         ],
         "ukphone": "tɔːʧ",
         "usphone": "tɔrʧ"
@@ -1266,7 +1266,7 @@
     {
         "name": "flash light",
         "trans": [
-            "手电筒"
+            "đèn pin"
         ],
         "ukphone": "flæʃ laɪt",
         "usphone": "flæʃ laɪt"
@@ -1274,7 +1274,7 @@
     {
         "name": "mosquito net",
         "trans": [
-            "蚊帐"
+            "màn chống muỗi"
         ],
         "ukphone": "məsˈkiːtəʊ nɛt",
         "usphone": "məˈskitoʊ nɛt"
@@ -1282,7 +1282,7 @@
     {
         "name": "insect",
         "trans": [
-            "昆虫"
+            "côn trùng"
         ],
         "ukphone": "ˈɪnsɛkt",
         "usphone": "ˈɪnˌsɛkt"
@@ -1306,7 +1306,7 @@
     {
         "name": "socks",
         "trans": [
-            "短袜"
+            "n. tất ngắn, tất"
         ],
         "ukphone": "sɒks",
         "usphone": "sɑks"
@@ -1322,7 +1322,7 @@
     {
         "name": "bungee jumping",
         "trans": [
-            "蹦极"
+            "nhảy dây bungee"
         ],
         "ukphone": "ˈbʌnʤi ˈʤʌmpɪŋ",
         "usphone": "ˈbʌnʤi ˈʤʌmpɪŋ"
@@ -1354,7 +1354,7 @@
     {
         "name": "castle",
         "trans": [
-            "城堡"
+            "lâu đài, thành trì"
         ],
         "ukphone": "ˈkɑːsᵊl",
         "usphone": "ˈkæsəl"
@@ -1370,7 +1370,7 @@
     {
         "name": "cathedral",
         "trans": [
-            "大教堂"
+            "nhà thờ lớn"
         ],
         "ukphone": "kəˈθiːdrəl",
         "usphone": "kəˈθidrəl"
@@ -1378,7 +1378,7 @@
     {
         "name": "aquarium",
         "trans": [
-            "水族馆"
+            "bể cá"
         ],
         "ukphone": "əˈkweəriəm",
         "usphone": "əˈkwɛriəm"
@@ -1410,7 +1410,7 @@
     {
         "name": "valley",
         "trans": [
-            "峡谷"
+            "hẻm núi, thung lũng hẹp"
         ],
         "ukphone": "ˈvæli",
         "usphone": "ˈvæli"
@@ -1418,7 +1418,7 @@
     {
         "name": "waterfall",
         "trans": [
-            "瀑布"
+            "thác nước"
         ],
         "ukphone": "ˈwɔːtəfɔːl",
         "usphone": "ˈwɔtərˌfɔl"
@@ -1450,7 +1450,7 @@
     {
         "name": "voyage",
         "trans": [
-            "航行"
+            "hành trình; bay"
         ],
         "ukphone": "ˈvɔɪɪʤ",
         "usphone": "ˈvɔɪəʤ"
@@ -1538,7 +1538,7 @@
     {
         "name": "cabin",
         "trans": [
-            "小木屋"
+            "túp lều"
         ],
         "ukphone": "ˈkæbɪn",
         "usphone": "ˈkæbən"
@@ -1594,7 +1594,7 @@
     {
         "name": "beach",
         "trans": [
-            "海滩"
+            "bãi biển"
         ],
         "ukphone": "biːʧ",
         "usphone": "biʧ"
@@ -1602,7 +1602,7 @@
     {
         "name": "coast",
         "trans": [
-            "海岸"
+            "bờ biển"
         ],
         "ukphone": "kəʊst",
         "usphone": "koʊst"
@@ -1610,7 +1610,7 @@
     {
         "name": "national park",
         "trans": [
-            "国家公园"
+            "công viên quốc gia"
         ],
         "ukphone": "ˈnæʃᵊnᵊl pɑːk",
         "usphone": "ˈnæʃənəl pɑrk"
@@ -1634,7 +1634,7 @@
     {
         "name": "sleeping bag",
         "trans": [
-            "睡袋"
+            "túi ngủ"
         ],
         "ukphone": "ˈsliːpɪŋ bæɡ",
         "usphone": "ˈslipɪŋ bæɡ"
@@ -1682,7 +1682,7 @@
     {
         "name": "directory",
         "trans": [
-            "目录"
+            "mục lục, danh mục"
         ],
         "ukphone": "daɪˈrɛktᵊri",
         "usphone": "dəˈrɛktəri"
@@ -1698,7 +1698,7 @@
     {
         "name": "reservation",
         "trans": [
-            "预约"
+            "Đặt trước"
         ],
         "ukphone": "ˌrɛzəˈveɪʃᵊn",
         "usphone": "ˌrɛzərˈveɪʃən"
@@ -1706,7 +1706,7 @@
     {
         "name": "schedule",
         "trans": [
-            "时间表"
+            "n. lịch trình, thời biểu"
         ],
         "ukphone": "ˈʃɛdjuːl",
         "usphone": "ˈskɛʤʊl"
@@ -1730,7 +1730,7 @@
     {
         "name": "extra charge",
         "trans": [
-            "额外收费"
+            "khoản phí phát sinh, phí thu thêm"
         ],
         "ukphone": "ˈɛkstrə ʧɑːʤ",
         "usphone": "ˈɛkstrə ʧɑrʤ"
@@ -1738,7 +1738,7 @@
     {
         "name": "heritage",
         "trans": [
-            "遗产"
+            "di sản"
         ],
         "ukphone": "ˈhɛrɪtɪʤ",
         "usphone": "ˈhɛrətəʤ"
@@ -1762,7 +1762,7 @@
     {
         "name": "wheel chair",
         "trans": [
-            "轮椅"
+            "xe lăn"
         ],
         "ukphone": "wiːl ʧeə",
         "usphone": "wil ʧɛr"
@@ -1770,7 +1770,7 @@
     {
         "name": "exhibition",
         "trans": [
-            "展览"
+            "n. triển lãm; trưng bày"
         ],
         "ukphone": "ˌɛksɪˈbɪʃᵊn",
         "usphone": "ˌɛksəˈbɪʃən"
@@ -1778,7 +1778,7 @@
     {
         "name": "reproduction",
         "trans": [
-            "复制品"
+            "bản sao"
         ],
         "ukphone": "ˌriːprəˈdʌkʃᵊn",
         "usphone": "ˌriprəˈdʌkʃən"
@@ -1786,7 +1786,7 @@
     {
         "name": "sculpture",
         "trans": [
-            "雕塑"
+            "n. tượng, tác phẩm điêu khắc"
         ],
         "ukphone": "ˈskʌlpʧə",
         "usphone": "ˈskʌlpʧər"
@@ -1818,7 +1818,7 @@
     {
         "name": "profile",
         "trans": [
-            "轮廓"
+            "đường viền; dáng"
         ],
         "ukphone": "ˈprəʊfaɪl",
         "usphone": "ˈproʊˌfaɪl"
@@ -1834,7 +1834,7 @@
     {
         "name": "lodge",
         "trans": [
-            "旅馆"
+            "khách sạn; nhà nghỉ"
         ],
         "ukphone": "lɒʤ",
         "usphone": "lɑʤ"
@@ -1882,7 +1882,7 @@
     {
         "name": "credit card",
         "trans": [
-            "信用卡"
+            "thẻ tín dụng"
         ],
         "ukphone": "ˈkrɛdɪt kɑːd",
         "usphone": "ˈkrɛdət kɑrd"
@@ -1890,7 +1890,7 @@
     {
         "name": "passport",
         "trans": [
-            "护照"
+            "ho chieu"
         ],
         "ukphone": "ˈpɑːspɔːt",
         "usphone": "ˈpæˌspɔrt"
@@ -1922,7 +1922,7 @@
     {
         "name": "take off",
         "trans": [
-            "起飞"
+            "cất cánh"
         ],
         "ukphone": "teɪk ɒf",
         "usphone": "teɪk ɔf"
@@ -1938,7 +1938,7 @@
     {
         "name": "motel",
         "trans": [
-            "汽车旅馆"
+            "khách sạn nhỏ cho lái xe ô tô"
         ],
         "ukphone": "məʊˈtɛl",
         "usphone": "moʊˈtɛl"
@@ -1954,7 +1954,7 @@
     {
         "name": "museum",
         "trans": [
-            "博物馆"
+            "bảo tàng"
         ],
         "ukphone": "mjuːˈziːəm",
         "usphone": "mjuˈziəm"
@@ -1962,7 +1962,7 @@
     {
         "name": "souvenir",
         "trans": [
-            "纪念品"
+            "n. kỷ niệm, quà lưu niệm"
         ],
         "ukphone": "ˈsuːvənɪə",
         "usphone": "ˌsuvəˈnɪr"
@@ -1970,7 +1970,7 @@
     {
         "name": "art gallery",
         "trans": [
-            "画廊"
+            "phòng tranh"
         ],
         "ukphone": "ɑːt ˈɡæləri",
         "usphone": "ɑrt ˈɡæləri"
@@ -1978,7 +1978,7 @@
     {
         "name": "hiking",
         "trans": [
-            "徒步旅行"
+            "đi bộ; trekking"
         ],
         "ukphone": "ˈhaɪkɪŋ",
         "usphone": "ˈhaɪkɪŋ"
@@ -1994,7 +1994,7 @@
     {
         "name": "surfing",
         "trans": [
-            "冲浪"
+            "luoi"
         ],
         "ukphone": "ˈsɜːfɪŋ",
         "usphone": "ˈsɜrfɪŋ"
@@ -2002,7 +2002,7 @@
     {
         "name": "skiing",
         "trans": [
-            "滑雪"
+            "v. trượt tuyết"
         ],
         "ukphone": "ˈskiːɪŋ",
         "usphone": "ˈskiɪŋ"
@@ -2026,7 +2026,7 @@
     {
         "name": "calories",
         "trans": [
-            "卡路里"
+            "calo"
         ],
         "ukphone": "ˈkæləriz",
         "usphone": "ˈkæləriz"
@@ -2034,7 +2034,7 @@
     {
         "name": "calcium",
         "trans": [
-            "钙"
+            "canxi"
         ],
         "ukphone": "ˈkælsiəm",
         "usphone": "ˈkælsiəm"
@@ -2058,7 +2058,7 @@
     {
         "name": "vitamin",
         "trans": [
-            "维生素"
+            "vitamin"
         ],
         "ukphone": "ˈvɪtəmɪn",
         "usphone": "ˈvaɪtəmən"
@@ -2066,7 +2066,7 @@
     {
         "name": "protein",
         "trans": [
-            "蛋白质"
+            "protein"
         ],
         "ukphone": "ˈprəʊtiːn",
         "usphone": "ˈproʊˌtin"
@@ -2090,7 +2090,7 @@
     {
         "name": "cereal",
         "trans": [
-            "谷物"
+            "ngũ cốc, hạt ngũ cốc"
         ],
         "ukphone": "ˈsɪəriəl",
         "usphone": "ˈsɪriəl"
@@ -2106,7 +2106,7 @@
     {
         "name": "metabolism",
         "trans": [
-            "新陈代谢"
+            "chuyển hoá"
         ],
         "ukphone": "məˈtæbᵊlɪzᵊm",
         "usphone": "məˈtæbəˌlɪzəm"
@@ -2122,7 +2122,7 @@
     {
         "name": "tissue",
         "trans": [
-            "组织"
+            "tổ chức"
         ],
         "ukphone": "ˈtɪʃuː",
         "usphone": "ˈtɪsˌju"
@@ -2138,7 +2138,7 @@
     {
         "name": "tennis",
         "trans": [
-            "网球"
+            "quyen vong"
         ],
         "ukphone": "ˈtɛnɪs",
         "usphone": "ˈtɛnəs"
@@ -2146,7 +2146,7 @@
     {
         "name": "table tennis",
         "trans": [
-            "乒乓球"
+            "bóng bàn"
         ],
         "ukphone": "ˈteɪbᵊl ˈtɛnɪs",
         "usphone": "ˈteɪbəl ˈtɛnəs"
@@ -2170,7 +2170,7 @@
     {
         "name": "skiing",
         "trans": [
-            "滑雪"
+            "v. trượt tuyết"
         ],
         "ukphone": "ˈskiːɪŋ",
         "usphone": "ˈskiɪŋ"
@@ -2194,7 +2194,7 @@
     {
         "name": "yoga",
         "trans": [
-            "瑜伽"
+            "yoga"
         ],
         "ukphone": "ˈjəʊɡə",
         "usphone": "ˈjoʊɡə"
@@ -2202,7 +2202,7 @@
     {
         "name": "cycling",
         "trans": [
-            "骑自行车"
+            "đạp xe đạp, đi xe đạp"
         ],
         "ukphone": "ˈsaɪklɪŋ",
         "usphone": "ˈsaɪkəlɪŋ"
@@ -2210,7 +2210,7 @@
     {
         "name": "jogging",
         "trans": [
-            "慢跑"
+            "chạy bộ"
         ],
         "ukphone": "ˈʤɒɡɪŋ",
         "usphone": "ˈʤɑɡɪŋ"
@@ -2234,7 +2234,7 @@
     {
         "name": "stadium",
         "trans": [
-            "体育场"
+            "san the thao"
         ],
         "ukphone": "ˈsteɪdiəm",
         "usphone": "ˈsteɪdiəm"
@@ -2250,7 +2250,7 @@
     {
         "name": "squash",
         "trans": [
-            "壁球"
+            "bóng chuyền tường (squash)"
         ],
         "ukphone": "skwɒʃ",
         "usphone": "skwɑʃ"
@@ -2266,7 +2266,7 @@
     {
         "name": "rugby",
         "trans": [
-            "橄榄球"
+            "bóng bầu dục"
         ],
         "ukphone": "ˈrʌɡbi",
         "usphone": "ˈrʌɡbi"
@@ -2274,7 +2274,7 @@
     {
         "name": "golf",
         "trans": [
-            "高尔夫球"
+            "golf; quả bóng golf"
         ],
         "ukphone": "ɡɒlf",
         "usphone": "ɡɑlf"
@@ -2314,7 +2314,7 @@
     {
         "name": "hockey",
         "trans": [
-            "曲棍球"
+            "khúc côn cầu; hockey"
         ],
         "ukphone": "ˈhɒki",
         "usphone": "ˈhɑki"
@@ -2322,7 +2322,7 @@
     {
         "name": "ice hockey",
         "trans": [
-            "冰球"
+            "khúc côn cầu trên băng"
         ],
         "ukphone": "aɪs ˈhɒki",
         "usphone": "aɪs ˈhɑki"
@@ -2330,7 +2330,7 @@
     {
         "name": "skating",
         "trans": [
-            "滑冰"
+            "v. trượt băng, trượt"
         ],
         "ukphone": "ˈskeɪtɪŋ",
         "usphone": "ˈskeɪtɪŋ"
@@ -2346,7 +2346,7 @@
     {
         "name": "badminton",
         "trans": [
-            "羽毛球"
+            "cầu lông"
         ],
         "ukphone": "ˈbædmɪntᵊn",
         "usphone": "ˈbædˌmɪntən"
@@ -2354,7 +2354,7 @@
     {
         "name": "baseball",
         "trans": [
-            "棒球"
+            "bóng chày"
         ],
         "ukphone": "ˈbeɪsbɔːl",
         "usphone": "ˈbeɪsˈbɔl"
@@ -2378,7 +2378,7 @@
     {
         "name": "football",
         "trans": [
-            "足球"
+            "bóng đá"
         ],
         "ukphone": "ˈfʊtbɔːl",
         "usphone": "ˈfʊtˌbɔl"
@@ -2410,7 +2410,7 @@
     {
         "name": "athlete",
         "trans": [
-            "运动员"
+            "vận động viên"
         ],
         "ukphone": "ˈæθliːt",
         "usphone": "ˈæˌθlit"
@@ -2426,7 +2426,7 @@
     {
         "name": "coach",
         "trans": [
-            "教练"
+            "huấn luyện viên"
         ],
         "ukphone": "kəʊʧ",
         "usphone": "koʊʧ"
@@ -2450,7 +2450,7 @@
     {
         "name": "wrestling",
         "trans": [
-            "摔跤"
+            "vật"
         ],
         "ukphone": "ˈrɛslɪŋ",
         "usphone": "ˈrɛslɪŋ"
@@ -2466,7 +2466,7 @@
     {
         "name": "karate",
         "trans": [
-            "空手道"
+            "võ karate"
         ],
         "ukphone": "kəˈrɑːti",
         "usphone": "kəˈrɑti"
@@ -2474,7 +2474,7 @@
     {
         "name": "box",
         "trans": [
-            "拳击"
+            "môn đấm boxing"
         ],
         "ukphone": "bɒks",
         "usphone": "bɑks"
@@ -2482,7 +2482,7 @@
     {
         "name": "canoeing",
         "trans": [
-            "独木舟"
+            "ca nô"
         ],
         "ukphone": "kəˈnuːɪŋ",
         "usphone": "kəˈnuɪŋ"
@@ -2490,7 +2490,7 @@
     {
         "name": "lung infection",
         "trans": [
-            "肺部感染"
+            "viêm phổi"
         ],
         "ukphone": "lʌŋ ɪnˈfɛkʃᵊn",
         "usphone": "lʌŋ ɪnˈfɛkʃən"
@@ -2506,7 +2506,7 @@
     {
         "name": "Yellow Fever",
         "trans": [
-            "黄热病"
+            "bệnh sốt vàng"
         ],
         "ukphone": "ˈjɛləʊ ˈfiːvə",
         "usphone": "ˈjɛloʊ ˈfivər"
@@ -2522,7 +2522,7 @@
     {
         "name": "chemist's",
         "trans": [
-            "药店"
+            "hiệu thuốc, nhà thuốc"
         ],
         "ukphone": "ˈkɛmɪsts",
         "usphone": "ˈkɛmɪsts"
@@ -2530,7 +2530,7 @@
     {
         "name": "pharmacy",
         "trans": [
-            "药店"
+            "hiệu thuốc, nhà thuốc"
         ],
         "ukphone": "ˈfɑːməsi",
         "usphone": "ˈfɑrməsi"
@@ -2538,7 +2538,7 @@
     {
         "name": "drug store",
         "trans": [
-            "药店"
+            "hiệu thuốc, nhà thuốc"
         ],
         "ukphone": "drʌɡ stɔː",
         "usphone": "drʌɡ stɔr"
@@ -2570,7 +2570,7 @@
     {
         "name": "epidemic",
         "trans": [
-            "流行病"
+            "dịch bệnh"
         ],
         "ukphone": "ˌɛpɪˈdɛmɪk",
         "usphone": "ˌɛpəˈdɛmɪk"
@@ -2586,7 +2586,7 @@
     {
         "name": "precaution",
         "trans": [
-            "预防"
+            "phòng ngừa; phòng tránh"
         ],
         "ukphone": "prɪˈkɔːʃᵊn",
         "usphone": "priˈkɔʃən"
@@ -2594,7 +2594,7 @@
     {
         "name": "flu",
         "trans": [
-            "流感"
+            "cúm"
         ],
         "ukphone": "fluː",
         "usphone": "flu"
@@ -2602,7 +2602,7 @@
     {
         "name": "influenza",
         "trans": [
-            "流感"
+            "cúm"
         ],
         "ukphone": "ˌɪnflʊˈɛnzə",
         "usphone": "ˌɪnfluˈɛnzə"
@@ -2618,7 +2618,7 @@
     {
         "name": "clinic",
         "trans": [
-            "诊所"
+            "phòng khám, phòng chẩn trị"
         ],
         "ukphone": "ˈklɪnɪk",
         "usphone": "ˈklɪnɪk"
@@ -2626,7 +2626,7 @@
     {
         "name": "hospital",
         "trans": [
-            "医院"
+            "bệnh viện; nhà thương"
         ],
         "ukphone": "ˈhɒspɪtᵊl",
         "usphone": "ˈhɑˌspɪtəl"
@@ -2650,7 +2650,7 @@
     {
         "name": "patient",
         "trans": [
-            "病人"
+            "bệnh nhân"
         ],
         "ukphone": "ˈpeɪʃᵊnt",
         "usphone": "ˈpeɪʃənt"
@@ -2658,7 +2658,7 @@
     {
         "name": "dentist",
         "trans": [
-            "牙医"
+            "nha sĩ"
         ],
         "ukphone": "ˈdɛntɪst",
         "usphone": "ˈdɛntəst"
@@ -2682,7 +2682,7 @@
     {
         "name": "cough",
         "trans": [
-            "咳嗽"
+            "ho, ho khan"
         ],
         "ukphone": "kɒf",
         "usphone": "kɑf"
@@ -2690,7 +2690,7 @@
     {
         "name": "pulse",
         "trans": [
-            "脉搏"
+            "mạch"
         ],
         "ukphone": "pʌls",
         "usphone": "pʌls"
@@ -2706,7 +2706,7 @@
     {
         "name": "symptom",
         "trans": [
-            "症状"
+            "trieu chung"
         ],
         "ukphone": "ˈsɪmptəm",
         "usphone": "ˈsɪmptəm"
@@ -2714,7 +2714,7 @@
     {
         "name": "sore throat",
         "trans": [
-            "嗓子疼"
+            "đau họng"
         ],
         "ukphone": "sɔː θrəʊt",
         "usphone": "sɔr θroʊt"
@@ -2730,7 +2730,7 @@
     {
         "name": "running nose",
         "trans": [
-            "流鼻涕"
+            "chảy nước mũi, sổ mũi"
         ],
         "ukphone": "ˈrʌnɪŋ nəʊz",
         "usphone": "ˈrʌnɪŋ noʊz"
@@ -2738,7 +2738,7 @@
     {
         "name": "surgeon",
         "trans": [
-            "外科医生"
+            "bác sĩ phẫu thuật"
         ],
         "ukphone": "ˈsɜːʤᵊn",
         "usphone": "ˈsɜrʤən"
@@ -2746,7 +2746,7 @@
     {
         "name": "prescription",
         "trans": [
-            "处方"
+            "đơn thuốc"
         ],
         "ukphone": "prɪsˈkrɪpʃᵊn",
         "usphone": "prəˈskrɪpʃən"
@@ -2754,7 +2754,7 @@
     {
         "name": "penicillin",
         "trans": [
-            "青霉素"
+            "penicilin"
         ],
         "ukphone": "ˌpɛnɪˈsɪlɪn",
         "usphone": "ˌpɛnəˈsɪlən"
@@ -2762,7 +2762,7 @@
     {
         "name": "aspirin",
         "trans": [
-            "阿司匹林"
+            "aspirin"
         ],
         "ukphone": "ˈæspərɪn",
         "usphone": "ˈæsprɪn"
@@ -2770,7 +2770,7 @@
     {
         "name": "antibiotics",
         "trans": [
-            "抗生素"
+            "kháng sinh"
         ],
         "ukphone": "ˌæntibaɪˈɒtɪks",
         "usphone": "ˌæntibiˈɑtɪks"
@@ -2778,7 +2778,7 @@
     {
         "name": "ward",
         "trans": [
-            "病房"
+            "phòng bệnh"
         ],
         "ukphone": "wɔːd",
         "usphone": "wɔrd"
@@ -2802,7 +2802,7 @@
     {
         "name": "pill",
         "trans": [
-            "药丸"
+            "viên thuốc"
         ],
         "ukphone": "pɪl",
         "usphone": "pɪl"
@@ -2810,7 +2810,7 @@
     {
         "name": "tablet",
         "trans": [
-            "药片"
+            "vien thuoc"
         ],
         "ukphone": "ˈtæblɪt",
         "usphone": "ˈtæblət"
@@ -2818,7 +2818,7 @@
     {
         "name": "herb",
         "trans": [
-            "草药"
+            "thuốc thảo; thảo dược"
         ],
         "ukphone": "hɜːb",
         "usphone": "ɜrb"
@@ -2826,7 +2826,7 @@
     {
         "name": "capsule",
         "trans": [
-            "胶囊"
+            "viên nang, con nhộng"
         ],
         "ukphone": "ˈkæpsjuːl",
         "usphone": "ˈkæpsəl"
@@ -2834,7 +2834,7 @@
     {
         "name": "ointment",
         "trans": [
-            "药膏"
+            "cao thuốc"
         ],
         "ukphone": "ˈɔɪntmənt",
         "usphone": "ˈɔɪntmənt"
@@ -2850,7 +2850,7 @@
     {
         "name": "syrup",
         "trans": [
-            "糖浆"
+            "siro"
         ],
         "ukphone": "ˈsɪrəp",
         "usphone": "ˈsɪrəp"
@@ -2882,7 +2882,7 @@
     {
         "name": "check up",
         "trans": [
-            "体检"
+            "khám sức khỏe tổng quát"
         ],
         "ukphone": "ʧɛk ʌp",
         "usphone": "ʧɛk ʌp"
@@ -2890,7 +2890,7 @@
     {
         "name": "insomnia",
         "trans": [
-            "失眠"
+            "mất ngủ"
         ],
         "ukphone": "ɪnˈsɒmnɪə",
         "usphone": "ɪnˈsɑmniə"
@@ -2898,7 +2898,7 @@
     {
         "name": "arthritis",
         "trans": [
-            "关节炎"
+            "viêm khớp"
         ],
         "ukphone": "ɑːˈθraɪtɪs",
         "usphone": "ɑrˈθraɪtəs"
@@ -2906,7 +2906,7 @@
     {
         "name": "fatigue",
         "trans": [
-            "疲劳"
+            "mệt mỏi, kiệt sức"
         ],
         "ukphone": "fəˈtiːɡ",
         "usphone": "fəˈtiɡ"
@@ -2914,7 +2914,7 @@
     {
         "name": "twist",
         "trans": [
-            "扭伤"
+            "bong gân; trẹo"
         ],
         "ukphone": "twɪst",
         "usphone": "twɪst"
@@ -2922,7 +2922,7 @@
     {
         "name": "sprain",
         "trans": [
-            "扭伤"
+            "bong gân; trẹo"
         ],
         "ukphone": "spreɪn",
         "usphone": "spreɪn"
@@ -2946,7 +2946,7 @@
     {
         "name": "sneeze",
         "trans": [
-            "打喷嚏"
+            "v. hắt hơi"
         ],
         "ukphone": "sniːz",
         "usphone": "sniz"
@@ -2970,7 +2970,7 @@
     {
         "name": "therapy",
         "trans": [
-            "治疗"
+            "chữa bệnh, điều trị"
         ],
         "ukphone": "ˈθɛrəpi",
         "usphone": "ˈθɛrəpi"
@@ -2978,7 +2978,7 @@
     {
         "name": "diagnosis",
         "trans": [
-            "诊断"
+            "chẩn đoán"
         ],
         "ukphone": "ˌdaɪəɡˈnəʊsɪs",
         "usphone": "ˌdaɪəɡˈnoʊsəs"
@@ -2994,7 +2994,7 @@
     {
         "name": "cash",
         "trans": [
-            "现金"
+            "tiền mặt"
         ],
         "ukphone": "kæʃ",
         "usphone": "kæʃ"
@@ -3010,7 +3010,7 @@
     {
         "name": "bill",
         "trans": [
-            "纸币"
+            "tiền giấy"
         ],
         "ukphone": "bɪl",
         "usphone": "bɪl"
@@ -3018,7 +3018,7 @@
     {
         "name": "note",
         "trans": [
-            "纸币"
+            "tiền giấy"
         ],
         "ukphone": "nəʊt",
         "usphone": "noʊt"
@@ -3026,7 +3026,7 @@
     {
         "name": "coin",
         "trans": [
-            "硬币"
+            "đồng tiền, tiền xu"
         ],
         "ukphone": "kɔɪn",
         "usphone": "kɔɪn"
@@ -3034,7 +3034,7 @@
     {
         "name": "cheque",
         "trans": [
-            "支票"
+            "sec, hóa đơn"
         ],
         "ukphone": "ʧɛk",
         "usphone": "cheque"
@@ -3042,7 +3042,7 @@
     {
         "name": "chequebook",
         "trans": [
-            "支票本"
+            "sổ séc"
         ],
         "ukphone": "ˈʧɛkbʊk",
         "usphone": "chequebook"
@@ -3050,7 +3050,7 @@
     {
         "name": "traveler's cheque",
         "trans": [
-            "旅行支票"
+            "séc du lịch"
         ],
         "ukphone": "ˈtrævᵊləz ʧɛk",
         "usphone": "ˈtrævələrz cheque"
@@ -3058,7 +3058,7 @@
     {
         "name": "credit card",
         "trans": [
-            "信用卡"
+            "thẻ tín dụng"
         ],
         "ukphone": "ˈkrɛdɪt kɑːd",
         "usphone": "ˈkrɛdət kɑrd"
@@ -3090,7 +3090,7 @@
     {
         "name": "account",
         "trans": [
-            "账户"
+            "tài khoản"
         ],
         "ukphone": "əˈkaʊnt",
         "usphone": "əˈkaʊnt"
@@ -3098,7 +3098,7 @@
     {
         "name": "pin number",
         "trans": [
-            "密码"
+            "mật khẩu"
         ],
         "ukphone": "pɪn ˈnʌmbə",
         "usphone": "pɪn ˈnʌmbər"
@@ -3138,7 +3138,7 @@
     {
         "name": "interest rate",
         "trans": [
-            "利率"
+            "lãi suất"
         ],
         "ukphone": "ˈɪntrɛst reɪt",
         "usphone": "ˈɪntrəst reɪt"
@@ -3146,7 +3146,7 @@
     {
         "name": "ATM",
         "trans": [
-            "自动取款机"
+            "máy rút tiền tự động (ATM)"
         ],
         "ukphone": "eɪ-tiː-ɛm",
         "usphone": "eɪ-ti-ɛm"
@@ -3154,7 +3154,7 @@
     {
         "name": "overdraft",
         "trans": [
-            "透支"
+            "thuyếp chi"
         ],
         "ukphone": "ˈəʊvədrɑːft",
         "usphone": "ˈoʊvərˌdræft"
@@ -3178,7 +3178,7 @@
     {
         "name": "gross",
         "trans": [
-            "总额"
+            "tổng cộng"
         ],
         "ukphone": "ɡrəʊs",
         "usphone": "ɡroʊs"
@@ -3186,7 +3186,7 @@
     {
         "name": "bonus",
         "trans": [
-            "奖金"
+            "tiền thưởng"
         ],
         "ukphone": "ˈbəʊnəs",
         "usphone": "ˈboʊnəs"
@@ -3194,7 +3194,7 @@
     {
         "name": "interest",
         "trans": [
-            "利息"
+            "Lãi suất"
         ],
         "ukphone": "ˈɪntrɛst",
         "usphone": "ˈɪntrəst"
@@ -3202,7 +3202,7 @@
     {
         "name": "branch",
         "trans": [
-            "分支"
+            "nhánh"
         ],
         "ukphone": "brɑːnʧ",
         "usphone": "brænʧ"
@@ -3226,7 +3226,7 @@
     {
         "name": "documentation",
         "trans": [
-            "文件"
+            "tài liệu, văn bản"
         ],
         "ukphone": "ˌdɒkjəmɛnˈteɪʃᵊn",
         "usphone": "ˌdɑkjəmɛnˈteɪʃən"
@@ -3250,7 +3250,7 @@
     {
         "name": "loan",
         "trans": [
-            "贷款"
+            "khoản vay"
         ],
         "ukphone": "ləʊn",
         "usphone": "loʊn"
@@ -3282,7 +3282,7 @@
     {
         "name": "dining hall",
         "trans": [
-            "餐厅"
+            "nhà hàng"
         ],
         "ukphone": "ˈdaɪnɪŋ hɔːl",
         "usphone": "ˈdaɪnɪŋ hɔl"
@@ -3298,7 +3298,7 @@
     {
         "name": "buffet",
         "trans": [
-            "自助餐"
+            "đồ ăn tự phục vụ, buffet"
         ],
         "ukphone": "ˈbʌfɪt",
         "usphone": "ˈbʌfət"
@@ -3306,7 +3306,7 @@
     {
         "name": "barbecue",
         "trans": [
-            "烧烤"
+            "nướng; đồ nướng"
         ],
         "ukphone": "ˈbɑːbɪkjuː",
         "usphone": "ˈbɑrbɪˌkju"
@@ -3354,7 +3354,7 @@
     {
         "name": "chilli",
         "trans": [
-            "辣椒"
+            "ớt"
         ],
         "ukphone": "ˈʧɪli",
         "usphone": "chilli"
@@ -3370,7 +3370,7 @@
     {
         "name": "sour",
         "trans": [
-            "酸"
+            "axit; vị chua, sự chua"
         ],
         "ukphone": "ˈsaʊə",
         "usphone": "ˈsaʊər"
@@ -3434,7 +3434,7 @@
     {
         "name": "pork",
         "trans": [
-            "猪肉"
+            "thịt lợn"
         ],
         "ukphone": "pɔːk",
         "usphone": "pɔrk"
@@ -3442,7 +3442,7 @@
     {
         "name": "steak",
         "trans": [
-            "牛排"
+            "bitchap"
         ],
         "ukphone": "steɪk",
         "usphone": "steɪk"
@@ -3450,7 +3450,7 @@
     {
         "name": "sandwich",
         "trans": [
-            "三明治"
+            "bánh mì kẹp"
         ],
         "ukphone": "ˈsænwɪʤ",
         "usphone": "ˈsændwɪʧ"
@@ -3474,7 +3474,7 @@
     {
         "name": "dessert",
         "trans": [
-            "甜点"
+            "món tráng miệng"
         ],
         "ukphone": "dɪˈzɜːt",
         "usphone": "dɪˈzɜrt"
@@ -3482,7 +3482,7 @@
     {
         "name": "beverage",
         "trans": [
-            "饮料"
+            "thức uống"
         ],
         "ukphone": "ˈbɛvərɪʤ",
         "usphone": "ˈbɛvərɪʤ"
@@ -3490,7 +3490,7 @@
     {
         "name": "vegetarian",
         "trans": [
-            "素食的"
+            "ăn chay, ăn rau"
         ],
         "ukphone": "ˌvɛʤɪˈteəriən",
         "usphone": "ˌvɛʤəˈtɛriən"
@@ -3562,7 +3562,7 @@
     {
         "name": "mineral water",
         "trans": [
-            "矿泉水"
+            "nước khoáng"
         ],
         "ukphone": "ˈmɪnᵊrᵊl ˈwɔːtə",
         "usphone": "ˈmɪnərəl ˈwɔtər"
@@ -3594,7 +3594,7 @@
     {
         "name": "yogurt",
         "trans": [
-            "酸奶"
+            "sữa chua"
         ],
         "ukphone": "ˈjɒɡət",
         "usphone": "ˈjoʊɡərt"
@@ -3610,7 +3610,7 @@
     {
         "name": "ginger",
         "trans": [
-            "姜"
+            "gừng"
         ],
         "ukphone": "ˈʤɪnʤə",
         "usphone": "ˈʤɪnʤər"
@@ -3618,7 +3618,7 @@
     {
         "name": "vinegar",
         "trans": [
-            "醋"
+            "giấm"
         ],
         "ukphone": "ˈvɪnɪɡə",
         "usphone": "ˈvɪnəɡər"
@@ -3634,7 +3634,7 @@
     {
         "name": "soup",
         "trans": [
-            "汤"
+            "n. món súp, canh"
         ],
         "ukphone": "suːp",
         "usphone": "sup"
@@ -3642,7 +3642,7 @@
     {
         "name": "dough",
         "trans": [
-            "生面团"
+            "bột nhào, bột chưa nướng"
         ],
         "ukphone": "dəʊ",
         "usphone": "doʊ"
@@ -3650,7 +3650,7 @@
     {
         "name": "aubergine",
         "trans": [
-            "茄子"
+            "cà tím"
         ],
         "ukphone": "ˈəʊbəʤiːn",
         "usphone": "aubergine"
@@ -3658,7 +3658,7 @@
     {
         "name": "egg plant",
         "trans": [
-            "茄子"
+            "cà tím"
         ],
         "ukphone": "ɛɡ plɑːnt",
         "usphone": "ɛɡ plænt"
@@ -3682,7 +3682,7 @@
     {
         "name": "celery",
         "trans": [
-            "芹菜"
+            "cần tây"
         ],
         "ukphone": "ˈsɛləri",
         "usphone": "ˈsɛləri"
@@ -3698,7 +3698,7 @@
     {
         "name": "spinach",
         "trans": [
-            "菠菜"
+            "rau chân vịt"
         ],
         "ukphone": "ˈspɪnɪʤ",
         "usphone": "ˈspɪnəʧ"
@@ -3706,7 +3706,7 @@
     {
         "name": "cucumber",
         "trans": [
-            "黄瓜"
+            "dưa chuột"
         ],
         "ukphone": "ˈkjuːkʌmbə",
         "usphone": "ˈkjukəmbər"
@@ -3714,7 +3714,7 @@
     {
         "name": "mushroom",
         "trans": [
-            "蘑菇"
+            "nấm"
         ],
         "ukphone": "ˈmʌʃrʊm",
         "usphone": "ˈmʌʃrum"
@@ -3722,7 +3722,7 @@
     {
         "name": "pumpkin",
         "trans": [
-            "南瓜"
+            "bí đỏ; quả bí"
         ],
         "ukphone": "ˈpʌmpkɪn",
         "usphone": "ˈpʌmpkɪn"
@@ -3730,7 +3730,7 @@
     {
         "name": "lettuce",
         "trans": [
-            "生菜"
+            "rau diếp"
         ],
         "ukphone": "ˈlɛtɪs",
         "usphone": "ˈlɛtəs"
@@ -3738,7 +3738,7 @@
     {
         "name": "asparagus",
         "trans": [
-            "芦笋"
+            "măng tây"
         ],
         "ukphone": "əsˈpærəɡəs",
         "usphone": "əˈspɛrəɡəs"
@@ -3746,7 +3746,7 @@
     {
         "name": "lentil",
         "trans": [
-            "扁豆"
+            "đậu lăng"
         ],
         "ukphone": "ˈlɛntɪl",
         "usphone": "ˈlɛntəl"
@@ -3754,7 +3754,7 @@
     {
         "name": "pea",
         "trans": [
-            "豌豆"
+            "đậu"
         ],
         "ukphone": "piː",
         "usphone": "pi"
@@ -3786,7 +3786,7 @@
     {
         "name": "report",
         "trans": [
-            "报告"
+            "báo cáo"
         ],
         "ukphone": "rɪˈpɔːt",
         "usphone": "rɪˈpɔrt"
@@ -3802,7 +3802,7 @@
     {
         "name": "reference",
         "trans": [
-            "参考书目"
+            "thư mục"
         ],
         "ukphone": "ˈrɛfᵊrᵊns",
         "usphone": "ˈrɛfərəns"
@@ -3810,7 +3810,7 @@
     {
         "name": "bibliography",
         "trans": [
-            "参考书目"
+            "thư mục"
         ],
         "ukphone": "ˌbɪbliˈɒɡrəfi",
         "usphone": "ˌbɪbliˈɑɡrəfi"
@@ -3858,7 +3858,7 @@
     {
         "name": "fail",
         "trans": [
-            "不及格"
+            "trượt; không đạt"
         ],
         "ukphone": "feɪl",
         "usphone": "feɪl"
@@ -3954,7 +3954,7 @@
     {
         "name": "tertiary education",
         "trans": [
-            "高等教育"
+            "giáo dục đại học"
         ],
         "ukphone": "ˈtɜːʃəri ˌɛʤʊˈkeɪʃᵊn",
         "usphone": "ˈtɜrʃəri ˌɛʤəˈkeɪʃən"
@@ -3978,7 +3978,7 @@
     {
         "name": "curriculum",
         "trans": [
-            "课程"
+            "khóa học, môn học"
         ],
         "ukphone": "kəˈrɪkjələm",
         "usphone": "kəˈrɪkjələm"
@@ -3986,7 +3986,7 @@
     {
         "name": "draft",
         "trans": [
-            "草稿"
+            "n. bản nháp"
         ],
         "ukphone": "drɑːft",
         "usphone": "dræft"
@@ -3994,7 +3994,7 @@
     {
         "name": "enrollment",
         "trans": [
-            "注册"
+            "đăng ký"
         ],
         "ukphone": "ɪnˈrəʊlmənt",
         "usphone": "ɛnˈroʊlmənt"
@@ -4034,7 +4034,7 @@
     {
         "name": "application form",
         "trans": [
-            "申请表"
+            "đơn xin, đơn đăng ký"
         ],
         "ukphone": "ˌæplɪˈkeɪʃᵊn fɔːm",
         "usphone": "ˌæpləˈkeɪʃən fɔrm"
@@ -4042,7 +4042,7 @@
     {
         "name": "letter of recommendation",
         "trans": [
-            "推荐信"
+            "thư giới thiệu"
         ],
         "ukphone": "ˈlɛtər ɒv ˌrɛkəmɛnˈdeɪʃᵊn",
         "usphone": "ˈlɛtər ʌv ˌrɛkəmənˈdeɪʃən"
@@ -4114,7 +4114,7 @@
     {
         "name": "assignment",
         "trans": [
-            "作业"
+            "bài tập; việc nhà; công việc"
         ],
         "ukphone": "əˈsaɪnmənt",
         "usphone": "əˈsaɪnmənt"
@@ -4178,7 +4178,7 @@
     {
         "name": "extension",
         "trans": [
-            "延期"
+            "hoãn lại; kéo dài thời gian"
         ],
         "ukphone": "ɪksˈtɛnʃᵊn",
         "usphone": "ɪkˈstɛnʃən"
@@ -4226,7 +4226,7 @@
     {
         "name": "higher education",
         "trans": [
-            "高等教育"
+            "giáo dục đại học"
         ],
         "ukphone": "ˈhaɪər ˌɛʤʊˈkeɪʃᵊn",
         "usphone": "ˈhaɪər ˌɛʤəˈkeɪʃən"
@@ -4250,7 +4250,7 @@
     {
         "name": "kindergarten",
         "trans": [
-            "幼儿园"
+            "trường mẫu giáo"
         ],
         "ukphone": "ˈkɪndəˌɡɑːtᵊn",
         "usphone": "ˈkɪndərˌɡɑrtən"
@@ -4258,7 +4258,7 @@
     {
         "name": "day-care center",
         "trans": [
-            "幼儿园"
+            "trường mẫu giáo"
         ],
         "ukphone": "deɪ-keə ˈsɛntə",
         "usphone": "deɪ-kɛr ˈsɛntər"
@@ -4266,7 +4266,7 @@
     {
         "name": "nursery school",
         "trans": [
-            "托儿所"
+            "nhà trẻ"
         ],
         "ukphone": "ˈnɜːsəri skuːl",
         "usphone": "ˈnɜrsəri skul"
@@ -4274,7 +4274,7 @@
     {
         "name": "primary",
         "trans": [
-            "小学"
+            "tiểu học"
         ],
         "ukphone": "ˈpraɪməri",
         "usphone": "ˈpraɪˌmɛri"
@@ -4282,7 +4282,7 @@
     {
         "name": "elementary school",
         "trans": [
-            "小学"
+            "tiểu học"
         ],
         "ukphone": "ˌɛlɪˈmɛntəri skuːl",
         "usphone": "ˌɛləˈmɛntri skul"
@@ -4434,7 +4434,7 @@
     {
         "name": "postgraduate",
         "trans": [
-            "研究生"
+            "sinh viên sau đại học"
         ],
         "ukphone": "ˌpəʊstˈɡræʤuət",
         "usphone": "postgraduate"
@@ -4450,7 +4450,7 @@
     {
         "name": "Master",
         "trans": [
-            "硕士"
+            "thạc sĩ"
         ],
         "ukphone": "ˈmɑːstə",
         "usphone": "ˈmæstər"
@@ -4546,7 +4546,7 @@
     {
         "name": "certificate",
         "trans": [
-            "证书"
+            "giấy chứng nhận"
         ],
         "ukphone": "səˈtɪfɪkɪt",
         "usphone": "sərˈtɪfɪkət"
@@ -4554,7 +4554,7 @@
     {
         "name": "qualification",
         "trans": [
-            "资格"
+            "tiêu chuẩn"
         ],
         "ukphone": "ˌkwɒlɪfɪˈkeɪʃᵊn",
         "usphone": "ˌkwɑləfəˈkeɪʃən"
@@ -4562,7 +4562,7 @@
     {
         "name": "expert",
         "trans": [
-            "专家"
+            "chuyên gia, nhà chuyên môn"
         ],
         "ukphone": "ˈɛkspɜːt",
         "usphone": "ˈɛkspərt"
@@ -4570,7 +4570,7 @@
     {
         "name": "consultant",
         "trans": [
-            "顾问"
+            "cố vấn"
         ],
         "ukphone": "kənˈsʌltᵊnt",
         "usphone": "kənˈsʌltənt"
@@ -4586,7 +4586,7 @@
     {
         "name": "teaching assistant",
         "trans": [
-            "助教"
+            "trợ giảng"
         ],
         "ukphone": "ˈtiːʧɪŋ əˈsɪstᵊnt",
         "usphone": "ˈtiʧɪŋ əˈsɪstənt"
@@ -4602,7 +4602,7 @@
     {
         "name": "principal",
         "trans": [
-            "校长"
+            "hiệu trưởng"
         ],
         "ukphone": "ˈprɪnsəpᵊl",
         "usphone": "ˈprɪnsəpəl"
@@ -4610,7 +4610,7 @@
     {
         "name": "president",
         "trans": [
-            "校长"
+            "hiệu trưởng"
         ],
         "ukphone": "ˈprɛzɪdᵊnt",
         "usphone": "ˈprɛzəˌdɛnt"
@@ -4626,7 +4626,7 @@
     {
         "name": "lecturer",
         "trans": [
-            "讲师"
+            "giảng viên"
         ],
         "ukphone": "ˈlɛkʧərə",
         "usphone": "ˈlɛkʧərər"
@@ -4650,7 +4650,7 @@
     {
         "name": "professor",
         "trans": [
-            "教授"
+            "giáo sư; giảng viên; dạy"
         ],
         "ukphone": "prəˈfɛsə",
         "usphone": "prəˈfɛsər"
@@ -4698,7 +4698,7 @@
     {
         "name": "report",
         "trans": [
-            "报告"
+            "báo cáo"
         ],
         "ukphone": "rɪˈpɔːt",
         "usphone": "rɪˈpɔrt"
@@ -4706,7 +4706,7 @@
     {
         "name": "adviser",
         "trans": [
-            "导师"
+            "người hướng dẫn; thầy giáo; cố vấn"
         ],
         "ukphone": "ədˈvaɪzə",
         "usphone": "ædˈvaɪzər"
@@ -4714,7 +4714,7 @@
     {
         "name": "mentor",
         "trans": [
-            "导师"
+            "người hướng dẫn; thầy giáo; cố vấn"
         ],
         "ukphone": "ˈmɛntɔː",
         "usphone": "ˈmɛnˌtɔr"
@@ -4746,7 +4746,7 @@
     {
         "name": "term",
         "trans": [
-            "学期"
+            "học kỳ"
         ],
         "ukphone": "tɜːm",
         "usphone": "tɜrm"
@@ -4754,7 +4754,7 @@
     {
         "name": "semester",
         "trans": [
-            "学期"
+            "học kỳ"
         ],
         "ukphone": "sɪˈmɛstə",
         "usphone": "səˈmɛstər"
@@ -4786,7 +4786,7 @@
     {
         "name": "quiz",
         "trans": [
-            "小测验"
+            "bài kiểm tra nhỏ, bài khái thi"
         ],
         "ukphone": "kwɪz",
         "usphone": "kwɪz"
@@ -4794,7 +4794,7 @@
     {
         "name": "oral test",
         "trans": [
-            "口试"
+            "thi cử miệng, phỏng vấn"
         ],
         "ukphone": "ˈɔːrəl tɛst",
         "usphone": "ˈɔrəl tɛst"
@@ -4842,7 +4842,7 @@
     {
         "name": "sponsor",
         "trans": [
-            "赞助人"
+            "nhà tài trợ"
         ],
         "ukphone": "ˈspɒnsə",
         "usphone": "ˈspɑnsər"
@@ -4890,7 +4890,7 @@
     {
         "name": "debate",
         "trans": [
-            "辩论"
+            "tranh luận, tranh cãi"
         ],
         "ukphone": "dɪˈbeɪt",
         "usphone": "dəˈbeɪt"
@@ -4898,7 +4898,7 @@
     {
         "name": "seminar",
         "trans": [
-            "研讨会"
+            "hội thảo"
         ],
         "ukphone": "ˈsɛmɪnɑː",
         "usphone": "ˈsɛməˌnɑr"
@@ -4906,7 +4906,7 @@
     {
         "name": "lecture",
         "trans": [
-            "讲座"
+            "bài giảng, buổi nói chuyện"
         ],
         "ukphone": "ˈlɛkʧə",
         "usphone": "ˈlɛkʧər"
@@ -4922,7 +4922,7 @@
     {
         "name": "venue",
         "trans": [
-            "场地"
+            "sân, địa điểm"
         ],
         "ukphone": "ˈvɛnjuː",
         "usphone": "ˈvɛnju"
@@ -4938,7 +4938,7 @@
     {
         "name": "loan",
         "trans": [
-            "贷款"
+            "khoản vay"
         ],
         "ukphone": "ləʊn",
         "usphone": "loʊn"
@@ -4954,7 +4954,7 @@
     {
         "name": "tuition",
         "trans": [
-            "学费"
+            "học phí"
         ],
         "ukphone": "tjuˈɪʃᵊn",
         "usphone": "tjuˈɪʃən"
@@ -4986,7 +4986,7 @@
     {
         "name": "schedule",
         "trans": [
-            "课程表"
+            "thời khóa biểu"
         ],
         "ukphone": "ˈʃɛdjuːl",
         "usphone": "ˈskɛʤʊl"
@@ -4994,7 +4994,7 @@
     {
         "name": "school timetable",
         "trans": [
-            "课程表"
+            "thời khóa biểu"
         ],
         "ukphone": "skuːl ˈtaɪmˌteɪbᵊl",
         "usphone": "skul ˈtaɪmˌteɪbəl"
@@ -5018,7 +5018,7 @@
     {
         "name": "syllabus",
         "trans": [
-            "教学大纲"
+            "chương trình giảng dạy"
         ],
         "ukphone": "ˈsɪləbəs",
         "usphone": "ˈsɪləbəs"
@@ -5114,7 +5114,7 @@
     {
         "name": "optional course",
         "trans": [
-            "选修课"
+            "môn học tự chọn"
         ],
         "ukphone": "ˈɒpʃᵊnᵊl kɔːs",
         "usphone": "ˈɑpʃənəl kɔrs"
@@ -5122,7 +5122,7 @@
     {
         "name": "elective course",
         "trans": [
-            "选修课"
+            "môn học tự chọn"
         ],
         "ukphone": "ɪˈlɛktɪv kɔːs",
         "usphone": "ɪˈlɛktɪv kɔrs"
@@ -5146,7 +5146,7 @@
     {
         "name": "major",
         "trans": [
-            "主修"
+            "v. học chuyên ngành; n. môn chuyên ngành"
         ],
         "ukphone": "ˈmeɪʤə",
         "usphone": "ˈmeɪʤər"
@@ -5162,7 +5162,7 @@
     {
         "name": "Archaeology",
         "trans": [
-            "考古学"
+            "Khảo cổ học"
         ],
         "ukphone": "ˌɑːkɪˈɒləʤi",
         "usphone": "ˌɑrkiˈɑləʤi"
@@ -5178,7 +5178,7 @@
     {
         "name": "Astronomy",
         "trans": [
-            "天文学"
+            "thiên văn học"
         ],
         "ukphone": "əsˈtrɒnəmi",
         "usphone": "əˈstrɑnəmi"
@@ -5186,7 +5186,7 @@
     {
         "name": "Agriculture",
         "trans": [
-            "农业"
+            "nông nghiệp"
         ],
         "ukphone": "ˈæɡrɪkʌlʧə",
         "usphone": "ˈæɡrɪˌkʌlʧər"
@@ -5194,7 +5194,7 @@
     {
         "name": "Geography",
         "trans": [
-            "地理"
+            "địa lý"
         ],
         "ukphone": "ʤiˈɒɡrəfi",
         "usphone": "ʤiˈɑɡrəfi"
@@ -5210,7 +5210,7 @@
     {
         "name": "Chemistry",
         "trans": [
-            "化学"
+            "hóa học"
         ],
         "ukphone": "ˈkɛmɪstri",
         "usphone": "ˈkɛməstri"
@@ -5218,7 +5218,7 @@
     {
         "name": "Micro-biology",
         "trans": [
-            "微生物学"
+            "vi sinh vật học"
         ],
         "ukphone": "ˈmaɪkrəʊ-baɪˈɒləʤi",
         "usphone": "ˈmaɪˌkroʊ-baɪˈɑləʤi"
@@ -5250,7 +5250,7 @@
     {
         "name": "Botany",
         "trans": [
-            "植物学"
+            "thực vật học"
         ],
         "ukphone": "ˈbɒtəni",
         "usphone": "ˈbɑtəni"
@@ -5258,7 +5258,7 @@
     {
         "name": "Zoology",
         "trans": [
-            "动物学"
+            "động vật học"
         ],
         "ukphone": "zəʊˈɒləʤi",
         "usphone": "zoʊˈɑləʤi"
@@ -5266,7 +5266,7 @@
     {
         "name": "Ecology",
         "trans": [
-            "生态学"
+            "n. sinh thái học"
         ],
         "ukphone": "ɪˈkɒləʤi",
         "usphone": "ɪˈkɑləʤi"
@@ -5282,7 +5282,7 @@
     {
         "name": "Mathematics",
         "trans": [
-            "数学"
+            "toán học"
         ],
         "ukphone": "ˌmæθəˈmætɪks",
         "usphone": "ˌmæθəˈmætɪks"
@@ -5290,7 +5290,7 @@
     {
         "name": "Maths",
         "trans": [
-            "数学"
+            "toán học"
         ],
         "ukphone": "mæθs",
         "usphone": "mæθs"
@@ -5298,7 +5298,7 @@
     {
         "name": "Statistics",
         "trans": [
-            "统计学"
+            "thống kê học"
         ],
         "ukphone": "stəˈtɪstɪks",
         "usphone": "stəˈtɪstɪks"
@@ -5322,7 +5322,7 @@
     {
         "name": "Literature",
         "trans": [
-            "文学"
+            "văn học; văn chương"
         ],
         "ukphone": "ˈlɪtərɪʧə",
         "usphone": "ˈlɪtərəʧər"
@@ -5330,7 +5330,7 @@
     {
         "name": "Philosophy",
         "trans": [
-            "哲学"
+            "triết học"
         ],
         "ukphone": "fɪˈlɒsəfi",
         "usphone": "fəˈlɑsəfi"
@@ -5338,7 +5338,7 @@
     {
         "name": "History",
         "trans": [
-            "历史"
+            "lịch sử"
         ],
         "ukphone": "ˈhɪstəri",
         "usphone": "ˈhɪstəri"
@@ -5346,7 +5346,7 @@
     {
         "name": "Art",
         "trans": [
-            "艺术"
+            "nghệ thuật"
         ],
         "ukphone": "ɑːt",
         "usphone": "ɑrt"
@@ -5354,7 +5354,7 @@
     {
         "name": "Sociology",
         "trans": [
-            "社会学"
+            "xã hội học"
         ],
         "ukphone": "ˌsəʊsɪˈɒləʤi",
         "usphone": "ˌsoʊsiˈɑləʤi"
@@ -5362,7 +5362,7 @@
     {
         "name": "Linguistics",
         "trans": [
-            "语言学"
+            "ngôn ngữ học"
         ],
         "ukphone": "lɪŋˈɡwɪstɪks",
         "usphone": "lɪŋˈɡwɪstɪks"
@@ -5370,7 +5370,7 @@
     {
         "name": "Psychology",
         "trans": [
-            "心理学"
+            "tâm lý học"
         ],
         "ukphone": "saɪˈkɒləʤi",
         "usphone": "saɪˈkɑləʤi"
@@ -5402,7 +5402,7 @@
     {
         "name": "Economics",
         "trans": [
-            "经济学"
+            "kinh tế học"
         ],
         "ukphone": "ˌiːkəˈnɒmɪks",
         "usphone": "ˌɛkəˈnɑmɪks"
@@ -5434,7 +5434,7 @@
     {
         "name": "Biochemistry",
         "trans": [
-            "生物化学"
+            "sinh hóa"
         ],
         "ukphone": "ˌbaɪəʊˈkɛmɪstri",
         "usphone": "ˌbaɪoʊˈkɛməstri"
@@ -5442,7 +5442,7 @@
     {
         "name": "Physics",
         "trans": [
-            "物理学"
+            "vật lý học"
         ],
         "ukphone": "ˈfɪzɪks",
         "usphone": "ˈfɪzɪks"
@@ -5450,7 +5450,7 @@
     {
         "name": "Anthropology",
         "trans": [
-            "人类学"
+            "nhân văn học"
         ],
         "ukphone": "ˌænθrəˈpɒləʤi",
         "usphone": "ˌænθrəˈpɑləʤi"
@@ -5458,7 +5458,7 @@
     {
         "name": "Science",
         "trans": [
-            "科学"
+            "n. khoa học"
         ],
         "ukphone": "ˈsaɪəns",
         "usphone": "ˈsaɪəns"
@@ -5466,7 +5466,7 @@
     {
         "name": "touch-screen information service",
         "trans": [
-            "触摸屏"
+            "màn hình cảm ứng"
         ],
         "ukphone": "tʌʧ-skriːn ˌɪnfəˈmeɪʃᵊn ˈsɜːvɪs",
         "usphone": "tʌʧ-skrin ˌɪnfərˈmeɪʃən ˈsɜrvəs"
@@ -5490,7 +5490,7 @@
     {
         "name": "due",
         "trans": [
-            "到期"
+            "đến hạn"
         ],
         "ukphone": "djuː",
         "usphone": "du"
@@ -5554,7 +5554,7 @@
     {
         "name": "encyclopedia",
         "trans": [
-            "百科全书"
+            "bách khoa toàn thư"
         ],
         "ukphone": "ɪnˌsaɪkləˈpiːdiə",
         "usphone": "ɪnˌsaɪkləˈpidiə"
@@ -5746,7 +5746,7 @@
     {
         "name": "volume",
         "trans": [
-            "卷"
+            "cuộn"
         ],
         "ukphone": "ˈvɒljuːm",
         "usphone": "ˈvɑljum"
@@ -5762,7 +5762,7 @@
     {
         "name": "abstract",
         "trans": [
-            "摘要"
+            "tóm tắt, bản tóm lược"
         ],
         "ukphone": "ˈæbstrækt",
         "usphone": "ˈæbstrækt"
@@ -5802,7 +5802,7 @@
     {
         "name": "newspaper",
         "trans": [
-            "报纸"
+            "báo"
         ],
         "ukphone": "ˈnjuːzˌpeɪpə",
         "usphone": "ˈnuzˌpeɪpər"
@@ -5810,7 +5810,7 @@
     {
         "name": "journal",
         "trans": [
-            "杂志"
+            "tạp chí"
         ],
         "ukphone": "ˈʤɜːnᵊl",
         "usphone": "ˈʤɜrnəl"
@@ -5818,7 +5818,7 @@
     {
         "name": "periodical",
         "trans": [
-            "期刊"
+            "Tạp chí"
         ],
         "ukphone": "ˌpɪəriˈɒdɪkᵊl",
         "usphone": "ˌpɪriˈɑdɪkəl"
@@ -5826,7 +5826,7 @@
     {
         "name": "category",
         "trans": [
-            "类别"
+            "loại, mục lục"
         ],
         "ukphone": "ˈkætɪɡəri",
         "usphone": "ˈkætəˌɡɔri"
@@ -5962,7 +5962,7 @@
     {
         "name": "copier",
         "trans": [
-            "复印机"
+            "máy photocopy"
         ],
         "ukphone": "ˈkɒpɪə",
         "usphone": "ˈkɑpiər"
@@ -5970,7 +5970,7 @@
     {
         "name": "fax machine",
         "trans": [
-            "传真机"
+            "máy fax"
         ],
         "ukphone": "fæks məˈʃiːn",
         "usphone": "fæks məˈʃin"
@@ -5994,7 +5994,7 @@
     {
         "name": "software",
         "trans": [
-            "软件"
+            "phần mềm"
         ],
         "ukphone": "ˈsɒftweə",
         "usphone": "ˈsɔfˌtwɛr"
@@ -6002,7 +6002,7 @@
     {
         "name": "network",
         "trans": [
-            "网络"
+            "mạng; mạng lưới"
         ],
         "ukphone": "ˈnɛtwɜːk",
         "usphone": "ˈnɛˌtwɜrk"
@@ -6026,7 +6026,7 @@
     {
         "name": "hard disk",
         "trans": [
-            "硬盘"
+            "ổ cứng"
         ],
         "ukphone": "hɑːd dɪsk",
         "usphone": "hɑrd dɪsk"
@@ -6050,7 +6050,7 @@
     {
         "name": "keyboard",
         "trans": [
-            "键盘"
+            "bàn phím, bộ phím"
         ],
         "ukphone": "ˈkiːbɔːd",
         "usphone": "ˈkiˌbɔrd"
@@ -6066,7 +6066,7 @@
     {
         "name": "modem",
         "trans": [
-            "调制解调器"
+            "bộ giải mã (modem)"
         ],
         "ukphone": "ˈməʊdəm",
         "usphone": "ˈmoʊdəm"
@@ -6074,7 +6074,7 @@
     {
         "name": "setup",
         "trans": [
-            "安装"
+            "cài đặt; lắp đặt"
         ],
         "ukphone": "ˈsɛtʌp",
         "usphone": "ˈsɛˌtʌp"
@@ -6098,7 +6098,7 @@
     {
         "name": "program",
         "trans": [
-            "程序"
+            "chương trình; thủ tục"
         ],
         "ukphone": "ˈprəʊɡræm",
         "usphone": "ˈproʊˌɡræm"
@@ -6122,7 +6122,7 @@
     {
         "name": "user",
         "trans": [
-            "用户"
+            "người dùng"
         ],
         "ukphone": "ˈjuːzə",
         "usphone": "ˈjuzər"
@@ -6130,7 +6130,7 @@
     {
         "name": "click",
         "trans": [
-            "点击"
+            "nhấp chuột; bấm, nhấp vào"
         ],
         "ukphone": "klɪk",
         "usphone": "klɪk"
@@ -6138,7 +6138,7 @@
     {
         "name": "update",
         "trans": [
-            "更新"
+            "cập nhật; làm mới; cải tổ"
         ],
         "ukphone": "ʌpˈdeɪt",
         "usphone": "əpˈdeɪt"
@@ -6146,7 +6146,7 @@
     {
         "name": "data base",
         "trans": [
-            "数据库"
+            "cơ sở dữ liệu"
         ],
         "ukphone": "ˈdeɪtə beɪs",
         "usphone": "ˈdeɪtə beɪs"
@@ -6154,7 +6154,7 @@
     {
         "name": "manual",
         "trans": [
-            "指南"
+            "hướng dẫn"
         ],
         "ukphone": "ˈmænjuəl",
         "usphone": "ˈmænjuəl"
@@ -6162,7 +6162,7 @@
     {
         "name": "menu",
         "trans": [
-            "菜单"
+            "thực đơn"
         ],
         "ukphone": "ˈmɛnjuː",
         "usphone": "ˈmɛnju"
@@ -6178,7 +6178,7 @@
     {
         "name": "virus",
         "trans": [
-            "病毒"
+            "vi-rút"
         ],
         "ukphone": "ˈvaɪərəs",
         "usphone": "ˈvaɪrəs"
@@ -6194,7 +6194,7 @@
     {
         "name": "website",
         "trans": [
-            "网站"
+            "trang web"
         ],
         "ukphone": "ˈwɛbˌsaɪt",
         "usphone": "ˈwɛbˌsaɪt"
@@ -6202,7 +6202,7 @@
     {
         "name": "online",
         "trans": [
-            "在线"
+            "trực tuyến"
         ],
         "ukphone": "ˈɒnˌlaɪn",
         "usphone": "ˈɔnˌlaɪn"
@@ -6210,7 +6210,7 @@
     {
         "name": "Email",
         "trans": [
-            "电子邮件"
+            "n. thư điện tử; email"
         ],
         "ukphone": "ˈiːmeɪl",
         "usphone": "iˈmeɪl"
@@ -6234,7 +6234,7 @@
     {
         "name": "laptop",
         "trans": [
-            "笔记本电脑"
+            "máy tính xách tay"
         ],
         "ukphone": "ˈlæpˌtɒp",
         "usphone": "ˈlæpˌtɑp"
@@ -6250,7 +6250,7 @@
     {
         "name": "feedback",
         "trans": [
-            "反馈"
+            "phản hồi"
         ],
         "ukphone": "ˈfiːdbæk",
         "usphone": "ˈfidˌbæk"
@@ -6258,7 +6258,7 @@
     {
         "name": "research",
         "trans": [
-            "研究"
+            "nghiên cứu"
         ],
         "ukphone": "rɪˈsɜːʧ",
         "usphone": "riˈsɜrʧ"
@@ -6274,7 +6274,7 @@
     {
         "name": "survey",
         "trans": [
-            "调查"
+            "điều tra; khảo sát"
         ],
         "ukphone": "ˈsɜːveɪ",
         "usphone": "ˈsɜrˌveɪ"
@@ -6314,7 +6314,7 @@
     {
         "name": "hypothesis",
         "trans": [
-            "假设"
+            "giả định"
         ],
         "ukphone": "haɪˈpɒθɪsɪs",
         "usphone": "haɪˈpɑθəsəs"
@@ -6346,7 +6346,7 @@
     {
         "name": "data",
         "trans": [
-            "数据"
+            "dữ liệu"
         ],
         "ukphone": "ˈdeɪtə",
         "usphone": "ˈdeɪtə"
@@ -6354,7 +6354,7 @@
     {
         "name": "datum",
         "trans": [
-            "数据"
+            "dữ liệu"
         ],
         "ukphone": "ˈdeɪtəm",
         "usphone": "ˈdætəm"
@@ -6362,7 +6362,7 @@
     {
         "name": "investigation",
         "trans": [
-            "调查"
+            "điều tra; khảo sát"
         ],
         "ukphone": "ɪnˌvɛstɪˈɡeɪʃᵊn",
         "usphone": "ɪnˌvɛstəˈɡeɪʃən"
@@ -6426,7 +6426,7 @@
     {
         "name": "results",
         "trans": [
-            "结果"
+            "kết quả"
         ],
         "ukphone": "rɪˈzʌlts",
         "usphone": "rɪˈzʌlts"
@@ -6434,7 +6434,7 @@
     {
         "name": "conclusion",
         "trans": [
-            "结论"
+            "kết luận"
         ],
         "ukphone": "kənˈkluːʒᵊn",
         "usphone": "kənˈkluʒən"
@@ -6450,7 +6450,7 @@
     {
         "name": "opinion",
         "trans": [
-            "观点"
+            "quan điểm"
         ],
         "ukphone": "əˈpɪnjən",
         "usphone": "əˈpɪnjən"
@@ -6474,7 +6474,7 @@
     {
         "name": "cattle",
         "trans": [
-            "牛"
+            "bò"
         ],
         "ukphone": "ˈkætᵊl",
         "usphone": "ˈkætəl"
@@ -6490,7 +6490,7 @@
     {
         "name": "evaporation",
         "trans": [
-            "蒸发"
+            "bốc hơi, bay hơi"
         ],
         "ukphone": "ɪˌvæpəˈreɪʃᵊn",
         "usphone": "ɪˌvæpəˈreɪʃən"
@@ -6498,7 +6498,7 @@
     {
         "name": "irrigation",
         "trans": [
-            "灌溉"
+            "tưới tiêu; tưới"
         ],
         "ukphone": "ˌɪrɪˈɡeɪʃᵊn",
         "usphone": "ˌɪrəˈɡeɪʃən"
@@ -6506,7 +6506,7 @@
     {
         "name": "solar power",
         "trans": [
-            "太阳能"
+            "năng lượng mặt trời"
         ],
         "ukphone": "ˈsəʊlə ˈpaʊə",
         "usphone": "ˈsoʊlər ˈpaʊər"
@@ -6514,7 +6514,7 @@
     {
         "name": "nuclear power",
         "trans": [
-            "核能"
+            "năng lượng hạt nhân"
         ],
         "ukphone": "ˈnjuːklɪə ˈpaʊə",
         "usphone": "ˈnukliər ˈpaʊər"
@@ -6522,7 +6522,7 @@
     {
         "name": "alternative energy",
         "trans": [
-            "可替代能源"
+            "năng lượng thay thế"
         ],
         "ukphone": "ɒlˈtɜːnətɪv ˈɛnəʤi",
         "usphone": "ɔlˈtɜrnətɪv ˈɛnərʤi"
@@ -6530,7 +6530,7 @@
     {
         "name": "carbon dioxide",
         "trans": [
-            "二氧化碳"
+            "khí cacbonic"
         ],
         "ukphone": "ˈkɑːbᵊn daɪˈɒksaɪd",
         "usphone": "ˈkɑrbən daɪˈɑkˌsaɪd"
@@ -6538,7 +6538,7 @@
     {
         "name": "aluminum",
         "trans": [
-            "铝"
+            "nhôm"
         ],
         "ukphone": "əˈluːmɪnəm",
         "usphone": "əˈlumənəm"
@@ -6546,7 +6546,7 @@
     {
         "name": "population density",
         "trans": [
-            "人口密度"
+            "mật độ dân số"
         ],
         "ukphone": "ˌpɒpjəˈleɪʃᵊn ˈdɛnsɪti",
         "usphone": "ˌpɑpjəˈleɪʃən ˈdɛnsəti"
@@ -6554,7 +6554,7 @@
     {
         "name": "pollution",
         "trans": [
-            "污染"
+            "ô nhiễm; làm bẩn"
         ],
         "ukphone": "pəˈluːʃᵊn",
         "usphone": "pəˈluʃən"
@@ -6578,7 +6578,7 @@
     {
         "name": "greenhouse effect",
         "trans": [
-            "温室效应"
+            "hiệu ứng nhà kính"
         ],
         "ukphone": "ˈɡriːnhaʊs ɪˈfɛkt",
         "usphone": "ˈɡrinˌhaʊs ɪˈfɛkt"
@@ -6594,7 +6594,7 @@
     {
         "name": "fossil",
         "trans": [
-            "化石"
+            "hóa thạch"
         ],
         "ukphone": "ˈfɒsᵊl",
         "usphone": "ˈfɑsəl"
@@ -6602,7 +6602,7 @@
     {
         "name": "tribe",
         "trans": [
-            "部落"
+            "bộ lạc"
         ],
         "ukphone": "traɪb",
         "usphone": "traɪb"
@@ -6650,7 +6650,7 @@
     {
         "name": "boom",
         "trans": [
-            "繁荣"
+            "thịnh vượng"
         ],
         "ukphone": "buːm",
         "usphone": "bum"
@@ -6698,7 +6698,7 @@
     {
         "name": "globalization",
         "trans": [
-            "全球化"
+            "toàn cầu hóa"
         ],
         "ukphone": "ˌɡləʊbᵊlaɪˈzeɪʃᵊn",
         "usphone": "ˌɡloʊbəlɪˈzeɪʃən"
@@ -6706,7 +6706,7 @@
     {
         "name": "utilize",
         "trans": [
-            "利用"
+            "sử dụng"
         ],
         "ukphone": "ˈjuːtɪˌlaɪz",
         "usphone": "ˈjutəˌlaɪz"
@@ -6738,7 +6738,7 @@
     {
         "name": "processing",
         "trans": [
-            "处理"
+            "xu ly"
         ],
         "ukphone": "ˈprəʊsɛsɪŋ",
         "usphone": "ˈprɑsɛsɪŋ"
@@ -6746,7 +6746,7 @@
     {
         "name": "environment",
         "trans": [
-            "环境"
+            "n. môi trường"
         ],
         "ukphone": "ɪnˈvaɪərənmənt",
         "usphone": "ɪnˈvaɪrənmənt"
@@ -6754,7 +6754,7 @@
     {
         "name": "resource",
         "trans": [
-            "资源"
+            "tài nguyên"
         ],
         "ukphone": "rɪˈsɔːs",
         "usphone": "ˈrisɔrs"
@@ -6786,7 +6786,7 @@
     {
         "name": "military",
         "trans": [
-            "军事的"
+            "quân sự; thuộc về binh"
         ],
         "ukphone": "ˈmɪlɪtəri",
         "usphone": "ˈmɪləˌtɛri"
@@ -6794,7 +6794,7 @@
     {
         "name": "milestone",
         "trans": [
-            "里程碑"
+            "cột mốc, mốc lịch sử"
         ],
         "ukphone": "ˈmaɪlstəʊn",
         "usphone": "ˈmaɪlˌstoʊn"
@@ -6802,7 +6802,7 @@
     {
         "name": "internal clock",
         "trans": [
-            "生物钟"
+            "đồng hồ sinh học"
         ],
         "ukphone": "ɪnˈtɜːnᵊl klɒk",
         "usphone": "ɪnˈtɜrnəl klɑk"
@@ -6810,7 +6810,7 @@
     {
         "name": "charity",
         "trans": [
-            "慈善"
+            "từ thiện"
         ],
         "ukphone": "ˈʧærəti",
         "usphone": "ˈʧɛrɪti"
@@ -6818,7 +6818,7 @@
     {
         "name": "depression",
         "trans": [
-            "抑郁症"
+            "bệnh trầm cảm, rối loạn tâm lý"
         ],
         "ukphone": "dɪˈprɛʃᵊn",
         "usphone": "dɪˈprɛʃən"
@@ -6826,7 +6826,7 @@
     {
         "name": "fund raising",
         "trans": [
-            "募捐"
+            "quyên góp"
         ],
         "ukphone": "fʌnd ˈreɪzɪŋ",
         "usphone": "fʌnd ˈreɪzɪŋ"
@@ -6850,7 +6850,7 @@
     {
         "name": "kangaroo",
         "trans": [
-            "袋鼠"
+            "kangaroo"
         ],
         "ukphone": "ˌkæŋɡəˈruː",
         "usphone": "ˌkæŋɡəˈru"
@@ -6858,7 +6858,7 @@
     {
         "name": "koala",
         "trans": [
-            "考拉"
+            "gấu koala"
         ],
         "ukphone": "kəʊˈɑːlə",
         "usphone": "koʊˈɑlə"
@@ -6866,7 +6866,7 @@
     {
         "name": "lizard",
         "trans": [
-            "蜥蜴"
+            "thằn lằn"
         ],
         "ukphone": "ˈlɪzəd",
         "usphone": "ˈlɪzərd"
@@ -6874,7 +6874,7 @@
     {
         "name": "emu",
         "trans": [
-            "鸸鹋"
+            "emu"
         ],
         "ukphone": "ˈiːmjuː",
         "usphone": "ˈimˌju"
@@ -6882,7 +6882,7 @@
     {
         "name": "ostrich",
         "trans": [
-            "鸵鸟"
+            "con đà điểu"
         ],
         "ukphone": "ˈɒstrɪʧ",
         "usphone": "ˈɔstrɪʧ"
@@ -6890,7 +6890,7 @@
     {
         "name": "penguin",
         "trans": [
-            "企鹅"
+            "chim cánh cụt"
         ],
         "ukphone": "ˈpɛŋɡwɪn",
         "usphone": "ˈpɛŋɡwən"
@@ -6898,7 +6898,7 @@
     {
         "name": "dolphin",
         "trans": [
-            "海豚"
+            "cá heo"
         ],
         "ukphone": "ˈdɒlfɪn",
         "usphone": "ˈdɑlfən"
@@ -6906,7 +6906,7 @@
     {
         "name": "whale",
         "trans": [
-            "鲸"
+            "cá voi"
         ],
         "ukphone": "weɪl",
         "usphone": "weɪl"
@@ -6930,7 +6930,7 @@
     {
         "name": "bat",
         "trans": [
-            "蝙蝠"
+            "dơi"
         ],
         "ukphone": "bæt",
         "usphone": "bæt"
@@ -6946,7 +6946,7 @@
     {
         "name": "mammal",
         "trans": [
-            "哺乳动物"
+            "động vật có vú"
         ],
         "ukphone": "ˈmæmᵊl",
         "usphone": "ˈmæməl"
@@ -6954,7 +6954,7 @@
     {
         "name": "reptile",
         "trans": [
-            "爬行动物"
+            "loài bò sát"
         ],
         "ukphone": "ˈrɛptaɪl",
         "usphone": "ˈrɛptaɪl"
@@ -6970,7 +6970,7 @@
     {
         "name": "dinosaur",
         "trans": [
-            "恐龙"
+            "khủng long"
         ],
         "ukphone": "ˈdaɪnəsɔː",
         "usphone": "ˈdaɪnəˌsɔr"
@@ -6978,7 +6978,7 @@
     {
         "name": "crocodile",
         "trans": [
-            "鳄鱼"
+            "cá sấu"
         ],
         "ukphone": "ˈkrɒkədaɪl",
         "usphone": "ˈkrɑkəˌdaɪl"
@@ -6994,7 +6994,7 @@
     {
         "name": "horse",
         "trans": [
-            "马"
+            "ngựa; con ngựa"
         ],
         "ukphone": "hɔːs",
         "usphone": "hɔrs"
@@ -7002,7 +7002,7 @@
     {
         "name": "hen",
         "trans": [
-            "母鸡"
+            "gà mái; gà"
         ],
         "ukphone": "hɛn",
         "usphone": "hɛn"
@@ -7018,7 +7018,7 @@
     {
         "name": "elephant",
         "trans": [
-            "大象"
+            "n. voi"
         ],
         "ukphone": "ˈɛlɪfənt",
         "usphone": "ˈɛləfənt"
@@ -7026,7 +7026,7 @@
     {
         "name": "parrot",
         "trans": [
-            "鹦鹉"
+            "vẹt"
         ],
         "ukphone": "ˈpærət",
         "usphone": "ˈpɛrət"
@@ -7034,7 +7034,7 @@
     {
         "name": "snake",
         "trans": [
-            "蛇"
+            "n. rắn, con rắn"
         ],
         "ukphone": "sneɪk",
         "usphone": "sneɪk"
@@ -7050,7 +7050,7 @@
     {
         "name": "marsupial",
         "trans": [
-            "有袋动物"
+            "thú có túi"
         ],
         "ukphone": "mɑːˈsuːpiəl",
         "usphone": "mɑrˈsupiəl"
@@ -7082,7 +7082,7 @@
     {
         "name": "acrobat",
         "trans": [
-            "杂技"
+            "xiếc"
         ],
         "ukphone": "ˈækrəbæt",
         "usphone": "ˈækrəˌbæt"
@@ -7122,7 +7122,7 @@
     {
         "name": "mime",
         "trans": [
-            "哑剧"
+            "múa rối"
         ],
         "ukphone": "maɪm",
         "usphone": "maɪm"
@@ -7130,7 +7130,7 @@
     {
         "name": "comedy",
         "trans": [
-            "喜剧"
+            "hài kịch"
         ],
         "ukphone": "ˈkɒmɪdi",
         "usphone": "ˈkɑmədi"
@@ -7146,7 +7146,7 @@
     {
         "name": "guitar",
         "trans": [
-            "吉他"
+            "ghi-ta; đàn ghi-ta"
         ],
         "ukphone": "ɡɪˈtɑː",
         "usphone": "ɡɪˈtɑr"
@@ -7154,7 +7154,7 @@
     {
         "name": "comedian",
         "trans": [
-            "喜剧演员"
+            "diễn viên hài kịch"
         ],
         "ukphone": "kəˈmiːdiən",
         "usphone": "kəˈmidiən"
@@ -7162,7 +7162,7 @@
     {
         "name": "puppet",
         "trans": [
-            "木偶"
+            "rối"
         ],
         "ukphone": "ˈpʌpɪt",
         "usphone": "ˈpʌpət"
@@ -7170,7 +7170,7 @@
     {
         "name": "trapeze",
         "trans": [
-            "秋千"
+            "xích đu"
         ],
         "ukphone": "trəˈpiːz",
         "usphone": "trəˈpiz"
@@ -7178,7 +7178,7 @@
     {
         "name": "swing",
         "trans": [
-            "秋千"
+            "xích đu"
         ],
         "ukphone": "swɪŋ",
         "usphone": "swɪŋ"
@@ -7210,7 +7210,7 @@
     {
         "name": "classic music",
         "trans": [
-            "古典音乐"
+            "nhạc cổ điển"
         ],
         "ukphone": "ˈklæsɪk ˈmjuːzɪk",
         "usphone": "ˈklæsɪk ˈmjuzɪk"
@@ -7282,7 +7282,7 @@
     {
         "name": "plump",
         "trans": [
-            "丰满的"
+            "đầy đặn, tròn tròn"
         ],
         "ukphone": "plʌmp",
         "usphone": "plʌmp"
@@ -7298,7 +7298,7 @@
     {
         "name": "slender",
         "trans": [
-            "苗条的"
+            "gầy, mảnh khảnh"
         ],
         "ukphone": "ˈslɛndə",
         "usphone": "ˈslɛndər"
@@ -7418,7 +7418,7 @@
     {
         "name": "umbrella",
         "trans": [
-            "伞"
+            "ô; dù; ô che"
         ],
         "ukphone": "ʌmˈbrɛlə",
         "usphone": "əmˈbrɛlə"
@@ -7466,7 +7466,7 @@
     {
         "name": "wrinkle",
         "trans": [
-            "皱纹"
+            "nếp nhăn"
         ],
         "ukphone": "ˈrɪŋkᵊl",
         "usphone": "ˈrɪŋkəl"
@@ -7474,7 +7474,7 @@
     {
         "name": "chin",
         "trans": [
-            "下巴"
+            "cằm"
         ],
         "ukphone": "ʧɪn",
         "usphone": "ʧɪn"
@@ -7482,7 +7482,7 @@
     {
         "name": "cheek",
         "trans": [
-            "面颊"
+            "má"
         ],
         "ukphone": "ʧiːk",
         "usphone": "ʧik"
@@ -7490,7 +7490,7 @@
     {
         "name": "forehead",
         "trans": [
-            "前额"
+            "trán"
         ],
         "ukphone": "ˈfɒrɪd",
         "usphone": "ˈfɔrhɛd"
@@ -7562,7 +7562,7 @@
     {
         "name": "thin",
         "trans": [
-            "瘦的"
+            "gầy"
         ],
         "ukphone": "θɪn",
         "usphone": "θɪn"
@@ -7642,7 +7642,7 @@
     {
         "name": "trousers",
         "trans": [
-            "裤子"
+            "quần; quần dài"
         ],
         "ukphone": "ˈtraʊzəz",
         "usphone": "ˈtraʊzərz"
@@ -7650,7 +7650,7 @@
     {
         "name": "jeans",
         "trans": [
-            "牛仔裤"
+            "quần jean"
         ],
         "ukphone": "ʤiːnz",
         "usphone": "ʤinz"
@@ -7658,7 +7658,7 @@
     {
         "name": "sandal",
         "trans": [
-            "凉鞋"
+            "dép xỏ ngón, dép"
         ],
         "ukphone": "ˈsændᵊl",
         "usphone": "ˈsændəl"
@@ -7666,7 +7666,7 @@
     {
         "name": "jewelry",
         "trans": [
-            "珠宝"
+            "trang sức"
         ],
         "ukphone": "ˈʤuːəlri",
         "usphone": "ˈʤuəlri"
@@ -7842,7 +7842,7 @@
     {
         "name": "tram",
         "trans": [
-            "有轨电车"
+            "Xe điện có ray"
         ],
         "ukphone": "træm",
         "usphone": "træm"
@@ -7850,7 +7850,7 @@
     {
         "name": "trolley bus",
         "trans": [
-            "无轨电车"
+            "xe điện không ray"
         ],
         "ukphone": "ˈtrɒli bʌs",
         "usphone": "ˈtrɑli bʌs"
@@ -7866,7 +7866,7 @@
     {
         "name": "taxi",
         "trans": [
-            "出租车"
+            "xe taxi"
         ],
         "ukphone": "ˈtæksi",
         "usphone": "ˈtæksi"
@@ -7874,7 +7874,7 @@
     {
         "name": "cab",
         "trans": [
-            "出租车"
+            "xe taxi"
         ],
         "ukphone": "kæb",
         "usphone": "kæb"
@@ -7882,7 +7882,7 @@
     {
         "name": "lorry",
         "trans": [
-            "卡车"
+            "xe tải"
         ],
         "ukphone": "ˈlɒri",
         "usphone": "ˈlɔri"
@@ -7890,7 +7890,7 @@
     {
         "name": "truck",
         "trans": [
-            "卡车"
+            "xe tải"
         ],
         "ukphone": "trʌk",
         "usphone": "trʌk"
@@ -7906,7 +7906,7 @@
     {
         "name": "underground",
         "trans": [
-            "地铁"
+            "tuyen meto"
         ],
         "ukphone": "ˈʌndəɡraʊnd",
         "usphone": "ˈʌndərˌɡraʊnd"
@@ -7914,7 +7914,7 @@
     {
         "name": "subway",
         "trans": [
-            "地铁"
+            "tuyen meto"
         ],
         "ukphone": "ˈsʌbweɪ",
         "usphone": "ˈsʌˌbweɪ"
@@ -7946,7 +7946,7 @@
     {
         "name": "row boat",
         "trans": [
-            "划船"
+            "Chèo thuyền"
         ],
         "ukphone": "rəʊ bəʊt",
         "usphone": "roʊ boʊt"
@@ -7954,7 +7954,7 @@
     {
         "name": "sunshade",
         "trans": [
-            "遮阳板"
+            "tấm che nắng"
         ],
         "ukphone": "ˈsʌnʃeɪd",
         "usphone": "sunshade"
@@ -7970,7 +7970,7 @@
     {
         "name": "wheel",
         "trans": [
-            "轮子"
+            "bánh xe"
         ],
         "ukphone": "wiːl",
         "usphone": "wil"
@@ -7986,7 +7986,7 @@
     {
         "name": "tyre",
         "trans": [
-            "轮胎"
+            "lốp; lốp xe; vỏ xe"
         ],
         "ukphone": "ˈtaɪə",
         "usphone": "taɪr"
@@ -7994,7 +7994,7 @@
     {
         "name": "tire",
         "trans": [
-            "轮胎"
+            "lốp; lốp xe; vỏ xe"
         ],
         "ukphone": "ˈtaɪə",
         "usphone": "ˈtaɪər"
@@ -8002,7 +8002,7 @@
     {
         "name": "mark",
         "trans": [
-            "牌子"
+            "bảng hiệu"
         ],
         "ukphone": "mɑːk",
         "usphone": "mɑrk"
@@ -8026,7 +8026,7 @@
     {
         "name": "brake",
         "trans": [
-            "刹车"
+            "phanh"
         ],
         "ukphone": "breɪk",
         "usphone": "breɪk"
@@ -8042,7 +8042,7 @@
     {
         "name": "ignition",
         "trans": [
-            "点火"
+            "châm lửa"
         ],
         "ukphone": "ɪɡˈnɪʃᵊn",
         "usphone": "ɪɡˈnɪʃən"
@@ -8066,7 +8066,7 @@
     {
         "name": "humid",
         "trans": [
-            "潮湿的"
+            "ẩm, ẩm ướt"
         ],
         "ukphone": "ˈhjuːmɪd",
         "usphone": "ˈhjuməd"
@@ -8082,7 +8082,7 @@
     {
         "name": "mild",
         "trans": [
-            "温和的"
+            "ôn hòa"
         ],
         "ukphone": "maɪld",
         "usphone": "maɪld"
@@ -8090,7 +8090,7 @@
     {
         "name": "tropical",
         "trans": [
-            "热带"
+            "nhiệt đới"
         ],
         "ukphone": "ˈtrɒpɪkᵊl",
         "usphone": "ˈtrɑpɪkəl"
@@ -8098,7 +8098,7 @@
     {
         "name": "equator",
         "trans": [
-            "赤道"
+            "n. xích đạo"
         ],
         "ukphone": "ɪˈkweɪtə",
         "usphone": "ɪˈkweɪtər"
@@ -8114,7 +8114,7 @@
     {
         "name": "Arabic",
         "trans": [
-            "阿拉伯语"
+            "tiếng Ả Rập"
         ],
         "ukphone": "ˈærəbɪk",
         "usphone": "ˈærəbɪk"
@@ -8154,7 +8154,7 @@
     {
         "name": "dialect",
         "trans": [
-            "方言"
+            "Phương ngữ"
         ],
         "ukphone": "ˈdaɪəlɛkt",
         "usphone": "ˈdaɪəˌlɛkt"
@@ -8162,7 +8162,7 @@
     {
         "name": "accent",
         "trans": [
-            "口音"
+            "giọng địa phương, văn cách"
         ],
         "ukphone": "ˈæksᵊnt",
         "usphone": "ˈæksɛnt"
@@ -8178,7 +8178,7 @@
     {
         "name": "make a reservation",
         "trans": [
-            "预定"
+            "Đặt hàng trước"
         ],
         "ukphone": "meɪk ə ˌrɛzəˈveɪʃᵊn",
         "usphone": "meɪk ə ˌrɛzərˈveɪʃən"
@@ -8186,7 +8186,7 @@
     {
         "name": "book",
         "trans": [
-            "预定"
+            "Đặt hàng trước"
         ],
         "ukphone": "bʊk",
         "usphone": "bʊk"
@@ -8226,7 +8226,7 @@
     {
         "name": "destination",
         "trans": [
-            "目的地"
+            "điểm đến"
         ],
         "ukphone": "ˌdɛstɪˈneɪʃᵊn",
         "usphone": "ˌdɛstəˈneɪʃən"
@@ -8242,7 +8242,7 @@
     {
         "name": "take-off",
         "trans": [
-            "起飞"
+            "cất cánh"
         ],
         "ukphone": "ˈteɪkɒf",
         "usphone": "teɪk-ɔf"
@@ -8322,7 +8322,7 @@
     {
         "name": "customs",
         "trans": [
-            "海关"
+            "Hải quan"
         ],
         "ukphone": "ˈkʌstəmz",
         "usphone": "ˈkʌstəmz"
@@ -8370,7 +8370,7 @@
     {
         "name": "drought",
         "trans": [
-            "干旱"
+            "n. hạn hán; khô cạn"
         ],
         "ukphone": "draʊt",
         "usphone": "draʊt"
@@ -8378,7 +8378,7 @@
     {
         "name": "flood",
         "trans": [
-            "洪水"
+            "lũ lụt"
         ],
         "ukphone": "flʌd",
         "usphone": "flʌd"
@@ -8386,7 +8386,7 @@
     {
         "name": "earthquake",
         "trans": [
-            "地震"
+            "n. động đất"
         ],
         "ukphone": "ˈɜːθkweɪk",
         "usphone": "ˈɜrθˌkweɪk"
@@ -8394,7 +8394,7 @@
     {
         "name": "volcano",
         "trans": [
-            "火山"
+            "nui lua"
         ],
         "ukphone": "vɒlˈkeɪnəʊ",
         "usphone": "vɑlˈkeɪnoʊ"
@@ -8402,7 +8402,7 @@
     {
         "name": "tidal wave",
         "trans": [
-            "海啸"
+            "sóng thần"
         ],
         "ukphone": "ˈtaɪdᵊl weɪv",
         "usphone": "ˈtaɪdəl weɪv"
@@ -8410,7 +8410,7 @@
     {
         "name": "tsunami",
         "trans": [
-            "海啸"
+            "sóng thần"
         ],
         "ukphone": "tsuːˈnɑːmi",
         "usphone": "tsuˈnɑmi"
@@ -8426,7 +8426,7 @@
     {
         "name": "drought",
         "trans": [
-            "干旱"
+            "n. hạn hán; khô cạn"
         ],
         "ukphone": "draʊt",
         "usphone": "draʊt"
@@ -8434,7 +8434,7 @@
     {
         "name": "flood",
         "trans": [
-            "洪水"
+            "lũ lụt"
         ],
         "ukphone": "flʌd",
         "usphone": "flʌd"
@@ -8442,7 +8442,7 @@
     {
         "name": "tsunami",
         "trans": [
-            "海啸"
+            "sóng thần"
         ],
         "ukphone": "tsuːˈnɑːmi",
         "usphone": "tsuˈnɑmi"
@@ -8450,7 +8450,7 @@
     {
         "name": "tornado",
         "trans": [
-            "龙卷风"
+            "lốc xoáy, xoáy nước"
         ],
         "ukphone": "tɔːˈneɪdəʊ",
         "usphone": "tɔrˈneɪˌdoʊ"
@@ -8458,7 +8458,7 @@
     {
         "name": "twister",
         "trans": [
-            "龙卷风"
+            "lốc xoáy, xoáy nước"
         ],
         "ukphone": "ˈtwɪstə",
         "usphone": "ˈtwɪstər"
@@ -8466,7 +8466,7 @@
     {
         "name": "hurricane",
         "trans": [
-            "飓风"
+            "bão; bão tốc"
         ],
         "ukphone": "ˈhʌrɪkən",
         "usphone": "ˈhɜrəˌkeɪn"
@@ -8474,7 +8474,7 @@
     {
         "name": "typhoon",
         "trans": [
-            "台风"
+            "bão; bão nhiệt đới"
         ],
         "ukphone": "taɪˈfuːn",
         "usphone": "ˌtaɪˈfun"
@@ -8482,7 +8482,7 @@
     {
         "name": "disaster",
         "trans": [
-            "灾难"
+            "thảm họa, tai nạn"
         ],
         "ukphone": "dɪˈzɑːstə",
         "usphone": "dɪˈzæstər"
@@ -8490,7 +8490,7 @@
     {
         "name": "disease",
         "trans": [
-            "疾病"
+            "bệnh, bệnh tật"
         ],
         "ukphone": "dɪˈziːz",
         "usphone": "dɪˈziz"
@@ -8586,7 +8586,7 @@
     {
         "name": "survivor",
         "trans": [
-            "幸存者"
+            "người sống sót"
         ],
         "ukphone": "səˈvaɪvə",
         "usphone": "sərˈvaɪvər"
@@ -8610,7 +8610,7 @@
     {
         "name": "ambulance",
         "trans": [
-            "救护车"
+            "xe cứu thương"
         ],
         "ukphone": "ˈæmbjələns",
         "usphone": "ˈæmbjələns"
@@ -8642,7 +8642,7 @@
     {
         "name": "applicant",
         "trans": [
-            "申请人"
+            "người nộp đơn"
         ],
         "ukphone": "ˈæplɪkənt",
         "usphone": "ˈæplɪkənt"
@@ -8682,7 +8682,7 @@
     {
         "name": "cashier",
         "trans": [
-            "收银员"
+            "thu ngân viên"
         ],
         "ukphone": "kæˈʃɪə",
         "usphone": "kæˈʃɪr"
@@ -8690,7 +8690,7 @@
     {
         "name": "commission",
         "trans": [
-            "佣金"
+            "hoa hồng, tiền hoa hồng"
         ],
         "ukphone": "kəˈmɪʃᵊn",
         "usphone": "kəˈmɪʃən"
@@ -8722,7 +8722,7 @@
     {
         "name": "routine work",
         "trans": [
-            "例行公事"
+            "thủ tục"
         ],
         "ukphone": "ruːˈtiːn wɜːk",
         "usphone": "ruˈtin wɜrk"
@@ -8762,7 +8762,7 @@
     {
         "name": "stimulating",
         "trans": [
-            "刺激的"
+            "gây kích thích, kích thích"
         ],
         "ukphone": "ˈstɪmjəleɪtɪŋ",
         "usphone": "ˈstɪmjəˌleɪtɪŋ"
@@ -8770,7 +8770,7 @@
     {
         "name": "interesting",
         "trans": [
-            "有趣的"
+            "thú vị"
         ],
         "ukphone": "ˈɪntrɛstɪŋ",
         "usphone": "ˈɪntrəstɪŋ"
@@ -8882,7 +8882,7 @@
     {
         "name": "basement",
         "trans": [
-            "地下室"
+            "tầng hầm"
         ],
         "ukphone": "ˈbeɪsmənt",
         "usphone": "ˈbeɪsmənt"
@@ -8890,7 +8890,7 @@
     {
         "name": "corridor",
         "trans": [
-            "走廊"
+            "n. hành lang"
         ],
         "ukphone": "ˈkɒrɪdɔː",
         "usphone": "ˈkɔrədər"
@@ -8898,7 +8898,7 @@
     {
         "name": "path",
         "trans": [
-            "小路"
+            "lối nhỏ"
         ],
         "ukphone": "pɑːθ",
         "usphone": "pæθ"
@@ -8906,7 +8906,7 @@
     {
         "name": "passage",
         "trans": [
-            "通道"
+            "lối đi; hành lang"
         ],
         "ukphone": "ˈpæsɪʤ",
         "usphone": "ˈpæsəʤ"
@@ -8922,7 +8922,7 @@
     {
         "name": "arrow",
         "trans": [
-            "箭头"
+            "mũi tên"
         ],
         "ukphone": "ˈærəʊ",
         "usphone": "ˈæroʊ"
@@ -8978,7 +8978,7 @@
     {
         "name": "pavement",
         "trans": [
-            "人行道"
+            "n. vỉa hè"
         ],
         "ukphone": "ˈpeɪvmənt",
         "usphone": "ˈpeɪvmənt"
@@ -8986,7 +8986,7 @@
     {
         "name": "sidewalk",
         "trans": [
-            "人行道"
+            "n. vỉa hè"
         ],
         "ukphone": "ˈsaɪdwɔːk",
         "usphone": "ˈsaɪˌdwɔk"
@@ -9010,7 +9010,7 @@
     {
         "name": "road",
         "trans": [
-            "道路"
+            "đường; con đường"
         ],
         "ukphone": "rəʊd",
         "usphone": "roʊd"
@@ -9018,7 +9018,7 @@
     {
         "name": "street",
         "trans": [
-            "街道"
+            "pho"
         ],
         "ukphone": "striːt",
         "usphone": "strit"
@@ -9026,7 +9026,7 @@
     {
         "name": "lane",
         "trans": [
-            "小巷"
+            "ngõ; hẻm"
         ],
         "ukphone": "leɪn",
         "usphone": "leɪn"
@@ -9186,7 +9186,7 @@
     {
         "name": "intersection",
         "trans": [
-            "十字路口"
+            "ngã ba, ngã tư"
         ],
         "ukphone": "ˌɪntəˈsɛkʃᵊn",
         "usphone": "ˌɪntərˈsɛkʃən"
@@ -9194,7 +9194,7 @@
     {
         "name": "crossroad",
         "trans": [
-            "十字路口"
+            "ngã ba, ngã tư"
         ],
         "ukphone": "ˈkrɒsˌrəʊd",
         "usphone": "ˈkrɔsˌroʊd"
@@ -9290,7 +9290,7 @@
     {
         "name": "Edinburgh",
         "trans": [
-            "爱丁堡"
+            "Edinburgh"
         ],
         "ukphone": "ˈɛdɪnbrə",
         "usphone": "ˈɛdənbəroʊ"
@@ -9298,7 +9298,7 @@
     {
         "name": "England",
         "trans": [
-            "英格兰"
+            "Anh"
         ],
         "ukphone": "ˈɪŋɡlənd",
         "usphone": "ˈɪŋɡlənd"
@@ -9322,7 +9322,7 @@
     {
         "name": "London",
         "trans": [
-            "伦敦"
+            "Luân Đôn"
         ],
         "ukphone": "ˈlʌndən",
         "usphone": "ˈlʌndən"
@@ -9338,7 +9338,7 @@
     {
         "name": "Northern Ireland",
         "trans": [
-            "北爱尔兰"
+            "Bắc Ireland"
         ],
         "ukphone": "ˈnɔːðᵊn ˈaɪələnd",
         "usphone": "ˈnɔrðərn ˈaɪərlənd"
@@ -9346,7 +9346,7 @@
     {
         "name": "Scotland",
         "trans": [
-            "苏格兰"
+            "Scotland"
         ],
         "ukphone": "ˈskɒtlənd",
         "usphone": "ˈskɑtlənd"
@@ -9394,7 +9394,7 @@
     {
         "name": "Canberra",
         "trans": [
-            "堪培拉"
+            "Canberra"
         ],
         "ukphone": "ˈkænbᵊrə",
         "usphone": "ˌkænˈbɛrə"
@@ -9442,7 +9442,7 @@
     {
         "name": "Sydney",
         "trans": [
-            "悉尼"
+            "Sydney"
         ],
         "ukphone": "ˈsɪdni",
         "usphone": "ˈsɪdni"

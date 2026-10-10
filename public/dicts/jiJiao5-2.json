@@ -2,9 +2,9 @@
     {
         "name": "run",
         "trans": [
-            "n. 奔跑；赛跑；趋向；奔跑的路程",
-            "vt. 管理，经营；运行；参赛",
-            "vi. 经营；奔跑；运转"
+            "(n.) chạy; cuộc đua; xu hướng; quãng đường",
+            "(vt.) quản lý; điều hành; chạy; tham gia đua",
+            "(vi.) hoạt động; chạy; vận hành"
         ],
         "usphone": "[rʌn]",
         "ukphone": "[rʌn]"
@@ -21,9 +21,9 @@
     {
         "name": "jump",
         "trans": [
-            "n. 跳跃；暴涨；惊跳",
-            "vt. 跳跃；使跳跃；跳过；突升",
-            "vi. 跳跃；暴涨；猛增"
+            "n. bước nhảy; tăng vọt; giật mình",
+            "vt. nhảy; làm nhảy; bỏ qua; tăng vọt",
+            "vi. nhảy; tăng vọt; tăng đột ngột"
         ],
         "usphone": "[dʒʌmp]",
         "ukphone": "[dʒʌmp]"
@@ -41,10 +41,10 @@
     {
         "name": "dance",
         "trans": [
-            "n. 舞蹈；舞会；舞曲",
-            "adj. 舞蹈的；用于跳舞的",
-            "vt. 跳舞；使跳跃",
-            "vi. 跳舞；跳跃；飘扬"
+            "n. khiêu vũ; buổi khiêu vũ; bài nhạc khiêu vũ",
+            "adj. liên quan đến khiêu vũ; dùng để khiêu vũ",
+            "vt. nhảy; làm nhảy",
+            "vi. nhảy; bật lên; bay phấp phới"
         ],
         "usphone": "[dæns]",
         "ukphone": "[dɑːns]"
@@ -52,8 +52,8 @@
     {
         "name": "sit",
         "trans": [
-            "vi. 坐；位于",
-            "vt. 使就座"
+            "vi. ngồi; nằm ở",
+            "vt. làm ngồi; xếp chỗ"
         ],
         "usphone": "[sɪt]",
         "ukphone": "[sɪt]"
@@ -74,9 +74,9 @@
     {
         "name": "stand",
         "trans": [
-            "n. 站立；立场；看台；停止",
-            "vi. 站立；位于；停滞",
-            "vt. 使站立；忍受；抵抗"
+            "đứng; lập trường; khán đài; dừng lại",
+            "đứng; nằm ở; trì hoãn",
+            "làm đứng; chịu đựng; kháng cự"
         ],
         "usphone": "[stænd]",
         "ukphone": "[stænd]"
@@ -154,8 +154,8 @@
     {
         "name": "now",
         "trans": [
-            "adv. 现在；如今；立刻",
-            "adj. 现在的",
+            "adv. bây giờ; ngày nay; ngay lập tức",
+            "adj. hiện tại, hiện nay",
             "n. 现在；目前",
             "conj. 由于；既然"
         ],
@@ -165,9 +165,9 @@
     {
         "name": "draw",
         "trans": [
-            "n. 平局；抽签",
-            "vi. 拉；拖",
-            "vt. 画；拉；吸引"
+            "n. trận hòa; rút thăm",
+            "vi. kéo; kéo lê",
+            "vt. vẽ; kéo; thu hút"
         ],
         "usphone": "[drɔː]",
         "ukphone": "[drɔː]"
@@ -175,8 +175,8 @@
     {
         "name": "picture",
         "trans": [
-            "n. 照片，图画；影片；景色；化身",
-            "vt. 画；想像；描写"
+            "n. ảnh; hình ảnh; phim; cảnh; hình thành",
+            "vt. vẽ; tưởng tượng; mô tả"
         ],
         "usphone": "[ˈpɪktʃər]",
         "ukphone": "[ˈpɪktʃə(r)]"
@@ -202,9 +202,9 @@
     {
         "name": "cry",
         "trans": [
-            "n. 叫喊；叫声；口号；呼叫",
-            "vi. 哭；叫；喊",
-            "vt. 叫喊；哭出；大声说"
+            "n. tiếng hô; tiếng kêu; khẩu hiệu; cuộc gọi",
+            "vi. khóc; kêu; hô",
+            "vt. hô; khóc ra; nói to"
         ],
         "usphone": "[kraɪ]",
         "ukphone": "[kraɪ]"
@@ -212,9 +212,9 @@
     {
         "name": "talk",
         "trans": [
-            "n. 谈话；演讲；空谈",
-            "vi. 谈话；说闲话",
-            "vt. 说；谈话；讨论"
+            "n. đối thoại; bài nói; chuyện phiếm",
+            "vi. nói chuyện; nói chuyện phiếm",
+            "vt. nói; trò chuyện; thảo luận"
         ],
         "usphone": "[tɔːk]",
         "ukphone": "[tɔːk]"
@@ -231,8 +231,8 @@
     {
         "name": "sleep",
         "trans": [
-            "n. 睡眠",
-            "vi. 睡，睡觉"
+            "n. giấc ngủ",
+            "vi. ngủ"
         ],
         "usphone": "[sliːp]",
         "ukphone": "[sliːp]"
@@ -248,7 +248,7 @@
     {
         "name": "hungry",
         "trans": [
-            "adj. 饥饿的；渴望的；荒年的；不毛的"
+            "adj. đói; khao khát; cằn cỗi; vô sinh"
         ],
         "usphone": "[ˈhʌŋɡri]",
         "ukphone": "[ˈhʌŋɡri]"
@@ -256,9 +256,9 @@
     {
         "name": "water",
         "trans": [
-            "n. 水；海水；雨水；海域，大片的水",
-            "vt. 使湿；供以水；给…浇水",
-            "vi. 加水；流泪；流口水"
+            "nước; nước biển; nước mưa; vùng biển, toàn bộ nước",
+            "làm ẩm; cung cấp nước; tưới nước cho",
+            "thêm nước; chảy nước mắt; chảy nước dãi"
         ],
         "usphone": "[ˈwɔːtər]",
         "ukphone": "[ˈwɔːtə(r)]"
@@ -266,9 +266,9 @@
     {
         "name": "tea",
         "trans": [
-            "n. 茶叶；茶树；茶点",
-            "vt. 给…沏茶",
-            "vi. 喝茶；进茶点"
+            "n. lá trà; cây trà; bữa trà",
+            "vt. pha trà cho...",
+            "vi. uống trà; dùng bữa trà"
         ],
         "usphone": "[tiː]",
         "ukphone": "[tiː]"
@@ -287,8 +287,8 @@
     {
         "name": "people",
         "trans": [
-            "n. 人；人类；民族；公民",
-            "vt. 居住于；使住满人"
+            "n. người; nhân loại; dân tộc",
+            "vt. sinh sống tại; làm đông dân cư"
         ],
         "usphone": "[ˈpiːpl]",
         "ukphone": "[ˈpiːp(ə)l]"
@@ -313,7 +313,7 @@
     {
         "name": "children",
         "trans": [
-            "n. 孩子们（child的复数）"
+            "n. những đứa trẻ (số nhiều của child)"
         ],
         "usphone": "[ˈtʃɪldrən]",
         "ukphone": "[ˈtʃɪldrən]"
@@ -321,7 +321,7 @@
     {
         "name": "women",
         "trans": [
-            "n. 女人（woman的复数）"
+            "n. phụ nữ; nữ giới"
         ],
         "usphone": "[ˈwɪmɪn]",
         "ukphone": "[ˈwɪmɪn]"
@@ -354,7 +354,7 @@
     {
         "name": "say",
         "trans": [
-            "vt. 讲；说明；例如；声称；假设；指明",
+            "vt. nói; giải thích; ví dụ; tuyên bố; giả định; chỉ định",
             "vi. 讲；表示；念；假定；背诵"
         ],
         "usphone": "[seɪ]",
@@ -373,9 +373,9 @@
     {
         "name": "worry",
         "trans": [
-            "n. 担心；烦恼；撕咬",
-            "vi. 担心；烦恼；撕咬",
-            "vt. 担心；发愁；折磨"
+            "n. lo lắng; phiền toái; cắn",
+            "vi. lo lắng; phiền toái; cắn",
+            "vt. lo lắng; buồn bã; tra tấn"
         ],
         "usphone": "[ˈwɜːri]",
         "ukphone": "[ˈwʌri]"
@@ -442,9 +442,9 @@
     {
         "name": "feel",
         "trans": [
-            "n. 感觉；触摸",
-            "vi. 觉得；摸索",
-            "vt. 感觉；认为；触摸；试探"
+            "(n.) cảm giác; chạm",
+            "(vi.) cảm thấy; tìm hiểu",
+            "(vt.) cảm thấy; cho rằng; chạm"
         ],
         "usphone": "[fiːl]",
         "ukphone": "[fiːl]"
@@ -452,8 +452,8 @@
     {
         "name": "tired",
         "trans": [
-            "v. 疲倦；对…腻烦（tire的过去分词形式）",
-            "adj. 疲倦的；厌倦的，厌烦的"
+            "v. Mệt mỏi; chán ngán",
+            "adj. Mệt mỏi; chán chường; buồn"
         ],
         "usphone": "[ˈtaɪərd]",
         "ukphone": "[ˈtaɪəd]"
@@ -461,9 +461,9 @@
     {
         "name": "stop",
         "trans": [
-            "n. 停止；车站；障碍；逗留",
-            "vi. 停止；中止；逗留；被塞住",
-            "vt. 停止；堵塞；断绝"
+            "n. dừng lại; trạm; chướng ngại; lưu trú",
+            "vi. dừng lại; ngừng; lưu trú; bị tắc",
+            "vt. dừng lại; tắc; ngắt đứt"
         ],
         "usphone": "[stɑːp]",
         "ukphone": "[stɒp]"
@@ -471,9 +471,9 @@
     {
         "name": "wait",
         "trans": [
-            "n. 等待；等候",
-            "vi. 等待；耽搁；伺候用餐",
-            "vt. 等候；推迟；延缓"
+            "n. sự chờ đợi; sự đợi",
+            "vi. chờ đợi; chậm trễ; hầu bàn",
+            "vt. chờ; hoãn; trì hoãn"
         ],
         "usphone": "[weɪt]",
         "ukphone": "[weɪt]"
@@ -490,7 +490,7 @@
         "name": "for",
         "trans": [
             "prep. 为，为了；因为；给；对于；至于；适合于",
-            "conj. 因为"
+            "conj. bởi vì"
         ],
         "usphone": "[fər; fɔːr]",
         "ukphone": "[fə(r)]"
@@ -507,8 +507,8 @@
     {
         "name": "much",
         "trans": [
-            "adv. 非常，很",
-            "adj. 大量的",
+            "adv. rất, hết sức",
+            "adj. lượng lớn",
             "n. 许多，大"
         ],
         "usphone": "[mʌtʃ]",
@@ -553,7 +553,7 @@
     {
         "name": "dear",
         "trans": [
-            "n. 亲爱的人",
+            "n. người thân mến",
             "adj. 亲爱的；尊敬的；昂贵的",
             "adv. 高价地；疼爱地",
             "int. 哎呀"
@@ -564,10 +564,10 @@
     {
         "name": "fine",
         "trans": [
-            "n. 罚款",
-            "adj. 好的；优良的；细小的，精美的；健康的；晴朗的",
-            "vt. 罚款；澄清",
-            "adv. 很好地；精巧地"
+            "n. tiền phạt",
+            "adj. tốt; tốt lành; nhỏ tinh tế, đẹp mỹ; khỏe mạnh; quang đãng",
+            "vt. phạt tiền; làm sáng tỏ",
+            "adv. rất tốt; tinh tế"
         ],
         "usphone": "[faɪn]",
         "ukphone": "[faɪn]"
@@ -575,10 +575,10 @@
     {
         "name": "left",
         "trans": [
-            "adj. 左边的；左派的；剩下的",
-            "adv. 在左面",
-            "n. 左边；左派；激进分子",
-            "v. 离开（leave的过去式）"
+            "adj. bên trái; cánh tả; còn lại",
+            "adv. ở phía bên trái",
+            "n. bên trái; cánh tả; nhân vật cực đoan",
+            "v. rời đi"
         ],
         "usphone": "[left]",
         "ukphone": "[left]"
@@ -586,11 +586,11 @@
     {
         "name": "right",
         "trans": [
-            "n. 正确；右边；正义",
-            "adj. 正确的；直接的；右方的",
-            "vt. 纠正",
-            "adv. 正确地；恰当地；彻底地",
-            "vi. 复正；恢复平稳"
+            "n. điều đúng; bên phải; công lý",
+            "adj. đúng; trực tiếp; bên phải",
+            "vt. sửa chữa",
+            "adv. đúng; thích hợp; hoàn toàn",
+            "vi. khôi phục; ổn định"
         ],
         "usphone": "[raɪt]",
         "ukphone": "[raɪt]"
@@ -598,9 +598,9 @@
     {
         "name": "turn",
         "trans": [
-            "n. 转弯；变化；(损害或有益于别人的)行为，举动，举止",
-            "vi. 转向；转变；转动",
-            "vt. 转动，使旋转；转弯；翻过来；兑换"
+            "n. cong; thay đổi; hành động",
+            "vi. quay; thay đổi; xoay",
+            "vt. xoay, quay; quay; lật; đổi"
         ],
         "usphone": "[tɜːrn]",
         "ukphone": "[tɜːn]"
@@ -608,10 +608,10 @@
     {
         "name": "wrong",
         "trans": [
-            "n. 坏事；不公正",
-            "adj. 错误的；失常的；不适当的",
-            "vt. 委屈；无理地对待；诽谤",
-            "adv. 错误地；邪恶地，不正当地"
+            "n. điều xấu; sự bất công",
+            "adj. sai; bất thường; không thích hợp",
+            "vt. làm ấm ức; đối xử vô lý; vu oan",
+            "adv. sai lầm; tà dâm, bất chính"
         ],
         "usphone": "[rɔːŋ]",
         "ukphone": "[rɒŋ]"
@@ -619,8 +619,8 @@
     {
         "name": "email",
         "trans": [
-            "n. 电子信函",
-            "vt. 给…发电子邮件"
+            "n. thư điện tử",
+            "vt. gửi email cho"
         ],
         "usphone": "[ˈiːmeɪl]",
         "ukphone": "[ˈiːmeɪl]"
@@ -628,7 +628,7 @@
     {
         "name": "idea",
         "trans": [
-            "n. 想法；主意；概念"
+            "n. ý tưởng; ý kiến; khái niệm"
         ],
         "usphone": "[aɪˈdiːə]",
         "ukphone": "[aɪˈdɪə]"
@@ -644,9 +644,9 @@
     {
         "name": "use",
         "trans": [
-            "n. 使用；用途；发挥",
-            "vt. 利用；耗费",
-            "vi. 使用，运用"
+            "n. sử dụng; mục đích; ứng dụng",
+            "vt. sử dụng; tiêu tốn; chi tiêu",
+            "vi. sử dụng; vận dụng"
         ],
         "usphone": "[juːz]",
         "ukphone": "[juːz]"
@@ -654,8 +654,8 @@
     {
         "name": "kind",
         "trans": [
-            "n. 种类；性质",
-            "adj. 和蔼的；宽容的；令人感激的"
+            "n. loại; bản chất; tính chất",
+            "adj. tốt bụng; khoan dung; tạ ơn"
         ],
         "usphone": "[kaɪnd]",
         "ukphone": "[kaɪnd]"
@@ -663,7 +663,7 @@
     {
         "name": "us",
         "trans": [
-            "pron. 我们"
+            "pron. chúng tôi, chúng ta"
         ],
         "usphone": "[əs; ʌs]",
         "ukphone": "[əs; ʌs]"
@@ -679,9 +679,9 @@
     {
         "name": "story",
         "trans": [
-            "n. 故事；小说；新闻报道；来历；假话",
-            "vt. 用历史故事画装饰",
-            "vi. 说谎"
+            "n. câu chuyện; tiểu thuyết; tin tức; lịch sử; dối trá",
+            "vt. trang trí bằng tranh lịch sử",
+            "vi. nói dối"
         ],
         "usphone": "[ˈstɔːri]",
         "ukphone": "[ˈstɔːri]"
@@ -718,8 +718,8 @@
     {
         "name": "night",
         "trans": [
-            "n. 夜晚，晚上；黑暗，黑夜",
-            "adj. 夜晚的，夜间的"
+            "n. tối; đêm",
+            "adj. ban đêm"
         ],
         "usphone": "[naɪt]",
         "ukphone": "[naɪt]"
@@ -736,8 +736,8 @@
     {
         "name": "have",
         "trans": [
-            "aux. 已经",
-            "vt. 有；让；拿；从事；允许"
+            "động từ phụ trợ: đã",
+            "động từ ngoại: có; để; lấy; thực hiện; cho phép"
         ],
         "usphone": "[həv; əv; hæv]",
         "ukphone": "[həv]"
@@ -753,7 +753,7 @@
     {
         "name": "go",
         "trans": [
-            "n. 去；进行；尝试",
+            "n. đi; tiến hành; thử",
             "vi. 走；达到；运转；趋于",
             "vt. 忍受；出产；以…打赌",
             "[复数 goes 第三人称单数 goes 过去式 went 过去分词 gone 现在分词 going]"
@@ -792,8 +792,8 @@
     {
         "name": "eat",
         "trans": [
-            "vt. 吃，喝；腐蚀；烦扰",
-            "vi. 进食；腐蚀，侵蚀"
+            "vt. ăn, uống; ăn mòn; làm phiền",
+            "vi. ăn; ăn mòn, xâm thực"
         ],
         "usphone": "[iːt]",
         "ukphone": "[iːt]"
@@ -801,7 +801,7 @@
     {
         "name": "photo",
         "trans": [
-            "n. 照片"
+            "n. anh chup"
         ],
         "usphone": "[ˈfoʊtoʊ]",
         "ukphone": "[ˈfəʊtəʊ]"
@@ -868,9 +868,9 @@
     {
         "name": "buy",
         "trans": [
-            "n. 购买，买卖；所购的物品",
-            "vi. 买，采购",
-            "vt. 购买；获得；贿赂"
+            "n. mua hàng; buôn bán; hàng hóa mua",
+            "vi. mua; mua hàng",
+            "vt. mua; nhận được; hối lộ"
         ],
         "usphone": "[baɪ]",
         "ukphone": "[baɪ]"
@@ -878,11 +878,11 @@
     {
         "name": "back",
         "trans": [
-            "n. 后面；背部；靠背；足球等的后卫；书报等的末尾",
-            "adj. 后面的；过去的；拖欠的",
-            "vt. 支持；后退；背书；下赌注",
-            "adv. 以前；向后地；来回地；上溯；回来；回原处",
-            "vi. 后退；背靠；倒退"
+            "n. phía sau; lưng; tựa lưng; hậu vệ; trang cuối",
+            "adj. phía sau; quá khứ; còn nợ",
+            "vt. ủng hộ; lùi lại; ký bảo lãnh; đặt cược",
+            "adv. trước đây; hướng sau; qua lại; trở lại; về chỗ cũ",
+            "vi. lùi lại; dựa lưng; lùi xuống"
         ],
         "usphone": "[bæk]",
         "ukphone": "[bæk]"

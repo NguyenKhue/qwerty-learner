@@ -13,8 +13,8 @@
     {
         "name": "football",
         "trans": [
-            "n. 足球，橄榄球",
-            "vi. 踢足球；打橄榄球"
+            "n. bóng đá, bóng bầu dục",
+            "vi. đá bóng; chơi bóng bầu dục"
         ],
         "usphone": "[ˈfʊtbɔːl]",
         "ukphone": "[ˈfʊtbɔːl]"
@@ -42,8 +42,8 @@
     {
         "name": "wear",
         "trans": [
-            "n. 衣物；磨损；耐久性",
-            "v. 穿着；用旧；耗损；面露"
+            "n. quần áo; hao mòn; độ bền",
+            "v. mặc; mài mòn; hao mòn; hiển"
         ],
         "usphone": "[wer]",
         "ukphone": "[weə(r)]"
@@ -67,9 +67,9 @@
     {
         "name": "try",
         "trans": [
-            "n. 尝试；努力；试验",
-            "vt. 试图，努力；试验；审判；考验",
-            "vi. 尝试；努力；试验"
+            "n. cố gắng; nỗ lực; thử",
+            "vt. cố gắng; thử; thẩm phán; kiểm tra",
+            "vi. cố gắng; thử; thẩm phán"
         ],
         "usphone": "[traɪ]",
         "ukphone": "[traɪ]"
@@ -77,9 +77,9 @@
     {
         "name": "heavy",
         "trans": [
-            "n. 重物；严肃角色",
-            "adj. 沉重的；繁重的，巨大的；拥挤的；阴沉的",
-            "adv. 大量地；笨重地"
+            "n. vật nặng; vai trò nghiêm túc",
+            "adj. nặng; nặng nề; lớn; chật chội; ảm đạm",
+            "adv. nặng nề; vụng về"
         ],
         "usphone": "[ˈhevi]",
         "ukphone": "[ˈhevi]"
@@ -87,7 +87,7 @@
     {
         "name": "difficult",
         "trans": [
-            "adj. 困难的；不随和的；执拗的"
+            "(adj.) khó khăn; cứng đầu; bướng bỉnh"
         ],
         "usphone": "[ˈdɪfɪkəlt]",
         "ukphone": "[ˈdɪfɪkəlt]"
@@ -106,8 +106,8 @@
     {
         "name": "hand",
         "trans": [
-            "n. 手，手艺；帮助；指针；插手",
-            "vt. 传递，交给；支持；搀扶"
+            "danh từ: tay; tay nghề; sự giúp đỡ; con trỏ; can thiệp",
+            "động từ ngoại: chuyển; trao; hỗ trợ; giúp"
         ],
         "usphone": "[hænd]",
         "ukphone": "[hænd]"
@@ -115,9 +115,9 @@
     {
         "name": "game",
         "trans": [
-            "n. 游戏；比赛",
-            "adj. 勇敢的",
-            "vi. 赌博"
+            "n. trò chơi; cuộc đua",
+            "adj. dũng cảm",
+            "vi. cá cược"
         ],
         "usphone": "[ɡeɪm]",
         "ukphone": "[ɡeɪm]"
@@ -125,8 +125,8 @@
     {
         "name": "ask",
         "trans": [
-            "vt. 问，询问；要求；需要；邀请；讨价",
-            "vi. 问，询问；要求"
+            "vt. hỏi, hỏi thăm; yêu cầu; cần; mời; đàm phán giá",
+            "vi. hỏi, hỏi thăm; yêu cầu"
         ],
         "usphone": "[æsk]",
         "ukphone": "[ɑːsk]"
@@ -134,8 +134,8 @@
     {
         "name": "very",
         "trans": [
-            "adv. 非常，很；完全",
-            "adj. 恰好是，正是；甚至；十足的；特有的"
+            "trạng từ: rất; hoàn toàn",
+            "tính từ: chính xác; thậm chí; toàn bộ; riêng biệt"
         ],
         "usphone": "[ˈveri]",
         "ukphone": "[ˈveri]"
@@ -143,9 +143,9 @@
     {
         "name": "answer",
         "trans": [
-            "n. 回答；答案；答辩",
-            "vt. 回答；符合",
-            "vi. 回答；符合"
+            "n. câu trả lời; đáp án; phản biện",
+            "vt. trả lời; phù hợp, khớp với",
+            "vi. trả lời; phù hợp, khớp với"
         ],
         "usphone": "[ˈænsər]",
         "ukphone": "[ˈɑːnsə(r)]"
@@ -161,7 +161,7 @@
     {
         "name": "healthy",
         "trans": [
-            "adj. 健康的，健全的；有益于健康的"
+            "adj. khỏe mạnh, lành mạnh; có lợi cho sức khỏe"
         ],
         "usphone": "[ˈhelθi]",
         "ukphone": "[ˈhelθi]"
@@ -209,7 +209,7 @@
     {
         "name": "next",
         "trans": [
-            "adv. 然后；下次；其次",
+            "adv. sau đó; lần tới; kế tiếp",
             "adj. 下一个的；其次的；贴近的",
             "n. 下一个",
             "prep. 靠近；居于…之后"
@@ -228,9 +228,9 @@
     {
         "name": "exercise",
         "trans": [
-            "n. 运动；练习；运用；操练；礼拜；典礼",
-            "vt. 锻炼；练习；使用；使忙碌；使惊恐",
-            "vi. 运动；练习"
+            "chuyển động; bài tập; sử dụng; huấn luyện; lễ bái; nghi lễ",
+            "rèn luyện; luyện tập; sử dụng; làm bận rộn; làm sợ hãi",
+            "chuyển động; luyện tập"
         ],
         "usphone": "[ˈeksərsaɪz]",
         "ukphone": "[ˈeksəsaɪz]"
@@ -238,8 +238,8 @@
     {
         "name": "minute",
         "trans": [
-            "n. 分，分钟；片刻，一会儿；备忘录，笔记；会议记录",
-            "vt. 将…记录下来",
+            "n. phút; chốc lát; ghi chú, ghi nhớ; biên bản họp",
+            "vt. ghi lại",
             "adj. 微小的，详细的 [maɪˈnjuːt; US -ˈnuːt; maɪˋnut]"
         ],
         "usphone": "[ˈmɪnɪt]",
@@ -248,7 +248,7 @@
     {
         "name": "hour",
         "trans": [
-            "n. 小时；钟头；课时；…点钟"
+            "n. giờ; tiếng; tiết học; ...giờ"
         ],
         "usphone": "[ˈaʊər]",
         "ukphone": "[ˈaʊə(r)]"
@@ -256,9 +256,9 @@
     {
         "name": "high",
         "trans": [
-            "n. 高水平；天空；由麻醉品引起的快感；高压地带",
-            "adj. 高的；高级的；崇高的；高音调的",
-            "adv. 高；奢侈地"
+            "n. mức độ cao; bầu trời; cảm giác phê từ ma túy; vùng áp suất cao",
+            "adj. cao; cao cấp; cao quý; cao trầm",
+            "adv. cao; xa xỉ"
         ],
         "usphone": "[haɪ]",
         "ukphone": "[haɪ]"
@@ -266,9 +266,9 @@
     {
         "name": "fan",
         "trans": [
-            "n. 迷；风扇；爱好者",
-            "vt. 煽动；刺激；吹拂",
-            "vi. 成扇形散开；飘动"
+            "n. người mê; quạt; người yêu thích",
+            "vt. kích động; kích thích; thổi",
+            "vi. tỏa ra hình quạt; bay lơ lửng"
         ],
         "usphone": "[fæn]",
         "ukphone": "[fæn]"
@@ -276,11 +276,11 @@
     {
         "name": "close",
         "trans": [
-            "n. 结束",
-            "adj. 紧密的；亲密的；亲近的",
-            "vt. 关；结束；使靠近",
-            "vi. 关；结束；关闭",
-            "adv. 紧密地"
+            "n. kết thúc",
+            "adj. chặt chẽ; thân mật; gần gũi",
+            "vt. đóng; kết thúc; tiếp cận",
+            "vi. đóng; kết thúc",
+            "adv. chặt chẽ"
         ],
         "usphone": "[kloʊz; kloʊs]",
         "ukphone": "[kləʊz]"
@@ -306,7 +306,7 @@
     {
         "name": "swim",
         "trans": [
-            "n. 游泳；漂浮；眩晕",
+            "n. bơi lội; nổi; chóng mặt",
             "adj. 游泳时穿戴的",
             "vi. 游泳；漂浮；浸；眩晕",
             "vt. 游过；使浮起"
@@ -325,9 +325,9 @@
     {
         "name": "ship",
         "trans": [
-            "n. 船；舰；太空船",
-            "vt. 运送，乘船；以船运送",
-            "vi. 上船；乘船旅行；当船员"
+            "n. tàu; thuyền; phi thuyền",
+            "vt. vận chuyển; chở bằng tàu",
+            "vi. lên tàu; đi du lịch bằng tàu; làm thủy thủ"
         ],
         "usphone": "[ʃɪp]",
         "ukphone": "[ʃɪp]"
@@ -335,9 +335,9 @@
     {
         "name": "visit",
         "trans": [
-            "n. 访问；参观；逗留",
-            "vt. 访问；参观；视察",
-            "vi. 访问；暂住；闲谈"
+            "n. thăm viếng; tham quan; lưu lại",
+            "vt. thăm viếng; tham quan; thanh tra",
+            "vi. thăm viếng; ở tạm; trò chuyện"
         ],
         "usphone": "[ˈvɪzɪt]",
         "ukphone": "[ˈvɪzɪt]"
@@ -345,8 +345,8 @@
     {
         "name": "clever",
         "trans": [
-            "adj. 聪明的；机灵的；熟练的",
-            "[ 比较级cleverer 最高级 cleverest ]"
+            "adj. thông minh; nhanh nhẹn; khéo léo",
+            "[ so sánh hơn cleverer so sánh nhất cleverest ]"
         ],
         "usphone": "[ˈklevər]",
         "ukphone": "[ˈklevə(r)]"
@@ -354,9 +354,9 @@
     {
         "name": "find",
         "trans": [
-            "n. 发现",
-            "vi. 裁决",
-            "vt. 查找，找到；发现；认为；感到；获得"
+            "n. sự phát hiện",
+            "vi. quyết định",
+            "vt. tìm thấy; phát hiện; cảm thấy"
         ],
         "usphone": "[faɪnd]",
         "ukphone": "[faɪnd]"
@@ -364,8 +364,8 @@
     {
         "name": "found",
         "trans": [
-            "v. 找到（find的过去分词）",
-            "vt. 创立，建立；创办"
+            "v. tìm thấy",
+            "vt. thành lập; sáng lập"
         ],
         "usphone": "[faʊnd]",
         "ukphone": "[faʊnd]"
@@ -400,8 +400,8 @@
     {
         "name": "tell",
         "trans": [
-            "vt. 告诉，说；辨别；吩咐；断定",
-            "vi. 讲述；告发，泄密；识别"
+            "vt. nói; phân biệt; lệnh; xác định",
+            "vi. kể lại; tố cáo; tiết lộ; nhận dạng"
         ],
         "usphone": "[tel]",
         "ukphone": "[tel]"
@@ -418,8 +418,8 @@
     {
         "name": "late",
         "trans": [
-            "adj. 晚的；迟的；已故的；最近的",
-            "adv. 晚；迟；最近；在晚期"
+            "adj. muộn; quá cố; gần đây",
+            "adv. muộn; gần đây; ở giai đoạn cuối"
         ],
         "usphone": "[leɪt]",
         "ukphone": "[leɪt]"
@@ -427,8 +427,8 @@
     {
         "name": "early",
         "trans": [
-            "adj. 早期的；早熟的",
-            "adv. 提早；在初期"
+            "adj. sớm; sớm trưởng thành",
+            "adv. sớm; trong giai đoạn đầu"
         ],
         "usphone": "[ˈɜːrli]",
         "ukphone": "[ˈɜːli]"
@@ -466,7 +466,7 @@
         "name": "good-bye",
         "trans": [
             "n. 告辞",
-            "int. 再见"
+            "int. tạm biệt"
         ],
         "usphone": "[ɡʊd baɪ]",
         "ukphone": "[ˌɡʊd ˈbaɪ]"
@@ -474,8 +474,8 @@
     {
         "name": "hear",
         "trans": [
-            "vi. 听；听见",
-            "vt. 听到，听；听说；审理"
+            "vi. nghe; nghe thấy",
+            "vt. nghe; nghe thấy; nghe nói; xét xử"
         ],
         "usphone": "[hɪr]",
         "ukphone": "[hɪə(r)]"

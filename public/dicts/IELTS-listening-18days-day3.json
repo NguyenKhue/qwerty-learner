@@ -1,310 +1,464 @@
 [
     {
         "name": "remain",
-        "trans": ["v. 保持"]
+        "trans": [
+            "v. giữ"
+        ]
     },
     {
         "name": "detailed",
-        "trans": ["adj. 详细的"]
+        "trans": [
+            "adj. chi tiết"
+        ]
     },
     {
         "name": "disadvantage",
-        "trans": ["n. 缺点"]
+        "trans": [
+            "n. nhược điểm"
+        ]
     },
     {
         "name": "lift",
-        "trans": ["v. 举起"]
+        "trans": [
+            "v. giơ lên"
+        ]
     },
     {
         "name": "medical",
-        "trans": ["adj. 医学的"]
+        "trans": [
+            "adj. y học"
+        ]
     },
     {
         "name": "arrange",
-        "trans": ["v. 安排"]
+        "trans": [
+            "v. sắp xếp"
+        ]
     },
     {
         "name": "artist",
-        "trans": ["n. 艺术家"]
+        "trans": [
+            "n. nghệ sĩ"
+        ]
     },
     {
         "name": "passport",
-        "trans": ["n. 护照"]
+        "trans": [
+            "n. ho chieu"
+        ]
     },
     {
         "name": "university",
-        "trans": ["n. 大学"]
+        "trans": [
+            "n. trường đại học"
+        ]
     },
     {
         "name": "occupation",
-        "trans": ["n. 职业"]
+        "trans": [
+            "n. nghề nghiệp"
+        ]
     },
     {
         "name": "audience",
-        "trans": ["n. 观众"]
+        "trans": [
+            "n. khán giả"
+        ]
     },
     {
         "name": "landscape",
-        "trans": ["n. 风景"]
+        "trans": [
+            "n. phong cảnh"
+        ]
     },
     {
         "name": "clay",
-        "trans": ["n. 黏土"]
+        "trans": [
+            "n. đất sét"
+        ]
     },
     {
         "name": "advantage",
-        "trans": ["n. 优点"]
+        "trans": [
+            "n. ưu điểm"
+        ]
     },
     {
         "name": "deck",
-        "trans": ["n. 甲板"]
+        "trans": [
+            "n. boong tàu"
+        ]
     },
     {
         "name": "tourist",
-        "trans": ["n. 旅行者"]
+        "trans": [
+            "n. người đi du lịch"
+        ]
     },
     {
         "name": "entrance",
-        "trans": ["n. 入口"]
+        "trans": [
+            "n. lối vào"
+        ]
     },
     {
         "name": "concern",
-        "trans": ["n. 担心的事"]
+        "trans": [
+            "n. điều lo lắng"
+        ]
     },
     {
         "name": "feature",
-        "trans": ["n. 特色"]
+        "trans": [
+            "n. đặc sản"
+        ]
     },
     {
         "name": "service",
-        "trans": ["n. 服务"]
+        "trans": [
+            "n. dịch vụ"
+        ]
     },
     {
         "name": "opportunity",
-        "trans": ["n. 机会"]
+        "trans": [
+            "n. cơ hội"
+        ]
     },
     {
         "name": "band",
-        "trans": ["n. 队"]
+        "trans": [
+            "n. đội"
+        ]
     },
     {
         "name": "camp",
-        "trans": ["n. 露营"]
+        "trans": [
+            "n. cắm trại"
+        ]
     },
     {
         "name": "festival",
-        "trans": ["n. 节日"]
+        "trans": [
+            "n. lễ hội"
+        ]
     },
     {
         "name": "protection",
-        "trans": ["n. 保护"]
+        "trans": [
+            "n. sự bảo vệ"
+        ]
     },
     {
         "name": "model",
-        "trans": ["n. 模型"]
+        "trans": [
+            "n. mô hình"
+        ]
     },
     {
         "name": "salt",
-        "trans": ["n. 盐"]
+        "trans": [
+            "n. muối"
+        ]
     },
     {
         "name": "purple",
-        "trans": ["n. 紫色"]
+        "trans": [
+            "n. màu tím"
+        ]
     },
     {
         "name": "calorie",
-        "trans": ["n. 卡路里"]
+        "trans": [
+            "n. calo"
+        ]
     },
     {
         "name": "race",
-        "trans": ["n. 比赛"]
+        "trans": [
+            "n. cuộc thi"
+        ]
     },
     {
         "name": "concert",
-        "trans": ["n. 音乐会"]
+        "trans": [
+            "n. buổi hoà nhạc"
+        ]
     },
     {
         "name": "provide",
-        "trans": ["v. 提供"]
+        "trans": [
+            "v. cung cấp"
+        ]
     },
     {
         "name": "broadcast",
-        "trans": ["v. 广播"]
+        "trans": [
+            "v. phát thanh"
+        ]
     },
     {
         "name": "tent",
-        "trans": ["n. 帐篷"]
+        "trans": [
+            "n. lều trại"
+        ]
     },
     {
         "name": "piano",
-        "trans": ["n. 钢琴"]
+        "trans": [
+            "n. đàn piano"
+        ]
     },
     {
         "name": "share",
-        "trans": ["v. 分享"]
+        "trans": [
+            "v. chia sẻ"
+        ]
     },
     {
         "name": "discount",
-        "trans": ["n. 折扣"]
+        "trans": [
+            "n. chiết khấu, giảm giá"
+        ]
     },
     {
         "name": "tablet",
-        "trans": ["n. 药片"]
+        "trans": [
+            "n. viên thuốc"
+        ]
     },
     {
         "name": "original",
-        "trans": ["adj. 原始的"]
+        "trans": [
+            "adj. nguyên thủy"
+        ]
     },
     {
         "name": "control",
-        "trans": ["n. 控制"]
+        "trans": [
+            "n. quyền kiểm soát"
+        ]
     },
     {
         "name": "handle",
-        "trans": ["v. 操作"]
+        "trans": [
+            "v. thao tác"
+        ]
     },
     {
         "name": "participant",
-        "trans": ["n. 参与者"]
+        "trans": [
+            "n. người tham gia"
+        ]
     },
     {
         "name": "repair",
-        "trans": ["n. 修理"]
+        "trans": [
+            "n. việc sửa chữa"
+        ]
     },
     {
         "name": "advertisement",
-        "trans": ["n. 广告"]
+        "trans": [
+            "n. quảng cáo"
+        ]
     },
     {
         "name": "silver",
-        "trans": ["n. 银色"]
+        "trans": [
+            "n. màu bạc"
+        ]
     },
     {
         "name": "additional",
-        "trans": ["adj. 附加的"]
+        "trans": [
+            "adj. bổ sung"
+        ]
     },
     {
         "name": "dining room",
-        "trans": ["n. 餐厅"]
+        "trans": [
+            "n. nhà hàng"
+        ]
     },
     {
         "name": "candle",
-        "trans": ["n. 蜡烛"]
+        "trans": [
+            "n. nến"
+        ]
     },
     {
         "name": "single",
-        "trans": ["n. 单个的"]
+        "trans": [
+            "n. cá nhân"
+        ]
     },
     {
         "name": "performance",
-        "trans": ["n. 表演"]
+        "trans": [
+            "n. buổi biểu diễn"
+        ]
     },
     {
         "name": "supermarket",
-        "trans": ["n. 超市"]
+        "trans": [
+            "n. siêu thị"
+        ]
     },
     {
         "name": "avenue",
-        "trans": ["n. 大街"]
+        "trans": [
+            "n. đường phố"
+        ]
     },
     {
         "name": "available",
-        "trans": ["adj. 可获得的"]
+        "trans": [
+            "adj. có sẵn"
+        ]
     },
     {
         "name": "vacuum",
-        "trans": ["n. 真空"]
+        "trans": [
+            "n. chân không"
+        ]
     },
     {
         "name": "registration",
-        "trans": ["n. 登记"]
+        "trans": [
+            "n. việc đăng ký"
+        ]
     },
     {
         "name": "sale",
-        "trans": ["n. 出售"]
+        "trans": [
+            "n. việc bán"
+        ]
     },
     {
         "name": "cousin",
-        "trans": ["n. 堂兄弟姐妹"]
+        "trans": [
+            "n. anh họ"
+        ]
     },
     {
         "name": "reusable",
-        "trans": ["adj. 可以再使用的"]
+        "trans": [
+            "adj. có thể tái sử dụng"
+        ]
     },
     {
         "name": "certificate",
-        "trans": ["n. 证书"]
+        "trans": [
+            "n. chứng chỉ"
+        ]
     },
     {
         "name": "swimming pool",
-        "trans": ["n. 游泳池"]
+        "trans": [
+            "n. bể bơi"
+        ]
     },
     {
         "name": "initial",
-        "trans": ["adj. 最初的"]
+        "trans": [
+            "adj. ban đầu"
+        ]
     },
     {
         "name": "garage",
-        "trans": ["n. 车库"]
+        "trans": [
+            "n. nhà để xe"
+        ]
     },
     {
         "name": "deliver",
-        "trans": ["v. 传递"]
+        "trans": [
+            "v. chuyển"
+        ]
     },
     {
         "name": "primary school",
-        "trans": ["n. 小学"]
+        "trans": [
+            "n. trường tiểu học"
+        ]
     },
     {
         "name": "purchase",
-        "trans": ["n. 购买"]
+        "trans": [
+            "n. việc mua"
+        ]
     },
     {
         "name": "consult",
-        "trans": ["v. 请教：咨询"]
+        "trans": [
+            "v. hỏi han"
+        ]
     },
     {
         "name": "alarm",
-        "trans": ["n. 闹钟：警报"]
+        "trans": [
+            "n. báo thức; báo động"
+        ]
     },
     {
         "name": "driving license",
-        "trans": ["n. 行车执照"]
+        "trans": [
+            "n. giấy phép lái xe"
+        ]
     },
     {
         "name": "sandwich",
-        "trans": ["n. 三明治"]
+        "trans": [
+            "n. bánh mì kẹp"
+        ]
     },
     {
         "name": "postcode",
-        "trans": ["n. 邮编"]
+        "trans": [
+            "n. mã bưu chính"
+        ]
     },
     {
         "name": "loss",
-        "trans": ["n. 减少"]
+        "trans": [
+            "n. việc giảm bớt"
+        ]
     },
     {
         "name": "technician",
-        "trans": ["n. 技术人员"]
+        "trans": [
+            "n. nhân viên kỹ thuật"
+        ]
     },
     {
         "name": "tour",
-        "trans": ["n. 旅行"]
+        "trans": [
+            "n. chuyến đi"
+        ]
     },
     {
         "name": "valid",
-        "trans": ["adj. 有效的"]
+        "trans": [
+            "adj. hiệu quả, có hiệu lực"
+        ]
     },
     {
         "name": "wheelchair",
-        "trans": ["n. 轮椅"]
+        "trans": [
+            "n. xe lăn"
+        ]
     },
     {
         "name": "fridge",
-        "trans": ["n. 电冰箱"]
+        "trans": [
+            "n. tủ lạnh"
+        ]
     },
     {
         "name": "poetry",
-        "trans": ["n. 诗"]
+        "trans": [
+            "n. thơ"
+        ]
     }
 ]

@@ -1,305 +1,457 @@
 [
     {
         "name": "motor",
-        "trans": ["n. 汽车"]
+        "trans": [
+            "n. ô tô"
+        ]
     },
     {
         "name": "hot balloon",
-        "trans": ["n. 热气球"]
+        "trans": [
+            "n. khinh cầu"
+        ]
     },
     {
         "name": "register",
-        "trans": ["v. 注册"]
+        "trans": [
+            "v. đăng ký"
+        ]
     },
     {
         "name": "calm",
-        "trans": ["adj. 平静的"]
+        "trans": [
+            "adj. bình tĩnh"
+        ]
     },
     {
         "name": "postal",
-        "trans": ["adj. 邮政的"]
+        "trans": [
+            "adj. bưu chính"
+        ]
     },
     {
         "name": "bonus",
-        "trans": ["n. 奖金"]
+        "trans": [
+            "n. tiền thưởng"
+        ]
     },
     {
         "name": "insect",
-        "trans": ["n. 昆虫"]
+        "trans": [
+            "n. côn trùng, loài bọ"
+        ]
     },
     {
         "name": "warning",
-        "trans": ["n. 警告"]
+        "trans": [
+            "n. lời cảnh báo"
+        ]
     },
     {
         "name": "seed",
-        "trans": ["n. 种子"]
+        "trans": [
+            "n. hạt giống"
+        ]
     },
     {
         "name": "custom",
-        "trans": ["n. 风俗习惯"]
+        "trans": [
+            "n. phong tục"
+        ]
     },
     {
         "name": "goods",
-        "trans": ["n. 商品"]
+        "trans": [
+            "n. hàng hóa, sản phẩm"
+        ]
     },
     {
-        "trans": ["v. 拒绝"]
+        "trans": [
+            "v. từ chối"
+        ]
     },
     {
         "name": "belonging",
-        "trans": ["n. 所有物"]
+        "trans": [
+            "n. đồ vật sở hữu"
+        ]
     },
     {
         "name": "monologue",
-        "trans": ["n. 独白"]
+        "trans": [
+            "n. độc thoại"
+        ]
     },
     {
         "name": "label",
-        "trans": ["n. 标签"]
+        "trans": [
+            "n. nhãn, tem"
+        ]
     },
     {
         "name": "applicant",
-        "trans": ["n. 申请人"]
+        "trans": [
+            "n. người xin việc, người ứng tuyển"
+        ]
     },
     {
         "name": "opportunity",
-        "trans": ["n. 机会"]
+        "trans": [
+            "n. cơ hội"
+        ]
     },
     {
         "name": "document",
-        "trans": ["n. 文件"]
+        "trans": [
+            "n. tài liệu, văn bản"
+        ]
     },
     {
         "name": "promotion",
-        "trans": ["n. 晋升"]
+        "trans": [
+            "n. sự thăng chức"
+        ]
     },
     {
         "name": "networking",
-        "trans": ["n. 一种互助性的网络体系"]
+        "trans": [
+            "n. mạng lưới hỗ trợ lẫn nhau"
+        ]
     },
     {
         "name": "self-employment",
-        "trans": ["n. 自营"]
+        "trans": [
+            "n. tự vận hành"
+        ]
     },
     {
         "name": "organization",
-        "trans": ["n. 组织"]
+        "trans": [
+            "n. tổ chức"
+        ]
     },
     {
         "name": "community",
-        "trans": ["n. 社区"]
+        "trans": [
+            "n. cộng đồng"
+        ]
     },
     {
         "name": "involvement",
-        "trans": ["n. 牵连"]
+        "trans": [
+            "n. sự liên quan"
+        ]
     },
     {
         "name": "washroom",
-        "trans": ["n. 卫生间"]
+        "trans": [
+            "n. nhà vệ sinh"
+        ]
     },
     {
         "name": "corridor",
-        "trans": ["n. 走廊"]
+        "trans": [
+            "n. hành lang"
+        ]
     },
     {
         "name": "control",
-        "trans": ["v. 控制"]
+        "trans": [
+            "v. kiểm soát"
+        ]
     },
     {
         "name": "reward",
-        "trans": ["n. 报酬"]
+        "trans": [
+            "n. thù lao"
+        ]
     },
     {
         "name": "competitive",
-        "trans": ["adj. 竞争的"]
+        "trans": [
+            "adj. cạnh tranh, mang tính cạnh tranh"
+        ]
     },
     {
         "name": "waste",
-        "trans": ["n. 垃圾"]
+        "trans": [
+            "n. rác"
+        ]
     },
     {
         "name": "reduce",
-        "trans": ["v. 减少"]
+        "trans": [
+            "v. giảm"
+        ]
     },
     {
         "name": "improvement",
-        "trans": ["n. 改善"]
+        "trans": [
+            "n. sự cải thiện"
+        ]
     },
     {
         "name": "safety",
-        "trans": ["n. 安全"]
+        "trans": [
+            "n. an toàn"
+        ]
     },
     {
         "name": "soft",
-        "trans": ["adj. 柔软的"]
+        "trans": [
+            "adj. mềm mại"
+        ]
     },
     {
         "name": "fire disaster",
-        "trans": ["n. 火灾"]
+        "trans": [
+            "n. vụ hỏa hoạn"
+        ]
     },
     {
         "name": "secure",
-        "trans": ["adj. 安全的"]
+        "trans": [
+            "adj. an toàn"
+        ]
     },
     {
         "name": "leaf",
-        "trans": ["n. 叶子"]
+        "trans": [
+            "n. chiếc lá"
+        ]
     },
     {
         "name": "rubbish",
-        "trans": ["n. 垃圾"]
+        "trans": [
+            "n. rác"
+        ]
     },
     {
         "name": "roof",
-        "trans": ["n. 屋顶"]
+        "trans": [
+            "n. mái nhà"
+        ]
     },
     {
         "name": "gas tank",
-        "trans": ["n. 煤气罐"]
+        "trans": [
+            "n. bình gas"
+        ]
     },
     {
         "name": "gap",
-        "trans": ["n. 差距"]
+        "trans": [
+            "n. chênh lệch"
+        ]
     },
     {
         "name": "yard",
-        "trans": ["n. 院子"]
+        "trans": [
+            "n. sân"
+        ]
     },
     {
         "name": "remove",
-        "trans": ["v. 迁移"]
+        "trans": [
+            "v. di cư"
+        ]
     },
     {
         "name": "occur",
-        "trans": ["v. 发生"]
+        "trans": [
+            "v. xảy ra"
+        ]
     },
     {
         "name": "brushfire",
-        "trans": ["n. 山林火灾"]
+        "trans": [
+            "n. cháy rừng"
+        ]
     },
     {
         "name": "volunteer",
-        "trans": ["n. 志愿者"]
+        "trans": [
+            "n. tình nguyện viên, người tình nguyện"
+        ]
     },
     {
         "name": "battery",
-        "trans": ["n. 电池"]
+        "trans": [
+            "n. pin, acquy"
+        ]
     },
     {
         "name": "bottom",
-        "trans": ["n. 底部"]
+        "trans": [
+            "n. đáy"
+        ]
     },
     {
         "name": "confirm",
-        "trans": ["v. 确认"]
+        "trans": [
+            "v. xác nhận"
+        ]
     },
     {
         "name": "wooden",
-        "trans": ["adj. 木制的"]
+        "trans": [
+            "adj. làm bằng gỗ, bằng gỗ"
+        ]
     },
     {
         "name": "urban",
-        "trans": ["adj. 城市的"]
+        "trans": [
+            "adj. thành thị, đô thị"
+        ]
     },
     {
         "name": "souvenir",
-        "trans": ["n. 纪念品"]
+        "trans": [
+            "n. đồ lưu niệm"
+        ]
     },
     {
         "name": "recycled",
-        "trans": ["adj. 回收利用的"]
+        "trans": [
+            "adj. được tái chế"
+        ]
     },
     {
         "name": "golf",
-        "trans": ["n. 高尔夫球"]
+        "trans": [
+            "n. gôn"
+        ]
     },
     {
         "name": "resort",
-        "trans": ["n. 度假胜地"]
+        "trans": [
+            "n. nơi nghỉ dưỡng"
+        ]
     },
     {
         "name": "weave",
-        "trans": ["v. 编织"]
+        "trans": [
+            "v. đan"
+        ]
     },
     {
         "name": "car transfer",
-        "trans": ["n. 车辆中转"]
+        "trans": [
+            "n. điểm chuyển xe"
+        ]
     },
     {
         "name": "endangered",
-        "trans": ["adj. 濒危的"]
+        "trans": [
+            "adj. có nguy cơ tuyệt chủng"
+        ]
     },
     {
         "name": "herbal",
-        "trans": ["adj. 草本的"]
+        "trans": [
+            "adj. thảo mộc"
+        ]
     },
     {
         "name": "length",
-        "trans": ["n. 长度"]
+        "trans": [
+            "n. độ dài"
+        ]
     },
     {
         "name": "fur",
-        "trans": ["n. 皮毛"]
+        "trans": [
+            "n. lông thú"
+        ]
     },
     {
         "name": "consumption",
-        "trans": ["n. 消费"]
+        "trans": [
+            "n. sự tiêu thụ"
+        ]
     },
     {
         "name": "fuel",
-        "trans": ["n. 燃料"]
+        "trans": [
+            "n. nhiên liệu"
+        ]
     },
     {
         "name": "natural gas",
-        "trans": ["n. 天然气"]
+        "trans": [
+            "n. khí tự nhiên"
+        ]
     },
     {
         "name": "alter",
-        "trans": ["v. 改变"]
+        "trans": [
+            "v. thay đổi, sửa đổi"
+        ]
     },
     {
         "name": "smooth",
-        "trans": ["adj. 光滑的"]
+        "trans": [
+            "adj. mượt mà"
+        ]
     },
     {
         "name": "utilize",
-        "trans": ["v. 利用"]
+        "trans": [
+            "v. tận dụng"
+        ]
     },
     {
         "name": "taste",
-        "trans": ["n. 品味"]
+        "trans": [
+            "n. gu thẩm mỹ"
+        ]
     },
     {
         "name": "petrol",
-        "trans": ["n. 汽油"]
+        "trans": [
+            "n. xăng"
+        ]
     },
     {
         "name": "sheet",
-        "trans": ["n. 纸张"]
+        "trans": [
+            "n. giấy"
+        ]
     },
     {
         "name": "storage",
-        "trans": ["n. 仓库"]
+        "trans": [
+            "n. kho"
+        ]
     },
     {
         "name": "rubber",
-        "trans": ["n. 橡胶"]
+        "trans": [
+            "n. cao su"
+        ]
     },
     {
         "name": "download",
-        "trans": ["v. 下载"]
+        "trans": [
+            "v. tải xuống"
+        ]
     },
     {
         "name": "invoice",
-        "trans": ["n. 发票"]
+        "trans": [
+            "n. hóa đơn"
+        ]
     },
     {
         "name": "security",
-        "trans": ["n. 安保"]
+        "trans": [
+            "n. an ninh"
+        ]
     },
     {
         "name": "evidence",
-        "trans": ["n. 证据"]
+        "trans": [
+            "n. bằng chứng"
+        ]
     }
 ]

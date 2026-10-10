@@ -2,7 +2,7 @@
     {
         "name": "you",
         "trans": [
-            "pron. 你；你们"
+            "pron. bạn; các bạn"
         ],
         "usphone": "[juː; jə]",
         "ukphone": "[ju]"
@@ -10,7 +10,7 @@
     {
         "name": "teacher",
         "trans": [
-            "n. 教师；导师"
+            "n. giáo viên; thầy; giảng viên"
         ],
         "usphone": "[ˈtiːtʃər]",
         "ukphone": "[ˈtiːtʃə(r)]"
@@ -52,9 +52,9 @@
     {
         "name": "name",
         "trans": [
-            "n. 名称，名字；姓名；名誉",
-            "vt. 命名，任命；指定；称呼；提名；叫出",
-            "adj. 姓名的；据以取名的"
+            "n. tên; họ tên; danh tiếng",
+            "vt. đặt tên; bổ nhiệm; chỉ định; gọi; đề cử",
+            "adj. về tên; được đặt theo tên"
         ],
         "usphone": "[neɪm]",
         "ukphone": "[neɪm]"
@@ -70,7 +70,7 @@
     {
         "name": "pupil",
         "trans": [
-            "n. 学生；[解剖] 瞳孔；未成年人"
+            "n. học sinh; [giải phẫu] đồng tử; người chưa thành niên"
         ],
         "usphone": "[ˈpjuːpl]",
         "ukphone": "[ˈpjuːp(ə)l]"
@@ -78,7 +78,7 @@
     {
         "name": "his",
         "trans": [
-            "pron. 他的"
+            "pron. của anh ấy"
         ],
         "usphone": "[hɪz; ɪz]",
         "ukphone": "[hɪz]"
@@ -155,7 +155,7 @@
     {
         "name": "blackboard",
         "trans": [
-            "n. 黑板"
+            "n. bảng đen, bảng thiếp"
         ],
         "usphone": "[ˈblækbɔːrd]",
         "ukphone": "[ˈblækbɔːd]"
@@ -172,8 +172,8 @@
     {
         "name": "chair",
         "trans": [
-            "n. 椅子；讲座；（会议的）主席位；大学教授的职位",
-            "vt. 担任（会议的）主席；使…入座；使就任要职"
+            "n. ghế; bài giảng; vị chủ tịch (của cuộc họp); vị trí giáo sư",
+            "vt. làm chủ tịch (của cuộc họp); làm cho ngồi; bổ nhiệm vào chức vụ"
         ],
         "usphone": "[tʃer]",
         "ukphone": "[tʃeə(r)]"
@@ -181,7 +181,7 @@
     {
         "name": "schoolbag",
         "trans": [
-            "n. 书包"
+            "n. cặp sách, ba lô"
         ],
         "usphone": "[ˈskuːlˌbæɡ]",
         "ukphone": "[ˈskuːlbæɡ]"
@@ -198,7 +198,7 @@
     {
         "name": "beside",
         "trans": [
-            "prep. 在旁边；与…相比；和…无关"
+            "prep. bên cạnh; so với; không liên quan"
         ],
         "usphone": "[bɪˈsaɪd]",
         "ukphone": "[bɪˈsaɪd]"
@@ -206,7 +206,7 @@
     {
         "name": "forty",
         "trans": [
-            "n. 四十",
+            "n. bốn mươi",
             "adj. 四十的；四十个的"
         ],
         "usphone": "[ˈfɔːrti]",
@@ -233,7 +233,7 @@
         "name": "seventy",
         "trans": [
             "n. 七十；七十个；七十岁；七十年代",
-            "num. 七十",
+            "num. bảy mươi",
             "adj. 七十的；七十个的；七十岁的"
         ],
         "usphone": "[ˈsev(ə)nti]",
@@ -242,7 +242,7 @@
     {
         "name": "eighty",
         "trans": [
-            "num. 八十",
+            "num. tám mươi",
             "n. 八十；八十岁；八十年代",
             "adj. 八十的，八十个的；八十岁的"
         ],
@@ -254,7 +254,7 @@
         "trans": [
             "n. 九十",
             "adj. 九十的；九十岁的",
-            "num. 九十"
+            "num. chín mươi"
         ],
         "usphone": "[ˈnaɪnti]",
         "ukphone": "[ˈnaɪnti]"
@@ -273,7 +273,7 @@
         "name": "he",
         "trans": [
             "n. 男孩，男人；它（雄性动物）",
-            "pron. 他"
+            "pron. anh ông, hắn"
         ],
         "usphone": "[hi; iː; i; hiː]",
         "ukphone": "[hi; iː; i; hiː]"
@@ -316,7 +316,7 @@
     {
         "name": "Apr.",
         "trans": [
-            "四月"
+            "tháng tư"
         ]
     },
     {
@@ -342,7 +342,7 @@
     {
         "name": "Aug.",
         "trans": [
-            "八月"
+            "tháng tám"
         ]
     },
     {
@@ -382,9 +382,9 @@
     {
         "name": "sun",
         "trans": [
-            "n. 太阳",
-            "vt. 使晒",
-            "vi. 晒太阳"
+            "n. mặt trời",
+            "vt. làm phơi nắng",
+            "vi. phơi nắng, tắm nắng"
         ],
         "usphone": "[sʌn]",
         "ukphone": "[sʌn]"
@@ -392,10 +392,10 @@
     {
         "name": "hot",
         "trans": [
-            "adj. 热的；辣的；热情的；激动的；紧迫的",
-            "vt. 增加；给…加温",
-            "adv. 热；紧迫地",
-            "vi. 变热"
+            "adj. nóng; cay; nhiệt tình; phấn khích; cấp bách",
+            "vt. tăng; làm nóng",
+            "adv. nóng bỏng; cấp bách",
+            "vi. trở nên nóng"
         ],
         "usphone": "[hɑːt]",
         "ukphone": "[hɒt]"
@@ -413,9 +413,9 @@
     {
         "name": "cold",
         "trans": [
-            "n. 寒冷；感冒",
-            "adj. 寒冷的；冷淡的，不热情的；失去知觉的",
-            "adv. 完全地"
+            "n. lạnh giá; cảm lạnh",
+            "adj. lạnh; lạnh lùng; mất ý thức",
+            "adv. hoàn toàn"
         ],
         "usphone": "[kəʊld]",
         "ukphone": "[kəʊld]"
@@ -433,10 +433,10 @@
     {
         "name": "weather",
         "trans": [
-            "n. 天气；气象；气候；处境",
-            "vt. 经受住；使风化；侵蚀；使受风吹雨打",
-            "adj. 露天的；迎风的",
-            "vi. 风化；受侵蚀；经受风雨"
+            "n. thời tiết; khí tượng; khí hậu; hoàn cảnh",
+            "vt. chịu đựng nổi; làm phong hóa; xói mòn; để gió mưa bào mòn",
+            "adj. ngoài trời, hở; hướng ra gió",
+            "vi. phong hóa; bị xói mòn; chịu đựng gió mưa"
         ],
         "usphone": "[ˈweðər]",
         "ukphone": "[ˈweðə(r)]"
@@ -452,10 +452,10 @@
     {
         "name": "warm",
         "trans": [
-            "n. 取暖；加热",
-            "adj. 温暖的；热情的",
-            "vt. 使…兴奋；使…温暖；使…感兴趣",
-            "vi. 同情；激动；变温暖"
+            "n. sưởi ấm; làm nóng",
+            "adj. ấm áp; nhiệt tình",
+            "vt. làm nóng; hâm nóng; gây hứng thú",
+            "vi. thương hại; xúc động; ấm lên"
         ],
         "usphone": "[wɔːrm]",
         "ukphone": "[wɔːm]"
@@ -479,11 +479,11 @@
     {
         "name": "cool",
         "trans": [
-            "n. 凉爽；凉爽的空气",
-            "adj. 凉爽的；冷静的；出色的",
-            "vt. 使…冷却；使…平静下来",
-            "vi. 变凉；平息",
-            "adv. 冷静地"
+            "n. sự mát mẻ; không khí mát",
+            "adj. mát mẻ; bình tĩnh; xuất sắc",
+            "vt. làm mát; làm bình tĩnh",
+            "vi. hạ nhiệt; yên tĩnh",
+            "adv. một cách bình tĩnh"
         ],
         "usphone": "[kuːl]",
         "ukphone": "[kuːl]"
@@ -511,7 +511,7 @@
     {
         "name": "birthday",
         "trans": [
-            "n. 生日，诞辰；诞生的日子"
+            "n. sinh nhật; ngày sinh"
         ],
         "usphone": "[ˈbɜːrθdeɪ]",
         "ukphone": "[ˈbɜːθdeɪ]"
@@ -528,9 +528,9 @@
     {
         "name": "live",
         "trans": [
-            "adj. 活的；生动的；实况转播的；精力充沛的",
-            "vt. 经历；度过",
-            "vi. 活；居住；生存"
+            "adj. sống; sống động; trực tiếp; năng động",
+            "vt. trải qua; sống qua; trải nghiệm",
+            "vi. sống; cư trú; tồn tại"
         ],
         "usphone": "[lɪv; laɪv]",
         "ukphone": "[lɪv; laɪv]"
@@ -546,9 +546,9 @@
     {
         "name": "foot",
         "trans": [
-            "n. 脚；英尺；步调；末尾",
-            "vt. 支付；给……换底",
-            "vi. 步行；跳舞；总计"
+            "n. chân; bước; nhịp điệu; cuối cùng",
+            "vt. trả tiền; thay đế giày",
+            "vi. đi bộ; nhảy; tính thành"
         ],
         "usphone": "[fʊt]",
         "ukphone": "[fʊt]"
@@ -562,7 +562,7 @@
     {
         "name": "by",
         "trans": [
-            "prep. 通过；被；依据；经由；在附近；在……之前",
+            "prep. qua; bị; dựa vào; thông qua; gần; trước",
             "adv. 通过；经过；附近；[互联网] 白俄罗斯的国家代码顶级域名"
         ],
         "usphone": "[baɪ]",
@@ -571,8 +571,8 @@
     {
         "name": "favourite",
         "trans": [
-            "n. 特别喜爱的人（或物）",
-            "adj. 特别受喜爱的"
+            "n. người (hoặc vật) yêu thích đặc biệt",
+            "adj. được yêu thích đặc biệt"
         ],
         "usphone": "[ˈfeɪvərɪt]",
         "ukphone": "[ˈfeɪvərɪt]"
@@ -601,10 +601,10 @@
     {
         "name": "blue",
         "trans": [
-            "adj. 蓝色的；沮丧的，忧郁的；下流的",
-            "n. 蓝色；[复数]（美国海、陆、空三军穿的）蓝色制服；蓝颜料；[the blue(s)][用作单数或复数]布鲁斯（歌曲）（一种伤感的美国黑人民歌",
-            "vi. 变成蓝色，呈蓝色",
-            "vt. 把…染成蓝色；使成蓝色；给…用上蓝剂；用上蓝剂于"
+            "adj. màu xanh; buồn bã, u buồn; bẩn thỉu, thấp kém",
+            "n. màu xanh; [số nhiều] quân phục xanh của Hải quân, Lục quân, Không quân Mỹ; thuốc nhuộm xanh; [the blue(s)] [dùng số ít hoặc số nhiều] blues (thể loại ca khúc Mỹ da đen mang sẻ buồn",
+            "vi. trở nên xanh, có màu xanh",
+            "vt. nhuộm ... màu xanh; làm cho ... thành màu xanh; dùng thuốc nhuộm xanh cho ...; dùng thuốc nhuộm xanh lên"
         ],
         "usphone": "[bluː]",
         "ukphone": "[bluː]"
@@ -612,7 +612,7 @@
     {
         "name": "clothes",
         "trans": [
-            "n. 衣服"
+            "n. quần áo"
         ],
         "usphone": "[kloʊðz; kloʊz]",
         "ukphone": "[kləʊðz]"
@@ -620,7 +620,7 @@
     {
         "name": "our",
         "trans": [
-            "pron. 我们的"
+            "pron. của chúng ta"
         ],
         "usphone": "[ɑːr]",
         "ukphone": "[ɑː(r)]"
@@ -636,9 +636,9 @@
     {
         "name": "subject",
         "trans": [
-            "n. 主题；科目；[语] 主语；国民",
-            "adj. 服从的；易患…的；受制于…的",
-            "vt. 使…隶属；使屈从于…"
+            "(n.) chủ đề; môn học; chủ ngữ; công dân",
+            "adj. vâng lời; dễ mắc; chịu ảnh hưởng",
+            "vt. làm tuỳ thuộc; bắt phục tùng"
         ],
         "usphone": "[ˈsʌbdʒɪkt; ˈsʌbdʒekt]",
         "ukphone": "[ˈsʌbdʒɪkt; ˈsʌbdʒekt]"
@@ -665,7 +665,7 @@
     {
         "name": "science",
         "trans": [
-            "n. 科学；技术；学科；理科"
+            "n. khoa học; công nghệ; ngành học; khoa học tự nhiên"
         ],
         "usphone": "[ˈsaɪəns]",
         "ukphone": "[ˈsaɪəns]"
@@ -673,7 +673,7 @@
     {
         "name": "math",
         "trans": [
-            "n. 数学（等于mathematics）"
+            "n. toán học (bằng mathematics)"
         ],
         "usphone": "[mæθ]",
         "ukphone": "[mæθ]"
@@ -699,7 +699,7 @@
     {
         "name": "music",
         "trans": [
-            "n. 音乐，乐曲"
+            "n. âm nhạc, bài hát"
         ],
         "usphone": "[ˈmjuːzɪk]",
         "ukphone": "[ˈmjuːzɪk]"
@@ -715,8 +715,8 @@
     {
         "name": "but",
         "trans": [
-            "conj. 但是；而是；然而",
-            "adv. 仅仅，只",
+            "conj. nhưng; mà là; tuy nhiên",
+            "adv. chỉ, chỉ mà",
             "prep. 除…以外"
         ],
         "usphone": "[bət; bʌt]",

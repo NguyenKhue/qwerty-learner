@@ -2,9 +2,9 @@
     {
         "name": "drive",
         "trans": [
-            "n. 驱动器；驾车；[心理] 内驱力，推进力；快车道",
-            "vi. 开车；猛击；飞跑",
-            "vt. 推动，发动（机器等）；驾驶（马车，汽车等）；驱赶"
+            "n. trình điều khiển; lái xe; [tâm lý] động lực nội tại; làn đường nhanh",
+            "vi. lái xe; tấn công mạnh; chạy nhanh",
+            "vt. đẩy, khởi động; lái; đuổi"
         ],
         "usphone": "[draɪv]",
         "ukphone": "[draɪv]"
@@ -21,7 +21,7 @@
     {
         "name": "player",
         "trans": [
-            "n. 运动员，比赛者；游戏者，做游戏的人；演奏者，表演者；演员；播放器"
+            "n. vận động viên; người chơi; người biểu diễn; diễn viên; máy phát"
         ],
         "usphone": "[ˈpleɪər]",
         "ukphone": "[ˈpleɪə(r)]"
@@ -29,7 +29,7 @@
     {
         "name": "office",
         "trans": [
-            "n. 办公室；政府机关；官职；营业处"
+            "n. văn phòng; cơ quan chính phủ; chức vụ; nơi kinh doanh"
         ],
         "usphone": "[ˈɑːfɪs]",
         "ukphone": "[ˈɒfɪs]"
@@ -37,9 +37,9 @@
     {
         "name": "fish",
         "trans": [
-            "n. 鱼，鱼类",
-            "vt. 钓鱼，捕鱼；搜寻",
-            "vi. 捕鱼，钓鱼；用钩捞取"
+            "n. cá; loài cá",
+            "vt. câu cá; bắt cá; tìm kiếm",
+            "vi. bắt cá; câu cá; dùng lưới để bắt"
         ],
         "usphone": "[fɪʃ]",
         "ukphone": "[fɪʃ]"
@@ -47,7 +47,7 @@
     {
         "name": "sausage",
         "trans": [
-            "n. 香肠；腊肠；装香肠的碎肉"
+            "n. xúc xích; giò; thịt băm nhồi xúc xích"
         ],
         "usphone": "[ˈsɔːsɪdʒ]",
         "ukphone": "[ˈsɒsɪdʒ]"
@@ -55,8 +55,8 @@
     {
         "name": "sandwich",
         "trans": [
-            "n. 三明治；夹心面包",
-            "vt. 夹入；挤进；把...做成三明治"
+            "(n) bánh kẹp",
+            "(vt) xen vào; ép vào; làm bánh kẹp"
         ],
         "usphone": "[ˈsænwɪtʃ; ˈsænwɪdʒ]",
         "ukphone": "[ˈsænwɪtʃ; ˈsænwɪdʒ]"
@@ -72,7 +72,7 @@
     {
         "name": "traditional",
         "trans": [
-            "adj. 传统的；惯例的"
+            "truyền thống; theo thông lệ"
         ],
         "usphone": "[trəˈdɪʃənl]",
         "ukphone": "[trəˈdɪʃən(ə)l]"
@@ -90,7 +90,7 @@
     {
         "name": "delicious",
         "trans": [
-            "adj. 美味的；可口的"
+            "adj. thơm ngon; dễ ăn"
         ],
         "usphone": "[dɪˈlɪʃəs]",
         "ukphone": "[dɪˈlɪʃəs]"
@@ -98,8 +98,8 @@
     {
         "name": "chicken",
         "trans": [
-            "n. 鸡肉；小鸡；胆小鬼，懦夫",
-            "adj. 鸡肉的；胆怯的；幼小的"
+            "n. thịt gà; gà con; kẻ nhát hèn",
+            "adj. thuộc về gà; nhát hèn; nhỏ bé"
         ],
         "usphone": "[ˈtʃɪkɪn]",
         "ukphone": "[ˈtʃɪkɪn]"
@@ -123,9 +123,9 @@
     {
         "name": "show",
         "trans": [
-            "n. 显示；表演；炫耀",
-            "vt. 显示；说明；演出；展出",
-            "vi. 显示；说明；指示"
+            "n. hiển thị; biểu diễn; khoe",
+            "vt. hiển thị; minh họa; biểu diễn; trưng bày",
+            "vi. hiển thị; chỉ rõ; hướng dẫn"
         ],
         "usphone": "[ʃoʊ]",
         "ukphone": "[ʃəʊ]"
@@ -170,7 +170,7 @@
     {
         "name": "interesting",
         "trans": [
-            "adj. 有趣的；引起兴趣的，令人关注的"
+            "adj. thú vị; gây hứng thú, đáng chú ý"
         ],
         "usphone": "[ˈɪntrəstɪŋ; ˈɪntrestɪŋ]",
         "ukphone": "[ˈɪntrəstɪŋ]"
@@ -178,9 +178,9 @@
     {
         "name": "season",
         "trans": [
-            "n. 时期；季节；赛季",
-            "vt. 给…调味；使适应",
-            "vi. 变得成熟；变干燥"
+            "n. thời kỳ; mùa; mùa giải",
+            "vt. nêm nếm; thích nghi",
+            "vi. trưởng thành; trở nên khô"
         ],
         "usphone": "[ˈsiːzn]",
         "ukphone": "[ˈsiːzn]"
@@ -204,11 +204,11 @@
     {
         "name": "light",
         "trans": [
-            "n. 光；光线；灯；打火机；领悟；浅色；天窗",
-            "adj. 轻的；浅色的；明亮的；轻松的；容易的；清淡的",
-            "vi. 点着；变亮；着火",
-            "vt. 照亮；点燃；着火",
-            "adv. 轻地；清楚地；轻便地"
+            "n. ánh sáng; tia sáng; đèn; bật lửa; hiểu biết; màu sáng; cửa sổ trần",
+            "adj. nhẹ; màu sáng; sáng; nhẹ nhõm; dễ; lạc",
+            "vi. sáng lên; thắp sáng; cháy",
+            "vt. thắp sáng; đốt; cháy",
+            "adv. nhẹ; rõ ràng; nhẹ nhàng"
         ],
         "usphone": "[laɪt]",
         "ukphone": "[laɪt]"
@@ -223,8 +223,8 @@
         "name": "carry",
         "trans": [
             "n. 运载；[计] 进位；射程",
-            "vi. 能达到；被携带；被搬运",
-            "vt. 拿，扛；携带；支持；搬运"
+            "có thể đạt đến; được mang; được vận chuyển",
+            "lấy, khiêng; mang; hỗ trợ; vận chuyển"
         ],
         "usphone": "[ˈkæri]",
         "ukphone": "[ˈkæri]"
@@ -242,10 +242,10 @@
     {
         "name": "back",
         "trans": [
-            "n. 后面；背部；靠背；足球等的后卫；书报等的末尾",
-            "adj. 后面的；过去的；拖欠的",
-            "vt. 支持；后退；背书；下赌注",
-            "adv. 以前；向后地；来回地；上溯；回来；回原处",
+            "n. phía sau; lưng; tựa lưng; hậu vệ; trang cuối",
+            "adj. phía sau; quá khứ; còn nợ",
+            "vt. ủng hộ; lùi lại; ký bảo lãnh; đặt cược",
+            "adv. trước đây; hướng sau; qua lại; trở lại; về chỗ cũ",
             "vi. 后退；背"
         ],
         "usphone": "[bæk]",
@@ -265,9 +265,9 @@
     {
         "name": "shoulder",
         "trans": [
-            "n. 肩，肩膀；肩部",
-            "vi. 用肩推挤，用肩顶",
-            "vt. 肩负，承担"
+            "n. vai, cầu vai; phần vai",
+            "vi. xô đẩy bằng vai, chống vai",
+            "vt. gánh vác, chịu trách nhiệm"
         ],
         "usphone": "[ˈʃoʊldər]",
         "ukphone": "[ˈʃəʊldə(r)]"
@@ -275,9 +275,9 @@
     {
         "name": "build",
         "trans": [
-            "n. 构造；体形；体格",
-            "vi. 建筑；建造",
-            "vt. 建立；建筑"
+            "n. cấu trúc; hình dạng; thể lực",
+            "vi. xây dựng; xây tạo",
+            "vt. thành lập; xây dựng"
         ],
         "usphone": "[bɪld]",
         "ukphone": "[bɪld]"
@@ -285,9 +285,9 @@
     {
         "name": "place",
         "trans": [
-            "n. 地方；住所；座位",
-            "vt. 放置；任命；寄予",
-            "vi. 名列前茅；取得名次"
+            "(n.) nơi; nhà ở; chỗ ngồi",
+            "(vt.) đặt; bổ nhiệm",
+            "(vi.) xếp hạng cao"
         ],
         "usphone": "[pleɪs]",
         "ukphone": "[pleɪs]"
@@ -304,9 +304,9 @@
     {
         "name": "circle",
         "trans": [
-            "n. 循环，周期；圆；圈子；圆形物",
-            "vt. 画圆圈；环绕…移动",
-            "vi. 盘旋，旋转；环行"
+            "n. chu kỳ; kỳ hạn; vòng tròn; nhóm; hình tròn",
+            "vt. vẽ vòng tròn; di chuyển xung quanh",
+            "vi. bay vòng; quay; lưu thông"
         ],
         "usphone": "[ˈsɜːrkl]",
         "ukphone": "[ˈsɜːk(ə)l]"
@@ -314,9 +314,9 @@
     {
         "name": "answer",
         "trans": [
-            "n. 回答；答案；答辩",
-            "vt. 回答；符合",
-            "vi. 回答；符合"
+            "n. câu trả lời; đáp án; phản biện",
+            "vt. trả lời; phù hợp, khớp với",
+            "vi. trả lời; phù hợp, khớp với"
         ],
         "usphone": "[ˈænsər]",
         "ukphone": "[ˈɑːnsə(r)]"
@@ -354,7 +354,7 @@
     {
         "name": "hour",
         "trans": [
-            "n. 小时；钟头；课时；…点钟"
+            "n. giờ; tiếng; tiết học; ...giờ"
         ],
         "usphone": "[ˈaʊər]",
         "ukphone": "[ˈaʊə(r)]"
@@ -381,9 +381,9 @@
     {
         "name": "short",
         "trans": [
-            "n. 短；缺乏；短路；短裤",
-            "adj. 短的；不足的；矮的，低的",
-            "adv. 不足；突然；唐突地"
+            "n. ngắn; thiếu; đoản mạch; quần ngắn",
+            "adj. ngắn; không đủ; thấp",
+            "adv. không đủ; đột ngột"
         ],
         "usphone": "[ʃɔːrt]",
         "ukphone": "[ʃɔːt]"
@@ -391,9 +391,9 @@
     {
         "name": "helicopter",
         "trans": [
-            "n. [航] 直升飞机",
-            "vt. 由直升机运送",
-            "vi. [航] 乘直升飞机"
+            "n. [hàng không] trực thăng",
+            "vt. vận chuyển bằng trực thăng",
+            "vi. [hàng không] đi trực thăng"
         ],
         "usphone": "[ˈhelɪkɑːptər]",
         "ukphone": "[ˈhelɪkɒptə(r)]"
@@ -428,10 +428,10 @@
     {
         "name": "quarter",
         "trans": [
-            "num. 四分之一",
-            "n. 四分之一；地区；季度；一刻钟；两角五分；节",
-            "vt. 将…四等分；供某人住宿",
-            "vi. 住宿；驻扎"
+            "num. một phần tư",
+            "n. một phần tư; địa hạt; quý; mười lăm phút; 25 xu",
+            "vt. chia thành bốn phần; cho ở; bố trí chỗ ở",
+            "vi. ở; đóng quân"
         ],
         "usphone": "[ˈkwɔːrtər]",
         "ukphone": "[ˈkwɔːtə(r)]"
@@ -456,8 +456,8 @@
     {
         "name": "piece",
         "trans": [
-            "n. 块；件；篇；硬币",
-            "vt. 修补；接合；凑合"
+            "n. khúc; cái; bài; đồng xu",
+            "vt. vá; nối; ghép"
         ],
         "usphone": "[piːs]",
         "ukphone": "[piːs]"
@@ -483,9 +483,9 @@
     {
         "name": "stick",
         "trans": [
-            "n. 棍；手杖；呆头呆脑的人",
-            "vi. 坚持；伸出；粘住",
-            "vt. 刺，戳；伸出；粘贴"
+            "n. cây gậy; gậy; người ngốc nghếch",
+            "vi. kiên định; vươn ra; dính",
+            "vt. đâm; chọc; vươn ra; dán"
         ],
         "usphone": "[stɪk]",
         "ukphone": "[stɪk]"
@@ -502,7 +502,7 @@
     {
         "name": "string",
         "trans": [
-            "n. 线，弦，细绳；一串，一行"
+            "n. sợi dây; dây đàn; chuỗi"
         ],
         "usphone": "[strɪŋ]",
         "ukphone": "[strɪŋ]"
@@ -510,7 +510,7 @@
     {
         "name": "theatre",
         "trans": [
-            "n. 电影院，戏院；戏剧；阶梯式讲堂"
+            "n. rạp chiếu phim, nhà hát; kịch; phòng giảng dạy kiểu bậc"
         ],
         "usphone": "[ˈθiːətər]",
         "ukphone": "[ˈθɪətə(r)]"
@@ -526,7 +526,7 @@
     {
         "name": "women",
         "trans": [
-            "n. 女人（woman的复数）"
+            "n. phụ nữ; nữ giới"
         ],
         "usphone": "[ˈwɪmɪn]",
         "ukphone": "[ˈwɪmɪn]"
@@ -542,9 +542,9 @@
     {
         "name": "joke",
         "trans": [
-            "n. 玩笑，笑话；笑柄",
-            "vt. 开…的玩笑",
-            "vi. 开玩笑"
+            "n. trò đùa, câu chuyện cười; đối tượng bị chế nhạo",
+            "vt. giễu cợt",
+            "vi. nói giỡn"
         ],
         "usphone": "[dʒoʊk]",
         "ukphone": "[dʒəʊk]"
@@ -561,9 +561,9 @@
     {
         "name": "show",
         "trans": [
-            "n. 显示；表演；炫耀",
-            "vt. 显示；说明；演出；展出",
-            "vi. 显示；说明；指示"
+            "n. hiển thị; biểu diễn; khoe",
+            "vt. hiển thị; minh họa; biểu diễn; trưng bày",
+            "vi. hiển thị; chỉ rõ; hướng dẫn"
         ],
         "usphone": "[ʃoʊ]",
         "ukphone": "[ʃəʊ]"
@@ -582,7 +582,7 @@
     {
         "name": "history",
         "trans": [
-            "n. 历史，历史学；历史记录；来历"
+            "n. lịch sử, khoa sử; ghi chép lịch sử; nguồn gốc"
         ],
         "usphone": "[ˈhɪstri]",
         "ukphone": "[ˈhɪst(ə)ri]"
@@ -590,9 +590,9 @@
     {
         "name": "subject",
         "trans": [
-            "n. 主题；科目；[语] 主语；国民",
-            "adj. 服从的；易患…的；受制于…的",
-            "vt. 使…隶属；使屈从于…"
+            "(n.) chủ đề; môn học; chủ ngữ; công dân",
+            "adj. vâng lời; dễ mắc; chịu ảnh hưởng",
+            "vt. làm tuỳ thuộc; bắt phục tùng"
         ],
         "usphone": "[ˈsʌbdʒɪkt; ˈsʌbdʒekt]",
         "ukphone": "[ˈsʌbdʒɪkt; ˈsʌbdʒekt]"
@@ -600,7 +600,7 @@
     {
         "name": "ticket",
         "trans": [
-            "vt. 加标签于；指派；对…开出交通违规罚单"
+            "vt. dán nhãn; giao; phát vé vi phạm giao thông"
         ],
         "usphone": "[ˈtɪkɪt]",
         "ukphone": "[ˈtɪkɪt]"
@@ -608,7 +608,7 @@
     {
         "name": "passport",
         "trans": [
-            "n. 护照，通行证；手段"
+            "n. hộ chiếu, thẻ thông hành; phương tiện"
         ],
         "usphone": "[ˈpæspɔːrt]",
         "ukphone": "[ˈpɑːspɔːt]"
@@ -616,9 +616,9 @@
     {
         "name": "leave",
         "trans": [
-            "vt. 离开；留下；遗忘；委托",
-            "vi. 离开，出发；留下",
-            "n. 许可，同意；休假"
+            "vt. rời khỏi; để lại; quên; giao phó",
+            "vi. rời đi, khởi hành; để lại",
+            "n. phép, sự đồng ý; ngày nghỉ"
         ],
         "usphone": "[liːv]",
         "ukphone": "[liːv]"
@@ -626,7 +626,7 @@
     {
         "name": "July",
         "trans": [
-            "n. 七月"
+            "n. tháng bảy"
         ],
         "usphone": "[dʒʊˈlaɪ]",
         "ukphone": "[dʒʊˈlaɪ]"
@@ -651,7 +651,7 @@
     {
         "name": "classmate",
         "trans": [
-            "n. 同班同学"
+            "n. bạn cùng lớp"
         ],
         "usphone": "[ˈklæsmeɪt]",
         "ukphone": "[ˈklɑːsmeɪt]"

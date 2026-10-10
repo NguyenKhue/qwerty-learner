@@ -39,7 +39,7 @@
     {
         "name": "sheep",
         "trans": [
-            "n. 羊，绵羊；胆小鬼"
+            "n. cừu; kẻ hèn nhát"
         ],
         "usphone": "[ʃiːp]",
         "ukphone": "[ʃiːp]"
@@ -81,9 +81,9 @@
     {
         "name": "duck",
         "trans": [
-            "n. 鸭子；鸭肉；（英）宝贝儿；零分",
-            "vt. 躲避；猛按…入水",
-            "vi. 闪避；没入水中"
+            "n. con vịt; thịt vịt; <Anh> cục cưng; điểm không",
+            "vt. tránh; dìm ... mạnh xuống nước",
+            "vi. né tránh; lao xuống nước"
         ],
         "usphone": "[dʌk]",
         "ukphone": "[dʌk]"
@@ -91,9 +91,9 @@
     {
         "name": "fish",
         "trans": [
-            "n. 鱼，鱼类",
-            "vt. 钓鱼，捕鱼；搜寻",
-            "vi. 捕鱼，钓鱼；用钩捞取"
+            "n. cá; loài cá",
+            "vt. câu cá; bắt cá; tìm kiếm",
+            "vi. bắt cá; câu cá; dùng lưới để bắt"
         ],
         "usphone": "[fɪʃ]",
         "ukphone": "[fɪʃ]"
@@ -111,8 +111,8 @@
     {
         "name": "animal",
         "trans": [
-            "n. 动物",
-            "动物的"
+            "(n.) động vật",
+            "động vật; thuộc động vật"
         ],
         "usphone": "[ˈænɪm(ə)l]",
         "ukphone": "[ˈænɪm(ə)l]"
@@ -181,9 +181,9 @@
     {
         "name": "box",
         "trans": [
-            "n. 箱，盒子；包厢；一拳",
-            "vt. 拳击；装…入盒中；打耳光",
-            "vi. 拳击"
+            "n. thùng, hộp; buồng; một cú đấm",
+            "vt. quyền anh; cho vào hộp; tát",
+            "vi. quyền anh"
         ],
         "usphone": "[bɑːks]",
         "ukphone": "[bɒks]"
@@ -199,7 +199,7 @@
     {
         "name": "panda",
         "trans": [
-            "n. 熊猫；猫熊"
+            "n. gấu trúc; gấu mè"
         ],
         "usphone": "[ˈpændə]",
         "ukphone": "[ˈpændə]"
@@ -217,7 +217,7 @@
     {
         "name": "elephant",
         "trans": [
-            "n. 象；大号图画纸"
+            "n. voi; giấy vẽ cỡ lớn"
         ],
         "usphone": "[ˈelɪfənt]",
         "ukphone": "[ˈelɪfənt]"
@@ -244,7 +244,7 @@
     {
         "name": "tiger",
         "trans": [
-            "n. 老虎；凶暴的人"
+            "n. hổ; người hung dữ"
         ],
         "usphone": "[ˈtaɪɡər]",
         "ukphone": "[ˈtaɪɡə(r)]"
@@ -252,9 +252,9 @@
     {
         "name": "bear",
         "trans": [
-            "n. 熊",
-            "vt. 结果实，开花（正式）",
-            "vt. 忍受；承受；具有；支撑"
+            "n. gấu",
+            "vt. kết trái; nở hoa",
+            "vt. chịu đựng; chịu; có; hỗ trợ"
         ],
         "usphone": "[ber]",
         "ukphone": "[beə(r)]"
@@ -262,10 +262,10 @@
     {
         "name": "long",
         "trans": [
-            "n. 长时间；[语] 长音节；（服装的）长尺寸；长裤",
-            "adj. 长的；过长的；做多头的；长时间的；冗长的，长音",
-            "vi. 渴望；热望",
-            "adv. 长期地；始终"
+            "n. thời gian dài; [ngôn ngữ] âm tiết dài; kích thước dài; quần dài",
+            "adj. dài; quá dài; tăng giá; dài hạn; dài dòng, âm dài",
+            "vi. khao khát; mong muốn",
+            "adv. dài lâu; luôn luôn"
         ],
         "usphone": "[lɔːŋ]",
         "ukphone": "[lɒŋ]"
@@ -273,9 +273,9 @@
     {
         "name": "short",
         "trans": [
-            "n. 短；缺乏；短路；短裤",
-            "adj. 短的；不足的；矮的，低的",
-            "adv. 不足；突然；唐突地"
+            "n. ngắn; thiếu; đoản mạch; quần ngắn",
+            "adj. ngắn; không đủ; thấp",
+            "adv. không đủ; đột ngột"
         ],
         "usphone": "[ʃɔːrt]",
         "ukphone": "[ʃɔːt]"
@@ -286,7 +286,7 @@
             "pron. 一个人；任何人",
             "adj. 一的；唯一的",
             "n. 一",
-            "num. 一；一个"
+            "num. một"
         ],
         "usphone": "[wʌn]",
         "ukphone": "[wʌn]"
@@ -294,9 +294,9 @@
     {
         "name": "two",
         "trans": [
-            "num. 二",
-            "n. 两个",
-            "adj. 两个的"
+            "num. hai",
+            "n. hai cái; hai người",
+            "adj. thuộc về hai"
         ],
         "usphone": "[tuː]",
         "ukphone": "[tuː]"
@@ -304,7 +304,7 @@
     {
         "name": "three",
         "trans": [
-            "num. 三",
+            "num. ba",
             "n. 三，三个",
             "adj. 三的，三个的"
         ],
@@ -364,7 +364,7 @@
         "trans": [
             "n. 九，九个",
             "num. 九；九个",
-            "adj. 九的，九个的"
+            "adj. chín, gồm chín cái"
         ],
         "usphone": "[naɪn]",
         "ukphone": "[naɪn]"
@@ -398,7 +398,7 @@
     {
         "name": "grass",
         "trans": [
-            "n. 草；草地，草坪",
+            "n. cỏ; bãi cỏ, thảm cỏ",
             "vt. 放牧；使……长满草；使……吃草",
             "vi. 长草"
         ],
@@ -416,7 +416,7 @@
     {
         "name": "food",
         "trans": [
-            "n. 食物；养料"
+            "n. thức ăn; chất dinh dưỡng"
         ],
         "usphone": "[fuːd]",
         "ukphone": "[fuːd]"
@@ -424,8 +424,8 @@
     {
         "name": "eat",
         "trans": [
-            "vt. 吃，喝；腐蚀；烦扰",
-            "vi. 进食；腐蚀，侵蚀"
+            "vt. ăn, uống; ăn mòn; làm phiền",
+            "vi. ăn; ăn mòn, xâm thực"
         ],
         "usphone": "[iːt]",
         "ukphone": "[iːt]"
@@ -443,7 +443,7 @@
     {
         "name": "juice",
         "trans": [
-            "n. （水果）汁，液；果汁"
+            "n. nước (trái cây); chất lỏng; nước ép"
         ],
         "usphone": "[dʒuːs]",
         "ukphone": "[dʒuːs]"
@@ -452,7 +452,7 @@
         "name": "I",
         "trans": [
             "n. 碘元素；英语字母I",
-            "pron. 我"
+            "pron. tôi"
         ],
         "usphone": "[aɪ]",
         "ukphone": "[aɪ]"
@@ -460,8 +460,8 @@
     {
         "name": "soup",
         "trans": [
-            "n. 汤，羹；马力",
-            "vt. 加速；增加马力"
+            "n. canh; mã lực",
+            "vt. tăng tốc; tăng mã lực"
         ],
         "usphone": "[suːp]",
         "ukphone": "[suːp]"
@@ -477,8 +477,8 @@
     {
         "name": "rice",
         "trans": [
-            "n. 稻；米饭",
-            "vt. 把…捣成米糊状"
+            "n. lúa; cơm",
+            "vt. dồi thành bột; xay thành cơm loãng"
         ],
         "usphone": "[raɪs]",
         "ukphone": "[raɪs]"
@@ -486,8 +486,8 @@
     {
         "name": "chicken",
         "trans": [
-            "n. 鸡肉；小鸡；胆小鬼，懦夫",
-            "adj. 鸡肉的；胆怯的；幼小的"
+            "n. thịt gà; gà con; kẻ nhát hèn",
+            "adj. thuộc về gà; nhát hèn; nhỏ bé"
         ],
         "usphone": "[ˈtʃɪkɪn]",
         "ukphone": "[ˈtʃɪkɪn]"
@@ -514,7 +514,7 @@
     {
         "name": "like",
         "trans": [
-            "vt. 喜欢；想；愿意",
+            "vt. thích; muốn; sẵn lòng",
             "vi. 喜欢；希望",
             "prep. 像；如同",
             "adj. 同样的；相似的",
@@ -528,9 +528,9 @@
     {
         "name": "good",
         "trans": [
-            "n. 好处；善行；慷慨的行为",
-            "adj. 好的；优良的；愉快的；虔诚的",
-            "adv. 好"
+            "n. lợi ích; hành động tốt; hành động từ thiện",
+            "adj. tốt; xuất sắc; vui vẻ; tôn kính",
+            "adv. tốt"
         ],
         "usphone": "[ɡʊd]",
         "ukphone": "[ɡʊd]"
@@ -538,9 +538,9 @@
     {
         "name": "milk",
         "trans": [
-            "n. 牛奶；乳状物",
-            "vt. 榨取；挤…的奶",
-            "vi. 挤奶"
+            "n. sữa",
+            "vt. khai thác; vắt sữa",
+            "vi. vắt sữa"
         ],
         "usphone": "[mɪlk]",
         "ukphone": "[mɪlk]"
@@ -566,7 +566,7 @@
     {
         "name": "apple",
         "trans": [
-            "n. 苹果，苹果树，苹果似的东西；[美俚]炸弹，手榴弹，（棒球的）球；[美俚]人，家伙。"
+            "n. quả táo, cây táo, thứ giống quả táo; [tiếng lóng Mỹ] bom, lựu đạn, (bóng chày) quả bóng; [tiếng lóng Mỹ] người, gã."
         ],
         "usphone": "[ˈæpl]",
         "ukphone": "[ˈæp(ə)l]"
@@ -574,8 +574,8 @@
     {
         "name": "orange",
         "trans": [
-            "adj. 橙色的；橘色的",
-            "n. 橙；橙色；桔子"
+            "adj. cam; vàng cam",
+            "n. cam; màu cam"
         ],
         "usphone": "[ˈɔrɪndʒ]",
         "ukphone": "[ˈɒrɪndʒ]"
@@ -604,7 +604,7 @@
         "name": "thirteen",
         "trans": [
             "n. 十三；十三岁；十三个",
-            "num. 十三",
+            "num. mười ba",
             "adj. 十三的；十三个的"
         ],
         "usphone": "[ˌθɜːrˈtiːn]",
@@ -623,7 +623,7 @@
         "name": "fifteen",
         "trans": [
             "n. 十五；十五个；十五人组成的橄榄球队",
-            "num. 十五",
+            "num. mười lăm",
             "adj. 十五的"
         ],
         "usphone": "[ˌfɪfˈtiːn]",
@@ -632,7 +632,7 @@
     {
         "name": "ice cream",
         "trans": [
-            "n. 【食】冰淇淋"
+            "n. [ẩm thực] kem"
         ],
         "usphone": "[ˈaɪs kriːm]",
         "ukphone": "[ˈaɪs kriːm]"
@@ -640,7 +640,7 @@
     {
         "name": "sixteen",
         "trans": [
-            "num. 十六",
+            "num. mười sáu",
             "adj. 十六的，十六个的"
         ],
         "usphone": "[ˌsɪksˈtiːn]",
@@ -650,7 +650,7 @@
         "name": "seventeen",
         "trans": [
             "n. 十七，十七个",
-            "num. 十七",
+            "num. mười bảy",
             "adj. 十七岁的；十七的，十七个的"
         ],
         "usphone": "[ˌsevnˈtiːn]",
@@ -660,7 +660,7 @@
         "name": "eighteen",
         "trans": [
             "n. 十八，十八个",
-            "num. 十八",
+            "num. mười tám",
             "adj. 十八个的，十八的"
         ],
         "usphone": "[ˌeɪˈtiːn]",
@@ -669,7 +669,7 @@
     {
         "name": "nineteen",
         "trans": [
-            "num. 十九"
+            "num. mười chín"
         ],
         "usphone": "[ˌnaɪnˈtiːn]",
         "ukphone": "[ˌnaɪnˈtiːn]"
@@ -677,7 +677,7 @@
     {
         "name": "twenty",
         "trans": [
-            "num. 二十",
+            "num. hai mươi",
             "n. 二十；二十年代",
             "adj. 二十的"
         ],
@@ -687,9 +687,9 @@
     {
         "name": "please",
         "trans": [
-            "int. 请（礼貌用语）",
-            "vt. 使喜欢；使高兴，使满意",
-            "vi. 讨人喜欢；令人高兴"
+            "vui lòng; xin hãy",
+            "làm thích; làm vui, làm hài lòng",
+            "lôi cuốn; gây vui"
         ],
         "usphone": "[pliːz]",
         "ukphone": "[pliːz]"
@@ -706,10 +706,10 @@
     {
         "name": "welcome",
         "trans": [
-            "n. 欢迎",
-            "vt. 欢迎",
-            "adj. 受欢迎的",
-            "int. 欢迎"
+            "n. lời chào mừng",
+            "vt. chào mừng",
+            "adj. được ưa chuộng",
+            "int. chào mừng"
         ],
         "usphone": "[ˈwelkəm]",
         "ukphone": "[ˈwelkəm]"

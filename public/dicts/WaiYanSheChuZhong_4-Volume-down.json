@@ -11,10 +11,10 @@
     {
         "name": "welcome",
         "trans": [
-            "n. 欢迎",
-            "vt. 欢迎",
-            "adj. 受欢迎的",
-            "int. 欢迎"
+            "n. lời chào mừng",
+            "vt. chào mừng",
+            "adj. được ưa chuộng",
+            "int. chào mừng"
         ],
         "usphone": "[ˈwelkəm]",
         "ukphone": "[ˈwelkəm]"
@@ -41,7 +41,7 @@
     {
         "name": "potato",
         "trans": [
-            "n. [作物] 土豆，[作物] 马铃薯"
+            "n. [nông nghiệp] khoai tây"
         ],
         "usphone": "[pəˈteɪtoʊ]",
         "ukphone": "[pəˈteɪtəʊ]"
@@ -49,8 +49,8 @@
     {
         "name": "dangerous",
         "trans": [
-            "adj. 危险的",
-            "危险地"
+            "adj. nguy hiểm",
+            "một cách nguy hiểm"
         ],
         "usphone": "[ˈdeɪndʒərəs]",
         "ukphone": "[ˈdeɪndʒərəs]"
@@ -69,9 +69,9 @@
     {
         "name": "wait",
         "trans": [
-            "n. 等待；等候",
-            "vi. 等待；耽搁；伺候用餐",
-            "vt. 等候；推迟；延缓"
+            "n. sự chờ đợi; sự đợi",
+            "vi. chờ đợi; chậm trễ; hầu bàn",
+            "vt. chờ; hoãn; trì hoãn"
         ],
         "usphone": "[weɪt]",
         "ukphone": "[weɪt]"
@@ -89,7 +89,7 @@
     {
         "name": "cheap",
         "trans": [
-            "adj. 便宜的；小气的；不值钱的",
+            "adj. rẻ tiền; keo kiệt; không có giá trị",
             "adv. 便宜地"
         ],
         "usphone": "[tʃiːp]",
@@ -98,7 +98,7 @@
     {
         "name": "expensive",
         "trans": [
-            "adj. 昂贵的；花钱的"
+            "adj. đắt tiền; tốn kém"
         ],
         "usphone": "[ɪkˈspensɪv]",
         "ukphone": "[ɪkˈspensɪv]"
@@ -106,9 +106,9 @@
     {
         "name": "send",
         "trans": [
-            "n. 上升运动",
-            "vi. 派人；寄信",
-            "vt. 发送，寄；派遣；使进入；发射"
+            "n. sự xuống",
+            "vi. cử; gửi",
+            "vt. gửi; cử; phát; bắn"
         ],
         "usphone": "[send]",
         "ukphone": "[send]"
@@ -116,8 +116,8 @@
     {
         "name": "email",
         "trans": [
-            "n. 电子信函",
-            "vt. 给…发电子邮件"
+            "n. thư điện tử",
+            "vt. gửi email cho"
         ],
         "usphone": "[ˈiːmeɪl]",
         "ukphone": "[ˈiːmeɪl]"
@@ -125,9 +125,9 @@
     {
         "name": "cost",
         "trans": [
-            "n. 费用，代价，成本；损失",
-            "vt. 花费；使付出；使花许多钱",
-            "vi. 花费"
+            "n. chi phí, giá thành; tổn thất",
+            "vt. mất; làm mất; làm tốn tiền",
+            "vi. chi tiêu"
         ],
         "usphone": "[kɔːst]",
         "ukphone": "[kɒst]"
@@ -145,9 +145,9 @@
     {
         "name": "shout",
         "trans": [
-            "n. 呼喊；呼叫",
-            "vi. 呼喊；喊叫；大声说",
-            "vt. 呼喊；大声说"
+            "n. tiếng hô; cuộc gọi",
+            "vi. hô; hô to; nói to",
+            "vt. hô; nói to"
         ],
         "usphone": "[ʃaʊt]",
         "ukphone": "[ʃaʊt]"
@@ -164,7 +164,7 @@
     {
         "name": "sheep",
         "trans": [
-            "n. 羊，绵羊；胆小鬼"
+            "n. cừu; kẻ hèn nhát"
         ],
         "usphone": "[ʃiːp]",
         "ukphone": "[ʃiːp]"
@@ -230,9 +230,9 @@
     {
         "name": "lie",
         "trans": [
-            "vi. 躺；说谎；位于；展现",
-            "vt. 谎骗",
-            "n. 谎言；位置"
+            "vi. nằm; nói dối; ở; thể hiện",
+            "vt. lừa dối",
+            "n. lời dối; vị trí"
         ],
         "usphone": "[laɪ]",
         "ukphone": "[laɪ]"
@@ -248,8 +248,8 @@
     {
         "name": "lesson",
         "trans": [
-            "n. 教训；课",
-            "vt. 教训；上课"
+            "n. bài học; lớp học",
+            "vt. dạy; giảng dạy"
         ],
         "usphone": "[ˈlesn]",
         "ukphone": "[ˈlesn]"
@@ -279,9 +279,9 @@
     {
         "name": "cheese",
         "trans": [
-            "n. [食品] 奶酪；干酪；要人",
-            "adj. 叛变的；胆小的",
-            "vt. 停止"
+            "n. [thực phẩm] phô mai; người quan trọng",
+            "adj. phản bội; hèn nhát",
+            "vt. ngừng lại"
         ],
         "usphone": "[tʃiːz]",
         "ukphone": "[tʃiːz]"
@@ -289,8 +289,8 @@
     {
         "name": "scared",
         "trans": [
-            "v. 使害怕（scare的过去分词）",
-            "adj. 害怕的"
+            "v. làm sợ",
+            "adj. sợ hãi; hoảng sợ"
         ],
         "usphone": "[skerd]",
         "ukphone": "[skeəd]"
@@ -304,10 +304,10 @@
     {
         "name": "concert",
         "trans": [
-            "n. 音乐会；一致；和谐",
-            "adj. 音乐会用的；在音乐会上演出的",
-            "vt. 使协调；协同安排",
-            "vi. 协调；协力"
+            "n. buổi hoà nhạc; sự nhất trí; sự hòa hợp",
+            "adj. dùng cho hoà nhạc; trình diễn tại buổi hoà nhạc",
+            "vt. làm hoà hợp, điều hòa; sắp xếp phối hợp",
+            "vi. phối hợp, điều hợp; cộng tác"
         ],
         "usphone": "[ˈkɑːnsərt]",
         "ukphone": "[ˈkɒnsət]"
@@ -315,7 +315,7 @@
     {
         "name": "violin",
         "trans": [
-            "n. 小提琴；小提琴手"
+            "n. đàn violin, viôlô; người chơi violin"
         ],
         "usphone": "[ˌvaɪəˈlɪn]",
         "ukphone": "[ˌvaɪəˈlɪn]"
@@ -323,8 +323,8 @@
     {
         "name": "guitar",
         "trans": [
-            "n. 吉他，六弦琴",
-            "vi. 弹吉他"
+            "n. đàn guitar; nhạc cụ sáu dây",
+            "vi. chơi guitar"
         ],
         "usphone": "[ɡɪˈtɑːr]",
         "ukphone": "[ɡɪˈtɑː(r)]"
@@ -332,7 +332,7 @@
     {
         "name": "nervous",
         "trans": [
-            "adj. 神经的；紧张不安的；强健有力的"
+            "adj. thần kinh; lo lắng; mạnh mẽ; khỏe khoắn"
         ],
         "usphone": "[ˈnɜːrvəs]",
         "ukphone": "[ˈnɜːvəs]"
@@ -340,9 +340,9 @@
     {
         "name": "end",
         "trans": [
-            "n. 结束；目标；尽头；末端；死亡",
-            "vi. 结束，终止；终结",
-            "vt. 结束，终止；终结"
+            "n. kết thúc; mục đích; điểm cuối; cái chết",
+            "vi. kết thúc; chấm dứt; kết liễu",
+            "vt. kết thúc; chấm dứt; kết liễu"
         ],
         "usphone": "[end]",
         "ukphone": "[end]"
@@ -350,7 +350,7 @@
     {
         "name": "proud",
         "trans": [
-            "adj. 自豪的；得意的；自负的"
+            "adj. tự hào; vui vẻ; tự mãn"
         ],
         "usphone": "[praʊd]",
         "ukphone": "[praʊd]"
@@ -358,9 +358,9 @@
     {
         "name": "surprise",
         "trans": [
-            "n. 惊奇，诧异；突然袭击",
-            "adj. 令人惊讶的",
-            "vt. 使惊奇；奇袭"
+            "danh từ. sự ngạc nhiên; cuộc tấn công bất ngờ",
+            "adj. gây ngạc nhiên",
+            "động từ ngoại. làm ngạc nhiên; tấn công bất ngờ"
         ],
         "usphone": "[sərˈpraɪz]",
         "ukphone": "[səˈpraɪz]"
@@ -368,8 +368,8 @@
     {
         "name": "hear",
         "trans": [
-            "vi. 听；听见",
-            "vt. 听到，听；听说；审理"
+            "vi. nghe; nghe thấy",
+            "vt. nghe; nghe thấy; nghe nói; xét xử"
         ],
         "usphone": "[hɪr]",
         "ukphone": "[hɪə(r)]"
@@ -377,8 +377,8 @@
     {
         "name": "special",
         "trans": [
-            "n. 特使，特派人员；特刊；特色菜；专车；特价商品",
-            "adj. 特别的；专门的，专用的"
+            "(n.) sứ giả; phiên bản đặc biệt; mon đặc biệt; xe đặc biệt; hàng khuyến mãi",
+            "đặc biệt; chuyên dụng; riêng biệt"
         ],
         "usphone": "[ˈspeʃl]",
         "ukphone": "[ˈspeʃ(ə)l]"
@@ -421,9 +421,9 @@
     {
         "name": "stick",
         "trans": [
-            "n. 棍；手杖；呆头呆脑的人",
-            "vi. 坚持；伸出；粘住",
-            "vt. 刺，戳；伸出；粘贴"
+            "n. cây gậy; gậy; người ngốc nghếch",
+            "vi. kiên định; vươn ra; dính",
+            "vt. đâm; chọc; vươn ra; dán"
         ],
         "usphone": "[stɪk]",
         "ukphone": "[stɪk]"
@@ -431,7 +431,7 @@
     {
         "name": "fantastic",
         "trans": [
-            "n. 古怪的人",
+            "n. người lập dị",
             "adj. 奇异的；空想的；异想天开的；古怪的；极好的，极出色的；不可思议的；不切实际的"
         ],
         "usphone": "[fænˈtæstɪk]",
@@ -442,7 +442,7 @@
         "trans": [
             "n. 乐趣；玩笑；有趣的人或事",
             "adj. 供娱乐用的",
-            "vi. 开玩笑"
+            "vi. nói giỡn"
         ],
         "usphone": "[fʌn]",
         "ukphone": "[fʌn]"
@@ -463,7 +463,7 @@
         "trans": [
             "n. 东方；东风；东方国家",
             "adj. 东方的；向东的；从东方来的",
-            "adv. 向东方，在东方"
+            "adv. hướng đông, về phía đông"
         ],
         "usphone": "[iːst]",
         "ukphone": "[iːst]"
@@ -487,9 +487,9 @@
     {
         "name": "time",
         "trans": [
-            "n. 时间；时代；次数；节拍；倍数",
-            "adj. 定时的；定期的；分期的",
-            "vt. 计时；测定…的时间；安排…的速度"
+            "n. thời gian; thời đại; số lần; nhịp; bội số",
+            "adj. có hẹn giờ; định kỳ; trả góp",
+            "vt. đếm giờ; đo thời gian của; sắp xếp tốc độ của"
         ],
         "usphone": "[taɪm]",
         "ukphone": "[taɪm]"
@@ -507,10 +507,10 @@
     {
         "name": "much",
         "trans": [
-            "adv. 非常，很",
-            "adj. 大量的",
-            "n. 许多，大量",
-            "pron. 许多，大量"
+            "adv. rất, hết sức",
+            "adj. lượng lớn",
+            "n. nhiều, số lượng lớn",
+            "pron. nhiều, đông"
         ],
         "usphone": "[mʌtʃ]",
         "ukphone": "[mʌtʃ]"
@@ -567,9 +567,9 @@
     {
         "name": "rest",
         "trans": [
-            "n. 休息，静止；休息时间；剩余部分；支架",
-            "vt. 使休息，使轻松；把…寄托于",
-            "vi. 休息；静止；依赖；安置"
+            "danh từ. sự nghỉ ngơi; thời gian nghỉ; phần còn lại; giá đỡ",
+            "động từ ngoại. làm nghỉ ngơi; gỡ bỏ lo lắng; gửi gắm",
+            "động từ nội. nghỉ ngơi; đứng im; phụ thuộc; định cư"
         ],
         "usphone": "[rest]",
         "ukphone": "[rest]"
@@ -585,8 +585,8 @@
     {
         "name": "country",
         "trans": [
-            "n. 国家，国土；国民；乡下，农村；乡村；故乡",
-            "adj. 祖国的，故乡的；地方的，乡村的；国家的；粗鲁的；乡村音乐的"
+            "danh từ: quốc gia; đất nước; dân tộc; nông thôn; quê hương",
+            "tính từ: quốc gia; địa phương; nông thôn; thô lỗ; nhạc đất nước"
         ],
         "usphone": "[ˈkʌntri]",
         "ukphone": "[ˈkʌntri]"
@@ -603,8 +603,8 @@
     {
         "name": "capital",
         "trans": [
-            "n. 首都，省会；资金；大写字母；资本家",
-            "adj. 首都的；重要的；大写的"
+            "n. thủ đô; vốn; chữ hoa; nhà tư bản",
+            "adj. của thủ đô; quan trọng; chữ hoa"
         ],
         "usphone": "[ˈkæpɪt(ə)l]",
         "ukphone": "[ˈkæpɪt(ə)l]"
@@ -621,7 +621,7 @@
     {
         "name": "map",
         "trans": [
-            "vt. 映射；计划；绘制地图；确定基因在染色体中的位置",
+            "(vt.) phản chiếu; lập kế hoạch; vẽ bản đồ; xác định vị trí gen",
             "n. 地图；示意图；染色体图",
             "vi. 基因被安置"
         ],
@@ -631,7 +631,7 @@
     {
         "name": "because",
         "trans": [
-            "conj. 因为"
+            "conj. bởi vì"
         ],
         "usphone": "[bɪˈkəz, bɪˈkɔːz]",
         "ukphone": "[bɪˈkəz, bɪˈkɒz]"
@@ -639,7 +639,7 @@
     {
         "name": "language",
         "trans": [
-            "n. 语言；语言文字；表达能力"
+            "n. ngôn ngữ; tiếng nói; khả năng diễn đạt"
         ],
         "usphone": "[ˈlæŋɡwɪdʒ]",
         "ukphone": "[ˈlæŋɡwɪdʒ]"
@@ -656,7 +656,7 @@
     {
         "name": "kangaroo",
         "trans": [
-            "n. 袋鼠"
+            "n. kangaroo"
         ],
         "usphone": "[ˌkæŋɡəˈruː]",
         "ukphone": "[ˌkæŋɡəˈruː]"
@@ -664,11 +664,11 @@
     {
         "name": "back",
         "trans": [
-            "n. 后面；背部；靠背；足球等的后卫；书报等的末尾",
-            "adj. 后面的；过去的；拖欠的",
-            "vt. 支持；后退；背书；下赌注",
-            "adv. 以前；向后地；来回地；上溯；回来；回原处",
-            "vi. 后退；背靠；倒退"
+            "n. phía sau; lưng; tựa lưng; hậu vệ; trang cuối",
+            "adj. phía sau; quá khứ; còn nợ",
+            "vt. ủng hộ; lùi lại; ký bảo lãnh; đặt cược",
+            "adv. trước đây; hướng sau; qua lại; trở lại; về chỗ cũ",
+            "vi. lùi lại; dựa lưng; lùi xuống"
         ],
         "usphone": "[bæk]",
         "ukphone": "[bæk]"
@@ -676,7 +676,7 @@
     {
         "name": "postcard",
         "trans": [
-            "n. 明信片"
+            "n. bưu thiếp"
         ],
         "usphone": "[ˈpoʊstkɑːrd]",
         "ukphone": "[ˈpəʊstkɑːd]"
@@ -684,9 +684,9 @@
     {
         "name": "plan",
         "trans": [
-            "n. 计划；平面图",
-            "vt. 计划；设计；打算",
-            "vi. 计划；打算"
+            "n. kế hoạch; sơ đồ",
+            "vt. lên kế hoạch; thiết kế; dự định",
+            "vi. lên kế hoạch; dự định"
         ],
         "usphone": "[plæn]",
         "ukphone": "[plæn]"
@@ -694,7 +694,7 @@
     {
         "name": "museum",
         "trans": [
-            "n. 博物馆"
+            "n. bảo tàng"
         ],
         "usphone": "[mjuˈziːəm]",
         "ukphone": "[mjuˈziːəm]"
@@ -702,7 +702,7 @@
     {
         "name": "restaurant",
         "trans": [
-            "n. 餐馆；[经] 饭店"
+            "n. nhà hàng; [kinh tế] khách sạn"
         ],
         "usphone": "[ˈrestrɑːnt; ˈrestərɑːnt]",
         "ukphone": "[ˈrestrɒnt]"

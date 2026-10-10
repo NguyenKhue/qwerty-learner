@@ -16,7 +16,7 @@
     {
         "name": "pasokon",
         "trans": [
-            "个人电脑"
+            "máy tính cá nhân"
         ],
         "notation": "パソコン"
     },
@@ -51,42 +51,42 @@
     {
         "name": "kagami",
         "trans": [
-            "镜子"
+            "gương"
         ],
         "notation": "鏡(かがみ)"
     },
     {
         "name": "gomi",
         "trans": [
-            "垃圾"
+            "rác"
         ],
         "notation": "ごみ"
     },
     {
         "name": "outobai",
         "trans": [
-            "摩托车"
+            "xe máy; mô tô"
         ],
         "notation": "オートバイ"
     },
     {
         "name": "utsukushii",
         "trans": [
-            "美丽"
+            "xinh đẹp"
         ],
         "notation": "美(うつく)しい"
     },
     {
         "name": "kibun",
         "trans": [
-            "心情"
+            "tâm trạng; tâm tình"
         ],
         "notation": "気分(きぶん)"
     },
     {
         "name": "oiwai",
         "trans": [
-            "祝贺"
+            "chúc mừng"
         ],
         "notation": "お祝(いわ)い"
     },
@@ -107,7 +107,7 @@
     {
         "name": "hyou",
         "trans": [
-            "正面"
+            "mặt trước; chính diện"
         ],
         "notation": "表(ひょう)"
     },
@@ -142,7 +142,7 @@
     {
         "name": "takaru",
         "trans": [
-            "聚集"
+            "tập hợp, tụ tập"
         ],
         "notation": "集(たか)る"
     },
@@ -156,7 +156,7 @@
     {
         "name": "mizuumi",
         "trans": [
-            "湖"
+            "hồ"
         ],
         "notation": "湖(みずうみ)"
     },
@@ -191,7 +191,7 @@
     {
         "name": "odori",
         "trans": [
-            "舞蹈"
+            "nhảy, điệu nhảy"
         ],
         "notation": "踊(おど)り"
     },
@@ -212,7 +212,7 @@
     {
         "name": "amerika",
         "trans": [
-            "美洲"
+            "Amerika"
         ],
         "notation": "アメリカ"
     },
@@ -226,14 +226,14 @@
     {
         "name": "yubiwa",
         "trans": [
-            "戒指"
+            "nhẫn, chiếc nhẫn"
         ],
         "notation": "指輪(ゆびわ)"
     },
     {
         "name": "sotsugyou",
         "trans": [
-            "毕业"
+            "tốt nghiệp"
         ],
         "notation": "卒業(そつぎょう)"
     },
@@ -254,7 +254,7 @@
     {
         "name": "kaigi",
         "trans": [
-            "会议"
+            "cuộc họp, hội nghị"
         ],
         "notation": "会議(かいぎ)"
     },
@@ -282,21 +282,21 @@
     {
         "name": "ashita",
         "trans": [
-            "明天"
+            "ngày mai"
         ],
         "notation": "明日(あした)"
     },
     {
         "name": "omatsuri",
         "trans": [
-            "节日"
+            "lễ hội"
         ],
         "notation": "お祭(まつ)り"
     },
     {
         "name": "zuibun",
         "trans": [
-            "非常"
+            "rất; cực kỳ; hết sức"
         ],
         "notation": "ずいぶん"
     },
@@ -310,7 +310,7 @@
     {
         "name": "tomeru",
         "trans": [
-            "停止"
+            "dừng, ngừng"
         ],
         "notation": "止(と)める"
     },
@@ -345,14 +345,14 @@
     {
         "name": "sangyou",
         "trans": [
-            "工业"
+            "công nghiệp"
         ],
         "notation": "産業(さんぎょう)"
     },
     {
         "name": "ugoku",
         "trans": [
-            "移动"
+            "di chuyển; vận động"
         ],
         "notation": "動(うご)く"
     },
@@ -366,21 +366,21 @@
     {
         "name": "keredo/keredomo",
         "trans": [
-            "然而"
+            "tuy nhiên; song"
         ],
         "notation": "けれど/けれども"
     },
     {
         "name": "baai",
         "trans": [
-            "情况"
+            "n. tình hình, hoàn cảnh"
         ],
         "notation": "場合(ばあい)"
     },
     {
         "name": "reji",
         "trans": [
-            "注册"
+            "đăng ký"
         ],
         "notation": "レジ"
     },
@@ -394,7 +394,7 @@
     {
         "name": "seki",
         "trans": [
-            "座位"
+            "n. chỗ ngồi, ghế"
         ],
         "notation": "席(せき)"
     },
@@ -436,14 +436,14 @@
     {
         "name": "konsaato",
         "trans": [
-            "音乐会"
+            "buổi hòa nhạc, đêm nhạc"
         ],
         "notation": "コンサート"
     },
     {
         "name": "yatto",
         "trans": [
-            "最后"
+            "cuối cùng; sau cùng"
         ],
         "notation": "やっと"
     },
@@ -457,14 +457,14 @@
     {
         "name": "jimusho",
         "trans": [
-            "办公室"
+            "văn phòng"
         ],
         "notation": "事務所(じむしょ)"
     },
     {
         "name": "sandaru",
         "trans": [
-            "凉鞋"
+            "dép xỏ ngón, dép"
         ],
         "notation": "サンダル"
     },
@@ -478,14 +478,14 @@
     {
         "name": "mottomo",
         "trans": [
-            "非常"
+            "rất; cực kỳ; hết sức"
         ],
         "notation": "もっとも"
     },
     {
         "name": "shousetsu",
         "trans": [
-            "小说"
+            "tiểu thuyết"
         ],
         "notation": "小説(しょうせつ)"
     },
@@ -499,7 +499,7 @@
     {
         "name": "kinu",
         "trans": [
-            "丝绸"
+            "n. lụa, tơ tằm"
         ],
         "notation": "絹(きぬ)"
     },
@@ -520,7 +520,7 @@
     {
         "name": "netsu",
         "trans": [
-            "发烧"
+            "sốt"
         ],
         "notation": "熱(ねつ)"
     },
@@ -548,7 +548,7 @@
     {
         "name": "jamu",
         "trans": [
-            "果酱"
+            "mứt"
         ],
         "notation": "ジャム"
     },
@@ -562,21 +562,21 @@
     {
         "name": "anshin",
         "trans": [
-            "救济"
+            "cứu trợ"
         ],
         "notation": "安心(あんしん)"
     },
     {
         "name": "sekai",
         "trans": [
-            "世界"
+            "thế giới"
         ],
         "notation": "世界(せかい)"
     },
     {
         "name": "denpou",
         "trans": [
-            "电报"
+            "điện tín"
         ],
         "notation": "電報(でんぽう)"
     },
@@ -590,14 +590,14 @@
     {
         "name": "zannen",
         "trans": [
-            "失望"
+            "thất vọng"
         ],
         "notation": "残念(ざんねん)"
     },
     {
         "name": "chekku/suru",
         "trans": [
-            "检查"
+            "kiểm tra, khám"
         ],
         "notation": "チェック・する"
     },
@@ -611,7 +611,7 @@
     {
         "name": "kanashii",
         "trans": [
-            "伤心"
+            "(adj.) buồn, thương, tổn thương"
         ],
         "notation": "悲(かな)しい"
     },
@@ -625,14 +625,14 @@
     {
         "name": "kougi",
         "trans": [
-            "演讲"
+            "diễn thuyết; bài nói"
         ],
         "notation": "講義(こうぎ)"
     },
     {
         "name": "hakkiri",
         "trans": [
-            "清楚"
+            "rõ ràng, minh bạch"
         ],
         "notation": "はっきり"
     },
@@ -667,7 +667,7 @@
     {
         "name": "hikari",
         "trans": [
-            "光"
+            "ánh sáng; quang"
         ],
         "notation": "光(ひかり)"
     },
@@ -695,7 +695,7 @@
     {
         "name": "otosu",
         "trans": [
-            "掉落"
+            "rơi; rụng"
         ],
         "notation": "落(おと)す"
     },
@@ -709,7 +709,7 @@
     {
         "name": "homeru",
         "trans": [
-            "赞美"
+            "khen ngợi; ca ngợi"
         ],
         "notation": "ほめる"
     },
@@ -723,7 +723,7 @@
     {
         "name": "sumu",
         "trans": [
-            "完成"
+            "hoàn thành"
         ],
         "notation": "済(す)む"
     },
@@ -744,21 +744,21 @@
     {
         "name": "ude",
         "trans": [
-            "手臂"
+            "cánh tay"
         ],
         "notation": "腕(うで)"
     },
     {
         "name": "annai",
         "trans": [
-            "指导"
+            "hướng dẫn; chỉ đạo"
         ],
         "notation": "案内(あんない)"
     },
     {
         "name": "daigakusei",
         "trans": [
-            "大学生"
+            "sinh viên đại học"
         ],
         "notation": "大学生(だいがくせい)"
     },
@@ -779,14 +779,14 @@
     {
         "name": "juufun",
         "trans": [
-            "足够"
+            "đủ"
         ],
         "notation": "十(じゅう)分(ふん)"
     },
     {
         "name": "renraku",
         "trans": [
-            "联系"
+            "liên lạc, liên hệ"
         ],
         "notation": "連絡(れんらく)"
     },
@@ -800,35 +800,35 @@
     {
         "name": "nureru",
         "trans": [
-            "弄湿"
+            "Làm ướt"
         ],
         "notation": "ぬれる"
     },
     {
         "name": "kenkyuu",
         "trans": [
-            "研究"
+            "nghiên cứu"
         ],
         "notation": "研究(けんきゅう)"
     },
     {
         "name": "tsukamaeru",
         "trans": [
-            "抓住"
+            "nắm bắt, bắt lấy"
         ],
         "notation": "捕(つか)まえる"
     },
     {
         "name": "kimeru",
         "trans": [
-            "决定"
+            "quyết định"
         ],
         "notation": "決(き)める"
     },
     {
         "name": "tooru",
         "trans": [
-            "通过"
+            "thông qua; vượt qua"
         ],
         "notation": "通(とお)る"
     },
@@ -849,14 +849,14 @@
     {
         "name": "suutsu",
         "trans": [
-            "适合"
+            "thích hợp"
         ],
         "notation": "スーツ"
     },
     {
         "name": "untenshu",
         "trans": [
-            "司机"
+            "tài xế"
         ],
         "notation": "運転(うんてん)手(しゅ)"
     },
@@ -877,7 +877,7 @@
     {
         "name": "kureru",
         "trans": [
-            "给"
+            "cho, tặng"
         ],
         "notation": "くれる"
     },
@@ -905,7 +905,7 @@
     {
         "name": "shima",
         "trans": [
-            "岛"
+            "đảo"
         ],
         "notation": "島(しま)"
     },
@@ -926,21 +926,21 @@
     {
         "name": "okage",
         "trans": [
-            "由于"
+            "vì"
         ],
         "notation": "おかげ"
     },
     {
         "name": "shouchi",
         "trans": [
-            "同意"
+            "đồng ý, chấp thuận"
         ],
         "notation": "承知(しょうち)"
     },
     {
         "name": "bunpou",
         "trans": [
-            "语法"
+            "ngữ pháp"
         ],
         "notation": "文法(ぶんぽう)"
     },
@@ -961,14 +961,14 @@
     {
         "name": "akanbou",
         "trans": [
-            "婴儿"
+            "trẻ sơ sinh"
         ],
         "notation": "赤(あか)ん坊(ぼう)"
     },
     {
         "name": "kinjo",
         "trans": [
-            "附近"
+            "gần đây; xung quanh"
         ],
         "notation": "近所(きんじょ)"
     },
@@ -989,7 +989,7 @@
     {
         "name": "shoukai",
         "trans": [
-            "介绍"
+            "giới thiệu"
         ],
         "notation": "紹介(しょうかい)"
     },
@@ -1003,7 +1003,7 @@
     {
         "name": "harau",
         "trans": [
-            "支付"
+            "thanh toán; trả"
         ],
         "notation": "払(はら)う"
     },
@@ -1059,14 +1059,14 @@
     {
         "name": "ishi",
         "trans": [
-            "石头"
+            "da"
         ],
         "notation": "石(いし)"
     },
     {
         "name": "soreni",
         "trans": [
-            "此外"
+            "ngoài ra"
         ],
         "notation": "それに"
     },
@@ -1080,7 +1080,7 @@
     {
         "name": "keshigomu",
         "trans": [
-            "橡皮擦"
+            "n. tẩy; giấy nháp"
         ],
         "notation": "消(け)しゴム"
     },
@@ -1094,7 +1094,7 @@
     {
         "name": "nikki",
         "trans": [
-            "杂志"
+            "tạp chí"
         ],
         "notation": "日記(にっき)"
     },
@@ -1115,28 +1115,28 @@
     {
         "name": "minato",
         "trans": [
-            "港湾"
+            "bến cảng"
         ],
         "notation": "港(みなと)"
     },
     {
         "name": "shinbunsha",
         "trans": [
-            "报社"
+            "cơ quan báo"
         ],
         "notation": "新聞(しんぶん)社(しゃ)"
     },
     {
         "name": "sarada",
         "trans": [
-            "沙拉"
+            "salad; xalát"
         ],
         "notation": "サラダ"
     },
     {
         "name": "mannaka",
         "trans": [
-            "中间"
+            "giữa; ở giữa, bên trong"
         ],
         "notation": "真中(まんなか)"
     },
@@ -1150,14 +1150,14 @@
     {
         "name": "koshou",
         "trans": [
-            "分解"
+            "phân rã"
         ],
         "notation": "故障(こしょう)"
     },
     {
         "name": "uso",
         "trans": [
-            "谎言"
+            "lời nói dối"
         ],
         "notation": "うそ"
     },
@@ -1185,21 +1185,21 @@
     {
         "name": "kowasu",
         "trans": [
-            "打破"
+            "phá vỡ, làm vỡ"
         ],
         "notation": "壊(こわ)す"
     },
     {
         "name": "sukuriin",
         "trans": [
-            "屏幕"
+            "n. màn hình"
         ],
         "notation": "スクリーン"
     },
     {
         "name": "jiyuu",
         "trans": [
-            "自由"
+            "tự do; tự tại"
         ],
         "notation": "自由(じゆう)"
     },
@@ -1220,28 +1220,28 @@
     {
         "name": "kyouiku",
         "trans": [
-            "教育"
+            "n. giáo dục"
         ],
         "notation": "教育(きょういく)"
     },
     {
         "name": "chuui",
         "trans": [
-            "谨慎"
+            "cẩn thận, thận trọng"
         ],
         "notation": "注意(ちゅうい)"
     },
     {
         "name": "sagasu",
         "trans": [
-            "寻找"
+            "v. tìm, tìm kiếm"
         ],
         "notation": "探(さが)す"
     },
     {
         "name": "shusseki",
         "trans": [
-            "参加"
+            "tham dự"
         ],
         "notation": "出席(しゅっせき)"
     },
@@ -1262,7 +1262,7 @@
     {
         "name": "jiko",
         "trans": [
-            "事故"
+            "tai nạn, sự cố"
         ],
         "notation": "事故(じこ)"
     },
@@ -1283,7 +1283,7 @@
     {
         "name": "kikai",
         "trans": [
-            "机会"
+            "cơ hội"
         ],
         "notation": "機会(きかい)"
     },
@@ -1297,42 +1297,42 @@
     {
         "name": "moshi",
         "trans": [
-            "如果"
+            "nếu; nếu như; giả sử"
         ],
         "notation": "もし"
     },
     {
         "name": "riyuu",
         "trans": [
-            "原因"
+            "lý do, nguyên nhân"
         ],
         "notation": "理由(りゆう)"
     },
     {
         "name": "arukouru",
         "trans": [
-            "酒精"
+            "cồn, rượu, chất cồn"
         ],
         "notation": "アルコール"
     },
     {
         "name": "inai",
         "trans": [
-            "在"
+            "ở; tại"
         ],
         "notation": "以内(いない)"
     },
     {
         "name": "yotei",
         "trans": [
-            "安排"
+            "sắp xếp; thu xếp"
         ],
         "notation": "予定(よてい)"
     },
     {
         "name": "housou",
         "trans": [
-            "广播"
+            "phát thanh, đài"
         ],
         "notation": "放送(ほうそう)"
     },
@@ -1353,14 +1353,14 @@
     {
         "name": "kesshite",
         "trans": [
-            "从不"
+            "không bao giờ"
         ],
         "notation": "決(けっ)して"
     },
     {
         "name": "yorokobu",
         "trans": [
-            "高兴"
+            "vui"
         ],
         "notation": "喜(よろこ)ぶ"
     },
@@ -1395,7 +1395,7 @@
     {
         "name": "oshiire",
         "trans": [
-            "壁橱"
+            "tu gan tuong"
         ],
         "notation": "押(お)し入(い)れ"
     },
@@ -1409,7 +1409,7 @@
     {
         "name": "sou",
         "trans": [
-            "真"
+            "adj. đúng, sự thật"
         ],
         "notation": "そう"
     },
@@ -1430,7 +1430,7 @@
     {
         "name": "manga",
         "trans": [
-            "漫画"
+            "tranh vui"
         ],
         "notation": "漫画(まんが)"
     },
@@ -1458,14 +1458,14 @@
     {
         "name": "kumo",
         "trans": [
-            "云"
+            "mây"
         ],
         "notation": "雲(くも)"
     },
     {
         "name": "basho",
         "trans": [
-            "位置"
+            "vị trí; chỗ"
         ],
         "notation": "場所(ばしょ)"
     },
@@ -1500,7 +1500,7 @@
     {
         "name": "konpyuuta/konpyuutaa",
         "trans": [
-            "计算机"
+            "máy tính, máy tính điện tử"
         ],
         "notation": "コンピュータ/コンピューター"
     },
@@ -1514,21 +1514,21 @@
     {
         "name": "piano",
         "trans": [
-            "钢琴"
+            "đàn piano; piano"
         ],
         "notation": "ピアノ"
     },
     {
         "name": "oya",
         "trans": [
-            "父母"
+            "cha mẹ"
         ],
         "notation": "親(おや)"
     },
     {
         "name": "muri",
         "trans": [
-            "不可能的"
+            "không thể"
         ],
         "notation": "無理(むり)"
     },
@@ -1542,21 +1542,21 @@
     {
         "name": "gasu",
         "trans": [
-            "汽油"
+            "xăng, nhiên liệu xăng"
         ],
         "notation": "ガス"
     },
     {
         "name": "reibou",
         "trans": [
-            "空调"
+            "máy điều hòa"
         ],
         "notation": "冷房(れいぼう)"
     },
     {
         "name": "nedan",
         "trans": [
-            "价格"
+            "giá; giá cả"
         ],
         "notation": "ねだん"
     },
@@ -1570,7 +1570,7 @@
     {
         "name": "sorehodo",
         "trans": [
-            "在某种程度上"
+            "ở một mức độ nào đó"
         ],
         "notation": "それほど"
     },
@@ -1598,14 +1598,14 @@
     {
         "name": "sandoicchi",
         "trans": [
-            "三明治"
+            "bánh mì kẹp"
         ],
         "notation": "サンドイッチ"
     },
     {
         "name": "fueru",
         "trans": [
-            "增加"
+            "tăng; tăng lên"
         ],
         "notation": "増(ふ)える"
     },
@@ -1633,7 +1633,7 @@
     {
         "name": "kusa",
         "trans": [
-            "草"
+            "cỏ; thảo"
         ],
         "notation": "草(くさ)"
     },
@@ -1647,7 +1647,7 @@
     {
         "name": "sen",
         "trans": [
-            "线"
+            "dây; đường; tuyến"
         ],
         "notation": "線(せん)"
     },
@@ -1675,7 +1675,7 @@
     {
         "name": "seisan",
         "trans": [
-            "生产"
+            "sản xuất"
         ],
         "notation": "生産(せいさん)"
     },
@@ -1717,7 +1717,7 @@
     {
         "name": "inaka",
         "trans": [
-            "农村"
+            "nông thôn, miền quê"
         ],
         "notation": "田舎(いなか)"
     },
@@ -1731,7 +1731,7 @@
     {
         "name": "okujou",
         "trans": [
-            "屋顶"
+            "mái nhà"
         ],
         "notation": "屋上(おくじょう)"
     },
@@ -1759,14 +1759,14 @@
     {
         "name": "uchi",
         "trans": [
-            "在"
+            "ở; tại"
         ],
         "notation": "うち"
     },
     {
         "name": "haisha",
         "trans": [
-            "牙医"
+            "nha sĩ"
         ],
         "notation": "歯医者(はいしゃ)"
     },
@@ -1794,28 +1794,28 @@
     {
         "name": "sabishii",
         "trans": [
-            "孤独"
+            "cô đơn"
         ],
         "notation": "寂(さび)しい"
     },
     {
         "name": "taifuu",
         "trans": [
-            "台风"
+            "bão; bão nhiệt đới"
         ],
         "notation": "台風(たいふう)"
     },
     {
         "name": "hakobu",
         "trans": [
-            "运输"
+            "vận chuyển"
         ],
         "notation": "運(はこ)ぶ"
     },
     {
         "name": "taoreru",
         "trans": [
-            "分解"
+            "phân rã"
         ],
         "notation": "倒(たお)れる"
     },
@@ -1829,14 +1829,14 @@
     {
         "name": "budou",
         "trans": [
-            "葡萄"
+            "nho"
         ],
         "notation": "ぶどう"
     },
     {
         "name": "omocha",
         "trans": [
-            "玩具"
+            "đồ chơi; món đồ chơi"
         ],
         "notation": "おもちゃ"
     },
@@ -1850,7 +1850,7 @@
     {
         "name": "jinkou",
         "trans": [
-            "人口"
+            "dân số"
         ],
         "notation": "人口(じんこう)"
     },
@@ -1864,7 +1864,7 @@
     {
         "name": "gasorin",
         "trans": [
-            "汽油"
+            "xăng, nhiên liệu xăng"
         ],
         "notation": "ガソリン"
     },
@@ -1892,7 +1892,7 @@
     {
         "name": "riyou",
         "trans": [
-            "利用"
+            "sử dụng"
         ],
         "notation": "利用(りよう)"
     },
@@ -1969,7 +1969,7 @@
     {
         "name": "hatsuon",
         "trans": [
-            "发音"
+            "phát âm; cách phát âm"
         ],
         "notation": "発音(はつおん)"
     },
@@ -1983,14 +1983,14 @@
     {
         "name": "ito",
         "trans": [
-            "线"
+            "dây; đường; tuyến"
         ],
         "notation": "糸(いと)"
     },
     {
         "name": "kiken",
         "trans": [
-            "危险"
+            "nguy hiểm"
         ],
         "notation": "危険(きけん)"
     },
@@ -2060,7 +2060,7 @@
     {
         "name": "tsutaeru",
         "trans": [
-            "报告"
+            "báo cáo"
         ],
         "notation": "伝(つた)える"
     },
@@ -2109,7 +2109,7 @@
     {
         "name": "shiken",
         "trans": [
-            "考试"
+            "n. kỳ thi; bài thi"
         ],
         "notation": "試験(しけん)"
     },
@@ -2144,21 +2144,21 @@
     {
         "name": "kougyou",
         "trans": [
-            "制造业"
+            "ngành sản xuất"
         ],
         "notation": "工業(こうぎょう)"
     },
     {
         "name": "tera",
         "trans": [
-            "寺庙"
+            "chua"
         ],
         "notation": "寺(てら)"
     },
     {
         "name": "fune",
         "trans": [
-            "船"
+            "thuyền"
         ],
         "notation": "舟(ふね)"
     },
@@ -2172,7 +2172,7 @@
     {
         "name": "utsu",
         "trans": [
-            "击中"
+            "đánh trúng"
         ],
         "notation": "打(う)つ"
     },
@@ -2200,7 +2200,7 @@
     {
         "name": "iken",
         "trans": [
-            "意见"
+            "ý kiến"
         ],
         "notation": "意見(いけん)"
     },
@@ -2214,14 +2214,14 @@
     {
         "name": "komu",
         "trans": [
-            "拥挤"
+            "chật ních, chen chúc"
         ],
         "notation": "込(こ)む"
     },
     {
         "name": "katachi",
         "trans": [
-            "形状"
+            "n. hình dạng, hình thù"
         ],
         "notation": "形(かたち)"
     },
@@ -2235,14 +2235,14 @@
     {
         "name": "owari",
         "trans": [
-            "结束"
+            "v. kết thúc; chấm dứt"
         ],
         "notation": "終(お)わり"
     },
     {
         "name": "nemuru",
         "trans": [
-            "睡觉"
+            "v. ngủ"
         ],
         "notation": "眠(ねむ)る"
     },
@@ -2270,7 +2270,7 @@
     {
         "name": "yogoreru",
         "trans": [
-            "弄脏"
+            "v. làm bẩn, làm bẩn thỉu"
         ],
         "notation": "汚(よご)れる"
     },
@@ -2291,7 +2291,7 @@
     {
         "name": "kisetsu",
         "trans": [
-            "季节"
+            "n. mùa, mùa vụ"
         ],
         "notation": "季節(きせつ)"
     },
@@ -2312,14 +2312,14 @@
     {
         "name": "bei",
         "trans": [
-            "米"
+            "gạo; mét"
         ],
         "notation": "米(べい)"
     },
     {
         "name": "keeki",
         "trans": [
-            "蛋糕"
+            "bánh kem, bánh ngọt"
         ],
         "notation": "ケーキ"
     },
@@ -2333,7 +2333,7 @@
     {
         "name": "wakareru",
         "trans": [
-            "分开"
+            "tách ra, phân chia"
         ],
         "notation": "別(わか)れる"
     },
@@ -2347,7 +2347,7 @@
     {
         "name": "kowai",
         "trans": [
-            "可怕"
+            "khủng khiếp, đáng sợ"
         ],
         "notation": "怖(こわ)い"
     },
@@ -2368,14 +2368,14 @@
     {
         "name": "shoutai",
         "trans": [
-            "邀请"
+            "mời"
         ],
         "notation": "招待(しょうたい)"
     },
     {
         "name": "suutsukeesu",
         "trans": [
-            "手提箱"
+            "va li"
         ],
         "notation": "スーツケース"
     },
@@ -2410,14 +2410,14 @@
     {
         "name": "suruto",
         "trans": [
-            "然后"
+            "sau đó; rồi"
         ],
         "notation": "すると"
     },
     {
         "name": "shinamono",
         "trans": [
-            "货物"
+            "hàng hoá"
         ],
         "notation": "品物(しなもの)"
     },
@@ -2438,7 +2438,7 @@
     {
         "name": "fakkusu",
         "trans": [
-            "传真"
+            "fax"
         ],
         "notation": "ファックス"
     },
@@ -2459,7 +2459,7 @@
     {
         "name": "tatoeba",
         "trans": [
-            "例如"
+            "ví dụ"
         ],
         "notation": "例(たと)えば"
     },
@@ -2473,14 +2473,14 @@
     {
         "name": "tsureru",
         "trans": [
-            "领导"
+            "lãnh đạo, dẫn dắt"
         ],
         "notation": "連(つ)れる"
     },
     {
         "name": "tokoya",
         "trans": [
-            "理发师"
+            "thợ cắt tóc"
         ],
         "notation": "とこや"
     },
@@ -2494,7 +2494,7 @@
     {
         "name": "koudou",
         "trans": [
-            "礼堂"
+            "hội trường"
         ],
         "notation": "講堂(こうどう)"
     },
@@ -2508,14 +2508,14 @@
     {
         "name": "jishin",
         "trans": [
-            "地震"
+            "n. động đất"
         ],
         "notation": "地震(じしん)"
     },
     {
         "name": "beru",
         "trans": [
-            "钟"
+            "chuông; đồng hồ"
         ],
         "notation": "ベル"
     },
@@ -2529,28 +2529,28 @@
     {
         "name": "doubutsuen",
         "trans": [
-            "动物园"
+            "sở thú"
         ],
         "notation": "動物(どうぶつ)園(えん)"
     },
     {
         "name": "wareru",
         "trans": [
-            "打破"
+            "phá vỡ, làm vỡ"
         ],
         "notation": "割(わ)れる"
     },
     {
         "name": "yoru",
         "trans": [
-            "参观"
+            "tham quan"
         ],
         "notation": "寄(よ)る"
     },
     {
         "name": "ageru",
         "trans": [
-            "给"
+            "cho, tặng"
         ],
         "notation": "あげる"
     },
@@ -2564,7 +2564,7 @@
     {
         "name": "tazuneru",
         "trans": [
-            "询问"
+            "hỏi, hỏi han"
         ],
         "notation": "尋(たず)ねる"
     },
@@ -2578,42 +2578,42 @@
     {
         "name": "sukkari",
         "trans": [
-            "完全"
+            "hoàn toàn"
         ],
         "notation": "すっかり"
     },
     {
         "name": "hijouni",
         "trans": [
-            "非常"
+            "rất; cực kỳ; hết sức"
         ],
         "notation": "非常(ひじょう)に"
     },
     {
         "name": "tsuru",
         "trans": [
-            "去钓鱼"
+            "đi câu cá"
         ],
         "notation": "釣(つ)る"
     },
     {
         "name": "houritsu",
         "trans": [
-            "法律"
+            "luật pháp; pháp luật"
         ],
         "notation": "法律(ほうりつ)"
     },
     {
         "name": "shitaku",
         "trans": [
-            "准备"
+            "chuẩn bị; sẵn sàng"
         ],
         "notation": "支度(したく)"
     },
     {
         "name": "soudan",
         "trans": [
-            "讨论"
+            "thảo luận, bàn luận"
         ],
         "notation": "相談(そうだん)"
     },
@@ -2634,7 +2634,7 @@
     {
         "name": "handobaggu",
         "trans": [
-            "手提包"
+            "túi xách, túi cầm tay"
         ],
         "notation": "ハンドバッグ"
     },
@@ -2683,28 +2683,28 @@
     {
         "name": "kabe",
         "trans": [
-            "墙"
+            "bức tường"
         ],
         "notation": "壁(かべ)"
     },
     {
         "name": "tooku",
         "trans": [
-            "远"
+            "xa"
         ],
         "notation": "遠(とお)く"
     },
     {
         "name": "kagaku",
         "trans": [
-            "科学"
+            "n. khoa học"
         ],
         "notation": "科学(かがく)"
     },
     {
         "name": "sobo",
         "trans": [
-            "奶奶"
+            "bà; bà nội"
         ],
         "notation": "祖母(そぼ)"
     },
@@ -2718,7 +2718,7 @@
     {
         "name": "akachan",
         "trans": [
-            "婴儿"
+            "trẻ sơ sinh"
         ],
         "notation": "あかちゃん"
     },
@@ -2732,7 +2732,7 @@
     {
         "name": "uketsuke",
         "trans": [
-            "收据"
+            "biên lai, hoá đơn"
         ],
         "notation": "受付(うけつけ)"
     },
@@ -2746,21 +2746,21 @@
     {
         "name": "kyousou",
         "trans": [
-            "竞争"
+            "cạnh tranh"
         ],
         "notation": "競争(きょうそう)"
     },
     {
         "name": "yubi",
         "trans": [
-            "手指"
+            "ngón tay"
         ],
         "notation": "指(ゆび)"
     },
     {
         "name": "todokeru",
         "trans": [
-            "达到"
+            "đạt; đạt được"
         ],
         "notation": "届(とど)ける"
     },
@@ -2774,14 +2774,14 @@
     {
         "name": "geshuku",
         "trans": [
-            "住宿"
+            "chỗ ở, lưu trú"
         ],
         "notation": "下宿(げしゅく)"
     },
     {
         "name": "odoru",
         "trans": [
-            "跳舞"
+            "nhảy múa"
         ],
         "notation": "踊(おど)る"
     },
@@ -2795,7 +2795,7 @@
     {
         "name": "dorobou",
         "trans": [
-            "小偷"
+            "tên trộm; kẻ trộm"
         ],
         "notation": "泥棒(どろぼう)"
     },
@@ -2823,14 +2823,14 @@
     {
         "name": "tenisu",
         "trans": [
-            "网球"
+            "quyen vong"
         ],
         "notation": "テニス"
     },
     {
         "name": "nusumu",
         "trans": [
-            "偷窃"
+            "trộm, ăn cắp"
         ],
         "notation": "盗(ぬす)む"
     },
@@ -2844,7 +2844,7 @@
     {
         "name": "esukareetaa",
         "trans": [
-            "自动扶梯"
+            "thang cuốn"
         ],
         "notation": "エスカレーター"
     },
@@ -2872,14 +2872,14 @@
     {
         "name": "chiri",
         "trans": [
-            "地理"
+            "địa lý"
         ],
         "notation": "地理(ちり)"
     },
     {
         "name": "kowata",
         "trans": [
-            "棉花"
+            "bông, bông vải"
         ],
         "notation": "木綿(こわた)"
     },
@@ -2893,7 +2893,7 @@
     {
         "name": "tenrankai",
         "trans": [
-            "展览"
+            "n. triển lãm; trưng bày"
         ],
         "notation": "展覧(てんらん)会(かい)"
     },
@@ -2907,7 +2907,7 @@
     {
         "name": "kakkou",
         "trans": [
-            "外观"
+            "vẻ ngoài, dáng dấp bên ngoài"
         ],
         "notation": "かっこう"
     },
@@ -2921,42 +2921,42 @@
     {
         "name": "afurika",
         "trans": [
-            "非洲"
+            "châu Phi"
         ],
         "notation": "アフリカ"
     },
     {
         "name": "anzen",
         "trans": [
-            "安全"
+            "an toàn"
         ],
         "notation": "安全(あんぜん)"
     },
     {
         "name": "kaaten",
         "trans": [
-            "窗帘"
+            "rèm cửa"
         ],
         "notation": "カーテン"
     },
     {
         "name": "shinpai",
         "trans": [
-            "担心"
+            "lo lắng"
         ],
         "notation": "心配(しんぱい)"
     },
     {
         "name": "nigeru",
         "trans": [
-            "逃避"
+            "tránh; lẩn tránh"
         ],
         "notation": "逃(に)げる"
     },
     {
         "name": "tanoshimi",
         "trans": [
-            "喜悦"
+            "niềm vui"
         ],
         "notation": "楽(たの)しみ"
     },
@@ -2977,21 +2977,21 @@
     {
         "name": "rekishi",
         "trans": [
-            "历史"
+            "lịch sử"
         ],
         "notation": "歴史(れきし)"
     },
     {
         "name": "norimono",
         "trans": [
-            "车辆"
+            "xe cộ; phương tiện; xe"
         ],
         "notation": "乗(の)り物(もの)"
     },
     {
         "name": "nesshin",
         "trans": [
-            "热情"
+            "nhiệt tình, hăng hái"
         ],
         "notation": "ねっしん"
     },
@@ -3047,7 +3047,7 @@
     {
         "name": "kaiwa",
         "trans": [
-            "谈话"
+            "noi chuyen"
         ],
         "notation": "会話(かいわ)"
     },
@@ -3096,7 +3096,7 @@
     {
         "name": "okurimono",
         "trans": [
-            "礼物"
+            "món quà"
         ],
         "notation": "贈(おく)り物(もの)"
     },
@@ -3110,14 +3110,14 @@
     {
         "name": "kyoumi",
         "trans": [
-            "兴趣"
+            "sở thích; hứng thú"
         ],
         "notation": "興味(きょうみ)"
     },
     {
         "name": "chuushajou",
         "trans": [
-            "停车场"
+            "bãi đỗ xe"
         ],
         "notation": "駐車(ちゅうしゃ)場(じょう)"
     },
@@ -3131,35 +3131,35 @@
     {
         "name": "nareru",
         "trans": [
-            "习惯"
+            "thói quen; tật; thói lệ"
         ],
         "notation": "慣(な)れる"
     },
     {
         "name": "kega/suru",
         "trans": [
-            "伤害"
+            "làm tổn thương; tổn thương; gây hại"
         ],
         "notation": "けが・する"
     },
     {
         "name": "sawaru",
         "trans": [
-            "触摸"
+            "chạm; đụng; sờ"
         ],
         "notation": "触(さわ)る"
     },
     {
         "name": "yushutsu",
         "trans": [
-            "导出"
+            "xuất"
         ],
         "notation": "輸出(ゆしゅつ)"
     },
     {
         "name": "keisatsu",
         "trans": [
-            "警察"
+            "cảnh sát"
         ],
         "notation": "警察(けいさつ)"
     },
@@ -3173,7 +3173,7 @@
     {
         "name": "kankei",
         "trans": [
-            "关系"
+            "quan hệ; liên hệ; mối liên hệ; mối quan tâm"
         ],
         "notation": "関係(かんけい)"
     },
@@ -3194,7 +3194,7 @@
     {
         "name": "yakusoku",
         "trans": [
-            "承诺"
+            "hứa; lời hứa; cam kết"
         ],
         "notation": "約束(やくそく)"
     },
@@ -3215,14 +3215,14 @@
     {
         "name": "mazu",
         "trans": [
-            "首先"
+            "trước hết, đầu tiên"
         ],
         "notation": "まず"
     },
     {
         "name": "josei",
         "trans": [
-            "女人"
+            "người phụ nữ"
         ],
         "notation": "女性(じょせい)"
     },
@@ -3236,14 +3236,14 @@
     {
         "name": "ajia",
         "trans": [
-            "亚洲"
+            "Châu Á"
         ],
         "notation": "アジア"
     },
     {
         "name": "tame",
         "trans": [
-            "为了"
+            "để; vì"
         ],
         "notation": "為(ため)"
     },
@@ -3257,7 +3257,7 @@
     {
         "name": "teinei",
         "trans": [
-            "礼貌"
+            "lịch sự"
         ],
         "notation": "丁寧(ていねい)"
     },
@@ -3278,7 +3278,7 @@
     {
         "name": "noboru",
         "trans": [
-            "上升"
+            "tăng lên; sự tăng"
         ],
         "notation": "上(のぼ)る"
     },
@@ -3299,7 +3299,7 @@
     {
         "name": "ureshii",
         "trans": [
-            "高兴"
+            "vui"
         ],
         "notation": "うれしい"
     },
@@ -3320,7 +3320,7 @@
     {
         "name": "chuusha",
         "trans": [
-            "注射"
+            "tiêm, mũi tiêm"
         ],
         "notation": "注射(ちゅうしゃ)"
     },
@@ -3341,7 +3341,7 @@
     {
         "name": "suteeki",
         "trans": [
-            "牛排"
+            "bitchap"
         ],
         "notation": "ステーキ"
     },
@@ -3376,7 +3376,7 @@
     {
         "name": "igai",
         "trans": [
-            "除了"
+            "prep. ngoài ra; trừ"
         ],
         "notation": "以外(いがい)"
     },
@@ -3397,7 +3397,7 @@
     {
         "name": "ha",
         "trans": [
-            "叶"
+            "chiếc lá, lá cây"
         ],
         "notation": "葉(は)"
     },
@@ -3411,14 +3411,14 @@
     {
         "name": "kazaru",
         "trans": [
-            "装饰"
+            "trang trí, đồ trang trí"
         ],
         "notation": "飾(かざ)る"
     },
     {
         "name": "tsuki",
         "trans": [
-            "月亮"
+            "trăng; mặt trăng"
         ],
         "notation": "つき"
     },
@@ -3453,7 +3453,7 @@
     {
         "name": "chi",
         "trans": [
-            "血"
+            "máu"
         ],
         "notation": "血(ち)"
     },
@@ -3467,7 +3467,7 @@
     {
         "name": "tsutsumu",
         "trans": [
-            "包装"
+            "bao bì; đóng gói"
         ],
         "notation": "包(つつ)む"
     },
@@ -3481,14 +3481,14 @@
     {
         "name": "undou",
         "trans": [
-            "锻炼"
+            "v. tập luyện; n. bài tập"
         ],
         "notation": "運動(うんどう)"
     },
     {
         "name": "mori",
         "trans": [
-            "森林"
+            "rừng"
         ],
         "notation": "森(もり)"
     },
@@ -3502,7 +3502,7 @@
     {
         "name": "tebukuro",
         "trans": [
-            "手套"
+            "găng tay"
         ],
         "notation": "手袋(てぶくろ)"
     },
@@ -3530,14 +3530,14 @@
     {
         "name": "tsumori",
         "trans": [
-            "意图"
+            "ý định, mục đích"
         ],
         "notation": "つもり"
     },
     {
         "name": "dakara",
         "trans": [
-            "所以，因此"
+            "vì vậy; do đó"
         ],
         "notation": "だから"
     },
@@ -3558,14 +3558,14 @@
     {
         "name": "ukagau",
         "trans": [
-            "参观"
+            "tham quan"
         ],
         "notation": "うかがう"
     },
     {
         "name": "anna",
         "trans": [
-            "这样"
+            "như vậy"
         ],
         "notation": "あんな"
     },
@@ -3579,7 +3579,7 @@
     {
         "name": "shiraseru",
         "trans": [
-            "通知"
+            "thông báo"
         ],
         "notation": "知(し)らせる"
     },
@@ -3593,7 +3593,7 @@
     {
         "name": "kaigan",
         "trans": [
-            "海岸"
+            "bờ biển"
         ],
         "notation": "海岸(かいがん)"
     },
@@ -3607,7 +3607,7 @@
     {
         "name": "shumi",
         "trans": [
-            "爱好"
+            "sở thích; niềm thích"
         ],
         "notation": "趣味(しゅみ)"
     },
@@ -3642,7 +3642,7 @@
     {
         "name": "asobi",
         "trans": [
-            "玩"
+            "chơi; đùa giỡn"
         ],
         "notation": "遊(あそ)び"
     },
@@ -3663,7 +3663,7 @@
     {
         "name": "hidoi",
         "trans": [
-            "可怕"
+            "khủng khiếp, đáng sợ"
         ],
         "notation": "ひどい"
     },
@@ -3726,7 +3726,7 @@
     {
         "name": "omiyage",
         "trans": [
-            "纪念品"
+            "n. kỷ niệm, quà lưu niệm"
         ],
         "notation": "お土産(みやげ)"
     },
@@ -3747,7 +3747,7 @@
     {
         "name": "karera",
         "trans": [
-            "他们"
+            "họ; chúng; họ chúng"
         ],
         "notation": "彼(かれ)ら"
     },
@@ -3775,21 +3775,21 @@
     {
         "name": "naku",
         "trans": [
-            "哭泣"
+            "khóc"
         ],
         "notation": "泣(な)く"
     },
     {
         "name": "junbi",
         "trans": [
-            "准备"
+            "chuẩn bị; sẵn sàng"
         ],
         "notation": "準備(じゅんび)"
     },
     {
         "name": "tazuneru",
         "trans": [
-            "参观"
+            "tham quan"
         ],
         "notation": "訪(たず)ねる"
     },
@@ -3824,7 +3824,7 @@
     {
         "name": "ko",
         "trans": [
-            "孩子"
+            "trẻ con, đứa trẻ"
         ],
         "notation": "子(こ)"
     },
@@ -3838,7 +3838,7 @@
     {
         "name": "jidai",
         "trans": [
-            "时代"
+            "n. thời đại; thời"
         ],
         "notation": "時代(じだい)"
     },
@@ -3866,14 +3866,14 @@
     {
         "name": "ayamaru",
         "trans": [
-            "道歉"
+            "xin lỗi"
         ],
         "notation": "謝(あやま)る"
     },
     {
         "name": "bijutsukan",
         "trans": [
-            "美术馆"
+            "phòng tranh, nhà tranh"
         ],
         "notation": "美術館(びじゅつかん)"
     },
@@ -3887,7 +3887,7 @@
     {
         "name": "shi",
         "trans": [
-            "城市"
+            "thành phố, đô thị"
         ],
         "notation": "市(し)"
     },
@@ -3901,14 +3901,14 @@
     {
         "name": "mushi",
         "trans": [
-            "昆虫"
+            "côn trùng"
         ],
         "notation": "虫(むし)"
     },
     {
         "name": "tsuzukeru",
         "trans": [
-            "继续"
+            "tiếp tục, tiếp"
         ],
         "notation": "続(つづ)ける"
     },
@@ -3929,21 +3929,21 @@
     {
         "name": "bunka",
         "trans": [
-            "文化"
+            "văn hóa"
         ],
         "notation": "文化(ぶんか)"
     },
     {
         "name": "kaeri",
         "trans": [
-            "返回"
+            "trở về; quay lại"
         ],
         "notation": "帰(かえ)り"
     },
     {
         "name": "isogu",
         "trans": [
-            "快点"
+            "nhanh lên, mau lên"
         ],
         "notation": "急(いそ)ぐ"
     },
@@ -3978,14 +3978,14 @@
     {
         "name": "boueki",
         "trans": [
-            "贸易"
+            "thương mại"
         ],
         "notation": "貿易(ぼうえき)"
     },
     {
         "name": "betsu",
         "trans": [
-            "不同"
+            "khác nhau, khác"
         ],
         "notation": "別(べつ)"
     },
@@ -4020,7 +4020,7 @@
     {
         "name": "ichido",
         "trans": [
-            "一次"
+            "một lần"
         ],
         "notation": "一(いち)度(ど)"
     },
@@ -4041,7 +4041,7 @@
     {
         "name": "hajimeru",
         "trans": [
-            "开始"
+            "bắt đầu"
         ],
         "notation": "始(はじ)める"
     },
@@ -4062,14 +4062,14 @@
     {
         "name": "repouto/ripouto",
         "trans": [
-            "报告"
+            "báo cáo"
         ],
         "notation": "レポート/リポート"
     },
     {
         "name": "konya",
         "trans": [
-            "今晚"
+            "tối nay; tối"
         ],
         "notation": "今夜(こんや)"
     },
@@ -4090,7 +4090,7 @@
     {
         "name": "mawari",
         "trans": [
-            "环境"
+            "n. môi trường"
         ],
         "notation": "周(まわ)り"
     },
@@ -4104,7 +4104,7 @@
     {
         "name": "setsumei",
         "trans": [
-            "解释"
+            "v. giải thích; thích dẫn"
         ],
         "notation": "説明(せつめい)"
     },
@@ -4132,28 +4132,28 @@
     {
         "name": "suiei",
         "trans": [
-            "游泳"
+            "boi"
         ],
         "notation": "水泳(すいえい)"
     },
     {
         "name": "kouchou",
         "trans": [
-            "校长"
+            "hiệu trưởng"
         ],
         "notation": "校長(こうちょう)"
     },
     {
         "name": "hazukashii",
         "trans": [
-            "尴尬"
+            "khó xử"
         ],
         "notation": "恥(は)ずかしい"
     },
     {
         "name": "jiten",
         "trans": [
-            "字典"
+            "từ điển"
         ],
         "notation": "辞典(じてん)"
     },
@@ -4167,7 +4167,7 @@
     {
         "name": "danbou",
         "trans": [
-            "加热"
+            "làm nóng, sưởi"
         ],
         "notation": "暖房(だんぼう)"
     },
@@ -4195,7 +4195,7 @@
     {
         "name": "sensou",
         "trans": [
-            "战争"
+            "chiến tranh"
         ],
         "notation": "戦争(せんそう)"
     },
@@ -4209,14 +4209,14 @@
     {
         "name": "kenbutsu",
         "trans": [
-            "观光"
+            "v. tham quan, du lịch; n. việc tham quan"
         ],
         "notation": "見物(けんぶつ)"
     },
     {
         "name": "kyoukai",
         "trans": [
-            "教堂"
+            "nhà thờ"
         ],
         "notation": "教会(きょうかい)"
     },
@@ -4237,14 +4237,14 @@
     {
         "name": "mukau",
         "trans": [
-            "面对"
+            "đối mặt"
         ],
         "notation": "向(む)かう"
     },
     {
         "name": "yamu",
         "trans": [
-            "停止"
+            "dừng, ngừng"
         ],
         "notation": "止(や)む"
     },
@@ -4258,14 +4258,14 @@
     {
         "name": "yume",
         "trans": [
-            "梦"
+            "n. giấc mơ; nằm mơ"
         ],
         "notation": "夢(ゆめ)"
     },
     {
         "name": "shikata",
         "trans": [
-            "方法"
+            "phương pháp; cách"
         ],
         "notation": "仕方(しかた)"
     },
@@ -4307,14 +4307,14 @@
     {
         "name": "suna",
         "trans": [
-            "沙"
+            "cát"
         ],
         "notation": "砂(すな)"
     },
     {
         "name": "hantai",
         "trans": [
-            "反对"
+            "phản đối, chống"
         ],
         "notation": "反対(はんたい)"
     },
@@ -4349,7 +4349,7 @@
     {
         "name": "shougakkou",
         "trans": [
-            "小学"
+            "tiểu học"
         ],
         "notation": "小学校(しょうがっこう)"
     },
@@ -4370,14 +4370,14 @@
     {
         "name": "erabu",
         "trans": [
-            "选择"
+            "sự lựa chọn; chọn, lựa"
         ],
         "notation": "選(えら)ぶ"
     },
     {
         "name": "aji",
         "trans": [
-            "味道"
+            "vi"
         ],
         "notation": "味(あじ)"
     },

@@ -1,5 +1,5 @@
 [
-{
+    {
         "name": "running",
         "trans": [
             "跑步"
@@ -10,7 +10,7 @@
     {
         "name": "basketball",
         "trans": [
-            "篮球"
+            "bóng rổ"
         ],
         "usphone": "ˈbæskɪtˌbɔl",
         "ukphone": "ˈbɑːskɪtˌbɔːl"
@@ -18,7 +18,7 @@
     {
         "name": "roller skating",
         "trans": [
-            "滑旱冰"
+            "trượt đất; trượt giày trụ"
         ],
         "usphone": "ˈroʊlər ˈskeɪtɪŋ",
         "ukphone": "ˈrəʊlə ˈskeɪtɪŋ"
@@ -26,7 +26,7 @@
     {
         "name": "jumping rope",
         "trans": [
-            "跳绳"
+            "nhảy dây"
         ],
         "usphone": "ˈdʒʌmpɪŋ roʊp",
         "ukphone": "ˈdʒʌmpɪŋ rəʊp"
@@ -34,7 +34,7 @@
     {
         "name": "ping-pong",
         "trans": [
-            "乒乓球"
+            "bóng bàn"
         ],
         "usphone": "ˈpɪŋˌpɔŋ",
         "ukphone": "ˈpɪŋˌpɒŋ"
@@ -50,7 +50,7 @@
     {
         "name": "interesting",
         "trans": [
-            "有趣的"
+            "thú vị"
         ],
         "usphone": "ˈɪntrəstɪŋ",
         "ukphone": "ˈɪntrəstɪŋ"
@@ -58,7 +58,7 @@
     {
         "name": "often",
         "trans": [
-            "经常"
+            "thường; thường xuyên"
         ],
         "usphone": "ˈɔfn",
         "ukphone": "ˈɒfn"
@@ -66,7 +66,7 @@
     {
         "name": "be good at",
         "trans": [
-            "擅长"
+            "giỏi"
         ],
         "usphone": "bi ɡʊd æt",
         "ukphone": "bi ɡʊd ət"
@@ -74,7 +74,7 @@
     {
         "name": "late",
         "trans": [
-            "晚"
+            "muộn; tối"
         ],
         "usphone": "leɪt",
         "ukphone": "leɪt"
@@ -82,7 +82,7 @@
     {
         "name": "swim",
         "trans": [
-            "游泳"
+            "boi"
         ],
         "usphone": "swɪm",
         "ukphone": "swɪm"
@@ -90,7 +90,7 @@
     {
         "name": "friend",
         "trans": [
-            "朋友"
+            "bạn"
         ],
         "usphone": "frɛnd",
         "ukphone": "frɛnd"
@@ -98,7 +98,7 @@
     {
         "name": "father",
         "trans": [
-            "父亲"
+            "bố; cha"
         ],
         "usphone": "ˈfɑːðər",
         "ukphone": "ˈfɑːðər"
@@ -154,7 +154,7 @@
     {
         "name": "go fishing",
         "trans": [
-            "钓鱼"
+            "câu cá"
         ],
         "usphone": "ɡoʊ ˈfɪʃɪŋ",
         "ukphone": "ɡəʊ ˈfɪʃɪŋ"
@@ -178,7 +178,7 @@
     {
         "name": "fun",
         "trans": [
-            "有趣的"
+            "thú vị"
         ],
         "usphone": "fʌn",
         "ukphone": "fʌn"
@@ -186,7 +186,7 @@
     {
         "name": "always",
         "trans": [
-            "总是"
+            "luôn luôn, luôn"
         ],
         "usphone": "ˈɔlˌweɪz",
         "ukphone": "ˈɔːlweɪz"
@@ -218,7 +218,7 @@
     {
         "name": "dirty",
         "trans": [
-            "脏的"
+            "bẩn, dơ bẩn"
         ],
         "usphone": "ˈdɜrti",
         "ukphone": "ˈdɜːti"
@@ -226,7 +226,7 @@
     {
         "name": "their",
         "trans": [
-            "他们的"
+            "của họ; của chúng"
         ],
         "usphone": "ðɛr",
         "ukphone": "ðɛːr"
@@ -234,7 +234,7 @@
     {
         "name": "house",
         "trans": [
-            "房子"
+            "nhà; căn nhà"
         ],
         "usphone": "haʊs",
         "ukphone": "haʊs"
@@ -250,7 +250,7 @@
     {
         "name": "hope",
         "trans": [
-            "希望"
+            "hy vọng; mong muốn"
         ],
         "usphone": "hoʊp",
         "ukphone": "həʊp"
@@ -266,7 +266,7 @@
     {
         "name": "Saturday",
         "trans": [
-            "星期六"
+            "thứ sáu"
         ],
         "usphone": "ˈsætərˌdeɪ",
         "ukphone": "ˈsætədeɪ"
@@ -274,7 +274,7 @@
     {
         "name": "near",
         "trans": [
-            "靠近"
+            "tiến lại gần"
         ],
         "usphone": "nɪr",
         "ukphone": "nɪər"
@@ -338,7 +338,7 @@
     {
         "name": "by bike",
         "trans": [
-            "骑自行车"
+            "đạp xe đạp, đi xe đạp"
         ],
         "usphone": "baɪ baɪk",
         "ukphone": "baɪ baɪk"
@@ -386,7 +386,7 @@
     {
         "name": "garden",
         "trans": [
-            "花园"
+            "vườn"
         ],
         "usphone": "ˈɡɑrdn",
         "ukphone": "ˈɡɑːrdn"
@@ -402,7 +402,7 @@
     {
         "name": "gate",
         "trans": [
-            "大门"
+            "cổng"
         ],
         "usphone": "ɡeɪt",
         "ukphone": "ɡeɪt"
@@ -410,7 +410,7 @@
     {
         "name": "transportation",
         "trans": [
-            "交通"
+            "giao thông; sự đi lại"
         ],
         "usphone": "ˌtrænspɔrˈteɪʃən",
         "ukphone": "ˌtrænspɔːˈteɪʃən"
@@ -418,7 +418,7 @@
     {
         "name": "film",
         "trans": [
-            "电影"
+            "phim"
         ],
         "usphone": "fɪlm",
         "ukphone": "fɪlm"
@@ -434,7 +434,7 @@
     {
         "name": "snow",
         "trans": [
-            "雪"
+            "n. tuyết"
         ],
         "usphone": "snoʊ",
         "ukphone": "snəʊ"
@@ -450,7 +450,7 @@
     {
         "name": "come",
         "trans": [
-            "来"
+            "đến, tới"
         ],
         "usphone": "kʌm",
         "ukphone": "kʌm"
@@ -458,7 +458,7 @@
     {
         "name": "enjoy",
         "trans": [
-            "欣赏"
+            "đánh giá cao, hết lời khen ngợi"
         ],
         "usphone": "ɪnˈdʒɔɪ",
         "ukphone": "ɪnˈdʒɔɪ"
@@ -466,7 +466,7 @@
     {
         "name": "park",
         "trans": [
-            "公园"
+            "công viên"
         ],
         "usphone": "pɑrk",
         "ukphone": "pɑːrk"
@@ -474,7 +474,7 @@
     {
         "name": "apple",
         "trans": [
-            "苹果"
+            "táo"
         ],
         "usphone": "ˈæpl",
         "ukphone": "ˈæpəl"
@@ -482,7 +482,7 @@
     {
         "name": "pen",
         "trans": [
-            "钢笔"
+            "bút"
         ],
         "usphone": "pɛn",
         "ukphone": "pɛn"
@@ -506,7 +506,7 @@
     {
         "name": "crayon",
         "trans": [
-            "蜡笔"
+            "sáp màu"
         ],
         "usphone": "ˈkreɪən",
         "ukphone": "ˈkreɪən"
@@ -514,7 +514,7 @@
     {
         "name": "scissors",
         "trans": [
-            "剪刀"
+            "kéo cắt, kéo"
         ],
         "usphone": "ˈsɪzərz",
         "ukphone": "ˈsɪzərz"
@@ -538,7 +538,7 @@
     {
         "name": "use",
         "trans": [
-            "使用"
+            "dùng; sử dụng; dùng để"
         ],
         "usphone": "juz",
         "ukphone": "juːz"
@@ -546,7 +546,7 @@
     {
         "name": "please",
         "trans": [
-            "请"
+            "xin; vui lòng"
         ],
         "usphone": "pliz",
         "ukphone": "pliːz"
@@ -554,7 +554,7 @@
     {
         "name": "find",
         "trans": [
-            "找到"
+            "tìm thấy"
         ],
         "usphone": "faɪnd",
         "ukphone": "faɪnd"
@@ -578,7 +578,7 @@
     {
         "name": "phone",
         "trans": [
-            "电话"
+            "điện thoại"
         ],
         "usphone": "foʊn",
         "ukphone": "fəʊn"
@@ -586,7 +586,7 @@
     {
         "name": "dad",
         "trans": [
-            "爸爸"
+            "bố, cha"
         ],
         "usphone": "dæd",
         "ukphone": "dæd"
@@ -594,7 +594,7 @@
     {
         "name": "hamburger",
         "trans": [
-            "汉堡包"
+            "bánh mì kẹp thịt; bánh hamburger"
         ],
         "usphone": "ˈhæmbɝɡɚ",
         "ukphone": "ˈhæmbɜːɡə"
@@ -610,7 +610,7 @@
     {
         "name": "pencil",
         "trans": [
-            "铅笔"
+            "bút chì"
         ],
         "usphone": "ˈpnsəl",
         "ukphone": "ˈpɛnsəl"
@@ -618,7 +618,7 @@
     {
         "name": "schoolbag",
         "trans": [
-            "书包"
+            "n. cặp sách, ba lô"
         ],
         "usphone": "ˈskulˌbæg",
         "ukphone": "ˈskuːlˌbæɡ"
@@ -626,7 +626,7 @@
     {
         "name": "shop",
         "trans": [
-            "商店"
+            "n. cửa hàng, tiệm"
         ],
         "usphone": "ʃɑp",
         "ukphone": "ʃɒp"
@@ -642,7 +642,7 @@
     {
         "name": "dangerous",
         "trans": [
-            "危险的"
+            "Nguy hiểm"
         ],
         "usphone": "ˈdeɪndʒərəs",
         "ukphone": "ˈdeɪndʒərəs"
@@ -664,7 +664,7 @@
         "ukphone": "bi ˈkeəfʊl"
     },
     {
-       "name": "run down the stairs",
+        "name": "run down the stairs",
         "trans": [
             "跑下楼梯"
         ],
@@ -674,7 +674,7 @@
     {
         "name": "sidewalk",
         "trans": [
-            "人行道"
+            "n. vỉa hè"
         ],
         "usphone": "ˈsaɪdwɔk",
         "ukphone": "ˈsaɪdwɔːk"
@@ -682,7 +682,7 @@
     {
         "name": "wait for",
         "trans": [
-            "等待"
+            "chờ đợi"
         ],
         "usphone": "weɪt fɔr",
         "ukphone": "weɪt fɔː"
@@ -690,7 +690,7 @@
     {
         "name": "safe",
         "trans": [
-            "安全的"
+            "an toàn"
         ],
         "usphone": "seɪf",
         "ukphone": "seɪf"
@@ -706,7 +706,7 @@
     {
         "name": "street",
         "trans": [
-            "街道"
+            "pho"
         ],
         "usphone": "strit",
         "ukphone": "striːt"
@@ -714,7 +714,7 @@
     {
         "name": "safety rule",
         "trans": [
-            "安全规则"
+            "quy tắc an toàn"
         ],
         "usphone": "ˈseɪfti ruːl",
         "ukphone": "ˈseɪfti ruːl"
@@ -722,7 +722,7 @@
     {
         "name": "green",
         "trans": [
-            "绿色的"
+            "xanh lá; màu xanh lá"
         ],
         "usphone": "ɡrin",
         "ukphone": "ɡriːn"
@@ -730,7 +730,7 @@
     {
         "name": "red",
         "trans": [
-            "红色的"
+            "màu đỏ (adj.)"
         ],
         "usphone": "rɛd",
         "ukphone": "rɛd"
@@ -746,7 +746,7 @@
     {
         "name": "nurse",
         "trans": [
-            "护士"
+            "y tá"
         ],
         "usphone": "nɜrs",
         "ukphone": "nɜːs"
@@ -754,15 +754,15 @@
     {
         "name": "cook",
         "trans": [
-            "厨师"
+            "đầu bếp, đầu bếp"
         ],
-        "usphone":"kʊk",
+        "usphone": "kʊk",
         "ukphone": "kʊk"
     },
     {
         "name": "doctor",
         "trans": [
-            "医生"
+            "bác sĩ, thầy thuốc"
         ],
         "usphone": "ˈdɑktər",
         "ukphone": "ˈdɒktər"
@@ -778,7 +778,7 @@
     {
         "name": "police officer",
         "trans": [
-            "警官"
+            "cảnh sát"
         ],
         "usphone": "pəˈlis ˈfəsər",
         "ukphone": "pəˈliːs ˈɒfɪsə"
@@ -794,7 +794,7 @@
     {
         "name": "farmer",
         "trans": [
-            "农民"
+            "nông dân"
         ],
         "usphone": "ˈfɑrmər",
         "ukphone": "ˈfɑːmə"
@@ -802,7 +802,7 @@
     {
         "name": "worker",
         "trans": [
-            "工人"
+            "công nhân"
         ],
         "usphone": "ˈwɜrkər",
         "ukphone": "ˈwɜːkə"
@@ -826,7 +826,7 @@
     {
         "name": "job",
         "trans": [
-            "工作"
+            "làm việc; công việc"
         ],
         "usphone": "dʒɑb",
         "ukphone": "dʒɒb"
@@ -834,7 +834,7 @@
     {
         "name": "sick",
         "trans": [
-            "有病的"
+            "bệnh"
         ],
         "usphone": "sɪk ",
         "ukphone": "sɪk"
@@ -842,7 +842,7 @@
     {
         "name": "people",
         "trans": [
-            "人们"
+            "con người"
         ],
         "usphone": "ˈpipəl",
         "ukphone": "ˈpiːpl"
@@ -850,7 +850,7 @@
     {
         "name": "teach",
         "trans": [
-            "教"
+            "day"
         ],
         "usphone": "titʃ",
         "ukphone": "tiːtʃ"
@@ -866,15 +866,15 @@
     {
         "name": "myself",
         "trans": [
-            "我自己"
+            "chính tôi; bản thân tôi"
         ],
         "usphone": "maɪsɛlf",
         "ukphone": "maɪˈsɛlf"
     },
     {
-       "name": "sound",
+        "name": "sound",
         "trans": [
-            "听起来"
+            "nghe"
         ],
         "usphone": "saʊnd",
         "ukphone": "saʊnd"
@@ -882,7 +882,7 @@
     {
         "name": "Monday",
         "trans": [
-            "星期一"
+            "thứ hai"
         ],
         "usphone": "ˈmʌndeɪ",
         "ukphone": "ˈmʌndeɪ"
@@ -890,7 +890,7 @@
     {
         "name": "Tuesday",
         "trans": [
-            "星期二"
+            "thứ ba"
         ],
         "usphone": "ˈtuzdeɪ",
         "ukphone": "ˈtjuːzdeɪ"
@@ -898,15 +898,15 @@
     {
         "name": "Wednesday",
         "trans": [
-            "星期三"
+            "thứ tư"
         ],
         "usphone": "ˈwɛnzdeɪ",
         "ukphone": "ˈwenzdeɪ"
     },
     {
-        "name":"Thursday",
+        "name": "Thursday",
         "trans": [
-            "星期四"
+            "thứ tư"
         ],
         "usphone": "ˈθɜrzdeɪ",
         "ukphone": "ˈθɜːzdeɪ"
@@ -914,17 +914,17 @@
     {
         "name": "Friday",
         "trans": [
-            "星期五"
+            "thứ năm"
         ],
         "usphone": "ˈfraɪdeɪ",
         "ukphone": "ˈfraɪdeɪ"
     },
     {
         "name": "teacher",
-       "trans": [
+        "trans": [
             "老师"
         ],
         "usphone": "ˈtitʃər",
-        "ukphone": "ˈtiːtʃə" 
+        "ukphone": "ˈtiːtʃə"
     }
-    ]
+]

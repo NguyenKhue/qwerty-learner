@@ -1,928 +1,5661 @@
 [
-  { "name": "abdicate", "trans": ["v. 退位，放弃"] },
-  { "name": "abide", "trans": ["v. 遵守，忍受"] },
-  { "name": "abolish", "trans": ["v. 废除，取消"] },
-  { "name": "abound", "trans": ["v. 充满，到处都是"] },
-  { "name": "absolute", "trans": ["adj. 绝对的，专制的"] },
-  { "name": "absorb", "trans": ["v. 吸收，承受"] },
-  { "name": "abstract", "trans": ["adj. 抽象的"] },
-  { "name": "abundantly", "trans": ["adv. 大量地，非常地"] },
-  { "name": "abuse", "trans": ["v/n. 虐待，滥用"] },
-  { "name": "academic", "trans": ["adj. 学术的"] },
-  { "name": "accelerate", "trans": ["v. 加速，促进"] },
-  { "name": "access", "trans": ["v/n. 进入，使用"] },
-  { "name": "acclaim", "trans": ["v/n. 称赞，喝彩"] },
-  { "name": "accommodate", "trans": ["v. 容纳，（使）适应"] },
-  { "name": "accompany", "trans": ["v. 陪伴，伴随"] },
-  { "name": "account", "trans": ["v. 占比，解释", "n. 账户，资料"] },
-  { "name": "accuracy", "trans": ["n. 精确（性），准确（性）"] },
-  { "name": "achieve", "trans": ["v. 获得，实现"] },
-  { "name": "acknowledge", "trans": ["v. 承认，认可"] },
-  { "name": "acquire", "trans": ["v. 获得，习得"] },
-  { "name": "activate", "trans": ["v. 刺激，激发"] },
-  { "name": "acute", "trans": ["adj. 严重的，急性的"] },
-  { "name": "adaptable", "trans": ["adj. 适合的，能适应的"] },
-  { "name": "adequate", "trans": ["adj. 充足的，充分的"] },
-  { "name": "adhere", "trans": ["v. 坚持，遵守"] },
-  { "name": "adjoining", "trans": ["adj. 邻接的，相邻的"] },
-  { "name": "adjust", "trans": ["v. 调整，适应"] },
-  { "name": "administration", "trans": ["n. 管理，（美国）政府"] },
-  { "name": "admire", "trans": ["v. 钦佩，欣赏"] },
-  { "name": "admit", "trans": ["v. 承认"] },
-  { "name": "adopt", "trans": ["v. 收养、采纳"] },
-  { "name": "adornment", "trans": ["n. 装饰（品）"] },
-  { "name": "advocate", "trans": ["v. 提倡、拥护", "n. 支持者、拥护者"] },
-  { "name": "affect", "trans": ["v. 影响、感动", "n. 情感"] },
-  { "name": "affiliation", "trans": ["n. 联系、有关联的事物"] },
-  { "name": "affirm", "trans": ["v. 肯定、证实"] },
-  { "name": "agency", "trans": ["n. 代理、机构"] },
-  { "name": "aggravate", "trans": ["v. 加重、恶化"] },
-  { "name": "aggregation", "trans": ["n. 聚合、形成"] },
-  { "name": "aggressive", "trans": ["adj. 激进的、过激的、有进取心的"] },
-  { "name": "agitated", "trans": ["adj. 激动的、焦虑的"] },
-  { "name": "agony", "trans": ["n. 痛苦"] },
-  { "name": "alien", "trans": ["adj. 外国的", "n. 外国人"] },
-  { "name": "allay", "trans": ["v. 减轻、使缓和"] },
-  { "name": "allegation", "trans": ["n. 指控、陈述"] },
-  { "name": "alleviate", "trans": ["v. 减轻、（使）缓和"] },
-  { "name": "alliance", "trans": ["n. 联合、联盟"] },
-  { "name": "allocation", "trans": ["n. 分配、配置"] },
-  { "name": "alter", "trans": ["v. 改变、更改"] },
-  { "name": "amateur", "trans": ["adj. 业余的", "n. 业余爱好者"] },
-  { "name": "amazing", "trans": ["adj. 令人惊讶的"] },
-  { "name": "ambiguous", "trans": ["adj. 模糊不清的，模棱两可的"] },
-  { "name": "ambition", "trans": ["n. 雄心、志向"] },
-  { "name": "amplify", "trans": ["v. 扩大、加强"] },
-  { "name": "analogy", "trans": ["n. 类比"] },
-  { "name": "ancestor", "trans": ["n. 先驱者，祖先"] },
-  { "name": "announce", "trans": ["v. 宣布、声明"] },
-  { "name": "annoy", "trans": ["v/n. 困扰、烦扰"] },
-  { "name": "annual", "trans": ["adj. 年度的、每年的、四季常青的"] },
-  { "name": "anonymity", "trans": ["n. 匿名"] },
-  { "name": "anticipate", "trans": ["v. 预测、预料"] },
-  { "name": "apparent", "trans": ["adj. 明显的"] },
-  { "name": "appeal", "trans": ["v/n. 吸引、请求、上诉"] },
-  { "name": "appease", "trans": ["v. 安抚、抚慰"] },
-  { "name": "apply", "trans": ["v. 运用、适用、申请"] },
-  { "name": "appoint", "trans": ["v. 指定、任命"] },
-  { "name": "appreciate", "trans": ["v. 感激、欣赏、理解"] },
-  { "name": "apprehensive", "trans": ["adj. 忧虑的、不安的"] },
-  { "name": "approach", "trans": ["v. 接近、处理", "n. 接近、方法"] },
-  { "name": "appropriate", "trans": ["adj. 适当的、合适的"] },
-  { "name": "arbiter", "trans": ["n. 仲裁者、主宰者"] },
-  { "name": "arouse", "trans": ["v. 引起、激发"] },
-  { "name": "array", "trans": ["v/n. 排列"] },
-  { "name": "artificial", "trans": ["adj. 人造的、人工的"] },
-  { "name": "aspect", "trans": ["n. 方面"] },
-  { "name": "aspire", "trans": ["v. 渴望、追求"] },
-  { "name": "assembly", "trans": ["n. 集合、组装"] },
-  { "name": "assert", "trans": ["v. 宣称、断言"] },
-  { "name": "assess", "trans": ["v. 评估、估算"] },
-  { "name": "asset", "trans": ["n. 资产"] },
-  { "name": "assign", "trans": ["v. 分配、布置"] },
-  { "name": "assimilation", "trans": ["n. 同化"] },
-  { "name": "assist", "trans": ["v. 帮助、协助"] },
-  { "name": "associate", "trans": ["v. 联合、使有联系"] },
-  { "name": "assume", "trans": ["v. 假设"] },
-  { "name": "astrological", "trans": ["adj. 占星的"] },
-  { "name": "astronomy", "trans": ["n. 天文学"] },
-  { "name": "atmosphere", "trans": ["n. 大气（层）、空气、气氛"] },
-  { "name": "attract", "trans": ["v. 吸引"] },
-  { "name": "auction", "trans": ["v/n. 拍卖"] },
-  { "name": "authority", "trans": ["n. 权力、权威、官方"] },
-  { "name": "automated", "trans": ["adj. 自动（化）的"] },
-  { "name": "available", "trans": ["adj. 可得到的、存在的"] },
-  { "name": "awkward", "trans": ["adj. 尴尬的"] },
-  { "name": "bankruptcy", "trans": ["n. 破产"] },
-  { "name": "barely", "trans": ["adv. 仅仅、几乎没有"] },
-  { "name": "barrier", "trans": ["n. 障碍"] },
-  { "name": "behavior", "trans": ["n. 行为、举止"] },
-  { "name": "bellyful", "trans": ["n. 满腹"] },
-  { "name": "benefactor", "trans": ["n. 捐助者"] },
-  { "name": "benign", "trans": ["adj. 良性的、无害的"] },
-  { "name": "betray", "trans": ["v. 背叛、揭露"] },
-  { "name": "bias", "trans": ["n. 偏见"] },
-  { "name": "bid", "trans": ["v/n. 投标、出价"] },
-  { "name": "bilingual", "trans": ["adj. 双语的"] },
-  { "name": "binary", "trans": ["adj. 非黑即白的、二元的"] },
-  { "name": "binding", "trans": ["adj. 有约束力的"] },
-  { "name": "biographical", "trans": ["adj. 传记的"] },
-  { "name": "board", "trans": ["n. 委员会、董事会"] },
-  { "name": "boom", "trans": ["v. 迅速发展", "n. 繁荣"] },
-  { "name": "bother", "trans": ["v/n. 操心、麻烦"] },
-  { "name": "boundary", "trans": ["n. 界限、范围"] },
-  { "name": "bribery", "trans": ["n. 行贿、受贿"] },
-  { "name": "brief", "trans": ["adj. 简短的、简洁的", "n. 摘要、简报"] },
-  { "name": "broaden", "trans": ["v. 扩大、加宽"] },
-  { "name": "broker", "trans": ["n. 经纪人"] },
-  { "name": "bubble", "trans": ["v. 冒泡", "n. 气泡、泡沫"] },
-  { "name": "budget", "trans": ["v/n. 预算"] },
-  { "name": "bureaucratic", "trans": ["adj. 官僚主义的"] },
-  { "name": "burst", "trans": ["v/n. 爆炸、爆发"] },
-  { "name": "campaign", "trans": ["n. 战役、运动、活动"] },
-  { "name": "candidate", "trans": ["n. 候选人"] },
-  { "name": "capable", "trans": ["adj. 有能力的"] },
-  { "name": "capture", "trans": ["v. 捕捉、吸引", "n. 俘虏、战利品"] },
-  { "name": "carve", "trans": ["v. 分割、雕刻"] },
-  { "name": "category", "trans": ["n. 种类、范畴"] },
-  { "name": "cater", "trans": ["v. 迎合、为……服务"] },
-  { "name": "caution", "trans": ["v. 警告", "n. 小心、谨慎、警告"] },
-  { "name": "cavity", "trans": ["n. 腔、(牙齿的) 龋洞"] },
-  { "name": "celebrate", "trans": ["v. 庆祝"] },
-  { "name": "challenge", "trans": ["v/n. 挑战、质疑"] },
-  { "name": "character", "trans": ["n. 特征、性质、性格、字符"] },
-  { "name": "charge", "trans": ["v. 收费、指控", "n. 费用、控告"] },
-  { "name": "charity", "trans": ["n. 慈善（机构）"] },
-  { "name": "chronic", "trans": ["adj. 长期的、慢性的"] },
-  { "name": "circuit", "trans": ["v. 环行", "n. 环行、电路"] },
-  { "name": "civil", "trans": ["adj. 公民的、文明的"] },
-  { "name": "claim", "trans": ["v/n. 声称、要求、索赔"] },
-  { "name": "clarity", "trans": ["n. 清晰"] },
-  { "name": "client", "trans": ["n. 客户、顾客"] },
-  { "name": "cloak", "trans": ["v. 遮盖、掩饰", "n. 斗篷"] },
-  { "name": "clue", "trans": ["n. 提示、线索"] },
-  { "name": "clumsy", "trans": ["adj. 笨拙的、不灵活的"] },
-  { "name": "coalition", "trans": ["n. 联合、联盟"] },
-  { "name": "cognitive", "trans": ["adj. 认知的"] },
-  { "name": "coherent", "trans": ["adj. 连贯的、一致的、粘在一起的"] },
-  { "name": "coincidence", "trans": ["n. 巧合"] },
-  { "name": "collaborative", "trans": ["adj. 合作的、协作的"] },
-  { "name": "collapse", "trans": ["v/n. 倒塌、瓦解"] },
-  { "name": "collect", "trans": ["v. 收集、采集"] },
-  { "name": "combat", "trans": ["adj. 战斗的、斗争的", "v/n. 战斗、斗争"] },
-  { "name": "command", "trans": ["v/n. 命令、控制、掌握"] },
-  { "name": "commemorate", "trans": ["v. 纪念"] },
-  { "name": "commercial", "trans": ["adj. 商业的、商务的"] },
-  { "name": "commit", "trans": ["v. 进行、实施"] },
-  { "name": "commodity", "trans": ["n. 商品"] },
-  { "name": "community", "trans": ["n. 社群、（学术）界"] },
-  { "name": "compact", "trans": ["n. 合同、契约"] },
-  { "name": "compare", "trans": ["v. 比较、相比"] },
-  { "name": "compelling", "trans": ["adj. 强制的、令人信服的"] },
-  { "name": "compensate", "trans": ["v. 补偿、赔偿、弥补、抵消"] },
-  { "name": "competent", "trans": ["adj. 有能力的、能胜任的"] },
-  { "name": "competitive", "trans": ["adj. 竞争的"] },
-  { "name": "compile", "trans": ["v. 汇编；收集"] },
-  { "name": "complex", "trans": ["adj. 复杂的"] },
-  { "name": "complicated", "trans": ["adj. 复杂的"] },
-  { "name": "comply", "trans": ["v. 遵守、遵从"] },
-  { "name": "component", "trans": ["n. 组成部分"] },
-  { "name": "composition", "trans": ["n. （文学、音乐、美术等）作品"] },
-  { "name": "compound", "trans": ["v. 加剧、混合", "n. 化合物"] },
-  { "name": "comprehensive", "trans": ["adj. 综合的、全面的"] },
-  { "name": "compromise", "trans": ["v/n. 妥协、破坏"] },
-  { "name": "conceive", "trans": ["v. 怀孕、构想、认为"] },
-  { "name": "concentrate", "trans": ["v. 集中、浓缩、专心"] },
-  { "name": "concept", "trans": ["n. 概念、观念"] },
-  { "name": "concession", "trans": ["n. 妥协、让步"] },
-  { "name": "conclude", "trans": ["v. 结束、推断、做出结论"] },
-  { "name": "concrete", "trans": ["n. 混凝土", "adj. 具体的、明确的"] },
-  { "name": "condemn", "trans": ["v. 谴责、责备"] },
-  { "name": "conduct", "trans": ["v. 实施、管理、指挥、引导", "n. 行为"] },
-  { "name": "confer", "trans": ["v. 赋予、协商"] },
-  { "name": "confident", "trans": ["adj. 自信的、有信心的"] },
-  { "name": "confine", "trans": ["v. 限制、约束", "n. 限制、界限"] },
-  { "name": "confirm", "trans": ["v. 确认、确定"] },
-  { "name": "conflict", "trans": ["v. 与……相冲突", "n. 冲突、矛盾"] },
-  { "name": "confront", "trans": ["v. 遭遇、面对"] },
-  { "name": "confuse", "trans": ["v. 迷惑、使困惑"] },
-  { "name": "conjunction", "trans": ["n. 结合、同时发生"] },
-  { "name": "conquer", "trans": ["v. 征服、克服"] },
-  { "name": "conscience", "trans": ["n. 良心"] },
-  { "name": "conscious", "trans": ["adj. 有意识的"] },
-  { "name": "consent", "trans": ["v/n. 赞同、同意"] },
-  { "name": "consequence", "trans": ["n. 后果"] },
-  { "name": "conservative", "trans": ["adj. 保守的", "n. 保守派、保守党"] },
-  { "name": "consistent", "trans": ["adj. 一致的、相符的"] },
-  { "name": "consolidation", "trans": ["n. 合并"] },
-  { "name": "constant", "trans": ["adj. 不变的、经常的", "n. 常数、不变的事物"] },
-  { "name": "constitute", "trans": ["v. 组成、构成"] },
-  { "name": "constrain", "trans": ["v. 限制、约束"] },
-  { "name": "construction", "trans": ["n. 建立、建造、建筑（物）"] },
-  { "name": "consume", "trans": ["v. 消费、消耗"] },
-  { "name": "contempt", "trans": ["n. 轻蔑、蔑视"] },
-  { "name": "content", "trans": ["adj. 满意的", "n. 满意、内容"] },
-  { "name": "contest", "trans": ["v/n. 竞争、争论"] },
-  { "name": "contract", "trans": ["n. 合约、合同"] },
-  { "name": "contradictory", "trans": ["adj. 矛盾的"] },
-  { "name": "contrary", "trans": ["adj/adv. 相反的/地", "n. 相反"] },
-  { "name": "contrast", "trans": ["v/n. 对比、对照"] },
-  { "name": "contribute", "trans": ["v. 贡献、导致"] },
-  { "name": "controversial", "trans": ["adj. 有争议的"] },
-  { "name": "conventional", "trans": ["adj. 传统的、常规的"] },
-  { "name": "converge", "trans": ["v. 集中、达成一致"] },
-  { "name": "convert", "trans": ["v. 转变、转化"] },
-  { "name": "convey", "trans": ["v. 运输、表达"] },
-  { "name": "conviction", "trans": ["n. 判决、定罪"] },
-  { "name": "convincing", "trans": ["adj. 有说服力的、令人信服的"] },
-  { "name": "cooperate", "trans": ["v. 配合、合作"] },
-  { "name": "coordination", "trans": ["n. 协调、协作"] },
-  { "name": "core", "trans": ["n. 核心、要点"] },
-  { "name": "corporate", "trans": ["adj. 公司的、企业的"] },
-  { "name": "correct", "trans": ["adj. 正确的"] },
-  { "name": "correlate", "trans": ["v. 使相互关联、和……相关"] },
-  { "name": "correspond", "trans": ["v. 符合、与……一致、与……通信"] },
-  { "name": "corruption", "trans": ["n. 贪污、腐败"] },
-  { "name": "counterbalance", "trans": ["v. 抵消、使平衡", "n. 平衡力"] },
-  { "name": "counterpart", "trans": ["n. 极其相似的人或物、对比物"] },
-  { "name": "courageous", "trans": ["adj. 勇敢的、大胆的"] },
-  { "name": "craft", "trans": ["v. 精心制作", "n. 手艺、工艺"] },
-  { "name": "crash", "trans": ["v/n. 撞击、坠落、崩溃"] },
-  { "name": "credit", "trans": ["v. 信任、认可", "n. 信用、认可、学分"] },
-  { "name": "creep", "trans": ["v. 爬行、悄然而至"] },
-  { "name": "crisis", "trans": ["n. 危机、关键时刻"] },
-  { "name": "critical", "trans": ["adj. 批判（性）的、关键的、临界的"] },
-  { "name": "crucial", "trans": ["adj. 至关重要的"] },
-  { "name": "cue", "trans": ["n. 线索、提示"] },
-  { "name": "cultivate", "trans": ["v. 种植、培养"] },
-  { "name": "cunning", "trans": ["adj. 巧妙的、可爱的、狡猾的"] },
-  { "name": "curb", "trans": ["v/n. 控制、限制"] },
-  { "name": "cure", "trans": ["v. 治疗、治愈", "n. 治疗、疗法"] },
-  { "name": "curiosity", "trans": ["n. 好奇心"] },
-  { "name": "current", "trans": ["adj. 当前的、流行的"] },
-  { "name": "curriculum", "trans": ["n. （学校等的）全部课程"] },
-  { "name": "cursory", "trans": ["adj. 粗略的、草率的、匆忙的"] },
-  { "name": "dampen", "trans": ["v. 使沮丧"] },
-  { "name": "dawn", "trans": ["v. 破晓、出现", "n. 黎明、开端"] },
-  { "name": "dearth", "trans": ["n. 缺乏、不足"] },
-  { "name": "debate", "trans": ["v/n. 争论、辩论"] },
-  { "name": "deceptive", "trans": ["adj.骗人的、虚伪的"] },
-  { "name": "declaration", "trans": ["n. 申明、宣称"] },
-  { "name": "decline", "trans": ["v/n. 下降、衰退"] },
-  { "name": "decoration", "trans": ["n. 装饰（品）"] },
-  { "name": "dedicate", "trans": ["v. 献身、致力于"] },
-  { "name": "deduce", "trans": ["v. 推理、推断"] },
-  { "name": "deem", "trans": ["v. 认为、视作"] },
-  { "name": "defend", "trans": ["v. 保护、为……辩护"] },
-  { "name": "defer", "trans": ["v. 延期、延迟"] },
-  { "name": "deficiency", "trans": ["n. 缺点、缺乏"] },
-  { "name": "define", "trans": ["v. 定义、（使）明确"] },
-  { "name": "deliberate", "trans": ["v. 仔细考虑", "adj. 刻意的、故意的"] },
-  { "name": "delicate", "trans": ["adj. 精致的、微妙的"] },
-  { "name": "deliver", "trans": ["v. 发表（演讲/讲话）、递送"] },
-  { "name": "delusion", "trans": ["n. 错觉、妄想"] },
-  { "name": "democratic", "trans": ["adj. 民主的"] },
-  { "name": "demographic", "trans": ["adj. 人口学的", "n. 人口统计数据"] },
-  { "name": "dense", "trans": ["adj. 浓密的、稠密的"] },
-  { "name": "deny", "trans": ["v. 拒绝、否认"] },
-  { "name": "depart", "trans": ["v. 离开、出发"] },
-  { "name": "depict", "trans": ["v. 描述、描绘"] },
-  { "name": "depression", "trans": ["n. 沮丧、抑郁、（经济）萧条"] },
-  { "name": "deprive", "trans": ["v. 剥夺、使丧失"] },
-  { "name": "derive", "trans": ["v. 来自、源于"] },
-  { "name": "descend", "trans": ["v. 下降、遗传"] },
-  { "name": "describe", "trans": ["v. 描述、形容"] },
-  { "name": "deserve", "trans": ["v. 值得、应得"] },
-  { "name": "designate", "trans": ["v. 把……命名为；把……定义为"] },
-  { "name": "desire", "trans": ["v. 渴望、想要", "n. 欲望、心愿"] },
-  { "name": "desperate", "trans": ["adj. 令人绝望的、不顾一切的"] },
-  { "name": "deteriorate", "trans": ["v. 恶化"] },
-  { "name": "determine", "trans": ["v. 决定、下定决心"] },
-  { "name": "detrimental", "trans": ["adj. 有害的、不利的"] },
-  { "name": "devastating", "trans": ["adj. 毁灭性的、破坏性极强的"] },
-  { "name": "devise", "trans": ["v. 设计、发明"] },
-  { "name": "devoted", "trans": ["adj. 忠实的、忠诚的、热衷于……的"] },
-  { "name": "differentiate", "trans": ["v. 区分、区别"] },
-  { "name": "diffuse", "trans": ["v. 传播、缓解"] },
-  { "name": "disaster", "trans": ["n. 灾难"] },
-  { "name": "discipline", "trans": ["n. 纪律、原则"] },
-  { "name": "disclose", "trans": ["v. 揭露、公开"] },
-  { "name": "disconcerting", "trans": ["adj. 焦虑的、不安的"] },
-  { "name": "discover", "trans": ["v. 发现、发觉"] },
-  { "name": "discrimination", "trans": ["n. 歧视、区别对待"] },
-  { "name": "disgrace", "trans": ["v. 使丢脸、使蒙羞", "n. 耻辱、不光彩的事"] },
-  { "name": "disguise", "trans": ["v/n. 掩饰、伪装"] },
-  { "name": "disintegrate", "trans": ["v. 分解、衰退"] },
-  { "name": "dismiss", "trans": ["v. 解散、解雇、排除"] },
-  { "name": "disorder", "trans": ["v. 扰乱、使失调", "n. 混乱、病症（心理学）"] },
-  { "name": "display", "trans": ["v/n. 展示、显示、表现"] },
-  { "name": "disposable", "trans": ["adj. 一次性的、可任意处理的"] },
-  { "name": "disproportionately", "trans": ["adv. 不成比例地"] },
-  { "name": "dispute", "trans": ["v/n. 反对、争论"] },
-  { "name": "disruptive", "trans": ["adj. 破坏（性）的、颠覆（性）的"] },
-  { "name": "distort", "trans": ["v. 歪曲、扭曲"] },
-  { "name": "distraction", "trans": ["n. 分心、分神"] },
-  { "name": "distressed", "trans": ["adj. 烦恼的、难过的"] },
-  { "name": "distribute", "trans": ["v. 分发、分配"] },
-  { "name": "district", "trans": ["n. 区域、地区"] },
-  { "name": "disturb", "trans": ["v. 打搅、使混乱"] },
-  { "name": "diverse", "trans": ["adj. 不同的、多样的"] },
-  { "name": "divisive", "trans": ["adj. 分裂的、有分歧的"] },
-  { "name": "domestic", "trans": ["adj. 家庭的、国内的"] },
-  { "name": "dominate", "trans": ["v. 统治、主导"] },
-  { "name": "donate", "trans": ["v. 捐献、捐赠"] },
-  { "name": "doom", "trans": ["n. 厄运、灾难"] },
-  { "name": "dormant", "trans": ["adj. 休眠的、静止的"] },
-  { "name": "dramatic", "trans": ["adj. 戏剧（性）的、剧烈的"] },
-  { "name": "drastic", "trans": ["adj. 激烈的、剧烈的"] },
-  { "name": "dreadful", "trans": ["adj. 可怕的、糟糕的"] },
-  { "name": "drought", "trans": ["n. 干旱、旱灾"] },
-  { "name": "duplication", "trans": ["n. 重复、复制、副本"] },
-  { "name": "durable", "trans": ["adj. 持续的、持久的、耐用的"] },
-  { "name": "dynamic", "trans": ["adj. 动力（学）的、动态的", "n. 动力、动态"] },
-  { "name": "economic", "trans": ["adj. 经济（学）的"] },
-  { "name": "effective", "trans": ["adj. 有效的"] },
-  { "name": "efficient", "trans": ["adj. 有效率的"] },
-  { "name": "effort", "trans": ["n. 努力、尝试"] },
-  { "name": "elaborate", "trans": ["v. 精心准备、详细阐述", "adj. 精心的、详尽的"] },
-  { "name": "elect", "trans": ["v. 推选、选举"] },
-  { "name": "elegant", "trans": ["adj. 优美的、优雅的"] },
-  { "name": "element", "trans": ["n. 元素、要素、成分"] },
-  { "name": "elevate", "trans": ["v. 提高、提升"] },
-  { "name": "eligible", "trans": ["adj. 合格的、有资格的"] },
-  { "name": "eliminate", "trans": ["v. 消除、排除"] },
-  { "name": "elite", "trans": ["n. 精英"] },
-  { "name": "embarrassing", "trans": ["adj. 令人尴尬的"] },
-  { "name": "embrace", "trans": ["v/n. 拥抱、接受"] },
-  { "name": "emerge", "trans": ["v. 出现、显现"] },
-  { "name": "emigrate", "trans": ["v. 移民（出），离开"] },
-  { "name": "emission", "trans": ["n. 排放（量）"] },
-  { "name": "emotional", "trans": ["adj. 情绪的、情感的"] },
-  { "name": "emphasize", "trans": ["v. 强调、重视"] },
-  { "name": "empower", "trans": ["v. 授权、允许"] },
-  { "name": "encode", "trans": ["v. 编码"] },
-  { "name": "encounter", "trans": ["v/n. 遭遇、对抗"] },
-  { "name": "endeavor", "trans": ["v/n. 努力、尝试"] },
-  { "name": "endure", "trans": ["v. 忍受、延续"] },
-  { "name": "engage", "trans": ["v. 从事、参与"] },
-  { "name": "enhance", "trans": ["v. 提高、增加、加强"] },
-  { "name": "enlarge", "trans": ["v. 扩大、放大"] },
-  { "name": "enormous", "trans": ["adj. 巨大的"] },
-  { "name": "enrage", "trans": ["v. 激怒"] },
-  { "name": "ensure", "trans": ["v. 确保、保证"] },
-  { "name": "entail", "trans": ["v. 需要"] },
-  { "name": "entertainment", "trans": ["n. 娱乐，消遣"] },
-  { "name": "enthusiasm", "trans": ["n. 热情"] },
-  { "name": "entirely", "trans": ["adv. 完全地、彻底地"] },
-  { "name": "entitle", "trans": ["v. 给……命名、授予……称号、使有权利/资格"] },
-  { "name": "envision", "trans": ["v. 想象、构想"] },
-  { "name": "epidemic", "trans": ["adj. 传染性的、流行的", "n. 传染病、流行病、流行、风行"] },
-  { "name": "equality", "trans": ["n. 公平、平等"] },
-  { "name": "equivalent", "trans": ["adj. 等价的、相当于", "n. 等价物"] },
-  { "name": "essential", "trans": ["adj. 本质的、必要的", "n. 要素、必需品"] },
-  { "name": "establish", "trans": ["v. 创立、建立"] },
-  { "name": "esteem", "trans": ["v/n. 尊敬、尊重"] },
-  { "name": "estimate", "trans": ["v/n. 评估、估价"] },
-  { "name": "ethical", "trans": ["adj. 伦理的、道德的"] },
-  { "name": "evade", "trans": ["v. 使感到困难、逃避"] },
-  { "name": "evaluate", "trans": ["v. 评价、评估"] },
-  { "name": "evaporate", "trans": ["v. 蒸发、消失"] },
-  { "name": "eventually", "trans": ["adv. 最终、终于"] },
-  { "name": "evidence", "trans": ["n. 证据、证明"] },
-  { "name": "evolve", "trans": ["v. 发展、进化"] },
-  { "name": "exaggerate", "trans": ["v. 夸大、夸张"] },
-  { "name": "excellent", "trans": ["adj. 优秀的、很好的"] },
-  { "name": "exception", "trans": ["n. 例外"] },
-  { "name": "excessive", "trans": ["adj. 过度的、过量的"] },
-  { "name": "exclusive", "trans": ["adj. 排他的、专有的"] },
-  { "name": "executive", "trans": ["adj. 执行的、行政的", "n. 执行者、经理"] },
-  { "name": "exert", "trans": ["v. 施加、发挥"] },
-  { "name": "exhaust", "trans": ["v. 排出、耗尽、使精疲力尽"] },
-  { "name": "exhibit", "trans": ["v. 显示、表现出、展览"] },
-  { "name": "expand", "trans": ["v. 扩大、扩展"] },
-  { "name": "expensive", "trans": ["adj. 昂贵的、奢侈的"] },
-  { "name": "expire", "trans": ["v. 到期、终止"] },
-  { "name": "explicit", "trans": ["adj. 清楚的、明确的"] },
-  { "name": "exploit", "trans": ["v. 开发、利用"] },
-  { "name": "explore", "trans": ["v. 探索、探测、探险"] },
-  { "name": "explosion", "trans": ["n. 爆炸、爆发、激增"] },
-  { "name": "export", "trans": ["v/n. 输出、出口"] },
-  { "name": "expose", "trans": ["v. 面临、遭受、（使）暴露、（使）曝光"] },
-  { "name": "express", "trans": ["v. 表露、表达"] },
-  { "name": "extend", "trans": ["v. 延长、延期"] },
-  { "name": "external", "trans": ["adj. 外部的、表面的"] },
-  { "name": "extinguish", "trans": ["v. 使熄灭、使破灭"] },
-  { "name": "extract", "trans": ["v. 提炼、提取、取出、拔出"] },
-  { "name": "extraordinarily", "trans": ["adv. 极度地"] },
-  { "name": "fabric", "trans": ["n. 织物、结构"] },
-  { "name": "facilitate", "trans": ["v. 促进、有助于"] },
-  { "name": "fade", "trans": ["v. 褪色、变弱、逐渐消失"] },
-  { "name": "faint", "trans": ["adj. 模糊的、微弱的、勉强的"] },
-  { "name": "fake", "trans": ["adj. 假的、伪造的", "n. 假货、赝品"] },
-  { "name": "familiar", "trans": ["adj. 熟悉的、常见的"] },
-  { "name": "fantastic", "trans": ["adj. 异想天开的、不切实际的、极好的"] },
-  { "name": "fascinate", "trans": ["v. 入迷、使着迷"] },
-  { "name": "fatal", "trans": ["adj. 致命的、重大的"] },
-  { "name": "favor", "trans": ["v/n. 喜爱、帮助"] },
-  { "name": "feverish", "trans": ["adj. 发烧的、发热的、狂热的"] },
-  { "name": "fiction", "trans": ["n. 小说"] },
-  { "name": "fierce", "trans": ["adj. 凶猛的、激烈的"] },
-  { "name": "figure", "trans": ["v. 计算", "n. 数字、图表、人物"] },
-  { "name": "financial", "trans": ["adj. 金融的、财务的"] },
-  { "name": "finite", "trans": ["adj. 有限的"] },
-  { "name": "flaw", "trans": ["n. 缺陷、瑕疵、裂缝"] },
-  { "name": "flexibility", "trans": ["n. 弹性、灵活性"] },
-  { "name": "flourish", "trans": ["v/n. 繁荣、兴旺"] },
-  { "name": "folk", "trans": ["adj. 民间的", "n. 人们（多用复数）"] },
-  { "name": "foresee", "trans": ["v. 预见、预知"] },
-  { "name": "foreshadow", "trans": ["v. 预示、是…的预兆"] },
-  { "name": "formal", "trans": ["adj. 正式的、正规的"] },
-  { "name": "foster", "trans": ["v. 促进、助长"] },
-  { "name": "foundation", "trans": ["n. 创立、根据、基础、基金（会）"] },
-  { "name": "fraction", "trans": ["n. （小）部分、少量"] },
-  { "name": "fragile", "trans": ["adj. 脆弱的、易碎的"] },
-  { "name": "frame", "trans": ["n. 框架、体系、（人或动物的）躯体"] },
-  { "name": "freeze", "trans": ["v. 冻结"] },
-  { "name": "frugal", "trans": ["adj. 朴素的、节俭的"] },
-  { "name": "frustrate", "trans": ["v. 挫败、（使）受挫"] },
-  { "name": "fulfill", "trans": ["v. 完成、实现"] },
-  { "name": "function", "trans": ["v. 运行、起作用", "n. 功能"] },
-  { "name": "fund", "trans": ["v. 投资、资助", "n. 资金、基金"] },
-  { "name": "fuse", "trans": ["v. 融入、融合"] },
-  { "name": "garment", "trans": ["n. 衣服、服装"] },
-  { "name": "generate", "trans": ["v. 产生、引起"] },
-  { "name": "generous", "trans": ["adj. 慷慨的、大方的、大量的"] },
-  { "name": "genetic", "trans": ["adj. 基因的、遗传的"] },
-  { "name": "genius", "trans": ["n. 天才、天赋"] },
-  { "name": "genuinely", "trans": ["adv. 真诚地、诚实地"] },
-  { "name": "giant", "trans": ["adj. 巨大的"] },
-  { "name": "glamorous", "trans": ["adj. 迷人的、富有魅力的"] },
-  { "name": "gloom", "trans": ["n. 阴暗、忧郁"] },
-  { "name": "glory", "trans": ["n. 荣耀、辉煌"] },
-  { "name": "grant", "trans": ["v. 授予、允许"] },
-  { "name": "grasp", "trans": ["v/n. 抓住、理解"] },
-  { "name": "gratification", "trans": ["n. 喜悦、满足（感）"] },
-  { "name": "gratitude", "trans": ["n. 感激、感谢"] },
-  { "name": "greed", "trans": ["n. 贪婪"] },
-  { "name": "grievance", "trans": ["n. 委屈、不满"] },
-  { "name": "grip", "trans": ["v/n. 抓住、握紧、控制"] },
-  { "name": "guarantee", "trans": ["v/n. 保证、确保"] },
-  { "name": "habitat", "trans": ["n. 栖息地、生长环境"] },
-  { "name": "hasten", "trans": ["v. 加速"] },
-  { "name": "hemisphere", "trans": ["n. 半球"] },
-  { "name": "heritage", "trans": ["n. 遗产、传统"] },
-  { "name": "hierarchical", "trans": ["adj. 分层的、分级的、等级森严的"] },
-  { "name": "hijack", "trans": ["v/n. 劫持、强行控制"] },
-  { "name": "hinder", "trans": ["v. 阻碍、妨碍"] },
-  { "name": "horizon", "trans": ["n. 地平线"] },
-  { "name": "hostile", "trans": ["adj. 敌对的"] },
-  { "name": "humane", "trans": ["adj. 人道的、仁慈的"] },
-  { "name": "humble", "trans": ["adj. 谦逊的、普通的"] },
-  { "name": "hybrid", "trans": ["adj. 混合的", "n. 混合物、结合物"] },
-  { "name": "identify", "trans": ["v. 确定、辨认"] },
-  { "name": "ignore", "trans": ["v. 忽视、对……置之不理"] },
-  { "name": "illuminate", "trans": ["v. 阐明、说明"] },
-  { "name": "illusory", "trans": ["adj. 虚假的、虚幻的"] },
-  { "name": "illustrate", "trans": ["v. 阐明、说明"] },
-  { "name": "imitate", "trans": ["v. 模仿"] },
-  { "name": "immediate", "trans": ["adj. 直接的、立即的"] },
-  { "name": "immense", "trans": ["adj. 巨大的、大量的"] },
-  { "name": "immigrate", "trans": ["v. 移民（入）、迁徙"] },
-  { "name": "immune", "trans": ["adj. 免疫的、免除的、不受影响的"] },
-  { "name": "impact", "trans": ["v/n. 影响"] },
-  { "name": "impel", "trans": ["v. 推动、促使"] },
-  { "name": "implement", "trans": ["v. 实施、执行"] },
-  { "name": "implication", "trans": ["n. 含义、暗示"] },
-  { "name": "impose", "trans": ["v. 把……强加于、使承受"] },
-  { "name": "impoverished", "trans": ["adj. 贫困的"] },
-  { "name": "impressive", "trans": ["adj. 令人印象深刻的、很好的"] },
-  { "name": "impulse", "trans": ["n. 冲动、心血来潮"] },
-  { "name": "inability", "trans": ["n. 无能为力"] },
-  { "name": "incentive", "trans": ["adj. 激励的、刺激的", "n. 激励、刺激"] },
-  { "name": "incite", "trans": ["v. 鼓动、煽动"] },
-  { "name": "incline", "trans": ["v. 倾斜、倾向于"] },
-  { "name": "include", "trans": ["v. 包含、包括"] },
-  { "name": "incomplete", "trans": ["adj. 不完整的、不充分的"] },
-  { "name": "independent", "trans": ["adj. 独立的、自主的"] },
-  { "name": "indicate", "trans": ["v. 指出、表明、预示"] },
-  { "name": "indifferent", "trans": ["adj. 中立的、冷漠的、漠不关心的"] },
-  { "name": "indispensable", "trans": ["adj. 必不可少的、不可或缺的"] },
-  { "name": "induce", "trans": ["v. 引诱、引起"] },
-  { "name": "indulge", "trans": ["v. 放任、纵容"] },
-  { "name": "inedible", "trans": ["adj. 不能吃的、难吃的"] },
-  { "name": "inevitable", "trans": ["adj. 不可避免的、必然的"] },
-  { "name": "infection", "trans": ["n. 感染（病）、传染（病）"] },
-  { "name": "infer", "trans": ["v. 推测、推断"] },
-  { "name": "inferior", "trans": ["adj. 较差的、逊色的"] },
-  { "name": "infirm", "trans": ["adj. （年老）体弱的、意志薄弱的、不坚固的"] },
-  { "name": "inflation", "trans": ["n. 通货膨胀"] },
-  { "name": "influential", "trans": ["adj. 有影响力的", "n. 有影响力的人"] },
-  { "name": "infrastructure", "trans": ["n. 基础设施"] },
-  { "name": "infuriating", "trans": ["adj. 令人愤怒的"] },
-  { "name": "infuse", "trans": ["v. 注入、灌输"] },
-  { "name": "ingenuity", "trans": ["n. 创造力、智慧"] },
-  { "name": "inherent", "trans": ["adj. 内在的、与生俱来的"] },
-  { "name": "initial", "trans": ["adj. 最初的、初始的"] },
-  { "name": "inject", "trans": ["v. 注射、注入"] },
-  { "name": "innate", "trans": ["adj. 天生的、与生俱来的"] },
-  { "name": "innocent", "trans": ["adj. 无辜的、无罪的"] },
-  { "name": "innovation", "trans": ["n. 创新、革新"] },
-  { "name": "inquire", "trans": ["v. 调查、询问"] },
-  { "name": "insidious", "trans": ["adj. 潜伏的、不易察觉的"] },
-  { "name": "insightful", "trans": ["adj. 有深刻见解的、富有洞察力的"] },
-  { "name": "insist", "trans": ["v. 坚称、坚决要求"] },
-  { "name": "inspire", "trans": ["v. 激发、使产生灵感"] },
-  { "name": "instinct", "trans": ["n. 本能、直觉"] },
-  { "name": "institution", "trans": ["n. 机构、制度"] },
-  { "name": "instruct", "trans": ["v. 指导、命令"] },
-  { "name": "insure", "trans": ["v. 确保、保障"] },
-  { "name": "intangible", "trans": ["adj. 无形的、触摸不到的"] },
-  { "name": "integrity", "trans": ["n. 完整、诚信、正直"] },
-  { "name": "intellectual", "trans": ["adj. 学术的、知识的", "n. 知识分子"] },
-  { "name": "intelligence", "trans": ["n. 智力、智能"] },
-  { "name": "intend", "trans": ["v. 打算、想要"] },
-  { "name": "intense", "trans": ["adj. 紧张的、强烈的"] },
-  { "name": "interact", "trans": ["v. 相互影响、互动"] },
-  { "name": "interpersonal", "trans": ["adj. 人际的、人与人之间的"] },
-  { "name": "interpretation", "trans": ["n. 翻译、解释"] },
-  { "name": "interrupt", "trans": ["v. 中断、打扰"] },
-  { "name": "intervention", "trans": ["n. 干预、介入"] },
-  { "name": "intimate", "trans": ["adj. 亲密的、私密的"] },
-  { "name": "intricate", "trans": ["adj. 错综复杂的"] },
-  { "name": "intrude", "trans": ["v. 侵扰、侵犯"] },
-  { "name": "intuitive", "trans": ["adj. 本能的、直觉的"] },
-  { "name": "invert", "trans": ["v. 使颠覆、使反转"] },
-  { "name": "invest", "trans": ["v. 投资"] },
-  { "name": "investigation", "trans": ["n. 调查、研究"] },
-  { "name": "involve", "trans": ["v. 包括、参与"] },
-  { "name": "ironic", "trans": ["adj. 讽刺的"] },
-  { "name": "isolate", "trans": ["v. （使）孤立、（使）免于"] },
-  { "name": "issue", "trans": ["v. 发布、发行", "n. 问题、发行物"] },
-  { "name": "joint", "trans": ["adj. 联合的、共同的"] },
-  { "name": "journal", "trans": ["n. 日报、杂志、期刊"] },
-  { "name": "jury", "trans": ["n. 陪审团、评委会"] },
-  { "name": "justice", "trans": ["n. 法官、公正"] },
-  { "name": "lag", "trans": ["v/n. 落后、滞后"] },
-  { "name": "lame", "trans": ["adj. 瘸的、蹩脚的"] },
-  { "name": "launch", "trans": ["v. 发起、推出（新产品）"] },
-  { "name": "leakage", "trans": ["n. 漏水、泄漏"] },
-  { "name": "lean", "trans": ["v. 倾斜、倚靠", "adj. 瘦的、贫乏的"] },
-  { "name": "legacy", "trans": ["n. 遗产、传统"] },
-  { "name": "legal", "trans": ["adj. 法律的、合法的"] },
-  { "name": "legitimate", "trans": ["adj. 合法的、合理的"] },
-  { "name": "leisure", "trans": ["adj. 空闲的、休闲的", "n. 空闲、休闲"] },
-  { "name": "liberal", "trans": ["adj. 自由（主义）的、开明的", "n. 自由主义者、自由党"] },
-  { "name": "lineage", "trans": ["n. 血统、谱系"] },
-  { "name": "literate", "trans": ["adj. 有读写能力的、精通的"] },
-  { "name": "lobby", "trans": ["v. 游说", "n. 游说团体、大厅"] },
-  { "name": "locate", "trans": ["v. 定位、位于"] },
-  { "name": "lure", "trans": ["v/n. 引诱、诱惑"] },
-  { "name": "luxury", "trans": ["adj. 奢侈的", "n. 奢侈（品）"] },
-  { "name": "magnify", "trans": ["v. 放大、扩大"] },
-  { "name": "maintain", "trans": ["v. 保持、坚持认为"] },
-  { "name": "majestic", "trans": ["adj. 宏伟的、壮观的、华丽的"] },
-  { "name": "major", "trans": ["adj. 主要的、重要的"] },
-  { "name": "mandatory", "trans": ["adj. 强制性的、必修的"] },
-  { "name": "manipulate", "trans": ["v. 操作、处理、控制"] },
-  { "name": "manufacture", "trans": ["v. 加工、制造", "n. 制造业"] },
-  { "name": "manuscript", "trans": ["adj. 手写的", "n. 手稿、原稿"] },
-  { "name": "margin", "trans": ["n. 边缘"] },
-  { "name": "marine", "trans": ["adj. 海洋的"] },
-  { "name": "marvel", "trans": ["v. 对......感到惊讶", "n. 令人惊奇的事物"] },
-  { "name": "massive", "trans": ["adj. 大量的、巨大的"] },
-  { "name": "mastery", "trans": ["n. 掌握、精通、优势、统治权"] },
-  { "name": "materialistic", "trans": ["adj. 唯物主义的、物质至上的"] },
-  { "name": "mature", "trans": ["adj. 成熟的"] },
-  { "name": "measure", "trans": ["v. 测量、估量、权衡", "n. 措施"] },
-  { "name": "mechanical", "trans": ["adj. 机械的、呆板的"] },
-  { "name": "memorize", "trans": ["v. 记住、记忆"] },
-  { "name": "mental", "trans": ["adj. 精神的、心理的"] },
-  { "name": "merger", "trans": ["n. 合并、兼并"] },
-  { "name": "merit", "trans": ["n. 价值、优点"] },
-  { "name": "minimal", "trans": ["adj. 最小的、最低的"] },
-  { "name": "minister", "trans": ["n. 牧师、大臣、部长"] },
-  { "name": "minority", "trans": ["n. 少数（派）"] },
-  { "name": "misery", "trans": ["n. 不幸、苦难、悲惨的境遇"] },
-  { "name": "mislead", "trans": ["v. 误导"] },
-  { "name": "mobilize", "trans": ["v. 调动、动员"] },
-  { "name": "modest", "trans": ["adj. 谦虚的、适度的"] },
-  { "name": "monarch", "trans": ["n. 君主、最高统治者"] },
-  { "name": "monitor", "trans": ["v. 监控、监测", "n. 监视器、显示屏"] },
-  { "name": "monopoly", "trans": ["n. 垄断"] },
-  { "name": "motivate", "trans": ["v. 激发、驱使"] },
-  { "name": "multiply", "trans": ["v. 乘、大大增加"] },
-  { "name": "mutually", "trans": ["adv. 相互地、共同地"] },
-  { "name": "nasty", "trans": ["adj. 肮脏的、令人厌恶的、严重的"] },
-  { "name": "native", "trans": ["adj. 天生的、天然的、本国的、本地的"] },
-  { "name": "negative", "trans": ["adj. 负面的、否定的"] },
-  { "name": "neglect", "trans": ["v. 疏忽、忽视"] },
-  { "name": "negotiate", "trans": ["v. 协商、谈判"] },
-  { "name": "nightmare", "trans": ["n. 恶梦、噩梦"] },
-  { "name": "nonsense", "trans": ["adj. 荒谬的", "n. 胡说"] },
-  { "name": "normal", "trans": ["adj. 正常的、标准的"] },
-  { "name": "notably", "trans": ["adv. 明显地、尤其地"] },
-  { "name": "noteworthy", "trans": ["adj. 值得注意的、显著的"] },
-  { "name": "novel", "trans": ["adj. 新的、新颖的", "n. 小说"] },
-  { "name": "nurture", "trans": ["v/n. 培养、培育、养育"] },
-  { "name": "object", "trans": ["v. 反对、拒绝", "n. 物体、对象、目标"] },
-  { "name": "oblige", "trans": ["v. 强制、强迫"] },
-  { "name": "obscure", "trans": ["adj. 模糊的、不清楚的"] },
-  { "name": "obsess", "trans": ["v. 使着迷"] },
-  { "name": "obstruct", "trans": ["v. 阻碍、妨碍"] },
-  { "name": "occupy", "trans": ["v. 占用、占有、占领"] },
-  { "name": "occur", "trans": ["v. 出现、发生"] },
-  { "name": "odds", "trans": ["n. 几率、胜算"] },
-  { "name": "official", "trans": ["adj. 官方的、正式的", "n. 官员"] },
-  { "name": "omission", "trans": ["n. 遗漏"] },
-  { "name": "opponent", "trans": ["adj. 敌对的、对立的", "n. 对手、反对者"] },
-  { "name": "oppose", "trans": ["v. 反对"] },
-  { "name": "oppressive", "trans": ["adj. 压迫的、压抑的"] },
-  { "name": "optimistic", "trans": ["adj. 乐观的"] },
-  { "name": "option", "trans": ["n. 选项、期权"] },
-  { "name": "organism", "trans": ["n. 生物体、有机体"] },
-  { "name": "organization", "trans": ["n. 组织、机构"] },
-  { "name": "original", "trans": ["adj. 起初的、原始的"] },
-  { "name": "ornament", "trans": ["n. 装饰（物）"] },
-  { "name": "outlive", "trans": ["v. 比......活得长"] },
-  { "name": "outraged", "trans": ["adj. 愤怒的"] },
-  { "name": "overlook", "trans": ["v/n. 忽略、忽视"] },
-  { "name": "overshadow", "trans": ["v. 给……蒙上阴影、遮盖"] },
-  { "name": "overturn", "trans": ["v/n. 推翻、打翻、翻倒"] },
-  { "name": "overwhelming", "trans": ["adj. 压倒性的、绝大部分的"] },
-  { "name": "panel", "trans": ["n. 专家组、仪表盘"] },
-  { "name": "panic", "trans": ["adj. 恐慌的", "n. 恐慌"] },
-  { "name": "paradox", "trans": ["n. 悖论、矛盾"] },
-  { "name": "parallel", "trans": ["adj. 平行的、类似的", "n. 平行线、类似的事情"] },
-  { "name": "paralysis", "trans": ["n. 麻痹、瘫痪"] },
-  { "name": "partial", "trans": ["adj. 局部的、偏袒的"] },
-  { "name": "participate", "trans": ["v. 参加、参与"] },
-  { "name": "passionate", "trans": ["adj. 热情的、易怒的"] },
-  { "name": "patent", "trans": ["v. 授予/取得专利", "n. 专利"] },
-  { "name": "peak", "trans": ["n. 顶峰"] },
-  { "name": "peer", "trans": ["v. 凝视、盯着", "n. 同辈、同行"] },
-  { "name": "penalty", "trans": ["n. 处罚、惩罚"] },
-  { "name": "pension", "trans": ["n. 津贴、退休金"] },
-  { "name": "perceive", "trans": ["v. 感知、察觉"] },
-  { "name": "perish", "trans": ["v. 死亡、消亡"] },
-  { "name": "permanent", "trans": ["adj.永久的、永恒的"] },
-  { "name": "permissible", "trans": ["adj. 允许的"] },
-  { "name": "perpetuate", "trans": ["v. 持续、使长期存在"] },
-  { "name": "perplexed", "trans": ["adj. 困惑的"] },
-  { "name": "persistent", "trans": ["adj. 坚持的、持续的"] },
-  { "name": "perspective", "trans": ["n. 视角、观点"] },
-  { "name": "pervasive", "trans": ["adj. 普遍的、流行的"] },
-  { "name": "pessimistic", "trans": ["adj. 悲观的"] },
-  { "name": "philosophy", "trans": ["n. 哲学"] },
-  { "name": "phony", "trans": ["adj. 假的、虚伪的"] },
-  { "name": "physical", "trans": ["adj. 身体的、生理的、实体的"] },
-  { "name": "plead", "trans": ["v. 请求、恳求"] },
-  { "name": "polarize", "trans": ["v. （使）两极分化"] },
-  { "name": "ponder", "trans": ["v. 仔细考虑、深思"] },
-  { "name": "popularity", "trans": ["n. 普及、流行"] },
-  { "name": "portray", "trans": ["v. 描述、描绘"] },
-  { "name": "possession", "trans": ["n. 财产、所有物"] },
-  { "name": "potential", "trans": ["adj. 潜在的、可能的", "n. 潜能、可能"] },
-  { "name": "precede", "trans": ["v. 在……之前、高于"] },
-  { "name": "precious", "trans": ["adj. 珍贵的、宝贵的"] },
-  { "name": "precisely", "trans": ["adv. 准确地、恰恰是"] },
-  { "name": "predecessor", "trans": ["n. 前任、前辈"] },
-  { "name": "predict", "trans": ["v. 预言、预知"] },
-  { "name": "preference", "trans": ["n. 喜好、偏好"] },
-  { "name": "prejudice", "trans": ["n. 偏见"] },
-  { "name": "preliminary", "trans": ["adj. 初步的、预备的"] },
-  { "name": "premise", "trans": ["n. 前提"] },
-  { "name": "prescribe", "trans": ["v. 开药、开处方"] },
-  { "name": "preserve", "trans": ["v. 保存、保持"] },
-  { "name": "pressure", "trans": ["n. 压力"] },
-  { "name": "prestige", "trans": ["n. 声望、声誉"] },
-  { "name": "presumptively", "trans": ["adv. 假定地、推测地"] },
-  { "name": "prevailing", "trans": ["adj. 流行的、现行的"] },
-  { "name": "prevent", "trans": ["v. 阻止、防止"] },
-  { "name": "previous", "trans": ["adj. 之前的"] },
-  { "name": "primary", "trans": ["adj. 主要的、基本的、初级的"] },
-  { "name": "principle", "trans": ["n. 原理、原则"] },
-  { "name": "prior", "trans": ["adj. 在……之前的、优先的"] },
-  { "name": "private", "trans": ["adj. 私人的、私密的"] },
-  { "name": "privilege", "trans": ["n. 特权"] },
-  { "name": "procedure", "trans": ["n. 程序、步骤"] },
-  { "name": "proceed", "trans": ["v. 接着、继续", "n. 收入"] },
-  { "name": "proclaim", "trans": ["v. 宣布、宣告"] },
-  { "name": "productive", "trans": ["adj. 生产的、多产的、有效的"] },
-  { "name": "professional", "trans": ["adj. 专业的、职业的"] },
-  { "name": "proficient", "trans": ["adj. 熟练的、精通的"] },
-  { "name": "profit", "trans": ["v. 获利、受益", "n. 利益、利润"] },
-  { "name": "profound", "trans": ["adj. 深刻的、深远的"] },
-  { "name": "progress", "trans": ["v/n. 进步、发展"] },
-  { "name": "prohibition", "trans": ["n. 禁止、禁令"] },
-  { "name": "prominent", "trans": ["adj. 显著的、杰出的"] },
-  { "name": "promising", "trans": ["adj. 有希望的、好的"] },
-  { "name": "promote", "trans": ["v. 促进、推广"] },
-  { "name": "prompt", "trans": ["adj. 迅速的、立即的", "v. 促使、引起"] },
-  { "name": "prone", "trans": ["adj. 易于……的、倾向于……的"] },
-  { "name": "pronounced", "trans": ["adj. 明显的、显著的"] },
-  { "name": "proper", "trans": ["adj. 合适的、恰当的"] },
-  { "name": "property", "trans": ["n. 资产、财产"] },
-  { "name": "propose", "trans": ["v. 计划、建议"] },
-  { "name": "prospect", "trans": ["n. 前途、前景"] },
-  { "name": "prosperity", "trans": ["n. 繁荣"] },
-  { "name": "protest", "trans": ["v/n. 抗议"] },
-  { "name": "provide", "trans": ["v. 提供、供应"] },
-  { "name": "provoke", "trans": ["v. 激起、引起"] },
-  { "name": "prudent", "trans": ["adj. 谨慎的"] },
-  { "name": "psychology", "trans": ["n. 心理（学）"] },
-  { "name": "publication", "trans": ["n. 出版（物）"] },
-  { "name": "purchase", "trans": ["v/n. 购买"] },
-  { "name": "pursuit", "trans": ["n. 追求、职业"] },
-  { "name": "radical", "trans": ["adj. 根本的、激进的"] },
-  { "name": "random", "trans": ["adj. 随机的、随便的"] },
-  { "name": "rarely", "trans": ["adv. 很少地、罕有地"] },
-  { "name": "readily", "trans": ["adv. 乐意地"] },
-  { "name": "realm", "trans": ["n. 领域、范围"] },
-  { "name": "reap", "trans": ["v. 收获、收割"] },
-  { "name": "reasonable", "trans": ["adj. 合理的"] },
-  { "name": "recessing", "trans": ["n. 衰退（期）、萧条（期）"] },
-  { "name": "recipient", "trans": ["n. 接受者、获得者"] },
-  { "name": "recitation", "trans": ["n. 背诵、朗诵"] },
-  { "name": "recklessly", "trans": ["adv. 鲁莽地、不计后果地"] },
-  { "name": "recognize", "trans": ["v. 认出、识别"] },
-  { "name": "recommend", "trans": ["v. 推荐、建议"] },
-  { "name": "recovery", "trans": ["n. 恢复、复苏"] },
-  { "name": "recruit", "trans": ["v. 招聘、招募", "n. 招聘、新兵、新成员"] },
-  { "name": "rectify", "trans": ["v. 改正、矫正"] },
-  { "name": "reduce", "trans": ["v. 降低、减少"] },
-  { "name": "refer", "trans": ["v. 涉及、提到"] },
-  { "name": "reflect", "trans": ["v. 反射、反映"] },
-  { "name": "reform", "trans": ["v/n. 改革"] },
-  { "name": "refutation", "trans": ["n. 反驳、驳斥"] },
-  { "name": "regime", "trans": ["n. 政权、政治制度"] },
-  { "name": "region", "trans": ["n. 地区、范围"] },
-  { "name": "register", "trans": ["v/n. 登记、注册"] },
-  { "name": "regrettable", "trans": ["adj. 可惜的、令人遗憾的"] },
-  { "name": "regulation", "trans": ["n. 管理、法规"] },
-  { "name": "reign", "trans": ["v/n. 统治、支配"] },
-  { "name": "reinforce", "trans": ["v. 强化、加强"] },
-  { "name": "reject", "trans": ["v. 拒绝、排斥"] },
-  { "name": "release", "trans": ["v. 发布、释放"] },
-  { "name": "reliance", "trans": ["n. 信赖、依赖"] },
-  { "name": "relieve", "trans": ["v. 缓解、减轻"] },
-  { "name": "religious", "trans": ["adj. 宗教的、虔诚的"] },
-  { "name": "reluctant", "trans": ["adj. 勉强的、不情愿的"] },
-  { "name": "remark", "trans": ["v. 评论、注意到", "n. 言论、评论"] },
-  { "name": "reminder", "trans": ["n. 提醒、暗示"] },
-  { "name": "remote", "trans": ["adj. 遥远的、偏僻的"] },
-  { "name": "renovation", "trans": ["n. 整修、翻新"] },
-  { "name": "represent", "trans": ["v. 代表、表现"] },
-  { "name": "reproducibility", "trans": ["n. 重现性、再生性"] },
-  { "name": "reputation", "trans": ["n. 名声、名誉"] },
-  { "name": "require", "trans": ["v. 需要、要求"] },
-  { "name": "resent", "trans": ["v. 厌恶、对……感到不满"] },
-  { "name": "resident", "trans": ["n. 居民"] },
-  { "name": "resistant", "trans": ["adj. 抵制的、抗拒的"] },
-  { "name": "respect", "trans": ["v. 尊敬、尊重", "n. 尊敬、方面"] },
-  { "name": "responsible", "trans": ["adj. 负责的、有责任的"] },
-  { "name": "restore", "trans": ["v. 修复、恢复、（使）复原"] },
-  { "name": "resume", "trans": ["v. 恢复、重新开始", "n. 简历"] },
-  { "name": "retail", "trans": ["adj. 零售的", "v/n. 零售"] },
-  { "name": "retain", "trans": ["v. 保持、保留"] },
-  { "name": "retreat", "trans": ["v. 后退、衰退", "n. 后退、衰退"] },
-  { "name": "retrospection", "trans": ["n. 回忆、反思"] },
-  { "name": "reveal", "trans": ["v. 揭露、表明"] },
-  { "name": "revenue", "trans": ["n. 收入、收益"] },
-  { "name": "reverse", "trans": ["v. 颠倒、扭转、（使）转变"] },
-  { "name": "review", "trans": ["v/n. 回顾、审核"] },
-  { "name": "revival", "trans": ["n. 复活、复兴、苏醒"] },
-  { "name": "revolutionary", "trans": ["adj. 革命的、革命性的"] },
-  { "name": "righteous", "trans": ["adj. 公正的、正义的"] },
-  { "name": "rigid", "trans": [] },
-  { "name": "rigorous", "trans": ["adj. 严格的、枯燥的"] },
-  { "name": "ritual", "trans": ["n. 仪式、习惯"] },
-  { "name": "rival", "trans": ["n. 竞争者、对手"] },
-  { "name": "robust", "trans": ["adj. 健壮的、强有力的"] },
-  { "name": "rough", "trans": ["adj. 粗糙的、大致的"] },
-  { "name": "routine", "trans": ["adj. 日常的、常规的", "n. 常规、惯例"] },
-  { "name": "satisfy", "trans": ["v. 满足、使满意"] },
-  { "name": "saturate", "trans": ["v. 浸透、使饱和"] },
-  { "name": "scapegoat", "trans": ["n. 替罪羊"] },
-  { "name": "scary", "trans": ["adj. 可怕的"] },
-  { "name": "scorn", "trans": ["v/n. 轻蔑、鄙视"] },
-  { "name": "screen", "trans": ["v. 检查、审查", "n. 屏幕"] },
-  { "name": "scrutinize", "trans": ["v. 仔细察看、详细检查"] },
-  { "name": "section", "trans": ["n. 部分、阶层"] },
-  { "name": "secure", "trans": ["adj. 安全的；无忧的", "v. 保护、得到"] },
-  { "name": "segment", "trans": ["v. 切分、分割", "n. 部分"] },
-  { "name": "selective", "trans": ["adj. 选择的、挑剔的"] },
-  { "name": "senior", "trans": ["adj. 年长的、高级的"] },
-  { "name": "sensitive", "trans": ["adj. 敏感的"] },
-  { "name": "sentiment", "trans": ["n. 感情、情绪"] },
-  { "name": "separate", "trans": ["adj. 单独的、分开的", "v. 分开、使分离"] },
-  { "name": "series", "trans": ["n. 系列（节目）、丛书"] },
-  { "name": "severe", "trans": ["adj. 严重的、严峻的、严厉的"] },
-  { "name": "shed", "trans": ["v. 脱落、流出"] },
-  { "name": "shield", "trans": ["v. 遮挡、保护", "n. 盾牌"] },
-  { "name": "shift", "trans": ["v/n. 转移、转变"] },
-  { "name": "shrinking", "trans": ["adj. 收缩的、萎缩的", "n. 收缩、萎缩"] },
-  { "name": "signature", "trans": ["n. 签名"] },
-  { "name": "significant", "trans": ["adj. 重要的"] },
-  { "name": "skeptical", "trans": ["adj. 怀疑的"] },
-  { "name": "skip", "trans": ["v/n. 跳跃、跳过、跳读"] },
-  { "name": "slacking", "trans": ["adj. 懒惰的"] },
-  { "name": "slim", "trans": ["adj. 苗条的、薄的"] },
-  { "name": "sole", "trans": ["adj. 单独的、唯一的"] },
-  { "name": "sophisticated", "trans": ["adj. 复杂的、精致的"] },
-  { "name": "species", "trans": ["n. 种类、物种"] },
-  { "name": "split", "trans": ["v. 分解、分开、使分离"] },
-  { "name": "sponsor", "trans": ["v. 赞助、发起", "n. 赞助商、发起者"] },
-  { "name": "spontaneity", "trans": ["n. 自然流露、即兴发挥"] },
-  { "name": "spread", "trans": ["v/n. 传播、分布"] },
-  { "name": "squeeze", "trans": ["v. 挤压、榨取"] },
-  { "name": "stable", "trans": ["adj. 稳定的、稳固的"] },
-  { "name": "stagnation", "trans": ["n. 停滞"] },
-  { "name": "statement", "trans": ["n. 陈述、报表"] },
-  { "name": "statistical", "trans": ["adj. 统计（学）的"] },
-  { "name": "status", "trans": ["n. 身份、地位、状况"] },
-  { "name": "steep", "trans": ["adj. 陡峭的、（上升/下降）急剧的"] },
-  { "name": "steer", "trans": ["v. 驾驶、引导"] },
-  { "name": "stem", "trans": ["v. 起源", "n. 茎、干"] },
-  { "name": "stick", "trans": ["v. 刺、粘住", "n. 棍子、棒子"] },
-  { "name": "straight", "trans": ["adj/adv. 笔直的/地、直接的/地"] },
-  { "name": "strain", "trans": ["v. 拉紧", "n. 张力、压力"] },
-  { "name": "strategy", "trans": ["n. 战略、策略"] },
-  { "name": "stress", "trans": ["v. 强调", "n. 压力、重点"] },
-  { "name": "strict", "trans": ["adj. 严格的、严谨的"] },
-  { "name": "striking", "trans": ["adj. 惊人的、显著的、突出的"] },
-  { "name": "strive", "trans": ["v. 努力、争取"] },
-  { "name": "subject", "trans": ["v. （使）遭受", "n. 主题、被试（研究对象）"] },
-  { "name": "submit", "trans": ["v. 提交、（使）服从"] },
-  { "name": "subscribe", "trans": ["v. 签署、赞同、订阅"] },
-  { "name": "subsequent", "trans": ["adj. 随后的、后来的"] },
-  { "name": "subsidize", "trans": ["v. 资助、补贴"] },
-  { "name": "substantial", "trans": ["adj. 大量的、实质的"] },
-  { "name": "substitute", "trans": ["v. 替代", "n. 替代（品）"] },
-  { "name": "subtle", "trans": ["adj. 不明显的、不易察觉的"] },
-  { "name": "succeed", "trans": ["v. 成功、继承"] },
-  { "name": "suffer", "trans": ["v. 遭受、经受"] },
-  { "name": "suicide", "trans": ["v. 自杀", "n. 自杀（者）"] },
-  { "name": "suitable", "trans": ["adj. 合适的、适当的、恰当的"] },
-  { "name": "summit", "trans": ["n. 顶点、顶峰"] },
-  { "name": "superb", "trans": ["adj. 极好的"] },
-  { "name": "superior", "trans": ["adj. 比……好的、出众的"] },
-  { "name": "supervision", "trans": ["n. 监督、管理"] },
-  { "name": "supplement", "trans": ["v. 补充", "n. 补充、增刊"] },
-  { "name": "suppose", "trans": ["v. 假设、猜想"] },
-  { "name": "suppress", "trans": ["v. 镇压、压制、抑制"] },
-  { "name": "surface", "trans": ["v. （使）出现、浮出水面", "n. 表面"] },
-  { "name": "surgery", "trans": ["n. 外科、手术"] },
-  { "name": "survive", "trans": ["v. 幸存、存留"] },
-  { "name": "suspect", "trans": ["v. 怀疑、猜想", "n. 嫌疑犯"] },
-  { "name": "suspend", "trans": ["v. 悬挂、暂停"] },
-  { "name": "sustain", "trans": ["v. 保持、维持、支撑"] },
-  { "name": "swamp", "trans": ["v. 淹没、（使）陷入困境", "n. 沼泽"] },
-  { "name": "swing", "trans": ["v/n. 摇摆、波动"] },
-  { "name": "switch", "trans": ["v. 转移、转换", "n. 开关"] },
-  { "name": "symbolic", "trans": ["adj. 象征的、符号的"] },
-  { "name": "sympathy", "trans": ["n. 同情"] },
-  { "name": "temper", "trans": ["v. 调和、控制", "n. 脾气、性情"] },
-  { "name": "temporary", "trans": ["adj. 暂时的、临时的"] },
-  { "name": "tempt", "trans": ["v. 引诱、诱使、吸引"] },
-  { "name": "tendency", "trans": ["n. 趋势、倾向"] },
-  { "name": "terminal", "trans": ["adj. 终点的、（疾病）晚期的", "n. 终点、终端（机）"] },
-  { "name": "terrify", "trans": ["v. 恐吓、使害怕"] },
-  { "name": "testify", "trans": ["v. 证实、作证"] },
-  { "name": "thorny", "trans": ["adj. 棘手的、麻烦的"] },
-  { "name": "threaten", "trans": ["v. 威胁"] },
-  { "name": "thrive", "trans": ["v. 繁荣、盛行"] },
-  { "name": "tissue", "trans": ["n. （动植物的）组织"] },
-  { "name": "tolerate", "trans": ["v. 容忍、忍受"] },
-  { "name": "tough", "trans": ["adj. 强硬的、严苛的"] },
-  { "name": "toxic", "trans": ["adj. 有毒的、不良的"] },
-  { "name": "transaction", "trans": ["n. 交易"] },
-  { "name": "transcendence", "trans": ["n. 超越"] },
-  { "name": "transfer", "trans": ["v/n. 传递、转移"] },
-  { "name": "transform", "trans": ["v. 改变、转变"] },
-  { "name": "transition", "trans": ["n. 转型、过渡"] },
-  { "name": "transparency", "trans": ["n. 透明（度）"] },
-  { "name": "transplant", "trans": ["v/n. 移植"] },
-  { "name": "transportation", "trans": ["n. 运输、交通工具"] },
-  { "name": "tremendous", "trans": ["adj. 巨大的"] },
-  { "name": "triumph", "trans": ["v/n. 成功，胜利"] },
-  { "name": "turbulent", "trans": ["adj. 混乱的、湍急的"] },
-  { "name": "ultimate", "trans": ["adj. 最终的、根本的、极限的"] },
-  { "name": "unanimous", "trans": ["adj. 全体同意的、一致通过的"] },
-  { "name": "undermine", "trans": ["v. 破坏"] },
-  { "name": "uniform", "trans": ["adj. 统一的、相同的", "n. 制服"] },
-  { "name": "unique", "trans": ["adj. 独特的、唯一的"] },
-  { "name": "unite", "trans": ["v. 联合、团结、统一"] },
-  { "name": "universal", "trans": ["adj. 普遍的、通用的"] },
-  { "name": "unsurpassed", "trans": ["adj. 难以超越的、无与伦比的"] },
-  { "name": "upset", "trans": ["v. 打乱、使心烦（生气）"] },
-  { "name": "urban", "trans": ["adj. 城市的"] },
-  { "name": "urge", "trans": ["v. 推动、驱使", "n. 欲望、要求"] },
-  { "name": "utility", "trans": ["n. 功用、效用"] },
-  { "name": "vacuum", "trans": ["v. （用真空吸尘器）清扫、吸入", "n. 真空"] },
-  { "name": "vague", "trans": ["adj. 模糊的、含糊的"] },
-  { "name": "vain", "trans": ["adj. 自负的"] },
-  { "name": "valid", "trans": ["adj. 有效的、正当的"] },
-  { "name": "vanish", "trans": ["v. 消失"] },
-  { "name": "vanity", "trans": ["n. 虚荣"] },
-  { "name": "various", "trans": ["adj. 各种各样的"] },
-  { "name": "verbal", "trans": ["adj. 口头的、语言的、文字的"] },
-  { "name": "verdict", "trans": ["n. 结论、判决"] },
-  { "name": "verify", "trans": ["v. 证实、核实"] },
-  { "name": "viable", "trans": ["adj. 可行的"] },
-  { "name": "vibrant", "trans": ["adj. 充满活力的"] },
-  { "name": "victory", "trans": ["n. 胜利"] },
-  { "name": "vigorously", "trans": ["adv. 精力充沛地、强烈地"] },
-  { "name": "violate", "trans": ["v. 违反、侵犯"] },
-  { "name": "virtually", "trans": ["adv. 几乎、事实上"] },
-  { "name": "visible", "trans": ["adj. 看得见的、明显的"] },
-  { "name": "vision", "trans": ["n. 视力、憧憬"] },
-  { "name": "visualize", "trans": ["v. 想像、（使）形象化"] },
-  { "name": "vital", "trans": ["adj. 至关重要的、生死攸关的"] },
-  { "name": "vivid", "trans": ["adj. 生动的、逼真的"] },
-  { "name": "vocation", "trans": ["n. 职业"] },
-  { "name": "withdraw", "trans": ["v. 撤销、收回"] },
-  { "name": "withstand", "trans": ["v. 承受"] },
-  { "name": "worship", "trans": ["v/n. 敬奉、崇拜"] },
-  { "name": "yield", "trans": ["v. 生产、产生", "n. 产量、收益"] },
-  { "name": "zone", "trans": ["n. 地区"] }
+  {
+    "name": "abdicate",
+    "trans": [
+      "v. thoái vị; từ bỏ"
+    ]
+  },
+  {
+    "name": "abide",
+    "trans": [
+      "v. tuân thủ; chịu đựng"
+    ]
+  },
+  {
+    "name": "abolish",
+    "trans": [
+      "v. bãi bỏ; hủy bỏ"
+    ]
+  },
+  {
+    "name": "abound",
+    "trans": [
+      "v. tràn đầy; có mặt khắp nơi"
+    ]
+  },
+  {
+    "name": "absolute",
+    "trans": [
+      "adj. tuyệt đối; độc tài"
+    ]
+  },
+  {
+    "name": "absorb",
+    "trans": [
+      "v. hấp thụ; chịu đựng"
+    ]
+  },
+  {
+    "name": "abstract",
+    "trans": [
+      "adj. trừu tượng"
+    ]
+  },
+  {
+    "name": "abundantly",
+    "trans": [
+      "adv. nhiều, rất"
+    ]
+  },
+  {
+    "name": "abuse",
+    "trans": [
+      "v/n. ngược đãi; lạm dụng"
+    ]
+  },
+  {
+    "name": "academic",
+    "trans": [
+      "adj. học thuật"
+    ]
+  },
+  {
+    "name": "accelerate",
+    "trans": [
+      "v. tăng tốc; thúc đẩy"
+    ]
+  },
+  {
+    "name": "access",
+    "trans": [
+      "v/n. vào; sử dụng"
+    ]
+  },
+  {
+    "name": "acclaim",
+    "trans": [
+      "v/n. khen ngợi; vỗ tay"
+    ]
+  },
+  {
+    "name": "accommodate",
+    "trans": [
+      "v. chứa đựng; thích nghi"
+    ]
+  },
+  {
+    "name": "accompany",
+    "trans": [
+      "v. đi cùng; đồng hành"
+    ]
+  },
+  {
+    "name": "account",
+    "trans": [
+      "v. chiếm; giải thích",
+      "n. tài khoản; dữ liệu"
+    ]
+  },
+  {
+    "name": "accuracy",
+    "trans": [
+      "n. độ chính xác; tính chính xác"
+    ]
+  },
+  {
+    "name": "achieve",
+    "trans": [
+      "v. thu được; đạt được"
+    ]
+  },
+  {
+    "name": "acknowledge",
+    "trans": [
+      "v. thừa nhận; công nhận"
+    ]
+  },
+  {
+    "name": "acquire",
+    "trans": [
+      "v. có được; học được"
+    ]
+  },
+  {
+    "name": "activate",
+    "trans": [
+      "v. kích thích; khơi dậy"
+    ]
+  },
+  {
+    "name": "acute",
+    "trans": [
+      "adj. nghiêm trọng; cấp tính"
+    ]
+  },
+  {
+    "name": "adaptable",
+    "trans": [
+      "adj. phù hợp; thích nghi"
+    ]
+  },
+  {
+    "name": "adequate",
+    "trans": [
+      "adj. đủ dư; đầy đủ"
+    ]
+  },
+  {
+    "name": "adhere",
+    "trans": [
+      "v. kiên trì; tuân thủ"
+    ]
+  },
+  {
+    "name": "adjoining",
+    "trans": [
+      "adj. liền kề; gần nhau"
+    ]
+  },
+  {
+    "name": "adjust",
+    "trans": [
+      "v. điều chỉnh; thích nghi"
+    ]
+  },
+  {
+    "name": "administration",
+    "trans": [
+      "n. quản lý; chính phủ (Mỹ)"
+    ]
+  },
+  {
+    "name": "admire",
+    "trans": [
+      "v. khâm phục; ngưỡng mộ"
+    ]
+  },
+  {
+    "name": "admit",
+    "trans": [
+      "v. thừa nhận"
+    ]
+  },
+  {
+    "name": "adopt",
+    "trans": [
+      "v. nhận nuôi; áp dụng"
+    ]
+  },
+  {
+    "name": "adornment",
+    "trans": [
+      "n. đồ trang trí"
+    ]
+  },
+  {
+    "name": "advocate",
+    "trans": [
+      "v. đề cao; ủng hộ",
+      "n. người ủng hộ"
+    ]
+  },
+  {
+    "name": "affect",
+    "trans": [
+      "v. ảnh hưởng; xúc động",
+      "n. cảm xúc"
+    ]
+  },
+  {
+    "name": "affiliation",
+    "trans": [
+      "n. liên kết; mối liên hệ"
+    ]
+  },
+  {
+    "name": "affirm",
+    "trans": [
+      "v. khẳng định; xác nhận"
+    ]
+  },
+  {
+    "name": "agency",
+    "trans": [
+      "n. đại lý; cơ quan"
+    ]
+  },
+  {
+    "name": "aggravate",
+    "trans": [
+      "v. làm nặng thêm; xấu đi"
+    ]
+  },
+  {
+    "name": "aggregation",
+    "trans": [
+      "n. hợp nhất; hình thành"
+    ]
+  },
+  {
+    "name": "aggressive",
+    "trans": [
+      "adj. cực đoan; tiến bộ"
+    ]
+  },
+  {
+    "name": "agitated",
+    "trans": [
+      "adj. kích động; lo lắng"
+    ]
+  },
+  {
+    "name": "agony",
+    "trans": [
+      "n. đau đớn"
+    ]
+  },
+  {
+    "name": "alien",
+    "trans": [
+      "adj. nước ngoài, xa lạ",
+      "n. người nước ngoài"
+    ]
+  },
+  {
+    "name": "allay",
+    "trans": [
+      "v. làm nhẹ, xoa dịu"
+    ]
+  },
+  {
+    "name": "allegation",
+    "trans": [
+      "n. lời buộc tội, lời tuyên bố"
+    ]
+  },
+  {
+    "name": "alleviate",
+    "trans": [
+      "v. giảm nhẹ, làm dịu"
+    ]
+  },
+  {
+    "name": "alliance",
+    "trans": [
+      "n. liên minh, liên kết"
+    ]
+  },
+  {
+    "name": "allocation",
+    "trans": [
+      "n. sự phân bổ, phân phối"
+    ]
+  },
+  {
+    "name": "alter",
+    "trans": [
+      "v. thay đổi, sửa đổi"
+    ]
+  },
+  {
+    "name": "amateur",
+    "trans": [
+      "adj. nghiệp dư",
+      "n. người nghiệp dư, nhà sưu tầm nghiệp dư"
+    ]
+  },
+  {
+    "name": "amazing",
+    "trans": [
+      "adj. gây ngạc nhiên"
+    ]
+  },
+  {
+    "name": "ambiguous",
+    "trans": [
+      "adj. mơ hồ, không rõ ràng"
+    ]
+  },
+  {
+    "name": "ambition",
+    "trans": [
+      "n. tham vọng, khát vọng"
+    ]
+  },
+  {
+    "name": "amplify",
+    "trans": [
+      "v. mở rộng, tăng cường"
+    ]
+  },
+  {
+    "name": "analogy",
+    "trans": [
+      "n. phép so sánh, ẩn dụ"
+    ]
+  },
+  {
+    "name": "ancestor",
+    "trans": [
+      "n. người tiên phong, tổ tiên"
+    ]
+  },
+  {
+    "name": "announce",
+    "trans": [
+      "v. tuyên bố, công bố"
+    ]
+  },
+  {
+    "name": "annoy",
+    "trans": [
+      "v/n. phiền muộn, quấy rầy"
+    ]
+  },
+  {
+    "name": "annual",
+    "trans": [
+      "adj. hằng năm, thường niên, xanh quanh năm"
+    ]
+  },
+  {
+    "name": "anonymity",
+    "trans": [
+      "n. ẩn danh, tính ẩn danh"
+    ]
+  },
+  {
+    "name": "anticipate",
+    "trans": [
+      "v. dự đoán, dự trù"
+    ]
+  },
+  {
+    "name": "apparent",
+    "trans": [
+      "adj. rõ ràng, hiển nhiên"
+    ]
+  },
+  {
+    "name": "appeal",
+    "trans": [
+      "v/n. thu hút, kêu cầu, khiếu nại"
+    ]
+  },
+  {
+    "name": "appease",
+    "trans": [
+      "v. dỗ dành, xoa dịu"
+    ]
+  },
+  {
+    "name": "apply",
+    "trans": [
+      "v. áp dụng, sử dụng, đăng ký"
+    ]
+  },
+  {
+    "name": "appoint",
+    "trans": [
+      "v. chỉ định, bổ nhiệm"
+    ]
+  },
+  {
+    "name": "appreciate",
+    "trans": [
+      "v. cảm kích, trân trọng, hiểu"
+    ]
+  },
+  {
+    "name": "apprehensive",
+    "trans": [
+      "adj. lo lắng, bất an"
+    ]
+  },
+  {
+    "name": "approach",
+    "trans": [
+      "v. tiếp cận, xử lý",
+      "n. sự gần gũi, cách, phương pháp"
+    ]
+  },
+  {
+    "name": "appropriate",
+    "trans": [
+      "adj. thích hợp, phù hợp"
+    ]
+  },
+  {
+    "name": "arbiter",
+    "trans": [
+      "n. trọng tài, người phân xử"
+    ]
+  },
+  {
+    "name": "arouse",
+    "trans": [
+      "v. gây ra, kích thích"
+    ]
+  },
+  {
+    "name": "array",
+    "trans": [
+      "v/n. sắp xếp, xếp"
+    ]
+  },
+  {
+    "name": "artificial",
+    "trans": [
+      "adj. nhân tạo"
+    ]
+  },
+  {
+    "name": "aspect",
+    "trans": [
+      "n. phương diện, mặt"
+    ]
+  },
+  {
+    "name": "aspire",
+    "trans": [
+      "v. khao khát, hướng tới"
+    ]
+  },
+  {
+    "name": "assembly",
+    "trans": [
+      "n. cuộc họp, sự tụ họp"
+    ]
+  },
+  {
+    "name": "assert",
+    "trans": [
+      "v. tuyên bố, khẳng định"
+    ]
+  },
+  {
+    "name": "assess",
+    "trans": [
+      "v. đánh giá, ước tính"
+    ]
+  },
+  {
+    "name": "asset",
+    "trans": [
+      "n. tài sản"
+    ]
+  },
+  {
+    "name": "assign",
+    "trans": [
+      "v. phân phối, bố trí"
+    ]
+  },
+  {
+    "name": "assimilation",
+    "trans": [
+      "n. đồng hóa"
+    ]
+  },
+  {
+    "name": "assist",
+    "trans": [
+      "v. giúp đỡ, trợ giúp"
+    ]
+  },
+  {
+    "name": "associate",
+    "trans": [
+      "v. liên kết, gắn kết"
+    ]
+  },
+  {
+    "name": "assume",
+    "trans": [
+      "v. giả định, cho rằng"
+    ]
+  },
+  {
+    "name": "astrological",
+    "trans": [
+      "adj. chiêm tinh, tử vi"
+    ]
+  },
+  {
+    "name": "astronomy",
+    "trans": [
+      "n. thiên văn học"
+    ]
+  },
+  {
+    "name": "atmosphere",
+    "trans": [
+      "n. khí quyển, không khí, không khí chung"
+    ]
+  },
+  {
+    "name": "attract",
+    "trans": [
+      "v. thu hút"
+    ]
+  },
+  {
+    "name": "auction",
+    "trans": [
+      "v/n. đấu giá"
+    ]
+  },
+  {
+    "name": "authority",
+    "trans": [
+      "n. quyền lực, uy quyền, chính thức"
+    ]
+  },
+  {
+    "name": "automated",
+    "trans": [
+      "adj. tự động"
+    ]
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. có thể có, hiện hữu"
+    ]
+  },
+  {
+    "name": "awkward",
+    "trans": [
+      "adj. khó xử, ngượng ngùng"
+    ]
+  },
+  {
+    "name": "bankruptcy",
+    "trans": [
+      "n. phá sản"
+    ]
+  },
+  {
+    "name": "barely",
+    "trans": [
+      "adv. chỉ, gần như không"
+    ]
+  },
+  {
+    "name": "barrier",
+    "trans": [
+      "n. rào cản, trở ngại"
+    ]
+  },
+  {
+    "name": "behavior",
+    "trans": [
+      "n. hành vi, ứng xử"
+    ]
+  },
+  {
+    "name": "bellyful",
+    "trans": [
+      "n. lòng, tâm hồn"
+    ]
+  },
+  {
+    "name": "benefactor",
+    "trans": [
+      "n. nhà hảo tâm, người quyên góp"
+    ]
+  },
+  {
+    "name": "benign",
+    "trans": [
+      "adj. lành tính, vô hại"
+    ]
+  },
+  {
+    "name": "betray",
+    "trans": [
+      "v. phản bội, tố giác"
+    ]
+  },
+  {
+    "name": "bias",
+    "trans": [
+      "n. thành kiến, định kiến"
+    ]
+  },
+  {
+    "name": "bid",
+    "trans": [
+      "v/n. đấu thầu, trả giá"
+    ]
+  },
+  {
+    "name": "bilingual",
+    "trans": [
+      "adj. song ngữ"
+    ]
+  },
+  {
+    "name": "binary",
+    "trans": [
+      "adj. đen trắng, nhị nguyên"
+    ]
+  },
+  {
+    "name": "binding",
+    "trans": [
+      "adj. có tính ràng buộc"
+    ]
+  },
+  {
+    "name": "biographical",
+    "trans": [
+      "adj. truyện đời"
+    ]
+  },
+  {
+    "name": "board",
+    "trans": [
+      "n. ủy ban, hội đồng quản trị"
+    ]
+  },
+  {
+    "name": "boom",
+    "trans": [
+      "v. phát triển nhanh chóng",
+      "n. thịnh vượng, phồn hoa"
+    ]
+  },
+  {
+    "name": "bother",
+    "trans": [
+      "v/n. lo lắng, phiền lòng"
+    ]
+  },
+  {
+    "name": "boundary",
+    "trans": [
+      "n. giới hạn, phạm vi"
+    ]
+  },
+  {
+    "name": "bribery",
+    "trans": [
+      "n. hối lộ, nhận hối lộ"
+    ]
+  },
+  {
+    "name": "brief",
+    "trans": [
+      "adj. ngắn gọn, súc tích",
+      "n. tóm tắt, bản tóm tắt"
+    ]
+  },
+  {
+    "name": "broaden",
+    "trans": [
+      "v. mở rộng, mở ra"
+    ]
+  },
+  {
+    "name": "broker",
+    "trans": [
+      "n. nhà môi giới, môi giới"
+    ]
+  },
+  {
+    "name": "bubble",
+    "trans": [
+      "v. sủi bọt, nổi bụt",
+      "n. bong bóng, bọt"
+    ]
+  },
+  {
+    "name": "budget",
+    "trans": [
+      "v/n. ngân sách, dự toán"
+    ]
+  },
+  {
+    "name": "bureaucratic",
+    "trans": [
+      "adj. quan trọc chức"
+    ]
+  },
+  {
+    "name": "burst",
+    "trans": [
+      "v/n. nổ, bùng nổ"
+    ]
+  },
+  {
+    "name": "campaign",
+    "trans": [
+      "n. chiến dịch, phong trào, hoạt động"
+    ]
+  },
+  {
+    "name": "candidate",
+    "trans": [
+      "n. ứng cử viên"
+    ]
+  },
+  {
+    "name": "capable",
+    "trans": [
+      "adj. có năng lực, tài năng"
+    ]
+  },
+  {
+    "name": "capture",
+    "trans": [
+      "v. bắt, thu hút",
+      "n. tù binh, chiến lợi phẩm"
+    ]
+  },
+  {
+    "name": "carve",
+    "trans": [
+      "v. cắt, khắc, phân chia"
+    ]
+  },
+  {
+    "name": "category",
+    "trans": [
+      "n. loại, phạm trù"
+    ]
+  },
+  {
+    "name": "cater",
+    "trans": [
+      "v. chiều theo, phục vụ"
+    ]
+  },
+  {
+    "name": "caution",
+    "trans": [
+      "v. cảnh báo, báo động",
+      "n. sự cẩn trọng, cảnh giác, lời cảnh báo"
+    ]
+  },
+  {
+    "name": "cavity",
+    "trans": [
+      "n. khoang, lỗ sâu răng"
+    ]
+  },
+  {
+    "name": "celebrate",
+    "trans": [
+      "v. ăn mừng, kỷ niệm"
+    ]
+  },
+  {
+    "name": "challenge",
+    "trans": [
+      "v/n. thách thức, chất vấn"
+    ]
+  },
+  {
+    "name": "character",
+    "trans": [
+      "n. đặc điểm, tính chất, ký tự"
+    ]
+  },
+  {
+    "name": "charge",
+    "trans": [
+      "v. thu phí, buộc tội",
+      "n. phí tổn, lời buộc tội"
+    ]
+  },
+  {
+    "name": "charity",
+    "trans": [
+      "n. từ thiện, tổ chức từ thiện"
+    ]
+  },
+  {
+    "name": "chronic",
+    "trans": [
+      "adj. mãn tính, kéo dài"
+    ]
+  },
+  {
+    "name": "circuit",
+    "trans": [
+      "v. đi vòng, xoay vòng",
+      "n. đường tròn, mạch điện"
+    ]
+  },
+  {
+    "name": "civil",
+    "trans": [
+      "adj. công dân, văn minh"
+    ]
+  },
+  {
+    "name": "claim",
+    "trans": [
+      "v/n. tuyên bố, yêu cầu, đòi bồi thường"
+    ]
+  },
+  {
+    "name": "clarity",
+    "trans": [
+      "n. sự rõ ràng, trong sáng"
+    ]
+  },
+  {
+    "name": "client",
+    "trans": [
+      "n. khách hàng, khách"
+    ]
+  },
+  {
+    "name": "cloak",
+    "trans": [
+      "v. che đậy, che giấu",
+      "n. áo choàng"
+    ]
+  },
+  {
+    "name": "clue",
+    "trans": [
+      "n. gợi ý, manh mối"
+    ]
+  },
+  {
+    "name": "clumsy",
+    "trans": [
+      "adj. vụng về, thiếu linh hoạt"
+    ]
+  },
+  {
+    "name": "coalition",
+    "trans": [
+      "n. liên minh, liên kết"
+    ]
+  },
+  {
+    "name": "cognitive",
+    "trans": [
+      "adj. nhận thức"
+    ]
+  },
+  {
+    "name": "coherent",
+    "trans": [
+      "adj. liên tục, nhất quán, dính liền"
+    ]
+  },
+  {
+    "name": "coincidence",
+    "trans": [
+      "n. trùng hợp, ngẫu nhiên trùng khớp"
+    ]
+  },
+  {
+    "name": "collaborative",
+    "trans": [
+      "adj. hợp tác, cộng tác"
+    ]
+  },
+  {
+    "name": "collapse",
+    "trans": [
+      "v/n. sụp đổ, tan rã"
+    ]
+  },
+  {
+    "name": "collect",
+    "trans": [
+      "v. thu thập, sưu tầm"
+    ]
+  },
+  {
+    "name": "combat",
+    "trans": [
+      "adj. chiến đấu, tranh đấu",
+      "v/n. chiến đấu, tranh đấu"
+    ]
+  },
+  {
+    "name": "command",
+    "trans": [
+      "v/n. ra lệnh, kiểm soát, nắm chắc"
+    ]
+  },
+  {
+    "name": "commemorate",
+    "trans": [
+      "v. kỷ niệm, tưởng nhớ"
+    ]
+  },
+  {
+    "name": "commercial",
+    "trans": [
+      "adj. thương mại, kinh doanh"
+    ]
+  },
+  {
+    "name": "commit",
+    "trans": [
+      "v. tiến hành, thực hiện"
+    ]
+  },
+  {
+    "name": "commodity",
+    "trans": [
+      "n. hàng hóa, sản phẩm"
+    ]
+  },
+  {
+    "name": "community",
+    "trans": [
+      "n. cộng đồng, giới"
+    ]
+  },
+  {
+    "name": "compact",
+    "trans": [
+      "n. hợp đồng, giao khoản"
+    ]
+  },
+  {
+    "name": "compare",
+    "trans": [
+      "v. so sánh"
+    ]
+  },
+  {
+    "name": "compelling",
+    "trans": [
+      "adj. bắt buộc, thuyết phục"
+    ]
+  },
+  {
+    "name": "compensate",
+    "trans": [
+      "v. bù đắp, đền bù, cân bằng"
+    ]
+  },
+  {
+    "name": "competent",
+    "trans": [
+      "adj. đủ khả năng, xứng đáng"
+    ]
+  },
+  {
+    "name": "competitive",
+    "trans": [
+      "adj. cạnh tranh, mang tính cạnh tranh"
+    ]
+  },
+  {
+    "name": "compile",
+    "trans": [
+      "v. biên soạn; thu thập"
+    ]
+  },
+  {
+    "name": "complex",
+    "trans": [
+      "adj. phức tạp"
+    ]
+  },
+  {
+    "name": "complicated",
+    "trans": [
+      "adj. phức tạp"
+    ]
+  },
+  {
+    "name": "comply",
+    "trans": [
+      "v. tuân thủ, tuân theo"
+    ]
+  },
+  {
+    "name": "component",
+    "trans": [
+      "n. thành phần, bộ phận"
+    ]
+  },
+  {
+    "name": "composition",
+    "trans": [
+      "n. tác phẩm (văn học, âm nhạc, mỹ thuật)"
+    ]
+  },
+  {
+    "name": "compound",
+    "trans": [
+      "v. trầm trọng thêm, trộn lẫn",
+      "n. hợp chất"
+    ]
+  },
+  {
+    "name": "comprehensive",
+    "trans": [
+      "adj. tổng hợp, toàn diện"
+    ]
+  },
+  {
+    "name": "compromise",
+    "trans": [
+      "v/n. thỏa hiệp, phá hoại"
+    ]
+  },
+  {
+    "name": "conceive",
+    "trans": [
+      "v. mang thai, hình dung, cho rằng"
+    ]
+  },
+  {
+    "name": "concentrate",
+    "trans": [
+      "v. tập trung, cô đọng, chuyên tâm"
+    ]
+  },
+  {
+    "name": "concept",
+    "trans": [
+      "n. khái niệm, quan niệm"
+    ]
+  },
+  {
+    "name": "concession",
+    "trans": [
+      "n. sự thỏa hiệp, nhượng bộ"
+    ]
+  },
+  {
+    "name": "conclude",
+    "trans": [
+      "v. kết thúc, suy luận, kết luận"
+    ]
+  },
+  {
+    "name": "concrete",
+    "trans": [
+      "n. bê tông",
+      "adj. cụ thể, rõ ràng"
+    ]
+  },
+  {
+    "name": "condemn",
+    "trans": [
+      "v. lên án, trách móc"
+    ]
+  },
+  {
+    "name": "conduct",
+    "trans": [
+      "v. thực hiện, quản lý, chỉ huy, dẫn dắt",
+      "n. hành động, hành vi"
+    ]
+  },
+  {
+    "name": "confer",
+    "trans": [
+      "v. trao, phân công; thương lượng"
+    ]
+  },
+  {
+    "name": "confident",
+    "trans": [
+      "adj. tự tin, có đầy đủ tin tưởng"
+    ]
+  },
+  {
+    "name": "confine",
+    "trans": [
+      "v. hạn chế, ràng buộc",
+      "n. hạn chế, giới hạn"
+    ]
+  },
+  {
+    "name": "confirm",
+    "trans": [
+      "v. xác nhận, xác định"
+    ]
+  },
+  {
+    "name": "conflict",
+    "trans": [
+      "v. xung đột với ...",
+      "n. xung đột, mâu thuẫn"
+    ]
+  },
+  {
+    "name": "confront",
+    "trans": [
+      "v. gặp phải, đối mặt với"
+    ]
+  },
+  {
+    "name": "confuse",
+    "trans": [
+      "v. làm mê hoặc, gây bối rối"
+    ]
+  },
+  {
+    "name": "conjunction",
+    "trans": [
+      "n. sự kết hợp, sự trùng hợp"
+    ]
+  },
+  {
+    "name": "conquer",
+    "trans": [
+      "v. chinh phục, vượt qua"
+    ]
+  },
+  {
+    "name": "conscience",
+    "trans": [
+      "n. lương tâm"
+    ]
+  },
+  {
+    "name": "conscious",
+    "trans": [
+      "adj. có ý thức"
+    ]
+  },
+  {
+    "name": "consent",
+    "trans": [
+      "v/n. đồng ý, tán thành"
+    ]
+  },
+  {
+    "name": "consequence",
+    "trans": [
+      "n. hậu quả"
+    ]
+  },
+  {
+    "name": "conservative",
+    "trans": [
+      "adj. bảo thủ",
+      "n. người bảo thủ, đảng bảo thủ"
+    ]
+  },
+  {
+    "name": "consistent",
+    "trans": [
+      "adj. nhất quán, phù hợp"
+    ]
+  },
+  {
+    "name": "consolidation",
+    "trans": [
+      "n. sự hợp nhất"
+    ]
+  },
+  {
+    "name": "constant",
+    "trans": [
+      "adj. bất biến, thường xuyên",
+      "n. hằng số, thứ bất biến"
+    ]
+  },
+  {
+    "name": "constitute",
+    "trans": [
+      "v. tạo thành, cấu thành"
+    ]
+  },
+  {
+    "name": "constrain",
+    "trans": [
+      "v. hạn chế, ràng buộc"
+    ]
+  },
+  {
+    "name": "construction",
+    "trans": [
+      "n. sự thành lập, xây dựng, công trình kiến trúc"
+    ]
+  },
+  {
+    "name": "consume",
+    "trans": [
+      "v. tiêu dùng, tiêu hao"
+    ]
+  },
+  {
+    "name": "contempt",
+    "trans": [
+      "n. sự khinh thường, khinh miệt"
+    ]
+  },
+  {
+    "name": "content",
+    "trans": [
+      "adj. hài lòng, thoả mãn",
+      "n. sự hài lòng, nội dung"
+    ]
+  },
+  {
+    "name": "contest",
+    "trans": [
+      "v/n. cạnh tranh, tranh luận"
+    ]
+  },
+  {
+    "name": "contract",
+    "trans": [
+      "n. hợp đồng, hợp đồng kinh doanh"
+    ]
+  },
+  {
+    "name": "contradictory",
+    "trans": [
+      "adj. mâu thuẫn, trái ngược"
+    ]
+  },
+  {
+    "name": "contrary",
+    "trans": [
+      "adj/adv. trái ngược / ngược lại",
+      "n. điều trái ngược, sự trái ngược"
+    ]
+  },
+  {
+    "name": "contrast",
+    "trans": [
+      "v/n. so sánh, đối chiếu"
+    ]
+  },
+  {
+    "name": "contribute",
+    "trans": [
+      "v. đóng góp, dẫn đến"
+    ]
+  },
+  {
+    "name": "controversial",
+    "trans": [
+      "adj. gây tranh cãi, đầy tranh luận"
+    ]
+  },
+  {
+    "name": "conventional",
+    "trans": [
+      "adj. truyền thống, thông thường"
+    ]
+  },
+  {
+    "name": "converge",
+    "trans": [
+      "v. tập trung, thống nhất"
+    ]
+  },
+  {
+    "name": "convert",
+    "trans": [
+      "v. biến đổi, chuyển hóa"
+    ]
+  },
+  {
+    "name": "convey",
+    "trans": [
+      "v. vận chuyển, diễn đạt"
+    ]
+  },
+  {
+    "name": "conviction",
+    "trans": [
+      "n. bản án, sự kết án"
+    ]
+  },
+  {
+    "name": "convincing",
+    "trans": [
+      "adj. có sức thuyết phục, đáng tin"
+    ]
+  },
+  {
+    "name": "cooperate",
+    "trans": [
+      "v. phối hợp, hợp tác"
+    ]
+  },
+  {
+    "name": "coordination",
+    "trans": [
+      "n. sự phối hợp, sự cộng tác"
+    ]
+  },
+  {
+    "name": "core",
+    "trans": [
+      "n. cốt lõi, điểm mấu chốt"
+    ]
+  },
+  {
+    "name": "corporate",
+    "trans": [
+      "adj. của công ty, thuộc về doanh nghiệp"
+    ]
+  },
+  {
+    "name": "correct",
+    "trans": [
+      "adj. đúng, chính xác"
+    ]
+  },
+  {
+    "name": "correlate",
+    "trans": [
+      "v. liên kết, có liên quan đến ..."
+    ]
+  },
+  {
+    "name": "correspond",
+    "trans": [
+      "v. phù hợp, nhất quán với ..., liên lạc với ..."
+    ]
+  },
+  {
+    "name": "corruption",
+    "trans": [
+      "n. tham nhũng, sa đọa"
+    ]
+  },
+  {
+    "name": "counterbalance",
+    "trans": [
+      "v. triệt tiêu, cân bằng",
+      "n. lực cân bằng, sự cân bằng"
+    ]
+  },
+  {
+    "name": "counterpart",
+    "trans": [
+      "n. đối tượng tương phản, người hoặc vật rất giống"
+    ]
+  },
+  {
+    "name": "courageous",
+    "trans": [
+      "adj. dũng cảm, can đảm"
+    ]
+  },
+  {
+    "name": "craft",
+    "trans": [
+      "v. chế tác tinh tế, gia công tỉ mỉ",
+      "n. nghề thủ, thủ công nghệ"
+    ]
+  },
+  {
+    "name": "crash",
+    "trans": [
+      "v/n. đâm va, rơi, sụp đổ"
+    ]
+  },
+  {
+    "name": "credit",
+    "trans": [
+      "v. tín nhiệm, công nhận",
+      "n. uy tín, sự công nhận, tín chỉ"
+    ]
+  },
+  {
+    "name": "creep",
+    "trans": [
+      "v. bò, lặng lẽ xuất hiện"
+    ]
+  },
+  {
+    "name": "crisis",
+    "trans": [
+      "n. khủng hoảng, thời khắc then chốt"
+    ]
+  },
+  {
+    "name": "critical",
+    "trans": [
+      "adj. phê phán, quan trọng, tới hạn"
+    ]
+  },
+  {
+    "name": "crucial",
+    "trans": [
+      "adj. cực kỳ quan trọng, then chốt"
+    ]
+  },
+  {
+    "name": "cue",
+    "trans": [
+      "n. manh mối, gợi ý"
+    ]
+  },
+  {
+    "name": "cultivate",
+    "trans": [
+      "v. trồng, nuôi dưỡng"
+    ]
+  },
+  {
+    "name": "cunning",
+    "trans": [
+      "adj. khéo léo, đáng yêu, láu lợm"
+    ]
+  },
+  {
+    "name": "curb",
+    "trans": [
+      "v/n. kiểm soát, hạn chế"
+    ]
+  },
+  {
+    "name": "cure",
+    "trans": [
+      "v. chữa trị, chữa khỏi",
+      "n. sự điều trị, phương pháp chữa trị"
+    ]
+  },
+  {
+    "name": "curiosity",
+    "trans": [
+      "n. sự tò mò"
+    ]
+  },
+  {
+    "name": "current",
+    "trans": [
+      "adj. hiện tại, thịnh hành"
+    ]
+  },
+  {
+    "name": "curriculum",
+    "trans": [
+      "n. toàn bộ chương trình (của trường học)"
+    ]
+  },
+  {
+    "name": "cursory",
+    "trans": [
+      "adj. sơ lược, ẩu, vội vã"
+    ]
+  },
+  {
+    "name": "dampen",
+    "trans": [
+      "v. làm nản lòng, làm chán nản"
+    ]
+  },
+  {
+    "name": "dawn",
+    "trans": [
+      "v. bình minh, xuất hiện",
+      "n. bình minh, khởi đầu"
+    ]
+  },
+  {
+    "name": "dearth",
+    "trans": [
+      "n. sự thiếu hụt, thiếu vắng"
+    ]
+  },
+  {
+    "name": "debate",
+    "trans": [
+      "v/n. tranh cãi, tranh luận"
+    ]
+  },
+  {
+    "name": "deceptive",
+    "trans": [
+      "adj. lừa dối, giả dối"
+    ]
+  },
+  {
+    "name": "declaration",
+    "trans": [
+      "n. tuyên bố, tuyên thệ"
+    ]
+  },
+  {
+    "name": "decline",
+    "trans": [
+      "v/n. suy giảm, thoái trào"
+    ]
+  },
+  {
+    "name": "decoration",
+    "trans": [
+      "n. đồ trang trí"
+    ]
+  },
+  {
+    "name": "dedicate",
+    "trans": [
+      "v. hiến thân, tận tâm với"
+    ]
+  },
+  {
+    "name": "deduce",
+    "trans": [
+      "v. suy luận, kết luận"
+    ]
+  },
+  {
+    "name": "deem",
+    "trans": [
+      "v. cho là, coi là"
+    ]
+  },
+  {
+    "name": "defend",
+    "trans": [
+      "v. bảo vệ, bào vệ cho ..."
+    ]
+  },
+  {
+    "name": "defer",
+    "trans": [
+      "v. hoãn lại, trì hoãn"
+    ]
+  },
+  {
+    "name": "deficiency",
+    "trans": [
+      "n. khuyết điểm, sự thiếu vắng"
+    ]
+  },
+  {
+    "name": "define",
+    "trans": [
+      "v. định nghĩa, làm rõ"
+    ]
+  },
+  {
+    "name": "deliberate",
+    "trans": [
+      "v. cân nhắc kỹ, suy xét kỹ lưỡng",
+      "adj. cố ý, có chủ đích"
+    ]
+  },
+  {
+    "name": "delicate",
+    "trans": [
+      "adj. tinh tế, tinh vi"
+    ]
+  },
+  {
+    "name": "deliver",
+    "trans": [
+      "v. đọc (bài phát biểu), chuyển đưa"
+    ]
+  },
+  {
+    "name": "delusion",
+    "trans": [
+      "n. ảo giác, ảo tưởng"
+    ]
+  },
+  {
+    "name": "democratic",
+    "trans": [
+      "adj. dân chủ"
+    ]
+  },
+  {
+    "name": "demographic",
+    "trans": [
+      "adj. nhân khẩu học, về dân số",
+      "n. số liệu nhân khẩu học"
+    ]
+  },
+  {
+    "name": "dense",
+    "trans": [
+      "adj. đặc, rậm"
+    ]
+  },
+  {
+    "name": "deny",
+    "trans": [
+      "v. từ chối, phủ nhận"
+    ]
+  },
+  {
+    "name": "depart",
+    "trans": [
+      "v. rời đi, xuất phát"
+    ]
+  },
+  {
+    "name": "depict",
+    "trans": [
+      "v. mô tả, vẽ vời"
+    ]
+  },
+  {
+    "name": "depression",
+    "trans": [
+      "n. sự chán nản, trầm uất, suy thoái (kinh tế)"
+    ]
+  },
+  {
+    "name": "deprive",
+    "trans": [
+      "v. tước đoạt, làm mất"
+    ]
+  },
+  {
+    "name": "derive",
+    "trans": [
+      "v. đến từ, bắt nguồn từ"
+    ]
+  },
+  {
+    "name": "descend",
+    "trans": [
+      "v. đi xuống, di truyền"
+    ]
+  },
+  {
+    "name": "describe",
+    "trans": [
+      "v. mô tả, đặc tính"
+    ]
+  },
+  {
+    "name": "deserve",
+    "trans": [
+      "v. xứng đáng, đáng được"
+    ]
+  },
+  {
+    "name": "designate",
+    "trans": [
+      "v. đặt tên là ...; định nghĩa là ..."
+    ]
+  },
+  {
+    "name": "desire",
+    "trans": [
+      "v. khao khát, ham muốn",
+      "n. ham muốn, nguyện vọng"
+    ]
+  },
+  {
+    "name": "desperate",
+    "trans": [
+      "adj. tuyệt vọng, liều lĩnh"
+    ]
+  },
+  {
+    "name": "deteriorate",
+    "trans": [
+      "v. xấu đi, trầm trọng hơn"
+    ]
+  },
+  {
+    "name": "determine",
+    "trans": [
+      "v. quyết định, quyết tâm"
+    ]
+  },
+  {
+    "name": "detrimental",
+    "trans": [
+      "adj. có hại, bất lợi"
+    ]
+  },
+  {
+    "name": "devastating",
+    "trans": [
+      "adj. mang tính hủy diệt, phá hoại nặng nề"
+    ]
+  },
+  {
+    "name": "devise",
+    "trans": [
+      "v. thiết kế, phát minh"
+    ]
+  },
+  {
+    "name": "devoted",
+    "trans": [
+      "adj. trung thành, tận tình, say mê ..."
+    ]
+  },
+  {
+    "name": "differentiate",
+    "trans": [
+      "v. phân biệt, phân loại"
+    ]
+  },
+  {
+    "name": "diffuse",
+    "trans": [
+      "v. lan truyền, xoa dịu"
+    ]
+  },
+  {
+    "name": "disaster",
+    "trans": [
+      "n. thảm họa, tai nạn"
+    ]
+  },
+  {
+    "name": "discipline",
+    "trans": [
+      "n. kỷ luật, nguyên tắc"
+    ]
+  },
+  {
+    "name": "disclose",
+    "trans": [
+      "v. phơi bày, công khai"
+    ]
+  },
+  {
+    "name": "disconcerting",
+    "trans": [
+      "adj. lo lắng, bồn chồn"
+    ]
+  },
+  {
+    "name": "discover",
+    "trans": [
+      "v. phát hiện, nhận ra"
+    ]
+  },
+  {
+    "name": "discrimination",
+    "trans": [
+      "n. sự phân biệt đối xử"
+    ]
+  },
+  {
+    "name": "disgrace",
+    "trans": [
+      "v. làm nhục, làm mất mặt",
+      "n. sự nhục nhã, điều đáng xấu"
+    ]
+  },
+  {
+    "name": "disguise",
+    "trans": [
+      "v/n. che đậy, ngụy trang"
+    ]
+  },
+  {
+    "name": "disintegrate",
+    "trans": [
+      "v. phân rã, suy tàn"
+    ]
+  },
+  {
+    "name": "dismiss",
+    "trans": [
+      "v. giải thể, sa thải, loại trừ"
+    ]
+  },
+  {
+    "name": "disorder",
+    "trans": [
+      "v. xáo trộn, làm rối loạn",
+      "n. hỗn loạn, rối loạn (tâm lý)"
+    ]
+  },
+  {
+    "name": "display",
+    "trans": [
+      "v/n. trưng bày, thể hiện, biểu hiện"
+    ]
+  },
+  {
+    "name": "disposable",
+    "trans": [
+      "adj. dùng một lần, tiện tay xử lý"
+    ]
+  },
+  {
+    "name": "disproportionately",
+    "trans": [
+      "adv. không cân xứng, tỷ lệ lệch"
+    ]
+  },
+  {
+    "name": "dispute",
+    "trans": [
+      "v/n. phản đối, tranh cãi"
+    ]
+  },
+  {
+    "name": "disruptive",
+    "trans": [
+      "adj. mang tính phá hoại, lật đổ"
+    ]
+  },
+  {
+    "name": "distort",
+    "trans": [
+      "v. xuyên tạc, bóp méo"
+    ]
+  },
+  {
+    "name": "distraction",
+    "trans": [
+      "n. sự phân tâm, mất tập trung"
+    ]
+  },
+  {
+    "name": "distressed",
+    "trans": [
+      "adj. buồn phiền, giận dữ"
+    ]
+  },
+  {
+    "name": "distribute",
+    "trans": [
+      "v. phân phối, phát"
+    ]
+  },
+  {
+    "name": "district",
+    "trans": [
+      "n. khu vực, vùng miền"
+    ]
+  },
+  {
+    "name": "disturb",
+    "trans": [
+      "v. làm nhiễu, gây rối"
+    ]
+  },
+  {
+    "name": "diverse",
+    "trans": [
+      "adj. khác nhau, đa dạng"
+    ]
+  },
+  {
+    "name": "divisive",
+    "trans": [
+      "adj. chia rẽ, bất đồng"
+    ]
+  },
+  {
+    "name": "domestic",
+    "trans": [
+      "adj. gia đình, trong nước"
+    ]
+  },
+  {
+    "name": "dominate",
+    "trans": [
+      "v. cai trị, chiếm ưu thế"
+    ]
+  },
+  {
+    "name": "donate",
+    "trans": [
+      "v. quyên góp, hiến tặng"
+    ]
+  },
+  {
+    "name": "doom",
+    "trans": [
+      "n. tai ách, điều xấu"
+    ]
+  },
+  {
+    "name": "dormant",
+    "trans": [
+      "adj. ngủ đông, đứng yên"
+    ]
+  },
+  {
+    "name": "dramatic",
+    "trans": [
+      "adj. gay kịch, mãnh liệt"
+    ]
+  },
+  {
+    "name": "drastic",
+    "trans": [
+      "adj. gay gắt, dữ dội"
+    ]
+  },
+  {
+    "name": "dreadful",
+    "trans": [
+      "adj. đáng sợ, tệ hại"
+    ]
+  },
+  {
+    "name": "drought",
+    "trans": [
+      "n. hạn hán, nạn đói"
+    ]
+  },
+  {
+    "name": "duplication",
+    "trans": [
+      "n. sự lặp lại, sao chép, bản sao"
+    ]
+  },
+  {
+    "name": "durable",
+    "trans": [
+      "adj. bền vững, lâu dài, bền bỉ"
+    ]
+  },
+  {
+    "name": "dynamic",
+    "trans": [
+      "adj. động lực học, động",
+      "n. động lực, sự chuyển động"
+    ]
+  },
+  {
+    "name": "economic",
+    "trans": [
+      "adj. kinh tế học, kinh tế"
+    ]
+  },
+  {
+    "name": "effective",
+    "trans": [
+      "adj. hiệu quả, có hiệu lực"
+    ]
+  },
+  {
+    "name": "efficient",
+    "trans": [
+      "adj. hiệu suất, tối ưu"
+    ]
+  },
+  {
+    "name": "effort",
+    "trans": [
+      "n. nỗ lực, sự cố gắng"
+    ]
+  },
+  {
+    "name": "elaborate",
+    "trans": [
+      "v. chuẩn bị kỹ lưỡng, trình bày chi tiết",
+      "adj. tỉ mỉ, chi tiết"
+    ]
+  },
+  {
+    "name": "elect",
+    "trans": [
+      "v. bầu cử, bầu chọn"
+    ]
+  },
+  {
+    "name": "elegant",
+    "trans": [
+      "adj. duyên dáng, thanh lịch"
+    ]
+  },
+  {
+    "name": "element",
+    "trans": [
+      "n. nguyên tố, yếu tố, thành phần"
+    ]
+  },
+  {
+    "name": "elevate",
+    "trans": [
+      "v. nâng cao, cải thiện"
+    ]
+  },
+  {
+    "name": "eligible",
+    "trans": [
+      "adj. đủ tiêu chuẩn, hợp lệ"
+    ]
+  },
+  {
+    "name": "eliminate",
+    "trans": [
+      "v. loại bỏ, gạch bỏ"
+    ]
+  },
+  {
+    "name": "elite",
+    "trans": [
+      "n. tinh hoa, ưu tú"
+    ]
+  },
+  {
+    "name": "embarrassing",
+    "trans": [
+      "adj. khó xử, lúng túng"
+    ]
+  },
+  {
+    "name": "embrace",
+    "trans": [
+      "v/n. ôm, chấp nhận"
+    ]
+  },
+  {
+    "name": "emerge",
+    "trans": [
+      "v. xuất hiện, hiện ra"
+    ]
+  },
+  {
+    "name": "emigrate",
+    "trans": [
+      "v. di cư ra nước ngoài, rời đi"
+    ]
+  },
+  {
+    "name": "emission",
+    "trans": [
+      "n. lượng phát thải"
+    ]
+  },
+  {
+    "name": "emotional",
+    "trans": [
+      "adj. cảm xúc, tình cảm"
+    ]
+  },
+  {
+    "name": "emphasize",
+    "trans": [
+      "v. nhấn mạnh, coi trọng"
+    ]
+  },
+  {
+    "name": "empower",
+    "trans": [
+      "v. trao quyền, cho phép"
+    ]
+  },
+  {
+    "name": "encode",
+    "trans": [
+      "v. mã hóa"
+    ]
+  },
+  {
+    "name": "encounter",
+    "trans": [
+      "v/n. đối đầu, đọa lực"
+    ]
+  },
+  {
+    "name": "endeavor",
+    "trans": [
+      "v/n. nỗ lực, cố gắng"
+    ]
+  },
+  {
+    "name": "endure",
+    "trans": [
+      "v. chịu đựng, kéo dài"
+    ]
+  },
+  {
+    "name": "engage",
+    "trans": [
+      "v. tham gia, thực hiện"
+    ]
+  },
+  {
+    "name": "enhance",
+    "trans": [
+      "v. tăng cường, tăng lên, củng cố"
+    ]
+  },
+  {
+    "name": "enlarge",
+    "trans": [
+      "v. mở rộng, phóng đại"
+    ]
+  },
+  {
+    "name": "enormous",
+    "trans": [
+      "adj. khổng lồ, to lớn"
+    ]
+  },
+  {
+    "name": "enrage",
+    "trans": [
+      "v. khiến nổi giận"
+    ]
+  },
+  {
+    "name": "ensure",
+    "trans": [
+      "v. bảo đảm, đảm bảo"
+    ]
+  },
+  {
+    "name": "entail",
+    "trans": [
+      "v. cần, cần có"
+    ]
+  },
+  {
+    "name": "entertainment",
+    "trans": [
+      "n. sự giải trí, trò vui"
+    ]
+  },
+  {
+    "name": "enthusiasm",
+    "trans": [
+      "n. nhiệt huyết, lòng hăng"
+    ]
+  },
+  {
+    "name": "entirely",
+    "trans": [
+      "adv. hoàn toàn, triệt để"
+    ]
+  },
+  {
+    "name": "entitle",
+    "trans": [
+      "v. đặt tên, ban tặc danh hiệu, trao quyền cho"
+    ]
+  },
+  {
+    "name": "envision",
+    "trans": [
+      "v. tưởng tượng, hình dung"
+    ]
+  },
+  {
+    "name": "epidemic",
+    "trans": [
+      "adj. lây nhiễm, thịnh hành",
+      "n. bệnh dịch, sự thịnh hành"
+    ]
+  },
+  {
+    "name": "equality",
+    "trans": [
+      "n. công bằng, bình đẳng"
+    ]
+  },
+  {
+    "name": "equivalent",
+    "trans": [
+      "adj. tương đương, tương đồng",
+      "n. thứ tương đương, bản tương đương"
+    ]
+  },
+  {
+    "name": "essential",
+    "trans": [
+      "adj. cốt lõi, thiết yếu",
+      "n. yếu tố, nhu cầu thiết yếu"
+    ]
+  },
+  {
+    "name": "establish",
+    "trans": [
+      "v. thành lập, sáng lập"
+    ]
+  },
+  {
+    "name": "esteem",
+    "trans": [
+      "v/n. tôn trọng, kính trọng"
+    ]
+  },
+  {
+    "name": "estimate",
+    "trans": [
+      "v/n. đánh giá, ước tính"
+    ]
+  },
+  {
+    "name": "ethical",
+    "trans": [
+      "adj. đạo đức, luân lý"
+    ]
+  },
+  {
+    "name": "evade",
+    "trans": [
+      "v. gây khó khăn, né tránh"
+    ]
+  },
+  {
+    "name": "evaluate",
+    "trans": [
+      "v. đánh giá, nhận xét"
+    ]
+  },
+  {
+    "name": "evaporate",
+    "trans": [
+      "v. bốc hơi, biến mất"
+    ]
+  },
+  {
+    "name": "eventually",
+    "trans": [
+      "adv. cuối cùng, rốt cuộc"
+    ]
+  },
+  {
+    "name": "evidence",
+    "trans": [
+      "n. bằng chứng, chứng minh"
+    ]
+  },
+  {
+    "name": "evolve",
+    "trans": [
+      "v. phát triển, tiến hóa"
+    ]
+  },
+  {
+    "name": "exaggerate",
+    "trans": [
+      "v. phóng đại, thổi phồng"
+    ]
+  },
+  {
+    "name": "excellent",
+    "trans": [
+      "adj. xuất sắc, tuyệt vời"
+    ]
+  },
+  {
+    "name": "exception",
+    "trans": [
+      "n. ngoại lệ, trường hợp ngoại lệ"
+    ]
+  },
+  {
+    "name": "excessive",
+    "trans": [
+      "adj. quá mức, dư thừa"
+    ]
+  },
+  {
+    "name": "exclusive",
+    "trans": [
+      "adj. độc quyền, đặc hữu"
+    ]
+  },
+  {
+    "name": "executive",
+    "trans": [
+      "adj. thi hành, hành chính",
+      "n. người thi hành, nhà quản lý"
+    ]
+  },
+  {
+    "name": "exert",
+    "trans": [
+      "v. áp dụng, phát huy"
+    ]
+  },
+  {
+    "name": "exhaust",
+    "trans": [
+      "v. đào thải, làm kiệt sức"
+    ]
+  },
+  {
+    "name": "exhibit",
+    "trans": [
+      "v. thể hiện, biểu hiện, trưng bày"
+    ]
+  },
+  {
+    "name": "expand",
+    "trans": [
+      "v. mở rộng, không ngừng phát triển"
+    ]
+  },
+  {
+    "name": "expensive",
+    "trans": [
+      "adj. đắt đỏ, xa hoa"
+    ]
+  },
+  {
+    "name": "expire",
+    "trans": [
+      "v. đáo hạn, chấm dứt"
+    ]
+  },
+  {
+    "name": "explicit",
+    "trans": [
+      "adj. rõ ràng, minh bạch"
+    ]
+  },
+  {
+    "name": "exploit",
+    "trans": [
+      "v. phát triển, khai thác"
+    ]
+  },
+  {
+    "name": "explore",
+    "trans": [
+      "v. khám phá, thăm dò"
+    ]
+  },
+  {
+    "name": "explosion",
+    "trans": [
+      "n. vụ nổ, sự bùng nổ, sự tăng vọt"
+    ]
+  },
+  {
+    "name": "export",
+    "trans": [
+      "v/n. xuất khẩu, đầu ra"
+    ]
+  },
+  {
+    "name": "expose",
+    "trans": [
+      "v. đối mặt với, chịu đựng, phơi bày ra"
+    ]
+  },
+  {
+    "name": "express",
+    "trans": [
+      "v. bộc lộ, diễn đạt"
+    ]
+  },
+  {
+    "name": "extend",
+    "trans": [
+      "v. kéo dài, hoãn lại"
+    ]
+  },
+  {
+    "name": "external",
+    "trans": [
+      "adj. bên ngoài, bề mặt"
+    ]
+  },
+  {
+    "name": "extinguish",
+    "trans": [
+      "v. dập tắt, thổi tắt"
+    ]
+  },
+  {
+    "name": "extract",
+    "trans": [
+      "v. tinh chế, rút ra, nhổ ra"
+    ]
+  },
+  {
+    "name": "extraordinarily",
+    "trans": [
+      "adv. cực kỳ, vô cùng"
+    ]
+  },
+  {
+    "name": "fabric",
+    "trans": [
+      "n. vải, cấu trúc"
+    ]
+  },
+  {
+    "name": "facilitate",
+    "trans": [
+      "v. thúc đẩy, góp phần"
+    ]
+  },
+  {
+    "name": "fade",
+    "trans": [
+      "v. bạc màu, nhạt dần, lụi dần"
+    ]
+  },
+  {
+    "name": "faint",
+    "trans": [
+      "adj. mờ, yếu ớt, gượng gạo"
+    ]
+  },
+  {
+    "name": "fake",
+    "trans": [
+      "adj. giả, làm giả",
+      "n. hàng giả, hàng nhái"
+    ]
+  },
+  {
+    "name": "familiar",
+    "trans": [
+      "adj. quen thuộc, phổ biến"
+    ]
+  },
+  {
+    "name": "fantastic",
+    "trans": [
+      "adj. viễn vông, không tưởng tượng nổi, tuyệt vời"
+    ]
+  },
+  {
+    "name": "fascinate",
+    "trans": [
+      "v. mê mẩn, làm mê hoặc"
+    ]
+  },
+  {
+    "name": "fatal",
+    "trans": [
+      "adj. chí mạng, trọng yếu"
+    ]
+  },
+  {
+    "name": "favor",
+    "trans": [
+      "v/n. yêu thích, giúp đỡ"
+    ]
+  },
+  {
+    "name": "feverish",
+    "trans": [
+      "adj. sốt, nóng, cuồng nhiệt"
+    ]
+  },
+  {
+    "name": "fiction",
+    "trans": [
+      "n. tiểu thuyết"
+    ]
+  },
+  {
+    "name": "fierce",
+    "trans": [
+      "adj. dữ dội, gay gắt"
+    ]
+  },
+  {
+    "name": "figure",
+    "trans": [
+      "v. tính toán, tính",
+      "n. con số, biểu đồ, nhân vật"
+    ]
+  },
+  {
+    "name": "financial",
+    "trans": [
+      "adj. tài chính, tài liệu"
+    ]
+  },
+  {
+    "name": "finite",
+    "trans": [
+      "adj. hữu hạn, giới hạn"
+    ]
+  },
+  {
+    "name": "flaw",
+    "trans": [
+      "n. khiếm khuyết, vết nứt"
+    ]
+  },
+  {
+    "name": "flexibility",
+    "trans": [
+      "n. tính đàn hồi, sự linh hoạt"
+    ]
+  },
+  {
+    "name": "flourish",
+    "trans": [
+      "v/n. phát triển, hưng phát"
+    ]
+  },
+  {
+    "name": "folk",
+    "trans": [
+      "adj. dân gian, thuần dân",
+      "n. con người, dân chúng (thường số nhiều)"
+    ]
+  },
+  {
+    "name": "foresee",
+    "trans": [
+      "v. nhìn trước, dự báo"
+    ]
+  },
+  {
+    "name": "foreshadow",
+    "trans": [
+      "v. báo hiệu, là dấu hiệu của"
+    ]
+  },
+  {
+    "name": "formal",
+    "trans": [
+      "adj. chính thức, quy chế"
+    ]
+  },
+  {
+    "name": "foster",
+    "trans": [
+      "v. khuyến khích, thúc đẩy"
+    ]
+  },
+  {
+    "name": "foundation",
+    "trans": [
+      "n. nền tảng, cơ sở, quỹ"
+    ]
+  },
+  {
+    "name": "fraction",
+    "trans": [
+      "n. phần nhỏ, một ít"
+    ]
+  },
+  {
+    "name": "fragile",
+    "trans": [
+      "adj. dễ vỡ, mỏng manh"
+    ]
+  },
+  {
+    "name": "frame",
+    "trans": [
+      "n. khung, hệ thống, bộ xương"
+    ]
+  },
+  {
+    "name": "freeze",
+    "trans": [
+      "v. đóng băng, phong tỏa"
+    ]
+  },
+  {
+    "name": "frugal",
+    "trans": [
+      "adj. giản dị, tiết kiệm"
+    ]
+  },
+  {
+    "name": "frustrate",
+    "trans": [
+      "v. làm chán nản, đánh bại"
+    ]
+  },
+  {
+    "name": "fulfill",
+    "trans": [
+      "v. hoàn thành, thực hiện"
+    ]
+  },
+  {
+    "name": "function",
+    "trans": [
+      "v. vận hành, hoạt động",
+      "n. chức năng, công dụng"
+    ]
+  },
+  {
+    "name": "fund",
+    "trans": [
+      "v. đầu tư, tài trợ",
+      "n. vốn, quỹ"
+    ]
+  },
+  {
+    "name": "fuse",
+    "trans": [
+      "v. hòa nhập, dung hợp"
+    ]
+  },
+  {
+    "name": "garment",
+    "trans": [
+      "n. quần áo, trang phục"
+    ]
+  },
+  {
+    "name": "generate",
+    "trans": [
+      "v. sinh ra, gây ra"
+    ]
+  },
+  {
+    "name": "generous",
+    "trans": [
+      "adj. hào phóng, rộng lượng, phong phú"
+    ]
+  },
+  {
+    "name": "genetic",
+    "trans": [
+      "adj. gen, di truyền"
+    ]
+  },
+  {
+    "name": "genius",
+    "trans": [
+      "n. thiên tài, tài năng"
+    ]
+  },
+  {
+    "name": "genuinely",
+    "trans": [
+      "adv. chân thành, trung thực"
+    ]
+  },
+  {
+    "name": "giant",
+    "trans": [
+      "adj. khổng lồ, to lớn"
+    ]
+  },
+  {
+    "name": "glamorous",
+    "trans": [
+      "adj. quyến rũ, đầy sức hút"
+    ]
+  },
+  {
+    "name": "gloom",
+    "trans": [
+      "n. u ám, u buồn"
+    ]
+  },
+  {
+    "name": "glory",
+    "trans": [
+      "n. vinh quang, rực rỡ"
+    ]
+  },
+  {
+    "name": "grant",
+    "trans": [
+      "v. trao, ban cho"
+    ]
+  },
+  {
+    "name": "grasp",
+    "trans": [
+      "v/n. nắm bắt, hiểu"
+    ]
+  },
+  {
+    "name": "gratification",
+    "trans": [
+      "n. niềm vui, sự thỏa mãn"
+    ]
+  },
+  {
+    "name": "gratitude",
+    "trans": [
+      "n. sự biết ơn, lòng biết ơn"
+    ]
+  },
+  {
+    "name": "greed",
+    "trans": [
+      "n. sự tham lam"
+    ]
+  },
+  {
+    "name": "grievance",
+    "trans": [
+      "n. ấm ức, bất bình"
+    ]
+  },
+  {
+    "name": "grip",
+    "trans": [
+      "v/n. nắm, nắm chặt, kiểm soát"
+    ]
+  },
+  {
+    "name": "guarantee",
+    "trans": [
+      "v/n. bảo đảm, đảm bảo"
+    ]
+  },
+  {
+    "name": "habitat",
+    "trans": [
+      "n. môi trường sống, sinh cảnh"
+    ]
+  },
+  {
+    "name": "hasten",
+    "trans": [
+      "v. tăng tốc, thúc đẩy nhanh"
+    ]
+  },
+  {
+    "name": "hemisphere",
+    "trans": [
+      "n. bán cầu"
+    ]
+  },
+  {
+    "name": "heritage",
+    "trans": [
+      "n. di sản, truyền thống"
+    ]
+  },
+  {
+    "name": "hierarchical",
+    "trans": [
+      "adj. phân tầng, phân cấp, nhiều tầng lớp"
+    ]
+  },
+  {
+    "name": "hijack",
+    "trans": [
+      "v/n. cưỡng chế, chiếm đoạt"
+    ]
+  },
+  {
+    "name": "hinder",
+    "trans": [
+      "v. cản trở, ngăn chặn"
+    ]
+  },
+  {
+    "name": "horizon",
+    "trans": [
+      "n. đường chân trời"
+    ]
+  },
+  {
+    "name": "hostile",
+    "trans": [
+      "adj. thù địch, chống đối"
+    ]
+  },
+  {
+    "name": "humane",
+    "trans": [
+      "adj. nhân đạo, nhân từ"
+    ]
+  },
+  {
+    "name": "humble",
+    "trans": [
+      "adj. khiêm tốn, bình thường"
+    ]
+  },
+  {
+    "name": "hybrid",
+    "trans": [
+      "adj. hỗn hợp",
+      "n. hỗn hợp, sự kết hợp"
+    ]
+  },
+  {
+    "name": "identify",
+    "trans": [
+      "v. xác định, nhận biết"
+    ]
+  },
+  {
+    "name": "ignore",
+    "trans": [
+      "v. phớt lờ, không để ý đến"
+    ]
+  },
+  {
+    "name": "illuminate",
+    "trans": [
+      "v. làm rõ, giải thích"
+    ]
+  },
+  {
+    "name": "illusory",
+    "trans": [
+      "adj. giả, ảo"
+    ]
+  },
+  {
+    "name": "illustrate",
+    "trans": [
+      "v. làm rõ, giải thích"
+    ]
+  },
+  {
+    "name": "imitate",
+    "trans": [
+      "v. bắt chước, mô phỏng"
+    ]
+  },
+  {
+    "name": "immediate",
+    "trans": [
+      "adj. trực tiếp, ngay lập tức"
+    ]
+  },
+  {
+    "name": "immense",
+    "trans": [
+      "adj. khổng lồ, đồ sộ"
+    ]
+  },
+  {
+    "name": "immigrate",
+    "trans": [
+      "v. nhập cư, di cư"
+    ]
+  },
+  {
+    "name": "immune",
+    "trans": [
+      "adj. miễn nhiễm, được miễn trừ, không bị ảnh hưởng"
+    ]
+  },
+  {
+    "name": "impact",
+    "trans": [
+      "v/n. ảnh hưởng"
+    ]
+  },
+  {
+    "name": "impel",
+    "trans": [
+      "v. thúc đẩy, thúc ép"
+    ]
+  },
+  {
+    "name": "implement",
+    "trans": [
+      "v. thực hiện, thi hành"
+    ]
+  },
+  {
+    "name": "implication",
+    "trans": [
+      "n. ý nghĩa, hàm ý"
+    ]
+  },
+  {
+    "name": "impose",
+    "trans": [
+      "v. áp đặt lên, bắt phải chịu"
+    ]
+  },
+  {
+    "name": "impoverished",
+    "trans": [
+      "adj. nghèo, khó khăn"
+    ]
+  },
+  {
+    "name": "impressive",
+    "trans": [
+      "adj. ấn tượng, tuyệt vời"
+    ]
+  },
+  {
+    "name": "impulse",
+    "trans": [
+      "n. bốc đầu, hứng thú nhất thời"
+    ]
+  },
+  {
+    "name": "inability",
+    "trans": [
+      "n. bất lực, không khả năng"
+    ]
+  },
+  {
+    "name": "incentive",
+    "trans": [
+      "adj. khuyến khích, kích thích",
+      "n. động lực, sự kích thích"
+    ]
+  },
+  {
+    "name": "incite",
+    "trans": [
+      "v. xúi giục, khuấy động"
+    ]
+  },
+  {
+    "name": "incline",
+    "trans": [
+      "v. nghiêng, có khuynh hướng"
+    ]
+  },
+  {
+    "name": "include",
+    "trans": [
+      "v. chứa đựng, bao gồm"
+    ]
+  },
+  {
+    "name": "incomplete",
+    "trans": [
+      "adj. không đầy đủ, không đủ"
+    ]
+  },
+  {
+    "name": "independent",
+    "trans": [
+      "adj. độc lập, tự trị"
+    ]
+  },
+  {
+    "name": "indicate",
+    "trans": [
+      "v. chỉ ra, chứng tỏ, báo hiệu"
+    ]
+  },
+  {
+    "name": "indifferent",
+    "trans": [
+      "adj. trung lập, thờ ơ, dửng dưng"
+    ]
+  },
+  {
+    "name": "indispensable",
+    "trans": [
+      "adj. không thể thiếu, thiết yếu"
+    ]
+  },
+  {
+    "name": "induce",
+    "trans": [
+      "v. dụ dỗ, gây ra"
+    ]
+  },
+  {
+    "name": "indulge",
+    "trans": [
+      "v. chiều, nuông chiều"
+    ]
+  },
+  {
+    "name": "inedible",
+    "trans": [
+      "adj. không ăn được, khó ăn"
+    ]
+  },
+  {
+    "name": "inevitable",
+    "trans": [
+      "adj. không tránh khỏi, tất yếu"
+    ]
+  },
+  {
+    "name": "infection",
+    "trans": [
+      "n. sự nhiễm trùng, bệnh truyền nhiễm"
+    ]
+  },
+  {
+    "name": "infer",
+    "trans": [
+      "v. suy đoán, dự đoán"
+    ]
+  },
+  {
+    "name": "inferior",
+    "trans": [
+      "adj. kém hơn, thua kém"
+    ]
+  },
+  {
+    "name": "infirm",
+    "trans": [
+      "adj. yếu, mỏng manh, không vững vàng"
+    ]
+  },
+  {
+    "name": "inflation",
+    "trans": [
+      "n. lạm phát"
+    ]
+  },
+  {
+    "name": "influential",
+    "trans": [
+      "adj. có ảnh hưởng",
+      "n. người có ảnh hưởng"
+    ]
+  },
+  {
+    "name": "infrastructure",
+    "trans": [
+      "n. cơ sở hạ tầng"
+    ]
+  },
+  {
+    "name": "infuriating",
+    "trans": [
+      "adj. gây tức giận"
+    ]
+  },
+  {
+    "name": "infuse",
+    "trans": [
+      "v. tiêm vào, truyền vào"
+    ]
+  },
+  {
+    "name": "ingenuity",
+    "trans": [
+      "n. sáng tạo, trí tuệ"
+    ]
+  },
+  {
+    "name": "inherent",
+    "trans": [
+      "adj. nội tại, bẩm sinh"
+    ]
+  },
+  {
+    "name": "initial",
+    "trans": [
+      "adj. ban đầu, khởi đầu"
+    ]
+  },
+  {
+    "name": "inject",
+    "trans": [
+      "v. tiêm, tiêm vào"
+    ]
+  },
+  {
+    "name": "innate",
+    "trans": [
+      "adj. bẩm sinh, thiên phú"
+    ]
+  },
+  {
+    "name": "innocent",
+    "trans": [
+      "adj. vô tội, trong sạch"
+    ]
+  },
+  {
+    "name": "innovation",
+    "trans": [
+      "n. sáng tạo, cải cách"
+    ]
+  },
+  {
+    "name": "inquire",
+    "trans": [
+      "v. điều tra, hỏi"
+    ]
+  },
+  {
+    "name": "insidious",
+    "trans": [
+      "adj. ẩn chứa, khó nhận ra"
+    ]
+  },
+  {
+    "name": "insightful",
+    "trans": [
+      "adj. sâu sắc, nhạy bén"
+    ]
+  },
+  {
+    "name": "insist",
+    "trans": [
+      "v. khẳng định, đòi hỏi"
+    ]
+  },
+  {
+    "name": "inspire",
+    "trans": [
+      "v. gợi hứng, truyền cảm hứng"
+    ]
+  },
+  {
+    "name": "instinct",
+    "trans": [
+      "n. bản năng, trực giác"
+    ]
+  },
+  {
+    "name": "institution",
+    "trans": [
+      "n. cơ quan, thể chế"
+    ]
+  },
+  {
+    "name": "instruct",
+    "trans": [
+      "v. hướng dẫn, mệnh lệnh"
+    ]
+  },
+  {
+    "name": "insure",
+    "trans": [
+      "v. đảm bảo, bảo đảm"
+    ]
+  },
+  {
+    "name": "intangible",
+    "trans": [
+      "adj. vô hình, không sờ thấy"
+    ]
+  },
+  {
+    "name": "integrity",
+    "trans": [
+      "n. toàn vẹn, liêm chính"
+    ]
+  },
+  {
+    "name": "intellectual",
+    "trans": [
+      "adj. học thuật, tri thức",
+      "n. trí thức"
+    ]
+  },
+  {
+    "name": "intelligence",
+    "trans": [
+      "n. trí tuệ, sự thông minh"
+    ]
+  },
+  {
+    "name": "intend",
+    "trans": [
+      "v. dự định, muốn"
+    ]
+  },
+  {
+    "name": "intense",
+    "trans": [
+      "adj. căng thẳng, gay gắt"
+    ]
+  },
+  {
+    "name": "interact",
+    "trans": [
+      "v. tương tác, ảnh hưởng lẫn nhau"
+    ]
+  },
+  {
+    "name": "interpersonal",
+    "trans": [
+      "adj. liên cá nhân, giữa người với người"
+    ]
+  },
+  {
+    "name": "interpretation",
+    "trans": [
+      "n. bản dịch, cách diễn giải"
+    ]
+  },
+  {
+    "name": "interrupt",
+    "trans": [
+      "v. gián đoạn, làm gián đoạn"
+    ]
+  },
+  {
+    "name": "intervention",
+    "trans": [
+      "n. sự can thiệp, sự xen vào"
+    ]
+  },
+  {
+    "name": "intimate",
+    "trans": [
+      "adj. thân mật, riêng tư"
+    ]
+  },
+  {
+    "name": "intricate",
+    "trans": [
+      "adj. phức tạp, rắc rối"
+    ]
+  },
+  {
+    "name": "intrude",
+    "trans": [
+      "v. xâm phạm, xâm nhập"
+    ]
+  },
+  {
+    "name": "intuitive",
+    "trans": [
+      "adj. bản năng, trực giác"
+    ]
+  },
+  {
+    "name": "invert",
+    "trans": [
+      "v. lật đổ, đảo ngược"
+    ]
+  },
+  {
+    "name": "invest",
+    "trans": [
+      "v. đầu tư"
+    ]
+  },
+  {
+    "name": "investigation",
+    "trans": [
+      "n. cuộc điều tra, nghiên cứu"
+    ]
+  },
+  {
+    "name": "involve",
+    "trans": [
+      "v. bao gồm, tham gia"
+    ]
+  },
+  {
+    "name": "ironic",
+    "trans": [
+      "adj. châm biếm, mỉa mai"
+    ]
+  },
+  {
+    "name": "isolate",
+    "trans": [
+      "v. cô lập, giải thoát khỏi"
+    ]
+  },
+  {
+    "name": "issue",
+    "trans": [
+      "v. phát hành, xuất bản",
+      "n. vấn đề, ấn phẩm"
+    ]
+  },
+  {
+    "name": "joint",
+    "trans": [
+      "adj. liên kết, chung"
+    ]
+  },
+  {
+    "name": "journal",
+    "trans": [
+      "n. báo ngày, tạp chí, ấn phẩm định kỳ"
+    ]
+  },
+  {
+    "name": "jury",
+    "trans": [
+      "n. bồi thẩm đoàn, ban giám khảo"
+    ]
+  },
+  {
+    "name": "justice",
+    "trans": [
+      "n. thẩm phán, công lý"
+    ]
+  },
+  {
+    "name": "lag",
+    "trans": [
+      "v/n. tụt hậu, chậm chạp"
+    ]
+  },
+  {
+    "name": "lame",
+    "trans": [
+      "adj. khép, què, vụng"
+    ]
+  },
+  {
+    "name": "launch",
+    "trans": [
+      "v. khởi xướng, giới thiệu sản phẩm mới"
+    ]
+  },
+  {
+    "name": "leakage",
+    "trans": [
+      "n. rò rỉ, sự rò"
+    ]
+  },
+  {
+    "name": "lean",
+    "trans": [
+      "v. nghiêng, tựa vào",
+      "adj. gầy, nghèo nàn"
+    ]
+  },
+  {
+    "name": "legacy",
+    "trans": [
+      "n. di sản, truyền thống"
+    ]
+  },
+  {
+    "name": "legal",
+    "trans": [
+      "adj. pháp lý, hợp pháp"
+    ]
+  },
+  {
+    "name": "legitimate",
+    "trans": [
+      "adj. hợp pháp, hợp lý"
+    ]
+  },
+  {
+    "name": "leisure",
+    "trans": [
+      "adj. rảnh rỗi, thư giãn",
+      "n. thời gian rảnh, sự thư giãn"
+    ]
+  },
+  {
+    "name": "liberal",
+    "trans": [
+      "adj. tự do chủ nghĩa, khai phóng",
+      "n. người tự do chủ nghĩa, Đảng Tự do"
+    ]
+  },
+  {
+    "name": "lineage",
+    "trans": [
+      "n. huyết thống, dòng dõi"
+    ]
+  },
+  {
+    "name": "literate",
+    "trans": [
+      "adj. thông thạo, thành thạo"
+    ]
+  },
+  {
+    "name": "lobby",
+    "trans": [
+      "v. vận động, gây ảnh hưởng",
+      "n. nhóm vận động, phòng chờ"
+    ]
+  },
+  {
+    "name": "locate",
+    "trans": [
+      "v. định vị, nằm ở"
+    ]
+  },
+  {
+    "name": "lure",
+    "trans": [
+      "v/n. cám dỗ, quyến rũ"
+    ]
+  },
+  {
+    "name": "luxury",
+    "trans": [
+      "adj. xa hoa",
+      "n. sự xa hoa, hàng xa xỉn"
+    ]
+  },
+  {
+    "name": "magnify",
+    "trans": [
+      "v. khuếch đại, phóng to"
+    ]
+  },
+  {
+    "name": "maintain",
+    "trans": [
+      "v. giữ, khẳng định"
+    ]
+  },
+  {
+    "name": "majestic",
+    "trans": [
+      "adj. hoành tráng, lộng lẫy"
+    ]
+  },
+  {
+    "name": "major",
+    "trans": [
+      "adj. chính, quan trọng"
+    ]
+  },
+  {
+    "name": "mandatory",
+    "trans": [
+      "adj. bắt buộc, bắt buộc học"
+    ]
+  },
+  {
+    "name": "manipulate",
+    "trans": [
+      "v. vận hành, xử lý, điều khiển"
+    ]
+  },
+  {
+    "name": "manufacture",
+    "trans": [
+      "v. chế tạo, gia công",
+      "n. ngành công nghiệp chế tạo"
+    ]
+  },
+  {
+    "name": "manuscript",
+    "trans": [
+      "adj. viết tay",
+      "n. bản thảo, bản gốc"
+    ]
+  },
+  {
+    "name": "margin",
+    "trans": [
+      "n. mép, rìa"
+    ]
+  },
+  {
+    "name": "marine",
+    "trans": [
+      "adj. thuộc đại dương"
+    ]
+  },
+  {
+    "name": "marvel",
+    "trans": [
+      "v. kinh ngạc trước",
+      "n. điều kỳ lạ"
+    ]
+  },
+  {
+    "name": "massive",
+    "trans": [
+      "adj. nhiều, khổng lồ"
+    ]
+  },
+  {
+    "name": "mastery",
+    "trans": [
+      "n. sự thành thạo, ưu thế, quyền chi phối"
+    ]
+  },
+  {
+    "name": "materialistic",
+    "trans": [
+      "adj. duy vật chủ nghĩa, trọng vật chất"
+    ]
+  },
+  {
+    "name": "mature",
+    "trans": [
+      "adj. trưởng thành"
+    ]
+  },
+  {
+    "name": "measure",
+    "trans": [
+      "v. đo lường, cân nhắc",
+      "n. biện pháp"
+    ]
+  },
+  {
+    "name": "mechanical",
+    "trans": [
+      "adj. máy móc, cứng nhắc"
+    ]
+  },
+  {
+    "name": "memorize",
+    "trans": [
+      "v. ghi nhớ, nhớ lại"
+    ]
+  },
+  {
+    "name": "mental",
+    "trans": [
+      "adj. tinh thần, tâm lý"
+    ]
+  },
+  {
+    "name": "merger",
+    "trans": [
+      "n. sự sát nhập, hợp nhất"
+    ]
+  },
+  {
+    "name": "merit",
+    "trans": [
+      "n. giá trị, ưu điểm"
+    ]
+  },
+  {
+    "name": "minimal",
+    "trans": [
+      "adj. nhỏ nhất, thấp nhất"
+    ]
+  },
+  {
+    "name": "minister",
+    "trans": [
+      "n. mục sư, bộ trưởng"
+    ]
+  },
+  {
+    "name": "minority",
+    "trans": [
+      "n. thiểu số"
+    ]
+  },
+  {
+    "name": "misery",
+    "trans": [
+      "n. nỗi khổ, đau khổ, sự khốn khó"
+    ]
+  },
+  {
+    "name": "mislead",
+    "trans": [
+      "v. dẫn dắt sai, gây hiểu lầm"
+    ]
+  },
+  {
+    "name": "mobilize",
+    "trans": [
+      "v. điều động, huy động"
+    ]
+  },
+  {
+    "name": "modest",
+    "trans": [
+      "adj. khiêm tốn, vừa phải"
+    ]
+  },
+  {
+    "name": "monarch",
+    "trans": [
+      "n. quân vương, người cai trị tối cao"
+    ]
+  },
+  {
+    "name": "monitor",
+    "trans": [
+      "v. giám sát, theo dõi",
+      "n. màn hình, màn hình hiển thị"
+    ]
+  },
+  {
+    "name": "monopoly",
+    "trans": [
+      "n. độc quyền"
+    ]
+  },
+  {
+    "name": "motivate",
+    "trans": [
+      "v. thúc dậy, thúc đẩy"
+    ]
+  },
+  {
+    "name": "multiply",
+    "trans": [
+      "v. nhân, tăng mạnh"
+    ]
+  },
+  {
+    "name": "mutually",
+    "trans": [
+      "adv. lẫn nhau, cùng nhau"
+    ]
+  },
+  {
+    "name": "nasty",
+    "trans": [
+      "adj. bẩn, đáng ghê tởm, nghiêm trọng"
+    ]
+  },
+  {
+    "name": "native",
+    "trans": [
+      "adj. bẩm sinh, tự nhiên, bản địa"
+    ]
+  },
+  {
+    "name": "negative",
+    "trans": [
+      "adj. tiêu cực, phủ định"
+    ]
+  },
+  {
+    "name": "neglect",
+    "trans": [
+      "v. lơ là, bỏ sót"
+    ]
+  },
+  {
+    "name": "negotiate",
+    "trans": [
+      "v. đàm phán, thương lượng"
+    ]
+  },
+  {
+    "name": "nightmare",
+    "trans": [
+      "n. ác mộng"
+    ]
+  },
+  {
+    "name": "nonsense",
+    "trans": [
+      "adj. vô lý, phi lý",
+      "n. lời đại, nói nhảm"
+    ]
+  },
+  {
+    "name": "normal",
+    "trans": [
+      "adj. bình thường, tiêu chuẩn"
+    ]
+  },
+  {
+    "name": "notably",
+    "trans": [
+      "adv. rõ ràng, đặc biệt là"
+    ]
+  },
+  {
+    "name": "noteworthy",
+    "trans": [
+      "adj. đáng chú ý, nổi bật"
+    ]
+  },
+  {
+    "name": "novel",
+    "trans": [
+      "adj. mới mẻ, mới",
+      "n. tiểu thuyết"
+    ]
+  },
+  {
+    "name": "nurture",
+    "trans": [
+      "v/n. nuôi dưỡng, văn hóa"
+    ]
+  },
+  {
+    "name": "object",
+    "trans": [
+      "v. phản đối, từ chối",
+      "n. vật thể, đối tượng, mục tiêu"
+    ]
+  },
+  {
+    "name": "oblige",
+    "trans": [
+      "v. cưỡng bức, ép buộc"
+    ]
+  },
+  {
+    "name": "obscure",
+    "trans": [
+      "adj. mơ hồ, không rõ ràng"
+    ]
+  },
+  {
+    "name": "obsess",
+    "trans": [
+      "v. mê hoặc, quyến rũ"
+    ]
+  },
+  {
+    "name": "obstruct",
+    "trans": [
+      "v. cản trở, ngăn chặn"
+    ]
+  },
+  {
+    "name": "occupy",
+    "trans": [
+      "v. chiếm dụng, chiếm giữ, chiếm đóng"
+    ]
+  },
+  {
+    "name": "occur",
+    "trans": [
+      "v. xuất hiện, xảy ra"
+    ]
+  },
+  {
+    "name": "odds",
+    "trans": [
+      "n. xác suất, tỉ lệ thắng"
+    ]
+  },
+  {
+    "name": "official",
+    "trans": [
+      "adj. chính thức, thuộc chính phủ",
+      "n. quan chức"
+    ]
+  },
+  {
+    "name": "omission",
+    "trans": [
+      "n. sơ sót, bỏ sót"
+    ]
+  },
+  {
+    "name": "opponent",
+    "trans": [
+      "adj. thù địch, đối đầu",
+      "n. đối thủ, phe phản đối"
+    ]
+  },
+  {
+    "name": "oppose",
+    "trans": [
+      "v. phản đối, phản kháng"
+    ]
+  },
+  {
+    "name": "oppressive",
+    "trans": [
+      "adj. áp bức, đàn áp"
+    ]
+  },
+  {
+    "name": "optimistic",
+    "trans": [
+      "adj. lạc quan"
+    ]
+  },
+  {
+    "name": "option",
+    "trans": [
+      "n. lựa chọn, quyền chọn"
+    ]
+  },
+  {
+    "name": "organism",
+    "trans": [
+      "n. sinh vật, cơ thể sống"
+    ]
+  },
+  {
+    "name": "organization",
+    "trans": [
+      "n. tổ chức, cơ quan"
+    ]
+  },
+  {
+    "name": "original",
+    "trans": [
+      "adj. ban đầu, nguyên thuỷ"
+    ]
+  },
+  {
+    "name": "ornament",
+    "trans": [
+      "n. đồ trang trí"
+    ]
+  },
+  {
+    "name": "outlive",
+    "trans": [
+      "v. sống lâu hơn"
+    ]
+  },
+  {
+    "name": "outraged",
+    "trans": [
+      "adj. giận dữ, tức giận"
+    ]
+  },
+  {
+    "name": "overlook",
+    "trans": [
+      "v/n. bỏ qua, xem nhẹ"
+    ]
+  },
+  {
+    "name": "overshadow",
+    "trans": [
+      "v. phủ bóng, che giấu"
+    ]
+  },
+  {
+    "name": "overturn",
+    "trans": [
+      "v/n. lật đổ, đánh đổ"
+    ]
+  },
+  {
+    "name": "overwhelming",
+    "trans": [
+      "adj. áp đảo, chiếm ưu thế tuyệt đối"
+    ]
+  },
+  {
+    "name": "panel",
+    "trans": [
+      "n. nhóm chuyên gia, bảng điều khiển"
+    ]
+  },
+  {
+    "name": "panic",
+    "trans": [
+      "adj. hoảng sợ, kinh hoàng",
+      "n. hoảng loạn, hoảng sợ"
+    ]
+  },
+  {
+    "name": "paradox",
+    "trans": [
+      "n. nghịch lý, mâu thuẫn"
+    ]
+  },
+  {
+    "name": "parallel",
+    "trans": [
+      "adj. song song, tương tự",
+      "n. đường thẳng song song, việc tương tự"
+    ]
+  },
+  {
+    "name": "paralysis",
+    "trans": [
+      "n. tê liệt, sự liệt"
+    ]
+  },
+  {
+    "name": "partial",
+    "trans": [
+      "adj. cục bộ, thiên vị"
+    ]
+  },
+  {
+    "name": "participate",
+    "trans": [
+      "v. tham dự, tham gia"
+    ]
+  },
+  {
+    "name": "passionate",
+    "trans": [
+      "adj. nhiệt huyết, nóng nảy"
+    ]
+  },
+  {
+    "name": "patent",
+    "trans": [
+      "v. cấp hoặc nhận bằng sáng chế",
+      "n. bằng sáng chế"
+    ]
+  },
+  {
+    "name": "peak",
+    "trans": [
+      "n. đỉnh cao, đỉnh điểm"
+    ]
+  },
+  {
+    "name": "peer",
+    "trans": [
+      "v. nhìn chằm chằm, gằm mắt",
+      "n. người cùng thế hệ, đồng nghiệp"
+    ]
+  },
+  {
+    "name": "penalty",
+    "trans": [
+      "n. hình phạt, sự trừng phạt"
+    ]
+  },
+  {
+    "name": "pension",
+    "trans": [
+      "n. trợ cấp, lương hưu"
+    ]
+  },
+  {
+    "name": "perceive",
+    "trans": [
+      "v. nhận thức, cảm nhận"
+    ]
+  },
+  {
+    "name": "perish",
+    "trans": [
+      "v. chết, diệt vong"
+    ]
+  },
+  {
+    "name": "permanent",
+    "trans": [
+      "adj. vĩnh viễn, vĩnh cửu"
+    ]
+  },
+  {
+    "name": "permissible",
+    "trans": [
+      "adj. được phép"
+    ]
+  },
+  {
+    "name": "perpetuate",
+    "trans": [
+      "v. kéo dài, duy trì tồn tại"
+    ]
+  },
+  {
+    "name": "perplexed",
+    "trans": [
+      "adj. bối rối, hoang mang"
+    ]
+  },
+  {
+    "name": "persistent",
+    "trans": [
+      "adj. bền bỉ, dai dẳng"
+    ]
+  },
+  {
+    "name": "perspective",
+    "trans": [
+      "n. góc nhìn, quan điểm"
+    ]
+  },
+  {
+    "name": "pervasive",
+    "trans": [
+      "adj. phổ biến, thịnh hành"
+    ]
+  },
+  {
+    "name": "pessimistic",
+    "trans": [
+      "adj. bi quan"
+    ]
+  },
+  {
+    "name": "philosophy",
+    "trans": [
+      "n. triết học"
+    ]
+  },
+  {
+    "name": "phony",
+    "trans": [
+      "adj. giả, giả dối"
+    ]
+  },
+  {
+    "name": "physical",
+    "trans": [
+      "adj. thể chất, sinh lý, vật chất"
+    ]
+  },
+  {
+    "name": "plead",
+    "trans": [
+      "v. cầu xin, khẩn cầu"
+    ]
+  },
+  {
+    "name": "polarize",
+    "trans": [
+      "v. phân cực hoá, chia rẽ"
+    ]
+  },
+  {
+    "name": "ponder",
+    "trans": [
+      "v. cân nhắc kỹ, suy nghĩ sâu"
+    ]
+  },
+  {
+    "name": "popularity",
+    "trans": [
+      "n. sự phổ biến, sự thịnh hành"
+    ]
+  },
+  {
+    "name": "portray",
+    "trans": [
+      "v. mô tả, vẽ vời"
+    ]
+  },
+  {
+    "name": "possession",
+    "trans": [
+      "n. tài sản, đồ vật sở hữu"
+    ]
+  },
+  {
+    "name": "potential",
+    "trans": [
+      "adj. tiềm năng, có thể",
+      "n. tiềm năng, khả năng"
+    ]
+  },
+  {
+    "name": "precede",
+    "trans": [
+      "v. trước, cao hơn"
+    ]
+  },
+  {
+    "name": "precious",
+    "trans": [
+      "adj. quý giá, vô giá"
+    ]
+  },
+  {
+    "name": "precisely",
+    "trans": [
+      "adv. chính xác, chính là"
+    ]
+  },
+  {
+    "name": "predecessor",
+    "trans": [
+      "n. người tiền nhiệm, bậc trước"
+    ]
+  },
+  {
+    "name": "predict",
+    "trans": [
+      "v. tiên tri, dự báo"
+    ]
+  },
+  {
+    "name": "preference",
+    "trans": [
+      "n. sở thích, thiên hướng"
+    ]
+  },
+  {
+    "name": "prejudice",
+    "trans": [
+      "n. thành kiến, định kiến"
+    ]
+  },
+  {
+    "name": "preliminary",
+    "trans": [
+      "adj. sơ bộ, chuẩn bị"
+    ]
+  },
+  {
+    "name": "premise",
+    "trans": [
+      "n. tiền đề"
+    ]
+  },
+  {
+    "name": "prescribe",
+    "trans": [
+      "v. kê đơn, kê thuốc"
+    ]
+  },
+  {
+    "name": "preserve",
+    "trans": [
+      "v. bảo quản, giữ gìn"
+    ]
+  },
+  {
+    "name": "pressure",
+    "trans": [
+      "n. áp lực"
+    ]
+  },
+  {
+    "name": "prestige",
+    "trans": [
+      "n. thanh danh, uy tín"
+    ]
+  },
+  {
+    "name": "presumptively",
+    "trans": [
+      "adv. giả định, suy đoán"
+    ]
+  },
+  {
+    "name": "prevailing",
+    "trans": [
+      "adj. thịnh hành, hiện hành"
+    ]
+  },
+  {
+    "name": "prevent",
+    "trans": [
+      "v. ngăn chặn, ngăn lại"
+    ]
+  },
+  {
+    "name": "previous",
+    "trans": [
+      "adj. trước đó, trước"
+    ]
+  },
+  {
+    "name": "primary",
+    "trans": [
+      "adj. chính, cơ bản, sơ cấp"
+    ]
+  },
+  {
+    "name": "principle",
+    "trans": [
+      "n. nguyên lý, nguyên tắc"
+    ]
+  },
+  {
+    "name": "prior",
+    "trans": [
+      "adj. trước, được ưu tiên"
+    ]
+  },
+  {
+    "name": "private",
+    "trans": [
+      "adj. riêng tư, bí mật"
+    ]
+  },
+  {
+    "name": "privilege",
+    "trans": [
+      "n. đặc quyền"
+    ]
+  },
+  {
+    "name": "procedure",
+    "trans": [
+      "n. quy trình, bước"
+    ]
+  },
+  {
+    "name": "proceed",
+    "trans": [
+      "v. tiếp tục, tiếp theo",
+      "n. thu nhập"
+    ]
+  },
+  {
+    "name": "proclaim",
+    "trans": [
+      "v. tuyên bố, công bố"
+    ]
+  },
+  {
+    "name": "productive",
+    "trans": [
+      "adj. sản xuất, nhiều, hiệu quả"
+    ]
+  },
+  {
+    "name": "professional",
+    "trans": [
+      "adj. chuyên nghiệp, nghề nghiệp"
+    ]
+  },
+  {
+    "name": "proficient",
+    "trans": [
+      "adj. thành thạo, tinh thông"
+    ]
+  },
+  {
+    "name": "profit",
+    "trans": [
+      "v. hưởng lợi, được lợi",
+      "n. lợi ích, lợi nhuận"
+    ]
+  },
+  {
+    "name": "profound",
+    "trans": [
+      "adj. sâu sắc, xa xôi"
+    ]
+  },
+  {
+    "name": "progress",
+    "trans": [
+      "v/n. tiến bộ, phát triển"
+    ]
+  },
+  {
+    "name": "prohibition",
+    "trans": [
+      "n. lệnh cấm, sự cấm"
+    ]
+  },
+  {
+    "name": "prominent",
+    "trans": [
+      "adj. nổi bật, xuất sắc"
+    ]
+  },
+  {
+    "name": "promising",
+    "trans": [
+      "adj. đầy hy vọng, tốt lành"
+    ]
+  },
+  {
+    "name": "promote",
+    "trans": [
+      "v. thúc đẩy, phổ biến hoá"
+    ]
+  },
+  {
+    "name": "prompt",
+    "trans": [
+      "adj. nhanh chóng, lập tức",
+      "v. thúc đẩy, gây ra"
+    ]
+  },
+  {
+    "name": "prone",
+    "trans": [
+      "adj. dễ..., có khuynh hướng..."
+    ]
+  },
+  {
+    "name": "pronounced",
+    "trans": [
+      "adj. rõ ràng, nổi bật"
+    ]
+  },
+  {
+    "name": "proper",
+    "trans": [
+      "adj. thích hợp, thích đáng"
+    ]
+  },
+  {
+    "name": "property",
+    "trans": [
+      "n. tài sản, của cải"
+    ]
+  },
+  {
+    "name": "propose",
+    "trans": [
+      "v. lên kế hoạch, đề xuất"
+    ]
+  },
+  {
+    "name": "prospect",
+    "trans": [
+      "n. tương lai, triển vọng"
+    ]
+  },
+  {
+    "name": "prosperity",
+    "trans": [
+      "n. thịnh vượng, phồn hoa"
+    ]
+  },
+  {
+    "name": "protest",
+    "trans": [
+      "v/n. phản đối, biểu tình"
+    ]
+  },
+  {
+    "name": "provide",
+    "trans": [
+      "v. cung cấp, cung ứng"
+    ]
+  },
+  {
+    "name": "provoke",
+    "trans": [
+      "v. kích thích, gây ra"
+    ]
+  },
+  {
+    "name": "prudent",
+    "trans": [
+      "adj. thận trọng, cẩn thận"
+    ]
+  },
+  {
+    "name": "psychology",
+    "trans": [
+      "n. tâm lý học"
+    ]
+  },
+  {
+    "name": "publication",
+    "trans": [
+      "n. xuất bản, ấn phẩm"
+    ]
+  },
+  {
+    "name": "purchase",
+    "trans": [
+      "v/n. mua, mua sắm"
+    ]
+  },
+  {
+    "name": "pursuit",
+    "trans": [
+      "n. sự theo đuổi, nghề nghiệp"
+    ]
+  },
+  {
+    "name": "radical",
+    "trans": [
+      "adj. cốt lõi, cực đoan"
+    ]
+  },
+  {
+    "name": "random",
+    "trans": [
+      "adj. ngẫu nhiên, tùy ý"
+    ]
+  },
+  {
+    "name": "rarely",
+    "trans": [
+      "adv. hiếm khi, ít khi"
+    ]
+  },
+  {
+    "name": "readily",
+    "trans": [
+      "adv. vui vẻ, sẵn lòng"
+    ]
+  },
+  {
+    "name": "realm",
+    "trans": [
+      "n. lĩnh vực, phạm vi"
+    ]
+  },
+  {
+    "name": "reap",
+    "trans": [
+      "v. thu hoạch, gặt"
+    ]
+  },
+  {
+    "name": "reasonable",
+    "trans": [
+      "adj. hợp lý, hợp tình"
+    ]
+  },
+  {
+    "name": "recessing",
+    "trans": [
+      "n. suy thoái, thời kỳ suy tàn"
+    ]
+  },
+  {
+    "name": "recipient",
+    "trans": [
+      "n. người nhận, người đạt được"
+    ]
+  },
+  {
+    "name": "recitation",
+    "trans": [
+      "n. sự đọc thuộc, sự đọc diễn"
+    ]
+  },
+  {
+    "name": "recklessly",
+    "trans": [
+      "adv. liều lĩnh, không nghĩ hậu quả"
+    ]
+  },
+  {
+    "name": "recognize",
+    "trans": [
+      "v. nhận ra, nhận diện"
+    ]
+  },
+  {
+    "name": "recommend",
+    "trans": [
+      "v. giới thiệu, đề nghị"
+    ]
+  },
+  {
+    "name": "recovery",
+    "trans": [
+      "n. phục hồi, hồi sinh"
+    ]
+  },
+  {
+    "name": "recruit",
+    "trans": [
+      "v. tuyển dụng, chiêu tuyện",
+      "n. việc tuyển dụng, tân binh, thành viên mới"
+    ]
+  },
+  {
+    "name": "rectify",
+    "trans": [
+      "v. sửa chữa, uốn nắn"
+    ]
+  },
+  {
+    "name": "reduce",
+    "trans": [
+      "v. hạ, giảm"
+    ]
+  },
+  {
+    "name": "refer",
+    "trans": [
+      "v. liên quan, đề cập"
+    ]
+  },
+  {
+    "name": "reflect",
+    "trans": [
+      "v. phản xạ, phản ánh"
+    ]
+  },
+  {
+    "name": "reform",
+    "trans": [
+      "v/n. cải cách, cải tổ"
+    ]
+  },
+  {
+    "name": "refutation",
+    "trans": [
+      "n. phản bác, bác bỏ"
+    ]
+  },
+  {
+    "name": "regime",
+    "trans": [
+      "n. chế độ, thể chế chính trị"
+    ]
+  },
+  {
+    "name": "region",
+    "trans": [
+      "n. vung, phạm vi"
+    ]
+  },
+  {
+    "name": "register",
+    "trans": [
+      "v/n. đăng ký, ghi danh"
+    ]
+  },
+  {
+    "name": "regrettable",
+    "trans": [
+      "adj. đáng tiếc, đáng lẽ ra không nên"
+    ]
+  },
+  {
+    "name": "regulation",
+    "trans": [
+      "n. quản lý, quy chế"
+    ]
+  },
+  {
+    "name": "reign",
+    "trans": [
+      "v/n. cai trị, chiếm ưu thế"
+    ]
+  },
+  {
+    "name": "reinforce",
+    "trans": [
+      "v. củng cố, tăng cường"
+    ]
+  },
+  {
+    "name": "reject",
+    "trans": [
+      "v. từ chối, loại trừ"
+    ]
+  },
+  {
+    "name": "release",
+    "trans": [
+      "v. phát hành, giải phóng"
+    ]
+  },
+  {
+    "name": "reliance",
+    "trans": [
+      "n. niềm tin, sự dựa vào"
+    ]
+  },
+  {
+    "name": "relieve",
+    "trans": [
+      "v. xoa dịu, giảm nhẹ"
+    ]
+  },
+  {
+    "name": "religious",
+    "trans": [
+      "adj. tôn giáo, thành tâm"
+    ]
+  },
+  {
+    "name": "reluctant",
+    "trans": [
+      "adj. miễn cưỡng, không vui"
+    ]
+  },
+  {
+    "name": "remark",
+    "trans": [
+      "v. bình luận, nhận xét",
+      "n. lời bình luận, nhận xét"
+    ]
+  },
+  {
+    "name": "reminder",
+    "trans": [
+      "n. lời nhắc, gợi ý"
+    ]
+  },
+  {
+    "name": "remote",
+    "trans": [
+      "adj. xa xôi, vùng thẳm"
+    ]
+  },
+  {
+    "name": "renovation",
+    "trans": [
+      "n. tu sửa, cải tân"
+    ]
+  },
+  {
+    "name": "represent",
+    "trans": [
+      "v. đại diện, thể hiện"
+    ]
+  },
+  {
+    "name": "reproducibility",
+    "trans": [
+      "n. tính tái lập, khả năng tái sinh"
+    ]
+  },
+  {
+    "name": "reputation",
+    "trans": [
+      "n. danh tiếng, uy tín"
+    ]
+  },
+  {
+    "name": "require",
+    "trans": [
+      "v. cần, đòi hỏi"
+    ]
+  },
+  {
+    "name": "resent",
+    "trans": [
+      "v. chán ghét, bất bình với"
+    ]
+  },
+  {
+    "name": "resident",
+    "trans": [
+      "n. cư dân"
+    ]
+  },
+  {
+    "name": "resistant",
+    "trans": [
+      "adj. chống đối, kháng cự"
+    ]
+  },
+  {
+    "name": "respect",
+    "trans": [
+      "v. kính trọng, tôn trọng",
+      "n. sự tôn trọng, phương diện"
+    ]
+  },
+  {
+    "name": "responsible",
+    "trans": [
+      "adj. chịu trách nhiệm, có trách nhiệm"
+    ]
+  },
+  {
+    "name": "restore",
+    "trans": [
+      "v. sửa chữa, phục hồi, khôi phục"
+    ]
+  },
+  {
+    "name": "resume",
+    "trans": [
+      "v. hồi phục, khởi động lại",
+      "n. sơ yếu lý lịch"
+    ]
+  },
+  {
+    "name": "retail",
+    "trans": [
+      "adj. bán lẻ",
+      "v/n. bán lẻ"
+    ]
+  },
+  {
+    "name": "retain",
+    "trans": [
+      "v. giữ, duy trì"
+    ]
+  },
+  {
+    "name": "retreat",
+    "trans": [
+      "v. lùi lại, thoái trào",
+      "n. sự lùi bại, sự thoái trào"
+    ]
+  },
+  {
+    "name": "retrospection",
+    "trans": [
+      "n. hồi tưởng, suy niệm"
+    ]
+  },
+  {
+    "name": "reveal",
+    "trans": [
+      "v. phơi bày, làm lộ ra"
+    ]
+  },
+  {
+    "name": "revenue",
+    "trans": [
+      "n. thu nhập, lợi nhuận"
+    ]
+  },
+  {
+    "name": "reverse",
+    "trans": [
+      "v. đảo ngược, xoay, làm thay đổi"
+    ]
+  },
+  {
+    "name": "review",
+    "trans": [
+      "v/n. xem xét lại, rà soát"
+    ]
+  },
+  {
+    "name": "revival",
+    "trans": [
+      "n. hồi sinh, phục hưng, tỉnh lại"
+    ]
+  },
+  {
+    "name": "revolutionary",
+    "trans": [
+      "adj. cách mạng, mang tính cách mạng"
+    ]
+  },
+  {
+    "name": "righteous",
+    "trans": [
+      "adj. công bằng, chính nghĩa"
+    ]
+  },
+  {
+    "name": "rigid",
+    "trans": []
+  },
+  {
+    "name": "rigorous",
+    "trans": [
+      "adj. khắt khe, khô khan"
+    ]
+  },
+  {
+    "name": "ritual",
+    "trans": [
+      "n. nghi lễ, lễ tục"
+    ]
+  },
+  {
+    "name": "rival",
+    "trans": [
+      "n. đối thủ, người cạnh tranh"
+    ]
+  },
+  {
+    "name": "robust",
+    "trans": [
+      "adj. khỏe mạnh, mạnh mẽ"
+    ]
+  },
+  {
+    "name": "rough",
+    "trans": [
+      "adj. thô sơ, đại khái"
+    ]
+  },
+  {
+    "name": "routine",
+    "trans": [
+      "adj. hằng ngày, thường nhật",
+      "n. quy chế, thông lệ"
+    ]
+  },
+  {
+    "name": "satisfy",
+    "trans": [
+      "v. làm thoả mãn, làm hài lòng"
+    ]
+  },
+  {
+    "name": "saturate",
+    "trans": [
+      "v. ngấm, làm bão hoà"
+    ]
+  },
+  {
+    "name": "scapegoat",
+    "trans": [
+      "n. vật tế thần, kẻ phải gánh tội"
+    ]
+  },
+  {
+    "name": "scary",
+    "trans": [
+      "adj. đáng sợ"
+    ]
+  },
+  {
+    "name": "scorn",
+    "trans": [
+      "v/n. khinh thường, khinh miệt"
+    ]
+  },
+  {
+    "name": "screen",
+    "trans": [
+      "v. kiểm tra, thẩm xét",
+      "n. màn hình"
+    ]
+  },
+  {
+    "name": "scrutinize",
+    "trans": [
+      "v. soi xét kỹ, xem xét kỹ lưỡng"
+    ]
+  },
+  {
+    "name": "section",
+    "trans": [
+      "n. phần, tầng lớp"
+    ]
+  },
+  {
+    "name": "secure",
+    "trans": [
+      "adj. an toàn; không lo lắng",
+      "v. bảo vệ, giành được"
+    ]
+  },
+  {
+    "name": "segment",
+    "trans": [
+      "v. cắt, chia",
+      "n. phần"
+    ]
+  },
+  {
+    "name": "selective",
+    "trans": [
+      "adj. kén chọn, kén"
+    ]
+  },
+  {
+    "name": "senior",
+    "trans": [
+      "adj. lớn tuổi hơn, cao cấp"
+    ]
+  },
+  {
+    "name": "sensitive",
+    "trans": [
+      "adj. nhạy cảm"
+    ]
+  },
+  {
+    "name": "sentiment",
+    "trans": [
+      "n. tình cảm, cảm xúc"
+    ]
+  },
+  {
+    "name": "separate",
+    "trans": [
+      "adj. riêng biệt, tách rời",
+      "v. tách, phân tách"
+    ]
+  },
+  {
+    "name": "series",
+    "trans": [
+      "n. loạt (chương trình), bộ sách"
+    ]
+  },
+  {
+    "name": "severe",
+    "trans": [
+      "adj. nghiêm trọng, khắc nghiệt"
+    ]
+  },
+  {
+    "name": "shed",
+    "trans": [
+      "v. rụng, chảy ra"
+    ]
+  },
+  {
+    "name": "shield",
+    "trans": [
+      "v. che chở, che chắn",
+      "n. lá chắn"
+    ]
+  },
+  {
+    "name": "shift",
+    "trans": [
+      "v/n. chuyển, biến đổi"
+    ]
+  },
+  {
+    "name": "shrinking",
+    "trans": [
+      "adj. co lại, teo nhỏ",
+      "n. sự co lại, sự teo nhỏ"
+    ]
+  },
+  {
+    "name": "signature",
+    "trans": [
+      "n. chữ ký"
+    ]
+  },
+  {
+    "name": "significant",
+    "trans": [
+      "adj. quan trọng"
+    ]
+  },
+  {
+    "name": "skeptical",
+    "trans": [
+      "adj. nghi ngờ"
+    ]
+  },
+  {
+    "name": "skip",
+    "trans": [
+      "v/n. nhảy, bỏ qua, đọc lướt"
+    ]
+  },
+  {
+    "name": "slacking",
+    "trans": [
+      "adj. lười nhác"
+    ]
+  },
+  {
+    "name": "slim",
+    "trans": [
+      "adj. mảnh khảnh, mỏng"
+    ]
+  },
+  {
+    "name": "sole",
+    "trans": [
+      "adj. đơn lẻ, duy nhất"
+    ]
+  },
+  {
+    "name": "sophisticated",
+    "trans": [
+      "adj. phức tạp, tinh vi"
+    ]
+  },
+  {
+    "name": "species",
+    "trans": [
+      "n. loài, loại"
+    ]
+  },
+  {
+    "name": "split",
+    "trans": [
+      "v. phân rã, phân tách"
+    ]
+  },
+  {
+    "name": "sponsor",
+    "trans": [
+      "v. tài trợ, phát động",
+      "n. nhà tài trợ, người phát động"
+    ]
+  },
+  {
+    "name": "spontaneity",
+    "trans": [
+      "n. sự tự nhiên bộc lộ, sự ứng tấu"
+    ]
+  },
+  {
+    "name": "spread",
+    "trans": [
+      "v/n. lan truyền, phân bố"
+    ]
+  },
+  {
+    "name": "squeeze",
+    "trans": [
+      "v. bóp nén, vắt"
+    ]
+  },
+  {
+    "name": "stable",
+    "trans": [
+      "adj. ổn định, vững chắc"
+    ]
+  },
+  {
+    "name": "stagnation",
+    "trans": [
+      "n. sự trì trệ"
+    ]
+  },
+  {
+    "name": "statement",
+    "trans": [
+      "n. bản báo cáo, bảng kê"
+    ]
+  },
+  {
+    "name": "statistical",
+    "trans": [
+      "adj. thống kê (học)"
+    ]
+  },
+  {
+    "name": "status",
+    "trans": [
+      "n. thân phận, địa vị, tình trạng"
+    ]
+  },
+  {
+    "name": "steep",
+    "trans": [
+      "adj. dốc đứng, dốc (lên/xuống) đột ngột"
+    ]
+  },
+  {
+    "name": "steer",
+    "trans": [
+      "v. lái, dẫn dắt"
+    ]
+  },
+  {
+    "name": "stem",
+    "trans": [
+      "v. bắt nguồn, phát sinh từ",
+      "n. thân, cành"
+    ]
+  },
+  {
+    "name": "stick",
+    "trans": [
+      "v. gai, dính vào",
+      "n. gậy, que"
+    ]
+  },
+  {
+    "name": "straight",
+    "trans": [
+      "adj/adv. thẳng/thẳng lời, thẳng thắng/trực tiếp"
+    ]
+  },
+  {
+    "name": "strain",
+    "trans": [
+      "v. siết chặt",
+      "n. sức căng, áp lực"
+    ]
+  },
+  {
+    "name": "strategy",
+    "trans": [
+      "n. chiến lược, thủ đoạn"
+    ]
+  },
+  {
+    "name": "stress",
+    "trans": [
+      "v. nhấn mạnh",
+      "n. áp lực, trọng tâm"
+    ]
+  },
+  {
+    "name": "strict",
+    "trans": [
+      "adj. nghiêm ngặt, chặt chẽ"
+    ]
+  },
+  {
+    "name": "striking",
+    "trans": [
+      "adj. kinh ngạc, nổi bật"
+    ]
+  },
+  {
+    "name": "strive",
+    "trans": [
+      "v. nỗ lực, cố gắng"
+    ]
+  },
+  {
+    "name": "subject",
+    "trans": [
+      "v. chịu đựng, làm chịu",
+      "n. đề tài, đối tượng nghiên cứu"
+    ]
+  },
+  {
+    "name": "submit",
+    "trans": [
+      "v. trình, phục tùng"
+    ]
+  },
+  {
+    "name": "subscribe",
+    "trans": [
+      "v. ký, tán thành, đăng ký"
+    ]
+  },
+  {
+    "name": "subsequent",
+    "trans": [
+      "adj. sau đó, tiếp theo"
+    ]
+  },
+  {
+    "name": "subsidize",
+    "trans": [
+      "v. tài trợ, trợ cấp"
+    ]
+  },
+  {
+    "name": "substantial",
+    "trans": [
+      "adj. nhiều, đáng kể"
+    ]
+  },
+  {
+    "name": "substitute",
+    "trans": [
+      "v. thay thế",
+      "n. vật thay thế (sản phẩm thay thế)"
+    ]
+  },
+  {
+    "name": "subtle",
+    "trans": [
+      "adj. không rõ ràng, khó nhận ra"
+    ]
+  },
+  {
+    "name": "succeed",
+    "trans": [
+      "v. thành công, thừa kế"
+    ]
+  },
+  {
+    "name": "suffer",
+    "trans": [
+      "v. chịu đựng, trải qua"
+    ]
+  },
+  {
+    "name": "suicide",
+    "trans": [
+      "v. tự sát, tự tử",
+      "n. tự sát (người tự sát)"
+    ]
+  },
+  {
+    "name": "suitable",
+    "trans": [
+      "adj. thích hợp, thích đáng"
+    ]
+  },
+  {
+    "name": "summit",
+    "trans": [
+      "n. đỉnh, điểm cao nhất"
+    ]
+  },
+  {
+    "name": "superb",
+    "trans": [
+      "adj. tuyệt vời"
+    ]
+  },
+  {
+    "name": "superior",
+    "trans": [
+      "adj. tốt hơn, xuất sắc"
+    ]
+  },
+  {
+    "name": "supervision",
+    "trans": [
+      "n. giám sát, quản lý"
+    ]
+  },
+  {
+    "name": "supplement",
+    "trans": [
+      "v. bổ sung",
+      "n. phần bổ sung, số tăng"
+    ]
+  },
+  {
+    "name": "suppose",
+    "trans": [
+      "v. giả định, phỏng đoán"
+    ]
+  },
+  {
+    "name": "suppress",
+    "trans": [
+      "v. trấn áp, dẹp"
+    ]
+  },
+  {
+    "name": "surface",
+    "trans": [
+      "v. xuất hiện, nổi lên",
+      "n. bề mặt"
+    ]
+  },
+  {
+    "name": "surgery",
+    "trans": [
+      "n. ngoại khoa, phẫu thuật"
+    ]
+  },
+  {
+    "name": "survive",
+    "trans": [
+      "v. sống sót, còn tồn tại"
+    ]
+  },
+  {
+    "name": "suspect",
+    "trans": [
+      "v. nghi ngờ, đoán",
+      "n. nghi phạm"
+    ]
+  },
+  {
+    "name": "suspend",
+    "trans": [
+      "v. treo, đình chỉ"
+    ]
+  },
+  {
+    "name": "sustain",
+    "trans": [
+      "v. giữ, duy trì, chống đỡ"
+    ]
+  },
+  {
+    "name": "swamp",
+    "trans": [
+      "v. nhấn chìm, sa vào",
+      "n. đầm lầy"
+    ]
+  },
+  {
+    "name": "swing",
+    "trans": [
+      "v/n. dao động, biến động"
+    ]
+  },
+  {
+    "name": "switch",
+    "trans": [
+      "v. chuyển, chuyển đổi",
+      "n. công tắc"
+    ]
+  },
+  {
+    "name": "symbolic",
+    "trans": [
+      "adj. biểu tượng, ký hiệu"
+    ]
+  },
+  {
+    "name": "sympathy",
+    "trans": [
+      "n. sự đồng cảm, lòng trắc ẩn"
+    ]
+  },
+  {
+    "name": "temper",
+    "trans": [
+      "v. hòa giải, kiềm soát",
+      "n. tính tình, khí chất"
+    ]
+  },
+  {
+    "name": "temporary",
+    "trans": [
+      "adj. tạm thời, ngắn hạn"
+    ]
+  },
+  {
+    "name": "tempt",
+    "trans": [
+      "v. quyến rũ, dẫn dắt, thu hút"
+    ]
+  },
+  {
+    "name": "tendency",
+    "trans": [
+      "n. xu hướng, khuynh hướng"
+    ]
+  },
+  {
+    "name": "terminal",
+    "trans": [
+      "adj. cuối cùng, (bệnh) giai đoạn cuối",
+      "n. điểm cuối, thiết bị đầu cuối"
+    ]
+  },
+  {
+    "name": "terrify",
+    "trans": [
+      "v. đe dọa, làm sợ hãi"
+    ]
+  },
+  {
+    "name": "testify",
+    "trans": [
+      "v. xác nhận, làm chứng"
+    ]
+  },
+  {
+    "name": "thorny",
+    "trans": [
+      "adj. khó xử lý, phiền phức"
+    ]
+  },
+  {
+    "name": "threaten",
+    "trans": [
+      "v. đe dọa, uy hiếp"
+    ]
+  },
+  {
+    "name": "thrive",
+    "trans": [
+      "v. phát triển, thịnh sượng"
+    ]
+  },
+  {
+    "name": "tissue",
+    "trans": [
+      "n. mô (thực vật, động vật)"
+    ]
+  },
+  {
+    "name": "tolerate",
+    "trans": [
+      "v. chịu đựng, khoan dung"
+    ]
+  },
+  {
+    "name": "tough",
+    "trans": [
+      "adj. mạnh mẽ, khắt khe"
+    ]
+  },
+  {
+    "name": "toxic",
+    "trans": [
+      "adj. độc hại, xấu"
+    ]
+  },
+  {
+    "name": "transaction",
+    "trans": [
+      "n. giao dịch, cuộc giao dịch"
+    ]
+  },
+  {
+    "name": "transcendence",
+    "trans": [
+      "n. vượt qua, vượt trội"
+    ]
+  },
+  {
+    "name": "transfer",
+    "trans": [
+      "v/n. chuyển, truyền"
+    ]
+  },
+  {
+    "name": "transform",
+    "trans": [
+      "v. thay đổi, biến đổi"
+    ]
+  },
+  {
+    "name": "transition",
+    "trans": [
+      "n. chuyển mình, quá độ"
+    ]
+  },
+  {
+    "name": "transparency",
+    "trans": [
+      "n. tính trong suốt"
+    ]
+  },
+  {
+    "name": "transplant",
+    "trans": [
+      "v/n. cấy ghép"
+    ]
+  },
+  {
+    "name": "transportation",
+    "trans": [
+      "n. vận tải, phương tiện giao thông"
+    ]
+  },
+  {
+    "name": "tremendous",
+    "trans": [
+      "adj. khổng lồ, to lớn"
+    ]
+  },
+  {
+    "name": "triumph",
+    "trans": [
+      "v/n. thành công, chiến thắng"
+    ]
+  },
+  {
+    "name": "turbulent",
+    "trans": [
+      "adj. hỗn loạn, dữ dội"
+    ]
+  },
+  {
+    "name": "ultimate",
+    "trans": [
+      "adj. cuối cùng, cơ bản, cực đại"
+    ]
+  },
+  {
+    "name": "unanimous",
+    "trans": [
+      "adj. được toàn thể nhất trí, thông qua nhất trí"
+    ]
+  },
+  {
+    "name": "undermine",
+    "trans": [
+      "v. phá hủy, phá hoại"
+    ]
+  },
+  {
+    "name": "uniform",
+    "trans": [
+      "adj. thống nhất, giống nhau",
+      "n. đồng phục, bộ áo"
+    ]
+  },
+  {
+    "name": "unique",
+    "trans": [
+      "adj. độc đáo, duy nhất"
+    ]
+  },
+  {
+    "name": "unite",
+    "trans": [
+      "v. liên kết, đoàn kết, thống nhất"
+    ]
+  },
+  {
+    "name": "universal",
+    "trans": [
+      "adj. phổ biến, phổ thông"
+    ]
+  },
+  {
+    "name": "unsurpassed",
+    "trans": [
+      "adj. vượt trội, không gì sánh bằng"
+    ]
+  },
+  {
+    "name": "upset",
+    "trans": [
+      "v. làm xáo trộn, làm bực bội"
+    ]
+  },
+  {
+    "name": "urban",
+    "trans": [
+      "adj. thành thị, đô thị"
+    ]
+  },
+  {
+    "name": "urge",
+    "trans": [
+      "v. thúc đẩy, thúc giục",
+      "n. ham muốn, đòi hỏi"
+    ]
+  },
+  {
+    "name": "utility",
+    "trans": [
+      "n. công dụng, hiệu quả"
+    ]
+  },
+  {
+    "name": "vacuum",
+    "trans": [
+      "v. hút (bằng máy hút bụi), hút vào",
+      "n. chân không"
+    ]
+  },
+  {
+    "name": "vague",
+    "trans": [
+      "adj. mơ hồ, mập mờ"
+    ]
+  },
+  {
+    "name": "vain",
+    "trans": [
+      "adj. tự phụ, kiêu ngạo"
+    ]
+  },
+  {
+    "name": "valid",
+    "trans": [
+      "adj. hiệu lực, chính đáng"
+    ]
+  },
+  {
+    "name": "vanish",
+    "trans": [
+      "v. biến mất, thoát biến"
+    ]
+  },
+  {
+    "name": "vanity",
+    "trans": [
+      "n. hư danh, danh vọng bùng bố"
+    ]
+  },
+  {
+    "name": "various",
+    "trans": [
+      "adj. đa dạng, các loại"
+    ]
+  },
+  {
+    "name": "verbal",
+    "trans": [
+      "adj. bằng lời nói, bằng ngôn ngữ, bằng chữ viết"
+    ]
+  },
+  {
+    "name": "verdict",
+    "trans": [
+      "n. kết luận, phán quyết"
+    ]
+  },
+  {
+    "name": "verify",
+    "trans": [
+      "v. xác nhận, kiểm chứng"
+    ]
+  },
+  {
+    "name": "viable",
+    "trans": [
+      "adj. khả thi, có thể thực hiện"
+    ]
+  },
+  {
+    "name": "vibrant",
+    "trans": [
+      "adj. đầy sức sống"
+    ]
+  },
+  {
+    "name": "victory",
+    "trans": [
+      "n. chiến thắng, thắng lợi"
+    ]
+  },
+  {
+    "name": "vigorously",
+    "trans": [
+      "adv. đầy năng lượng, mạnh mẽ"
+    ]
+  },
+  {
+    "name": "violate",
+    "trans": [
+      "v. vi phạm, xâm phạm"
+    ]
+  },
+  {
+    "name": "virtually",
+    "trans": [
+      "adv. gần như, thực tế"
+    ]
+  },
+  {
+    "name": "visible",
+    "trans": [
+      "adj. nhìn thấy được, hiển nhiên"
+    ]
+  },
+  {
+    "name": "vision",
+    "trans": [
+      "n. thị lực, viễn cảnh"
+    ]
+  },
+  {
+    "name": "visualize",
+    "trans": [
+      "v. tưởng tượng, hình dung"
+    ]
+  },
+  {
+    "name": "vital",
+    "trans": [
+      "adj. quan trọng sống còn, then chốt"
+    ]
+  },
+  {
+    "name": "vivid",
+    "trans": [
+      "adj. sinh động, sống động"
+    ]
+  },
+  {
+    "name": "vocation",
+    "trans": [
+      "n. nghề nghiệp"
+    ]
+  },
+  {
+    "name": "withdraw",
+    "trans": [
+      "v. thu hồi, rút lại"
+    ]
+  },
+  {
+    "name": "withstand",
+    "trans": [
+      "v. chịu đựng, gánh chịu"
+    ]
+  },
+  {
+    "name": "worship",
+    "trans": [
+      "v/n. thờ phượng, tôn thờ"
+    ]
+  },
+  {
+    "name": "yield",
+    "trans": [
+      "v. sản xuất, tạo ra",
+      "n. sản lượng, lợi nhuận"
+    ]
+  },
+  {
+    "name": "zone",
+    "trans": [
+      "n. khu vực, vùng"
+    ]
+  }
 ]

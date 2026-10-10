@@ -1,306 +1,461 @@
 [
     {
         "name": "stop watch",
-        "trans": ["秒表"]
+        "trans": [
+            "đồng hồ bấm giây"
+        ]
     },
     {
         "name": "ban",
-        "trans": ["禁止"]
+        "trans": [
+            "cấm"
+        ]
     },
     {
         "name": "filter",
-        "trans": ["过滤器"]
+        "trans": [
+            "bộ lọc"
+        ]
     },
     {
         "name": "standard",
-        "trans": ["标准"]
+        "trans": [
+            "tiêu chuẩn, chuẩn mực"
+        ]
     },
     {
         "name": "operate",
-        "trans": ["操作"]
+        "trans": [
+            "vận hành; thao tác"
+        ]
     },
     {
         "name": "feedback",
-        "trans": ["反馈"]
+        "trans": [
+            "phản hồi"
+        ]
     },
     {
         "name": "brush",
-        "trans": ["刷子"]
+        "trans": [
+            "bàn chải"
+        ]
     },
     {
         "name": "captain",
-        "trans": ["队长"]
+        "trans": [
+            "đội trưởng"
+        ]
     },
     {
         "name": "display",
-        "trans": ["显示"]
+        "trans": [
+            "v. hiển thị, cho thấy"
+        ]
     },
     {
         "name": "TV surveillance",
-        "trans": ["TV监视"]
+        "trans": [
+            "theo dõi TV"
+        ]
     },
     {
         "name": "button",
-        "trans": ["按钮"]
+        "trans": [
+            "nút bấm"
+        ]
     },
     {
         "name": "blinded",
-        "trans": ["瞎的"]
+        "trans": [
+            "bị mù"
+        ]
     },
     {
         "name": "characteristic",
-        "trans": ["特色"]
+        "trans": [
+            "đặc sản"
+        ]
     },
     {
         "name": "fixed",
-        "trans": ["固定的"]
+        "trans": [
+            "cố định"
+        ]
     },
     {
         "name": "mathematics",
-        "trans": ["数学"]
+        "trans": [
+            "toán học"
+        ]
     },
     {
         "name": "academic",
-        "trans": ["学术的"]
+        "trans": [
+            "học thuật"
+        ]
     },
     {
         "name": "scoring",
-        "trans": ["得分"]
+        "trans": [
+            "n. điểm số; v. ghi điểm"
+        ]
     },
     {
         "name": "heroine",
-        "trans": ["女主角"]
+        "trans": [
+            "nữ chính"
+        ]
     },
     {
         "name": "Town Hall",
-        "trans": ["市政厅"]
+        "trans": [
+            "tòa thị chính"
+        ]
     },
     {
         "name": "spare",
-        "trans": ["节约"]
+        "trans": [
+            "tiết kiệm"
+        ]
     },
     {
         "name": "altitude",
-        "trans": ["海拔"]
+        "trans": [
+            "độ cao"
+        ]
     },
     {
         "name": "scenery",
-        "trans": ["景色"]
+        "trans": [
+            "phong cảnh"
+        ]
     },
     {
         "name": "fishery",
-        "trans": ["渔业"]
+        "trans": [
+            "nghề cá"
+        ]
     },
     {
         "name": "certificate",
-        "trans": ["证书"]
+        "trans": [
+            "giấy chứng nhận"
+        ]
     },
     {
         "name": "injure",
-        "trans": ["受伤"]
+        "trans": [
+            "bị thương"
+        ]
     },
     {
         "name": "strike",
-        "trans": ["撞击"]
+        "trans": [
+            "va chạm"
+        ]
     },
     {
         "name": "luggage",
-        "trans": ["行李"]
+        "trans": [
+            "hành lý"
+        ]
     },
     {
         "name": "fringe",
-        "trans": ["边缘"]
+        "trans": [
+            "n. cạnh; mép"
+        ]
     },
     {
         "name": "badge",
-        "trans": ["徽章"]
+        "trans": [
+            "huy hiệu"
+        ]
     },
     {
         "name": "cooperative",
-        "trans": ["合作的"]
+        "trans": [
+            "hợp tác"
+        ]
     },
     {
         "name": "donkey",
-        "trans": ["驴"]
+        "trans": [
+            "lừa"
+        ]
     },
     {
         "name": "riverside",
-        "trans": ["河边"]
+        "trans": [
+            "bờ sông"
+        ]
     },
     {
         "name": "humid",
-        "trans": ["湿润的"]
+        "trans": [
+            "ẩm, ẩm ướt"
+        ]
     },
     {
         "name": "escape",
-        "trans": ["逃脱"]
+        "trans": [
+            "v. trốn thoát; thoát"
+        ]
     },
     {
         "name": "seek",
-        "trans": ["寻找"]
+        "trans": [
+            "v. tìm, tìm kiếm"
+        ]
     },
     {
         "name": "accompany",
-        "trans": ["陪伴"]
+        "trans": [
+            "đồng hành, hộ tống"
+        ]
     },
     {
         "name": "limb",
-        "trans": ["四肢"]
+        "trans": [
+            "tứ chi"
+        ]
     },
     {
         "name": "quiz",
-        "trans": ["小型考试"]
+        "trans": [
+            "kỳ thi nhỏ"
+        ]
     },
     {
         "name": "multimedia",
-        "trans": ["多媒体"]
+        "trans": [
+            "đa phương tiện"
+        ]
     },
     {
         "name": "championship",
-        "trans": ["冠军地位"]
+        "trans": [
+            "vị trí vô địch"
+        ]
     },
     {
         "name": "influential",
-        "trans": ["有影响力的"]
+        "trans": [
+            "có ảnh hưởng, có sức ảnh hưởng"
+        ]
     },
     {
         "name": "regulation",
-        "trans": ["规则"]
+        "trans": [
+            "quy tắc"
+        ]
     },
     {
         "name": "certificate",
-        "trans": ["证明…"]
+        "trans": [
+            "chứng minh..."
+        ]
     },
     {
         "name": "statement",
-        "trans": ["声明"]
+        "trans": [
+            "tuyên bố"
+        ]
     },
     {
         "name": "calculate",
-        "trans": ["计算"]
+        "trans": [
+            "tính toán, tính"
+        ]
     },
     {
         "name": "assume",
-        "trans": ["假定"]
+        "trans": [
+            "giả định"
+        ]
     },
     {
         "name": "emergency",
-        "trans": ["紧急事件"]
+        "trans": [
+            "sự cố khẩn cấp"
+        ]
     },
     {
         "name": "sign",
-        "trans": ["记号"]
+        "trans": [
+            "dấu hiệu; ký hiệu, nét"
+        ]
     },
     {
         "name": "disabled",
-        "trans": ["残疾的"]
+        "trans": [
+            "khuyết tật; tàn tật; bất toàn; không khỏe"
+        ]
     },
     {
         "name": "chain",
-        "trans": ["链"]
+        "trans": [
+            "xích, dây chuyền"
+        ]
     },
     {
         "name": "cafeteria",
-        "trans": ["自助餐厅"]
+        "trans": [
+            "nhà hàng tự phục vụ, buffet"
+        ]
     },
     {
         "name": "chess",
-        "trans": ["国际象棋"]
+        "trans": [
+            "cờ vua"
+        ]
     },
     {
         "name": "president",
-        "trans": ["总统"]
+        "trans": [
+            "tổng thống"
+        ]
     },
     {
         "name": "transport",
-        "trans": ["运输"]
+        "trans": [
+            "vận chuyển"
+        ]
     },
     {
         "name": "senior",
-        "trans": ["高级的"]
+        "trans": [
+            "adj. cao cấp, cấp cao; n. lớp cao"
+        ]
     },
     {
         "name": "direction",
-        "trans": ["方向"]
+        "trans": [
+            "hướng, phương hướng"
+        ]
     },
     {
         "name": "political",
-        "trans": ["政治的"]
+        "trans": [
+            "chính trị"
+        ]
     },
     {
         "name": "landmark",
-        "trans": ["地标性建筑"]
+        "trans": [
+            "công trình biểu tượng"
+        ]
     },
     {
         "name": "submit",
-        "trans": ["上交"]
+        "trans": [
+            "bàn giao"
+        ]
     },
     {
         "name": "specific",
-        "trans": ["具体的", "特定的"]
+        "trans": [
+            "cu the",
+            "cụ thể, nhất định"
+        ]
     },
     {
         "name": "assess",
-        "trans": ["评估"]
+        "trans": [
+            "đánh giá"
+        ]
     },
     {
         "name": "junction",
-        "trans": ["交叉路口"]
+        "trans": [
+            "ngã tư"
+        ]
     },
     {
         "name": "assistance",
-        "trans": ["帮助"]
+        "trans": [
+            "giúp đỡ"
+        ]
     },
     {
         "name": "ambulance",
-        "trans": ["救护车"]
+        "trans": [
+            "xe cứu thương"
+        ]
     },
     {
         "name": "harbour",
-        "trans": ["港湾"]
+        "trans": [
+            "bến cảng"
+        ]
     },
     {
         "name": "category",
-        "trans": ["类别"]
+        "trans": [
+            "loại, mục lục"
+        ]
     },
     {
         "name": "sufficient",
-        "trans": ["足够的"]
+        "trans": [
+            "adj. đủ; đủ dùng"
+        ]
     },
     {
         "name": "orchard",
-        "trans": ["果园"]
+        "trans": [
+            "vườn cây ăn quả"
+        ]
     },
     {
         "name": "adjust",
-        "trans": ["适应"]
+        "trans": [
+            "thích nghi, thích ứng"
+        ]
     },
     {
         "name": "climate",
-        "trans": ["天气"]
+        "trans": [
+            "thời tiết"
+        ]
     },
     {
         "name": "previous",
-        "trans": ["之前的"]
+        "trans": [
+            "trước đây"
+        ]
     },
     {
         "name": "routine",
-        "trans": ["日常的"]
+        "trans": [
+            "thường nhật, hằng ngày"
+        ]
     },
     {
         "name": "illustration",
-        "trans": ["说明", "图解"]
+        "trans": [
+            "giải thích, minh họa",
+            "biểu đồ, hình minh họa"
+        ]
     },
     {
         "name": "carer",
-        "trans": ["护工"]
+        "trans": [
+            "nhân viên chăm sóc"
+        ]
     },
     {
         "name": "stretch",
-        "trans": ["伸展"]
+        "trans": [
+            "duỗi ra"
+        ]
     },
     {
         "name": "career",
-        "trans": ["生涯", "职业"]
+        "trans": [
+            "sự nghiệp",
+            "nghề nghiệp"
+        ]
     }
 ]
