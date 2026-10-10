@@ -35,24 +35,24 @@ export async function generateNewWordReviewRecord(dictID: string, errorData: TEr
   const errorCountRankings = [...errorData].sort((a, b) => a.errorCount - b.errorCount)
   const latestErrorTimeRankings = [...errorData].sort((a, b) => a.latestErrorTime - b.latestErrorTime)
 
-  // 计算每个对象的排名得分
+  // Compute the ranking score of each item
   const errorDataWithRank: TRankedErrorWordData[] = errorData.map((item) => ({
     ...item,
     errorCountScore: errorCountRankings.indexOf(item) + 1,
     latestErrorTimeScore: latestErrorTimeRankings.indexOf(item) + 1,
   }))
 
-  // 根据加权排名进行排序
+  // Sort by the weighted ranking
   const errorCountWeight = 0.6
   const latestErrorTimeWeight = 0.4
 
   const sortedWords: Word[] = errorDataWithRank
     .sort((a, b) => {
-      // 计算 a 和 b 的得分
+      // Compute the score of a and b
       const scoreA = a.errorCountScore * errorCountWeight + a.latestErrorTimeScore * latestErrorTimeWeight
       const scoreB = b.errorCountScore * errorCountWeight + b.latestErrorTimeScore * latestErrorTimeWeight
 
-      // 根据得分进行排序
+      // Sort by score
       return scoreA - scoreB
     })
     .map((item) => item.originData)

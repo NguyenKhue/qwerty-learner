@@ -39,9 +39,9 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
         <MdiRobotAngry fontSize={30} className="text-indigo-300 " />
         <blockquote>
           <p className="text-lg font-medium text-gray-600 dark:text-gray-300">
-            我们将使用您在该词典的历史练习数据、错误次数、练习时间来智能生成练习列表
+            We use your practice history, mistake count and practice time in this dictionary to generate a review list intelligently
             <br />
-            目前该生成方式还处于实验阶段，我们会逐步完善该生成方式
+            This generation method is still experimental and we will keep improving it
           </p>
         </blockquote>
       </div>
@@ -63,20 +63,22 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
                 {latestReviewRecord.index + 1}/{latestReviewRecord.words.length}
               </span>
             </div>
-            <div className="mt-1 text-sm font-normal text-gray-500">{`( 创建于 ${timeStamp2String(latestReviewRecord.createTime)} )`}</div>
+            <div className="mt-1 text-sm font-normal text-gray-500">{`( created on ${timeStamp2String(
+              latestReviewRecord.createTime,
+            )} )`}</div>
           </>
         )}
 
-        {!latestReviewRecord && <div>当前词典错词数: {errorData.length}</div>}
+        {!latestReviewRecord && <div>Mistakes in this dictionary: {errorData.length}</div>}
 
         <div className="mt-6 flex gap-10">
           {latestReviewRecord && (
             <Button size="sm" onClick={continueReview}>
-              继续当前进度
+              Continue current progress
             </Button>
           )}
           <Button size="sm" onClick={startReview}>
-            开始{latestReviewRecord && '新的'}复习
+            Start {latestReviewRecord && 'a new '}review
           </Button>
         </div>
       </div>

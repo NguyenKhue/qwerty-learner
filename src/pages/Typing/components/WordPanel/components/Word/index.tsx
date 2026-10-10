@@ -168,10 +168,10 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   useEffect(() => {
     const inputLength = wordState.inputWord.length
     /**
-     * TODO: 当用户输入错误时，会报错
+     * TODO: An error is reported when the user types a wrong letter
      * Cannot update a component (`App`) while rendering a different component (`WordComponent`). To locate the bad setState() call inside `WordComponent`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
-     * 目前不影响生产环境，猜测是因为开发环境下 react 会两次调用 useEffect 从而展示了这个 warning
-     * 但这终究是一个 bug，需要修复
+     * It does not affect production for now; the guess is that in development React calls useEffect twice, which surfaces this warning
+     * Still, this is a bug and needs to be fixed
      */
     if (wordState.hasWrong || inputLength === 0 || wordState.displayWord.length === 0) {
       return
@@ -185,14 +185,14 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     }
 
     if (isEqual) {
-      // 输入正确时
+      // When the input is correct
       setWordState((state) => {
         state.letterTimeArray.push(Date.now())
         state.correctCount += 1
       })
 
       if (inputLength >= wordState.displayWord.length) {
-        // 完成输入时
+        // When the input is finished
         setWordState((state) => {
           state.letterStates[inputLength - 1] = 'correct'
           state.isFinished = true
@@ -208,7 +208,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
 
       dispatch({ type: TypingStateActionType.REPORT_CORRECT_WORD })
     } else {
-      // 出错时
+      // When an error occurs
       playBeepSound()
       setWordState((state) => {
         state.letterStates[inputLength - 1] = 'wrong'
@@ -292,7 +292,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           className={`tooltip-info relative w-fit bg-transparent p-0 leading-normal shadow-none dark:bg-transparent ${
             wordDictationConfig.isOpen ? 'tooltip' : ''
           }`}
-          data-tip="按 Tab 快捷键显示完整单词"
+          data-tip="Press Tab to show the full word"
         >
           <div
             onMouseEnter={() => handleHoverWord(true)}
@@ -305,7 +305,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           </div>
           {pronunciationIsOpen && (
             <div className="absolute -right-12 top-1/2 h-9 w-9 -translate-y-1/2 transform ">
-              <Tooltip content={`快捷键${CTRL} + J`}>
+              <Tooltip content={`Shortcut: ${CTRL} + J`}>
                 <WordPronunciationIcon word={word} lang={currentLanguage} ref={wordPronunciationIconRef} className="h-full w-full" />
               </Tooltip>
             </div>

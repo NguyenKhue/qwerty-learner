@@ -26,7 +26,7 @@ export function generateWordSoundSrc(word: string, pronunciation: Exclude<Pronun
       return `${pronunciationApi}${word}&le=de`
     case 'hapin':
     case 'kk':
-      return `${pronunciationApi}${word}&le=ru` // 有道不支持哈萨克语, 暂时用俄语发音兜底
+      return `${pronunciationApi}${word}&le=ru` // Youdao does not support Kazakh, so fall back to the Russian pronunciation for now
     case 'id':
       return `${pronunciationApi}${word}&le=id`
     default:
@@ -89,7 +89,7 @@ export function usePrefetchPronunciationSound(word: string | undefined) {
       audio.src = soundUrl
       audio.preload = 'auto'
 
-      // gpt 说这这两行能尽可能规避下载插件被触发问题。 本地测试不加也可以，考虑到别的插件可能有问题，所以加上保险
+      // GPT says these two lines avoid triggering download blockers as much as possible. Local testing is fine without them, but other plugins may misbehave, so we keep them as extra insurance
       audio.crossOrigin = 'anonymous'
       audio.style.display = 'none'
 

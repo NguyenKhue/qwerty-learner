@@ -28,11 +28,11 @@ const DictionaryCard: React.FC<DictionaryCardProps> = ({ dictionary }) => {
         setCurrentDictId(dictionary.id)
         setCurrentChapter(0)
       }}
-      title="选择词典"
+      title="Select dictionary"
     >
       <p className="mb-1 text-xl text-gray-800 dark:text-white dark:text-opacity-80">{dictionary.name}</p>
       <p className="mb-1 text-xs text-gray-900 dark:text-white dark:text-opacity-90">{dictionary.description}</p>
-      <p className="text-sm font-bold text-gray-600 dark:text-white dark:text-opacity-60">{dictionary.length} 词</p>
+      <p className="text-sm font-bold text-gray-600 dark:text-white dark:text-opacity-60">{dictionary.length} words</p>
       {currentDictId === dictionary.id ? (
         <IconCheckCircle className="absolute -bottom-4 -right-4 h-18 w-18 text-6xl text-green-500 opacity-60 dark:text-green-300" />
       ) : null}

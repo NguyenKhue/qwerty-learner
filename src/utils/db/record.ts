@@ -4,20 +4,20 @@ import type { Word } from '@/typings'
 export interface IWordRecord {
   word: string
   timeStamp: number
-  // 正常章节为 dictKey, 其他功能则为对应的类型
+  // dictKey for a normal chapter, the corresponding type for other features
   dict: string
-  // 用户可能是在 错题/其他类似组件中 进行的练习则为 null, start from 0
+  // null if the user was practising in the error book or a similar component, otherwise starts from 0
   chapter: number | null
-  // 正确次数中输入每个字母的时间差，可以据此计算出总时间
+  // The time difference between each letter typed in a correct run, the total time can be computed from this
   timing: number[]
-  // 出错的次数
+  // Number of errors
   wrongCount: number
-  // 每个字母被错误输入成什么, index 为字母的索引, 数组内为错误的 e.key
+  // What each letter was mistakenly typed as, index is the letter index and the array holds the wrong e.key values
   mistakes: LetterMistakes
 }
 
 export interface LetterMistakes {
-  // 每个字母被错误输入成什么, index 为字母的索引, 数组内为错误的 e.key
+  // What each letter was mistakenly typed as, index is the letter index and the array holds the wrong e.key values
   [index: number]: string[]
 }
 
@@ -46,24 +46,24 @@ export class WordRecord implements IWordRecord {
 }
 
 export interface IChapterRecord {
-  // 正常章节为 dictKey, 其他功能则为对应的类型
+  // dictKey for a normal chapter, the corresponding type for other features
   dict: string
-  // 在错题场景中为 -1
+  // -1 in the error book scenario
   chapter: number | null
   timeStamp: number
-  // 单位为 s，章节的记录没必要到毫秒级
+  // In seconds, a chapter record does not need millisecond precision
   time: number
-  // 正确按键次数，输对一个字母即记录
+  // Number of correct key presses, recorded once per letter typed correctly
   correctCount: number
-  // 错误的按键次数。 出错会清空整个输入，但只记录一次错误
+  // Number of wrong key presses. An error clears the whole input but is only counted once
   wrongCount: number
-  // 用户输入的单词总数，可能会使用循环等功能使输入总数大于 20
+  // Total number of words typed by the user, which can exceed 20 when features like word looping are used
   wordCount: number
-  // 一次打对未犯错的单词列表, 可以和 wordNumber 对比得出出错的单词 indexes
+  // List of words typed perfectly without mistakes, comparing it with wordNumber gives the indexes of the words that had errors
   correctWordIndexes: number[]
-  // 章节总单词数
+  // Total number of words in the chapter
   wordNumber: number
-  // 单词 record 的 id 列表
+  // List of word record ids
   wordRecordIds: number[]
 }
 
@@ -118,13 +118,13 @@ export class ChapterRecord implements IChapterRecord {
 export interface IReviewRecord {
   id?: number
   dict: string
-  // 当前练习进度
+  // Current practice progress
   index: number
-  // 创建时间
+  // Creation time
   createTime: number
-  // 是否已经完成
+  // Whether it has already been finished
   isFinished: boolean
-  // 单词列表, 根据复习算法生成和修改，可能会有重复值
+  // Word list, generated and modified by the review algorithm, may contain duplicates
   words: Word[]
 }
 

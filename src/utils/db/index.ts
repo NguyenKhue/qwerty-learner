@@ -127,7 +127,7 @@ export function useDeleteWordRecord() {
       const deletedCount = await db.wordRecords.where({ word, dict }).delete()
       return deletedCount
     } catch (error) {
-      console.error(`删除单词记录时出错：`, error)
+      console.error(`Error while deleting word record:`, error)
     }
   }, [])
 

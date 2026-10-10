@@ -24,7 +24,7 @@ const HeadWrongNumber: FC<IHeadWrongNumberProps> = ({ className, sortType, setSo
 
   return (
     <span className={`relative cursor-pointer ${className}`} onClick={onClick}>
-      错误次数
+      Error count
       <div className="absolute -right-2 bottom-0 top-0 flex flex-col items-center justify-center text-[12px]">
         <UPIcon
           className={classNames('-mb-2 ', {

@@ -14,9 +14,9 @@ const currentDictTitle = atom((get) => {
   const isReviewMode = get(isReviewModeAtom)
 
   if (isReviewMode) {
-    return `${get(currentDictInfoAtom).name} 错题复习`
+    return `${get(currentDictInfoAtom).name} - Mistake Review`
   } else {
-    return `${get(currentDictInfoAtom).name} 第 ${get(currentChapterAtom) + 1} 章`
+    return `${get(currentDictInfoAtom).name} - Chapter ${get(currentChapterAtom) + 1}`
   }
 })
 

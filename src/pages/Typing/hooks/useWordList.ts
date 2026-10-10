@@ -40,7 +40,7 @@ export function useWordList(): UseWordListResult {
       newWords = []
     }
 
-    // 记录原始 index, 并对 word.trans 做兜底处理
+    // Keep the original index, and apply a fallback for word.trans
     return newWords.map((word, index) => {
       let trans: string[]
       if (Array.isArray(word.trans)) {

@@ -53,19 +53,21 @@ const Footer: React.FC = () => {
         onClose={() => handleCloseInfoPanel('donate')}
       >
         <p className="indent-4 text-sm text-gray-500 dark:text-gray-300">
-          非常感谢大家使用 Qwerty Learner，目前该网站使用业余时间在维护，为了保证网站能够持续地提供给大家高质量的服务，我们需要您的帮助！
+          Thank you so much for using Qwerty Learner. This site is maintained in our spare time, and to keep delivering a high quality
+          service we need your help!
           <br />
-          您的捐款将有助于我们支付网站的运营成本，改进网站的功能和设计，并提高用户体验。
+          Your donation will help us cover the site&apos;s operating costs, improve its features and design, and enhance your experience.
           <br />
         </p>
         <br />
         <p className="indent-4 text-sm text-gray-700 dark:text-gray-200">
-          我们相信，共同的努力可以让 Qwerty Learner 成为更好的学习平台，也相信您的支持将给予我们持续前进的动力。 感谢您的支持！
+          We believe shared effort can make Qwerty Learner a better learning platform, and that your support gives us the drive to keep
+          moving forward. Thank you for your support!
         </p>
         <br />
         <p className="indent-4 text-sm text-gray-700 dark:text-gray-200">
-          为了感谢您的慷慨，单次 50 rmb 及以上的捐赠， 我们将回赠 Qwerty 的定制贴纸 5 枚<span className="text-xs">（仅限大陆地区）</span>
-          ，希望您可以跟朋友分享您的快乐
+          To thank you for your generosity, donations of 50 RMB or more in a single contribution earn you 5 custom Qwerty stickers
+          <span className="text-xs">(mainland China only)</span>, and we hope you will share your happiness with friends
         </p>
         <div className="flex items-center justify-center py-2">
           <StickerButton className="" />
@@ -76,79 +78,84 @@ const Footer: React.FC = () => {
 
       <InfoPanel
         openState={infoPanelState.vsc}
-        title="VSCode 摸🐟插件"
+        title="VSCode slacking-around extension"
         icon={IconTerminal2}
         buttonClassName="bg-sky-500 hover:bg-sky-400"
         iconClassName="text-sky-500 bg-sky-100 dark:text-sky-300 dark:bg-sky-500"
         onClose={() => handleCloseInfoPanel('vsc')}
       >
         <p className="text-sm text-gray-500  dark:text-gray-400">
-          我们根据大家的建议开发了 VSCode 插件，支持一键启动，随时开始背单词。
-          可以在任意文件中一键开启，开启后单词显示在状态栏中，且插件会拦截用户对文档的输入，不会影响到原始文档。
+          Based on your suggestions we built a VSCode extension that launches with a single click so you can study words anytime. It can be
+          toggled from any file; once enabled the words show up in the status bar, and the extension intercepts your typing so the original
+          document is never modified.
         </p>
         <br /> <br />
         <a className="mr-5 underline dark:text-gray-300" href="https://github.com/RealKai42/qwerty-learner-vscode">
-          GitHub 项目
+          GitHub project
         </a>
         <a className="underline dark:text-gray-300" href="https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner">
-          VSCode 插件链接
+          VSCode extension link
         </a>
         <br />
       </InfoPanel>
 
       <InfoPanel
         openState={infoPanelState.community}
-        title="用户反馈社群"
+        title="User feedback community"
         icon={IconWechat}
         buttonClassName="bg-green-500 hover:bg-green-400"
         iconClassName="text-green-500 bg-green-100 dark:text-green-300 dark:bg-green-500"
         onClose={() => handleCloseInfoPanel('community')}
       >
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          Qwerty Learner 是一个开源项目，旨在为用户提供高质量、可靠的打字练习工具。
+          Qwerty Learner is an open source project built to give everyone a high quality, reliable typing practice tool.
           <br />
-          加入我们的用户社群后，您可以与我们的开发团队进行沟通，分享您的使用体验和建议，帮助我们改进产品，同时也能够及时了解我们的最新动态和更新内容。
+          By joining our user community you can talk with the dev team, share your experience and suggestions to help us improve, and stay
+          up to date with our latest news and releases.
           <br />
           <br />
         </p>
         <p className="text-sm text-gray-700 dark:text-gray-200">
-          我们深信，与用户的良好互动和反馈是推动我们不断前进和提高的重要因素。因此，我们诚挚邀请您加入我们的社群，与我们一起打造更好的
-          「Qwerty Learner」！
+          We truly believe that good interaction and feedback from users is what drives us to keep improving. So we warmly invite you to
+          join our community and help us build a better &quot;Qwerty Learner&quot;!
         </p>
         <br />
-        <p className="text-sm text-gray-500  dark:text-gray-400">再次感谢您的支持和关注！</p>
+        <p className="text-sm text-gray-500  dark:text-gray-400">Thank you again for your support and attention!</p>
         <br />
-        <img className="ml-1 w-2/6 " src="https://qwerty.kaiyi.cool/weChat-group.png" alt="weChat-group" />
+        <img className="ml-1 w-2/6 " src="/weChat-group.png" alt="weChat-group" />
         <br />
       </InfoPanel>
 
       <InfoPanel
         openState={infoPanelState.redBook}
-        title="小红书社群"
+        title="RedNote (Xiaohongshu) community"
         icon={IconXiaoHongShu}
         buttonClassName="bg-red-500 hover:bg-red-400"
         iconClassName="text-red-500 bg-red-100 dark:text-red-600 dark:bg-red-500"
         onClose={() => handleCloseInfoPanel('redBook')}
       >
         <p className="text-sm text-gray-500  dark:text-gray-400">
-          Qwerty Learner 是一个开源项目，旨在为用户提供高质量、可靠的打字练习工具。
+          Qwerty Learner is an open source project built to give everyone a high quality, reliable typing practice tool.
           <br />
-          关注小红书后，您可以获得开发团队的最新动态和更新内容，反馈您的使用体验和建议，帮助我们改进产品。
+          By following us on RedNote (Xiaohongshu) you will get the dev team&apos;s latest news and releases, and can share your experience
+          and suggestions to help us improve.
           <br />
           <br />
         </p>
         <p className="text-sm text-gray-700 dark:text-gray-200">
-          我们深信，与用户的良好互动和反馈是推动我们不断前进和提高的重要因素。因此，我们诚挚邀请您关注我们的小红书账号，与我们一起打造更好的
-          「Qwerty Learner」！
+          We truly believe that good interaction and feedback from users is what drives us to keep improving. So we warmly invite you to
+          follow our RedNote account and help us build a better &quot;Qwerty Learner&quot;!
         </p>
         <br />
         <img className="ml-1 w-5/12 " src={redBookCode} alt="redBook" />
-        <p className="text-sm text-gray-500 dark:text-gray-400">Tips: 从小红书“我”的左上角点击 三 找到 扫一扫</p>
+        <p className="text-sm text-gray-500 dark:text-gray-400">
+          Tip: In RedNote, tap the three-line menu at the top left of &quot;Me&quot;, then find &quot;Scan&quot;
+        </p>
         <br />
       </InfoPanel>
 
       <footer className="mb-1 mt-4 flex w-full items-center justify-center gap-2.5 text-sm ease-in" onClick={(e) => e.currentTarget.blur()}>
-        <a href="https://github.com/RealKai42/qwerty-learner" target="_blank" rel="noreferrer" aria-label="前往 GitHub 项目主页">
+        <a href="https://github.com/RealKai42/qwerty-learner" target="_blank" rel="noreferrer" aria-label="Go to the GitHub project page">
           <IconGithub fontSize={15} className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100" />
         </a>
 
@@ -159,7 +166,7 @@ const Footer: React.FC = () => {
             handleOpenInfoPanel('redBook')
             e.currentTarget.blur()
           }}
-          aria-label="加入我们的小红书社群"
+          aria-label="Join our RedNote (Xiaohongshu) community"
         >
           <IconXiaoHongShu fontSize={14} className="text-gray-500 hover:text-red-500 dark:text-gray-400 dark:hover:text-red-500" />
         </button>
@@ -171,7 +178,7 @@ const Footer: React.FC = () => {
             handleOpenInfoPanel('community')
             e.currentTarget.blur()
           }}
-          aria-label="加入我们的微信用户群"
+          aria-label="Join our WeChat user group"
         >
           <IconWechat2 fontSize={16} className="text-gray-500 hover:text-green-500 dark:text-gray-400 dark:hover:text-green-500" />
         </button>
@@ -186,7 +193,7 @@ const Footer: React.FC = () => {
             handleOpenInfoPanel('donate')
             e.currentTarget.blur()
           }}
-          aria-label="考虑捐赠我们"
+          aria-label="Consider supporting us with a donation"
         >
           <IconCoffee2 fontSize={16} className="text-gray-500 hover:text-amber-500 dark:text-gray-400 dark:hover:text-amber-500" />
         </button>
@@ -198,7 +205,7 @@ const Footer: React.FC = () => {
             handleOpenInfoPanel('vsc')
             e.currentTarget.blur()
           }}
-          aria-label="使用 Visual Studio Code 插件版 Qwerty Learner"
+          aria-label="Use the Visual Studio Code version of Qwerty Learner"
         >
           <IconVisualstudiocode fontSize={14} className="text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-500" />
         </button>
@@ -208,16 +215,21 @@ const Footer: React.FC = () => {
           target="_blank"
           rel="noreferrer"
           onClick={(e) => e.currentTarget.blur()}
-          aria-label="发送邮件到 me@kaiyi.cool"
+          aria-label="Send an email to me@kaiyi.cool"
         >
           <IconMail fontSize={16} className="text-gray-500 hover:text-indigo-400 dark:text-gray-400 dark:hover:text-indigo-400" />
         </a>
-        <a rel="noreferrer" className="cursor-pointer focus:outline-none" onClick={() => navigate('/friend-links')} aria-label="查看友链">
+        <a
+          rel="noreferrer"
+          className="cursor-pointer focus:outline-none"
+          onClick={() => navigate('/friend-links')}
+          aria-label="View friend links"
+        >
           <RiLinksLine fontSize={14} className="text-gray-500 hover:text-indigo-400 dark:text-gray-400 dark:hover:text-indigo-400" />
         </a>
 
-        <Tooltip content="中国大陆镜像">
-          <a href="https://kaiyiwing.gitee.io/qwerty-learner" target="_self" title="前往中国大陆镜像">
+        <Tooltip content="Mainland China mirror">
+          <a href="https://kaiyiwing.gitee.io/qwerty-learner" target="_self" title="Go to the Mainland China mirror">
             <IconFlagChina fontSize={16} />
           </a>
         </Tooltip>

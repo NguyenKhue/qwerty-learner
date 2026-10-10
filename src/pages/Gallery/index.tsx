@@ -26,16 +26,16 @@ const GalleryPage: React.FC = () => {
   return (
     <Layout>
       <Header>
-        <Tooltip content="快捷键 Enter or Esc">
+        <Tooltip content="Shortcut: Enter or Esc">
           <NavLink className="rounded-lg bg-indigo-400 px-6 py-1 text-lg text-white focus:outline-none dark:text-opacity-80" to="/">
-            完成选择
+            Done
           </NavLink>
         </Tooltip>
       </Header>
       <div className="mb-auto mt-auto flex w-auto space-x-4 overflow-y-auto">
         <div className="flex flex-col space-y-2 overflow-y-auto rounded-lg bg-indigo-50 p-6 dark:bg-slate-800">
           <h2 className="text-shadow sticky top-0 z-10 mb-2 text-lg font-bold text-gray-700 dark:text-white dark:text-opacity-70">
-            词典选择
+            Dictionary Selection
           </h2>
           <div className="customized-scrollbar overflow-y-auto">
             {groups.map(([name, items]) => (
@@ -45,7 +45,7 @@ const GalleryPage: React.FC = () => {
         </div>
         <div className="flex flex-col overflow-y-auto rounded-lg bg-indigo-50 p-6 dark:bg-slate-800">
           <h2 className="text-shadow sticky top-0 z-10 mb-4 text-lg font-bold text-gray-700 dark:text-white dark:text-opacity-70">
-            章节选择
+            Chapter Selection
           </h2>
           <div className="customized-scrollbar overflow-y-auto">
             <ChapterGroup totalWords={currentDictInfo.length} />

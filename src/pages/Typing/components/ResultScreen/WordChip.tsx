@@ -28,7 +28,7 @@ export default function WordChip({ word }: { word: WordWithIndex }) {
         {...getReferenceProps()}
         type="button"
         onClick={onClickWord}
-        title={`朗读 ${word.name}`}
+        title={`Read aloud: ${word.name}`}
       >
         <span>{word.name}</span>
       </button>

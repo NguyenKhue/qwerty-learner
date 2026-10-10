@@ -32,7 +32,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
   const { getReferenceProps, getFloatingProps } = useInteractions([hoverButton])
 
   return (
-    <Tooltip content={`${state.isTyping ? '暂停' : '开始'} （Enter）`} className="box-content h-7 w-8 px-6 py-1">
+    <Tooltip content={`${state.isTyping ? 'Pause' : 'Start'} (Enter)`} className="box-content h-7 w-8 px-6 py-1">
       <div
         ref={refs.setReference}
         {...getReferenceProps()}
@@ -50,7 +50,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
           } my-btn-primary w-20 shadow`}
           type="button"
           onClick={onToggleIsTyping}
-          aria-label={state.isTyping ? '暂停' : '开始'}
+          aria-label={state.isTyping ? 'Pause' : 'Start'}
         >
           <span className="font-medium">{state.isTyping ? 'Pause' : 'Start'}</span>
         </button>
@@ -62,7 +62,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
               } my-btn-primary mb-1 mt-1 w-18  transition-colors duration-200`}
               type="button"
               onClick={onClickRestart}
-              aria-label={'重新开始'}
+              aria-label={'Restart'}
             >
               Restart
             </button>

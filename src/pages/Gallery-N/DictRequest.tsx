@@ -29,58 +29,60 @@ export default function DictRequest() {
       {showPanel && (
         <InfoPanel
           openState={showPanel}
-          title="想要添加更多词典？"
+          title="Want to add more dictionaries?"
           icon={IconBook2}
           buttonClassName="bg-indigo-500 hover:bg-indigo-400"
           iconClassName="text-indigo-500 bg-indigo-100 dark:text-indigo-300 dark:bg-indigo-500"
           onClose={onClosePanel}
         >
           <p className="text-sm text-gray-600 dark:text-gray-300">
-            如果您具备一定的编程技能，欢迎参考我们的
+            If you have some programming skills, please refer to our
             <a
               href="https://github.com/RealKai42/qwerty-learner/blob/master/docs/toBuildDict.md"
               className="mx-1 font-medium text-blue-500 hover:text-blue-600"
               target="_blank"
               rel="noreferrer"
             >
-              词典贡献指南
+              dictionary contribution guide
             </a>
-            ，按照指引为开源项目贡献新的词典内容。我们非常欢迎社区贡献！
+            and follow the instructions to contribute new dictionary content to this open source project. Community contributions are very
+            welcome!
           </p>
 
           {/* 
             <div className="rounded-lg bg-gradient-to-r from-blue-50 to-indigo-50 p-4 shadow-sm dark:from-gray-800 dark:to-gray-700">
-              <h4 className="mb-3 font-semibold text-gray-900 dark:text-white">🚀 尝试 QwertyLearner.ai</h4>
+              <h4 className="mb-3 font-semibold text-gray-900 dark:text-white">🚀 Try QwertyLearner.ai</h4>
               <p className="mb-3 text-sm text-gray-600 dark:text-gray-300">
-                不会编程？想拥有自己的专属学习词典？操作简单，一键上传，点击即用
+                No programming skills? Want a dictionary of your very own? Simple to use: upload in one click, ready to use right away
                 <br />
                 <div className="my-2"></div>
-                那么，推荐您尝试由英国 DeepLearningAI 专业团队开发运营的
+                Then we recommend you try QwertyLearner.ai, developed and operated by the professional team at DeepLearningAI in the UK
                 <span className="mx-1 font-semibold text-blue-600 dark:text-blue-400">QwertyLearner.ai</span>
               </p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center">
                   <span className="mr-2 text-blue-500">•</span>
                   <span className="text-gray-700 dark:text-gray-300">
-                    <strong>AI 智能词库</strong> - 一键上传，智能生成释义和词性，打造专属自定义词库
+                    <strong>AI-powered word database</strong> - Upload in one click, get definitions and parts of speech generated automatically, and build your
+                    own custom word list
                   </span>
                 </div>
                 <div className="flex items-center">
                   <span className="mr-2 text-blue-500">•</span>
                   <span className="text-gray-700 dark:text-gray-300">
-                    <strong>文章练习</strong> - 自定义文章内容，提升实战能力
+                    <strong>Article practice</strong> - Bring your own text and sharpen your real-world skills
                   </span>
                 </div>
                 <div className="flex items-center">
                   <span className="mr-2 text-blue-500">•</span>
                   <span className="text-gray-700 dark:text-gray-300">
-                    <strong>云端同步</strong> - 多设备练习记录、错题库同步
+                    <strong>Cloud sync</strong> - Practice history and mistake book synced across devices
                   </span>
                 </div>
                 <div className="flex items-center">
                   <span className="mr-2 text-blue-500">•</span>
                   <span className="text-gray-700 dark:text-gray-300">
-                    <strong>词典选择</strong> - 更多丰富的专业词库
+                    <strong>Dictionary selection</strong> - A much richer set of specialized word lists
                   </span>
                 </div>
               </div>
@@ -91,14 +93,14 @@ export default function DictRequest() {
                 }}
                 className="mt-4 w-full transform rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 px-4 py-2 text-sm font-semibold text-white transition-all duration-200 hover:scale-105 hover:from-blue-600 hover:to-purple-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
               >
-                🚀 体验 QwertyLearner.ai
+                🚀 Experience QwertyLearner.ai
               </button>
             </div>
 
             <div className="rounded-lg bg-amber-50 p-3 text-xs text-amber-800 dark:bg-amber-900/20 dark:text-amber-200">
               <p>
-                <strong>说明：</strong>QwertyLearner.ai 由英国 DeepLearningAI 独立开发运营，为开源版 QwertyLearner
-                的独立衍生版本，开源版将持续维持开源与开放运营。
+                <strong>Note:</strong> QwertyLearner.ai is independently developed and operated by DeepLearningAI in the UK. It is a separate derivative of
+                the open source QwertyLearner, which will remain open source and openly operated.
               </p>
             </div>
             */}
@@ -110,7 +112,7 @@ export default function DictRequest() {
         className="group flex items-center space-x-2 rounded-lg border border-indigo-200 bg-gradient-to-r from-indigo-50 to-blue-50 px-4 py-2.5 text-sm font-medium text-indigo-600 shadow-sm transition-all duration-200 hover:scale-105 hover:border-indigo-300 hover:from-indigo-100 hover:to-blue-100 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:border-indigo-400 dark:from-gray-800 dark:to-gray-700 dark:text-indigo-400 dark:hover:from-gray-700 dark:hover:to-gray-600"
       >
         <IconBook2 className="h-4 w-4" />
-        <span>寻找更多词典</span>
+        <span>Find more dictionaries</span>
         <span className="transform transition-transform group-hover:translate-x-1">✨</span>
       </button>
     </>

@@ -20,7 +20,7 @@ export const currentDictIdAtom = atomWithStorage('currentDict', 'cet4')
 export const currentDictInfoAtom = atom<Dictionary>((get) => {
   const id = get(currentDictIdAtom)
   let dict = idDictionaryMap[id]
-  // 如果 dict 不存在，则返回 cet4. Typing 中会检查 DictId 是否存在，如果不存在则会重置为 cet4
+  // If dict does not exist, return cet4. Typing checks whether DictId exists, and resets it to cet4 if it does not
   if (!dict) {
     dict = idDictionaryMap.cet4
   }
@@ -53,7 +53,7 @@ export const pronunciationConfigAtom = atomForConfig('pronunciation', {
   isOpen: true,
   volume: 1,
   type: 'us' as PronunciationType,
-  name: '美音',
+  name: 'American English',
   isLoop: false,
   isTransRead: false,
   transVolume: 1,

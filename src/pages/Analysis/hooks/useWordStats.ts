@@ -13,7 +13,7 @@ interface IWordStats {
   wrongTimeRecord: { name: string; value: number }[]
 }
 
-// 获取两个日期之间的所有日期，使用dayjs计算
+// Get every date between two dates, computed with dayjs
 function getDatesBetween(start: number, end: number) {
   const dates = []
   let curr = dayjs(start).startOf('day')
@@ -57,7 +57,7 @@ export function useWordStats(startTimeStamp: number, endTimeStamp: number) {
 }
 
 async function getChapterStats(startTimeStamp: number, endTimeStamp: number): Promise<IWordStats> {
-  // indexedDB查找某个数字范围内的数据
+  // Find the data within a numeric range in indexedDB
   const records: IWordRecord[] = await db.wordRecords.where('timeStamp').between(startTimeStamp, endTimeStamp).toArray()
 
   if (records.length === 0) {
@@ -66,11 +66,11 @@ async function getChapterStats(startTimeStamp: number, endTimeStamp: number): Pr
 
   let data: {
     [x: string]: {
-      exerciseTime: number //练习次数
-      words: string[] //练习词数组（不去重）
-      totalTime: number //总计用时
-      wrongCount: number //错误次数
-      wrongKeys: string[] //按错的按键
+      exerciseTime: number // number of practice sessions
+      words: string[] // array of practiced words (not deduplicated)
+      totalTime: number // total time spent
+      wrongCount: number // number of mistakes
+      wrongKeys: string[] // keys that were mistyped
     }
   } = {}
 
@@ -91,29 +91,29 @@ async function getChapterStats(startTimeStamp: number, endTimeStamp: number): Pr
 
   const RecordArray = Object.entries(data)
 
-  // 练习次数统计
+  // Practice session count statistics
   const exerciseRecord: IWordStats['exerciseRecord'] = RecordArray.map(([date, { exerciseTime }]) => ({
     date,
     count: exerciseTime,
     level: getLevel(exerciseTime),
   }))
-  // 练习词数统计（去重）
+  // Practiced word count statistics (deduplicated)
   const wordRecord: IWordStats['wordRecord'] = RecordArray.map(([date, { words }]) => ({
     date,
     count: Array.from(new Set(words)).length,
     level: getLevel(Array.from(new Set(words)).length),
   }))
-  // wpm=练习词数（不去重）/总时间
+  // wpm = practiced word count (not deduplicated) / total time
   const wpmRecord: IWordStats['wpmRecord'] = RecordArray.map<[string, number]>(([date, { words, totalTime }]) => [
     date,
     Math.round(words.length / (totalTime / 1000 / 60)),
   ]).filter((d) => d[1])
-  // 正确率=每个单词的长度合计/(每个单词的长度合计+总错误次数)
+  // Accuracy = sum of word lengths / (sum of word lengths + total mistake count)
   const accuracyRecord: IWordStats['accuracyRecord'] = RecordArray.map<[string, number]>(([date, { words, wrongCount }]) => [
     date,
     Math.round((words.join('').length / (words.join('').length + wrongCount)) * 100),
   ]).filter((d) => d[1])
-  // 错误次数统计
+  // Mistake count statistics
   const wrongTimeRecord: IWordStats['wrongTimeRecord'] = []
   const allWrongTime = RecordArray.map(([, { wrongKeys }]) => wrongKeys)
     .flat()

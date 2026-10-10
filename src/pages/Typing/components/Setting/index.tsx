@@ -36,7 +36,7 @@ export default function Setting() {
         className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
           isOpen && 'bg-indigo-500 text-white'
         }`}
-        title="打开设置对话框"
+        title="Open settings dialog"
       >
         <IconCog6Tooth className="icon" />
       </button>
@@ -68,8 +68,8 @@ export default function Setting() {
               >
                 <Dialog.Panel className="flex w-200 flex-col overflow-hidden rounded-2xl bg-white p-0 shadow-xl dark:bg-gray-800">
                   <div className="relative flex h-22 items-end justify-between rounded-t-lg border-b border-neutral-100 bg-stone-50 px-6 py-3 dark:border-neutral-700 dark:bg-gray-900">
-                    <span className="text-3xl font-bold text-gray-600">设置</span>
-                    <button type="button" onClick={() => setIsOpen(false)} title="关闭对话框">
+                    <span className="text-3xl font-bold text-gray-600">Settings</span>
+                    <button type="button" onClick={() => setIsOpen(false)} title="Close dialog">
                       <IconX className="absolute right-7 top-5 cursor-pointer text-gray-400" />
                     </button>
                   </div>
@@ -86,7 +86,7 @@ export default function Setting() {
                           }
                         >
                           <IconEar className="mr-2 text-neutral-500  dark:text-neutral-300" />
-                          <span className="text-neutral-500 dark:text-neutral-300 ">音效设置</span>
+                          <span className="text-neutral-500 dark:text-neutral-300 ">Sound settings</span>
                         </Tab>
                         <Tab
                           className={({ selected }) =>
@@ -97,7 +97,7 @@ export default function Setting() {
                           }
                         >
                           <IconAdjustmentsHorizontal className="mr-2 text-neutral-500  dark:text-neutral-300" />
-                          <span className="text-neutral-500 dark:text-neutral-300">高级设置</span>
+                          <span className="text-neutral-500 dark:text-neutral-300">Advanced</span>
                         </Tab>
                         <Tab
                           className={({ selected }) =>
@@ -108,7 +108,7 @@ export default function Setting() {
                           }
                         >
                           <IconEye className="mr-2 text-neutral-500  dark:text-neutral-300" />
-                          <span className="text-neutral-500 dark:text-neutral-300">显示设置</span>
+                          <span className="text-neutral-500 dark:text-neutral-300">Display</span>
                         </Tab>
                         <Tab
                           className={({ selected }) =>
@@ -119,7 +119,7 @@ export default function Setting() {
                           }
                         >
                           <IconDatabaseCog className="mr-2 text-neutral-500  dark:text-neutral-300" />
-                          <span className="text-neutral-500 dark:text-neutral-300">数据设置</span>
+                          <span className="text-neutral-500 dark:text-neutral-300">Data</span>
                         </Tab>
                       </Tab.List>
 

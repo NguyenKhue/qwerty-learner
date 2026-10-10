@@ -70,8 +70,8 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
     <div className="flex flex-col rounded-[4rem] px-4 py-3 pl-5 text-gray-800 dark:text-gray-300">
       <div className="text relative flex h-40 flex-col gap-2">
         <h3 className="text-2xl font-semibold">{dict.name}</h3>
-        <p className="mt-1">{dict.chapterCount} 章节</p>
-        <p>共 {dict.length} 词</p>
+        <p className="mt-1">{dict.chapterCount} chapters</p>
+        <p>{dict.length} words in total</p>
         <p>{dict.description}</p>
         <div className="absolute bottom-5 right-4">
           <ToggleGroup type="single" value={curTab} onValueChange={handleTabChange}>
@@ -81,7 +81,7 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
               className={`${curTab === Tab.Chapters ? 'text-primary-foreground bg-primary' : ''} disabled:opacity-100`}
             >
               <MajesticonsPaperFoldTextLine className="mr-1.5 text-gray-500" />
-              章节选择
+              Chapters
             </ToggleGroupItem>
             {errorWordData.length > 0 && (
               <>
@@ -91,7 +91,7 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
                   className={`${curTab === Tab.Errors ? 'text-primary-foreground bg-primary' : ''} disabled:opacity-100`}
                 >
                   <IcOutlineCollectionsBookmark className="mr-1.5 text-gray-500" />
-                  查看错题
+                  View Mistakes
                 </ToggleGroupItem>
                 <ToggleGroupItem
                   value={Tab.Review}
@@ -99,7 +99,7 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
                   className={`${curTab === Tab.Review ? 'text-primary-foreground bg-primary' : ''} disabled:opacity-100`}
                 >
                   <PajamasReviewList className="mr-1.5 text-gray-500" />
-                  错题回顾
+                  Mistake Review
                 </ToggleGroupItem>
               </>
             )}

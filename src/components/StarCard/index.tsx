@@ -15,7 +15,7 @@ export default function StarCard() {
   const [isShow, setIsShow] = useState(false)
 
   useLayoutEffect(() => {
-    // 直接使用 jotai 的 dismissStartCardDate 其值先是默认值，然后才是 localStorage 中的值
+    // Use jotai's dismissStartCardDate directly: its value is the default at first, and only later the value stored in localStorage
     const value = window.localStorage.getItem(DISMISS_START_CARD_DATE_KEY) as Date | null
     if (value === null) {
       setIsShow(true)
@@ -66,11 +66,11 @@ export default function StarCard() {
               <div className="flex flex-shrink-0 items-center">
                 <div className="ml-0.5">👈</div>
                 <IconStar className="h-4 w-4 text-indigo-600" />
-                <div className="ml-1 text-gray-600 dark:text-gray-300">点亮它！</div>
+                <div className="ml-1 text-gray-600 dark:text-gray-300">Star it!</div>
               </div>
             </div>
             <span className="w-full text-center text-gray-600 dark:text-gray-300">
-              收藏快捷键<span className="ml-2 text-indigo-600 dark:text-indigo-500">{IS_MAC_OS ? '⌘' : 'Ctrl'} + D</span>
+              Bookmark shortcut <span className="ml-2 text-indigo-600 dark:text-indigo-500">{IS_MAC_OS ? '⌘' : 'Ctrl'} + D</span>
             </span>
           </div>
         ) : (
@@ -79,9 +79,9 @@ export default function StarCard() {
               className="rounded-lg bg-indigo-600 px-6 py-2 text-lg text-white transition-colors duration-300 focus:outline-none"
               type="button"
               onClick={onClickWantStar}
-              title="我想收藏"
+              title="I want to bookmark this"
             >
-              我想收藏
+              I want to bookmark this
             </button>
           </div>
         )}
@@ -106,15 +106,16 @@ export default function StarCard() {
           {isCounting && (
             <span className="mx-1.5 dark:text-gray-100">
               <span className="text-indigo-600">{countdown}s </span>
-              后自动关闭
+              closes automatically
             </span>
           )}
-          <button type="button" onClick={onClickCloseStar} title="关闭提示" aria-label="关闭提示">
+          <button type="button" onClick={onClickCloseStar} title="Close this tip" aria-label="Close this tip">
             <IconCircleX className="h-5 w-5 text-indigo-400" />
           </button>
         </div>
         <span className="pb-4 text-xl text-gray-600 dark:text-gray-50">
-          坚持练习，提高语言能力。将 <span className="text-indigo-600">「Qwerty Learner」</span>保存到收藏夹，永不迷失！
+          Keep practicing and grow your language skills. Save <span className="text-indigo-600">&quot;Qwerty Learner&quot;</span> to your
+          bookmarks so you never lose your way!
         </span>
         {content}
       </div>

@@ -29,7 +29,7 @@ export default function DictionaryGroup({ groupedDictsByTag }: { groupedDictsByT
         {currentTag && groupedDictsByTag[currentTag] ? (
           groupedDictsByTag[currentTag].map((dict) => <DictionaryComponent key={dict.id} dictionary={dict} />)
         ) : (
-          <div className="col-span-full text-center text-gray-500">当前分类下没有可用的词典</div>
+          <div className="col-span-full text-center text-gray-500">No dictionaries available in this category</div>
         )}
       </div>
     </div>

@@ -94,12 +94,12 @@ const RowDetail: React.FC<RowDetailProps> = ({ currentRowDetail, allRecords }) =
         </div>
         <div className="item flex flex-col gap-4">
           <div className="flex gap-6">
-            <DataTag icon={ClockIcon} name="平均用时" data={rowDetailData.time} />
-            <DataTag icon={HashtagIcon} name="练习次数" data={rowDetailData.sumCount} />
+            <DataTag icon={ClockIcon} name="Avg. time" data={rowDetailData.time} />
+            <DataTag icon={HashtagIcon} name="Practices" data={rowDetailData.sumCount} />
           </div>
           <div className="flex gap-6">
-            <DataTag icon={CheckCircle} name="正确次数" data={rowDetailData.correctCount} />
-            <DataTag icon={XCircle} name="错误次数" data={rowDetailData.wrongCount} />
+            <DataTag icon={CheckCircle} name="Correct" data={rowDetailData.correctCount} />
+            <DataTag icon={XCircle} name="Incorrect" data={rowDetailData.wrongCount} />
           </div>
         </div>
         <RowPagination className="absolute bottom-6 mt-10" allRecords={allRecords} />

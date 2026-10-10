@@ -46,7 +46,7 @@ export default function TextAreaHandler({ updateInput }: { updateInput: (updateO
       onInput={onInput}
       onBlur={onBlur}
       onCompositionStart={() => {
-        alert('您正在使用输入法，请关闭输入法。')
+        alert('An input method is active. Please turn it off.')
       }}
     ></textarea>
   )

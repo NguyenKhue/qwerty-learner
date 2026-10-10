@@ -18,7 +18,7 @@ export const DonatingCard = ({ className, onAmountChange }: { className?: string
 
   return (
     <div className={`flex w-full flex-col items-center justify-center gap-3 ${className && className}`}>
-      <h2 className="self-start pl-10 font-bold text-gray-800 dark:text-gray-300">选择您的捐赠金额：</h2>
+      <h2 className="self-start pl-10 font-bold text-gray-800 dark:text-gray-300">Choose your donation amount:</h2>
       <div className="mt-2 flex gap-3">
         {displayAmount.map((a) => {
           return <Amount active={a === amount} key={a} amount={a} onClick={onClickAmount} />
@@ -41,7 +41,7 @@ export const DonatingCard = ({ className, onAmountChange }: { className?: string
             target="_blank"
             rel="noreferrer"
           >
-            贴纸寄送地址问卷
+            Sticker mailing address survey
           </a>
         </span>
       )}

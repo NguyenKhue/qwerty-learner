@@ -48,24 +48,24 @@ const Analysis = () => {
           <ScrollArea.Viewport className="h-full w-auto pb-[20rem] [&>div]:!block">
             {isEmpty ? (
               <div className="align-items-center m-4 grid h-80 w-auto place-content-center overflow-hidden rounded-lg shadow-lg dark:bg-gray-600">
-                <div className="text-2xl text-gray-400">暂无练习数据</div>
+                <div className="text-2xl text-gray-400">No practice data yet</div>
               </div>
             ) : (
               <>
                 <div className="mx-4 my-8 h-auto w-auto overflow-hidden rounded-lg p-8 shadow-lg dark:bg-gray-700 dark:bg-opacity-50">
-                  <HeatmapCharts title="过去一年练习次数热力图" data={exerciseRecord} />
+                  <HeatmapCharts title="Practice count heatmap, past year" data={exerciseRecord} />
                 </div>
                 <div className="mx-4 my-8 h-auto w-auto overflow-hidden rounded-lg p-8 shadow-lg dark:bg-gray-700 dark:bg-opacity-50">
-                  <HeatmapCharts title="过去一年练习词数热力图" data={wordRecord} />
+                  <HeatmapCharts title="Words practiced heatmap, past year" data={wordRecord} />
                 </div>
                 <div className="mx-4 my-8 h-80 w-auto overflow-hidden rounded-lg p-8 shadow-lg dark:bg-gray-700 dark:bg-opacity-50">
-                  <LineCharts title="过去一年WPM趋势图" name="WPM" data={wpmRecord} />
+                  <LineCharts title="WPM trend, past year" name="WPM" data={wpmRecord} />
                 </div>
                 <div className="mx-4 my-8 h-80 w-auto overflow-hidden rounded-lg p-8 shadow-lg dark:bg-gray-700 dark:bg-opacity-50">
-                  <LineCharts title="过去一年正确率趋势图" name="正确率(%)" data={accuracyRecord} suffix="%" />
+                  <LineCharts title="Accuracy trend, past year" name="Accuracy (%)" data={accuracyRecord} suffix="%" />
                 </div>
                 <div className="mx-4 my-8 h-80 w-auto overflow-hidden rounded-lg p-8 shadow-lg dark:bg-gray-700 dark:bg-opacity-50">
-                  <KeyboardWithBarCharts title="按键错误次数排行" name="错误次数" data={wrongTimeRecord} />
+                  <KeyboardWithBarCharts title="Keystroke error ranking" name="Error count" data={wrongTimeRecord} />
                 </div>
               </>
             )}

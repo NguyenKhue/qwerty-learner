@@ -8,7 +8,7 @@ interface Props {
 
 function DictionaryComponent({ dictionary, onClick }: Props) {
   return (
-    <div className="flex h-40 w-80 items-center justify-center" role="button" onClick={onClick} title="选择词典">
+    <div className="flex h-40 w-80 items-center justify-center" role="button" onClick={onClick} title="Select dictionary">
       <div className="h-full w-5/12 rounded-xl bg-gray-300">
         <div className="bg-gray-700"></div>
       </div>

@@ -11,10 +11,10 @@ export const WordPronunciationIcon = React.forwardRef<
   const currentWord = () => {
     if (lang === 'hapin') {
       if (/[\u0400-\u04FF]/.test(word.notation || '')) {
-        // 哈萨克语西里尔文字
+        // Kazakh written in the Cyrillic alphabet
         return word.notation || ''
       } else {
-        // 哈萨克语老文字
+        // Kazakh written in the legacy Arabic-based script
         return word.trans[2]
       }
     } else {

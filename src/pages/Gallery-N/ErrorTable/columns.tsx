@@ -19,7 +19,7 @@ export const errorColumns = (onDelete: (word: string) => Promise<void>): ColumnD
     header: ({ column }) => {
       return (
         <Button variant="ghost" className="p-0" onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}>
-          单词
+          Word
           <PhArrowsDownUpFill className="ml-1.5 h-4 w-4" />
         </Button>
       )
@@ -28,7 +28,7 @@ export const errorColumns = (onDelete: (word: string) => Promise<void>): ColumnD
   {
     accessorKey: 'trans',
     size: 500,
-    header: '释义',
+    header: 'Meaning',
   },
   {
     accessorKey: 'errorCount',
@@ -36,7 +36,7 @@ export const errorColumns = (onDelete: (word: string) => Promise<void>): ColumnD
     header: ({ column }) => {
       return (
         <Button variant="ghost" className="p-0" onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}>
-          错误次数
+          Mistakes
           <PhArrowsDownUpFill className="ml-1.5 h-4 w-4" />
         </Button>
       )
@@ -47,7 +47,7 @@ export const errorColumns = (onDelete: (word: string) => Promise<void>): ColumnD
   },
   {
     accessorKey: 'errorChar',
-    header: '易错字母',
+    header: 'Error-prone letters',
     size: 100,
     cell: ({ row }) => {
       return (

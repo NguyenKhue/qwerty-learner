@@ -20,22 +20,22 @@ export const DictChapterButton = () => {
   }
   return (
     <>
-      <Tooltip content="词典切换">
+      <Tooltip content="Switch dictionary">
         <NavLink
           className="block rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus:outline-none dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
           to="/gallery"
         >
-          {currentDictInfo.name} {isReviewMode && '错题复习'}
+          {currentDictInfo.name} {isReviewMode && 'Mistake Review'}
         </NavLink>
       </Tooltip>
       {!isReviewMode && (
-        <Tooltip content="章节切换">
+        <Tooltip content="Switch chapter">
           <Listbox value={currentChapter} onChange={setCurrentChapter}>
             <Listbox.Button
               onKeyDown={handleKeyDown}
               className="rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus:outline-none dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
             >
-              第 {currentChapter + 1} 章
+              Chapter {currentChapter + 1}
             </Listbox.Button>
             <Transition as={Fragment} leave="transition ease-in duration-100" leaveFrom="opacity-100" leaveTo="opacity-0">
               <Listbox.Options className="listbox-options z-10 w-32">
@@ -48,7 +48,7 @@ export const DictChapterButton = () => {
                             <IconCheck className="focus:outline-none" />
                           </span>
                         ) : null}
-                        <span>第 {index + 1} 章</span>
+                        <span>Chapter {index + 1}</span>
                       </div>
                     )}
                   </Listbox.Option>

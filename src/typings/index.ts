@@ -28,7 +28,7 @@ export type Word = {
 }
 
 export type WordWithIndex = Word & {
-  // 在 chapter 中的原始索引
+  // The original index in the chapter
   index: number
 }
 
@@ -42,9 +42,11 @@ export type LoopWordTimesOption = 1 | 3 | 5 | 8 | typeof Number.MAX_SAFE_INTEGER
 
 export type WordDictationType = 'hideAll' | 'hideVowel' | 'hideConsonant' | 'randomHide'
 /**
- * 标记用户是手动打开默写模式，还是通过点击 resultScreen 中的默写本章按钮打开的
+ * Marks whether the user opened dictation mode manually, or through the "dictate this chapter"
+ * button in the resultScreen
  *
- * 预期行为是，在进入下一章节时，如果是手动打开的默写模式，则保持设定
- * 如果是通过点击 resultScreen 中的默写本章按钮打开的，则关闭默写模式
+ * The expected behaviour is that when moving on to the next chapter, a manually opened dictation mode
+ * keeps its setting, while a dictation mode opened through the resultScreen's "dictate this chapter"
+ * button turns dictation mode off
  */
 export type WordDictationOpenBy = 'user' | 'auto'

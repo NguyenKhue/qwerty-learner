@@ -10,20 +10,21 @@ export const FriendLinks: React.FC = () => {
       title: 'ez背单词',
       href: 'https://ezbdc.dashu.ai',
       imgSrc: ezbdc,
-      description: '一款极简的英文单词学习应用，可以非常方便高效地学习英文，具有有挑战性的单词背诵模式，无需注册，下载即用',
+      description:
+        'A minimal English vocabulary learning app for convenient and efficient study, with a challenging word-memorization mode. No sign-up required, download and start using',
     },
     {
       title: 'Kai',
       href: 'https://kaiyi.cool/',
       imgSrc: kk,
-      description: 'Kai 的个人博客，记录了一些技术文章，生活感悟，以及一些有趣的小项目',
+      description: "Kai's personal blog, featuring tech articles, life reflections, and a few fun side projects",
     },
     {
-      title: 'Web Worker-前端程序员都爱听',
+      title: 'Web Worker - A Show Front-End Programmers Love',
       href: 'https://www.xiaoyuzhoufm.com/podcast/613753ef23c82a9a1ccfdf35',
       imgSrc: web_worker,
       description:
-        'Web Worker 播客是几个前端程序员闲聊的前端中文音频播客节目。节目围绕程序员领域瞎聊，聊资讯、聊职场、聊技术选型……只要是和 web 开发有关的都可以聊。',
+        'Web Worker is a Chinese-language audio podcast where a few front-end developers chat casually. The show rambles around everything developer-related: industry news, workplace topics, tech choices... anything and everything web development related is fair game.',
     },
   ]
 
@@ -31,7 +32,7 @@ export const FriendLinks: React.FC = () => {
     <Layout>
       <div className="flex w-full flex-1 flex-col items-center px-4 pt-20">
         <div className="flex w-full max-w-md flex-grow flex-col items-center">
-          <div className="mt-5 text-center text-lg font-bold dark:text-gray-50">友情链接</div>
+          <div className="mt-5 text-center text-lg font-bold dark:text-gray-50">Friendly Links</div>
           <div className="links flex w-full flex-col items-center gap-y-8 py-5">
             {links.map((link, index) => (
               <a
@@ -54,7 +55,7 @@ export const FriendLinks: React.FC = () => {
           </div>
         </div>
         <div className="mt-auto pb-5 text-center text-sm text-gray-500">
-          想要添加友链？请联系邮箱：
+          Want to add your link? Email us:
           <a href="mailto:me@kaiyi.cool" className="text-blue-500">
             me@kaiyi.cool
           </a>

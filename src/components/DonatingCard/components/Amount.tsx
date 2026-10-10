@@ -17,7 +17,7 @@ export const Amount = ({
  ${amount === -1 ? 'w-18' : 'w-10'} ${active ? 'bg-stone-100 dark:bg-gray-500' : ''}`}
       onClick={() => onClick && onClick(amount)}
     >
-      {amount === -1 ? '自定义' : amount}
+      {amount === -1 ? 'Custom' : amount}
     </button>
   )
 }

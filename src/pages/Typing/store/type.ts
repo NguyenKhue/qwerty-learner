@@ -2,19 +2,19 @@ import type { WordWithIndex } from '@/typings'
 import type { LetterMistakes } from '@/utils/db/record'
 
 export type ChapterData = {
-  // warning: 因为有章节内随机的存在，所有记录 index 的场景都应该使用 WordWithIndex.index
+  // warning: because words can be shuffled within a chapter, every place that records an index should use WordWithIndex.index
   words: WordWithIndex[]
   // chapter index
   index: number
-  // 输入的单词数
+  // Number of words typed
   wordCount: number
-  // 输入正确的单词数
+  // Number of words typed correctly
   correctCount: number
-  // 输入错误的单词数
+  // Number of words typed incorrectly
   wrongCount: number
-  // 每个单词的输入记录
+  // Input log for each word
   userInputLogs: UserInputLog[]
-  // 本章节用户输入的单词的 record id 列表
+  // List of record ids of the words typed by the user in this chapter
   wordRecordIds: number[]
 }
 
@@ -49,6 +49,6 @@ export type TypingState = {
   isShowSkip: boolean
   isTransVisible: boolean
   isLoopSingleWord: boolean
-  // 是否正在保存数据
+  // Whether data is currently being saved
   isSavingRecord: boolean
 }

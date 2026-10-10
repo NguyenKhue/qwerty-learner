@@ -39,7 +39,7 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
   return (
     <>
       {word ? (
-        <Tooltip content={`快捷键: ${shortCutKey}`}>
+        <Tooltip content={`Shortcut: ${shortCutKey}`}>
           <div
             onClick={onClickWord}
             className="flex max-w-xs cursor-pointer select-none items-center text-gray-700 opacity-60 duration-200 ease-in-out hover:opacity-100 dark:text-gray-400"
@@ -55,7 +55,7 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
                 {headWord}
               </p>
               {state.isTransVisible && (
-                <p className="line-clamp-1 max-w-full text-sm font-normal text-gray-600 dark:text-gray-500">{word.trans.join('；')}</p>
+                <p className="line-clamp-1 max-w-full text-sm font-normal text-gray-600 dark:text-gray-500">{word.trans.join(';')}</p>
               )}
             </div>
             {type === 'next' && <IconNext className="ml-4 shrink-0 grow-0 text-2xl" />}
@@ -69,6 +69,6 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
 }
 
 export type LastAndNextWordProps = {
-  /** 上一个单词还是下一个单词 */
+  /** Previous word or next word */
   type: 'prev' | 'next'
 }

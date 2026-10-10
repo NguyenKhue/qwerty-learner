@@ -169,7 +169,7 @@ body,
   }
   to {
     width: 30em;
-  } /* 调整为字符总数的一半 */
+  } /* adjusted to half of the total character count */
 }
 
 @keyframes blink-caret {
