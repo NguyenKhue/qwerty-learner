@@ -29,7 +29,7 @@ export default function DictionaryGroup({ groupedDictsByTag }: { groupedDictsByT
         {currentTag && groupedDictsByTag[currentTag] ? (
           groupedDictsByTag[currentTag].map((dict) => <DictionaryComponent key={dict.id} dictionary={dict} />)
         ) : (
-          <div className="col-span-full text-center text-gray-500">No dictionaries available in this category</div>
+          <div className="col-span-full text-center text-muted-foreground">No dictionaries available in this category</div>
         )}
       </div>
     </div>

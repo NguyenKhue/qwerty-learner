@@ -66,14 +66,11 @@ const RowPagination: FC<IRowPaginationProps> = ({ className, allRecords }) => {
 
   return (
     <div className={`-gap-1 flex select-none items-center ${className}`}>
-      <button
-        className="d cursor-pointer rounded-full  p-1  text-indigo-500 focus:outline-none dark:text-indigo-300"
-        onClick={prevRowDetail}
-      >
+      <button className="d cursor-pointer rounded-full  p-1  text-primary focus:outline-none" onClick={prevRowDetail}>
         <PrevIcon />
       </button>
-      <span className="text-sm text-black dark:text-white">{`${currentIndex + 1} / ${allRecords.length}`}</span>
-      <button className="cursor-pointer rounded-full p-1 text-indigo-500  focus:outline-none dark:text-indigo-300" onClick={nextRowDetail}>
+      <span className="text-sm text-black">{`${currentIndex + 1} / ${allRecords.length}`}</span>
+      <button className="cursor-pointer rounded-full p-1 text-primary  focus:outline-none" onClick={nextRowDetail}>
         <NextIcon />
       </button>
     </div>

@@ -120,7 +120,7 @@ export default function SoundSetting() {
   )
 
   return (
-    <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
+    <ScrollArea.Root className="flex-1 select-none overflow-y-auto">
       <ScrollArea.Viewport className="h-full w-full px-3">
         <div className={styles.tabContent}>
           <div className={styles.section}>
@@ -129,7 +129,7 @@ export default function SoundSetting() {
               <Switch checked={pronunciationConfig.isOpen} onChange={onTogglePronunciation} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
               </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Pronunciation ${
+              <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Pronunciation ${
                 pronunciationConfig.isOpen ? 'on' : 'off'
               }`}</span>
             </div>
@@ -149,7 +149,9 @@ export default function SoundSetting() {
                   </Slider.Track>
                   <Slider.Thumb />
                 </Slider.Root>
-                <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(pronunciationConfig.volume * 100)}%`}</span>
+                <span className="ml-4 w-10 text-xs font-normal text-muted-foreground">{`${Math.floor(
+                  pronunciationConfig.volume * 100,
+                )}%`}</span>
               </div>
             </div>
 
@@ -170,7 +172,10 @@ export default function SoundSetting() {
                   </Slider.Track>
                   <Slider.Thumb />
                 </Slider.Root>
-                <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${toFixedNumber(pronunciationConfig.rate, 2)}`}</span>
+                <span className="ml-4 w-10 text-xs font-normal text-muted-foreground">{`${toFixedNumber(
+                  pronunciationConfig.rate,
+                  2,
+                )}`}</span>
               </div>
             </div>
           </div>
@@ -181,7 +186,7 @@ export default function SoundSetting() {
                 <Switch checked={pronunciationConfig.isTransRead} onChange={onTogglePronunciationIsTransRead} className="switch-root">
                   <span aria-hidden="true" className="switch-thumb" />
                 </Switch>
-                <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Pronunciation ${
+                <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Pronunciation ${
                   pronunciationConfig.isTransRead ? 'on' : 'off'
                 }`}</span>
               </div>
@@ -200,7 +205,7 @@ export default function SoundSetting() {
                     </Slider.Track>
                     <Slider.Thumb />
                   </Slider.Root>
-                  <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(
+                  <span className="ml-4 w-10 text-xs font-normal text-muted-foreground">{`${Math.floor(
                     pronunciationConfig.transVolume * 100,
                   )}%`}</span>
                 </div>
@@ -214,7 +219,7 @@ export default function SoundSetting() {
               <Switch checked={keySoundsConfig.isOpen} onChange={onToggleKeySounds} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
               </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Sounds ${
+              <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Sounds ${
                 keySoundsConfig.isOpen ? 'on' : 'off'
               }`}</span>
             </div>
@@ -235,7 +240,9 @@ export default function SoundSetting() {
                   </Slider.Track>
                   <Slider.Thumb />
                 </Slider.Root>
-                <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(keySoundsConfig.volume * 100)}%`}</span>
+                <span className="ml-4 w-10 text-xs font-normal text-muted-foreground">{`${Math.floor(
+                  keySoundsConfig.volume * 100,
+                )}%`}</span>
               </div>
             </div>
             <div className={`${styles.block}`}>
@@ -266,7 +273,7 @@ export default function SoundSetting() {
                                     e.stopPropagation()
                                     onPlayKeySound(keySoundResource)
                                   }}
-                                  className="mr-2  hidden cursor-pointer text-neutral-500 hover:text-indigo-400 group-hover:block dark:text-neutral-300"
+                                  className="mr-2  hidden cursor-pointer text-muted-foreground hover:text-primary group-hover:block"
                                 />
                               </div>
                             </>
@@ -286,7 +293,7 @@ export default function SoundSetting() {
               <Switch checked={hintSoundsConfig.isOpen} onChange={onToggleHintSounds} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
               </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Sounds ${
+              <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Sounds ${
                 hintSoundsConfig.isOpen ? 'on' : 'off'
               }`}</span>
             </div>
@@ -307,13 +314,15 @@ export default function SoundSetting() {
                   </Slider.Track>
                   <Slider.Thumb />
                 </Slider.Root>
-                <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${Math.floor(hintSoundsConfig.volume * 100)}%`}</span>
+                <span className="ml-4 w-10 text-xs font-normal text-muted-foreground">{`${Math.floor(
+                  hintSoundsConfig.volume * 100,
+                )}%`}</span>
               </div>
             </div>
           </div>
         </div>
       </ScrollArea.Viewport>
-      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
+      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent" orientation="vertical"></ScrollArea.Scrollbar>
     </ScrollArea.Root>
   )
 }

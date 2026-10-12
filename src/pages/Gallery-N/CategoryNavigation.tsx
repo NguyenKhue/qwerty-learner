@@ -15,12 +15,14 @@ export default function CategoryNavigation({ titles = ['China Exams', 'Study Abr
           <RadioGroup.Option
             key={title}
             value={title}
-            className={({ checked }) => `flex cursor-pointer items-center space-x-2 ${checked ? 'text-gray-800' : 'text-gray-500'}`}
+            className={({ checked }) =>
+              `flex cursor-pointer items-center space-x-2 ${checked ? 'text-foreground' : 'text-muted-foreground'}`
+            }
           >
             {({ checked }) => (
               <>
-                <div className={`mr-1 h-2.5 w-2.5 rounded-full ${checked ? 'bg-indigo-400' : 'bg-indigo-100'}`} />
-                <RadioGroup.Label className="text-lg ">{title}</RadioGroup.Label>
+                <div className={`mr-1 h-2.5 w-2.5 rounded-full ${checked ? 'bg-primary' : 'bg-primary/10'}`} />
+                <RadioGroup.Label className="text-lg">{title}</RadioGroup.Label>
               </>
             )}
           </RadioGroup.Option>

@@ -36,9 +36,9 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
   return (
     <div className="flex h-full flex-col items-center justify-around px-60">
       <div>
-        <MdiRobotAngry fontSize={30} className="text-indigo-300 " />
+        <MdiRobotAngry fontSize={30} className="text-primary" />
         <blockquote>
-          <p className="text-lg font-medium text-gray-600 dark:text-gray-300">
+          <p className="text-lg font-medium text-muted-foreground">
             We use your practice history, mistake count and practice time in this dictionary to generate a review list intelligently
             <br />
             This generation method is still experimental and we will keep improving it
@@ -48,14 +48,14 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
       <div className="flex w-full flex-col items-center">
         {latestReviewRecord && (
           <>
-            <div className=" ml-10 flex w-full items-center py-0">
+            <div className="ml-10 flex w-full items-center py-0">
               <Progress.Root
                 value={latestReviewRecord.index + 1}
                 max={latestReviewRecord.words.length}
-                className="mr-4 h-2 w-full rounded-full border  border-indigo-400 bg-white"
+                className="mr-4 h-2 w-full rounded-full border  border-primary bg-card"
               >
                 <Progress.Indicator
-                  className="h-full rounded-full bg-indigo-400 pl-0"
+                  className="h-full rounded-full bg-primary pl-0"
                   style={{ width: `calc(${((latestReviewRecord.index + 1) / latestReviewRecord.words.length) * 100}% )` }}
                 />
               </Progress.Root>
@@ -63,7 +63,7 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
                 {latestReviewRecord.index + 1}/{latestReviewRecord.words.length}
               </span>
             </div>
-            <div className="mt-1 text-sm font-normal text-gray-500">{`( created on ${timeStamp2String(
+            <div className="mt-1 text-sm font-normal text-muted-foreground">{`( created on ${timeStamp2String(
               latestReviewRecord.createTime,
             )} )`}</div>
           </>
@@ -78,7 +78,7 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
             </Button>
           )}
           <Button size="sm" onClick={startReview}>
-            Start {latestReviewRecord && 'a new '}review
+            Start {latestReviewRecord && 'a new'}review
           </Button>
         </div>
       </div>

@@ -75,7 +75,7 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
   )
 
   return (
-    <div className="flex flex-col rounded-[4rem] px-4 py-3 pl-5 text-gray-800 dark:text-gray-300">
+    <div className="flex flex-col rounded-[4rem] px-4 py-3 pl-5 text-foreground">
       <div className="text relative flex h-40 flex-col gap-2">
         <div className="flex items-center justify-between gap-4">
           <h3 className="text-2xl font-semibold">{dict.name}</h3>
@@ -93,7 +93,7 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
               disabled={curTab === Tab.Chapters}
               className={`${curTab === Tab.Chapters ? 'bg-primary text-primary-foreground' : ''} disabled:opacity-100`}
             >
-              <MajesticonsPaperFoldTextLine className="mr-1.5 text-gray-500" />
+              <MajesticonsPaperFoldTextLine className="mr-1.5 text-muted-foreground" />
               Chapters
             </ToggleGroupItem>
             {errorWordData.length > 0 && (
@@ -103,7 +103,7 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
                   disabled={curTab === Tab.Errors}
                   className={`${curTab === Tab.Errors ? 'bg-primary text-primary-foreground' : ''} disabled:opacity-100`}
                 >
-                  <IcOutlineCollectionsBookmark className="mr-1.5 text-gray-500" />
+                  <IcOutlineCollectionsBookmark className="mr-1.5 text-muted-foreground" />
                   View Mistakes
                 </ToggleGroupItem>
                 <ToggleGroupItem
@@ -111,7 +111,7 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
                   disabled={curTab === Tab.Review}
                   className={`${curTab === Tab.Review ? 'bg-primary text-primary-foreground' : ''} disabled:opacity-100`}
                 >
-                  <PajamasReviewList className="mr-1.5 text-gray-500" />
+                  <PajamasReviewList className="mr-1.5 text-muted-foreground" />
                   Mistake Review
                 </ToggleGroupItem>
               </>
@@ -120,9 +120,9 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
         </div>
       </div>
       <div className="flex pl-0">
-        <Tabs value={curTab} className="h-[30rem] w-full ">
-          <TabsContent value={Tab.Chapters} className="h-full ">
-            <ScrollArea className="h-[30rem] ">
+        <Tabs value={curTab} className="h-[30rem] w-full">
+          <TabsContent value={Tab.Chapters} className="h-full">
+            <ScrollArea className="h-[30rem]">
               <div className="flex w-full flex-wrap gap-3">
                 {range(0, dict.chapterCount, 1).map((index) => (
                   <Chapter

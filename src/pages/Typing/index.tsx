@@ -69,7 +69,7 @@ const App: React.FC = () => {
   useEffect(() => {
     if (!state.isTyping) {
       const onKeyDown = (e: KeyboardEvent) => {
-        if (!isLoading && e.key !== 'Enter' && (isLegal(e.key) || e.key === ' ') && !e.altKey && !e.ctrlKey && !e.metaKey) {
+        if (!isLoading && e.key !== 'Enter' && (isLegal(e.key) || e.key === '') && !e.altKey && !e.ctrlKey && !e.metaKey) {
           e.preventDefault()
           dispatch({ type: TypingStateActionType.SET_IS_TYPING, payload: true })
         }
@@ -128,8 +128,8 @@ const App: React.FC = () => {
           <Tooltip content="Skip this word">
             <button
               className={`${
-                state.isShowSkip ? 'bg-orange-400' : 'invisible w-0 bg-gray-300 px-0 opacity-0'
-              } my-btn-primary transition-all duration-300 `}
+                state.isShowSkip ? 'bg-orange-400' : 'invisible w-0 bg-muted px-0 opacity-0'
+              } my-btn-primary transition-all duration-300`}
               onClick={skipWord}
             >
               Skip
@@ -140,9 +140,9 @@ const App: React.FC = () => {
           <div className="container relative mx-auto flex h-full flex-col items-center">
             <div className="container flex flex-grow items-center justify-center">
               {isLoading ? (
-                <div className="flex flex-col items-center justify-center ">
+                <div className="flex flex-col items-center justify-center">
                   <div
-                    className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid  border-indigo-400 border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
+                    className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid  border-primary border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
                     role="status"
                   ></div>
                 </div>

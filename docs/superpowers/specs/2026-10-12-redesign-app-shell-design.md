@@ -175,3 +175,11 @@ Fixed after the review (each with a test that failed first where the logic is pu
 - `100vh` fallback before `100dvh` (`.app-shell`), tapping a tab closes the More sheet, Analysis and Error book go back to `/typing`, `ErrorBook` uses `h-full`, the empty-set progressbar has `aria-valuemax` of at least 1, and the role-less `aria-disabled` was removed.
 
 Deferred (minor): focus trap and `aria-modal` for the More sheet; a chapter in progress is lost when the window is resized below 768px; the old unrouted `src/pages/Gallery` folder is still on disk; the Typing toolbar, Analysis, Error book and Library card internals keep their old palette.
+
+## Findings: R5 (remaining pages)
+
+- The old look lived mostly in the shared classes of `src/index.css` (word chip, buttons, tooltip, switch, listbox, slider); they are rewritten on tokens by hand.
+- The Typing page and its panels, `components/ui`, Drawer, Analysis, Error book, Friend links and the Library cards were converted with a mapping script that was checked against an examples table first (the examples are kept only in the scratchpad, not shipped). `dark:` pairs are removed because the tokens already adapt; `text-white` next to `bg-primary` became `text-primary-foreground`; the `neutral` palette used by the settings panel is covered too.
+- A token-by-token comparison of old and new files showed no change outside class names, apart from the Analysis chart cards: their only background was a `dark:` class, so they now get `border border-border bg-card` in both themes.
+- Checked in the browser: Typing, settings panel, word list drawer, Analysis, Error book, Friend links and the Library dialog in dark mode; the Library dialog, Analysis and Typing in light mode.
+- Left on purpose: the typing letters' green and red, other status colors, the chart and illustration colors, the share-picture dialog, and the promotional popups and footer stickers.

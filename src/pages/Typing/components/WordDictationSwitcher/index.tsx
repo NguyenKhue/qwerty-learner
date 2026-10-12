@@ -67,9 +67,9 @@ export default function WordDictationSwitcher() {
         <>
           <Popover.Button
             className={`flex items-center justify-center rounded p-[2px] text-lg ${
-              wordDictationConfig.isOpen ? 'text-indigo-500' : 'text-gray-500'
-            } outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
-              open ? 'bg-indigo-500 text-white' : ''
+              wordDictationConfig.isOpen ? 'text-primary' : 'text-muted-foreground'
+            } outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground  ${
+              open ? 'bg-primary text-primary-foreground' : ''
             }`}
             type="button"
             aria-label="Toggle dictation mode"
@@ -85,15 +85,15 @@ export default function WordDictationSwitcher() {
             leaveFrom="opacity-100 translate-y-0"
             leaveTo="opacity-0 translate-y-1"
           >
-            <Popover.Panel className="absolute left-1/2 z-10 mt-2 flex max-w-max -translate-x-1/2 px-4 ">
-              <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-white p-4 drop-shadow dark:bg-gray-800">
+            <Popover.Panel className="absolute left-1/2 z-10 mt-2 flex max-w-max -translate-x-1/2 px-4">
+              <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-card p-4 drop-shadow">
                 <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                  <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">Dictation mode</span>
+                  <span className="text-sm font-normal leading-5 text-foreground">Dictation mode</span>
                   <div className="flex w-full flex-row items-center justify-between">
                     <Switch checked={wordDictationConfig.isOpen} onChange={onToggleWordDictation} className="switch-root">
                       <span aria-hidden="true" className="switch-thumb" />
                     </Switch>
-                    <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Dictation is ${
+                    <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Dictation is ${
                       wordDictationConfig.isOpen ? 'on' : 'off'
                     }`}</span>
                   </div>
@@ -110,7 +110,7 @@ export default function WordDictationSwitcher() {
                   leaveTo="max-h-0 opacity-0"
                 >
                   <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                    <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">Dictation type</span>
+                    <span className="text-sm font-normal leading-5 text-foreground">Dictation type</span>
                     <div className="flex w-full flex-row items-center justify-between">
                       <Listbox value={currentType.type} onChange={onChangeWordDictationType}>
                         <div className="relative">

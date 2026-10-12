@@ -33,8 +33,8 @@ export default function Setting() {
       <button
         type="button"
         onClick={openModal}
-        className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
-          isOpen && 'bg-indigo-500 text-white'
+        className={`flex items-center justify-center rounded p-[2px] text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground  ${
+          isOpen && 'bg-primary text-primary-foreground'
         }`}
         title="Open settings dialog"
       >
@@ -66,60 +66,60 @@ export default function Setting() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="flex w-200 flex-col overflow-hidden rounded-2xl bg-white p-0 shadow-xl dark:bg-gray-800">
-                  <div className="relative flex h-22 items-end justify-between rounded-t-lg border-b border-neutral-100 bg-stone-50 px-6 py-3 dark:border-neutral-700 dark:bg-gray-900">
-                    <span className="text-3xl font-bold text-gray-600">Settings</span>
+                <Dialog.Panel className="flex w-200 flex-col overflow-hidden rounded-2xl bg-card p-0 shadow-xl">
+                  <div className="relative flex h-22 items-end justify-between rounded-t-lg border-b border-border bg-muted px-6 py-3">
+                    <span className="text-3xl font-bold text-muted-foreground">Settings</span>
                     <button type="button" onClick={() => setIsOpen(false)} title="Close dialog">
-                      <IconX className="absolute right-7 top-5 cursor-pointer text-gray-400" />
+                      <IconX className="absolute right-7 top-5 cursor-pointer text-muted-foreground" />
                     </button>
                   </div>
 
                   <Tab.Group vertical>
-                    <div className="flex h-120 w-full ">
-                      <Tab.List className="flex h-full w-52 flex-col items-start space-y-3  border-r border-neutral-100 bg-stone-50 px-6 py-3 dark:border-transparent dark:bg-gray-900">
+                    <div className="flex h-120 w-full">
+                      <Tab.List className="flex h-full w-52 flex-col items-start space-y-3  border-r border-border bg-muted px-6 py-3 dark:border-transparent">
                         <Tab
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-gray-200 bg-opacity-50 dark:bg-gray-800',
+                              selected && 'bg-muted bg-opacity-50',
                             )
                           }
                         >
-                          <IconEar className="mr-2 text-neutral-500  dark:text-neutral-300" />
-                          <span className="text-neutral-500 dark:text-neutral-300 ">Sound settings</span>
+                          <IconEar className="mr-2 text-muted-foreground " />
+                          <span className="text-muted-foreground">Sound settings</span>
                         </Tab>
                         <Tab
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-gray-200 bg-opacity-50 dark:bg-gray-800',
+                              selected && 'bg-muted bg-opacity-50',
                             )
                           }
                         >
-                          <IconAdjustmentsHorizontal className="mr-2 text-neutral-500  dark:text-neutral-300" />
-                          <span className="text-neutral-500 dark:text-neutral-300">Advanced</span>
+                          <IconAdjustmentsHorizontal className="mr-2 text-muted-foreground " />
+                          <span className="text-muted-foreground">Advanced</span>
                         </Tab>
                         <Tab
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-gray-200 bg-opacity-50 dark:bg-gray-800',
+                              selected && 'bg-muted bg-opacity-50',
                             )
                           }
                         >
-                          <IconEye className="mr-2 text-neutral-500  dark:text-neutral-300" />
-                          <span className="text-neutral-500 dark:text-neutral-300">Display</span>
+                          <IconEye className="mr-2 text-muted-foreground " />
+                          <span className="text-muted-foreground">Display</span>
                         </Tab>
                         <Tab
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-gray-200 bg-opacity-50 dark:bg-gray-800',
+                              selected && 'bg-muted bg-opacity-50',
                             )
                           }
                         >
-                          <IconDatabaseCog className="mr-2 text-neutral-500  dark:text-neutral-300" />
-                          <span className="text-neutral-500 dark:text-neutral-300">Data</span>
+                          <IconDatabaseCog className="mr-2 text-muted-foreground " />
+                          <span className="text-muted-foreground">Data</span>
                         </Tab>
                       </Tab.List>
 

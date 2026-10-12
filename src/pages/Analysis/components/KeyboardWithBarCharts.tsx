@@ -172,7 +172,7 @@ const KeyboardWithBarCharts: FC<KeyboardWithBarChartsProps> = ({ data, title, su
 
   return (
     <div className="flex h-full flex-col">
-      <div className="text-center text-xl font-bold text-gray-600	dark:text-white">{title}</div>
+      <div className="text-center text-xl font-bold text-muted-foreground	">{title}</div>
       <div style={{ width: '100%', height: '100%' }} ref={chartRef} className="line-chart flex-grow"></div>
     </div>
   )

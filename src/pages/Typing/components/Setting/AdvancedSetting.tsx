@@ -50,7 +50,7 @@ export default function AdvancedSetting() {
   )
 
   return (
-    <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
+    <ScrollArea.Root className="flex-1 select-none overflow-y-auto">
       <ScrollArea.Viewport className="h-full w-full px-3">
         <div className={styles.tabContent}>
           <div className={styles.section}>
@@ -62,7 +62,7 @@ export default function AdvancedSetting() {
               <Switch checked={randomConfig.isOpen} onChange={onToggleRandom} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
               </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Shuffle ${
+              <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Shuffle ${
                 randomConfig.isOpen ? 'on' : 'off'
               }`}</span>
             </div>
@@ -74,7 +74,7 @@ export default function AdvancedSetting() {
               <Switch checked={isShowPrevAndNextWord} onChange={onToggleLastAndNextWord} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
               </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Word preview ${
+              <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Word preview ${
                 isShowPrevAndNextWord ? 'on' : 'off'
               }`}</span>
             </div>
@@ -88,7 +88,7 @@ export default function AdvancedSetting() {
               <Switch checked={isIgnoreCase} onChange={onToggleIgnoreCase} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
               </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Ignore case ${
+              <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Ignore case ${
                 isIgnoreCase ? 'on' : 'off'
               }`}</span>
             </div>
@@ -100,7 +100,7 @@ export default function AdvancedSetting() {
               <Switch checked={isTextSelectable} onChange={onToggleTextSelectable} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
               </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Text selection ${
+              <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Text selection ${
                 isTextSelectable ? 'on' : 'off'
               }`}</span>
             </div>
@@ -112,14 +112,14 @@ export default function AdvancedSetting() {
               <Switch checked={isShowAnswerOnHover} onChange={onToggleShowAnswerOnHover} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
               </Switch>
-              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Hints ${
+              <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Hints ${
                 isShowAnswerOnHover ? 'on' : 'off'
               }`}</span>
             </div>
           </div>
         </div>
       </ScrollArea.Viewport>
-      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
+      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent" orientation="vertical"></ScrollArea.Scrollbar>
     </ScrollArea.Root>
   )
 }

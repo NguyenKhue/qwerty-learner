@@ -16,16 +16,16 @@ export default function WordCard({ word, isActive }: { word: Word; isActive: boo
   return (
     <div
       className={`mb-2 flex cursor-pointer select-text items-center rounded-xl p-4 shadow focus:outline-none ${
-        isActive ? 'bg-indigo-50 dark:bg-indigo-800 dark:bg-opacity-20' : 'bg-white dark:bg-gray-700 dark:bg-opacity-20'
-      }   `}
+        isActive ? 'bg-primary/10' : 'bg-card'
+      }`}
       key={word.name}
       onClick={handlePlay}
     >
       <div className="flex-1">
-        <p className="select-all font-mono text-xl font-normal leading-6 dark:text-gray-50">
+        <p className="select-all font-mono text-xl font-normal leading-6">
           {['romaji', 'hapin'].includes(currentLanguage) ? word.notation : word.name}
         </p>
-        <div className="mt-2 max-w-sm font-sans text-sm text-gray-400">{word.trans.join('；')}</div>
+        <div className="mt-2 max-w-sm font-sans text-sm text-muted-foreground">{word.trans.join('；')}</div>
       </div>
       <WordPronunciationIcon word={word} lang={currentLanguage} className="h-8 w-8" ref={wordPronunciationIconRef} />
     </div>

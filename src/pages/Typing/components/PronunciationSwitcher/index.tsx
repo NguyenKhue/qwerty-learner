@@ -109,8 +109,8 @@ const PronunciationSwitcher = () => {
       {({ open }) => (
         <>
           <Popover.Button
-            className={`flex h-8 min-w-max cursor-pointer items-center justify-center rounded-md px-1 transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus:outline-none dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100  ${
-              open ? 'bg-indigo-400 text-white' : 'bg-transparent'
+            className={`flex h-8 min-w-max cursor-pointer items-center justify-center rounded-md px-1 transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus:outline-none  ${
+              open ? 'bg-primary text-primary-foreground' : 'bg-transparent'
             }`}
             onFocus={(e) => {
               e.target.blur()
@@ -128,44 +128,38 @@ const PronunciationSwitcher = () => {
             leaveFrom="opacity-100 translate-y-0"
             leaveTo="opacity-0 translate-y-1"
           >
-            <Popover.Panel className="absolute left-1/2 z-20 mt-2 flex max-w-max -translate-x-1/2 px-4 ">
-              <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-white p-4 drop-shadow transition duration-1000 ease-in-out dark:bg-gray-800">
+            <Popover.Panel className="absolute left-1/2 z-20 mt-2 flex max-w-max -translate-x-1/2 px-4">
+              <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-card p-4 drop-shadow transition duration-1000 ease-in-out">
                 <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                  <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">
-                    Show phonetic symbols
-                  </span>
+                  <span className="text-sm font-normal leading-5 text-foreground">Show phonetic symbols</span>
                   <div className="flex w-full flex-row items-center justify-between">
                     <Switch checked={phoneticConfig.isOpen} onChange={onChangePhoneticIsOpen} className="switch-root">
                       <span aria-hidden="true" className="switch-thumb" />
                     </Switch>
-                    <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Phonetics ${
+                    <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Phonetics ${
                       phoneticConfig.isOpen ? 'on' : 'off'
                     }`}</span>
                   </div>
                 </div>
                 <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                  <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">
-                    Word pronunciation
-                  </span>
+                  <span className="text-sm font-normal leading-5 text-foreground">Word pronunciation</span>
                   <div className="flex w-full flex-row items-center justify-between">
                     <Switch checked={pronunciationConfig.isOpen} onChange={onChangePronunciationIsOpen} className="switch-root">
                       <span aria-hidden="true" className="switch-thumb" />
                     </Switch>
-                    <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Pronunciation ${
+                    <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Pronunciation ${
                       pronunciationConfig.isOpen ? 'on' : 'off'
                     }`}</span>
                   </div>
                 </div>
                 {window.speechSynthesis && (
                   <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                    <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">
-                      Definition pronunciation
-                    </span>
+                    <span className="text-sm font-normal leading-5 text-foreground">Definition pronunciation</span>
                     <div className="flex w-full flex-row items-center justify-between">
                       <Switch checked={pronunciationConfig.isTransRead} onChange={onChangePronunciationIsTransRead} className="switch-root">
                         <span aria-hidden="true" className="switch-thumb" />
                       </Switch>
-                      <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Pronunciation ${
+                      <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Pronunciation ${
                         pronunciationConfig.isTransRead ? 'on' : 'off'
                       }`}</span>
                     </div>
@@ -182,22 +176,18 @@ const PronunciationSwitcher = () => {
                   leaveTo="max-h-0 opacity-0"
                 >
                   <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                    <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">
-                      Loop pronunciation
-                    </span>
+                    <span className="text-sm font-normal leading-5 text-foreground">Loop pronunciation</span>
                     <div className="flex w-full flex-row items-center justify-between">
                       <Switch checked={pronunciationConfig.isLoop} onChange={onChangePronunciationIsLoop} className="switch-root">
                         <span aria-hidden="true" className="switch-thumb" />
                       </Switch>
-                      <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Loop ${
+                      <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Loop ${
                         pronunciationConfig.isLoop ? 'on' : 'off'
                       }`}</span>
                     </div>
                   </div>
                   <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                    <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">
-                      Pronunciation accent
-                    </span>
+                    <span className="text-sm font-normal leading-5 text-foreground">Pronunciation accent</span>
                     <div className="flex w-full flex-row items-center justify-between">
                       <Listbox value={pronunciationConfig.type} onChange={onChangePronunciationType}>
                         <div className="relative">
@@ -230,7 +220,7 @@ const PronunciationSwitcher = () => {
                     </div>
                   </div>
                   {pronunciationConfig.isOpen && (
-                    <span className="text-colo text-xs font-medium text-gray-500 dark:text-white dark:text-opacity-60">
+                    <span className="text-colo text-xs font-medium text-muted-foreground">
                       Tip: Read-aloud pronunciation shortcut ({CTRL} + J)
                     </span>
                   )}

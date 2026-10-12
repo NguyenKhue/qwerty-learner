@@ -54,7 +54,7 @@ export default function DataSetting() {
   }, [importProgressCallback, onStartImport])
 
   return (
-    <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
+    <ScrollArea.Root className="flex-1 select-none overflow-y-auto">
       <ScrollArea.Viewport className="h-full w-full px-3">
         <div className={styles.tabContent}>
           <div className={styles.section}>
@@ -70,19 +70,19 @@ export default function DataSetting() {
             </span>
             <div className="flex h-3 w-full items-center justify-start px-5">
               <Progress.Root
-                className="translate-z-0 relative h-2 w-11/12 transform  overflow-hidden rounded-full bg-gray-200"
+                className="translate-z-0 relative h-2 w-11/12 transform  overflow-hidden rounded-full bg-muted"
                 value={exportProgress}
               >
                 <Progress.Indicator
-                  className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-indigo-400 transition-transform duration-500 ease-out"
+                  className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-primary transition-transform duration-500 ease-out"
                   style={{ transform: `translateX(-${100 - exportProgress}%)` }}
                 />
               </Progress.Root>
-              <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${exportProgress}%`}</span>
+              <span className="ml-4 w-10 text-xs font-normal text-muted-foreground">{`${exportProgress}%`}</span>
             </div>
 
             <button
-              className="my-btn-primary ml-4 disabled:bg-gray-300"
+              className="my-btn-primary ml-4 disabled:bg-muted"
               type="button"
               onClick={onClickExport}
               disabled={isExporting}
@@ -101,19 +101,19 @@ export default function DataSetting() {
 
             <div className="flex h-3 w-full items-center justify-start px-5">
               <Progress.Root
-                className="translate-z-0 relative h-2 w-11/12 transform  overflow-hidden rounded-full bg-gray-200"
+                className="translate-z-0 relative h-2 w-11/12 transform  overflow-hidden rounded-full bg-muted"
                 value={importProgress}
               >
                 <Progress.Indicator
-                  className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-indigo-400 transition-transform duration-500 ease-out"
+                  className="cubic-bezier(0.65, 0, 0.35, 1) h-full w-full bg-primary transition-transform duration-500 ease-out"
                   style={{ transform: `translateX(-${100 - importProgress}%)` }}
                 />
               </Progress.Root>
-              <span className="ml-4 w-10 text-xs font-normal text-gray-600">{`${importProgress}%`}</span>
+              <span className="ml-4 w-10 text-xs font-normal text-muted-foreground">{`${importProgress}%`}</span>
             </div>
 
             <button
-              className="my-btn-primary ml-4 disabled:bg-gray-300"
+              className="my-btn-primary ml-4 disabled:bg-muted"
               type="button"
               onClick={onClickImport}
               disabled={isImporting}
@@ -124,7 +124,7 @@ export default function DataSetting() {
           </div>
         </div>
       </ScrollArea.Viewport>
-      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
+      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent" orientation="vertical"></ScrollArea.Scrollbar>
     </ScrollArea.Root>
   )
 }

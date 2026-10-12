@@ -35,27 +35,19 @@ export default function DictionaryComponent({ dictionary }: Props) {
         <div
           ref={divRef}
           className={`group flex  h-36 w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg p-4 text-left shadow-lg focus:outline-none ${
-            isSelected ? 'bg-indigo-400' : 'bg-zinc-50 hover:bg-white dark:bg-gray-800 dark:hover:bg-gray-700'
+            isSelected ? 'bg-primary' : 'bg-muted hover:bg-card'
           }`}
           role="button"
           // onClick={onClick}
         >
           <div className="relative ml-1 mt-2 flex h-full w-full flex-col items-start justify-start">
-            <h1
-              className={`mb-1.5 text-xl font-normal  ${
-                isSelected ? 'text-white' : 'text-gray-800 group-hover:text-indigo-400 dark:text-gray-200'
-              }`}
-            >
+            <h1 className={`mb-1.5 text-xl font-normal  ${isSelected ? 'text-white' : 'text-foreground group-hover:text-primary'}`}>
               {dictionary.name}
             </h1>
             <TooltipProvider>
               <Tooltip delayDuration={400}>
                 <TooltipTrigger asChild>
-                  <p
-                    className={`mb-1 max-w-full truncate ${
-                      isSelected ? 'text-white' : 'textdelayDuration-gray-600 dark:text-gray-200'
-                    } whitespace-nowrap`}
-                  >
+                  <p className={`mb-1 max-w-full truncate ${isSelected ? 'text-white' : 'textdelayDuration-gray-600'} whitespace-nowrap`}>
                     {dictionary.description}
                   </p>
                 </TooltipTrigger>
@@ -65,18 +57,16 @@ export default function DictionaryComponent({ dictionary }: Props) {
               </Tooltip>
             </TooltipProvider>
 
-            <p className={`mb-0.5 font-bold  ${isSelected ? 'text-white' : 'text-gray-600 dark:text-gray-200'}`}>
-              {dictionary.length} words
-            </p>
-            <div className=" flex w-full items-center pt-2">
+            <p className={`mb-0.5 font-bold  ${isSelected ? 'text-white' : 'text-muted-foreground'}`}>{dictionary.length} words</p>
+            <div className="flex w-full items-center pt-2">
               {progress > 0 && (
                 <Progress.Root
                   value={progress}
                   max={100}
-                  className={`mr-4 h-2 w-full rounded-full border  bg-white ${isSelected ? 'border-indigo-600' : 'border-indigo-400'}`}
+                  className={`mr-4 h-2 w-full rounded-full border  bg-card ${isSelected ? 'border-primary' : 'border-primary'}`}
                 >
                   <Progress.Indicator
-                    className={`h-full rounded-full pl-0 ${isSelected ? 'bg-indigo-600' : 'bg-indigo-400'}`}
+                    className={`h-full rounded-full pl-0 ${isSelected ? 'bg-primary' : 'bg-primary'}`}
                     style={{ width: `calc(${progress}% )` }}
                   />
                 </Progress.Root>

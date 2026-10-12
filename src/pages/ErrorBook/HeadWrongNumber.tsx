@@ -27,15 +27,15 @@ const HeadWrongNumber: FC<IHeadWrongNumberProps> = ({ className, sortType, setSo
       Error count
       <div className="absolute -right-2 bottom-0 top-0 flex flex-col items-center justify-center text-[12px]">
         <UPIcon
-          className={classNames('-mb-2 ', {
-            'text-indigo-500': sortType === 'asc',
-            'text-gray-400': sortType !== 'asc',
+          className={classNames('-mb-2', {
+            'text-primary': sortType === 'asc',
+            'text-muted-foreground': sortType !== 'asc',
           })}
         />
         <DownIcon
           className={classNames({
-            'text-indigo-500': sortType === 'desc',
-            'text-gray-400': sortType !== 'desc',
+            'text-primary': sortType === 'desc',
+            'text-muted-foreground': sortType !== 'desc',
           })}
         />
       </div>

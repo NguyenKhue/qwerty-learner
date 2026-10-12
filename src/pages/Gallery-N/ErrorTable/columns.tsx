@@ -54,7 +54,7 @@ export const errorColumns = (onDelete: (word: string) => Promise<void>): ColumnD
         <p>
           {(row.getValue('errorChar') as string[]).map((char, index) => (
             <kbd className="flex justify-center" key={`${char}-${index}`}>
-              {char + ' '}
+              {char + ''}
             </kbd>
           ))}
         </p>

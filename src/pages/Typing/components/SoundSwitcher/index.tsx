@@ -27,8 +27,8 @@ export default function SoundSwitcher() {
       {({ open }) => (
         <>
           <Popover.Button
-            className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
-              open ? 'bg-indigo-500 text-white' : ''
+            className={`flex items-center justify-center rounded p-[2px] text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground  ${
+              open ? 'bg-primary text-primary-foreground' : ''
             }`}
             onFocus={(e) => {
               e.target.blur()
@@ -48,26 +48,26 @@ export default function SoundSwitcher() {
             leaveFrom="opacity-100 translate-y-0"
             leaveTo="opacity-0 translate-y-1"
           >
-            <Popover.Panel className="absolute left-1/2 z-10 mt-2 flex max-w-max -translate-x-1/2 px-4 ">
-              <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-white p-4 drop-shadow dark:bg-gray-800">
+            <Popover.Panel className="absolute left-1/2 z-10 mt-2 flex max-w-max -translate-x-1/2 px-4">
+              <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-card p-4 drop-shadow">
                 <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                  <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">Keystroke sounds</span>
+                  <span className="text-sm font-normal leading-5 text-foreground">Keystroke sounds</span>
                   <div className="flex w-full flex-row items-center justify-between">
                     <Switch checked={keySoundsConfig.isOpen} onChange={onChangeKeySound} className="switch-root">
                       <span aria-hidden="true" className="switch-thumb" />
                     </Switch>
-                    <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Sounds ${
+                    <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Sounds ${
                       keySoundsConfig.isOpen ? 'on' : 'off'
                     }`}</span>
                   </div>
                 </div>
                 <div className="flex w-full flex-col items-start  gap-2 py-0">
-                  <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">Hint sounds</span>
+                  <span className="text-sm font-normal leading-5 text-foreground">Hint sounds</span>
                   <div className="flex w-full flex-row items-center justify-between">
                     <Switch checked={hintSoundsConfig.isOpen} onChange={onChangeHintSound} className="switch-root">
                       <span aria-hidden="true" className="switch-thumb" />
                     </Switch>
-                    <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Sounds ${
+                    <span className="text-right text-xs font-normal leading-tight text-muted-foreground">{`Sounds ${
                       hintSoundsConfig.isOpen ? 'on' : 'off'
                     }`}</span>
                   </div>

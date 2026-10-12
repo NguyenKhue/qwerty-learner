@@ -55,7 +55,7 @@ export default function Switcher() {
       </Tooltip>
       <Tooltip className="h-7 w-7" content={`Toggle definition display (${CTRL} + Shift + V)`}>
         <button
-          className={`p-[2px] ${state?.isTransVisible ? 'text-indigo-500' : 'text-gray-500'} text-lg focus:outline-none`}
+          className={`p-[2px] ${state?.isTransVisible ? 'text-primary' : 'text-muted-foreground'} text-lg focus:outline-none`}
           type="button"
           onClick={(e) => {
             changeTransVisibleState()
@@ -77,7 +77,7 @@ export default function Switcher() {
 
       <Tooltip className="h-7 w-7" content="Toggle dark mode">
         <button
-          className={`p-[2px] text-lg text-indigo-500 focus:outline-none`}
+          className={`p-[2px] text-lg text-primary focus:outline-none`}
           type="button"
           onClick={(e) => {
             changeDarkModeState()

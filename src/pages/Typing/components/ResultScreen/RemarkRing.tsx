@@ -6,7 +6,7 @@ export type RemarkRingProps = {
   remark: string
   caption: string
   /**
-   * `null` if the percentage is not appliable.
+   *`null` if the percentage is not appliable.
    * Otherwise, this is an integer between 0 and 100.
    */
   percentage?: number | null
@@ -35,7 +35,7 @@ export default function RemarkRing({ remark, caption, percentage = null, size = 
   return (
     <div
       className={classNames(
-        'relative flex flex-shrink-0 flex-col items-center justify-center rounded-full border-8 border-indigo-200 bg-transparent dark:border-gray-700',
+        'relative flex flex-shrink-0 flex-col items-center justify-center rounded-full border-8 border-primary bg-transparent',
       )}
       style={{
         width: `${size}rem`,
@@ -43,14 +43,10 @@ export default function RemarkRing({ remark, caption, percentage = null, size = 
       }}
     >
       {percentage !== null && (
-        <div
-          className="absolute -inset-2 rounded-full border-8 border-indigo-400 bg-transparent dark:border-indigo-500"
-          style={{ clipPath }}
-          aria-hidden
-        />
+        <div className="absolute -inset-2 rounded-full border-8 border-primary bg-transparent" style={{ clipPath }} aria-hidden />
       )}
-      <span className="text-xl tabular-nums text-gray-800 dark:text-gray-300">{remark}</span>
-      <span className="text-sm font-medium text-gray-600 dark:text-gray-500">{caption}</span>
+      <span className="text-xl tabular-nums text-foreground">{remark}</span>
+      <span className="text-sm font-medium text-muted-foreground">{caption}</span>
     </div>
   )
 }

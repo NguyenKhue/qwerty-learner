@@ -34,11 +34,11 @@ export default function Chapter({
   return (
     <div
       ref={ref}
-      className="relative flex h-16 w-40 cursor-pointer  flex-col items-start justify-center overflow-hidden rounded-xl bg-slate-100 px-3 py-2 dark:bg-slate-800"
+      className="relative flex h-16 w-40 cursor-pointer  flex-col items-start justify-center overflow-hidden rounded-xl bg-muted px-3 py-2"
       onClick={() => onChange(index)}
     >
       <h1>Chapter {index + 1}</h1>
-      <p className="pt-[2px] text-xs text-slate-600">
+      <p className="pt-[2px] text-xs text-muted-foreground">
         {chapterStatus
           ? chapterStatus.exerciseCount > 0
             ? `Practiced ${chapterStatus.exerciseCount} times`

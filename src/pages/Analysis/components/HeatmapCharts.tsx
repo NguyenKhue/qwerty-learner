@@ -17,7 +17,7 @@ const HeatmapCharts: FC<HeatmapChartsProps> = ({ data, title }) => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="text-center text-xl font-bold text-gray-600	dark:text-white">{title}</div>
+      <div className="text-center text-xl font-bold text-muted-foreground	">{title}</div>
       <ActivityCalendar
         fontSize={20}
         blockSize={22}

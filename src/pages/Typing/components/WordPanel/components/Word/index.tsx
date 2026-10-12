@@ -56,7 +56,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     // run only when word changes
     let headword = ''
     try {
-      headword = word.name.replace(new RegExp(' ', 'g'), EXPLICIT_SPACE)
+      headword = word.name.replace(new RegExp('', 'g'), EXPLICIT_SPACE)
       headword = headword.replace(new RegExp('…', 'g'), '..')
     } catch (e) {
       console.error('word.name is not a string', word)
@@ -77,7 +77,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         case 'add':
           if (wordState.hasWrong) return
 
-          if (updateAction.value === ' ') {
+          if (updateAction.value === '') {
             updateAction.event.preventDefault()
             setWordState((state) => {
               state.inputWord = state.inputWord + EXPLICIT_SPACE
@@ -169,7 +169,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     const inputLength = wordState.inputWord.length
     /**
      * TODO: An error is reported when the user types a wrong letter
-     * Cannot update a component (`App`) while rendering a different component (`WordComponent`). To locate the bad setState() call inside `WordComponent`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
+     * Cannot update a component (`App`) while rendering a different component (`WordComponent`). To locate the bad setState() call inside`WordComponent`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
      * It does not affect production for now; the guess is that in development React calls useEffect twice, which surfaces this warning
      * Still, this is a bug and needs to be fixed
      */
@@ -255,13 +255,13 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
       dispatch({ type: TypingStateActionType.SET_IS_SAVING_RECORD, payload: true })
 
       // wordLogUploader({
-      //   headword: word.name,
-      //   timeStart: wordState.startTime,
-      //   timeEnd: wordState.endTime,
-      //   countInput: wordState.correctCount + wordState.wrongCount,
-      //   countCorrect: wordState.correctCount,
-      //   countTypo: wordState.wrongCount,
-      // })
+      //  headword: word.name,
+      //  timeStart: wordState.startTime,
+      //  timeEnd: wordState.endTime,
+      //  countInput: wordState.correctCount + wordState.wrongCount,
+      //  countCorrect: wordState.correctCount,
+      //  countTypo: wordState.wrongCount,
+      //})
       saveWordRecord({
         word: word.name,
         wrongCount: wordState.wrongCount,
@@ -304,7 +304,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
             })}
           </div>
           {pronunciationIsOpen && (
-            <div className="absolute -right-12 top-1/2 h-9 w-9 -translate-y-1/2 transform ">
+            <div className="absolute -right-12 top-1/2 h-9 w-9 -translate-y-1/2 transform">
               <Tooltip content={`Shortcut: ${CTRL} + J`}>
                 <WordPronunciationIcon word={word} lang={currentLanguage} ref={wordPronunciationIconRef} className="h-full w-full" />
               </Tooltip>

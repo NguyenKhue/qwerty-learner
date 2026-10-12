@@ -207,7 +207,7 @@ const ResultScreen = () => {
 
   return (
     <div className="fixed inset-0 z-30 overflow-y-auto">
-      <div className="absolute inset-0 bg-gray-300 opacity-80 dark:bg-gray-600"></div>
+      <div className="absolute inset-0 bg-muted opacity-80"></div>
       <Transition
         show={true}
         enter="ease-in duration-300"
@@ -218,12 +218,12 @@ const ResultScreen = () => {
         leaveTo="opacity-0"
       >
         <div className="flex h-screen items-center justify-center">
-          <div className="my-card fixed flex w-[90vw] max-w-6xl flex-col overflow-hidden rounded-3xl bg-white pb-14 pl-10 pr-5 pt-10 shadow-lg dark:bg-gray-800 md:w-4/5 lg:w-3/5">
-            <div className="text-center font-sans text-xl font-normal text-gray-900 dark:text-gray-400 md:text-2xl">
-              {`${currentDictInfo.name} ${isReviewMode ? 'Mistake Review' : 'Chapter ' + (currentChapter + 1)}`}
+          <div className="my-card fixed flex w-[90vw] max-w-6xl flex-col overflow-hidden rounded-3xl bg-card pb-14 pl-10 pr-5 pt-10 shadow-lg  md:w-4/5 lg:w-3/5">
+            <div className="text-center font-sans text-xl font-normal text-foreground  md:text-2xl">
+              {`${currentDictInfo.name} ${isReviewMode ? 'Mistake Review' : 'Chapter' + (currentChapter + 1)}`}
             </div>
             <button className="absolute right-7 top-5" onClick={exitButtonHandler}>
-              <IconX className="text-gray-400" />
+              <IconX className="text-muted-foreground" />
             </button>
             <div className="mt-10 flex flex-row gap-2 overflow-hidden">
               <div className="flex flex-shrink-0 flex-grow-0 flex-col gap-3 px-4 sm:px-1 md:px-2 lg:px-4">
@@ -231,13 +231,13 @@ const ResultScreen = () => {
                 <RemarkRing remark={timeString} caption="Chapter Time" />
                 <RemarkRing remark={state.timerData.wpm + ''} caption="WPM" />
               </div>
-              <div className="z-10 ml-6 flex-1 overflow-visible rounded-xl bg-indigo-50 dark:bg-gray-700">
+              <div className="z-10 ml-6 flex-1 overflow-visible rounded-xl bg-primary/10">
                 <div className="customized-scrollbar z-20 ml-8 mr-1 flex h-80 flex-row flex-wrap content-start gap-4 overflow-y-auto overflow-x-hidden pr-7 pt-9">
                   {wrongWords.map((word, index) => (
                     <WordChip key={`${index}-${word.name}`} word={word} />
                   ))}
                 </div>
-                <div className="align-center flex w-full flex-row justify-start rounded-b-xl bg-indigo-200 px-4 dark:bg-indigo-400">
+                <div className="align-center flex w-full flex-row justify-start rounded-b-xl bg-primary/10 px-4">
                   <ConclusionBar mistakeLevel={mistakeLevel} mistakeCount={wrongWords.length} />
                 </div>
               </div>
@@ -246,12 +246,12 @@ const ResultScreen = () => {
                 {!isReviewMode && (
                   <>
                     <ShareButton />
-                    <IexportWords fontSize={18} className="cursor-pointer text-gray-500" onClick={exportWords}></IexportWords>
+                    <IexportWords fontSize={18} className="cursor-pointer text-muted-foreground" onClick={exportWords}></IexportWords>
                   </>
                 )}
                 <IconXiaoHongShu
                   fontSize={15}
-                  className="cursor-pointer text-gray-500 hover:text-red-500 focus:outline-none"
+                  className="cursor-pointer text-muted-foreground hover:text-red-500 focus:outline-none"
                   onClick={(e) => {
                     handleOpenInfoPanel('redBook')
                     e.currentTarget.blur()
@@ -267,7 +267,10 @@ const ResultScreen = () => {
                   type="button"
                   title="Donate to our project"
                 >
-                  <IconCoffee fontSize={17} className={`text-gray-500 hover:text-amber-500  focus:outline-none ${styles.imgShake}`} />
+                  <IconCoffee
+                    fontSize={17}
+                    className={`text-muted-foreground hover:text-amber-500  focus:outline-none ${styles.imgShake}`}
+                  />
                 </button>
 
                 <button
@@ -275,15 +278,15 @@ const ResultScreen = () => {
                     handleOpenInfoPanel('community')
                     e.currentTarget.blur()
                   }}
-                  className="cursor-pointer text-gray-500 dark:text-gray-400"
+                  className="cursor-pointer text-muted-foreground"
                   type="button"
                   title="Join our community"
                 >
-                  <IconWechat fontSize={16} className="text-gray-500 hover:text-green-500 focus:outline-none" />
+                  <IconWechat fontSize={16} className="text-muted-foreground hover:text-green-500 focus:outline-none" />
                 </button>
 
                 <a href="https://github.com/RealKai42/qwerty-learner" target="_blank" rel="noreferrer" className="leading-[0px]">
-                  <IconGithub fontSize={16} className="text-gray-500 hover:text-green-800 focus:outline-none" />
+                  <IconGithub fontSize={16} className="text-muted-foreground hover:text-green-800 focus:outline-none" />
                 </a>
               </div>
             </div>
@@ -292,7 +295,7 @@ const ResultScreen = () => {
                 <>
                   <Tooltip content="Shortcut: Shift + Enter">
                     <button
-                      className="my-btn-primary h-12 border-2 border-solid border-gray-300 bg-white text-base text-gray-700 dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
+                      className="my-btn-primary h-12 border-2 border-solid border-border bg-card text-base text-foreground"
                       type="button"
                       onClick={dictationButtonHandler}
                       title="Dictate this chapter"
@@ -302,7 +305,7 @@ const ResultScreen = () => {
                   </Tooltip>
                   <Tooltip content="Shortcut: Space">
                     <button
-                      className="my-btn-primary h-12 border-2 border-solid border-gray-300 bg-white text-base text-gray-700 dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
+                      className="my-btn-primary h-12 border-2 border-solid border-border bg-card text-base text-foreground"
                       type="button"
                       onClick={repeatButtonHandler}
                       title="Repeat this chapter"
@@ -315,7 +318,7 @@ const ResultScreen = () => {
               {!isLastChapter && !isReviewMode && (
                 <Tooltip content="Shortcut: Enter">
                   <button
-                    className={`{ isLastChapter ? 'cursor-not-allowed opacity-50' : ''} my-btn-primary h-12 text-base font-bold `}
+                    className={`{ isLastChapter ?'cursor-not-allowed opacity-50' :''} my-btn-primary h-12 text-base font-bold`}
                     type="button"
                     onClick={nextButtonHandler}
                     title="Next chapter"
