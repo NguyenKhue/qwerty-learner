@@ -1,9 +1,10 @@
 import { MORE_LINKS, buildNavItems, isNavActive } from './navItems'
 import type { NavItem } from './navItems'
 import logo from '@/assets/logo.svg'
+import Loading from '@/components/Loading'
 import { currentDictIdAtom, currentDictInfoAtom, isOpenDarkModeAtom } from '@/store'
 import { useAtom, useAtomValue } from 'jotai'
-import { useEffect, useMemo, useState } from 'react'
+import { Suspense, useEffect, useMemo, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import IconBooks from '~icons/tabler/books'
 import IconCards from '~icons/tabler/cards'
@@ -189,8 +190,10 @@ export default function AppShell() {
     <div className="flex h-[100dvh] w-full bg-background text-foreground">
       <Sidebar items={items} pathname={pathname} compact={compact} />
       <div className="flex min-h-0 min-w-0 flex-1 flex-col">
-        <main className="min-h-0 flex-1 overflow-y-auto">
-          <Outlet />
+        <main className="relative min-h-0 flex-1 overflow-y-auto">
+          <Suspense fallback={<Loading />}>
+            <Outlet />
+          </Suspense>
         </main>
         <TabBar items={items} pathname={pathname} />
       </div>

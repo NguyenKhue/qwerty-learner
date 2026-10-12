@@ -123,3 +123,14 @@ Remove the 600px redirect and the `/mobile` page content. At < 768px the bottom 
 - Typing page height assumes `h-screen` with its own header; the shell must not add scroll. Verified in R1/R2.
 - Dark mode token pairs can fail contrast; verified in R1.
 - Layout churn touches 14 files; mitigated by migrating page by page behind the shell.
+
+## Findings: R1 (tokens and shell)
+
+- Palette ruling: accent green darkened from `#16A34A` to `#15803D` so white text on it reaches 4.5:1. All token pairs are checked by `src/styles/tokens.test.ts`, which parses `src/index.css`.
+- Vitest turns CSS imports into an empty string, so the token test reads the stylesheet with `fs`.
+- The 600px redirect to `/mobile` moved into R1 (the tab bar could not be reached otherwise). `/mobile` now redirects to `/`; `src/pages/Mobile/` is still on disk for R4 to delete.
+- Typing's word-list toggle was `fixed left-0` and sat on top of the sidebar; it is now `absolute` inside the shell's `main`.
+- `Layout` is now a `div` (the shell owns the single `main`) and hides the footer below 768px until R4 moves the footer into the shell menu: the footer overflowed a 375px screen.
+- `Suspense` sits inside the shell, so lazy pages no longer replace the sidebar with a spinner.
+- The Library's language tab row is 1,671px wide and was already clipped before the shell; R4 restyles it.
+- Dev console shows only the Youdao audio CORS errors (external, pre-existing).
