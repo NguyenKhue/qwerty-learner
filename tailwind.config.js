@@ -1,3 +1,6 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+const token = (name) => `rgb(var(--${name}) / <alpha-value>)`
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
@@ -5,7 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#6366f1',
+        background: token('background'),
+        foreground: token('foreground'),
+        border: token('border'),
+        ring: token('ring'),
+        card: { DEFAULT: token('card'), foreground: token('card-foreground') },
+        muted: { DEFAULT: token('muted'), foreground: token('muted-foreground') },
+        primary: { DEFAULT: token('primary'), foreground: token('primary-foreground') },
+        accent: { DEFAULT: token('accent'), foreground: token('accent-foreground') },
+        destructive: { DEFAULT: token('destructive'), foreground: token('destructive-foreground') },
+      },
+      fontFamily: {
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       keyframes: {
         'accordion-down': {
