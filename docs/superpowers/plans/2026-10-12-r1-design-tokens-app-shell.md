@@ -34,10 +34,12 @@
 ### Task 1: Design tokens, Inter, Tailwind mapping
 
 **Files:**
+
 - Create: `src/utils/contrast.ts`, `src/utils/contrast.test.ts`, `src/styles/tokens.test.ts`
 - Modify: `src/index.css`, `tailwind.config.js`, `index.html`
 
 **Interfaces:**
+
 - Produces: `contrastRatio(a: Rgb, b: Rgb): number`, `parseTokenBlock(css: string, selector: string): Record<string, Rgb>`, `type Rgb = [number, number, number]`. Tailwind classes `bg-background`, `text-foreground`, `bg-card`, `text-muted-foreground`, `border-border`, `bg-primary`, `text-primary-foreground`, `bg-accent`, `bg-destructive`, `ring-ring`, plus `font-sans` = Inter.
 
 - [ ] **Step 1: Write the failing contrast tests**
@@ -101,8 +103,20 @@ for (const [mode, selector] of [
     const tokens = parseTokenBlock(css, selector)
     it('defines every token', () => {
       for (const name of [
-        'background', 'foreground', 'card', 'card-foreground', 'muted', 'muted-foreground', 'border', 'ring',
-        'primary', 'primary-foreground', 'accent', 'accent-foreground', 'destructive', 'destructive-foreground',
+        'background',
+        'foreground',
+        'card',
+        'card-foreground',
+        'muted',
+        'muted-foreground',
+        'border',
+        'ring',
+        'primary',
+        'primary-foreground',
+        'accent',
+        'accent-foreground',
+        'destructive',
+        'destructive-foreground',
       ]) {
         expect(tokens[name], name).toBeDefined()
       }
@@ -259,10 +273,12 @@ Expected: only the pre-existing untracked entries remain.
 ### Task 2: Navigation model and AppShell
 
 **Files:**
+
 - Create: `src/components/AppShell/navItems.ts`, `src/components/AppShell/navItems.test.ts`, `src/components/AppShell/index.tsx`, `src/hooks/useMediaQuery.ts`
 - Modify: `src/components/Layout.tsx`
 
 **Interfaces:**
+
 - Consumes: `currentDictIdAtom`, `currentDictInfoAtom`, `isOpenDarkModeAtom` from `@/store`.
 - Produces: `buildNavItems(dictId: string): NavItem[]`, `isNavActive(item: NavItem, pathname: string): boolean`, `MORE_LINKS: Array<{ label: string; to: string }>`, default export `AppShell` (a layout route component), `useMediaQuery(query: string): boolean`.
 
@@ -423,10 +439,12 @@ git commit -m "feat: add app shell with sidebar and phone tab bar"
 ### Task 3: Routes, phones, and the Typing keyboard notice
 
 **Files:**
+
 - Create: `src/pages/Typing/KeyboardNotice.tsx`, `src/pages/Typing/TypingGate.tsx`
 - Modify: `src/index.tsx`, `src/pages/Typing/index.tsx`
 
 **Interfaces:**
+
 - Consumes: `AppShell` (default), `useMediaQuery`, `buildNavItems`, `currentDictIdAtom`.
 - Produces: `TypingGate` default export, used by both `/` and `/typing` until R2 replaces `/` with the Dashboard.
 
@@ -502,6 +520,7 @@ git commit -m "feat: route every page through the app shell and open the app on 
 - [ ] **Step 2: Check each Review Focus item**
 
 At 1280×800, 900×800 and 375×812, in light and dark (`resize_window` with `colorScheme`), verify with `read_page`/`find` and one screenshot per breakpoint:
+
 - 1280: full sidebar with labels; `/typing` shows the icon-only sidebar; the typing page still works (type a word).
 - 900: icon-only sidebar, labels exposed to assistive tech (`sr-only`).
 - 375: tab bar visible, no horizontal scroll (`document.documentElement.scrollWidth <= innerWidth`), `/typing` shows the notice and `document.querySelectorAll` finds no typing word panel, More sheet opens, closes on Escape and after navigating.
