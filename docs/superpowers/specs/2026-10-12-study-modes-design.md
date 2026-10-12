@@ -172,3 +172,8 @@ reappear until due, and the new-card limit is respected across reloads on the sa
 - "Fewer than 4 words" is implemented as "fewer than 4 distinct meanings among the words that have a meaning": that is what guarantees 3 distractors whose text differs from the answer.
 - A word that has the same meaning text as the answer is never offered as a distractor, and option texts never repeat.
 - A wrong answer on a never-studied word records `again`, which introduces it as a learning card and therefore uses up one of the day's new-card slots (consequence of the spec rule). A correct answer on a new or not-yet-due card writes nothing.
+
+## Findings from P4 implementation
+
+- "Needs ≥ 6 words" is implemented as "at least 6 distinct meanings among the words that have a meaning", so a board never contains two pairs with the same meaning.
+- The game reads and writes nothing in IndexedDB (the schedule is untouched); the best time lives in `localStorage` under `matchBest:<dictionary id>` and the game works when storage is unavailable.

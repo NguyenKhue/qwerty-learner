@@ -75,6 +75,9 @@ export default function MySetsPage() {
                       <Button size="sm" onClick={() => navigate(`/quiz/${encodeURIComponent(dict.id)}`)}>
                         Quiz
                       </Button>
+                      <Button size="sm" onClick={() => navigate(`/match/${encodeURIComponent(dict.id)}`)}>
+                        Match
+                      </Button>
                       <Button size="sm" onClick={() => onPractice(dict)}>
                         Practice
                       </Button>
