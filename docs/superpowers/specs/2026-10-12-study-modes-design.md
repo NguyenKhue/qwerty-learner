@@ -154,3 +154,9 @@ reappear until due, and the new-card limit is respected across reloads on the sa
   tables keeps them untouched (`acceptMissingTables: true` is already set) — verify in P1.
 - The existing translation work leaves partially Chinese glosses in many built-in dictionaries; custom sets
   are unaffected.
+
+## Findings from P1 implementation
+
+- Export/import of user data (`dexie-export-import`, `clearTablesBeforeImport: true`) carries `customDicts` and `cardProgress`: an export followed by an import restores them (verified in the browser).
+- Importing a backup made **before** P1 (no `customDicts`/`cardProgress` tables) clears the current custom sets and progress, because the import replaces all tables. This is the existing "restore replaces everything" behaviour and was left unchanged.
+- Under Vitest the app's import graph (`@/utils` → `mixpanel` → `@/store` → `@/resources/dictionary`) needs `window` and `window.matchMedia` at load time, so tests run in `jsdom` with a `matchMedia` stub (`src/test/setup.ts`).
