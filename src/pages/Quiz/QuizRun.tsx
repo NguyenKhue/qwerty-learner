@@ -1,13 +1,16 @@
 import Layout from '@/components/Layout'
+import ScrollCenter from '@/components/ScrollCenter'
 import { Button } from '@/components/ui/button'
 import { reviewCard } from '@/utils/db/card-progress'
+import { reviewQuizAnswer } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
 import { isActivatableButton } from '@/utils/keyboard'
 import { srsEffect } from '@/utils/quiz/effect'
+import { describeSaveFailures } from '@/utils/quiz/failures'
 import type { QuizQuestion } from '@/utils/quiz/questions'
 import { choose, createQuizSession, currentQuestion, isComplete, next, quizSummary } from '@/utils/quiz/session'
 import type { QuizSession } from '@/utils/quiz/session'
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 
 // Enter/Space on a focused button must activate that button, not be swallowed by the hotkey
@@ -16,12 +19,11 @@ const ignoreFocusedButton = (e: KeyboardEvent) => isActivatableButton(e.target)
 type Props = {
   dictId: string
   questions: QuizQuestion[]
-  progress: ICardProgress[]
   onRestart: () => void
   onBack: () => void
 }
 
-export default function QuizRun({ dictId, questions, progress, onRestart, onBack }: Props) {
+export default function QuizRun({ dictId, questions, onRestart, onBack }: Props) {
   const [session, setSession] = useState(() => createQuizSession(questions))
   // The guards read this ref (updated synchronously) so a double click or a repeating key cannot answer twice
   const sessionRef = useRef(session)
@@ -29,8 +31,7 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
     sessionRef.current = nextSession
     setSession(nextSession)
   }, [])
-  const cards = useMemo(() => new Map(progress.map((card): [string, ICardProgress] => [card.word, card])), [progress])
-  const [error, setError] = useState('')
+  const [failedWords, setFailedWords] = useState<string[]>([])
 
   const onChoose = useCallback(
     (optionIndex: number) => {
@@ -40,13 +41,11 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
       if (!question || after === before) return
       update(after)
 
-      const correct = optionIndex === question.answerIndex
-      const grade = srsEffect(correct, cards.get(question.word.name), Date.now())
-      if (grade) {
-        reviewCard(dictId, question.word.name, grade).catch((e) => setError(e instanceof Error ? e.message : 'Could not save your answer'))
-      }
+      // Decided inside the database transaction from the card's current state (it may have changed in another tab)
+      const word = question.word.name
+      reviewQuizAnswer(dictId, word, optionIndex === question.answerIndex).catch(() => setFailedWords((previous) => previous.concat(word)))
     },
-    [cards, dictId, update],
+    [dictId, update],
   )
 
   const onNext = useCallback(() => update(next(sessionRef.current)), [update])
@@ -67,14 +66,15 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
     onBack()
   }
 
+  const failure = describeSaveFailures(failedWords)
   const question = currentQuestion(session)
 
   if (isComplete(session) || !question) {
     const summary = quizSummary(session)
     return (
       <Layout>
-        <div className="flex w-full max-w-2xl flex-1 flex-col justify-center gap-6 px-6">
-          <div className="rounded-lg bg-white p-6 shadow dark:bg-gray-800">
+        <ScrollCenter className="max-w-2xl gap-6">
+          <div className="w-full rounded-lg bg-white p-6 shadow dark:bg-gray-800">
             <p className="text-sm text-gray-500">Quiz finished</p>
             <p className="text-4xl font-medium text-gray-800 dark:text-gray-100">
               {summary.correct} / {summary.total}
@@ -82,9 +82,9 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
           </div>
 
           {summary.missed.length > 0 ? (
-            <div className="space-y-2 rounded-lg bg-white p-6 shadow dark:bg-gray-800">
+            <div className="w-full space-y-2 rounded-lg bg-white p-6 shadow dark:bg-gray-800">
               <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Missed words</p>
-              <ul className="max-h-72 space-y-2 overflow-y-auto">
+              <ul className="space-y-2">
                 {summary.missed.map((word) => (
                   <li key={word.name} className="text-gray-800 dark:text-gray-100">
                     <span className="font-medium">{word.name}</span>
@@ -97,9 +97,9 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
             <p className="text-emerald-600">No mistakes. Well done!</p>
           )}
 
-          {error && (
+          {failure && (
             <p role="alert" className="text-sm text-red-600">
-              {error}
+              {failure}
             </p>
           )}
 
@@ -109,7 +109,7 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
               Back
             </Button>
           </div>
-        </div>
+        </ScrollCenter>
       </Layout>
     )
   }
@@ -119,7 +119,7 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
 
   return (
     <Layout>
-      <div className="flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-8 px-6">
+      <ScrollCenter className="max-w-3xl gap-8">
         <div className="flex w-full items-center justify-between text-sm text-gray-500">
           <span>
             {session.index + 1} / {session.questions.length} · {correctSoFar} correct
@@ -170,16 +170,16 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
             : question.prompt}
         </p>
 
-        {error && (
+        {failure && (
           <p role="alert" className="text-sm text-red-600">
-            {error}
+            {failure}
           </p>
         )}
 
         <Button disabled={!answered} onClick={onNext}>
           {session.index + 1 === session.questions.length ? 'Finish' : 'Next'} (Enter)
         </Button>
-      </div>
+      </ScrollCenter>
     </Layout>
   )
 }

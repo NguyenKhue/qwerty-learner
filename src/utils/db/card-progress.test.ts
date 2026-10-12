@@ -1,5 +1,6 @@
-import { getDictProgress, reviewCard } from './card-progress'
+import { getDictProgress, reviewCard, reviewQuizAnswer } from './card-progress'
 import { db } from './database'
+import type { ICardProgress } from './record'
 import { beforeEach, describe, expect, it } from 'vitest'
 
 const NOW = new Date(2026, 9, 12, 15, 30).getTime()
@@ -39,5 +40,60 @@ describe('getDictProgress', () => {
     const rows = await getDictProgress('custom:a')
     expect(rows.map((r) => r.word).sort()).toEqual(['apple', 'pear'])
     expect(await getDictProgress('custom:none')).toEqual([])
+  })
+})
+
+describe('reviewQuizAnswer', () => {
+  const dict = 'custom:q'
+  const row = (over: Partial<ICardProgress> = {}): ICardProgress => ({
+    dict,
+    word: 'apple',
+    state: 'review',
+    due: NOW - 1000,
+    interval: 3,
+    ease: 2.5,
+    reps: 4,
+    lapses: 0,
+    firstSeen: NOW - 5 * 86400000,
+    lastReviewed: NOW - 86400000,
+    ...over,
+  })
+
+  it('a wrong answer on a never-studied word introduces it as a learning card', async () => {
+    const saved = await reviewQuizAnswer(dict, 'apple', false, NOW)
+    expect(saved).toMatchObject({ state: 'learning', reps: 1, firstSeen: NOW })
+    expect(await db.cardProgress.count()).toBe(1)
+  })
+
+  it('a correct answer on a never-studied word writes nothing', async () => {
+    expect(await reviewQuizAnswer(dict, 'apple', true, NOW)).toBeNull()
+    expect(await db.cardProgress.count()).toBe(0)
+  })
+
+  it('a correct answer on a due card is graded good', async () => {
+    await db.cardProgress.put(row())
+    const saved = await reviewQuizAnswer(dict, 'apple', true, NOW)
+    expect(saved).toMatchObject({ state: 'review', reps: 5, lapses: 0 })
+    expect((await db.cardProgress.get([dict, 'apple']))?.reps).toBe(5)
+  })
+
+  it('a correct answer on a card that is not due yet changes nothing', async () => {
+    const card = row({ due: NOW + 86400000 })
+    await db.cardProgress.put(card)
+    expect(await reviewQuizAnswer(dict, 'apple', true, NOW)).toBeNull()
+    expect(await db.cardProgress.get([dict, 'apple'])).toEqual(card)
+  })
+
+  it('a wrong answer on a due card is graded again and counts a lapse', async () => {
+    await db.cardProgress.put(row())
+    expect(await reviewQuizAnswer(dict, 'apple', false, NOW)).toMatchObject({ state: 'learning', lapses: 1, reps: 5 })
+  })
+
+  it('decides from the row as it is now, not from a snapshot taken earlier (another tab may have changed it)', async () => {
+    await db.cardProgress.put(row({ due: NOW + 86400000 }))
+    expect(await reviewQuizAnswer(dict, 'apple', true, NOW)).toBeNull()
+    // another tab studied the card in the meantime and it is due again
+    await db.cardProgress.put(row({ due: NOW - 1 }))
+    expect(await reviewQuizAnswer(dict, 'apple', true, NOW)).toMatchObject({ reps: 5 })
   })
 })
