@@ -26,12 +26,19 @@ export function isCustomDictPending(id: string, customLoaded: boolean): boolean 
   return isCustomDictId(id) && !customLoaded
 }
 
+export type DictIdStatus = 'valid' | 'pending' | 'unknown'
+
+/** A custom id is `pending` until the custom sets have been read from IndexedDB; ids that name no set (including Object.prototype members) are `unknown`. */
+export function classifyDictId(id: string, customLoaded: boolean, byId: Record<string, Dictionary>): DictIdStatus {
+  if (lookupDictionary(byId, id)) return 'valid'
+  if (isCustomDictPending(id, customLoaded)) return 'pending'
+  return 'unknown'
+}
+
 /**
  * Whether the persisted current-dictionary id should be reset to the default.
  * A custom id is kept until the custom sets have been loaded from IndexedDB, so a page reload does not lose the selection.
  */
 export function shouldResetDictId(id: string, customLoaded: boolean, byId: Record<string, Dictionary>): boolean {
-  if (id in byId) return false
-  if (isCustomDictPending(id, customLoaded)) return false
-  return true
+  return classifyDictId(id, customLoaded, byId) === 'unknown'
 }

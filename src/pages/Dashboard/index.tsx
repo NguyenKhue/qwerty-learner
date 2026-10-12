@@ -81,7 +81,7 @@ export default function Dashboard() {
     () => (words && progress ? dashboardStats({ words, progress, now, newPerDay }) : null),
     [words, progress, now, newPerDay],
   )
-  const items = useMemo(() => buildNavItems(dict.id), [dict.id])
+  const items = useMemo(() => buildNavItems(), [])
   const link = (id: NavItem['id']) => items.find((item) => item.id === id)?.to ?? '/'
   const best = readBest(dict.id)
 

@@ -181,8 +181,7 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
 
 export default function AppShell() {
   const { pathname } = useLocation()
-  const dict = useAtomValue(currentDictInfoAtom)
-  const items = useMemo(() => buildNavItems(dict.id), [dict.id])
+  const items = useMemo(() => buildNavItems(), [])
   // Typing keeps the narrow sidebar so the practice area gets the room
   const compact = pathname === '/typing' || pathname.indexOf('/typing/') === 0
 

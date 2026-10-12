@@ -1,6 +1,5 @@
 import Tooltip from '@/components/Tooltip'
 import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
-import { isCustomDictId } from '@/utils/db/custom-dict'
 import range from '@/utils/range'
 import { Listbox, Transition } from '@headlessui/react'
 import { useAtom, useAtomValue } from 'jotai'
@@ -29,36 +28,6 @@ export const DictChapterButton = () => {
           {currentDictInfo.name} {isReviewMode && 'Mistake Review'}
         </NavLink>
       </Tooltip>
-      {isCustomDictId(currentDictInfo.id) && !isReviewMode && (
-        <Tooltip content="Study with flashcards">
-          <NavLink
-            className="block rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus:outline-none dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
-            to={`/study/${encodeURIComponent(currentDictInfo.id)}`}
-          >
-            Study
-          </NavLink>
-        </Tooltip>
-      )}
-      {isCustomDictId(currentDictInfo.id) && !isReviewMode && (
-        <Tooltip content="Take a multiple-choice quiz">
-          <NavLink
-            className="block rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus:outline-none dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
-            to={`/quiz/${encodeURIComponent(currentDictInfo.id)}`}
-          >
-            Quiz
-          </NavLink>
-        </Tooltip>
-      )}
-      {isCustomDictId(currentDictInfo.id) && !isReviewMode && (
-        <Tooltip content="Play the matching game">
-          <NavLink
-            className="block rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus:outline-none dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
-            to={`/match/${encodeURIComponent(currentDictInfo.id)}`}
-          >
-            Match
-          </NavLink>
-        </Tooltip>
-      )}
       {!isReviewMode && (
         <Tooltip content="Switch chapter">
           <Listbox value={currentChapter} onChange={setCurrentChapter}>

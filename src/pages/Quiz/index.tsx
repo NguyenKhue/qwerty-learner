@@ -2,17 +2,18 @@ import QuizRun from './QuizRun'
 import QuizSetup from './Setup'
 import Layout from '@/components/Layout'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
+import { currentDictInfoAtom } from '@/store'
 import { quizDirectionAtom, quizLengthAtom } from '@/store/quiz'
 import { buildQuiz, canQuiz, distinctMeaningCount, sanitizeQuizLength } from '@/utils/quiz/questions'
 import type { QuizQuestion } from '@/utils/quiz/questions'
-import { useAtom } from 'jotai'
+import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
-import { useLocation, useNavigate, useParams } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function QuizRoute() {
-  const { dictId = '' } = useParams()
-  return <Quiz key={dictId} id={dictId} />
+  const dict = useAtomValue(currentDictInfoAtom)
+  return <Quiz key={dict.id} id={dict.id} />
 }
 
 function Quiz({ id }: { id: string }) {
@@ -30,8 +31,8 @@ function Quiz({ id }: { id: string }) {
   const distinctMeanings = useMemo(() => (words ? distinctMeaningCount(words) : 0), [words])
   const available = useMemo(() => (words ? canQuiz(words) : false), [words])
 
-  // `default` is the key of the first history entry: there is nothing to go back to, so fall back to the sets page
-  const onBack = useCallback(() => (location.key === 'default' ? navigate('/my-sets') : navigate(-1)), [location.key, navigate])
+  // `default` is the key of the first history entry: there is nothing to go back to, so fall back to the dashboard
+  const onBack = useCallback(() => (location.key === 'default' ? navigate('/') : navigate(-1)), [location.key, navigate])
 
   const start = useCallback(() => {
     if (!words) return

@@ -2,6 +2,7 @@ import StudyOverview from './Overview'
 import StudySession from './StudySession'
 import type { SessionSummary } from './StudySession'
 import Layout from '@/components/Layout'
+import { currentDictInfoAtom } from '@/store'
 import { customDictionariesLoadedAtom, dictionaryByIdAtom, isCustomDictPending, lookupDictionary } from '@/store/customDicts'
 import { newCardsPerDayAtom, studyReverseAtom } from '@/store/study'
 import { getDictProgress } from '@/utils/db/card-progress'
@@ -11,14 +12,13 @@ import type { QueueItem } from '@/utils/srs/queue'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useEffect, useState } from 'react'
-import { useLocation, useNavigate, useParams } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import useSWR from 'swr'
 
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function StudyRoute() {
-  const { dictId = '' } = useParams()
-  // React Router has already decoded the param
-  return <Study key={dictId} id={dictId} />
+  const dict = useAtomValue(currentDictInfoAtom)
+  return <Study key={dict.id} id={dict.id} />
 }
 
 function Study({ id }: { id: string }) {
@@ -125,8 +125,8 @@ function Study({ id }: { id: string }) {
       onReverseChange={setReverse}
       summary={summary}
       onStart={onStart}
-      // `default` is the key of the first entry of the session: there is nothing to go back to, so fall back to the sets page
-      onBack={() => (location.key === 'default' ? navigate('/my-sets') : navigate(-1))}
+      // `default` is the key of the first entry of the session: there is nothing to go back to, so fall back to the dashboard
+      onBack={() => (location.key === 'default' ? navigate('/') : navigate(-1))}
     />
   )
 }

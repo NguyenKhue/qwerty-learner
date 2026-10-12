@@ -1,6 +1,7 @@
 import AppShell from './components/AppShell'
 import CustomDictsSync from './components/CustomDictsSync'
 import Loading from './components/Loading'
+import SelectDictRedirect from './components/SelectDictRedirect'
 import './index.css'
 import { ErrorBook } from './pages/ErrorBook'
 import { FriendLinks } from './pages/FriendLinks'
@@ -52,9 +53,12 @@ function Root() {
               <Route path="/error-book" element={<ErrorBook />} />
               <Route path="/my-sets" element={<MySetsPage />} />
               <Route path="/my-sets/:id" element={<SetEditorPage />} />
-              <Route path="/study/:dictId" element={<StudyPage />} />
-              <Route path="/quiz/:dictId" element={<QuizPage />} />
-              <Route path="/match/:dictId" element={<MatchPage />} />
+              <Route path="/study" element={<StudyPage />} />
+              <Route path="/quiz" element={<QuizPage />} />
+              <Route path="/match" element={<MatchPage />} />
+              <Route path="/study/:dictId" element={<SelectDictRedirect mode="study" />} />
+              <Route path="/quiz/:dictId" element={<SelectDictRedirect mode="quiz" />} />
+              <Route path="/match/:dictId" element={<SelectDictRedirect mode="match" />} />
               <Route path="/friend-links" element={<FriendLinks />} />
               <Route path="/mobile" element={<Navigate to="/" replace />} />
               <Route path="/*" element={<Navigate to="/" />} />

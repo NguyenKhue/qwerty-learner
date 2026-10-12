@@ -2,16 +2,18 @@ import MatchBoard from './MatchBoard'
 import Layout from '@/components/Layout'
 import { Button } from '@/components/ui/button'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
+import { currentDictInfoAtom } from '@/store'
 import { formatDuration, readBest } from '@/utils/match/best'
 import { buildBoard, canPlay } from '@/utils/match/board'
 import type { Tile } from '@/utils/match/board'
+import { useAtomValue } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
-import { useLocation, useNavigate, useParams } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function MatchRoute() {
-  const { dictId = '' } = useParams()
-  return <Match key={dictId} id={dictId} />
+  const dict = useAtomValue(currentDictInfoAtom)
+  return <Match key={dict.id} id={dict.id} />
 }
 
 function Match({ id }: { id: string }) {
@@ -25,8 +27,8 @@ function Match({ id }: { id: string }) {
 
   const playable = useMemo(() => (words ? canPlay(words) : false), [words])
 
-  // `default` is the key of the first history entry: there is nothing to go back to, so fall back to the sets page
-  const onBack = useCallback(() => (location.key === 'default' ? navigate('/my-sets') : navigate(-1)), [location.key, navigate])
+  // `default` is the key of the first history entry: there is nothing to go back to, so fall back to the dashboard
+  const onBack = useCallback(() => (location.key === 'default' ? navigate('/') : navigate(-1)), [location.key, navigate])
 
   const start = useCallback(() => {
     if (!words) return

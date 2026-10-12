@@ -1,5 +1,6 @@
 import {
   allDictionariesAtom,
+  classifyDictId,
   customDictionariesAtom,
   customDictionariesLoadedAtom,
   dictionaryByIdAtom,
@@ -81,5 +82,23 @@ describe('lookupDictionary', () => {
     expect(lookupDictionary(byId, 'toString')).toBeUndefined()
     expect(lookupDictionary(byId, '__proto__')).toBeUndefined()
     expect(lookupDictionary(byId, 'missing')).toBeUndefined()
+  })
+})
+
+describe('classifyDictId', () => {
+  const byId = { cet4: dictionaries.find((d) => d.id === 'cet4') as Dictionary, 'custom:abc': custom }
+
+  it('knows valid ids, pending custom ids and unknown ids', () => {
+    expect(classifyDictId('cet4', false, byId)).toBe('valid')
+    expect(classifyDictId('custom:abc', true, byId)).toBe('valid')
+    expect(classifyDictId('custom:gone', false, byId)).toBe('pending')
+    expect(classifyDictId('custom:gone', true, byId)).toBe('unknown')
+    expect(classifyDictId('nope', true, byId)).toBe('unknown')
+  })
+
+  it('treats names of Object.prototype members as unknown', () => {
+    expect(classifyDictId('constructor', true, byId)).toBe('unknown')
+    expect(classifyDictId('toString', false, byId)).toBe('unknown')
+    expect(shouldResetDictId('constructor', true, byId)).toBe(true)
   })
 })
