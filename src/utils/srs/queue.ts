@@ -18,6 +18,11 @@ export function sanitizeNewPerDay(value: unknown): number {
 /** A stored `due` that is not a number is treated as "due now" so a corrupt row can never hide its card forever. */
 const dueOf = (card: ICardProgress) => (Number.isFinite(card.due) ? card.due : 0)
 
+/** Whether a card is due at `now` (a non-numeric `due` counts as due now). */
+export function isDue(card: ICardProgress, now: number): boolean {
+  return dueOf(card) <= now
+}
+
 function uniqueWords(words: Word[]): Word[] {
   const seen = new Set<string>()
   const result: Word[] = []
@@ -55,7 +60,7 @@ export function buildQueue(input: { words: Word[]; progress: ICardProgress[]; no
   words.forEach((word) => {
     const card = byWord.get(word.name)
     if (!card) fresh.push(word)
-    else if (dueOf(card) <= input.now) due.push({ word, due: dueOf(card) })
+    else if (isDue(card, input.now)) due.push({ word, due: dueOf(card) })
   })
   due.sort((a, b) => a.due - b.due)
 
