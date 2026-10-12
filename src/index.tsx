@@ -17,6 +17,7 @@ import 'react-app-polyfill/stable'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 
+const AboutPage = lazy(() => import('./pages/About'))
 const DashboardPage = lazy(() => import('./pages/Dashboard'))
 const AnalysisPage = lazy(() => import('./pages/Analysis'))
 const GalleryPage = lazy(() => import('./pages/Gallery-N'))
@@ -59,6 +60,7 @@ function Root() {
               <Route path="/study/:dictId" element={<SelectDictRedirect mode="study" />} />
               <Route path="/quiz/:dictId" element={<SelectDictRedirect mode="quiz" />} />
               <Route path="/match/:dictId" element={<SelectDictRedirect mode="match" />} />
+              <Route path="/about" element={<AboutPage />} />
               <Route path="/friend-links" element={<FriendLinks />} />
               <Route path="/mobile" element={<Navigate to="/" replace />} />
               <Route path="/*" element={<Navigate to="/" />} />

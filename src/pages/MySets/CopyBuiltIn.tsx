@@ -1,3 +1,4 @@
+import { Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import { dictionaries } from '@/resources/dictionary'
 import { duplicateDictionaryAsCustom } from '@/utils/db/copy-dict'
@@ -27,14 +28,14 @@ export default function CopyBuiltIn() {
   }
 
   return (
-    <section className="w-full rounded-lg bg-white p-6 shadow dark:bg-gray-800">
-      <h2 className="mb-1 text-lg font-medium text-gray-800 dark:text-gray-200">Copy a built-in dictionary</h2>
-      <p className="mb-4 text-sm text-gray-500">Built-in dictionaries cannot be edited. Copy one into your sets to edit it.</p>
-      <div className="flex items-center gap-3">
+    <Panel className="w-full">
+      <h2 className="mb-1 text-lg font-medium">Copy a built-in dictionary</h2>
+      <p className="mb-4 text-sm text-muted-foreground">Built-in dictionaries cannot be edited. Copy one into your sets to edit it.</p>
+      <div className="flex flex-wrap items-center gap-3">
         <select
           value={selectedId}
           onChange={(e) => setSelectedId(e.target.value)}
-          className="w-80 rounded border border-gray-300 px-3 py-2 dark:border-gray-600 dark:bg-gray-900"
+          className="h-11 w-full max-w-xs rounded-lg border border-border bg-background px-3 text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         >
           {groups.map(([category, dicts]) => (
             <optgroup key={category} label={category}>
@@ -50,7 +51,7 @@ export default function CopyBuiltIn() {
           {busy ? 'Copying…' : 'Copy'}
         </Button>
       </div>
-      {message && <p className="mt-3 text-sm text-indigo-600">{message}</p>}
-    </section>
+      {message && <p className="mt-3 text-sm text-primary">{message}</p>}
+    </Panel>
   )
 }

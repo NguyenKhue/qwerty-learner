@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout'
+import { Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import { rowsToWords } from '@/utils/custom-dict/parse'
 import type { EditableRow } from '@/utils/custom-dict/parse'
@@ -7,8 +7,10 @@ import { memo, useCallback, useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
 const emptyRow = (): EditableRow => ({ name: '', trans: '', usphone: '', ukphone: '' })
-const inputClass = 'w-full rounded border border-gray-300 px-2 py-1 text-sm dark:border-gray-600 dark:bg-gray-900'
-const gridClass = 'grid grid-cols-[2fr_4fr_1.5fr_1.5fr_auto] gap-2'
+const inputClass =
+  'w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring'
+// One column of stacked fields on phones, a table-like row from 768px
+const gridClass = 'grid grid-cols-1 gap-2 md:grid-cols-[2fr_4fr_1.5fr_1.5fr_auto]'
 
 type RowEditorProps = {
   row: EditableRow
@@ -21,11 +23,36 @@ type RowEditorProps = {
 // Memoised so that typing in one row does not re-render thousands of rows in a large set
 const RowEditor = memo(function RowEditor({ row, index, onChange, onMove, onRemove }: RowEditorProps) {
   return (
-    <div className={`${gridClass} items-start`}>
-      <input value={row.name} onChange={(e) => onChange(index, { name: e.target.value })} className={inputClass} />
-      <textarea value={row.trans} rows={2} onChange={(e) => onChange(index, { trans: e.target.value })} className={inputClass} />
-      <input value={row.usphone} onChange={(e) => onChange(index, { usphone: e.target.value })} className={inputClass} />
-      <input value={row.ukphone} onChange={(e) => onChange(index, { ukphone: e.target.value })} className={inputClass} />
+    <div className={`${gridClass} items-start rounded-lg border border-border p-3 md:border-0 md:p-0`}>
+      <input
+        value={row.name}
+        placeholder="Word"
+        aria-label={`Word ${index + 1}`}
+        onChange={(e) => onChange(index, { name: e.target.value })}
+        className={inputClass}
+      />
+      <textarea
+        value={row.trans}
+        rows={2}
+        placeholder="Meanings"
+        aria-label={`Meanings of word ${index + 1}`}
+        onChange={(e) => onChange(index, { trans: e.target.value })}
+        className={inputClass}
+      />
+      <input
+        value={row.usphone}
+        placeholder="US phonetic"
+        aria-label={`US phonetic of word ${index + 1}`}
+        onChange={(e) => onChange(index, { usphone: e.target.value })}
+        className={inputClass}
+      />
+      <input
+        value={row.ukphone}
+        placeholder="UK phonetic"
+        aria-label={`UK phonetic of word ${index + 1}`}
+        onChange={(e) => onChange(index, { ukphone: e.target.value })}
+        className={inputClass}
+      />
       <div className="flex gap-1">
         <Button size="sm" variant="outline" onClick={() => onMove(index, -1)} title="Move up">
           ↑
@@ -133,13 +160,13 @@ function SetEditor({ id }: { id: string }) {
   }
 
   return (
-    <Layout>
-      <div className="flex w-full flex-1 flex-col items-center overflow-y-auto px-20 pb-10 pt-16">
-        <div className="flex w-full max-w-5xl flex-col gap-4">
-          <h1 className="text-2xl font-medium text-gray-800 dark:text-gray-200">{isNew ? 'New set' : 'Edit set'}</h1>
+    <div className="mx-auto flex w-full max-w-5xl flex-col gap-4 px-4 py-6 md:px-8">
+      <div className="flex w-full flex-col gap-4">
+        <div className="flex w-full flex-col gap-4">
+          <h1 className="text-2xl font-semibold">{isNew ? 'New set' : 'Edit set'}</h1>
           {loadError ? (
             <>
-              <p className="text-red-600">{loadError}</p>
+              <p className="text-destructive">{loadError}</p>
               <div>
                 <Button variant="outline" onClick={() => navigate('/my-sets')}>
                   Back to my sets
@@ -147,10 +174,10 @@ function SetEditor({ id }: { id: string }) {
               </div>
             </>
           ) : loading ? (
-            <p className="text-gray-500">Loading…</p>
+            <p className="text-muted-foreground">Loading…</p>
           ) : (
             <>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <input
                   value={name}
                   onChange={(e) => {
@@ -171,9 +198,9 @@ function SetEditor({ id }: { id: string }) {
                 />
               </div>
 
-              <p className="text-sm text-gray-500">Put one meaning per line. Phonetics are optional.</p>
-              <div className="rounded-lg bg-white p-4 shadow dark:bg-gray-800">
-                <div className={`mb-2 ${gridClass} text-xs font-medium uppercase text-gray-500`}>
+              <p className="text-sm text-muted-foreground">Put one meaning per line. Phonetics are optional.</p>
+              <Panel className="p-4">
+                <div className={`mb-2 ${gridClass} hidden text-xs font-medium uppercase text-muted-foreground md:grid`}>
                   <span>Word</span>
                   <span>Meanings</span>
                   <span>US phonetic</span>
@@ -196,10 +223,10 @@ function SetEditor({ id }: { id: string }) {
                     Add word
                   </Button>
                 </div>
-              </div>
+              </Panel>
 
               {errors.length > 0 && (
-                <ul className="list-disc pl-5 text-sm text-red-600">
+                <ul className="list-disc pl-5 text-sm text-destructive">
                   {errors.map((error, i) => (
                     <li key={i}>{error}</li>
                   ))}
@@ -218,6 +245,6 @@ function SetEditor({ id }: { id: string }) {
           )}
         </div>
       </div>
-    </Layout>
+    </div>
   )
 }

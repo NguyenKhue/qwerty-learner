@@ -150,3 +150,14 @@ Remove the 600px redirect and the `/mobile` page content. At < 768px the bottom 
 - The Typing toolbar's Study/Quiz/Match links (custom sets only) were removed; the shell navigation replaces them.
 - `Button` and the three modes use tokens now. Buttons are 44px tall by default (40px for `sm`); "Hard" uses `amber-700` with white text (5.0:1) because no warning token exists.
 - Verified in the browser on CET-4: a Flashcards session (flip with Space, grade with 3, a progress row stored), a Quiz question (green correct, red wrong), a Match board at 375px in dark mode with no horizontal scroll. Test progress rows were deleted afterwards.
+
+## Findings: R4 (library, my sets, about, cleanup)
+
+- Places that sent people to `/` expecting the typing page now go to `/typing`: Library chapter picker, Mistake Review start/continue. My Sets lost its Study/Quiz/Match/Practice buttons (the dashboard has them) and has one `Open` action that makes the set current and opens the dashboard.
+- The Library detail dialog has a "Use this set" button (sets the current set, chapter 0, leaves review mode, opens the dashboard).
+- The footer moved to `/about` (reachable from the sidebar and the phone "More" sheet); `Layout` no longer renders it. Its icon links get 44px tap areas on that page.
+- `src/pages/Mobile` and `src/assets/mobile` were deleted (`/mobile` redirects to `/` since R1).
+- The Library grid was sized by viewport breakpoints, so it overflowed once the sidebar took 240px. It now uses `auto-fill` columns, wrapping tag and language rows, and no fixed side padding.
+- `Panel` merges classes with `cn`, so `p-0` overrides its default padding.
+- The set editor stacks each row on phones (labelled inputs) and keeps the table layout from 768px.
+- Not restyled (they work in the shell with their old palette): Analysis, Error book, Friend links, the Library's card internals and dialog, the typing word panel and its toolbar buttons. These are the follow-up for a later pass, together with the weekly activity chart and streak.

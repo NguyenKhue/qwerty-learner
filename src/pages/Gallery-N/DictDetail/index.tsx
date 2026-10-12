@@ -4,6 +4,7 @@ import { ErrorTable } from '../ErrorTable'
 import { getRowsFromErrorWordData } from '../ErrorTable/columns'
 import { ReviewDetail } from '../ReviewDetail'
 import useErrorWordData from '../hooks/useErrorWords'
+import { Button } from '@/components/ui/button'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Tabs, TabsContent } from '@/components/ui/tabs'
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
@@ -52,10 +53,17 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
       setCurrentDictId(dict.id)
       setCurrentChapter(index)
       setReviewModeInfo((old) => ({ ...old, isReviewMode: false }))
-      navigate('/')
+      navigate('/typing')
     },
     [dict.id, navigate, setCurrentChapter, setCurrentDictId, setReviewModeInfo],
   )
+
+  const onUseSet = useCallback(() => {
+    setCurrentDictId(dict.id)
+    setCurrentChapter(0)
+    setReviewModeInfo((old) => ({ ...old, isReviewMode: false }))
+    navigate('/')
+  }, [dict.id, navigate, setCurrentChapter, setCurrentDictId, setReviewModeInfo])
 
   const handleTabChange = useCallback(
     (value: Tab) => {
@@ -69,7 +77,12 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
   return (
     <div className="flex flex-col rounded-[4rem] px-4 py-3 pl-5 text-gray-800 dark:text-gray-300">
       <div className="text relative flex h-40 flex-col gap-2">
-        <h3 className="text-2xl font-semibold">{dict.name}</h3>
+        <div className="flex items-center justify-between gap-4">
+          <h3 className="text-2xl font-semibold">{dict.name}</h3>
+          <Button size="sm" onClick={onUseSet}>
+            Use this set
+          </Button>
+        </div>
         <p className="mt-1">{dict.chapterCount} chapters</p>
         <p>{dict.length} words in total</p>
         <p>{dict.description}</p>

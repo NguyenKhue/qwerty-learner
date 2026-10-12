@@ -154,7 +154,10 @@ const Footer: React.FC = () => {
         <br />
       </InfoPanel>
 
-      <footer className="mb-1 mt-4 flex w-full items-center justify-center gap-2.5 text-sm ease-in" onClick={(e) => e.currentTarget.blur()}>
+      <footer
+        className="mb-1 mt-4 flex w-full flex-wrap items-center justify-center gap-x-2.5 gap-y-3 text-sm ease-in"
+        onClick={(e) => e.currentTarget.blur()}
+      >
         <a href="https://github.com/RealKai42/qwerty-learner" target="_blank" rel="noreferrer" aria-label="Go to the GitHub project page">
           <IconGithub fontSize={15} className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100" />
         </a>

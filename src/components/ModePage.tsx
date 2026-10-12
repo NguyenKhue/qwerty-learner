@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import { cn } from '@/utils/ui'
 import type { ReactNode } from 'react'
 
 /** Fills the shell's content area so a page can center itself and scroll inside it. */
@@ -8,7 +9,7 @@ export function ModeFrame({ children }: { children: ReactNode }) {
 
 /** The card surface used by the study modes. */
 export function Panel({ className = '', children }: { className?: string; children: ReactNode }) {
-  return <div className={`rounded-xl border border-border bg-card p-6 text-card-foreground ${className}`}>{children}</div>
+  return <div className={cn('rounded-xl border border-border bg-card p-6 text-card-foreground', className)}>{children}</div>
 }
 
 /** A centered column with the set name and a Back button, used by the start screens of the study modes. */

@@ -11,6 +11,7 @@ import IconCards from '~icons/tabler/cards'
 import IconDots from '~icons/tabler/dots'
 import IconFolders from '~icons/tabler/folders'
 import IconHome from '~icons/tabler/home'
+import IconInfoCircle from '~icons/tabler/info-circle'
 import IconKeyboard from '~icons/tabler/keyboard'
 import IconListCheck from '~icons/tabler/list-check'
 import IconMoon from '~icons/tabler/moon'
@@ -114,7 +115,20 @@ function Sidebar({ items, pathname, compact }: { items: NavItem[]; pathname: str
         ))}
       </nav>
 
-      <ThemeToggle showLabel={!compact} />
+      <div className="flex flex-col gap-1">
+        <Link
+          to="/about"
+          title="About & support"
+          aria-current={pathname === '/about' ? 'page' : undefined}
+          className={`flex min-h-[44px] items-center gap-3 rounded-lg px-3 text-sm font-medium transition-colors duration-200 ${
+            pathname === '/about' ? activeStyle : idleStyle
+          } ${focusRing}`}
+        >
+          <IconInfoCircle className="h-5 w-5 shrink-0" aria-hidden />
+          <span className={compact ? 'sr-only' : 'sr-only lg:not-sr-only'}>About &amp; support</span>
+        </Link>
+        <ThemeToggle showLabel={!compact} />
+      </div>
     </aside>
   )
 }

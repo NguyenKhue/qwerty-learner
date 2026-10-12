@@ -12,6 +12,7 @@ export const MORE_LINKS: Array<{ label: string; to: string }> = [
   { label: 'Library', to: '/gallery' },
   { label: 'Error book', to: '/error-book' },
   { label: 'Analysis', to: '/analysis' },
+  { label: 'About & support', to: '/about' },
 ]
 
 export function buildNavItems(): NavItem[] {

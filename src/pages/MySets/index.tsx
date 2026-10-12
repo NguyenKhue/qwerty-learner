@@ -1,6 +1,6 @@
 import CopyBuiltIn from './CopyBuiltIn'
 import ImportPanel from './ImportPanel'
-import Layout from '@/components/Layout'
+import { Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import { currentChapterAtom, currentDictIdAtom } from '@/store'
 import { customDictionariesAtom } from '@/store/customDicts'
@@ -9,7 +9,6 @@ import { customIdOf, deleteCustomDict, duplicateCustomDict } from '@/utils/db/cu
 import { useAtomValue, useSetAtom } from 'jotai'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import IconX from '~icons/tabler/x'
 
 export default function MySetsPage() {
   const navigate = useNavigate()
@@ -18,7 +17,8 @@ export default function MySetsPage() {
   const setCurrentChapter = useSetAtom(currentChapterAtom)
   const [error, setError] = useState('')
 
-  const onPractice = (dict: Dictionary) => {
+  // Every mode is one click away on the dashboard, so opening a set just makes it the current one
+  const onOpen = (dict: Dictionary) => {
     setCurrentDictId(dict.id)
     setCurrentChapter(0)
     navigate('/')
@@ -44,65 +44,55 @@ export default function MySetsPage() {
   }
 
   return (
-    <Layout>
-      <div className="relative flex w-full flex-1 flex-col items-center overflow-y-auto px-20 pb-10 pt-16">
-        <IconX className="absolute right-20 top-10 h-7 w-7 cursor-pointer text-gray-400" onClick={() => navigate('/gallery')} />
-        <div className="flex w-full max-w-4xl flex-col gap-6">
-          <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-medium text-gray-800 dark:text-gray-200">My sets</h1>
-            <Button onClick={() => navigate('/my-sets/new')}>New set</Button>
-          </div>
-
-          <section className="w-full rounded-lg bg-white shadow dark:bg-gray-800">
-            {sets.length === 0 ? (
-              <p className="p-6 text-sm text-gray-500">
-                You have no sets yet. Create one, import a file, or copy a built-in dictionary below.
-              </p>
-            ) : (
-              <ul className="divide-y divide-gray-100 dark:divide-gray-700">
-                {sets.map((dict) => (
-                  <li key={dict.id} className="flex items-center justify-between gap-4 px-6 py-4">
-                    <div className="min-w-0">
-                      <p className="truncate text-lg text-gray-800 dark:text-gray-200">{dict.name}</p>
-                      <p className="truncate text-sm text-gray-500">
-                        {dict.length} words{dict.description ? ` · ${dict.description}` : ''}
-                      </p>
-                    </div>
-                    <div className="flex shrink-0 gap-2">
-                      <Button size="sm" onClick={() => navigate(`/study/${encodeURIComponent(dict.id)}`)}>
-                        Study
-                      </Button>
-                      <Button size="sm" onClick={() => navigate(`/quiz/${encodeURIComponent(dict.id)}`)}>
-                        Quiz
-                      </Button>
-                      <Button size="sm" onClick={() => navigate(`/match/${encodeURIComponent(dict.id)}`)}>
-                        Match
-                      </Button>
-                      <Button size="sm" onClick={() => onPractice(dict)}>
-                        Practice
-                      </Button>
-                      <Button size="sm" variant="outline" onClick={() => navigate(`/my-sets/${customIdOf(dict.id)}`)}>
-                        Edit
-                      </Button>
-                      <Button size="sm" variant="outline" onClick={() => onDuplicate(dict)}>
-                        Duplicate
-                      </Button>
-                      <Button size="sm" variant="destructive" onClick={() => onDelete(dict)}>
-                        Delete
-                      </Button>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </section>
-
-          {error && <p className="text-sm text-red-600">{error}</p>}
-
-          <ImportPanel />
-          <CopyBuiltIn />
-        </div>
+    <div className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 py-6 md:px-8">
+      <div className="flex items-center justify-between gap-4">
+        <h1 className="text-2xl font-semibold">My sets</h1>
+        <Button onClick={() => navigate('/my-sets/new')}>New set</Button>
       </div>
-    </Layout>
+
+      <Panel className="p-0">
+        {sets.length === 0 ? (
+          <p className="p-6 text-sm text-muted-foreground">
+            You have no sets yet. Create one, import a file, or copy a built-in dictionary below.
+          </p>
+        ) : (
+          <ul className="divide-y divide-border">
+            {sets.map((dict) => (
+              <li key={dict.id} className="flex flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+                <div className="min-w-0">
+                  <p className="truncate text-lg font-medium">{dict.name}</p>
+                  <p className="truncate text-sm text-muted-foreground">
+                    {dict.length} words{dict.description ? ` · ${dict.description}` : ''}
+                  </p>
+                </div>
+                <div className="flex shrink-0 flex-wrap gap-2">
+                  <Button size="sm" onClick={() => onOpen(dict)}>
+                    Open
+                  </Button>
+                  <Button size="sm" variant="outline" onClick={() => navigate(`/my-sets/${customIdOf(dict.id)}`)}>
+                    Edit
+                  </Button>
+                  <Button size="sm" variant="outline" onClick={() => onDuplicate(dict)}>
+                    Duplicate
+                  </Button>
+                  <Button size="sm" variant="destructive" onClick={() => onDelete(dict)}>
+                    Delete
+                  </Button>
+                </div>
+              </li>
+            ))}
+          </ul>
+        )}
+      </Panel>
+
+      {error && (
+        <p role="alert" className="text-sm text-destructive">
+          {error}
+        </p>
+      )}
+
+      <ImportPanel />
+      <CopyBuiltIn />
+    </div>
   )
 }

@@ -1,3 +1,4 @@
+import { Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import { hasReplacementChars, parseWordsFile } from '@/utils/custom-dict/parse'
 import type { ParseResult } from '@/utils/custom-dict/parse'
@@ -51,9 +52,9 @@ export default function ImportPanel() {
   }
 
   return (
-    <section className="w-full rounded-lg bg-white p-6 shadow dark:bg-gray-800">
-      <h2 className="mb-1 text-lg font-medium text-gray-800 dark:text-gray-200">Import a set</h2>
-      <p className="mb-4 text-sm text-gray-500">
+    <Panel className="w-full">
+      <h2 className="mb-1 text-lg font-medium">Import a set</h2>
+      <p className="mb-4 text-sm text-muted-foreground">
         CSV with columns <code>name,trans,usphone,ukphone</code> (separate meanings with <code>;</code>), or a JSON file in the same format
         as the built-in dictionaries.
       </p>
@@ -65,18 +66,18 @@ export default function ImportPanel() {
           e.target.value = ''
         }}
         disabled={reading}
-        className="text-sm text-gray-700 dark:text-gray-300"
+        className="text-sm text-foreground"
       />
-      {warning && <p className="mt-3 text-sm text-amber-600">{warning}</p>}
+      {warning && <p className="mt-3 text-sm text-amber-700 dark:text-amber-400">{warning}</p>}
 
       {result && (
-        <div className="mt-4 space-y-3 text-sm text-gray-700 dark:text-gray-300">
+        <div className="mt-4 space-y-3 text-sm text-foreground">
           <p>
             {result.words.length} valid words, {result.errors.length} skipped rows
             {result.duplicates.length > 0 && `, ${result.duplicates.length} duplicate words merged`}.
           </p>
           {result.errors.length > 0 && (
-            <ul className="max-h-40 list-disc overflow-y-auto pl-5 text-red-600">
+            <ul className="max-h-40 list-disc overflow-y-auto pl-5 text-destructive">
               {result.errors.slice(0, MAX_LISTED_ERRORS).map((error, i) => (
                 <li key={i}>
                   Row {error.line}: {error.message}
@@ -85,12 +86,12 @@ export default function ImportPanel() {
               {result.errors.length > MAX_LISTED_ERRORS && <li>…and {result.errors.length - MAX_LISTED_ERRORS} more</li>}
             </ul>
           )}
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center gap-3">
             <input
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="Set name"
-              className="w-64 rounded border border-gray-300 px-3 py-2 dark:border-gray-600 dark:bg-gray-900"
+              className="h-11 w-full max-w-xs rounded-lg border border-border bg-background px-3 text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             />
             <Button disabled={busy || result.words.length === 0 || !name.trim()} onClick={onCreate}>
               Create set
@@ -98,7 +99,7 @@ export default function ImportPanel() {
           </div>
         </div>
       )}
-      {message && <p className="mt-3 text-sm text-indigo-600">{message}</p>}
-    </section>
+      {message && <p className="mt-3 text-sm text-primary">{message}</p>}
+    </Panel>
   )
 }

@@ -41,6 +41,6 @@ describe('isNavActive', () => {
 
 describe('MORE_LINKS', () => {
   it('offers the pages that have no tab', () => {
-    expect(MORE_LINKS.map((l) => l.to)).toEqual(['/my-sets', '/gallery', '/error-book', '/analysis'])
+    expect(MORE_LINKS.map((l) => l.to)).toEqual(['/my-sets', '/gallery', '/error-book', '/analysis', '/about'])
   })
 })

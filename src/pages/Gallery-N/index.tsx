@@ -65,11 +65,18 @@ export default function GalleryPage() {
   return (
     <Layout>
       <GalleryContext.Provider value={{ state: galleryState, setState: setGalleryState }}>
-        <div className="relative mb-auto mt-auto flex w-full flex-1 flex-col overflow-y-auto pl-20">
-          <IconX className="absolute right-20 top-10 mr-2 h-7 w-7 cursor-pointer text-gray-400" onClick={onBack} />
-          <div className="mt-20 flex w-full flex-1 flex-col items-center justify-center overflow-y-auto">
-            <div className="flex h-full flex-col overflow-y-auto">
-              <div className="flex h-20 w-full items-center justify-between pb-6 pr-20">
+        <div className="relative flex w-full min-w-0 flex-1 flex-col overflow-y-auto px-4 md:px-8">
+          <button
+            type="button"
+            aria-label="Close library"
+            onClick={onBack}
+            className="absolute right-2 top-2 flex h-11 w-11 items-center justify-center rounded-lg text-muted-foreground transition-colors duration-200 hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          >
+            <IconX className="h-6 w-6" aria-hidden />
+          </button>
+          <div className="mt-14 flex w-full min-w-0 flex-1 flex-col overflow-y-auto">
+            <div className="flex h-full min-w-0 flex-col overflow-y-auto">
+              <div className="flex w-full flex-wrap items-center justify-between gap-3 pb-6">
                 <LanguageTabSwitcher />
                 <div className="flex items-center gap-4">
                   <Button variant="outline" onClick={() => navigate('/my-sets')}>
@@ -85,7 +92,7 @@ export default function GalleryPage() {
                       <DictionaryGroup key={category} groupedDictsByTag={groupeByTag} />
                     ))}
                   </div>
-                  <div className="flex items-center justify-center pb-10 pt-[20rem] text-gray-500">
+                  <div className="flex items-center justify-center pb-10 pt-10 text-gray-500">
                     <IconInfo className="mr-1 h-5 w-5" />
                     <p className="mr-5 w-10/12 text-xs">
                       The dictionary data in this project comes from several open source projects and from community contributors who
