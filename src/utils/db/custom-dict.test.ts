@@ -6,6 +6,7 @@ import {
   deleteCustomDict,
   getCustomDict,
   getCustomDictWords,
+  isCustomDictId,
   listCustomDicts,
   updateCustomDict,
 } from './custom-dict'
@@ -112,5 +113,13 @@ describe('custom dictionaries', () => {
     })
     expect(customIdOf(dict.id)).toBe('abc')
     expect(customIdOf('cet4')).toBe('cet4')
+  })
+})
+
+describe('isCustomDictId', () => {
+  it('recognises custom dictionary ids only', () => {
+    expect(isCustomDictId('custom:abc')).toBe(true)
+    expect(isCustomDictId('cet4')).toBe(false)
+    expect(isCustomDictId('')).toBe(false)
   })
 })

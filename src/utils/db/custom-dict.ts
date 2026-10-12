@@ -13,8 +13,12 @@ function newId(): string {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8)
 }
 
+export function isCustomDictId(dictId: string): boolean {
+  return dictId.indexOf(CUSTOM_DICT_PREFIX) === 0
+}
+
 export function customIdOf(dictId: string): string {
-  return dictId.indexOf(CUSTOM_DICT_PREFIX) === 0 ? dictId.slice(CUSTOM_DICT_PREFIX.length) : dictId
+  return isCustomDictId(dictId) ? dictId.slice(CUSTOM_DICT_PREFIX.length) : dictId
 }
 
 export function customDictToDictionary(rec: CustomDictRecord): Dictionary {

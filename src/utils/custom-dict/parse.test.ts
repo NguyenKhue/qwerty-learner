@@ -135,3 +135,19 @@ describe('rowsToWords', () => {
     ])
   })
 })
+
+describe('parseWordsCsv delimiter detection', () => {
+  it('imports a semicolon-separated CSV (Excel in vi-VN / European locales)', () => {
+    const r = parseWordsCsv('name;trans\r\napple;quả táo\r\n"a; b";"x; y"\r\n')
+    expect(r.errors).toEqual([])
+    expect(r.words).toEqual([
+      { name: 'apple', trans: ['quả táo'], usphone: '', ukphone: '' },
+      { name: 'a; b', trans: ['x', 'y'], usphone: '', ukphone: '' },
+    ])
+  })
+
+  it('keeps comma CSVs that contain a semicolon in the meanings working', () => {
+    const r = parseWordsCsv('name,trans\napple,quả táo; trái táo')
+    expect(r.words).toEqual([{ name: 'apple', trans: ['quả táo', 'trái táo'], usphone: '', ukphone: '' }])
+  })
+})

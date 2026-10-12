@@ -1,5 +1,6 @@
 import { CHAPTER_LENGTH } from '@/constants'
-import { currentChapterAtom, currentDictInfoAtom, reviewModeInfoAtom } from '@/store'
+import { currentChapterAtom, currentDictIdAtom, currentDictInfoAtom, reviewModeInfoAtom } from '@/store'
+import { customDictionariesLoadedAtom, isCustomDictPending } from '@/store/customDicts'
 import type { Word, WordWithIndex } from '@/typings/index'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtom, useAtomValue } from 'jotai'
@@ -17,20 +18,26 @@ export type UseWordListResult = {
  */
 export function useWordList(): UseWordListResult {
   const currentDictInfo = useAtomValue(currentDictInfoAtom)
+  const currentDictId = useAtomValue(currentDictIdAtom)
+  const customLoaded = useAtomValue(customDictionariesLoadedAtom)
+  // The selected custom set is still being read from IndexedDB: currentDictInfo is only the cet4 fallback, so do not touch the saved chapter or show cet4 words
+  const customPending = isCustomDictPending(currentDictId, customLoaded)
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom)
   const { isReviewMode, reviewRecord } = useAtomValue(reviewModeInfoAtom)
 
   // Reset current chapter to 0, when currentChapter is greater than chapterCount.
-  if (currentChapter >= currentDictInfo.chapterCount) {
+  if (!customPending && currentChapter >= currentDictInfo.chapterCount) {
     setCurrentChapter(0)
   }
 
-  const isFirstChapter = !isReviewMode && currentDictInfo.id === 'cet4' && currentChapter === 0
-  const { data: wordList, error, isLoading } = useSWR(currentDictInfo.url, wordListFetcher)
+  const isFirstChapter = !customPending && !isReviewMode && currentDictInfo.id === 'cet4' && currentChapter === 0
+  const { data: wordList, error, isLoading } = useSWR(customPending ? null : currentDictInfo.url, wordListFetcher)
 
   const words: WordWithIndex[] = useMemo(() => {
     let newWords: Word[]
-    if (isFirstChapter) {
+    if (customPending) {
+      newWords = []
+    } else if (isFirstChapter) {
       newWords = firstChapter
     } else if (isReviewMode) {
       newWords = reviewRecord?.words ?? []
@@ -56,9 +63,9 @@ export function useWordList(): UseWordListResult {
         trans,
       }
     })
-  }, [isFirstChapter, isReviewMode, wordList, reviewRecord?.words, currentChapter])
+  }, [customPending, isFirstChapter, isReviewMode, wordList, reviewRecord?.words, currentChapter])
 
-  return { words, isLoading, error }
+  return { words, isLoading: customPending || isLoading, error }
 }
 
 const firstChapter = [

@@ -10,6 +10,7 @@ import {
 } from '@/store'
 import type { InfoPanelType } from '@/typings'
 import type { PronunciationType } from '@/typings'
+import { isCustomDictId } from '@/utils/db/custom-dict'
 import { useAtomValue } from 'jotai'
 import mixpanel from 'mixpanel-browser'
 import { useCallback } from 'react'
@@ -113,7 +114,7 @@ export type ChapterLogUpload = ModeInfo & {
 
 export function useMixPanelWordLogUploader(typingState: TypingState) {
   const currentChapter = useAtomValue(currentChapterAtom)
-  const { name: dictName } = useAtomValue(currentDictInfoAtom)
+  const { id: dictId, name: dictName } = useAtomValue(currentDictInfoAtom)
   const isDarkMode = useAtomValue(isOpenDarkModeAtom)
   const keySoundsConfig = useAtomValue(keySoundsConfigAtom)
   const phoneticConfig = useAtomValue(phoneticConfigAtom)
@@ -122,6 +123,8 @@ export function useMixPanelWordLogUploader(typingState: TypingState) {
 
   const wordLogUploader = useCallback(
     (wordLog: { headword: string; timeStart: string; timeEnd: string; countInput: number; countCorrect: number; countTypo: number }) => {
+      // Custom sets contain text the user wrote: never send it to analytics
+      if (isCustomDictId(dictId)) return
       const props: WordLogUpload = {
         ...wordLog,
         order: typingState.chapterData.index + 1,
@@ -141,6 +144,7 @@ export function useMixPanelWordLogUploader(typingState: TypingState) {
     [
       typingState,
       currentChapter,
+      dictId,
       dictName,
       isDarkMode,
       keySoundsConfig.isOpen,
@@ -156,7 +160,7 @@ export function useMixPanelWordLogUploader(typingState: TypingState) {
 
 export function useMixPanelChapterLogUploader(typingState: TypingState) {
   const currentChapter = useAtomValue(currentChapterAtom)
-  const { name: dictName } = useAtomValue(currentDictInfoAtom)
+  const { id: dictId, name: dictName } = useAtomValue(currentDictInfoAtom)
   const isDarkMode = useAtomValue(isOpenDarkModeAtom)
   const keySoundsConfig = useAtomValue(keySoundsConfigAtom)
   const phoneticConfig = useAtomValue(phoneticConfigAtom)
@@ -164,6 +168,8 @@ export function useMixPanelChapterLogUploader(typingState: TypingState) {
   const randomConfig = useAtomValue(randomConfigAtom)
 
   const chapterLogUploader = useCallback(() => {
+    // Custom sets contain text the user wrote: never send it to analytics
+    if (isCustomDictId(dictId)) return
     const props: ChapterLogUpload = {
       timeEnd: getUtcStringForMixpanel(),
       duration: typingState.timerData.time,
@@ -185,6 +191,7 @@ export function useMixPanelChapterLogUploader(typingState: TypingState) {
   }, [
     typingState,
     currentChapter,
+    dictId,
     dictName,
     isDarkMode,
     keySoundsConfig.isOpen,

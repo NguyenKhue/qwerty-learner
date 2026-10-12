@@ -3,6 +3,7 @@ import {
   customDictionariesAtom,
   customDictionariesLoadedAtom,
   dictionaryByIdAtom,
+  isCustomDictPending,
   shouldResetDictId,
 } from './customDicts'
 import { dictionaries } from '@/resources/dictionary'
@@ -60,5 +61,13 @@ describe('shouldResetDictId', () => {
   it('resets an unknown built-in id regardless of loading', () => {
     expect(shouldResetDictId('nope', false, byId)).toBe(true)
     expect(shouldResetDictId('nope', true, byId)).toBe(true)
+  })
+})
+
+describe('isCustomDictPending', () => {
+  it('is true only for a custom id before the custom sets have loaded', () => {
+    expect(isCustomDictPending('custom:abc', false)).toBe(true)
+    expect(isCustomDictPending('custom:abc', true)).toBe(false)
+    expect(isCustomDictPending('cet4', false)).toBe(false)
   })
 })

@@ -37,7 +37,15 @@ export function normalizeWords(words: Word[]): { words: Word[]; duplicates: stri
   return { words: Array.from(byName.values()), duplicates }
 }
 
-export function parseCsvRows(input: string): { cells: string[]; line: number }[] {
+// Excel writes `;` instead of `,` when the locale's decimal separator is a comma (vi-VN, most of Europe)
+function detectDelimiter(text: string): string {
+  const firstLine = stripBom(text)
+    .split('\n')
+    .find((line) => line.trim() !== '')
+  return firstLine !== undefined && firstLine.indexOf(';') !== -1 && firstLine.indexOf(',') === -1 ? ';' : ','
+}
+
+export function parseCsvRows(input: string, delimiter = ','): { cells: string[]; line: number }[] {
   const text = stripBom(input)
   const rows: { cells: string[]; line: number }[] = []
   let cells: string[] = []
@@ -77,7 +85,7 @@ export function parseCsvRows(input: string): { cells: string[]; line: number }[]
       i++
       continue
     }
-    if (ch === ',') {
+    if (ch === delimiter) {
       cells.push(cell)
       cell = ''
       i++
@@ -102,7 +110,7 @@ export function parseCsvRows(input: string): { cells: string[]; line: number }[]
 }
 
 export function parseWordsCsv(text: string): ParseResult {
-  const rows = parseCsvRows(text).filter((row) => row.cells.some((c) => c.trim() !== ''))
+  const rows = parseCsvRows(text, detectDelimiter(text)).filter((row) => row.cells.some((c) => c.trim() !== ''))
   const start = rows.length > 0 && rows[0].cells[0].trim().toLowerCase() === 'name' ? 1 : 0
   const words: Word[] = []
   const errors: ParseError[] = []
