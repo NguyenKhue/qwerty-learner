@@ -1,17 +1,17 @@
+import AppShell from './components/AppShell'
 import CustomDictsSync from './components/CustomDictsSync'
 import Loading from './components/Loading'
 import './index.css'
 import { ErrorBook } from './pages/ErrorBook'
 import { FriendLinks } from './pages/FriendLinks'
-import MobilePage from './pages/Mobile'
-import TypingPage from './pages/Typing'
+import TypingGate from './pages/Typing/TypingGate'
 import { isOpenDarkModeAtom } from '@/store'
 import { Analytics } from '@vercel/analytics/react'
 import 'animate.css'
 import { useAtomValue } from 'jotai'
 import mixpanel from 'mixpanel-browser'
 import process from 'process'
-import React, { Suspense, lazy, useEffect, useState } from 'react'
+import React, { Suspense, lazy, useEffect } from 'react'
 import 'react-app-polyfill/stable'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
@@ -38,44 +38,26 @@ function Root() {
     darkMode ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark')
   }, [darkMode])
 
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 600)
-
-  useEffect(() => {
-    const handleResize = () => {
-      const isMobile = window.innerWidth <= 600
-      if (!isMobile) {
-        window.location.href = '/'
-      }
-      setIsMobile(isMobile)
-    }
-
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
-
   return (
     <React.StrictMode>
       <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
         <Suspense fallback={<Loading />}>
           <Routes>
-            {isMobile ? (
-              <Route path="/*" element={<Navigate to="/mobile" />} />
-            ) : (
-              <>
-                <Route index element={<TypingPage />} />
-                <Route path="/gallery" element={<GalleryPage />} />
-                <Route path="/analysis" element={<AnalysisPage />} />
-                <Route path="/error-book" element={<ErrorBook />} />
-                <Route path="/my-sets" element={<MySetsPage />} />
-                <Route path="/my-sets/:id" element={<SetEditorPage />} />
-                <Route path="/study/:dictId" element={<StudyPage />} />
-                <Route path="/quiz/:dictId" element={<QuizPage />} />
-                <Route path="/match/:dictId" element={<MatchPage />} />
-                <Route path="/friend-links" element={<FriendLinks />} />
-                <Route path="/*" element={<Navigate to="/" />} />
-              </>
-            )}
-            <Route path="/mobile" element={<MobilePage />} />
+            <Route element={<AppShell />}>
+              <Route index element={<TypingGate />} />
+              <Route path="/typing" element={<TypingGate />} />
+              <Route path="/gallery" element={<GalleryPage />} />
+              <Route path="/analysis" element={<AnalysisPage />} />
+              <Route path="/error-book" element={<ErrorBook />} />
+              <Route path="/my-sets" element={<MySetsPage />} />
+              <Route path="/my-sets/:id" element={<SetEditorPage />} />
+              <Route path="/study/:dictId" element={<StudyPage />} />
+              <Route path="/quiz/:dictId" element={<QuizPage />} />
+              <Route path="/match/:dictId" element={<MatchPage />} />
+              <Route path="/friend-links" element={<FriendLinks />} />
+              <Route path="/mobile" element={<Navigate to="/" replace />} />
+              <Route path="/*" element={<Navigate to="/" />} />
+            </Route>
           </Routes>
         </Suspense>
       </BrowserRouter>

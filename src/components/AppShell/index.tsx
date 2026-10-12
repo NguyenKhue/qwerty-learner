@@ -3,7 +3,6 @@ import type { NavItem } from './navItems'
 import logo from '@/assets/logo.svg'
 import { currentDictIdAtom, currentDictInfoAtom, isOpenDarkModeAtom } from '@/store'
 import { useAtom, useAtomValue } from 'jotai'
-import type { ReactNode } from 'react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import IconBooks from '~icons/tabler/books'
@@ -179,7 +178,7 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
   )
 }
 
-export default function AppShell(): ReactNode {
+export default function AppShell() {
   const { pathname } = useLocation()
   const dictId = useAtomValue(currentDictIdAtom)
   const items = useMemo(() => buildNavItems(dictId), [dictId])

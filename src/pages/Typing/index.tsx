@@ -15,7 +15,7 @@ import Header from '@/components/Header'
 import Tooltip from '@/components/Tooltip'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
 import { customDictionariesLoadedAtom, dictionaryByIdAtom, shouldResetDictId } from '@/store/customDicts'
-import { IsDesktop, isLegal } from '@/utils'
+import { isLegal } from '@/utils'
 import { useSaveChapterRecord } from '@/utils/db'
 import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
@@ -36,17 +36,6 @@ const App: React.FC = () => {
 
   const reviewModeInfo = useAtomValue(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
-
-  useEffect(() => {
-    // Detect the user's device
-    if (!IsDesktop()) {
-      setTimeout(() => {
-        alert(
-          ' Qwerty Learner is built to improve English typing efficiency for keyboard users and is not adapted to mobile yet. Please open it in a desktop browser. If you are on a tablet such as an iPad, you can use the app with an external keyboard.',
-        )
-      }, 500)
-    }
-  }, [])
 
   // On component mount and whenever currentDictId changes, check whether the current dictionary exists; if not, reset it to the default value
   const dictionaryById = useAtomValue(dictionaryByIdAtom)
