@@ -1,7 +1,7 @@
 import StudyOverview from './Overview'
 import StudySession from './StudySession'
 import type { SessionSummary } from './StudySession'
-import Layout from '@/components/Layout'
+import { ModeFrame, PageMessage } from '@/components/ModePage'
 import { currentDictInfoAtom } from '@/store'
 import { customDictionariesLoadedAtom, dictionaryByIdAtom, isCustomDictPending, lookupDictionary } from '@/store/customDicts'
 import { newCardsPerDayAtom, studyReverseAtom } from '@/store/study'
@@ -98,15 +98,15 @@ function Study({ id }: { id: string }) {
     [reloadProgress],
   )
 
-  const message = (text: string, tone = 'text-gray-500') => (
-    <Layout>
-      <p className={`m-auto ${tone}`}>{text}</p>
-    </Layout>
+  const message = (text: string, tone: 'muted' | 'error' = 'muted') => (
+    <ModeFrame>
+      <PageMessage text={text} tone={tone} />
+    </ModeFrame>
   )
 
   if (!dict) return message('Loading…')
-  if (wordsError && !words) return message('Could not load the words of this set.', 'text-red-600')
-  if (progressError) return message(progressError, 'text-red-600')
+  if (wordsError && !words) return message('Could not load the words of this set.', 'error')
+  if (progressError) return message(progressError, 'error')
   if (!words || !progress) return message('Loading…')
 
   if (queue) {

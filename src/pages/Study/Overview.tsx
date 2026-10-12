@@ -1,5 +1,5 @@
 import type { SessionSummary } from './StudySession'
-import Layout from '@/components/Layout'
+import { ModeFrame, ModePage, Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import type { Word } from '@/typings'
 import type { ICardProgress } from '@/utils/db/record'
@@ -47,44 +47,37 @@ export default function StudyOverview({
   }
 
   return (
-    <Layout>
-      <div className="flex w-full max-w-xl flex-1 flex-col justify-center gap-6 px-6">
-        <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-medium text-gray-800 dark:text-gray-200">{dictName}</h1>
-          <Button size="sm" variant="outline" onClick={onBack}>
-            Back
-          </Button>
-        </div>
-
+    <ModeFrame>
+      <ModePage title={dictName} onBack={onBack}>
         {summary && (
-          <p className="rounded-lg bg-indigo-50 p-4 text-sm text-indigo-700 dark:bg-gray-800 dark:text-indigo-300">
+          <p className="rounded-lg bg-primary/10 p-4 text-sm text-primary">
             Session finished: {summary.reviewed} {summary.reviewed === 1 ? 'answer' : 'answers'} given
             {summary.again > 0 ? `, ${summary.again} of them Again` : ''}.
           </p>
         )}
 
-        <div className="rounded-lg bg-white p-6 shadow dark:bg-gray-800">
+        <Panel>
           {words.length === 0 ? (
-            <p className="text-gray-500">This set has no words yet.</p>
+            <p className="text-muted-foreground">This set has no words yet.</p>
           ) : queue.length === 0 ? (
             <div className="space-y-2">
-              <p className="text-xl text-gray-800 dark:text-gray-100">Done for today</p>
-              <p className="text-sm text-gray-500">
+              <p className="text-xl font-medium">Done for today</p>
+              <p className="text-sm text-muted-foreground">
                 {next === null ? 'Nothing is scheduled.' : `Next review: ${new Date(next).toLocaleString()}`}
               </p>
             </div>
           ) : (
             <div className="space-y-4">
-              <p className="text-gray-800 dark:text-gray-100">
-                <span className="text-3xl font-medium">{counts.due}</span> due · <span className="text-3xl font-medium">{counts.new}</span>{' '}
-                new
+              <p>
+                <span className="text-3xl font-semibold">{counts.due}</span> <span className="text-muted-foreground">due</span> ·{' '}
+                <span className="text-3xl font-semibold">{counts.new}</span> <span className="text-muted-foreground">new</span>
               </p>
               <Button onClick={onStart}>Start</Button>
             </div>
           )}
-        </div>
+        </Panel>
 
-        <div className="space-y-3 rounded-lg bg-white p-6 text-sm text-gray-700 shadow dark:bg-gray-800 dark:text-gray-300">
+        <Panel className="space-y-3 text-sm">
           <label className="flex items-center justify-between gap-4">
             <span>New cards per day</span>
             <input
@@ -97,15 +90,20 @@ export default function StudyOverview({
               onKeyDown={(e) => {
                 if (e.key === 'Enter') commitLimit()
               }}
-              className="w-24 rounded border border-gray-300 px-2 py-1 dark:border-gray-600 dark:bg-gray-900"
+              className="h-11 w-24 rounded-lg border border-border bg-background px-2 text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             />
           </label>
-          <label className="flex items-center justify-between gap-4">
+          <label className="flex min-h-[44px] items-center justify-between gap-4">
             <span>Show the meaning first</span>
-            <input type="checkbox" checked={reverse} onChange={(e) => onReverseChange(e.target.checked)} />
+            <input
+              type="checkbox"
+              checked={reverse}
+              onChange={(e) => onReverseChange(e.target.checked)}
+              className="h-5 w-5 accent-[rgb(var(--primary))]"
+            />
           </label>
-        </div>
-      </div>
-    </Layout>
+        </Panel>
+      </ModePage>
+    </ModeFrame>
   )
 }

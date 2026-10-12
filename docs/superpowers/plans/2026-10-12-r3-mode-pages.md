@@ -31,10 +31,12 @@
 ### Task 1: Current-set routes and redirects
 
 **Files:**
+
 - Modify: `src/store/customDicts.ts`, `src/store/customDicts.test.ts`, `src/components/AppShell/navItems.ts`, `src/components/AppShell/navItems.test.ts`, `src/index.tsx`, `src/pages/Study/index.tsx`, `src/pages/Quiz/index.tsx`, `src/pages/Match/index.tsx`, `src/pages/Typing/components/DictChapterButton/index.tsx`
 - Create: `src/components/SelectDictRedirect.tsx`
 
 **Interfaces:**
+
 - Produces: `classifyDictId(id: string, customLoaded: boolean, byId: Record<string, Dictionary>): 'valid' | 'pending' | 'unknown'`; `SelectDictRedirect({ mode }: { mode: 'study' | 'quiz' | 'match' })`; nav items whose `to` is `/study`, `/quiz`, `/match`.
 
 - [ ] **Step 1: Failing tests.** In `customDicts.test.ts` add: `classifyDictId('cet4', false, byId)` is `'valid'`; `classifyDictId('custom:abc', false, byId)` is `'pending'`, and `'unknown'` once `customLoaded` is true; `classifyDictId('nope', true, byId)` is `'unknown'`; `classifyDictId('constructor', true, byId)` and `'toString'` are `'unknown'`; `shouldResetDictId('constructor', true, byId)` is `true`. In `navItems.test.ts` replace the encoding test with: the mode items point at `/study`, `/quiz`, `/match` for any dict id, and `isNavActive` matches `/study` and `/study/anything` for the Flashcards item.
@@ -61,10 +63,12 @@
 ### Task 3: Tokens for `Button`, mode page kit, restyle the three modes
 
 **Files:**
+
 - Create: `src/components/ModePage.tsx`
 - Modify: `src/components/ui/button.tsx`, `src/pages/Study/{index,Overview,StudySession}.tsx`, `src/pages/Quiz/{index,Setup,QuizRun}.tsx`, `src/pages/Match/{index,MatchBoard}.tsx`
 
 **Interfaces:**
+
 - Produces from `ModePage.tsx`: `ModePage({ title, onBack, children })` (centered column `max-w-xl`, `h1`, outline "Back" button, children), `Panel({ className?, children })` (`rounded-xl border border-border bg-card p-6 text-card-foreground`), `PageMessage({ text, tone? })` (`'muted' | 'error'`, centered in the available space).
 
 - [ ] **Step 1: `Button` variants on tokens.** `default`: `bg-primary text-primary-foreground hover:bg-primary/90`; `destructive`: `bg-destructive text-destructive-foreground hover:bg-destructive/90`; `outline`: `border border-border bg-card text-foreground hover:bg-muted`; `secondary`: `bg-muted text-foreground hover:bg-muted/80`; `ghost`: `hover:bg-muted`; `link`: `text-primary underline-offset-4 hover:underline`. Base: focus ring `focus-visible:ring-ring focus-visible:ring-offset-background`. Sizes: `default: 'h-11 px-4 py-2'`, `sm: 'h-10 rounded-md px-3'`.

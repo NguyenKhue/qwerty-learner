@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout'
+import { ModeFrame, Panel } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { Button } from '@/components/ui/button'
@@ -29,10 +29,10 @@ type Props = {
 }
 
 const GRADE_STYLE: Record<Grade, string> = {
-  again: 'bg-red-500 text-white hover:bg-red-500/90',
-  hard: 'bg-amber-500 text-white hover:bg-amber-500/90',
-  good: 'bg-indigo-500 text-white hover:bg-indigo-500/90',
-  easy: 'bg-emerald-500 text-white hover:bg-emerald-500/90',
+  again: 'bg-destructive text-destructive-foreground hover:bg-destructive/90',
+  hard: 'bg-amber-700 text-white hover:bg-amber-700/90',
+  good: 'bg-primary text-primary-foreground hover:bg-primary/90',
+  easy: 'bg-accent text-accent-foreground hover:bg-accent/90',
 }
 const GRADE_NAME: Record<Grade, string> = { again: 'Again', hard: 'Hard', good: 'Good', easy: 'Easy' }
 
@@ -107,14 +107,14 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
   const wordBlock = (
     <div className="flex flex-col items-center gap-2">
       <div className="flex items-center gap-3">
-        <span className="text-5xl font-medium text-gray-800 dark:text-gray-100">{word.name}</span>
+        <span className="text-4xl font-semibold text-foreground md:text-5xl">{word.name}</span>
         <WordPronunciationIcon key={word.name} word={word} lang="en" iconClassName="h-8 w-8" />
       </div>
-      {phonetic && <span className="text-gray-500">[{phonetic}]</span>}
+      {phonetic && <span className="text-muted-foreground">[{phonetic}]</span>}
     </div>
   )
   const meaningBlock = (
-    <ul className="space-y-1 text-center text-xl text-gray-800 dark:text-gray-100">
+    <ul className="space-y-1 text-center text-xl text-foreground">
       {word.trans.map((meaning, i) => (
         <li key={i}>{meaning}</li>
       ))}
@@ -122,9 +122,9 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
   )
 
   return (
-    <Layout>
+    <ModeFrame>
       <ScrollCenter className="max-w-3xl gap-8">
-        <div className="flex w-full items-center justify-between text-sm text-gray-500">
+        <div className="flex w-full items-center justify-between text-sm text-muted-foreground">
           <span>
             New {counts.new} · Due {counts.due}
           </span>
@@ -133,12 +133,12 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
           </Button>
         </div>
 
-        <div className="flex min-h-[18rem] w-full flex-col items-center justify-center gap-6 rounded-xl bg-white p-8 shadow dark:bg-gray-800">
-          <span className="text-xs uppercase tracking-wide text-gray-400">{item.kind === 'new' ? 'New' : 'Due'}</span>
+        <Panel className="flex min-h-[18rem] w-full flex-col items-center justify-center gap-6 p-8">
+          <span className="text-xs uppercase tracking-wide text-muted-foreground">{item.kind === 'new' ? 'New' : 'Due'}</span>
           {reverse ? meaningBlock : wordBlock}
           {session.flipped ? (
             <>
-              <hr className="w-1/2 border-gray-200 dark:border-gray-700" />
+              <hr className="w-1/2 border-border" />
               {reverse ? wordBlock : meaningBlock}
             </>
           ) : (
@@ -146,7 +146,7 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
               Show answer (Space)
             </Button>
           )}
-        </div>
+        </Panel>
 
         <p className="sr-only" aria-live="polite">
           {session.flipped
@@ -155,7 +155,7 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
         </p>
 
         {error && (
-          <p role="alert" className="text-sm text-red-600">
+          <p role="alert" className="text-sm text-destructive">
             {error}
           </p>
         )}
@@ -166,7 +166,7 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
               key={grade}
               disabled={!session.flipped}
               onClick={() => onGrade(grade)}
-              className={`flex flex-col items-center rounded-lg px-3 py-3 text-sm font-medium transition-opacity disabled:opacity-30 ${GRADE_STYLE[grade]}`}
+              className={`flex min-h-[56px] flex-col items-center justify-center rounded-lg px-3 py-3 text-sm font-medium transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-30 ${GRADE_STYLE[grade]}`}
             >
               <span>
                 {GRADE_NAME[grade]} ({index + 1})
@@ -176,6 +176,6 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
           ))}
         </div>
       </ScrollCenter>
-    </Layout>
+    </ModeFrame>
   )
 }

@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout'
+import { ModeFrame, ModePage, Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import type { QuizDirection, QuizLength } from '@/utils/quiz/questions'
 
@@ -32,21 +32,14 @@ export default function QuizSetup({
   onBack,
 }: Props) {
   return (
-    <Layout>
-      <div className="flex w-full max-w-xl flex-1 flex-col justify-center gap-6 px-6">
-        <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-medium text-gray-800 dark:text-gray-200">{dictName}</h1>
-          <Button size="sm" variant="outline" onClick={onBack}>
-            Back
-          </Button>
-        </div>
-
+    <ModeFrame>
+      <ModePage title={dictName} onBack={onBack}>
         {!available ? (
-          <p className="rounded-lg bg-white p-6 text-gray-600 shadow dark:bg-gray-800 dark:text-gray-300">
+          <Panel className="text-muted-foreground">
             This set cannot be quizzed yet: it needs at least 4 words with different meanings (found {distinctMeanings}).
-          </p>
+          </Panel>
         ) : (
-          <div className="space-y-5 rounded-lg bg-white p-6 text-sm text-gray-700 shadow dark:bg-gray-800 dark:text-gray-300">
+          <Panel className="space-y-5 text-sm">
             <div className="flex items-center justify-between gap-4">
               <span>Questions</span>
               <div className="flex gap-2" role="group" aria-label="Number of questions">
@@ -63,18 +56,19 @@ export default function QuizSetup({
                 ))}
               </div>
             </div>
-            <label className="flex items-center justify-between gap-4">
+            <label className="flex min-h-[44px] items-center justify-between gap-4">
               <span>Show the meaning first (pick the word)</span>
               <input
                 type="checkbox"
                 checked={direction === 'meaning-to-word'}
                 onChange={(e) => onDirectionChange(e.target.checked ? 'meaning-to-word' : 'word-to-meaning')}
+                className="h-5 w-5 accent-[rgb(var(--primary))]"
               />
             </label>
             <Button onClick={onStart}>Start quiz</Button>
-          </div>
+          </Panel>
         )}
-      </div>
-    </Layout>
+      </ModePage>
+    </ModeFrame>
   )
 }

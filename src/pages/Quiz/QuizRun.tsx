@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout'
+import { ModeFrame, Panel } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
 import { Button } from '@/components/ui/button'
 import { reviewQuizAnswer } from '@/utils/db/card-progress'
@@ -69,33 +69,33 @@ export default function QuizRun({ dictId, questions, onRestart, onBack }: Props)
   if (isComplete(session) || !question) {
     const summary = quizSummary(session)
     return (
-      <Layout>
+      <ModeFrame>
         <ScrollCenter className="max-w-2xl gap-6">
-          <div className="w-full rounded-lg bg-white p-6 shadow dark:bg-gray-800">
-            <p className="text-sm text-gray-500">Quiz finished</p>
-            <p className="text-4xl font-medium text-gray-800 dark:text-gray-100">
+          <Panel className="w-full">
+            <p className="text-sm text-muted-foreground">Quiz finished</p>
+            <p className="text-4xl font-semibold">
               {summary.correct} / {summary.total}
             </p>
-          </div>
+          </Panel>
 
           {summary.missed.length > 0 ? (
-            <div className="w-full space-y-2 rounded-lg bg-white p-6 shadow dark:bg-gray-800">
-              <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Missed words</p>
+            <Panel className="w-full space-y-2">
+              <p className="text-sm font-medium text-muted-foreground">Missed words</p>
               <ul className="space-y-2">
                 {summary.missed.map((word) => (
-                  <li key={word.name} className="text-gray-800 dark:text-gray-100">
+                  <li key={word.name}>
                     <span className="font-medium">{word.name}</span>
-                    <span className="text-gray-500"> — {word.trans.join('; ')}</span>
+                    <span className="text-muted-foreground"> — {word.trans.join('; ')}</span>
                   </li>
                 ))}
               </ul>
-            </div>
+            </Panel>
           ) : (
-            <p className="text-emerald-600">No mistakes. Well done!</p>
+            <p className="font-medium text-accent">No mistakes. Well done!</p>
           )}
 
           {failure && (
-            <p role="alert" className="text-sm text-red-600">
+            <p role="alert" className="text-sm text-destructive">
               {failure}
             </p>
           )}
@@ -107,7 +107,7 @@ export default function QuizRun({ dictId, questions, onRestart, onBack }: Props)
             </Button>
           </div>
         </ScrollCenter>
-      </Layout>
+      </ModeFrame>
     )
   }
 
@@ -115,9 +115,9 @@ export default function QuizRun({ dictId, questions, onRestart, onBack }: Props)
   const correctSoFar = session.results.filter((r) => r.correct).length
 
   return (
-    <Layout>
+    <ModeFrame>
       <ScrollCenter className="max-w-3xl gap-8">
-        <div className="flex w-full items-center justify-between text-sm text-gray-500">
+        <div className="flex w-full items-center justify-between text-sm text-muted-foreground">
           <span>
             {session.index + 1} / {session.questions.length} · {correctSoFar} correct
           </span>
@@ -126,31 +126,29 @@ export default function QuizRun({ dictId, questions, onRestart, onBack }: Props)
           </Button>
         </div>
 
-        <div className="flex min-h-[10rem] w-full items-center justify-center rounded-xl bg-white p-8 text-center shadow dark:bg-gray-800">
-          <span
-            className={`${question.direction === 'word-to-meaning' ? 'text-5xl' : 'text-2xl'} font-medium text-gray-800 dark:text-gray-100`}
-          >
+        <Panel className="flex min-h-[10rem] w-full items-center justify-center p-8 text-center">
+          <span className={`${question.direction === 'word-to-meaning' ? 'text-4xl md:text-5xl' : 'text-2xl'} font-semibold`}>
             {question.prompt}
           </span>
-        </div>
+        </Panel>
 
         <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-2">
           {question.options.map((option, index) => {
             const isAnswer = index === question.answerIndex
             const isChosen = index === session.selected
             const style = !answered
-              ? 'bg-white text-gray-800 hover:bg-indigo-50 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-700'
+              ? 'border-border bg-card text-card-foreground hover:bg-muted'
               : isAnswer
-              ? 'bg-emerald-500 text-white'
+              ? 'border-accent bg-accent text-accent-foreground'
               : isChosen
-              ? 'bg-red-500 text-white'
-              : 'bg-white text-gray-400 dark:bg-gray-800'
+              ? 'border-destructive bg-destructive text-destructive-foreground'
+              : 'border-border bg-card text-muted-foreground'
             return (
               <button
                 key={index}
                 disabled={answered}
                 onClick={() => onChoose(index)}
-                className={`rounded-lg px-4 py-3 text-left shadow transition-colors ${style}`}
+                className={`min-h-[48px] rounded-lg border px-4 py-3 text-left transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${style}`}
               >
                 <span className="mr-2 text-xs opacity-70">{index + 1}</span>
                 {option}
@@ -168,7 +166,7 @@ export default function QuizRun({ dictId, questions, onRestart, onBack }: Props)
         </p>
 
         {failure && (
-          <p role="alert" className="text-sm text-red-600">
+          <p role="alert" className="text-sm text-destructive">
             {failure}
           </p>
         )}
@@ -177,6 +175,6 @@ export default function QuizRun({ dictId, questions, onRestart, onBack }: Props)
           {session.index + 1 === session.questions.length ? 'Finish' : 'Next'} (Enter)
         </Button>
       </ScrollCenter>
-    </Layout>
+    </ModeFrame>
   )
 }

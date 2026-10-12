@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout'
+import { ModeFrame, Panel } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
 import { Button } from '@/components/ui/button'
 import { formatDuration, readBest, updateBest, writeBest } from '@/utils/match/best'
@@ -62,17 +62,17 @@ export default function MatchBoard({ dictId, tiles, onBestChange, onRestart, onB
 
   if (finished && result) {
     return (
-      <Layout>
+      <ModeFrame>
         <ScrollCenter className="max-w-xl gap-6">
-          <div className="w-full rounded-lg bg-white p-6 shadow dark:bg-gray-800">
-            <p className="text-sm text-gray-500">All pairs matched</p>
-            <p className="text-4xl font-medium text-gray-800 dark:text-gray-100">{formatDuration(result.time)}</p>
-            <p className="mt-2 text-sm text-gray-500">
+          <Panel className="w-full">
+            <p className="text-sm text-muted-foreground">All pairs matched</p>
+            <p className="text-4xl font-semibold">{formatDuration(result.time)}</p>
+            <p className="mt-2 text-sm text-muted-foreground">
               {game.mistakes} {game.mistakes === 1 ? 'mistake' : 'mistakes'}
               {result.best !== null && ` · best ${formatDuration(result.best)}`}
             </p>
-            {result.isNewBest && <p className="mt-2 text-emerald-600">New best time!</p>}
-          </div>
+            {result.isNewBest && <p className="mt-2 font-medium text-accent">New best time!</p>}
+          </Panel>
           <div className="flex gap-3">
             <Button onClick={onRestart}>Play again</Button>
             <Button variant="outline" onClick={onBack}>
@@ -80,14 +80,14 @@ export default function MatchBoard({ dictId, tiles, onBestChange, onRestart, onB
             </Button>
           </div>
         </ScrollCenter>
-      </Layout>
+      </ModeFrame>
     )
   }
 
   return (
-    <Layout>
+    <ModeFrame>
       <ScrollCenter className="max-w-4xl gap-6">
-        <div className="flex w-full items-center justify-between text-sm text-gray-500">
+        <div className="flex w-full items-center justify-between text-sm text-muted-foreground">
           <span>
             {formatDuration(elapsed(game, now))} · {game.matched.length} / {game.tiles.length / 2} matched · {game.mistakes}{' '}
             {game.mistakes === 1 ? 'mistake' : 'mistakes'}
@@ -103,10 +103,10 @@ export default function MatchBoard({ dictId, tiles, onBestChange, onRestart, onB
             const selected = game.selected === tile.id
             const wrong = game.mismatch !== null && game.mismatch.indexOf(tile.id) !== -1
             const style = wrong
-              ? 'bg-red-500 text-white'
+              ? 'border-destructive bg-destructive text-destructive-foreground'
               : selected
-              ? 'bg-indigo-500 text-white'
-              : 'bg-white text-gray-800 hover:bg-indigo-50 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-700'
+              ? 'border-primary bg-primary text-primary-foreground'
+              : 'border-border bg-card text-card-foreground hover:bg-muted'
             return (
               <button
                 key={tile.id}
@@ -115,7 +115,7 @@ export default function MatchBoard({ dictId, tiles, onBestChange, onRestart, onB
                 aria-pressed={selected}
                 onClick={() => onTile(tile.id)}
                 // Matched tiles stay in the grid (invisible) so the layout does not jump
-                className={`min-h-[4.5rem] rounded-lg px-4 py-3 text-center shadow transition-colors ${
+                className={`min-h-[4.5rem] rounded-lg border px-4 py-3 text-center transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
                   tile.kind === 'word' ? 'text-xl font-medium' : 'text-base'
                 } ${style} ${matched ? 'invisible' : ''}`}
               >
@@ -125,6 +125,6 @@ export default function MatchBoard({ dictId, tiles, onBestChange, onRestart, onB
           })}
         </div>
       </ScrollCenter>
-    </Layout>
+    </ModeFrame>
   )
 }

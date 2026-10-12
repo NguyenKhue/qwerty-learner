@@ -1,6 +1,6 @@
 import QuizRun from './QuizRun'
 import QuizSetup from './Setup'
-import Layout from '@/components/Layout'
+import { ModeFrame, PageMessage } from '@/components/ModePage'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
 import { currentDictInfoAtom } from '@/store'
 import { quizDirectionAtom, quizLengthAtom } from '@/store/quiz'
@@ -40,14 +40,14 @@ function Quiz({ id }: { id: string }) {
     setQuestions(buildQuiz({ words, length, direction }))
   }, [words, length, direction])
 
-  const message = (text: string, tone = 'text-gray-500') => (
-    <Layout>
-      <p className={`m-auto ${tone}`}>{text}</p>
-    </Layout>
+  const message = (text: string, tone: 'muted' | 'error' = 'muted') => (
+    <ModeFrame>
+      <PageMessage text={text} tone={tone} />
+    </ModeFrame>
   )
 
   if (!dict) return message('Loading…')
-  if (error && !words) return message('Could not load the words of this set.', 'text-red-600')
+  if (error && !words) return message('Could not load the words of this set.', 'error')
   if (!words) return message('Loading…')
 
   if (questions && questions.length > 0) {

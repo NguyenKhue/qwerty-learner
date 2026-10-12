@@ -1,5 +1,5 @@
 import MatchBoard from './MatchBoard'
-import Layout from '@/components/Layout'
+import { ModeFrame, ModePage, PageMessage, Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
 import { currentDictInfoAtom } from '@/store'
@@ -38,14 +38,14 @@ function Match({ id }: { id: string }) {
     setTiles(board)
   }, [words])
 
-  const message = (text: string, tone = 'text-gray-500') => (
-    <Layout>
-      <p className={`m-auto ${tone}`}>{text}</p>
-    </Layout>
+  const message = (text: string, tone: 'muted' | 'error' = 'muted') => (
+    <ModeFrame>
+      <PageMessage text={text} tone={tone} />
+    </ModeFrame>
   )
 
   if (!dict) return message('Loading…')
-  if (error && !words) return message('Could not load the words of this set.', 'text-red-600')
+  if (error && !words) return message('Could not load the words of this set.', 'error')
   if (!words) return message('Loading…')
 
   if (tiles) {
@@ -53,26 +53,18 @@ function Match({ id }: { id: string }) {
   }
 
   return (
-    <Layout>
-      <div className="flex w-full max-w-xl flex-1 flex-col justify-center gap-6 px-6">
-        <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-medium text-gray-800 dark:text-gray-200">{dict.name}</h1>
-          <Button size="sm" variant="outline" onClick={onBack}>
-            Back
-          </Button>
-        </div>
+    <ModeFrame>
+      <ModePage title={dict.name} onBack={onBack}>
         {playable ? (
-          <div className="space-y-4 rounded-lg bg-white p-6 text-gray-700 shadow dark:bg-gray-800 dark:text-gray-300">
+          <Panel className="space-y-4">
             <p>Match 6 words with their meanings as fast as you can.</p>
-            {best !== null && <p className="text-sm text-gray-500">Best time: {formatDuration(best)}</p>}
+            {best !== null && <p className="text-sm text-muted-foreground">Best time: {formatDuration(best)}</p>}
             <Button onClick={start}>Start</Button>
-          </div>
+          </Panel>
         ) : (
-          <p className="rounded-lg bg-white p-6 text-gray-600 shadow dark:bg-gray-800 dark:text-gray-300">
-            This set cannot be played yet: it needs at least 6 words with different meanings.
-          </p>
+          <Panel className="text-muted-foreground">This set cannot be played yet: it needs at least 6 words with different meanings.</Panel>
         )}
-      </div>
-    </Layout>
+      </ModePage>
+    </ModeFrame>
   )
 }

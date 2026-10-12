@@ -142,3 +142,11 @@ Remove the 600px redirect and the `/mobile` page content. At < 768px the bottom 
 - Verified in the browser: built-in set, a 3-word custom set (Quiz and Match disabled with the reason), an empty set (no Start button, 0% bar, no divide-by-zero), an invalid stored id, and a live update after grading a card (2 new, 1/3 studied, no reload). 375px dark mode has no horizontal scroll.
 - Disabled mode cards no longer fade their text with opacity; the reason text keeps full contrast.
 - A custom set that is still loading briefly shows CET-4 (existing behavior of `currentDictInfoAtom`); it corrects itself once the sets load.
+
+## Findings: R3 (mode pages)
+
+- `/study`, `/quiz` and `/match` read the current set. `/study/:dictId` (and quiz, match) now redirect: `classifyDictId` decides valid, pending (custom set still loading) or unknown; a valid id becomes the current set (chapter reset to 0) before continuing. Unknown ids, including names on `Object.prototype` such as `constructor`, go to the Library. This also fixed `shouldResetDictId`, which used `in` and accepted `constructor` as a known id.
+- Built-in sets already worked: progress rows are keyed by a plain dictionary id. The new tests only document it (they passed on the first run).
+- The Typing toolbar's Study/Quiz/Match links (custom sets only) were removed; the shell navigation replaces them.
+- `Button` and the three modes use tokens now. Buttons are 44px tall by default (40px for `sm`); "Hard" uses `amber-700` with white text (5.0:1) because no warning token exists.
+- Verified in the browser on CET-4: a Flashcards session (flip with Space, grade with 3, a progress row stored), a Quiz question (green correct, red wrong), a Match board at 375px in dark mode with no horizontal scroll. Test progress rows were deleted afterwards.
