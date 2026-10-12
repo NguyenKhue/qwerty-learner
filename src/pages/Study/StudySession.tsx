@@ -1,4 +1,5 @@
 import Layout from '@/components/Layout'
+import ScrollCenter from '@/components/ScrollCenter'
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { Button } from '@/components/ui/button'
 import { reviewCard } from '@/utils/db/card-progress'
@@ -122,7 +123,7 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
 
   return (
     <Layout>
-      <div className="flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-8 px-6">
+      <ScrollCenter className="max-w-3xl gap-8">
         <div className="flex w-full items-center justify-between text-sm text-gray-500">
           <span>
             New {counts.new} · Due {counts.due}
@@ -174,7 +175,7 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
             </button>
           ))}
         </div>
-      </div>
+      </ScrollCenter>
     </Layout>
   )
 }
