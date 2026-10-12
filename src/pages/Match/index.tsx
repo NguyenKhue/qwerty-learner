@@ -1,24 +1,25 @@
 import MatchBoard from './MatchBoard'
+import { InlineLoading } from '@/components/Loading'
 import { ModeFrame, ModePage, PageMessage, Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
+import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
-import { currentDictInfoAtom } from '@/store'
+import { canGoBack } from '@/utils/history'
 import { formatDuration, readBest } from '@/utils/match/best'
 import { buildBoard, canPlay } from '@/utils/match/board'
 import type { Tile } from '@/utils/match/board'
-import { useAtomValue } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function MatchRoute() {
-  const dict = useAtomValue(currentDictInfoAtom)
-  return <Match key={dict.id} id={dict.id} />
+  const id = useCurrentDictId()
+  if (id === null) return <InlineLoading />
+  return <Match key={id} id={id} />
 }
 
 function Match({ id }: { id: string }) {
   const navigate = useNavigate()
-  const location = useLocation()
   const { dict, words, error } = useDictionaryWords(id)
   const [tiles, setTiles] = useState<Tile[] | null>(null)
   // Bumped on every start so MatchBoard remounts with a fresh game ("Play again")
@@ -27,8 +28,8 @@ function Match({ id }: { id: string }) {
 
   const playable = useMemo(() => (words ? canPlay(words) : false), [words])
 
-  // `default` is the key of the first history entry: there is nothing to go back to, so fall back to the dashboard
-  const onBack = useCallback(() => (location.key === 'default' ? navigate('/') : navigate(-1)), [location.key, navigate])
+  // Nothing earlier in this app's history (a bookmark, or a redirect in a new tab): fall back to the dashboard
+  const onBack = useCallback(() => (canGoBack() ? navigate(-1) : navigate('/')), [navigate])
 
   const start = useCallback(() => {
     if (!words) return

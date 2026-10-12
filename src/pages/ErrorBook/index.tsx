@@ -25,7 +25,7 @@ export function ErrorBook() {
   const [reload, setReload] = useState(false)
 
   const onBack = useCallback(() => {
-    navigate('/')
+    navigate('/typing')
   }, [navigate])
 
   const setPage = useCallback(
@@ -96,7 +96,7 @@ export function ErrorBook() {
 
   return (
     <>
-      <div className={`relative flex h-screen w-full flex-col items-center pb-4 ease-in ${currentRowDetail && 'blur-sm'}`}>
+      <div className={`relative flex h-full w-full flex-col items-center pb-4 ease-in ${currentRowDetail && 'blur-sm'}`}>
         <div className="mr-8 mt-4 flex w-auto items-center justify-center self-end">
           <h1 className="font-lighter mr-4 w-auto self-end text-gray-500 opacity-70">Tip: click a misspelled word to see details </h1>
           <IconX className="h-7 w-7 cursor-pointer text-gray-400" onClick={onBack} />

@@ -4,15 +4,15 @@ import { useDictionaryWords } from '@/hooks/useDictionaryWords'
 import { useNow } from '@/hooks/useNow'
 import { currentDictInfoAtom } from '@/store'
 import { newCardsPerDayAtom } from '@/store/study'
-import { dashboardStats } from '@/utils/dashboard/stats'
+import { dashboardRefreshDelay, dashboardStats } from '@/utils/dashboard/stats'
 import type { ModeState } from '@/utils/dashboard/stats'
 import { getDictProgress } from '@/utils/db/card-progress'
 import { formatDuration, readBest } from '@/utils/match/best'
-import { nextDueTime, sanitizeNewPerDay } from '@/utils/srs/queue'
+import { sanitizeNewPerDay } from '@/utils/srs/queue'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useAtomValue } from 'jotai'
 import type { ComponentType, ReactNode } from 'react'
-import { useMemo } from 'react'
+import { useCallback, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import IconCards from '~icons/tabler/cards'
 import IconKeyboard from '~icons/tabler/keyboard'
@@ -57,11 +57,7 @@ function ModeCard({ title, description, icon: Icon, to, state, detail }: ModeCar
   )
   const base = 'flex items-start gap-4 rounded-xl border border-border bg-card p-4 text-card-foreground'
   if (disabled) {
-    return (
-      <div aria-disabled="true" className={`${base} bg-muted/40`}>
-        {body}
-      </div>
-    )
+    return <div className={`${base} bg-muted/40`}>{body}</div>
   }
   return (
     <Link to={to} className={`${base} transition-colors duration-200 hover:bg-muted ${focusRing}`}>
@@ -75,8 +71,11 @@ export default function Dashboard() {
   const { words, error } = useDictionaryWords(dict.id)
   const progress = useLiveQuery(() => getDictProgress(dict.id), [dict.id])
   const newPerDay = sanitizeNewPerDay(useAtomValue(newCardsPerDayAtom))
-  const nextDue = useMemo(() => (words && progress ? nextDueTime(words, progress, Date.now()) : null), [words, progress])
-  const now = useNow(nextDue)
+  const getDelay = useCallback(
+    (at: number) => (words && progress ? dashboardRefreshDelay(words, progress, at) : 60 * 1000),
+    [words, progress],
+  )
+  const now = useNow(getDelay)
   const stats = useMemo(
     () => (words && progress ? dashboardStats({ words, progress, now, newPerDay }) : null),
     [words, progress, now, newPerDay],
@@ -150,7 +149,7 @@ export default function Dashboard() {
               role="progressbar"
               aria-label="Words studied"
               aria-valuemin={0}
-              aria-valuemax={stats.total}
+              aria-valuemax={Math.max(stats.total, 1)}
               aria-valuenow={stats.seen}
               className="mt-4 h-2 w-full overflow-hidden rounded-full bg-muted"
             >

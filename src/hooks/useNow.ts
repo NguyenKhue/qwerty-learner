@@ -1,12 +1,14 @@
-import { nextRefreshDelay } from '@/utils/srs/queue'
 import { useEffect, useState } from 'react'
 
-/** The current time, refreshed when the tab regains focus or visibility and when the next card falls due or the day changes. */
-export function useNow(nextDue: number | null): number {
+/**
+ * The current time, refreshed when the tab regains focus or visibility and after `getDelay(now)` milliseconds.
+ * `getDelay` must be stable (memoised) and is evaluated with the time of each run, so a stale value cannot make it fire every second.
+ */
+export function useNow(getDelay: (now: number) => number): number {
   const [now, setNow] = useState(() => Date.now())
   useEffect(() => {
     const refresh = () => setNow(Date.now())
-    const timer = window.setTimeout(refresh, nextRefreshDelay(Date.now(), nextDue))
+    const timer = window.setTimeout(refresh, getDelay(Date.now()))
     const onVisible = () => {
       if (document.visibilityState === 'visible') refresh()
     }
@@ -17,6 +19,6 @@ export function useNow(nextDue: number | null): number {
       document.removeEventListener('visibilitychange', onVisible)
       window.removeEventListener('focus', refresh)
     }
-  }, [nextDue, now])
+  }, [getDelay, now])
   return now
 }

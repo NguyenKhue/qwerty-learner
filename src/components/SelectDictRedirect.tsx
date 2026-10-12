@@ -1,4 +1,4 @@
-import Loading from '@/components/Loading'
+import { InlineLoading } from '@/components/Loading'
 import { currentChapterAtom, currentDictIdAtom } from '@/store'
 import { classifyDictId, customDictionariesLoadedAtom, dictionaryByIdAtom } from '@/store/customDicts'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
@@ -21,9 +21,9 @@ export default function SelectDictRedirect({ mode }: { mode: 'study' | 'quiz' | 
     setChapter(0)
   }, [status, dictId, currentId, setCurrentId, setChapter])
 
-  if (status === 'pending') return <Loading />
+  if (status === 'pending') return <InlineLoading />
   if (status === 'unknown') return <Navigate to="/gallery" replace />
   // Wait one render for the effect above so the next page reads the new current set
-  if (currentId !== dictId) return <Loading />
+  if (currentId !== dictId) return <InlineLoading />
   return <Navigate to={`/${mode}`} replace />
 }

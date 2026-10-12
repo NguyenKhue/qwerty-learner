@@ -1,29 +1,31 @@
 import StudyOverview from './Overview'
 import StudySession from './StudySession'
 import type { SessionSummary } from './StudySession'
+import { InlineLoading } from '@/components/Loading'
 import { ModeFrame, PageMessage } from '@/components/ModePage'
-import { currentDictInfoAtom } from '@/store'
+import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { customDictionariesLoadedAtom, dictionaryByIdAtom, isCustomDictPending, lookupDictionary } from '@/store/customDicts'
 import { newCardsPerDayAtom, studyReverseAtom } from '@/store/study'
 import { getDictProgress } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
+import { canGoBack } from '@/utils/history'
 import { buildQueue, nextDueTime, nextRefreshDelay, sanitizeNewPerDay } from '@/utils/srs/queue'
 import type { QueueItem } from '@/utils/srs/queue'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useEffect, useState } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import useSWR from 'swr'
 
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function StudyRoute() {
-  const dict = useAtomValue(currentDictInfoAtom)
-  return <Study key={dict.id} id={dict.id} />
+  const id = useCurrentDictId()
+  if (id === null) return <InlineLoading />
+  return <Study key={id} id={id} />
 }
 
 function Study({ id }: { id: string }) {
   const navigate = useNavigate()
-  const location = useLocation()
   const dictionaryById = useAtomValue(dictionaryByIdAtom)
   const customLoaded = useAtomValue(customDictionariesLoadedAtom)
   const [newPerDayStored, setNewPerDay] = useAtom(newCardsPerDayAtom)
@@ -125,8 +127,8 @@ function Study({ id }: { id: string }) {
       onReverseChange={setReverse}
       summary={summary}
       onStart={onStart}
-      // `default` is the key of the first entry of the session: there is nothing to go back to, so fall back to the dashboard
-      onBack={() => (location.key === 'default' ? navigate('/') : navigate(-1))}
+      // Nothing earlier in this app's history: fall back to the dashboard
+      onBack={() => (canGoBack() ? navigate(-1) : navigate('/'))}
     />
   )
 }

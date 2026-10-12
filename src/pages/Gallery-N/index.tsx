@@ -52,7 +52,8 @@ export default function GalleryPage() {
     navigate('/')
   }, [navigate])
 
-  useHotkeys('enter,esc', onBack, { preventDefault: true })
+  // Esc closes the library unless a dialog (the set details) is open and handles it itself. Enter is left alone so buttons can be activated
+  useHotkeys('esc', onBack, { preventDefault: true, ignoreEventWhen: () => document.querySelector('[role="dialog"]') !== null })
 
   useEffect(() => {
     if (currentDictInfo) {

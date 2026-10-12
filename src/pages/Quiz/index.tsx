@@ -1,24 +1,26 @@
 import QuizRun from './QuizRun'
 import QuizSetup from './Setup'
+import { InlineLoading } from '@/components/Loading'
 import { ModeFrame, PageMessage } from '@/components/ModePage'
+import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
-import { currentDictInfoAtom } from '@/store'
 import { quizDirectionAtom, quizLengthAtom } from '@/store/quiz'
+import { canGoBack } from '@/utils/history'
 import { buildQuiz, canQuiz, distinctMeaningCount, sanitizeQuizLength } from '@/utils/quiz/questions'
 import type { QuizQuestion } from '@/utils/quiz/questions'
-import { useAtom, useAtomValue } from 'jotai'
+import { useAtom } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function QuizRoute() {
-  const dict = useAtomValue(currentDictInfoAtom)
-  return <Quiz key={dict.id} id={dict.id} />
+  const id = useCurrentDictId()
+  if (id === null) return <InlineLoading />
+  return <Quiz key={id} id={id} />
 }
 
 function Quiz({ id }: { id: string }) {
   const navigate = useNavigate()
-  const location = useLocation()
   const { dict, words, error } = useDictionaryWords(id)
   const [lengthStored, setLength] = useAtom(quizLengthAtom)
   const [direction, setDirection] = useAtom(quizDirectionAtom)
@@ -31,8 +33,8 @@ function Quiz({ id }: { id: string }) {
   const distinctMeanings = useMemo(() => (words ? distinctMeaningCount(words) : 0), [words])
   const available = useMemo(() => (words ? canQuiz(words) : false), [words])
 
-  // `default` is the key of the first history entry: there is nothing to go back to, so fall back to the dashboard
-  const onBack = useCallback(() => (location.key === 'default' ? navigate('/') : navigate(-1)), [location.key, navigate])
+  // Nothing earlier in this app's history (a bookmark, or a redirect in a new tab): fall back to the dashboard
+  const onBack = useCallback(() => (canGoBack() ? navigate(-1) : navigate('/')), [navigate])
 
   const start = useCallback(() => {
     if (!words) return

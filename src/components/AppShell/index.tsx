@@ -1,7 +1,7 @@
 import { MORE_LINKS, buildNavItems, isNavActive } from './navItems'
 import type { NavItem } from './navItems'
 import logo from '@/assets/logo.svg'
-import Loading from '@/components/Loading'
+import { InlineLoading } from '@/components/Loading'
 import { currentDictInfoAtom, isOpenDarkModeAtom } from '@/store'
 import { useAtom, useAtomValue } from 'jotai'
 import { Suspense, useEffect, useMemo, useState } from 'react'
@@ -68,12 +68,13 @@ function SidebarLink({ item, pathname, compact }: { item: NavItem; pathname: str
   )
 }
 
-function TabLink({ item, pathname }: { item: NavItem; pathname: string }) {
+function TabLink({ item, pathname, onTap }: { item: NavItem; pathname: string; onTap: () => void }) {
   const active = isNavActive(item, pathname)
   const Icon = ICONS[item.icon]
   return (
     <Link
       to={item.to}
+      onClick={onTap}
       aria-current={active ? 'page' : undefined}
       className={`flex min-h-[56px] flex-1 flex-col items-center justify-center gap-1 text-xs font-medium transition-colors duration-200 ${
         active ? 'text-primary' : 'text-muted-foreground'
@@ -176,7 +177,7 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
         {items
           .filter((item) => item.tab)
           .map((item) => (
-            <TabLink key={item.id} item={item} pathname={pathname} />
+            <TabLink key={item.id} item={item} pathname={pathname} onTap={() => setMoreOpen(false)} />
           ))}
         <button
           type="button"
@@ -200,11 +201,11 @@ export default function AppShell() {
   const compact = pathname === '/typing' || pathname.indexOf('/typing/') === 0
 
   return (
-    <div className="flex h-[100dvh] w-full bg-background text-foreground">
+    <div className="app-shell flex w-full bg-background text-foreground">
       <Sidebar items={items} pathname={pathname} compact={compact} />
       <div className="flex min-h-0 min-w-0 flex-1 flex-col">
         <main className="relative min-h-0 flex-1 overflow-y-auto">
-          <Suspense fallback={<Loading />}>
+          <Suspense fallback={<InlineLoading />}>
             <Outlet />
           </Suspense>
         </main>

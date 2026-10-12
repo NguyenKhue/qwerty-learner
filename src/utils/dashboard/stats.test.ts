@@ -1,4 +1,4 @@
-import { dashboardStats } from './stats'
+import { dashboardRefreshDelay, dashboardStats } from './stats'
 import type { Word } from '@/typings'
 import type { ICardProgress } from '@/utils/db/record'
 import { startOfLocalDay } from '@/utils/srs/time'
@@ -57,5 +57,19 @@ describe('dashboardStats mode states', () => {
   it('does not count words that share a meaning or have none', () => {
     const words = [word('a', 'same'), word('b', 'same'), word('c', 'same'), word('d', 'same'), { ...word('e'), trans: [] }]
     expect(stats(words).quiz.enabled).toBe(false)
+  })
+})
+
+describe('dashboardRefreshDelay', () => {
+  it('waits for the next future due time, not for one that has already passed', () => {
+    const words = [word('a'), word('b')]
+    const past = card('a', { due: NOW - 5000 })
+    const future = card('b', { due: NOW + 3 * 60 * 1000 })
+    // a card due in 3 minutes: wake up just after it
+    expect(dashboardRefreshDelay(words, [past, future], NOW)).toBe(3 * 60 * 1000 + 1000)
+  })
+  it('does not busy-loop when the only card is already due: it waits until local midnight', () => {
+    const delay = dashboardRefreshDelay([word('a')], [card('a', { due: NOW - 5000 })], NOW)
+    expect(delay).toBeGreaterThan(60 * 1000)
   })
 })

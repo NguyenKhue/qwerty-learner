@@ -15,14 +15,17 @@ export function Panel({ className = '', children }: { className?: string; childr
 /** A centered column with the set name and a Back button, used by the start screens of the study modes. */
 export function ModePage({ title, onBack, children }: { title: string; onBack: () => void; children: ReactNode }) {
   return (
-    <div className="mx-auto flex min-h-0 w-full max-w-xl flex-1 flex-col justify-center gap-6 px-4 py-6 md:px-6">
-      <div className="flex items-center justify-between gap-4">
-        <h1 className="min-w-0 truncate text-2xl font-semibold text-foreground">{title}</h1>
-        <Button size="sm" variant="outline" onClick={onBack}>
-          Back
-        </Button>
+    // `my-auto` on the inner column (not `justify-center`) keeps the top reachable when the content is taller than the screen
+    <div className="flex min-h-0 w-full flex-1 flex-col overflow-y-auto px-4 py-6 md:px-6">
+      <div className="mx-auto my-auto flex w-full max-w-xl flex-col gap-6">
+        <div className="flex items-center justify-between gap-4">
+          <h1 className="min-w-0 truncate text-2xl font-semibold text-foreground">{title}</h1>
+          <Button variant="outline" onClick={onBack}>
+            Back
+          </Button>
+        </div>
+        {children}
       </div>
-      {children}
     </div>
   )
 }

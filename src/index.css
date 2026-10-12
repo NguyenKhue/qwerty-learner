@@ -98,6 +98,12 @@ body,
 }
 
 @layer components {
+  /* `100dvh` is ignored by browsers without dynamic viewport units, which then keep the `100vh` line above it */
+  .app-shell {
+    height: 100vh;
+    height: 100dvh;
+  }
+
   .icon {
     @apply h-5.5 w-5.5 focus:outline-none;
   }

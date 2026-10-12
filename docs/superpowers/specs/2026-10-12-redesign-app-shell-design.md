@@ -161,3 +161,17 @@ Remove the 600px redirect and the `/mobile` page content. At < 768px the bottom 
 - `Panel` merges classes with `cn`, so `p-0` overrides its default padding.
 - The set editor stacks each row on phones (labelled inputs) and keeps the table layout from 768px.
 - Not restyled (they work in the shell with their old palette): Analysis, Error book, Friend links, the Library's card internals and dialog, the typing word panel and its toolbar buttons. These are the follow-up for a later pass, together with the weekly activity chart and streak.
+
+## Findings: Opus review of R1-R4
+
+Fixed after the review (each with a test that failed first where the logic is pure):
+
+- Dashboard timer: `useNow` kept a past due time and re-armed every second. `useNow` now takes a stable `getDelay(now)`, and `dashboardRefreshDelay` (tested) always looks forward from the current time.
+- `ModePage` used `justify-center` on a shorter-than-content column, which hid the top on short screens. It now uses the `my-auto` pattern inside a scroll container (checked at 667x320). Its Back button is 44px.
+- The shell's lazy-page and pending-set fallback was the full-screen `Loading`; it is now an in-flow `InlineLoading`, so the navigation stays visible. The root `Loading` uses the background token.
+- Library hotkey: `enter` removed (it blocked button activation), `esc` ignored while a dialog is open. Checked: Enter on "Use this set" works, Esc closes only the dialog.
+- Study, Quiz and Match wait for a pending custom set (`useCurrentDictId`) instead of flashing CET-4.
+- Back uses `canGoBack()` (history `idx`), which stays correct after a `replace` redirect.
+- `100vh` fallback before `100dvh` (`.app-shell`), tapping a tab closes the More sheet, Analysis and Error book go back to `/typing`, `ErrorBook` uses `h-full`, the empty-set progressbar has `aria-valuemax` of at least 1, and the role-less `aria-disabled` was removed.
+
+Deferred (minor): focus trap and `aria-modal` for the More sheet; a chapter in progress is lost when the window is resized below 768px; the old unrouted `src/pages/Gallery` folder is still on disk; the Typing toolbar, Analysis, Error book and Library card internals keep their old palette.

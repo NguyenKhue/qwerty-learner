@@ -2,7 +2,7 @@ import type { Word } from '@/typings'
 import type { ICardProgress } from '@/utils/db/record'
 import { PAIR_COUNT, canPlay } from '@/utils/match/board'
 import { MIN_DISTINCT_MEANINGS, canQuiz } from '@/utils/quiz/questions'
-import { buildQueue, queueCounts } from '@/utils/srs/queue'
+import { buildQueue, nextDueTime, nextRefreshDelay, queueCounts } from '@/utils/srs/queue'
 
 export type ModeState = { enabled: boolean; reason: string | null }
 export type DashboardStats = { due: number; newToday: number; seen: number; total: number; quiz: ModeState; match: ModeState }
@@ -25,4 +25,9 @@ export function dashboardStats(input: { words: Word[]; progress: ICardProgress[]
     quiz: canQuiz(input.words) ? { enabled: true, reason: null } : { enabled: false, reason: needs(MIN_DISTINCT_MEANINGS) },
     match: canPlay(input.words) ? { enabled: true, reason: null } : { enabled: false, reason: needs(PAIR_COUNT) },
   }
+}
+
+/** How long until the dashboard's numbers can change by themselves: the next future due time or local midnight, computed from `now` so a past due time never causes a 1 second loop. */
+export function dashboardRefreshDelay(words: Word[], progress: ICardProgress[], now: number): number {
+  return nextRefreshDelay(now, nextDueTime(words, progress, now))
 }
