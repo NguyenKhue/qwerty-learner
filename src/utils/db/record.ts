@@ -1,4 +1,4 @@
-import { getUTCUnixTimestamp } from '../index'
+import { getUTCUnixTimestamp } from '../time'
 import type { Word } from '@/typings'
 
 export interface IWordRecord {
@@ -182,4 +182,30 @@ export class RevisionWordRecord implements IRevisionWordRecord {
     this.dict = dict
     this.errorCount = errorCount
   }
+}
+
+export interface CustomDictRecord {
+  // Bare id; the Dictionary id is `custom:<id>`
+  id: string
+  name: string
+  description: string
+  words: Word[]
+  createdAt: number
+  updatedAt: number
+}
+
+// Spaced-repetition state of one word in one dictionary (used by the study modes)
+export interface ICardProgress {
+  dict: string
+  word: string
+  state: 'learning' | 'review'
+  // Next review time in ms since epoch
+  due: number
+  // Days
+  interval: number
+  ease: number
+  reps: number
+  lapses: number
+  firstSeen: number
+  lastReviewed: number
 }
