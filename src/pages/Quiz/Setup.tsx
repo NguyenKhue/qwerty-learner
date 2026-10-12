@@ -5,7 +5,7 @@ import type { QuizDirection, QuizLength } from '@/utils/quiz/questions'
 type Props = {
   dictName: string
   available: boolean
-  wordCount: number
+  distinctMeanings: number
   length: QuizLength
   onLengthChange: (value: QuizLength) => void
   direction: QuizDirection
@@ -23,7 +23,7 @@ const LENGTHS: { value: QuizLength; label: string }[] = [
 export default function QuizSetup({
   dictName,
   available,
-  wordCount,
+  distinctMeanings,
   length,
   onLengthChange,
   direction,
@@ -43,20 +43,19 @@ export default function QuizSetup({
 
         {!available ? (
           <p className="rounded-lg bg-white p-6 text-gray-600 shadow dark:bg-gray-800 dark:text-gray-300">
-            This set cannot be quizzed yet: it needs at least 4 words with different meanings ({wordCount} usable words found).
+            This set cannot be quizzed yet: it needs at least 4 words with different meanings (found {distinctMeanings}).
           </p>
         ) : (
           <div className="space-y-5 rounded-lg bg-white p-6 text-sm text-gray-700 shadow dark:bg-gray-800 dark:text-gray-300">
             <div className="flex items-center justify-between gap-4">
               <span>Questions</span>
-              <div className="flex gap-2" role="radiogroup" aria-label="Number of questions">
+              <div className="flex gap-2" role="group" aria-label="Number of questions">
                 {LENGTHS.map((option) => (
                   <Button
                     key={String(option.value)}
                     size="sm"
                     variant={length === option.value ? 'default' : 'outline'}
-                    role="radio"
-                    aria-checked={length === option.value}
+                    aria-pressed={length === option.value}
                     onClick={() => onLengthChange(option.value)}
                   >
                     {option.label}

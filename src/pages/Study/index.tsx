@@ -105,7 +105,7 @@ function Study({ id }: { id: string }) {
   )
 
   if (!dict) return message('Loading…')
-  if (wordsError) return message('Could not load the words of this set.', 'text-red-600')
+  if (wordsError && !words) return message('Could not load the words of this set.', 'text-red-600')
   if (progressError) return message(progressError, 'text-red-600')
   if (!words || !progress) return message('Loading…')
 

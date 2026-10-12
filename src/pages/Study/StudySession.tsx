@@ -3,6 +3,7 @@ import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { Button } from '@/components/ui/button'
 import { reviewCard } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
+import { isActivatableButton } from '@/utils/keyboard'
 import { createGrader } from '@/utils/srs/grader'
 import type { QueueItem } from '@/utils/srs/queue'
 import { queueCounts } from '@/utils/srs/queue'
@@ -12,6 +13,9 @@ import { createSession, currentItem, flip } from '@/utils/srs/session'
 import type { StudySession as SessionState } from '@/utils/srs/session'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
+
+// Space on a focused button must activate that button, not be swallowed by the hotkey
+const ignoreFocusedButton = (e: KeyboardEvent) => isActivatableButton(e.target)
 
 export type SessionSummary = { reviewed: number; again: number }
 
@@ -83,7 +87,7 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
     graderRef.current?.(grade)
   }, [])
 
-  useHotkeys('space', onFlip, { preventDefault: true }, [onFlip])
+  useHotkeys('space', onFlip, { preventDefault: true, ignoreEventWhen: ignoreFocusedButton }, [onFlip])
   useHotkeys('1', () => onGrade('again'), [onGrade])
   useHotkeys('2', () => onGrade('hard'), [onGrade])
   useHotkeys('3', () => onGrade('good'), [onGrade])

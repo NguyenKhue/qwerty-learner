@@ -5,7 +5,7 @@ import { useDictionaryWords } from '@/hooks/useDictionaryWords'
 import { quizDirectionAtom, quizLengthAtom } from '@/store/quiz'
 import { getDictProgress } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
-import { buildQuiz, canQuiz, quizWords, sanitizeQuizLength } from '@/utils/quiz/questions'
+import { buildQuiz, canQuiz, distinctMeaningCount, sanitizeQuizLength } from '@/utils/quiz/questions'
 import type { QuizQuestion } from '@/utils/quiz/questions'
 import { useAtom } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
@@ -30,7 +30,7 @@ function Quiz({ id }: { id: string }) {
   // Bumped on every start so QuizRun remounts with a fresh session ("Try again")
   const [round, setRound] = useState(0)
 
-  const usable = useMemo(() => (words ? quizWords(words) : []), [words])
+  const distinctMeanings = useMemo(() => (words ? distinctMeaningCount(words) : 0), [words])
   const available = useMemo(() => (words ? canQuiz(words) : false), [words])
 
   // `default` is the key of the first history entry: there is nothing to go back to, so fall back to the sets page
@@ -56,7 +56,7 @@ function Quiz({ id }: { id: string }) {
   )
 
   if (!dict) return message('Loading…')
-  if (error) return message('Could not load the words of this set.', 'text-red-600')
+  if (error && !words) return message('Could not load the words of this set.', 'text-red-600')
   if (!words) return message('Loading…')
 
   if (questions && questions.length > 0) {
@@ -67,7 +67,7 @@ function Quiz({ id }: { id: string }) {
     <QuizSetup
       dictName={dict.name}
       available={available}
-      wordCount={usable.length}
+      distinctMeanings={distinctMeanings}
       length={length}
       onLengthChange={setLength}
       direction={direction}

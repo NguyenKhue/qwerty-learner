@@ -2,12 +2,16 @@ import Layout from '@/components/Layout'
 import { Button } from '@/components/ui/button'
 import { reviewCard } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
+import { isActivatableButton } from '@/utils/keyboard'
 import { srsEffect } from '@/utils/quiz/effect'
 import type { QuizQuestion } from '@/utils/quiz/questions'
 import { choose, createQuizSession, currentQuestion, isComplete, next, quizSummary } from '@/utils/quiz/session'
 import type { QuizSession } from '@/utils/quiz/session'
 import { useCallback, useMemo, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
+
+// Enter/Space on a focused button must activate that button, not be swallowed by the hotkey
+const ignoreFocusedButton = (e: KeyboardEvent) => isActivatableButton(e.target)
 
 type Props = {
   dictId: string
@@ -51,7 +55,17 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
   useHotkeys('2', () => onChoose(1), [onChoose])
   useHotkeys('3', () => onChoose(2), [onChoose])
   useHotkeys('4', () => onChoose(3), [onChoose])
-  useHotkeys('enter,space', onNext, { preventDefault: true }, [onNext])
+  useHotkeys('enter,space', onNext, { preventDefault: true, ignoreEventWhen: ignoreFocusedButton }, [onNext])
+
+  const onExit = () => {
+    const { results } = sessionRef.current
+    if (
+      results.length > 0 &&
+      !window.confirm('Leave the quiz? Your answers so far are already saved to your study schedule, but this score will be lost.')
+    )
+      return
+    onBack()
+  }
 
   const question = currentQuestion(session)
 
@@ -110,7 +124,7 @@ export default function QuizRun({ dictId, questions, progress, onRestart, onBack
           <span>
             {session.index + 1} / {session.questions.length} · {correctSoFar} correct
           </span>
-          <Button size="sm" variant="outline" onClick={onBack}>
+          <Button size="sm" variant="outline" onClick={onExit}>
             Exit
           </Button>
         </div>

@@ -7,20 +7,30 @@ export type QuizQuestion = { word: Word; direction: QuizDirection; prompt: strin
 export const OPTION_COUNT = 4
 export const MIN_DISTINCT_MEANINGS = 4
 const DEFAULT_LENGTH: QuizLength = 10
+// Buckets up to this size are shuffled and scanned; bigger ones are sampled at random so a question costs O(1), not O(set size)
+const SMALL_BUCKET = 64
+const MAX_SAMPLE_TRIES = 60
+
+/** The usable meanings of a word. Tolerates the shapes found in some built-in files: null, a plain string, null entries. */
+function transList(word: Word): string[] {
+  const raw: unknown = word.trans
+  const list: unknown[] = Array.isArray(raw) ? raw : typeof raw === 'string' ? [raw] : []
+  return list
+    .filter((meaning): meaning is string => typeof meaning === 'string')
+    .map((meaning) => meaning.trim())
+    .filter(Boolean)
+}
 
 /** All meanings of a word as one string (the text of a "meaning" option). */
 export function meaningText(word: Word): string {
-  return word.trans
-    .map((meaning) => meaning.trim())
-    .filter(Boolean)
-    .join('; ')
+  return transList(word).join('; ')
 }
 
 /** Leading part-of-speech tag of the first meaning (`n.`, `adj.`, `vt.` …), lower-case; `vt`/`vi` count as `v`. */
 export function posTag(word: Word): string | null {
-  const first = word.trans[0]
-  if (typeof first !== 'string') return null
-  const match = /^([A-Za-z]{1,6})\./.exec(first.trim())
+  const first = transList(word)[0]
+  if (first === undefined) return null
+  const match = /^([A-Za-z]{1,6})\./.exec(first)
   if (!match) return null
   const tag = match[1].toLowerCase()
   return tag === 'vt' || tag === 'vi' ? 'v' : tag
@@ -38,9 +48,14 @@ export function quizWords(words: Word[]): Word[] {
   return result
 }
 
+/** How many different meanings the askable words of a set have. */
+export function distinctMeaningCount(words: Word[]): number {
+  return new Set(quizWords(words).map(meaningText)).size
+}
+
 /** A set can be quizzed when it has at least 4 distinct meanings (so 3 distractors that differ from the answer always exist). */
 export function canQuiz(words: Word[]): boolean {
-  return new Set(quizWords(words).map(meaningText)).size >= MIN_DISTINCT_MEANINGS
+  return distinctMeaningCount(words) >= MIN_DISTINCT_MEANINGS
 }
 
 export function sanitizeQuizLength(value: unknown): QuizLength {
@@ -60,34 +75,54 @@ function shuffle<T>(items: T[], rng: () => number): T[] {
   return result
 }
 
-const optionText = (word: Word, direction: QuizDirection) => (direction === 'word-to-meaning' ? meaningText(word) : word.name)
+// Everything a question needs about a word, computed once instead of once per question
+type Entry = { word: Word; meaning: string; tag: string | null }
 
-function makeQuestion(word: Word, pool: Word[], direction: QuizDirection, rng: () => number): QuizQuestion {
-  const answerMeaning = meaningText(word)
-  const correct = optionText(word, direction)
+const optionText = (entry: Entry, direction: QuizDirection) => (direction === 'word-to-meaning' ? entry.meaning : entry.word.name)
 
-  // A word with the same meaning would be an equally right answer, and options must not repeat their text
-  const seenTexts = new Set<string>([correct])
-  const candidates = pool.filter((other) => {
-    if (other.name === word.name || meaningText(other) === answerMeaning) return false
-    const text = optionText(other, direction)
-    if (seenTexts.has(text)) return false
-    seenTexts.add(text)
-    return true
-  })
+/**
+ * Takes up to `need` distractors from `bucket`. A candidate is rejected when it is the answer itself, has the same meaning as the
+ * answer (it would be an equally right option) or repeats an option text that is already used (`used` is updated).
+ */
+function draw(bucket: Entry[], need: number, answer: Entry, direction: QuizDirection, used: Set<string>, rng: () => number): Entry[] {
+  const chosen: Entry[] = []
+  const tryTake = (candidate: Entry) => {
+    if (chosen.length >= need || candidate.word.name === answer.word.name || candidate.meaning === answer.meaning) return
+    const text = optionText(candidate, direction)
+    if (used.has(text)) return
+    used.add(text)
+    chosen.push(candidate)
+  }
 
-  const tag = posTag(word)
-  const sameTag = tag === null ? [] : candidates.filter((other) => posTag(other) === tag)
-  const rest = candidates.filter((other) => sameTag.indexOf(other) === -1)
-  const distractors = shuffle(sameTag, rng)
-    .concat(shuffle(rest, rng))
-    .slice(0, OPTION_COUNT - 1)
+  if (bucket.length <= SMALL_BUCKET) {
+    shuffle(bucket, rng).forEach(tryTake)
+    return chosen
+  }
+  for (let tries = 0; tries < MAX_SAMPLE_TRIES && chosen.length < need; tries++) {
+    tryTake(bucket[Math.floor(rng() * bucket.length)])
+  }
+  // Rare: the random draws kept hitting rejected candidates, so scan the whole bucket to be sure to find enough
+  const start = Math.floor(rng() * bucket.length)
+  for (let k = 0; k < bucket.length && chosen.length < need; k++) tryTake(bucket[(start + k) % bucket.length])
+  return chosen
+}
 
-  const options = shuffle([correct].concat(distractors.map((other) => optionText(other, direction))), rng)
+function makeQuestion(entry: Entry, all: Entry[], byTag: Map<string, Entry[]>, direction: QuizDirection, rng: () => number): QuizQuestion {
+  const correct = optionText(entry, direction)
+  const used = new Set<string>([correct])
+  const need = OPTION_COUNT - 1
+
+  // Same part of speech first, then anything else
+  const sameTag = entry.tag === null ? [] : byTag.get(entry.tag) ?? []
+  const distractors = draw(sameTag, need, entry, direction, used, rng)
+  const all3 =
+    distractors.length < need ? distractors.concat(draw(all, need - distractors.length, entry, direction, used, rng)) : distractors
+
+  const options = shuffle([correct].concat(all3.map((other) => optionText(other, direction))), rng)
   return {
-    word,
+    word: entry.word,
     direction,
-    prompt: direction === 'word-to-meaning' ? word.name : answerMeaning,
+    prompt: direction === 'word-to-meaning' ? entry.word.name : entry.meaning,
     options,
     answerIndex: options.indexOf(correct),
   }
@@ -96,10 +131,19 @@ function makeQuestion(word: Word, pool: Word[], direction: QuizDirection, rng: (
 /** A random sample of the set, one question per word. Empty when the set cannot be quizzed. */
 export function buildQuiz(input: { words: Word[]; length: QuizLength; direction: QuizDirection; rng?: () => number }): QuizQuestion[] {
   const rng = input.rng ?? Math.random
-  const pool = quizWords(input.words)
-  if (!canQuiz(pool)) return []
-  const count = input.length === 'all' ? pool.length : Math.min(input.length, pool.length)
-  return shuffle(pool, rng)
+  const entries: Entry[] = quizWords(input.words).map((word) => ({ word, meaning: meaningText(word), tag: posTag(word) }))
+  if (new Set(entries.map((entry) => entry.meaning)).size < MIN_DISTINCT_MEANINGS) return []
+
+  const byTag = new Map<string, Entry[]>()
+  entries.forEach((entry) => {
+    if (entry.tag === null) return
+    const bucket = byTag.get(entry.tag)
+    if (bucket) bucket.push(entry)
+    else byTag.set(entry.tag, [entry])
+  })
+
+  const count = input.length === 'all' ? entries.length : Math.min(input.length, entries.length)
+  return shuffle(entries, rng)
     .slice(0, count)
-    .map((word) => makeQuestion(word, pool, input.direction, rng))
+    .map((entry) => makeQuestion(entry, entries, byTag, input.direction, rng))
 }

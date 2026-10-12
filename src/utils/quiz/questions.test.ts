@@ -1,4 +1,4 @@
-import { OPTION_COUNT, buildQuiz, canQuiz, meaningText, posTag, quizWords, sanitizeQuizLength } from './questions'
+import { OPTION_COUNT, buildQuiz, canQuiz, distinctMeaningCount, meaningText, posTag, quizWords, sanitizeQuizLength } from './questions'
 import type { QuizDirection } from './questions'
 import type { Word } from '@/typings'
 import { describe, expect, it } from 'vitest'
@@ -138,5 +138,43 @@ describe('buildQuiz', () => {
     const b = buildQuiz({ words: pool, length: 'all', direction: 'word-to-meaning', rng: seeded(9) })
     expect(a).toEqual(b)
     expect(JSON.stringify(pool)).toBe(before)
+  })
+})
+
+describe('malformed word data (as found in some built-in dictionaries)', () => {
+  const bad = [
+    { name: 'a', trans: null },
+    { name: 'b', trans: 'một nghĩa' },
+    { name: 'c' },
+    { name: 'd', trans: [null] },
+    word('e', 'n. ok'),
+  ] as unknown as Word[]
+
+  it('never throws and counts a plain-string trans as one meaning', () => {
+    expect(() => quizWords(bad)).not.toThrow()
+    expect(quizWords(bad).map((w) => w.name)).toEqual(['b', 'e'])
+    expect(meaningText(bad[1])).toBe('một nghĩa')
+    expect(meaningText(bad[0])).toBe('')
+    expect(posTag(bad[0])).toBeNull()
+    expect(posTag(bad[3])).toBeNull()
+    expect(() => canQuiz(bad)).not.toThrow()
+  })
+})
+
+describe('distinctMeaningCount', () => {
+  it('counts distinct meanings among the usable words', () => {
+    expect(distinctMeaningCount([word('a', 'x'), word('b', 'x'), word('c', 'y'), word('d')])).toBe(2)
+    expect(distinctMeaningCount([])).toBe(0)
+  })
+})
+
+describe('large sets', () => {
+  it('builds a full quiz for thousands of words in well under a few seconds', () => {
+    const big = Array.from({ length: 6000 }, (_, i) => word(`w${i}`, `${['n', 'v', 'adj'][i % 3]}. meaning ${i}`))
+    const started = Date.now()
+    const questions = buildQuiz({ words: big, length: 'all', direction: 'word-to-meaning', rng: seeded(11) })
+    expect(questions).toHaveLength(6000)
+    expect(questions.every((q) => new Set(q.options).size === OPTION_COUNT)).toBe(true)
+    expect(Date.now() - started).toBeLessThan(2000)
   })
 })
