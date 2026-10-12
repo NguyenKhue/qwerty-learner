@@ -39,7 +39,7 @@ Copied from the spec; every task implicitly includes them.
 Inputs/conditions the spec implies but does not spell out, most likely to bite first. Each has a test in the owning task.
 
 1. **Excel-style CSV** (UTF-8 BOM, CRLF line endings, quoted fields) must import cleanly — Task 2.
-2. **Commas, quotes, `;` and newlines inside quoted cells**, and a bad row *after* a multi-line cell must report the right line number — Task 2.
+2. **Commas, quotes, `;` and newlines inside quoted cells**, and a bad row _after_ a multi-line cell must report the right line number — Task 2.
 3. **Reload while a custom set is selected** must not reset the selection to `cet4` before the sets have loaded; **deleting the selected set** must fall back to `cet4` — Task 4 (`shouldResetDictId`).
 4. **Importing a built-in-format JSON** (`notation` present, `trans` containing non-strings or a plain string) must keep what is valid and drop what is not — Task 2.
 5. **Deleting a set** must remove only that set's progress and typing records, never another set's; and an **empty file / header-only CSV** must yield zero words (the UI then blocks creation) — Tasks 3 and 2.
@@ -47,6 +47,7 @@ Inputs/conditions the spec implies but does not spell out, most likely to bite f
 ## File Structure
 
 Create:
+
 - `vitest.config.ts` — Vitest config (alias `@`, `define`, Node env, setup file).
 - `src/test/setup.ts` — loads `fake-indexeddb/auto`.
 - `src/utils/custom-dict/parse.ts` — pure parsing/validation (CSV, JSON, editor rows, dedupe).
@@ -63,6 +64,7 @@ Create:
 - `src/pages/MySets/ImportPanel.tsx`, `src/pages/MySets/CopyBuiltIn.tsx`, `src/pages/MySets/SetEditor.tsx`
 
 Modify:
+
 - `package.json`, `yarn.lock` — Vitest + fake-indexeddb, `test` script.
 - `src/utils/db/record.ts` — add `CustomDictRecord`, `ICardProgress`.
 - `src/utils/db/index.ts` — re-export `db` from `database.ts`.
@@ -78,10 +80,12 @@ Modify:
 ### Task 1: Vitest tooling
 
 **Files:**
+
 - Modify: `package.json`, `yarn.lock`
 - Create: `vitest.config.ts`, `src/test/setup.ts`, `src/test/smoke.test.ts`
 
 **Interfaces:**
+
 - Produces: `yarn test` runs `vitest run`; test files are `src/**/*.test.ts`; `indexedDB`/`IDBKeyRange` are available globally in tests; alias `@` → `src`; `REACT_APP_DEPLOY_ENV` is defined (empty string).
 
 - [ ] **Step 1: Install dev dependencies**
@@ -175,12 +179,15 @@ git commit -m "chore: add Vitest and fake-indexeddb for unit tests"
 ### Task 2: Parsing and validation module (`parse.ts`)
 
 **Files:**
+
 - Create: `src/utils/custom-dict/parse.ts`
 - Test: `src/utils/custom-dict/parse.test.ts`
 
 **Interfaces:**
+
 - Consumes: `Word` from `@/typings`.
 - Produces (exact signatures used by later tasks):
+
   - `type ParseError = { line: number; message: string }`
   - `type ParseResult = { words: Word[]; errors: ParseError[]; duplicates: string[] }`
   - `type EditableRow = { name: string; trans: string; usphone: string; ukphone: string }`
@@ -279,9 +286,7 @@ describe('parseWordsCsv', () => {
 
 describe('parseWordsJson', () => {
   it('accepts the built-in dictionary format and keeps notation', () => {
-    const r = parseWordsJson(
-      JSON.stringify([{ name: 'cancel', trans: ['huỷ'], usphone: "'kænsl", ukphone: "'kænsl", notation: 'x' }]),
-    )
+    const r = parseWordsJson(JSON.stringify([{ name: 'cancel', trans: ['huỷ'], usphone: "'kænsl", ukphone: "'kænsl", notation: 'x' }]))
     expect(r.errors).toEqual([])
     expect(r.words).toEqual([{ name: 'cancel', trans: ['huỷ'], usphone: "'kænsl", ukphone: "'kænsl", notation: 'x' }])
   })
@@ -569,13 +574,16 @@ git commit -m "feat: add CSV/JSON/editor-row parsing for custom sets"
 ### Task 3: Database v4, custom-set CRUD, `idb:` loading
 
 **Files:**
+
 - Create: `src/utils/db/database.ts`, `src/utils/db/custom-dict.ts`, `src/utils/db/copy-dict.ts`
 - Test: `src/utils/db/custom-dict.test.ts`, `src/utils/wordListFetcher.test.ts`
 - Modify: `src/utils/db/record.ts`, `src/utils/db/index.ts:1-41`, `src/utils/wordListFetcher.ts`
 
 **Interfaces:**
+
 - Consumes: `normalizeWords` (Task 2), `Word`, `Dictionary` from `@/typings`, `calcChapterCount` from `@/utils`.
 - Produces:
+
   - `db` (same export as before, now also from `@/utils/db/database`) with new tables `db.customDicts: Table<CustomDictRecord, string>` and `db.cardProgress: Table<ICardProgress, [string, string]>`.
   - `CUSTOM_DICT_PREFIX = 'custom:'`, `CUSTOM_URL_PREFIX = 'idb:'`
   - `type CustomDictInput = { name: string; description?: string; words: Word[] }`
@@ -595,7 +603,6 @@ git commit -m "feat: add CSV/JSON/editor-row parsing for custom sets"
 Append to `src/utils/db/record.ts`:
 
 ```ts
-
 export interface CustomDictRecord {
   // Bare id; the Dictionary id is `custom:<id>`
   id: string
@@ -733,10 +740,16 @@ const progress = (dict: string, w: string): ICardProgress => ({
   lastReviewed: 0,
 })
 const typingRecord = (dict: string) =>
-  ({ word: 'x', timeStamp: 1, dict, chapter: 0, timing: [], wrongCount: 0, mistakes: {} }) as unknown as IWordRecord
+  ({ word: 'x', timeStamp: 1, dict, chapter: 0, timing: [], wrongCount: 0, mistakes: {} } as unknown as IWordRecord)
 
 beforeEach(async () => {
-  await Promise.all([db.customDicts.clear(), db.cardProgress.clear(), db.wordRecords.clear(), db.chapterRecords.clear(), db.reviewRecords.clear()])
+  await Promise.all([
+    db.customDicts.clear(),
+    db.cardProgress.clear(),
+    db.wordRecords.clear(),
+    db.chapterRecords.clear(),
+    db.reviewRecords.clear(),
+  ])
 })
 
 describe('custom dictionaries', () => {
@@ -998,11 +1011,13 @@ git commit -m "feat: add customDicts/cardProgress tables, CRUD and idb: word loa
 ### Task 4: Store, root sync and consumers of the dictionary map
 
 **Files:**
+
 - Create: `src/store/customDicts.ts`, `src/components/CustomDictsSync/index.tsx`
 - Test: `src/store/customDicts.test.ts`
 - Modify: `src/store/index.ts`, `src/pages/Typing/index.tsx`, `src/pages/ErrorBook/ErrorRow.tsx`, `src/pages/ErrorBook/RowDetail/index.tsx`, `src/pages/ErrorBook/DropdownExport.tsx`, `src/index.tsx`
 
 **Interfaces:**
+
 - Consumes: `customDictToDictionary`, `listCustomDicts`, `CUSTOM_DICT_PREFIX` (Task 3); `dictionaries`, `idDictionaryMap` from `@/resources/dictionary`.
 - Produces:
   - `customDictionariesAtom: PrimitiveAtom<Dictionary[]>`
@@ -1168,27 +1183,27 @@ import { customDictionariesLoadedAtom, dictionaryByIdAtom, shouldResetDictId } f
 and replace the effect
 
 ```tsx
-  useEffect(() => {
-    const id = currentDictId
-    if (!(id in idDictionaryMap)) {
-      setCurrentDictId('cet4')
-      setCurrentChapter(0)
-      return
-    }
-  }, [currentDictId, setCurrentChapter, setCurrentDictId])
+useEffect(() => {
+  const id = currentDictId
+  if (!(id in idDictionaryMap)) {
+    setCurrentDictId('cet4')
+    setCurrentChapter(0)
+    return
+  }
+}, [currentDictId, setCurrentChapter, setCurrentDictId])
 ```
 
 with
 
 ```tsx
-  const dictionaryById = useAtomValue(dictionaryByIdAtom)
-  const customLoaded = useAtomValue(customDictionariesLoadedAtom)
-  useEffect(() => {
-    if (shouldResetDictId(currentDictId, customLoaded, dictionaryById)) {
-      setCurrentDictId('cet4')
-      setCurrentChapter(0)
-    }
-  }, [currentDictId, customLoaded, dictionaryById, setCurrentChapter, setCurrentDictId])
+const dictionaryById = useAtomValue(dictionaryByIdAtom)
+const customLoaded = useAtomValue(customDictionariesLoadedAtom)
+useEffect(() => {
+  if (shouldResetDictId(currentDictId, customLoaded, dictionaryById)) {
+    setCurrentDictId('cet4')
+    setCurrentChapter(0)
+  }
+}, [currentDictId, customLoaded, dictionaryById, setCurrentChapter, setCurrentDictId])
 ```
 
 (`useAtomValue` is already imported there.)
@@ -1198,15 +1213,15 @@ with
 `src/pages/ErrorBook/ErrorRow.tsx`: remove `import { idDictionaryMap } from '@/resources/dictionary'`; change `import { useSetAtom } from 'jotai'` to `import { useAtomValue, useSetAtom } from 'jotai'`; add `import { dictionaryByIdAtom } from '@/store/customDicts'`; replace `const dictInfo = idDictionaryMap[record.dict]` with
 
 ```tsx
-  const dictionaryById = useAtomValue(dictionaryByIdAtom)
-  const dictInfo = dictionaryById[record.dict]
+const dictionaryById = useAtomValue(dictionaryByIdAtom)
+const dictInfo = dictionaryById[record.dict]
 ```
 
 `src/pages/ErrorBook/RowDetail/index.tsx`: same two import changes (`useAtomValue` + `dictionaryByIdAtom`, drop `idDictionaryMap`); replace `const dictInfo = idDictionaryMap[currentRowDetail.dict]` with
 
 ```tsx
-  const dictionaryById = useAtomValue(dictionaryByIdAtom)
-  const dictInfo = dictionaryById[currentRowDetail.dict]
+const dictionaryById = useAtomValue(dictionaryByIdAtom)
+const dictInfo = dictionaryById[currentRowDetail.dict]
 ```
 
 `src/pages/ErrorBook/DropdownExport.tsx`: remove `import { idDictionaryMap } from '@/resources/dictionary'`; add `import { dictionaryByIdAtom } from '@/store/customDicts'` and `import { useAtomValue } from 'jotai'`; inside the component, right after `const [isExporting, setIsExporting] = useState(false)` add `const dictionaryById = useAtomValue(dictionaryByIdAtom)`; replace both occurrences of `idDictionaryMap[item.dict]` with `dictionaryById[item.dict]`.
@@ -1267,10 +1282,12 @@ git commit -m "feat: resolve dictionaries through a store that includes custom s
 ### Task 5: My Sets page (list, import, copy built-in) and Gallery wiring
 
 **Files:**
+
 - Create: `src/pages/MySets/index.tsx`, `src/pages/MySets/ImportPanel.tsx`, `src/pages/MySets/CopyBuiltIn.tsx`
 - Modify: `src/pages/Gallery-N/index.tsx`, `src/index.tsx`
 
 **Interfaces:**
+
 - Consumes: `customDictionariesAtom`, `allDictionariesAtom` (Task 4); `deleteCustomDict`, `createCustomDict`, `customIdOf` (Task 3); `duplicateDictionaryAsCustom` (Task 3); `parseWordsFile`, `ParseResult` (Task 2); `currentDictIdAtom`, `currentChapterAtom` from `@/store`.
 - Produces: route `/my-sets` (list), route `/my-sets/:id` is added in Task 6; this task links to `/my-sets/new` and `/my-sets/<bare id>`.
 
@@ -1317,8 +1334,8 @@ export default function ImportPanel() {
     <section className="w-full rounded-lg bg-white p-6 shadow dark:bg-gray-800">
       <h2 className="mb-1 text-lg font-medium text-gray-800 dark:text-gray-200">Import a set</h2>
       <p className="mb-4 text-sm text-gray-500">
-        CSV with columns <code>name,trans,usphone,ukphone</code> (separate meanings with <code>;</code>), or a JSON file in the same format as
-        the built-in dictionaries.
+        CSV with columns <code>name,trans,usphone,ukphone</code> (separate meanings with <code>;</code>), or a JSON file in the same format
+        as the built-in dictionaries.
       </p>
       <input
         type="file"
@@ -1470,7 +1487,9 @@ export default function MySetsPage() {
 
           <section className="w-full rounded-lg bg-white shadow dark:bg-gray-800">
             {sets.length === 0 ? (
-              <p className="p-6 text-sm text-gray-500">You have no sets yet. Create one, import a file, or copy a built-in dictionary below.</p>
+              <p className="p-6 text-sm text-gray-500">
+                You have no sets yet. Create one, import a file, or copy a built-in dictionary below.
+              </p>
             ) : (
               <ul className="divide-y divide-gray-100 dark:divide-gray-700">
                 {sets.map((dict) => (
@@ -1518,7 +1537,7 @@ const MySetsPage = lazy(() => import('./pages/MySets'))
 and inside the non-mobile `<>` routes, after the `/error-book` route:
 
 ```tsx
-                <Route path="/my-sets" element={<MySetsPage />} />
+<Route path="/my-sets" element={<MySetsPage />} />
 ```
 
 In `src/pages/Gallery-N/index.tsx` add `import { Button } from '@/components/ui/button'` and replace
@@ -1543,7 +1562,7 @@ with
 Also in the same file replace `import { dictionaries } from '@/resources/dictionary'` with `import { allDictionariesAtom } from '@/store/customDicts'`, add `const allDictionaries = useAtomValue(allDictionariesAtom)` right after `const currentDictInfo = useAtomValue(currentDictInfoAtom)`, and change the memo to read from it:
 
 ```tsx
-    const currentLanguageCategoryDicts = allDictionaries.filter((dict) => dict.languageCategory === galleryState.currentLanguageTab)
+const currentLanguageCategoryDicts = allDictionaries.filter((dict) => dict.languageCategory === galleryState.currentLanguageTab)
 ```
 
 with the dependency array `[allDictionaries, galleryState.currentLanguageTab]`.
@@ -1567,10 +1586,12 @@ git commit -m "feat: add My Sets page with import, copy and delete"
 ### Task 6: Set editor page
 
 **Files:**
+
 - Create: `src/pages/MySets/SetEditor.tsx`
 - Modify: `src/index.tsx`
 
 **Interfaces:**
+
 - Consumes: `rowsToWords`, `EditableRow` (Task 2); `getCustomDict`, `createCustomDict`, `updateCustomDict` (Task 3).
 - Produces: routes `/my-sets/new` and `/my-sets/:id` (`id` is the bare record id).
 
@@ -1745,7 +1766,7 @@ export default function SetEditorPage() {
 In `src/index.tsx` add `const SetEditorPage = lazy(() => import('./pages/MySets/SetEditor'))` and, after the `/my-sets` route:
 
 ```tsx
-                <Route path="/my-sets/:id" element={<SetEditorPage />} />
+<Route path="/my-sets/:id" element={<SetEditorPage />} />
 ```
 
 (`/my-sets/new` is handled by the same route with `id === 'new'`.)
@@ -1801,6 +1822,7 @@ Expected: the seven task commits on `feat/study-modes`; the working tree contain
 ## Self-review
 
 **Spec coverage (P1 section):**
+
 - `customDicts` / `cardProgress` tables, Dexie v4, existing tables unchanged → Task 3 (Steps 1–3).
 - `custom:` ids, `idb:` URLs, category/language fields, `chapterCount` → Task 3 (`customDictToDictionary`, test "maps a record to a Dictionary").
 - Loader adapter → Task 3 (`wordListFetcher`) + tests.
