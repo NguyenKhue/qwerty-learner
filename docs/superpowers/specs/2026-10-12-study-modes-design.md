@@ -166,3 +166,9 @@ reappear until due, and the new-card limit is respected across reloads on the sa
 - The study queue is a snapshot built when "Start" is pressed. A card graded `again` is saved as due in 10 minutes, so after a reload it reappears only once those 10 minutes have passed (inside a running session it is re-queued at the end).
 - `nextState` takes the card identity as an extra argument (a new card has no row to read `dict`/`word` from); learning cards graded `again`/`hard` stay `learning` without counting a lapse; the interval is capped at 365 days and `ease` never drops below 1.3.
 - Study entry points are shown for custom sets only; the `/study/:dictId` route itself works for any dictionary id.
+
+## Findings from P3 implementation
+
+- "Fewer than 4 words" is implemented as "fewer than 4 distinct meanings among the words that have a meaning": that is what guarantees 3 distractors whose text differs from the answer.
+- A word that has the same meaning text as the answer is never offered as a distractor, and option texts never repeat.
+- A wrong answer on a never-studied word records `again`, which introduces it as a learning card and therefore uses up one of the day's new-card slots (consequence of the spec rule). A correct answer on a new or not-yet-due card writes nothing.
