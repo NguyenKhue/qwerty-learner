@@ -134,3 +134,11 @@ Remove the 600px redirect and the `/mobile` page content. At < 768px the bottom 
 - `Suspense` sits inside the shell, so lazy pages no longer replace the sidebar with a spinner.
 - The Library's language tab row is 1,671px wide and was already clipped before the shell; R4 restyles it.
 - Dev console shows only the Youdao audio CORS errors (external, pre-existing).
+
+## Findings: R2 (dashboard)
+
+- `/` is now the Dashboard; Typing lives at `/typing` (a keyboard notice shows below 768px).
+- The shell and the dashboard resolve the current set through `currentDictInfoAtom` (it falls back to CET-4), so an invalid stored id gives working links instead of `/study/<bad id>`.
+- Verified in the browser: built-in set, a 3-word custom set (Quiz and Match disabled with the reason), an empty set (no Start button, 0% bar, no divide-by-zero), an invalid stored id, and a live update after grading a card (2 new, 1/3 studied, no reload). 375px dark mode has no horizontal scroll.
+- Disabled mode cards no longer fade their text with opacity; the reason text keeps full contrast.
+- A custom set that is still loading briefly shows CET-4 (existing behavior of `currentDictInfoAtom`); it corrects itself once the sets load.

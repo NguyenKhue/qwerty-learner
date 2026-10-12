@@ -31,9 +31,11 @@
 ### Task 1: `dashboardStats`
 
 **Files:**
+
 - Create: `src/utils/dashboard/stats.ts`, `src/utils/dashboard/stats.test.ts`
 
 **Interfaces:**
+
 - Consumes: `buildQueue`, `queueCounts` (`@/utils/srs/queue`), `canQuiz`, `distinctMeaningCount`, `MIN_DISTINCT_MEANINGS` (`@/utils/quiz/questions`), `canPlay`, `PAIR_COUNT` (`@/utils/match/board`).
 - Produces:
 
@@ -47,9 +49,9 @@ export function dashboardStats(input: { words: Word[]; progress: ICardProgress[]
 
 ```ts
 import { dashboardStats } from './stats'
-import { startOfLocalDay } from '@/utils/srs/time'
 import type { Word } from '@/typings'
 import type { ICardProgress } from '@/utils/db/record'
+import { startOfLocalDay } from '@/utils/srs/time'
 import { describe, expect, it } from 'vitest'
 
 const NOW = new Date(2026, 9, 12, 15, 30).getTime()
@@ -164,10 +166,12 @@ git commit -m "feat: add dashboard statistics"
 ### Task 2: Dashboard page, route, and nav fix
 
 **Files:**
+
 - Create: `src/hooks/useNow.ts`, `src/pages/Dashboard/index.tsx`
 - Modify: `src/index.tsx` (index route), `src/components/AppShell/index.tsx` (nav uses the resolved set)
 
 **Interfaces:**
+
 - Consumes: `dashboardStats`, `useDictionaryWords(id)`, `getDictProgress(dict)`, `readBest`/`formatDuration` (`@/utils/match/best`), `newCardsPerDayAtom` + `sanitizeNewPerDay`, `nextRefreshDelay`/`nextDueTime`, `currentDictInfoAtom`, `buildNavItems`.
 - Produces: `useNow(nextDue: number | null): number` (re-renders with a fresh `Date.now()` on focus, on visibility, and at `nextRefreshDelay`); default export `Dashboard`.
 
@@ -221,7 +225,10 @@ const progress = useLiveQuery(() => getDictProgress(dict.id), [dict.id])
 const newPerDay = sanitizeNewPerDay(useAtomValue(newCardsPerDayAtom))
 const nextDue = useMemo(() => (words && progress ? nextDueTime(words, progress, Date.now()) : null), [words, progress])
 const now = useNow(nextDue)
-const stats = useMemo(() => (words && progress ? dashboardStats({ words, progress, now, newPerDay }) : null), [words, progress, now, newPerDay])
+const stats = useMemo(
+  () => (words && progress ? dashboardStats({ words, progress, now, newPerDay }) : null),
+  [words, progress, now, newPerDay],
+)
 const items = useMemo(() => buildNavItems(dict.id), [dict.id])
 const link = (id: NavItem['id']) => items.find((i) => i.id === id)?.to ?? '/'
 ```

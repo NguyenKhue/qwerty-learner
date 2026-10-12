@@ -16,6 +16,7 @@ import 'react-app-polyfill/stable'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 
+const DashboardPage = lazy(() => import('./pages/Dashboard'))
 const AnalysisPage = lazy(() => import('./pages/Analysis'))
 const GalleryPage = lazy(() => import('./pages/Gallery-N'))
 const MySetsPage = lazy(() => import('./pages/MySets'))
@@ -44,7 +45,7 @@ function Root() {
         <Suspense fallback={<Loading />}>
           <Routes>
             <Route element={<AppShell />}>
-              <Route index element={<TypingGate />} />
+              <Route index element={<DashboardPage />} />
               <Route path="/typing" element={<TypingGate />} />
               <Route path="/gallery" element={<GalleryPage />} />
               <Route path="/analysis" element={<AnalysisPage />} />

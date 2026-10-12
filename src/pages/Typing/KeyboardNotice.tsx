@@ -1,11 +1,11 @@
 import { buildNavItems } from '@/components/AppShell/navItems'
-import { currentDictIdAtom } from '@/store'
+import { currentDictInfoAtom } from '@/store'
 import { useAtomValue } from 'jotai'
 import { Link } from 'react-router-dom'
 
 export default function KeyboardNotice() {
-  const dictId = useAtomValue(currentDictIdAtom)
-  const modes = buildNavItems(dictId).filter((item) => item.id === 'study' || item.id === 'quiz' || item.id === 'match')
+  const dict = useAtomValue(currentDictInfoAtom)
+  const modes = buildNavItems(dict.id).filter((item) => item.id === 'study' || item.id === 'quiz' || item.id === 'match')
   return (
     <div className="flex h-full items-center justify-center px-4">
       <div className="w-full max-w-sm rounded-xl border border-border bg-card p-6 text-center">

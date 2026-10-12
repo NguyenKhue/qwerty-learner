@@ -2,7 +2,7 @@ import { MORE_LINKS, buildNavItems, isNavActive } from './navItems'
 import type { NavItem } from './navItems'
 import logo from '@/assets/logo.svg'
 import Loading from '@/components/Loading'
-import { currentDictIdAtom, currentDictInfoAtom, isOpenDarkModeAtom } from '@/store'
+import { currentDictInfoAtom, isOpenDarkModeAtom } from '@/store'
 import { useAtom, useAtomValue } from 'jotai'
 import { Suspense, useEffect, useMemo, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
@@ -181,8 +181,8 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
 
 export default function AppShell() {
   const { pathname } = useLocation()
-  const dictId = useAtomValue(currentDictIdAtom)
-  const items = useMemo(() => buildNavItems(dictId), [dictId])
+  const dict = useAtomValue(currentDictInfoAtom)
+  const items = useMemo(() => buildNavItems(dict.id), [dict.id])
   // Typing keeps the narrow sidebar so the practice area gets the room
   const compact = pathname === '/typing' || pathname.indexOf('/typing/') === 0
 
