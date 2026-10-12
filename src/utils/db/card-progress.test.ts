@@ -97,3 +97,21 @@ describe('reviewQuizAnswer', () => {
     expect(await reviewQuizAnswer(dict, 'apple', true, NOW)).toMatchObject({ reps: 5 })
   })
 })
+
+describe('built-in dictionaries', () => {
+  it('keep their own progress, keyed by the built-in id', async () => {
+    await reviewCard('cet4', 'abandon', 'good', NOW)
+    expect(await getDictProgress('cet4')).toHaveLength(1)
+    expect((await getDictProgress('cet4'))[0]).toMatchObject({ dict: 'cet4', word: 'abandon', reps: 1 })
+    expect(await getDictProgress('cet6')).toEqual([])
+  })
+
+  it('apply quiz answers like custom sets do', async () => {
+    const wrong = await reviewQuizAnswer('cet4', 'abandon', false, NOW)
+    expect(wrong).toMatchObject({ dict: 'cet4', word: 'abandon', state: 'learning' })
+    const later = NOW + 5 * 86400000
+    await reviewCard('cet4', 'ability', 'good', NOW)
+    expect(await reviewQuizAnswer('cet4', 'ability', true, NOW + 1000)).toBeNull()
+    expect((await reviewQuizAnswer('cet4', 'ability', true, later))?.reps).toBe(2)
+  })
+})
