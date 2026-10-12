@@ -95,7 +95,8 @@ export default function DataSetting() {
             <span className={styles.sectionLabel}>Import Data</span>
             <span className={styles.sectionDescription}>
               Please note that importing data will <strong className="text-sm font-bold text-red-500"> completely overwrite</strong> your
-              current data. Please proceed with caution.
+              current data. Please proceed with caution. This includes your custom sets: a backup made before custom sets existed will
+              remove the ones you have created since.
             </span>
 
             <div className="flex h-3 w-full items-center justify-start px-5">

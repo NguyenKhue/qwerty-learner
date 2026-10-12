@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-import { parseWordsFile } from '@/utils/custom-dict/parse'
+import { hasReplacementChars, parseWordsFile } from '@/utils/custom-dict/parse'
 import type { ParseResult } from '@/utils/custom-dict/parse'
 import { createCustomDict } from '@/utils/db/custom-dict'
 import { useState } from 'react'
@@ -11,13 +11,29 @@ export default function ImportPanel() {
   const [result, setResult] = useState<ParseResult | null>(null)
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
+  const [warning, setWarning] = useState('')
+  const [reading, setReading] = useState(false)
 
   const onFile = async (file: File | undefined) => {
     if (!file) return
-    const text = await file.text()
-    setName(file.name.replace(/\.[^.]+$/, ''))
-    setResult(parseWordsFile(file.name, text))
+    setReading(true)
     setMessage('')
+    try {
+      const text = await file.text()
+      setName(file.name.replace(/\.[^.]+$/, ''))
+      setResult(parseWordsFile(file.name, text))
+      setWarning(
+        hasReplacementChars(text)
+          ? 'This file does not look like UTF-8 (some characters could not be read). In Excel choose "CSV UTF-8" when saving, then import again.'
+          : '',
+      )
+    } catch (e) {
+      setResult(null)
+      setWarning('')
+      setMessage(e instanceof Error ? e.message : 'Could not read the file')
+    } finally {
+      setReading(false)
+    }
   }
 
   const onCreate = async () => {
@@ -48,8 +64,10 @@ export default function ImportPanel() {
           onFile(e.target.files?.[0])
           e.target.value = ''
         }}
+        disabled={reading}
         className="text-sm text-gray-700 dark:text-gray-300"
       />
+      {warning && <p className="mt-3 text-sm text-amber-600">{warning}</p>}
 
       {result && (
         <div className="mt-4 space-y-3 text-sm text-gray-700 dark:text-gray-300">

@@ -63,6 +63,17 @@ export async function updateCustomDict(id: string, input: CustomDictInput): Prom
   })
 }
 
+export async function duplicateCustomDict(id: string): Promise<CustomDictRecord> {
+  const existing = await db.customDicts.get(id)
+  if (!existing) throw new Error(`Custom dictionary ${id} not found`)
+  return createCustomDict({
+    name: `${existing.name} (copy)`,
+    description: existing.description,
+    // createCustomDict normalises into fresh word objects, so the copy never shares state with the original
+    words: existing.words,
+  })
+}
+
 export async function deleteCustomDict(id: string): Promise<void> {
   const dictId = CUSTOM_DICT_PREFIX + id
   await db.transaction('rw', [db.customDicts, db.cardProgress, db.wordRecords, db.chapterRecords, db.reviewRecords], async () => {

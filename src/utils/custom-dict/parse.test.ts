@@ -1,4 +1,14 @@
-import { normalizeWords, parseCsvRows, parseWordsCsv, parseWordsFile, parseWordsJson, rowsToWords, splitTrans } from './parse'
+import {
+  hasReplacementChars,
+  normalizeWords,
+  parseCsvRows,
+  parseWordsCsv,
+  parseWordsFile,
+  parseWordsJson,
+  rowsToWords,
+  splitMeanings,
+  splitTrans,
+} from './parse'
 import { describe, expect, it } from 'vitest'
 
 describe('splitTrans', () => {
@@ -149,5 +159,37 @@ describe('parseWordsCsv delimiter detection', () => {
   it('keeps comma CSVs that contain a semicolon in the meanings working', () => {
     const r = parseWordsCsv('name,trans\napple,quả táo; trái táo')
     expect(r.words).toEqual([{ name: 'apple', trans: ['quả táo', 'trái táo'], usphone: '', ukphone: '' }])
+  })
+})
+
+describe('editor rows keep meanings that contain ;', () => {
+  it('splitMeanings only splits on newlines', () => {
+    expect(splitMeanings('a; b\n\n c ')).toEqual(['a; b', 'c'])
+  })
+
+  it('rowsToWords does not split a meaning on ; (copied built-in sets stay unchanged)', () => {
+    const r = rowsToWords([{ name: 'cancel', trans: 'huỷ, thu hồi; xoá bỏ\nnghĩa khác', usphone: '', ukphone: '' }])
+    expect(r.words[0].trans).toEqual(['huỷ, thu hồi; xoá bỏ', 'nghĩa khác'])
+  })
+})
+
+describe('parseWordsCsv robustness', () => {
+  it('reports an unterminated quote instead of swallowing the rest of the file', () => {
+    const r = parseWordsCsv('name,trans\nok,fine\na,"x\nb,y\nc,z')
+    expect(r.words.map((w) => w.name)).toEqual(['ok'])
+    expect(r.errors).toEqual([{ line: 3, message: 'Unterminated quote: the rest of the file was read as one cell' }])
+  })
+
+  it('treats word / headword / term as header names too', () => {
+    expect(parseWordsCsv('Word,Meaning\ncat,con mèo').words.map((w) => w.name)).toEqual(['cat'])
+    expect(parseWordsCsv('headword,trans\ncat,con mèo').words.map((w) => w.name)).toEqual(['cat'])
+    expect(parseWordsCsv('term;trans\ncat;con mèo').words.map((w) => w.name)).toEqual(['cat'])
+  })
+})
+
+describe('hasReplacementChars', () => {
+  it('detects text that was decoded with the wrong encoding', () => {
+    expect(hasReplacementChars('qu\uFFFD t\uFFFDo')).toBe(true)
+    expect(hasReplacementChars('quả táo')).toBe(false)
   })
 })

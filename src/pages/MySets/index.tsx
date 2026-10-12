@@ -5,8 +5,9 @@ import { Button } from '@/components/ui/button'
 import { currentChapterAtom, currentDictIdAtom } from '@/store'
 import { customDictionariesAtom } from '@/store/customDicts'
 import type { Dictionary } from '@/typings'
-import { customIdOf, deleteCustomDict } from '@/utils/db/custom-dict'
+import { customIdOf, deleteCustomDict, duplicateCustomDict } from '@/utils/db/custom-dict'
 import { useAtomValue, useSetAtom } from 'jotai'
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import IconX from '~icons/tabler/x'
 
@@ -15,6 +16,7 @@ export default function MySetsPage() {
   const sets = useAtomValue(customDictionariesAtom)
   const setCurrentDictId = useSetAtom(currentDictIdAtom)
   const setCurrentChapter = useSetAtom(currentChapterAtom)
+  const [error, setError] = useState('')
 
   const onPractice = (dict: Dictionary) => {
     setCurrentDictId(dict.id)
@@ -24,7 +26,21 @@ export default function MySetsPage() {
 
   const onDelete = async (dict: Dictionary) => {
     if (!window.confirm(`Delete "${dict.name}"? Its study progress and typing records will be deleted too.`)) return
-    await deleteCustomDict(customIdOf(dict.id))
+    setError('')
+    try {
+      await deleteCustomDict(customIdOf(dict.id))
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Could not delete the set')
+    }
+  }
+
+  const onDuplicate = async (dict: Dictionary) => {
+    setError('')
+    try {
+      await duplicateCustomDict(customIdOf(dict.id))
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Could not duplicate the set')
+    }
   }
 
   return (
@@ -59,6 +75,9 @@ export default function MySetsPage() {
                       <Button size="sm" variant="outline" onClick={() => navigate(`/my-sets/${customIdOf(dict.id)}`)}>
                         Edit
                       </Button>
+                      <Button size="sm" variant="outline" onClick={() => onDuplicate(dict)}>
+                        Duplicate
+                      </Button>
                       <Button size="sm" variant="destructive" onClick={() => onDelete(dict)}>
                         Delete
                       </Button>
@@ -68,6 +87,8 @@ export default function MySetsPage() {
               </ul>
             )}
           </section>
+
+          {error && <p className="text-sm text-red-600">{error}</p>}
 
           <ImportPanel />
           <CopyBuiltIn />

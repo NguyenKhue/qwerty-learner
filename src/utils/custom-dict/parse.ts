@@ -5,6 +5,7 @@ export type ParseResult = { words: Word[]; errors: ParseError[]; duplicates: str
 export type EditableRow = { name: string; trans: string; usphone: string; ukphone: string }
 
 const MISSING_WORD = 'Missing word'
+const HEADER_NAMES = ['name', 'word', 'headword', 'term']
 const noMeaning = (name: string) => `"${name}" has no meaning`
 
 // Excel and Notepad prepend a byte order mark to UTF-8 files
@@ -17,6 +18,19 @@ export function splitTrans(value: string): string[] {
     .split(/[;；\n]/)
     .map((item) => item.trim())
     .filter(Boolean)
+}
+
+/** Editor cells hold one meaning per line; unlike CSV cells, a `;` inside a meaning is kept. */
+export function splitMeanings(value: string): string[] {
+  return value
+    .split('\n')
+    .map((item) => item.trim())
+    .filter(Boolean)
+}
+
+/** True when text was decoded with the wrong encoding (e.g. an ANSI CSV read as UTF-8). */
+export function hasReplacementChars(text: string): boolean {
+  return text.indexOf('\uFFFD') !== -1
 }
 
 export function normalizeWords(words: Word[]): { words: Word[]; duplicates: string[] } {
@@ -45,7 +59,9 @@ function detectDelimiter(text: string): string {
   return firstLine !== undefined && firstLine.indexOf(';') !== -1 && firstLine.indexOf(',') === -1 ? ';' : ','
 }
 
-export function parseCsvRows(input: string, delimiter = ','): { cells: string[]; line: number }[] {
+type CsvScan = { rows: { cells: string[]; line: number }[]; unterminatedLine: number | null }
+
+function scanCsv(input: string, delimiter: string): CsvScan {
   const text = stripBom(input)
   const rows: { cells: string[]; line: number }[] = []
   let cells: string[] = []
@@ -105,13 +121,20 @@ export function parseCsvRows(input: string, delimiter = ','): { cells: string[];
     cell += ch
     i++
   }
+  // The row that was open when the file ended inside quotes swallowed everything after it: report it instead of keeping it
+  const unterminatedLine = inQuotes ? rowLine : null
   if (cell !== '' || cells.length > 0) pushRow()
-  return rows
+  return { rows: unterminatedLine === null ? rows : rows.slice(0, -1), unterminatedLine }
+}
+
+export function parseCsvRows(input: string, delimiter = ','): { cells: string[]; line: number }[] {
+  return scanCsv(input, delimiter).rows
 }
 
 export function parseWordsCsv(text: string): ParseResult {
-  const rows = parseCsvRows(text, detectDelimiter(text)).filter((row) => row.cells.some((c) => c.trim() !== ''))
-  const start = rows.length > 0 && rows[0].cells[0].trim().toLowerCase() === 'name' ? 1 : 0
+  const scan = scanCsv(text, detectDelimiter(text))
+  const rows = scan.rows.filter((row) => row.cells.some((c) => c.trim() !== ''))
+  const start = rows.length > 0 && HEADER_NAMES.indexOf(rows[0].cells[0].trim().toLowerCase()) !== -1 ? 1 : 0
   const words: Word[] = []
   const errors: ParseError[] = []
 
@@ -128,6 +151,10 @@ export function parseWordsCsv(text: string): ParseResult {
     }
     words.push({ name, trans: meanings, usphone, ukphone })
   })
+
+  if (scan.unterminatedLine !== null) {
+    errors.push({ line: scan.unterminatedLine, message: 'Unterminated quote: the rest of the file was read as one cell' })
+  }
 
   const normalized = normalizeWords(words)
   return { words: normalized.words, errors, duplicates: normalized.duplicates }
@@ -191,7 +218,7 @@ export function rowsToWords(rows: EditableRow[]): ParseResult {
   rows.forEach((row, index) => {
     const line = index + 1
     const name = row.name.trim()
-    const meanings = splitTrans(row.trans)
+    const meanings = splitMeanings(row.trans)
     const phones = row.usphone.trim() + row.ukphone.trim()
     if (!name && meanings.length === 0 && !phones) return
     if (!name) {

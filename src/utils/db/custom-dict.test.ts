@@ -4,6 +4,7 @@ import {
   customDictToDictionary,
   customIdOf,
   deleteCustomDict,
+  duplicateCustomDict,
   getCustomDict,
   getCustomDictWords,
   isCustomDictId,
@@ -121,5 +122,19 @@ describe('isCustomDictId', () => {
     expect(isCustomDictId('custom:abc')).toBe(true)
     expect(isCustomDictId('cet4')).toBe(false)
     expect(isCustomDictId('')).toBe(false)
+  })
+})
+
+describe('duplicateCustomDict', () => {
+  it('copies a set under a new id and name, leaving the original untouched', async () => {
+    const a = await createCustomDict({ name: 'A', description: 'd', words: [word('x'), word('y')] })
+    const copy = await duplicateCustomDict(a.id)
+    expect(copy.id).not.toBe(a.id)
+    expect(copy.name).toBe('A (copy)')
+    expect(copy.description).toBe('d')
+    expect(copy.words).toEqual(a.words)
+    copy.words[0].trans.push('changed')
+    expect((await getCustomDict(a.id))?.words[0].trans).toEqual(['n. x'])
+    await expect(duplicateCustomDict('missing')).rejects.toThrow()
   })
 })
