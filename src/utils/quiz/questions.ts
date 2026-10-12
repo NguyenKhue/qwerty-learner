@@ -64,7 +64,7 @@ export function sanitizeQuizLength(value: unknown): QuizLength {
   return n === 10 || n === 20 ? n : DEFAULT_LENGTH
 }
 
-function shuffle<T>(items: T[], rng: () => number): T[] {
+export function shuffle<T>(items: T[], rng: () => number): T[] {
   const result = items.slice()
   for (let i = result.length - 1; i > 0; i--) {
     const j = Math.floor(rng() * (i + 1))
