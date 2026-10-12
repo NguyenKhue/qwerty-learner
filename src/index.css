@@ -109,26 +109,19 @@ body,
   }
 
   .word-chip {
-    @apply flex h-10 w-auto cursor-pointer
-      flex-row items-center
-    justify-center rounded-md border-2
-      border-solid border-indigo-400 bg-white px-2 py-0.5 transition-colors duration-100 hover:bg-indigo-100 dark:border-slate-800
-      dark:bg-slate-700 dark:hover:bg-slate-600 md:h-12
-      md:px-5 md:py-1;
+    @apply flex h-10 w-auto cursor-pointer flex-row items-center justify-center rounded-md border-2 border-solid border-primary bg-card px-2 py-0.5 transition-colors duration-100 hover:bg-primary/10 md:h-12 md:px-5 md:py-1;
   }
 
   .word-chip > span {
-    @apply font-mono text-2xl font-light text-gray-600 dark:text-gray-300 md:text-3xl;
+    @apply font-mono text-2xl font-light text-foreground md:text-3xl;
   }
 
   .word-chip-tooltip {
-    @apply pointer-events-none flex items-center justify-center whitespace-nowrap rounded-lg
-      bg-white px-2 py-1 text-xs text-gray-500
-      shadow-md dark:bg-gray-800 dark:text-gray-300;
+    @apply pointer-events-none flex items-center justify-center whitespace-nowrap rounded-lg border border-border bg-card px-2 py-1 text-xs text-muted-foreground shadow-md;
   }
 
   .my-btn-primary {
-    @apply flex items-center justify-center rounded-lg bg-indigo-400 px-6 py-1 text-lg text-white hover:opacity-90 focus:outline-none dark:text-opacity-80;
+    @apply flex items-center justify-center rounded-lg bg-primary px-6 py-1 text-lg text-primary-foreground hover:bg-primary/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring;
   }
 
   .my-btn-info-panel {
@@ -139,42 +132,42 @@ body,
   }
 
   .tooltip {
-    @apply whitespace-nowrap rounded-lg bg-white px-2 py-1 text-xs text-gray-500 shadow-md dark:bg-gray-700 dark:text-gray-300;
+    @apply whitespace-nowrap rounded-lg border border-border bg-card px-2 py-1 text-xs text-muted-foreground shadow-md;
   }
 
   .switch-root {
-    @apply relative inline-flex h-6 w-12 shrink-0 cursor-pointer items-center rounded-full border-3 border-transparent bg-gray-300 transition-colors duration-200 ease-in-out focus:outline-none;
+    @apply relative inline-flex h-6 w-12 shrink-0 cursor-pointer items-center rounded-full border-3 border-transparent bg-muted-foreground/40 transition-colors duration-200 ease-in-out focus:outline-none;
   }
   .switch-root[data-headlessui-state='checked'] {
-    @apply bg-indigo-400;
+    @apply bg-primary;
   }
   .switch-thumb {
-    @apply pointer-events-none inline-block h-4 w-4 translate-x-0 transform rounded-full bg-white shadow-lg ring-0 transition duration-200 ease-in-out;
+    @apply pointer-events-none inline-block h-4 w-4 translate-x-0 transform rounded-full bg-card shadow-lg ring-0 transition duration-200 ease-in-out;
   }
   [data-headlessui-state='checked'] .switch-thumb {
     @apply translate-x-[25px];
   }
 
   .listbox-button {
-    @apply relative w-40 cursor-pointer rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none dark:bg-gray-600;
+    @apply relative w-40 cursor-pointer rounded-lg border border-border bg-card py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-ring;
   }
   .listbox-button span:nth-of-type(1) {
-    @apply block truncate text-gray-900 dark:text-white dark:text-opacity-60;
+    @apply block truncate text-foreground;
   }
   .listbox-button span:nth-of-type(2) {
     @apply pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2 focus:outline-none;
   }
   .listbox-options {
-    @apply absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg  focus:outline-none dark:bg-gray-600;
+    @apply absolute mt-1 max-h-60 w-full overflow-auto rounded-md border border-border bg-card py-1 text-base shadow-lg focus:outline-none;
   }
   .listbox-options > li {
-    @apply relative cursor-pointer select-none py-2 pl-10 pr-4 text-gray-900 ui-active:bg-indigo-100 ui-active:text-indigo-900 dark:text-white dark:text-opacity-60 dark:ui-active:bg-gray-500 dark:ui-active:text-indigo-300;
+    @apply relative cursor-pointer select-none py-2 pl-10 pr-4 text-foreground ui-active:bg-primary/10 ui-active:text-primary;
   }
   .listbox-options > li > span:first-child {
     @apply block truncate font-normal  ui-selected:font-medium;
   }
   .listbox-options-icon {
-    @apply absolute inset-y-0 left-0 flex items-center pl-3 text-indigo-600 dark:text-indigo-400;
+    @apply absolute inset-y-0 left-0 flex items-center pl-3 text-primary;
   }
 
   .slider {
@@ -184,13 +177,13 @@ body,
     @apply pointer-events-none opacity-50;
   }
   .slider > span:nth-child(1) {
-    @apply relative h-[5px] flex-grow rounded-full bg-gray-200;
+    @apply relative h-[5px] flex-grow rounded-full bg-muted;
   }
   .slider > span:nth-child(1) > span:nth-child(1) {
-    @apply absolute h-full rounded-full bg-indigo-400;
+    @apply absolute h-full rounded-full bg-primary;
   }
   .slider > span:nth-child(2) {
-    @apply block h-4 w-4 cursor-pointer rounded-full border border-gray-200 bg-white drop-shadow-md;
+    @apply block h-4 w-4 cursor-pointer rounded-full border border-border bg-card drop-shadow-md;
   }
 }
 
