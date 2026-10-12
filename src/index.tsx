@@ -20,6 +20,7 @@ const AnalysisPage = lazy(() => import('./pages/Analysis'))
 const GalleryPage = lazy(() => import('./pages/Gallery-N'))
 const MySetsPage = lazy(() => import('./pages/MySets'))
 const SetEditorPage = lazy(() => import('./pages/MySets/SetEditor'))
+const StudyPage = lazy(() => import('./pages/Study'))
 
 if (process.env.NODE_ENV === 'production') {
   // for prod
@@ -65,6 +66,7 @@ function Root() {
                 <Route path="/error-book" element={<ErrorBook />} />
                 <Route path="/my-sets" element={<MySetsPage />} />
                 <Route path="/my-sets/:id" element={<SetEditorPage />} />
+                <Route path="/study/:dictId" element={<StudyPage />} />
                 <Route path="/friend-links" element={<FriendLinks />} />
                 <Route path="/*" element={<Navigate to="/" />} />
               </>
