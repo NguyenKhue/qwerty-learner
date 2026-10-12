@@ -3,8 +3,9 @@ import type { NavItem } from './navItems'
 import logo from '@/assets/logo.svg'
 import { InlineLoading } from '@/components/Loading'
 import { currentDictInfoAtom, isOpenDarkModeAtom } from '@/store'
+import { nextFocusIndex } from '@/utils/focusTrap'
 import { useAtom, useAtomValue } from 'jotai'
-import { Suspense, useEffect, useMemo, useState } from 'react'
+import { Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import IconBooks from '~icons/tabler/books'
 import IconCards from '~icons/tabler/cards'
@@ -141,10 +142,27 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
     setMoreOpen(false)
   }, [pathname])
 
+  const sheetRef = useRef<HTMLDivElement>(null)
+  const moreButtonRef = useRef<HTMLButtonElement>(null)
+
+  // Dialog behavior: focus moves into the sheet, Tab cycles inside it, Escape closes it and gives focus back to the More button
   useEffect(() => {
     if (!moreOpen) return
+    const focusables = () =>
+      Array.prototype.slice.call(sheetRef.current?.querySelectorAll<HTMLElement>('a[href], button:not([disabled])') ?? []) as HTMLElement[]
+    focusables()[0]?.focus()
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setMoreOpen(false)
+      if (e.key === 'Escape') {
+        setMoreOpen(false)
+        moreButtonRef.current?.focus()
+      } else if (e.key === 'Tab') {
+        const list = focusables()
+        const next = nextFocusIndex(list.indexOf(document.activeElement as HTMLElement), list.length, e.shiftKey)
+        if (next >= 0) {
+          e.preventDefault()
+          list[next].focus()
+        }
+      }
     }
     document.addEventListener('keydown', onKey)
     return () => document.removeEventListener('keydown', onKey)
@@ -156,7 +174,9 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
         <>
           <div className="fixed inset-0 z-30 bg-black/40 md:hidden" onClick={() => setMoreOpen(false)} aria-hidden />
           <div
+            ref={sheetRef}
             role="dialog"
+            aria-modal="true"
             aria-label="More"
             className="fixed inset-x-0 bottom-[calc(56px+env(safe-area-inset-bottom))] z-40 rounded-t-2xl border border-border bg-card p-2 shadow-lg md:hidden"
           >
@@ -180,6 +200,7 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
             <TabLink key={item.id} item={item} pathname={pathname} onTap={() => setMoreOpen(false)} />
           ))}
         <button
+          ref={moreButtonRef}
           type="button"
           aria-haspopup="dialog"
           aria-expanded={moreOpen}
