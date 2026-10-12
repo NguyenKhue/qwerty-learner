@@ -1,3 +1,4 @@
+import CustomDictsSync from './components/CustomDictsSync'
 import Loading from './components/Loading'
 import './index.css'
 import { ErrorBook } from './pages/ErrorBook'
@@ -68,6 +69,7 @@ function Root() {
           </Routes>
         </Suspense>
       </BrowserRouter>
+      <CustomDictsSync />
       <Analytics />
     </React.StrictMode>
   )

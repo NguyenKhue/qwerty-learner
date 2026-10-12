@@ -13,8 +13,8 @@ import { TypingContext, TypingStateActionType, initialState, typingReducer } fro
 import { DonateCard } from '@/components/DonateCard'
 import Header from '@/components/Header'
 import Tooltip from '@/components/Tooltip'
-import { idDictionaryMap } from '@/resources/dictionary'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
+import { customDictionariesLoadedAtom, dictionaryByIdAtom, shouldResetDictId } from '@/store/customDicts'
 import { IsDesktop, isLegal } from '@/utils'
 import { useSaveChapterRecord } from '@/utils/db'
 import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
@@ -49,14 +49,14 @@ const App: React.FC = () => {
   }, [])
 
   // On component mount and whenever currentDictId changes, check whether the current dictionary exists; if not, reset it to the default value
+  const dictionaryById = useAtomValue(dictionaryByIdAtom)
+  const customLoaded = useAtomValue(customDictionariesLoadedAtom)
   useEffect(() => {
-    const id = currentDictId
-    if (!(id in idDictionaryMap)) {
+    if (shouldResetDictId(currentDictId, customLoaded, dictionaryById)) {
       setCurrentDictId('cet4')
       setCurrentChapter(0)
-      return
     }
-  }, [currentDictId, setCurrentChapter, setCurrentDictId])
+  }, [currentDictId, customLoaded, dictionaryById, setCurrentChapter, setCurrentDictId])
 
   const skipWord = useCallback(() => {
     dispatch({ type: TypingStateActionType.SKIP_WORD })

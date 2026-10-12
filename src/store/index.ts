@@ -1,7 +1,7 @@
 import atomForConfig from './atomForConfig'
+import { dictionaryByIdAtom } from './customDicts'
 import { reviewInfoAtom } from './reviewInfoAtom'
 import { DISMISS_START_CARD_DATE_KEY, defaultFontSizeConfig } from '@/constants'
-import { idDictionaryMap } from '@/resources/dictionary'
 import { correctSoundResources, keySoundResources, wrongSoundResources } from '@/resources/soundResource'
 import type {
   Dictionary,
@@ -19,12 +19,9 @@ import { atomWithStorage } from 'jotai/utils'
 export const currentDictIdAtom = atomWithStorage('currentDict', 'cet4')
 export const currentDictInfoAtom = atom<Dictionary>((get) => {
   const id = get(currentDictIdAtom)
-  let dict = idDictionaryMap[id]
-  // If dict does not exist, return cet4. Typing checks whether DictId exists, and resets it to cet4 if it does not
-  if (!dict) {
-    dict = idDictionaryMap.cet4
-  }
-  return dict
+  const byId = get(dictionaryByIdAtom)
+  // If dict does not exist (or a custom set has not loaded yet), return cet4. Typing checks whether DictId exists, and resets it to cet4 if it does not
+  return byId[id] ?? byId.cet4
 })
 
 export const currentChapterAtom = atomWithStorage('currentChapter', 0)

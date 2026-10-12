@@ -11,7 +11,7 @@ export default defineConfig({
     REACT_APP_DEPLOY_ENV: JSON.stringify(''),
   },
   test: {
-    environment: 'node',
+    environment: 'jsdom',
     include: ['src/**/*.test.ts'],
     setupFiles: ['./src/test/setup.ts'],
   },

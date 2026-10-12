@@ -1,7 +1,8 @@
-import { idDictionaryMap } from '@/resources/dictionary'
+import { dictionaryByIdAtom } from '@/store/customDicts'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
 import { saveAs } from 'file-saver'
+import { useAtomValue } from 'jotai'
 import type { FC } from 'react'
 import { useState } from 'react'
 import * as XLSX from 'xlsx'
@@ -12,6 +13,7 @@ type DropdownProps = {
 
 const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
   const [isExporting, setIsExporting] = useState(false)
+  const dictionaryById = useAtomValue(dictionaryByIdAtom)
 
   const formatTimestamp = (date: any) => {
     const year = date.getFullYear()
@@ -31,7 +33,7 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
       // Fetch all the dictionary data we need
       const dictUrls: string[] = []
       renderRecords.forEach((item: any) => {
-        const dictInfo = idDictionaryMap[item.dict]
+        const dictInfo = dictionaryById[item.dict]
         if (dictInfo?.url && !dictUrls.includes(dictInfo.url)) {
           dictUrls.push(dictInfo.url)
         }
@@ -54,7 +56,7 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
       const ExportData: Array<{ Word: string; Definition: string; WrongCount: number; Dictionary: string }> = []
 
       renderRecords.forEach((item: any) => {
-        const dictInfo = idDictionaryMap[item.dict]
+        const dictInfo = dictionaryById[item.dict]
         let translation = ''
 
         if (dictInfo?.url && dictDataMap.has(dictInfo.url)) {

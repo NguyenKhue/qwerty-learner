@@ -1,0 +1,64 @@
+import {
+  allDictionariesAtom,
+  customDictionariesAtom,
+  customDictionariesLoadedAtom,
+  dictionaryByIdAtom,
+  shouldResetDictId,
+} from './customDicts'
+import { dictionaries } from '@/resources/dictionary'
+import type { Dictionary } from '@/typings'
+import { createStore } from 'jotai'
+import { describe, expect, it } from 'vitest'
+
+const custom: Dictionary = {
+  id: 'custom:abc',
+  name: 'Mine',
+  description: '',
+  category: 'My Sets',
+  tags: ['Custom'],
+  url: 'idb:abc',
+  length: 3,
+  language: 'en',
+  languageCategory: 'en',
+  chapterCount: 1,
+}
+
+describe('dictionary atoms', () => {
+  it('merges custom sets (first) with built-ins and resolves ids', () => {
+    const store = createStore()
+    expect(store.get(allDictionariesAtom)).toHaveLength(dictionaries.length)
+    store.set(customDictionariesAtom, [custom])
+    const all = store.get(allDictionariesAtom)
+    expect(all[0].id).toBe('custom:abc')
+    expect(all).toHaveLength(dictionaries.length + 1)
+    const byId = store.get(dictionaryByIdAtom)
+    expect(byId['custom:abc']).toBe(custom)
+    expect(byId.cet4.id).toBe('cet4')
+  })
+
+  it('starts with loaded = false', () => {
+    expect(createStore().get(customDictionariesLoadedAtom)).toBe(false)
+  })
+})
+
+describe('shouldResetDictId', () => {
+  const byId = { cet4: dictionaries.find((d) => d.id === 'cet4') as Dictionary, 'custom:abc': custom }
+
+  it('keeps known dictionaries', () => {
+    expect(shouldResetDictId('cet4', false, byId)).toBe(false)
+    expect(shouldResetDictId('custom:abc', true, byId)).toBe(false)
+  })
+
+  it('does not reset a custom id before the custom sets have loaded (reload case)', () => {
+    expect(shouldResetDictId('custom:gone', false, { cet4: byId.cet4 })).toBe(false)
+  })
+
+  it('resets a custom id that is missing after loading (deleted set)', () => {
+    expect(shouldResetDictId('custom:gone', true, { cet4: byId.cet4 })).toBe(true)
+  })
+
+  it('resets an unknown built-in id regardless of loading', () => {
+    expect(shouldResetDictId('nope', false, byId)).toBe(true)
+    expect(shouldResetDictId('nope', true, byId)).toBe(true)
+  })
+})
