@@ -160,3 +160,9 @@ reappear until due, and the new-card limit is respected across reloads on the sa
 - Export/import of user data (`dexie-export-import`, `clearTablesBeforeImport: true`) carries `customDicts` and `cardProgress`: an export followed by an import restores them (verified in the browser).
 - Importing a backup made **before** P1 (no `customDicts`/`cardProgress` tables) clears the current custom sets and progress, because the import replaces all tables. This is the existing "restore replaces everything" behaviour and was left unchanged.
 - Under Vitest the app's import graph (`@/utils` → `mixpanel` → `@/store` → `@/resources/dictionary`) needs `window` and `window.matchMedia` at load time, so tests run in `jsdom` with a `matchMedia` stub (`src/test/setup.ts`).
+
+## Findings from P2 implementation
+
+- The study queue is a snapshot built when "Start" is pressed. A card graded `again` is saved as due in 10 minutes, so after a reload it reappears only once those 10 minutes have passed (inside a running session it is re-queued at the end).
+- `nextState` takes the card identity as an extra argument (a new card has no row to read `dict`/`word` from); learning cards graded `again`/`hard` stay `learning` without counting a lapse; the interval is capped at 365 days and `ease` never drops below 1.3.
+- Study entry points are shown for custom sets only; the `/study/:dictId` route itself works for any dictionary id.

@@ -69,6 +69,9 @@ export default function MySetsPage() {
                       </p>
                     </div>
                     <div className="flex shrink-0 gap-2">
+                      <Button size="sm" onClick={() => navigate(`/study/${encodeURIComponent(dict.id)}`)}>
+                        Study
+                      </Button>
                       <Button size="sm" onClick={() => onPractice(dict)}>
                         Practice
                       </Button>
