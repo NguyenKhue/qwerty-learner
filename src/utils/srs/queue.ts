@@ -1,4 +1,4 @@
-import { startOfLocalDay } from './time'
+import { addLocalDays, startOfLocalDay } from './time'
 import type { Word } from '@/typings'
 import type { ICardProgress } from '@/utils/db/record'
 
@@ -14,6 +14,9 @@ export function sanitizeNewPerDay(value: unknown): number {
   if (!Number.isFinite(n)) return DEFAULT_NEW_PER_DAY
   return Math.min(MAX_NEW_PER_DAY, Math.max(0, Math.floor(n)))
 }
+
+/** A stored `due` that is not a number is treated as "due now" so a corrupt row can never hide its card forever. */
+const dueOf = (card: ICardProgress) => (Number.isFinite(card.due) ? card.due : 0)
 
 function uniqueWords(words: Word[]): Word[] {
   const seen = new Set<string>()
@@ -52,7 +55,7 @@ export function buildQueue(input: { words: Word[]; progress: ICardProgress[]; no
   words.forEach((word) => {
     const card = byWord.get(word.name)
     if (!card) fresh.push(word)
-    else if (card.due <= input.now) due.push({ word, due: card.due })
+    else if (dueOf(card) <= input.now) due.push({ word, due: dueOf(card) })
   })
   due.sort((a, b) => a.due - b.due)
 
@@ -71,7 +74,17 @@ export function queueCounts(queue: QueueItem[]): { due: number; new: number } {
 export function nextDueTime(words: Word[], progress: ICardProgress[], now: number): number | null {
   const byWord = progressOfWords(uniqueWords(words), progress)
   return Array.from(byWord.values()).reduce<number | null>((next, card) => {
-    if (card.due <= now) return next
-    return next === null || card.due < next ? card.due : next
+    const due = dueOf(card)
+    if (due <= now) return next
+    return next === null || due < next ? due : next
   }, null)
+}
+
+export const MIN_REFRESH_MS = 1000
+
+/** How long to wait before the overview's "now" must be refreshed: until the next card is due or local midnight, whichever is first. */
+export function nextRefreshDelay(now: number, next: number | null): number {
+  const midnight = addLocalDays(now, 1)
+  const target = next !== null && next < midnight ? next : midnight
+  return Math.max(MIN_REFRESH_MS, target - now + MIN_REFRESH_MS)
 }

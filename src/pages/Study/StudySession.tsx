@@ -3,11 +3,13 @@ import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { Button } from '@/components/ui/button'
 import { reviewCard } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
+import { createGrader } from '@/utils/srs/grader'
 import type { QueueItem } from '@/utils/srs/queue'
 import { queueCounts } from '@/utils/srs/queue'
 import { GRADES, previewLabels } from '@/utils/srs/scheduler'
 import type { Grade } from '@/utils/srs/scheduler'
-import { answer, createSession, currentItem, flip } from '@/utils/srs/session'
+import { createSession, currentItem, flip } from '@/utils/srs/session'
+import type { StudySession as SessionState } from '@/utils/srs/session'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 
@@ -31,11 +33,37 @@ const GRADE_NAME: Record<Grade, string> = { again: 'Again', hard: 'Hard', good: 
 
 export default function StudySession({ dictId, queue, progress, reverse, onFinish }: Props) {
   const [session, setSession] = useState(() => createSession(queue))
+  // The session guards read this ref, which is updated synchronously, instead of the value captured by the last render
+  const sessionRef = useRef(session)
+  const updateSession = useCallback((next: SessionState) => {
+    sessionRef.current = next
+    setSession(next)
+  }, [])
   const [cards, setCards] = useState(() => new Map(progress.map((card): [string, ICardProgress] => [card.word, card])))
   const [error, setError] = useState('')
-  // A ref, not state: two key presses in the same tick must not both pass the guard
-  const busy = useRef(false)
+  const [saving, setSaving] = useState(false)
   const finished = useRef(false)
+
+  const graderRef = useRef<(grade: Grade) => Promise<void>>()
+  if (!graderRef.current) {
+    graderRef.current = createGrader({
+      getSession: () => sessionRef.current,
+      setSession: updateSession,
+      save: async (word, grade) => {
+        const saved = await reviewCard(dictId, word, grade)
+        setCards((prev) => {
+          const next = new Map(prev)
+          next.set(saved.word, saved)
+          return next
+        })
+      },
+      onBusy: (busy) => {
+        setSaving(busy)
+        if (busy) setError('')
+      },
+      onError: (e) => setError(e instanceof Error ? e.message : 'Could not save your answer'),
+    })
+  }
 
   const item = currentItem(session)
   const counts = queueCounts(session.queue)
@@ -43,36 +71,17 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
   const finish = useCallback(() => {
     if (finished.current) return
     finished.current = true
-    onFinish({ reviewed: session.reviewed, again: session.again })
-  }, [onFinish, session.again, session.reviewed])
+    onFinish({ reviewed: sessionRef.current.reviewed, again: sessionRef.current.again })
+  }, [onFinish])
 
   useEffect(() => {
     if (!item) finish()
   }, [item, finish])
 
-  const onFlip = useCallback(() => setSession((s) => flip(s)), [])
-
-  const onGrade = useCallback(
-    async (grade: Grade) => {
-      if (busy.current || !item || !session.flipped) return
-      busy.current = true
-      setError('')
-      try {
-        const saved = await reviewCard(dictId, item.word.name, grade)
-        setCards((prev) => {
-          const next = new Map(prev)
-          next.set(saved.word, saved)
-          return next
-        })
-        setSession((s) => answer(s, grade))
-      } catch (e) {
-        setError(e instanceof Error ? e.message : 'Could not save your answer')
-      } finally {
-        busy.current = false
-      }
-    },
-    [dictId, item, session.flipped],
-  )
+  const onFlip = useCallback(() => updateSession(flip(sessionRef.current)), [updateSession])
+  const onGrade = useCallback((grade: Grade) => {
+    graderRef.current?.(grade)
+  }, [])
 
   useHotkeys('space', onFlip, { preventDefault: true }, [onFlip])
   useHotkeys('1', () => onGrade('again'), [onGrade])
@@ -110,7 +119,7 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
           <span>
             New {counts.new} · Due {counts.due}
           </span>
-          <Button size="sm" variant="outline" onClick={finish}>
+          <Button size="sm" variant="outline" disabled={saving} onClick={finish}>
             Exit
           </Button>
         </div>

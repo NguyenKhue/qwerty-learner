@@ -1,4 +1,4 @@
-import { DEFAULT_NEW_PER_DAY, buildQueue, nextDueTime, queueCounts, sanitizeNewPerDay } from './queue'
+import { DEFAULT_NEW_PER_DAY, buildQueue, nextDueTime, nextRefreshDelay, queueCounts, sanitizeNewPerDay } from './queue'
 import { startOfLocalDay } from './time'
 import type { Word } from '@/typings'
 import type { ICardProgress } from '@/utils/db/record'
@@ -118,5 +118,35 @@ describe('sanitizeNewPerDay', () => {
     expect(sanitizeNewPerDay(NaN)).toBe(DEFAULT_NEW_PER_DAY)
     expect(sanitizeNewPerDay(null)).toBe(DEFAULT_NEW_PER_DAY)
     expect(sanitizeNewPerDay(undefined)).toBe(DEFAULT_NEW_PER_DAY)
+  })
+})
+
+describe('corrupt rows', () => {
+  it('treats a non-numeric due as due now instead of hiding the card forever', () => {
+    const words = ['a', 'b'].map(word)
+    const queue = buildQueue({ words, progress: [card('a', { due: NaN })], now: NOW, newPerDay: 0 })
+    expect(queue.map((i) => [i.word.name, i.kind])).toEqual([['a', 'due']])
+  })
+
+  it('nextDueTime skips a non-numeric due and still finds the real next one', () => {
+    const words = ['a', 'b'].map(word)
+    expect(nextDueTime(words, [card('a', { due: NaN }), card('b', { due: NOW + 7000 })], NOW)).toBe(NOW + 7000)
+  })
+})
+
+describe('nextRefreshDelay', () => {
+  const MIDNIGHT = new Date(2026, 9, 13).getTime()
+
+  it('waits for the next due card when it comes before midnight (plus a second of slack)', () => {
+    expect(nextRefreshDelay(NOW, NOW + 600000)).toBe(601000)
+  })
+
+  it('waits for midnight when nothing is due sooner or nothing is scheduled', () => {
+    expect(nextRefreshDelay(NOW, null)).toBe(MIDNIGHT - NOW + 1000)
+    expect(nextRefreshDelay(NOW, MIDNIGHT + 5 * 86400000)).toBe(MIDNIGHT - NOW + 1000)
+  })
+
+  it('never returns less than one second', () => {
+    expect(nextRefreshDelay(NOW, NOW)).toBe(1000)
   })
 })

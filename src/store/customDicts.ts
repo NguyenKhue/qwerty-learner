@@ -16,6 +16,11 @@ export const dictionaryByIdAtom = atom<Record<string, Dictionary>>((get) => {
   return byId
 })
 
+/** Own-property lookup: an id such as 'constructor' must not resolve to a member of Object.prototype. */
+export function lookupDictionary(byId: Record<string, Dictionary>, id: string): Dictionary | undefined {
+  return Object.prototype.hasOwnProperty.call(byId, id) ? byId[id] : undefined
+}
+
 /** A custom dictionary id whose sets have not been read from IndexedDB yet: its info and words are not available. */
 export function isCustomDictPending(id: string, customLoaded: boolean): boolean {
   return isCustomDictId(id) && !customLoaded

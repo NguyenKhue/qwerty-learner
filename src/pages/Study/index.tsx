@@ -2,11 +2,11 @@ import StudyOverview from './Overview'
 import StudySession from './StudySession'
 import type { SessionSummary } from './StudySession'
 import Layout from '@/components/Layout'
-import { customDictionariesLoadedAtom, dictionaryByIdAtom, isCustomDictPending } from '@/store/customDicts'
+import { customDictionariesLoadedAtom, dictionaryByIdAtom, isCustomDictPending, lookupDictionary } from '@/store/customDicts'
 import { newCardsPerDayAtom, studyReverseAtom } from '@/store/study'
 import { getDictProgress } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
-import { sanitizeNewPerDay } from '@/utils/srs/queue'
+import { buildQueue, nextDueTime, nextRefreshDelay, sanitizeNewPerDay } from '@/utils/srs/queue'
 import type { QueueItem } from '@/utils/srs/queue'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtom, useAtomValue } from 'jotai'
@@ -17,8 +17,8 @@ import useSWR from 'swr'
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function StudyRoute() {
   const { dictId = '' } = useParams()
-  const id = decodeURIComponent(dictId)
-  return <Study key={id} id={id} />
+  // React Router has already decoded the param
+  return <Study key={dictId} id={dictId} />
 }
 
 function Study({ id }: { id: string }) {
@@ -29,7 +29,7 @@ function Study({ id }: { id: string }) {
   const [reverse, setReverse] = useAtom(studyReverseAtom)
   const newPerDay = sanitizeNewPerDay(newPerDayStored)
 
-  const dict = dictionaryById[id]
+  const dict = lookupDictionary(dictionaryById, id)
   const pending = isCustomDictPending(id, customLoaded)
 
   useEffect(() => {
@@ -56,6 +56,37 @@ function Study({ id }: { id: string }) {
   useEffect(() => {
     reloadProgress()
   }, [reloadProgress])
+
+  // Keep the overview's idea of "now" current: when the next card becomes due, at midnight, and when the tab becomes visible again
+  useEffect(() => {
+    if (queue) return
+    const refresh = () => setNow(Date.now())
+    const current = Date.now()
+    const delay = nextRefreshDelay(current, nextDueTime(words ?? [], progress ?? [], current))
+    const timer = window.setTimeout(refresh, delay)
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') refresh()
+    }
+    document.addEventListener('visibilitychange', onVisible)
+    window.addEventListener('focus', refresh)
+    return () => {
+      window.clearTimeout(timer)
+      document.removeEventListener('visibilitychange', onVisible)
+      window.removeEventListener('focus', refresh)
+    }
+  }, [queue, words, progress, now])
+
+  // Build the queue at the moment Start is pressed so it never uses a stale "now"
+  const onStart = useCallback(() => {
+    if (!words || !progress) return
+    const fresh = Date.now()
+    const built = buildQueue({ words, progress, now: fresh, newPerDay })
+    if (built.length === 0) {
+      setNow(fresh)
+      return
+    }
+    setQueue(built)
+  }, [words, progress, newPerDay])
 
   const onFinish = useCallback(
     (result: SessionSummary) => {
@@ -92,7 +123,7 @@ function Study({ id }: { id: string }) {
       reverse={reverse}
       onReverseChange={setReverse}
       summary={summary}
-      onStart={setQueue}
+      onStart={onStart}
       onBack={() => navigate('/my-sets')}
     />
   )

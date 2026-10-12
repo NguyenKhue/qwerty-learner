@@ -4,6 +4,7 @@ import {
   customDictionariesLoadedAtom,
   dictionaryByIdAtom,
   isCustomDictPending,
+  lookupDictionary,
   shouldResetDictId,
 } from './customDicts'
 import { dictionaries } from '@/resources/dictionary'
@@ -69,5 +70,16 @@ describe('isCustomDictPending', () => {
     expect(isCustomDictPending('custom:abc', false)).toBe(true)
     expect(isCustomDictPending('custom:abc', true)).toBe(false)
     expect(isCustomDictPending('cet4', false)).toBe(false)
+  })
+})
+
+describe('lookupDictionary', () => {
+  it('finds own entries only, never Object.prototype members', () => {
+    const byId = { cet4: custom }
+    expect(lookupDictionary(byId, 'cet4')).toBe(custom)
+    expect(lookupDictionary(byId, 'constructor')).toBeUndefined()
+    expect(lookupDictionary(byId, 'toString')).toBeUndefined()
+    expect(lookupDictionary(byId, '__proto__')).toBeUndefined()
+    expect(lookupDictionary(byId, 'missing')).toBeUndefined()
   })
 })
