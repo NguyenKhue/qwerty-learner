@@ -11,7 +11,7 @@ import type { QueueItem } from '@/utils/srs/queue'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useEffect, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import useSWR from 'swr'
 
 // Keyed by id so moving between two sets in place starts from a clean state
@@ -23,6 +23,7 @@ export default function StudyRoute() {
 
 function Study({ id }: { id: string }) {
   const navigate = useNavigate()
+  const location = useLocation()
   const dictionaryById = useAtomValue(dictionaryByIdAtom)
   const customLoaded = useAtomValue(customDictionariesLoadedAtom)
   const [newPerDayStored, setNewPerDay] = useAtom(newCardsPerDayAtom)
@@ -124,7 +125,8 @@ function Study({ id }: { id: string }) {
       onReverseChange={setReverse}
       summary={summary}
       onStart={onStart}
-      onBack={() => navigate('/my-sets')}
+      // `default` is the key of the first entry of the session: there is nothing to go back to, so fall back to the sets page
+      onBack={() => (location.key === 'default' ? navigate('/my-sets') : navigate(-1))}
     />
   )
 }

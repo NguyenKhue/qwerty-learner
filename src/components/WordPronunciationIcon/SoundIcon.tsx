@@ -23,7 +23,12 @@ export const SoundIcon = ({ duration = 500, animated = false, onClick, iconClass
   const Icon = volumeIcons[animationFrameIndex]
 
   return (
-    <button type="button" className={`focus:outline-none dark:fill-gray-400 dark:opacity-80 ${className}`} onClick={onClick}>
+    <button
+      type="button"
+      aria-label="Play pronunciation"
+      className={`focus:outline-none dark:fill-gray-400 dark:opacity-80 ${className}`}
+      onClick={onClick}
+    >
       <Icon className={iconClassName} />
     </button>
   )

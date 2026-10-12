@@ -10,7 +10,7 @@ import { GRADES, previewLabels } from '@/utils/srs/scheduler'
 import type { Grade } from '@/utils/srs/scheduler'
 import { createSession, currentItem, flip } from '@/utils/srs/session'
 import type { StudySession as SessionState } from '@/utils/srs/session'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 
 export type SessionSummary = { reviewed: number; again: number }
@@ -89,11 +89,15 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
   useHotkeys('3', () => onGrade('good'), [onGrade])
   useHotkeys('4', () => onGrade('easy'), [onGrade])
 
+  // One timestamp per shown/revealed card, so the labels do not depend on when React happens to re-render
+  const currentName = item?.word.name
+  const labelsNow = useMemo(() => Date.now(), [currentName, session.flipped]) // eslint-disable-line react-hooks/exhaustive-deps
+
   if (!item) return null
 
   const { word } = item
   const phonetic = word.usphone || word.ukphone
-  const labels = previewLabels(cards.get(word.name), { dict: dictId, word: word.name }, Date.now())
+  const labels = previewLabels(cards.get(word.name), { dict: dictId, word: word.name }, labelsNow)
 
   const wordBlock = (
     <div className="flex flex-col items-center gap-2">
@@ -139,7 +143,17 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
           )}
         </div>
 
-        {error && <p className="text-sm text-red-600">{error}</p>}
+        <p className="sr-only" aria-live="polite">
+          {session.flipped
+            ? `${word.name}: ${word.trans.join('; ')}`
+            : `${item.kind === 'new' ? 'New' : 'Due'} card: ${reverse ? word.trans.join('; ') : word.name}`}
+        </p>
+
+        {error && (
+          <p role="alert" className="text-sm text-red-600">
+            {error}
+          </p>
+        )}
 
         <div className="grid w-full grid-cols-4 gap-3">
           {GRADES.map((grade, index) => (
