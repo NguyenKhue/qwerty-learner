@@ -18,6 +18,15 @@ module.exports = {
         accent: { DEFAULT: token('accent'), foreground: token('accent-foreground') },
         destructive: { DEFAULT: token('destructive'), foreground: token('destructive-foreground') },
       },
+      boxShadow: {
+        1: 'var(--shadow-1)',
+        2: 'var(--shadow-2)',
+        3: 'var(--shadow-3)',
+      },
+      transitionTimingFunction: {
+        out: 'var(--ease-out)',
+        spring: 'var(--ease-spring)',
+      },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
@@ -32,11 +41,20 @@ module.exports = {
         },
       },
       animation: {
+        'enter-up': 'enter-up var(--dur-enter) var(--ease-out) both',
+        'enter-fade': 'enter-fade var(--dur-enter) var(--ease-out) both',
+        pop: 'pop var(--dur-base) var(--ease-out) both',
+        shake: 'shake 240ms var(--ease-out)',
+        'soft-pulse': 'soft-pulse 320ms var(--ease-out)',
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       transitionDuration: {
         0: '0ms',
+        fast: 'var(--dur-fast)',
+        base: 'var(--dur-base)',
+        enter: 'var(--dur-enter)',
+        flip: 'var(--dur-flip)',
       },
       padding: {
         0.8: '0.2rem',

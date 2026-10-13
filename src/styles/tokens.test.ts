@@ -57,3 +57,22 @@ for (const [mode, selector] of [
     })
   })
 }
+
+describe('elevation and motion tokens', () => {
+  const light = parseTokenBlock(css, ':root')
+  it.each(['shadow-1', 'shadow-2', 'shadow-3', 'ease-out', 'ease-spring', 'dur-fast', 'dur-base', 'dur-enter', 'dur-flip'])(
+    'defines --%s',
+    (name) => {
+      expect(css).toContain(`--${name}:`)
+    },
+  )
+  it('keeps the page background close to neutral (less lavender than before)', () => {
+    const [r, g, b] = light.background
+    expect(Math.max(r, g, b) - Math.min(r, g, b)).toBeLessThanOrEqual(12)
+  })
+  it('lifts the dark card above the dark page', () => {
+    const dark = parseTokenBlock(css, '.dark')
+    const sum = (v: number[]) => v.reduce((a, n) => a + n, 0)
+    expect(sum(dark.card)).toBeGreaterThan(sum(dark.background))
+  })
+})
