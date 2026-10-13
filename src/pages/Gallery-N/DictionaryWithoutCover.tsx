@@ -34,30 +34,20 @@ export default function DictionaryComponent({ dictionary }: Props) {
       <DialogTrigger asChild>
         <div
           ref={divRef}
-          className={`group flex  h-36 w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg p-4 text-left shadow-lg focus:outline-none ${
-            isSelected ? 'bg-primary' : 'bg-muted hover:bg-card  '
+          className={`group flex h-36 w-full cursor-pointer items-center justify-center overflow-hidden rounded-xl border bg-card p-4 text-left shadow-1 transition-[transform,box-shadow,border-color] duration-base ease-out hover:-translate-y-0.5 hover:shadow-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
+            isSelected ? 'border-primary ring-1 ring-ring' : 'border-border hover:border-primary/40'
           }`}
           role="button"
           // onClick={onClick}
         >
           <div className="relative ml-1 mt-2 flex h-full w-full flex-col items-start justify-start">
-            <h1
-              className={`mb-1.5 text-xl font-normal  ${
-                isSelected ? 'text-primary-foreground' : 'text-foreground group-hover:text-primary '
-              }`}
-            >
+            <h1 className={`mb-1.5 text-lg font-semibold ${isSelected ? 'text-primary' : 'text-foreground group-hover:text-primary'}`}>
               {dictionary.name}
             </h1>
             <TooltipProvider>
               <Tooltip delayDuration={400}>
                 <TooltipTrigger asChild>
-                  <p
-                    className={`mb-1 max-w-full truncate ${
-                      isSelected ? 'text-primary-foreground' : 'textdelayDuration-gray-600 '
-                    } whitespace-nowrap`}
-                  >
-                    {dictionary.description}
-                  </p>
+                  <p className="mb-1 max-w-full truncate whitespace-nowrap text-sm text-muted-foreground">{dictionary.description}</p>
                 </TooltipTrigger>
                 <TooltipContent>
                   <p>{`${dictionary.description}`}</p>
@@ -65,20 +55,11 @@ export default function DictionaryComponent({ dictionary }: Props) {
               </Tooltip>
             </TooltipProvider>
 
-            <p className={`mb-0.5 font-bold  ${isSelected ? 'text-primary-foreground' : 'text-muted-foreground '}`}>
-              {dictionary.length} words
-            </p>
-            <div className=" flex w-full items-center pt-2">
+            <p className="mb-0.5 text-sm text-muted-foreground">{dictionary.length} words</p>
+            <div className="flex w-full items-center pt-2">
               {progress > 0 && (
-                <Progress.Root
-                  value={progress}
-                  max={100}
-                  className={`mr-4 h-2 w-full rounded-full border  bg-card ${isSelected ? 'border-primary' : 'border-primary'}`}
-                >
-                  <Progress.Indicator
-                    className={`h-full rounded-full pl-0 ${isSelected ? 'bg-primary' : 'bg-primary'}`}
-                    style={{ width: `calc(${progress}% )` }}
-                  />
+                <Progress.Root value={progress} max={100} className="mr-4 h-2 w-full rounded-full border border-primary bg-card">
+                  <Progress.Indicator className="h-full rounded-full bg-primary pl-0" style={{ width: `calc(${progress}% )` }} />
                 </Progress.Root>
               )}
               <img src={bookCover} className={`absolute right-3 top-3 w-16 ${isSelected ? 'opacity-50' : 'opacity-20'}`} />

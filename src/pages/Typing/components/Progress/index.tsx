@@ -22,10 +22,10 @@ export default function Progress({ className }: { className?: string }) {
 
   return (
     <div className={`relative w-1/4 pt-1 ${className}`}>
-      <div className="mb-4 flex h-2 overflow-hidden rounded-xl bg-primary/10 text-xs transition-all duration-300 ">
+      <div className="mb-4 flex h-1.5 overflow-hidden rounded-full bg-muted">
         <div
-          style={{ width: `${progress}%` }}
-          className={`flex flex-col justify-center whitespace-nowrap rounded-xl text-center text-white shadow-none transition-all duration-300 ${
+          style={{ transform: `scaleX(${progress / 100})` }}
+          className={`h-full w-full origin-left rounded-full transition-transform duration-base ease-out ${
             colorSwitcher[phase] ?? 'bg-primary/40'
           }`}
         ></div>

@@ -64,7 +64,11 @@ export function FileDrop({
         accept={accept}
         disabled={disabled}
         className="sr-only"
-        onChange={(event) => handleFile(event.target.files?.[0])}
+        onChange={(event) => {
+          handleFile(event.target.files?.[0])
+          // Clearing the value lets the same file be picked again after an edit
+          event.target.value = ''
+        }}
       />
     </label>
   )

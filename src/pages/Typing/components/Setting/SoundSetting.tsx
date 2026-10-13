@@ -122,9 +122,9 @@ export default function SoundSetting() {
   return (
     <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
       <ScrollArea.Viewport className="h-full w-full px-3">
-        <div className={styles.tabContent}>
-          <div className={styles.section}>
-            <span className={styles.sectionLabel}>Word pronunciation</span>
+        <div className="flex w-full flex-col items-start justify-start overflow-y-auto pb-40 pl-6 pr-9 pt-8">
+          <div className="flex w-full flex-col items-start gap-4 border-b border-border py-3 last:border-0">
+            <span className="text-sm font-medium text-foreground">Word pronunciation</span>
             <div className={styles.switchBlock}>
               <Switch checked={pronunciationConfig.isOpen} onChange={onTogglePronunciation} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
@@ -180,8 +180,8 @@ export default function SoundSetting() {
             </div>
           </div>
           {window.speechSynthesis && (
-            <div className={styles.section}>
-              <span className={styles.sectionLabel}>Definition pronunciation</span>
+            <div className="flex w-full flex-col items-start gap-4 border-b border-border py-3 last:border-0">
+              <span className="text-sm font-medium text-foreground">Definition pronunciation</span>
               <div className={styles.switchBlock}>
                 <Switch checked={pronunciationConfig.isTransRead} onChange={onTogglePronunciationIsTransRead} className="switch-root">
                   <span aria-hidden="true" className="switch-thumb" />
@@ -213,8 +213,8 @@ export default function SoundSetting() {
             </div>
           )}
 
-          <div className={styles.section}>
-            <span className={styles.sectionLabel}>Keystroke sounds</span>
+          <div className="flex w-full flex-col items-start gap-4 border-b border-border py-3 last:border-0">
+            <span className="text-sm font-medium text-foreground">Keystroke sounds</span>
             <div className={styles.switchBlock}>
               <Switch checked={keySoundsConfig.isOpen} onChange={onToggleKeySounds} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />
@@ -287,8 +287,8 @@ export default function SoundSetting() {
             </div>
           </div>
 
-          <div className={styles.section}>
-            <span className={styles.sectionLabel}>Hint sounds</span>
+          <div className="flex w-full flex-col items-start gap-4 border-b border-border py-3 last:border-0">
+            <span className="text-sm font-medium text-foreground">Hint sounds</span>
             <div className={styles.switchBlock}>
               <Switch checked={hintSoundsConfig.isOpen} onChange={onToggleHintSounds} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />

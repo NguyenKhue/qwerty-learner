@@ -32,18 +32,18 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
   const { getReferenceProps, getFloatingProps } = useInteractions([hoverButton])
 
   return (
-    <Tooltip content={`${state.isTyping ? 'Pause' : 'Start'} (Enter)`} className="box-content h-7 w-8 px-6 py-1">
+    <Tooltip content={`${state.isTyping ? 'Pause' : 'Start'} (Enter)`} className="box-content h-12 w-24">
       <div
         ref={refs.setReference}
         {...getReferenceProps()}
         className={`${
           state.isTyping ? 'bg-muted-foreground shadow-muted-foreground/20 dark:shadow-none' : 'bg-primary shadow-primary/30'
         } ${
-          isShowReStartButton ? 'h-20' : 'h-auto'
-        } flex-column absolute left-0 top-0 w-20 rounded-lg shadow-lg transition-colors duration-200`}
+          isShowReStartButton ? 'h-28' : 'h-12'
+        } flex-column absolute left-0 top-0 w-24 rounded-lg shadow-2 transition-colors duration-base`}
       >
         <button
-          className={`${state.isTyping ? 'bg-muted-foreground   ' : 'bg-primary'} my-btn-primary w-20 shadow`}
+          className={`${state.isTyping ? 'bg-muted-foreground   ' : 'bg-primary'} my-btn-primary h-12 w-24 px-6 text-base shadow-2`}
           type="button"
           onClick={onToggleIsTyping}
           aria-label={state.isTyping ? 'Pause' : 'Start'}
@@ -51,11 +51,11 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
           <span className="font-medium">{state.isTyping ? 'Pause' : 'Start'}</span>
         </button>
         {isShowReStartButton && (
-          <div className="absolute bottom-0 flex w-20 justify-center" ref={refs.setFloating} {...getFloatingProps()}>
+          <div className="absolute bottom-0 flex w-24 justify-center" ref={refs.setFloating} {...getFloatingProps()}>
             <button
               className={`${
                 state.isTyping ? 'bg-muted-foreground   ' : 'bg-primary '
-              } my-btn-primary mb-1 mt-1 w-18  transition-colors duration-200`}
+              } my-btn-primary mb-1 mt-1 h-12 w-24 px-6 text-base shadow-2 transition-colors duration-base`}
               type="button"
               onClick={onClickRestart}
               aria-label={'Restart'}

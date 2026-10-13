@@ -42,32 +42,32 @@ const Analysis = () => {
 
   return (
     <Layout>
-      <div className="flex w-full flex-1 flex-col overflow-y-auto pl-20 pr-20 pt-20">
-        <IconX className="absolute right-20 top-10 mr-2 h-7 w-7 cursor-pointer text-muted-foreground" onClick={onBack} />
+      <div className="mx-auto flex w-full max-w-5xl flex-1 animate-enter-up flex-col gap-6 overflow-y-auto px-4 py-6 md:px-8">
+        <IconX className="ml-auto h-7 w-7 shrink-0 cursor-pointer text-muted-foreground" onClick={onBack} />
         <ScrollArea.Root className="flex-1 overflow-y-auto">
           <ScrollArea.Viewport className="h-full w-auto pb-[20rem] [&>div]:!block">
             {isEmpty ? (
-              <div className="align-items-center m-4 grid h-80 w-auto place-content-center overflow-hidden rounded-lg shadow-lg ">
+              <div className="grid h-80 w-full place-content-center overflow-hidden rounded-xl border border-border bg-card shadow-1">
                 <div className="text-2xl text-muted-foreground">No practice data yet</div>
               </div>
             ) : (
-              <>
-                <div className="mx-4 my-8 h-auto w-auto overflow-hidden rounded-lg border border-border bg-card p-8 shadow-lg">
+              <div className="flex flex-col gap-6">
+                <div className="w-full overflow-hidden rounded-xl border border-border bg-card p-4 shadow-1 sm:p-6">
                   <HeatmapCharts title="Practice count heatmap, past year" data={exerciseRecord} />
                 </div>
-                <div className="mx-4 my-8 h-auto w-auto overflow-hidden rounded-lg border border-border bg-card p-8 shadow-lg">
+                <div className="w-full overflow-hidden rounded-xl border border-border bg-card p-4 shadow-1 sm:p-6">
                   <HeatmapCharts title="Words practiced heatmap, past year" data={wordRecord} />
                 </div>
-                <div className="mx-4 my-8 h-80 w-auto overflow-hidden rounded-lg border border-border bg-card p-8 shadow-lg">
+                <div className="h-80 w-full overflow-hidden rounded-xl border border-border bg-card p-4 shadow-1 sm:p-6">
                   <LineCharts title="WPM trend, past year" name="WPM" data={wpmRecord} />
                 </div>
-                <div className="mx-4 my-8 h-80 w-auto overflow-hidden rounded-lg border border-border bg-card p-8 shadow-lg">
+                <div className="h-80 w-full overflow-hidden rounded-xl border border-border bg-card p-4 shadow-1 sm:p-6">
                   <LineCharts title="Accuracy trend, past year" name="Accuracy (%)" data={accuracyRecord} suffix="%" />
                 </div>
-                <div className="mx-4 my-8 h-80 w-auto overflow-hidden rounded-lg border border-border bg-card p-8 shadow-lg">
+                <div className="h-80 w-full overflow-hidden rounded-xl border border-border bg-card p-4 shadow-1 sm:p-6">
                   <KeyboardWithBarCharts title="Keystroke error ranking" name="Error count" data={wrongTimeRecord} />
                 </div>
-              </>
+              </div>
             )}
           </ScrollArea.Viewport>
           <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>

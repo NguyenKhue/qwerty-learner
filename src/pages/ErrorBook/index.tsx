@@ -96,8 +96,12 @@ export function ErrorBook() {
 
   return (
     <>
-      <div className={`relative flex h-full w-full flex-col items-center pb-4 ease-in ${currentRowDetail && 'blur-sm'}`}>
-        <div className="mr-8 mt-4 flex w-auto items-center justify-center self-end">
+      <div
+        className={`relative mx-auto flex h-full w-full max-w-5xl animate-enter-up flex-col gap-4 px-4 pb-4 pt-6 ease-in md:px-8 ${
+          currentRowDetail && 'blur-sm'
+        }`}
+      >
+        <div className="flex w-auto items-center justify-end gap-4 self-end">
           <h1 className="font-lighter mr-4 w-auto self-end text-muted-foreground opacity-70">
             Tip: click a misspelled word to see details{' '}
           </h1>
@@ -105,9 +109,9 @@ export function ErrorBook() {
         </div>
 
         {/* On a phone the table keeps a readable width and scrolls sideways inside its own box instead of squeezing its columns */}
-        <div className="flex w-full flex-1 select-text items-start justify-start overflow-x-auto overflow-y-hidden px-4 md:justify-center md:px-0">
-          <div className="flex h-full w-full min-w-[38rem] flex-col pt-10 md:w-5/6">
-            <div className="flex w-full justify-between rounded-lg bg-card px-6 py-5 text-lg text-card-foreground shadow-lg">
+        <div className="flex w-full flex-1 select-text items-start justify-start overflow-x-auto overflow-y-hidden md:justify-center">
+          <div className="flex h-full w-full min-w-[38rem] flex-col rounded-xl border border-border bg-card p-4 shadow-1 sm:p-6 md:w-5/6">
+            <div className="flex w-full justify-between rounded-lg bg-muted px-4 py-3 text-sm font-medium text-muted-foreground">
               <span className="basis-2/12">Word</span>
               <span className="basis-6/12">Meaning</span>
               <HeadWrongNumber className="basis-1/12" sortType={sortType} setSortType={setSort} />

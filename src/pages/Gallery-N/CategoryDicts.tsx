@@ -25,7 +25,7 @@ export default function DictionaryGroup({ groupedDictsByTag }: { groupedDictsByT
   return (
     <div>
       <DictTagSwitcher tagList={tagList} currentTag={currentTag} onChangeCurrentTag={onChangeCurrentTag} />
-      <div className="mt-8 grid gap-x-5 gap-y-6 px-1 pb-4 [grid-template-columns:repeat(auto-fill,minmax(min(20rem,100%),1fr))]">
+      <div className="mt-6 grid gap-4 px-1 pb-4 [grid-template-columns:repeat(auto-fill,minmax(min(20rem,100%),1fr))] sm:gap-6">
         {currentTag && groupedDictsByTag[currentTag] ? (
           groupedDictsByTag[currentTag].map((dict) => <DictionaryComponent key={dict.id} dictionary={dict} />)
         ) : (

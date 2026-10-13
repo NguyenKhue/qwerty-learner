@@ -1,6 +1,7 @@
 import WordEditorCard from './WordEditorCard'
 import { Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
+import { Field, Input } from '@/components/ui/input'
 import { seededPersonalSetsAtom } from '@/store/personal'
 import { rowIssues } from '@/utils/custom-dict/issues'
 import { rowsToWords, wordsToRows } from '@/utils/custom-dict/parse'
@@ -14,9 +15,6 @@ import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import IconSearch from '~icons/tabler/search'
 
 const emptyRow = (): EditableRow => ({ name: '', trans: '', usphone: '', ukphone: '', detail: '' })
-const inputClass =
-  'w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring'
-const labelClass = 'text-xs font-medium text-muted-foreground'
 
 // Keyed by id so that moving between /my-sets/new and /my-sets/<id> (browser back/forward) starts from a clean editor
 export default function SetEditorRoute() {
@@ -200,7 +198,7 @@ function SetEditor({ id }: { id: string }) {
 
   return (
     <div className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 pb-10 md:px-8">
-      <div className="sticky top-0 z-20 -mx-4 border-b border-border bg-background/95 px-4 py-3 backdrop-blur md:-mx-8 md:px-8">
+      <div className="sticky top-0 z-20 -mx-4 border-b border-border bg-background/90 px-4 py-3 shadow-1 backdrop-blur md:-mx-8 md:px-8">
         <div className="flex items-center gap-x-3">
           <Link
             to={listPath}
@@ -232,14 +230,14 @@ function SetEditor({ id }: { id: string }) {
           <label htmlFor="set-editor-search" className="sr-only">
             Search words in this set
           </label>
-          <input
+          <Input
             id="set-editor-search"
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search words in this set"
             aria-label="Search words in this set"
-            className="h-11 w-full rounded-lg border border-border bg-background pl-10 pr-3 text-sm text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            className="pl-10"
           />
         </div>
       </div>
@@ -257,30 +255,17 @@ function SetEditor({ id }: { id: string }) {
         <>
           <Panel className="p-4">
             <div className="grid gap-4 sm:grid-cols-2">
-              <div className="flex flex-col gap-1">
-                <label htmlFor="set-editor-name" className={labelClass}>
-                  Name
-                </label>
-                <input
-                  id="set-editor-name"
-                  value={name}
-                  onChange={(e) => onChangeName(e.target.value)}
-                  placeholder="Set name"
-                  className={`${inputClass} h-11`}
-                />
-              </div>
-              <div className="flex flex-col gap-1">
-                <label htmlFor="set-editor-description" className={labelClass}>
-                  Description (optional)
-                </label>
-                <input
+              <Field label="Name" htmlFor="set-editor-name">
+                <Input id="set-editor-name" value={name} onChange={(e) => onChangeName(e.target.value)} placeholder="Set name" />
+              </Field>
+              <Field label="Description (optional)" htmlFor="set-editor-description">
+                <Input
                   id="set-editor-description"
                   value={description}
                   onChange={(e) => onChangeDescription(e.target.value)}
                   placeholder="Description (optional)"
-                  className={`${inputClass} h-11`}
                 />
-              </div>
+              </Field>
             </div>
             <p className="mt-3 text-sm text-muted-foreground">
               Put one meaning per line. Phonetics and the detail are optional; the detail is shown on the back of flashcards.

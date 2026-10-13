@@ -14,7 +14,7 @@ function WordCard({ word, onEdit }: WordCardProps) {
   const phonetic = word.usphone || word.ukphone
 
   return (
-    <div className="relative rounded-xl border border-border bg-card p-4 md:p-5">
+    <div className="relative rounded-xl border border-border bg-card p-4 shadow-1 md:p-5">
       <button
         type="button"
         aria-label={`Edit ${word.name}`}
@@ -53,7 +53,7 @@ function WordCard({ word, onEdit }: WordCardProps) {
             {open ? 'Hide detail' : 'Show detail'}
           </button>
           {open && (
-            <div className="mt-3 border-t border-border pt-3">
+            <div className="mt-2 rounded-lg border border-border bg-muted/50 p-3">
               <DetailText text={word.detail} />
             </div>
           )}

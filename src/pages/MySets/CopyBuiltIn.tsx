@@ -1,5 +1,6 @@
-import { Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
+import { Card, CardTitle } from '@/components/ui/card'
+import { Select } from '@/components/ui/select'
 import { dictionaries } from '@/resources/dictionary'
 import { seededPersonalSetsAtom } from '@/store/personal'
 import { duplicateDictionaryAsCustom } from '@/utils/db/copy-dict'
@@ -31,30 +32,30 @@ export default function CopyBuiltIn() {
   }
 
   return (
-    <Panel className="w-full">
-      <h2 className="mb-1 text-lg font-medium">Copy a built-in dictionary</h2>
-      <p className="mb-4 text-sm text-muted-foreground">Built-in dictionaries cannot be edited. Copy one into your sets to edit it.</p>
-      <div className="flex flex-wrap items-center gap-3">
-        <select
-          value={selectedId}
-          onChange={(e) => setSelectedId(e.target.value)}
-          className="h-11 w-full max-w-xs rounded-lg border border-border bg-background px-3 text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-        >
-          {groups.map(([category, dicts]) => (
-            <optgroup key={category} label={category}>
-              {dicts.map((dict) => (
-                <option key={dict.id} value={dict.id}>
-                  {dict.name} ({dict.length})
-                </option>
-              ))}
-            </optgroup>
-          ))}
-        </select>
+    <Card className="flex w-full flex-col gap-4">
+      <div className="flex flex-col gap-1">
+        <CardTitle>Copy a built-in dictionary</CardTitle>
+        <p className="text-sm text-muted-foreground">Built-in dictionaries cannot be edited. Copy one into your sets to edit it.</p>
+      </div>
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+        <div className="min-w-0 flex-1 sm:max-w-xs">
+          <Select value={selectedId} onChange={(e) => setSelectedId(e.target.value)}>
+            {groups.map(([category, dicts]) => (
+              <optgroup key={category} label={category}>
+                {dicts.map((dict) => (
+                  <option key={dict.id} value={dict.id}>
+                    {dict.name} ({dict.length})
+                  </option>
+                ))}
+              </optgroup>
+            ))}
+          </Select>
+        </div>
         <Button disabled={busy || !selectedId} onClick={onCopy}>
           {busy ? 'Copying…' : 'Copy'}
         </Button>
       </div>
-      {message && <p className="mt-3 text-sm text-primary">{message}</p>}
-    </Panel>
+      {message && <p className="text-sm text-primary">{message}</p>}
+    </Card>
   )
 }

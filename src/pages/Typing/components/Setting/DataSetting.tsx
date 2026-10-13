@@ -1,4 +1,3 @@
-import styles from './index.module.css'
 import type { ExportProgress, ImportProgress } from '@/utils/db/data-export'
 import { exportDatabase, importDatabase } from '@/utils/db/data-export'
 import * as Progress from '@radix-ui/react-progress'
@@ -56,16 +55,16 @@ export default function DataSetting() {
   return (
     <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
       <ScrollArea.Viewport className="h-full w-full px-3">
-        <div className={styles.tabContent}>
-          <div className={styles.section}>
-            <span className={styles.sectionLabel}>Export Data</span>
-            <span className={styles.sectionDescription}>
+        <div className="flex w-full flex-col items-start justify-start overflow-y-auto pb-40 pl-6 pr-9 pt-8">
+          <div className="flex w-full flex-col items-start gap-4 border-b border-border py-3 last:border-0">
+            <span className="text-sm font-medium text-foreground">Export Data</span>
+            <span className="text-sm text-muted-foreground">
               At the moment, your practice data is <strong>stored on this device only</strong>. If you want to use Qwerty Learner on a
               different device, browser, or other unofficial deployment, you will need to sync and back up your data manually. To keep your
               practice progress and make the most of the data analysis and smart training features coming soon, we recommend backing up your
               data regularly.
             </span>
-            <span className="pl-4 text-left text-sm font-bold leading-tight text-red-500">
+            <span className="pl-4 text-left text-sm font-bold leading-tight text-destructive">
               For the safety of your data, please do not modify the exported data file.
             </span>
             <div className="flex h-3 w-full items-center justify-start px-5">
@@ -91,11 +90,11 @@ export default function DataSetting() {
               Export data
             </button>
           </div>
-          <div className={styles.section}>
-            <span className={styles.sectionLabel}>Import Data</span>
-            <span className={styles.sectionDescription}>
-              Please note that importing data will <strong className="text-sm font-bold text-red-500"> completely overwrite</strong> your
-              current data. Please proceed with caution. This includes your custom sets: a backup made before custom sets existed will
+          <div className="flex w-full flex-col items-start gap-4 border-b border-border py-3 last:border-0">
+            <span className="text-sm font-medium text-foreground">Import Data</span>
+            <span className="text-sm text-muted-foreground">
+              Please note that importing data will <strong className="text-sm font-bold text-destructive"> completely overwrite</strong>{' '}
+              your current data. Please proceed with caution. This includes your custom sets: a backup made before custom sets existed will
               remove the ones you have created since.
             </span>
 

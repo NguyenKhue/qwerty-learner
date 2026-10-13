@@ -20,7 +20,7 @@ export default function SetActionsMenu({ name, onOpen, onEdit, onDuplicate, onDe
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="sm" aria-label={`Actions for ${name}`} onClick={(event) => event.stopPropagation()}>
+        <Button variant="ghost" size="icon" aria-label={`Actions for ${name}`} onClick={(event) => event.stopPropagation()}>
           <IconDots className="h-5 w-5" aria-hidden />
         </Button>
       </DropdownMenuTrigger>

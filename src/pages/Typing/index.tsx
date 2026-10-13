@@ -129,7 +129,7 @@ const App: React.FC = () => {
             <button
               className={`${
                 state.isShowSkip ? 'bg-orange-400' : 'invisible w-0 bg-muted px-0 opacity-0'
-              } my-btn-primary transition-all duration-300 `}
+              } my-btn-primary transition-[opacity,background-color] duration-base `}
               onClick={skipWord}
             >
               Skip

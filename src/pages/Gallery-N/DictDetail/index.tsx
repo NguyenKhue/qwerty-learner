@@ -78,25 +78,25 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
   )
 
   return (
-    <div className="flex flex-col rounded-[4rem] px-4 py-3 pl-5 text-foreground ">
+    <div className="flex flex-col gap-4 rounded-[4rem] px-4 py-3 pl-5 text-foreground ">
       {/* No fixed height and no absolute positioning: a long description pushes the tab buttons down instead of running under them */}
-      <div className="text flex flex-col gap-2 pb-4">
-        <div className="flex flex-wrap items-center justify-between gap-3 pr-8">
-          <h3 className="min-w-0 text-2xl font-semibold">{dict.name}</h3>
-          <div className="flex shrink-0 items-center gap-2">
+      <div className="text flex flex-col gap-3 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4 pr-8">
+          <h3 className="text-title min-w-0">{dict.name}</h3>
+          <div className="flex shrink-0 flex-wrap items-center gap-3">
             {editPath && (
-              <Button size="sm" variant="outline" onClick={() => navigate(editPath)}>
+              <Button variant="outline" onClick={() => navigate(editPath)}>
                 Edit set
               </Button>
             )}
-            <Button size="sm" onClick={onUseSet}>
-              Use this set
-            </Button>
+            <Button onClick={onUseSet}>Use this set</Button>
           </div>
         </div>
-        <p className="mt-1">{dict.chapterCount} chapters</p>
-        <p>{dict.length} words in total</p>
-        <p>{dict.description}</p>
+        <div className="flex flex-col gap-1 text-sm text-muted-foreground">
+          <p>{dict.chapterCount} chapters</p>
+          <p>{dict.length} words in total</p>
+          <p>{dict.description}</p>
+        </div>
         <div className="mt-2 flex flex-wrap justify-end">
           <ToggleGroup type="single" value={curTab} onValueChange={handleTabChange}>
             <ToggleGroupItem

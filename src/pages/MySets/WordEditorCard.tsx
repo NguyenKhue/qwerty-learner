@@ -6,7 +6,10 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
+import { Field, Input } from '@/components/ui/input'
+import { Textarea } from '@/components/ui/textarea'
 import type { EditableRow } from '@/utils/custom-dict/parse'
+import { cn } from '@/utils/ui'
 import { memo, useEffect, useRef, useState } from 'react'
 import IconDots from '~icons/tabler/dots'
 
@@ -23,10 +26,6 @@ type WordEditorCardProps = {
   onMove: (index: number, delta: number) => void
   onRemove: (index: number) => void
 }
-
-const inputClass =
-  'w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring'
-const labelClass = 'text-xs font-medium text-muted-foreground'
 
 function WordEditorCard({
   row,
@@ -52,9 +51,12 @@ function WordEditorCard({
   return (
     <div
       id={`word-card-${index}`}
-      className={`rounded-xl border bg-card p-4 transition-shadow ${
-        issue ? 'border-destructive' : highlighted ? 'ring-2 ring-primary' : 'border-border'
-      }`}
+      className={cn(
+        'rounded-xl border bg-card p-4 shadow-1 transition-shadow',
+        issue ? 'border-destructive' : highlighted ? 'ring-2 ring-primary' : 'border-border',
+        // Only the card that was just added pops in; every other card renders in place
+        autoFocus && 'animate-pop',
+      )}
     >
       <div className="mb-3 flex items-start justify-between gap-2">
         <div className="flex min-w-0 flex-col gap-1">
@@ -67,7 +69,7 @@ function WordEditorCard({
         </div>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline" size="sm" aria-label={`Actions for word ${index + 1}`}>
+            <Button variant="ghost" size="icon" aria-label={`Actions for word ${index + 1}`}>
               <IconDots className="h-5 w-5" aria-hidden />
             </Button>
           </DropdownMenuTrigger>
@@ -86,57 +88,41 @@ function WordEditorCard({
         </DropdownMenu>
       </div>
 
-      <div className="grid gap-3 md:grid-cols-2">
-        <div className="flex flex-col gap-1">
-          <label htmlFor={`word-${index}`} className={labelClass}>
-            Word
-          </label>
-          <input
+      <div className="grid gap-4 md:grid-cols-2">
+        <Field label="Word" htmlFor={`word-${index}`}>
+          <Input
             id={`word-${index}`}
             ref={wordRef}
             value={row.name}
             placeholder="Word"
             onChange={(e) => onChange(index, { name: e.target.value })}
-            className={`${inputClass} h-11`}
           />
-        </div>
-        <div className="flex flex-col gap-1">
-          <label htmlFor={`meanings-${index}`} className={labelClass}>
-            Meanings (one per line)
-          </label>
-          <textarea
+        </Field>
+        <Field label="Meanings (one per line)" htmlFor={`meanings-${index}`}>
+          <Textarea
             id={`meanings-${index}`}
             value={row.trans}
             rows={3}
             placeholder="One meaning per line"
             onChange={(e) => onChange(index, { trans: e.target.value })}
-            className={inputClass}
           />
-        </div>
-        <div className="flex flex-col gap-1">
-          <label htmlFor={`us-${index}`} className={labelClass}>
-            US phonetic
-          </label>
-          <input
+        </Field>
+        <Field label="US phonetic" htmlFor={`us-${index}`}>
+          <Input
             id={`us-${index}`}
             value={row.usphone}
             placeholder="US phonetic"
             onChange={(e) => onChange(index, { usphone: e.target.value })}
-            className={`${inputClass} h-11`}
           />
-        </div>
-        <div className="flex flex-col gap-1">
-          <label htmlFor={`uk-${index}`} className={labelClass}>
-            UK phonetic
-          </label>
-          <input
+        </Field>
+        <Field label="UK phonetic" htmlFor={`uk-${index}`}>
+          <Input
             id={`uk-${index}`}
             value={row.ukphone}
             placeholder="UK phonetic"
             onChange={(e) => onChange(index, { ukphone: e.target.value })}
-            className={`${inputClass} h-11`}
           />
-        </div>
+        </Field>
       </div>
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
@@ -153,18 +139,16 @@ function WordEditorCard({
       </div>
 
       {open && (
-        <div className="mt-1 flex flex-col gap-1">
-          <label htmlFor={`detail-${index}`} className={labelClass}>
-            Detail (shown on the back of flashcards)
-          </label>
-          <textarea
-            id={`detail-${index}`}
-            value={row.detail ?? ''}
-            rows={8}
-            placeholder="A longer explanation shown on the back of flashcards"
-            onChange={(e) => onChange(index, { detail: e.target.value })}
-            className={inputClass}
-          />
+        <div className="mt-1">
+          <Field label="Detail (shown on the back of flashcards)" htmlFor={`detail-${index}`}>
+            <Textarea
+              id={`detail-${index}`}
+              value={row.detail ?? ''}
+              rows={8}
+              placeholder="A longer explanation shown on the back of flashcards"
+              onChange={(e) => onChange(index, { detail: e.target.value })}
+            />
+          </Field>
         </div>
       )}
     </div>

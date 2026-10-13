@@ -36,9 +36,9 @@ export default function ViewSetting() {
   return (
     <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
       <ScrollArea.Viewport className="h-full w-full px-3">
-        <div className={styles.tabContent}>
-          <div className={styles.section}>
-            <span className={styles.sectionLabel}>Font settings</span>
+        <div className="flex w-full flex-col items-start justify-start overflow-y-auto pb-40 pl-6 pr-9 pt-8">
+          <div className="flex w-full flex-col items-start gap-4 border-b border-border py-3 last:border-0">
+            <span className="text-eyebrow mb-1 mt-4">Font settings</span>
             <div className={styles.block}>
               <span className={styles.blockLabel}>Word font</span>
               <div className="flex h-5 w-full items-center justify-between">

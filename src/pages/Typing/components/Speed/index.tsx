@@ -12,7 +12,7 @@ export default function Speed() {
   const inputNumber = state.chapterData.correctCount + state.chapterData.wrongCount
 
   return (
-    <div className="my-card flex w-3/5 rounded-xl bg-card p-4 py-10 opacity-50 transition-colors duration-300 ">
+    <div className="flex w-3/5 gap-3 opacity-50 transition-opacity duration-base">
       <InfoBox info={`${minutesString}:${secondsString}`} description="Time" />
       <InfoBox info={inputNumber + ''} description="Inputs" />
       <InfoBox info={state.timerData.wpm + ''} description="WPM" />

@@ -1,5 +1,7 @@
 import WordCard from './WordCard'
 import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { PageHeader } from '@/components/ui/page-header'
 import { currentChapterAtom, currentDictIdAtom } from '@/store'
 import { seededPersonalSetsAtom } from '@/store/personal'
 import type { Word } from '@/typings'
@@ -8,6 +10,7 @@ import { CUSTOM_DICT_PREFIX, customEditPath, getCustomDict } from '@/utils/db/cu
 import { isPersonalSeedPending } from '@/utils/db/personal-seed'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useAtomValue, useSetAtom } from 'jotai'
+import type { CSSProperties } from 'react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import IconSearch from '~icons/tabler/search'
@@ -58,7 +61,7 @@ function SetDetail({ id }: { id: string }) {
 
   if (record === undefined) {
     return (
-      <div className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 py-6 md:px-8">
+      <div className="mx-auto flex w-full max-w-4xl flex-col gap-8 px-4 py-6 md:px-8">
         <p className="text-sm text-muted-foreground">Loading…</p>
       </div>
     )
@@ -66,18 +69,18 @@ function SetDetail({ id }: { id: string }) {
   if (record === null) return null
 
   return (
-    <div className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 py-6 md:px-8">
-      <Link to="/my-sets" className="inline-flex min-h-[44px] items-center text-sm text-muted-foreground hover:text-foreground">
-        ← My sets
-      </Link>
+    <div className="mx-auto flex w-full max-w-4xl flex-col gap-8 px-4 py-6 md:px-8 md:py-8">
+      <PageHeader
+        back={
+          <Link to="/my-sets" className="inline-flex min-h-[44px] items-center text-sm text-muted-foreground hover:text-foreground">
+            ← My sets
+          </Link>
+        }
+        title={record.name}
+        subtitle={`${record.words.length} words${record.description ? ` · ${record.description}` : ''}`}
+      />
 
-      <div className="flex flex-col gap-1">
-        <h1 className="text-2xl font-semibold">{record.name}</h1>
-        {record.description && <p className="text-sm text-muted-foreground">{record.description}</p>}
-        <p className="text-sm text-muted-foreground">{record.words.length} words</p>
-      </div>
-
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-3">
         <Button onClick={() => startMode('/study')}>Flashcards</Button>
         <Button variant="outline" onClick={() => startMode('/quiz')}>
           Quiz
@@ -99,14 +102,14 @@ function SetDetail({ id }: { id: string }) {
           <label htmlFor="set-detail-search" className="sr-only">
             Search words
           </label>
-          <input
+          <Input
             id="set-detail-search"
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search words, meanings or details"
             aria-label="Search words"
-            className="h-11 w-full rounded-lg border border-border bg-background pl-10 pr-3 text-sm text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            className="pl-10"
           />
         </div>
         {query !== '' && (
@@ -127,9 +130,9 @@ function SetDetail({ id }: { id: string }) {
         <p className="text-sm text-muted-foreground">No words match &quot;{query}&quot;.</p>
       ) : (
         <>
-          <ul className="flex flex-col gap-3">
-            {indexes.slice(0, shown).map((wordIndex) => (
-              <li key={record.words[wordIndex].name + wordIndex}>
+          <ul className="stagger flex flex-col gap-3">
+            {indexes.slice(0, shown).map((wordIndex, index) => (
+              <li key={record.words[wordIndex].name + wordIndex} style={{ '--i': Math.min(index, 10) } as CSSProperties}>
                 <WordCard word={record.words[wordIndex]} onEdit={() => openEditor(record.words[wordIndex].name)} />
               </li>
             ))}
