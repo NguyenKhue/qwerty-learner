@@ -23,6 +23,7 @@ const AnalysisPage = lazy(() => import('./pages/Analysis'))
 const GalleryPage = lazy(() => import('./pages/Gallery-N'))
 const MySetsPage = lazy(() => import('./pages/MySets'))
 const SetEditorPage = lazy(() => import('./pages/MySets/SetEditor'))
+const SetDetailPage = lazy(() => import('./pages/MySets/SetDetail'))
 const StudyPage = lazy(() => import('./pages/Study'))
 const QuizPage = lazy(() => import('./pages/Quiz'))
 const MatchPage = lazy(() => import('./pages/Match'))
@@ -55,7 +56,7 @@ function Root() {
               <Route path="/my-sets" element={<MySetsPage />} />
               <Route path="/my-sets/new" element={<SetEditorPage />} />
               <Route path="/my-sets/:id/edit" element={<SetEditorPage />} />
-              <Route path="/my-sets/:id" element={<SetEditorPage />} />
+              <Route path="/my-sets/:id" element={<SetDetailPage />} />
               <Route path="/study" element={<StudyPage />} />
               <Route path="/quiz" element={<QuizPage />} />
               <Route path="/match" element={<MatchPage />} />

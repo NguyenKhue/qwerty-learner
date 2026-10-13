@@ -1,14 +1,15 @@
 import CopyBuiltIn from './CopyBuiltIn'
 import ImportPanel from './ImportPanel'
+import SetActionsMenu from './SetActionsMenu'
 import { Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import { currentChapterAtom, currentDictIdAtom } from '@/store'
 import { customDictionariesAtom } from '@/store/customDicts'
 import type { Dictionary } from '@/typings'
-import { customIdOf, deleteCustomDict, duplicateCustomDict } from '@/utils/db/custom-dict'
+import { customEditPath, customIdOf, customViewPath, deleteCustomDict, duplicateCustomDict } from '@/utils/db/custom-dict'
 import { useAtomValue, useSetAtom } from 'jotai'
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function MySetsPage() {
   const navigate = useNavigate()
@@ -57,30 +58,40 @@ export default function MySetsPage() {
           </p>
         ) : (
           <ul className="divide-y divide-border">
-            {sets.map((dict) => (
-              <li key={dict.id} className="flex flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6">
-                <div className="min-w-0">
-                  <p className="truncate text-lg font-medium">{dict.name}</p>
-                  <p className="truncate text-sm text-muted-foreground">
-                    {dict.length} words{dict.description ? ` · ${dict.description}` : ''}
-                  </p>
-                </div>
-                <div className="flex shrink-0 flex-wrap gap-2">
-                  <Button size="sm" onClick={() => onOpen(dict)}>
-                    Open
-                  </Button>
-                  <Button size="sm" variant="outline" onClick={() => navigate(`/my-sets/${customIdOf(dict.id)}`)}>
-                    Edit
-                  </Button>
-                  <Button size="sm" variant="outline" onClick={() => onDuplicate(dict)}>
-                    Duplicate
-                  </Button>
-                  <Button size="sm" variant="destructive" onClick={() => onDelete(dict)}>
-                    Delete
-                  </Button>
-                </div>
-              </li>
-            ))}
+            {sets.map((dict) => {
+              const viewPath = customViewPath(dict.id) ?? '/my-sets'
+              return (
+                <li
+                  key={dict.id}
+                  className="relative flex flex-col gap-3 px-4 py-4 transition-colors hover:bg-muted/50 sm:flex-row sm:items-center sm:justify-between sm:px-6"
+                >
+                  <div className="min-w-0">
+                    {/* Stretched link: the ::after overlay makes the whole row clickable, the buttons below sit above it via z-10 */}
+                    <Link
+                      to={viewPath}
+                      className="truncate text-lg font-medium after:absolute after:inset-0 after:content-[''] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                    >
+                      {dict.name}
+                    </Link>
+                    <p className="truncate text-sm text-muted-foreground">
+                      {dict.length} words{dict.description ? ` · ${dict.description}` : ''}
+                    </p>
+                  </div>
+                  <div className="relative z-10 flex shrink-0 items-center gap-2">
+                    <Button size="sm" onClick={() => onOpen(dict)}>
+                      Open
+                    </Button>
+                    <SetActionsMenu
+                      name={dict.name}
+                      onOpen={() => onOpen(dict)}
+                      onEdit={() => navigate(customEditPath(dict.id) ?? '/my-sets')}
+                      onDuplicate={() => onDuplicate(dict)}
+                      onDelete={() => onDelete(dict)}
+                    />
+                  </div>
+                </li>
+              )
+            })}
           </ul>
         )}
       </Panel>
