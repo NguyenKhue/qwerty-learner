@@ -1,6 +1,6 @@
 import { getCustomDict } from './custom-dict'
 import { db } from './database'
-import { migratePersonalSet } from './personal-seed'
+import { isPersonalSeedPending, migratePersonalSet } from './personal-seed'
 import type { IWordRecord } from './record'
 import type { Word } from '@/typings'
 import { beforeEach, describe, expect, it } from 'vitest'
@@ -107,5 +107,18 @@ describe('migratePersonalSet', () => {
   it('works on an empty database (a fresh install)', async () => {
     const result = await migratePersonalSet(input([word('a')]))
     expect(result).toMatchObject({ created: true, cards: 0, typedWords: 0, chapters: 0, reviews: 0, log: 0 })
+  })
+})
+
+describe('isPersonalSeedPending', () => {
+  it('is true for the id of a set that is still to be created from a built-in set, false once it has been', () => {
+    expect(isPersonalSeedPending('myvocab', [])).toBe(true)
+    expect(isPersonalSeedPending('myvocab', ['cet4'])).toBe(true)
+    expect(isPersonalSeedPending('myvocab', ['myVocab'])).toBe(false)
+  })
+
+  it('is false for any other id, so a missing set is reported as missing', () => {
+    expect(isPersonalSeedPending('abc123', [])).toBe(false)
+    expect(isPersonalSeedPending('', [])).toBe(false)
   })
 })

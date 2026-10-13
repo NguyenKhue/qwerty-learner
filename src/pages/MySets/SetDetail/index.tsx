@@ -1,11 +1,13 @@
 import WordCard from './WordCard'
 import { Button } from '@/components/ui/button'
 import { currentChapterAtom, currentDictIdAtom } from '@/store'
+import { seededPersonalSetsAtom } from '@/store/personal'
 import type { Word } from '@/typings'
 import { PAGE_SIZE, filterIndexes, visibleCount } from '@/utils/custom-dict/search'
 import { CUSTOM_DICT_PREFIX, customEditPath, getCustomDict } from '@/utils/db/custom-dict'
+import { isPersonalSeedPending } from '@/utils/db/personal-seed'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { useSetAtom } from 'jotai'
+import { useAtomValue, useSetAtom } from 'jotai'
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import IconSearch from '~icons/tabler/search'
@@ -27,8 +29,10 @@ function SetDetail({ id }: { id: string }) {
   const [query, setQuery] = useState('')
   const [shown, setShown] = useState(PAGE_SIZE)
 
+  // The built-in My Vocabulary becomes this set at the first start: until then a missing record is "still coming", not "gone"
+  const waitingForSeed = isPersonalSeedPending(id, useAtomValue(seededPersonalSetsAtom))
   // `undefined` while the record is still being read, `null` once we know the set is gone (deleted on another page)
-  const record = data === undefined ? undefined : data.record
+  const record = data === undefined || (data.record === null && waitingForSeed) ? undefined : data.record
 
   useEffect(() => {
     if (record === null) navigate('/my-sets', { replace: true })
@@ -63,7 +67,7 @@ function SetDetail({ id }: { id: string }) {
 
   return (
     <div className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 py-6 md:px-8">
-      <Link to="/my-sets" className="text-sm text-muted-foreground hover:text-foreground">
+      <Link to="/my-sets" className="inline-flex min-h-[44px] items-center text-sm text-muted-foreground hover:text-foreground">
         ← My sets
       </Link>
 

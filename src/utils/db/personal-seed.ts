@@ -16,6 +16,14 @@ export type PersonalSeedInput = {
 /** Built-in sets that belong to the user and become editable sets of their own the first time the app opens. */
 export const PERSONAL_SEEDS: { builtInId: string; customId: string }[] = [{ builtInId: 'myVocab', customId: 'myvocab' }]
 
+/**
+ * Whether `customId` (a bare record id) belongs to a built-in set that has not been turned into the user's set yet. A page opened on
+ * its address during the very first start finds no record at that moment: it has to wait for the move instead of reporting "not found".
+ */
+export function isPersonalSeedPending(customId: string, seededBuiltInIds: string[]): boolean {
+  return PERSONAL_SEEDS.some((seed) => seed.customId === customId && seededBuiltInIds.indexOf(seed.builtInId) === -1)
+}
+
 export type PersonalSeedResult = { created: boolean; cards: number; typedWords: number; chapters: number; reviews: number; log: number }
 
 /**
