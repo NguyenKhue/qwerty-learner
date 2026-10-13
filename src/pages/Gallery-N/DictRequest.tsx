@@ -39,7 +39,7 @@ export default function DictRequest() {
             If you have some programming skills, please refer to our
             <a
               href="https://github.com/RealKai42/qwerty-learner/blob/master/docs/toBuildDict.md"
-              className="mx-1 font-medium text-blue-500 hover:text-blue-600"
+              className="mx-1 font-medium text-primary underline underline-offset-2 hover:opacity-80"
               target="_blank"
               rel="noreferrer"
             >
@@ -109,7 +109,7 @@ export default function DictRequest() {
       <button
         type="button"
         onClick={onOpenPanel}
-        className="group flex items-center space-x-2 rounded-lg border border-primary bg-gradient-to-r from-indigo-50 to-blue-50 px-4 py-2.5 text-sm font-medium text-primary shadow-sm transition-all duration-200 hover:scale-105 hover:border-primary hover:from-indigo-100 hover:to-blue-100 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2  dark:from-gray-800 dark:to-gray-700  dark:hover:from-gray-700 dark:hover:to-gray-600"
+        className="group flex items-center space-x-2 rounded-lg border border-primary bg-primary/10 px-4 py-2.5 text-sm font-medium text-primary shadow-sm transition-all duration-200 hover:scale-105 hover:border-primary hover:bg-primary/20 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
       >
         <IconBook2 className="h-4 w-4" />
         <span>Find more dictionaries</span>
