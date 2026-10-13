@@ -13,7 +13,7 @@ export type GraderDeps = {
 
 /**
  * Grades the current card. The session is advanced synchronously, before the save is awaited, so a repeated key press or a
- * double click that arrives while React has not re-rendered yet sees an unflipped session and is ignored (no double review).
+ * double click that arrives while React has not re-rendered yet sees a session whose answer has not been revealed yet and is ignored (no double review).
  * If the save fails the session is put back so the card can be graded again.
  */
 export function createGrader(deps: GraderDeps): (grade: Grade) => Promise<void> {
@@ -22,7 +22,7 @@ export function createGrader(deps: GraderDeps): (grade: Grade) => Promise<void> 
     if (busy) return
     const before = deps.getSession()
     const item = currentItem(before)
-    if (!item || !before.flipped) return
+    if (!item || !before.revealed) return
 
     busy = true
     deps.onBusy(true)

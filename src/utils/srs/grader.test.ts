@@ -1,6 +1,6 @@
 import { createGrader } from './grader'
 import type { QueueItem } from './queue'
-import { createSession, currentItem, flip } from './session'
+import { createSession, currentItem, flip, toggleFlip } from './session'
 import type { StudySession } from './session'
 import { describe, expect, it } from 'vitest'
 
@@ -88,5 +88,26 @@ describe('createGrader', () => {
     t.release()
     await retry
     expect(t.errors).toHaveLength(2)
+  })
+})
+
+describe('grading after flipping back to the front', () => {
+  it('still grades a card whose answer was seen and whose front is showing again', async () => {
+    let session: StudySession = toggleFlip(toggleFlip(createSession([item('a'), item('b')])))
+    const saved: string[] = []
+    const grade = createGrader({
+      getSession: () => session,
+      setSession: (next) => {
+        session = next
+      },
+      save: async (word) => {
+        saved.push(word)
+      },
+      onBusy: () => undefined,
+      onError: () => undefined,
+    })
+    await grade('good')
+    expect(saved).toEqual(['a'])
+    expect(session.reviewed).toBe(1)
   })
 })

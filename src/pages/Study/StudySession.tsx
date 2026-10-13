@@ -13,7 +13,7 @@ import type { QueueItem } from '@/utils/srs/queue'
 import { queueCounts } from '@/utils/srs/queue'
 import { GRADES, previewLabels } from '@/utils/srs/scheduler'
 import type { Grade } from '@/utils/srs/scheduler'
-import { createSession, currentItem, flip } from '@/utils/srs/session'
+import { createSession, currentItem, toggleFlip } from '@/utils/srs/session'
 import type { StudySession as SessionState } from '@/utils/srs/session'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
@@ -87,7 +87,7 @@ export default function StudySession({ dictId, queue, progress, reverse, details
     if (!item) finish()
   }, [item, finish])
 
-  const onFlip = useCallback(() => updateSession(flip(sessionRef.current)), [updateSession])
+  const onFlip = useCallback(() => updateSession(toggleFlip(sessionRef.current)), [updateSession])
   const onGrade = useCallback((grade: Grade) => {
     graderRef.current?.(grade)
   }, [])
@@ -100,7 +100,7 @@ export default function StudySession({ dictId, queue, progress, reverse, details
 
   // One timestamp per shown/revealed card, so the labels do not depend on when React happens to re-render
   const currentName = item?.word.name
-  const labelsNow = useMemo(() => Date.now(), [currentName, session.flipped]) // eslint-disable-line react-hooks/exhaustive-deps
+  const labelsNow = useMemo(() => Date.now(), [currentName, session.revealed]) // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!item) return null
 
@@ -187,11 +187,10 @@ export default function StudySession({ dictId, queue, progress, reverse, details
         {/* Keyed by the word so the scroll position of the back never leaks into the next card */}
         <FlipCard key={word.name} flipped={session.flipped} onFlip={onFlip} front={front} back={back} />
 
-        {!session.flipped && (
-          <Button variant="outline" onClick={onFlip}>
-            Show answer (Space)
-          </Button>
-        )}
+        {/* Always available: after reading the meaning the card can be turned back to rehearse the word before grading */}
+        <Button variant="outline" onClick={onFlip}>
+          {!session.revealed ? 'Show answer (Space)' : session.flipped ? 'Flip back (Space)' : 'Flip again (Space)'}
+        </Button>
 
         <p className="sr-only" aria-live="polite">
           {session.flipped
@@ -209,7 +208,7 @@ export default function StudySession({ dictId, queue, progress, reverse, details
           {GRADES.map((grade, index) => (
             <button
               key={grade}
-              disabled={!session.flipped}
+              disabled={!session.revealed}
               onClick={() => onGrade(grade)}
               className={`flex min-h-[56px] flex-col items-center justify-center rounded-lg px-3 py-3 text-sm font-medium transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-30 ${GRADE_STYLE[grade]}`}
             >
