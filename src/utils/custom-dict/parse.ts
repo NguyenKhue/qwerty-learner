@@ -286,3 +286,14 @@ export function rowsToWords(rows: EditableRow[]): ParseResult {
   const normalized = normalizeWords(words)
   return { words: normalized.words, errors, duplicates: normalized.duplicates }
 }
+
+/** Inverse of `rowsToWords`: editor cells hold one meaning per line and keep the detail, so opening a set never loses it. */
+export function wordsToRows(words: Word[]): EditableRow[] {
+  return words.map((word) => ({
+    name: word.name,
+    trans: word.trans.join('\n'),
+    usphone: word.usphone,
+    ukphone: word.ukphone,
+    detail: word.detail ?? '',
+  }))
+}

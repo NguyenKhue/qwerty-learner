@@ -8,6 +8,7 @@ import {
   rowsToWords,
   splitMeanings,
   splitTrans,
+  wordsToRows,
 } from './parse'
 import { describe, expect, it } from 'vitest'
 
@@ -244,5 +245,30 @@ describe('detail (long meaning for the back of a flashcard)', () => {
     ])
     expect(result.words[0].detail).toBe('Long text')
     expect('detail' in result.words[1]).toBe(false)
+  })
+})
+
+describe('wordsToRows (loading a stored set into the editor)', () => {
+  const words = [
+    {
+      name: 'strict',
+      trans: ['adj. nghiêm ngặt', 'adj. khắc khe'],
+      usphone: 'strɪkt',
+      ukphone: 'strɪkt',
+      detail: 'Long text\nsecond line',
+    },
+    { name: 'plain', trans: ['n. đơn giản'], usphone: '', ukphone: '' },
+  ]
+
+  it('puts one meaning per line and keeps the detail (an empty string when there is none)', () => {
+    expect(wordsToRows(words)).toEqual([
+      { name: 'strict', trans: 'adj. nghiêm ngặt\nadj. khắc khe', usphone: 'strɪkt', ukphone: 'strɪkt', detail: 'Long text\nsecond line' },
+      { name: 'plain', trans: 'n. đơn giản', usphone: '', ukphone: '', detail: '' },
+    ])
+  })
+
+  it('does not lose a detail when a set is opened in the editor and saved again', () => {
+    const saved = rowsToWords(wordsToRows(words)).words
+    expect(saved).toEqual(words)
   })
 })

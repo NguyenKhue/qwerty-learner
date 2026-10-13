@@ -55,8 +55,10 @@ export default function ImportPanel() {
     <Panel className="w-full">
       <h2 className="mb-1 text-lg font-medium">Import a set</h2>
       <p className="mb-4 text-sm text-muted-foreground">
-        CSV with columns <code>name,trans,usphone,ukphone</code> (separate meanings with <code>;</code>), or a JSON file in the same format
-        as the built-in dictionaries.
+        CSV with columns <code>name,trans,usphone,ukphone,detail</code> (separate meanings with <code>;</code>; the <code>detail</code>{' '}
+        column is optional and may contain line breaks if the cell is quoted; the header row may name the columns in any order, including{' '}
+        <code>detail</code>), or a JSON file in the same format as the built-in dictionaries (an optional <code>detail</code> string per
+        word).
       </p>
       <input
         type="file"

@@ -1,12 +1,12 @@
 import { Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
-import { rowsToWords } from '@/utils/custom-dict/parse'
+import { rowsToWords, wordsToRows } from '@/utils/custom-dict/parse'
 import type { EditableRow } from '@/utils/custom-dict/parse'
 import { createCustomDict, getCustomDict, updateCustomDict } from '@/utils/db/custom-dict'
 import { memo, useCallback, useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
-const emptyRow = (): EditableRow => ({ name: '', trans: '', usphone: '', ukphone: '' })
+const emptyRow = (): EditableRow => ({ name: '', trans: '', usphone: '', ukphone: '', detail: '' })
 const inputClass =
   'w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring'
 // One column of stacked fields on phones, a table-like row from 768px
@@ -64,6 +64,14 @@ const RowEditor = memo(function RowEditor({ row, index, onChange, onMove, onRemo
           ✕
         </Button>
       </div>
+      <textarea
+        value={row.detail ?? ''}
+        rows={3}
+        placeholder="Detail (optional): a longer explanation shown on the back of flashcards"
+        aria-label={`Detail of word ${index + 1}`}
+        onChange={(e) => onChange(index, { detail: e.target.value })}
+        className={`${inputClass} md:col-span-5`}
+      />
     </div>
   )
 })
@@ -99,7 +107,7 @@ function SetEditor({ id }: { id: string }) {
         }
         setName(record.name)
         setDescription(record.description)
-        setRows(record.words.map((w) => ({ name: w.name, trans: w.trans.join('\n'), usphone: w.usphone, ukphone: w.ukphone })))
+        setRows(wordsToRows(record.words))
         setLoading(false)
       })
       .catch((e) => {
@@ -198,7 +206,9 @@ function SetEditor({ id }: { id: string }) {
                 />
               </div>
 
-              <p className="text-sm text-muted-foreground">Put one meaning per line. Phonetics are optional.</p>
+              <p className="text-sm text-muted-foreground">
+                Put one meaning per line. Phonetics and the detail are optional; the detail is shown on the back of flashcards.
+              </p>
               <Panel className="p-4">
                 <div className={`mb-2 ${gridClass} hidden text-xs font-medium uppercase text-muted-foreground md:grid`}>
                   <span>Word</span>

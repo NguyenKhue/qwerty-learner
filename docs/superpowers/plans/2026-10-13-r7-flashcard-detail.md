@@ -69,3 +69,12 @@ Files: `src/pages/MySets/SetEditor.tsx`, `ImportPanel.tsx`, `src/utils/custom-di
 - [ ] Each row gets an optional "Detail" textarea below the fields; rows from stored words include `detail`; the import help mentions the `detail` column. Verify create, edit, import and reload in the browser.
 
 ### Task 6: Findings, full checks, commit.
+
+## Delegation (user request: plan, then opencode implements)
+
+Task 1 was done in the main session. For Tasks 2 to 5 the main session writes the failing tests first and opencode (`space-bunny-free`, sequential runs, each with an explicit file list, "no build/test commands", "do not commit") implements until they pass; the main session runs the tests, reviews every diff, and verifies the UI in the browser.
+
+- Run A: `src/utils/detail/format.ts`, `src/utils/detail/sidecar.ts` (tests: `format.test.ts`, `sidecar.test.ts`).
+- Run B: `scripts/vocab-detail-from-text.py`, `public/dicts/my-vocab.detail.json`, `src/resources/dictionary.ts`.
+- Run C: `src/pages/Study/FlipCard.tsx`, `StudySession.tsx`, `index.tsx` (+ `src/utils/db/copy-dict.ts`, test `copy-dict.test.ts`).
+- Run D: `src/pages/MySets/SetEditor.tsx`, `ImportPanel.tsx`.
