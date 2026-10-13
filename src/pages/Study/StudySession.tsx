@@ -1,9 +1,12 @@
-import { ModeFrame, Panel } from '@/components/ModePage'
+import FlipCard from './FlipCard'
+import { ModeFrame } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { Button } from '@/components/ui/button'
 import { reviewCard } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
+import { parseDetail } from '@/utils/detail/format'
+import { attachDetails } from '@/utils/detail/sidecar'
 import { isActivatableButton } from '@/utils/keyboard'
 import { createGrader } from '@/utils/srs/grader'
 import type { QueueItem } from '@/utils/srs/queue'
@@ -25,6 +28,7 @@ type Props = {
   queue: QueueItem[]
   progress: ICardProgress[]
   reverse: boolean
+  details?: Record<string, string>
   onFinish: (summary: SessionSummary) => void
 }
 
@@ -36,7 +40,7 @@ const GRADE_STYLE: Record<Grade, string> = {
 }
 const GRADE_NAME: Record<Grade, string> = { again: 'Again', hard: 'Hard', good: 'Good', easy: 'Easy' }
 
-export default function StudySession({ dictId, queue, progress, reverse, onFinish }: Props) {
+export default function StudySession({ dictId, queue, progress, reverse, details, onFinish }: Props) {
   const [session, setSession] = useState(() => createSession(queue))
   // The session guards read this ref, which is updated synchronously, instead of the value captured by the last render
   const sessionRef = useRef(session)
@@ -121,6 +125,53 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
     </ul>
   )
 
+  // The sidecar of this set, when it has one, carries the long meanings that only the back of the card shows
+  const shown = attachDetails([word], details)[0]
+  const detailLines = shown.detail ? parseDetail(shown.detail) : []
+  const detailBlock =
+    detailLines.length === 0 ? null : (
+      <div className="space-y-2">
+        {detailLines.map((line, i) =>
+          i === 0 ? (
+            <p key={i} className="text-lg font-semibold">
+              {line.label ? `${line.label}: ${line.text}` : line.text}
+            </p>
+          ) : (
+            <p key={i} className="text-sm leading-relaxed">
+              {line.label ? (
+                <>
+                  <span className="font-semibold text-foreground">{line.label}</span>:{' '}
+                  <span className="text-muted-foreground">{line.text}</span>
+                </>
+              ) : (
+                line.text
+              )}
+            </p>
+          ),
+        )}
+      </div>
+    )
+
+  const front = (
+    <div className="flex flex-col items-center gap-6">
+      <span className="text-xs uppercase tracking-wide text-muted-foreground">{item.kind === 'new' ? 'New' : 'Due'}</span>
+      {reverse ? meaningBlock : wordBlock}
+    </div>
+  )
+  const back = reverse ? (
+    <div className="flex flex-col items-center gap-6">
+      {wordBlock}
+      {detailBlock && <div className="w-full border-t border-border pt-6">{detailBlock}</div>}
+    </div>
+  ) : detailBlock ? (
+    detailBlock
+  ) : (
+    <div className="flex flex-col items-center gap-4">
+      <span className="text-sm text-muted-foreground">{word.name}</span>
+      {meaningBlock}
+    </div>
+  )
+
   return (
     <ModeFrame>
       <ScrollCenter className="max-w-3xl gap-8">
@@ -133,20 +184,14 @@ export default function StudySession({ dictId, queue, progress, reverse, onFinis
           </Button>
         </div>
 
-        <Panel className="flex min-h-[18rem] w-full flex-col items-center justify-center gap-6 p-8">
-          <span className="text-xs uppercase tracking-wide text-muted-foreground">{item.kind === 'new' ? 'New' : 'Due'}</span>
-          {reverse ? meaningBlock : wordBlock}
-          {session.flipped ? (
-            <>
-              <hr className="w-1/2 border-border" />
-              {reverse ? wordBlock : meaningBlock}
-            </>
-          ) : (
-            <Button variant="outline" onClick={onFlip}>
-              Show answer (Space)
-            </Button>
-          )}
-        </Panel>
+        {/* Keyed by the word so the scroll position of the back never leaks into the next card */}
+        <FlipCard key={word.name} flipped={session.flipped} onFlip={onFlip} front={front} back={back} />
+
+        {!session.flipped && (
+          <Button variant="outline" onClick={onFlip}>
+            Show answer (Space)
+          </Button>
+        )}
 
         <p className="sr-only" aria-live="polite">
           {session.flipped

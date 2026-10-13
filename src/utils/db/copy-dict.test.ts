@@ -1,6 +1,7 @@
 import { duplicateDictionaryAsCustom } from './copy-dict'
 import { getCustomDictWords } from './custom-dict'
 import type { Dictionary, Word } from '@/typings'
+import type * as Sidecar from '@/utils/detail/sidecar'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
 const words: Word[] = [
@@ -10,7 +11,7 @@ const words: Word[] = [
 
 vi.mock('@/utils/wordListFetcher', () => ({ wordListFetcher: vi.fn(async () => words.map((w) => ({ ...w }))) }))
 vi.mock('@/utils/detail/sidecar', async (importOriginal) => {
-  const original = await importOriginal<typeof import('@/utils/detail/sidecar')>()
+  const original = await importOriginal<typeof Sidecar>()
   return { ...original, fetchDetailMap: vi.fn(async () => ({ strict: 'Long detail for strict' })) }
 })
 
@@ -28,7 +29,9 @@ const dict = (over: Partial<Dictionary> = {}): Dictionary => ({
   ...over,
 })
 
-beforeEach(() => vi.clearAllMocks())
+beforeEach(() => {
+  vi.clearAllMocks()
+})
 
 describe('duplicateDictionaryAsCustom with details', () => {
   it('copies the details of a built-in set that has a detail file, so the copy keeps its flip-card text', async () => {

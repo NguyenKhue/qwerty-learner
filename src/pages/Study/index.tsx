@@ -8,6 +8,7 @@ import { customDictionariesLoadedAtom, dictionaryByIdAtom, isCustomDictPending, 
 import { newCardsPerDayAtom, studyReverseAtom } from '@/store/study'
 import { getDictProgress } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
+import { fetchDetailMap } from '@/utils/detail/sidecar'
 import { canGoBack } from '@/utils/history'
 import { buildQueue, nextDueTime, nextRefreshDelay, sanitizeNewPerDay } from '@/utils/srs/queue'
 import type { QueueItem } from '@/utils/srs/queue'
@@ -40,6 +41,8 @@ function Study({ id }: { id: string }) {
   }, [dict, pending, navigate])
 
   const { data: words, error: wordsError } = useSWR(dict ? dict.url : null, wordListFetcher)
+  // The sidecar only enriches the back of a flashcard, so it is fetched in the background and never blocks the session
+  const { data: detailMap } = useSWR(dict?.detailUrl ? dict.detailUrl : null, fetchDetailMap)
   const [progress, setProgress] = useState<ICardProgress[] | null>(null)
   const [progressError, setProgressError] = useState('')
   const [now, setNow] = useState(() => Date.now())
@@ -112,7 +115,7 @@ function Study({ id }: { id: string }) {
   if (!words || !progress) return message('Loading…')
 
   if (queue) {
-    return <StudySession dictId={id} queue={queue} progress={progress} reverse={reverse} onFinish={onFinish} />
+    return <StudySession dictId={id} queue={queue} progress={progress} reverse={reverse} details={detailMap} onFinish={onFinish} />
   }
 
   return (
