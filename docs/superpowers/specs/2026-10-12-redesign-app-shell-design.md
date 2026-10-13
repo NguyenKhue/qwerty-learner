@@ -198,3 +198,14 @@ Deferred (minor): focus trap and `aria-modal` for the More sheet; a chapter in p
 - Dashboard: a "This week" card with stacked bars (cards reviewed in the primary color, words typed in the accent color), weekday labels, the streak, and an empty state. The bars are `aria-hidden`; a screen-reader list gives each day's numbers. It updates live (checked by inserting rows).
 - Export and import: `db.export` includes the new table; `importDatabase` already sets `acceptMissingTables`, so older exports still import (they leave the log empty).
 - Deleting a custom set removes its typing records, so those words leave the "typed" counts; its review log rows stay.
+
+## Findings: Opus review of R5 and R6
+
+The rendered text is intact (checked string by string against the pre-R5 files). Fixed after the review:
+
+- Error book: the header, every row and both page counters still said `text-black` (1.3:1 on the dark card). They use `text-card-foreground` / `text-foreground`. The row detail popup no longer has a 26rem minimum width on a phone.
+- `.my-btn-primary` carried `hover:bg-primary/90` in its component class, which beat every caller's own background on hover (grey Pause/Restart, orange Skip, the result screen buttons). It is back to `hover:opacity-90`.
+- The selected Settings tab matched its tab list (`bg-muted` on `bg-muted`); it is `bg-card text-foreground` now. The typing progress bar is `primary/40`, `primary/70`, `primary` instead of one near-invisible shade. The dialog overlay is `bg-background/80` (it was a white veil in dark mode). The destructive Alert uses `text-destructive`. The export menu items get a visible hover and focus state.
+- `ui/tabs`, `ui/toggle` and `ui/table` state classes use tokens; the Settings module CSS and the info-panel button lost their leftover slate/gray and opacity classes; the selected dictionary card uses `text-primary-foreground`; untyped letters in the second letter map are `text-foreground` again (they were near-white in dark mode before the restyle).
+- `loadActivity` reads only the index keys (`keys()`), not whole word records. Tapping the More sheet backdrop returns focus to the More button. The week chart clips a stacked bar to its area.
+- Not changed: the off-switch track contrast, the gray and indigo shadow classes in `StartButton` and `LoopWordSwitcher`, and the hue-only difference between correct/wrong/untyped letters (all as before the restyle).

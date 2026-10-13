@@ -6,17 +6,17 @@
   @apply flex w-full flex-col items-start gap-4;
 }
 .section-label {
-  @apply pb-0 text-xl font-medium text-gray-600;
+  @apply pb-0 text-xl font-medium text-muted-foreground;
 }
 .section-description {
-  @apply -mt-1 pl-4 text-left text-xs font-normal leading-tight text-gray-600;
+  @apply -mt-1 pl-4 text-left text-xs font-normal leading-tight text-muted-foreground;
 }
 
 .block {
   @apply flex w-full flex-col items-start gap-2 py-0 pl-4;
 }
 .block-label {
-  @apply font-medium text-gray-600;
+  @apply font-medium text-muted-foreground;
 }
 .switch-block {
   composes: block;

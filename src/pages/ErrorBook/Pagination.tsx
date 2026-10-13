@@ -26,7 +26,7 @@ const Pagination: FC<IPaginationProps> = ({ className, page, setPage, totalPages
       <button className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md  " onClick={prevPage}>
         <PrevIcon />
       </button>
-      <span className="text-black ">{`${page} / ${totalPages}`}</span>
+      <span className="text-foreground">{`${page} / ${totalPages}`}</span>
       <button className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md  " onClick={nextPage}>
         <NextIcon />
       </button>

@@ -41,13 +41,21 @@ export default function DictionaryComponent({ dictionary }: Props) {
           // onClick={onClick}
         >
           <div className="relative ml-1 mt-2 flex h-full w-full flex-col items-start justify-start">
-            <h1 className={`mb-1.5 text-xl font-normal  ${isSelected ? 'text-white' : 'text-foreground group-hover:text-primary '}`}>
+            <h1
+              className={`mb-1.5 text-xl font-normal  ${
+                isSelected ? 'text-primary-foreground' : 'text-foreground group-hover:text-primary '
+              }`}
+            >
               {dictionary.name}
             </h1>
             <TooltipProvider>
               <Tooltip delayDuration={400}>
                 <TooltipTrigger asChild>
-                  <p className={`mb-1 max-w-full truncate ${isSelected ? 'text-white' : 'textdelayDuration-gray-600 '} whitespace-nowrap`}>
+                  <p
+                    className={`mb-1 max-w-full truncate ${
+                      isSelected ? 'text-primary-foreground' : 'textdelayDuration-gray-600 '
+                    } whitespace-nowrap`}
+                  >
                     {dictionary.description}
                   </p>
                 </TooltipTrigger>
@@ -57,7 +65,9 @@ export default function DictionaryComponent({ dictionary }: Props) {
               </Tooltip>
             </TooltipProvider>
 
-            <p className={`mb-0.5 font-bold  ${isSelected ? 'text-white' : 'text-muted-foreground '}`}>{dictionary.length} words</p>
+            <p className={`mb-0.5 font-bold  ${isSelected ? 'text-primary-foreground' : 'text-muted-foreground '}`}>
+              {dictionary.length} words
+            </p>
             <div className=" flex w-full items-center pt-2">
               {progress > 0 && (
                 <Progress.Root

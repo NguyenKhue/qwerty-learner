@@ -69,7 +69,7 @@ const RowPagination: FC<IRowPaginationProps> = ({ className, allRecords }) => {
       <button className="d cursor-pointer rounded-full  p-1  text-primary focus:outline-none " onClick={prevRowDetail}>
         <PrevIcon />
       </button>
-      <span className="text-sm text-black ">{`${currentIndex + 1} / ${allRecords.length}`}</span>
+      <span className="text-sm text-foreground">{`${currentIndex + 1} / ${allRecords.length}`}</span>
       <button className="cursor-pointer rounded-full p-1 text-primary  focus:outline-none " onClick={nextRowDetail}>
         <NextIcon />
       </button>

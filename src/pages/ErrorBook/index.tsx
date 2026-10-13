@@ -107,7 +107,7 @@ export function ErrorBook() {
         {/* On a phone the table keeps a readable width and scrolls sideways inside its own box instead of squeezing its columns */}
         <div className="flex w-full flex-1 select-text items-start justify-start overflow-x-auto overflow-y-hidden px-4 md:justify-center md:px-0">
           <div className="flex h-full w-full min-w-[38rem] flex-col pt-10 md:w-5/6">
-            <div className="flex w-full justify-between rounded-lg bg-card px-6 py-5 text-lg text-black shadow-lg  ">
+            <div className="flex w-full justify-between rounded-lg bg-card px-6 py-5 text-lg text-card-foreground shadow-lg">
               <span className="basis-2/12">Word</span>
               <span className="basis-6/12">Meaning</span>
               <HeadWrongNumber className="basis-1/12" sortType={sortType} setSortType={setSort} />

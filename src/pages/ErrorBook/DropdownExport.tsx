@@ -110,14 +110,14 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
         </DropdownMenu.Trigger>
         <DropdownMenu.Content className="mt-1 rounded bg-primary text-primary-foreground shadow-lg">
           <DropdownMenu.Item
-            className="cursor-pointer rounded px-4 py-2 hover:bg-primary focus:bg-primary focus:outline-none"
+            className="hover:bg-primary-foreground/15 focus:bg-primary-foreground/15 cursor-pointer rounded px-4 py-2 focus:outline-none"
             onClick={() => handleExport('xlsx')}
             disabled={isExporting}
           >
             .xlsx
           </DropdownMenu.Item>
           <DropdownMenu.Item
-            className="cursor-pointer rounded px-4 py-2 hover:bg-primary focus:bg-primary focus:outline-none"
+            className="hover:bg-primary-foreground/15 focus:bg-primary-foreground/15 cursor-pointer rounded px-4 py-2 focus:outline-none"
             onClick={() => handleExport('csv')}
             disabled={isExporting}
           >

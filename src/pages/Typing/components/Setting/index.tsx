@@ -81,7 +81,7 @@ export default function Setting() {
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-muted bg-opacity-50 ',
+                              selected && 'bg-card text-foreground shadow-sm',
                             )
                           }
                         >
@@ -92,7 +92,7 @@ export default function Setting() {
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-muted bg-opacity-50 ',
+                              selected && 'bg-card text-foreground shadow-sm',
                             )
                           }
                         >
@@ -103,7 +103,7 @@ export default function Setting() {
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-muted bg-opacity-50 ',
+                              selected && 'bg-card text-foreground shadow-sm',
                             )
                           }
                         >
@@ -114,7 +114,7 @@ export default function Setting() {
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-muted bg-opacity-50 ',
+                              selected && 'bg-card text-foreground shadow-sm',
                             )
                           }
                         >

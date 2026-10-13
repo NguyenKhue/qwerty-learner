@@ -12,7 +12,7 @@ const stateClassNameMap: Record<string, Record<LetterState, string>> = {
     wrong: 'text-red-400 dark:text-red-600',
   },
   false: {
-    normal: 'text-muted-foreground ',
+    normal: 'text-foreground',
     correct: 'text-green-600 dark:text-green-400',
     wrong: 'text-red-600 dark:text-red-400',
   },

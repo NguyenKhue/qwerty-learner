@@ -39,7 +39,7 @@ export default function WeekCard({ week, streak, now }: { week: DayActivity[]; s
           <div className="flex items-end gap-2" style={{ height: `${BAR_AREA_REM}rem` }} aria-hidden>
             {week.map((day) => (
               <div key={day.start} className="flex h-full flex-1 flex-col justify-end">
-                <div className="flex flex-col justify-end overflow-hidden rounded-t-md">
+                <div className="flex max-h-full flex-col justify-end overflow-hidden rounded-t-md">
                   <div className="bg-accent" style={{ height: `${height(day.typed)}rem` }} title={`${day.typed} typed`} />
                   <div className="bg-primary" style={{ height: `${height(day.reviews)}rem` }} title={`${day.reviews} reviewed`} />
                 </div>

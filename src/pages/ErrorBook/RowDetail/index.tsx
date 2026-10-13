@@ -68,7 +68,7 @@ const RowDetail: React.FC<RowDetailProps> = ({ currentRowDetail, allRecords }) =
 
   return (
     <div className="absolute inset-0 flex  flex-col items-center  justify-center ">
-      <div className="my-card relative z-10 flex h-[32rem] min-w-[26rem] select-text flex-col items-center justify-around rounded-2xl bg-card px-3 py-10 ">
+      <div className="my-card relative z-10 flex h-[32rem] w-[min(26rem,calc(100vw-2rem))] select-text flex-col items-center justify-around rounded-2xl bg-card px-3 py-10 ">
         <IconX className="absolute right-3 top-3  h-6 w-6 cursor-pointer text-muted-foreground" onClick={onClose} />
         <div className="flex flex-col items-center justify-start">
           <div>

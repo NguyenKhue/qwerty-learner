@@ -172,7 +172,14 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
     <>
       {moreOpen && (
         <>
-          <div className="fixed inset-0 z-30 bg-black/40 md:hidden" onClick={() => setMoreOpen(false)} aria-hidden />
+          <div
+            className="fixed inset-0 z-30 bg-black/40 md:hidden"
+            onClick={() => {
+              setMoreOpen(false)
+              moreButtonRef.current?.focus()
+            }}
+            aria-hidden
+          />
           <div
             ref={sheetRef}
             role="dialog"

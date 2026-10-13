@@ -8,9 +8,9 @@ export default function Progress({ className }: { className?: string }) {
   const [phase, setPhase] = useState(0)
 
   const colorSwitcher: { [key: number]: string } = {
-    0: 'bg-primary/10 ',
-    1: 'bg-primary ',
-    2: 'bg-primary ',
+    0: 'bg-primary/40',
+    1: 'bg-primary/70',
+    2: 'bg-primary',
   }
 
   useEffect(() => {
@@ -26,7 +26,7 @@ export default function Progress({ className }: { className?: string }) {
         <div
           style={{ width: `${progress}%` }}
           className={`flex flex-col justify-center whitespace-nowrap rounded-xl text-center text-white shadow-none transition-all duration-300 ${
-            colorSwitcher[phase] ?? 'bg-primary/10 '
+            colorSwitcher[phase] ?? 'bg-primary/40'
           }`}
         ></div>
       </div>

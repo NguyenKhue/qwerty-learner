@@ -28,7 +28,7 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
 
   return (
     <li
-      className="opacity-85 flex w-full cursor-pointer items-center justify-between rounded-lg bg-card px-6 py-3 text-black shadow-md  "
+      className="opacity-85 flex w-full cursor-pointer items-center justify-between rounded-lg bg-card px-6 py-3 text-card-foreground shadow-md  "
       onClick={onClick}
     >
       <span className="basis-2/12 break-normal">{record.word}</span>
