@@ -207,7 +207,7 @@ const ResultScreen = () => {
 
   return (
     <div className="fixed inset-0 z-30 overflow-y-auto">
-      <div className="absolute inset-0 bg-muted opacity-80"></div>
+      <div className="absolute inset-0 bg-muted opacity-80 "></div>
       <Transition
         show={true}
         enter="ease-in duration-300"
@@ -220,7 +220,7 @@ const ResultScreen = () => {
         <div className="flex h-screen items-center justify-center">
           <div className="my-card fixed flex w-[90vw] max-w-6xl flex-col overflow-hidden rounded-3xl bg-card pb-14 pl-10 pr-5 pt-10 shadow-lg  md:w-4/5 lg:w-3/5">
             <div className="text-center font-sans text-xl font-normal text-foreground  md:text-2xl">
-              {`${currentDictInfo.name} ${isReviewMode ? 'Mistake Review' : 'Chapter' + (currentChapter + 1)}`}
+              {`${currentDictInfo.name} ${isReviewMode ? 'Mistake Review' : 'Chapter ' + (currentChapter + 1)}`}
             </div>
             <button className="absolute right-7 top-5" onClick={exitButtonHandler}>
               <IconX className="text-muted-foreground" />
@@ -231,13 +231,13 @@ const ResultScreen = () => {
                 <RemarkRing remark={timeString} caption="Chapter Time" />
                 <RemarkRing remark={state.timerData.wpm + ''} caption="WPM" />
               </div>
-              <div className="z-10 ml-6 flex-1 overflow-visible rounded-xl bg-primary/10">
+              <div className="z-10 ml-6 flex-1 overflow-visible rounded-xl bg-primary/10 ">
                 <div className="customized-scrollbar z-20 ml-8 mr-1 flex h-80 flex-row flex-wrap content-start gap-4 overflow-y-auto overflow-x-hidden pr-7 pt-9">
                   {wrongWords.map((word, index) => (
                     <WordChip key={`${index}-${word.name}`} word={word} />
                   ))}
                 </div>
-                <div className="align-center flex w-full flex-row justify-start rounded-b-xl bg-primary/10 px-4">
+                <div className="align-center flex w-full flex-row justify-start rounded-b-xl bg-primary/10 px-4 ">
                   <ConclusionBar mistakeLevel={mistakeLevel} mistakeCount={wrongWords.length} />
                 </div>
               </div>
@@ -278,7 +278,7 @@ const ResultScreen = () => {
                     handleOpenInfoPanel('community')
                     e.currentTarget.blur()
                   }}
-                  className="cursor-pointer text-muted-foreground"
+                  className="cursor-pointer text-muted-foreground "
                   type="button"
                   title="Join our community"
                 >
@@ -295,7 +295,7 @@ const ResultScreen = () => {
                 <>
                   <Tooltip content="Shortcut: Shift + Enter">
                     <button
-                      className="my-btn-primary h-12 border-2 border-solid border-border bg-card text-base text-foreground"
+                      className="my-btn-primary h-12 border-2 border-solid border-border bg-card text-base text-foreground    "
                       type="button"
                       onClick={dictationButtonHandler}
                       title="Dictate this chapter"
@@ -305,7 +305,7 @@ const ResultScreen = () => {
                   </Tooltip>
                   <Tooltip content="Shortcut: Space">
                     <button
-                      className="my-btn-primary h-12 border-2 border-solid border-border bg-card text-base text-foreground"
+                      className="my-btn-primary h-12 border-2 border-solid border-border bg-card text-base text-foreground    "
                       type="button"
                       onClick={repeatButtonHandler}
                       title="Repeat this chapter"
@@ -318,7 +318,7 @@ const ResultScreen = () => {
               {!isLastChapter && !isReviewMode && (
                 <Tooltip content="Shortcut: Enter">
                   <button
-                    className={`{ isLastChapter ?'cursor-not-allowed opacity-50' :''} my-btn-primary h-12 text-base font-bold`}
+                    className={`{ isLastChapter ? 'cursor-not-allowed opacity-50' : ''} my-btn-primary h-12 text-base font-bold `}
                     type="button"
                     onClick={nextButtonHandler}
                     title="Next chapter"

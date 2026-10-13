@@ -183,3 +183,9 @@ Deferred (minor): focus trap and `aria-modal` for the More sheet; a chapter in p
 - A token-by-token comparison of old and new files showed no change outside class names, apart from the Analysis chart cards: their only background was a `dark:` class, so they now get `border border-border bg-card` in both themes.
 - Checked in the browser: Typing, settings panel, word list drawer, Analysis, Error book, Friend links and the Library dialog in dark mode; the Library dialog, Analysis and Typing in light mode.
 - Left on purpose: the typing letters' green and red, other status colors, the chart and illustration colors, the share-picture dialog, and the promotional popups and footer stickers.
+
+## Findings: R5 follow-up
+
+- The first R5 conversion script also "tidied" spaces next to quotes. That changed rendered text in 9 places (`'Chapter '`, `'a new '`, `'; '`, and several bare `' '` separators in the typing word panel and the error table). A whitespace-sensitive comparison of every string literal, which my first audit lacked, found them. The migration was redone from the pre-R5 files without the tidy-up step, and the same comparison now shows only class-name changes (plus the intended Analysis card and Error book edits).
+- Error book: on a phone the table keeps a 38rem minimum width and scrolls sideways inside its own box; its header text uses `text-card-foreground` (it was `text-black` on a card, unreadable in dark mode).
+- Added after the Opus review: focus trap and `aria-modal` for the More sheet (tested helper `nextFocusIndex`), typing stays mounted when the window shrinks (latched media query), and the unrouted `src/pages/Gallery` folder was deleted.

@@ -75,7 +75,7 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
   )
 
   return (
-    <div className="flex flex-col rounded-[4rem] px-4 py-3 pl-5 text-foreground">
+    <div className="flex flex-col rounded-[4rem] px-4 py-3 pl-5 text-foreground ">
       <div className="text relative flex h-40 flex-col gap-2">
         <div className="flex items-center justify-between gap-4">
           <h3 className="text-2xl font-semibold">{dict.name}</h3>
@@ -120,9 +120,9 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
         </div>
       </div>
       <div className="flex pl-0">
-        <Tabs value={curTab} className="h-[30rem] w-full">
-          <TabsContent value={Tab.Chapters} className="h-full">
-            <ScrollArea className="h-[30rem]">
+        <Tabs value={curTab} className="h-[30rem] w-full ">
+          <TabsContent value={Tab.Chapters} className="h-full ">
+            <ScrollArea className="h-[30rem] ">
               <div className="flex w-full flex-wrap gap-3">
                 {range(0, dict.chapterCount, 1).map((index) => (
                   <Chapter

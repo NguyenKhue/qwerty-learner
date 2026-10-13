@@ -87,7 +87,7 @@ export default function GalleryPage() {
                 </div>
               </div>
               <ScrollArea.Root className="flex-1 overflow-y-auto">
-                <ScrollArea.Viewport className="h-full w-full">
+                <ScrollArea.Viewport className="h-full w-full ">
                   <div className="mr-4 flex flex-1 flex-col items-start justify-start gap-14 overflow-y-auto">
                     {groupedByCategoryAndTag.map(([category, groupeByTag]) => (
                       <DictionaryGroup key={category} groupedDictsByTag={groupeByTag} />
@@ -108,12 +108,12 @@ export default function GalleryPage() {
                     </p>
                   </div>
                 </ScrollArea.Viewport>
-                <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent" orientation="vertical"></ScrollArea.Scrollbar>
+                <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
               </ScrollArea.Root>
               {/* todo: add navigation */}
-              {/* <div className="mt-20 h-40 w-40 text-center">
-  <CategoryNavigation />
-  </div> */}
+              {/* <div className="mt-20 h-40 w-40 text-center ">
+                <CategoryNavigation />
+              </div> */}
             </div>
           </div>
         </div>

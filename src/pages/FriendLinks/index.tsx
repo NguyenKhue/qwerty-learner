@@ -32,7 +32,7 @@ export const FriendLinks: React.FC = () => {
     <Layout>
       <div className="flex w-full flex-1 flex-col items-center px-4 pt-20">
         <div className="flex w-full max-w-md flex-grow flex-col items-center">
-          <div className="mt-5 text-center text-lg font-bold">Friendly Links</div>
+          <div className="mt-5 text-center text-lg font-bold ">Friendly Links</div>
           <div className="links flex w-full flex-col items-center gap-y-8 py-5">
             {links.map((link, index) => (
               <a
@@ -41,7 +41,7 @@ export const FriendLinks: React.FC = () => {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="linkItem flex w-full items-center overflow-hidden"
+                className="linkItem flex w-full items-center overflow-hidden "
               >
                 <div className="mr-3 flex h-8 w-8 flex-shrink-0 items-center justify-center bg-muted">
                   <img src={link.imgSrc} alt={link.title} className="h-full w-full object-cover" />

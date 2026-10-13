@@ -23,11 +23,11 @@ const Pagination: FC<IPaginationProps> = ({ className, page, setPage, totalPages
 
   return (
     <div className={`flex items-center gap-2 ${className}`}>
-      <button className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md" onClick={prevPage}>
+      <button className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md  " onClick={prevPage}>
         <PrevIcon />
       </button>
-      <span className="text-black">{`${page} / ${totalPages}`}</span>
-      <button className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md" onClick={nextPage}>
+      <span className="text-black ">{`${page} / ${totalPages}`}</span>
+      <button className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md  " onClick={nextPage}>
         <NextIcon />
       </button>
     </div>

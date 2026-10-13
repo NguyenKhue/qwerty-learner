@@ -12,7 +12,7 @@ const stateClassNameMap: Record<string, Record<LetterState, string>> = {
     wrong: 'text-red-400 dark:text-red-600',
   },
   false: {
-    normal: 'text-muted-foreground',
+    normal: 'text-muted-foreground ',
     correct: 'text-green-600 dark:text-green-400',
     wrong: 'text-red-600 dark:text-red-400',
   },
@@ -30,7 +30,7 @@ const Letter: React.FC<LetterProps> = ({ letter, state = 'normal', visible = tru
     <span
       className={`m-0 p-0 font-mono font-normal ${
         stateClassNameMap[(letter === EXPLICIT_SPACE) as unknown as string][state]
-      } pr-0.8 duration-0`}
+      } pr-0.8 duration-0 `}
       style={{ fontSize: fontSizeConfig.foreignFont.toString() + 'px' }}
     >
       {visible ? letter : '_'}

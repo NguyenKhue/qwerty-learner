@@ -47,7 +47,7 @@ const Analysis = () => {
         <ScrollArea.Root className="flex-1 overflow-y-auto">
           <ScrollArea.Viewport className="h-full w-auto pb-[20rem] [&>div]:!block">
             {isEmpty ? (
-              <div className="align-items-center m-4 grid h-80 w-auto place-content-center overflow-hidden rounded-lg border border-border bg-card shadow-lg">
+              <div className="align-items-center m-4 grid h-80 w-auto place-content-center overflow-hidden rounded-lg shadow-lg ">
                 <div className="text-2xl text-muted-foreground">No practice data yet</div>
               </div>
             ) : (
@@ -70,7 +70,7 @@ const Analysis = () => {
               </>
             )}
           </ScrollArea.Viewport>
-          <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent" orientation="vertical"></ScrollArea.Scrollbar>
+          <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
         </ScrollArea.Root>
         <div className="overflow-y-auto"></div>
       </div>

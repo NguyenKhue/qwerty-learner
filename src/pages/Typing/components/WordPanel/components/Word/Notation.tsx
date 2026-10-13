@@ -14,7 +14,7 @@ export default function Notation({ notation }: NotationProps) {
   const infos: NotationInfo[] = useMemo(() => getNotationInfo(notation), [notation])
   return (
     <div className="mx-auto flex h-20 items-end">
-      <ruby className="mb-1 p-0 font-mono text-5xl text-foreground">
+      <ruby className="mb-1 p-0 font-mono text-5xl text-foreground ">
         {infos.map(({ word, phonetic }) => {
           const hasPhonetic = phonetic && phonetic.length > 0
           const isEmptyPhonetic = hasPhonetic && phonetic.trim().length == 0
@@ -58,7 +58,7 @@ const getNotationInfo = (notation: string): NotationInfo[] => {
       } else if (kanjiStart > 0) {
         ret.push({
           word: word.substring(0, i),
-          phonetic: '',
+          phonetic: ' ',
         })
         word = word.substring(i)
         break

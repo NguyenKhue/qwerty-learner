@@ -54,7 +54,7 @@ export default function DataSetting() {
   }, [importProgressCallback, onStartImport])
 
   return (
-    <ScrollArea.Root className="flex-1 select-none overflow-y-auto">
+    <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
       <ScrollArea.Viewport className="h-full w-full px-3">
         <div className={styles.tabContent}>
           <div className={styles.section}>
@@ -124,7 +124,7 @@ export default function DataSetting() {
           </div>
         </div>
       </ScrollArea.Viewport>
-      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent" orientation="vertical"></ScrollArea.Scrollbar>
+      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
     </ScrollArea.Root>
   )
 }

@@ -36,9 +36,9 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
   return (
     <div className="flex h-full flex-col items-center justify-around px-60">
       <div>
-        <MdiRobotAngry fontSize={30} className="text-primary" />
+        <MdiRobotAngry fontSize={30} className="text-primary " />
         <blockquote>
-          <p className="text-lg font-medium text-muted-foreground">
+          <p className="text-lg font-medium text-muted-foreground ">
             We use your practice history, mistake count and practice time in this dictionary to generate a review list intelligently
             <br />
             This generation method is still experimental and we will keep improving it
@@ -48,7 +48,7 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
       <div className="flex w-full flex-col items-center">
         {latestReviewRecord && (
           <>
-            <div className="ml-10 flex w-full items-center py-0">
+            <div className=" ml-10 flex w-full items-center py-0">
               <Progress.Root
                 value={latestReviewRecord.index + 1}
                 max={latestReviewRecord.words.length}
@@ -78,7 +78,7 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
             </Button>
           )}
           <Button size="sm" onClick={startReview}>
-            Start {latestReviewRecord && 'a new'}review
+            Start {latestReviewRecord && 'a new '}review
           </Button>
         </div>
       </div>

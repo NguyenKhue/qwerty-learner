@@ -22,7 +22,7 @@ export default function CategoryNavigation({ titles = ['China Exams', 'Study Abr
             {({ checked }) => (
               <>
                 <div className={`mr-1 h-2.5 w-2.5 rounded-full ${checked ? 'bg-primary' : 'bg-primary/10'}`} />
-                <RadioGroup.Label className="text-lg">{title}</RadioGroup.Label>
+                <RadioGroup.Label className="text-lg ">{title}</RadioGroup.Label>
               </>
             )}
           </RadioGroup.Option>

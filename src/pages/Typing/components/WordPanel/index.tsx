@@ -164,7 +164,7 @@ export default function WordPanel() {
             {!state.isTyping && (
               <div className="absolute flex h-full w-full justify-center">
                 <div className="z-10 flex w-full items-center backdrop-blur-sm">
-                  <p className="w-full select-none text-center text-xl text-muted-foreground">
+                  <p className="w-full select-none text-center text-xl text-muted-foreground ">
                     Press any key to {state.timerData.time ? 'continue' : 'start'}
                   </p>
                 </div>
@@ -174,7 +174,7 @@ export default function WordPanel() {
               <WordComponent word={currentWord} onFinish={onFinish} key={wordComponentKey} />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
               <Translation
-                trans={currentWord.trans.join(';')}
+                trans={currentWord.trans.join('; ')}
                 showTrans={shouldShowTranslation}
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}

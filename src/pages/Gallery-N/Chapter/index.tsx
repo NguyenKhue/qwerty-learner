@@ -34,7 +34,7 @@ export default function Chapter({
   return (
     <div
       ref={ref}
-      className="relative flex h-16 w-40 cursor-pointer  flex-col items-start justify-center overflow-hidden rounded-xl bg-muted px-3 py-2"
+      className="relative flex h-16 w-40 cursor-pointer  flex-col items-start justify-center overflow-hidden rounded-xl bg-muted px-3 py-2 "
       onClick={() => onChange(index)}
     >
       <h1>Chapter {index + 1}</h1>

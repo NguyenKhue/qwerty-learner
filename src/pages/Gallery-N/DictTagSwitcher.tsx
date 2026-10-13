@@ -24,11 +24,11 @@ export default function DictTagSwitcher({ tagList, currentTag, onChangeCurrentTa
             value={option}
             className={({ checked }) =>
               `cursor-pointer whitespace-nowrap rounded-[3rem] px-4 py-2 ${
-                checked ? 'bg-primary text-primary-foreground' : 'bg-card text-muted-foreground'
-              } ${!checked && 'hover:bg-primary/10'}`
+                checked ? 'bg-primary text-primary-foreground' : 'bg-card text-muted-foreground  '
+              } ${!checked && 'hover:bg-primary/10 '}`
             }
           >
-            <p className={`font-normal`}>{option}</p>
+            <p className={`font-normal `}>{option}</p>
           </RadioGroup.Option>
         ))}
       </div>

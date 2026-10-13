@@ -42,18 +42,18 @@ export default function WordList() {
         <button
           type="button"
           onClick={openModal}
-          className="absolute left-0 top-[50%] z-20 rounded-lg rounded-l-none bg-primary/10 px-2 py-3 text-lg hover:bg-primary/10 focus:outline-none"
+          className="absolute left-0 top-[50%] z-20 rounded-lg rounded-l-none bg-primary/10 px-2 py-3 text-lg hover:bg-primary/10 focus:outline-none  "
         >
-          <ListIcon className="h-6 w-6 text-lg text-primary" />
+          <ListIcon className="h-6 w-6 text-lg text-primary " />
         </button>
       </Tooltip>
 
-      <Drawer open={isOpen} onClose={closeModal} classNames="bg-muted">
-        <Dialog.Title as="h3" className="flex items-center justify-between p-4 text-lg font-medium leading-6">
+      <Drawer open={isOpen} onClose={closeModal} classNames="bg-muted ">
+        <Dialog.Title as="h3" className="flex items-center justify-between p-4 text-lg font-medium leading-6 ">
           {currentDictTitleValue}
           <IconX onClick={closeModal} className="cursor-pointer" />
         </Dialog.Title>
-        <ScrollArea.Root className="flex-1 select-none overflow-y-auto">
+        <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
           <ScrollArea.Viewport className="h-full w-full px-3">
             <div className="flex h-full w-full flex-col gap-1">
               {state.chapterData.words?.map((word, index) => {
@@ -61,7 +61,7 @@ export default function WordList() {
               })}
             </div>
           </ScrollArea.Viewport>
-          <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent" orientation="vertical"></ScrollArea.Scrollbar>
+          <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
         </ScrollArea.Root>
       </Drawer>
     </>

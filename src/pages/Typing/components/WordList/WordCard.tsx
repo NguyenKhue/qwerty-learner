@@ -17,12 +17,12 @@ export default function WordCard({ word, isActive }: { word: Word; isActive: boo
     <div
       className={`mb-2 flex cursor-pointer select-text items-center rounded-xl p-4 shadow focus:outline-none ${
         isActive ? 'bg-primary/10' : 'bg-card'
-      }`}
+      }   `}
       key={word.name}
       onClick={handlePlay}
     >
       <div className="flex-1">
-        <p className="select-all font-mono text-xl font-normal leading-6">
+        <p className="select-all font-mono text-xl font-normal leading-6 ">
           {['romaji', 'hapin'].includes(currentLanguage) ? word.notation : word.name}
         </p>
         <div className="mt-2 max-w-sm font-sans text-sm text-muted-foreground">{word.trans.join('；')}</div>

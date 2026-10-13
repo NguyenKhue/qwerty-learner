@@ -14,7 +14,7 @@ export const DictChapterButton = () => {
   const isReviewMode = useAtomValue(isReviewModeAtom)
 
   const handleKeyDown: React.KeyboardEventHandler<HTMLButtonElement> = (event) => {
-    if (event.key === '') {
+    if (event.key === ' ') {
       event.preventDefault()
     }
   }
@@ -22,7 +22,7 @@ export const DictChapterButton = () => {
     <>
       <Tooltip content="Switch dictionary">
         <NavLink
-          className="block rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus:outline-none"
+          className="block rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus:outline-none   "
           to="/gallery"
         >
           {currentDictInfo.name} {isReviewMode && 'Mistake Review'}
@@ -33,7 +33,7 @@ export const DictChapterButton = () => {
           <Listbox value={currentChapter} onChange={setCurrentChapter}>
             <Listbox.Button
               onKeyDown={handleKeyDown}
-              className="rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus:outline-none"
+              className="rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus:outline-none   "
             >
               Chapter {currentChapter + 1}
             </Listbox.Button>

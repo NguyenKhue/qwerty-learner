@@ -99,14 +99,15 @@ export function ErrorBook() {
       <div className={`relative flex h-full w-full flex-col items-center pb-4 ease-in ${currentRowDetail && 'blur-sm'}`}>
         <div className="mr-8 mt-4 flex w-auto items-center justify-center self-end">
           <h1 className="font-lighter mr-4 w-auto self-end text-muted-foreground opacity-70">
-            Tip: click a misspelled word to see details{''}
+            Tip: click a misspelled word to see details{' '}
           </h1>
           <IconX className="h-7 w-7 cursor-pointer text-muted-foreground" onClick={onBack} />
         </div>
 
-        <div className="flex w-full flex-1 select-text items-start justify-center overflow-hidden">
-          <div className="flex h-full w-5/6 flex-col pt-10">
-            <div className="flex w-full justify-between rounded-lg bg-card px-6 py-5 text-lg text-black shadow-lg">
+        {/* On a phone the table keeps a readable width and scrolls sideways inside its own box instead of squeezing its columns */}
+        <div className="flex w-full flex-1 select-text items-start justify-start overflow-x-auto overflow-y-hidden px-4 md:justify-center md:px-0">
+          <div className="flex h-full w-full min-w-[38rem] flex-col pt-10 md:w-5/6">
+            <div className="flex w-full justify-between rounded-lg bg-card px-6 py-5 text-lg text-black shadow-lg  ">
               <span className="basis-2/12">Word</span>
               <span className="basis-6/12">Meaning</span>
               <HeadWrongNumber className="basis-1/12" sortType={sortType} setSortType={setSort} />
@@ -114,7 +115,7 @@ export function ErrorBook() {
               <DropdownExport renderRecords={sortedRecords} />
             </div>
             <ScrollArea.Root className="flex-1 overflow-y-auto pt-5">
-              <ScrollArea.Viewport className="h-full">
+              <ScrollArea.Viewport className="h-full  ">
                 <div className="flex flex-col gap-3">
                   {renderRecords.map((record) => (
                     <ErrorRow

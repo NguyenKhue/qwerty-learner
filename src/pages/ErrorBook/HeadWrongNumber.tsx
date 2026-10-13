@@ -27,7 +27,7 @@ const HeadWrongNumber: FC<IHeadWrongNumberProps> = ({ className, sortType, setSo
       Error count
       <div className="absolute -right-2 bottom-0 top-0 flex flex-col items-center justify-center text-[12px]">
         <UPIcon
-          className={classNames('-mb-2', {
+          className={classNames('-mb-2 ', {
             'text-primary': sortType === 'asc',
             'text-muted-foreground': sortType !== 'asc',
           })}

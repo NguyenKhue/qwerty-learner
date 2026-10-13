@@ -120,7 +120,7 @@ export default function SoundSetting() {
   )
 
   return (
-    <ScrollArea.Root className="flex-1 select-none overflow-y-auto">
+    <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
       <ScrollArea.Viewport className="h-full w-full px-3">
         <div className={styles.tabContent}>
           <div className={styles.section}>
@@ -273,7 +273,7 @@ export default function SoundSetting() {
                                     e.stopPropagation()
                                     onPlayKeySound(keySoundResource)
                                   }}
-                                  className="mr-2  hidden cursor-pointer text-muted-foreground hover:text-primary group-hover:block"
+                                  className="mr-2  hidden cursor-pointer text-muted-foreground hover:text-primary group-hover:block "
                                 />
                               </div>
                             </>
@@ -322,7 +322,7 @@ export default function SoundSetting() {
           </div>
         </div>
       </ScrollArea.Viewport>
-      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent" orientation="vertical"></ScrollArea.Scrollbar>
+      <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>
     </ScrollArea.Root>
   )
 }

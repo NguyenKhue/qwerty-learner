@@ -28,7 +28,7 @@ export default function LoopWordSwitcher() {
         <Popover.Button
           className={`p-[2px] ${
             loopTimes === 1 ? 'text-muted-foreground' : 'text-primary'
-          } rounded text-lg hover:bg-primary hover:text-primary-foreground focus:outline-none`}
+          } rounded text-lg hover:bg-primary hover:text-primary-foreground focus:outline-none `}
           type="button"
           onClick={(e) => {
             setIsOpen(!isOpen)
@@ -58,10 +58,10 @@ export default function LoopWordSwitcher() {
           leaveFrom="opacity-100 translate-y-0"
           leaveTo="opacity-0 translate-y-1"
         >
-          <Popover.Panel className="absolute left-1/2 z-10 mt-2 flex max-w-max -translate-x-1/2 px-4">
-            <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-card p-4 drop-shadow">
+          <Popover.Panel className="absolute left-1/2 z-10 mt-2 flex max-w-max -translate-x-1/2 px-4 ">
+            <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-card p-4 drop-shadow ">
               <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                <span className="text-sm font-normal leading-5 text-foreground">Word repeat count</span>
+                <span className="text-sm font-normal leading-5 text-foreground  ">Word repeat count</span>
                 <div className="flex w-full flex-row items-center justify-between">
                   <RadioGroup.Root
                     className="flex w-full flex-col gap-2.5"
@@ -79,7 +79,7 @@ export default function LoopWordSwitcher() {
                           <RadioGroup.Indicator className="relative flex h-full w-full items-center justify-center after:block after:h-[11px] after:w-[11px] after:rounded-[50%] after:bg-primary after:content-['']" />
                         </RadioGroup.Item>
                         <label
-                          className="flex-1 cursor-pointer pl-[15px] text-[15px] leading-none"
+                          className="flex-1 cursor-pointer pl-[15px] text-[15px] leading-none  "
                           htmlFor={`r${index}`}
                           onClick={() => onChangeLoopTimes(value)}
                         >

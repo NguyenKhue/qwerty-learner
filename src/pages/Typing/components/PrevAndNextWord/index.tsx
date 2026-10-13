@@ -42,7 +42,7 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
         <Tooltip content={`Shortcut: ${shortCutKey}`}>
           <div
             onClick={onClickWord}
-            className="flex max-w-xs cursor-pointer select-none items-center text-foreground opacity-60 duration-200 ease-in-out hover:opacity-100"
+            className="flex max-w-xs cursor-pointer select-none items-center text-foreground opacity-60 duration-200 ease-in-out hover:opacity-100 "
           >
             {type === 'prev' && <IconPrev className="mr-4 shrink-0 grow-0 text-2xl" />}
 
@@ -55,7 +55,7 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
                 {headWord}
               </p>
               {state.isTransVisible && (
-                <p className="line-clamp-1 max-w-full text-sm font-normal text-muted-foreground">{word.trans.join(';')}</p>
+                <p className="line-clamp-1 max-w-full text-sm font-normal text-muted-foreground ">{word.trans.join(';')}</p>
               )}
             </div>
             {type === 'next' && <IconNext className="ml-4 shrink-0 grow-0 text-2xl" />}
