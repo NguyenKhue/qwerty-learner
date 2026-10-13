@@ -25,7 +25,7 @@ export default function ShareButton() {
 
       <button
         type="button"
-        className="cursor-pointer text-xl text-gray-500 hover:text-indigo-400"
+        className="cursor-pointer text-xl text-muted-foreground hover:text-primary"
         onClick={onClickShare}
         title="Share your results with friends"
       >

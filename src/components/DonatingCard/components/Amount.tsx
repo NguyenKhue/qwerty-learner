@@ -11,10 +11,10 @@ export const Amount = ({
 }) => {
   return (
     <button
-      className={` focus:  h-10 rounded border-gray-100 font-bold text-gray-700 shadow-md shadow-gray-300
- outline-none hover:bg-gray-100 dark:bg-gray-700 dark:text-gray-300 dark:text-opacity-80 dark:opacity-80 
- dark:shadow-gray-700 hover:dark:bg-gray-600
- ${amount === -1 ? 'w-18' : 'w-10'} ${active ? 'bg-stone-100 dark:bg-gray-500' : ''}`}
+      className={` focus:  h-10 rounded border-border font-bold text-foreground shadow-md shadow-muted-foreground/30
+ outline-none hover:bg-muted  dark:opacity-80 
+
+ ${amount === -1 ? 'w-18' : 'w-10'} ${active ? 'bg-primary/10' : ''}`}
       onClick={() => onClick && onClick(amount)}
     >
       {amount === -1 ? 'Custom' : amount}

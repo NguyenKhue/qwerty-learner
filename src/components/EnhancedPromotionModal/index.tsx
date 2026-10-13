@@ -77,7 +77,7 @@ const EnhancedPromotionModal: React.FC = () => {
                   <button
                     type="button"
                     onClick={handleDismiss}
-                    className="rounded-full p-1 text-gray-400 transition-colors hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+                    className="rounded-full p-1 text-muted-foreground transition-colors hover:bg-muted hover:text-muted-foreground"
                     title="Close"
                   >
                     <IconX className="h-5 w-5" />
@@ -95,20 +95,20 @@ const EnhancedPromotionModal: React.FC = () => {
                       Try QwertyLearner.ai
                     </h3>
 
-                    <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">Unlock a more powerful learning experience ✨</p>
+                    <p className="mt-2 text-sm text-muted-foreground">Unlock a more powerful learning experience ✨</p>
                   </div>
 
                   {/* Main content */}
-                  <div className="space-y-4 py-2 text-sm text-gray-700 dark:text-gray-300">
-                    <p className="text-center font-medium text-gray-900 dark:text-white">
+                  <div className="space-y-4 py-2 text-sm text-foreground">
+                    <p className="text-center font-medium text-foreground">
                       Not a programmer? Want your own dedicated study dictionary? Simple to use, upload with one click, ready right away
                       <br />
                       <div className="my-2"></div>
                       Then we recommend trying QwertyLearner.ai, developed and operated by the professional team of DeepLearningAI in the UK
                     </p>
 
-                    <div className="rounded-lg bg-white p-4 shadow-sm dark:bg-gray-800">
-                      <h4 className="mb-3 font-semibold text-gray-900 dark:text-white">🚀 Professional features</h4>
+                    <div className="rounded-lg bg-card p-4 shadow-sm">
+                      <h4 className="mb-3 font-semibold text-foreground">🚀 Professional features</h4>
                       <ul className="space-y-2.5">
                         <li className="flex items-start">
                           <span className="mr-2 mt-0.5 text-blue-500">•</span>

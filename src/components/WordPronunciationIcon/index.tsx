@@ -44,7 +44,7 @@ export const WordPronunciationIcon = React.forwardRef<
     <SoundIcon
       animated={isPlaying}
       onClick={playSound}
-      className={`cursor-pointer text-gray-600 ${className}`}
+      className={`cursor-pointer text-muted-foreground ${className}`}
       iconClassName={iconClassName}
     />
   )

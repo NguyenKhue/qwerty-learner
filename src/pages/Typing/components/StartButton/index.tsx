@@ -36,12 +36,14 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
       <div
         ref={refs.setReference}
         {...getReferenceProps()}
-        className={`${state.isTyping ? 'bg-gray-400 shadow-muted-foreground/20 dark:shadow-none' : 'bg-primary shadow-primary/30'} ${
+        className={`${
+          state.isTyping ? 'bg-muted-foreground shadow-muted-foreground/20 dark:shadow-none' : 'bg-primary shadow-primary/30'
+        } ${
           isShowReStartButton ? 'h-20' : 'h-auto'
         } flex-column absolute left-0 top-0 w-20 rounded-lg shadow-lg transition-colors duration-200`}
       >
         <button
-          className={`${state.isTyping ? 'bg-gray-400   ' : 'bg-primary'} my-btn-primary w-20 shadow`}
+          className={`${state.isTyping ? 'bg-muted-foreground   ' : 'bg-primary'} my-btn-primary w-20 shadow`}
           type="button"
           onClick={onToggleIsTyping}
           aria-label={state.isTyping ? 'Pause' : 'Start'}
@@ -52,7 +54,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
           <div className="absolute bottom-0 flex w-20 justify-center" ref={refs.setFloating} {...getFloatingProps()}>
             <button
               className={`${
-                state.isTyping ? 'bg-gray-500   ' : 'bg-primary '
+                state.isTyping ? 'bg-muted-foreground   ' : 'bg-primary '
               } my-btn-primary mb-1 mt-1 w-18  transition-colors duration-200`}
               type="button"
               onClick={onClickRestart}

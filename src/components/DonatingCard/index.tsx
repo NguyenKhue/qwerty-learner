@@ -18,7 +18,7 @@ export const DonatingCard = ({ className, onAmountChange }: { className?: string
 
   return (
     <div className={`flex w-full flex-col items-center justify-center gap-3 ${className && className}`}>
-      <h2 className="self-start pl-10 font-bold text-gray-800 dark:text-gray-300">Choose your donation amount:</h2>
+      <h2 className="self-start pl-10 font-bold text-foreground">Choose your donation amount:</h2>
       <div className="mt-2 flex gap-3">
         {displayAmount.map((a) => {
           return <Amount active={a === amount} key={a} amount={a} onClick={onClickAmount} />
@@ -36,7 +36,7 @@ export const DonatingCard = ({ className, onAmountChange }: { className?: string
       {amount && (amount >= 50 || amount === -1) && (
         <span>
           <a
-            className="text-sm font-bold text-gray-500 underline-offset-4 hover:underline dark:text-gray-400"
+            className="text-sm font-bold text-muted-foreground underline-offset-4 hover:underline"
             href="https://wj.qq.com/s2/13329666/380d/"
             target="_blank"
             rel="noreferrer"

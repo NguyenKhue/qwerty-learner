@@ -26,7 +26,7 @@ export const DonateCard = () => {
   }, [])
 
   const HighlightedText = ({ children, className }: { children: React.ReactNode; className?: string }) => {
-    return <span className={`font-bold  ${className ? className : 'text-indigo-500'}`}>{children}</span>
+    return <span className={`font-bold  ${className ? className : 'text-primary'}`}>{children}</span>
   }
 
   const onClickHasDonated = () => {
@@ -95,7 +95,7 @@ export const DonateCard = () => {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+          <div className="fixed inset-0 bg-background/80 transition-opacity" />
         </Transition.Child>
 
         <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -109,8 +109,8 @@ export const DonateCard = () => {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative my-8 w-[37rem] transform select-text overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all">
-                <div className="flex w-full flex-col justify-center gap-4 bg-white px-2 pb-4 pt-5 dark:bg-gray-800 dark:text-gray-300">
+              <Dialog.Panel className="relative my-8 w-[37rem] transform select-text overflow-hidden rounded-lg bg-card text-left shadow-xl transition-all">
+                <div className="flex w-full flex-col justify-center gap-4 bg-card px-2 pb-4 pt-5 text-muted-foreground">
                   <h1 className="gradient-text w-full pt-3 text-center text-[2.4rem] font-bold">{`${chapterNumber} Chapters Achievement !`}</h1>
                   <div className="flex w-full flex-col gap-4 px-4">
                     <p className="mx-auto px-4 indent-4">
@@ -128,12 +128,12 @@ export const DonateCard = () => {
                     </p>
                     <p className="mx-auto px-4 indent-4 font-bold">
                       Qwerty Learner has stayed <span className="font-medium ">open source, ad-free, and non-commercial</span> for
-                      <HighlightedText className="text-indigo-500"> {dayFromQwerty} </HighlightedText>
+                      <HighlightedText className="text-primary"> {dayFromQwerty} </HighlightedText>
                       days.
                     </p>
                     <p className="mx-auto px-4 indent-4">
                       As more and more learners join us, server and maintenance costs keep growing, and{' '}
-                      <span className="font-semibold text-indigo-600 dark:text-indigo-400">
+                      <span className="font-semibold text-primary">
                         the project is still funded by the developer personally. Keeping Qwerty running long term needs a hand from you
                       </span>
                       . If Qwerty has helped your learning, please consider supporting us with a donation — even the price of a coffee helps

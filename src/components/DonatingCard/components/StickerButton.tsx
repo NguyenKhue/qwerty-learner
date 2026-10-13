@@ -10,8 +10,8 @@ export const StickerButton = ({ className }: { className?: string }) => {
     <>
       <div
         data-tooltip-id="sticker-btn"
-        className={`w-max cursor-pointer rounded border-2 border-dashed border-gray-300 p-1.5 indent-0 text-sm font-bold text-gray-500 transition-all hover:border-indigo-500 hover:text-indigo-500
-        dark:text-gray-300
+        className={`w-max cursor-pointer rounded border-2 border-dashed border-border p-1.5 indent-0 text-sm font-bold text-muted-foreground transition-all hover:border-primary hover:text-primary
+
         ${className}`}
       >
         <SolarStickerSmileSquareOutline className="mb-[2px] mr-2 inline-block text-sm " />
@@ -20,14 +20,14 @@ export const StickerButton = ({ className }: { className?: string }) => {
       <Tooltip
         id="sticker-btn"
         opacity={1}
-        className="flex flex-col items-center justify-center gap-2 rounded-lg !bg-gray-100 !p-4 shadow-lg shadow-gray-300 
-        dark:!bg-gray-800 dark:text-gray-300 dark:shadow-lg dark:shadow-gray-700"
+        className="flex flex-col items-center justify-center gap-2 rounded-lg !bg-muted !p-4 shadow-lg shadow-muted-foreground/30 
+        dark:shadow-lg"
       >
         <div className="flex gap-2">
-          <img src={sticker1} alt="alipay" className=" h-44 rounded shadow-lg shadow-gray-300 dark:shadow-gray-700" />
-          <img src={sticker2} alt="alipay" className=" h-44 rounded shadow-lg shadow-gray-300 dark:shadow-gray-700" />
+          <img src={sticker1} alt="alipay" className=" h-44 rounded shadow-lg shadow-muted-foreground/30" />
+          <img src={sticker2} alt="alipay" className=" h-44 rounded shadow-lg shadow-muted-foreground/30" />
         </div>
-        <span className="mt-3 text-xs font-bold text-gray-500">
+        <span className="mt-3 text-xs font-bold text-muted-foreground">
           <IconInfo className="mb-[3px] mr-1 inline-block" />
           This sticker is not a product. It is only a token of thanks for your donation and cannot be used for any commercial purpose.
         </span>

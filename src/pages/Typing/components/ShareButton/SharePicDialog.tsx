@@ -103,7 +103,7 @@ export default function SharePicDialog({ showState, setShowState, randomChoose }
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+            <div className="fixed inset-0 bg-background/80 transition-opacity" />
           </Transition.Child>
 
           <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -117,10 +117,10 @@ export default function SharePicDialog({ showState, setShowState, randomChoose }
                 leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                 leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
               >
-                <Dialog.Panel className="relative transform overflow-hidden rounded-xl bg-white text-left shadow-xl transition-all  dark:bg-gray-700">
+                <Dialog.Panel className="relative transform overflow-hidden rounded-xl bg-card text-left shadow-xl transition-all  ">
                   <div className="flex flex-col items-center justify-center pb-10 pl-20 pr-14 pt-20">
                     <button className="absolute right-7 top-5" type="button" onClick={handleClose} title="Close dialog">
-                      <IconXMark className="h-6 w-6 text-gray-400" />
+                      <IconXMark className="h-6 w-6 text-muted-foreground" />
                     </button>
                     <div className="h-152 w-116">
                       {imageURL ? (

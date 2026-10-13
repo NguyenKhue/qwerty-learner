@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
         iconClassName="text-amber-500 bg-amber-100 dark:text-amber-300 dark:bg-amber-500"
         onClose={() => handleCloseInfoPanel('donate')}
       >
-        <p className="indent-4 text-sm text-gray-500 dark:text-gray-300">
+        <p className="indent-4 text-sm text-muted-foreground">
           Thank you so much for using Qwerty Learner. This site is maintained in our spare time, and to keep delivering a high quality
           service we need your help!
           <br />
@@ -60,12 +60,12 @@ const Footer: React.FC = () => {
           <br />
         </p>
         <br />
-        <p className="indent-4 text-sm text-gray-700 dark:text-gray-200">
+        <p className="indent-4 text-sm text-foreground">
           We believe shared effort can make Qwerty Learner a better learning platform, and that your support gives us the drive to keep
           moving forward. Thank you for your support!
         </p>
         <br />
-        <p className="indent-4 text-sm text-gray-700 dark:text-gray-200">
+        <p className="indent-4 text-sm text-foreground">
           To thank you for your generosity, donations of 50 RMB or more in a single contribution earn you 5 custom Qwerty stickers
           <span className="text-xs">(mainland China only)</span>, and we hope you will share your happiness with friends
         </p>
@@ -84,16 +84,16 @@ const Footer: React.FC = () => {
         iconClassName="text-sky-500 bg-sky-100 dark:text-sky-300 dark:bg-sky-500"
         onClose={() => handleCloseInfoPanel('vsc')}
       >
-        <p className="text-sm text-gray-500  dark:text-gray-400">
+        <p className="text-sm text-muted-foreground ">
           Based on your suggestions we built a VSCode extension that launches with a single click so you can study words anytime. It can be
           toggled from any file; once enabled the words show up in the status bar, and the extension intercepts your typing so the original
           document is never modified.
         </p>
         <br /> <br />
-        <a className="mr-5 underline dark:text-gray-300" href="https://github.com/RealKai42/qwerty-learner-vscode">
+        <a className="mr-5 text-muted-foreground underline" href="https://github.com/RealKai42/qwerty-learner-vscode">
           GitHub project
         </a>
-        <a className="underline dark:text-gray-300" href="https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner">
+        <a className="text-muted-foreground underline" href="https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner">
           VSCode extension link
         </a>
         <br />
@@ -107,7 +107,7 @@ const Footer: React.FC = () => {
         iconClassName="text-green-500 bg-green-100 dark:text-green-300 dark:bg-green-500"
         onClose={() => handleCloseInfoPanel('community')}
       >
-        <p className="text-sm text-gray-500 dark:text-gray-400">
+        <p className="text-sm text-muted-foreground">
           Qwerty Learner is an open source project built to give everyone a high quality, reliable typing practice tool.
           <br />
           By joining our user community you can talk with the dev team, share your experience and suggestions to help us improve, and stay
@@ -115,12 +115,12 @@ const Footer: React.FC = () => {
           <br />
           <br />
         </p>
-        <p className="text-sm text-gray-700 dark:text-gray-200">
+        <p className="text-sm text-foreground">
           We truly believe that good interaction and feedback from users is what drives us to keep improving. So we warmly invite you to
           join our community and help us build a better &quot;Qwerty Learner&quot;!
         </p>
         <br />
-        <p className="text-sm text-gray-500  dark:text-gray-400">Thank you again for your support and attention!</p>
+        <p className="text-sm text-muted-foreground ">Thank you again for your support and attention!</p>
         <br />
         <img className="ml-1 w-2/6 " src="/weChat-group.png" alt="weChat-group" />
         <br />
@@ -134,7 +134,7 @@ const Footer: React.FC = () => {
         iconClassName="text-red-500 bg-red-100 dark:text-red-600 dark:bg-red-500"
         onClose={() => handleCloseInfoPanel('redBook')}
       >
-        <p className="text-sm text-gray-500  dark:text-gray-400">
+        <p className="text-sm text-muted-foreground ">
           Qwerty Learner is an open source project built to give everyone a high quality, reliable typing practice tool.
           <br />
           By following us on RedNote (Xiaohongshu) you will get the dev team&apos;s latest news and releases, and can share your experience
@@ -142,13 +142,13 @@ const Footer: React.FC = () => {
           <br />
           <br />
         </p>
-        <p className="text-sm text-gray-700 dark:text-gray-200">
+        <p className="text-sm text-foreground">
           We truly believe that good interaction and feedback from users is what drives us to keep improving. So we warmly invite you to
           follow our RedNote account and help us build a better &quot;Qwerty Learner&quot;!
         </p>
         <br />
         <img className="ml-1 w-5/12 " src={redBookCode} alt="redBook" />
-        <p className="text-sm text-gray-500 dark:text-gray-400">
+        <p className="text-sm text-muted-foreground">
           Tip: In RedNote, tap the three-line menu at the top left of &quot;Me&quot;, then find &quot;Scan&quot;
         </p>
         <br />
@@ -159,7 +159,7 @@ const Footer: React.FC = () => {
         onClick={(e) => e.currentTarget.blur()}
       >
         <a href="https://github.com/RealKai42/qwerty-learner" target="_blank" rel="noreferrer" aria-label="Go to the GitHub project page">
-          <IconGithub fontSize={15} className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100" />
+          <IconGithub fontSize={15} className="text-muted-foreground hover:text-foreground" />
         </a>
 
         <button
@@ -171,7 +171,7 @@ const Footer: React.FC = () => {
           }}
           aria-label="Join our RedNote (Xiaohongshu) community"
         >
-          <IconXiaoHongShu fontSize={14} className="text-gray-500 hover:text-red-500 dark:text-gray-400 dark:hover:text-red-500" />
+          <IconXiaoHongShu fontSize={14} className="text-muted-foreground hover:text-red-500" />
         </button>
 
         <button
@@ -183,11 +183,11 @@ const Footer: React.FC = () => {
           }}
           aria-label="Join our WeChat user group"
         >
-          <IconWechat2 fontSize={16} className="text-gray-500 hover:text-green-500 dark:text-gray-400 dark:hover:text-green-500" />
+          <IconWechat2 fontSize={16} className="text-muted-foreground hover:text-green-500" />
         </button>
 
         <a href="https://twitter.com/real_kai42" target="_blank" title="x" rel="noreferrer">
-          <IconTwitter fontSize={16} className="text-gray-500 hover:text-[#1DA1F2] dark:text-gray-400 dark:hover:text-[#1DA1F2]" />
+          <IconTwitter fontSize={16} className="text-muted-foreground hover:text-[#1DA1F2]" />
         </a>
         <button
           className="cursor-pointer focus:outline-none "
@@ -198,7 +198,7 @@ const Footer: React.FC = () => {
           }}
           aria-label="Consider supporting us with a donation"
         >
-          <IconCoffee2 fontSize={16} className="text-gray-500 hover:text-amber-500 dark:text-gray-400 dark:hover:text-amber-500" />
+          <IconCoffee2 fontSize={16} className="text-muted-foreground hover:text-amber-500" />
         </button>
 
         <button
@@ -210,7 +210,7 @@ const Footer: React.FC = () => {
           }}
           aria-label="Use the Visual Studio Code version of Qwerty Learner"
         >
-          <IconVisualstudiocode fontSize={14} className="text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-500" />
+          <IconVisualstudiocode fontSize={14} className="text-muted-foreground hover:text-sky-500" />
         </button>
 
         <a
@@ -220,7 +220,7 @@ const Footer: React.FC = () => {
           onClick={(e) => e.currentTarget.blur()}
           aria-label="Send an email to me@kaiyi.cool"
         >
-          <IconMail fontSize={16} className="text-gray-500 hover:text-indigo-400 dark:text-gray-400 dark:hover:text-indigo-400" />
+          <IconMail fontSize={16} className="text-muted-foreground hover:text-primary" />
         </a>
         <a
           rel="noreferrer"
@@ -228,7 +228,7 @@ const Footer: React.FC = () => {
           onClick={() => navigate('/friend-links')}
           aria-label="View friend links"
         >
-          <RiLinksLine fontSize={14} className="text-gray-500 hover:text-indigo-400 dark:text-gray-400 dark:hover:text-indigo-400" />
+          <RiLinksLine fontSize={14} className="text-muted-foreground hover:text-primary" />
         </a>
 
         <Tooltip content="Mainland China mirror">
@@ -238,7 +238,7 @@ const Footer: React.FC = () => {
         </Tooltip>
 
         <button
-          className="cursor-pointer text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+          className="cursor-pointer text-muted-foreground hover:text-foreground"
           type="button"
           onClick={(e) => {
             handleOpenInfoPanel('donate')
@@ -249,14 +249,14 @@ const Footer: React.FC = () => {
         </button>
 
         <a
-          className="cursor-pointer text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+          className="cursor-pointer text-muted-foreground hover:text-foreground"
           href="https://beian.miit.gov.cn"
           target="_blank"
           rel="noreferrer"
         >
           鲁ICP备2022030649号
         </a>
-        <span className="select-none rounded bg-slate-200 px-1 text-xs text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+        <span className="select-none rounded bg-muted px-1 text-xs text-muted-foreground">
           Build <span className="select-all">{LATEST_COMMIT_HASH}</span>
         </span>
       </footer>
