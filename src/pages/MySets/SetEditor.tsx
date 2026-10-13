@@ -198,25 +198,45 @@ function SetEditor({ id }: { id: string }) {
 
   return (
     <div className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 pb-10 md:px-8">
-      <div className="sticky top-0 z-20 -mx-4 border-b border-border bg-background/90 px-4 py-3 shadow-1 backdrop-blur md:-mx-8 md:px-8">
-        <div className="flex items-center gap-x-3">
+      <div className="sticky top-0 z-20 -mx-4 border-b border-border bg-background/90 px-4 py-3 backdrop-blur md:-mx-8 md:px-8">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
           <Link
             to={listPath}
             aria-label="Back"
-            className="inline-flex min-h-[44px] items-center text-sm text-muted-foreground hover:text-foreground"
+            className="inline-flex min-h-[44px] items-center gap-1 text-sm text-muted-foreground transition-colors duration-fast hover:text-foreground"
           >
             <span aria-hidden>←</span>
-            <span className="hidden sm:inline"> Back</span>
+            <span className="hidden sm:inline">Back</span>
           </Link>
-          <h1 className="text-xl font-semibold">{isNew ? 'New set' : 'Edit set'}</h1>
-          {/* On a phone the counter and the badge would push the buttons onto a second line, so they only show from the sm breakpoint */}
-          <span className="hidden text-sm text-muted-foreground sm:inline">{rows.length} words</span>
+          <div className="flex min-w-0 items-baseline gap-2">
+            <h1 className="text-heading">{isNew ? 'New set' : 'Edit set'}</h1>
+            {/* On a phone the counter and the badge would push the buttons onto a second line, so they only show from the sm breakpoint */}
+            <span className="num hidden text-sm text-muted-foreground sm:inline">{rows.length} words</span>
+          </div>
           {dirty && (
-            <span className="hidden rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary sm:inline">
+            <span className="hidden rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary lg:inline">
               Unsaved changes
             </span>
           )}
-          <div className="ml-auto flex gap-2">
+          <div className="relative order-last w-full md:order-none md:ml-auto md:w-64">
+            <IconSearch
+              className="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground"
+              aria-hidden
+            />
+            <label htmlFor="set-editor-search" className="sr-only">
+              Search words in this set
+            </label>
+            <Input
+              id="set-editor-search"
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search words in this set"
+              aria-label="Search words in this set"
+              className="pl-10"
+            />
+          </div>
+          <div className="ml-auto flex gap-2 md:ml-0">
             <Button variant="outline" onClick={onCancel}>
               Cancel
             </Button>
@@ -224,21 +244,6 @@ function SetEditor({ id }: { id: string }) {
               {saving ? 'Saving…' : 'Save'}
             </Button>
           </div>
-        </div>
-        <div className="relative mt-3">
-          <IconSearch className="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" aria-hidden />
-          <label htmlFor="set-editor-search" className="sr-only">
-            Search words in this set
-          </label>
-          <Input
-            id="set-editor-search"
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search words in this set"
-            aria-label="Search words in this set"
-            className="pl-10"
-          />
         </div>
       </div>
 
