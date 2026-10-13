@@ -187,10 +187,7 @@ export default function StudySession({ dictId, queue, progress, reverse, details
         {/* Keyed by the word so the scroll position of the back never leaks into the next card */}
         <FlipCard key={word.name} flipped={session.flipped} onFlip={onFlip} front={front} back={back} />
 
-        {/* Always available: after reading the meaning the card can be turned back to rehearse the word before grading */}
-        <Button variant="outline" onClick={onFlip}>
-          {!session.revealed ? 'Show answer (Space)' : session.flipped ? 'Flip back (Space)' : 'Flip again (Space)'}
-        </Button>
+        <p className="text-xs text-muted-foreground">Tap the card or press Space to flip it</p>
 
         <p className="sr-only" aria-live="polite">
           {session.flipped

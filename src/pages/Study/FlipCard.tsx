@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import type { MouseEvent, ReactNode } from 'react'
 
 type Props = {
   flipped: boolean
@@ -19,8 +19,15 @@ const CELL = '[grid-area:1/1]'
  * grid cell and the hidden one is removed from the tab order and from pointer events.
  */
 export default function FlipCard({ flipped, front, back, onFlip }: Props) {
-  // The front is only clickable while it faces the viewer, so the back never turns the card over again
-  const clickable = !flipped && Boolean(onFlip)
+  // Tapping the face that is showing turns the card over, either way. Scrolling a long back does not click, and a tap while some text
+  // is selected (the user is copying a sentence) is ignored
+  const clickable = Boolean(onFlip)
+  const onFaceClick = (event: MouseEvent<HTMLDivElement>) => {
+    // A tap on a control inside the card (the pronunciation button) is for that control, not for the card
+    if ((event.target as HTMLElement).closest('button, a')) return
+    if (typeof window !== 'undefined' && window.getSelection()?.toString()) return
+    onFlip?.()
+  }
 
   return (
     <div className="w-full [perspective:1200px]">
@@ -31,7 +38,7 @@ export default function FlipCard({ flipped, front, back, onFlip }: Props) {
       >
         <div
           aria-hidden={flipped}
-          onClick={clickable ? onFlip : undefined}
+          onClick={!flipped && clickable ? onFaceClick : undefined}
           className={`${CELL} ${FACE} ${BACKFACE} items-center text-center${
             flipped ? ' pointer-events-none' : clickable ? ' cursor-pointer' : ''
           }`}
@@ -40,7 +47,10 @@ export default function FlipCard({ flipped, front, back, onFlip }: Props) {
         </div>
         <div
           aria-hidden={!flipped}
-          className={`${CELL} ${FACE} ${BACKFACE} [transform:rotateY(180deg)]${flipped ? '' : ' pointer-events-none'}`}
+          onClick={flipped && clickable ? onFaceClick : undefined}
+          className={`${CELL} ${FACE} ${BACKFACE} [transform:rotateY(180deg)]${
+            flipped ? (clickable ? ' cursor-pointer' : '') : ' pointer-events-none'
+          }`}
         >
           {/* Long meanings scroll inside the card instead of growing it past the viewport */}
           <div className="max-h-[min(60vh,34rem)] overflow-y-auto text-left">{back}</div>
