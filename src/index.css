@@ -117,6 +117,12 @@ body,
 }
 
 @layer components {
+  /* Native checkboxes and radios follow the tokens; the forms plugin's defaults are white in dark mode */
+  input[type='checkbox'],
+  input[type='radio'] {
+    @apply border-border bg-card text-primary focus:ring-ring;
+  }
+
   /* `100dvh` is ignored by browsers without dynamic viewport units, which then keep the `100vh` line above it */
   .app-shell {
     height: 100vh;
