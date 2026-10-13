@@ -10,6 +10,7 @@ import { getDictProgress } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
 import { fetchDetailMap } from '@/utils/detail/sidecar'
 import { canGoBack } from '@/utils/history'
+import { type ProgressSummary, progressSummary } from '@/utils/progress/status'
 import { buildQueue, nextDueTime, nextRefreshDelay, sanitizeNewPerDay } from '@/utils/srs/queue'
 import type { QueueItem } from '@/utils/srs/queue'
 import { wordListFetcher } from '@/utils/wordListFetcher'
@@ -48,6 +49,8 @@ function Study({ id }: { id: string }) {
   const [now, setNow] = useState(() => Date.now())
   const [queue, setQueue] = useState<QueueItem[] | null>(null)
   const [summary, setSummary] = useState<SessionSummary | null>(null)
+  // How the set stood when the session began, so the overview afterwards can show the gain
+  const [before, setBefore] = useState<ProgressSummary | null>(null)
 
   const reloadProgress = useCallback(async () => {
     try {
@@ -91,6 +94,7 @@ function Study({ id }: { id: string }) {
       setNow(fresh)
       return
     }
+    setBefore(progressSummary(words, progress))
     setQueue(built)
   }, [words, progress, newPerDay])
 
@@ -129,6 +133,7 @@ function Study({ id }: { id: string }) {
       reverse={reverse}
       onReverseChange={setReverse}
       summary={summary}
+      before={before}
       onStart={onStart}
       // Nothing earlier in this app's history: fall back to the dashboard
       onBack={() => (canGoBack() ? navigate(-1) : navigate('/'))}

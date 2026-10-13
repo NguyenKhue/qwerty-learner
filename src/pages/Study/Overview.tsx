@@ -1,8 +1,10 @@
 import type { SessionSummary } from './StudySession'
 import { ModeFrame, ModePage, Panel } from '@/components/ModePage'
+import SetProgress from '@/components/SetProgress'
 import { Button } from '@/components/ui/button'
 import type { Word } from '@/typings'
 import type { ICardProgress } from '@/utils/db/record'
+import { type ProgressSummary, progressSummary } from '@/utils/progress/status'
 import { buildQueue, nextDueTime, queueCounts, sanitizeNewPerDay } from '@/utils/srs/queue'
 import { useEffect, useMemo, useState } from 'react'
 
@@ -16,6 +18,8 @@ type Props = {
   reverse: boolean
   onReverseChange: (value: boolean) => void
   summary: SessionSummary | null
+  /** Counts from before the session that just finished, to show what it gained */
+  before?: ProgressSummary | null
   onStart: () => void
   onBack: () => void
 }
@@ -30,6 +34,7 @@ export default function StudyOverview({
   reverse,
   onReverseChange,
   summary,
+  before,
   onStart,
   onBack,
 }: Props) {
@@ -38,6 +43,7 @@ export default function StudyOverview({
   useEffect(() => setLimitText(String(newPerDay)), [newPerDay])
   const queue = useMemo(() => buildQueue({ words, progress, now, newPerDay }), [words, progress, now, newPerDay])
   const counts = queueCounts(queue)
+  const overall = useMemo(() => progressSummary(words, progress), [words, progress])
   const next = useMemo(() => nextDueTime(words, progress, now), [words, progress, now])
 
   const commitLimit = () => {
@@ -79,6 +85,10 @@ export default function StudyOverview({
               </Button>
             </div>
           )}
+        </Panel>
+
+        <Panel>
+          <SetProgress summary={overall} before={summary ? before ?? undefined : undefined} />
         </Panel>
 
         <Panel className="space-y-3 text-sm">

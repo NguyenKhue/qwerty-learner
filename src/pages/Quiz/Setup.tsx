@@ -1,6 +1,8 @@
 import { ModeFrame, ModePage } from '@/components/ModePage'
+import SetProgress from '@/components/SetProgress'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
+import type { ProgressSummary } from '@/utils/progress/status'
 import type { QuizDirection, QuizLength } from '@/utils/quiz/questions'
 
 type Props = {
@@ -13,6 +15,7 @@ type Props = {
   onDirectionChange: (value: QuizDirection) => void
   onStart: () => void
   onBack: () => void
+  progress?: ProgressSummary | null
 }
 
 const LENGTHS: { value: QuizLength; label: string }[] = [
@@ -31,6 +34,7 @@ export default function QuizSetup({
   onDirectionChange,
   onStart,
   onBack,
+  progress,
 }: Props) {
   return (
     <ModeFrame>
@@ -69,6 +73,11 @@ export default function QuizSetup({
             <Button className="h-12 w-full text-base shadow-2" onClick={onStart}>
               Start quiz
             </Button>
+          </Card>
+        )}
+        {progress && (
+          <Card>
+            <SetProgress summary={progress} />
           </Card>
         )}
       </ModePage>

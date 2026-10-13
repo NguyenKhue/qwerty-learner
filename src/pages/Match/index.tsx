@@ -1,10 +1,12 @@
 import MatchBoard from './MatchBoard'
 import { InlineLoading } from '@/components/Loading'
 import { ModeFrame, ModePage, PageMessage } from '@/components/ModePage'
+import SetProgress from '@/components/SetProgress'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
+import { useSetProgress } from '@/hooks/useSetProgress'
 import { canGoBack } from '@/utils/history'
 import { formatDuration, readBest } from '@/utils/match/best'
 import { buildBoard, canPlay } from '@/utils/match/board'
@@ -22,6 +24,7 @@ export default function MatchRoute() {
 function Match({ id }: { id: string }) {
   const navigate = useNavigate()
   const { dict, words, error } = useDictionaryWords(id)
+  const progress = useSetProgress(id, words)
   const [tiles, setTiles] = useState<Tile[] | null>(null)
   // Bumped on every start so MatchBoard remounts with a fresh game ("Play again")
   const [round, setRound] = useState(0)
@@ -72,6 +75,11 @@ function Match({ id }: { id: string }) {
           </Card>
         ) : (
           <Card className="text-muted-foreground">This set cannot be played yet: it needs at least 6 words with different meanings.</Card>
+        )}
+        {progress && (
+          <Card>
+            <SetProgress summary={progress} />
+          </Card>
         )}
       </ModePage>
     </ModeFrame>

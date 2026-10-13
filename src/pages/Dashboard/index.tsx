@@ -1,6 +1,7 @@
 import WeekCard from './WeekCard'
 import { buildNavItems } from '@/components/AppShell/navItems'
 import type { NavItem } from '@/components/AppShell/navItems'
+import SetProgress from '@/components/SetProgress'
 import { Card, CardEyebrow, CardTitle } from '@/components/ui/card'
 import { PageHeader } from '@/components/ui/page-header'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
@@ -13,6 +14,7 @@ import { loadActivity } from '@/utils/db/activity'
 import { getDictProgress } from '@/utils/db/card-progress'
 import { customEditPath } from '@/utils/db/custom-dict'
 import { formatDuration, readBest } from '@/utils/match/best'
+import { progressSummary } from '@/utils/progress/status'
 import { sanitizeNewPerDay } from '@/utils/srs/queue'
 import { cn } from '@/utils/ui'
 import { useLiveQuery } from 'dexie-react-hooks'
@@ -96,13 +98,13 @@ export default function Dashboard() {
     () => (words && progress ? dashboardStats({ words, progress, now, newPerDay }) : null),
     [words, progress, now, newPerDay],
   )
+  const summary = useMemo(() => (words && progress ? progressSummary(words, progress) : null), [words, progress])
   const items = useMemo(() => buildNavItems(), [])
   const link = (id: NavItem['id']) => items.find((item) => item.id === id)?.to ?? '/'
   const best = readBest(dict.id)
   const editPath = customEditPath(dict.id)
 
   const queued = stats ? stats.due + stats.newToday : 0
-  const percent = stats && stats.total > 0 ? Math.min(100, Math.round((stats.seen / stats.total) * 100)) : 0
   const todayLabel = useMemo(() => new Date().toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long' }), [])
   const step = (i: number) => ({ '--i': i } as CSSProperties)
 
@@ -175,22 +177,7 @@ export default function Dashboard() {
                   </Link>
                 </div>
               </div>
-              <div
-                role="progressbar"
-                aria-label="Words studied"
-                aria-valuemin={0}
-                aria-valuemax={Math.max(stats.total, 1)}
-                aria-valuenow={stats.seen}
-                className="mt-4 h-2 w-full overflow-hidden rounded-full bg-muted"
-              >
-                <div
-                  className="h-full w-full origin-left rounded-full bg-accent transition-transform duration-enter ease-out"
-                  style={{ transform: `scaleX(${percent / 100})` }}
-                />
-              </div>
-              <p className="num mt-2 text-sm text-muted-foreground">
-                {stats.seen} / {stats.total} words studied
-              </p>
+              {summary && <SetProgress summary={summary} className="mt-4" />}
             </Card>
           </>
         )}

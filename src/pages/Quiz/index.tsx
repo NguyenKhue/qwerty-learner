@@ -4,6 +4,7 @@ import { InlineLoading } from '@/components/Loading'
 import { ModeFrame, PageMessage } from '@/components/ModePage'
 import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
+import { useSetProgress } from '@/hooks/useSetProgress'
 import { quizDirectionAtom, quizLengthAtom } from '@/store/quiz'
 import { canGoBack } from '@/utils/history'
 import { buildQuiz, canQuiz, distinctMeaningCount, sanitizeQuizLength } from '@/utils/quiz/questions'
@@ -22,6 +23,7 @@ export default function QuizRoute() {
 function Quiz({ id }: { id: string }) {
   const navigate = useNavigate()
   const { dict, words, error } = useDictionaryWords(id)
+  const progress = useSetProgress(id, words)
   const [lengthStored, setLength] = useAtom(quizLengthAtom)
   const [direction, setDirection] = useAtom(quizDirectionAtom)
   const length = sanitizeQuizLength(lengthStored)
@@ -58,6 +60,7 @@ function Quiz({ id }: { id: string }) {
 
   return (
     <QuizSetup
+      progress={progress}
       dictName={dict.name}
       available={available}
       distinctMeanings={distinctMeanings}
