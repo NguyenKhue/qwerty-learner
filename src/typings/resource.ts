@@ -12,6 +12,8 @@ export type DictionaryResource = {
   languageCategory: LanguageCategoryType
   //override default pronunciation when not undefined
   defaultPronIndex?: number
+  // JSON map { word: detail } fetched only by Flashcards
+  detailUrl?: string
 }
 
 export type Dictionary = {
@@ -28,6 +30,8 @@ export type Dictionary = {
   chapterCount: number
   //override default pronunciation when not undefined
   defaultPronIndex?: number
+  // JSON map { word: detail } fetched only by Flashcards
+  detailUrl?: string
 }
 
 export type PronunciationConfig = {

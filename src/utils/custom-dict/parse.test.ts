@@ -193,3 +193,56 @@ describe('hasReplacementChars', () => {
     expect(hasReplacementChars('quả táo')).toBe(false)
   })
 })
+
+describe('detail (long meaning for the back of a flashcard)', () => {
+  it('reads a detail column named in the header, in any column order', () => {
+    const csv = 'detail,name,trans\n"Line one\nLine two, with a comma and ""quotes""",strict,adj. nghiêm ngặt\n'
+    const result = parseWordsCsv(csv)
+    expect(result.errors).toEqual([])
+    expect(result.words).toEqual([
+      { name: 'strict', trans: ['adj. nghiêm ngặt'], usphone: '', ukphone: '', detail: 'Line one\nLine two, with a comma and "quotes"' },
+    ])
+  })
+
+  it('accepts detail as a fifth positional column and as the header names detail / details', () => {
+    expect(parseWordsCsv('a,adj. x,,,Long text').words[0].detail).toBe('Long text')
+    expect(parseWordsCsv('name,trans,usphone,ukphone,details\na,adj. x,,,Long text').words[0].detail).toBe('Long text')
+  })
+
+  it('leaves detail out when the cell is empty, and old files without it import unchanged', () => {
+    const result = parseWordsCsv('name,trans,usphone,ukphone\na,adj. x,ei,ei\nb,n. y')
+    expect(result.words).toEqual([
+      { name: 'a', trans: ['adj. x'], usphone: 'ei', ukphone: 'ei' },
+      { name: 'b', trans: ['n. y'], usphone: '', ukphone: '' },
+    ])
+    expect('detail' in result.words[0]).toBe(false)
+  })
+
+  it('keeps the first non-empty detail when a word is listed twice, and still merges meanings', () => {
+    const result = parseWordsCsv('name,trans,detail\na,adj. x,\na,adj. y,Second\na,adj. z,Third')
+    expect(result.words).toHaveLength(1)
+    expect(result.words[0].trans).toEqual(['adj. x', 'adj. y', 'adj. z'])
+    expect(result.words[0].detail).toBe('Second')
+  })
+
+  it('reads a string detail from JSON, trims it and ignores other types', () => {
+    const json = JSON.stringify([
+      { name: 'a', trans: ['x'], detail: '  Long  \n text ' },
+      { name: 'b', trans: ['y'], detail: 42 },
+      { name: 'c', trans: ['z'], detail: '   ' },
+    ])
+    const words = parseWordsJson(json).words
+    expect(words[0].detail).toBe('Long  \n text')
+    expect('detail' in words[1]).toBe(false)
+    expect('detail' in words[2]).toBe(false)
+  })
+
+  it('carries the detail of an editor row and omits an empty one', () => {
+    const result = rowsToWords([
+      { name: 'a', trans: 'adj. x', usphone: '', ukphone: '', detail: ' Long text ' },
+      { name: 'b', trans: 'n. y', usphone: '', ukphone: '' },
+    ])
+    expect(result.words[0].detail).toBe('Long text')
+    expect('detail' in result.words[1]).toBe(false)
+  })
+})

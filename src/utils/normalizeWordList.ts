@@ -18,16 +18,19 @@ export function normalizeWordList(raw: unknown): Word[] {
     if (!item || typeof item !== 'object' || typeof (item as Word).name !== 'string') return
     const word = item as Word
     const trans = repairedTrans(word.trans)
-    if (trans === null && typeof word.usphone === 'string' && typeof word.ukphone === 'string') {
+    const detailOk = word.detail === undefined || typeof word.detail === 'string'
+    if (trans === null && typeof word.usphone === 'string' && typeof word.ukphone === 'string' && detailOk) {
       result.push(word)
       return
     }
-    result.push({
+    const repaired: Word = {
       ...word,
       trans: trans ?? word.trans,
       usphone: typeof word.usphone === 'string' ? word.usphone : '',
       ukphone: typeof word.ukphone === 'string' ? word.ukphone : '',
-    })
+    }
+    if (!detailOk) delete repaired.detail
+    result.push(repaired)
   })
   return result
 }

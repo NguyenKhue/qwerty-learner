@@ -25,6 +25,8 @@ export type Word = {
   usphone: string
   ukphone: string
   notation?: string
+  // A long, detailed meaning shown on the back of a flashcard; every other mode uses `trans`
+  detail?: string
 }
 
 export type WordWithIndex = Word & {

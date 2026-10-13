@@ -29,3 +29,14 @@ describe('normalizeWordList', () => {
     expect(normalizeWordList({ not: 'an array' } as unknown as Word[])).toEqual([])
   })
 })
+
+describe('normalizeWordList detail', () => {
+  it('keeps a string detail and drops one that is not a string', () => {
+    const [kept, dropped] = normalizeWordList([
+      { name: 'a', trans: ['x'], usphone: '', ukphone: '', detail: 'Long text' },
+      { name: 'b', trans: ['y'], usphone: '', ukphone: '', detail: 42 },
+    ])
+    expect(kept.detail).toBe('Long text')
+    expect('detail' in dropped).toBe(false)
+  })
+})
