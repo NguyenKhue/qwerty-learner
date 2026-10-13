@@ -2934,7 +2934,7 @@
   {
     "name": "participle",
     "trans": [
-      "n. 分词"
+      "n. phân từ"
     ],
     "usphone": "'pɑrtə'sɪpl",
     "ukphone": "'pɑːtɪsɪp(ə)l"
@@ -5195,9 +5195,9 @@
   {
     "name": "utopian",
     "trans": [
-      "adj. 空想的；乌托邦的；理想化的",
-      "n. 空想家；乌托邦的居民Utopian",
-      "adj. 理想而不实际的, 乌托邦的"
+      "adj. Lý tưởng; mang tính Utopi; được lý tưởng hóa",
+      "n. Người mơ mộng, người lý tưởng; cư dân Utopi",
+      "adj. Lý tưởng mà không thực tế, mang tính Utopi"
     ],
     "usphone": "juːˈtoʊpiən",
     "ukphone": "juːˈtəʊpiən"
@@ -5205,8 +5205,8 @@
   {
     "name": "topography",
     "trans": [
-      "n. 地形学,地形测量学地形,地貌,地势名 词:topograph",
-      "形容词:topographic"
+      "n. Địa hình học; đo đạc địa hình; địa mạo; địa thế; danh từ: topograph",
+      "Tính từ: topographic"
     ],
     "usphone": "tə'pɑgrəfi",
     "ukphone": "tə'pɒgrəfɪ"
@@ -5215,7 +5215,7 @@
     "name": "dynamic",
     "trans": [
       "adj. năng động; sôi nổi; tràn đầy sức sống",
-      "n. 动态；动力副 词:dynamically"
+      "n. Động lực, sức động; trạng từ: dynamically"
     ],
     "usphone": "daɪˈnæmɪk",
     "ukphone": "daɪˈnæmɪk"
@@ -5223,7 +5223,7 @@
   {
     "name": "eccentric",
     "trans": [
-      "adj. 古怪的，怪癖的；异乎寻常的副 词:eccentrically"
+      "adj. Kỳ quặc, có tật; khác thường, lạ lùng; trạng từ: eccentrically"
     ],
     "usphone": "ɪkˈsentrɪk",
     "ukphone": "ɪkˈsentrɪk"
@@ -5231,7 +5231,7 @@
   {
     "name": "epicenter",
     "trans": [
-      "n. 震中，中心；集中点形容词:epicentral"
+      "n. Tâm chấn động đất, tâm; điểm tụ họp; tính từ: epicentral"
     ],
     "usphone": "'ɛpɪ,sɛntɚ",
     "ukphone": "ˈepɪˌsentə"
@@ -5239,9 +5239,9 @@
   {
     "name": "egocentric",
     "trans": [
-      "adj. 自我中心的,自私自利的名 词:egocentric",
-      "名 词:egocentricity",
-      "名 词:egocentrism"
+      "adj. Tự tôn, ích kỷ; danh từ: egocentric",
+      "Danh từ: egocentricity",
+      "Danh từ: egocentrism"
     ],
     "usphone": "ˌiːɡoʊˈsentrɪk",
     "ukphone": "ˌiːɡəʊˈsentrɪk"
@@ -5249,7 +5249,7 @@
   {
     "name": "ethnocentric",
     "trans": [
-      "adj. 种族〔民族、集团〕优越感的"
+      "adj. Có tinh thần chủng tộc, tin vào sự ưu trội của chủng tộc"
     ],
     "usphone": "ˌɛθno'sɛntrɪk",
     "ukphone": "ˌeθnəʊˈsentrɪk"
@@ -5257,7 +5257,7 @@
   {
     "name": "dominion",
     "trans": [
-      "n. 领土；主权，统治权；支配"
+      "n. Lãnh thổ; chủ quyền, quyền trị vị; quyền chi phối"
     ],
     "usphone": "də'mɪnɪən",
     "ukphone": "də'mɪnjən"
@@ -5265,7 +5265,7 @@
   {
     "name": "predominant",
     "trans": [
-      "adj. 占主导地位的, 显著的副 词:predominantly"
+      "adj. Chiếm ưu thế, chiếm đa số; nổi bật; trạng từ: predominantly"
     ],
     "usphone": "prɪˈdɑːmɪnənt",
     "ukphone": "prɪˈdɒmɪnənt"
@@ -5273,7 +5273,7 @@
   {
     "name": "domineering",
     "trans": [
-      "adj. 刚愎自用、喜欢支配别人的"
+      "adj. Cứng ý, bướng bỉnh; thích áp đặt, chiếm hơn người"
     ],
     "usphone": "'dɑmə'nɪrɪŋ",
     "ukphone": "dɒmɪ'nɪərɪŋ"
@@ -5281,7 +5281,7 @@
   {
     "name": "domination",
     "trans": [
-      "n. 控制;统治"
+      "n. Kiểm soát, quyền kiểm soát; cai trị, trị vị"
     ],
     "usphone": "ˌdɑːmɪˈneɪʃn",
     "ukphone": "ˌdɒmɪˈneɪʃn"
@@ -5289,7 +5289,7 @@
   {
     "name": "omnivore",
     "trans": [
-      "n. 杂食动物；不偏食的人"
+      "n. Động vật ăn tạp; người ăn uống tạp phạm"
     ],
     "usphone": "'ɑmnɪvɔr",
     "ukphone": "'ɒmnɪvɔː"
@@ -5297,7 +5297,7 @@
   {
     "name": "omnipotent",
     "trans": [
-      "adj. 全能的；无所不能的；有无限权力的"
+      "adj. Toàn năng, vạn năng; có quyền lực vô hạn"
     ],
     "usphone": "ɑːmˈnɪpətənt",
     "ukphone": "ɒmˈnɪpətənt"
@@ -5305,8 +5305,8 @@
   {
     "name": "omnibus",
     "trans": [
-      "n. 公共汽车；精选集；文集",
-      "adj. 总括的；综合性的；（包括）多项的"
+      "n. Xe buýt; tuyển tập; tập văn",
+      "adj. Tổng hợp, bao quát; bao hàm nhiều mục"
     ],
     "usphone": "'ɑmnɪbəs",
     "ukphone": "'ɒmnɪbəs"
@@ -5314,7 +5314,7 @@
   {
     "name": "omniscient",
     "trans": [
-      "adj. 无所不知的"
+      "adj. Biết hết mọi thứ, toàn tri"
     ],
     "usphone": "ɑːmˈnɪʃənt",
     "ukphone": "ɒmˈnɪsiənt"
@@ -5322,7 +5322,7 @@
   {
     "name": "holistic",
     "trans": [
-      "adj. 全部的"
+      "adj. Toàn bộ, tất cả"
     ],
     "usphone": "ho'lɪstɪk",
     "ukphone": "həʊˈlɪstɪk"
@@ -5330,7 +5330,7 @@
   {
     "name": "hologram",
     "trans": [
-      "n. 全息图；全息摄影，全息照相"
+      "n. Hình ảnh ba chiều; kỹ thuật chụp ảnh ba chiều, in thêu ba chiều"
     ],
     "usphone": "'hɑlɡræm",
     "ukphone": "'hɒləgræm"
@@ -5338,9 +5338,9 @@
   {
     "name": "holocene",
     "trans": [
-      "adj. [地质]全新统的；全新世的Holocene",
+      "adj. [Địa chất] Thuộc kỷ Hồiêu Tân, toàn tân",
       "adj.,",
-      "n. (地)全新世(的),全新统(的)"
+      "n. (Địa chất) Kỷ Hồiêu Tân, toàn tân"
     ],
     "usphone": "'hɔləsi:n",
     "ukphone": "'hɔləsi:n"
@@ -5356,8 +5356,8 @@
   {
     "name": "retroactive",
     "trans": [
-      "adj. 反动的,追溯的,有追溯力的,从以往某天开始生效副 词:retroactively",
-      "名 词:retroactivity"
+      "adj. Phản động; hồi tố, có hiệu lực từ ngày trước đó; trạng từ: retroactively",
+      "Danh từ: retroactivity"
     ],
     "usphone": "ˌrɛtro'æktɪv",
     "ukphone": "retrəʊ'æktɪv"
@@ -5365,8 +5365,8 @@
   {
     "name": "retrofit",
     "trans": [
-      "n. 式样翻新,花样翻新",
-      "时态:retrofitted, retrofitting, retrofits"
+      "n. Đổi mới mẫu mã; làm mới hoa văn, đổi kiểu",
+      "Thì: retrofitted, retrofitting, retrofits"
     ],
     "usphone": "'rɛtrofɪt",
     "ukphone": "'retrəʊfɪt"
@@ -5374,8 +5374,8 @@
   {
     "name": "retrogress",
     "trans": [
-      "vi. 倒退；逆行；退化",
-      "时态:retrogressed，retrogressing，retrogresses形容词:retrogressive"
+      "vi. Lùi lại, đi ngược; thoái lui, suy thoái",
+      "Thì: retrogressed, retrogressing, retrogresses; tính từ: retrogressive"
     ],
     "usphone": "'rɛtroɡrɛs",
     "ukphone": "ˌretrə(ʊ)'gres"
@@ -5383,7 +5383,7 @@
   {
     "name": "retrospective",
     "trans": [
-      "adj. 回顾的(指法律、支付关系等)有追溯效力的副 词:retrospectively"
+      "adj. Nhìn lại (về pháp luật, quan hệ thanh toán); có hiệu lực hồi tố; trạng từ: retrospectively"
     ],
     "usphone": "ˌretrəˈspektɪv",
     "ukphone": "ˌretrəˈspektɪv"
@@ -5391,11 +5391,11 @@
   {
     "name": "temporal",
     "trans": [
-      "adj. 时间的暂存的，短暂的，非永恒的世俗的；现世的表示时间的，",
-      "时态的太阳穴的",
-      "n. 暂存的事物，世间的事物",
-      "vt. 使世俗化",
-      "n. 俗人"
+      "adj. Tạm thời, ngắn ngủi, không vĩnh cửu; thế tục, trần tục; hiện thế; biểu thị thời gian,",
+      "biểu thị thời gian; thái dương",
+      "n. Sự vật tạm thời; sự vật trần gian",
+      "vt. Làm cho trở nên thế tục, thế tục hóa",
+      "n. Kẻ thế tục, người tầm thường"
     ],
     "usphone": "ˈtempərəl",
     "ukphone": "ˈtempərəl"
@@ -5403,8 +5403,8 @@
   {
     "name": "contemporary",
     "trans": [
-      "adj. 当代的同时代的, 同属一个时期的",
-      "n. 同代人, 同龄人"
+      "adj. Cùng thời đại, đương thời; thuộc cùng một thời kỳ",
+      "n. Người cùng thời đại; người ngang hàng tuổi"
     ],
     "usphone": "kənˈtempəreri",
     "ukphone": "kənˈtemprəri"
@@ -5412,7 +5412,7 @@
   {
     "name": "extemporaneous",
     "trans": [
-      "adj. (讲话或做事)毫无准备的,即席的,仓促的,临时的"
+      "adj. (Khi nói hoặc làm việc) không chuẩn bị, không hẳn hoi; bộc phát, tự phát; vội vàng; tạm thời"
     ],
     "usphone": "ɪkˌstɛmpəˈreniəs",
     "ukphone": "ɪk,stempə'reɪnɪəs"
@@ -5420,9 +5420,9 @@
   {
     "name": "temporize",
     "trans": [
-      "vi. 顺应时势,迎合潮流敷衍,应付拖延,耽搁暂时同意",
-      "时态:temporized, temporizing, temporizes名 词:temporization",
-      "名 词:temporizer"
+      "vi. Nhất quán với thời thế; chiều theo dòng chảy; thoái hiện, trì hoãn; tạm thời đồng ý",
+      "Thì: temporized, temporizing, temporizes; danh từ: temporization",
+      "Danh từ: temporizer"
     ],
     "usphone": "ˈtempəraɪz",
     "ukphone": "ˈtempəraɪz"
@@ -5430,8 +5430,8 @@
   {
     "name": "chronic",
     "trans": [
-      "adj. 慢性的；长期的；习惯性的副 词:chronically",
-      "名 词:chronicity"
+      "adj. Mãn tính, kéo dài; dài hạn; thói quen, có tính chất thường xuyên; trạng từ: chronically",
+      "Danh từ: chronicity"
     ],
     "usphone": "ˈkrɑːnɪk",
     "ukphone": "ˈkrɒnɪk"
@@ -5439,7 +5439,7 @@
   {
     "name": "chronology",
     "trans": [
-      "n. 年代学年表，(按时间排列的)大事记名 词:chronologist"
+      "n. Bảng niên hiệu, niên lịch; những sự kiện lớn được sắp xếp theo thời gian; danh từ: chronologist"
     ],
     "usphone": "krə'nɑlədʒi",
     "ukphone": "krə'nɒlədʒɪ"
@@ -5447,7 +5447,7 @@
   {
     "name": "anachronism",
     "trans": [
-      "n. 时代错误不合时代的事;过时的事或人"
+      "n. Lỗi thời, sự lệch thời; việc không hợp thời; sự vật hoặc con người lỗi thời"
     ],
     "usphone": "ə'nækrənɪzəm",
     "ukphone": "ə'nækrə,nɪz(ə)m"
@@ -5455,7 +5455,7 @@
   {
     "name": "synchronous",
     "trans": [
-      "adj. 同时存在〔发生〕的；同步的副 词:synchronously"
+      "adj. Cùng tồn tại, cùng xảy ra; đồng bộ; trạng từ: synchronously"
     ],
     "usphone": "ˈsɪŋkrənəs",
     "ukphone": "ˈsɪŋkrənəs"
@@ -5463,7 +5463,7 @@
   {
     "name": "triad",
     "trans": [
-      "n. 三和音；三个一组；三价元素形容词:triadic"
+      "n. Hợp âm ba nốt; nhóm ba; nguyên tố hóa trị ba; tính từ: triadic"
     ],
     "usphone": "'træd",
     "ukphone": "'traɪæd"
@@ -5471,7 +5471,7 @@
   {
     "name": "trilogy",
     "trans": [
-      "n. (小说、戏剧、音乐等的)三部曲"
+      "n. Bộ ba tác phẩm (tiểu thuyết, kịch, âm nhạc)"
     ],
     "usphone": "ˈtrɪlədʒi",
     "ukphone": "ˈtrɪlədʒi"
@@ -5479,7 +5479,7 @@
   {
     "name": "triceratops",
     "trans": [
-      "n. 三角恐龙Triceratops三角龙属"
+      "n. Khủng long ba sừng Triceratops, chi Triceratops"
     ],
     "usphone": "traɪ'sɛrətɑps",
     "ukphone": "traɪ'serətɒps"
@@ -5487,7 +5487,7 @@
   {
     "name": "trident",
     "trans": [
-      "n. 三叉戟；三叉线；三齿鱼叉"
+      "n. Giáo ba chĩa; đường ba chĩa; móc câu ba chĩa"
     ],
     "usphone": "ˈtraɪdn..t",
     "ukphone": "'traidənt"
@@ -5495,7 +5495,7 @@
   {
     "name": "trimester",
     "trans": [
-      "n. 三个月,学期形容词:trimestral"
+      "n. Ba tháng; học kỳ; tính từ: trimestral"
     ],
     "usphone": "traɪ'mɛstɚ",
     "ukphone": "traɪ'mestə"
@@ -5503,7 +5503,7 @@
   {
     "name": "trinity",
     "trans": [
-      "n. 三人小组；三件一套；三合一三，三倍"
+      "n. Nhóm ba người; bộ ba món; ba; gấp ba"
     ],
     "usphone": "ˈtrɪnɪti",
     "ukphone": "ˈtrɪnɪti:"
@@ -5511,7 +5511,7 @@
   {
     "name": "triptych",
     "trans": [
-      "n. 三张相联,三幅一联"
+      "n. Triptych, ba tấm tranh liền kề"
     ],
     "usphone": "'trɪptɪk",
     "ukphone": "'trɪptɪk"
@@ -5519,7 +5519,7 @@
   {
     "name": "trivial",
     "trans": [
-      "adj. 不重要的，琐碎的；琐细的副 词:trivially"
+      "adj. Không quan trọng, tầm thường; vặt vãnh, nhỏ nhặt; trạng từ: trivially"
     ],
     "usphone": "ˈtrɪviəl",
     "ukphone": "ˈtrɪviəl"
@@ -5527,8 +5527,8 @@
   {
     "name": "animated",
     "trans": [
-      "adj. 活生生的；栩栩如生的生气勃勃的；活跃的；热烈的被赋予生命的；被赋予生命特征的(影片等)以动画形式制作的ad",
-      "v. 栩栩如生地；活跃地卡通片,动画片动画片,卡通片副 词:animatedly"
+      "adj. Sống động, sinh động; đầy sức sống, hoạt bát; nồng nhiệt; mang tính sống, được thổi hồn cho (phim ảnh); làm bằng kỹ thuật hoạt hình",
+      "v. Một cách sinh động, đầy sức sống; hoạt hình, phim hoạt hình; trạng từ: animatedly"
     ],
     "usphone": "ˈænɪmeɪtɪd",
     "ukphone": "ˈænɪmeɪtɪd"
@@ -5536,7 +5536,7 @@
   {
     "name": "magnanimous",
     "trans": [
-      "adj. 宽宏大量的,有雅量的"
+      "adj. Rộng lượng, bao dung; khiêm tốn, có dáng dấp"
     ],
     "usphone": "mæɡ'nænɪməs",
     "ukphone": "mæg'nænɪməs"
@@ -5544,7 +5544,7 @@
   {
     "name": "animosity",
     "trans": [
-      "n. 憎恨, 仇恨, 敌意"
+      "n. Thù hận; oán thù; thù địch, ác ý"
     ],
     "usphone": "ˌænɪˈmɑːsəti",
     "ukphone": "ˌænɪˈmɒsəti"
@@ -5552,7 +5552,7 @@
   {
     "name": "inanimate",
     "trans": [
-      "adj. 无生命的无生气的, 无精打采的, 单调的"
+      "adj. Vô sinh; hấp hối, thiếu sức sống; chán nản; đơn điệu, buồn tẻ"
     ],
     "usphone": "ɪnˈænɪmət",
     "ukphone": "ɪnˈænɪmət"
@@ -5560,10 +5560,10 @@
   {
     "name": "figurative",
     "trans": [
-      "adj. (用词上)形象的,比喻的ad",
-      "v. 形象地,比喻地",
-      "n. 比喻副 词:figuratively",
-      "名 词:figurativeness"
+      "adj. (Về cách dùng từ) hình tượng, cụ thể; ẩn dụ",
+      "v. Theo lối hình tượng; theo lối ẩn dụ",
+      "n. Hình ảnh, ẩn dụ; trạng từ: figuratively",
+      "Danh từ: figurativeness"
     ],
     "usphone": "'fɪgərətɪv",
     "ukphone": "'fɪg(ə)rətɪv"
@@ -5571,7 +5571,7 @@
   {
     "name": "effigy",
     "trans": [
-      "n. 雕像，肖像"
+      "n. Tượng; chân dung, tượng chân dung"
     ],
     "usphone": "'ɛfɪdʒi",
     "ukphone": "'efɪdʒɪ"
@@ -5579,7 +5579,7 @@
   {
     "name": "figment",
     "trans": [
-      "n. 虚构的事物臆造的事物；虛构的事"
+      "n. Điều hư cấu; điều bịa đặt; sự vật hư cấu"
     ],
     "usphone": "ˈfɪɡmənt",
     "ukphone": "ˈfɪɡmənt"
@@ -5587,7 +5587,7 @@
   {
     "name": "annuity",
     "trans": [
-      "n. 年金，养老金；年金享受权；年金保险"
+      "n. Lương hưu, bảo hiểm hưu trí; quyền hưởng lương hưu"
     ],
     "usphone": "ə'nuəti",
     "ukphone": "ə'njuːɪtɪ"
@@ -5595,7 +5595,7 @@
   {
     "name": "superannuated",
     "trans": [
-      "adj. 领取退休金而退休的落伍的;废弃的"
+      "adj. Đã về hưu, nhận lương hưu; lạc hậu, lỗi thời, bị bỏ hoang"
     ],
     "usphone": "ˌsuːpərˈænjueɪtɪd",
     "ukphone": "ˌsuːpərˈænjueɪtɪd"
@@ -5603,9 +5603,9 @@
   {
     "name": "millennium",
     "trans": [
-      "n. 一千年，千年期；千禧年，全人类未来的幸福时代，太平盛世",
-      "Millennium白蜜，大白圆粒(葡萄品种名)形容词:millennial",
-      "名 词:millennialist"
+      "n. Một nghìn năm, thế kỷ mối; thời đại hòa bình và thịnh vượng trong tương lai của toàn nhân loại",
+      "Millennium (nho tên trắng, tên tròn hạt lớn, giống nho); tính từ: millennial",
+      "Danh từ: millennialist"
     ],
     "usphone": "məˈlɛniəm",
     "ukphone": "mɪ'lenɪəm"
@@ -5613,8 +5613,8 @@
   {
     "name": "perennial",
     "trans": [
-      "adj. 经常出现的;长期的;持久的ad",
-      "v. 经常出现地;长期地;持久地副 词:perennially"
+      "adj. Thường xuyên xuất hiện; dài hạn; bền vững, lâu dài",
+      "v. Một cách thường xuyên; lâu dài, dài hạn; bền vững; trạng từ: perennially"
     ],
     "usphone": "pəˈreniəl",
     "ukphone": "pəˈreniəl"
@@ -5622,8 +5622,8 @@
   {
     "name": "coeval",
     "trans": [
-      "adj. 同时代的",
-      "n. 同时代的人"
+      "adj. Cùng thời, cùng thời đại",
+      "n. Người cùng thời đại"
     ],
     "usphone": "koʊˈiːvl",
     "ukphone": "kəʊˈiːvl"
@@ -5631,7 +5631,7 @@
   {
     "name": "longevity",
     "trans": [
-      "n. 长寿, 长命形容词:longevous"
+      "n. Sống lâu, sống thọ; tính từ: longevous"
     ],
     "usphone": "lɔːnˈdʒevəti",
     "ukphone": "lɒnˈdʒevəti"
@@ -5639,7 +5639,7 @@
   {
     "name": "medieval",
     "trans": [
-      "adj. 中古的, 中世纪的"
+      "adj. Thuộc thời Trung Cổ"
     ],
     "usphone": "ˌmediˈiːvl",
     "ukphone": "ˌmediˈiːvl"
@@ -5655,8 +5655,8 @@
   {
     "name": "corporeal",
     "trans": [
-      "adj. 肉体的, 身体的, 物质的名 词:corporeality",
-      "副 词:corporeally"
+      "adj. Thuộc về thể xác, về cơ thể; vật chất; danh từ: corporeality",
+      "Trạng từ: corporeally"
     ],
     "usphone": "kɔːrˈpɔːriəl",
     "ukphone": "kɔːˈpɔːriəl"
@@ -5664,7 +5664,7 @@
   {
     "name": "corpulent",
     "trans": [
-      "adj. (指人或人的身体)肥胖的"
+      "adj. (Nói về người hoặc cơ thể người) mập, béo"
     ],
     "usphone": "'kɔrpjələnt",
     "ukphone": "'kɔːpjʊl(ə)nt"
@@ -5672,9 +5672,9 @@
   {
     "name": "corporal",
     "trans": [
-      "adj. 肉体的，身体的",
-      "n. 下士名 词:corporality",
-      "副 词:corporally"
+      "adj. Thuộc về thể xác, về cơ thể",
+      "n. Hạ sĩ; danh từ: corporality",
+      "Trạng từ: corporally"
     ],
     "usphone": "ˈkɔːrpərəl",
     "ukphone": "ˈkɔːpərəl"
@@ -5682,11 +5682,11 @@
   {
     "name": "incorporate",
     "trans": [
-      "vt. 包含, 加上, 吸收把…合并, 使并入组成公司",
-      "时态:incorporated, incorporating, incorporates形容词:incorporable",
-      "名 词:incorporation",
-      "形容词:incorporative",
-      "名 词:incorporator"
+      "vt. Chứa đựng, bao gồm; thêm vào, cộng thêm; hấp thụ, tiếp nhận; sáp nhập, hợp nhất thành công ty",
+      "Thì: incorporated, incorporating, incorporates; tính từ: incorporable",
+      "Danh từ: incorporation",
+      "Tính từ: incorporative",
+      "Danh từ: incorporator"
     ],
     "usphone": "ɪnˈkɔːrpəreɪt",
     "ukphone": "ɪnˈkɔːpəreɪt"
@@ -5694,7 +5694,7 @@
   {
     "name": "tact",
     "trans": [
-      "n. （处事、言谈等的）老练，圆通，得体，乖巧TACTabbr. Transistor and Component Tester 晶体管和元件测试器"
+      "n. (Cách xử sự, cách ăn nói) khéo léo, duyên dáng, lịch sự, ngoan ngoãn; TACT viết tắt của Transistor and Component Tester, máy thử transistor và linh kiện"
     ],
     "usphone": "tækt",
     "ukphone": "tækt"
@@ -5702,7 +5702,7 @@
   {
     "name": "tactile",
     "trans": [
-      "adj. 触觉的，有触觉的；能触知的名 词:tactility"
+      "adj. Thuộc về xúc giác, có khả năng cảm giác; có thể nhận biết; danh từ: tactility"
     ],
     "usphone": "ˈtæktl",
     "ukphone": "ˈtæktaɪl"
@@ -5710,7 +5710,7 @@
   {
     "name": "tangential",
     "trans": [
-      "adj. 间接相关的；次要的；外围的；略为触及题目的漫射开去的，表现出分歧的(几何中的)切线的；正切的副 词:tangentially"
+      "adj. Liên quan gián tiếp; thứ yếu; ngoại vi; chỉ đề cập thoáng qua, đi lệch ra; (Hình học) tiếp tuyến; trạng từ: tangentially"
     ],
     "usphone": "tænˈdʒenʃl",
     "ukphone": "tænˈdʒenʃl"
@@ -5718,8 +5718,8 @@
   {
     "name": "tangible",
     "trans": [
-      "adj. 有形的；可触摸的；切实的",
-      "n. 有形资产副 词:tangibly"
+      "adj. Hữu hình; có thể sờ, chạm vào; cụ thể, thiết thực",
+      "n. Tài sản hữu hình; trạng từ: tangibly"
     ],
     "usphone": "ˈtændʒəbl",
     "ukphone": "ˈtændʒəbl"
@@ -5727,7 +5727,7 @@
   {
     "name": "codex",
     "trans": [
-      "n. 古抄本；[古]法典；[医]药典复 数: codices"
+      "n. Bản thảo cổ; [Cổ] Bộ luật; [Y] Dược điển; số nhiều: codices"
     ],
     "usphone": "'kodɛks",
     "ukphone": "'kəʊdeks"
@@ -5735,7 +5735,7 @@
   {
     "name": "codicil",
     "trans": [
-      "n. 遗嘱的附件形容词:codicillary"
+      "n. Phụ lục của di chúc; tính từ: codicillary"
     ],
     "usphone": "'kɑdəsl",
     "ukphone": "'kɒdɪsɪl"
@@ -5743,9 +5743,9 @@
   {
     "name": "codify",
     "trans": [
-      "vt. 把(法律)编成法典",
-      "时态:codified, codifying, codifies名 词:codification",
-      "名 词:codifier"
+      "vt. Gom (pháp luật) thành bộ luật, đưa vào bộ luật",
+      "Thì: codified, codifying, codifies; danh từ: codification",
+      "Danh từ: codifier"
     ],
     "usphone": "ˈkɑːdɪfaɪ",
     "ukphone": "ˈkəʊdɪfaɪ"
@@ -5753,9 +5753,9 @@
   {
     "name": "decode",
     "trans": [
-      "vt. 译码，解码",
-      "vi. 从事破译工作",
-      "时态:decoded, decoding, decodes名 词:decoder"
+      "vt. Giải mã",
+      "vi. Làm nghề giải mã, hoạt động phá mã",
+      "Thì: decoded, decoding, decodes; danh từ: decoder"
     ],
     "usphone": "'di'kod",
     "ukphone": "diː'kəʊd"
@@ -5763,9 +5763,9 @@
   {
     "name": "signify",
     "trans": [
-      "vt. 表示…的意思, 意味",
-      "时态:signified, signifying, signifies形容词:signifiable",
-      "名 词:signifier"
+      "vt. Có nghĩa là, mang ý nghĩa, ẩn ý",
+      "Thì: signified, signifying, signifies; tính từ: signifiable",
+      "Danh từ: signifier"
     ],
     "usphone": "ˈsɪɡnɪfaɪ",
     "ukphone": "ˈsɪɡnɪfaɪ"
@@ -5773,7 +5773,7 @@
   {
     "name": "insignia",
     "trans": [
-      "n. 证章,官职的标志(如肩章、领章等)"
+      "n. Huy hiệu, dấu hiệu chức vụ (như vai áo, cổ áo)"
     ],
     "usphone": "ɪnˈsɪɡniə",
     "ukphone": "ɪnˈsɪɡniə"
@@ -5781,7 +5781,7 @@
   {
     "name": "signatory",
     "trans": [
-      "n. 签字人, 签约国"
+      "n. Người ký tên; nước ký kết"
     ],
     "usphone": "'sɪgnə'tɔri",
     "ukphone": "'sɪgnət(ə)rɪ"
@@ -5789,9 +5789,9 @@
   {
     "name": "signet",
     "trans": [
-      "n. 图章；印",
-      "vt. 盖章于",
-      "时态:signeted, signeting, signets"
+      "n. Con dấu, ấn triện",
+      "vt. Đóng dấu lên, bấm dấu vào",
+      "Thì: signeted, signeting, signets"
     ],
     "usphone": "'sɪgnɪt",
     "ukphone": "'sɪgnɪt"
@@ -5799,7 +5799,7 @@
   {
     "name": "quadrant",
     "trans": [
-      "n. 象限；象限仪；四分之一圆"
+      "n. Góc phần tư; máy đo góc phần tư; một phần tư đường tròn"
     ],
     "usphone": "'kwɑdrənt",
     "ukphone": "'kwɒdr(ə)nt"
@@ -5807,7 +5807,7 @@
   {
     "name": "quadrille",
     "trans": [
-      "n. 四人用四十张纸牌玩的牌戏,四对方舞,四对方舞曲"
+      "n. Trò chơi bài bốn người với bộ bài 40 lá; điệu tứu của bốn đôi; nhạc điệu tứu"
     ],
     "usphone": "kwə'drɪl",
     "ukphone": "kwɒ'drɪl"
@@ -5815,8 +5815,8 @@
   {
     "name": "quadriplegic",
     "trans": [
-      "n. 四肢瘫痪者",
-      "adj. 四肢瘫痪的"
+      "n. Người bị liệt tứ chi",
+      "adj. Bị liệt tứ chi"
     ],
     "usphone": "ˌkwɑdrɪ'plidʒɪk",
     "ukphone": "ˌkwɑdrɪ'plidʒɪk"
@@ -5824,7 +5824,7 @@
   {
     "name": "quartile",
     "trans": [
-      "n. 四分位数"
+      "n. Phân vị tứ"
     ],
     "usphone": "'kwɔrtaɪl",
     "ukphone": "'kwɔːtaɪl"
@@ -5832,7 +5832,7 @@
   {
     "name": "tetracycline",
     "trans": [
-      "n. 四环素"
+      "n. Tetracycline"
     ],
     "usphone": "ˌtɛtrəˈsaɪˌklin",
     "ukphone": "ˌtetrə'saɪkliːn"
@@ -5840,7 +5840,7 @@
   {
     "name": "tetrahedron",
     "trans": [
-      "n. 四面体"
+      "n. Tứ diện"
     ],
     "usphone": "ˌtɛtrəˈhidrən",
     "ukphone": "ˌtetrə'hiːdrən"
@@ -5848,7 +5848,7 @@
   {
     "name": "tetralogy",
     "trans": [
-      "n. 四部曲,(古希腊)四联剧,四部剧"
+      "n. Bộ bốn tác phẩm; bộ bốn vở kịch (Hy Lạp cổ); tứ kịch"
     ],
     "usphone": "tɛˈtrælədʒi",
     "ukphone": "tɪ'trælədʒɪ"
@@ -5857,7 +5857,7 @@
     "name": "tetrapod",
     "trans": [
       "n.,",
-      "adj. 四足动物(的)名 词:tetrapod"
+      "adj. (Thuộc về) động vật bốn chân; danh từ: tetrapod"
     ],
     "usphone": "ˈtɛtrəˌpɑd",
     "ukphone": "'tetrəpɒd"
@@ -5865,7 +5865,7 @@
   {
     "name": "capitalism",
     "trans": [
-      "n. 资本主义(制度)资本(或财富)的拥有资本(私人占有和生产盈利)的支配地位"
+      "n. Chủ nghĩa tư bản; sự làm chủ tư bản (vốn hay của cải); quyền chi phối của tư bản (được tư nhân nắm giữ và sinh lời)"
     ],
     "usphone": "ˈkæpɪtəlɪzəm",
     "ukphone": "ˈkæpɪtəlɪzəm"
@@ -5873,8 +5873,8 @@
   {
     "name": "capitulate",
     "trans": [
-      "vi. 投降",
-      "时态:capitulated, capitulating, capitulates名 词:capitulant"
+      "vi. Đầu hàng, chịu thua",
+      "Thì: capitulated, capitulating, capitulates; danh từ: capitulant"
     ],
     "usphone": "kəˈpɪtʃuleɪt",
     "ukphone": "kəˈpɪtʃuleɪt"
@@ -5882,11 +5882,11 @@
   {
     "name": "decapitate",
     "trans": [
-      "vt. 杀头",
-      "n. 斩首,杀头",
-      "n. 刽子手",
-      "时态:decapitated, decapitating, decapitates名 词:decapitation",
-      "名 词:decapitator"
+      "vt. Chém đầu, xử tử hình",
+      "n. Chém đầu, tử hình",
+      "n. Lính hành quân",
+      "Thì: decapitated, decapitating, decapitates; danh từ: decapitation",
+      "Danh từ: decapitator"
     ],
     "usphone": "dɪ'kæpɪtet",
     "ukphone": "dɪ'kæpɪteɪt"
@@ -5894,8 +5894,8 @@
   {
     "name": "recapitulate",
     "trans": [
-      "vt. 总结,扼要重述",
-      "时态:recapitulated, recapitulating, recapitulates"
+      "vt. Tóm tắt, tóm lược, kể lại gọn",
+      "Thì: recapitulated, recapitulating, recapitulates"
     ],
     "usphone": "ˌriːkəˈpɪtʃuleɪt",
     "ukphone": "ˌriːkəˈpɪtʃuleɪt"
@@ -5903,8 +5903,8 @@
   {
     "name": "anthropoid",
     "trans": [
-      "adj. (猿)似人的(人)似猿的",
-      "n. 类人猿像猿的人"
+      "adj. (Khỉ) giống người; (Người) giống khỉ",
+      "n. Người như khỉ, khỉ như người"
     ],
     "usphone": "ˈænθrəˌpɔɪd",
     "ukphone": "'ænθrəpɒɪd"
@@ -5913,9 +5913,9 @@
     "name": "anthropology",
     "trans": [
       "n. nhân chủng học",
-      "n. 人类学家形容词:anthropological",
-      "副 词:anthropologically",
-      "名 词:anthropologist"
+      "n. Nhà nhân chủng học; tính từ: anthropological",
+      "Trạng từ: anthropologically",
+      "Danh từ: anthropologist"
     ],
     "usphone": "'ænθrə'pɑlədʒi",
     "ukphone": "ˌænθrə'pɒlədʒɪ"
@@ -5923,7 +5923,7 @@
   {
     "name": "misanthropic",
     "trans": [
-      "adj. 厌恶人类的,憎恶(或蔑视)世人的"
+      "adj. Ghét người, căm ghét loài người; khinh ghét, coi thường nhân loại"
     ],
     "usphone": "ˌmɪsən'θrɑpɪk",
     "ukphone": "mɪs(ə)n'θrɒpɪk"
@@ -5931,7 +5931,7 @@
   {
     "name": "lycanthropy",
     "trans": [
-      "n. (民间传说)把人化为狼的神通,变狼狂(一种精神病)"
+      "n. (Dân gian) phép biến người thành sói; chứng điên biến thành sói (một loại bệnh tâm thần)"
     ],
     "usphone": "laɪ'kænθrəpi",
     "ukphone": "laɪ'kænθrəpɪ"
@@ -5939,7 +5939,7 @@
   {
     "name": "kinesiology",
     "trans": [
-      "n. 运动机能学"
+      "n. Vận động học, kỹ năng vận động"
     ],
     "usphone": "kəˌnisiˈɑlədʒi",
     "ukphone": "kɪ,niːsɪ'ɒlədʒɪ"
@@ -5947,7 +5947,7 @@
   {
     "name": "hyperkinetic",
     "trans": [
-      "adj. 运动机能亢奋的,运动过度的"
+      "adj. Vận động quá mức, cử động quá nhiều"
     ],
     "usphone": "ˌhaɪpəkəˈnɛtɪk",
     "ukphone": "ˌhaipəkai'netik"
@@ -5955,9 +5955,9 @@
   {
     "name": "kinescope",
     "trans": [
-      "n. 〈主美〉(电视)显像管,电视屏幕纪录片",
-      "vt. (电视节目的录象) 电视节目录影",
-      "时态:kinescoped, kinescoping, kinescopes"
+      "n. (Chủ yếu tại Mỹ) màn hình truyền hình; phim tài liệu ghi hình màn hình",
+      "vt. Quay video chương trình truyền hình",
+      "Thì: kinescoped, kinescoping, kinescopes"
     ],
     "usphone": "'kɪnə'skop",
     "ukphone": "'kɪnɪskəʊp"
@@ -5965,7 +5965,7 @@
   {
     "name": "telekinesis",
     "trans": [
-      "n. 心灵促动,心灵遥感"
+      "n. Tâm linh; thần thông, tâm viễn"
     ],
     "usphone": "ˌtɛlɪkɪˈnisɪs",
     "ukphone": "ˌtelɪkaɪ'niːsɪs"
@@ -5973,7 +5973,7 @@
   {
     "name": "dynamo",
     "trans": [
-      "n. (尤指直流)发电机"
+      "n. Máy phát điện (nhất là loại một chiều)"
     ],
     "usphone": "'daɪnəmo",
     "ukphone": "'daɪnəməʊ"
@@ -5981,7 +5981,7 @@
   {
     "name": "aerodynamics",
     "trans": [
-      "n. 空气动力（特性）空气动力学名 词:aerodynamicist"
+      "n. Khí động lực (đặc tính); khí động học; danh từ: aerodynamicist"
     ],
     "usphone": "ˌerəʊdaɪˈnæmɪks",
     "ukphone": "ˌeərəʊdaɪˈnæmɪks"
@@ -5989,7 +5989,7 @@
   {
     "name": "hydrodynamic",
     "trans": [
-      "adj. 水力的副 词:hydrodynamically"
+      "adj. Thuộc về thủy lực, thuỷ động; trạng từ: hydrodynamically"
     ],
     "usphone": "ˌhaɪdrodaɪ'næmɪk",
     "ukphone": "ˌhaɪdrəʊdaɪ'næmɪk"
@@ -5997,7 +5997,7 @@
   {
     "name": "gradation",
     "trans": [
-      "n. (从一事物到另一事物的)渐变(事物划分的)阶段, 等级刻度形容词:gradational"
+      "n. Sự chuyển dần từ sự vật này sang sự vật khác; giai đoạn, bậc, cấp bậc; thang chia; tính từ: gradational"
     ],
     "usphone": "grə'deʃən",
     "ukphone": "grə'deɪʃ(ə)n"
@@ -6005,9 +6005,9 @@
   {
     "name": "degrade",
     "trans": [
-      "vt. 使……丢脸；使……降级；使……降解；贬低",
-      "vi. 退化；降级，降低",
-      "时态:degraded, degrading, degrades名 词:degrader"
+      "vt. Làm cho ... mất mặt; làm cho ... giảm cấp; làm cho ... suy thoái; hạ thấp, chê bác",
+      "vi. Suy thoái, thoái trào; giảm cấp, hạ cấp",
+      "Thì: degraded, degrading, degrades; danh từ: degrader"
     ],
     "usphone": "dɪˈɡreɪd",
     "ukphone": "dɪˈɡreɪd"
@@ -6015,7 +6015,7 @@
   {
     "name": "gradient",
     "trans": [
-      "n. 梯度；倾斜度；坡度",
+      "n. Gradient, chênh lệch; độ dốc; độ nghiêng",
       "adj. 倾斜的；步行的"
     ],
     "usphone": "'ɡredɪənt",
@@ -7701,7 +7701,7 @@
     "name": "proclaim",
     "trans": [
       "vt. 声明；宣告，公布；表明；赞扬",
-      "时态:proclaimed, proclaiming, proclaims形容词:proclamatory"
+      "thì động:proclaimed, proclaiming, proclaims tính từ:proclamatory"
     ],
     "usphone": "prəˈkleɪm",
     "ukphone": "prəˈkleɪm"
@@ -7717,7 +7717,7 @@
   {
     "name": "autocratic",
     "trans": [
-      "adj. 独裁的,专制的专横的"
+      "adj. độc tài, chuyên quyền, ngang tàng, cứng nhắc"
     ],
     "usphone": "ˌɔtə'krætɪk",
     "ukphone": "ˌɔ:təˈkrætɪk"
@@ -7725,10 +7725,10 @@
   {
     "name": "bureaucrat",
     "trans": [
-      "n. 官僚,官僚主义者,官僚作风的人",
-      "n. 官僚语言",
-      "n. 官僚主义",
-      "n. 官僚主义者形容词:bureaucratic"
+      "n. quan liêu, kẻ quan liêu chuyên môn, người mang tính quan liêu",
+      "n. quan liêu ngữ, tiếng quan liêu",
+      "n. quan liêu chủ nghĩa",
+      "n. người quan liêu chủ nghĩa tính từ:bureaucratic"
     ],
     "usphone": "ˈbjʊrəkræt",
     "ukphone": "ˈbjʊərəkræt"
@@ -7736,7 +7736,7 @@
   {
     "name": "plutocracy",
     "trans": [
-      "n. 富豪统治,财阀统治富豪〔财阀〕统治集团,富豪,财阀名 词:plutocrat"
+      "n. cai trị của giới phú gia, cai trị của giới tài phiệt; nhóm những kẻ cai trị phú gia hoặc tài phiệt, phú gia, tài phiệt danh từ:plutocrat"
     ],
     "usphone": "plu'tɑkrəsi",
     "ukphone": "pluː'tɒkrəsɪ"
@@ -7744,7 +7744,7 @@
   {
     "name": "punctilious",
     "trans": [
-      "adj. 拘礼的,拘谨的谨小慎微的,拘泥形式的"
+      "adj. lễ nhã, thận trọng, cẩn thận, cứng nhắc về nghi lễ"
     ],
     "usphone": "pʌŋkˈtɪliəs",
     "ukphone": "pʌŋkˈtɪliəs"
@@ -7752,8 +7752,8 @@
   {
     "name": "punctual",
     "trans": [
-      "adj. 准时的，守时的；精确的名 词:punctuality",
-      "副 词:punctually"
+      "adj. đúng giờ, giữ giờ; chính xác danh từ:punctuality",
+      "trạng từ:punctually"
     ],
     "usphone": "ˈpʌŋktʃuəl",
     "ukphone": "ˈpʌŋktʃuəl"
@@ -7761,7 +7761,7 @@
   {
     "name": "compunction",
     "trans": [
-      "n. 内疚, 后悔, 懊悔形容词:compunctious"
+      "n. hối hận, ăn năn, tiếc nuối tính từ:compunctious"
     ],
     "usphone": "kəmˈpʌŋkʃn",
     "ukphone": "kəmˈpʌŋkʃn"
@@ -7769,11 +7769,11 @@
   {
     "name": "acupuncture",
     "trans": [
-      "n. 针灸(疗法)",
-      "vt. 用针灸术治疗，用针刺法麻醉，对…施行针灸治疗",
-      "adj. 针灸(疗法)的",
-      "n. 针灸师",
-      "时态:acupunctured, acupuncturing, acupunctures名 词:acupuncturist"
+      "n. châm cứu",
+      "vt. điều trị bằng châm cứu, gây mê bằng kim châm, châm cứu cho ...",
+      "adj. thuộc về châm cứu",
+      "n. lương y châm cứu",
+      "thì động:acupunctured, acupuncturing, acupunctures danh từ:acupuncturist"
     ],
     "usphone": "ˈækjupʌŋktʃər",
     "ukphone": "ˈækjupʌŋktʃə(r)"
@@ -7781,8 +7781,8 @@
   {
     "name": "potential",
     "trans": [
-      "adj. 潜在的, 有可能的",
-      "n. 潜力；电位；电势；可能性副 词:potentially"
+      "adj. tiềm ẩn, có khả năng",
+      "n. tiềm năng; thế điện; khả năng trạng từ:potentially"
     ],
     "usphone": "pəˈtenʃl",
     "ukphone": "pəˈtenʃl"
@@ -7790,7 +7790,7 @@
   {
     "name": "impotent",
     "trans": [
-      "adj. 无力的；无效的；虚弱的；阳萎的"
+      "adj. vô lực; bất lực; yếu ớt; liệt dương"
     ],
     "usphone": "'ɪmpətənt",
     "ukphone": "'ɪmpət(ə)nt"
@@ -7798,8 +7798,8 @@
   {
     "name": "plenipotentiary",
     "trans": [
-      "n. 全权大使,全权代表",
-      "adj. 全权大使的,全权代表的"
+      "n. đại sứ toàn quyền, đại diện toàn quyền",
+      "adj. thuộc về đại sứ toàn quyền, thuộc về đại diện toàn quyền"
     ],
     "usphone": "'plɛnəpə'tɛnʃəri",
     "ukphone": "ˌplenɪpə'tenʃ(ə)rɪ"
@@ -7807,7 +7807,7 @@
   {
     "name": "potentate",
     "trans": [
-      "n. 君主,统治者有权势的人"
+      "n. quân chủ, người cai trị, kẻ nắm quyền lực"
     ],
     "usphone": "ˈpoʊtnteɪt",
     "ukphone": "ˈpəʊtnteɪt"
@@ -7815,7 +7815,7 @@
   {
     "name": "ambrosia",
     "trans": [
-      "n. (希腊罗马神话中)神仙的食物美味食品"
+      "n. món ăn của thần tiên (trong thần thoại Hy Lạp, La Mã), món ngon"
     ],
     "usphone": "æm'brozɪə",
     "ukphone": "æm'brəʊzɪə"
@@ -7823,7 +7823,7 @@
   {
     "name": "dogma",
     "trans": [
-      "n. 教条，教理；武断的意见"
+      "n. giáo điều, giáo lý; ý kiến độc đoán"
     ],
     "usphone": "ˈdɔːɡmə",
     "ukphone": "ˈdɒɡmə"
@@ -7832,7 +7832,7 @@
     "name": "gratis",
     "trans": [
       "ad",
-      "v. 免费地",
+      "v. miễn phí, không mất tiền",
       "adj. miễn phí"
     ],
     "usphone": "ˈɡrætɪs",
@@ -7841,7 +7841,7 @@
   {
     "name": "eureka",
     "trans": [
-      "int. 有了！；找到了！Eureka“尤利卡”高电阻镍铜合金"
+      "int. Eureka! Tìm ra rồi! Eureka là hợp kim niken-copper có điện trở cao"
     ],
     "usphone": "jʊ'rikə",
     "ukphone": "ˌjʊ(ə)'riːkə"
@@ -7849,7 +7849,7 @@
   {
     "name": "per se",
     "trans": [
-      "本身，本质上：表示某事物本身，独立于其他相关事物的意思。"
+      "bản thân, bản chất: chỉ sự vật tự thân nó, độc lập với những sự vật liên quan khác."
     ],
     "usphone": "ˌpɜːr ˈseɪ",
     "ukphone": "ˌpɜː ˈseɪ"
@@ -7857,7 +7857,7 @@
   {
     "name": "opus",
     "trans": [
-      "n. 作品复 数: opera"
+      "n. tác phẩm số nhiều: opera"
     ],
     "usphone": "'opəs",
     "ukphone": "'əʊpəs"
@@ -7865,7 +7865,7 @@
   {
     "name": "impetus",
     "trans": [
-      "n. 促进；动力；冲力"
+      "n. thúc đẩy; động lực; xung lực"
     ],
     "usphone": "ˈɪmpɪtəs",
     "ukphone": "ˈɪmpɪtəs"
@@ -7881,9 +7881,9 @@
   {
     "name": "mandate",
     "trans": [
-      "n. (选民对选出的代表、议会等的)授权(上级官员对下级官员下达的)正式命令",
-      "vt. 将(某地)委托某国管理授权(某人)根据委托统治权(做某事)",
-      "时态:mandated, mandating, mandates名 词:mandator"
+      "n. sự trao quyền (cử tri giao cho đại biểu, quốc hội...), mệnh lệnh chính thức (cấp trên giao cho cấp dưới)",
+      "vt. ủy thác (nơi này) cho một nước quản lý, trao quyền cho (người) theo quyền ủy thác để (làm việc gì)",
+      "thì động:mandated, mandating, mandates danh từ:mandator"
     ],
     "usphone": "ˈmændeɪt",
     "ukphone": "ˈmændeɪt"
@@ -7891,8 +7891,8 @@
   {
     "name": "commandeer",
     "trans": [
-      "vt. 征用强占",
-      "时态:commandeered, commandeering, commandeers"
+      "vt. trưng dụng, cưỡng chiếm",
+      "thì động:commandeered, commandeering, commandeers"
     ],
     "usphone": "ˌkɑmən'dɪr",
     "ukphone": "ˌkɒmən'dɪə"
@@ -7900,9 +7900,9 @@
   {
     "name": "remand",
     "trans": [
-      "n. 还押；送还，遣回",
-      "vt. 还押，还押候审；遣回",
-      "时态:remanded, remanding, remands名 词:remand"
+      "n. trả lại tạm giam; gửi trả, đày về",
+      "vt. trả lại tạm giam, gửi lại để xét xử; đày về",
+      "thì động:remanded, remanding, remands danh từ:remand"
     ],
     "usphone": "rɪˈmænd",
     "ukphone": "rɪˈmɑːnd"
@@ -7910,7 +7910,7 @@
   {
     "name": "undulant",
     "trans": [
-      "adj. 波状的；起伏的，波浪形的"
+      "adj. gợn sóng; nhấp nhô, có hình sóng"
     ],
     "usphone": "ˈʌndʒələnt",
     "ukphone": "'ʌndjʊl(ə)nt"
@@ -7918,10 +7918,10 @@
   {
     "name": "inundate",
     "trans": [
-      "vt. 泛滥；淹没；浸水；（洪水般的）扑来",
-      "时态:inundated, inundating, inundates名 词:inundation",
-      "名 词:inundator",
-      "形容词:inundatory"
+      "vt. tràn ngập; nhấn chìm; ngập nước; ập tới như thủy lũ",
+      "thì động:inundated, inundating, inundates danh từ:inundation",
+      "danh từ:inundator",
+      "tính từ:inundatory"
     ],
     "usphone": "ˈɪnʌndeɪt",
     "ukphone": "ˈɪnʌndeɪt"
@@ -7929,8 +7929,8 @@
   {
     "name": "redound",
     "trans": [
-      "vt. & vi. 有助益,及于报偿,报应",
-      "时态:redounded, redounding, redounds"
+      "vt. & vi. có ích, mang lại lợi ích, báo ứng",
+      "thì động:redounded, redounding, redounds"
     ],
     "usphone": "rɪ'daʊnd",
     "ukphone": "rɪ'daʊnd"
@@ -7938,7 +7938,7 @@
   {
     "name": "redundancy",
     "trans": [
-      "n. 失业，被解雇，裁员，被裁减（尤指词、短语等的）多余，累赘，啰唆复置装置，冗余（机器、系统等某部件发生故障后的替代装置）"
+      "n. thất nghiệp, bị sa thải, bị cắt giảm nhân sự; thừa, rườm rà (đặc biệt với từ, cụm từ); thiết bị dự phòng, thiết bị thay thế (khi một bộ phận của máy móc, hệ thống bị hỏng)"
     ],
     "usphone": "rɪˈdʌndənsi",
     "ukphone": "rɪˈdʌndənsi"
@@ -7948,7 +7948,7 @@
     "trans": [
       "n. trừng phạt; xử phạt; chấp thuận; hỗ trợ",
       "vt. trừng phạt; xử phạt; phê duyệt; khuyến khích",
-      "时态:sanctioned, sanctioning, sanctions"
+      "thì động:sanctioned, sanctioning, sanctions"
     ],
     "usphone": "ˈsæŋkʃn",
     "ukphone": "ˈsæŋkʃn"
@@ -7956,7 +7956,7 @@
   {
     "name": "sanctimonious",
     "trans": [
-      "adj. 假装圣洁的"
+      "adj. giả vờ thánh thiện"
     ],
     "usphone": "ˌsæŋktɪˈmoʊniəs",
     "ukphone": "ˌsæŋktɪˈməʊniəs"
@@ -7964,7 +7964,7 @@
   {
     "name": "sacrosanct",
     "trans": [
-      "adj. 极其神圣的；不可侵犯的名 词:sacrosanctity"
+      "adj. cực kỳ thiêng liêng; bất khả xâm phạm danh từ:sacrosanctity"
     ],
     "usphone": "'sækrosæŋkt",
     "ukphone": "'sækrə(ʊ)sæŋ(k)t"
@@ -7972,7 +7972,7 @@
   {
     "name": "sanctuary",
     "trans": [
-      "n. 圣所, 圣地圣堂庇护所庇护, 庇护权避难所禁猎区, 鸟兽类保护区"
+      "n. thánh điện, đất thiêng, nhà thờ; nơi trú ẩn, quyền che chở; nơi tị nạn; khu bảo tồn hoang dã"
     ],
     "usphone": "ˈsæŋktʃueri",
     "ukphone": "ˈsæŋktʃuəri"
@@ -7980,7 +7980,7 @@
   {
     "name": "colloquium",
     "trans": [
-      "n. 讨论会;学术报告会"
+      "n. hội nghị thảo luận; hội thảo khoa học"
     ],
     "usphone": "kə'lokwɪəm",
     "ukphone": "kə'ləʊkwɪəm"
@@ -7988,7 +7988,7 @@
   {
     "name": "soliloquy",
     "trans": [
-      "n. 自言自语 (戏剧中的)独白复 数: soliloquies"
+      "n. lời nói một mình, độc thoại (trong kịch) số nhiều: soliloquies"
     ],
     "usphone": "səˈlɪləkwi",
     "ukphone": "səˈlɪləkwi"
@@ -7996,8 +7996,8 @@
   {
     "name": "colloquial",
     "trans": [
-      "adj. 口语的, 会话的名 词:colloquial",
-      "副 词:colloquially"
+      "adj. thông tục, khẩu ngữ danh từ:colloquial",
+      "trạng từ:colloquially"
     ],
     "usphone": "kəˈloʊkwiəl",
     "ukphone": "kəˈləʊkwiəl"
@@ -8005,7 +8005,7 @@
   {
     "name": "loquacious",
     "trans": [
-      "adj. 爱说话的,多嘴的"
+      "adj. hay nói, nhiều chuyện"
     ],
     "usphone": "lə'kweʃəs",
     "ukphone": "lə'kweɪʃəs"
@@ -8013,7 +8013,7 @@
   {
     "name": "virility",
     "trans": [
-      "n. 男子气；男子特点；生殖力"
+      "n. khí phái mạnh; đặc tính nam giới; khả năng sinh sản"
     ],
     "usphone": "vəˈrɪləti",
     "ukphone": "vəˈrɪləti"
@@ -8021,7 +8021,7 @@
   {
     "name": "triumvirate",
     "trans": [
-      "n. 三人执政,三头政治,三头统治,三人执政的政治"
+      "n. chế độ ba đầu, chính trị ba đầu, chính quyền ba đầu"
     ],
     "usphone": "traɪ'ʌmvɪret",
     "ukphone": "traɪ'ʌmvɪrət"
@@ -8029,7 +8029,7 @@
   {
     "name": "virago",
     "trans": [
-      "n. 泼妇；悍妇；[古]有男子气概的女子"
+      "n. người đàn bà hung hăng; người đàn bà mạnh mẽ; [cổ] người đàn bà có khí phái"
     ],
     "usphone": "vəˈrɑɡo",
     "ukphone": "vɪ'rɑːgəʊ"
@@ -8037,7 +8037,7 @@
   {
     "name": "virtuosity",
     "trans": [
-      "n. (在美术、音乐等方面的)精湛技艺对艺术品(或古董等)的爱好(总称)艺术爱好者;古董收藏家"
+      "n. tài năng tinh tế (trong hội họa, âm nhạc...); tình yêu nghệ thuật (chung); người yêu nghệ thuật; người sưu tầm cổ vật"
     ],
     "usphone": "ˌvɜːrtʃuˈɑːsəti",
     "ukphone": "ˌvɜːtʃuˈɒsəti"
@@ -8045,7 +8045,7 @@
   {
     "name": "valor",
     "trans": [
-      "n. 英勇；勇猛（等于valour）"
+      "n. dũng cảm; dũng mãnh (tương đương valour)"
     ],
     "usphone": "ˈvælɚ",
     "ukphone": "'vælə"
@@ -8053,8 +8053,8 @@
   {
     "name": "equivalent",
     "trans": [
-      "adj.等同的，等效的",
-      "n. 对等的人（或事物），对应的人（或事物）"
+      "adj. tương đương, có hiệu lực ngang nhau",
+      "n. người (hoặc sự vật) tương đương, người (hoặc sự vật) đối ứng"
     ],
     "usphone": "ɪˈkwɪvələnt",
     "ukphone": "ɪˈkwɪvələnt"
@@ -8062,7 +8062,7 @@
   {
     "name": "prevalent",
     "trans": [
-      "adj. 普遍的, 盛行的, 流行的"
+      "adj. phổ biến, thịnh hành, được ưa chuộng"
     ],
     "usphone": "ˈprevələnt",
     "ukphone": "ˈprevələnt"
@@ -8070,8 +8070,8 @@
   {
     "name": "validate",
     "trans": [
-      "vt. 确认；使生效；证实，验证",
-      "时态:validated, validating, validates名 词:validation"
+      "vt. xác nhận; làm có hiệu lực; chứng minh, xác minh",
+      "thì động:validated, validating, validates danh từ:validation"
     ],
     "usphone": "ˈvælɪdeɪt",
     "ukphone": "ˈvælɪdeɪt"
@@ -8079,9 +8079,9 @@
   {
     "name": "crescent",
     "trans": [
-      "n. 新月；新月状物；伊斯兰教的标记；土耳其的新月形国徽",
-      "adj. 新月形的；逐渐增加的",
-      "vt. 以新月形物装饰；使成新月形形容词:crescentic"
+      "n. trăng lưỡi liềm; vật hình lưỡi liềm; biểu tượng của đạo Hồi giáo; quốc hiệu hình lưỡi liềm của Thổ Nhĩ Kỳ",
+      "adj. hình lưỡi liềm; tăng dần",
+      "vt. trang trí bằng vật hình lưỡi liềm; làm thành hình lưỡi liềm tính từ:crescentic"
     ],
     "usphone": "'krɛsnt",
     "ukphone": "'kresənt"
@@ -8089,7 +8089,7 @@
   {
     "name": "accretion",
     "trans": [
-      "n. 堆积,积累添加生长，自然增长增加部分；附加增加的结果，积成的整体连生；合生；共生粘连冲积层吸积添附(指土地的自然增长)；(因共同继承人或受遗赠人放弃而)多分得的遗产"
+      "n. tích tụ, tích lũy; bổ sung, thêm vào; tăng trưởng, tăng tự nhiên; phần tăng thêm; kết quả của sự tăng thêm, toàn bộ được tích lại; liên sinh, cộng sinh, dính; lớp trầm tích; hấp tụ, bám; sự tăng thêm (do đất tăng tự nhiên); phần thừa kế thêm được (vì người thừa kế chung hoặc người thừa kế di sản từ chối)"
     ],
     "usphone": "ə'kriʃən",
     "ukphone": "ə'kriːʃ(ə)n"
@@ -8097,7 +8097,7 @@
   {
     "name": "excrescence",
     "trans": [
-      "n. 瘤,赘生物"
+      "n. khối u, mô phát triển bất thường"
     ],
     "usphone": "ɪk'skrɛsns",
     "ukphone": "ɪk'skres(ə)ns"
@@ -8105,7 +8105,7 @@
   {
     "name": "increment",
     "trans": [
-      "n. 增长增额形容词:incremental"
+      "n. sự tăng trưởng, phần tăng thêm tính từ:incremental"
     ],
     "usphone": "ˈɪŋkrəmənt",
     "ukphone": "ˈɪŋkrəmənt"
@@ -8113,7 +8113,7 @@
   {
     "name": "transfusion",
     "trans": [
-      "n. 输血；输液倾注，灌输；渗透形容词:transfusional"
+      "n. truyền máu; truyền dịch; rót vào, thấm nhuần; sự thấm qua tính từ:transfusional"
     ],
     "usphone": "trænz'fjʊʒən",
     "ukphone": "træns'fjuːʒ(ə)n"
@@ -8121,8 +8121,8 @@
   {
     "name": "effusive",
     "trans": [
-      "adj. 流出的；感情横溢的副 词:effusively",
-      "名 词:effusiveness"
+      "adj. tràn ra; xúc cảm bộc lộ trạng từ:effusively",
+      "danh từ:effusiveness"
     ],
     "usphone": "ɪ'fjusɪv",
     "ukphone": "ɪ'fjuːsɪv"
@@ -8130,7 +8130,7 @@
   {
     "name": "profusion",
     "trans": [
-      "n. 大量,丰富,充沛"
+      "n. phong phú, dồi dào"
     ],
     "usphone": "prə'fjuʒn",
     "ukphone": "prə'fjuːʒ(ə)n"
@@ -8138,9 +8138,9 @@
   {
     "name": "suffuse",
     "trans": [
-      "vt. 充满；弥漫",
-      "时态:suffused, suffusing, suffuses名 词:suffusion",
-      "形容词:suffusive"
+      "vt. tràn đầy; lan tỏa, phủ khắp",
+      "thì động:suffused, suffusing, suffuses danh từ:suffusion",
+      "tính từ:suffusive"
     ],
     "usphone": "sə'fjuz",
     "ukphone": "sə'fjuːz"
@@ -8148,7 +8148,7 @@
   {
     "name": "apologia",
     "trans": [
-      "n. 辩解书；辩解文；辩解"
+      "n. văn bản bào chữa; lời biện minh; sự biện minh"
     ],
     "usphone": "ˌæpə'lodʒɪə",
     "ukphone": "ˌæpə'ləʊdʒɪə"
@@ -8156,7 +8156,7 @@
   {
     "name": "atrium",
     "trans": [
-      "n. [医]心房；[建]中庭，天井前厅形容词:atrial"
+      "n. [y] tâm nhĩ; [xây dựng] sân trung, hành lang trước tính từ:atrial"
     ],
     "usphone": "'etrɪəm",
     "ukphone": "'eɪtrɪəm"
@@ -8164,7 +8164,7 @@
   {
     "name": "oligarchy",
     "trans": [
-      "n. 寡头统治的政府寡头政治的执政集团寡头统治的国家"
+      "n. chính quyền dưới quyền thiểu số ông quý; nhóm cai trị thiểu số; nước chịu cai trị của thiểu số ông quý"
     ],
     "usphone": "'ɑlə'gɑrki",
     "ukphone": "'ɒlɪgɑːkɪ"
@@ -8172,7 +8172,7 @@
   {
     "name": "encomium",
     "trans": [
-      "n. 赞辞；赞美，称赞"
+      "n. lời khen; sự ca ngợi, lời tán dương"
     ],
     "usphone": "ɛn'komɪəm",
     "ukphone": "en'kəʊmɪəm"
@@ -8180,7 +8180,7 @@
   {
     "name": "neurosis",
     "trans": [
-      "n. 神经症；神经衰弱症"
+      "n. thần kinh; suy nhược thần kinh"
     ],
     "usphone": "nʊˈroʊsɪs",
     "ukphone": "njʊəˈrəʊsɪs"
@@ -8188,7 +8188,7 @@
   {
     "name": "opprobrium",
     "trans": [
-      "n. 耻辱;羞辱"
+      "n. nhục nhã; sỉ nhục"
     ],
     "usphone": "ə'probrɪəm",
     "ukphone": "ə'prəʊbrɪəm"
@@ -8204,7 +8204,7 @@
   {
     "name": "ultimatum",
     "trans": [
-      "n. 最后通牒；最后结论；基本原理"
+      "n. tối hậu thư; kết luận cuối cùng; nguyên lý cơ bản"
     ],
     "usphone": "ˌʌltɪˈmeɪtəm",
     "ukphone": "ˌʌltɪˈmeɪtəm"
@@ -8212,7 +8212,7 @@
   {
     "name": "verbose",
     "trans": [
-      "adj. 冗长的；啰嗦的副 词:verbosely"
+      "adj. dài dòng; rườm rà, nói nhiều trạng từ:verbosely"
     ],
     "usphone": "vɜːrˈboʊs",
     "ukphone": "vɜːˈbəʊs"
@@ -8220,7 +8220,7 @@
   {
     "name": "proverb",
     "trans": [
-      "n. 谚语，格言；众所周知的人或事"
+      "n. tục ngữ, ngạn ngữ; người hoặc việc ai cũng biết"
     ],
     "usphone": "ˈprɑːvɜːrb",
     "ukphone": "ˈprɒvɜːb"
@@ -8229,8 +8229,8 @@
     "name": "verbatim",
     "trans": [
       "adj. & ad",
-      "v. (完全)照字面的(地),逐字的(地)",
-      "n. 逐字翻译"
+      "v. (hoàn toàn) theo nghĩa đen, từng chữ một",
+      "n. bản dịch từng chữ, dịch chữ"
     ],
     "usphone": "vɜːrˈbeɪtɪm",
     "ukphone": "vɜːˈbeɪtɪm"
@@ -8238,7 +8238,7 @@
   {
     "name": "verbiage",
     "trans": [
-      "n. 冗词；废话；措辞方式"
+      "n. từ thừa; lời vô nghĩa; cách diễn đạt"
     ],
     "usphone": "ˈvɜːrbiɪdʒ",
     "ukphone": "ˈvɜːbiɪdʒ"
@@ -8246,7 +8246,7 @@
   {
     "name": "simile",
     "trans": [
-      "n. (使用like或as等词语的)明喻"
+      "n. ẩn dụ so sánh (dùng các từ như like, as)"
     ],
     "usphone": "ˈsɪməli",
     "ukphone": "ˈsɪməli"
@@ -8254,8 +8254,8 @@
   {
     "name": "assimilate",
     "trans": [
-      "vt. & vi. 吸收, 消化同化",
-      "时态:assimilated, assimilating, assimilates名 词:assimilator"
+      "vt. & vi. hấp thụ, tiêu hóa; đồng hóa",
+      "thì động:assimilated, assimilating, assimilates danh từ:assimilator"
     ],
     "usphone": "əˈsɪməleɪt",
     "ukphone": "əˈsɪməleɪt"
@@ -8263,7 +8263,7 @@
   {
     "name": "simulacrum",
     "trans": [
-      "n. 像,影,幻影,模拟物,假的东西"
+      "n. hình ảnh, bóng, ảo ảnh, vật mô phỏng, thứ giả"
     ],
     "usphone": "ˌsɪmju'lekrəm",
     "ukphone": "ˌsɪmjʊ'leɪkrəm"
@@ -8273,7 +8273,7 @@
     "trans": [
       "vt. Bắt chước; giả vờ; mạo danh",
       "adj. Bắt chước; giả vờ",
-      "时态:simulated, simulating, simulates形容词:simulative"
+      "thì động:simulated, simulating, simulates tính từ:simulative"
     ],
     "usphone": "ˈsɪmjuleɪt",
     "ukphone": "ˈsɪmjuleɪt"
@@ -8281,8 +8281,8 @@
   {
     "name": "transcend",
     "trans": [
-      "vt. 超出或超越(经验、信念、描写能力等)的范围优于或胜过…",
-      "时态:transcended, transcending, transcends"
+      "vt. vượt quá phạm vi (của kinh nghiệm, niềm tin, khả năng miêu tả...); vượt trội hơn, hơn hẳn ...",
+      "thì động:transcended, transcending, transcends"
     ],
     "usphone": "trænˈsend",
     "ukphone": "trænˈsend"
@@ -8290,8 +8290,8 @@
   {
     "name": "condescend",
     "trans": [
-      "vi. 屈尊, 俯就故意表示和蔼可亲",
-      "时态:condescended, condescending, condescends"
+      "vi. hạ mình, khiêm nhường; cố tình tỏ ra thân thiện",
+      "thì động:condescended, condescending, condescends"
     ],
     "usphone": "ˌkɑːndɪˈsend",
     "ukphone": "ˌkɒndɪˈsend"
@@ -8299,7 +8299,7 @@
   {
     "name": "descendant",
     "trans": [
-      "n. 后代, 后裔"
+      "n. hậu duệ, con cháu"
     ],
     "usphone": "dɪˈsendənt",
     "ukphone": "dɪˈsendənt"
@@ -8307,7 +8307,7 @@
   {
     "name": "ascendancy",
     "trans": [
-      "n. 优势；支配地位"
+      "n. ưu thế; vị thế chế ngự"
     ],
     "usphone": "ə'sɛndənsi",
     "ukphone": "ə'send(ə)nsɪ"
@@ -8315,8 +8315,8 @@
   {
     "name": "antonym",
     "trans": [
-      "n. [语]反义词形容词:antonymous",
-      "名 词:antonymy"
+      "n. [ngôn ngữ] từ trái nghĩa tính từ:antonymous",
+      "danh từ:antonymy"
     ],
     "usphone": "ˈæntənɪm",
     "ukphone": "ˈæntənɪm"
@@ -8324,7 +8324,7 @@
   {
     "name": "eponymous",
     "trans": [
-      "adj. 齐名的"
+      "adj. ngang hàng, sánh ngang danh dự"
     ],
     "usphone": "ɪ'pɑnɪməs",
     "ukphone": "iˈpɔniməs"
@@ -8332,8 +8332,8 @@
   {
     "name": "patronymic",
     "trans": [
-      "adj. 取自教父名的",
-      "n. 源于父名的姓或名字"
+      "adj. lấy từ tên cha",
+      "n. họ hoặc tên lấy từ tên cha"
     ],
     "usphone": "ˌpætrəˈnɪmɪk",
     "ukphone": "ˌpætrə'nɪmɪk"
@@ -8341,7 +8341,7 @@
   {
     "name": "pseudonym",
     "trans": [
-      "n. 假名；笔名形容词:pseudonymous"
+      "n. tên giả, bút danh tính từ:pseudonymous"
     ],
     "usphone": "ˈsuːdənɪm",
     "ukphone": "ˈsuːdənɪm"
@@ -8349,7 +8349,7 @@
   {
     "name": "conscription",
     "trans": [
-      "n. 征兵"
+      "n. trưng binh, tuyển quân"
     ],
     "usphone": "kən'skrɪpʃən",
     "ukphone": "kənˈskrɪpʃən"
@@ -8357,8 +8357,8 @@
   {
     "name": "circumscribe",
     "trans": [
-      "vt. 在…周围划线划定…范围；限制，限定",
-      "时态:circumscribed，circumscribing，circumscribes"
+      "vt. vạch ranh giới xung quanh ..., xác định phạm vi; giới hạn, hạn chế",
+      "thì động:circumscribed, circumscribing, circumscribes"
     ],
     "usphone": "ˈsɜːrkəmskraɪb",
     "ukphone": "ˈsɜːkəmskraɪb"
@@ -8366,7 +8366,7 @@
   {
     "name": "inscription",
     "trans": [
-      "n. (作者)题词, 献词"
+      "n. lời hiếu chương (của tác giả), lời tặng"
     ],
     "usphone": "ɪn'skrɪpʃən",
     "ukphone": "ɪn'skrɪpʃ(ə)n"
@@ -8374,8 +8374,8 @@
   {
     "name": "proscribe",
     "trans": [
-      "vt. 正式宣布(某事物)有危险或被禁止",
-      "时态:proscribed, proscribing, proscribes"
+      "vt. chính thức tuyên bố (một việc) là nguy hiểm hoặc bị cấm",
+      "thì động:proscribed, proscribing, proscribes"
     ],
     "usphone": "proʊˈskraɪb",
     "ukphone": "prəˈskraɪb"
@@ -8391,7 +8391,7 @@
   {
     "name": "fallacious",
     "trans": [
-      "adj. 谬误的;虚妄的;欺骗的;靠不住的; 不合逻辑的;令人失望的副 词:fallaciously"
+      "adj. sai lầm; hư ảo; lừa dối; không đáng tin; phi lý trí; gây thất vọng trạng từ:fallaciously"
     ],
     "usphone": "fəˈleɪʃəs",
     "ukphone": "fəˈleɪʃəs"
@@ -8399,7 +8399,7 @@
   {
     "name": "fallibility",
     "trans": [
-      "n. 易错,不可靠,易误"
+      "n. dễ sai, không đáng tin, dễ nhầm"
     ],
     "usphone": "ˌfæləˈbɪləti",
     "ukphone": "ˌfæləˈbɪləti"
@@ -8407,7 +8407,7 @@
   {
     "name": "infallible",
     "trans": [
-      "adj. 不会犯错误的，无过失的极准确的，极精确的绝对可靠的；万无一失的；永远有效的副 词:infallibly"
+      "adj. không bao giờ sai, không có lỗi lầm; cực kỳ chính xác, cực kỳ chuẩn xác; tuyệt đối đáng tin; không thể sai; luôn có hiệu lực trạng từ:infallibly"
     ],
     "usphone": "ɪn'fæləbl",
     "ukphone": "ɪn'fælɪb(ə)l"
@@ -8415,7 +8415,7 @@
   {
     "name": "soluble",
     "trans": [
-      "adj. 可溶的，可溶解的；可解决的名 词:solubleness"
+      "adj. có thể tan, có thể hòa tan; có thể giải quyết được danh từ:solubleness"
     ],
     "usphone": "'sɑljəbl",
     "ukphone": "'sɒljʊb(ə)l"
@@ -8423,7 +8423,7 @@
   {
     "name": "absolution",
     "trans": [
-      "n. 宽恕；赦罪(誓言、诺言或责任的)免除，解除"
+      "n. sự tha thứ; sự xá tội; sự miễn trừ, giải bỏ (lời thề, lời hứa hoặc trách nhiệm)"
     ],
     "usphone": "ˌæbsə'luʃən",
     "ukphone": "æbsə'luːʃ(ə)n"
@@ -8431,7 +8431,7 @@
   {
     "name": "dissolution",
     "trans": [
-      "n. (社团等)解散；(婚约等的)解除分散；溶解衰败；死亡，消亡 离婚"
+      "n. sự giải thể (tổ chức...); sự chấm dứt (hôn ước...); sự phân tán, giải pha; sự suy tàn; cái chết, sự tuyệt tích; ly hôn"
     ],
     "usphone": "ˌdɪsə'luʃən",
     "ukphone": "dɪsə'luːʃ(ə)n"
@@ -8439,8 +8439,8 @@
   {
     "name": "resolute",
     "trans": [
-      "adj. 坚决的；果断的副 词:resolutely",
-      "名 词:resoluteness"
+      "adj. kiên quyết, dứt khoát trạng từ:resolutely",
+      "danh từ:resoluteness"
     ],
     "usphone": "'rɛzəlut",
     "ukphone": "'rezəluːt"
@@ -8448,7 +8448,7 @@
   {
     "name": "hydraulic",
     "trans": [
-      "adj. 液力的,液压的,水力学的"
+      "adj. thủy lực, thuỷ động lực"
     ],
     "usphone": "haɪ'drɔlɪk",
     "ukphone": "haɪ'drɔːlɪk"
@@ -8456,9 +8456,9 @@
   {
     "name": "dehydrate",
     "trans": [
-      "vt. 使脱水, 使干燥",
-      "vi. (人体的)脱水, 失水",
-      "时态:dehydrated, dehydrating, dehydrates名 词:dehydrator"
+      "vt. làm mất nước, làm khô",
+      "vi. mất nước, thoát nước (cơ thể người)",
+      "thì động:dehydrated, dehydrating, dehydrates danh từ:dehydrator"
     ],
     "usphone": "diːˈhaɪdreɪt",
     "ukphone": "ˌdiːhaɪˈdreɪt"
@@ -8466,7 +8466,7 @@
   {
     "name": "hydroelectric",
     "trans": [
-      "adj. 水力发电的名 词:hydroelectricity"
+      "adj. thủy điện danh từ:hydroelectricity"
     ],
     "usphone": "ˌhaɪdroɪ'lɛktrɪk",
     "ukphone": "haɪdrəʊɪ'lektrɪk"
@@ -8474,7 +8474,7 @@
   {
     "name": "hydroponics",
     "trans": [
-      "n. 水耕法,水栽培形容词:hydroponic"
+      "n. kỹ thuật thủy canh, nuôi trồng thủy canh tính từ:hydroponic"
     ],
     "usphone": "ˌhaɪdrə'pɑnɪks",
     "ukphone": "ˌhaɪdrə(ʊ)'pɒnɪks"
@@ -8482,7 +8482,7 @@
   {
     "name": "aegis",
     "trans": [
-      "n. 保护；庇护支持，赞助；主办在…的支持下，在…的保护下由…主办，由…发起"
+      "n. sự bảo vệ; sự che chở; sự hỗ trợ, tài trợ; sự tổ chức; dưới sự hỗ trợ của ..., dưới sự bảo vệ của ...; do ... tổ chức, do ... phát động"
     ],
     "usphone": "'idʒɪs",
     "ukphone": "'iːdʒɪs"
@@ -8490,7 +8490,7 @@
   {
     "name": "charisma",
     "trans": [
-      "n. 神授的能力；非凡的领导力；魅力复 数: charismata"
+      "n. năng lực thiêng liêng; khả năng lãnh đạo phi thường; sức quyến rũ số nhiều: charismata"
     ],
     "usphone": "kəˈrɪzmə",
     "ukphone": "kəˈrɪzmə"
@@ -8498,7 +8498,7 @@
   {
     "name": "ego",
     "trans": [
-      "n. 自我; 自尊; 自负"
+      "n. cái tôi; lòng tự trọng; tính tự phụ"
     ],
     "usphone": "ˈiːɡoʊ",
     "ukphone": "ˈiːɡəʊ"
@@ -8506,7 +8506,7 @@
   {
     "name": "ethos",
     "trans": [
-      "n. (个人或团体的)气质，精神特质；思潮"
+      "n. khí chất, đặc tính tinh thần (cá nhân hoặc tập thể); trào lưu tư tưởng"
     ],
     "usphone": "ˈiːθɑːs",
     "ukphone": "ˈiːθɒs"
@@ -8514,7 +8514,7 @@
   {
     "name": "hubris",
     "trans": [
-      "n. 骄傲自大,自恃"
+      "n. kiêu ngạo, tự cao tự đại"
     ],
     "usphone": "ˈhjuːbrɪs",
     "ukphone": "ˈhjuːbrɪs"
@@ -8522,8 +8522,8 @@
   {
     "name": "ID",
     "trans": [
-      "n. 遗传素质；本能冲动ID",
-      "n. 身份证明(文件)"
+      "n. di truyền chất; bản năng; xung động bản năngID",
+      "n. giấy tờ chứng minh danh tính"
     ],
     "usphone": "ˌaɪˈdi:",
     "ukphone": "ˌaɪˈdi:"
@@ -8531,7 +8531,7 @@
   {
     "name": "libido",
     "trans": [
-      "n. 性欲；生命力形容词:libidinal"
+      "n. ham muốn tình dục; sức sống tính từ:libidinal"
     ],
     "usphone": "lɪ'bido",
     "ukphone": "lɪ'biːdəʊ"
@@ -8539,7 +8539,7 @@
   {
     "name": "muralist",
     "trans": [
-      "n. 壁画家"
+      "n. họa sĩ vẽ tranh tường, họa sĩ thủy mặc"
     ],
     "usphone": "'mjʊrəlɪst",
     "ukphone": "'mjʊərəlɪst"
@@ -8547,7 +8547,7 @@
   {
     "name": "intramural",
     "trans": [
-      "adj. 校内的,内部的"
+      "adj. thuộc về nhà trường, thuộc về nội bộ"
     ],
     "usphone": "ˌɪntrə'mjʊrəl",
     "ukphone": "ˌɪntrə'mjʊər(ə)l"
@@ -8555,7 +8555,7 @@
   {
     "name": "extramural",
     "trans": [
-      "adj. 市外的,单位以外的,校际比赛的"
+      "adj. ngoại thành, ngoài đơn vị, liên trường"
     ],
     "usphone": "ˌɛkstrə'mjʊrəl",
     "ukphone": "ˌekstrə'mjʊər(ə)l"
@@ -8563,8 +8563,8 @@
   {
     "name": "immure",
     "trans": [
-      "vt. 把…嵌在墙上；监禁，禁闭",
-      "时态:immured, immuring, immures名 词:immurement"
+      "vt. ghim ... vào tường; giam cầm, giam giữ",
+      "thì động:immured, immuring, immures danh từ:immurement"
     ],
     "usphone": "ɪˈmjʊr",
     "ukphone": "ɪˈmjʊə(r)"
@@ -8572,8 +8572,8 @@
   {
     "name": "politic",
     "trans": [
-      "adj. 精明的；有策略的；狡猾的；审慎的",
-      "vi. 拉选票"
+      "adj. tinh ý; có thủ đoạn; láu lỉm; thận trọng",
+      "vi. vận động bỏ phiếu, kéo phiếu"
     ],
     "usphone": "'pɑlətɪk",
     "ukphone": "'pɒlɪtɪk"
@@ -8581,8 +8581,8 @@
   {
     "name": "politicize",
     "trans": [
-      "vt. 使政治化, 使具有政治性使对政治有兴趣",
-      "时态:politicized, politicizing, politicizes"
+      "vt. chính trị hóa; làm cho mang tính chính trị; khiến quan tâm đến chính trị",
+      "thì động:politicized, politicizing, politicizes"
     ],
     "usphone": "pə'lɪtɪsaɪz",
     "ukphone": "pə'lɪtɪsaɪz"
@@ -8590,7 +8590,7 @@
   {
     "name": "acropolis",
     "trans": [
-      "n. 古希腊城市的卫城,雅典的卫城"
+      "n. acropolis, thành trì cổ của các thành phố Hy Lạp cổ đại, acropolis của Athens"
     ],
     "usphone": "əˈkrɑpəlɪs",
     "ukphone": "ə'krɔpəlis"
@@ -8598,7 +8598,7 @@
   {
     "name": "megalopolis",
     "trans": [
-      "n. 巨大都市,人口稠密地带"
+      "n. đô thị khổng lồ, khu vực đông dân cư"
     ],
     "usphone": "ˌmɛgə'lɑpəlɪs",
     "ukphone": "ˌmegə'lɒp(ə)lɪs"
@@ -8606,7 +8606,7 @@
   {
     "name": "numerology",
     "trans": [
-      "n. 数字命理学,数字占卦术"
+      "n. thần số học, chiêm tinh bằng số"
     ],
     "usphone": "ˌnumə'rɑlədʒi",
     "ukphone": "ˌnjuːmə'rɒlədʒɪ"
@@ -8614,7 +8614,7 @@
   {
     "name": "alphanumeric",
     "trans": [
-      "adj. 文字数字的,包括文字与数字的"
+      "adj. chữ và số, gồm cả chữ lẫn số"
     ],
     "usphone": "'ælfənjʊ'mɛrɪk",
     "ukphone": "ˌælfənjuː'merɪk"
@@ -8622,9 +8622,9 @@
   {
     "name": "enumerate",
     "trans": [
-      "vt. 列举，枚举；数",
-      "时态:enumerated，enumerating，enumerates名 词:enumeration",
-      "形容词:enumerative",
+      "vt. liệt kê, kể ra; đếm",
+      "thì động:enumerated, enumerating, enumerates danh từ:enumeration",
+      "tính từ:enumerative",
       "名 词:enumerator"
     ],
     "usphone": "ɪˈnuːməreɪt",
@@ -8665,7 +8665,7 @@
   {
     "name": "kilogram",
     "trans": [
-      "n. 公斤；千克"
+      "n. cân; ki lô gam"
     ],
     "usphone": "'kɪləɡræm",
     "ukphone": "'kɪləɡræm"

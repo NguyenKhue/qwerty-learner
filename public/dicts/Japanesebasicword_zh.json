@@ -2,28 +2,28 @@
     {
         "name": "ohayougozaimasu",
         "trans": [
-            "早上好"
+            "chào buổi sáng; xin chào"
         ],
         "notation": "おはようございます"
     },
     {
         "name": "konnichiha",
         "trans": [
-            "你好/下午好"
+            "Xin chào/Chào buổi chiều"
         ],
         "notation": "こんにちは"
     },
     {
         "name": "konbanha",
         "trans": [
-            "晚上好"
+            "Chào buổi tối"
         ],
         "notation": "こんばんは"
     },
     {
         "name": "oyasuminasai",
         "trans": [
-            "晚安"
+            "Chúc ngủ ngon"
         ],
         "notation": "おやすみなさい"
     },
@@ -37,21 +37,21 @@
     {
         "name": "sumimasen",
         "trans": [
-            "对不起/对不起"
+            "Xin lỗi/Xin lỗi"
         ],
         "notation": "すみません"
     },
     {
         "name": "gomennasai",
         "trans": [
-            "不好意思"
+            "Xin lỗi, thật ngượng"
         ],
         "notation": "ごめんなさい"
     },
     {
         "name": "hai",
         "trans": [
-            "是的"
+            "vâng, đúng"
         ],
         "notation": "はい"
     },
@@ -65,7 +65,7 @@
     {
         "name": "watashi",
         "trans": [
-            "我/我"
+            "Tôi/Tôi"
         ],
         "notation": "わたし"
     },
@@ -93,7 +93,7 @@
     {
         "name": "ojiisan",
         "trans": [
-            "爷爷"
+            "ông nội, ông"
         ],
         "notation": "お爺(じい)さん"
     },
@@ -114,14 +114,14 @@
     {
         "name": "obasan",
         "trans": [
-            "阿姨"
+            "dì, cô"
         ],
         "notation": "おばさん"
     },
     {
         "name": "oniisan",
         "trans": [
-            "哥哥"
+            "Anh trai"
         ],
         "notation": "お兄(にい)さん"
     },
@@ -142,7 +142,7 @@
     {
         "name": "imouto",
         "trans": [
-            "妹妹"
+            "Em gái"
         ],
         "notation": "妹(いもうと)"
     },
@@ -373,7 +373,7 @@
     {
         "name": "asa",
         "trans": [
-            "上午"
+            "buổi sáng"
         ],
         "notation": "朝(あさ)"
     },
@@ -415,7 +415,7 @@
     {
         "name": "takai",
         "trans": [
-            "高/贵"
+            "Cao/Quý"
         ],
         "notation": "高(たか)い"
     },
@@ -436,21 +436,21 @@
     {
         "name": "hayai",
         "trans": [
-            "快速/早期"
+            "Nhanh chóng/thời kỳ đầu"
         ],
         "notation": "早(はや)い"
     },
     {
         "name": "osoi",
         "trans": [
-            "慢"
+            "Chậm"
         ],
         "notation": "遅(おそ)い"
     },
     {
         "name": "isogashii",
         "trans": [
-            "忙"
+            "Bận"
         ],
         "notation": "忙(いそが)しい"
     },
@@ -499,7 +499,7 @@
     {
         "name": "tsurai",
         "trans": [
-            "辣/辣"
+            "cay; cay nóng"
         ],
         "notation": "辛(つら)い"
     },
@@ -520,14 +520,14 @@
     {
         "name": "tsumetai",
         "trans": [
-            "冷"
+            "lạnh"
         ],
         "notation": "冷(つめ)たい"
     },
     {
         "name": "akarui",
         "trans": [
-            "明亮"
+            "sáng, tươi sáng"
         ],
         "notation": "明(あか)るい"
     },
@@ -541,7 +541,7 @@
     {
         "name": "suru",
         "trans": [
-            "去做"
+            "đi làm, làm"
         ],
         "notation": "する"
     },
@@ -562,14 +562,14 @@
     {
         "name": "hanasu",
         "trans": [
-            "说话/说话"
+            "nói; nói chuyện"
         ],
         "notation": "話(はな)す"
     },
     {
         "name": "iu",
         "trans": [
-            "要说"
+            "nói ngắn gọn là"
         ],
         "notation": "言(い)う"
     },
@@ -597,7 +597,7 @@
     {
         "name": "aruku",
         "trans": [
-            "走路"
+            "đi bộ"
         ],
         "notation": "歩(ある)く"
     },
@@ -639,21 +639,21 @@
     {
         "name": "gohan",
         "trans": [
-            "米饭/餐"
+            "cơm; bữa ăn"
         ],
         "notation": "ご飯(はん)"
     },
     {
         "name": "mizu",
         "trans": [
-            "水/冷水"
+            "nước; nước lạnh"
         ],
         "notation": "水(みず)"
     },
     {
         "name": "oyu",
         "trans": [
-            "热水"
+            "nước nóng"
         ],
         "notation": "お湯(ゆ)"
     },
@@ -681,21 +681,21 @@
     {
         "name": "raamen",
         "trans": [
-            "拉面"
+            "mì kéo tay (ramen)"
         ],
         "notation": "ラーメン"
     },
     {
         "name": "sushi",
         "trans": [
-            "寿司"
+            "sushi"
         ],
         "notation": "寿司(すし)"
     },
     {
         "name": "onigiri",
         "trans": [
-            "饭团"
+            "cơm nắm (onigiri)"
         ],
         "notation": "おにぎり"
     }

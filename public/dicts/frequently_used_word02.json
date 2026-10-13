@@ -78,7 +78,7 @@
         "name": "addition",
         "trans": [
             "n.加",
-            "加法",
+            "phép cộng",
             "附加物"
         ],
         "pron": "[ә'diʃәn]"
@@ -86,7 +86,7 @@
     {
         "name": "address",
         "trans": [
-            "n.地址",
+            "n. địa chỉ",
             "演说",
             "谈吐"
         ],
@@ -137,7 +137,7 @@
         "trans": [
             "n.优点",
             "ưu thế, lợi thế",
-            "好处"
+            "lợi ích, ích lợi"
         ],
         "pron": "[әd'va:ntidʒ]"
     },
@@ -145,7 +145,7 @@
         "name": "advice",
         "trans": [
             "n. lời khuyên",
-            "忠告",
+            "lời khuyên can",
             "ý kiến"
         ],
         "pron": "[әd'vais]"
@@ -446,7 +446,7 @@
         "name": "arrange",
         "trans": [
             "vt.筹备",
-            "整理",
+            "sắp xếp, thu dọn",
             "调解"
         ],
         "pron": "[ә'reindʒ]"
@@ -510,7 +510,7 @@
     {
         "name": "association",
         "trans": [
-            "n.协会",
+            "n. hiệp hội, hội",
             "nhóm; đoàn thể; tổ chức",
             "联合"
         ],
@@ -529,7 +529,7 @@
         "name": "attend",
         "trans": [
             "vt. dự, tham dự, có mặt",
-            "照顾",
+            "chăm sóc, chăm nom",
             "sự chăm sóc"
         ],
         "pron": "[ә'tend]"
@@ -668,7 +668,7 @@
         "name": "band",
         "trans": [
             "n.乐队",
-            "带",
+            "dây, đai",
             "波段"
         ],
         "pron": "[bæ nd]"
@@ -856,7 +856,7 @@
     {
         "name": "border",
         "trans": [
-            "n.边缘",
+            "n. mép, biên",
             "ranh giới, biên giới"
         ],
         "pron": "['bɔ:dә]"
@@ -1086,8 +1086,8 @@
         "name": "certainly",
         "trans": [
             "ad.一定",
-            "必定",
-            "当然"
+            "chắc chắn, nhất định",
+            "dĩ nhiên"
         ],
         "pron": "['sә:tәnli]"
     },
@@ -1287,7 +1287,7 @@
     {
         "name": "cold",
         "trans": [
-            "a.冷的",
+            "a. lạnh, mát",
             "冷淡的 n.冷"
         ],
         "pron": "[kәuld]"
@@ -1424,7 +1424,7 @@
         "name": "confirm",
         "trans": [
             "vt.证实",
-            "肯定",
+            "khẳng định, chắc chắn",
             "phê duyệt, chấp thuận"
         ],
         "pron": "[kәn'fә:m]"
@@ -1545,7 +1545,7 @@
         "name": "count",
         "trans": [
             "vt.计算 vi.数",
-            "计数"
+            "đếm, đếm số"
         ],
         "pron": "[kaunt]"
     },
@@ -1648,7 +1648,7 @@
     {
         "name": "crowd",
         "trans": [
-            "n.群",
+            "n. đàn, bầy, tốp",
             "大众",
             "一伙人"
         ],
@@ -1658,7 +1658,7 @@
         "name": "cry",
         "trans": [
             "vi.哭泣",
-            "叫喊"
+            "hét, cất tiếng gào"
         ],
         "pron": "[krai]"
     },
@@ -1683,7 +1683,7 @@
     {
         "name": "customer",
         "trans": [
-            "n.顾客",
+            "n. khách hàng",
             "主顾"
         ],
         "pron": "['kʌstәmә]"
@@ -2042,7 +2042,7 @@
         "name": "dismiss",
         "trans": [
             "vt.解雇",
-            "解散"
+            "giải tán"
         ],
         "pron": "[dis'mis]"
     },
@@ -2125,7 +2125,7 @@
         "name": "domestic",
         "trans": [
             "a. thuộc quốc tịch, trong nước",
-            "家庭的"
+            "gia đình, thuộc gia đình"
         ],
         "pron": "[dә'mestik]"
     },
@@ -2276,7 +2276,7 @@
     {
         "name": "edge",
         "trans": [
-            "n.边缘",
+            "n. mép, biên",
             "刀口"
         ],
         "pron": "[edʒ]"
@@ -2381,7 +2381,7 @@
     {
         "name": "employee",
         "trans": [
-            "n.雇员"
+            "n. nhân viên"
         ],
         "pron": "[emplɔi'i:]"
     },
@@ -2483,7 +2483,7 @@
         "trans": [
             "n.装备",
             "thiết bị, máy móc",
-            "配备"
+            "trang bị"
         ],
         "pron": "[i'kwipmәnt]"
     },
@@ -2557,7 +2557,7 @@
         "name": "everybody",
         "trans": [
             "pron. từng người",
-            "人人"
+            "mọi người, ai nấy"
         ],
         "pron": "['evribɔdi]"
     },
@@ -2565,7 +2565,7 @@
         "name": "everyone",
         "trans": [
             "pron. từng người",
-            "人人"
+            "mọi người, ai nấy"
         ],
         "pron": "['evriwʌn]"
     },
@@ -3032,7 +3032,7 @@
     {
         "name": "flower",
         "trans": [
-            "n.花"
+            "n. hoa"
         ],
         "pron": "['flauә]"
     },
@@ -3311,7 +3311,7 @@
         "name": "grand",
         "trans": [
             "a.宏伟的",
-            "重大的"
+            "đáng kể, quan trọng"
         ],
         "pron": "[græ nd]"
     },
@@ -3492,7 +3492,7 @@
         "name": "highly",
         "trans": [
             "ad.高度地",
-            "很",
+            "rất",
             "rất; cực kỳ; hết sức"
         ],
         "pron": "['haili]"
@@ -3541,7 +3541,7 @@
     {
         "name": "hot",
         "trans": [
-            "a.热的",
+            "a. nóng",
             "gây kích thích, kích thích",
             "辣的"
         ],
@@ -3817,7 +3817,7 @@
     {
         "name": "instead",
         "trans": [
-            "ad.代替",
+            "ad. thay thế, thay",
             "顶替"
         ],
         "pron": "[in'sted]"
@@ -3833,7 +3833,7 @@
     {
         "name": "institution",
         "trans": [
-            "n.协会",
+            "n. hiệp hội, hội",
             "chế độ; thể chế",
             "tập tục, phong tục"
         ],
@@ -3899,7 +3899,7 @@
     {
         "name": "investor",
         "trans": [
-            "n.投资者"
+            "n. nhà đầu tư"
         ],
         "pron": "[in'vestә]"
     },
@@ -4049,7 +4049,7 @@
     {
         "name": "kitchen",
         "trans": [
-            "n.厨房"
+            "n. nhà bếp"
         ],
         "pron": "['kitʃin]"
     },
@@ -4316,7 +4316,7 @@
         "name": "male",
         "trans": [
             "a.男的",
-            "雄的"
+            "đực"
         ],
         "pron": "[meil]"
     },
@@ -4339,7 +4339,7 @@
     {
         "name": "manager",
         "trans": [
-            "n.经理"
+            "n. quản lý, giám đốc"
         ],
         "pron": "['mæ nidʒә]"
     },
@@ -4404,7 +4404,7 @@
     {
         "name": "maybe",
         "trans": [
-            "ad.大概",
+            "ad. đại khái, khoảng chừng",
             "có lẽ; có thể, dễ"
         ],
         "pron": "['meibi:]"
@@ -4420,7 +4420,7 @@
     {
         "name": "meanwhile",
         "trans": [
-            "ad.同时",
+            "adv. đồng thời",
             "当时"
         ],
         "pron": "['mi:n'wail]"
@@ -4815,7 +4815,7 @@
     {
         "name": "November",
         "trans": [
-            "n.十一月"
+            "n. tháng mười một"
         ],
         "pron": "[nәu'vembә]"
     },
@@ -4843,7 +4843,7 @@
     {
         "name": "obviously",
         "trans": [
-            "ad.明显地"
+            "ad. rõ ràng, hiển nhiên"
         ],
         "pron": "['ɔbviәsli]"
     },
@@ -5579,7 +5579,7 @@
         "name": "queen",
         "trans": [
             "n.王后",
-            "女王"
+            "nữ hoàng"
         ],
         "pron": "[kwi:n]"
     },
@@ -6055,7 +6055,7 @@
     {
         "name": "river",
         "trans": [
-            "n.河"
+            "n. sông"
         ],
         "pron": "['rivә]"
     },
@@ -6108,7 +6108,7 @@
     {
         "name": "sad",
         "trans": [
-            "a.悲哀的"
+            "a. buồn bã, đau lòng"
         ],
         "pron": "[sæ d]"
     },
@@ -6283,7 +6283,7 @@
     {
         "name": "September",
         "trans": [
-            "n.九月"
+            "n. tháng chín"
         ],
         "pron": "[sep'tembә]"
     },
@@ -6640,7 +6640,7 @@
     {
         "name": "sometimes",
         "trans": [
-            "ad.有时"
+            "ad. thỉnh thoảng, đôi khi"
         ],
         "pron": "['sʌmtaimz]"
     },
@@ -6992,7 +6992,7 @@
     {
         "name": "sun",
         "trans": [
-            "n.太阳"
+            "n. mặt trời"
         ],
         "pron": "[sʌn]"
     },
@@ -7120,7 +7120,7 @@
     {
         "name": "tea",
         "trans": [
-            "n.茶"
+            "n. trà"
         ],
         "pron": "[ti:]"
     },
@@ -7451,7 +7451,7 @@
     {
         "name": "tree",
         "trans": [
-            "n.树"
+            "n. cái cây"
         ],
         "pron": "[tri:]"
     },
@@ -7610,7 +7610,7 @@
     {
         "name": "usually",
         "trans": [
-            "ad.通常"
+            "ad. thường, thông thường"
         ],
         "pron": "['ju:ʒuәli]"
     },
@@ -7640,7 +7640,7 @@
         "name": "version",
         "trans": [
             "n.版本",
-            "译本"
+            "bản dịch"
         ],
         "pron": "['vә:ʃәn]"
     },
@@ -7760,7 +7760,7 @@
     {
         "name": "weather",
         "trans": [
-            "n.天气"
+            "n. thời tiết"
         ],
         "pron": "['weðә]"
     },
@@ -7830,7 +7830,7 @@
     {
         "name": "whom",
         "trans": [
-            "pron.谁"
+            "pron. ai"
         ],
         "pron": "[hu:m]"
     },
@@ -7874,7 +7874,7 @@
     {
         "name": "window",
         "trans": [
-            "n.窗户"
+            "n. cửa sổ"
         ],
         "pron": "['windәu]"
     },

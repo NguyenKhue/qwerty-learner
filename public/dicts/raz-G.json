@@ -18,7 +18,7 @@
   {
     "name": "floor",
     "trans": [
-      "n. 地板，地面；楼层；基底；议员席 vt. 铺地板；打倒，击倒；（被困难）难倒"
+      "n. sàn, mặt đất; tầng lầu; nền tảng; ghế của nghị sĩ vt. lát sàn; đánh bại; làm khó ngăn"
     ],
     "usphone": "flɔː(r)",
     "ukphone": "flɔː(r)"
@@ -114,7 +114,7 @@
   {
     "name": "freedom",
     "trans": [
-      "n. 自由，自主；直率 n. (Freedom)人名；(英)弗里德姆"
+      "n. tự do, quyền tự chủ; thẳng thắn n. (Freedom) tên riêng; (Anh) Phúc Lý Đức Mư"
     ],
     "usphone": "ˈfriːdəm",
     "ukphone": "ˈfriːdəm"
@@ -130,7 +130,7 @@
   {
     "name": "liberty",
     "trans": [
-      "n. 自由；许可；冒失 n. (Liberty)人名；(英)利伯蒂"
+      "n. tự do; phép; điều bất cẩn n. (Liberty) tên người; (Anh) Lý Bờ Thi"
     ],
     "usphone": "ˈlɪbəti",
     "ukphone": "ˈlɪbəti"
@@ -146,7 +146,7 @@
   {
     "name": "animal",
     "trans": [
-      "n. 动物 动物的"
+      "n. động vật thuộc về động vật"
     ],
     "usphone": "ˈænɪml",
     "ukphone": "ˈænɪml"
@@ -162,7 +162,7 @@
   {
     "name": "lizard",
     "trans": [
-      "n. 蜥蜴；类蜥蜴爬行动物 n. (Lizard)人名；(法)利扎尔"
+      "n. thằn lằn; loài bò sát giống thằn lằn n. (Lizard) tên người; (Pháp) Lý Xa"
     ],
     "usphone": "ˈlɪzəd",
     "ukphone": "ˈlɪzəd"
@@ -232,7 +232,7 @@
   {
     "name": "bill",
     "trans": [
-      "n. [法] 法案；广告；账单；[金融] 票据；钞票；清单 vt. 宣布；开账单；用海报宣传"
+      "n. [pháp lý] dự án luật; quảng cáo; hóa đơn; [tài chính] chứng từ; tiền tệ; danh mục vt. tuyên bố; lập hóa đơn; quảng cáo bằng áp phích"
     ],
     "usphone": "bɪl",
     "ukphone": "bɪl"
@@ -240,7 +240,7 @@
   {
     "name": "country",
     "trans": [
-      "n. 国家，国土；国民；乡下，农村；乡村；故乡 adj. 祖国的，故乡的；地方的，乡村的；国家的；粗鲁的；乡村音乐的"
+      "n. quốc gia, đất nước; nhân dân; nông thôn; quê hương adj. thuộc tổ quốc, quê hương; địa phương, nông thôn; quốc gia; thô lỗ; dân gian"
     ],
     "usphone": "ˈkʌntri",
     "ukphone": "ˈkʌntri"
@@ -392,7 +392,7 @@
   {
     "name": "house",
     "trans": [
-      "n. 住宅；家庭；机构；议会；某种用途的建筑物 vt. 覆盖；给…房子住；把…储藏在房内 vi. 住 n. (House)人名；(英)豪斯"
+      "n. nhà ở; gia đình; cơ quan; quốc hội; công trình dùng cho một mục đích nào đó vt. phủ lên; cho... ở nhà; cất giữ... trong nhà vi. ở n. (House) tên người; (Anh) House"
     ],
     "usphone": "haʊs",
     "ukphone": "haʊs"
@@ -448,7 +448,7 @@
   {
     "name": "crown",
     "trans": [
-      "n. 王冠；花冠；王权；顶点 vt. 加冕；居…之顶；表彰；使圆满完成 n. (Crown)人名；(英)克朗"
+      "n. vương miện; vòng hoa; quyền vương; đỉnh cao vt. đội vương miện; đứng trên đỉnh; vinh danh; làm trọn vẹn n. (Crown) tên riêng; Crôn (Anh)"
     ],
     "usphone": "kraʊn",
     "ukphone": "kraʊn"
@@ -608,7 +608,7 @@
   {
     "name": "family",
     "trans": [
-      "n. 家庭；亲属；家族；子女；[生]科；语族；[化]族 adj. 家庭的；家族的；适合于全家的"
+      "n. gia đình; họ hàng; dòng họ; con cái; [sinh học] họ; ngôn ngữ họ; [hóa học] nhóm adj. gia đình; thuộc về gia đình; thích hợp cho cả gia đình"
     ],
     "usphone": "ˈfæməli",
     "ukphone": "ˈfæməli"
@@ -640,7 +640,7 @@
   {
     "name": "baseball",
     "trans": [
-      "n. 棒球；棒球运动"
+      "n. bóng chày; môn bóng chày"
     ],
     "usphone": "ˈbeɪsbɔːl",
     "ukphone": "ˈbeɪsbɔːl"
@@ -744,7 +744,7 @@
   {
     "name": "chess",
     "trans": [
-      "n. 国际象棋，西洋棋 n. (Chess)人名；(英)切斯"
+      "n. co vua, ban co n. (Chess) ten rieng; (Anh) Xes"
     ],
     "usphone": "tʃes",
     "ukphone": "tʃes"
@@ -784,7 +784,7 @@
   {
     "name": "breathe",
     "trans": [
-      "vi. 呼吸；低语；松口气；（风）轻拂 vt. 呼吸；使喘息；流露；低声说"
+      "vi. thở; thì thầm; thở dài; (gió) nhẹ thoảng vt. thở; làm thở khò khè; bộc lộ; thì thầm nói"
     ],
     "usphone": "briːð",
     "ukphone": "briːð"
@@ -864,7 +864,7 @@
   {
     "name": "panic",
     "trans": [
-      "n. 恐慌，惊慌；大恐慌 adj. 恐慌的；没有理由的 vt. 使恐慌 vi. 十分惊慌 n. (Panic)人名；(罗)帕尼克"
+      "n. sự hoảng loạn, sự hoảng sợ; cuồng loạn adj. hoảng loạn; vô lý, không có lý do vt. làm hoảng loạn vi. rất hoảng sợ n. (Panic) tên riêng; (La Mã) Panik"
     ],
     "usphone": "ˈpænɪk",
     "ukphone": "ˈpænɪk"
@@ -896,7 +896,7 @@
   {
     "name": "cattle",
     "trans": [
-      "n. 牛；牲畜（骂人的话）；家畜；无价值的人 n. (Cattle)人名；(意)卡特莱"
+      "n. bo; gia suc (loi chui); gia suc; nguoi vo gia tri n. (Cattle) ten rieng; (Y) Katlai"
     ],
     "usphone": "ˈkætl",
     "ukphone": "ˈkætl"
@@ -942,7 +942,7 @@
   {
     "name": "dentist",
     "trans": [
-      "n. 牙科医生 牙医诊所"
+      "n. nha sĩ răng; phòng khám nha khoa"
     ],
     "usphone": "ˈdentɪst",
     "ukphone": "ˈdentɪst"
@@ -1022,7 +1022,7 @@
   {
     "name": "choice",
     "trans": [
-      "n. 选择；选择权；精选品 adj. 精选的；仔细推敲的"
+      "n. sự lựa chọn; quyền chọn; hàng tuyển chọn adj. tuyển chọn; được cân nhắc cẩn thận"
     ],
     "usphone": "tʃɔɪs",
     "ukphone": "tʃɔɪs"
@@ -1054,7 +1054,7 @@
   {
     "name": "believe",
     "trans": [
-      "vi. 信任；料想；笃信宗教 vt. 相信；认为；信任"
+      "vi. tin; nghĩ; tin đạo vt. tin rằng; cho là; tin tưởng"
     ],
     "usphone": "bɪˈliːv",
     "ukphone": "bɪˈliːv"
@@ -1102,7 +1102,7 @@
   {
     "name": "hall",
     "trans": [
-      "n. 过道，门厅，走廊；会堂；食堂；学生宿舍；大厅，前厅；娱乐中心，会所 n. （土）哈勒（人名）；（德、波、丹、芬、瑞典）哈尔（人名）；（英）霍尔（人名）；（法）阿尔（人名）"
+      "n. hành lang, sảnh; phòng họt, nhà hội trường; nhà ăn; ký túc xá; đại sảnh; trung tâm giải trí, câu lạc bộ n. (Lào) Hale (tên riêng); (Đức, Ba Lan, Đan Mạch, Phần Lan, Thụy Điển) Hal (tên riêng); (Anh) Hall (tên riêng); (Pháp) Al (tên riêng)"
     ],
     "usphone": "hɔːl",
     "ukphone": "hɔːl"
@@ -1268,7 +1268,7 @@
   {
     "name": "danger",
     "trans": [
-      "n. 危险；危险物，威胁 n. (Danger)人名；(法)当热"
+      "n. nguy hiểm; vật nguy hại, mối đe dọa n. (Danger) tên riêng; Đăng-giơ (Pháp)"
     ],
     "usphone": "ˈdeɪndʒə(r)",
     "ukphone": "ˈdeɪndʒə(r)"
@@ -1516,7 +1516,7 @@
   {
     "name": "bridge",
     "trans": [
-      "n. 桥；桥牌；桥接器；船桥 vt. 架桥；渡过 n. (Bridge)人名；(英)布里奇"
+      "n. cầu; bài bridge; bộ cầu nối; cầu tàu vt. xây cầu; vượt qua n. (Bridge) tên riêng; (Anh) Brích"
     ],
     "usphone": "brɪdʒ",
     "ukphone": "brɪdʒ"
@@ -1540,7 +1540,7 @@
   {
     "name": "fairy",
     "trans": [
-      "n. 仙女，小精灵；漂亮姑娘 adj. 虚构的；仙女的"
+      "n. tiên, tiên nữ; cô gái xinh adj. huyễn ảo; thuộc về tiên nữ"
     ],
     "usphone": "ˈfeəri",
     "ukphone": "ˈfeəri"
@@ -1620,7 +1620,7 @@
   {
     "name": "flour",
     "trans": [
-      "n. 面粉；粉状物质 vt. 撒粉于；把…磨成粉 n. (Flour)人名；(法)弗卢尔"
+      "n. bột; chất ở dạng bột vt. rắc bột; xay thành bột n. (Flour) tên riêng; (Pháp) Phlu-ờ"
     ],
     "usphone": "ˈflaʊə(r)",
     "ukphone": "ˈflaʊə(r)"
@@ -1668,7 +1668,7 @@
   {
     "name": "cell",
     "trans": [
-      "n. 细胞；电池；蜂房的巢室；单人小室 vi. 住在牢房或小室中 n. (Cell)人名；(英)塞尔"
+      "n. te bao; pin; o to ong; phong don vi. song trong phong giam hoac buong nho n. (Cell) ten rieng; (Anh) Xelo"
     ],
     "usphone": "sel",
     "ukphone": "sel"
@@ -1788,7 +1788,7 @@
   {
     "name": "lose",
     "trans": [
-      "vt. 浪费；使沉溺于；使迷路；遗失；错过 vi. 失败；受损失 n. (Lose)人名；(英)洛斯；(德)洛泽"
+      "vt. phung phí; làm sa vào; làm lạc; đánh mất; bỏ lỡ vi. thua; thiệt hại n. (Lose) tên người; (Anh) Lu Xơ; (Đức) Lô Xơ"
     ],
     "usphone": "luːz",
     "ukphone": "luːz"
@@ -2004,7 +2004,7 @@
   {
     "name": "castle",
     "trans": [
-      "n. 城堡；象棋中的车 vt. 置…于城堡中；筑城堡防御 n. (Castle)人名；(英)卡斯尔"
+      "n. lau dai; quan xe trong vua co vt. dat... vao lau dai; xay lau dai phong thu n. (Castle) ten rieng; (Anh) Kasu"
     ],
     "usphone": "ˈkɑːsl",
     "ukphone": "ˈkɑːsl"
@@ -2036,7 +2036,7 @@
   {
     "name": "afternoon",
     "trans": [
-      "n. 午后，下午"
+      "n. buổi chiều, buổi tối"
     ],
     "usphone": "ˌɑːftəˈnuːn",
     "ukphone": "ˌɑːftəˈnuːn"
@@ -2052,7 +2052,7 @@
   {
     "name": "evening",
     "trans": [
-      "n. 晚上；傍晚；（联欢性的）晚会；后期 adj. 在晚上的；为晚上的；晚上用的 int. 晚上好（等于good evening）"
+      "n. buổi tối; tối; tiệc giao lưu buổi tối; giai đoạn cuối adj. buổi tối; dành cho buổi tối; dùng vào buổi tối int. chào buổi tối (tương đương good evening)"
     ],
     "usphone": "ˈiːvnɪŋ",
     "ukphone": "ˈiːvnɪŋ"
@@ -2084,7 +2084,7 @@
   {
     "name": "chocolate",
     "trans": [
-      "n. 巧克力，巧克力糖；巧克力色 adj. 巧克力色的；巧克力口味的 n. (Chocolate)人名；(葡)绍科拉特"
+      "n. sô cô la, kẹo sô cô la; màu sô cô la adj. màu sô cô la; có vị sô cô la n. (Chocolate) tên người; (Bồ Đào Nha) Chocolate"
     ],
     "usphone": "ˈtʃɒklət",
     "ukphone": "ˈtʃɒklət"
@@ -2244,7 +2244,7 @@
   {
     "name": "bat",
     "trans": [
-      "n. 蝙蝠；球棒；球拍；批处理文件的扩展名 vt. 用球棒击球；击球率达… vi. 轮到击球；用球棒击球 n. (Bat)人名；(蒙、英)巴特"
+      "n. con dơi; gậy; vợt; phần mở rộng tệp xử lý hàng loạt vt. đánh bóng bằng gậy; có tỉ lệ trúng đến... vi. đến lượt đánh; dùng gậy đánh bóng n. (Bat) tên riêng; (Mông, Anh) Bát"
     ],
     "usphone": "bæt",
     "ukphone": "bæt"
@@ -2252,7 +2252,7 @@
   {
     "name": "bump",
     "trans": [
-      "n. 肿块，隆起物；撞击 vi. 碰撞，撞击；颠簸而行 vt. 碰，撞；颠簸 adv. 突然地，猛烈地 n. (Bump)人名；(英、西)邦普"
+      "n. cuc u; choi sung; cu va cham vi. va cham; di lac lu vt. dung vao; va cham adv. bat ngo, du doi n. (Bump) ten rieng; (Anh, Tay Ban Nha) Bom"
     ],
     "usphone": "bʌmp",
     "ukphone": "bʌmp"
@@ -2300,7 +2300,7 @@
   {
     "name": "jug",
     "trans": [
-      "n. [轻] 水壶；监牢 vt. 关押；放入壶中 vi. 模仿夜莺叫 n. (Jug)人名；(塞)尤格"
+      "n. [nhẹ] bình nước; nhà tù vt. nhốt; cho vào bình vi. bắt chước tiếng chim hoa yến n. (Jug) tên người; (Serbia) Jug"
     ],
     "usphone": "dʒʌɡ",
     "ukphone": "dʒʌɡ"
@@ -2436,7 +2436,7 @@
   {
     "name": "guard",
     "trans": [
-      "n. 守卫；警戒；护卫队；防护装置 vi. 警惕 vt. 保卫；监视 n. (Guard)人名；(英)格尔德"
+      "n. người canh giữ; sự cảnh giác; đội cận vệ; thiết bị bảo vệ vi. cảnh giác vt. bảo vệ; canh giám n. (Guard) tên riêng; (Anh) Guard"
     ],
     "usphone": "ɡɑːd",
     "ukphone": "ɡɑːd"
@@ -2468,7 +2468,7 @@
   {
     "name": "helmet",
     "trans": [
-      "n. 钢盔，头盔 n. (Helmet)人名；(德)黑尔梅特"
+      "n. mũ thép, mũ bảo hiểm n. (Helmet) tên riêng; (Đức) Helmet"
     ],
     "usphone": "ˈhelmɪt",
     "ukphone": "ˈhelmɪt"
@@ -2476,7 +2476,7 @@
   {
     "name": "oil",
     "trans": [
-      "n. 油；石油；油画颜料 vt. 加油；涂油；使融化 vi. 融化；加燃油"
+      "n. dầu; dầu mỏ; màu vẽ dầu vt. tiếp nhiên liệu; tra dầu; làm tan chảy vi. tan chảy; tiếp thêm nhiên liệu"
     ],
     "usphone": "ɔɪl",
     "ukphone": "ɔɪl"
@@ -2844,7 +2844,7 @@
   {
     "name": "balance",
     "trans": [
-      "n. 平衡；余额；匀称 vt. 使平衡；结算；使相称 vi. 保持平衡；相称；抵销 n. (Balance)人名；(西)巴兰塞"
+      "n. sự cân bằng; số dư; sự cân đối vt. cân bằng; quyết toán; làm tương xứng vi. giữ cân bằng; tương xứng; bù trừ n. (Balance) tên riêng; (Tây Ban Nha) Balance"
     ],
     "usphone": "ˈbæləns",
     "ukphone": "ˈbæləns"
@@ -2868,7 +2868,7 @@
   {
     "name": "bold",
     "trans": [
-      "adj. 大胆的，英勇的；黑体的；厚颜无耻的；险峻的 n. (Bold)人名；(英、德、罗、捷、瑞典)博尔德"
+      "adj. táo bạo, dũng cảm; chữ đậm; trơ trẽn; hiểm trở n. (Bold) tên riêng; (Anh, Đức, La Mã, Séc, Thụy Điển) Bô-l"
     ],
     "usphone": "bəʊld",
     "ukphone": "bəʊld"
@@ -2884,7 +2884,7 @@
   {
     "name": "form",
     "trans": [
-      "n. 形式，形状；形态，外形；方式；表格 vt. 构成，组成；排列，组织；产生，塑造 vi. 形成，构成；排列 n. (Form)人名；(英)福姆；(法、德)福尔姆"
+      "n. hình thức, hình dáng; hình thái, bề ngoài; cách thức; bảng vt. hình thành; sắp xếp; tạo ra, định hình vi. hình thành; sắp xếp n. (Form) tên riêng; (Anh) Phúc Mư; (Pháp, Đức) Phúc Nhạm"
     ],
     "usphone": "fɔːm",
     "ukphone": "fɔːm"
@@ -2916,7 +2916,7 @@
   {
     "name": "friend",
     "trans": [
-      "n. 朋友；助手；赞助者 n. (Friend)人名；(英)弗兰德"
+      "n. bạn; trợ lý; nhà bảo trợ n. (Friend) tên riêng; (Anh) Phúc Lam Đức"
     ],
     "usphone": "frend",
     "ukphone": "frend"
@@ -2988,7 +2988,7 @@
   {
     "name": "blood",
     "trans": [
-      "n. 血，血液；血统 vt. 从…抽血；使先取得经验 n. (Blood)人名；(英、西)布拉德"
+      "n. máu, huyết; dòng dõi vt. rút máu cho...; cho... tích lũy kinh nghiệm n. (Blood) tên riêng; (Anh, Tây Ban Nha) Blát"
     ],
     "usphone": "blʌd",
     "ukphone": "blʌd"
@@ -3074,7 +3074,7 @@
   {
     "name": "beak",
     "trans": [
-      "n. [鸟] 鸟嘴；鹰钩鼻子；地方执法官；男教师 n. (Beak)人名；(英、西)比克"
+      "n. [chim] mỏ; mũi móc; chức sắc địa phương; thầy giáo n. (Beak) tên riêng; (Anh, Tây Ban Nha) Bích"
     ],
     "usphone": "biːk",
     "ukphone": "biːk"
@@ -3090,7 +3090,7 @@
   {
     "name": "feather",
     "trans": [
-      "n. 羽毛 vt. 用羽毛装饰 vi. 长羽毛 n. (Feather)人名；(英)费瑟"
+      "n. lông vũ vt. trang trí bằng lông vũ vi. mọc lông vũ n. (Feather) tên riêng; (Anh) Phế-thơ"
     ],
     "usphone": "ˈfeðə(r)",
     "ukphone": "ˈfeðə(r)"
@@ -3218,7 +3218,7 @@
   {
     "name": "daughter",
     "trans": [
-      "n. 女儿；[遗][农学] 子代 adj. 女儿的；子代的"
+      "n. con gái; [di truyền][nông nghiệp] con đẻ adj. thuộc về con gái; thuộc đời con"
     ],
     "usphone": "ˈdɔːtə(r)",
     "ukphone": "ˈdɔːtə(r)"
@@ -3234,7 +3234,7 @@
   {
     "name": "gardener",
     "trans": [
-      "n. 园丁；花匠；园艺家 n. (Gardener)人名；(英)加德纳"
+      "n. người làm vườn; nhà vườn n. (Gardener) tên riêng; (Anh) Gia Đức Na"
     ],
     "usphone": "ˈɡɑːdnə(r)",
     "ukphone": "ˈɡɑːdnə(r)"
@@ -3306,7 +3306,7 @@
   {
     "name": "frog",
     "trans": [
-      "n. 青蛙；[铁路] 辙叉；饰扣 vi. 捕蛙 n. (Frog)人名；(俄)弗罗格"
+      "n. ếch; [đường sắt] đường rồi giao; khóa cài vi. bắt ếch n. (Frog) tên riêng; (Nga) Phúc Lô Cách"
     ],
     "usphone": "frɒɡ",
     "ukphone": "frɒɡ"

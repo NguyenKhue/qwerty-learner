@@ -2,7 +2,7 @@
   {
     "name": "compliment",
     "trans": [
-      "n. 恭维；称赞；问候；致意；道贺 vt. 恭维；称赞"
+      "n. lời khen; lời ca ngợi; lời chào; lời chúc vt. khen; ca ngợi"
     ],
     "usphone": "ˈkɒmplɪmənt",
     "ukphone": "ˈkɒmplɪmənt"
@@ -266,7 +266,7 @@
   {
     "name": "fort",
     "trans": [
-      "n. 堡垒；要塞；（美）边界贸易站 vt. 设要塞保卫 vi. 构筑要塞 n. (Fort)人名；(法)福尔；(德、英、西、葡、匈)福特"
+      "n. pháo đài; công trình phòng thủ; (Mỹ) trạm thương mại biên giới vt. xây pháo đài để bảo vệ vi. xây pháo đài n. (Fort) tên riêng; (Pháp) Phúc Nhĩ; (Đức, Anh, Tây Ban Nha, Bồ Đào Nha, Hung) Phúc Đặc"
     ],
     "usphone": "fɔːt",
     "ukphone": "fɔːt"
@@ -298,7 +298,7 @@
   {
     "name": "heritage",
     "trans": [
-      "n. 遗产；传统；继承物；继承权 n. (Heritage)人名；(英)赫里蒂奇"
+      "n. di sản; truyền thống; vật thừa kế; quyền thừa kế n. (Heritage) tên riêng; (Anh) Heritich"
     ],
     "usphone": "ˈherɪtɪdʒ",
     "ukphone": "ˈherɪtɪdʒ"
@@ -418,7 +418,7 @@
   {
     "name": "apologize",
     "trans": [
-      "vi. 道歉；辩解；赔不是 vt. 道歉；谢罪；辩白"
+      "vi. xin lỗi; biện giải; nhận lỗi vt. xin lỗi; xin tha tội; biện minh"
     ],
     "usphone": "əˈpɒlədʒaɪz",
     "ukphone": "əˈpɒlədʒaɪz"
@@ -482,7 +482,7 @@
   {
     "name": "league",
     "trans": [
-      "n. 联盟；社团；范畴 vt. 使…结盟；与…联合 vi. 团结；结盟 n. (League)人名；(英)利格"
+      "n. liên minh; hội; phạm vi vt. kết liên minh; liên kết với vi. đoàn kết; lập liên minh n. (League) tên người; (Anh) Lợc"
     ],
     "usphone": "liːɡ",
     "ukphone": "liːɡ"
@@ -706,7 +706,7 @@
   {
     "name": "allowance",
     "trans": [
-      "n. 津贴，零用钱；允许；限额 vt. 定量供应"
+      "n. trợ cấp, tiền túi; sự cho phép; hạn ngạch vt. cung cấp có hạn"
     ],
     "usphone": "əˈlaʊəns",
     "ukphone": "əˈlaʊəns"
@@ -874,7 +874,7 @@
   {
     "name": "linger",
     "trans": [
-      "vi. 徘徊；苟延残喘；磨蹭 vt. 消磨；缓慢度过 n. (Linger)人名；(德、捷、瑞典)林格；(法)兰热"
+      "vi. lượn quanh; sống dai dẳng; làm nhác vi. tiêu tốn; trôi qua chậm rãi n. (Linger) tên người; (Đức, Séc, Thụy Điển) Lăng Gơ; (Pháp) Lăng Nhật"
     ],
     "usphone": "ˈlɪŋɡə(r)",
     "ukphone": "ˈlɪŋɡə(r)"
@@ -1258,7 +1258,7 @@
   {
     "name": "character",
     "trans": [
-      "n. 性格，品质；特性；角色；[计] 字符 vt. 印，刻；使具有特征 n. (Character)人名；(英)克拉克特"
+      "n. tinh cach, pham chat; dac tinh; vai tro; [may tinh] ky tu vt. khac len; lam cho mang dac truong n. (Character) ten rieng; (Anh) Klakto"
     ],
     "usphone": "ˈkærəktə(r)",
     "ukphone": "ˈkærəktə(r)"
@@ -1440,7 +1440,7 @@
   {
     "name": "bonfire",
     "trans": [
-      "n. 篝火；营火"
+      "n. đống lửa; lửa trại"
     ],
     "usphone": "ˈbɒnfaɪə(r)",
     "ukphone": "ˈbɒnfaɪə(r)"
@@ -1542,7 +1542,7 @@
   {
     "name": "comb",
     "trans": [
-      "n. 梳子；蜂巢；鸡冠 vt. 梳头发；梳毛 vi. （浪）涌起"
+      "n. lược; tổ ong; mào vt. chải tóc; chải lông vi. (sóng) dâng lên"
     ],
     "usphone": "kəʊm",
     "ukphone": "kəʊm"
@@ -1750,7 +1750,7 @@
   {
     "name": "corrupt",
     "trans": [
-      "adj. 腐败的，贪污的；堕落的 vt. 使腐烂；使堕落，使恶化 vi. 堕落，腐化；腐烂"
+      "adj. tham nhũng, hối lộ; sa đoạ, trụy lạc vt. làm thối rữa; làm sa đoạ, làm xấu đi vi. sa đoạ; thối rữa"
     ],
     "usphone": "kəˈrʌpt",
     "ukphone": "kəˈrʌpt"
@@ -1758,7 +1758,7 @@
   {
     "name": "empire",
     "trans": [
-      "n. 帝国；帝王统治，君权 n. (Empire)人名；(法)昂皮尔"
+      "n. đế chế, đế quốc; vương quyền n. (Empire) tên riêng; (Pháp) Ăng-pi"
     ],
     "usphone": "ˈempaɪə(r)",
     "ukphone": "ˈempaɪə(r)"
@@ -2206,7 +2206,7 @@
   {
     "name": "habitat",
     "trans": [
-      "n. [生态] 栖息地，产地 n. (Habitat)人名；(德)哈比塔特"
+      "n. [sinh thái] môi trường sống, nơi phát sinh n. (Habitat) tên riêng; (Đức) Habitat"
     ],
     "usphone": "ˈhæbɪtæt",
     "ukphone": "ˈhæbɪtæt"
@@ -2254,7 +2254,7 @@
   {
     "name": "balance",
     "trans": [
-      "n. 平衡；余额；匀称 vt. 使平衡；结算；使相称 vi. 保持平衡；相称；抵销 n. (Balance)人名；(西)巴兰塞"
+      "n. sự cân bằng; số dư; sự cân đối vt. cân bằng; quyết toán; làm tương xứng vi. giữ cân bằng; tương xứng; bù trừ n. (Balance) tên riêng; (Tây Ban Nha) Balance"
     ],
     "usphone": "ˈbæləns",
     "ukphone": "ˈbæləns"
@@ -2286,7 +2286,7 @@
   {
     "name": "courtesy",
     "trans": [
-      "n. 礼貌；好意；恩惠 adj. 殷勤的；被承认的；出于礼节的"
+      "n. lịch sự; thiện ý; ân huệ adj. lịch sự; được công nhận; vì lịch sự"
     ],
     "usphone": "ˈkɜːtəsi",
     "ukphone": "ˈkɜːtəsi"
@@ -2358,7 +2358,7 @@
   {
     "name": "overcome",
     "trans": [
-      "vt. 克服；胜过 vi. 克服；得胜"
+      "vt. vượt qua; chiếm ưu thế hơn vi. vượt qua; thắng lợi"
     ],
     "usphone": "ˌəʊvəˈkʌm",
     "ukphone": "ˌəʊvəˈkʌm"
@@ -2366,7 +2366,7 @@
   {
     "name": "chapel",
     "trans": [
-      "n. 小礼拜堂，小教堂；礼拜 adj. 非国教的 n. (Chapel)人名；(法)沙佩尔；(英)查普尔"
+      "n. nha tho nho, nha nguyen; thanh le adj. khong theo dao thien chua giao n. (Chapel) ten rieng; (Phap) Xapero; (Anh) Xapolo"
     ],
     "usphone": "ˈtʃæpl",
     "ukphone": "ˈtʃæpl"
@@ -2654,7 +2654,7 @@
   {
     "name": "focus",
     "trans": [
-      "n. 焦点；中心；清晰；焦距 vt. 使集中；使聚焦 vi. 集中；聚焦；调节焦距 n. (Focus)人名；(瑞典)福库斯"
+      "n. tiêu điểm; trung tâm; sự rõ nét; khoảng cách lấy nét vt. làm cho tập trung; làm cho lấy nét vi. tập trung; lấy nét; điều chỉnh khoảng cách lấy nét n. (Focus) tên riêng; (Thụy Điển) Phố-cút"
     ],
     "usphone": "ˈfəʊkəs",
     "ukphone": "ˈfəʊkəs"
@@ -3030,7 +3030,7 @@
   {
     "name": "electronic",
     "trans": [
-      "adj. 电子的 n. 电子电路；电子器件"
+      "adj. điện tử n. mạch điện tử; linh kiện điện tử"
     ],
     "usphone": "ɪˌlekˈtrɒnɪk",
     "ukphone": "ɪˌlekˈtrɒnɪk"
@@ -3062,7 +3062,7 @@
   {
     "name": "devastating",
     "trans": [
-      "adj. 毁灭性的；全然的 v. 摧毁（devastate的ing形式）；毁坏"
+      "adj. mang tính hủy diệt; toàn diện v. tàn phá (dạng -ing của devastate); phá hủy"
     ],
     "usphone": "ˈdevəsteɪtɪŋ",
     "ukphone": "ˈdevəsteɪtɪŋ"
@@ -3198,7 +3198,7 @@
   {
     "name": "kingdom",
     "trans": [
-      "n. 王国；界；领域 n. (Kingdom)人名；(英)金德姆"
+      "n. vương quốc; cõi; lĩnh vực n. (Kingdom) tên người; (Anh) Kim Đêm"
     ],
     "usphone": "ˈkɪŋdəm",
     "ukphone": "ˈkɪŋdəm"
@@ -3270,7 +3270,7 @@
   {
     "name": "fascinating",
     "trans": [
-      "adj. 迷人的；吸引人的；使人神魂颠倒的 v. 使…着迷；使…陶醉（fascinate的ing形式）"
+      "adj. quyến rũ; hấp dẫn; làm mê hoặc v. làm cho... mê; làm cho... say (dạng -ing của fascinate)"
     ],
     "usphone": "ˈfæsɪneɪtɪŋ",
     "ukphone": "ˈfæsɪneɪtɪŋ"
@@ -3350,7 +3350,7 @@
   {
     "name": "function",
     "trans": [
-      "n. 功能；[数] 函数；职责；盛大的集会 vi. 运行；活动；行使职责"
+      "n. chức năng; [toán] hàm; nhiệm vụ; đại hội lớn vi. hoạt động; vận hành; thực hiện nhiệm vụ"
     ],
     "usphone": "ˈfʌŋkʃn",
     "ukphone": "ˈfʌŋkʃn"

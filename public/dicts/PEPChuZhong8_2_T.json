@@ -203,7 +203,7 @@
     {
         "name": "get off",
         "trans": [
-            "下车"
+            "xuống xe, ra xe"
         ],
         "usphone": "",
         "ukphone": ""
@@ -695,7 +695,7 @@
     {
         "name": "repair",
         "trans": [
-            "修理，修补"
+            "sửa chữa, vá"
         ],
         "usphone": "rɪ'pɛr",
         "ukphone": "rɪ'peə"
@@ -711,7 +711,7 @@
     {
         "name": "fix up",
         "trans": [
-            "修理，修补"
+            "sửa chữa, vá"
         ],
         "usphone": "",
         "ukphone": ""
@@ -744,7 +744,7 @@
         "name": "wheel",
         "trans": [
             "轮子，车轮",
-            "推动"
+            "thúc đẩy, đẩy"
         ],
         "usphone": "wil",
         "ukphone": "wiːl"
@@ -760,7 +760,7 @@
     {
         "name": "Miss",
         "trans": [
-            "小姐"
+            "cô gái, tiểu thư"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1099,7 +1099,7 @@
     {
         "name": "anyway",
         "trans": [
-            "尽管如此"
+            "dù sao, tuy vậy"
         ],
         "usphone": "'ɛnɪ'we",
         "ukphone": "'enɪweɪ"
@@ -2153,7 +2153,7 @@
     {
         "name": "underwear",
         "trans": [
-            "内衣"
+            "đồ lót"
         ],
         "usphone": "'ʌndɚwɛr",
         "ukphone": "'ʌndəweə"

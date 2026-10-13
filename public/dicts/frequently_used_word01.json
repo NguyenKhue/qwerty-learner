@@ -58,7 +58,7 @@
     {
         "name": "across",
         "trans": [
-            "prep.横过",
+            "prep. xuyên qua, ngang qua",
             "在…对面"
         ],
         "pron": "[ә'krɔs]"
@@ -83,8 +83,8 @@
     {
         "name": "actually",
         "trans": [
-            "ad.实际上",
-            "竟然"
+            "adv. thực ra, thực tế",
+            "hóa ra, thật sự là"
         ],
         "pron": "['æ ktjuәli]"
     },
@@ -265,7 +265,7 @@
         "name": "answer",
         "trans": [
             "vt. trả lời, đáp",
-            "响应",
+            "phản hồi, đáp lại",
             "thích nghi, thích ứng"
         ],
         "pron": "['a:nsә]"
@@ -497,7 +497,7 @@
     {
         "name": "behind",
         "trans": [
-            "prep.在…后面"
+            "prep. sau, phía sau"
         ],
         "pron": "[bi'haind]"
     },
@@ -630,7 +630,7 @@
         "name": "brown",
         "trans": [
             "n.褐色",
-            "棕色"
+            "nâu"
         ],
         "pron": "[braun]"
     },
@@ -678,7 +678,7 @@
     {
         "name": "by",
         "trans": [
-            "prep.在…旁",
+            "prep. bên cạnh",
             "被",
             "由"
         ],
@@ -1566,7 +1566,7 @@
         "name": "film",
         "trans": [
             "n.影片",
-            "胶卷",
+            "cuộn phim",
             "薄层"
         ],
         "pron": "[film]"
@@ -1732,7 +1732,7 @@
     {
         "name": "easy",
         "trans": [
-            "a.容易的",
+            "a. dễ, dễ dàng",
             "安逸的"
         ],
         "pron": "['i:zi]"
@@ -1784,7 +1784,7 @@
         "name": "fourteen",
         "trans": [
             "num. mười bốn",
-            "第十四"
+            "thứ mười bốn"
         ],
         "pron": "['fɔ:'ti:n]"
     },
@@ -1821,7 +1821,7 @@
     {
         "name": "full",
         "trans": [
-            "a.满的",
+            "a. đầy, đầy ắp",
             "hoàn toàn; toàn vẹn"
         ],
         "pron": "[ful]"
@@ -2004,7 +2004,7 @@
     {
         "name": "hard",
         "trans": [
-            "a.硬的",
+            "a. cứng",
             "khó khăn, gian nan"
         ],
         "pron": "['ha:d]"
@@ -2305,7 +2305,7 @@
         "name": "it",
         "trans": [
             "pron.这",
-            "那",
+            "đó, kia",
             "nó"
         ],
         "pron": "[it]"
@@ -2436,7 +2436,7 @@
     {
         "name": "later",
         "trans": [
-            "ad.后来"
+            "ad. sau đó"
         ],
         "pron": "['leitә]"
     },
@@ -2594,7 +2594,7 @@
         "name": "idea",
         "trans": [
             "n.想法",
-            "思想",
+            "tư tưởng; ý nghĩ",
             "ý kiến"
         ],
         "pron": "[ai'diә]"
@@ -2701,7 +2701,7 @@
     {
         "name": "low",
         "trans": [
-            "a.低的",
+            "a. thấp",
             "矮的;低下的",
             "卑贱的"
         ],
@@ -2957,7 +2957,7 @@
     {
         "name": "Mrs",
         "trans": [
-            "夫人"
+            "bà, người lớn tuổi (cách gọi kính trọng)"
         ],
         "pron": "['misiz]"
     },
@@ -2971,7 +2971,7 @@
     {
         "name": "much",
         "trans": [
-            "ad.非常",
+            "ad. rất, vô cùng",
             "很a.许多的n.多，大量"
         ],
         "pron": "[mʌtʃ]"
@@ -3177,7 +3177,7 @@
         "name": "often",
         "trans": [
             "ad. thường xuyên, thường ngày",
-            "通常"
+            "thường, thông thường"
         ],
         "pron": "['ɔ:fn]"
     },
@@ -3782,7 +3782,7 @@
     {
         "name": "research",
         "trans": [
-            "n.调查",
+            "n. điều tra, cuộc điều tra",
             "探究"
         ],
         "pron": "[ri'sә:tʃ]"
@@ -4135,7 +4135,7 @@
             "conj.因而",
             "所以ad.如此",
             "那么;非常",
-            "十分"
+            "rất, hết sức"
         ],
         "pron": "[sәu]"
     },
@@ -4179,8 +4179,8 @@
     {
         "name": "soon",
         "trans": [
-            "ad.不久",
-            "快"
+            "ad. không lâu",
+            "nhanh"
         ],
         "pron": "[su:n]"
     },
@@ -4313,7 +4313,7 @@
     {
         "name": "Story",
         "trans": [
-            "n.故事",
+            "n. câu chuyện",
             "tiểu thuyết"
         ],
         "pron": "['stɔ:ri]"
@@ -4485,7 +4485,7 @@
         "name": "the",
         "trans": [
             "art.这",
-            "那"
+            "đó, kia"
         ],
         "pron": "[ðә, ði]"
     },
@@ -4809,7 +4809,7 @@
     {
         "name": "value",
         "trans": [
-            "n.价值",
+            "n. giá trị",
             "价格vt.评价"
         ],
         "pron": "['væ lju:]"
@@ -5006,7 +5006,7 @@
     {
         "name": "who",
         "trans": [
-            "pron.谁"
+            "pron. ai"
         ],
         "pron": "[hu:]"
     },
@@ -5020,7 +5020,7 @@
     {
         "name": "whose",
         "trans": [
-            "pron.谁的"
+            "pron. của ai"
         ],
         "pron": "[hu:z]"
     },
@@ -5041,7 +5041,7 @@
     {
         "name": "wife",
         "trans": [
-            "n.妻子"
+            "n. vợ"
         ],
         "pron": "[waif]"
     },
@@ -5109,9 +5109,9 @@
     {
         "name": "work",
         "trans": [
-            "n.工作",
+            "n. công việc",
             "职业；著作vi.工作；运转",
-            "起作用"
+            "có tác dụng, phát huy tác dụng"
         ],
         "pron": "[wә:k]"
     },
@@ -5170,7 +5170,7 @@
         "name": "yes",
         "trans": [
             "ad.是",
-            "是的"
+            "vâng, đúng"
         ],
         "pron": "[jes]"
     },
