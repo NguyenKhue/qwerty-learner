@@ -9,6 +9,7 @@ import { Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import IconBooks from '~icons/tabler/books'
 import IconCards from '~icons/tabler/cards'
+import IconChevronDown from '~icons/tabler/chevron-down'
 import IconDots from '~icons/tabler/dots'
 import IconFolders from '~icons/tabler/folders'
 import IconHome from '~icons/tabler/home'
@@ -32,6 +33,8 @@ const ICONS: Record<NavItem['icon'], typeof IconHome> = {
 const focusRing = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring'
 const activeStyle = 'bg-primary/10 text-primary'
 const idleStyle = 'text-muted-foreground hover:bg-muted hover:text-foreground'
+const navRow = 'relative flex items-center gap-3 rounded-lg px-3 text-sm font-medium transition-colors duration-fast'
+const navIcon = 'h-5 w-5 shrink-0'
 
 function ThemeToggle({ className = '', showLabel }: { className?: string; showLabel: boolean }) {
   const [dark, setDark] = useAtom(isOpenDarkModeAtom)
@@ -43,9 +46,9 @@ function ThemeToggle({ className = '', showLabel }: { className?: string; showLa
       title={label}
       aria-label={label}
       onClick={() => setDark(!dark)}
-      className={`flex min-h-[44px] items-center gap-3 rounded-lg px-3 text-sm font-medium transition-colors duration-200 ${idleStyle} ${focusRing} ${className}`}
+      className={`${navRow} min-h-[44px] w-full ${idleStyle} ${focusRing} ${className}`}
     >
-      <Icon className="h-5 w-5 shrink-0" aria-hidden />
+      <Icon className={navIcon} aria-hidden />
       <span className={showLabel ? 'sr-only lg:not-sr-only' : 'sr-only'}>{dark ? 'Light mode' : 'Dark mode'}</span>
     </button>
   )
@@ -59,12 +62,11 @@ function SidebarLink({ item, pathname, compact }: { item: NavItem; pathname: str
       to={item.to}
       title={item.label}
       aria-current={active ? 'page' : undefined}
-      className={`flex min-h-[44px] items-center gap-3 rounded-lg px-3 text-sm font-medium transition-colors duration-200 ${
-        active ? activeStyle : idleStyle
-      } ${focusRing}`}
+      className={`${navRow} min-h-[40px] ${active ? activeStyle : idleStyle} ${focusRing}`}
     >
-      <Icon className="h-5 w-5 shrink-0" aria-hidden />
-      <span className={compact ? 'sr-only' : 'sr-only lg:not-sr-only'}>{item.label}</span>
+      {active ? <span aria-hidden className="absolute inset-y-2 left-0 w-[3px] rounded-full bg-primary" /> : null}
+      <Icon className={navIcon} aria-hidden />
+      <span className={`truncate ${compact ? 'sr-only' : 'sr-only lg:not-sr-only'}`}>{item.label}</span>
     </Link>
   )
 }
@@ -77,11 +79,18 @@ function TabLink({ item, pathname, onTap }: { item: NavItem; pathname: string; o
       to={item.to}
       onClick={onTap}
       aria-current={active ? 'page' : undefined}
-      className={`flex min-h-[56px] flex-1 flex-col items-center justify-center gap-1 text-xs font-medium transition-colors duration-200 ${
+      className={`flex min-h-[56px] flex-1 flex-col items-center justify-center gap-1 text-[11px] font-medium transition-[color,transform] duration-base active:scale-95 ${
         active ? 'text-primary' : 'text-muted-foreground'
       } ${focusRing}`}
     >
-      <Icon className="h-6 w-6" aria-hidden />
+      <span
+        aria-hidden
+        className={`flex h-8 w-14 items-center justify-center rounded-full transition-colors duration-base ${
+          active ? 'bg-primary/10' : ''
+        }`}
+      >
+        <Icon className="h-6 w-6" />
+      </span>
       {item.label}
     </Link>
   )
@@ -89,45 +98,57 @@ function TabLink({ item, pathname, onTap }: { item: NavItem; pathname: string; o
 
 function Sidebar({ items, pathname, compact }: { items: NavItem[]; pathname: string; compact: boolean }) {
   const dict = useAtomValue(currentDictInfoAtom)
+  const label = compact ? 'sr-only' : 'sr-only lg:not-sr-only'
   return (
     <aside
-      className={`hidden shrink-0 flex-col gap-4 border-r border-border bg-card p-3 md:flex ${compact ? 'w-[72px]' : 'w-[72px] lg:w-60'}`}
+      className={`hidden shrink-0 flex-col gap-6 border-r border-border bg-card p-3 md:flex ${compact ? 'w-[72px]' : 'w-[72px] lg:w-60'}`}
     >
-      <Link to="/" title="Home" className={`flex items-center gap-3 rounded-lg px-1 py-2 ${focusRing}`}>
-        <img src={logo} className="h-10 w-10 shrink-0" alt="" />
-        <span className={`text-lg font-bold text-primary ${compact ? 'sr-only' : 'sr-only lg:not-sr-only'}`}>Qwerty Learner</span>
+      <Link to="/" title="Home" className={`flex h-14 items-center gap-2.5 rounded-lg px-2 ${focusRing}`}>
+        <img src={logo} className="h-8 w-8 shrink-0" alt="" />
+        <span className={`text-sm font-semibold tracking-tight text-foreground ${label}`}>Qwerty Learner</span>
       </Link>
 
       <Link
         to="/gallery"
         title={`Current set: ${dict.name}`}
         aria-label={`Change set. Current set: ${dict.name}`}
-        className={`flex min-h-[44px] items-center gap-3 rounded-lg border border-border bg-background px-3 py-2 transition-colors duration-200 hover:bg-muted ${focusRing}`}
+        className={`flex items-center gap-3 rounded-xl border border-border bg-card p-3 shadow-1 transition-shadow duration-base hover:shadow-2 ${focusRing}`}
       >
-        <IconBooks className="h-5 w-5 shrink-0 text-primary" aria-hidden />
+        <IconBooks className={navIcon} aria-hidden />
         <span className={`min-w-0 flex-1 ${compact ? 'hidden' : 'hidden lg:block'}`}>
-          <span className="block truncate text-sm font-medium text-foreground">{dict.name}</span>
+          <span className="block truncate text-sm font-semibold text-foreground">{dict.name}</span>
           <span className="block text-xs text-muted-foreground">{dict.length} words · change</span>
         </span>
+        <IconChevronDown className={`h-4 w-4 shrink-0 text-muted-foreground ${compact ? 'hidden' : 'hidden lg:block'}`} aria-hidden />
       </Link>
 
-      <nav aria-label="Main" className="flex flex-1 flex-col gap-1">
-        {items.map((item) => (
-          <SidebarLink key={item.id} item={item} pathname={pathname} compact={compact} />
-        ))}
+      <nav aria-label="Main" className="flex flex-1 flex-col gap-6">
+        <div className="flex flex-col gap-0.5">
+          {items
+            .filter((item) => item.tab)
+            .map((item) => (
+              <SidebarLink key={item.id} item={item} pathname={pathname} compact={compact} />
+            ))}
+        </div>
+        <div className="flex flex-col gap-0.5">
+          {items
+            .filter((item) => !item.tab)
+            .map((item) => (
+              <SidebarLink key={item.id} item={item} pathname={pathname} compact={compact} />
+            ))}
+        </div>
       </nav>
 
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-0.5 border-t border-border pt-4">
         <Link
           to="/about"
           title="About & support"
           aria-current={pathname === '/about' ? 'page' : undefined}
-          className={`flex min-h-[44px] items-center gap-3 rounded-lg px-3 text-sm font-medium transition-colors duration-200 ${
-            pathname === '/about' ? activeStyle : idleStyle
-          } ${focusRing}`}
+          className={`${navRow} min-h-[40px] ${pathname === '/about' ? activeStyle : idleStyle} ${focusRing}`}
         >
-          <IconInfoCircle className="h-5 w-5 shrink-0" aria-hidden />
-          <span className={compact ? 'sr-only' : 'sr-only lg:not-sr-only'}>About &amp; support</span>
+          {pathname === '/about' ? <span aria-hidden className="absolute inset-y-2 left-0 w-[3px] rounded-full bg-primary" /> : null}
+          <IconInfoCircle className={navIcon} aria-hidden />
+          <span className={`truncate ${label}`}>About &amp; support</span>
         </Link>
         <ThemeToggle showLabel={!compact} />
       </div>
@@ -200,7 +221,10 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
           </div>
         </>
       )}
-      <nav aria-label="Main" className="relative z-40 flex border-t border-border bg-card pb-[env(safe-area-inset-bottom)] md:hidden">
+      <nav
+        aria-label="Main"
+        className="relative z-40 flex border-t border-border bg-card/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden"
+      >
         {items
           .filter((item) => item.tab)
           .map((item) => (
@@ -212,9 +236,11 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
           aria-haspopup="dialog"
           aria-expanded={moreOpen}
           onClick={() => setMoreOpen((open) => !open)}
-          className={`flex min-h-[56px] flex-1 flex-col items-center justify-center gap-1 text-xs font-medium text-muted-foreground ${focusRing}`}
+          className={`flex min-h-[56px] flex-1 flex-col items-center justify-center gap-1 text-[11px] font-medium text-muted-foreground transition-[color,transform] duration-base active:scale-95 ${focusRing}`}
         >
-          <IconDots className="h-6 w-6" aria-hidden />
+          <span aria-hidden className="flex h-8 w-14 items-center justify-center rounded-full">
+            <IconDots className="h-6 w-6" />
+          </span>
           More
         </button>
       </nav>
@@ -233,9 +259,11 @@ export default function AppShell() {
       <Sidebar items={items} pathname={pathname} compact={compact} />
       <div className="flex min-h-0 min-w-0 flex-1 flex-col">
         <main className="relative min-h-0 flex-1 overflow-y-auto">
-          <Suspense fallback={<InlineLoading />}>
-            <Outlet />
-          </Suspense>
+          <div key={pathname} className="page-enter h-full">
+            <Suspense fallback={<InlineLoading />}>
+              <Outlet />
+            </Suspense>
+          </div>
         </main>
         <TabBar items={items} pathname={pathname} />
       </div>
