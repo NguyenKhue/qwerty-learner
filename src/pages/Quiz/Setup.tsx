@@ -1,5 +1,6 @@
-import { ModeFrame, ModePage, Panel } from '@/components/ModePage'
+import { ModeFrame, ModePage } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
+import { Card } from '@/components/ui/card'
 import type { QuizDirection, QuizLength } from '@/utils/quiz/questions'
 
 type Props = {
@@ -35,18 +36,18 @@ export default function QuizSetup({
     <ModeFrame>
       <ModePage title={dictName} onBack={onBack}>
         {!available ? (
-          <Panel className="text-muted-foreground">
+          <Card className="p-6 text-muted-foreground">
             This set cannot be quizzed yet: it needs at least 4 words with different meanings (found {distinctMeanings}).
-          </Panel>
+          </Card>
         ) : (
-          <Panel className="space-y-5 text-sm">
+          <Card className="space-y-5 p-6 text-sm">
             <div className="flex items-center justify-between gap-4">
               <span>Questions</span>
               <div className="flex gap-2" role="group" aria-label="Number of questions">
                 {LENGTHS.map((option) => (
                   <Button
                     key={String(option.value)}
-                    size="sm"
+                    className="h-11 min-w-[44px] px-4"
                     variant={length === option.value ? 'default' : 'outline'}
                     aria-pressed={length === option.value}
                     onClick={() => onLengthChange(option.value)}
@@ -65,8 +66,10 @@ export default function QuizSetup({
                 className="h-5 w-5 accent-[rgb(var(--primary))]"
               />
             </label>
-            <Button onClick={onStart}>Start quiz</Button>
-          </Panel>
+            <Button className="h-12 w-full text-base shadow-2" onClick={onStart}>
+              Start quiz
+            </Button>
+          </Card>
         )}
       </ModePage>
     </ModeFrame>

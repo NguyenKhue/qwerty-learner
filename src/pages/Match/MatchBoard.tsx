@@ -1,11 +1,13 @@
-import { ModeFrame, Panel } from '@/components/ModePage'
+import { ModeFrame } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
 import { Button } from '@/components/ui/button'
+import { Card } from '@/components/ui/card'
 import { formatDuration, readBest, updateBest, writeBest } from '@/utils/match/best'
 import type { Tile } from '@/utils/match/board'
 import { clearMismatch, createGame, elapsed, isFinished, isTileMatched, select } from '@/utils/match/game'
 import type { GameState } from '@/utils/match/game'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { cn } from '@/utils/ui'
+import { type CSSProperties, useCallback, useEffect, useRef, useState } from 'react'
 
 type Props = {
   dictId: string
@@ -16,6 +18,8 @@ type Props = {
 }
 
 const MISMATCH_FLASH_MS = 700
+
+const STAT_CHIP = 'inline-flex items-center rounded-full bg-muted px-3 py-1 text-sm font-medium num'
 
 export default function MatchBoard({ dictId, tiles, onBestChange, onRestart, onBack }: Props) {
   const [game, setGame] = useState(() => createGame(tiles, Date.now()))
@@ -64,17 +68,19 @@ export default function MatchBoard({ dictId, tiles, onBestChange, onRestart, onB
     return (
       <ModeFrame>
         <ScrollCenter className="max-w-xl gap-6">
-          <Panel className="w-full">
+          <Card className="w-full animate-enter-up">
             <p className="text-sm text-muted-foreground">All pairs matched</p>
-            <p className="text-4xl font-semibold">{formatDuration(result.time)}</p>
+            <p className="num mt-1 text-5xl font-semibold tracking-tight">{formatDuration(result.time)}</p>
             <p className="mt-2 text-sm text-muted-foreground">
               {game.mistakes} {game.mistakes === 1 ? 'mistake' : 'mistakes'}
               {result.best !== null && ` · best ${formatDuration(result.best)}`}
             </p>
             {result.isNewBest && <p className="mt-2 font-medium text-accent">New best time!</p>}
-          </Panel>
+          </Card>
           <div className="flex gap-3">
-            <Button onClick={onRestart}>Play again</Button>
+            <Button className="h-12 px-6 text-base shadow-2" onClick={onRestart}>
+              Play again
+            </Button>
             <Button variant="outline" onClick={onBack}>
               Back
             </Button>
@@ -87,40 +93,47 @@ export default function MatchBoard({ dictId, tiles, onBestChange, onRestart, onB
   return (
     <ModeFrame>
       <ScrollCenter className="max-w-4xl gap-6">
-        <div className="flex w-full items-center justify-between text-sm text-muted-foreground">
-          <span>
-            {formatDuration(elapsed(game, now))} · {game.matched.length} / {game.tiles.length / 2} matched · {game.mistakes}{' '}
-            {game.mistakes === 1 ? 'mistake' : 'mistakes'}
-          </span>
-          <Button size="sm" variant="outline" onClick={onBack}>
+        <div className="flex w-full items-center justify-between gap-2 text-sm text-muted-foreground">
+          <div className="flex min-w-0 flex-wrap items-center gap-2">
+            <span className={STAT_CHIP}>{formatDuration(elapsed(game, now))}</span>
+            <span className={STAT_CHIP}>
+              {game.matched.length} / {game.tiles.length / 2} matched
+            </span>
+            <span className={STAT_CHIP}>
+              {game.mistakes} {game.mistakes === 1 ? 'mistake' : 'mistakes'}
+            </span>
+          </div>
+          <Button variant="outline" onClick={onBack}>
             Exit
           </Button>
         </div>
 
-        <div className="grid w-full grid-cols-2 gap-3 md:grid-cols-3">
-          {game.tiles.map((tile) => {
+        {/* Each tile sits in a wrapper that carries the entrance stagger, so the tile's own pop and shake never fight it */}
+        <div className="stagger grid w-full grid-cols-2 gap-3 md:grid-cols-3">
+          {game.tiles.map((tile, index) => {
             const matched = isTileMatched(game, tile)
             const selected = game.selected === tile.id
             const wrong = game.mismatch !== null && game.mismatch.indexOf(tile.id) !== -1
-            const style = wrong
-              ? 'border-destructive bg-destructive text-destructive-foreground'
-              : selected
-              ? 'border-primary bg-primary text-primary-foreground'
-              : 'border-border bg-card text-card-foreground hover:bg-muted'
             return (
-              <button
-                key={tile.id}
-                disabled={matched}
-                aria-hidden={matched}
-                aria-pressed={selected}
-                onClick={() => onTile(tile.id)}
-                // Matched tiles stay in the grid (invisible) so the layout does not jump
-                className={`min-h-[4.5rem] rounded-lg border px-4 py-3 text-center transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
-                  tile.kind === 'word' ? 'text-xl font-medium' : 'text-base'
-                } ${style} ${matched ? 'invisible' : ''}`}
-              >
-                {tile.text}
-              </button>
+              <div key={tile.id} className="h-full" style={{ '--i': Math.min(index, 12) } as CSSProperties}>
+                <button
+                  disabled={matched}
+                  aria-hidden={matched}
+                  aria-pressed={selected}
+                  onClick={() => onTile(tile.id)}
+                  // Matched tiles stay in the grid (dimmed) so the layout does not jump
+                  className={cn(
+                    'h-full min-h-[56px] w-full rounded-xl border border-border bg-card p-3 text-center text-card-foreground shadow-1 transition-[transform,box-shadow,border-color,opacity] duration-fast ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring',
+                    tile.kind === 'word' ? 'text-lg font-medium' : 'text-sm',
+                    matched && 'pointer-events-none opacity-50 shadow-none [animation:pop_var(--dur-base)_var(--ease-out)]',
+                    !matched && !wrong && 'hover:-translate-y-0.5 hover:shadow-2',
+                    selected && !matched && '-translate-y-0.5 border-primary ring-2 ring-ring',
+                    wrong && 'animate-shake border-destructive',
+                  )}
+                >
+                  {tile.text}
+                </button>
+              </div>
             )
           })}
         </div>

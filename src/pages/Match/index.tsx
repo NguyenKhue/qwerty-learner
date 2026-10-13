@@ -1,7 +1,8 @@
 import MatchBoard from './MatchBoard'
 import { InlineLoading } from '@/components/Loading'
-import { ModeFrame, ModePage, PageMessage, Panel } from '@/components/ModePage'
+import { ModeFrame, ModePage, PageMessage } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
+import { Card } from '@/components/ui/card'
 import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
 import { canGoBack } from '@/utils/history'
@@ -57,13 +58,20 @@ function Match({ id }: { id: string }) {
     <ModeFrame>
       <ModePage title={dict.name} onBack={onBack}>
         {playable ? (
-          <Panel className="space-y-4">
+          <Card className="space-y-4">
             <p>Match 6 words with their meanings as fast as you can.</p>
-            {best !== null && <p className="text-sm text-muted-foreground">Best time: {formatDuration(best)}</p>}
-            <Button onClick={start}>Start</Button>
-          </Panel>
+            {best !== null && (
+              <div>
+                <p className="text-sm text-muted-foreground">Best time</p>
+                <p className="num text-5xl font-semibold tracking-tight">{formatDuration(best)}</p>
+              </div>
+            )}
+            <Button className="h-12 px-6 text-base shadow-2" onClick={start}>
+              Start
+            </Button>
+          </Card>
         ) : (
-          <Panel className="text-muted-foreground">This set cannot be played yet: it needs at least 6 words with different meanings.</Panel>
+          <Card className="text-muted-foreground">This set cannot be played yet: it needs at least 6 words with different meanings.</Card>
         )}
       </ModePage>
     </ModeFrame>

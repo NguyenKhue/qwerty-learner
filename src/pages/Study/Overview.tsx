@@ -69,10 +69,14 @@ export default function StudyOverview({
           ) : (
             <div className="space-y-4">
               <p>
-                <span className="text-3xl font-semibold">{counts.due}</span> <span className="text-muted-foreground">due</span> ·{' '}
-                <span className="text-3xl font-semibold">{counts.new}</span> <span className="text-muted-foreground">new</span>
+                <span className="num text-5xl font-semibold tracking-tight">{counts.due}</span>{' '}
+                <span className="text-muted-foreground">due</span> ·{' '}
+                <span className="num text-5xl font-semibold tracking-tight">{counts.new}</span>{' '}
+                <span className="text-muted-foreground">new</span>
               </p>
-              <Button onClick={onStart}>Start</Button>
+              <Button className="h-12 px-6 text-base shadow-2" onClick={onStart}>
+                Start
+              </Button>
             </div>
           )}
         </Panel>

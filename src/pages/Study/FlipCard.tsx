@@ -8,7 +8,7 @@ type Props = {
 }
 
 // The surface both faces share, so a flipping card looks exactly like a still one
-const FACE = 'flex min-h-[18rem] flex-col justify-center rounded-xl border border-border bg-card p-8 text-card-foreground'
+const FACE = 'flex min-h-[18rem] flex-col justify-center rounded-2xl border border-border bg-card p-6 text-card-foreground shadow-2 sm:p-10'
 // Only the face turned towards the viewer stays painted; the other one is never shown
 const BACKFACE = '[backface-visibility:hidden] [-webkit-backface-visibility:hidden]'
 // Both faces sit in the same cell, so the card is as tall as the taller face
@@ -32,7 +32,7 @@ export default function FlipCard({ flipped, front, back, onFlip }: Props) {
   return (
     <div className="w-full [perspective:1200px]">
       <div
-        className={`relative grid transition-transform duration-500 [transform-style:preserve-3d] motion-reduce:transition-none${
+        className={`relative grid transition-transform duration-flip ease-spring [transform-style:preserve-3d] motion-reduce:transition-none${
           flipped ? ' [transform:rotateY(180deg)]' : ''
         }`}
       >

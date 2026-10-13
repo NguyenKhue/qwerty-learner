@@ -32,11 +32,12 @@ type Props = {
   onFinish: (summary: SessionSummary) => void
 }
 
+// Grade colours are tokens only: the label carries the meaning, the surface stays quiet
 const GRADE_STYLE: Record<Grade, string> = {
-  again: 'bg-destructive text-destructive-foreground hover:bg-destructive/90',
-  hard: 'bg-amber-700 text-white hover:bg-amber-700/90',
-  good: 'bg-primary text-primary-foreground hover:bg-primary/90',
-  easy: 'bg-accent text-accent-foreground hover:bg-accent/90',
+  again: 'text-destructive hover:bg-destructive/10',
+  hard: 'text-foreground hover:bg-muted',
+  good: 'text-primary hover:bg-primary/10',
+  easy: 'text-accent hover:bg-accent/10',
 }
 const GRADE_NAME: Record<Grade, string> = { again: 'Again', hard: 'Hard', good: 'Good', easy: 'Easy' }
 
@@ -111,10 +112,10 @@ export default function StudySession({ dictId, queue, progress, reverse, details
   const wordBlock = (
     <div className="flex flex-col items-center gap-2">
       <div className="flex items-center gap-3">
-        <span className="text-4xl font-semibold text-foreground md:text-5xl">{word.name}</span>
+        <span className="text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">{word.name}</span>
         <WordPronunciationIcon key={word.name} word={word} lang="en" iconClassName="h-8 w-8" />
       </div>
-      {phonetic && <span className="text-muted-foreground">[{phonetic}]</span>}
+      {phonetic && <span className="text-lg text-muted-foreground">[{phonetic}]</span>}
     </div>
   )
   const meaningBlock = (
@@ -184,8 +185,10 @@ export default function StudySession({ dictId, queue, progress, reverse, details
           </Button>
         </div>
 
-        {/* Keyed by the word so the scroll position of the back never leaks into the next card */}
-        <FlipCard key={word.name} flipped={session.flipped} onFlip={onFlip} front={front} back={back} />
+        {/* Keyed by the word so the scroll position of the back never leaks into the next card, and so the next card fades up */}
+        <div key={word.name} className="w-full animate-enter-up">
+          <FlipCard flipped={session.flipped} onFlip={onFlip} front={front} back={back} />
+        </div>
 
         <p className="text-xs text-muted-foreground">Tap the card or press Space to flip it</p>
 
@@ -201,18 +204,18 @@ export default function StudySession({ dictId, queue, progress, reverse, details
           </p>
         )}
 
-        <div className="grid w-full grid-cols-4 gap-3">
+        <div className="grid w-full grid-cols-2 gap-2 sm:grid-cols-4">
           {GRADES.map((grade, index) => (
             <button
               key={grade}
               disabled={!session.revealed}
               onClick={() => onGrade(grade)}
-              className={`flex min-h-[56px] flex-col items-center justify-center rounded-lg px-3 py-3 text-sm font-medium transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-30 ${GRADE_STYLE[grade]}`}
+              className={`flex min-h-[56px] flex-col items-center justify-center rounded-xl border border-border bg-card px-3 text-sm font-semibold shadow-1 transition-[transform,box-shadow,background-color] duration-fast ease-out hover:-translate-y-0.5 hover:shadow-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-95 disabled:opacity-30 ${GRADE_STYLE[grade]}`}
             >
               <span>
                 {GRADE_NAME[grade]} ({index + 1})
               </span>
-              <span className="text-xs opacity-80">{labels[grade]}</span>
+              <span className="block text-xs font-normal text-muted-foreground">{labels[grade]}</span>
             </button>
           ))}
         </div>
