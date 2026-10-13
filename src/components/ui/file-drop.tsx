@@ -5,6 +5,8 @@ import IconUpload from '~icons/tabler/upload'
 export interface FileDropProps {
   accept?: string
   onFile: (file: File) => void
+  /** When given, several files may be chosen or dropped at once and are passed together instead of one by one through `onFile` */
+  onFiles?: (files: File[]) => void
   label?: React.ReactNode
   description?: React.ReactNode
   disabled?: boolean
@@ -18,6 +20,7 @@ export interface FileDropProps {
 export function FileDrop({
   accept,
   onFile,
+  onFiles,
   label = 'Drop a file here or choose one',
   description,
   disabled = false,
@@ -28,10 +31,16 @@ export function FileDrop({
   const [dragging, setDragging] = React.useState(false)
   const [fileName, setFileName] = React.useState<string | null>(null)
 
-  const handleFile = (file: File | undefined | null) => {
-    if (disabled || !file) return
-    setFileName(file.name)
-    onFile(file)
+  const handleFiles = (list: FileList | null | undefined) => {
+    const files = list ? Array.from(list) : []
+    if (disabled || files.length === 0) return
+    if (onFiles) {
+      setFileName(files.length === 1 ? files[0].name : `${files.length} files`)
+      onFiles(files)
+      return
+    }
+    setFileName(files[0].name)
+    onFile(files[0])
   }
 
   return (
@@ -45,7 +54,7 @@ export function FileDrop({
       onDrop={(event) => {
         event.preventDefault()
         setDragging(false)
-        handleFile(event.dataTransfer.files?.[0])
+        handleFiles(event.dataTransfer.files)
       }}
       className={cn(
         'flex min-h-[96px] cursor-pointer flex-col items-center justify-center gap-1.5 rounded-xl border-2 border-dashed border-border bg-card p-4 text-center shadow-1 transition-[background-color,border-color] duration-fast ease-out focus-within:ring-2 focus-within:ring-ring',
@@ -63,9 +72,10 @@ export function FileDrop({
         type="file"
         accept={accept}
         disabled={disabled}
+        multiple={Boolean(onFiles)}
         className="sr-only"
         onChange={(event) => {
-          handleFile(event.target.files?.[0])
+          handleFiles(event.target.files)
           // Clearing the value lets the same file be picked again after an edit
           event.target.value = ''
         }}

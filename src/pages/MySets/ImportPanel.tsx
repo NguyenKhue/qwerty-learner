@@ -39,6 +39,35 @@ export default function ImportPanel() {
     }
   }
 
+  // Several files at once: every file becomes its own set, named after the file; a file that cannot be read or has no valid word is skipped
+  const onFiles = async (files: File[]) => {
+    if (files.length === 1) return onFile(files[0])
+    setReading(true)
+    setResult(null)
+    setWarning('')
+    setMessage('')
+    let created = 0
+    const skipped: string[] = []
+    for (const file of files) {
+      try {
+        const parsed = parseWordsFile(file.name, await file.text())
+        if (parsed.words.length === 0) {
+          skipped.push(file.name)
+          continue
+        }
+        await createCustomDict({ name: file.name.replace(/\.[^.]+$/, ''), words: parsed.words })
+        created += 1
+      } catch {
+        skipped.push(file.name)
+      }
+    }
+    setMessage(
+      `Created ${created} ${created === 1 ? 'set' : 'sets'}` +
+        (skipped.length > 0 ? `; skipped ${skipped.length} (${skipped.slice(0, 5).join(', ')}${skipped.length > 5 ? '…' : ''})` : ''),
+    )
+    setReading(false)
+  }
+
   const onCreate = async () => {
     if (!result || result.words.length === 0 || !name.trim()) return
     setBusy(true)
@@ -56,7 +85,7 @@ export default function ImportPanel() {
   return (
     <Card className="flex w-full flex-col gap-4">
       <CardTitle>Import a set</CardTitle>
-      <FileDrop accept=".csv,.json,text/csv,application/json" onFile={(file) => onFile(file)} disabled={reading} />
+      <FileDrop accept=".csv,.json,text/csv,application/json" onFile={(file) => onFile(file)} onFiles={onFiles} disabled={reading} />
       <details className="text-sm">
         <summary className="min-h-[44px] cursor-pointer py-2 text-sm font-medium text-primary marker:text-muted-foreground [&::-webkit-details-marker]:text-muted-foreground">
           Format help
