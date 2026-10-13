@@ -1,3 +1,4 @@
+import { seededPersonalSetsAtom } from './personal'
 import { dictionaries, idDictionaryMap } from '@/resources/dictionary'
 import type { Dictionary } from '@/typings'
 import { isCustomDictId } from '@/utils/db/custom-dict'
@@ -6,7 +7,11 @@ import { atom } from 'jotai'
 export const customDictionariesAtom = atom<Dictionary[]>([])
 export const customDictionariesLoadedAtom = atom(false)
 
-export const allDictionariesAtom = atom<Dictionary[]>((get) => get(customDictionariesAtom).concat(dictionaries))
+// A built-in set that became the user's own set is listed once, as that custom set; it still resolves by id (see dictionaryByIdAtom)
+export const allDictionariesAtom = atom<Dictionary[]>((get) => {
+  const moved = get(seededPersonalSetsAtom)
+  return get(customDictionariesAtom).concat(dictionaries.filter((dict) => moved.indexOf(dict.id) === -1))
+})
 
 export const dictionaryByIdAtom = atom<Record<string, Dictionary>>((get) => {
   const byId: Record<string, Dictionary> = { ...idDictionaryMap }

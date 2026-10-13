@@ -1,3 +1,4 @@
+import { usePersonalSeeds } from '@/hooks/usePersonalSeeds'
 import { customDictionariesAtom, customDictionariesLoadedAtom } from '@/store/customDicts'
 import { CUSTOM_URL_PREFIX, customDictToDictionary, listCustomDicts } from '@/utils/db/custom-dict'
 import { useLiveQuery } from 'dexie-react-hooks'
@@ -7,6 +8,7 @@ import { mutate } from 'swr'
 
 /** Keeps the custom-set atoms in sync with IndexedDB (live: edits elsewhere in the app show up immediately). */
 export default function CustomDictsSync() {
+  usePersonalSeeds()
   const records = useLiveQuery(() => listCustomDicts(), [])
   const setDictionaries = useSetAtom(customDictionariesAtom)
   const setLoaded = useSetAtom(customDictionariesLoadedAtom)

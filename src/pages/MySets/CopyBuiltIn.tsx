@@ -1,12 +1,15 @@
 import { Panel } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import { dictionaries } from '@/resources/dictionary'
+import { seededPersonalSetsAtom } from '@/store/personal'
 import { duplicateDictionaryAsCustom } from '@/utils/db/copy-dict'
 import groupBy from '@/utils/groupBy'
+import { useAtomValue } from 'jotai'
 import { useMemo, useState } from 'react'
 
 export default function CopyBuiltIn() {
-  const englishDicts = useMemo(() => dictionaries.filter((dict) => dict.language === 'en'), [])
+  const moved = useAtomValue(seededPersonalSetsAtom)
+  const englishDicts = useMemo(() => dictionaries.filter((dict) => dict.language === 'en' && moved.indexOf(dict.id) === -1), [moved])
   const groups = useMemo(() => Object.entries(groupBy(englishDicts, (dict) => dict.category)), [englishDicts])
   const [selectedId, setSelectedId] = useState(englishDicts[0]?.id ?? '')
   const [busy, setBusy] = useState(false)

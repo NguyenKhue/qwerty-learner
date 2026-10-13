@@ -8,6 +8,7 @@ import {
   lookupDictionary,
   shouldResetDictId,
 } from './customDicts'
+import { seededPersonalSetsAtom } from './personal'
 import { dictionaries } from '@/resources/dictionary'
 import type { Dictionary } from '@/typings'
 import { createStore } from 'jotai'
@@ -100,5 +101,20 @@ describe('classifyDictId', () => {
     expect(classifyDictId('constructor', true, byId)).toBe('unknown')
     expect(classifyDictId('toString', false, byId)).toBe('unknown')
     expect(shouldResetDictId('constructor', true, byId)).toBe(true)
+  })
+})
+
+describe("built-in sets that were turned into the user's own sets", () => {
+  it('are hidden from the lists but still resolve by id, so old links and the stored current set keep working', () => {
+    const store = createStore()
+    store.set(seededPersonalSetsAtom, ['myVocab'])
+    expect(store.get(allDictionariesAtom).some((d) => d.id === 'myVocab')).toBe(false)
+    expect(store.get(allDictionariesAtom)).toHaveLength(dictionaries.length - 1)
+    expect(store.get(dictionaryByIdAtom).myVocab.id).toBe('myVocab')
+  })
+
+  it('show up normally until the move has happened', () => {
+    const store = createStore()
+    expect(store.get(allDictionariesAtom).some((d) => d.id === 'myVocab')).toBe(true)
   })
 })
