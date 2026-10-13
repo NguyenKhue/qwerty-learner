@@ -9,6 +9,7 @@ import { dashboardRefreshDelay, dashboardStats } from '@/utils/dashboard/stats'
 import type { ModeState } from '@/utils/dashboard/stats'
 import { loadActivity } from '@/utils/db/activity'
 import { getDictProgress } from '@/utils/db/card-progress'
+import { customEditPath } from '@/utils/db/custom-dict'
 import { formatDuration, readBest } from '@/utils/match/best'
 import { sanitizeNewPerDay } from '@/utils/srs/queue'
 import { useLiveQuery } from 'dexie-react-hooks'
@@ -86,6 +87,7 @@ export default function Dashboard() {
   const items = useMemo(() => buildNavItems(), [])
   const link = (id: NavItem['id']) => items.find((item) => item.id === id)?.to ?? '/'
   const best = readBest(dict.id)
+  const editPath = customEditPath(dict.id)
 
   const queued = stats ? stats.due + stats.newToday : 0
   const percent = stats && stats.total > 0 ? Math.min(100, Math.round((stats.seen / stats.total) * 100)) : 0
@@ -144,9 +146,16 @@ export default function Dashboard() {
             </h2>
             <div className="mt-1 flex flex-wrap items-center justify-between gap-3">
               <p className="text-lg font-semibold">{dict.name}</p>
-              <Link to="/gallery" className={secondaryButton}>
-                Change set
-              </Link>
+              <div className="flex flex-wrap gap-2">
+                {editPath && (
+                  <Link to={editPath} className={secondaryButton}>
+                    Edit set
+                  </Link>
+                )}
+                <Link to="/gallery" className={secondaryButton}>
+                  Change set
+                </Link>
+              </div>
             </div>
             <div
               role="progressbar"

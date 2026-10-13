@@ -2,6 +2,7 @@ import {
   CUSTOM_DICT_PREFIX,
   createCustomDict,
   customDictToDictionary,
+  customEditPath,
   customIdOf,
   deleteCustomDict,
   duplicateCustomDict,
@@ -136,5 +137,18 @@ describe('duplicateCustomDict', () => {
     copy.words[0].trans.push('changed')
     expect((await getCustomDict(a.id))?.words[0].trans).toEqual(['n. x'])
     await expect(duplicateCustomDict('missing')).rejects.toThrow()
+  })
+})
+
+describe('customEditPath', () => {
+  it('points a user-made set at its editor and gives nothing for a built-in set', () => {
+    expect(customEditPath('custom:abc123')).toBe('/my-sets/abc123')
+    expect(customEditPath('cet4')).toBeNull()
+    expect(customEditPath('myVocab')).toBeNull()
+    expect(customEditPath('')).toBeNull()
+  })
+
+  it('does not build a path for a custom id with nothing after the prefix', () => {
+    expect(customEditPath('custom:')).toBeNull()
   })
 })

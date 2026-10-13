@@ -10,6 +10,7 @@ import { Tabs, TabsContent } from '@/components/ui/tabs'
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
 import { currentChapterAtom, currentDictIdAtom, reviewModeInfoAtom } from '@/store'
 import type { Dictionary } from '@/typings'
+import { customEditPath } from '@/utils/db/custom-dict'
 import range from '@/utils/range'
 import { useAtom, useSetAtom } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
@@ -58,6 +59,8 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
     [dict.id, navigate, setCurrentChapter, setCurrentDictId, setReviewModeInfo],
   )
 
+  const editPath = customEditPath(dict.id)
+
   const onUseSet = useCallback(() => {
     setCurrentDictId(dict.id)
     setCurrentChapter(0)
@@ -76,17 +79,25 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
 
   return (
     <div className="flex flex-col rounded-[4rem] px-4 py-3 pl-5 text-foreground ">
-      <div className="text relative flex h-40 flex-col gap-2">
-        <div className="flex items-center justify-between gap-4">
-          <h3 className="text-2xl font-semibold">{dict.name}</h3>
-          <Button size="sm" onClick={onUseSet}>
-            Use this set
-          </Button>
+      {/* No fixed height and no absolute positioning: a long description pushes the tab buttons down instead of running under them */}
+      <div className="text flex flex-col gap-2 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-3 pr-8">
+          <h3 className="min-w-0 text-2xl font-semibold">{dict.name}</h3>
+          <div className="flex shrink-0 items-center gap-2">
+            {editPath && (
+              <Button size="sm" variant="outline" onClick={() => navigate(editPath)}>
+                Edit set
+              </Button>
+            )}
+            <Button size="sm" onClick={onUseSet}>
+              Use this set
+            </Button>
+          </div>
         </div>
         <p className="mt-1">{dict.chapterCount} chapters</p>
         <p>{dict.length} words in total</p>
         <p>{dict.description}</p>
-        <div className="absolute bottom-5 right-4">
+        <div className="mt-2 flex flex-wrap justify-end">
           <ToggleGroup type="single" value={curTab} onValueChange={handleTabChange}>
             <ToggleGroupItem
               value={Tab.Chapters}

@@ -21,6 +21,12 @@ export function customIdOf(dictId: string): string {
   return isCustomDictId(dictId) ? dictId.slice(CUSTOM_DICT_PREFIX.length) : dictId
 }
 
+/** The editor route of a user-made set, or null for a built-in set (those cannot be edited). */
+export function customEditPath(dictId: string): string | null {
+  const id = customIdOf(dictId)
+  return isCustomDictId(dictId) && id !== '' ? `/my-sets/${id}` : null
+}
+
 export function customDictToDictionary(rec: CustomDictRecord): Dictionary {
   return {
     id: CUSTOM_DICT_PREFIX + rec.id,
