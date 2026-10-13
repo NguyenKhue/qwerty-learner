@@ -36,6 +36,8 @@ const TEXT_PAIRS: Array<[string, string]> = [
 const UI_PAIRS: Array<[string, string]> = [
   ['ring', 'background'],
   ['ring', 'card'],
+  // the switch knob (card) against its off track (muted-foreground)
+  ['muted-foreground', 'card'],
 ]
 
 for (const [mode, selector] of [

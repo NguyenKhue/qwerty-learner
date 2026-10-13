@@ -36,9 +36,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
       <div
         ref={refs.setReference}
         {...getReferenceProps()}
-        className={`${
-          state.isTyping ? 'bg-gray-400 shadow-gray-200   dark:shadow-none' : 'bg-primary shadow-indigo-300 dark:shadow-indigo-500/60'
-        } ${
+        className={`${state.isTyping ? 'bg-gray-400 shadow-muted-foreground/20 dark:shadow-none' : 'bg-primary shadow-primary/30'} ${
           isShowReStartButton ? 'h-20' : 'h-auto'
         } flex-column absolute left-0 top-0 w-20 rounded-lg shadow-lg transition-colors duration-200`}
       >

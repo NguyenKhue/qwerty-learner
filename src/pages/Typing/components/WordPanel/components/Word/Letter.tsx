@@ -13,8 +13,9 @@ const stateClassNameMap: Record<string, Record<LetterState, string>> = {
   },
   false: {
     normal: 'text-foreground',
-    correct: 'text-green-600 dark:text-green-400',
-    wrong: 'text-red-600 dark:text-red-400',
+    // Not only a different hue: wrong letters are underlined, and the light-theme green is dark enough for 3:1 against the page
+    correct: 'text-green-700 dark:text-green-400',
+    wrong: 'text-red-600 underline decoration-2 underline-offset-4 dark:text-red-400',
   },
 }
 
