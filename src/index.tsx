@@ -53,6 +53,8 @@ function Root() {
               <Route path="/analysis" element={<AnalysisPage />} />
               <Route path="/error-book" element={<ErrorBook />} />
               <Route path="/my-sets" element={<MySetsPage />} />
+              <Route path="/my-sets/new" element={<SetEditorPage />} />
+              <Route path="/my-sets/:id/edit" element={<SetEditorPage />} />
               <Route path="/my-sets/:id" element={<SetEditorPage />} />
               <Route path="/study" element={<StudyPage />} />
               <Route path="/quiz" element={<QuizPage />} />

@@ -4,6 +4,7 @@ import {
   customDictToDictionary,
   customEditPath,
   customIdOf,
+  customViewPath,
   deleteCustomDict,
   duplicateCustomDict,
   getCustomDict,
@@ -142,7 +143,7 @@ describe('duplicateCustomDict', () => {
 
 describe('customEditPath', () => {
   it('points a user-made set at its editor and gives nothing for a built-in set', () => {
-    expect(customEditPath('custom:abc123')).toBe('/my-sets/abc123')
+    expect(customEditPath('custom:abc123')).toBe('/my-sets/abc123/edit')
     expect(customEditPath('cet4')).toBeNull()
     expect(customEditPath('myVocab')).toBeNull()
     expect(customEditPath('')).toBeNull()
@@ -150,5 +151,11 @@ describe('customEditPath', () => {
 
   it('does not build a path for a custom id with nothing after the prefix', () => {
     expect(customEditPath('custom:')).toBeNull()
+    expect(customViewPath('custom:')).toBeNull()
+  })
+
+  it('points a user-made set at its detail page and a built-in set nowhere', () => {
+    expect(customViewPath('custom:abc123')).toBe('/my-sets/abc123')
+    expect(customViewPath('cet4')).toBeNull()
   })
 })
