@@ -1,3 +1,4 @@
+import WeekCard from './WeekCard'
 import { buildNavItems } from '@/components/AppShell/navItems'
 import type { NavItem } from '@/components/AppShell/navItems'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
@@ -6,6 +7,7 @@ import { currentDictInfoAtom } from '@/store'
 import { newCardsPerDayAtom } from '@/store/study'
 import { dashboardRefreshDelay, dashboardStats } from '@/utils/dashboard/stats'
 import type { ModeState } from '@/utils/dashboard/stats'
+import { loadActivity } from '@/utils/db/activity'
 import { getDictProgress } from '@/utils/db/card-progress'
 import { formatDuration, readBest } from '@/utils/match/best'
 import { sanitizeNewPerDay } from '@/utils/srs/queue'
@@ -76,6 +78,7 @@ export default function Dashboard() {
     [words, progress],
   )
   const now = useNow(getDelay)
+  const activity = useLiveQuery(() => loadActivity(now), [now])
   const stats = useMemo(
     () => (words && progress ? dashboardStats({ words, progress, now, newPerDay }) : null),
     [words, progress, now, newPerDay],
@@ -161,6 +164,8 @@ export default function Dashboard() {
           </section>
         </>
       )}
+
+      {activity ? <WeekCard week={activity.week} streak={activity.streak} now={now} /> : <Skeleton className="h-48" />}
 
       <section aria-labelledby="modes-heading">
         <h2 id="modes-heading" className="mb-3 text-sm font-medium text-muted-foreground">

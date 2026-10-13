@@ -135,7 +135,7 @@ describe('review log', () => {
 
   it('leaves no entry behind when the card could not be saved', async () => {
     const original = db.cardProgress.put.bind(db.cardProgress)
-    db.cardProgress.put = (() => Promise.reject(new Error('disk full'))) as typeof db.cardProgress.put
+    db.cardProgress.put = (() => Promise.reject(new Error('disk full'))) as unknown as typeof db.cardProgress.put
     try {
       await expect(reviewCard('d', 'a', 'good', NOW)).rejects.toThrow()
     } finally {

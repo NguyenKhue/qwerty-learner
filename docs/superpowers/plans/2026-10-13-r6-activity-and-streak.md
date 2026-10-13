@@ -34,6 +34,7 @@
 **Files:** Modify `src/utils/db/database.ts`, `src/utils/db/record.ts`, `src/utils/db/card-progress.ts`, `src/utils/db/card-progress.test.ts`
 
 **Interfaces:**
+
 - Produces: `interface IReviewLogEntry { id?: number; at: number; dict: string; word: string; kind: 'flashcard' | 'quiz' }`; `db.reviewLog: Table<IReviewLogEntry, number>` with indexes `++id,at,dict`.
 
 - [ ] **Step 1: Failing tests** (append to `card-progress.test.ts`; its `beforeEach` also clears `db.reviewLog`): `reviewCard('d','a','good',NOW)` adds one row `{at: NOW, dict:'d', word:'a', kind:'flashcard'}`; `reviewQuizAnswer` with a wrong answer adds a `quiz` row; a correct answer on a never-studied word (no effect) adds none; a correct answer on a due card adds one; when the transaction throws (stub `db.cardProgress.put` to reject once) no log row remains.
@@ -46,6 +47,7 @@
 **Files:** Create `src/utils/activity/activity.ts`, `src/utils/activity/activity.test.ts`
 
 **Interfaces:**
+
 - Produces:
 
 ```ts
@@ -63,6 +65,7 @@ export function computeStreak(activeDayStarts: number[], now: number): number
 **Files:** Create `src/utils/db/activity.ts`, `src/utils/db/activity.test.ts`
 
 **Interfaces:**
+
 - Consumes: `buildWeek`, `computeStreak`, `db.reviewLog`, `db.wordRecords`.
 - Produces: `loadActivity(now: number): Promise<{ week: DayActivity[]; streak: number }>`; `STREAK_WINDOW_DAYS = 365`.
 

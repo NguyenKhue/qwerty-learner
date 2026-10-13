@@ -189,3 +189,12 @@ Deferred (minor): focus trap and `aria-modal` for the More sheet; a chapter in p
 - The first R5 conversion script also "tidied" spaces next to quotes. That changed rendered text in 9 places (`'Chapter '`, `'a new '`, `'; '`, and several bare `' '` separators in the typing word panel and the error table). A whitespace-sensitive comparison of every string literal, which my first audit lacked, found them. The migration was redone from the pre-R5 files without the tidy-up step, and the same comparison now shows only class-name changes (plus the intended Analysis card and Error book edits).
 - Error book: on a phone the table keeps a 38rem minimum width and scrolls sideways inside its own box; its header text uses `text-card-foreground` (it was `text-black` on a card, unreadable in dark mode).
 - Added after the Opus review: focus trap and `aria-modal` for the More sheet (tested helper `nextFocusIndex`), typing stays mounted when the window shrinks (latched media query), and the unrouted `src/pages/Gallery` folder was deleted.
+
+## Findings: R6 (weekly activity and streak)
+
+- New Dexie table `reviewLog` (schema version 5, indexes `++id,at,dict`). `reviewCard` and `reviewQuizAnswer` add a row inside their existing transaction; a quiz answer that does not change the schedule writes nothing, and a failed card write leaves no row (tested).
+- Typing activity comes from the existing `wordRecords` (`timeStamp` is epoch seconds). Reviews made before this table existed are not counted: the history cannot be recovered.
+- `buildWeek` (7 local days, oldest first) and `computeStreak` are pure and tested, including 23:59 vs 00:01 and a streak that survives an empty today. The streak looks back up to 365 days. The DST test builds days from local calendar components; on a machine without DST (such as this one) it checks no day is skipped or repeated rather than a real transition.
+- Dashboard: a "This week" card with stacked bars (cards reviewed in the primary color, words typed in the accent color), weekday labels, the streak, and an empty state. The bars are `aria-hidden`; a screen-reader list gives each day's numbers. It updates live (checked by inserting rows).
+- Export and import: `db.export` includes the new table; `importDatabase` already sets `acceptMissingTables`, so older exports still import (they leave the log empty).
+- Deleting a custom set removes its typing records, so those words leave the "typed" counts; its review log rows stay.
