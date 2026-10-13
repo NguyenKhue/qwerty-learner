@@ -17,7 +17,7 @@ const DropdownMenuContent = React.forwardRef<
       align={align}
       sideOffset={sideOffset}
       className={cn(
-        'z-50 min-w-[11rem] overflow-hidden rounded-lg border border-border bg-card p-1 text-card-foreground shadow-lg',
+        'z-50 min-w-[11rem] overflow-hidden rounded-xl border border-border bg-card p-1 text-card-foreground shadow-2 duration-fast ease-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95',
         className,
       )}
       {...props}
@@ -26,19 +26,24 @@ const DropdownMenuContent = React.forwardRef<
 ))
 DropdownMenuContent.displayName = DropdownMenuPrimitive.Content.displayName
 
-const DropdownMenuItem = React.forwardRef<
-  React.ElementRef<typeof DropdownMenuPrimitive.Item>,
-  React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Item>
->(({ className, ...props }, ref) => (
-  <DropdownMenuPrimitive.Item
-    ref={ref}
-    className={cn(
-      'flex min-h-[44px] cursor-pointer select-none items-center gap-2 rounded-md px-3 text-sm outline-none transition-colors focus:bg-muted data-[disabled]:pointer-events-none data-[disabled]:opacity-50',
-      className,
-    )}
-    {...props}
-  />
-))
+interface DropdownMenuItemProps extends React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Item> {
+  /** Styles the row as a destructive action, e.g. "Delete set" */
+  destructive?: boolean
+}
+
+const DropdownMenuItem = React.forwardRef<React.ElementRef<typeof DropdownMenuPrimitive.Item>, DropdownMenuItemProps>(
+  ({ className, destructive = false, ...props }, ref) => (
+    <DropdownMenuPrimitive.Item
+      ref={ref}
+      className={cn(
+        'flex min-h-[40px] cursor-pointer select-none items-center gap-2 rounded-lg px-3 text-sm outline-none transition-colors duration-fast focus:bg-muted data-[disabled]:pointer-events-none data-[disabled]:opacity-50',
+        destructive && 'text-destructive focus:bg-destructive/10 focus:text-destructive',
+        className,
+      )}
+      {...props}
+    />
+  ),
+)
 DropdownMenuItem.displayName = DropdownMenuPrimitive.Item.displayName
 
 const DropdownMenuSeparator = React.forwardRef<
