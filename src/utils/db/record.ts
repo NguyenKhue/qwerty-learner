@@ -209,3 +209,13 @@ export interface ICardProgress {
   firstSeen: number
   lastReviewed: number
 }
+
+/** One graded flashcard or schedule-changing quiz answer; the source of the dashboard's weekly activity and streak. */
+export interface IReviewLogEntry {
+  id?: number
+  // Epoch milliseconds
+  at: number
+  dict: string
+  word: string
+  kind: 'flashcard' | 'quiz'
+}

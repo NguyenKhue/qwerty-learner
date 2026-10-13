@@ -10,10 +10,11 @@ export async function getDictProgress(dict: string): Promise<ICardProgress[]> {
 
 /** Grades one card: reads its row, computes the next state, saves it, and returns the saved row. */
 export async function reviewCard(dict: string, word: string, grade: Grade, now: number = Date.now()): Promise<ICardProgress> {
-  return db.transaction('rw', db.cardProgress, async () => {
+  return db.transaction('rw', db.cardProgress, db.reviewLog, async () => {
     const existing = await db.cardProgress.get([dict, word])
     const next = nextState(existing, { dict, word }, grade, now)
     await db.cardProgress.put(next)
+    await db.reviewLog.add({ at: now, dict, word, kind: 'flashcard' })
     return next
   })
 }
@@ -29,12 +30,13 @@ export async function reviewQuizAnswer(
   correct: boolean,
   now: number = Date.now(),
 ): Promise<ICardProgress | null> {
-  return db.transaction('rw', db.cardProgress, async () => {
+  return db.transaction('rw', db.cardProgress, db.reviewLog, async () => {
     const existing = await db.cardProgress.get([dict, word])
     const grade = srsEffect(correct, existing, now)
     if (!grade) return null
     const next = nextState(existing, { dict, word }, grade, now)
     await db.cardProgress.put(next)
+    await db.reviewLog.add({ at: now, dict, word, kind: 'quiz' })
     return next
   })
 }

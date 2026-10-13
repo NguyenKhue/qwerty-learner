@@ -1,4 +1,12 @@
-import type { CustomDictRecord, ICardProgress, IChapterRecord, IReviewRecord, IRevisionDictRecord, IWordRecord } from './record'
+import type {
+  CustomDictRecord,
+  ICardProgress,
+  IChapterRecord,
+  IReviewLogEntry,
+  IReviewRecord,
+  IRevisionDictRecord,
+  IWordRecord,
+} from './record'
 import { ChapterRecord, ReviewRecord, WordRecord } from './record'
 import type { Table } from 'dexie'
 import Dexie from 'dexie'
@@ -13,6 +21,7 @@ class RecordDB extends Dexie {
 
   customDicts!: Table<CustomDictRecord, string>
   cardProgress!: Table<ICardProgress, [string, string]>
+  reviewLog!: Table<IReviewLogEntry, number>
 
   constructor() {
     super('RecordDB')
@@ -35,6 +44,14 @@ class RecordDB extends Dexie {
       reviewRecords: '++id,dict,createTime,isFinished',
       customDicts: 'id,name,updatedAt,createdAt',
       cardProgress: '[dict+word],dict,due',
+    })
+    this.version(5).stores({
+      wordRecords: '++id,word,timeStamp,dict,chapter,wrongCount,[dict+chapter]',
+      chapterRecords: '++id,timeStamp,dict,chapter,time,[dict+chapter]',
+      reviewRecords: '++id,dict,createTime,isFinished',
+      customDicts: 'id,name,updatedAt,createdAt',
+      cardProgress: '[dict+word],dict,due',
+      reviewLog: '++id,at,dict',
     })
   }
 }

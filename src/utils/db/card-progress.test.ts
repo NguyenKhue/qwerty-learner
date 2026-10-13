@@ -7,6 +7,7 @@ const NOW = new Date(2026, 9, 12, 15, 30).getTime()
 
 beforeEach(async () => {
   await db.cardProgress.clear()
+  await db.reviewLog.clear()
 })
 
 describe('reviewCard', () => {
@@ -113,5 +114,34 @@ describe('built-in dictionaries', () => {
     await reviewCard('cet4', 'ability', 'good', NOW)
     expect(await reviewQuizAnswer('cet4', 'ability', true, NOW + 1000)).toBeNull()
     expect((await reviewQuizAnswer('cet4', 'ability', true, later))?.reps).toBe(2)
+  })
+})
+
+describe('review log', () => {
+  it('records one entry for each graded flashcard', async () => {
+    await reviewCard('d', 'a', 'good', NOW)
+    await reviewCard('d', 'a', 'good', NOW + 1000)
+    const rows = await db.reviewLog.toArray()
+    expect(rows).toHaveLength(2)
+    expect(rows[0]).toMatchObject({ at: NOW, dict: 'd', word: 'a', kind: 'flashcard' })
+  })
+
+  it('records a quiz answer only when it touches the schedule', async () => {
+    expect(await reviewQuizAnswer('d', 'new', true, NOW)).toBeNull()
+    expect(await db.reviewLog.count()).toBe(0)
+    await reviewQuizAnswer('d', 'new', false, NOW)
+    expect(await db.reviewLog.toArray()).toEqual([expect.objectContaining({ at: NOW, dict: 'd', word: 'new', kind: 'quiz' })])
+  })
+
+  it('leaves no entry behind when the card could not be saved', async () => {
+    const original = db.cardProgress.put.bind(db.cardProgress)
+    db.cardProgress.put = (() => Promise.reject(new Error('disk full'))) as typeof db.cardProgress.put
+    try {
+      await expect(reviewCard('d', 'a', 'good', NOW)).rejects.toThrow()
+    } finally {
+      db.cardProgress.put = original
+    }
+    expect(await db.reviewLog.count()).toBe(0)
+    expect(await db.cardProgress.count()).toBe(0)
   })
 })
