@@ -23,7 +23,8 @@ export default function DictionaryGroup({ groupedDictsByTag }: { groupedDictsByT
   }, [currentDictInfo.tags, tagList])
 
   return (
-    <div>
+    // `w-full`: the parent aligns its children to the start, which would shrink this block to its content and leave the grid a single column
+    <div className="w-full">
       <DictTagSwitcher tagList={tagList} currentTag={currentTag} onChangeCurrentTag={onChangeCurrentTag} />
       <div className="mt-6 grid gap-4 px-1 pb-4 [grid-template-columns:repeat(auto-fill,minmax(min(20rem,100%),1fr))] sm:gap-6">
         {currentTag && groupedDictsByTag[currentTag] ? (

@@ -48,12 +48,18 @@ export default function MySetsPage() {
   }
 
   return (
-    <div className="stagger mx-auto flex w-full max-w-4xl flex-col gap-8 px-4 py-6 md:px-8 md:py-8">
+    <div className="stagger mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-6 md:px-8 md:py-8">
       <div style={{ '--i': 0 } as CSSProperties}>
         <PageHeader title="My sets" actions={<Button onClick={() => navigate('/my-sets/new')}>New set</Button>} />
       </div>
 
-      <div style={{ '--i': 1 } as CSSProperties}>
+      {/* The ways to add a set come first, so they stay in reach however many sets there are below */}
+      <div style={{ '--i': 1 } as CSSProperties} className="grid items-start gap-4 lg:grid-cols-2">
+        <ImportPanel />
+        <CopyBuiltIn />
+      </div>
+
+      <div style={{ '--i': 2 } as CSSProperties}>
         {sets.length === 0 ? (
           <Card className="flex flex-col items-center gap-3 border-dashed p-8 text-center">
             <IconBooks className="h-10 w-10 text-muted-foreground" aria-hidden />
@@ -63,12 +69,12 @@ export default function MySetsPage() {
             <Button onClick={() => navigate('/my-sets/new')}>New set</Button>
           </Card>
         ) : (
-          <ul className="flex flex-col gap-3">
+          <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {sets.map((dict) => {
               const viewPath = customViewPath(dict.id) ?? '/my-sets'
               return (
-                <li key={dict.id}>
-                  <Card interactive className="relative flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between sm:p-5">
+                <li key={dict.id} className="flex">
+                  <Card interactive className="relative flex w-full flex-col justify-between gap-4 p-4 sm:p-5">
                     <div className="min-w-0">
                       {/* Stretched link: the ::after overlay makes the whole row clickable, the buttons below sit above it via z-10 */}
                       <Link
@@ -77,7 +83,7 @@ export default function MySetsPage() {
                       >
                         {dict.name}
                       </Link>
-                      <p className="truncate text-sm text-muted-foreground">
+                      <p className="mt-0.5 truncate text-sm text-muted-foreground">
                         {dict.length} words{dict.description ? ` · ${dict.description}` : ''}
                       </p>
                     </div>
@@ -104,13 +110,6 @@ export default function MySetsPage() {
           {error}
         </p>
       )}
-
-      <div style={{ '--i': 2 } as CSSProperties}>
-        <ImportPanel />
-      </div>
-      <div style={{ '--i': 3 } as CSSProperties}>
-        <CopyBuiltIn />
-      </div>
     </div>
   )
 }
