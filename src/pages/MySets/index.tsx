@@ -54,7 +54,7 @@ export default function MySetsPage() {
       </div>
 
       {/* The ways to add a set come first, so they stay in reach however many sets there are below */}
-      <div style={{ '--i': 1 } as CSSProperties} className="grid items-start gap-4 lg:grid-cols-2">
+      <div style={{ '--i': 1 } as CSSProperties} className="flex flex-col gap-4">
         <ImportPanel />
         <CopyBuiltIn />
       </div>
