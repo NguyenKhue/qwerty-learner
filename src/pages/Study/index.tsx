@@ -5,14 +5,18 @@ import { InlineLoading } from '@/components/Loading'
 import { ModeFrame, PageMessage } from '@/components/ModePage'
 import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { customDictionariesLoadedAtom, dictionaryByIdAtom, isCustomDictPending, lookupDictionary } from '@/store/customDicts'
-import { newCardsPerDayAtom, studyReverseAtom } from '@/store/study'
-import { getDictProgress } from '@/utils/db/card-progress'
+import { extraNewCardsAtom, newCardsPerDayAtom, studyReverseAtom } from '@/store/study'
+import { getDictProgress, getHardWordsToday } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
 import { fetchDetailMap } from '@/utils/detail/sidecar'
 import { canGoBack } from '@/utils/history'
 import { type ProgressSummary, progressSummary } from '@/utils/progress/status'
-import { buildQueue, nextDueTime, nextRefreshDelay, sanitizeNewPerDay } from '@/utils/srs/queue'
+import shuffle from '@/utils/shuffle'
+import { practiceWords } from '@/utils/srs/practice'
+import type { PracticeScope } from '@/utils/srs/practice'
+import { buildQueue, extraNewToday, nextDueTime, nextRefreshDelay, sanitizeNewPerDay } from '@/utils/srs/queue'
 import type { QueueItem } from '@/utils/srs/queue'
+import { startOfLocalDay } from '@/utils/srs/time'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useEffect, useState } from 'react'
@@ -33,6 +37,7 @@ function Study({ id }: { id: string }) {
   const [newPerDayStored, setNewPerDay] = useAtom(newCardsPerDayAtom)
   const [reverse, setReverse] = useAtom(studyReverseAtom)
   const newPerDay = sanitizeNewPerDay(newPerDayStored)
+  const [extraNewBySet, setExtraNewBySet] = useAtom(extraNewCardsAtom)
 
   const dict = lookupDictionary(dictionaryById, id)
   const pending = isCustomDictPending(id, customLoaded)
@@ -51,10 +56,15 @@ function Study({ id }: { id: string }) {
   const [summary, setSummary] = useState<SessionSummary | null>(null)
   // How the set stood when the session began, so the overview afterwards can show the gain
   const [before, setBefore] = useState<ProgressSummary | null>(null)
+  const [hardToday, setHardToday] = useState<Set<string>>(() => new Set())
+  const [practicing, setPracticing] = useState(false)
+  const extraNew = extraNewToday(extraNewBySet[id], now)
 
   const reloadProgress = useCallback(async () => {
     try {
-      setProgress(await getDictProgress(id))
+      const [rows, hard] = await Promise.all([getDictProgress(id), getHardWordsToday(id)])
+      setProgress(rows)
+      setHardToday(hard)
       setNow(Date.now())
       setProgressError('')
     } catch (e) {
@@ -89,18 +99,49 @@ function Study({ id }: { id: string }) {
   const onStart = useCallback(() => {
     if (!words || !progress) return
     const fresh = Date.now()
-    const built = buildQueue({ words, progress, now: fresh, newPerDay })
+    const built = buildQueue({ words, progress, now: fresh, newPerDay, extraNew: extraNewToday(extraNewBySet[id], fresh) })
     if (built.length === 0) {
       setNow(fresh)
       return
     }
     setBefore(progressSummary(words, progress))
+    setPracticing(false)
     setQueue(built)
-  }, [words, progress, newPerDay])
+  }, [words, progress, newPerDay, extraNewBySet, id])
+
+  // "Learn more" raises today's new-card limit of this set only, then starts the session with the extra cards
+  const onLearnMore = useCallback(
+    (count: number) => {
+      if (!words || !progress) return
+      const fresh = Date.now()
+      const extra = extraNewToday(extraNewBySet[id], fresh) + count
+      setExtraNewBySet((prev) => ({ ...prev, [id]: { day: startOfLocalDay(fresh), count: extra } }))
+      const built = buildQueue({ words, progress, now: fresh, newPerDay, extraNew: extra })
+      if (built.length === 0) return
+      setBefore(progressSummary(words, progress))
+      setPracticing(false)
+      setQueue(built)
+    },
+    [words, progress, newPerDay, extraNewBySet, id, setExtraNewBySet],
+  )
+
+  // Practice goes through the chosen cards in a shuffled order without touching the schedule
+  const onPractice = useCallback(
+    (scope: PracticeScope) => {
+      if (!words || !progress) return
+      const picked = practiceWords({ words, progress, hardToday, now: Date.now(), scope })
+      if (picked.length === 0) return
+      setBefore(null)
+      setPracticing(true)
+      setQueue(shuffle(picked).map((word): QueueItem => ({ word, kind: 'due' })))
+    },
+    [words, progress, hardToday],
+  )
 
   const onFinish = useCallback(
     (result: SessionSummary) => {
       setQueue(null)
+      setPracticing(false)
       setSummary(result)
       reloadProgress()
     },
@@ -119,7 +160,17 @@ function Study({ id }: { id: string }) {
   if (!words || !progress) return message('Loading…')
 
   if (queue) {
-    return <StudySession dictId={id} queue={queue} progress={progress} reverse={reverse} details={detailMap} onFinish={onFinish} />
+    return (
+      <StudySession
+        dictId={id}
+        queue={queue}
+        progress={progress}
+        reverse={reverse}
+        details={detailMap}
+        practice={practicing}
+        onFinish={onFinish}
+      />
+    )
   }
 
   return (
@@ -129,12 +180,16 @@ function Study({ id }: { id: string }) {
       progress={progress}
       now={now}
       newPerDay={newPerDay}
+      extraNew={extraNew}
+      hardToday={hardToday}
       onNewPerDayChange={setNewPerDay}
       reverse={reverse}
       onReverseChange={setReverse}
       summary={summary}
       before={before}
       onStart={onStart}
+      onLearnMore={onLearnMore}
+      onPractice={onPractice}
       // Nothing earlier in this app's history: fall back to the dashboard
       onBack={() => (canGoBack() ? navigate(-1) : navigate('/'))}
     />

@@ -1,4 +1,4 @@
-import { getDictProgress, reviewCard, reviewQuizAnswer } from './card-progress'
+import { getDictProgress, getHardWordsToday, reviewCard, reviewQuizAnswer } from './card-progress'
 import { db } from './database'
 import type { ICardProgress } from './record'
 import { beforeEach, describe, expect, it } from 'vitest'
@@ -143,5 +143,18 @@ describe('review log', () => {
     }
     expect(await db.reviewLog.count()).toBe(0)
     expect(await db.cardProgress.count()).toBe(0)
+  })
+})
+
+describe('getHardWordsToday', () => {
+  it('returns the words of the set graded Again or Hard today', async () => {
+    await reviewCard('d', 'again', 'again', NOW)
+    await reviewCard('d', 'hard', 'hard', NOW)
+    await reviewCard('d', 'good', 'good', NOW)
+    await reviewCard('other', 'elsewhere', 'again', NOW)
+    await reviewCard('d', 'yesterday', 'again', NOW - 86400000)
+    // An entry from before grades were kept
+    await db.reviewLog.add({ at: NOW, dict: 'd', word: 'old', kind: 'flashcard' })
+    expect(Array.from(await getHardWordsToday('d', NOW)).sort()).toEqual(['again', 'hard'])
   })
 })

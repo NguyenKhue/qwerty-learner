@@ -5,8 +5,16 @@ import { Button } from '@/components/ui/button'
 import type { Word } from '@/typings'
 import type { ICardProgress } from '@/utils/db/record'
 import { type ProgressSummary, progressSummary } from '@/utils/progress/status'
-import { buildQueue, nextDueTime, queueCounts, sanitizeNewPerDay } from '@/utils/srs/queue'
+import { PRACTICE_SCOPES, practiceWords } from '@/utils/srs/practice'
+import type { PracticeScope } from '@/utils/srs/practice'
+import { buildQueue, nextDueTime, queueCounts, sanitizeNewPerDay, unseenCount } from '@/utils/srs/queue'
 import { useEffect, useMemo, useState } from 'react'
+
+const PRACTICE_LABEL: Record<PracticeScope, string> = {
+  today: 'Studied today',
+  hard: 'Hard today',
+  all: 'Whole set',
+}
 
 type Props = {
   dictName: string
@@ -14,6 +22,10 @@ type Props = {
   progress: ICardProgress[]
   now: number
   newPerDay: number
+  /** Extra new cards already asked for today with "Learn more" */
+  extraNew: number
+  /** Words graded Again or Hard today */
+  hardToday: Set<string>
   onNewPerDayChange: (value: number) => void
   reverse: boolean
   onReverseChange: (value: boolean) => void
@@ -21,6 +33,8 @@ type Props = {
   /** Counts from before the session that just finished, to show what it gained */
   before?: ProgressSummary | null
   onStart: () => void
+  onLearnMore: (count: number) => void
+  onPractice: (scope: PracticeScope) => void
   onBack: () => void
 }
 
@@ -30,18 +44,32 @@ export default function StudyOverview({
   progress,
   now,
   newPerDay,
+  extraNew,
+  hardToday,
   onNewPerDayChange,
   reverse,
   onReverseChange,
   summary,
   before,
   onStart,
+  onLearnMore,
+  onPractice,
   onBack,
 }: Props) {
   const [limitText, setLimitText] = useState(String(newPerDay))
   // Follow the stored value if it changes after mount (e.g. another tab)
   useEffect(() => setLimitText(String(newPerDay)), [newPerDay])
-  const queue = useMemo(() => buildQueue({ words, progress, now, newPerDay }), [words, progress, now, newPerDay])
+  const queue = useMemo(() => buildQueue({ words, progress, now, newPerDay, extraNew }), [words, progress, now, newPerDay, extraNew])
+  const unseen = useMemo(() => unseenCount(words, progress), [words, progress])
+  const practiceSizes = useMemo(
+    () =>
+      Object.fromEntries(
+        PRACTICE_SCOPES.map((scope) => [scope, practiceWords({ words, progress, hardToday, now, scope }).length]),
+      ) as Record<PracticeScope, number>,
+    [words, progress, hardToday, now],
+  )
+  // +10 and +20, or a single button for what is left when fewer words are unseen
+  const moreSteps = unseen > 10 ? [10, Math.min(20, unseen)] : unseen > 0 ? [unseen] : []
   const counts = queueCounts(queue)
   const overall = useMemo(() => progressSummary(words, progress), [words, progress])
   const next = useMemo(() => nextDueTime(words, progress, now), [words, progress, now])
@@ -57,8 +85,10 @@ export default function StudyOverview({
       <ModePage title={dictName} onBack={onBack}>
         {summary && (
           <p className="rounded-lg bg-primary/10 p-4 text-sm text-primary">
-            Session finished: {summary.reviewed} {summary.reviewed === 1 ? 'answer' : 'answers'} given
-            {summary.again > 0 ? `, ${summary.again} of them Again` : ''}.
+            {summary.practice ? 'Practice finished' : 'Session finished'}: {summary.reviewed}{' '}
+            {summary.reviewed === 1 ? 'answer' : 'answers'} given
+            {summary.again > 0 ? `, ${summary.again} of them Again` : ''}
+            {summary.practice ? '. Your schedule did not change.' : '.'}
           </p>
         )}
 
@@ -71,6 +101,16 @@ export default function StudyOverview({
               <p className="text-sm text-muted-foreground">
                 {next === null ? 'Nothing is scheduled.' : `Next review: ${new Date(next).toLocaleString()}`}
               </p>
+              {moreSteps.length > 0 && (
+                <div className="flex flex-wrap items-center gap-2 pt-2">
+                  <span className="text-sm">Have more time? Learn more new cards today:</span>
+                  {moreSteps.map((step) => (
+                    <Button key={step} variant="outline" onClick={() => onLearnMore(step)}>
+                      +{step} new
+                    </Button>
+                  ))}
+                </div>
+              )}
             </div>
           ) : (
             <div className="space-y-4">
@@ -86,6 +126,22 @@ export default function StudyOverview({
             </div>
           )}
         </Panel>
+
+        {words.length > 0 && (
+          <Panel className="space-y-3">
+            <div>
+              <p className="font-medium">Practice</p>
+              <p className="text-sm text-muted-foreground">Go through cards again. Grades here do not change your schedule.</p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {PRACTICE_SCOPES.map((scope) => (
+                <Button key={scope} variant="outline" disabled={practiceSizes[scope] === 0} onClick={() => onPractice(scope)}>
+                  {PRACTICE_LABEL[scope]} <span className="num ml-1 text-muted-foreground">{practiceSizes[scope]}</span>
+                </Button>
+              ))}
+            </div>
+          </Panel>
+        )}
 
         <Panel>
           <SetProgress summary={overall} before={summary ? before ?? undefined : undefined} />

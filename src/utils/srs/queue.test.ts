@@ -1,4 +1,13 @@
-import { DEFAULT_NEW_PER_DAY, buildQueue, nextDueTime, nextRefreshDelay, queueCounts, sanitizeNewPerDay } from './queue'
+import {
+  DEFAULT_NEW_PER_DAY,
+  buildQueue,
+  extraNewToday,
+  nextDueTime,
+  nextRefreshDelay,
+  queueCounts,
+  sanitizeNewPerDay,
+  unseenCount,
+} from './queue'
 import { startOfLocalDay } from './time'
 import type { Word } from '@/typings'
 import type { ICardProgress } from '@/utils/db/record'
@@ -148,5 +157,27 @@ describe('nextRefreshDelay', () => {
 
   it('never returns less than one second', () => {
     expect(nextRefreshDelay(NOW, NOW)).toBe(1000)
+  })
+})
+
+describe('extra new cards for today', () => {
+  it('adds the extra cards on top of the daily limit, minus those already introduced', () => {
+    const words = ['a', 'b', 'c', 'd', 'e'].map(word)
+    const introduced = [card('a', { firstSeen: TODAY + 1000, due: NOW + 99999 }), card('b', { firstSeen: TODAY + 2000, due: NOW + 99999 })]
+    expect(names(buildQueue({ words, progress: introduced, now: NOW, newPerDay: 2 }))).toEqual([])
+    expect(names(buildQueue({ words, progress: introduced, now: NOW, newPerDay: 2, extraNew: 2 }))).toEqual(['c', 'd'])
+    expect(names(buildQueue({ words, progress: introduced, now: NOW, newPerDay: 2, extraNew: -5 }))).toEqual([])
+  })
+
+  it('only counts the extra on the day it was asked for', () => {
+    expect(extraNewToday({ day: TODAY, count: 10 }, NOW)).toBe(10)
+    expect(extraNewToday({ day: TODAY - 86400000, count: 10 }, NOW)).toBe(0)
+    expect(extraNewToday(undefined, NOW)).toBe(0)
+    expect(extraNewToday({ day: TODAY, count: Number.NaN }, NOW)).toBe(0)
+  })
+
+  it('counts the words never studied, once per name', () => {
+    const words = ['a', 'b', 'b', 'c'].map(word)
+    expect(unseenCount(words, [card('a'), card('gone')])).toBe(2)
   })
 })

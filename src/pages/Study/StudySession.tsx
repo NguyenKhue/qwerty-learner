@@ -21,7 +21,7 @@ import { useHotkeys } from 'react-hotkeys-hook'
 // Space on a focused button must activate that button, not be swallowed by the hotkey
 const ignoreFocusedButton = (e: KeyboardEvent) => isActivatableButton(e.target)
 
-export type SessionSummary = { reviewed: number; again: number }
+export type SessionSummary = { reviewed: number; again: number; practice?: boolean }
 
 type Props = {
   dictId: string
@@ -29,6 +29,8 @@ type Props = {
   progress: ICardProgress[]
   reverse: boolean
   details?: Record<string, string>
+  /** A practice round: grades only move the card in this round, nothing is saved and the schedule stays as it is */
+  practice?: boolean
   onFinish: (summary: SessionSummary) => void
 }
 
@@ -41,7 +43,7 @@ const GRADE_STYLE: Record<Grade, string> = {
 }
 const GRADE_NAME: Record<Grade, string> = { again: 'Again', hard: 'Hard', good: 'Good', easy: 'Easy' }
 
-export default function StudySession({ dictId, queue, progress, reverse, details, onFinish }: Props) {
+export default function StudySession({ dictId, queue, progress, reverse, details, practice = false, onFinish }: Props) {
   const [session, setSession] = useState(() => createSession(queue))
   // The session guards read this ref, which is updated synchronously, instead of the value captured by the last render
   const sessionRef = useRef(session)
@@ -60,6 +62,7 @@ export default function StudySession({ dictId, queue, progress, reverse, details
       getSession: () => sessionRef.current,
       setSession: updateSession,
       save: async (word, grade) => {
+        if (practice) return
         const saved = await reviewCard(dictId, word, grade)
         setCards((prev) => {
           const next = new Map(prev)
@@ -81,8 +84,8 @@ export default function StudySession({ dictId, queue, progress, reverse, details
   const finish = useCallback(() => {
     if (finished.current) return
     finished.current = true
-    onFinish({ reviewed: sessionRef.current.reviewed, again: sessionRef.current.again })
-  }, [onFinish])
+    onFinish({ reviewed: sessionRef.current.reviewed, again: sessionRef.current.again, practice })
+  }, [onFinish, practice])
 
   useEffect(() => {
     if (!item) finish()
@@ -107,7 +110,7 @@ export default function StudySession({ dictId, queue, progress, reverse, details
 
   const { word } = item
   const phonetic = word.usphone || word.ukphone
-  const labels = previewLabels(cards.get(word.name), { dict: dictId, word: word.name }, labelsNow)
+  const labels = practice ? null : previewLabels(cards.get(word.name), { dict: dictId, word: word.name }, labelsNow)
 
   const wordBlock = (
     <div className="flex flex-col items-center gap-2">
@@ -153,9 +156,10 @@ export default function StudySession({ dictId, queue, progress, reverse, details
       </div>
     )
 
+  const kindLabel = practice ? 'Practice' : item.kind === 'new' ? 'New' : 'Due'
   const front = (
     <div className="flex flex-col items-center gap-6">
-      <span className="text-xs uppercase tracking-wide text-muted-foreground">{item.kind === 'new' ? 'New' : 'Due'}</span>
+      <span className="text-xs uppercase tracking-wide text-muted-foreground">{kindLabel}</span>
       {reverse ? meaningBlock : wordBlock}
     </div>
   )
@@ -177,9 +181,16 @@ export default function StudySession({ dictId, queue, progress, reverse, details
     <ModeFrame>
       <ScrollCenter className="max-w-3xl gap-8">
         <div className="flex w-full items-center justify-between text-sm text-muted-foreground">
-          <span>
-            New {counts.new} · Due {counts.due}
-          </span>
+          {practice ? (
+            <span>
+              Practice · {session.queue.length} left
+              <span className="ml-2 hidden sm:inline">· does not change your schedule</span>
+            </span>
+          ) : (
+            <span>
+              New {counts.new} · Due {counts.due}
+            </span>
+          )}
           <Button size="sm" variant="outline" disabled={saving} onClick={finish}>
             Exit
           </Button>
@@ -193,9 +204,7 @@ export default function StudySession({ dictId, queue, progress, reverse, details
         <p className="text-xs text-muted-foreground">Tap the card or press Space to flip it</p>
 
         <p className="sr-only" aria-live="polite">
-          {session.flipped
-            ? `${word.name}: ${word.trans.join('; ')}`
-            : `${item.kind === 'new' ? 'New' : 'Due'} card: ${reverse ? word.trans.join('; ') : word.name}`}
+          {session.flipped ? `${word.name}: ${word.trans.join('; ')}` : `${kindLabel} card: ${reverse ? word.trans.join('; ') : word.name}`}
         </p>
 
         {error && (
@@ -215,7 +224,7 @@ export default function StudySession({ dictId, queue, progress, reverse, details
               <span>
                 {GRADE_NAME[grade]} ({index + 1})
               </span>
-              <span className="block text-xs font-normal text-muted-foreground">{labels[grade]}</span>
+              {labels && <span className="block text-xs font-normal text-muted-foreground">{labels[grade]}</span>}
             </button>
           ))}
         </div>

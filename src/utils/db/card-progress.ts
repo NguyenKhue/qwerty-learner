@@ -3,9 +3,16 @@ import type { ICardProgress } from './record'
 import { srsEffect } from '@/utils/quiz/effect'
 import { nextState } from '@/utils/srs/scheduler'
 import type { Grade } from '@/utils/srs/scheduler'
+import { startOfLocalDay } from '@/utils/srs/time'
 
 export async function getDictProgress(dict: string): Promise<ICardProgress[]> {
   return db.cardProgress.where('dict').equals(dict).toArray()
+}
+
+/** Words of the set graded Again or Hard on a flashcard today. */
+export async function getHardWordsToday(dict: string, now: number = Date.now()): Promise<Set<string>> {
+  const entries = await db.reviewLog.where('at').aboveOrEqual(startOfLocalDay(now)).toArray()
+  return new Set(entries.filter((e) => e.dict === dict && (e.grade === 'again' || e.grade === 'hard')).map((e) => e.word))
 }
 
 /** Grades one card: reads its row, computes the next state, saves it, and returns the saved row. */
@@ -14,7 +21,7 @@ export async function reviewCard(dict: string, word: string, grade: Grade, now: 
     const existing = await db.cardProgress.get([dict, word])
     const next = nextState(existing, { dict, word }, grade, now)
     await db.cardProgress.put(next)
-    await db.reviewLog.add({ at: now, dict, word, kind: 'flashcard' })
+    await db.reviewLog.add({ at: now, dict, word, kind: 'flashcard', grade })
     return next
   })
 }

@@ -218,4 +218,6 @@ export interface IReviewLogEntry {
   dict: string
   word: string
   kind: 'flashcard' | 'quiz'
+  // The flashcard grade; entries written before grades were kept have none
+  grade?: 'again' | 'hard' | 'good' | 'easy'
 }

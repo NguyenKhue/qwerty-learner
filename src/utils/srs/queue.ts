@@ -44,8 +44,31 @@ function progressOfWords(words: Word[], progress: ICardProgress[]): Map<string, 
   return byWord
 }
 
-/** Today's queue: due cards (oldest first), then new cards in set order, limited to `newPerDay` minus those first seen today. */
-export function buildQueue(input: { words: Word[]; progress: ICardProgress[]; now: number; newPerDay: number }): QueueItem[] {
+/** Extra new cards asked for on top of the daily limit; it only counts on the day it was asked for. */
+export type ExtraNew = { day: number; count: number }
+
+export function extraNewToday(extra: ExtraNew | undefined, now: number): number {
+  if (!extra || extra.day !== startOfLocalDay(now) || !Number.isFinite(extra.count)) return 0
+  return Math.max(0, Math.floor(extra.count))
+}
+
+/** How many words of the set have never been studied. */
+export function unseenCount(words: Word[], progress: ICardProgress[]): number {
+  const unique = uniqueWords(words)
+  return unique.length - progressOfWords(unique, progress).size
+}
+
+/**
+ * Today's queue: due cards (oldest first), then new cards in set order, limited to `newPerDay` plus `extraNew` minus those first seen
+ * today.
+ */
+export function buildQueue(input: {
+  words: Word[]
+  progress: ICardProgress[]
+  now: number
+  newPerDay: number
+  extraNew?: number
+}): QueueItem[] {
   const words = uniqueWords(input.words)
   const byWord = progressOfWords(words, input.progress)
   const dayStart = startOfLocalDay(input.now)
@@ -64,7 +87,7 @@ export function buildQueue(input: { words: Word[]; progress: ICardProgress[]; no
   })
   due.sort((a, b) => a.due - b.due)
 
-  const newLimit = Math.max(0, sanitizeNewPerDay(input.newPerDay) - introducedToday)
+  const newLimit = Math.max(0, sanitizeNewPerDay(input.newPerDay) + Math.max(0, input.extraNew ?? 0) - introducedToday)
   return due
     .map((item): QueueItem => ({ word: item.word, kind: 'due' }))
     .concat(fresh.slice(0, newLimit).map((word): QueueItem => ({ word, kind: 'new' })))
