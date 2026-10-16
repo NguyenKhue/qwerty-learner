@@ -2,8 +2,8 @@
     {
         "name": "father",
         "trans": [
-            "n. 父亲，爸爸；神父；祖先；前辈",
-            "vt. 发明，创立；当…的父亲"
+            "n. cha, bố, cha xứ, tổ tiên, tiền bối",
+            "vt. sáng lập, tạo dựng, làm cha của"
         ],
         "usphone": "[ˈfɑːðər]",
         "ukphone": "[ˈfɑːðə(r)]"
@@ -49,7 +49,7 @@
     {
         "name": "has",
         "trans": [
-            "v. 有，吃，得到，从事，允许，雇用，享有（have的第三人称单数）；（亲属关系中）接受；拿；买到"
+            "v. có, ăn, nhận được, làm, cho phép, thuê, hưởng (ngôi ba số ít của have); (quan hệ thân thuộc) nhận; lấy; mua được"
         ],
         "usphone": "[həz; əz; hæz]",
         "ukphone": "[həz]"
@@ -57,8 +57,8 @@
     {
         "name": "brother",
         "trans": [
-            "n. 兄弟；同事；战友",
-            "int. 我的老兄！"
+            "n. anh em; đồng nghiệp; chiến hữu",
+            "int. anh bạn của tôi ơi!"
         ],
         "usphone": "[ˈbrʌðər]",
         "ukphone": "[ˈbrʌðə(r)]"
@@ -83,8 +83,8 @@
     {
         "name": "white",
         "trans": [
-            "n. 白色；洁白；白种人",
-            "adj. 白色的；白种的；纯洁的"
+            "n. màu trắng, sự trắng ngần, người da trắng",
+            "adj. trắng, da trắng, trong trắng"
         ],
         "usphone": "[waɪt]",
         "ukphone": "[waɪt]"
@@ -92,10 +92,10 @@
     {
         "name": "hair",
         "trans": [
-            "n. 头发；毛发；些微",
-            "adj. 毛发的；护理毛发的；用毛发制成的",
-            "vt. 除去…的毛发",
-            "vi. 生长毛发；形成毛状纤维"
+            "n. tóc; lông; chút ít",
+            "adj. thuộc lông; chăm sóc lông; làm bằng lông",
+            "vt. loại bỏ lông...",
+            "vi. mọc lông; tạo sợi lông"
         ],
         "usphone": "[her]",
         "ukphone": "[heə(r)]"
@@ -103,10 +103,10 @@
     {
         "name": "black",
         "trans": [
-            "n. 黑色；黑人；黑颜料",
-            "adj. 黑色的；黑人的；邪恶的",
-            "vt. 使变黑；把鞋油等涂在…上；把（眼眶）打成青肿",
-            "vi. 变黑"
+            "n. màu đen, người da đen, thuốc nhuộm đen",
+            "adj. màu đen; của người da đen; độc ác",
+            "vt. làm đen; đánh xi lên...; đánh bầm (hốc mắt)",
+            "vi. trở nên đen, đen lại"
         ],
         "usphone": "[blæk]",
         "ukphone": "[blæk]"
@@ -150,7 +150,7 @@
     {
         "name": "work",
         "trans": [
-            "n. 工作；[物] 功；产品；操作；职业；行为；事业；工厂；著作；文学、音乐或艺术作品",
+            "n. công việc; công (vật lý); sản phẩm; thao tác; nghề nghiệp; hành vi; sự nghiệp; nhà máy; tác phẩm; tác phẩm văn học, âm nhạc hoặc nghệ thuật",
             "vt. làm việc; vận hành; kinh doanh; tiến chậm",
             "vi. làm việc; hoạt động; phát huy tác dụng"
         ],
@@ -206,7 +206,7 @@
     {
         "name": "go for a walk",
         "trans": [
-            "v. 出去散步"
+            "v. đi dạo ra ngoài"
         ]
     },
     {
@@ -222,9 +222,9 @@
     {
         "name": "flower",
         "trans": [
-            "n. 花；精华；开花植物",
-            "vt. 使开花；用花装饰",
-            "vi. 成熟，发育；开花；繁荣；旺盛"
+            "n. hoa; tinh hoa; cây có hoa",
+            "vt. làm nở hoa; trang trí bằng hoa",
+            "vi. trưởng thành, phát triển; nở hoa; thịnh vượng; sung sức"
         ],
         "usphone": "[ˈflaʊər]",
         "ukphone": "[ˈflaʊə(r)]"
@@ -242,7 +242,7 @@
     {
         "name": "we",
         "trans": [
-            "pron. 我们（主格）；笔者，本人（作者或演讲人使用）；朕，寡人"
+            "pron. chúng ta (chủ ngữ); người viết, bản thân (tác giả hoặc diễn giả dùng); trẫm, quả nhân"
         ],
         "usphone": "[wi]",
         "ukphone": "[wi; wiː]"
@@ -250,7 +250,7 @@
     {
         "name": "family",
         "trans": [
-            "n. 家庭；亲属；家族；子女；[生]科；语族；[化]族",
+            "n. gia đình; thân thích; gia tộc; con cái; [sinh] họ; ngữ hệ; [hóa] nhóm",
             "adj. gia đình; gia tộc; phù hợp với toàn bộ gia đình"
         ],
         "usphone": "[ˈfæməli]",
@@ -275,10 +275,10 @@
     {
         "name": "China",
         "trans": [
-            "n. 中国",
-            "n. china，瓷器",
-            "adj. 中国的；中国制造的",
-            "adj. china，瓷制的"
+            "n. Trung Quốc",
+            "n. china, đồ sứ",
+            "adj. thuộc Trung Quốc; do Trung Quốc sản xuất",
+            "adj. china, bằng sứ"
         ],
         "usphone": "[ˈtʃaɪnə]",
         "ukphone": "[ˈtʃaɪnə]"
@@ -287,8 +287,8 @@
         "name": "map",
         "trans": [
             "(vt.) phản chiếu; lập kế hoạch; vẽ bản đồ; xác định vị trí gen",
-            "n. 地图；示意图；染色体图",
-            "vi. 基因被安置"
+            "n. bản đồ, sơ đồ, bản đồ nhiễm sắc thể",
+            "vi. gen được đặt vào, gen được cấy"
         ],
         "usphone": "[mæp]",
         "ukphone": "[mæp]"
@@ -296,8 +296,8 @@
     {
         "name": "speak",
         "trans": [
-            "vi. 说话；演讲；表明；陈述",
-            "vt. 讲话；发言；讲演"
+            "vi. nói chuyện; diễn thuyết; bày tỏ; trình bày",
+            "vt. nói chuyện; phát biểu; diễn thuyết"
         ],
         "usphone": "[spiːk]",
         "ukphone": "[spiːk]"
@@ -305,8 +305,8 @@
     {
         "name": "know",
         "trans": [
-            "vt. 知道；认识；懂得",
-            "vi. 了解；熟悉；确信"
+            "vt. biết, quen biết, hiểu",
+            "vi. hiểu; quen thuộc; tin chắc"
         ],
         "usphone": "[noʊ]",
         "ukphone": "[nəʊ]"
@@ -314,10 +314,10 @@
     {
         "name": "about",
         "trans": [
-            "prep. 关于；大约",
-            "n. 大致；粗枝大叶；不拘小节的人",
-            "adj. 在附近的；四处走动的；在起作用的",
-            "adv. 大约；周围；到处"
+            "prep. về, khoảng",
+            "n. đại khái; người cẩu thả; người không câu nệ tiểu tiết",
+            "adj. ở gần; đi lại khắp nơi; đang có tác dụng",
+            "adv. khoảng, chừng; xung quanh; khắp nơi"
         ],
         "usphone": "[əˈbaʊt]",
         "ukphone": "[əˈbaʊt]"
@@ -325,8 +325,8 @@
     {
         "name": "city",
         "trans": [
-            "n. 城市，都市",
-            "adj. 城市的；都会的"
+            "n. thành phố, đô thị",
+            "adj. thuộc thành phố; thuộc đô thị"
         ],
         "usphone": "[ˈsɪti]",
         "ukphone": "[ˈsɪti]"
@@ -334,7 +334,7 @@
     {
         "name": "of",
         "trans": [
-            "prep. 关于；属于；…的；由…组成的"
+            "prep. về; thuộc về; của...; do... tạo thành"
         ],
         "usphone": "[əv; ʌv]",
         "ukphone": "[əv; ɒv]"
@@ -342,10 +342,10 @@
     {
         "name": "star",
         "trans": [
-            "n. 星，恒星；明星；星形物",
-            "adj. 明星的，主角的；星形的",
-            "vt. 用星号标于；由…主演，由…担任主角",
-            "vi. 担任主角"
+            "n. ngôi sao, hằng tinh; ngôi sao nổi tiếng; vật hình sao",
+            "adj. thuộc ngôi sao, vai chính; hình sao",
+            "vt. đánh dấu sao, do... đóng chính, do... thủ vai chính",
+            "vi. đóng vai chính"
         ],
         "usphone": "[stɑːr]",
         "ukphone": "[stɑː(r)]"
@@ -353,9 +353,9 @@
     {
         "name": "here",
         "trans": [
-            "n. 这里",
-            "adv. 在这里；此时",
-            "int. 嘿！；喂！"
+            "n. đây, nơi đây",
+            "adv. ở đây; lúc này",
+            "int. này!; alo!"
         ],
         "usphone": "[hɪr]",
         "ukphone": "[hɪə(r)]"
@@ -375,8 +375,8 @@
     {
         "name": "love",
         "trans": [
-            "n. 恋爱；亲爱的；酷爱；喜爱的事物；爱情，爱意；疼爱；热爱；爱人，所爱之物",
-            "v. 爱，热爱；爱戴；赞美，称赞；喜爱；喜好；喜欢；爱慕"
+            "n. tình yêu; người yêu; sự say mê; vật yêu thích; ái tình, yêu thương; sự trìu mến; lòng nhiệt thành; người được yêu",
+            "v. yêu, yêu thương; kính yêu; khen ngợi, tán dương; yêu thích, ưa thích; mến mộ"
         ],
         "usphone": "[lʌv]",
         "ukphone": "[lʌv]"
@@ -384,9 +384,9 @@
     {
         "name": "travel",
         "trans": [
-            "n. 旅行；游历；漫游",
-            "vt. 经过；在…旅行",
-            "vi. 旅行；行进；步行；交往"
+            "n. chuyến đi; du lịch; lang thang",
+            "vt. đi qua; du hành ở...",
+            "vi. du lịch; hành tiến; đi bộ; giao du"
         ],
         "usphone": "[ˈtrævl]",
         "ukphone": "[ˈtræv(ə)l]"
@@ -412,7 +412,7 @@
     {
         "name": "may",
         "trans": [
-            "aux. 可以，能够；可能，也许；祝，愿；会，能"
+            "aux. có thể, có khả năng; có lẽ, có thể; chúc, nguyện; sẽ, có thể"
         ],
         "usphone": "[meɪ]",
         "ukphone": "[meɪ]"
@@ -429,9 +429,9 @@
     {
         "name": "come",
         "trans": [
-            "vi. 来；开始；出现；发生；变成；到达",
-            "vt. 做；假装；将满（…岁）",
-            "int. 嗨！"
+            "vi. đến; bắt đầu; xuất hiện; xảy ra; trở thành; tới nơi",
+            "vt. làm; giả vờ; sắp tròn (... tuổi)",
+            "int. chào!, này!"
         ],
         "usphone": "[kʌm]",
         "ukphone": "[kʌm]"
@@ -439,8 +439,8 @@
     {
         "name": "great",
         "trans": [
-            "n. 大师；大人物；伟人们",
-            "adj. 伟大的，重大的；极好的，好的；主要的"
+            "n. bậc thầy; nhân vật lớn; các vĩ nhân",
+            "adj. vĩ đại, trọng đại; tuyệt vời, tốt; chủ yếu, chính"
         ],
         "usphone": "[ɡreɪt]",
         "ukphone": "[ɡreɪt]"
@@ -506,7 +506,7 @@
     {
         "name": "Sunday",
         "trans": [
-            "n. 星期日；礼拜日"
+            "n. Chủ nhật; ngày lễ"
         ],
         "usphone": "[ˈsʌndeɪ]",
         "ukphone": "[ˈsʌndeɪ]"
@@ -562,9 +562,9 @@
     {
         "name": "at",
         "trans": [
-            "prep. 在（表示存在或出现的地点、场所、位置、空间）；以（某种价格、速度等）；向；达；因为；朝；忙于",
-            "n. 阿特（老挝货币基本单位att）；[化]砹（极不稳定放射性元素）",
-            "abbr. 密封的（airtight）；气温（air temperature）"
+            "prep. ở (chỉ nơi chốn, địa điểm, vị trí, không gian tồn tại hoặc xuất hiện); với (giá cả, tốc độ...); về phía; đến; vì; hướng về; bận rộn với",
+            "n. att (đơn vị tiền tệ Lào); [hóa] astatin (nguyên tố phóng xạ cực không bền)",
+            "abbr. kín khí (airtight); nhiệt độ không khí (air temperature)"
         ],
         "usphone": "[ət; æt]",
         "ukphone": "[ət]"
@@ -572,9 +572,9 @@
     {
         "name": "evening",
         "trans": [
-            "n. 晚上；傍晚；（联欢性的）晚会；后期",
-            "adj. 在晚上的；为晚上的；晚上用的",
-            "int. 晚上好（等于good evening）"
+            "n. buổi tối; chập tối; dạ hội; giai đoạn cuối",
+            "adj. vào buổi tối; dành cho buổi tối; dùng buổi tối",
+            "int. chào buổi tối (= good evening)"
         ],
         "usphone": "[ˈiːvnɪŋ]",
         "ukphone": "[ˈiːvnɪŋ]"
@@ -582,7 +582,7 @@
     {
         "name": "nice",
         "trans": [
-            "adj. 精密的；美好的；细微的；和蔼的"
+            "adj. tinh xảo; tốt đẹp; tinh tế; hòa nhã"
         ],
         "usphone": "[naɪs]",
         "ukphone": "[naɪs]"
@@ -590,10 +590,10 @@
     {
         "name": "meet",
         "trans": [
-            "vt. 满足；遇见；对付",
-            "vi. 相遇；接触",
-            "n. 集会",
-            "adj. 合适的；适宜的"
+            "vt. thỏa mãn; gặp gỡ; đối phó",
+            "vi. gặp nhau; tiếp xúc",
+            "n. tập hợp, cuộc họp",
+            "adj. thích hợp; phù hợp"
         ],
         "usphone": "[miːt]",
         "ukphone": "[miːt]"
@@ -635,7 +635,7 @@
     {
         "name": "window",
         "trans": [
-            "n. 窗；窗口；窗户"
+            "n. cửa sổ; khung cửa; ô cửa"
         ],
         "usphone": "[ˈwɪndoʊ]",
         "ukphone": "[ˈwɪndəʊ]"
@@ -644,8 +644,8 @@
         "name": "make",
         "trans": [
             "(vt.) làm; thực hiện; bố trí, chuẩn bị; chế tạo; cho rằng; đạt được; hình thành; gây ra; tạo thành",
-            "vi. 开始；前进；增大；被制造",
-            "n. 制造；构造；性情"
+            "vi. bắt đầu; tiến lên; tăng lên; được chế tạo",
+            "n. sự chế tạo; cấu tạo; tính tình"
         ],
         "usphone": "[meɪk]",
         "ukphone": "[meɪk]"
@@ -653,10 +653,10 @@
     {
         "name": "kid",
         "trans": [
-            "n. 小孩；小山羊",
-            "vt. 欺骗；取笑；戏弄",
-            "vi. 欺骗；取笑；戏弄",
-            "adj. 小山羊皮制的；较年幼的"
+            "n. trẻ con, dê con",
+            "vt. lừa dối; chế giễu; trêu chọc",
+            "vi. lừa dối; chế giễu; trêu chọc",
+            "adj. bằng da dê con; còn non trẻ"
         ],
         "usphone": "[kɪd]",
         "ukphone": "[kɪd]"
@@ -664,7 +664,7 @@
     {
         "name": "year",
         "trans": [
-            "n. 年；年度；历年；年纪；一年的期间；某年级的学生"
+            "n. năm; năm tài chính; năm tháng; tuổi; khoảng một năm; học sinh khối..."
         ],
         "usphone": "[jɪr]",
         "ukphone": "[jɪə(r)]"
@@ -672,8 +672,8 @@
     {
         "name": "also",
         "trans": [
-            "conj. 并且；另外",
-            "adv. 也；而且；同样"
+            "conj. và; ngoài ra",
+            "adv. cũng; hơn nữa; cũng vậy"
         ],
         "usphone": "[ˈɔːlsoʊ]",
         "ukphone": "[ˈɔːlsəʊ]"
@@ -681,8 +681,8 @@
     {
         "name": "boat",
         "trans": [
-            "n. 小船；轮船",
-            "vi. 划船"
+            "n. thuyền nhỏ, tàu thủy",
+            "vi. chèo thuyền"
         ],
         "usphone": "[boʊt]",
         "ukphone": "[bəʊt]"
@@ -690,9 +690,9 @@
     {
         "name": "moon",
         "trans": [
-            "n. 月亮；月球；月光；卫星",
-            "vi. 闲荡；出神",
-            "vt. 虚度"
+            "n. mặt trăng; mặt trăng; ánh trăng; vệ tinh",
+            "vi. la cà; mơ màng",
+            "vt. lãng phí (thời gian)"
         ],
         "usphone": "[muːn]",
         "ukphone": "[muːn]"
@@ -708,8 +708,8 @@
     {
         "name": "those",
         "trans": [
-            "adj. 那些的",
-            "pron. 那些（that的复数）"
+            "adj. của những cái đó",
+            "pron. những cái đó (số nhiều của that)"
         ],
         "usphone": "[ðoʊz]",
         "ukphone": "[ðəʊz]"
@@ -718,9 +718,9 @@
         "name": "that",
         "trans": [
             "conj. vì; sao cho",
-            "adj. 那；那个",
-            "pron. 那；那个",
-            "adv. 那么；那样"
+            "adj. kia; đó",
+            "pron. đó; cái đó",
+            "adv. thế, vậy; như thế"
         ],
         "usphone": "[ðæt]",
         "ukphone": "[ðæt]"

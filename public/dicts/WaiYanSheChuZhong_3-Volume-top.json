@@ -83,10 +83,10 @@
     {
         "name": "easy",
         "trans": [
-            "adj. 容易的；舒适的",
-            "vt. 发出停划命令",
-            "adv. 不费力地，从容地",
-            "vi. 停止划桨"
+            "adj. dễ dàng; thoải mái",
+            "vt. ra lệnh ngừng chèo",
+            "adv. không tốn sức; thong dong, ung dung",
+            "vi. ngừng chèo"
         ],
         "usphone": "[ˈiːzi]",
         "ukphone": "[ˈiːzi]"
@@ -102,7 +102,7 @@
     {
         "name": "chips",
         "trans": [
-            "n. [食品] 炸土豆条；小木片；（作赌注用的）圆形筹码；缺口（chip的复数形式）"
+            "n. [thực phẩm] khoai tây chiên; mảnh gỗ nhỏ; phỉnh tròn (dùng đặt cược); chỗ sứt (số nhiều của chip)"
         ],
         "usphone": "[tʃɪps]",
         "ukphone": "[tʃɪps]"
@@ -111,8 +111,8 @@
         "name": "grass",
         "trans": [
             "n. cỏ; bãi cỏ, thảm cỏ",
-            "vt. 放牧；使……长满草；使……吃草",
-            "vi. 长草"
+            "vt. chăn thả; làm... mọc đầy cỏ; cho... ăn cỏ",
+            "vi. mọc cỏ"
         ],
         "usphone": "[ɡræs]",
         "ukphone": "[ɡrɑːs]"
@@ -135,8 +135,8 @@
         "name": "make",
         "trans": [
             "(vt.) làm; thực hiện; bố trí, chuẩn bị; chế tạo; cho rằng; đạt được; hình thành; gây ra; tạo thành",
-            "vi. 开始；前进；增大；被制造",
-            "n. 制造；构造；性情"
+            "vi. bắt đầu; tiến lên; tăng lên; được chế tạo",
+            "n. sự chế tạo; cấu tạo; tính tình"
         ],
         "usphone": "[meɪk]",
         "ukphone": "[meɪk]"
@@ -144,9 +144,9 @@
     {
         "name": "cake",
         "trans": [
-            "n. 蛋糕；块状物；利益总额",
-            "vt. 使结块",
-            "vi. 结成块状"
+            "n. bánh ngọt, khối tảng, tổng lợi ích",
+            "vt. làm đóng cục, làm vón cục",
+            "vi. đóng thành cục, vón cục"
         ],
         "usphone": "[keɪk]",
         "ukphone": "[keɪk]"
@@ -154,10 +154,10 @@
     {
         "name": "mum",
         "trans": [
-            "adj. 沉默的",
-            "n. 妈妈（口语）；沉默；菊花",
-            "vi. 演哑剧",
-            "int. 别说话"
+            "adj. trầm lặng, im lặng",
+            "n. mẹ (khẩu ngữ); sự im lặng; hoa cúc",
+            "vi. diễn kịch câm",
+            "int. im lặng, đừng nói"
         ],
         "usphone": "[mʌm]",
         "ukphone": "[mʌm]"
@@ -165,7 +165,7 @@
     {
         "name": "dad",
         "trans": [
-            "n. 爸爸；爹爹"
+            "n. bố, ba; cha"
         ],
         "usphone": "[dæd]",
         "ukphone": "[dæd]"
@@ -173,10 +173,10 @@
     {
         "name": "quiet",
         "trans": [
-            "n. 安静；和平",
-            "adj. 安静的；安定的；不动的；温顺的",
-            "vt. 使平息；安慰",
-            "vi. 平静下来"
+            "n. sự yên tĩnh; hòa bình",
+            "adj. yên tĩnh; ổn định; bất động; hiền lành, dịu dàng",
+            "vt. làm yên, dẹp yên; an ủi",
+            "vi. bình tĩnh lại, yên lại"
         ],
         "usphone": "[ˈkwaɪət]",
         "ukphone": "[ˈkwaɪət]"
@@ -194,8 +194,8 @@
     {
         "name": "lovely",
         "trans": [
-            "adj. 可爱的；令人愉快的；爱恋的；秀丽的，优美的",
-            "n. 美女；可爱的东西"
+            "adj. đáng yêu; dễ chịu; đang yêu; xinh đẹp, ưu mỹ",
+            "n. người đẹp; vật đáng yêu"
         ],
         "usphone": "[ˈlʌvli]",
         "ukphone": "[ˈlʌvli]"
@@ -222,8 +222,8 @@
     {
         "name": "boat",
         "trans": [
-            "n. 小船；轮船",
-            "vi. 划船"
+            "n. thuyền nhỏ, tàu thủy",
+            "vi. chèo thuyền"
         ],
         "usphone": "[boʊt]",
         "ukphone": "[bəʊt]"
@@ -256,9 +256,9 @@
     {
         "name": "lake",
         "trans": [
-            "n. 湖；深红色颜料；胭脂红",
-            "vt. （使）血球溶解",
-            "vi. （使）血球溶解"
+            "n. hồ; sơn đỏ thẫm; màu son đỏ",
+            "vt. làm tan hồng cầu, gây tan máu",
+            "vi. tan hồng cầu, bị tan máu"
         ],
         "usphone": "[leɪk]",
         "ukphone": "[leɪk]"
@@ -276,8 +276,8 @@
     {
         "name": "bread",
         "trans": [
-            "n. 面包；生计",
-            "vt. 在…上洒面包屑"
+            "n. bánh mì, kế sinh nhai",
+            "vt. rắc vụn bánh mì lên..."
         ],
         "usphone": "[bred]",
         "ukphone": "[bred]"
@@ -285,7 +285,7 @@
     {
         "name": "get out",
         "trans": [
-            "na. 摆脱；走出；〔命令语气〕出去!"
+            "na. thoát khỏi; đi ra; [giọng mệnh lệnh] ra ngoài!"
         ],
         "usphone": "[ɡet aʊt]",
         "ukphone": "[ˈɡet aʊt]"
@@ -294,8 +294,8 @@
         "name": "far",
         "trans": [
             "n. nơi xa",
-            "adj. 远的；久远的",
-            "adv. 很；遥远地；久远地；到很远的距离；到很深的程度"
+            "adj. xa; xa xưa",
+            "adv. rất; xa xôi; lâu đời; đến khoảng cách rất xa; đến mức độ rất sâu"
         ],
         "usphone": "[fɑːr]",
         "ukphone": "[fɑː(r)]"
@@ -314,7 +314,7 @@
     {
         "name": "winner",
         "trans": [
-            "n. 胜利者"
+            "n. người chiến thắng"
         ],
         "usphone": "[ˈwɪnər]",
         "ukphone": "[ˈwɪnə(r)]"
@@ -358,7 +358,7 @@
     {
         "name": "koala",
         "trans": [
-            "n. 树袋熊，无尾熊（产于澳大利亚，又名考拉）"
+            "n. gấu túi, gấu koala (sống ở Úc)"
         ],
         "usphone": "[koʊˈɑːlə]",
         "ukphone": "[kəʊˈɑːlə]"
@@ -367,8 +367,8 @@
         "name": "climb",
         "trans": [
             "n. bò; trèo",
-            "vi. 爬；攀登；上升",
-            "vt. 爬；攀登；上升"
+            "vi. bò, leo; leo lên; tăng lên",
+            "vt. bò, trèo; leo; làm tăng"
         ],
         "usphone": "[klaɪm]",
         "ukphone": "[klaɪm]"
@@ -386,9 +386,9 @@
     {
         "name": "drink",
         "trans": [
-            "n. 酒，饮料；喝酒",
-            "vt. 喝，饮；吸收；举杯庆贺",
-            "vi. 喝酒；饮水；干杯"
+            "n. rượu, đồ uống; việc uống rượu",
+            "vt. uống, hấp thụ, nâng cốc chúc mừng",
+            "vi. uống rượu, uống nước, cạn ly"
         ],
         "usphone": "[drɪŋk]",
         "ukphone": "[drɪŋk]"
@@ -396,9 +396,9 @@
     {
         "name": "shop",
         "trans": [
-            "n. 商店；店铺",
-            "vt. 购物",
-            "vi. 购物；买东西"
+            "n. cửa hàng, cửa tiệm",
+            "vt. mua sắm",
+            "vi. mua sắm, mua đồ"
         ],
         "usphone": "[ʃɑːp]",
         "ukphone": "[ʃɒp]"
@@ -412,8 +412,8 @@
     {
         "name": "thanks",
         "trans": [
-            "n. 谢谢（只用复数）",
-            "int. 谢谢"
+            "n. lời cảm ơn (chỉ dùng số nhiều)",
+            "int. cảm ơn"
         ],
         "usphone": "[θæŋks]",
         "ukphone": "[θæŋks]"
@@ -453,9 +453,9 @@
     {
         "name": "wash",
         "trans": [
-            "n. 洗涤；洗的衣服；化妆水；冲积物",
-            "vt. 洗涤；洗刷；冲走；拍打",
-            "vi. 洗澡；被冲蚀"
+            "n. sự giặt rửa; quần áo giặt; nước hoa hồng, lotion; trầm tích phù sa",
+            "vt. rửa, giặt; cọ rửa; cuốn trôi; vỗ, đập",
+            "vi. tắm rửa; bị xói mòn"
         ],
         "usphone": "[wɑːʃ]",
         "ukphone": "[wɒʃ]"
@@ -477,10 +477,10 @@
     {
         "name": "peach",
         "trans": [
-            "n. 桃子；桃树；桃红色；受人喜欢的人（或物）",
-            "adj. 桃色的；用桃子制成的",
-            "vt. 告发",
-            "vi. 告密"
+            "n. quả đào; cây đào; màu hồng đào; người (hoặc vật) được yêu mến",
+            "adj. màu hồng đào; làm bằng đào",
+            "vt. tố giác",
+            "vi. mật báo"
         ],
         "usphone": "[piːtʃ]",
         "ukphone": "[piːtʃ]"
@@ -496,7 +496,7 @@
     {
         "name": "stomach ache",
         "trans": [
-            "n. 胃痛；腹痛"
+            "n. đau dạ dày; đau bụng"
         ],
         "usphone": "[ˈstʌmək eɪk]",
         "ukphone": "[ˈstʌmək eɪk]"
@@ -552,8 +552,8 @@
     {
         "name": "begin",
         "trans": [
-            "vi. 开始；首先",
-            "vt. 开始"
+            "vi. bắt đầu, trước hết",
+            "vt. bắt đầu"
         ],
         "usphone": "[bɪˈɡɪn]",
         "ukphone": "[bɪˈɡɪn]"
@@ -561,9 +561,9 @@
     {
         "name": "cough",
         "trans": [
-            "n. 咳嗽，咳嗽声；咳嗽病",
-            "vt. 咳出",
-            "vi. 咳嗽"
+            "n. ho, tiếng ho, bệnh ho",
+            "vt. ho khạc ra",
+            "vi. ho"
         ],
         "usphone": "[kɔːf]",
         "ukphone": "[kɒf]"
@@ -571,7 +571,7 @@
     {
         "name": "bring",
         "trans": [
-            "vt. 带来；促使；引起；使某人处于某种情况或境地"
+            "vt. mang lại; thúc đẩy; gây ra; khiến ai rơi vào tình cảnh nào đó"
         ],
         "usphone": "[brɪŋ]",
         "ukphone": "[brɪŋ]"
@@ -587,9 +587,9 @@
     {
         "name": "get",
         "trans": [
-            "n. 生殖；幼兽",
-            "vi. 成为；变得；到达",
-            "vt. 使得；获得；受到；变成"
+            "n. sự sinh sản, thú non",
+            "vi. trở thành; trở nên; đến",
+            "vt. làm cho; đạt được; chịu; biến thành"
         ],
         "usphone": "[ɡet]",
         "ukphone": "[ɡet]"
@@ -597,8 +597,8 @@
     {
         "name": "which",
         "trans": [
-            "adj. 哪一个；哪一些",
-            "pron. 哪/那一个；哪/那一些"
+            "adj. cái nào; những cái nào",
+            "pron. cái nào / cái kia; những cái nào / những cái kia"
         ],
         "usphone": "[wɪtʃ]",
         "ukphone": "[wɪtʃ]"
@@ -606,8 +606,8 @@
     {
         "name": "broken",
         "trans": [
-            "v. 折断；打碎；损坏（break的过去分词）",
-            "adj. 破碎的；坏掉的"
+            "v. gãy; vỡ; hỏng (quá khứ phân từ của break)",
+            "adj. vỡ nát; hỏng"
         ],
         "usphone": "[ˈbroʊkən]",
         "ukphone": "[ˈbrəʊkən]"
@@ -615,19 +615,19 @@
     {
         "name": "long jump",
         "trans": [
-            "n. 跳远"
+            "n. nhảy xa"
         ]
     },
     {
         "name": "make friends",
         "trans": [
-            " 交朋友；交友；结交朋友"
+            "kết bạn; giao thiệp bạn bè; kết giao bạn bè"
         ]
     },
     {
         "name": "sports day",
         "trans": [
-            "n. （学校的）运动会"
+            "n. đại hội thể thao (của trường)"
         ]
     },
     {
@@ -643,7 +643,7 @@
     {
         "name": "high jump",
         "trans": [
-            "n. 跳高"
+            "n. nhảy cao"
         ]
     },
     {
@@ -665,10 +665,10 @@
     {
         "name": "star",
         "trans": [
-            "n. 星，恒星；明星；星形物",
-            "adj. 明星的，主角的；星形的",
-            "vt. 用星号标于；由…主演，由…担任主角",
-            "vi. 担任主角"
+            "n. ngôi sao, hằng tinh; ngôi sao nổi tiếng; vật hình sao",
+            "adj. thuộc ngôi sao, vai chính; hình sao",
+            "vt. đánh dấu sao, do... đóng chính, do... thủ vai chính",
+            "vi. đóng vai chính"
         ],
         "usphone": "[stɑːr]",
         "ukphone": "[stɑː(r)]"

@@ -18,7 +18,7 @@
     {
         "name": "cola",
         "trans": [
-            "n. 可乐；可乐树（其子含咖啡碱）"
+            "n. cô-ca; cây cô-la (hạt chứa caffein)"
         ],
         "usphone": "[ˈkoʊlə]",
         "ukphone": "[ˈkəʊlə]"
@@ -35,7 +35,7 @@
     {
         "name": "dollar",
         "trans": [
-            "n. 美元"
+            "n. đô la Mỹ"
         ],
         "usphone": "[ˈdɑːlər]",
         "ukphone": "[ˈdɒlə(r)]"
@@ -43,7 +43,7 @@
     {
         "name": "cent",
         "trans": [
-            "n. 分；一分的硬币；森特（等于半音程的百分之一）"
+            "n. xu, đồng xu một xu, cent (bằng một phần trăm nửa cung)"
         ],
         "usphone": "[sent]",
         "ukphone": "[sent]"
@@ -59,8 +59,8 @@
     {
         "name": "meal",
         "trans": [
-            "n. 一餐，一顿饭；膳食",
-            "vi. 进餐"
+            "n. bữa ăn, suất ăn",
+            "vi. ăn cơm"
         ],
         "usphone": "[miːl]",
         "ukphone": "[miːl]"
@@ -129,7 +129,7 @@
     {
         "name": "cloudy",
         "trans": [
-            "adj. 多云的；阴天的；愁容满面的"
+            "adj. nhiều mây; u ám; cau có"
         ],
         "usphone": "[ˈklaʊdi]",
         "ukphone": "[ˈklaʊdi]"
@@ -149,7 +149,7 @@
     {
         "name": "quickly",
         "trans": [
-            "adv. 迅速地；很快地"
+            "adv. nhanh chóng; rất nhanh"
         ],
         "usphone": "[ˈkwɪkli]",
         "ukphone": "[ˈkwɪkli]"
@@ -169,8 +169,8 @@
         "name": "shine",
         "trans": [
             "vt. chiếu sáng; đánh bóng; chiếu sáng; làm bóng bằng cách lau",
-            "vi. 发出光；反射光，闪耀；出类拔萃，表现突出；露出；照耀；显露；出众",
-            "n. 光亮，光泽；好天气；擦亮；晴天；擦皮鞋；鬼把戏或诡计"
+            "vi. phát sáng; phản chiếu, lấp lánh; xuất sắc, nổi bật; lộ ra; chiếu sáng; xuất chúng",
+            "n. ánh sáng, độ bóng; thời tiết đẹp; sự đánh bóng; ngày nắng; sự đánh giày; trò quỷ, mánh khóe"
         ],
         "usphone": "[ʃaɪn]",
         "ukphone": "[ʃaɪn]"
@@ -188,7 +188,7 @@
     {
         "name": "thing",
         "trans": [
-            "n. 事情；东西；事物；情况"
+            "n. việc; đồ vật; sự vật; tình hình"
         ],
         "usphone": "[θɪŋ]",
         "ukphone": "[θɪŋ]"
@@ -217,9 +217,9 @@
         "name": "balloon",
         "trans": [
             "n. bóng bay",
-            "adj. 像气球般鼓起的",
-            "vt. 使像气球般鼓起；使激增",
-            "vi. 激增；膨胀如气球"
+            "adj. phồng lên như bóng",
+            "vt. làm phồng lên; làm tăng vọt",
+            "vi. tăng vọt; phồng lên như bóng bay"
         ],
         "usphone": "[bəˈluːn]",
         "ukphone": "[bəˈluːn]"
@@ -262,8 +262,8 @@
         "name": "bell",
         "trans": [
             "n. chuông; tiếng chuông; vật hình chuông",
-            "vt. 装钟于，系铃于",
-            "vi. 鸣钟；成钟状鼓起"
+            "vt. lắp đồng hồ vào, buộc chuông vào",
+            "vi. rung chuông; phồng lên như chuông"
         ],
         "usphone": "[bel]",
         "ukphone": "[bel]"
@@ -271,8 +271,8 @@
     {
         "name": "bark",
         "trans": [
-            "n. 树皮；深青棕色；毛皮；皮肤；狗叫",
-            "vt. 狗叫；尖叫；剥皮"
+            "n. vỏ cây; màu nâu sẫm; lông thú; da; tiếng chó sủa",
+            "vt. sủa; hét the thé; lột vỏ"
         ],
         "usphone": "[bɑːrk]",
         "ukphone": "[bɑːk]"
@@ -335,9 +335,9 @@
     {
         "name": "space",
         "trans": [
-            "n. 空间；太空；距离",
-            "vt. 隔开",
-            "vi. 留间隔"
+            "n. không gian; vũ trụ; khoảng cách",
+            "vt. ngăn cách, tách ra",
+            "vi. để khoảng cách, chừa chỗ trống"
         ],
         "usphone": "[speɪs]",
         "ukphone": "[speɪs]"
@@ -345,9 +345,9 @@
     {
         "name": "travel",
         "trans": [
-            "n. 旅行；游历；漫游",
-            "vt. 经过；在…旅行",
-            "vi. 旅行；行进；步行；交往"
+            "n. chuyến đi; du lịch; lang thang",
+            "vt. đi qua; du hành ở...",
+            "vi. du lịch; hành tiến; đi bộ; giao du"
         ],
         "usphone": "[ˈtrævl]",
         "ukphone": "[ˈtræv(ə)l]"
@@ -355,8 +355,8 @@
     {
         "name": "interested",
         "trans": [
-            "v. 使…感兴趣（interest的过去分词）",
-            "adj. 感兴趣的；有权益的；有成见的"
+            "v. làm cho ... thấy hứng thú (quá khứ phân từ của interest)",
+            "adj. quan tâm; có quyền lợi; có thành kiến"
         ],
         "usphone": "[ˈɪntrəstɪd; ˈɪntrestɪd]",
         "ukphone": "[ˈɪntrəstɪd]"
@@ -364,7 +364,7 @@
     {
         "name": "be interested in",
         "trans": [
-            "v. 对…感兴趣"
+            "v. quan tâm đến..."
         ]
     },
     {
@@ -378,8 +378,8 @@
     {
         "name": "surprised",
         "trans": [
-            "v. 使惊奇（surprise的过去分词形式）",
-            "adj. 感到惊讶的，出人意料的"
+            "v. làm ngạc nhiên (phân từ quá khứ của surprise)",
+            "adj. ngạc nhiên, bất ngờ"
         ],
         "usphone": "[sərˈpraɪzd]",
         "ukphone": "[səˈpraɪzd]"
@@ -416,7 +416,7 @@
         "name": "national",
         "trans": [
             "(adj.) của quốc gia; quốc dân; dân tộc; quốc lập",
-            "n. 国民"
+            "n. công dân, quốc dân"
         ],
         "usphone": "[ˈnæʃnəl]",
         "ukphone": "[ˈnæʃ(ə)nəl]"
@@ -425,8 +425,8 @@
         "name": "flag",
         "trans": [
             "n. cờ; lá cờ",
-            "vt. 标记；插旗",
-            "vi. 标记；衰退；枯萎"
+            "vt. đánh dấu; cắm cờ",
+            "vi. đánh dấu; suy yếu; héo úa"
         ],
         "usphone": "[flæɡ]",
         "ukphone": "[flæɡ]"
@@ -461,9 +461,9 @@
     {
         "name": "video",
         "trans": [
-            "n. [电子] 视频；录像，录像机；电视",
-            "adj. 视频的；录像的；电视的",
-            "v. 录制"
+            "n. [điện tử] video, băng video, máy video, truyền hình",
+            "adj. thuộc video; thuộc băng ghi hình; thuộc truyền hình",
+            "v. ghi hình, thu hình"
         ],
         "usphone": "[ˈvɪdioʊ]",
         "ukphone": "[ˈvɪdiəʊ]"
@@ -471,7 +471,7 @@
     {
         "name": "someday",
         "trans": [
-            "adv. 有一天，有朝一日"
+            "adv. một ngày nào đó; một ngày kia"
         ],
         "usphone": "[ˈsʌmdeɪ]",
         "ukphone": "[ˈsʌmdeɪ]"
@@ -479,8 +479,8 @@
     {
         "name": "born",
         "trans": [
-            "v. 出世（bear的过去分词）",
-            "adj. 天生的"
+            "v. sinh ra (quá khứ phân từ của bear)",
+            "adj. bẩm sinh"
         ],
         "usphone": "[bɔːrn]",
         "ukphone": "[bɔːn]"
@@ -508,7 +508,7 @@
     {
         "name": "all over the world",
         "trans": [
-            "adv. 遍及全世界"
+            "adv. khắp thế giới"
         ]
     },
     {
@@ -539,7 +539,7 @@
     {
         "name": "brought",
         "trans": [
-            "v. 带来（bring的过去分词）"
+            "v. mang đến (quá khứ phân từ của bring)"
         ],
         "usphone": "[brɔːt]",
         "ukphone": "[brɔːt]"
@@ -547,10 +547,10 @@
     {
         "name": "more",
         "trans": [
-            "adv. 更多；此外；更大程度地",
-            "adj. 更多的；附加的",
-            "pron. 更多的数量",
-            "n. 更多"
+            "adv. hơn, nhiều hơn; ngoài ra; ở mức độ lớn hơn",
+            "adj. nhiều hơn; thêm vào",
+            "pron. số lượng nhiều hơn",
+            "n. phần nhiều hơn"
         ],
         "usphone": "[mɔːr]",
         "ukphone": "[mɔː(r)]"
@@ -568,13 +568,13 @@
     {
         "name": "make mistakes",
         "trans": [
-            " 犯错；犯错误；出错"
+            "mắc lỗi; phạm lỗi; làm sai"
         ]
     },
     {
         "name": "word",
         "trans": [
-            "n. [语] 单词；话语；消息；诺言；命令",
+            "n. [ngôn ngữ] từ; lời nói; tin tức; lời hứa; mệnh lệnh",
             "vt. diễn đạt bằng lời"
         ],
         "usphone": "[wɜːrd]",
@@ -599,8 +599,8 @@
     {
         "name": "luck",
         "trans": [
-            "n. 运气；幸运；带来好运的东西",
-            "vi. 靠运气，走运；凑巧碰上"
+            "n. vận may; sự may mắn; vật mang lại may mắn",
+            "vi. gặp may, dựa vào may mắn; tình cờ gặp"
         ],
         "usphone": "[lʌk]",
         "ukphone": "[lʌk]"
@@ -642,8 +642,8 @@
         "name": "joy",
         "trans": [
             "(n.) vui vẻ, hạnh phúc; niềm vui; mừng rỡ",
-            "vi. 欣喜，欢喜",
-            "vt. 高兴，使快乐"
+            "vi. vui mừng, hân hoan",
+            "vt. làm vui, làm cho vui vẻ"
         ],
         "usphone": "[dʒɔɪ]",
         "ukphone": "[dʒɔɪ]"
@@ -701,7 +701,7 @@
     {
         "name": "speech",
         "trans": [
-            "n. 演讲；讲话；[语] 语音；演说"
+            "n. bài diễn thuyết; bài phát biểu; [ngôn ngữ] lời nói; hùng biện"
         ],
         "usphone": "[spiːtʃ]",
         "ukphone": "[spiːtʃ]"
@@ -717,8 +717,8 @@
     {
         "name": "excited",
         "trans": [
-            "v. 激动；唤起（excite的过去分词）",
-            "adj. 兴奋的；激动的；活跃的"
+            "v. kích động; gợi lên (quá khứ phân từ của excite)",
+            "adj. hào hứng; kích động; sôi nổi"
         ],
         "usphone": "[ɪkˈsaɪtɪd]",
         "ukphone": "[ɪkˈsaɪtɪd]"
@@ -734,9 +734,9 @@
     {
         "name": "same",
         "trans": [
-            "adj. 相同的；同一的；上述的（通常与the连用）；无变化的",
-            "adv. 同样地（通常与the连用）",
-            "pron. 同样的事物或人（通常与the连用）"
+            "adj. giống nhau; cùng một; nêu trên (thường dùng với the); không thay đổi",
+            "adv. tương tự (thường dùng với the)",
+            "pron. vật hoặc người giống nhau (thường dùng với the)"
         ],
         "usphone": "[seɪm]",
         "ukphone": "[seɪm]"
@@ -744,15 +744,15 @@
     {
         "name": "at the same time",
         "trans": [
-            "na. 同时；另一方面；与此同时"
+            "na. đồng thời; mặt khác; trong lúc đó"
         ]
     },
     {
         "name": "little",
         "trans": [
-            "adj. 小的；很少的；短暂的；小巧可爱的",
-            "adv. 完全不",
-            "n. 少许；没有多少；短时间"
+            "adj. nhỏ; ít; ngắn ngủi; xinh xắn",
+            "adv. hoàn toàn không",
+            "n. chút ít, không nhiều, chốc lát"
         ],
         "usphone": "[ˈlɪtl]",
         "ukphone": "[ˈlɪt(ə)l]"
@@ -760,14 +760,14 @@
     {
         "name": "keep on",
         "trans": [
-            "na. 继续；穿[戴]着不脱"
+            "na. tiếp tục; cứ mặc không cởi"
         ]
     },
     {
         "name": "sometime",
         "trans": [
             "(adj.) trước đó; vào một thời nào đó",
-            "adv. 改天；来日；在某一时候"
+            "adv. để hôm khác; vào dịp khác; vào lúc nào đó"
         ],
         "usphone": "[ˈsʌmtaɪm]",
         "ukphone": "[ˈsʌmtaɪm]"

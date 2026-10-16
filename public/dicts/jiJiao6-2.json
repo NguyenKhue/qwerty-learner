@@ -2,10 +2,10 @@
     {
         "name": "sport",
         "trans": [
-            "n. 运动；游戏；娱乐；运动会；玩笑",
-            "adj. 运动的",
-            "vt. 游戏；参加体育运动；夸耀",
-            "vi. 游戏"
+            "n. thể thao; trò chơi; giải trí; đại hội thể thao; trò đùa",
+            "adj. thể thao, khỏe khoắn",
+            "vt. chơi đùa; tham gia thể thao; khoe khoang",
+            "vi. chơi trò chơi, đánh bạc"
         ],
         "usphone": "[spɔːrt]",
         "ukphone": "[spɔːt]"
@@ -22,9 +22,9 @@
     {
         "name": "any",
         "trans": [
-            "adj. 任何的；所有的；丝毫",
-            "pron. 任何；任何一个；若干",
-            "adv. 稍微；少许"
+            "adj. bất kỳ; tất cả; chút nào",
+            "pron. bất kỳ cái gì; bất kỳ cái nào; một ít, một số",
+            "adv. hơi, chút ít; một ít"
         ],
         "usphone": "[ˈeni]",
         "ukphone": "[ˈeni]"
@@ -32,9 +32,9 @@
     {
         "name": "some",
         "trans": [
-            "adj. 一些；某个；大约；相当多的",
-            "pron. 一些；若干；其中的一部分；（数量不确切时用）有些人",
-            "adv. 非常；相当；<美>稍微"
+            "adj. một vài, nào đó, khoảng, khá nhiều",
+            "pron. một số; vài; một phần trong đó; (khi số lượng không chắc) một số người",
+            "adv. rất; khá; <Mỹ> hơi"
         ],
         "usphone": "[sʌm; səm]",
         "ukphone": "[sʌm]"
@@ -51,7 +51,7 @@
     {
         "name": "or",
         "trans": [
-            "conj. 或，或者；还是"
+            "conj. hoặc, hay; hay là"
         ],
         "usphone": "[ɔːr]",
         "ukphone": "[ɔː(r)]"
@@ -95,10 +95,10 @@
     {
         "name": "easy",
         "trans": [
-            "adj. 容易的；舒适的",
-            "vt. 发出停划命令",
-            "adv. 不费力地，从容地",
-            "vi. 停止划桨"
+            "adj. dễ dàng; thoải mái",
+            "vt. ra lệnh ngừng chèo",
+            "adv. không tốn sức; thong dong, ung dung",
+            "vi. ngừng chèo"
         ],
         "usphone": "[ˈiːzi]",
         "ukphone": "[ˈiːzi]"
@@ -153,7 +153,7 @@
     {
         "name": "policeman",
         "trans": [
-            "n. 警察，警员；[分化] 淀帚（橡皮头玻璃搅棒）"
+            "n. cảnh sát; que khuấy đầu cao su"
         ],
         "usphone": "[pəˈliːsmən]",
         "ukphone": "[pəˈliːsmən]"
@@ -169,8 +169,8 @@
     {
         "name": "strong",
         "trans": [
-            "adj. 坚强的；强壮的；牢固的；擅长的",
-            "adv. 强劲地；猛烈地"
+            "adj. mạnh mẽ; khỏe mạnh; vững chắc; giỏi",
+            "adv. mạnh mẽ; dữ dội"
         ],
         "usphone": "[strɔːŋ]",
         "ukphone": "[strɒŋ]"
@@ -178,9 +178,9 @@
     {
         "name": "before",
         "trans": [
-            "prep. 在…之前，先于",
-            "conj. 在…以前；在…之前",
-            "adv. 以前；在前"
+            "prep. trước..., trước khi",
+            "conj. trước khi...; trước...",
+            "adv. trước đây; ở phía trước"
         ],
         "usphone": "[bɪˈfɔːr]",
         "ukphone": "[bɪˈfɔː(r)]"
@@ -188,10 +188,10 @@
     {
         "name": "after",
         "trans": [
-            "conj. 在……之后",
-            "prep. 在……之后",
-            "adj. 以后的",
-            "adv. 后来，以后"
+            "conj. sau khi...",
+            "prep. sau...",
+            "adj. sau này, về sau",
+            "adv. sau này, về sau"
         ],
         "usphone": "[ˈæftər]",
         "ukphone": "[ˈɑːftə(r)]"
@@ -199,9 +199,9 @@
     {
         "name": "bad",
         "trans": [
-            "n. 坏事；坏人",
-            "adj. 坏的；严重的；劣质的",
-            "adv. 很，非常；坏地；邪恶地"
+            "n. việc xấu; kẻ xấu",
+            "adj. xấu; nghiêm trọng; kém chất lượng",
+            "adv. rất, lắm; tệ hại; độc ác"
         ],
         "usphone": "[bæd]",
         "ukphone": "[bæd]"
@@ -210,9 +210,9 @@
         "name": "next",
         "trans": [
             "adv. sau đó; lần tới; kế tiếp",
-            "adj. 下一个的；其次的；贴近的",
-            "n. 下一个",
-            "prep. 靠近；居于…之后"
+            "adj. kế tiếp; thứ hai; gần kề",
+            "n. người tiếp theo, cái tiếp theo",
+            "prep. gần; sau"
         ],
         "usphone": "[nekst]",
         "ukphone": "[nekst]"
@@ -240,7 +240,7 @@
         "trans": [
             "n. phút; chốc lát; ghi chú, ghi nhớ; biên bản họp",
             "vt. ghi lại",
-            "adj. 微小的，详细的 [maɪˈnjuːt; US -ˈnuːt; maɪˋnut]"
+            "adj. nhỏ xíu, chi tiết"
         ],
         "usphone": "[ˈmɪnɪt]",
         "ukphone": "[ˈmɪnɪt]"
@@ -296,9 +296,9 @@
     {
         "name": "lake",
         "trans": [
-            "n. 湖；深红色颜料；胭脂红",
-            "vt. （使）血球溶解",
-            "vi. （使）血球溶解"
+            "n. hồ; sơn đỏ thẫm; màu son đỏ",
+            "vt. làm tan hồng cầu, gây tan máu",
+            "vi. tan hồng cầu, bị tan máu"
         ],
         "usphone": "[leɪk]",
         "ukphone": "[leɪk]"
@@ -307,9 +307,9 @@
         "name": "swim",
         "trans": [
             "n. bơi lội; nổi; chóng mặt",
-            "adj. 游泳时穿戴的",
-            "vi. 游泳；漂浮；浸；眩晕",
-            "vt. 游过；使浮起"
+            "adj. mặc khi bơi",
+            "vi. bơi; trôi nổi; ngâm; chóng mặt",
+            "vt. bơi qua; làm nổi lên"
         ],
         "usphone": "[swɪm]",
         "ukphone": "[swɪm]"
@@ -373,9 +373,9 @@
     {
         "name": "get",
         "trans": [
-            "n. 生殖；幼兽",
-            "vi. 成为；变得；到达",
-            "vt. 使得；获得；受到；变成"
+            "n. sự sinh sản, thú non",
+            "vi. trở thành; trở nên; đến",
+            "vt. làm cho; đạt được; chịu; biến thành"
         ],
         "usphone": "[ɡet]",
         "ukphone": "[ɡet]"
@@ -383,7 +383,7 @@
     {
         "name": "got",
         "trans": [
-            "v. 得到，明白（get的过去式和过去分词）"
+            "v. được, hiểu (quá khứ và phân từ của get)"
         ],
         "usphone": "[ɡɑːt]",
         "ukphone": "[ɡɒt]"
@@ -391,8 +391,8 @@
     {
         "name": "party",
         "trans": [
-            "n. 政党，党派；聚会，派对；当事人 [复数 parties]",
-            "vi. 参加社交聚会 [ 过去式 partied 过去分词 partied 现在分词 partying ]"
+            "n. chính đảng, đảng phái; bữa tiệc, buổi liên hoan; đương sự [số nhiều parties]",
+            "vi. dự tiệc xã giao [quá khứ partied, quá khứ phân từ partied, hiện tại phân từ partying]"
         ],
         "usphone": "[ˈpɑːrti]",
         "ukphone": "[ˈpɑːti]"
@@ -409,8 +409,8 @@
     {
         "name": "begin",
         "trans": [
-            "vi. 开始；首先",
-            "vt. 开始"
+            "vi. bắt đầu, trước hết",
+            "vt. bắt đầu"
         ],
         "usphone": "[bɪˈɡɪn]",
         "ukphone": "[bɪˈɡɪn]"
@@ -436,9 +436,9 @@
     {
         "name": "cake",
         "trans": [
-            "n. 蛋糕；块状物；利益总额",
-            "vt. 使结块",
-            "vi. 结成块状"
+            "n. bánh ngọt, khối tảng, tổng lợi ích",
+            "vt. làm đóng cục, làm vón cục",
+            "vi. đóng thành cục, vón cục"
         ],
         "usphone": "[keɪk]",
         "ukphone": "[keɪk]"
@@ -446,7 +446,7 @@
     {
         "name": "every",
         "trans": [
-            "adj. 每一的，每个的；每隔…的"
+            "adj. mỗi, từng, cứ mỗi"
         ],
         "usphone": "[ˈevri]",
         "ukphone": "[ˈevri]"
@@ -454,10 +454,10 @@
     {
         "name": "all",
         "trans": [
-            "n. 全部",
+            "n. toàn bộ",
             "adj. Toàn bộ, tất cả",
-            "adv. 全然地；越发",
-            "pron. 全部"
+            "adv. hoàn toàn; càng thêm",
+            "pron. tất cả, toàn bộ"
         ],
         "usphone": "[ɔːl]",
         "ukphone": "[ɔːl]"

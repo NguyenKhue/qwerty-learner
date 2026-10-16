@@ -14,31 +14,31 @@
     {
         "name": "Urban and Regional Planning",
         "trans": [
-            "城市和区域规划 ，社区和区域规划，城市规划"
+            "quy hoạch đô thị và vùng, quy hoạch cộng đồng và vùng, quy hoạch thành phố"
         ]
     },
     {
         "name": "Community and Regional Planning",
         "trans": [
-            "城市和区域规划 ，社区和区域规划，城市规划"
+            "quy hoạch đô thị và vùng, quy hoạch cộng đồng và vùng, quy hoạch thành phố"
         ]
     },
     {
         "name": "city planning",
         "trans": [
-            "城市和区域规划 ，社区和区域规划，城市规划"
+            "quy hoạch đô thị và vùng, quy hoạch cộng đồng và vùng, quy hoạch thành phố"
         ]
     },
     {
         "name": "Landscape architecture",
         "trans": [
-            "风景园林"
+            "kiến trúc cảnh quan"
         ]
     },
     {
         "name": "Urban Design",
         "trans": [
-            "城市设计"
+            "thiết kế đô thị"
         ]
     },
     {
@@ -62,7 +62,7 @@
     {
         "name": "undergraduate student",
         "trans": [
-            "本科生"
+            "sinh viên đại học"
         ]
     },
     {
@@ -76,7 +76,7 @@
     {
         "name": "sophomore",
         "trans": [
-            "大二学生"
+            "sinh viên năm hai"
         ],
         "usphone": "'sɑfəmɔr",
         "ukphone": "'sɒfəmɔː"
@@ -184,13 +184,13 @@
     {
         "name": "Landscape Architecture",
         "trans": [
-            "风景园林"
+            "kiến trúc cảnh quan"
         ]
     },
     {
         "name": "Urban Design",
         "trans": [
-            "城市设计"
+            "thiết kế đô thị"
         ]
     },
     {
@@ -260,7 +260,7 @@
     {
         "name": "Structural Engineer",
         "trans": [
-            "结构工程师"
+            "kỹ sư kết cấu"
         ]
     },
     {
@@ -272,7 +272,7 @@
     {
         "name": "Mechanical Engineer",
         "trans": [
-            "机械工程师"
+            "kỹ sư cơ khí"
         ]
     },
     {
@@ -314,7 +314,7 @@
     {
         "name": "universal design",
         "trans": [
-            "通用设计"
+            "thiết kế phổ quát, thiết kế chung"
         ]
     },
     {
@@ -326,13 +326,13 @@
     {
         "name": "participatory planning",
         "trans": [
-            "参与式规划"
+            "quy hoạch có sự tham gia"
         ]
     },
     {
         "name": "residential density",
         "trans": [
-            "居住密度"
+            "mật độ cư trú, mật độ dân cư"
         ]
     },
     {
@@ -510,7 +510,7 @@
     {
         "name": "intersection",
         "trans": [
-            "交叉口"
+            "giao lộ, ngã tư"
         ],
         "usphone": ",ɪntɚ'sɛkʃən",
         "ukphone": "ˌɪntər'sekʃn"
@@ -530,7 +530,7 @@
     {
         "name": "participatory planning",
         "trans": [
-            "参与式规划"
+            "quy hoạch có sự tham gia"
         ]
     },
     {
@@ -604,7 +604,7 @@
     {
         "name": "single family home",
         "trans": [
-            "独栋别墅"
+            "biệt thự đơn lập"
         ]
     },
     {
@@ -646,7 +646,7 @@
     {
         "name": "re-use/conversion",
         "trans": [
-            "转换"
+            "chuyển đổi"
         ]
     },
     {
@@ -660,13 +660,13 @@
     {
         "name": "historic preservation",
         "trans": [
-            "历史性保护"
+            "bảo tồn lịch sử"
         ]
     },
     {
         "name": "restoration",
         "trans": [
-            "修复"
+            "phục hồi, tu sửa"
         ],
         "usphone": "'rɛstə'reʃən",
         "ukphone": "ˌrestə'reɪʃn"
@@ -872,13 +872,13 @@
     {
         "name": "dormer",
         "trans": [
-            "老虎窗"
+            "cửa sổ gác mái"
         ]
     },
     {
         "name": "truss",
         "trans": [
-            "桁架"
+            "giàn, vì kèo"
         ]
     },
     {
@@ -896,13 +896,13 @@
     {
         "name": "interior wall",
         "trans": [
-            "内墙"
+            "tường trong, tường nội thất"
         ]
     },
     {
         "name": "exterior wall",
         "trans": [
-            "外墙"
+            "tường ngoài, mặt ngoài"
         ]
     },
     {
@@ -914,7 +914,7 @@
     {
         "name": "shell",
         "trans": [
-            "表皮"
+            "lớp vỏ ngoài, biểu bì"
         ],
         "usphone": "ʃɛl",
         "ukphone": "ʃel"
@@ -922,7 +922,7 @@
     {
         "name": "envelope",
         "trans": [
-            "表皮"
+            "lớp vỏ ngoài, biểu bì"
         ]
     },
     {
@@ -968,7 +968,7 @@
     {
         "name": "mortar",
         "trans": [
-            "砂浆"
+            "vữa, vữa xây"
         ],
         "usphone": "'mɔrtɚ",
         "ukphone": "'mɔːtə"
@@ -1088,7 +1088,7 @@
     {
         "name": "sense of community",
         "trans": [
-            "社区感"
+            "cảm giác cộng đồng, tính cộng đồng"
         ]
     },
     {
@@ -1120,7 +1120,7 @@
     {
         "name": "back yard",
         "trans": [
-            "后院"
+            "sân sau"
         ]
     },
     {
@@ -1142,7 +1142,7 @@
     {
         "name": "front yard",
         "trans": [
-            "前院"
+            "sân trước"
         ]
     },
     {
@@ -1234,7 +1234,7 @@
     {
         "name": "residential density",
         "trans": [
-            "居住密度"
+            "mật độ cư trú, mật độ dân cư"
         ]
     },
     {
@@ -1258,7 +1258,7 @@
     {
         "name": "urban renewal",
         "trans": [
-            "城市更新"
+            "chỉnh trang đô thị, tái thiết đô thị"
         ]
     },
     {
@@ -1328,7 +1328,7 @@
     {
         "name": "mixed use",
         "trans": [
-            "混合使用"
+            "sử dụng hỗn hợp"
         ]
     },
     {
@@ -1388,13 +1388,13 @@
     {
         "name": "mixed use",
         "trans": [
-            "混合使用"
+            "sử dụng hỗn hợp"
         ]
     },
     {
         "name": "citizen",
         "trans": [
-            "市民"
+            "công dân, người dân thành phố"
         ],
         "usphone": "'sɪtɪzn",
         "ukphone": "'sɪtɪz(ə)n"
@@ -1402,7 +1402,7 @@
     {
         "name": "single family home",
         "trans": [
-            "独栋别墅"
+            "biệt thự đơn lập"
         ]
     },
     {
@@ -1422,7 +1422,7 @@
     {
         "name": "privacy",
         "trans": [
-            "私密性"
+            "tính riêng tư, sự kín đáo"
         ],
         "usphone": "'praɪvəsi",
         "ukphone": "'privəsi"
@@ -1436,13 +1436,13 @@
     {
         "name": "structural engineer",
         "trans": [
-            "结构工程师"
+            "kỹ sư kết cấu"
         ]
     },
     {
         "name": "mechanical engineer",
         "trans": [
-            "机械工程师"
+            "kỹ sư cơ khí"
         ]
     },
     {
@@ -1530,7 +1530,7 @@
     {
         "name": "column",
         "trans": [
-            "柱子"
+            "cột, trụ"
         ],
         "usphone": "'kɑləm",
         "ukphone": "'kɑːləm"
@@ -1538,7 +1538,7 @@
     {
         "name": "beam",
         "trans": [
-            "梁"
+            "xà, dầm"
         ],
         "usphone": "bim",
         "ukphone": "biːm"
@@ -1570,7 +1570,7 @@
     {
         "name": "cantilever/overhang",
         "trans": [
-            "悬挑"
+            "phần đua ra, kết cấu hẫng"
         ]
     },
     {
@@ -1594,7 +1594,7 @@
     {
         "name": "compression",
         "trans": [
-            "压"
+            "ép, nén, đè"
         ],
         "usphone": "kəm'prɛʃən",
         "ukphone": "kəm'preʃ(ə)n"
@@ -1638,7 +1638,7 @@
     {
         "name": "post",
         "trans": [
-            "柱子"
+            "cột, trụ"
         ],
         "usphone": "post",
         "ukphone": "pəʊst"
@@ -1646,7 +1646,7 @@
     {
         "name": "lintel",
         "trans": [
-            "梁"
+            "xà, dầm"
         ],
         "usphone": "'lɪntl",
         "ukphone": "'lɪnt(ə)l"
@@ -1676,7 +1676,7 @@
     {
         "name": "beam",
         "trans": [
-            "梁"
+            "xà, dầm"
         ],
         "usphone": "bim",
         "ukphone": "biːm"
@@ -1684,7 +1684,7 @@
     {
         "name": "columns,pillars,or posts",
         "trans": [
-            "柱"
+            "cột, trụ"
         ]
     },
     {
@@ -1704,7 +1704,7 @@
     {
         "name": "truss",
         "trans": [
-            "桁架"
+            "giàn, vì kèo"
         ]
     },
     {
@@ -1728,7 +1728,7 @@
     {
         "name": "arch",
         "trans": [
-            "券"
+            "vé, phiếu, chứng từ"
         ],
         "usphone": "ɑrtʃ",
         "ukphone": "ɑːtʃ"
@@ -1744,7 +1744,7 @@
     {
         "name": "barrel vault",
         "trans": [
-            "筒形拱"
+            "vòm hình ống, vòm cuốn"
         ]
     },
     {
@@ -1758,7 +1758,7 @@
     {
         "name": "spring line",
         "trans": [
-            "拱脚线"
+            "đường chân vòm"
         ]
     },
     {
@@ -1854,7 +1854,7 @@
     {
         "name": "exterior",
         "trans": [
-            "室外"
+            "ngoài trời, ngoài nhà"
         ],
         "usphone": "ɪk'stɪrɪɚ",
         "ukphone": "ɪk'stɪriər"
@@ -1868,19 +1868,19 @@
     {
         "name": "interior wall",
         "trans": [
-            "内墙"
+            "tường trong, tường nội thất"
         ]
     },
     {
         "name": "exterior wall",
         "trans": [
-            "外墙"
+            "tường ngoài, mặt ngoài"
         ]
     },
     {
         "name": "natural ventilation",
         "trans": [
-            "自然通风"
+            "thông gió tự nhiên"
         ]
     },
     {
@@ -1934,13 +1934,13 @@
     {
         "name": "structure engineer",
         "trans": [
-            "结构工程师"
+            "kỹ sư kết cấu"
         ]
     },
     {
         "name": "mechanical engineer",
         "trans": [
-            "机械工程师"
+            "kỹ sư cơ khí"
         ]
     },
     {
@@ -1954,7 +1954,7 @@
     {
         "name": "pagoda",
         "trans": [
-            "宝塔"
+            "bảo tháp, tháp"
         ],
         "usphone": "pə'ɡodə",
         "ukphone": "pə'gəʊdə"
@@ -2038,13 +2038,13 @@
     {
         "name": "front yard",
         "trans": [
-            "前院"
+            "sân trước"
         ]
     },
     {
         "name": "back yard",
         "trans": [
-            "后院"
+            "sân sau"
         ]
     },
     {
@@ -2146,7 +2146,7 @@
     {
         "name": "urban revitalization",
         "trans": [
-            "城市更新"
+            "chỉnh trang đô thị, tái thiết đô thị"
         ]
     },
     {
@@ -2182,7 +2182,7 @@
     {
         "name": "transportation corridor",
         "trans": [
-            "交通走廊"
+            "hành lang giao thông"
         ]
     },
     {
@@ -2196,7 +2196,7 @@
     {
         "name": "master plan",
         "trans": [
-            "总平面"
+            "tổng mặt bằng"
         ]
     },
     {
@@ -2358,7 +2358,7 @@
     {
         "name": "artificial lighting",
         "trans": [
-            "人造灯光"
+            "ánh sáng nhân tạo"
         ]
     },
     {
@@ -2378,7 +2378,7 @@
     {
         "name": "deflection",
         "trans": [
-            "偏斜"
+            "lệch, nghiêng, xiên"
         ],
         "usphone": "dɪ'flɛkʃən",
         "ukphone": "dɪ'flekʃ(ə)n"
@@ -2410,7 +2410,7 @@
     {
         "name": "firmitas",
         "trans": [
-            "坚固"
+            "vững chắc, kiên cố"
         ]
     },
     {
@@ -2430,7 +2430,7 @@
     {
         "name": "firmness",
         "trans": [
-            "坚固"
+            "vững chắc, kiên cố"
         ],
         "usphone": "'fɝmnɪs",
         "ukphone": "'fɜ:mnɪs"
@@ -2542,7 +2542,7 @@
     {
         "name": "site plan",
         "trans": [
-            "总平面"
+            "tổng mặt bằng"
         ]
     },
     {
@@ -2576,7 +2576,7 @@
     {
         "name": "perspective drawing",
         "trans": [
-            "透视图"
+            "phối cảnh, hình phối cảnh"
         ]
     },
     {
@@ -2676,7 +2676,7 @@
     {
         "name": "tension",
         "trans": [
-            "张力"
+            "sức căng, trương lực"
         ],
         "usphone": "'tɛnʃən",
         "ukphone": "'tenʃn"
@@ -2776,7 +2776,7 @@
     {
         "name": "cylinder",
         "trans": [
-            "圆柱"
+            "hình trụ, cột trụ"
         ],
         "usphone": "'sɪlɪndɚ",
         "ukphone": "'sɪlɪndər"
@@ -2838,7 +2838,7 @@
     {
         "name": "axis",
         "trans": [
-            "轴线"
+            "trục, đường trục"
         ],
         "usphone": "'æksɪs",
         "ukphone": "'æksɪs"
@@ -2858,7 +2858,7 @@
     {
         "name": "perspective",
         "trans": [
-            "透视图"
+            "phối cảnh, hình phối cảnh"
         ],
         "usphone": "pɚ'spɛktɪv",
         "ukphone": "pər'spektɪv"
@@ -3090,7 +3090,7 @@
     {
         "name": "vernacular",
         "trans": [
-            "本地的"
+            "thuộc địa phương, bản địa"
         ],
         "usphone": "vɚ'nækjəlɚ",
         "ukphone": "və'nækjulə"
@@ -3114,7 +3114,7 @@
     {
         "name": "mortar",
         "trans": [
-            "砂浆"
+            "vữa, vữa xây"
         ],
         "usphone": "'mɔrtɚ",
         "ukphone": "'mɔːtə"
@@ -3122,7 +3122,7 @@
     {
         "name": "arch",
         "trans": [
-            "券"
+            "vé, phiếu, chứng từ"
         ],
         "usphone": "ɑrtʃ",
         "ukphone": "ɑːtʃ"
@@ -3138,7 +3138,7 @@
     {
         "name": "barrel vault",
         "trans": [
-            "筒形拱"
+            "vòm hình ống, vòm cuốn"
         ]
     },
     {
@@ -3152,13 +3152,13 @@
     {
         "name": "spring line",
         "trans": [
-            "拱脚线"
+            "đường chân vòm"
         ]
     },
     {
         "name": "secular",
         "trans": [
-            "世俗的"
+            "thế tục, trần tục"
         ],
         "usphone": "'sɛkjəlɚ",
         "ukphone": "'sekjələr"
@@ -3224,7 +3224,7 @@
     {
         "name": "axis",
         "trans": [
-            "轴线"
+            "trục, đường trục"
         ],
         "usphone": "'æksɪs",
         "ukphone": "'æksɪs"
@@ -3254,7 +3254,7 @@
     {
         "name": "pavilion",
         "trans": [
-            "亭"
+            "đình, lầu, chòi"
         ],
         "usphone": "pə'vɪlɪən",
         "ukphone": "pə'vɪljən"
@@ -3290,7 +3290,7 @@
     {
         "name": "secular",
         "trans": [
-            "世俗的"
+            "thế tục, trần tục"
         ],
         "usphone": "'sɛkjəlɚ",
         "ukphone": "'sekjələr"
@@ -3298,7 +3298,7 @@
     {
         "name": "pavilion",
         "trans": [
-            "亭"
+            "đình, lầu, chòi"
         ],
         "usphone": "pə'vɪlɪən",
         "ukphone": "pə'vɪljən"
@@ -3322,7 +3322,7 @@
     {
         "name": "column",
         "trans": [
-            "圆柱"
+            "hình trụ, cột trụ"
         ],
         "usphone": "'kɑləm",
         "ukphone": "'kɑːləm"
@@ -3346,7 +3346,7 @@
     {
         "name": "dormer window",
         "trans": [
-            "老虎窗"
+            "cửa sổ gác mái"
         ]
     },
     {
@@ -3392,13 +3392,13 @@
     {
         "name": "handrail",
         "trans": [
-            "扶手/栏杆"
+            "tay vịn, lan can"
         ]
     },
     {
         "name": "railing",
         "trans": [
-            "扶手/栏杆"
+            "tay vịn, lan can"
         ]
     },
     {
@@ -3410,7 +3410,7 @@
     {
         "name": "pagoda",
         "trans": [
-            "宝塔"
+            "bảo tháp, tháp"
         ],
         "usphone": "pə'ɡodə",
         "ukphone": "pə'gəʊdə"
@@ -3466,7 +3466,7 @@
     {
         "name": "adjacent",
         "trans": [
-            "邻近的"
+            "lân cận, kề bên"
         ],
         "usphone": "ə'dʒesnt",
         "ukphone": "ə'dʒeɪsnt"
@@ -3482,7 +3482,7 @@
     {
         "name": "awning",
         "trans": [
-            "遮阳棚"
+            "mái che nắng, mái hiên"
         ],
         "usphone": "'ɔnɪŋ",
         "ukphone": "'ɔːnɪŋ"
@@ -3538,7 +3538,7 @@
     {
         "name": "kiosk",
         "trans": [
-            "公用电话亭"
+            "bốt điện thoại công cộng"
         ],
         "usphone": "'kiɑsk",
         "ukphone": "'kiːɒsk"
@@ -3562,7 +3562,7 @@
     {
         "name": "retrofit",
         "trans": [
-            "翻新"
+            "tân trang, cải tạo"
         ]
     },
     {
@@ -3712,13 +3712,13 @@
     {
         "name": "feet",
         "trans": [
-            "英尺"
+            "foot, feet (đơn vị đo Anh, khoảng 30,48 cm)"
         ]
     },
     {
         "name": "intersection",
         "trans": [
-            "交叉口"
+            "giao lộ, ngã tư"
         ],
         "usphone": ",ɪntɚ'sɛkʃən",
         "ukphone": "ˌɪntər'sekʃn"
@@ -3762,7 +3762,7 @@
     {
         "name": "transportation corridor",
         "trans": [
-            "交通走廊"
+            "hành lang giao thông"
         ]
     },
     {
@@ -3818,7 +3818,7 @@
     {
         "name": "universal design",
         "trans": [
-            "通用设计"
+            "thiết kế phổ quát, thiết kế chung"
         ]
     },
     {
@@ -3874,7 +3874,7 @@
     {
         "name": "adjacent",
         "trans": [
-            "邻近的"
+            "lân cận, kề bên"
         ],
         "usphone": "ə'dʒesnt",
         "ukphone": "ə'dʒeɪsnt"
@@ -3948,13 +3948,13 @@
     {
         "name": "artificial lighting",
         "trans": [
-            "人造灯光"
+            "ánh sáng nhân tạo"
         ]
     },
     {
         "name": "natural ventilation",
         "trans": [
-            "自然通风"
+            "thông gió tự nhiên"
         ]
     },
     {
@@ -3980,13 +3980,13 @@
     {
         "name": "historic preservation",
         "trans": [
-            "历史性保护"
+            "bảo tồn lịch sử"
         ]
     },
     {
         "name": "restoration",
         "trans": [
-            "修复"
+            "phục hồi, tu sửa"
         ],
         "usphone": "'rɛstə'reʃən",
         "ukphone": "ˌrestə'reɪʃn"
@@ -4000,7 +4000,7 @@
     {
         "name": "intimate",
         "trans": [
-            "私密性"
+            "tính riêng tư, sự kín đáo"
         ],
         "usphone": "ˈɪntəmɪt",
         "ukphone": "'ɪntɪmət"
@@ -4060,7 +4060,7 @@
     {
         "name": "R-value",
         "trans": [
-            "热阻"
+            "nhiệt trở, sức cản nhiệt"
         ]
     },
     {
@@ -4168,7 +4168,7 @@
     {
         "name": "overhang",
         "trans": [
-            "悬挑"
+            "phần đua ra, kết cấu hẫng"
         ],
         "usphone": ",ovɚ'hæŋ",
         "ukphone": "əʊvə'hæŋ"
@@ -4216,7 +4216,7 @@
     {
         "name": "thermal resistance",
         "trans": [
-            "热阻"
+            "nhiệt trở, sức cản nhiệt"
         ]
     },
     {
@@ -4326,7 +4326,7 @@
     {
         "name": "awning",
         "trans": [
-            "遮阳棚"
+            "mái che nắng, mái hiên"
         ],
         "usphone": "'ɔnɪŋ",
         "ukphone": "'ɔːnɪŋ"

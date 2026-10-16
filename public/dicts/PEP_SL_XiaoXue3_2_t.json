@@ -2,8 +2,8 @@
     {
         "name": "Chinese",
         "trans": [
-            "语文",
-            "汉语（的）"
+            "ngữ văn",
+            "(thuộc) tiếng Hán, tiếng Trung"
         ],
         "usphone": "tʃaɪˈniz",
         "ukphone": "tʃaɪˈniːz"
@@ -11,7 +11,7 @@
     {
         "name": "English",
         "trans": [
-            "英语（的）"
+            "tiếng Anh, (thuộc) tiếng Anh"
         ],
         "usphone": "ˈɪŋɡlɪʃ",
         "ukphone": "ˈɪŋɡlɪʃ"
@@ -27,7 +27,7 @@
     {
         "name": "PE",
         "trans": [
-            "体育"
+            "thể dục, thể thao"
         ],
         "usphone": "ˌpiːˈiː",
         "ukphone": "ˌpiːˈiː"
@@ -59,7 +59,7 @@
     {
         "name": "computer class",
         "trans": [
-            "计算机课"
+            "giờ tin học, môn tin học"
         ],
         "usphone": "kəmˈpjuːtər klæs",
         "ukphone": "kəmˈpjuːtə klɑːs"
@@ -75,7 +75,7 @@
     {
         "name": "that",
         "trans": [
-            "那，那个"
+            "kia, cái kia, đó"
         ],
         "usphone": "ðæt",
         "ukphone": "ðæt"
@@ -99,7 +99,7 @@
     {
         "name": "toilet",
         "trans": [
-            "厕所，洗手间"
+            "nhà vệ sinh, phòng vệ sinh"
         ],
         "usphone": "ˈtɔɪlət",
         "ukphone": "ˈtɔɪlət"
@@ -107,7 +107,7 @@
     {
         "name": "playground",
         "trans": [
-            "操场，运动场"
+            "sân chơi, sân vận động"
         ],
         "usphone": "ˈpleɪˌɡraʊnd",
         "ukphone": "ˈpleɪɡraʊnd"
@@ -139,7 +139,7 @@
     {
         "name": "floor",
         "trans": [
-            "（楼）层"
+            "tầng (nhà)"
         ],
         "usphone": "flɔr",
         "ukphone": "flɔː"
@@ -179,7 +179,7 @@
     {
         "name": "desk",
         "trans": [
-            "书桌；写字台"
+            "bàn học; bàn viết"
         ],
         "usphone": "dɛsk",
         "ukphone": "dɛsk"
@@ -195,7 +195,7 @@
     {
         "name": "after school",
         "trans": [
-            "放学后"
+            "sau khi tan học"
         ],
         "usphone": "ˈæftər skul",
         "ukphone": "ˈɑːftə skul"
@@ -203,7 +203,7 @@
     {
         "name": "play sports",
         "trans": [
-            "做运动"
+            "tập thể dục"
         ],
         "usphone": "pleɪ ˈspɔrts",
         "ukphone": "pleɪ ˈspɔːts"
@@ -211,7 +211,7 @@
     {
         "name": "draw pictures",
         "trans": [
-            "画画"
+            "vẽ tranh"
         ],
         "usphone": "drɔ ˈpɪktʃərz",
         "ukphone": "drɔː ˈpɪktʃəz"
@@ -219,7 +219,7 @@
     {
         "name": "play chess",
         "trans": [
-            "下棋"
+            "chơi cờ"
         ],
         "usphone": "pleɪ tʃɛs",
         "ukphone": "pleɪ tʃes"
@@ -243,7 +243,7 @@
     {
         "name": "read books",
         "trans": [
-            "读书"
+            "đọc sách"
         ],
         "usphone": "rid bʊks",
         "ukphone": "riːd bʊks"
@@ -267,7 +267,7 @@
     {
         "name": "wake up",
         "trans": [
-            "叫醒"
+            "đánh thức, gọi dậy"
         ],
         "usphone": "weɪk ʌp",
         "ukphone": "weɪkʌp"
@@ -275,7 +275,7 @@
     {
         "name": "be back",
         "trans": [
-            "回来"
+            "trở về, quay về"
         ],
         "usphone": "bi bæk",
         "ukphone": "bi bæk"
@@ -283,7 +283,7 @@
     {
         "name": "play football",
         "trans": [
-            "踢足球"
+            "đá bóng"
         ],
         "usphone": "pleɪ ˈfʊtˌbɔl",
         "ukphone": "pleɪ ˈfʊtbɔːl"
@@ -291,7 +291,7 @@
     {
         "name": "fly a kite",
         "trans": [
-            "放风筝"
+            "thả diều"
         ],
         "usphone": "flaɪ ə kaɪt",
         "ukphone": "flaɪ ə kaɪt"
@@ -315,7 +315,7 @@
     {
         "name": "make a model plane",
         "trans": [
-            "做飞机模型"
+            "làm mô hình máy bay"
         ],
         "usphone": "meɪk ə ˈmɑdl pleɪn",
         "ukphone": "meɪk ə ˈmɒdl pleɪn"
@@ -323,7 +323,7 @@
     {
         "name": "make a snowman",
         "trans": [
-            "堆雪人"
+            "đắp người tuyết"
         ],
         "usphone": "meɪk ə ˈsnoʊˌmæn",
         "ukphone": "meɪk ə ˈsnəʊmən"
@@ -339,7 +339,7 @@
     {
         "name": "uncle",
         "trans": [
-            "姑父；伯父；舅父；叔叔"
+            "chú; bác; cậu; dượng"
         ],
         "usphone": "ˈʌŋkəl",
         "ukphone": "ˈʌŋkl̩"
@@ -347,7 +347,7 @@
     {
         "name": "aunt",
         "trans": [
-            "姑母；伯母；舅妈；阿姨"
+            "cô; bác gái; dì; mợ, thím"
         ],
         "usphone": "ænt",
         "ukphone": "ɑːnt"
@@ -355,7 +355,7 @@
     {
         "name": "cousin",
         "trans": [
-            "堂（或表）兄弟；堂（或表）姐妹"
+            "anh em họ; chị em họ"
         ],
         "usphone": "ˈkʌzn",
         "ukphone": "ˈkʌzn"
@@ -363,7 +363,7 @@
     {
         "name": "handsome",
         "trans": [
-            "英俊的"
+            "đẹp trai"
         ],
         "usphone": "ˈhænsəm",
         "ukphone": "ˈhænsəm"
@@ -379,7 +379,7 @@
     {
         "name": "lost",
         "trans": [
-            "遗失"
+            "đánh mất, thất lạc"
         ],
         "usphone": "lɔst",
         "ukphone": "lɒst"
@@ -403,7 +403,7 @@
     {
         "name": "OK",
         "trans": [
-            "好的；行"
+            "được; đồng ý"
         ],
         "usphone": "ˌoʊˈkeɪ",
         "ukphone": "ɒˈkeɪ"
@@ -411,7 +411,7 @@
     {
         "name": "much",
         "trans": [
-            "很多地；非常"
+            "rất nhiều; vô cùng"
         ],
         "usphone": "mʌtʃ",
         "ukphone": "mʌtʃ"
@@ -427,7 +427,7 @@
     {
         "name": "grandfather",
         "trans": [
-            "（外）祖父"
+            "(ông) ngoại, ông"
         ],
         "usphone": "ˈɡrændˌfɑðər",
         "ukphone": "ˈɡrænˌfɑːðər"
@@ -435,7 +435,7 @@
     {
         "name": "grandmother",
         "trans": [
-            "（外）祖母"
+            "(bà) ngoại, bà"
         ],
         "usphone": "ˈɡrændˌmʌðər",
         "ukphone": "ˈɡrænˌmʌðər"
@@ -459,7 +459,7 @@
     {
         "name": "brother",
         "trans": [
-            "兄；弟"
+            "anh; em trai"
         ],
         "usphone": "ˈbrʌðər",
         "ukphone": "ˈbrʌðər"
@@ -467,7 +467,7 @@
     {
         "name": "sister",
         "trans": [
-            "姐；妹"
+            "chị; em gái"
         ],
         "usphone": "ˈsɪstər",
         "ukphone": "ˈsɪstər"
@@ -475,7 +475,7 @@
     {
         "name": "cooking dinner",
         "trans": [
-            "正在做饭"
+            "đang nấu ăn"
         ],
         "usphone": "ˈkʊkɪŋ ˈdɪnər",
         "ukphone": "ˈkʊkɪŋ ˈdɪnər"
@@ -483,7 +483,7 @@
     {
         "name": "walking the dog",
         "trans": [
-            "正在遛狗"
+            "đang dắt chó đi dạo"
         ],
         "usphone": "ˈwɔkɪŋ ðə dɔɡ",
         "ukphone": "ˈwɔːkɪŋ ðə dɒɡ"
@@ -491,7 +491,7 @@
     {
         "name": "watering the plants",
         "trans": [
-            "正在给植物浇水"
+            "đang tưới cây"
         ],
         "usphone": "ˈwɔtərɪŋ ðə plænts",
         "ukphone": "ˈwɔːtərɪŋ ðə plɑːnts"
@@ -499,7 +499,7 @@
     {
         "name": "cleaning the room",
         "trans": [
-            "正在打扫房间"
+            "đang dọn phòng"
         ],
         "usphone": "ˈklinɪŋ ðə rum",
         "ukphone": "ˈkliːnɪŋ ðə ruːm"
@@ -507,7 +507,7 @@
     {
         "name": "listening to music",
         "trans": [
-            "正在听音乐"
+            "đang nghe nhạc"
         ],
         "usphone": "ˈlɪsənɪŋ tu ˈmjuzɪk",
         "ukphone": "ˈlɪsənɪŋ tʊ ˈmjuːzɪk"
@@ -515,7 +515,7 @@
     {
         "name": "watching TV",
         "trans": [
-            "正在看电视"
+            "đang xem ti vi"
         ],
         "usphone": "ˈwɑtʃɪŋ ˈtiˈvi",
         "ukphone": "ˈwɒtʃɪŋ ˈtiˈvi"
@@ -523,7 +523,7 @@
     {
         "name": "feeding the fish",
         "trans": [
-            "正在喂鱼"
+            "đang cho cá ăn"
         ],
         "usphone": "ˈfiːdɪŋ ðə fɪʃ",
         "ukphone": "ˈfiːdɪŋ ðə fɪʃ"
@@ -531,7 +531,7 @@
     {
         "name": "play with",
         "trans": [
-            "与……玩耍"
+            "chơi đùa với..."
         ],
         "usphone": "pleɪ wɪð",
         "ukphone": "pleɪ wɪð"
@@ -539,7 +539,7 @@
     {
         "name": "in one hour",
         "trans": [
-            "一小时之后"
+            "một giờ sau, sau một tiếng"
         ],
         "usphone": "ɪn wʌn ˈaʊər",
         "ukphone": "ɪn wʌn ˈaʊər"
@@ -547,7 +547,7 @@
     {
         "name": "everyone",
         "trans": [
-            "每人，人人"
+            "mỗi người, ai cũng vậy"
         ],
         "usphone": "ˈɛvrɪˌwʌn",
         "ukphone": "ˈevrɪˌwʌn"
@@ -555,7 +555,7 @@
     {
         "name": "children",
         "trans": [
-            "孩子们"
+            "bọn trẻ, các em nhỏ"
         ],
         "usphone": "ˈtʃɪldrən",
         "ukphone": "ˈtʃɪldrən"
@@ -571,7 +571,7 @@
     {
         "name": "home",
         "trans": [
-            "家；家庭"
+            "nhà; gia đình"
         ],
         "usphone": "hoʊm",
         "ukphone": "həʊm"
@@ -611,7 +611,7 @@
     {
         "name": "study",
         "trans": [
-            "书房"
+            "phòng sách"
         ],
         "usphone": "ˈstʌdi",
         "ukphone": "ˈstʌdi"
@@ -627,7 +627,7 @@
     {
         "name": "for rent",
         "trans": [
-            "供出租"
+            "cho thuê"
         ],
         "usphone": "fɔr rɛnt",
         "ukphone": "fɔː rɛnt"
@@ -643,7 +643,7 @@
     {
         "name": "light",
         "trans": [
-            "灯；发光体"
+            "đèn; vật phát sáng"
         ],
         "usphone": "laɪt",
         "ukphone": "laɪt"
@@ -651,7 +651,7 @@
     {
         "name": "bed",
         "trans": [
-            "床；床架；床垫"
+            "giường; khung giường; nệm"
         ],
         "usphone": "bɛd",
         "ukphone": "bɛd"
@@ -659,7 +659,7 @@
     {
         "name": "door",
         "trans": [
-            "门；出入口"
+            "cửa; lối ra vào"
         ],
         "usphone": "dɔr",
         "ukphone": "dɔːr"
@@ -667,7 +667,7 @@
     {
         "name": "box",
         "trans": [
-            "箱子；盒子"
+            "thùng; hộp"
         ],
         "usphone": "bɑks",
         "ukphone": "bɒks"

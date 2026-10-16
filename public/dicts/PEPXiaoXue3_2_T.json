@@ -34,7 +34,7 @@
     {
         "name": "she",
         "trans": [
-            "她；（指雌性动物）它"
+            "cô ấy; (chỉ động vật cái) nó"
         ],
         "usphone": "ʃi",
         "ukphone": "ʃiː"
@@ -42,7 +42,7 @@
     {
         "name": "student",
         "trans": [
-            "学生, 学者"
+            "học sinh, học giả"
         ],
         "usphone": "'studnt",
         "ukphone": "'stjuːd(ə)nt"
@@ -58,7 +58,7 @@
     {
         "name": "he",
         "trans": [
-            "他；它（指雄性动物）"
+            "anh ấy; nó (chỉ động vật đực)"
         ],
         "usphone": "hi",
         "ukphone": "hiː"
@@ -66,7 +66,7 @@
     {
         "name": "teacher",
         "trans": [
-            "教师, 老师, 导师"
+            "giáo viên, thầy cô, người hướng dẫn"
         ],
         "usphone": "'titʃɚ",
         "ukphone": "'tiːtʃə"
@@ -74,7 +74,7 @@
     {
         "name": "boy",
         "trans": [
-            "男孩, 儿子, 孩子气的人, 男仆"
+            "cậu bé, con trai, người trẻ con, người hầu nam"
         ],
         "usphone": "bɔɪ",
         "ukphone": "bɒɪ"
@@ -90,7 +90,7 @@
     {
         "name": "girl",
         "trans": [
-            "女孩, 少女, 女仆, (商店等的)女工作人员"
+            "cô bé, thiếu nữ, người hầu gái, nhân viên nữ (cửa hàng, v.v.)"
         ],
         "usphone": "ɡɝl",
         "ukphone": "gɜːl"
@@ -98,7 +98,7 @@
     {
         "name": "new",
         "trans": [
-            "新的，新近的；新来的；不熟悉的"
+            "mới, gần đây; mới đến; không quen thuộc"
         ],
         "usphone": "nu",
         "ukphone": "njuː"
@@ -106,7 +106,7 @@
     {
         "name": "friend",
         "trans": [
-            "朋友，友人；支持者，同情者"
+            "bạn bè, bằng hữu; người ủng hộ, người đồng cảm"
         ],
         "usphone": "frɛnd",
         "ukphone": "frend"
@@ -114,7 +114,7 @@
     {
         "name": "today",
         "trans": [
-            "今天；现在，目前"
+            "hôm nay; bây giờ, hiện nay"
         ],
         "usphone": "tə'de",
         "ukphone": "tə'deɪ"
@@ -130,7 +130,7 @@
     {
         "name": "dad",
         "trans": [
-            "（口语）爸爸；爹爹"
+            "(khẩu ngữ) bố; bố"
         ],
         "usphone": "dæd",
         "ukphone": "dæd"
@@ -162,7 +162,7 @@
     {
         "name": "sister",
         "trans": [
-            "姐；妹"
+            "chị; em gái"
         ],
         "usphone": "'sɪstɚ",
         "ukphone": "'sɪstə"
@@ -170,7 +170,7 @@
     {
         "name": "brother",
         "trans": [
-            "兄；弟"
+            "anh; em trai"
         ],
         "usphone": "'brʌðɚ",
         "ukphone": "'brʌðə"
@@ -178,7 +178,7 @@
     {
         "name": "grandmother",
         "trans": [
-            "（外）祖母"
+            "(bà) ngoại, bà"
         ],
         "usphone": "'ɡrænmʌðɚ",
         "ukphone": "'græn(d)mʌðə"
@@ -186,7 +186,7 @@
     {
         "name": "grandma",
         "trans": [
-            "（口语）（外）祖母"
+            "(khẩu ngữ) bà (nội, ngoại)"
         ],
         "usphone": "ɡrænmɑ",
         "ukphone": "'græn(d)mɑː"
@@ -194,7 +194,7 @@
     {
         "name": "grandfather",
         "trans": [
-            "（外）祖父"
+            "(ông) ngoại, ông"
         ],
         "usphone": "'græn'fɑðɚ",
         "ukphone": "'græn(d)fɑːðə"
@@ -202,7 +202,7 @@
     {
         "name": "grandpa",
         "trans": [
-            "（口语）（外）祖父"
+            "(khẩu ngữ) ông (nội, ngoại)"
         ],
         "usphone": "grandpa",
         "ukphone": "ˈgrænpɑ:"
@@ -210,7 +210,7 @@
     {
         "name": "family",
         "trans": [
-            "家；家庭"
+            "nhà; gia đình"
         ],
         "usphone": "ˈfæməlɪ",
         "ukphone": "ˈfæməlɪ"
@@ -226,7 +226,7 @@
     {
         "name": "fat",
         "trans": [
-            "胖的；肥的"
+            "béo; mập"
         ],
         "usphone": "fæt",
         "ukphone": "fæt"
@@ -242,7 +242,7 @@
     {
         "name": "short",
         "trans": [
-            "矮的；短的"
+            "thấp; ngắn"
         ],
         "usphone": "ʃɔrt",
         "ukphone": "ʃɔːt"
@@ -282,7 +282,7 @@
     {
         "name": "so",
         "trans": [
-            "这么；那么"
+            "như thế này; như thế kia"
         ],
         "usphone": "so",
         "ukphone": "səʊ"
@@ -314,7 +314,7 @@
     {
         "name": "on",
         "trans": [
-            "在⋯⋯上"
+            "ở trên..."
         ],
         "usphone": "ɑn",
         "ukphone": "ɒn"
@@ -322,7 +322,7 @@
     {
         "name": "in",
         "trans": [
-            "在⋯⋯里"
+            "ở trong..."
         ],
         "usphone": "ɪn",
         "ukphone": "ɪn"
@@ -330,7 +330,7 @@
     {
         "name": "under",
         "trans": [
-            "在⋯⋯下面"
+            "ở dưới..."
         ],
         "usphone": "'ʌndɚ",
         "ukphone": "'ʌndə"
@@ -370,7 +370,7 @@
     {
         "name": "car",
         "trans": [
-            "小汽车"
+            "ô tô con"
         ],
         "usphone": "kɑr",
         "ukphone": "kɑː"
@@ -378,7 +378,7 @@
     {
         "name": "boat",
         "trans": [
-            "小船"
+            "thuyền nhỏ"
         ],
         "usphone": "bot",
         "ukphone": "bəʊt"
@@ -402,7 +402,7 @@
     {
         "name": "box",
         "trans": [
-            "盒；箱"
+            "hộp; thùng"
         ],
         "usphone": "bɑks",
         "ukphone": "bɒks"
@@ -426,7 +426,7 @@
     {
         "name": "orange",
         "trans": [
-            "橙子"
+            "quả cam"
         ],
         "usphone": "'ɔrɪndʒ",
         "ukphone": "'ɒrɪn(d)ʒ"

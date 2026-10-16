@@ -2,8 +2,8 @@
     {
         "name": "machine",
         "trans": [
-            "n. 机械，机器；机构；机械般工作的人",
-            "vt. 用机器制造"
+            "n. máy móc; cơ cấu, cơ quan; người làm việc như máy",
+            "vt. chế tạo bằng máy"
         ],
         "usphone": "[məˈʃiːn]",
         "ukphone": "[məˈʃiːn]"
@@ -22,10 +22,10 @@
     {
         "name": "crisp",
         "trans": [
-            "adj. 脆的；新鲜的；易碎的",
-            "vt. 使卷曲；使发脆",
-            "vi. 卷曲；发脆",
-            "n. 松脆物；油炸马铃薯片"
+            "adj. giòn; tươi; dễ vỡ",
+            "vt. làm xoăn; làm giòn",
+            "vi. xoăn lại; trở nên giòn",
+            "n. đồ giòn; khoai tây chiên lát"
         ],
         "usphone": "[krɪsp]",
         "ukphone": "[krɪsp]"
@@ -33,7 +33,7 @@
     {
         "name": "sir",
         "trans": [
-            "n. 先生；（用于姓名前）爵士；阁下；（中小学生对男教师的称呼）先生；老师"
+            "n. ông, ngài; (đặt trước tên) ngài; quý ngài; (học sinh gọi giáo viên nam) thầy; giáo viên"
         ],
         "usphone": "[sɜːr; sər]",
         "ukphone": "[sɜː(r)]"
@@ -58,10 +58,10 @@
     {
         "name": "put",
         "trans": [
-            "n. 掷；笨蛋；投击；怪人",
-            "adj. 固定不动的",
-            "vi. 出发；击；航行；发芽",
-            "vt. 放；表达；移动；安置；赋予"
+            "n. sự ném; kẻ ngốc; cú đánh; kẻ kỳ quặc",
+            "adj. cố định, bất động",
+            "vi. khởi hành; đánh; ra khơi; nảy mầm",
+            "vt. đặt; diễn đạt; di chuyển; sắp xếp; trao cho"
         ],
         "usphone": "[pʊt]",
         "ukphone": "[pʊt]"
@@ -79,9 +79,9 @@
     {
         "name": "each",
         "trans": [
-            "adj. 每；各自的",
-            "pron. 每个；各自",
-            "adv. 每个；各自"
+            "adj. mỗi; riêng từng",
+            "pron. mỗi; mỗi người",
+            "adv. mỗi; mỗi người"
         ],
         "usphone": "[iːtʃ]",
         "ukphone": "[iːtʃ]"
@@ -90,7 +90,7 @@
         "name": "cheap",
         "trans": [
             "adj. rẻ tiền; keo kiệt; không có giá trị",
-            "adv. 便宜地"
+            "adv. rẻ, với giá rẻ"
         ],
         "usphone": "[tʃiːp]",
         "ukphone": "[tʃiːp]"
@@ -135,9 +135,9 @@
     {
         "name": "hundred",
         "trans": [
-            "num. 百；百个",
-            "n. 一百；许多",
-            "adj. 一百的；许多的"
+            "num. trăm; trăm cái",
+            "n. một trăm; nhiều",
+            "adj. một trăm; nhiều"
         ],
         "usphone": "[ˈhʌndrəd]",
         "ukphone": "[ˈhʌndrəd]"
@@ -155,8 +155,8 @@
     {
         "name": "wolf",
         "trans": [
-            "n. 狼；色狼；残忍贪婪之人",
-            "vt. 大吃；狼吞虎咽地吃"
+            "n. sói; kẻ háo sắc; kẻ tàn nhẫn tham lam",
+            "vt. ăn ngấu nghiến; ăn tham"
         ],
         "usphone": "[wʊlf]",
         "ukphone": "[wʊlf]"
@@ -180,13 +180,13 @@
     {
         "name": "once upon a time",
         "trans": [
-            "na. 从前；很久很久以前；古时候"
+            "na. trước đây; rất lâu về trước; thời xưa"
         ]
     },
     {
         "name": "look after",
         "trans": [
-            "na. 照看；照顾；看管；对…负责"
+            "na. trông nom; chăm sóc; chịu trách nhiệm về ..."
         ],
         "usphone": "[lʊk ˈæftər]",
         "ukphone": "[lʊk ˈɑːftə(r)]"
@@ -194,8 +194,8 @@
     {
         "name": "bored",
         "trans": [
-            "v. 使厌烦（bore的过去式）；烦扰",
-            "adj. 无聊的；无趣的；烦人的"
+            "v. làm chán ngán (quá khứ của bore); quấy rầy",
+            "adj. chán; nhạt nhẽo; phiền phức"
         ],
         "usphone": "[bɔːrd]",
         "ukphone": "[bɔːd]"
@@ -203,7 +203,7 @@
     {
         "name": "village",
         "trans": [
-            "n. 村庄；村民；（动物的）群落"
+            "n. làng; dân làng; (động vật) quần thể"
         ],
         "usphone": "[ˈvɪlɪdʒ]",
         "ukphone": "[ˈvɪlɪdʒ]"
@@ -211,7 +211,7 @@
     {
         "name": "everyone",
         "trans": [
-            "n. 每个人",
+            "n. mọi người",
             "pron. mọi người; tất cả mọi người"
         ],
         "usphone": "[ˈevriwʌn]",
@@ -220,9 +220,9 @@
     {
         "name": "laugh",
         "trans": [
-            "n. 笑；引人发笑的事或人",
-            "vi. 笑",
-            "vt. 以笑表示；使…笑得"
+            "n. tiếng cười, chuyện hay người gây cười",
+            "vi. cười",
+            "vt. biểu thị bằng cười; làm... cười"
         ],
         "usphone": "[læf]",
         "ukphone": "[lɑːf]"
@@ -263,7 +263,7 @@
     {
         "name": "into",
         "trans": [
-            "prep. 到…里；深入…之中；成为…状况；进入到…之内"
+            "prep. vào trong...; sâu vào trong...; thành tình trạng...; đi vào bên trong..."
         ],
         "usphone": "[ˈɪntə; ˈɪntu; ˈɪntuː]",
         "ukphone": "[ˈɪntə]"
@@ -271,7 +271,7 @@
     {
         "name": "month",
         "trans": [
-            "n. 月，一个月的时间"
+            "n. mặt trăng; một tháng"
         ],
         "usphone": "[mʌnθ]",
         "ukphone": "[mʌnθ]"
@@ -298,7 +298,7 @@
     {
         "name": "run away",
         "trans": [
-            "na. 私奔；逃；弄不好"
+            "na. bỏ trốn; chạy trốn; có thể hỏng việc"
         ]
     },
     {
@@ -386,15 +386,15 @@
     {
         "name": "Father's Day",
         "trans": [
-            "na. 〈美〉父亲节(每年六月的第三个星期日)"
+            "na. <Mỹ> ngày của cha (chủ nhật thứ ba của tháng sáu hàng năm)"
         ]
     },
     {
         "name": "message",
         "trans": [
-            "n. 消息；差使；启示；预言；广告词",
-            "vi. 报信，报告；[通信] 报文",
-            "vt. 通知"
+            "n. tin tức, việc được sai, mặc khải, lời tiên tri, câu quảng cáo",
+            "vi. báo tin, báo cáo; [truyền thông] bản tin",
+            "vt. thông báo"
         ],
         "usphone": "[ˈmesɪdʒ]",
         "ukphone": "[ˈmesɪdʒ]"
@@ -402,8 +402,8 @@
     {
         "name": "great",
         "trans": [
-            "n. 大师；大人物；伟人们",
-            "adj. 伟大的，重大的；极好的，好的；主要的"
+            "n. bậc thầy; nhân vật lớn; các vĩ nhân",
+            "adj. vĩ đại, trọng đại; tuyệt vời, tốt; chủ yếu, chính"
         ],
         "usphone": "[ɡreɪt]",
         "ukphone": "[ɡreɪt]"
@@ -411,9 +411,9 @@
     {
         "name": "report",
         "trans": [
-            "n. 报告；报道；成绩单",
-            "vt. 报告；报导；使报到",
-            "vi. 报告；报到；写报导"
+            "n. báo cáo; bài tường thuật; bảng điểm",
+            "vt. báo cáo; tường thuật; gọi trình diện",
+            "vi. báo cáo; trình diện; viết bài tường thuật"
         ],
         "usphone": "[rɪˈpɔːrt]",
         "ukphone": "[rɪˈpɔːt]"
@@ -432,7 +432,7 @@
         "name": "fantastic",
         "trans": [
             "n. người lập dị",
-            "adj. 奇异的；空想的；异想天开的；古怪的；极好的，极出色的；不可思议的；不切实际的"
+            "adj. kỳ dị; không tưởng; viển vông; cổ quái; tuyệt vời, xuất sắc; khó tin; không thực tế"
         ],
         "usphone": "[fænˈtæstɪk]",
         "ukphone": "[fænˈtæstɪk]"
@@ -440,8 +440,8 @@
     {
         "name": "fun",
         "trans": [
-            "n. 乐趣；玩笑；有趣的人或事",
-            "adj. 供娱乐用的",
+            "n. niềm vui, trò đùa, người hay vật thú vị",
+            "adj. để giải trí",
             "vi. nói giỡn"
         ],
         "usphone": "[fʌn]",
@@ -450,10 +450,10 @@
     {
         "name": "meet",
         "trans": [
-            "vt. 满足；遇见；对付",
-            "vi. 相遇；接触",
-            "n. 集会",
-            "adj. 合适的；适宜的"
+            "vt. thỏa mãn; gặp gỡ; đối phó",
+            "vi. gặp nhau; tiếp xúc",
+            "n. tập hợp, cuộc họp",
+            "adj. thích hợp; phù hợp"
         ],
         "usphone": "[miːt]",
         "ukphone": "[miːt]"
@@ -461,8 +461,8 @@
     {
         "name": "east",
         "trans": [
-            "n. 东方；东风；东方国家",
-            "adj. 东方的；向东的；从东方来的",
+            "n. phương Đông; gió đông; các nước phương Đông",
+            "adj. thuộc phương Đông; hướng đông; từ phương Đông đến",
             "adv. hướng đông, về phía đông"
         ],
         "usphone": "[iːst]",
@@ -471,9 +471,9 @@
     {
         "name": "west",
         "trans": [
-            "n. 西；西方；西部",
-            "adj. 西方的；朝西的",
-            "adv. 在西方；向西方；自西方"
+            "n. hướng tây; phương Tây; miền tây",
+            "adj. thuộc phương Tây; hướng tây",
+            "adv. ở phương Tây; về phía tây; từ phương Tây"
         ],
         "usphone": "[west]",
         "ukphone": "[west]"
@@ -497,9 +497,9 @@
     {
         "name": "cartoon",
         "trans": [
-            "n. 卡通片，[电影] 动画片；连环漫画",
-            "vt. 为…画漫画",
-            "vi. 画漫画"
+            "n. phim hoạt hình, truyện tranh liên hoàn",
+            "vt. vẽ tranh biếm họa cho ...",
+            "vi. vẽ tranh biếm họa"
         ],
         "usphone": "[kɑːrˈtuːn]",
         "ukphone": "[kɑːˈtuːn]"
@@ -518,8 +518,8 @@
     {
         "name": "am",
         "trans": [
-            "abbr. 调幅",
-            "v. 是"
+            "abbr. điều biến biên độ (AM)",
+            "v. là"
         ],
         "usphone": "[əm; æm]",
         "ukphone": "[əm; æm]"
@@ -536,10 +536,10 @@
     {
         "name": "best",
         "trans": [
-            "n. 最好的人，最好的事物；最佳状态",
-            "adj. 最好的",
-            "vt. 打败，胜过",
-            "adv. 最好地"
+            "n. người tốt nhất, vật tốt nhất; trạng thái tốt nhất",
+            "adj. tốt nhất",
+            "vt. đánh bại, vượt qua",
+            "adv. tốt nhất, một cách tốt nhất"
         ],
         "usphone": "[best]",
         "ukphone": "[best]"
@@ -547,9 +547,9 @@
     {
         "name": "north",
         "trans": [
-            "n. 北，北方",
-            "adj. 北方的；朝北的",
-            "adv. 在北方，向北方"
+            "n. bắc, phương bắc",
+            "adj. thuộc phương bắc; hướng bắc",
+            "adv. ở phía bắc, về hướng bắc"
         ],
         "usphone": "[nɔːrθ]",
         "ukphone": "[nɔːθ]"
@@ -557,9 +557,9 @@
     {
         "name": "south",
         "trans": [
-            "n. 南方，南边；南部",
-            "adj. 南的，南方的",
-            "adv. 在南方，向南方"
+            "n. phương nam, phía nam; miền nam",
+            "adj. thuộc phía nam, ở phía nam",
+            "adv. ở phía nam, về phía nam"
         ],
         "usphone": "[saʊθ]",
         "ukphone": "[saʊθ]"
@@ -577,7 +577,7 @@
     {
         "name": "have a rest",
         "trans": [
-            "v. 休息一下"
+            "v. nghỉ một chút"
         ],
         "usphone": "[hæv ərest]",
         "ukphone": "[hæv ə rest]"
@@ -594,8 +594,8 @@
     {
         "name": "speak",
         "trans": [
-            "vi. 说话；演讲；表明；陈述",
-            "vt. 讲话；发言；讲演"
+            "vi. nói chuyện; diễn thuyết; bày tỏ; trình bày",
+            "vt. nói chuyện; phát biểu; diễn thuyết"
         ],
         "usphone": "[spiːk]",
         "ukphone": "[spiːk]"
@@ -612,8 +612,8 @@
     {
         "name": "maybe",
         "trans": [
-            "adv. 也许；可能；大概",
-            "n. 可能性；不确定性"
+            "adv. có lẽ; có thể; chắc là",
+            "n. khả năng; sự không chắc chắn"
         ],
         "usphone": "[ˈmeɪbi]",
         "ukphone": "[ˈmeɪbi]"
@@ -622,8 +622,8 @@
         "name": "map",
         "trans": [
             "(vt.) phản chiếu; lập kế hoạch; vẽ bản đồ; xác định vị trí gen",
-            "n. 地图；示意图；染色体图",
-            "vi. 基因被安置"
+            "n. bản đồ, sơ đồ, bản đồ nhiễm sắc thể",
+            "vi. gen được đặt vào, gen được cấy"
         ],
         "usphone": "[mæp]",
         "ukphone": "[mæp]"
@@ -647,8 +647,8 @@
     {
         "name": "Australian",
         "trans": [
-            "adj. 澳大利亚的，澳大利亚人的",
-            "n. 澳大利亚人"
+            "adj. thuộc Úc, của người Úc",
+            "n. người Úc"
         ],
         "usphone": "[ɔːˈstreɪliən]",
         "ukphone": "[ɒˈstreɪliən]"

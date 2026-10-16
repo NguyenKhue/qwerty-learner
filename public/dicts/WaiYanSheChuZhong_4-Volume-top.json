@@ -3,9 +3,9 @@
         "name": "dear",
         "trans": [
             "n. người thân mến",
-            "adj. 亲爱的；尊敬的；昂贵的",
-            "adv. 高价地；疼爱地",
-            "int. 哎呀"
+            "adj. thân yêu; kính mến; đắt đỏ",
+            "adv. đắt đỏ; trìu mến, âu yếm",
+            "int. ôi, chao ôi"
         ],
         "usphone": "[dɪr]",
         "ukphone": "[dɪə(r)]"
@@ -24,7 +24,7 @@
     {
         "name": "of",
         "trans": [
-            "prep. 关于；属于；…的；由…组成的"
+            "prep. về; thuộc về; của...; do... tạo thành"
         ],
         "usphone": "[əv; ʌv]",
         "ukphone": "[əv; ɒv]"
@@ -32,7 +32,7 @@
     {
         "name": "soon",
         "trans": [
-            "adv. 快；不久，一会儿；立刻；宁愿"
+            "adv. sớm; chẳng bao lâu; ngay lập tức; thà rằng"
         ],
         "usphone": "[suːn]",
         "ukphone": "[suːn]"
@@ -49,8 +49,8 @@
     {
         "name": "love",
         "trans": [
-            "n. 恋爱；亲爱的；酷爱；喜爱的事物；爱情，爱意；疼爱；热爱；爱人，所爱之物",
-            "v. 爱，热爱；爱戴；赞美，称赞；喜爱；喜好；喜欢；爱慕"
+            "n. tình yêu; người yêu; sự say mê; vật yêu thích; ái tình, yêu thương; sự trìu mến; lòng nhiệt thành; người được yêu",
+            "v. yêu, yêu thương; kính yêu; khen ngợi, tán dương; yêu thích, ưa thích; mến mộ"
         ],
         "usphone": "[lʌv]",
         "ukphone": "[lʌv]"
@@ -58,9 +58,9 @@
     {
         "name": "skirt",
         "trans": [
-            "n. 裙子",
-            "vt. 绕过，回避；位于…边缘",
-            "vi. 沿边走，绕开；环绕"
+            "n. váy",
+            "vt. đi vòng qua, né tránh; nằm ở rìa...",
+            "vi. đi men theo mép, đi vòng tránh; bao quanh"
         ],
         "usphone": "[skɜːrt]",
         "ukphone": "[skɜːt]"
@@ -68,10 +68,10 @@
     {
         "name": "clean",
         "trans": [
-            "n. 打扫",
-            "adj. 清洁的，干净的；清白的",
-            "vt. 使干净",
-            "vi. 打扫，清扫",
+            "n. sự quét dọn, dọn dẹp",
+            "adj. sạch sẽ; trong sạch",
+            "vt. làm sạch",
+            "vi. quét dọn, dọn dẹp",
             "adv. hoàn toàn"
         ],
         "usphone": "[kliːn]",
@@ -80,8 +80,8 @@
     {
         "name": "finish",
         "trans": [
-            "n. 结束；完美；回味（葡萄酒）",
-            "vt. 完成；结束；用完",
+            "n. sự kết thúc; sự hoàn hảo; dư vị (rượu vang)",
+            "vt. hoàn thành; kết thúc; dùng hết",
             "vi. kết thúc; chấm dứt; kết liễu"
         ],
         "usphone": "[ˈfɪnɪʃ]",
@@ -90,8 +90,8 @@
     {
         "name": "dirty",
         "trans": [
-            "adj. 下流的，卑鄙的；肮脏的；恶劣的；暗淡的",
-            "vt. 弄脏",
+            "adj. hạ lưu, đê tiện; bẩn thỉu; xấu, tồi tệ; u ám",
+            "vt. làm bẩn",
             "vi. trở nên bẩn"
         ],
         "usphone": "[ˈdɜːrti]",
@@ -100,9 +100,9 @@
     {
         "name": "paint",
         "trans": [
-            "vt. 油漆；绘画；装饰；涂色于；描绘；（用语言，文字等）描写；擦脂粉等",
-            "vi. 油漆；描绘；绘画；化妆",
-            "n. 油漆；颜料，涂料；绘画作品；胭脂等化妆品；色彩，装饰"
+            "vt. sơn; vẽ; trang trí; tô màu; miêu tả; diễn tả (bằng lời); đánh phấn",
+            "vi. sơn; miêu tả; vẽ tranh; trang điểm",
+            "n. sơn; màu vẽ, chất phủ; tác phẩm hội họa; mỹ phẩm như phấn son; màu sắc, trang trí"
         ],
         "usphone": "[peɪnt]",
         "ukphone": "[peɪnt]"
@@ -110,7 +110,7 @@
     {
         "name": "Mr",
         "trans": [
-            "abbr. 先生（Mister）"
+            "abbr. ông (Mister)"
         ],
         "usphone": "[ˈmɪstər]",
         "ukphone": "[ˈmɪstə(r)]"
@@ -140,7 +140,7 @@
     {
         "name": "National Day",
         "trans": [
-            "na. 国庆日"
+            "na. ngày quốc khánh"
         ]
     },
     {
@@ -156,10 +156,10 @@
     {
         "name": "what",
         "trans": [
-            "pron. 什么；多么；多少",
-            "adv. 到什么程度，在哪一方面",
-            "adj. 什么；多么；何等",
-            "int. 什么；多么"
+            "pron. cái gì; biết bao; bao nhiêu",
+            "adv. đến mức nào, ở phương diện nào",
+            "adj. gì; biết bao; nhường nào",
+            "int. cái gì; biết bao"
         ],
         "usphone": "[wʌt]",
         "ukphone": "[wɒt]"
@@ -244,8 +244,8 @@
     {
         "name": "between",
         "trans": [
-            "prep. 在…之间",
-            "adv. 在中间"
+            "prep. ở giữa...",
+            "adv. ở giữa"
         ],
         "usphone": "[bɪˈtwiːn]",
         "ukphone": "[bɪˈtwiːn]"
@@ -263,9 +263,9 @@
     {
         "name": "mouse",
         "trans": [
-            "n. 鼠标；老鼠；胆小羞怯的人",
-            "vt. 探出",
-            "vi. 捕鼠；窥探"
+            "n. chuột máy tính; chuột; người nhút nhát",
+            "vt. thò ra",
+            "vi. bắt chuột; dòm ngó"
         ],
         "usphone": "[maʊs]",
         "ukphone": "[maʊs]"
@@ -281,8 +281,8 @@
     {
         "name": "man",
         "trans": [
-            "n. 人；男人；人类；丈夫；雇工",
-            "vt. 操纵；给…配置人员；使增强勇气；在…就位"
+            "n. người; đàn ông; nhân loại; chồng; người làm thuê",
+            "vt. điều khiển; bố trí nhân sự cho...; làm tăng dũng khí; vào vị trí ở..."
         ],
         "usphone": "[mæn]",
         "ukphone": "[mæn]"
@@ -290,7 +290,7 @@
     {
         "name": "went",
         "trans": [
-            "v. 去，过去（go的过去式）"
+            "v. đi, đã đi (quá khứ của go)"
         ],
         "usphone": "[went]",
         "ukphone": "[went]"
@@ -298,10 +298,10 @@
     {
         "name": "saw",
         "trans": [
-            "n. 锯子；谚语",
-            "v. see的过去式",
-            "vi. 锯；用锯；将某物锯成小块",
-            "vt. 看见；明白，了解；锯；锯成；锯开"
+            "n. cái cưa; tục ngữ",
+            "v. quá khứ của see",
+            "vi. cưa; dùng cưa; cưa vật gì thành mảnh nhỏ",
+            "vt. nhìn thấy; hiểu; cưa; cưa thành; cưa ra"
         ],
         "usphone": "[sɔː]",
         "ukphone": "[sɔː]"
@@ -310,8 +310,8 @@
         "name": "trip",
         "trans": [
             "(n.) chuyến đi; vấp; sai lầm",
-            "vt. 绊倒；使犯错",
-            "vi. 绊倒；远足；犯错误；轻快地走"
+            "vt. làm vấp ngã; làm phạm lỗi",
+            "vi. vấp ngã; đi bộ đường dài; phạm lỗi; bước nhanh nhẹn"
         ],
         "usphone": "[trɪp]",
         "ukphone": "[trɪp]"
@@ -319,7 +319,7 @@
     {
         "name": "took",
         "trans": [
-            "v. 拿；取；接受（take的过去式）"
+            "v. lấy; nhận (quá khứ của take)"
         ],
         "usphone": "[tʊk]",
         "ukphone": "[tʊk]"
@@ -327,8 +327,8 @@
     {
         "name": "fifty",
         "trans": [
-            "n. 五十；五十个；编号为50的东西",
-            "adj. 五十的；五十个的；众多的"
+            "n. năm mươi; năm mươi cái; vật số 50",
+            "adj. thứ năm mươi; năm mươi cái; đông đảo"
         ],
         "usphone": "[ˈfɪfti]",
         "ukphone": "[ˈfɪfti]"
@@ -338,7 +338,7 @@
         "trans": [
             "n. phút; chốc lát; ghi chú, ghi nhớ; biên bản họp",
             "vt. ghi lại",
-            "adj. 微小的，详细的 [maɪˈnjuːt; US -ˈnuːt; maɪˋnut]"
+            "adj. nhỏ xíu, chi tiết"
         ],
         "usphone": "[ˈmɪnɪt]",
         "ukphone": "[ˈmɪnɪt]"
@@ -365,7 +365,7 @@
     {
         "name": "ate",
         "trans": [
-            "v. 吃（eat的过去式）"
+            "v. đã ăn (quá khứ của eat)"
         ],
         "usphone": "[eɪt]",
         "ukphone": "[et; eɪt]"
@@ -391,8 +391,8 @@
     {
         "name": "had",
         "trans": [
-            "v. 有；吃；得到（动词have的过去式和过去分词）",
-            "aux. 已经（用于过去完成时和过去完成进行时）"
+            "v. có; ăn; nhận được (quá khứ và quá khứ phân từ của have)",
+            "aux. đã (dùng cho thì quá khứ hoàn thành và quá khứ hoàn thành tiếp diễn)"
         ],
         "usphone": "[həd; əd; hæd]",
         "ukphone": "[həd; əd; hæd]"
@@ -409,13 +409,13 @@
     {
         "name": "have a good time",
         "trans": [
-            "na. 过得愉快；很愉快"
+            "na. trải qua vui vẻ; rất vui"
         ]
     },
     {
         "name": "bought",
         "trans": [
-            "v. 买（buy的过去式和过去分词）"
+            "v. mua (quá khứ và quá khứ phân từ của buy)"
         ],
         "usphone": "[bɔːt]",
         "ukphone": "[bɔːt]"
@@ -431,7 +431,7 @@
     {
         "name": "go on a trip",
         "trans": [
-            " 去旅行；进行旅行；去旅游"
+            "đi du lịch; thực hiện chuyến đi; đi tham quan"
         ]
     },
     {
@@ -482,14 +482,14 @@
     {
         "name": "a lot",
         "trans": [
-            "n. 许多",
-            "adv. 常"
+            "n. nhiều",
+            "adv. thường"
         ]
     },
     {
         "name": "able",
         "trans": [
-            "adj. 能；[经管] 有能力的；能干的"
+            "adj. có khả năng; [quản trị] có năng lực; giỏi"
         ],
         "usphone": "[ˈeɪbl]",
         "ukphone": "[ˈeɪb(ə)l]"
@@ -497,7 +497,7 @@
     {
         "name": "be able to",
         "trans": [
-            "v. 能够"
+            "v. có thể"
         ]
     },
     {
@@ -512,8 +512,8 @@
     {
         "name": "become",
         "trans": [
-            "vt. 适合；相称",
-            "vi. 成为；变得；变成"
+            "vt. hợp với; xứng với",
+            "vi. trở thành; trở nên, biến thành"
         ],
         "usphone": "[bɪˈkʌm]",
         "ukphone": "[bɪˈkʌm]"
@@ -530,8 +530,8 @@
     {
         "name": "ago",
         "trans": [
-            "adj. 以前的；过去的",
-            "adv. 以前，以往"
+            "adj. trước đây; đã qua",
+            "adv. trước đây, ngày trước"
         ],
         "usphone": "[əˈɡoʊ]",
         "ukphone": "[əˈɡəʊ]"
@@ -562,7 +562,7 @@
     {
         "name": "woman",
         "trans": [
-            "n. 妇女；女性；成年女子"
+            "n. phụ nữ; phái nữ; phụ nữ trưởng thành"
         ],
         "usphone": "[ˈwʊmən]",
         "ukphone": "[ˈwʊmən]"
@@ -588,9 +588,9 @@
     {
         "name": "bad",
         "trans": [
-            "n. 坏事；坏人",
-            "adj. 坏的；严重的；劣质的",
-            "adv. 很，非常；坏地；邪恶地"
+            "n. việc xấu; kẻ xấu",
+            "adj. xấu; nghiêm trọng; kém chất lượng",
+            "adv. rất, lắm; tệ hại; độc ác"
         ],
         "usphone": "[bæd]",
         "ukphone": "[bæd]"
@@ -598,7 +598,7 @@
     {
         "name": "took",
         "trans": [
-            "v. 拿；取；接受（take的过去式）"
+            "v. lấy; nhận (quá khứ của take)"
         ],
         "usphone": "[tʊk]",
         "ukphone": "[tʊk]"
@@ -706,7 +706,7 @@
     {
         "name": "look for",
         "trans": [
-            "v. 寻找；探索；渴望；盼望"
+            "v. tìm kiếm; khám phá; khao khát; mong đợi"
         ],
         "usphone": "[ˈlʊk fɔːr]",
         "ukphone": "[ˈlʊk fɔː(r)]"
@@ -714,10 +714,10 @@
     {
         "name": "when",
         "trans": [
-            "conj. 考虑到；既然；当…时；在…时；如果",
-            "n. 时间，时候；日期；场合",
-            "adv. 什么时候，何时；（用于时间的表达方式之后）在那时；其时；当时",
-            "pron. 那时；什么时侯"
+            "conj. xét đến; vì; khi...; trong khi...; nếu",
+            "n. thời gian, lúc; ngày tháng; dịp, trường hợp",
+            "adv. khi nào; (dùng sau cách diễn đạt thời gian) vào lúc đó; khi ấy",
+            "pron. lúc đó; khi nào"
         ],
         "usphone": "[wen]",
         "ukphone": "[wen]"
@@ -786,7 +786,7 @@
     {
         "name": "took",
         "trans": [
-            "v. 拿；取；接受（take的过去式）"
+            "v. lấy; nhận (quá khứ của take)"
         ],
         "usphone": "[tʊk]",
         "ukphone": "[tʊk]"
@@ -794,9 +794,9 @@
     {
         "name": "look",
         "trans": [
-            "vt. 看；期待；注意；面向；看上去像",
-            "vi. 看；看起来；注意；面向",
-            "n. 看；样子；面容"
+            "vt. nhìn; mong đợi; chú ý; hướng về; trông giống",
+            "vi. nhìn; trông có vẻ; chú ý; hướng về",
+            "n. cái nhìn, vẻ ngoài, diện mạo"
         ],
         "usphone": "[lʊk]",
         "ukphone": "[lʊk]"
@@ -804,8 +804,8 @@
     {
         "name": "a lot",
         "trans": [
-            "n. 许多",
-            "adv. 常"
+            "n. nhiều",
+            "adv. thường"
         ]
     },
     {
@@ -819,7 +819,7 @@
     {
         "name": "fall off",
         "trans": [
-            "na. 下降；(从马上)掉下来；扫兴颓丧；离开"
+            "na. giảm xuống; (từ trên ngựa) ngã xuống; thất vọng chán nản; rời đi"
         ]
     },
     {
@@ -888,8 +888,8 @@
     {
         "name": "knee",
         "trans": [
-            "n. 膝盖，膝",
-            "vt. 用膝盖碰"
+            "n. đầu gối",
+            "vt. thúc bằng đầu gối, chạm bằng gối"
         ],
         "usphone": "[niː]",
         "ukphone": "[niː]"
@@ -927,7 +927,7 @@
     {
         "name": "every",
         "trans": [
-            "adj. 每一的，每个的；每隔…的"
+            "adj. mỗi, từng, cứ mỗi"
         ],
         "usphone": "[ˈevri]",
         "ukphone": "[ˈevri]"
@@ -935,7 +935,7 @@
     {
         "name": "during",
         "trans": [
-            "prep. 在…的时候，在…的期间"
+            "prep. trong khi...; trong suốt..."
         ],
         "usphone": "[ˈdʊrɪŋ]",
         "ukphone": "[ˈdjʊərɪŋ]"
@@ -951,9 +951,9 @@
     {
         "name": "take",
         "trans": [
-            "vi. 拿；获得",
-            "vt. 拿，取；采取；接受（礼物等）；买，花费；耗费（时间等）",
-            "n. 捕获量；看法；利益，盈益；（入场券的）售得金额"
+            "vi. lấy; nhận được",
+            "vt. lấy, cầm; áp dụng; nhận (quà...); mua, tốn; tốn (thời gian...)",
+            "n. lượng đánh bắt; quan điểm; lợi ích, lợi nhuận; (tiền) thu bán vé"
         ],
         "usphone": "[teɪk]",
         "ukphone": "[teɪk]"
@@ -970,7 +970,7 @@
     {
         "name": "a lot of",
         "trans": [
-            "det. 许多"
+            "det. nhiều"
         ]
     },
     {
@@ -1002,9 +1002,9 @@
     {
         "name": "before",
         "trans": [
-            "prep. 在…之前，先于",
-            "conj. 在…以前；在…之前",
-            "adv. 以前；在前"
+            "prep. trước..., trước khi",
+            "conj. trước khi...; trước...",
+            "adv. trước đây; ở phía trước"
         ],
         "usphone": "[bɪˈfɔːr]",
         "ukphone": "[bɪˈfɔː(r)]"
@@ -1012,10 +1012,10 @@
     {
         "name": "after",
         "trans": [
-            "conj. 在……之后",
-            "prep. 在……之后",
-            "adj. 以后的",
-            "adv. 后来，以后"
+            "conj. sau khi...",
+            "prep. sau...",
+            "adj. sau này, về sau",
+            "adv. sau này, về sau"
         ],
         "usphone": "[ˈæftər]",
         "ukphone": "[ˈɑːftə(r)]"

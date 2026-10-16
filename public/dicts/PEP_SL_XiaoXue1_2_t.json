@@ -10,7 +10,7 @@
     {
         "name": "desk",
         "trans": [
-            "书桌，写字台"
+            "bàn học, bàn viết"
         ],
         "usphone": "dɛsk",
         "ukphone": "dɛsk"
@@ -26,7 +26,7 @@
     {
         "name": "on",
         "trans": [
-            "在⋯⋯上"
+            "ở trên..."
         ],
         "usphone": "ɑn",
         "ukphone": "ɒn"
@@ -34,7 +34,7 @@
     {
         "name": "under",
         "trans": [
-            "在⋯⋯下面 ；在⋯⋯下方"
+            "ở dưới...; phía dưới..."
         ],
         "usphone": "ˈʌndər",
         "ukphone": "ˈʌndə"
@@ -42,7 +42,7 @@
     {
         "name": "in",
         "trans": [
-            "在⋯⋯里面"
+            "ở bên trong..."
         ],
         "usphone": "ɪn",
         "ukphone": "ɪn"
@@ -58,7 +58,7 @@
     {
         "name": "the",
         "trans": [
-            "放在名词前，特指人、事或物"
+            "đặt trước danh từ, chỉ người, sự việc hoặc vật cụ thể"
         ],
         "usphone": "ðə",
         "ukphone": "ðiː"
@@ -82,7 +82,7 @@
     {
         "name": "door",
         "trans": [
-            "门 ；出入口"
+            "cửa; lối ra vào"
         ],
         "usphone": "dɔr",
         "ukphone": "dɔː"
@@ -90,7 +90,7 @@
     {
         "name": "box",
         "trans": [
-            "箱子 ；盒子"
+            "thùng; hộp"
         ],
         "usphone": "bɑks",
         "ukphone": "bɒks"
@@ -98,7 +98,7 @@
     {
         "name": "near",
         "trans": [
-            "靠近，接近"
+            "gần, đến gần"
         ],
         "usphone": "nɪr",
         "ukphone": "nɪə"
@@ -106,7 +106,7 @@
     {
         "name": "behind",
         "trans": [
-            "在⋯⋯背后"
+            "ở phía sau..., sau lưng..."
         ],
         "usphone": "bɪˈhaɪnd",
         "ukphone": "bɪˈhaɪnd"
@@ -130,7 +130,7 @@
     {
         "name": "doll",
         "trans": [
-            "玩偶，玩具娃娃"
+            "búp bê, búp bê đồ chơi"
         ],
         "usphone": "dɑl",
         "ukphone": "dɒl"
@@ -138,7 +138,7 @@
     {
         "name": "train",
         "trans": [
-            "列车，火车"
+            "tàu hỏa, xe lửa"
         ],
         "usphone": "treɪn",
         "ukphone": "treɪn"
@@ -146,7 +146,7 @@
     {
         "name": "car",
         "trans": [
-            "小汽车，轿车"
+            "ô tô con, xe hơi"
         ],
         "usphone": "kɑr",
         "ukphone": "kɑːr"
@@ -154,7 +154,7 @@
     {
         "name": "bear",
         "trans": [
-            "玩具熊 ；熊"
+            "gấu bông; gấu"
         ],
         "usphone": "bɛr",
         "ukphone": "bɛə"
@@ -162,7 +162,7 @@
     {
         "name": "can",
         "trans": [
-            "可以 ；能够"
+            "có thể; có khả năng"
         ],
         "usphone": "kæn",
         "ukphone": "kæn"
@@ -178,7 +178,7 @@
     {
         "name": "sorry",
         "trans": [
-            "对不起，抱歉"
+            "xin lỗi"
         ],
         "usphone": "ˈsɔri",
         "ukphone": "ˈsɒri"
@@ -186,7 +186,7 @@
     {
         "name": "rice",
         "trans": [
-            "米饭 ；米"
+            "cơm; gạo"
         ],
         "usphone": "raɪs",
         "ukphone": "raɪs"
@@ -210,7 +210,7 @@
     {
         "name": "fish",
         "trans": [
-            "鱼肉 ；鱼"
+            "thịt cá; cá"
         ],
         "usphone": "fɪʃ",
         "ukphone": "fɪʃ"
@@ -218,7 +218,7 @@
     {
         "name": "chicken",
         "trans": [
-            "鸡肉 ；鸡"
+            "thịt gà; gà"
         ],
         "usphone": "ˈtʃɪkən",
         "ukphone": "ˈtʃɪkɪn"
@@ -242,7 +242,7 @@
     {
         "name": "want",
         "trans": [
-            "要 ；想要"
+            "muốn; mong muốn"
         ],
         "usphone": "wɑnt",
         "ukphone": "wɒnt"
@@ -258,7 +258,7 @@
     {
         "name": "juice",
         "trans": [
-            "果汁 ；蔬菜汁"
+            "nước trái cây; nước rau"
         ],
         "usphone": "dʒus",
         "ukphone": "dʒuːs"
@@ -266,7 +266,7 @@
     {
         "name": "tea",
         "trans": [
-            "茶 ；茶叶"
+            "trà; lá trà"
         ],
         "usphone": "ti",
         "ukphone": "tiː"
@@ -274,7 +274,7 @@
     {
         "name": "milk",
         "trans": [
-            "奶 ；牛奶"
+            "sữa; sữa bò"
         ],
         "usphone": "mɪlk",
         "ukphone": "mɪlk"
@@ -314,7 +314,7 @@
     {
         "name": "T-shirt",
         "trans": [
-            "T 恤衫；短袖圆领汗衫"
+            "áo phông; áo thun cổ tròn ngắn tay"
         ],
         "usphone": "ˈtiˌʃɜrt",
         "ukphone": "ˈtiːˌʃɜːt"
@@ -330,7 +330,7 @@
     {
         "name": "dress",
         "trans": [
-            "连衣裙 ；套裙"
+            "váy liền; váy bộ"
         ],
         "usphone": "drɛs",
         "ukphone": "drɛs"
@@ -354,7 +354,7 @@
     {
         "name": "your",
         "trans": [
-            "你的 ；你们的"
+            "của bạn; của các bạn"
         ],
         "usphone": "jʊr",
         "ukphone": "jɔːr"

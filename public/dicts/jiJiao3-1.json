@@ -2,8 +2,8 @@
     {
         "name": "hello",
         "trans": [
-            "n. 表示问候， 惊奇或唤起注意时的用语",
-            "int. 喂；哈罗"
+            "n. lời chào hỏi, lời tỏ vẻ ngạc nhiên hoặc gây chú ý",
+            "int. a-lô; xin chào"
         ],
         "usphone": "[həˈləʊ]",
         "ukphone": "[həˈləʊ]"
@@ -11,7 +11,7 @@
     {
         "name": "hi",
         "trans": [
-            "int. 嗨！（表示问候或用以唤起注意）"
+            "int. chào! (để chào hỏi hoặc gây chú ý)"
         ],
         "usphone": "[haɪ]",
         "ukphone": "[haɪ]"
@@ -19,8 +19,8 @@
     {
         "name": "hello",
         "trans": [
-            "n. 表示问候， 惊奇或唤起注意时的用语",
-            "int. 喂；哈罗"
+            "n. lời chào hỏi, lời tỏ vẻ ngạc nhiên hoặc gây chú ý",
+            "int. a-lô; xin chào"
         ],
         "usphone": "[həˈləʊ]",
         "ukphone": "[həˈləʊ]"
@@ -28,7 +28,7 @@
     {
         "name": "boy",
         "trans": [
-            "n. 男孩；男人"
+            "n. con trai, đàn ông"
         ],
         "usphone": "[bɔɪ]",
         "ukphone": "[bɔɪ]"
@@ -36,8 +36,8 @@
     {
         "name": "girl",
         "trans": [
-            "n. 女孩；姑娘，未婚女子；女职员，女演员；（男人的）女朋友",
-            "n. （捷）吉尔"
+            "n. cô gái; thiếu nữ, phụ nữ chưa chồng; nữ nhân viên, nữ diễn viên; bạn gái (của đàn ông)",
+            "n. Jill (tên người Séc)"
         ],
         "usphone": "[ɡɜːrl]",
         "ukphone": "[ɡɜːl]"
@@ -80,8 +80,8 @@
     {
         "name": "desk",
         "trans": [
-            "n. 办公桌；服务台；编辑部；（美）讲道台；乐谱架",
-            "adj. 书桌的；桌上用的；伏案做的"
+            "n. bàn làm việc, quầy phục vụ, ban biên tập, (Mỹ) bục giảng đạo, giá nhạc",
+            "adj. thuộc bàn giấy, để bàn, làm tại bàn"
         ],
         "usphone": "[desk]",
         "ukphone": "[desk]"
@@ -89,9 +89,9 @@
     {
         "name": "one",
         "trans": [
-            "pron. 一个人；任何人",
-            "adj. 一的；唯一的",
-            "n. 一",
+            "pron. một người; bất kỳ ai",
+            "adj. một; duy nhất",
+            "n. số một",
             "num. một"
         ],
         "usphone": "[wʌn]",
@@ -111,8 +111,8 @@
         "name": "three",
         "trans": [
             "num. ba",
-            "n. 三，三个",
-            "adj. 三的，三个的"
+            "n. số ba, ba cái",
+            "adj. thuộc ba, của ba"
         ],
         "usphone": "[θriː]",
         "ukphone": "[θriː]"
@@ -120,8 +120,8 @@
     {
         "name": "four",
         "trans": [
-            "num. 四；四个",
-            "adj. 四的；四个的"
+            "num. bốn; bốn cái",
+            "adj. thuộc bốn, của bốn"
         ],
         "usphone": "[fɔːr]",
         "ukphone": "[fɔː(r)]"
@@ -129,9 +129,9 @@
     {
         "name": "five",
         "trans": [
-            "num. 五，五个",
-            "n. 五，五个；五美元钞票",
-            "adj. 五的；五个的"
+            "num. năm, năm cái",
+            "n. số năm, năm cái, tờ năm đô la",
+            "adj. số năm, năm cái"
         ],
         "usphone": "[faɪv]",
         "ukphone": "[faɪv]"
@@ -139,9 +139,9 @@
     {
         "name": "pencil",
         "trans": [
-            "n. 铅笔；笔状物",
-            "vt. 用铅笔写；用眉笔涂",
-            "vi. 成铅笔状"
+            "n. bút chì, vật hình bút",
+            "vt. viết bằng bút chì, kẻ bằng chì kẻ mày",
+            "vi. thành hình bút chì"
         ],
         "usphone": "[ˈpensl]",
         "ukphone": "[ˈpens(ə)l]"
@@ -149,8 +149,8 @@
     {
         "name": "pen",
         "trans": [
-            "n. 钢笔；作家；围栏",
-            "vt. 写；关入栏中"
+            "n. bút mực, nhà văn, chuồng trại",
+            "vt. viết, nhốt vào chuồng"
         ],
         "usphone": "[pen]",
         "ukphone": "[pen]"
@@ -158,7 +158,7 @@
     {
         "name": "ruler",
         "trans": [
-            "n. 尺；统治者；[测] 划线板，划线的人"
+            "n. thước, nhà cai trị, [đo] bàn kẻ, người kẻ đường"
         ],
         "usphone": "[ˈruːlər]",
         "ukphone": "[ˈruːlə(r)]"
@@ -166,8 +166,8 @@
     {
         "name": "crayon",
         "trans": [
-            "n. 蜡笔，有色粉笔",
-            "vt. 以蜡笔作画，用颜色粉笔画"
+            "n. bút chì màu, phấn màu",
+            "vt. vẽ bằng bút sáp màu, vẽ bằng phấn màu"
         ],
         "usphone": "[ˈkreɪən; ˈkreɪɑːn]",
         "ukphone": "[ˈkreɪən; ˈkreɪɒn]"
@@ -175,14 +175,14 @@
     {
         "name": "pencil box",
         "trans": [
-            " 铅笔盒；文具盒；你的铅笔盒"
+            "hộp bút; hộp văn phòng phẩm; hộp bút của bạn"
         ]
     },
     {
         "name": "six",
         "trans": [
-            "num. 六，六个",
-            "n. 六，六个"
+            "num. sáu, sáu cái",
+            "n. số sáu, sáu cái"
         ],
         "usphone": "[sɪks]",
         "ukphone": "[sɪks]"
@@ -190,9 +190,9 @@
     {
         "name": "seven",
         "trans": [
-            "num. 七个，七",
-            "n. 七个，七",
-            "adj. 七的；七个的"
+            "num. bảy, bảy cái",
+            "n. số bảy, bảy cái",
+            "adj. thuộc bảy, của bảy"
         ],
         "usphone": "[ˈsev(ə)n]",
         "ukphone": "[ˈsev(ə)n]"
@@ -200,9 +200,9 @@
     {
         "name": "eight",
         "trans": [
-            "num. 八；八个；第八",
-            "n. 八字形",
-            "adj. 八的"
+            "num. tám; tám cái; thứ tám",
+            "n. hình số tám",
+            "adj. số tám, thứ tám"
         ],
         "usphone": "[eɪt]",
         "ukphone": "[eɪt]"
@@ -210,8 +210,8 @@
     {
         "name": "nine",
         "trans": [
-            "n. 九，九个",
-            "num. 九；九个",
+            "n. số chín, chín cái",
+            "num. chín; chín cái",
             "adj. chín, gồm chín cái"
         ],
         "usphone": "[naɪn]",
@@ -220,7 +220,7 @@
     {
         "name": "ten",
         "trans": [
-            "num. 十个，十"
+            "num. mười, mười cái"
         ],
         "usphone": "[ten]",
         "ukphone": "[ten]"
@@ -228,7 +228,7 @@
     {
         "name": "friend",
         "trans": [
-            "n. 朋友；助手；赞助者"
+            "n. bạn bè; trợ thủ; nhà tài trợ"
         ],
         "usphone": "[frend]",
         "ukphone": "[frend]"
@@ -236,7 +236,7 @@
     {
         "name": "window",
         "trans": [
-            "n. 窗；窗口；窗户"
+            "n. cửa sổ; khung cửa; ô cửa"
         ],
         "usphone": "[ˈwɪndoʊ]",
         "ukphone": "[ˈwɪndəʊ]"
@@ -295,10 +295,10 @@
     {
         "name": "brown",
         "trans": [
-            "n. 褐色，棕色",
-            "adj. 棕色的，褐色的；太阳晒黑的",
-            "vt. 使变成褐色",
-            "vi. 变成褐色"
+            "n. màu nâu",
+            "adj. màu nâu, màu nâu sẫm, rám nắng",
+            "vt. làm thành màu nâu",
+            "vi. chuyển thành màu nâu"
         ],
         "usphone": "[braʊn]",
         "ukphone": "[braʊn]"
@@ -306,8 +306,8 @@
     {
         "name": "white",
         "trans": [
-            "n. 白色；洁白；白种人",
-            "adj. 白色的；白种的；纯洁的"
+            "n. màu trắng, sự trắng ngần, người da trắng",
+            "adj. trắng, da trắng, trong trắng"
         ],
         "usphone": "[waɪt]",
         "ukphone": "[waɪt]"
@@ -315,10 +315,10 @@
     {
         "name": "black",
         "trans": [
-            "n. 黑色；黑人；黑颜料",
-            "adj. 黑色的；黑人的；邪恶的",
-            "vt. 使变黑；把鞋油等涂在…上；把（眼眶）打成青肿",
-            "vi. 变黑"
+            "n. màu đen, người da đen, thuốc nhuộm đen",
+            "adj. màu đen; của người da đen; độc ác",
+            "vt. làm đen; đánh xi lên...; đánh bầm (hốc mắt)",
+            "vi. trở nên đen, đen lại"
         ],
         "usphone": "[blæk]",
         "ukphone": "[blæk]"
@@ -356,7 +356,7 @@
     {
         "name": "happy",
         "trans": [
-            "adj. 幸福的；高兴的；巧妙的"
+            "adj. hạnh phúc; vui vẻ; khéo léo"
         ],
         "usphone": "[ˈhæpi]",
         "ukphone": "[ˈhæpi]"
@@ -364,7 +364,7 @@
     {
         "name": "sad",
         "trans": [
-            "adj. 难过的；悲哀的，令人悲痛的；凄惨的，阴郁的（形容颜色）"
+            "adj. buồn, bi ai, đau thương, thê thảm, u ám (tả màu sắc)"
         ],
         "usphone": "[sæd]",
         "ukphone": "[sæd]"
@@ -452,10 +452,10 @@
     {
         "name": "hair",
         "trans": [
-            "n. 头发；毛发；些微",
-            "adj. 毛发的；护理毛发的；用毛发制成的",
-            "vt. 除去…的毛发",
-            "vi. 生长毛发；形成毛状纤维"
+            "n. tóc; lông; chút ít",
+            "adj. thuộc lông; chăm sóc lông; làm bằng lông",
+            "vt. loại bỏ lông...",
+            "vi. mọc lông; tạo sợi lông"
         ],
         "usphone": "[her]",
         "ukphone": "[heə(r)]"
@@ -472,9 +472,9 @@
     {
         "name": "mouth",
         "trans": [
-            "n. 口，嘴；河口",
-            "vt. 做作地说，装腔作势地说；喃喃地说出",
-            "vi. 装腔作势说话"
+            "n. miệng; cửa sông",
+            "vt. nói điệu bộ, nói kiểu cách; lẩm bẩm nói ra",
+            "vi. nói kiểu cách, lên giọng"
         ],
         "usphone": "[maʊθ]",
         "ukphone": "[maʊθ]"
@@ -482,8 +482,8 @@
     {
         "name": "ear",
         "trans": [
-            "n. 耳朵；穗；听觉；倾听",
-            "vi. （美俚）听见；抽穗"
+            "n. tai; bông lúa; thính giác; sự lắng nghe",
+            "vi. (tiếng lóng Mỹ) nghe thấy; trổ bông"
         ],
         "usphone": "[ɪr]",
         "ukphone": "[ɪə(r)]"
@@ -491,9 +491,9 @@
     {
         "name": "nose",
         "trans": [
-            "n. 鼻子；嗅觉；突出的部分；探问",
-            "vt. 嗅；用鼻子触",
-            "vi. 小心探索着前进；探问"
+            "n. mũi; khứu giác; phần nhô ra; sự thăm dò",
+            "vt. ngửi; chạm bằng mũi",
+            "vi. thận trọng tiến lên thăm dò; dò hỏi"
         ],
         "usphone": "[noʊz]",
         "ukphone": "[nəʊz]"
@@ -544,14 +544,14 @@
     {
         "name": "Dr.",
         "trans": [
-            "abbr. （书写形式）医生；（用于街道名）路",
-            "n. 【摄】动态范围"
+            "abbr. bác sĩ (dạng viết); đường (dùng trong tên đường)",
+            "n. dải động [nhiếp ảnh]"
         ]
     },
     {
         "name": "family",
         "trans": [
-            "n. 家庭；亲属；家族；子女；[生]科；语族；[化]族",
+            "n. gia đình; thân thích; gia tộc; con cái; [sinh] họ; ngữ hệ; [hóa] nhóm",
             "adj. gia đình; gia tộc; phù hợp với toàn bộ gia đình"
         ],
         "usphone": "[ˈfæməli]",
@@ -560,8 +560,8 @@
     {
         "name": "father",
         "trans": [
-            "n. 父亲，爸爸；神父；祖先；前辈",
-            "vt. 发明，创立；当…的父亲"
+            "n. cha, bố, cha xứ, tổ tiên, tiền bối",
+            "vt. sáng lập, tạo dựng, làm cha của"
         ],
         "usphone": "[ˈfɑːðər]",
         "ukphone": "[ˈfɑːðə(r)]"
@@ -579,8 +579,8 @@
     {
         "name": "brother",
         "trans": [
-            "n. 兄弟；同事；战友",
-            "int. 我的老兄！"
+            "n. anh em; đồng nghiệp; chiến hữu",
+            "int. anh bạn của tôi ơi!"
         ],
         "usphone": "[ˈbrʌðər]",
         "ukphone": "[ˈbrʌðə(r)]"
@@ -597,10 +597,10 @@
     {
         "name": "China",
         "trans": [
-            "n. 中国",
-            "n. china，瓷器",
-            "adj. 中国的；中国制造的",
-            "adj. china，瓷制的"
+            "n. Trung Quốc",
+            "n. china, đồ sứ",
+            "adj. thuộc Trung Quốc; do Trung Quốc sản xuất",
+            "adj. china, bằng sứ"
         ],
         "usphone": "[ˈtʃaɪnə]",
         "ukphone": "[ˈtʃaɪnə]"
@@ -618,8 +618,8 @@
     {
         "name": "tall",
         "trans": [
-            "adj. 高的；长的；过分的；夸大的",
-            "adv. 夸大地"
+            "adj. cao, dài, quá đáng, phóng đại",
+            "adv. một cách phóng đại"
         ],
         "usphone": "[tɔːl]",
         "ukphone": "[tɔːl]"
@@ -627,7 +627,7 @@
     {
         "name": "policeman",
         "trans": [
-            "n. 警察，警员；[分化] 淀帚（橡皮头玻璃搅棒）"
+            "n. cảnh sát; que khuấy đầu cao su"
         ],
         "usphone": "[pəˈliːsmən]",
         "ukphone": "[pəˈliːsmən]"
@@ -660,8 +660,8 @@
     {
         "name": "old",
         "trans": [
-            "adj. 陈旧的，古老的；年老的",
-            "n. 古时"
+            "adj. cũ kỹ; cổ xưa; già nua",
+            "n. thời xưa, cổ thời"
         ],
         "usphone": "[oʊld]",
         "ukphone": "[əʊld]"
@@ -686,8 +686,8 @@
     {
         "name": "party",
         "trans": [
-            "n. 政党，党派；聚会，派对；当事人 [复数 parties]",
-            "vi. 参加社交聚会 [ 过去式 partied 过去分词 partied 现在分词 partying ]"
+            "n. chính đảng, đảng phái; bữa tiệc, buổi liên hoan; đương sự [số nhiều parties]",
+            "vi. dự tiệc xã giao [quá khứ partied, quá khứ phân từ partied, hiện tại phân từ partying]"
         ],
         "usphone": "[ˈpɑːrti]",
         "ukphone": "[ˈpɑːti]"
@@ -695,9 +695,9 @@
     {
         "name": "cake",
         "trans": [
-            "n. 蛋糕；块状物；利益总额",
-            "vt. 使结块",
-            "vi. 结成块状"
+            "n. bánh ngọt, khối tảng, tổng lợi ích",
+            "vt. làm đóng cục, làm vón cục",
+            "vi. đóng thành cục, vón cục"
         ],
         "usphone": "[keɪk]",
         "ukphone": "[keɪk]"

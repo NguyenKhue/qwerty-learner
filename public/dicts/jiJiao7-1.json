@@ -24,8 +24,8 @@
     {
         "name": "thanks",
         "trans": [
-            "n. 谢谢（只用复数）",
-            "int. 谢谢"
+            "n. lời cảm ơn (chỉ dùng số nhiều)",
+            "int. cảm ơn"
         ],
         "usphone": "[θæŋks]",
         "ukphone": "[θæŋks]"
@@ -41,8 +41,8 @@
     {
         "name": "four",
         "trans": [
-            "num. 四；四个",
-            "adj. 四的；四个的"
+            "num. bốn; bốn cái",
+            "adj. thuộc bốn, của bốn"
         ],
         "usphone": "[fɔːr]",
         "ukphone": "[fɔː(r)]"
@@ -50,9 +50,9 @@
     {
         "name": "five",
         "trans": [
-            "num. 五，五个",
-            "n. 五，五个；五美元钞票",
-            "adj. 五的；五个的"
+            "num. năm, năm cái",
+            "n. số năm, năm cái, tờ năm đô la",
+            "adj. số năm, năm cái"
         ],
         "usphone": "[faɪv]",
         "ukphone": "[faɪv]"
@@ -60,10 +60,10 @@
     {
         "name": "over",
         "trans": [
-            "adv. 结束；越过；从头到尾",
-            "prep. 越过；在…之上；遍于…之上",
-            "adj. 结束的；上面的",
-            "vt. 越过"
+            "adv. xong; vượt qua; từ đầu đến cuối",
+            "prep. vượt qua; ở trên...; khắp trên...",
+            "adj. kết thúc; ở trên",
+            "vt. vượt qua"
         ],
         "usphone": "[ˈoʊvər]",
         "ukphone": "[ˈəʊvə(r)]"
@@ -103,7 +103,7 @@
     {
         "name": "Jack",
         "trans": [
-            "n. 千斤顶；[电] 插座；男人",
+            "n. kích nâng; [điện] ổ cắm; đàn ông",
             "adj. đực",
             "vt. tăng lên; nhắc nhở; nâng lên; nâng bằng kích thăng"
         ],
@@ -133,8 +133,8 @@
     {
         "name": "around",
         "trans": [
-            "prep. 四处；在…周围",
-            "adv. 大约；到处；在附近"
+            "prep. khắp nơi, ở quanh, xung quanh",
+            "adv. khoảng, chừng; khắp nơi; ở gần"
         ],
         "usphone": "[əˈraʊnd]",
         "ukphone": "[əˈraʊnd]"
@@ -168,8 +168,8 @@
     {
         "name": "fun",
         "trans": [
-            "n. 乐趣；玩笑；有趣的人或事",
-            "adj. 供娱乐用的",
+            "n. niềm vui, trò đùa, người hay vật thú vị",
+            "adj. để giải trí",
             "vi. nói giỡn"
         ],
         "usphone": "[fʌn]",
@@ -186,7 +186,7 @@
     {
         "name": "eraser",
         "trans": [
-            "n. 橡皮；擦除器；[计] 清除器"
+            "n. cục tẩy; đồ xóa; bộ xóa (tin học)"
         ],
         "usphone": "[ɪˈreɪsər]",
         "ukphone": "[ɪˈreɪzə(r)]"
@@ -216,9 +216,9 @@
     {
         "name": "wall",
         "trans": [
-            "n. 墙壁，围墙；似墙之物",
-            "adj. 墙壁的",
-            "vt. 用墙围住，围以墙"
+            "n. tường, tường bao; vật giống tường",
+            "adj. thuộc tường",
+            "vt. bao quanh bằng tường"
         ],
         "usphone": "[wɔːl]",
         "ukphone": "[wɔːl]"
@@ -226,7 +226,7 @@
     {
         "name": "may",
         "trans": [
-            "aux. 可以，能够；可能，也许；祝，愿；会，能"
+            "aux. có thể, có khả năng; có lẽ, có thể; chúc, nguyện; sẽ, có thể"
         ],
         "usphone": "[meɪ]",
         "ukphone": "[meɪ]"
@@ -235,8 +235,8 @@
         "name": "excuse",
         "trans": [
             "(n.) cớ; lý do",
-            "vt. 原谅；为…申辩；给…免去",
-            "vi. 作为借口；请求宽恕；表示宽恕"
+            "vt. tha thứ; biện hộ cho...; miễn cho...",
+            "vi. lấy cớ; xin tha thứ; tỏ lòng khoan dung"
         ],
         "usphone": "[ɪkˈskjuːs]",
         "ukphone": "[ɪkˈskjuːs]"
@@ -244,11 +244,11 @@
     {
         "name": "OK",
         "trans": [
-            "adj. 好的；不错的",
-            "adv. 行；很好",
-            "int. 好；可以",
-            "vt. 对…表示同意",
-            "n. 同意"
+            "adj. tốt; khá tốt",
+            "adv. được; rất tốt",
+            "int. tốt; được",
+            "vt. đồng ý với ...",
+            "n. sự đồng ý"
         ],
         "usphone": "[ˌoʊ'keɪ]",
         "ukphone": "[əʊˈkeɪ]"
@@ -256,8 +256,8 @@
     {
         "name": "borrow",
         "trans": [
-            "vt. 借；借用",
-            "vi. 借；借用；从其他语言中引入"
+            "vt. mượn; vay mượn",
+            "vi. mượn; vay mượn; du nhập từ ngôn ngữ khác"
         ],
         "usphone": "[ˈbɔːroʊ]",
         "ukphone": "[ˈbɒrəʊ]"
@@ -276,8 +276,8 @@
         "name": "three",
         "trans": [
             "num. ba",
-            "n. 三，三个",
-            "adj. 三的，三个的"
+            "n. số ba, ba cái",
+            "adj. thuộc ba, của ba"
         ],
         "usphone": "[θriː]",
         "ukphone": "[θriː]"
@@ -303,7 +303,7 @@
     {
         "name": "thing",
         "trans": [
-            "n. 事情；东西；事物；情况"
+            "n. việc; đồ vật; sự vật; tình hình"
         ],
         "usphone": "[θɪŋ]",
         "ukphone": "[θɪŋ]"
@@ -331,7 +331,7 @@
     {
         "name": "ten",
         "trans": [
-            "num. 十个，十"
+            "num. mười, mười cái"
         ],
         "usphone": "[ten]",
         "ukphone": "[ten]"
@@ -339,8 +339,8 @@
     {
         "name": "six",
         "trans": [
-            "num. 六，六个",
-            "n. 六，六个"
+            "num. sáu, sáu cái",
+            "n. số sáu, sáu cái"
         ],
         "usphone": "[sɪks]",
         "ukphone": "[sɪks]"
@@ -348,9 +348,9 @@
     {
         "name": "seven",
         "trans": [
-            "num. 七个，七",
-            "n. 七个，七",
-            "adj. 七的；七个的"
+            "num. bảy, bảy cái",
+            "n. số bảy, bảy cái",
+            "adj. thuộc bảy, của bảy"
         ],
         "usphone": "[ˈsev(ə)n]",
         "ukphone": "[ˈsev(ə)n]"
@@ -358,9 +358,9 @@
     {
         "name": "one",
         "trans": [
-            "pron. 一个人；任何人",
-            "adj. 一的；唯一的",
-            "n. 一",
+            "pron. một người; bất kỳ ai",
+            "adj. một; duy nhất",
+            "n. số một",
             "num. một"
         ],
         "usphone": "[wʌn]",
@@ -369,8 +369,8 @@
     {
         "name": "nine",
         "trans": [
-            "n. 九，九个",
-            "num. 九；九个",
+            "n. số chín, chín cái",
+            "num. chín; chín cái",
             "adj. chín, gồm chín cái"
         ],
         "usphone": "[naɪn]",
@@ -379,9 +379,9 @@
     {
         "name": "eight",
         "trans": [
-            "num. 八；八个；第八",
-            "n. 八字形",
-            "adj. 八的"
+            "num. tám; tám cái; thứ tám",
+            "n. hình số tám",
+            "adj. số tám, thứ tám"
         ],
         "usphone": "[eɪt]",
         "ukphone": "[eɪt]"
@@ -397,8 +397,8 @@
     {
         "name": "sure",
         "trans": [
-            "adj. 确信的；可靠的；必定的",
-            "adv. 当然；的确"
+            "adj. chắc chắn; đáng tin; nhất định",
+            "adv. đương nhiên; quả thật"
         ],
         "usphone": "[ʃʊr]",
         "ukphone": "[ʃʊə(r)]"
@@ -406,9 +406,9 @@
     {
         "name": "blouse",
         "trans": [
-            "n. 宽松的上衣；女装衬衫",
-            "vt. 使…宽松下垂",
-            "vi. 宽松下垂"
+            "n. áo rộng thùng thình; áo sơ mi nữ",
+            "vt. làm cho rộng thùng thình, rủ xuống",
+            "vi. chảy xệ, lỏng lẻo"
         ],
         "usphone": "[blaʊs]",
         "ukphone": "[blaʊz]"
@@ -416,7 +416,7 @@
     {
         "name": "really",
         "trans": [
-            "adv. 实际上，事实上；真正地，真实地；真的吗？（表语气）"
+            "adv. thực tế, quả thật, thật sự, thật không (ngữ khí)"
         ],
         "usphone": "[ˈriːəli]",
         "ukphone": "[ˈriːəli]"
@@ -432,10 +432,10 @@
     {
         "name": "pink",
         "trans": [
-            "n. 粉红色；化身，典范；石竹花；头面人物",
-            "adj. 粉红的；比较激进的；石竹科的；脸色发红的",
-            "vt. 扎，刺，戳；使…变粉红色；使…面红耳赤",
-            "vi. 变粉红色"
+            "n. màu hồng; hiện thân, điển hình; hoa cẩm chướng; nhân vật nổi tiếng",
+            "adj. màu hồng; khá cấp tiến; thuộc họ cẩm chướng; đỏ mặt",
+            "vt. đâm, chích, chọc; làm hồng lên; làm đỏ mặt tía tai",
+            "vi. ửng hồng, chuyển hồng"
         ],
         "usphone": "[pɪŋk]",
         "ukphone": "[pɪŋk]"
@@ -443,9 +443,9 @@
     {
         "name": "paint",
         "trans": [
-            "vt. 油漆；绘画；装饰；涂色于；描绘；（用语言，文字等）描写；擦脂粉等",
-            "vi. 油漆；描绘；绘画；化妆",
-            "n. 油漆；颜料，涂料；绘画作品；胭脂等化妆品；色彩，装饰"
+            "vt. sơn; vẽ; trang trí; tô màu; miêu tả; diễn tả (bằng lời); đánh phấn",
+            "vi. sơn; miêu tả; vẽ tranh; trang điểm",
+            "n. sơn; màu vẽ, chất phủ; tác phẩm hội họa; mỹ phẩm như phấn son; màu sắc, trang trí"
         ],
         "usphone": "[peɪnt]",
         "ukphone": "[peɪnt]"
@@ -454,8 +454,8 @@
         "name": "mix",
         "trans": [
             "vt. trộn; nhầm lẫn; pha trộn; làm quen biết",
-            "vi. 参与；相混合；交往",
-            "n. 混合；混合物；混乱"
+            "vi. tham gia; hòa trộn; giao thiệp",
+            "n. sự pha trộn; hỗn hợp; sự hỗn loạn"
         ],
         "usphone": "[mɪks]",
         "ukphone": "[mɪks]"
@@ -485,12 +485,12 @@
     {
         "name": "out",
         "trans": [
-            "adv. 出现；在外；出局；出声地；不流行地",
-            "adj. 外面的；出局的；下台的",
-            "n. 出局",
-            "prep. 向；离去",
-            "vi. 出来；暴露",
-            "vt. 使熄灭；驱逐"
+            "adv. xuất hiện; ở ngoài; bị loại; thành tiếng; lỗi thời",
+            "adj. bên ngoài, bị loại, mãn nhiệm",
+            "n. sự ra ngoài, sự loại",
+            "prep. hướng tới; rời đi",
+            "vi. đi ra, lộ ra",
+            "vt. dập tắt; trục xuất"
         ],
         "usphone": "[aʊt]",
         "ukphone": "[aʊt]"
@@ -534,8 +534,8 @@
     {
         "name": "maybe",
         "trans": [
-            "adv. 也许；可能；大概",
-            "n. 可能性；不确定性"
+            "adv. có lẽ; có thể; chắc là",
+            "n. khả năng; sự không chắc chắn"
         ],
         "usphone": "[ˈmeɪbi]",
         "ukphone": "[ˈmeɪbi]"
@@ -589,7 +589,7 @@
     {
         "name": "T-shirt",
         "trans": [
-            "n. 短袖圆领汗衫"
+            "n. áo thun cổ tròn ngắn tay"
         ],
         "usphone": "[ˈtiː ʃɜːrt]",
         "ukphone": "[ˈtiː ʃɜːt]"
@@ -606,8 +606,8 @@
     {
         "name": "forget",
         "trans": [
-            "vi. 忘记",
-            "vt. 忘记；忽略"
+            "vi. quên",
+            "vt. quên; bỏ qua"
         ],
         "usphone": "[fərˈɡet]",
         "ukphone": "[fəˈɡet]"
@@ -641,9 +641,9 @@
     {
         "name": "so",
         "trans": [
-            "conj. 所以；因此",
-            "adv. 如此，这么；确是如此",
-            "pron. 这样"
+            "conj. vì vậy; do đó",
+            "adv. như vậy, thế, quả đúng vậy",
+            "pron. như vậy, như thế này"
         ],
         "usphone": "[soʊ]",
         "ukphone": "[səʊ]"
@@ -669,9 +669,9 @@
     {
         "name": "report",
         "trans": [
-            "n. 报告；报道；成绩单",
-            "vt. 报告；报导；使报到",
-            "vi. 报告；报到；写报导"
+            "n. báo cáo; bài tường thuật; bảng điểm",
+            "vt. báo cáo; tường thuật; gọi trình diện",
+            "vi. báo cáo; trình diện; viết bài tường thuật"
         ],
         "usphone": "[rɪˈpɔːrt]",
         "ukphone": "[rɪˈpɔːt]"
@@ -687,8 +687,8 @@
     {
         "name": "wow",
         "trans": [
-            "n. 极大的成功；一鸣惊人之举；魔兽世界(World of Warcraft)；失真",
-            "int. （表示极大的惊奇或钦佩）哇，呀"
+            "n. thành công vang dội; hành động gây tiếng vang; thế giới ma thú (World of Warcraft); sự méo tiếng",
+            "int. (biểu thị sự ngạc nhiên hoặc khâm phục lớn) chà, ôi"
         ],
         "usphone": "[waʊ]",
         "ukphone": "[waʊ]"
@@ -704,7 +704,7 @@
     {
         "name": "India",
         "trans": [
-            "n. 印度（南亚国家）"
+            "n. Ấn Độ (quốc gia Nam Á)"
         ],
         "usphone": "[ˈɪndiə]",
         "ukphone": "[ˈɪndiə]"
@@ -752,9 +752,9 @@
         "name": "will",
         "trans": [
             "n. ý chí; quyết tâm; cảm xúc; di chúc; ý định; mong muốn",
-            "vt. 决心要；遗赠；用意志力使",
-            "vi. 愿意；下决心",
-            "aux. 将；愿意；必须"
+            "vt. quyết tâm; di tặng; dùng ý chí khiến",
+            "vi. sẵn lòng; quyết tâm",
+            "aux. sẽ; sẵn lòng; phải"
         ],
         "usphone": "[wɪl]",
         "ukphone": "[wɪl]"
@@ -771,11 +771,11 @@
     {
         "name": "part",
         "trans": [
-            "n. 部分；角色；零件；一些；片段",
-            "adj. 部分的",
-            "vt. 分离；分配；分开",
-            "adv. 部分地",
-            "vi. 断裂；分手"
+            "n. phần; vai trò; linh kiện; một ít; đoạn trích",
+            "adj. từng phần, bộ phận, một phần",
+            "vt. tách ra; phân phối; chia rẽ",
+            "adv. một phần, từng phần",
+            "vi. gãy, đứt; chia tay"
         ],
         "usphone": "[pɑːrt]",
         "ukphone": "[pɑːt]"
@@ -870,9 +870,9 @@
     {
         "name": "sick",
         "trans": [
-            "adj. 厌恶的；病态的；不舒服；渴望的；恶心的 ；生病的",
+            "adj. chán ghét; bệnh hoạn; khó chịu; khao khát; buồn nôn; bị bệnh",
             "n. benh nhan",
-            "vt. 使狗去咬；呕吐；追击"
+            "vt. xua chó cắn; nôn ra; truy kích"
         ],
         "usphone": "[sɪk]",
         "ukphone": "[sɪk]"
@@ -889,9 +889,9 @@
     {
         "name": "smile",
         "trans": [
-            "n. 微笑；笑容；喜色",
-            "vt. 微笑着表示",
-            "vi. 微笑"
+            "n. nụ cười; vẻ vui mừng",
+            "vt. tỏ ý bằng nụ cười",
+            "vi. mỉm cười"
         ],
         "usphone": "[smaɪl]",
         "ukphone": "[smaɪl]"
@@ -920,7 +920,7 @@
     {
         "name": "metre",
         "trans": [
-            "n. 米；公尺；韵律"
+            "n. mét, nhịp điệu, vần luật"
         ],
         "usphone": "[ˈmiːtər]",
         "ukphone": "[ˈmiːtə(r)]"
@@ -928,7 +928,7 @@
     {
         "name": "bit",
         "trans": [
-            "n. [计] 比特（二进位制信息单位）；少量；马嚼子；辅币；老一套；一点，一块",
+            "n. [tin] bit (đơn vị thông tin nhị phân); một chút; hàm thiếc ngựa; tiền xu nhỏ; bài cũ; một ít, một miếng",
             "adj. rất nhỏ; tầm thường",
             "vt. cắn (quá khứ và quá khứ phân từ của bite)",
             "vt. kiểm soát",
@@ -992,7 +992,7 @@
     {
         "name": "oh",
         "trans": [
-            "int. 哦；哎呀（表示惊讶或恐惧等）"
+            "int. ồ; ôi chao (tỏ ý ngạc nhiên hoặc sợ hãi)"
         ],
         "usphone": "[oʊ]",
         "ukphone": "[əʊ]"
@@ -1030,9 +1030,9 @@
     {
         "name": "laugh",
         "trans": [
-            "n. 笑；引人发笑的事或人",
-            "vi. 笑",
-            "vt. 以笑表示；使…笑得"
+            "n. tiếng cười, chuyện hay người gây cười",
+            "vi. cười",
+            "vt. biểu thị bằng cười; làm... cười"
         ],
         "usphone": "[læf]",
         "ukphone": "[lɑːf]"
@@ -1048,7 +1048,7 @@
     {
         "name": "stomachache",
         "trans": [
-            "n. 腹痛，肚子痛；胃痛"
+            "n. đau bụng; đau dạ dày"
         ],
         "usphone": "[ˈstʌməkˌeɪk]",
         "ukphone": "[ˈstʌməkeɪk]"
@@ -1068,8 +1068,8 @@
     {
         "name": "Dr.",
         "trans": [
-            "abbr. （书写形式）医生；（用于街道名）路",
-            "n. 【摄】动态范围"
+            "abbr. bác sĩ (dạng viết); đường (dùng trong tên đường)",
+            "n. dải động [nhiếp ảnh]"
         ]
     },
     {
@@ -1153,9 +1153,9 @@
     {
         "name": "twelve",
         "trans": [
-            "num. 十二；十二个",
-            "n. 十二；十二个",
-            "adj. 十二的；十二个的"
+            "num. mười hai; mười hai cái",
+            "n. số mười hai; mười hai cái",
+            "adj. thứ mười hai; gồm mười hai cái"
         ],
         "usphone": "[twelv]",
         "ukphone": "[twelv]"
@@ -1163,8 +1163,8 @@
     {
         "name": "blond",
         "trans": [
-            "adj. 金发的",
-            "n. 白肤碧眼金发的人"
+            "adj. tóc vàng hoe",
+            "n. người tóc vàng, da trắng mắt xanh"
         ],
         "usphone": "[blɑːnd]",
         "ukphone": "[blɒnd]"
@@ -1172,9 +1172,9 @@
     {
         "name": "thirteen",
         "trans": [
-            "n. 十三；十三岁；十三个",
+            "n. số mười ba; tuổi mười ba; mười ba cái",
             "num. mười ba",
-            "adj. 十三的；十三个的"
+            "adj. thứ mười ba; mười ba cái"
         ],
         "usphone": "[ˌθɜːrˈtiːn]",
         "ukphone": "[ˌθɜːˈtiːn]"
@@ -1182,8 +1182,8 @@
     {
         "name": "funny",
         "trans": [
-            "n. 滑稽人物；笑话，有趣的故事；滑稽连环漫画栏；（英）（比赛用）单人双桨小艇",
-            "adj. 有趣的，好笑的，滑稽的；（口）稀奇的，古怪的，奇异的；有病的，不舒服的；狡猾的，欺骗（性）的，可疑的，不光明"
+            "n. nhân vật hài hước; chuyện cười, câu chuyện vui; mục truyện tranh hài; (Anh) thuyền đơn chèo đôi thi đấu",
+            "adj. thú vị, buồn cười, hài hước; (khẩu ngữ) lạ lùng, kỳ quặc; ốm, khó chịu; xảo quyệt, đáng ngờ, mờ ám"
         ],
         "usphone": "[ˈfʌni]",
         "ukphone": "[ˈfʌni]"
@@ -1199,9 +1199,9 @@
     {
         "name": "glass",
         "trans": [
-            "n. 玻璃；玻璃制品；镜子",
-            "vt. 反映；给某物加玻璃",
-            "vi. 成玻璃状"
+            "n. thủy tinh; đồ thủy tinh; gương",
+            "vt. phản chiếu, lắp kính cho",
+            "vi. hóa thủy tinh"
         ],
         "usphone": "[ɡlæs]",
         "ukphone": "[ɡlɑːs]"
@@ -1217,9 +1217,9 @@
     {
         "name": "fifteen",
         "trans": [
-            "n. 十五；十五个；十五人组成的橄榄球队",
+            "n. số mười lăm; mười lăm cái; đội bóng bầu dục mười lăm người",
             "num. mười lăm",
-            "adj. 十五的"
+            "adj. thứ mười lăm"
         ],
         "usphone": "[ˌfɪfˈtiːn]",
         "ukphone": "[ˌfɪfˈtiːn]"
@@ -1236,8 +1236,8 @@
     {
         "name": "would",
         "trans": [
-            "aux. 将，将要；愿意",
-            "v. will的过去式"
+            "aux. sẽ, sắp; sẵn lòng",
+            "v. dạng quá khứ của will"
         ],
         "usphone": "[wʊd]",
         "ukphone": "[wʊd]"
@@ -1299,7 +1299,7 @@
     {
         "name": "cookie",
         "trans": [
-            "n. 饼干；小甜点"
+            "n. bánh quy; bánh ngọt nhỏ"
         ],
         "usphone": "[ˈkʊki]",
         "ukphone": "[ˈkʊki]"
@@ -1316,7 +1316,7 @@
     {
         "name": "everything",
         "trans": [
-            "pron. 每件事物；最重要的东西；（有关的）一切；万事"
+            "pron. mọi thứ; điều quan trọng nhất; (có liên quan) tất cả; mọi việc"
         ],
         "usphone": "[ˈevriθɪŋ]",
         "ukphone": "[ˈevriθɪŋ]"
@@ -1385,9 +1385,9 @@
     {
         "name": "sweet",
         "trans": [
-            "n. 糖果；乐趣；芳香；宝贝",
-            "adj. 甜的；悦耳的；芳香的；亲切的",
-            "（俚）酷毙了"
+            "n. kẹo; niềm vui; hương thơm; bé cưng",
+            "adj. ngọt; êm tai; thơm; thân thiện, dễ mến",
+            "(lóng) cực ngầu"
         ],
         "usphone": "[swiːt]",
         "ukphone": "[swiːt]"
@@ -1422,8 +1422,8 @@
     {
         "name": "fourteen",
         "trans": [
-            "num. 十四；十四个；第十四",
-            "n. 十四的记号；十四岁；十四点钟；十五世纪"
+            "num. mười bốn; mười bốn cái; thứ mười bốn",
+            "n. ký hiệu số mười bốn; tuổi mười bốn; mười bốn giờ; thế kỷ mười lăm"
         ],
         "usphone": "[ˌfɔːrˈtiːn]",
         "ukphone": "[ˌfɔːˈtiːn]"
@@ -1431,9 +1431,9 @@
     {
         "name": "beef",
         "trans": [
-            "n. 牛肉；肌肉；食用牛；牢骚",
-            "vt. 养；加强",
-            "vi. 抱怨，告发；发牢骚"
+            "n. thịt bò; cơ bắp; bò thịt; lời phàn nàn",
+            "vt. nuôi dưỡng; tăng cường",
+            "vi. phàn nàn, tố cáo; cằn nhằn"
         ],
         "usphone": "[biːf]",
         "ukphone": "[biːf]"
@@ -1441,9 +1441,9 @@
     {
         "name": "eleven",
         "trans": [
-            "num. 十一；十一个",
-            "n. 十一；十一个",
-            "adj. 十一的；十一个的"
+            "num. mười một; mười một cái",
+            "n. mười một; mười một cái",
+            "adj. thứ mười một; mười một cái"
         ],
         "usphone": "[ɪˈlevn]",
         "ukphone": "[ɪˈlev(ə)n]"
@@ -1451,7 +1451,7 @@
     {
         "name": "dumpling",
         "trans": [
-            "n. 饺子，汤团；面团布丁"
+            "n. sủi cảo, bánh trôi; bánh pudding bột"
         ],
         "usphone": "[ˈdʌmplɪŋ]",
         "ukphone": "[ˈdʌmplɪŋ]"
@@ -1459,9 +1459,9 @@
     {
         "name": "something",
         "trans": [
-            "n. 重要的人；值得重视的事",
-            "adj. 大约；有点象",
-            "adv. 非常；有点；大约",
+            "n. người quan trọng; việc đáng coi trọng",
+            "adj. khoảng chừng; hơi giống",
+            "adv. rất; hơi; khoảng",
             "pron. điều gì; thứ gì"
         ],
         "usphone": "[ˈsʌmθɪŋ]",
@@ -1470,8 +1470,8 @@
     {
         "name": "problem",
         "trans": [
-            "n. 难题；引起麻烦的人",
-            "adj. 成问题的；难处理的"
+            "n. vấn đề khó; người gây rắc rối",
+            "adj. có vấn đề; khó giải quyết"
         ],
         "usphone": "[ˈprɑːbləm]",
         "ukphone": "[ˈprɒbləm]"
@@ -1488,9 +1488,9 @@
     {
         "name": "can",
         "trans": [
-            "aux. 能； 能够； 可以； 可能",
-            "n. 罐头； （用金属或塑料制作的）容器； （马口铁或其他金属制作的）食品罐头",
-            "vt. 将…装入密封罐中保存"
+            "aux. có thể, có khả năng, được phép",
+            "n. đồ hộp; hộp đựng (làm bằng kim loại hoặc nhựa); hộp thực phẩm (bằng thiếc hoặc kim loại khác)",
+            "vt. đóng hộp... để bảo quản"
         ],
         "usphone": "[kən; kæn]",
         "ukphone": "[kən; kæn]"
@@ -1506,9 +1506,9 @@
     {
         "name": "bottle",
         "trans": [
-            "n. 瓶子；一瓶的容量",
-            "vt. 控制；把…装入瓶中",
-            "vi. （街头艺人演出后）收拢钱币"
+            "n. cái chai; dung tích một chai",
+            "vt. kiểm soát; đóng... vào chai",
+            "vi. (sau khi biểu diễn đường phố) thu tiền"
         ],
         "usphone": "[ˈbɑːtl]",
         "ukphone": "[ˈbɒt(ə)l]"
@@ -1552,8 +1552,8 @@
         "name": "twenty",
         "trans": [
             "num. hai mươi",
-            "n. 二十；二十年代",
-            "adj. 二十的"
+            "n. số hai mươi; thập niên hai mươi",
+            "adj. thứ hai mươi, hai mươi"
         ],
         "usphone": "[ˈtwenti]",
         "ukphone": "[ˈtwenti]"
@@ -1631,7 +1631,7 @@
     {
         "name": "son",
         "trans": [
-            "n. 儿子；孩子（对年轻人的称呼）；男性后裔"
+            "n. con trai; đứa trẻ (cách gọi người trẻ); hậu duệ nam"
         ],
         "usphone": "[sʌn]",
         "ukphone": "[sʌn]"
@@ -1639,8 +1639,8 @@
     {
         "name": "daughter",
         "trans": [
-            "n. 女儿；[遗][农学] 子代",
-            "adj. 女儿的；子代的"
+            "n. con gái, đời con",
+            "adj. thuộc con gái; thuộc thế hệ con"
         ],
         "usphone": "[ˈdɔːtər]",
         "ukphone": "[ˈdɔːtə(r)]"
@@ -1658,7 +1658,7 @@
     {
         "name": "policeman",
         "trans": [
-            "n. 警察，警员；[分化] 淀帚（橡皮头玻璃搅棒）"
+            "n. cảnh sát; que khuấy đầu cao su"
         ],
         "usphone": "[pəˈliːsmən]",
         "ukphone": "[pəˈliːsmən]"
@@ -1684,9 +1684,9 @@
     {
         "name": "weekend",
         "trans": [
-            "n. 周末，周末休假；周末聚会",
-            "adj. 周末的，周末用的",
-            "vi. 度周末"
+            "n. cuối tuần, kỳ nghỉ cuối tuần, tiệc cuối tuần",
+            "adj. của cuối tuần, dùng cho cuối tuần",
+            "vi. nghỉ cuối tuần"
         ],
         "usphone": "[ˈwiːkend]",
         "ukphone": "[ˌwiːkˈend]"
@@ -1694,8 +1694,8 @@
     {
         "name": "together",
         "trans": [
-            "adj. 新潮的；情绪稳定的，做事有效率的",
-            "adv. 一起；同时；相互；连续地；总共"
+            "adj. hợp thời; tâm lý ổn định, làm việc hiệu quả",
+            "adv. cùng nhau; đồng thời; lẫn nhau; liên tục; tổng cộng"
         ],
         "usphone": "[təˈɡeðər]",
         "ukphone": "[təˈɡeðə(r)]"
@@ -1749,10 +1749,10 @@
     {
         "name": "above",
         "trans": [
-            "prep. 超过；在……上面；在……之上",
-            "n. 上文",
-            "adj. 上文的",
-            "adv. 在上面；在上文"
+            "prep. vượt quá; ở trên...; phía trên...",
+            "n. đoạn trên, phần trên",
+            "adj. nêu trên",
+            "adv. ở phía trên; ở đoạn trên"
         ],
         "usphone": "[əˈbʌv]",
         "ukphone": "[əˈbʌv]"
@@ -1761,8 +1761,8 @@
         "name": "thirty",
         "trans": [
             "num. ba mươi",
-            "n. 三十年代",
-            "adj. 三十个的"
+            "n. những năm ba mươi",
+            "adj. ba mươi cái"
         ],
         "usphone": "[ˈθɜːrti]",
         "ukphone": "[ˈθɜːti]"
@@ -1779,7 +1779,7 @@
     {
         "name": "carry",
         "trans": [
-            "n. 运载；[计] 进位；射程",
+            "n. vận chuyển; [máy tính] số nhớ; tầm bắn",
             "có thể đạt đến; được mang; được vận chuyển",
             "lấy, khiêng; mang; hỗ trợ; vận chuyển"
         ],
@@ -1790,7 +1790,7 @@
         "name": "basket",
         "trans": [
             "n. giỏ; điểm bóng rổ; giỏ đầy; rổ bóng",
-            "vt. 装入篮"
+            "vt. bỏ vào giỏ"
         ],
         "usphone": "[ˈbæskɪt]",
         "ukphone": "[ˈbɑːskɪt]"
@@ -1825,10 +1825,10 @@
     {
         "name": "quiet",
         "trans": [
-            "n. 安静；和平",
-            "adj. 安静的；安定的；不动的；温顺的",
-            "vt. 使平息；安慰",
-            "vi. 平静下来"
+            "n. sự yên tĩnh; hòa bình",
+            "adj. yên tĩnh; ổn định; bất động; hiền lành, dịu dàng",
+            "vt. làm yên, dẹp yên; an ủi",
+            "vi. bình tĩnh lại, yên lại"
         ],
         "usphone": "[ˈkwaɪət]",
         "ukphone": "[ˈkwaɪət]"
@@ -1867,9 +1867,9 @@
         "name": "rose",
         "trans": [
             "(n.) hoa hồng; màu hồng; hoa hồng (hoa); rượu nho màu hồng",
-            "adj. 玫瑰花的；玫瑰色的；粉红色的；带有玫瑰香味的",
-            "vt. 使成玫瑰色，使（面颊）发红；使有玫瑰香味",
-            "vi. 起义( rise的过去式)；升起；（数量）增加；休会"
+            "adj. thuộc hoa hồng; màu hồng; hồng nhạt; có mùi hoa hồng",
+            "vt. nhuộm màu hồng, làm ửng đỏ (má); làm thơm mùi hồng",
+            "vi. nổi dậy (quá khứ của rise); mọc lên; tăng lên; nghỉ họp"
         ],
         "usphone": "[roʊz]",
         "ukphone": "[rəʊz]"
@@ -1877,7 +1877,7 @@
     {
         "name": "riddle",
         "trans": [
-            "n. 谜语；粗筛；谜一般的人、东西、事情等",
+            "n. câu đố; sàng thô; người/vật/việc bí ẩn",
             "vt. 解谜；给...出谜；充满于",
             "vi. 出谜"
         ],
@@ -1908,8 +1908,8 @@
     {
         "name": "woof",
         "trans": [
-            "n. 纬线；织物；低吠声",
-            "vi. 发出低吠声；发低音"
+            "n. sợi ngang; vải dệt; tiếng sủa trầm",
+            "vi. sủa trầm; phát âm trầm"
         ],
         "usphone": "[wʊf]",
         "ukphone": "[wʊf]"
@@ -1956,7 +1956,7 @@
     {
         "name": "bookstore",
         "trans": [
-            "n. 书店（等于bookshop）"
+            "n. hiệu sách (bằng bookshop)"
         ],
         "usphone": "[ˈbʊkstɔːr]",
         "ukphone": "[ˈbʊkstɔː(r)]"
@@ -1974,8 +1974,8 @@
     {
         "name": "broken",
         "trans": [
-            "v. 折断；打碎；损坏（break的过去分词）",
-            "adj. 破碎的；坏掉的"
+            "v. gãy; vỡ; hỏng (quá khứ phân từ của break)",
+            "adj. vỡ nát; hỏng"
         ],
         "usphone": "[ˈbroʊkən]",
         "ukphone": "[ˈbrəʊkən]"
@@ -1983,9 +1983,9 @@
     {
         "name": "off",
         "trans": [
-            "prep. 离开；脱落",
-            "adv. 切断；走开",
-            "adj. 远离的；空闲的"
+            "prep. rời khỏi; bong ra",
+            "adv. cắt đứt; bỏ đi",
+            "adj. xa cách; rảnh rỗi"
         ],
         "usphone": "[ɔːf]",
         "ukphone": "[ɒf]"
@@ -2030,8 +2030,8 @@
     {
         "name": "luck",
         "trans": [
-            "n. 运气；幸运；带来好运的东西",
-            "vi. 靠运气，走运；凑巧碰上"
+            "n. vận may; sự may mắn; vật mang lại may mắn",
+            "vi. gặp may, dựa vào may mắn; tình cờ gặp"
         ],
         "usphone": "[lʌk]",
         "ukphone": "[lʌk]"
@@ -2070,7 +2070,7 @@
         "name": "forty",
         "trans": [
             "n. bốn mươi",
-            "adj. 四十的；四十个的"
+            "adj. thứ bốn mươi; bốn mươi cái"
         ],
         "usphone": "[ˈfɔːrti]",
         "ukphone": "[ˈfɔːti]"
@@ -2078,8 +2078,8 @@
     {
         "name": "fifty",
         "trans": [
-            "n. 五十；五十个；编号为50的东西",
-            "adj. 五十的；五十个的；众多的"
+            "n. năm mươi; năm mươi cái; vật số 50",
+            "adj. thứ năm mươi; năm mươi cái; đông đảo"
         ],
         "usphone": "[ˈfɪfti]",
         "ukphone": "[ˈfɪfti]"
@@ -2087,7 +2087,7 @@
     {
         "name": "sixty",
         "trans": [
-            "num. 六十；六十个"
+            "num. sáu mươi; sáu mươi cái"
         ],
         "usphone": "[ˈsɪksti]",
         "ukphone": "[ˈsɪksti]"
@@ -2095,9 +2095,9 @@
     {
         "name": "seventy",
         "trans": [
-            "n. 七十；七十个；七十岁；七十年代",
+            "n. số bảy mươi; bảy mươi cái; tuổi bảy mươi; thập niên bảy mươi",
             "num. bảy mươi",
-            "adj. 七十的；七十个的；七十岁的"
+            "adj. thuộc bảy mươi; bảy mươi cái; bảy mươi tuổi"
         ],
         "usphone": "[ˈsev(ə)nti]",
         "ukphone": "[ˈsev(ə)nti]"
@@ -2106,8 +2106,8 @@
         "name": "eighty",
         "trans": [
             "num. tám mươi",
-            "n. 八十；八十岁；八十年代",
-            "adj. 八十的，八十个的；八十岁的"
+            "n. số tám mươi; tuổi tám mươi; thập niên tám mươi",
+            "adj. thứ tám mươi, tám mươi cái; tám mươi tuổi"
         ],
         "usphone": "[ˈeɪti]",
         "ukphone": "[ˈeɪti]"
@@ -2115,8 +2115,8 @@
     {
         "name": "ninety",
         "trans": [
-            "n. 九十",
-            "adj. 九十的；九十岁的",
+            "n. số chín mươi",
+            "adj. thuộc chín mươi; chín mươi tuổi",
             "num. chín mươi"
         ],
         "usphone": "[ˈnaɪnti]",
@@ -2125,9 +2125,9 @@
     {
         "name": "hundred",
         "trans": [
-            "num. 百；百个",
-            "n. 一百；许多",
-            "adj. 一百的；许多的"
+            "num. trăm; trăm cái",
+            "n. một trăm; nhiều",
+            "adj. một trăm; nhiều"
         ],
         "usphone": "[ˈhʌndrəd]",
         "ukphone": "[ˈhʌndrəd]"
@@ -2146,9 +2146,9 @@
     {
         "name": "noise",
         "trans": [
-            "n. [环境] 噪音；响声；杂音",
-            "vt. 谣传",
-            "vi. 发出声音；大声议论"
+            "n. [môi trường] tiếng ồn; tiếng động; tạp âm",
+            "vt. đồn đại",
+            "vi. phát ra tiếng; bàn tán ầm ĩ"
         ],
         "usphone": "[nɔɪz]",
         "ukphone": "[nɔɪz]"
@@ -2183,7 +2183,7 @@
         "name": "forest",
         "trans": [
             "n. rừng",
-            "vt. 植树于，使成为森林"
+            "vt. trồng cây gây rừng, biến thành rừng"
         ],
         "usphone": "[ˈfɔːrɪst]",
         "ukphone": "[ˈfɒrɪst]"
@@ -2220,8 +2220,8 @@
         "name": "pick",
         "trans": [
             "(n.) lựa chọn; cuốc; đào; bảo vệ",
-            "vi. 挑选；采摘；挖",
-            "vt. 拾取；精选；采摘；掘"
+            "vi. chọn, lựa; hái; đào, khoét",
+            "vt. nhặt lấy; tuyển chọn; hái; đào"
         ],
         "usphone": "[pɪk]",
         "ukphone": "[pɪk]"
@@ -2238,7 +2238,7 @@
     {
         "name": "quickly",
         "trans": [
-            "adv. 迅速地；很快地"
+            "adv. nhanh chóng; rất nhanh"
         ],
         "usphone": "[ˈkwɪkli]",
         "ukphone": "[ˈkwɪkli]"
@@ -2298,8 +2298,8 @@
     {
         "name": "war",
         "trans": [
-            "n. 战争，斗争；军事，战术；冲突，对抗，竞争",
-            "vi. 打仗，作战；对抗"
+            "n. chiến tranh, đấu tranh; quân sự, chiến thuật; xung đột, đối kháng, cạnh tranh",
+            "vi. đánh nhau, tác chiến; đối kháng"
         ],
         "usphone": "[wɔːr]",
         "ukphone": "[wɔː(r)]"
@@ -2341,8 +2341,8 @@
     {
         "name": "movie",
         "trans": [
-            "n. 电影；电影院；电影业",
-            "adj. 电影的"
+            "n. phim, rạp chiếu phim, ngành điện ảnh",
+            "adj. thuộc điện ảnh, như phim"
         ],
         "usphone": "[ˈmuːvi]",
         "ukphone": "[ˈmuːvi]"
@@ -2403,9 +2403,9 @@
     {
         "name": "hotel",
         "trans": [
-            "n. 旅馆，饭店；客栈",
-            "vt. 使…在饭店下榻",
-            "vi. 进行旅馆式办公"
+            "n. khách sạn, quán trọ",
+            "vt. cho trọ ở khách sạn",
+            "vi. làm việc kiểu khách sạn"
         ],
         "usphone": "[hoʊˈtel]",
         "ukphone": "[həʊˈtel]"
@@ -2422,8 +2422,8 @@
     {
         "name": "fight",
         "trans": [
-            "n. 打架；战斗，斗志",
-            "vi. 打架；与…打仗，与…斗争；反对…提案"
+            "n. đánh nhau; chiến đấu, ý chí chiến đấu",
+            "vi. đánh nhau; giao chiến với..., đấu tranh với...; phản đối đề xuất..."
         ],
         "usphone": "[faɪt]",
         "ukphone": "[faɪt]"
@@ -2439,7 +2439,7 @@
     {
         "name": "rainy",
         "trans": [
-            "adj. 下雨的；多雨的"
+            "adj. có mưa; nhiều mưa"
         ],
         "usphone": "[ˈreɪni]",
         "ukphone": "[ˈreɪni]"
@@ -2547,10 +2547,10 @@
     {
         "name": "best",
         "trans": [
-            "n. 最好的人，最好的事物；最佳状态",
-            "adj. 最好的",
-            "vt. 打败，胜过",
-            "adv. 最好地"
+            "n. người tốt nhất, vật tốt nhất; trạng thái tốt nhất",
+            "adj. tốt nhất",
+            "vt. đánh bại, vượt qua",
+            "adv. tốt nhất, một cách tốt nhất"
         ],
         "usphone": "[best]",
         "ukphone": "[best]"
@@ -2582,7 +2582,7 @@
     {
         "name": "eve",
         "trans": [
-            "n. 前夕；傍晚；重大事件关头"
+            "n. đêm trước, buổi tối, thời điểm trọng đại"
         ],
         "usphone": "[iːv]",
         "ukphone": "[iːv]"
@@ -2590,7 +2590,7 @@
     {
         "name": "Sunday",
         "trans": [
-            "n. 星期日；礼拜日"
+            "n. Chủ nhật; ngày lễ"
         ],
         "usphone": "[ˈsʌndeɪ]",
         "ukphone": "[ˈsʌndeɪ]"
@@ -2606,8 +2606,8 @@
     {
         "name": "midnight",
         "trans": [
-            "n. 午夜，半夜12点钟",
-            "adj. 半夜的；漆黑的"
+            "n. nửa đêm, 12 giờ đêm",
+            "adj. nửa đêm; tối đen"
         ],
         "usphone": "[ˈmɪdnaɪt]",
         "ukphone": "[ˈmɪdnaɪt]"
@@ -2657,11 +2657,11 @@
     {
         "name": "second",
         "trans": [
-            "num. 第二",
-            "n. 秒；第二名；瞬间；二等品",
-            "adj. 第二的；次要的；附加的",
-            "vt. 支持",
-            "adv. 第二；其次；居第二位"
+            "num. thứ hai",
+            "n. giây; người về nhì; khoảnh khắc; hàng loại hai",
+            "adj. thứ hai; thứ yếu; phụ thêm",
+            "vt. ủng hộ, hỗ trợ",
+            "adv. thứ hai; thứ đến; ở vị trí thứ hai"
         ],
         "usphone": "[ˈsekənd; sɪˈkɑːnd]",
         "ukphone": "[ˈsekənd]"
@@ -2687,8 +2687,8 @@
         "name": "fourth",
         "trans": [
             "num. thứ tư",
-            "n. 第四，月的第四日；四分之一",
-            "adj. 第四的，第四个的；四分之一的"
+            "n. số bốn, ngày mùng bốn; một phần tư",
+            "adj. thứ tư; một phần tư"
         ],
         "usphone": "[fɔːrθ]",
         "ukphone": "[fɔːθ]"
@@ -2697,8 +2697,8 @@
         "name": "fifth",
         "trans": [
             "num. thứ năm",
-            "n. 第五；五分之一",
-            "adj. 第五的；五分之一的"
+            "n. số năm; một phần năm",
+            "adj. thứ năm; một phần năm"
         ],
         "usphone": "[fɪfθ]",
         "ukphone": "[fɪfθ]"
@@ -2706,7 +2706,7 @@
     {
         "name": "May",
         "trans": [
-            "aux. 可以，能够；可能，也许；祝，愿；会，能"
+            "aux. có thể, có khả năng; có lẽ, có thể; chúc, nguyện; sẽ, có thể"
         ],
         "usphone": "[meɪ]",
         "ukphone": "[meɪ]"
@@ -2714,8 +2714,8 @@
     {
         "name": "sixth",
         "trans": [
-            "n. 月的第六日，（与the连用的）第六个；六分之一",
-            "adj. （与 the 连用）第六的，第六个的；六分之一的"
+            "n. ngày mùng sáu, người/vật thứ sáu (dùng với the); một phần sáu",
+            "adj. thứ sáu; một phần sáu"
         ],
         "usphone": "[sɪksθ]",
         "ukphone": "[sɪksθ]"
@@ -2723,8 +2723,8 @@
     {
         "name": "August",
         "trans": [
-            "n. 八月（简写为Aug）",
-            "adj. 威严的；令人敬畏的"
+            "n. tháng Tám (viết tắt là Aug)",
+            "adj. uy nghiêm; đáng kính sợ"
         ],
         "usphone": "[ˈɔːɡəst]",
         "ukphone": "[ˈɔːɡəst]"
@@ -2758,9 +2758,9 @@
     {
         "name": "seventh",
         "trans": [
-            "n. 第七；七分之一",
-            "adj. 第七的；七分之一的",
-            "adv. 居第七位地"
+            "n. thứ bảy; một phần bảy",
+            "adj. thứ bảy; một phần bảy",
+            "adv. ở vị trí thứ bảy"
         ],
         "usphone": "[ˈsevnθ]",
         "ukphone": "[ˈsev(ə)nθ]"
@@ -2776,8 +2776,8 @@
     {
         "name": "eighth",
         "trans": [
-            "num. 第八；八分之一",
-            "adj. 第八的；八分之一的"
+            "num. thứ tám; một phần tám",
+            "adj. thứ tám; một phần tám"
         ],
         "usphone": "[eɪtθ]",
         "ukphone": "[eɪtθ]"
@@ -2786,8 +2786,8 @@
         "name": "ninth",
         "trans": [
             "num. thứ chín",
-            "adj. 第九的；九分之一的",
-            "n. 九分之一"
+            "adj. thứ chín; một phần chín",
+            "n. một phần chín"
         ],
         "usphone": "[naɪnθ]",
         "ukphone": "[naɪnθ]"
@@ -2795,8 +2795,8 @@
     {
         "name": "tenth",
         "trans": [
-            "num. 第十；十分之一",
-            "adj. 十分之一的；第十个的"
+            "num. thứ mười; một phần mười",
+            "adj. một phần mười; thứ mười"
         ],
         "usphone": "[tenθ]",
         "ukphone": "[tenθ]"
@@ -2812,9 +2812,9 @@
     {
         "name": "eleventh",
         "trans": [
-            "num. 第十一；十一分之一",
-            "n. 第十一；十一分之一",
-            "adj. 第十一的；十一分之一的"
+            "num. thứ mười một; một phần mười một",
+            "n. số mười một; một phần mười một",
+            "adj. thứ mười một; một phần mười một"
         ],
         "usphone": "[ɪˈlevnθ]",
         "ukphone": "[ɪˈlev(ə)nθ]"
@@ -2822,8 +2822,8 @@
     {
         "name": "twelfth",
         "trans": [
-            "n. 第十二；月的第十二日",
-            "adj. 第十二的，第十二个的；十二分之一的"
+            "n. người/vật thứ mười hai; ngày mười hai của tháng",
+            "adj. thứ mười hai; một phần mười hai"
         ],
         "usphone": "[twelfθ]",
         "ukphone": "[twelfθ]"
@@ -2852,7 +2852,7 @@
         "name": "national",
         "trans": [
             "(adj.) của quốc gia; quốc dân; dân tộc; quốc lập",
-            "n. 国民"
+            "n. công dân, quốc dân"
         ],
         "usphone": "[ˈnæʃnəl]",
         "ukphone": "[ˈnæʃ(ə)nəl]"
@@ -2860,8 +2860,8 @@
     {
         "name": "festival",
         "trans": [
-            "n. 节日；庆祝，纪念活动；欢乐",
-            "adj. 节日的，喜庆的；快乐的"
+            "n. lễ hội; lễ kỷ niệm, hoạt động chúc mừng; niềm vui",
+            "adj. thuộc lễ hội, vui tươi; vui vẻ"
         ],
         "usphone": "[ˈfestɪvl]",
         "ukphone": "[ˈfestɪv(ə)l]"
@@ -2877,7 +2877,7 @@
     {
         "name": "during",
         "trans": [
-            "prep. 在…的时候，在…的期间"
+            "prep. trong khi...; trong suốt..."
         ],
         "usphone": "[ˈdʊrɪŋ]",
         "ukphone": "[ˈdjʊərɪŋ]"
@@ -2894,8 +2894,8 @@
         "name": "climb",
         "trans": [
             "n. bò; trèo",
-            "vi. 爬；攀登；上升",
-            "vt. 爬；攀登；上升"
+            "vi. bò, leo; leo lên; tăng lên",
+            "vt. bò, trèo; leo; làm tăng"
         ],
         "usphone": "[klaɪm]",
         "ukphone": "[klaɪm]"
@@ -2903,8 +2903,8 @@
     {
         "name": "excited",
         "trans": [
-            "v. 激动；唤起（excite的过去分词）",
-            "adj. 兴奋的；激动的；活跃的"
+            "v. kích động; gợi lên (quá khứ phân từ của excite)",
+            "adj. hào hứng; kích động; sôi nổi"
         ],
         "usphone": "[ɪkˈsaɪtɪd]",
         "ukphone": "[ɪkˈsaɪtɪd]"
@@ -2938,9 +2938,9 @@
     {
         "name": "hope",
         "trans": [
-            "n. 希望；期望；信心",
-            "vi. 希望；期待；信赖",
-            "vt. 希望；期望"
+            "n. hy vọng; mong đợi; lòng tin",
+            "vi. hy vọng; mong đợi; tin tưởng",
+            "vt. hy vọng; mong đợi"
         ],
         "usphone": "[hoʊp]",
         "ukphone": "[həʊp]"
@@ -2948,8 +2948,8 @@
     {
         "name": "yours",
         "trans": [
-            "pron. 你（们）的东西；你的责任[义务]；你的家属；来信，尊函",
-            "adj. 你（们）的（东西）；信末署名前用语"
+            "pron. đồ của bạn; trách nhiệm [nghĩa vụ] của bạn; gia quyến của bạn; thư của bạn",
+            "adj. của bạn (các bạn); lời kết thư trước chữ ký"
         ],
         "usphone": "[jərz; jɔːrz; jʊrz]",
         "ukphone": "[jɔːz]"
@@ -2965,9 +2965,9 @@
     {
         "name": "north",
         "trans": [
-            "n. 北，北方",
-            "adj. 北方的；朝北的",
-            "adv. 在北方，向北方"
+            "n. bắc, phương bắc",
+            "adj. thuộc phương bắc; hướng bắc",
+            "adv. ở phía bắc, về hướng bắc"
         ],
         "usphone": "[nɔːrθ]",
         "ukphone": "[nɔːθ]"
@@ -2975,9 +2975,9 @@
     {
         "name": "south",
         "trans": [
-            "n. 南方，南边；南部",
-            "adj. 南的，南方的",
-            "adv. 在南方，向南方"
+            "n. phương nam, phía nam; miền nam",
+            "adj. thuộc phía nam, ở phía nam",
+            "adv. ở phía nam, về phía nam"
         ],
         "usphone": "[saʊθ]",
         "ukphone": "[saʊθ]"
@@ -2985,8 +2985,8 @@
     {
         "name": "east",
         "trans": [
-            "n. 东方；东风；东方国家",
-            "adj. 东方的；向东的；从东方来的",
+            "n. phương Đông; gió đông; các nước phương Đông",
+            "adj. thuộc phương Đông; hướng đông; từ phương Đông đến",
             "adv. hướng đông, về phía đông"
         ],
         "usphone": "[iːst]",
@@ -2995,9 +2995,9 @@
     {
         "name": "west",
         "trans": [
-            "n. 西；西方；西部",
-            "adj. 西方的；朝西的",
-            "adv. 在西方；向西方；自西方"
+            "n. hướng tây; phương Tây; miền tây",
+            "adj. thuộc phương Tây; hướng tây",
+            "adv. ở phương Tây; về phía tây; từ phương Tây"
         ],
         "usphone": "[west]",
         "ukphone": "[west]"
@@ -3061,7 +3061,7 @@
     {
         "name": "soon",
         "trans": [
-            "adv. 快；不久，一会儿；立刻；宁愿"
+            "adv. sớm; chẳng bao lâu; ngay lập tức; thà rằng"
         ],
         "usphone": "[suːn]",
         "ukphone": "[suːn]"
@@ -3078,7 +3078,7 @@
     {
         "name": "everyone",
         "trans": [
-            "n. 每个人",
+            "n. mọi người",
             "pron. mọi người; tất cả mọi người"
         ],
         "usphone": "[ˈevriwʌn]",
@@ -3087,8 +3087,8 @@
     {
         "name": "hey",
         "trans": [
-            "n. 干草（等于hay）",
-            "int. 喂！（引起注意等）；你好！（表示问候）"
+            "n. cỏ khô (=hay)",
+            "int. này! (để gây chú ý); xin chào!"
         ],
         "usphone": "[heɪ]",
         "ukphone": "[heɪ]"
@@ -3096,7 +3096,7 @@
     {
         "name": "Sydney",
         "trans": [
-            "n. 悉尼（澳大利亚港市）"
+            "n. Sydney (thành phố cảng Úc)"
         ],
         "usphone": "[ˈsɪdni]",
         "ukphone": "[ˈsɪdni]"
@@ -3138,7 +3138,7 @@
     {
         "name": "United Kingdom",
         "trans": [
-            "n. 英国"
+            "n. nước Anh"
         ]
     },
     {
@@ -3184,8 +3184,8 @@
     {
         "name": "else",
         "trans": [
-            "adj. 别的；其他的",
-            "adv. 其他；否则；另外"
+            "adj. khác, khác nữa",
+            "adv. khác; nếu không; ngoài ra"
         ],
         "usphone": "[els]",
         "ukphone": "[els]"
@@ -3194,8 +3194,8 @@
         "name": "flag",
         "trans": [
             "n. cờ; lá cờ",
-            "vt. 标记；插旗",
-            "vi. 标记；衰退；枯萎"
+            "vt. đánh dấu; cắm cờ",
+            "vi. đánh dấu; suy yếu; héo úa"
         ],
         "usphone": "[flæɡ]",
         "ukphone": "[flæɡ]"
@@ -3217,8 +3217,8 @@
     {
         "name": "lovely",
         "trans": [
-            "adj. 可爱的；令人愉快的；爱恋的；秀丽的，优美的",
-            "n. 美女；可爱的东西"
+            "adj. đáng yêu; dễ chịu; đang yêu; xinh đẹp, ưu mỹ",
+            "n. người đẹp; vật đáng yêu"
         ],
         "usphone": "[ˈlʌvli]",
         "ukphone": "[ˈlʌvli]"
@@ -3226,8 +3226,8 @@
     {
         "name": "French",
         "trans": [
-            "n. 法国人；法语",
-            "adj. 法国的；法语的；法国人的"
+            "n. người Pháp; tiếng Pháp",
+            "adj. thuộc Pháp; thuộc tiếng Pháp; của người Pháp"
         ],
         "usphone": "[frentʃ]",
         "ukphone": "[frentʃ]"
@@ -3253,7 +3253,7 @@
     {
         "name": "beaver",
         "trans": [
-            "n. 海狸；海狸皮毛"
+            "n. hải ly; lông hải ly"
         ],
         "usphone": "[ˈbiːvər]",
         "ukphone": "[ˈbiːvə(r)]"
@@ -3277,8 +3277,8 @@
     {
         "name": "stripe",
         "trans": [
-            "n. 条纹，斑纹；种类",
-            "vt. 加条纹于…"
+            "n. sọc, vằn; loại",
+            "vt. thêm sọc vằn vào..."
         ],
         "usphone": "[straɪp]",
         "ukphone": "[straɪp]"
@@ -3317,15 +3317,15 @@
     {
         "name": "New York",
         "trans": [
-            "n. 【城】纽约州"
+            "n. bang New York [thành phố]"
         ]
     },
     {
         "name": "same",
         "trans": [
-            "adj. 相同的；同一的；上述的（通常与the连用）；无变化的",
-            "adv. 同样地（通常与the连用）",
-            "pron. 同样的事物或人（通常与the连用）"
+            "adj. giống nhau; cùng một; nêu trên (thường dùng với the); không thay đổi",
+            "adv. tương tự (thường dùng với the)",
+            "pron. vật hoặc người giống nhau (thường dùng với the)"
         ],
         "usphone": "[seɪm]",
         "ukphone": "[seɪm]"
@@ -3333,9 +3333,9 @@
     {
         "name": "as",
         "trans": [
-            "conj. 因为；随着；虽然；依照；当…时",
-            "prep. 如同；当作；以…的身份",
-            "adv. 同样地；和…一样的"
+            "conj. vì; cùng với; mặc dù; theo; khi...",
+            "prep. như là; coi như; với tư cách...",
+            "adv. tương tự; giống như..."
         ],
         "usphone": "[əz; æz]",
         "ukphone": "[əz]"
@@ -3349,8 +3349,8 @@
     {
         "name": "tower",
         "trans": [
-            "n. 塔；高楼；堡垒",
-            "vi. 高耸；超越"
+            "n. tháp; nhà cao tầng; pháo đài",
+            "vi. cao vút; vượt trội"
         ],
         "usphone": "[ˈtaʊər]",
         "ukphone": "[ˈtaʊə(r)]"
@@ -3388,7 +3388,7 @@
     {
         "name": "Singapore",
         "trans": [
-            "n. 新加坡"
+            "n. Singapore"
         ],
         "usphone": "[ˈsɪŋəpɔːr]",
         "ukphone": "[ˌsɪŋəˈpɔː(r)]"
@@ -3434,7 +3434,7 @@
     {
         "name": "How are you?",
         "trans": [
-            " 你身体好吗？"
+            "bạn có khỏe không?"
         ],
         "usphone": "[haʊ ɑr ju]",
         "ukphone": "[haʊ ɑr ju]"
@@ -3460,7 +3460,7 @@
     {
         "name": "over there",
         "trans": [
-            "na. 在那边；〔美国〕在欧洲；〔大战用语〕在战地"
+            "na. ở bên đó; [Mỹ] ở châu Âu; [tiếng lóng thời chiến] ở chiến trường"
         ],
         "usphone": "[ˈəʊvər ðer]",
         "ukphone": "['əʊvə(r) ðeə(r)]"
@@ -3498,7 +3498,7 @@
     {
         "name": "have fun",
         "trans": [
-            "na. 作乐"
+            "na. vui chơi, giải trí"
         ],
         "usphone": "[hæv fʌn]",
         "ukphone": "[hæv fʌn]"
@@ -3520,13 +3520,13 @@
     {
         "name": "Here you are.",
         "trans": [
-            "[口语]；我们(或你，你们)到了!；这就是我们(或你，你们)所要的东西。"
+            "[khẩu ngữ]; chúng ta (hoặc bạn, các bạn) đến rồi!; đây chính là thứ chúng ta (hoặc bạn, các bạn) muốn."
         ]
     },
     {
         "name": "You're welcome!",
         "trans": [
-            " 不客气；别客气；不用谢"
+            "không có chi; đừng khách sáo; không cần cảm ơn"
         ]
     },
     {
@@ -3538,7 +3538,7 @@
     {
         "name": "What about ...?",
         "trans": [
-            "un. 不；…怎样"
+            "un. không; ...như thế nào"
         ]
     },
     {
@@ -3562,13 +3562,13 @@
     {
         "name": "How about ...?",
         "trans": [
-            " 怎么样；如何；怎麽样"
+            "như thế nào; ra sao; thế nào"
         ]
     },
     {
         "name": "look at ...",
         "trans": [
-            "na. 看；考虑"
+            "na. nhìn; cân nhắc"
         ]
     },
     {
@@ -3622,7 +3622,7 @@
     {
         "name": "put on",
         "trans": [
-            "na. 假话"
+            "na. lời nói dối"
         ],
         "usphone": "[pʊt ɑːn]",
         "ukphone": "[pʊt ɒn]"
@@ -3654,7 +3654,7 @@
     {
         "name": "go shopping",
         "trans": [
-            "na. 去买东西"
+            "na. đi mua đồ"
         ]
     },
     {
@@ -3666,13 +3666,13 @@
     {
         "name": "a pair of",
         "trans": [
-            "det. 一双"
+            "det. một đôi"
         ]
     },
     {
         "name": "play with",
         "trans": [
-            "na. 玩弄(火等)；以…自娱"
+            "na. nghịch (lửa...); tự tiêu khiển"
         ],
         "usphone": "[pleɪ wɪð]",
         "ukphone": "[pleɪ wɪð]"
@@ -3680,7 +3680,7 @@
     {
         "name": "listen to",
         "trans": [
-            "v. 听"
+            "v. nghe"
         ],
         "usphone": "[ˈlɪsn tu]",
         "ukphone": "[ˈlɪsn tʊ]"
@@ -3724,7 +3724,7 @@
     {
         "name": "a bit",
         "trans": [
-            "na. 有点儿〔作副词用〕"
+            "na. hơi một chút [dùng như phó từ]"
         ]
     },
     {
@@ -3834,7 +3834,7 @@
     {
         "name": "have a rest",
         "trans": [
-            "v. 休息一下"
+            "v. nghỉ một chút"
         ],
         "usphone": "[hæv ərest]",
         "ukphone": "[hæv ə rest]"
@@ -4027,7 +4027,7 @@
     {
         "name": "take down",
         "trans": [
-            "na. 扯下；卷起；记下；卸下"
+            "na. xé xuống; cuộn lên; ghi lại; dỡ xuống"
         ],
         "usphone": "[teɪk daʊn]",
         "ukphone": "['teikdaun]"
@@ -4053,7 +4053,7 @@
     {
         "name": "watch TV",
         "trans": [
-            "v. 看电视"
+            "v. xem ti-vi"
         ]
     },
     {
@@ -4119,7 +4119,7 @@
     {
         "name": "in front of ...",
         "trans": [
-            "na. 在…的前面"
+            "na. ở phía trước của"
         ]
     },
     {
@@ -4137,7 +4137,7 @@
     {
         "name": "He is ...",
         "trans": [
-            " 他是；他比我大两岁；通常为形容词"
+            "anh ấy là; anh ấy hơn tôi hai tuổi; thường dùng như tính từ"
         ]
     },
     {
@@ -4191,7 +4191,7 @@
     {
         "name": "lots of ...",
         "trans": [
-            "adj. 许多；很多"
+            "adj. nhiều; rất nhiều"
         ]
     },
     {
@@ -4253,14 +4253,14 @@
     {
         "name": "get off",
         "trans": [
-            "na. 下车；脱下(衣服等)；脱(衣)；下(马)"
+            "na. xuống xe; cởi (quần áo...); cởi (áo); xuống (ngựa)"
         ]
     },
     {
         "name": "get lost",
         "trans": [
-            "int. 〈口〉滚开；别烦我",
-            "v. 迷路；迷失；陷入…而忽略了…"
+            "int. cút đi; đừng làm phiền tôi [khẩu ngữ]",
+            "v. lạc đường; lạc lối; mải mê... mà bỏ quên..."
         ]
     },
     {
@@ -4272,7 +4272,7 @@
     {
         "name": "look for",
         "trans": [
-            "v. 寻找；探索；渴望；盼望"
+            "v. tìm kiếm; khám phá; khao khát; mong đợi"
         ],
         "usphone": "[ˈlʊk fɔːr]",
         "ukphone": "[ˈlʊk fɔː(r)]"
@@ -4298,7 +4298,7 @@
     {
         "name": "next to",
         "trans": [
-            "prep. 紧邻；在…近旁；仅次于；紧接"
+            "prep. sát ngay; ở gần...; chỉ sau; ngay sau"
         ]
     },
     {
@@ -4328,7 +4328,7 @@
     {
         "name": "of course",
         "trans": [
-            "na. 当然"
+            "na. đương nhiên"
         ]
     },
     {
@@ -4340,13 +4340,13 @@
     {
         "name": "Come on!",
         "trans": [
-            "na. (演员)出台；进行(很好)；(暴风雨等)起；(病,苦痛等)加深"
+            "na. (diễn viên) ra sân khấu; tiến hành (tốt); (bão...) nổi lên; (bệnh, đau đớn...) trầm trọng thêm"
         ]
     },
     {
         "name": "learn about",
         "trans": [
-            "v. 得知关于；学习关于"
+            "v. biết về; học về"
         ]
     },
     {
@@ -4370,19 +4370,19 @@
     {
         "name": "go swimming",
         "trans": [
-            "na. 去游泳"
+            "na. đi bơi"
         ]
     },
     {
         "name": "have a good time",
         "trans": [
-            "na. 过得愉快；很愉快"
+            "na. trải qua vui vẻ; rất vui"
         ]
     },
     {
         "name": "go skating",
         "trans": [
-            " 去滑冰；去溜冰；滑雪"
+            "đi trượt băng; trượt patin; trượt tuyết"
         ]
     },
     {
@@ -4406,7 +4406,7 @@
     {
         "name": "Happy New Year!",
         "trans": [
-            "新年快乐!恭贺新喜!"
+            "chúc mừng năm mới! cung hỉ tân xuân!"
         ]
     },
     {
@@ -4418,7 +4418,7 @@
     {
         "name": "Sports Day",
         "trans": [
-            "n. （学校的）运动会"
+            "n. đại hội thể thao (của trường)"
         ]
     },
     {
@@ -4436,7 +4436,7 @@
     {
         "name": "Children's Day",
         "trans": [
-            "na. 儿童节"
+            "na. ngày thiếu nhi"
         ]
     },
     {
@@ -4448,13 +4448,13 @@
     {
         "name": "National Day",
         "trans": [
-            "na. 国庆日"
+            "na. ngày quốc khánh"
         ]
     },
     {
         "name": "the Spring Festival",
         "trans": [
-            "un. 春节"
+            "un. Tết Nguyên Đán, Tết âm lịch"
         ]
     },
     {
@@ -4496,7 +4496,7 @@
     {
         "name": "a lot of",
         "trans": [
-            "det. 许多"
+            "det. nhiều"
         ]
     },
     {
@@ -4526,7 +4526,7 @@
     {
         "name": "all over the world",
         "trans": [
-            "adv. 遍及全世界"
+            "adv. khắp thế giới"
         ]
     },
     {

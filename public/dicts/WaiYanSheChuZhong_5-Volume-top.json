@@ -2,7 +2,7 @@
     {
         "name": "for",
         "trans": [
-            "prep. 为，为了；因为；给；对于；至于；适合于",
+            "prep. vì, để; bởi vì; cho; đối với; về; thích hợp với",
             "conj. bởi vì"
         ],
         "usphone": "[fər; fɔːr]",
@@ -28,9 +28,9 @@
     {
         "name": "then",
         "trans": [
-            "conj. 然后，当时",
-            "n. 那时",
-            "adv. 然后；那么；于是；当时；此外"
+            "conj. sau đó, khi đó",
+            "n. lúc đó",
+            "adv. sau đó; vậy thì; thế là; lúc đó; ngoài ra"
         ],
         "usphone": "[ðen]",
         "ukphone": "[ðen]"
@@ -56,9 +56,9 @@
     {
         "name": "let",
         "trans": [
-            "vt. 允许，让；出租；假设；妨碍",
-            "vi. 出租；被承包",
-            "n. 障碍；出租屋"
+            "vt. cho phép; cho thuê; giả định; cản trở",
+            "vi. cho thuê; được thầu",
+            "n. chướng ngại; nhà cho thuê"
         ],
         "usphone": "[let]",
         "ukphone": "[let]"
@@ -66,9 +66,9 @@
     {
         "name": "sell",
         "trans": [
-            "n. 销售；失望；推销术",
-            "vt. 销售；推销；出卖；欺骗",
-            "vi. 卖；出售；受欢迎；有销路"
+            "n. việc bán hàng, sự thất vọng, thuật chào hàng",
+            "vt. bán; chào hàng; bán rẻ; lừa gạt",
+            "vi. bán; được ưa chuộng; bán chạy"
         ],
         "usphone": "[sel]",
         "ukphone": "[sel]"
@@ -84,7 +84,7 @@
     {
         "name": "Halloween",
         "trans": [
-            "n. 万圣节前夕（指十月三十一日夜晚）"
+            "n. đêm Halloween (đêm 31 tháng 10)"
         ],
         "usphone": "[ˌhæloʊˈiːn]",
         "ukphone": "[ˌhæləʊˈiːn]"
@@ -99,9 +99,9 @@
     {
         "name": "give",
         "trans": [
-            "n. 弹性；弯曲；伸展性",
-            "vi. 捐赠；面向；有弹性；气候转暖",
-            "vt. 给；产生；让步；举办；授予"
+            "n. tính đàn hồi, độ uốn, tính co giãn",
+            "vi. quyên tặng; hướng về; co giãn; trời ấm lên",
+            "vt. cho; tạo ra; nhượng bộ; tổ chức; trao tặng"
         ],
         "usphone": "[ɡɪv]",
         "ukphone": "[ɡɪv]"
@@ -109,8 +109,8 @@
     {
         "name": "festival",
         "trans": [
-            "n. 节日；庆祝，纪念活动；欢乐",
-            "adj. 节日的，喜庆的；快乐的"
+            "n. lễ hội; lễ kỷ niệm, hoạt động chúc mừng; niềm vui",
+            "adj. thuộc lễ hội, vui tươi; vui vẻ"
         ],
         "usphone": "[ˈfestɪvl]",
         "ukphone": "[ˈfestɪv(ə)l]"
@@ -136,10 +136,10 @@
     {
         "name": "neighbour",
         "trans": [
-            "n. n. 邻居;同胞；仁慈的人",
-            "vt. 邻接",
-            "vi. 住在邻近；毗邻；友善，和睦",
-            "adj. 邻居的；邻近的"
+            "n. hàng xóm; đồng bào; người nhân hậu",
+            "vt. tiếp giáp, kề bên",
+            "vi. sống gần kề; giáp ranh; thân thiện, hòa thuận",
+            "adj. của hàng xóm; gần kề"
         ],
         "usphone": "[ˈneɪbər]",
         "ukphone": "[ˈneɪbə(r)]"
@@ -198,7 +198,7 @@
     {
         "name": "tidy up",
         "trans": [
-            "v. 整理干净"
+            "v. dọn dẹp, sắp xếp gọn gàng"
         ]
     },
     {
@@ -212,7 +212,7 @@
     {
         "name": "from",
         "trans": [
-            "prep. 来自，从；由于；今后"
+            "prep. đến từ, từ; do; kể từ nay"
         ],
         "usphone": "[frəm; frʌm; frɑːm]",
         "ukphone": "[frəm; frɒm]"
@@ -220,8 +220,8 @@
     {
         "name": "to",
         "trans": [
-            "prep. 到；向；（表示时间、方向）朝…方向",
-            "adv. 向前；（门等）关上"
+            "prep. đến; về phía; (chỉ thời gian, phương hướng) hướng về...",
+            "adv. về phía trước; (cửa...) đóng lại"
         ],
         "usphone": "[tə; tu; tuː]",
         "ukphone": "[tə]"
@@ -229,9 +229,9 @@
     {
         "name": "reply",
         "trans": [
-            "n. 回答；[法] 答辩",
+            "n. câu trả lời; [luật] lời biện hộ",
             "vt. trả lời; phản hồi",
-            "vi. 回答；[法] 答辩；回击"
+            "vi. trả lời; [luật] biện hộ; phản kích"
         ],
         "usphone": "[rɪˈplaɪ]",
         "ukphone": "[rɪˈplaɪ]"
@@ -240,8 +240,8 @@
         "name": "mine",
         "trans": [
             "n. quặng, mỏ; mỏ khoáng; quân địa",
-            "vt. 开采，采掘；在…布雷",
-            "vi. 开矿，采矿；埋设地雷",
+            "vt. khai thác, đào; đặt mìn ở...",
+            "vi. khai mỏ, đào mỏ; gài mìn",
             "pron. của tôi, của ta"
         ],
         "usphone": "[maɪn]",
@@ -250,7 +250,7 @@
     {
         "name": "whose",
         "trans": [
-            "pron. 谁的（疑问代词）"
+            "pron. của ai (đại từ nghi vấn)"
         ],
         "usphone": "[huːz]",
         "ukphone": "[huːz]"
@@ -258,8 +258,8 @@
     {
         "name": "yours",
         "trans": [
-            "pron. 你（们）的东西；你的责任[义务]；你的家属；来信，尊函",
-            "adj. 你（们）的（东西）；信末署名前用语"
+            "pron. đồ của bạn; trách nhiệm [nghĩa vụ] của bạn; gia quyến của bạn; thư của bạn",
+            "adj. của bạn (các bạn); lời kết thư trước chữ ký"
         ],
         "usphone": "[jərz; jɔːrz; jʊrz]",
         "ukphone": "[jɔːz]"
@@ -267,7 +267,7 @@
     {
         "name": "hers",
         "trans": [
-            "pron. 她的（所有格）"
+            "pron. của cô ấy, của bà ấy (sở hữu)"
         ],
         "usphone": "[hɜːrz; ɜːrz]",
         "ukphone": "[hɜːz]"
@@ -275,10 +275,10 @@
     {
         "name": "both",
         "trans": [
-            "conj. 既…且…",
-            "adj. 两个的；两者的",
-            "pron. 双方都；两者都",
-            "adv. 并；又；两者皆"
+            "conj. vừa... vừa...",
+            "adj. của hai, của cả hai",
+            "pron. cả hai; đôi bên đều",
+            "adv. cùng; lại; cả hai đều"
         ],
         "usphone": "[boʊθ]",
         "ukphone": "[bəʊθ]"
@@ -286,10 +286,10 @@
     {
         "name": "wet",
         "trans": [
-            "n. 雨天；湿气",
-            "adj. [气象][物] 潮湿的；有雨的",
-            "vt. 弄湿",
-            "vi. 变湿"
+            "n. ngày mưa; hơi ẩm",
+            "adj. [khí tượng][vật lý] ẩm ướt; có mưa",
+            "vt. làm ướt",
+            "vi. trở nên ẩm ướt"
         ],
         "usphone": "[wet]",
         "ukphone": "[wet]"
@@ -362,7 +362,7 @@
     {
         "name": "got",
         "trans": [
-            "v. 得到，明白（get的过去式和过去分词）"
+            "v. được, hiểu (quá khứ và phân từ của get)"
         ],
         "usphone": "[ɡɑːt]",
         "ukphone": "[ɡɒt]"
@@ -371,8 +371,8 @@
         "name": "eighty",
         "trans": [
             "num. tám mươi",
-            "n. 八十；八十岁；八十年代",
-            "adj. 八十的，八十个的；八十岁的"
+            "n. số tám mươi; tuổi tám mươi; thập niên tám mươi",
+            "adj. thứ tám mươi, tám mươi cái; tám mươi tuổi"
         ],
         "usphone": "[ˈeɪti]",
         "ukphone": "[ˈeɪti]"
@@ -400,9 +400,9 @@
     {
         "name": "seventy",
         "trans": [
-            "n. 七十；七十个；七十岁；七十年代",
+            "n. số bảy mươi; bảy mươi cái; tuổi bảy mươi; thập niên bảy mươi",
             "num. bảy mươi",
-            "adj. 七十的；七十个的；七十岁的"
+            "adj. thuộc bảy mươi; bảy mươi cái; bảy mươi tuổi"
         ],
         "usphone": "[ˈsev(ə)nti]",
         "ukphone": "[ˈsev(ə)nti]"
@@ -410,7 +410,7 @@
     {
         "name": "sixty",
         "trans": [
-            "num. 六十；六十个"
+            "num. sáu mươi; sáu mươi cái"
         ],
         "usphone": "[ˈsɪksti]",
         "ukphone": "[ˈsɪksti]"
@@ -436,7 +436,7 @@
     {
         "name": "presenter",
         "trans": [
-            "n. 提出者；推荐者；赠送者；任命者；主持人"
+            "n. người đề xuất; người giới thiệu; người tặng; người bổ nhiệm; người dẫn chương trình"
         ],
         "usphone": "[prɪˈzentər]",
         "ukphone": "[prɪˈzentə(r)]"
@@ -455,8 +455,8 @@
     {
         "name": "could",
         "trans": [
-            "aux. 能够",
-            "v. 能（can的过去式）"
+            "aux. có thể, có khả năng",
+            "v. có thể (quá khứ của can)"
         ],
         "usphone": "[kəd; kʊd]",
         "ukphone": "[kəd]"
@@ -464,8 +464,8 @@
     {
         "name": "speak",
         "trans": [
-            "vi. 说话；演讲；表明；陈述",
-            "vt. 讲话；发言；讲演"
+            "vi. nói chuyện; diễn thuyết; bày tỏ; trình bày",
+            "vt. nói chuyện; phát biểu; diễn thuyết"
         ],
         "usphone": "[spiːk]",
         "ukphone": "[spiːk]"
@@ -525,8 +525,8 @@
     {
         "name": "around",
         "trans": [
-            "prep. 四处；在…周围",
-            "adv. 大约；到处；在附近"
+            "prep. khắp nơi, ở quanh, xung quanh",
+            "adv. khoảng, chừng; khắp nơi; ở gần"
         ],
         "usphone": "[əˈraʊnd]",
         "ukphone": "[əˈraʊnd]"
@@ -535,8 +535,8 @@
         "name": "start",
         "trans": [
             "n. bắt đầu; điểm bắt đầu",
-            "vt. 开始；启动",
-            "vi. 出发"
+            "vt. bắt đầu, khởi động",
+            "vi. xuất phát; khởi hành, lên đường"
         ],
         "usphone": "[stɑːrt]",
         "ukphone": "[stɑːt]"
@@ -564,10 +564,10 @@
     {
         "name": "past",
         "trans": [
-            "n. 过去；往事",
-            "prep. 越过；晚于",
-            "adj. 过去的；结束的",
-            "adv. 过；经过"
+            "n. quá khứ, chuyện cũ",
+            "prep. vượt qua; muộn hơn",
+            "adj. quá khứ; đã kết thúc",
+            "adv. qua; đi qua, trải qua"
         ],
         "usphone": "[pæst]",
         "ukphone": "[pɑːst]"
@@ -605,9 +605,9 @@
     {
         "name": "wall",
         "trans": [
-            "n. 墙壁，围墙；似墙之物",
-            "adj. 墙壁的",
-            "vt. 用墙围住，围以墙"
+            "n. tường, tường bao; vật giống tường",
+            "adj. thuộc tường",
+            "vt. bao quanh bằng tường"
         ],
         "usphone": "[wɔːl]",
         "ukphone": "[wɔːl]"
@@ -615,7 +615,7 @@
     {
         "name": "have fun",
         "trans": [
-            "na. 作乐"
+            "na. vui chơi, giải trí"
         ],
         "usphone": "[hæv fʌn]",
         "ukphone": "[hæv fʌn]"
@@ -634,11 +634,11 @@
     {
         "name": "nothing",
         "trans": [
-            "neg. 没什么；毫不",
-            "n. 无；零；不关紧要之事",
-            "adv. 毫不；决不",
-            "pron. 无事；无物",
-            "int. 什么也没有"
+            "neg. không có gì; không chút nào",
+            "n. không có gì; số không; việc không quan trọng",
+            "adv. không chút nào; quyết không",
+            "pron. không có việc gì; không có vật gì",
+            "int. không có gì cả"
         ],
         "usphone": "[ˈnʌθɪŋ]",
         "ukphone": "[ˈnʌθɪŋ]"
@@ -646,10 +646,10 @@
     {
         "name": "think",
         "trans": [
-            "n. 想；想法",
-            "adj. 思想的",
-            "vi. 想；认为",
-            "vt. 想；认为；想起；想像；打算"
+            "n. ý nghĩ; ý tưởng",
+            "adj. thuộc tư tưởng, thuộc ý nghĩ",
+            "vi. nghĩ; cho rằng",
+            "vt. nghĩ; cho rằng; nhớ lại; tưởng tượng; định"
         ],
         "usphone": "[θɪŋk]",
         "ukphone": "[θɪŋk]"
@@ -665,7 +665,7 @@
     {
         "name": "should",
         "trans": [
-            "aux. 应该；就；可能；将要"
+            "aux. nên; phải; có thể; sẽ"
         ],
         "usphone": "[ʃəd; ʃʊd]",
         "ukphone": "[ʃəd; ʃʊd]"
@@ -691,7 +691,7 @@
     {
         "name": "take down",
         "trans": [
-            "na. 扯下；卷起；记下；卸下"
+            "na. xé xuống; cuộn lên; ghi lại; dỡ xuống"
         ],
         "usphone": "[teɪk daʊn]",
         "ukphone": "['teikdaun]"
@@ -699,10 +699,10 @@
     {
         "name": "clean",
         "trans": [
-            "n. 打扫",
-            "adj. 清洁的，干净的；清白的",
-            "vt. 使干净",
-            "vi. 打扫，清扫",
+            "n. sự quét dọn, dọn dẹp",
+            "adj. sạch sẽ; trong sạch",
+            "vt. làm sạch",
+            "vi. quét dọn, dọn dẹp",
             "adv. hoàn toàn"
         ],
         "usphone": "[kliːn]",

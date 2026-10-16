@@ -42,7 +42,7 @@
     {
         "name": "What about ...?",
         "trans": [
-            "……怎么样？"
+            "...thế nào?, ...ra sao?"
         ],
         "usphone": "wʌt əˈbaʊt",
         "ukphone": "wɒt əˈbaʊt"
@@ -114,7 +114,7 @@
     {
         "name": "visit one's grandparents",
         "trans": [
-            "看望（外）祖父母"
+            "thăm ông bà (nội, ngoại)"
         ],
         "usphone": "ˈvɪzɪt wʌnz ˈɡrænˌpɛrənts",
         "ukphone": "ˈvɪzɪt wʌnz ˈɡrænˌprents"
@@ -122,7 +122,7 @@
     {
         "name": "go to a drawing club",
         "trans": [
-            "去绘画俱乐部"
+            "đi câu lạc bộ vẽ"
         ],
         "usphone": "ɡoʊ tuː ə ˈdrɔɪŋ klʌb",
         "ukphone": "ɡəʊ tuː ə ˈdrɔɪŋ klʌb"
@@ -138,7 +138,7 @@
     {
         "name": "pick fruit",
         "trans": [
-            "采摘水果"
+            "hái trái cây"
         ],
         "usphone": "pɪk frut",
         "ukphone": "pɪk frut"
@@ -146,7 +146,7 @@
     {
         "name": "play computer games",
         "trans": [
-            "玩电脑游戏"
+            "chơi trò chơi máy tính"
         ],
         "usphone": "pleɪ kəmˈpjuːtər ɡeɪmz",
         "ukphone": "pleɪ kəmˈpjuːtə ɡeɪmz"
@@ -162,7 +162,7 @@
     {
         "name": "go to the cinema",
         "trans": [
-            "看电影"
+            "xem phim"
         ],
         "usphone": "ɡoʊ tuː ðə ˈsɪnəmə",
         "ukphone": "ɡəʊ tuː ðə ˈsɪnɪmə"
@@ -170,7 +170,7 @@
     {
         "name": "on the weekend",
         "trans": [
-            "在周末"
+            "vào cuối tuần"
         ],
         "usphone": "ɒn ðə ˈwiˌkɛnd",
         "ukphone": "ɒn ðə ˈwiːkˌɛnd"
@@ -194,7 +194,7 @@
     {
         "name": "step",
         "trans": [
-            "踏；踩"
+            "giẫm; đạp"
         ],
         "usphone": "stɛp",
         "ukphone": "stɛp"
@@ -202,7 +202,7 @@
     {
         "name": "paint",
         "trans": [
-            "颜料"
+            "thuốc màu, màu vẽ"
         ],
         "usphone": "peɪnt",
         "ukphone": "peɪnt"
@@ -210,7 +210,7 @@
     {
         "name": "evening",
         "trans": [
-            "傍晚；黄昏"
+            "chiều tối; hoàng hôn"
         ],
         "usphone": "ˈiːvnɪŋ",
         "ukphone": "ˈiːvnɪŋ"
@@ -242,7 +242,7 @@
     {
         "name": "poor",
         "trans": [
-            "可怜的；贫穷的"
+            "đáng thương; nghèo khổ"
         ],
         "usphone": "pʊr",
         "ukphone": "pʊər"
@@ -258,7 +258,7 @@
     {
         "name": "so",
         "trans": [
-            "那么"
+            "vậy thì, như vậy"
         ],
         "usphone": "soʊ",
         "ukphone": "səʊ"
@@ -282,7 +282,7 @@
     {
         "name": "day",
         "trans": [
-            "白天"
+            "ban ngày"
         ],
         "usphone": "deɪ",
         "ukphone": "deɪ"
@@ -298,7 +298,7 @@
     {
         "name": "by bus",
         "trans": [
-            "乘公交车"
+            "đi xe buýt"
         ],
         "usphone": "baɪ bʌs",
         "ukphone": "baɪ bʌs"
@@ -306,7 +306,7 @@
     {
         "name": "by boat",
         "trans": [
-            "乘小船"
+            "đi thuyền nhỏ"
         ],
         "usphone": "baɪ boʊt",
         "ukphone": "baɪ bəʊt"
@@ -314,7 +314,7 @@
     {
         "name": "by ship",
         "trans": [
-            "乘轮船"
+            "đi tàu thủy"
         ],
         "usphone": "baɪ ʃɪp",
         "ukphone": "baɪ ʃɪp"
@@ -322,7 +322,7 @@
     {
         "name": "by car",
         "trans": [
-            "乘小汽车"
+            "đi ô tô con"
         ],
         "usphone": "baɪ kɑr",
         "ukphone": "baɪ kɑːr"
@@ -330,7 +330,7 @@
     {
         "name": "by taxi",
         "trans": [
-            "乘出租车"
+            "đi taxi"
         ],
         "usphone": "baɪ ˈtæksi",
         "ukphone": "baɪ ˈtæksi"
@@ -354,7 +354,7 @@
     {
         "name": "by school bus",
         "trans": [
-            "乘校车"
+            "đi xe buýt trường"
         ],
         "usphone": "baɪ skuːl bʌs",
         "ukphone": "baɪ skuːl bʌs"
@@ -370,7 +370,7 @@
     {
         "name": "by plane",
         "trans": [
-            "乘飞机"
+            "đi máy bay"
         ],
         "usphone": "baɪ pleɪn",
         "ukphone": "baɪ pleɪn"
@@ -378,7 +378,7 @@
     {
         "name": "by train",
         "trans": [
-            "乘火车"
+            "đi tàu hỏa"
         ],
         "usphone": "baɪ treɪn",
         "ukphone": "baɪ treɪn"
@@ -394,7 +394,7 @@
     {
         "name": "meeting place",
         "trans": [
-            "集合地点"
+            "địa điểm tập hợp"
         ],
         "usphone": "ˈmitɪŋ pleɪs",
         "ukphone": "ˈmiːtɪŋ pleɪs"
@@ -426,7 +426,7 @@
     {
         "name": "earth",
         "trans": [
-            "地球；世界"
+            "trái đất; thế giới"
         ],
         "usphone": "ɜrθ",
         "ukphone": "ɜːθ"
@@ -442,7 +442,7 @@
     {
         "name": "theatre",
         "trans": [
-            "剧场"
+            "nhà hát, rạp hát"
         ],
         "usphone": "ˈθiətər",
         "ukphone": "ˈθɪətər"
@@ -522,7 +522,7 @@
     {
         "name": "glue stick",
         "trans": [
-            "胶棒"
+            "keo thỏi, hồ dán thỏi"
         ],
         "usphone": "ɡlu strɪk",
         "ukphone": "ɡlu stɪk"
@@ -562,7 +562,7 @@
     {
         "name": "Information Centre",
         "trans": [
-            "咨询中心"
+            "trung tâm tư vấn"
         ],
         "usphone": "ˌɪnfərˈmeɪʃən ʊn ˈkɛstər",
         "ukphone": "ˌɪnfəˈmeɪʃən ˈsɛntrə"
@@ -570,7 +570,7 @@
     {
         "name": "Excuse me.",
         "trans": [
-            "对不，打扰一下。"
+            "xin lỗi, làm phiền một chút."
         ],
         "usphone": "ɪkˈskjuz mi",
         "ukphone": "ɪkˈskjuːz mi"
@@ -602,7 +602,7 @@
     {
         "name": "ruler",
         "trans": [
-            "尺子"
+            "thước kẻ"
         ],
         "usphone": "ˈruːlər",
         "ukphone": "ˈruːlər"
@@ -634,7 +634,7 @@
     {
         "name": "climb on the window ledge",
         "trans": [
-            "爬窗台"
+            "trèo lên bệ cửa sổ"
         ],
         "usphone": "klaɪm ɑn ðə ˈwɪndoʊ lɛdʒ",
         "ukphone": "klaɪm ɒn ðə ˈwɪndəʊ lɛdʒ"
@@ -650,7 +650,7 @@
     {
         "name": "play with fire",
         "trans": [
-            "玩火"
+            "nghịch lửa"
         ],
         "usphone": "pleɪ wɪð ˈfaɪər",
         "ukphone": "pleɪ wɪð ˈfaɪə"
@@ -658,7 +658,7 @@
     {
         "name": "Be careful!",
         "trans": [
-            "当心！"
+            "cẩn thận!, coi chừng!"
         ],
         "usphone": "bi ˈkɛrfl",
         "ukphone": "bi ˈkeəfʊl"
@@ -666,7 +666,7 @@
     {
         "name": "run down the stairs",
         "trans": [
-            "跑下楼梯"
+            "chạy xuống cầu thang"
         ],
         "usphone": "rʌn daʊn ðə sterz",
         "ukphone": "rʌn daʊn ðə steəz"
@@ -738,7 +738,7 @@
     {
         "name": "play football",
         "trans": [
-            "踢足球"
+            "đá bóng"
         ],
         "usphone": "pleɪ ˈfʊtˌbɔl",
         "ukphone": "pleɪ ˈfʊtbɔːl"
@@ -770,7 +770,7 @@
     {
         "name": "bus driver",
         "trans": [
-            "公交司机"
+            "tài xế xe buýt"
         ],
         "usphone": "bʌs ˈdraɪvər",
         "ukphone": "bʌs ˈdraɪvə"
@@ -786,7 +786,7 @@
     {
         "name": "taxi driver",
         "trans": [
-            "租司机"
+            "thuê tài xế"
         ],
         "usphone": "ˈtæksi ˈdraɪvər",
         "ukphone": "ˈtæksi ˈdraɪvə"
@@ -810,7 +810,7 @@
     {
         "name": "in the future",
         "trans": [
-            "将来"
+            "tương lai, sau này"
         ],
         "usphone": "ɪn ði ˈfjutʃər",
         "ukphone": "ɪn ðə ˈfjuːtʃə"
@@ -858,7 +858,7 @@
     {
         "name": "just",
         "trans": [
-            "只是"
+            "chỉ là, chỉ"
         ],
         "usphone": "dʒʌst",
         "ukphone": "dʒʌst"
@@ -922,7 +922,7 @@
     {
         "name": "teacher",
         "trans": [
-            "老师"
+            "thầy cô, giáo viên"
         ],
         "usphone": "ˈtitʃər",
         "ukphone": "ˈtiːtʃə"

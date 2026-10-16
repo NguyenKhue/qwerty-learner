@@ -74,7 +74,7 @@
     {
         "name": "wall",
         "trans": [
-            "墙壁"
+            "tường"
         ],
         "usphone": "wɔl",
         "ukphone": "wɔːl"
@@ -90,7 +90,7 @@
     {
         "name": "really",
         "trans": [
-            "真的"
+            "thật, thật sự"
         ],
         "usphone": "ˈriəˌli, ˈrili",
         "ukphone": "'rɪəlɪ"
@@ -98,7 +98,7 @@
     {
         "name": "near",
         "trans": [
-            "距离近"
+            "khoảng cách gần"
         ],
         "usphone": "nɪr",
         "ukphone": "nɪə"
@@ -138,7 +138,7 @@
     {
         "name": "maths book",
         "trans": [
-            "数学书"
+            "sách toán"
         ],
         "usphone": "",
         "ukphone": ""
@@ -146,7 +146,7 @@
     {
         "name": "English book",
         "trans": [
-            "英语书"
+            "sách tiếng Anh"
         ],
         "usphone": "",
         "ukphone": ""
@@ -154,7 +154,7 @@
     {
         "name": "Chinese book",
         "trans": [
-            "语文书"
+            "sách ngữ văn"
         ],
         "usphone": "",
         "ukphone": ""
@@ -202,7 +202,7 @@
     {
         "name": "wow",
         "trans": [
-            "呀"
+            "à (trợ từ cảm thán)"
         ],
         "usphone": "wou",
         "ukphone": "waʊ"
@@ -210,7 +210,7 @@
     {
         "name": "lost",
         "trans": [
-            "丢失"
+            "đánh mất"
         ],
         "usphone": "lɔst",
         "ukphone": "lɒst"
@@ -218,7 +218,7 @@
     {
         "name": "so much",
         "trans": [
-            "非常地"
+            "rất, vô cùng"
         ],
         "usphone": "",
         "ukphone": ""
@@ -290,7 +290,7 @@
     {
         "name": "or",
         "trans": [
-            "或者"
+            "hoặc, hay là"
         ],
         "usphone": "ɔr",
         "ukphone": "ɔː"
@@ -298,7 +298,7 @@
     {
         "name": "right",
         "trans": [
-            "对的"
+            "đúng"
         ],
         "usphone": "raɪt",
         "ukphone": "raɪt"
@@ -338,7 +338,7 @@
     {
         "name": "study",
         "trans": [
-            "书房"
+            "phòng sách"
         ],
         "usphone": "'stʌdi",
         "ukphone": "'stʌdɪ"
@@ -474,7 +474,7 @@
     {
         "name": "fork",
         "trans": [
-            "餐叉"
+            "nĩa ăn"
         ],
         "usphone": "fɔrk",
         "ukphone": "fɔːk"
@@ -490,7 +490,7 @@
     {
         "name": "spoon",
         "trans": [
-            "匙,勺子"
+            "thìa, muỗng"
         ],
         "usphone": "spun",
         "ukphone": "spuːn"
@@ -506,7 +506,7 @@
     {
         "name": "ready",
         "trans": [
-            "准备好"
+            "chuẩn bị xong"
         ],
         "usphone": "'rɛdi",
         "ukphone": "'redɪ"
@@ -514,7 +514,7 @@
     {
         "name": "help yourself",
         "trans": [
-            "为（自己）取用"
+            "tự lấy cho (bản thân)"
         ],
         "usphone": "",
         "ukphone": ""
@@ -530,7 +530,7 @@
     {
         "name": "try",
         "trans": [
-            "试"
+            "thử"
         ],
         "usphone": "traɪ",
         "ukphone": "traɪ"
@@ -546,7 +546,7 @@
     {
         "name": "cousin",
         "trans": [
-            "同辈表亲"
+            "anh chị em họ cùng thế hệ"
         ],
         "usphone": "'kʌzn",
         "ukphone": "'kʌz(ə)n"
@@ -570,7 +570,7 @@
     {
         "name": "baby brother",
         "trans": [
-            "小弟弟"
+            "em trai nhỏ"
         ],
         "usphone": "",
         "ukphone": ""
@@ -642,7 +642,7 @@
     {
         "name": "puppy",
         "trans": [
-            "小狗"
+            "chó con"
         ],
         "usphone": "'pʌpi",
         "ukphone": "'pʌpɪ"
@@ -650,7 +650,7 @@
     {
         "name": "football player",
         "trans": [
-            "足球运动员"
+            "cầu thủ bóng đá"
         ],
         "usphone": "",
         "ukphone": ""

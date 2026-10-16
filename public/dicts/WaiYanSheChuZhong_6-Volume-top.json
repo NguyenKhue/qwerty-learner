@@ -2,15 +2,15 @@
     {
         "name": "how long",
         "trans": [
-            "conj. 多长时间"
+            "conj. bao lâu"
         ]
     },
     {
         "name": "near",
         "trans": [
-            "adj. 近的；亲近的；近似的",
-            "adv. 近；接近",
-            "prep. 靠近；近似于"
+            "adj. gần, thân thiết, xấp xỉ",
+            "adv. gần; đến gần",
+            "prep. gần; gần với"
         ],
         "usphone": "[nɪr]",
         "ukphone": "[nɪə(r)]"
@@ -18,8 +18,8 @@
     {
         "name": "along",
         "trans": [
-            "prep. 沿着；顺着",
-            "adv. 一起；向前；来到"
+            "prep. dọc theo; men theo",
+            "adv. cùng nhau; về phía trước; đến"
         ],
         "usphone": "[əˈlɔːŋ]",
         "ukphone": "[əˈlɒŋ]"
@@ -27,7 +27,7 @@
     {
         "name": "more than",
         "trans": [
-            "na. …以上；比…更"
+            "na. ... trở lên; hơn..."
         ],
         "usphone": "[mɔr ðæn]",
         "ukphone": "[mɔː ðæn]"
@@ -43,7 +43,7 @@
     {
         "name": "metre",
         "trans": [
-            "n. 米；公尺；韵律"
+            "n. mét, nhịp điệu, vần luật"
         ],
         "usphone": "[ˈmiːtər]",
         "ukphone": "[ˈmiːtə(r)]"
@@ -57,7 +57,7 @@
     {
         "name": "Chinatown",
         "trans": [
-            "n. 唐人街，中国城"
+            "n. phố Tàu, khu người Hoa"
         ],
         "usphone": "[ˈtʃaɪnətaʊn]",
         "ukphone": "[ˈtʃaɪnətaʊn]"
@@ -124,10 +124,10 @@
     {
         "name": "when",
         "trans": [
-            "conj. 考虑到；既然；当…时；在…时；如果",
-            "n. 时间，时候；日期；场合",
-            "adv. 什么时候，何时；（用于时间的表达方式之后）在那时；其时；当时",
-            "pron. 那时；什么时侯"
+            "conj. xét đến; vì; khi...; trong khi...; nếu",
+            "n. thời gian, lúc; ngày tháng; dịp, trường hợp",
+            "adv. khi nào; (dùng sau cách diễn đạt thời gian) vào lúc đó; khi ấy",
+            "pron. lúc đó; khi nào"
         ],
         "usphone": "[wen]",
         "ukphone": "[wen]"
@@ -135,9 +135,9 @@
     {
         "name": "stamp",
         "trans": [
-            "n. 邮票；印记；标志；跺脚",
-            "vt. 铭记；标出；盖章于…；贴邮票于…；用脚踩踏",
-            "vi. 跺脚；捣碎；毁掉"
+            "n. tem, dấu ấn, dấu hiệu, tiếng giậm chân",
+            "vt. ghi nhớ; đánh dấu; đóng dấu lên...; dán tem lên...; giẫm chân",
+            "vi. giậm chân; giã nát; phá hủy"
         ],
         "usphone": "[stæmp]",
         "ukphone": "[stæmp]"
@@ -165,7 +165,7 @@
     {
         "name": "hobby",
         "trans": [
-            "n. 嗜好；业余爱好"
+            "n. sở thích, thú vui"
         ],
         "usphone": "[ˈhɑːbi]",
         "ukphone": "[ˈhɒbi]"
@@ -201,13 +201,13 @@
     {
         "name": "Thanksgiving",
         "trans": [
-            "n. 感恩"
+            "n. lòng biết ơn"
         ]
     },
     {
         "name": "nearly",
         "trans": [
-            "adv. 差不多，几乎；密切地"
+            "adv. gần như, hầu như; chặt chẽ"
         ],
         "usphone": "[ˈnɪrli]",
         "ukphone": "[ˈnɪəli]"
@@ -215,14 +215,14 @@
     {
         "name": "the Spring Festival",
         "trans": [
-            "un. 春节"
+            "un. Tết Nguyên Đán, Tết âm lịch"
         ]
     },
     {
         "name": "sure",
         "trans": [
-            "adj. 确信的；可靠的；必定的",
-            "adv. 当然；的确"
+            "adj. chắc chắn; đáng tin; nhất định",
+            "adv. đương nhiên; quả thật"
         ],
         "usphone": "[ʃʊr]",
         "ukphone": "[ʃʊə(r)]"
@@ -250,8 +250,8 @@
     {
         "name": "pleased",
         "trans": [
-            "adj. 高兴的；喜欢的；乐意做某事",
-            "v. 满意；愿意（please的过去分词形式）"
+            "adj. vui vẻ; yêu thích; sẵn lòng làm việc gì",
+            "v. hài lòng; sẵn lòng (dạng quá khứ phân từ của please)"
         ],
         "usphone": "[pliːzd]",
         "ukphone": "[pliːzd]"
@@ -269,8 +269,8 @@
     {
         "name": "French",
         "trans": [
-            "n. 法国人；法语",
-            "adj. 法国的；法语的；法国人的"
+            "n. người Pháp; tiếng Pháp",
+            "adj. thuộc Pháp; thuộc tiếng Pháp; của người Pháp"
         ],
         "usphone": "[frentʃ]",
         "ukphone": "[frentʃ]"
@@ -321,9 +321,9 @@
     {
         "name": "bamboo",
         "trans": [
-            "n. 竹，竹子",
-            "adj. 竹制的；土著居民的",
-            "vt. 为…装上篾条"
+            "n. tre, cây tre",
+            "adj. bằng tre; của thổ dân",
+            "vt. nẹp nan tre cho..."
         ],
         "usphone": "[ˌbæmˈbuː]",
         "ukphone": "[ˌbæmˈbuː]"
@@ -364,7 +364,7 @@
         "name": "frightened",
         "trans": [
             "v. sợ hãi; làm ngạc nhiên; đánh bay",
-            "adj. 害怕的；受惊的；受恐吓的"
+            "adj. sợ hãi; hoảng sợ; bị đe dọa"
         ],
         "usphone": "[ˈfraɪtnd]",
         "ukphone": "[ˈfraɪtnd]"
@@ -390,9 +390,9 @@
     {
         "name": "fox",
         "trans": [
-            "n. 狐狸；狡猾的人",
-            "vt. 欺骗；使变酸",
-            "vi. 假装；耍狡猾手段"
+            "n. cáo; người xảo quyệt",
+            "vt. lừa gạt; làm chua",
+            "vi. giả vờ; giở thủ đoạn xảo quyệt"
         ],
         "usphone": "[fɑːks]",
         "ukphone": "[fɒks]"
@@ -400,7 +400,7 @@
     {
         "name": "at night",
         "trans": [
-            "na. 在黄昏时候；晚上"
+            "na. lúc chạng vạng; buổi tối"
         ]
     },
     {
@@ -415,7 +415,7 @@
     {
         "name": "ever",
         "trans": [
-            "adv. 永远；曾经；究竟"
+            "adv. mãi mãi; đã từng; rốt cuộc"
         ],
         "usphone": "[ˈevər]",
         "ukphone": "[ˈevə(r)]"
@@ -423,10 +423,10 @@
     {
         "name": "tidy",
         "trans": [
-            "n. 椅子的背罩",
-            "adj. 整齐的；相当大的",
-            "vi. 整理；收拾",
-            "vt. 整理；收拾；弄整齐"
+            "n. tấm phủ lưng ghế",
+            "adj. gọn gàng; khá lớn",
+            "vi. dọn dẹp, thu dọn",
+            "vt. dọn dẹp, thu xếp, sắp xếp gọn gàng"
         ],
         "usphone": "[ˈtaɪdi]",
         "ukphone": "[ˈtaɪdi]"
@@ -442,7 +442,7 @@
     {
         "name": "never",
         "trans": [
-            "adv. 从未；决不"
+            "adv. chưa bao giờ; quyết không"
         ],
         "usphone": "[ˈnevər]",
         "ukphone": "[ˈnevə(r)]"
@@ -494,7 +494,7 @@
     {
         "name": "forgot",
         "trans": [
-            "v. 忘记；轻忽；遗漏（forget的过去式）"
+            "v. đã quên; sao nhãng; bỏ sót (quá khứ của forget)"
         ],
         "usphone": "[fərˈɡɑːt]",
         "ukphone": "[fəˈɡɒt]"
@@ -512,10 +512,10 @@
     {
         "name": "cross",
         "trans": [
-            "n. 交叉，十字；十字架，十字形物",
-            "adj. 交叉的，相反的；乖戾的；生气的",
-            "vt. 杂交；渡过；使相交",
-            "vi. 交叉；杂交；横过"
+            "n. sự giao nhau, chữ thập; cây thập giá, vật hình chữ thập",
+            "adj. chéo nhau, ngược nhau; ương ngạnh; tức giận",
+            "vt. lai giống; vượt qua; làm giao nhau",
+            "vi. giao nhau; lai giống; băng qua"
         ],
         "usphone": "[krɔːs]",
         "ukphone": "[krɒs]"

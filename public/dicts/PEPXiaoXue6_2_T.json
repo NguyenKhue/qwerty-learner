@@ -2,7 +2,7 @@
     {
         "name": "younger",
         "trans": [
-            "更年轻的"
+            "trẻ hơn"
         ],
         "usphone": "'jʌŋɡɚ",
         "ukphone": "'jʌŋɡə"
@@ -10,7 +10,7 @@
     {
         "name": "older",
         "trans": [
-            "更年长的"
+            "lớn tuổi hơn, già hơn"
         ],
         "usphone": "oldə",
         "ukphone": "'əʊldə"
@@ -26,7 +26,7 @@
     {
         "name": "shorter",
         "trans": [
-            "更矮的"
+            "thấp hơn, lùn hơn"
         ],
         "usphone": "",
         "ukphone": ""
@@ -34,7 +34,7 @@
     {
         "name": "longer",
         "trans": [
-            "更长的"
+            "dài hơn"
         ],
         "usphone": "'lɔŋɡɚ",
         "ukphone": "'lɒŋɡə"
@@ -42,7 +42,7 @@
     {
         "name": "thinner",
         "trans": [
-            "更瘦的"
+            "gầy hơn"
         ],
         "usphone": "'θɪnɚ",
         "ukphone": "'θɪnə"
@@ -50,7 +50,7 @@
     {
         "name": "heavier",
         "trans": [
-            "更重的"
+            "nặng hơn"
         ],
         "usphone": "'hɛvɪɚðən'ɛr",
         "ukphone": "'hevɪə"
@@ -58,7 +58,7 @@
     {
         "name": "bigger",
         "trans": [
-            "更大的"
+            "lớn hơn, to hơn"
         ],
         "usphone": "bɪgə(r)",
         "ukphone": "bɪgə(r)"
@@ -66,7 +66,7 @@
     {
         "name": "smaller",
         "trans": [
-            "更小的"
+            "nhỏ hơn"
         ],
         "usphone": "smɔlər",
         "ukphone": "smɔ:lə(r)"
@@ -74,7 +74,7 @@
     {
         "name": "stronger",
         "trans": [
-            "更强壮的"
+            "khỏe hơn, mạnh hơn"
         ],
         "usphone": "strɔ:ŋɡər",
         "ukphone": "strɒŋgə(r)"
@@ -122,7 +122,7 @@
     {
         "name": "both",
         "trans": [
-            "两个都"
+            "cả hai"
         ],
         "usphone": "boθ",
         "ukphone": "bəʊθ"
@@ -146,7 +146,7 @@
     {
         "name": "lower",
         "trans": [
-            "更低地"
+            "thấp hơn"
         ],
         "usphone": "'loɚ",
         "ukphone": "'ləʊə"
@@ -162,7 +162,7 @@
     {
         "name": "smarter",
         "trans": [
-            "更聪明的"
+            "thông minh hơn"
         ],
         "usphone": "",
         "ukphone": "'smɑ:tə"
@@ -170,7 +170,7 @@
     {
         "name": "become",
         "trans": [
-            "变成"
+            "trở thành, biến thành"
         ],
         "usphone": "bɪ'kʌm",
         "ukphone": "bɪ'kʌm"
@@ -186,7 +186,7 @@
     {
         "name": "stayed",
         "trans": [
-            "待"
+            "ở, chờ, đợi"
         ],
         "usphone": "",
         "ukphone": ""
@@ -210,7 +210,7 @@
     {
         "name": "had",
         "trans": [
-            "得病（例如 had a cold 得了感冒）"
+            "bị bệnh (ví dụ had a cold bị cảm lạnh)"
         ],
         "usphone": "hæd",
         "ukphone": "hæd"
@@ -266,7 +266,7 @@
     {
         "name": "before",
         "trans": [
-            "在⋯⋯之前"
+            "trước..., trước khi..."
         ],
         "usphone": "bɪ'fɔr",
         "ukphone": "bɪ'fɔː"
@@ -306,7 +306,7 @@
     {
         "name": "faster",
         "trans": [
-            "更快的"
+            "nhanh hơn"
         ],
         "usphone": "'fastə",
         "ukphone": "fɑ:stə(r)"
@@ -330,7 +330,7 @@
     {
         "name": "broken",
         "trans": [
-            "破损的"
+            "bị hỏng, bị vỡ"
         ],
         "usphone": "'brokən",
         "ukphone": "'brəʊk(ə)n"
@@ -346,7 +346,7 @@
     {
         "name": "loud",
         "trans": [
-            "大声的"
+            "to, ồn ào"
         ],
         "usphone": "laʊd",
         "ukphone": "laʊd"
@@ -354,7 +354,7 @@
     {
         "name": "enjoy",
         "trans": [
-            "享受⋯⋯的乐趣"
+            "tận hưởng niềm vui..., thích thú với..."
         ],
         "usphone": "ɪn'dʒɔɪ",
         "ukphone": "ɪnˈdʒɔɪ"
@@ -362,7 +362,7 @@
     {
         "name": "stay",
         "trans": [
-            "暂住"
+            "tạm trú, ở tạm"
         ],
         "usphone": "ste",
         "ukphone": "steɪ"
@@ -378,7 +378,7 @@
     {
         "name": "camp",
         "trans": [
-            "野营"
+            "cắm trại"
         ],
         "usphone": "kæmp",
         "ukphone": "kæmp"
@@ -386,7 +386,7 @@
     {
         "name": "went camping",
         "trans": [
-            "去野营"
+            "đi cắm trại"
         ],
         "usphone": "",
         "ukphone": ""
@@ -442,7 +442,7 @@
     {
         "name": "took pictures",
         "trans": [
-            "照相"
+            "chụp ảnh"
         ],
         "usphone": "",
         "ukphone": ""
@@ -466,7 +466,7 @@
     {
         "name": "fell",
         "trans": [
-            "摔倒"
+            "ngã, té ngã"
         ],
         "usphone": "fɛl",
         "ukphone": "fel"
@@ -474,7 +474,7 @@
     {
         "name": "off",
         "trans": [
-            "落下"
+            "rơi xuống, bỏ lại"
         ],
         "usphone": "ɔf",
         "ukphone": "ɒf"
@@ -482,7 +482,7 @@
     {
         "name": "Labour Day",
         "trans": [
-            "劳动节"
+            "Ngày Lao động, Lễ Lao động"
         ],
         "usphone": "",
         "ukphone": ""
@@ -490,7 +490,7 @@
     {
         "name": "mule",
         "trans": [
-            "骡子"
+            "con la"
         ],
         "usphone": "mjul",
         "ukphone": "mjuːl"
@@ -498,7 +498,7 @@
     {
         "name": "Turpan",
         "trans": [
-            "吐鲁番"
+            "Turpan"
         ],
         "usphone": "",
         "ukphone": ""
@@ -506,7 +506,7 @@
     {
         "name": "could",
         "trans": [
-            "能"
+            "có thể"
         ],
         "usphone": "kəd; kʊd",
         "ukphone": "kəd; kʊd"
@@ -522,7 +522,7 @@
     {
         "name": "beach",
         "trans": [
-            "沙滩"
+            "bãi cát, bãi biển"
         ],
         "usphone": "bitʃ",
         "ukphone": "biːtʃ"
@@ -594,7 +594,7 @@
     {
         "name": "cycling",
         "trans": [
-            "骑自行车运动"
+            "môn đạp xe, đi xe đạp thể thao"
         ],
         "usphone": "'saɪklɪŋ",
         "ukphone": "'saɪklɪŋ"
@@ -602,7 +602,7 @@
     {
         "name": "go cycling",
         "trans": [
-            "去骑自行车"
+            "đi xe đạp"
         ],
         "usphone": "",
         "ukphone": ""
@@ -618,7 +618,7 @@
     {
         "name": "badminton",
         "trans": [
-            "羽毛球运动"
+            "môn cầu lông"
         ],
         "usphone": "'bædmɪntən",
         "ukphone": "'bædmɪnt(ə)n"
@@ -642,7 +642,7 @@
     {
         "name": "look up",
         "trans": [
-            "查阅"
+            "tra cứu, tham khảo"
         ],
         "usphone": "",
         "ukphone": ""
@@ -682,7 +682,7 @@
     {
         "name": "nothing",
         "trans": [
-            "没有什么"
+            "không có gì"
         ],
         "usphone": "'nʌθɪŋ",
         "ukphone": "'nʌθɪŋ"
@@ -706,7 +706,7 @@
     {
         "name": "cheetah",
         "trans": [
-            "猎豹"
+            "báo săn, báo cheetah"
         ],
         "usphone": "'tʃitə",
         "ukphone": "'tʃiːtə"
@@ -722,7 +722,7 @@
     {
         "name": "woke",
         "trans": [
-            "醒"
+            "tỉnh, tỉnh dậy"
         ],
         "usphone": "wok",
         "ukphone": "wəʊk"
@@ -778,7 +778,7 @@
     {
         "name": "Italian",
         "trans": [
-            "意大利的"
+            "thuộc Ý, của Ý"
         ],
         "usphone": "ɪˈtæljən",
         "ukphone": "ɪˈtælɪən"
@@ -818,7 +818,7 @@
     {
         "name": "GPS",
         "trans": [
-            "全球（卫星）"
+            "toàn cầu (vệ tinh)"
         ],
         "usphone": "",
         "ukphone": ""
@@ -842,7 +842,7 @@
     {
         "name": "follow",
         "trans": [
-            "跟着"
+            "đi theo, theo sau"
         ],
         "usphone": "'fɑlo",
         "ukphone": "'fɒləʊ"
@@ -850,7 +850,7 @@
     {
         "name": "far",
         "trans": [
-            "较远的"
+            "xa hơn"
         ],
         "usphone": "fɑr",
         "ukphone": "fɑː"

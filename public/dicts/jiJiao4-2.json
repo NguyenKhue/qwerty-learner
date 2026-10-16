@@ -18,8 +18,8 @@
     {
         "name": "hello",
         "trans": [
-            "n. 表示问候， 惊奇或唤起注意时的用语",
-            "int. 喂；哈罗"
+            "n. lời chào hỏi, lời tỏ vẻ ngạc nhiên hoặc gây chú ý",
+            "int. a-lô; xin chào"
         ],
         "usphone": "[həˈləʊ]",
         "ukphone": "[həˈləʊ]"
@@ -35,7 +35,7 @@
     {
         "name": "hi",
         "trans": [
-            "int. 嗨！（表示问候或用以唤起注意）"
+            "int. chào! (để chào hỏi hoặc gây chú ý)"
         ],
         "usphone": "[haɪ]",
         "ukphone": "[haɪ]"
@@ -43,8 +43,8 @@
     {
         "name": "hello",
         "trans": [
-            "n. 表示问候， 惊奇或唤起注意时的用语",
-            "int. 喂；哈罗"
+            "n. lời chào hỏi, lời tỏ vẻ ngạc nhiên hoặc gây chú ý",
+            "int. a-lô; xin chào"
         ],
         "usphone": "[həˈləʊ]",
         "ukphone": "[həˈləʊ]"
@@ -62,7 +62,7 @@
     {
         "name": "friend",
         "trans": [
-            "n. 朋友；助手；赞助者"
+            "n. bạn bè; trợ thủ; nhà tài trợ"
         ],
         "usphone": "[frend]",
         "ukphone": "[frend]"
@@ -86,7 +86,7 @@
     {
         "name": "her",
         "trans": [
-            "pron. 她（she的宾格）；她的（she的所有格）；她（指某个国家；一艘船）"
+            "pron. cô ấy (tân cách của she); của cô ấy (sở hữu cách của she); cô ấy (chỉ quốc gia; tàu thuyền)"
         ],
         "usphone": "[hər; ɜːr; ər; hɜːr]",
         "ukphone": "[hə(r)]"
@@ -94,9 +94,9 @@
     {
         "name": "pencil",
         "trans": [
-            "n. 铅笔；笔状物",
-            "vt. 用铅笔写；用眉笔涂",
-            "vi. 成铅笔状"
+            "n. bút chì, vật hình bút",
+            "vt. viết bằng bút chì, kẻ bằng chì kẻ mày",
+            "vi. thành hình bút chì"
         ],
         "usphone": "[ˈpensl]",
         "ukphone": "[ˈpens(ə)l]"
@@ -104,16 +104,16 @@
     {
         "name": "pencil box",
         "trans": [
-            " 铅笔盒；文具盒；你的铅笔盒"
+            "hộp bút; hộp văn phòng phẩm; hộp bút của bạn"
         ]
     },
     {
         "name": "what",
         "trans": [
-            "pron. 什么；多么；多少",
-            "adv. 到什么程度，在哪一方面",
-            "adj. 什么；多么；何等",
-            "int. 什么；多么"
+            "pron. cái gì; biết bao; bao nhiêu",
+            "adv. đến mức nào, ở phương diện nào",
+            "adj. gì; biết bao; nhường nào",
+            "int. cái gì; biết bao"
         ],
         "usphone": "[wʌt]",
         "ukphone": "[wɒt]"
@@ -121,8 +121,8 @@
     {
         "name": "pen",
         "trans": [
-            "n. 钢笔；作家；围栏",
-            "vt. 写；关入栏中"
+            "n. bút mực, nhà văn, chuồng trại",
+            "vt. viết, nhốt vào chuồng"
         ],
         "usphone": "[pen]",
         "ukphone": "[pen]"
@@ -130,7 +130,7 @@
     {
         "name": "ruler",
         "trans": [
-            "n. 尺；统治者；[测] 划线板，划线的人"
+            "n. thước, nhà cai trị, [đo] bàn kẻ, người kẻ đường"
         ],
         "usphone": "[ˈruːlər]",
         "ukphone": "[ˈruːlə(r)]"
@@ -138,8 +138,8 @@
     {
         "name": "crayon",
         "trans": [
-            "n. 蜡笔，有色粉笔",
-            "vt. 以蜡笔作画，用颜色粉笔画"
+            "n. bút chì màu, phấn màu",
+            "vt. vẽ bằng bút sáp màu, vẽ bằng phấn màu"
         ],
         "usphone": "[ˈkreɪən; ˈkreɪɑːn]",
         "ukphone": "[ˈkreɪən; ˈkreɪɒn]"
@@ -147,7 +147,7 @@
     {
         "name": "whose",
         "trans": [
-            "pron. 谁的（疑问代词）"
+            "pron. của ai (đại từ nghi vấn)"
         ],
         "usphone": "[huːz]",
         "ukphone": "[huːz]"
@@ -163,8 +163,8 @@
     {
         "name": "desk",
         "trans": [
-            "n. 办公桌；服务台；编辑部；（美）讲道台；乐谱架",
-            "adj. 书桌的；桌上用的；伏案做的"
+            "n. bàn làm việc, quầy phục vụ, ban biên tập, (Mỹ) bục giảng đạo, giá nhạc",
+            "adj. thuộc bàn giấy, để bàn, làm tại bàn"
         ],
         "usphone": "[desk]",
         "ukphone": "[desk]"
@@ -189,8 +189,8 @@
     {
         "name": "between",
         "trans": [
-            "prep. 在…之间",
-            "adv. 在中间"
+            "prep. ở giữa...",
+            "adv. ở giữa"
         ],
         "usphone": "[bɪˈtwiːn]",
         "ukphone": "[bɪˈtwiːn]"
@@ -207,7 +207,7 @@
         "name": "forty",
         "trans": [
             "n. bốn mươi",
-            "adj. 四十的；四十个的"
+            "adj. thứ bốn mươi; bốn mươi cái"
         ],
         "usphone": "[ˈfɔːrti]",
         "ukphone": "[ˈfɔːti]"
@@ -215,8 +215,8 @@
     {
         "name": "fifty",
         "trans": [
-            "n. 五十；五十个；编号为50的东西",
-            "adj. 五十的；五十个的；众多的"
+            "n. năm mươi; năm mươi cái; vật số 50",
+            "adj. thứ năm mươi; năm mươi cái; đông đảo"
         ],
         "usphone": "[ˈfɪfti]",
         "ukphone": "[ˈfɪfti]"
@@ -224,7 +224,7 @@
     {
         "name": "sixty",
         "trans": [
-            "num. 六十；六十个"
+            "num. sáu mươi; sáu mươi cái"
         ],
         "usphone": "[ˈsɪksti]",
         "ukphone": "[ˈsɪksti]"
@@ -232,9 +232,9 @@
     {
         "name": "seventy",
         "trans": [
-            "n. 七十；七十个；七十岁；七十年代",
+            "n. số bảy mươi; bảy mươi cái; tuổi bảy mươi; thập niên bảy mươi",
             "num. bảy mươi",
-            "adj. 七十的；七十个的；七十岁的"
+            "adj. thuộc bảy mươi; bảy mươi cái; bảy mươi tuổi"
         ],
         "usphone": "[ˈsev(ə)nti]",
         "ukphone": "[ˈsev(ə)nti]"
@@ -243,8 +243,8 @@
         "name": "eighty",
         "trans": [
             "num. tám mươi",
-            "n. 八十；八十岁；八十年代",
-            "adj. 八十的，八十个的；八十岁的"
+            "n. số tám mươi; tuổi tám mươi; thập niên tám mươi",
+            "adj. thứ tám mươi, tám mươi cái; tám mươi tuổi"
         ],
         "usphone": "[ˈeɪti]",
         "ukphone": "[ˈeɪti]"
@@ -252,8 +252,8 @@
     {
         "name": "ninety",
         "trans": [
-            "n. 九十",
-            "adj. 九十的；九十岁的",
+            "n. số chín mươi",
+            "adj. thuộc chín mươi; chín mươi tuổi",
             "num. chín mươi"
         ],
         "usphone": "[ˈnaɪnti]",
@@ -262,9 +262,9 @@
     {
         "name": "behind",
         "trans": [
-            "prep. 落后于；支持；晚于",
-            "n. 屁股",
-            "adv. 在后地；在原处"
+            "prep. tụt lại sau; ủng hộ; muộn hơn",
+            "n. mông",
+            "adv. ở phía sau; tại chỗ"
         ],
         "usphone": "[bɪˈhaɪnd]",
         "ukphone": "[bɪˈhaɪnd]"
@@ -272,7 +272,7 @@
     {
         "name": "he",
         "trans": [
-            "n. 男孩，男人；它（雄性动物）",
+            "n. con trai, đàn ông; nó (con vật đực)",
             "pron. anh ông, hắn"
         ],
         "usphone": "[hi; iː; i; hiː]",
@@ -281,8 +281,8 @@
     {
         "name": "she",
         "trans": [
-            "n. 女人；雌性动物",
-            "pron. 她（主格）；它（用来指雌性动物或国家、船舶、地球、月亮等）"
+            "n. phụ nữ, con cái (động vật)",
+            "pron. cô ấy, bà ấy; nó (dùng cho động vật cái hoặc đất nước, tàu thuyền, trái đất, mặt trăng)"
         ],
         "usphone": "[ʃi; ʃiː]",
         "ukphone": "[ʃi]"
@@ -290,7 +290,7 @@
     {
         "name": "month",
         "trans": [
-            "n. 月，一个月的时间"
+            "n. mặt trăng; một tháng"
         ],
         "usphone": "[mʌnθ]",
         "ukphone": "[mʌnθ]"
@@ -322,7 +322,7 @@
     {
         "name": "May",
         "trans": [
-            "aux. 可以，能够；可能，也许；祝，愿；会，能"
+            "aux. có thể, có khả năng; có lẽ, có thể; chúc, nguyện; sẽ, có thể"
         ],
         "usphone": "[meɪ]",
         "ukphone": "[meɪ]"
@@ -372,9 +372,9 @@
     {
         "name": "rain",
         "trans": [
-            "n. 雨；下雨；雨天；雨季",
-            "vt. 大量地给；使大量落下",
-            "vi. 下雨；降雨"
+            "n. mưa; trời mưa; ngày mưa; mùa mưa",
+            "vt. cho nhiều; làm rơi xuống nhiều",
+            "vi. mưa; có mưa"
         ],
         "usphone": "[reɪn]",
         "ukphone": "[reɪn]"
@@ -403,9 +403,9 @@
     {
         "name": "snow",
         "trans": [
-            "n. 雪，积雪；下雪",
-            "vt. 使纷纷落下；使变白",
-            "vi. 降雪"
+            "n. tuyết, tuyết phủ, trận tuyết rơi",
+            "vt. làm rơi lả tả; làm trắng ra",
+            "vi. đổ tuyết, tuyết rơi"
         ],
         "usphone": "[snoʊ]",
         "ukphone": "[snəʊ]"
@@ -423,9 +423,9 @@
     {
         "name": "how",
         "trans": [
-            "adv. 如何；多少；多么",
-            "n. 方法；方式",
-            "conj. 如何"
+            "adv. như thế nào; bao nhiêu; biết bao",
+            "n. phương pháp; cách thức",
+            "conj. như thế nào, làm sao"
         ],
         "usphone": "[haʊ]",
         "ukphone": "[haʊ]"
@@ -444,7 +444,7 @@
     {
         "name": "sunny",
         "trans": [
-            "adj. 阳光充足的，和煦的；快活的；性情开朗的"
+            "adj. đầy nắng, chan hòa; vui vẻ; tính tình cởi mở"
         ],
         "usphone": "[ˈsʌni]",
         "ukphone": "[ˈsʌni]"
@@ -463,7 +463,7 @@
     {
         "name": "cloudy",
         "trans": [
-            "adj. 多云的；阴天的；愁容满面的"
+            "adj. nhiều mây; u ám; cau có"
         ],
         "usphone": "[ˈklaʊdi]",
         "ukphone": "[ˈklaʊdi]"
@@ -471,7 +471,7 @@
     {
         "name": "windy",
         "trans": [
-            "adj. 多风的，有风的；腹胀的；吹牛的"
+            "adj. nhiều gió, có gió; đầy hơi; khoác lác"
         ],
         "usphone": "[ˈwɪndi]",
         "ukphone": "[ˈwɪndi]"
@@ -491,8 +491,8 @@
     {
         "name": "am",
         "trans": [
-            "abbr. 调幅",
-            "v. 是"
+            "abbr. điều biến biên độ (AM)",
+            "v. là"
         ],
         "usphone": "[əm; æm]",
         "ukphone": "[əm; æm]"
@@ -500,10 +500,10 @@
     {
         "name": "when",
         "trans": [
-            "conj. 考虑到；既然；当…时；在…时；如果",
-            "n. 时间，时候；日期；场合",
-            "adv. 什么时候，何时；（用于时间的表达方式之后）在那时；其时；当时",
-            "pron. 那时；什么时侯"
+            "conj. xét đến; vì; khi...; trong khi...; nếu",
+            "n. thời gian, lúc; ngày tháng; dịp, trường hợp",
+            "adv. khi nào; (dùng sau cách diễn đạt thời gian) vào lúc đó; khi ấy",
+            "pron. lúc đó; khi nào"
         ],
         "usphone": "[wen]",
         "ukphone": "[wen]"
@@ -519,8 +519,8 @@
     {
         "name": "tall",
         "trans": [
-            "adj. 高的；长的；过分的；夸大的",
-            "adv. 夸大地"
+            "adj. cao, dài, quá đáng, phóng đại",
+            "adv. một cách phóng đại"
         ],
         "usphone": "[tɔːl]",
         "ukphone": "[tɔːl]"
@@ -538,7 +538,7 @@
     {
         "name": "too",
         "trans": [
-            "adv. 太；也；很；还；非常；过度"
+            "adv. quá; cũng; rất; còn; vô cùng; quá mức"
         ],
         "usphone": "[tuː]",
         "ukphone": "[tuː]"
@@ -556,14 +556,14 @@
     {
         "name": "on foot",
         "trans": [
-            "na. 步行；在进行中；徒步"
+            "na. đi bộ; đang tiến hành; đi bộ đường dài"
         ]
     },
     {
         "name": "by",
         "trans": [
             "prep. qua; bị; dựa vào; thông qua; gần; trước",
-            "adv. 通过；经过；附近；[互联网] 白俄罗斯的国家代码顶级域名"
+            "adv. qua; ngang qua; gần đây; [internet] tên miền quốc gia cấp cao nhất của Belarus"
         ],
         "usphone": "[baɪ]",
         "ukphone": "[baɪ]"
@@ -580,9 +580,9 @@
     {
         "name": "colour",
         "trans": [
-            "n. 颜色；风格；气色，面色；外貌",
-            "vt. 把…涂颜色，粉饰；歪曲；使脸红",
-            "vi. 变色"
+            "n. màu sắc; phong cách; sắc mặt, vẻ mặt; ngoại hình",
+            "vt. sơn màu lên..., trang trí; xuyên tạc; làm đỏ mặt",
+            "vi. đổi màu"
         ],
         "usphone": "[ˈkʌlər]",
         "ukphone": "[ˈkʌlə(r)]"
@@ -590,10 +590,10 @@
     {
         "name": "brown",
         "trans": [
-            "n. 褐色，棕色",
-            "adj. 棕色的，褐色的；太阳晒黑的",
-            "vt. 使变成褐色",
-            "vi. 变成褐色"
+            "n. màu nâu",
+            "adj. màu nâu, màu nâu sẫm, rám nắng",
+            "vt. làm thành màu nâu",
+            "vi. chuyển thành màu nâu"
         ],
         "usphone": "[braʊn]",
         "ukphone": "[braʊn]"
@@ -628,7 +628,7 @@
     {
         "name": "their",
         "trans": [
-            "pron. 他们的，她们的；它们的"
+            "pron. của họ; của chúng nó"
         ],
         "usphone": "[ðer]",
         "ukphone": "[ðeə(r)]"
@@ -646,8 +646,8 @@
     {
         "name": "Chinese",
         "trans": [
-            "n. 中文，汉语；中国人",
-            "adj. 中国的，中国人的；中国话的"
+            "n. tiếng Trung, Hán ngữ; người Trung Quốc",
+            "adj. của Trung Quốc, của người Trung Quốc; thuộc tiếng Trung"
         ],
         "usphone": "[ˌtʃaɪˈniːz]",
         "ukphone": "[ˌtʃaɪˈniːz]"
@@ -655,9 +655,9 @@
     {
         "name": "English",
         "trans": [
-            "n. 英语；英国人；英文；英格兰人",
-            "adj. 英国人的；英国的；英文的",
-            "vt. 把…译成英语"
+            "n. tiếng Anh; người Anh; tiếng Anh; người Anh",
+            "adj. của người Anh; thuộc nước Anh; thuộc tiếng Anh",
+            "vt. dịch... sang tiếng Anh"
         ],
         "usphone": "[ˈɪŋɡlɪʃ]",
         "ukphone": "[ˈɪŋɡlɪʃ]"
@@ -681,7 +681,7 @@
     {
         "name": "PE",
         "trans": [
-            "abbr. 体育课，体能训练（physical education）"
+            "abbr. thể dục, rèn luyện thể chất (physical education)"
         ],
         "usphone": "[peɪ]",
         "ukphone": "[peɪ]"
@@ -689,9 +689,9 @@
     {
         "name": "art",
         "trans": [
-            "n. 艺术；美术；艺术品",
-            "v. 是（be的变体）",
-            "adj. 艺术的；艺术品的"
+            "n. nghệ thuật, mỹ thuật, tác phẩm nghệ thuật",
+            "v. là, thì, ở (biến thể của be)",
+            "adj. nghệ thuật; thuộc tác phẩm nghệ thuật"
         ],
         "usphone": "[ɑːrt]",
         "ukphone": "[ɑːt]"
@@ -707,7 +707,7 @@
     {
         "name": "and",
         "trans": [
-            "conj. 和，与；就；而且；但是；然后"
+            "conj. và, với; thì; mà còn; nhưng; rồi"
         ],
         "usphone": "[ənd; ən; n; ænd]",
         "ukphone": "[ənd]"
@@ -717,7 +717,7 @@
         "trans": [
             "conj. nhưng; mà là; tuy nhiên",
             "adv. chỉ, chỉ mà",
-            "prep. 除…以外"
+            "prep. trừ ra, ngoại trừ"
         ],
         "usphone": "[bət; bʌt]",
         "ukphone": "[bət]"

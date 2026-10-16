@@ -3,7 +3,7 @@
         "name": "book",
         "trans": [
             "sách",
-            "书本"
+            "sách vở, sách"
         ],
         "usphone": "bʊk",
         "ukphone": "bʊk"
@@ -11,7 +11,7 @@
     {
         "name": "ruler",
         "trans": [
-            "尺子"
+            "thước kẻ"
         ],
         "usphone": "ˈruːlər",
         "ukphone": "ˈruːlər"
@@ -59,7 +59,7 @@
     {
         "name": "a/an",
         "trans": [
-            "一 ( 个 )"
+            "một (cái)"
         ],
         "usphone": "",
         "ukphone": ""
@@ -107,7 +107,7 @@
     {
         "name": "this",
         "trans": [
-            "这（个）"
+            "này, cái này"
         ],
         "usphone": "ðɪs",
         "ukphone": "ðɪs"
@@ -267,7 +267,7 @@
     {
         "name": "how",
         "trans": [
-            "多少"
+            "bao nhiêu"
         ],
         "usphone": "haʊ",
         "ukphone": "haʊ"
@@ -275,7 +275,7 @@
     {
         "name": "many",
         "trans": [
-            "多的，许多的"
+            "nhiều"
         ],
         "usphone": "ˈmɛni",
         "ukphone": "ˈmɛni"
@@ -291,7 +291,7 @@
     {
         "name": "there",
         "trans": [
-            "（代替主语）"
+            "(thay cho chủ ngữ)"
         ],
         "usphone": "ðɛr",
         "ukphone": "ðeər"
@@ -318,7 +318,7 @@
         "name": "blue",
         "trans": [
             "màu xanh",
-            "蓝色的"
+            "màu xanh dương, xanh da trời"
         ],
         "usphone": "bluː",
         "ukphone": "bluː"
@@ -376,8 +376,8 @@
     {
         "name": "orange",
         "trans": [
-            "柑橘",
-            "橙"
+            "cam quýt",
+            "quả cam, màu cam"
         ],
         "usphone": "ˈɔrɪndʒ",
         "ukphone": "ˈɒrɪndʒ"
@@ -385,7 +385,7 @@
     {
         "name": "do",
         "trans": [
-            "（助动词）"
+            "(trợ động từ)"
         ],
         "usphone": "du",
         "ukphone": "duː"
@@ -402,7 +402,7 @@
     {
         "name": "like",
         "trans": [
-            "喜欢，喜爱"
+            "thích, yêu thích"
         ],
         "usphone": "laɪk",
         "ukphone": "laɪk"
@@ -410,7 +410,7 @@
     {
         "name": "yes",
         "trans": [
-            "是，是的"
+            "là, vâng"
         ],
         "usphone": "jɛs",
         "ukphone": "jɛs"
@@ -418,7 +418,7 @@
     {
         "name": "no",
         "trans": [
-            "不，不是"
+            "không, không phải"
         ],
         "usphone": "noʊ",
         "ukphone": "nəʊ"

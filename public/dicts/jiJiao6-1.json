@@ -23,9 +23,9 @@
     {
         "name": "clock",
         "trans": [
-            "n. 时钟；计时器",
-            "vt. 记录；记时",
-            "vi. 打卡；记录时间"
+            "n. đồng hồ; máy bấm giờ",
+            "vt. ghi lại, bấm giờ",
+            "vi. bấm thẻ; ghi giờ"
         ],
         "usphone": "[klɑːk]",
         "ukphone": "[klɒk]"
@@ -80,9 +80,9 @@
     {
         "name": "there",
         "trans": [
-            "n. 那个地方",
-            "adv. 在那里；在那边；在那点上",
-            "int. 你瞧"
+            "n. nơi đó; chỗ kia",
+            "adv. ở đó; ở đằng kia; ở điểm đó",
+            "int. này, anh xem kìa"
         ],
         "usphone": "[ðer]",
         "ukphone": "[ðeə(r)]"
@@ -110,10 +110,10 @@
     {
         "name": "put",
         "trans": [
-            "n. 掷；笨蛋；投击；怪人",
-            "adj. 固定不动的",
-            "vi. 出发；击；航行；发芽",
-            "vt. 放；表达；移动；安置；赋予"
+            "n. sự ném; kẻ ngốc; cú đánh; kẻ kỳ quặc",
+            "adj. cố định, bất động",
+            "vi. khởi hành; đánh; ra khơi; nảy mầm",
+            "vt. đặt; diễn đạt; di chuyển; sắp xếp; trao cho"
         ],
         "usphone": "[pʊt]",
         "ukphone": "[pʊt]"
@@ -139,8 +139,8 @@
     {
         "name": "dirty",
         "trans": [
-            "adj. 下流的，卑鄙的；肮脏的；恶劣的；暗淡的",
-            "vt. 弄脏",
+            "adj. hạ lưu, đê tiện; bẩn thỉu; xấu, tồi tệ; u ám",
+            "vt. làm bẩn",
             "vi. trở nên bẩn"
         ],
         "usphone": "[ˈdɜːrti]",
@@ -160,7 +160,7 @@
         "name": "me",
         "trans": [
             "pron. tôi (tân ngữ)",
-            "n. 自我；极端自私的人；自我的一部分"
+            "n. cái tôi; người cực kỳ ích kỷ; một phần của bản ngã"
         ],
         "usphone": "[mi; miː]",
         "ukphone": "[mi; miː]"
@@ -168,7 +168,7 @@
     {
         "name": "I",
         "trans": [
-            "n. 碘元素；英语字母I",
+            "n. nguyên tố i-ốt; chữ cái I trong tiếng Anh",
             "pron. tôi"
         ],
         "usphone": "[aɪ]",
@@ -185,7 +185,7 @@
     {
         "name": "he",
         "trans": [
-            "n. 男孩，男人；它（雄性动物）",
+            "n. con trai, đàn ông; nó (con vật đực)",
             "pron. anh ông, hắn"
         ],
         "usphone": "[hi; iː; i; hiː]",
@@ -194,8 +194,8 @@
     {
         "name": "card",
         "trans": [
-            "n. 卡片；纸牌；明信片",
-            "vt. 记于卡片上"
+            "n. tấm thẻ, lá bài, bưu thiếp",
+            "vt. ghi lên thẻ"
         ],
         "usphone": "[kɑːrd]",
         "ukphone": "[kɑːd]"
@@ -203,7 +203,7 @@
     {
         "name": "them",
         "trans": [
-            "pron. 他们；它们；她们"
+            "pron. họ; chúng; các cô ấy"
         ],
         "usphone": "[ðəm; ðem]",
         "ukphone": "[ðəm; ðem]"
@@ -211,7 +211,7 @@
     {
         "name": "they",
         "trans": [
-            "pron. 他们；它们；她们"
+            "pron. họ; chúng; các cô ấy"
         ],
         "usphone": "[ðeɪ]",
         "ukphone": "[ðeɪ]"
@@ -219,7 +219,7 @@
     {
         "name": "Mr.",
         "trans": [
-            "n. 先生"
+            "n. ngài, ông"
         ],
         "usphone": "[ˈmɪstər]",
         "ukphone": "[ˈmɪstə(r)]"
@@ -227,7 +227,7 @@
     {
         "name": "Mrs.",
         "trans": [
-            "n. 先生"
+            "n. ngài, ông"
         ],
         "usphone": "[ˈmɪsɪz]",
         "ukphone": "[ˈmɪsɪz]"
@@ -280,9 +280,9 @@
     {
         "name": "ill",
         "trans": [
-            "n. 疾病；不幸",
-            "adj. 生病的；坏的；邪恶的；不吉利的",
-            "adv. 不利地；恶劣地；几乎不"
+            "n. bệnh tật; bất hạnh",
+            "adj. ốm; xấu; độc ác; không may",
+            "adv. bất lợi; xấu; hầu như không"
         ],
         "usphone": "[ɪl]",
         "ukphone": "[ɪl]"
@@ -307,7 +307,7 @@
     {
         "name": "word",
         "trans": [
-            "n. [语] 单词；话语；消息；诺言；命令",
+            "n. [ngôn ngữ] từ; lời nói; tin tức; lời hứa; mệnh lệnh",
             "vt. diễn đạt bằng lời"
         ],
         "usphone": "[wɜːrd]",
@@ -382,7 +382,7 @@
     {
         "name": "put on",
         "trans": [
-            "na. 假话"
+            "na. lời nói dối"
         ],
         "usphone": "[pʊt ɑːn]",
         "ukphone": "[pʊt ɒn]"
@@ -390,7 +390,7 @@
     {
         "name": "take off",
         "trans": [
-            "v. (飞机)起飞；出去；拿掉；移送"
+            "v. cất cánh; đi ra; lấy đi; chuyển đi"
         ],
         "usphone": "[ˈteɪk ɔːf]",
         "ukphone": "[ˈteɪk ɒf]"
@@ -416,9 +416,9 @@
     {
         "name": "nose",
         "trans": [
-            "n. 鼻子；嗅觉；突出的部分；探问",
-            "vt. 嗅；用鼻子触",
-            "vi. 小心探索着前进；探问"
+            "n. mũi; khứu giác; phần nhô ra; sự thăm dò",
+            "vt. ngửi; chạm bằng mũi",
+            "vi. thận trọng tiến lên thăm dò; dò hỏi"
         ],
         "usphone": "[noʊz]",
         "ukphone": "[nəʊz]"
@@ -426,9 +426,9 @@
     {
         "name": "mouth",
         "trans": [
-            "n. 口，嘴；河口",
-            "vt. 做作地说，装腔作势地说；喃喃地说出",
-            "vi. 装腔作势说话"
+            "n. miệng; cửa sông",
+            "vt. nói điệu bộ, nói kiểu cách; lẩm bẩm nói ra",
+            "vi. nói kiểu cách, lên giọng"
         ],
         "usphone": "[maʊθ]",
         "ukphone": "[maʊθ]"
@@ -447,8 +447,8 @@
     {
         "name": "ear",
         "trans": [
-            "n. 耳朵；穗；听觉；倾听",
-            "vi. （美俚）听见；抽穗"
+            "n. tai; bông lúa; thính giác; sự lắng nghe",
+            "vi. (tiếng lóng Mỹ) nghe thấy; trổ bông"
         ],
         "usphone": "[ɪr]",
         "ukphone": "[ɪə(r)]"
@@ -483,10 +483,10 @@
     {
         "name": "think",
         "trans": [
-            "n. 想；想法",
-            "adj. 思想的",
-            "vi. 想；认为",
-            "vt. 想；认为；想起；想像；打算"
+            "n. ý nghĩ; ý tưởng",
+            "adj. thuộc tư tưởng, thuộc ý nghĩ",
+            "vi. nghĩ; cho rằng",
+            "vt. nghĩ; cho rằng; nhớ lại; tưởng tượng; định"
         ],
         "usphone": "[θɪŋk]",
         "ukphone": "[θɪŋk]"
@@ -494,9 +494,9 @@
     {
         "name": "can",
         "trans": [
-            "aux. 能； 能够； 可以； 可能",
-            "n. 罐头； （用金属或塑料制作的）容器； （马口铁或其他金属制作的）食品罐头",
-            "vt. 将…装入密封罐中保存"
+            "aux. có thể, có khả năng, được phép",
+            "n. đồ hộp; hộp đựng (làm bằng kim loại hoặc nhựa); hộp thực phẩm (bằng thiếc hoặc kim loại khác)",
+            "vt. đóng hộp... để bảo quản"
         ],
         "usphone": "[kən; kæn]",
         "ukphone": "[kən; kæn]"
@@ -504,8 +504,8 @@
     {
         "name": "could",
         "trans": [
-            "aux. 能够",
-            "v. 能（can的过去式）"
+            "aux. có thể, có khả năng",
+            "v. có thể (quá khứ của can)"
         ],
         "usphone": "[kəd; kʊd]",
         "ukphone": "[kəd]"
@@ -513,8 +513,8 @@
     {
         "name": "why",
         "trans": [
-            "int. 哎呀！什么？",
-            "adv. 为什么"
+            "int. ôi!, á!; cái gì?",
+            "adv. tại sao, vì sao"
         ],
         "usphone": "[waɪ]",
         "ukphone": "[waɪ]"
@@ -522,8 +522,8 @@
     {
         "name": "holiday",
         "trans": [
-            "n. 假日；节日；休息日",
-            "vi. 外出度假"
+            "n. ngày lễ, ngày hội, ngày nghỉ",
+            "vi. đi nghỉ, đi du lịch"
         ],
         "usphone": "[ˈhɑːlədeɪ]",
         "ukphone": "[ˈhɒlədeɪ]"
@@ -531,7 +531,7 @@
     {
         "name": "bring",
         "trans": [
-            "vt. 带来；促使；引起；使某人处于某种情况或境地"
+            "vt. mang lại; thúc đẩy; gây ra; khiến ai rơi vào tình cảnh nào đó"
         ],
         "usphone": "[brɪŋ]",
         "ukphone": "[brɪŋ]"
@@ -539,7 +539,7 @@
     {
         "name": "brought",
         "trans": [
-            "v. 带来（bring的过去分词）"
+            "v. mang đến (quá khứ phân từ của bring)"
         ],
         "usphone": "[brɔːt]",
         "ukphone": "[brɔːt]"
@@ -547,9 +547,9 @@
     {
         "name": "give",
         "trans": [
-            "n. 弹性；弯曲；伸展性",
-            "vi. 捐赠；面向；有弹性；气候转暖",
-            "vt. 给；产生；让步；举办；授予"
+            "n. tính đàn hồi, độ uốn, tính co giãn",
+            "vi. quyên tặng; hướng về; co giãn; trời ấm lên",
+            "vt. cho; tạo ra; nhượng bộ; tổ chức; trao tặng"
         ],
         "usphone": "[ɡɪv]",
         "ukphone": "[ɡɪv]"
@@ -557,7 +557,7 @@
     {
         "name": "song",
         "trans": [
-            "n. 歌曲；歌唱；诗歌；鸣声"
+            "n. bài hát; tiếng hát; thơ ca; tiếng hót"
         ],
         "usphone": "[sɔŋ]",
         "ukphone": "[sɒŋ]"
@@ -566,7 +566,7 @@
         "name": "tomorrow",
         "trans": [
             "n. ngày mai; tương lai",
-            "adv. 明天；未来地（等于to-morrow）"
+            "adv. ngày mai; trong tương lai (bằng to-morrow)"
         ],
         "usphone": "[təˈmɑːroʊ]",
         "ukphone": "[təˈmɒrəʊ]"
@@ -574,9 +574,9 @@
     {
         "name": "then",
         "trans": [
-            "conj. 然后，当时",
-            "n. 那时",
-            "adv. 然后；那么；于是；当时；此外"
+            "conj. sau đó, khi đó",
+            "n. lúc đó",
+            "adv. sau đó; vậy thì; thế là; lúc đó; ngoài ra"
         ],
         "usphone": "[ðen]",
         "ukphone": "[ðen]"
@@ -601,9 +601,9 @@
     {
         "name": "little",
         "trans": [
-            "adj. 小的；很少的；短暂的；小巧可爱的",
-            "adv. 完全不",
-            "n. 少许；没有多少；短时间"
+            "adj. nhỏ; ít; ngắn ngủi; xinh xắn",
+            "adv. hoàn toàn không",
+            "n. chút ít, không nhiều, chốc lát"
         ],
         "usphone": "[ˈlɪtl]",
         "ukphone": "[ˈlɪt(ə)l]"

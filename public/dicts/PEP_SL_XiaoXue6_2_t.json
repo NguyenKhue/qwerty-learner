@@ -52,9 +52,9 @@
     {
         "name": "meet",
         "trans": [
-            "迎接",
+            "đón tiếp; chào đón",
             "gặp; gặp gỡ, tình cờ chạm phải",
-            "会面"
+            "gặp mặt; hội kiến"
         ],
         "usphone": "mit",
         "ukphone": "miːt"
@@ -70,7 +70,7 @@
     {
         "name": "show ... around",
         "trans": [
-            "带领……参观"
+            "dẫn... đi tham quan"
         ],
         "usphone": "ʃoʊ əˈraʊnd",
         "ukphone": "ʃəʊ əˈraʊnd"
@@ -95,7 +95,7 @@
     {
         "name": "public library",
         "trans": [
-            "公共图书馆"
+            "thư viện công cộng"
         ],
         "usphone": "ˈpʌblɪk ˈlaɪbrəri",
         "ukphone": "ˈpʌblɪk ˈlaɪbrəri"
@@ -103,7 +103,7 @@
     {
         "name": "downtown",
         "trans": [
-            "闹市区；市中心"
+            "khu náo nhiệt; trung tâm thành phố"
         ],
         "usphone": "ˈdaʊnˌtaʊn",
         "ukphone": "ˈdaʊntaʊn"
@@ -111,7 +111,7 @@
     {
         "name": "Lake Ontario",
         "trans": [
-            "安大略湖"
+            "Hồ Ontario"
         ],
         "usphone": "leɪk ɒnˈtɛərioʊ",
         "ukphone": "leɪk ɒnˈtɛərioʊ"
@@ -119,7 +119,7 @@
     {
         "name": "stadium",
         "trans": [
-            "（露天）体育场"
+            "(ngoài trời) sân vận động"
         ],
         "usphone": "ˈsteɪ.di.əm",
         "ukphone": "ˈsteɪ.di.əm"
@@ -143,8 +143,8 @@
     {
         "name": "top",
         "trans": [
-            "上边",
-            "上面"
+            "phía trên; bên trên",
+            "bên trên; phía trên"
         ],
         "usphone": "tɑːp",
         "ukphone": "tɒp"
@@ -170,7 +170,7 @@
     {
         "name": "less",
         "trans": [
-            "更少"
+            "ít hơn"
         ],
         "usphone": "lɛs",
         "ukphone": "lɛs"
@@ -186,7 +186,7 @@
     {
         "name": "talk about",
         "trans": [
-            "谈论"
+            "bàn luận, nói chuyện"
         ],
         "usphone": "tɔːk əˈʊt",
         "ukphone": "tɔːk əˈbaʊt"
@@ -195,7 +195,7 @@
         "name": "hockey",
         "trans": [
             "khúc côn cầu; hockey",
-            "冰上曲棍球"
+            "khúc côn cầu trên băng"
         ],
         "usphone": "ˈhoʊk.i",
         "ukphone": "ˈhəʊki"
@@ -212,7 +212,7 @@
         "name": "special",
         "trans": [
             "đặc biệt",
-            "特别"
+            "đặc biệt"
         ],
         "usphone": "ˈspɛʃ.əl",
         "ukphone": "ˈspɛʃ.əl"
@@ -220,7 +220,7 @@
     {
         "name": "beaver",
         "trans": [
-            "海（河）狸"
+            "hải ly (sông)"
         ],
         "usphone": "ˈbiːvər",
         "ukphone": "ˈbiːvə"
@@ -236,7 +236,7 @@
     {
         "name": "moose",
         "trans": [
-            "北美麋；驼鹿"
+            "nai sừng tấm Bắc Mỹ; nai sừng xẻng"
         ],
         "usphone": "muːs",
         "ukphone": "muːs"
@@ -245,7 +245,7 @@
         "name": "countryside",
         "trans": [
             "nông thôn, miền quê",
-            "乡下"
+            "nông thôn; vùng quê"
         ],
         "usphone": "ˈkʌn.tri.saɪd",
         "ukphone": "ˈkʌn.tri.saɪd"
@@ -261,7 +261,7 @@
     {
         "name": "roast turkey",
         "trans": [
-            "烤火鸡"
+            "gà tây nướng"
         ],
         "usphone": "roʊst ˈtɝː.ki",
         "ukphone": "rəʊst ˈtɜː.ki"
@@ -285,7 +285,7 @@
     {
         "name": "wild goose",
         "trans": [
-            "大雁"
+            "ngỗng trời; nhạn lớn"
         ],
         "usphone": "waɪld ɡus",
         "ukphone": "waɪld ɡuːs"
@@ -301,7 +301,7 @@
     {
         "name": "English-Chinese dictionary",
         "trans": [
-            "英汉词典"
+            "từ điển Anh-Hán"
         ],
         "usphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌner.i",
         "ukphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌnər.i"
@@ -317,7 +317,7 @@
     {
         "name": "shopping mall",
         "trans": [
-            "大型综合商业中心"
+            "trung tâm thương mại tổng hợp lớn"
         ],
         "usphone": "ˈʃɑː.pɪŋ mɔːl",
         "ukphone": "ˈʃɒp.ɪŋ mɔːl"
@@ -325,8 +325,8 @@
     {
         "name": "amazing",
         "trans": [
-            "惊人的",
-            "神奇的"
+            "đáng kinh ngạc",
+            "kỳ diệu, thần kỳ"
         ],
         "usphone": "əˈmeɪ.zɪŋ",
         "ukphone": "əˈmeɪ.zɪŋ"

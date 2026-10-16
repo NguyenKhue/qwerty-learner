@@ -12,8 +12,8 @@
     {
         "name": "drove",
         "trans": [
-            "n. 畜群；牛群、羊群等；移动的人群或大批的东西",
-            "v. 驾驶（drive的过去式）；赶(牲畜)；(牲畜贩子)买卖(牲畜)"
+            "n. đàn gia súc; đàn bò, đàn cừu...; đám đông di chuyển hoặc lượng lớn đồ vật",
+            "v. lái (quá khứ của drive); lùa (gia súc); (người buôn gia súc) mua bán (gia súc)"
         ],
         "usphone": "[droʊv]",
         "ukphone": "[drəʊv]"
@@ -80,9 +80,9 @@
     {
         "name": "dish",
         "trans": [
-            "n. 盘；餐具；一盘食物；外貌有吸引力的人",
-            "vt. 盛于碟盘中；分发；使某人的希望破灭；说（某人）的闲话",
-            "vi. 成碟状；闲谈"
+            "n. đĩa; bát đĩa; một đĩa thức ăn; người hấp dẫn",
+            "vt. bày ra đĩa; phân phát; làm tan vỡ hy vọng của ai; nói xấu (ai)",
+            "vi. có dạng đĩa; tán gẫu"
         ],
         "usphone": "[dɪʃ]",
         "ukphone": "[dɪʃ]"
@@ -133,8 +133,8 @@
     {
         "name": "borrow",
         "trans": [
-            "vt. 借；借用",
-            "vi. 借；借用；从其他语言中引入"
+            "vt. mượn; vay mượn",
+            "vi. mượn; vay mượn; du nhập từ ngôn ngữ khác"
         ],
         "usphone": "[ˈbɔːroʊ]",
         "ukphone": "[ˈbɒrəʊ]"
@@ -150,8 +150,8 @@
     {
         "name": "American",
         "trans": [
-            "n. 美国人，美洲人；美国英语",
-            "adj. 美国的，美洲的；地道美国式的"
+            "n. người Mỹ, người châu Mỹ; tiếng Anh Mỹ",
+            "adj. thuộc nước Mỹ, thuộc châu Mỹ; đậm chất Mỹ"
         ],
         "usphone": "[əˈmerɪkən]",
         "ukphone": "[əˈmerɪkən]"
@@ -159,10 +159,10 @@
     {
         "name": "read",
         "trans": [
-            "n. 阅读；读物",
-            "adj. 有学问的",
-            "vi. 读；读起来",
-            "vt. 阅读；读懂，理解"
+            "n. việc đọc; tài liệu đọc",
+            "adj. có học thức, uyên bác",
+            "vi. đọc, đọc lên nghe như",
+            "vt. đọc, đọc hiểu"
         ],
         "usphone": "[riːd]",
         "ukphone": "[riːd]"
@@ -188,9 +188,9 @@
     {
         "name": "snow",
         "trans": [
-            "n. 雪，积雪；下雪",
-            "vt. 使纷纷落下；使变白",
-            "vi. 降雪"
+            "n. tuyết, tuyết phủ, trận tuyết rơi",
+            "vt. làm rơi lả tả; làm trắng ra",
+            "vi. đổ tuyết, tuyết rơi"
         ],
         "usphone": "[snoʊ]",
         "ukphone": "[snəʊ]"
@@ -198,7 +198,7 @@
     {
         "name": "How much ...?",
         "trans": [
-            "conj. 多少"
+            "conj. bao nhiêu"
         ]
     },
     {
@@ -222,7 +222,7 @@
     {
         "name": "carry",
         "trans": [
-            "n. 运载；[计] 进位；射程",
+            "n. vận chuyển; [máy tính] số nhớ; tầm bắn",
             "có thể đạt đến; được mang; được vận chuyển",
             "lấy, khiêng; mang; hỗ trợ; vận chuyển"
         ],
@@ -232,9 +232,9 @@
     {
         "name": "pound",
         "trans": [
-            "n. 英镑；重击，重击声；兽栏；拘留所",
-            "vt. 捣烂；敲打；监禁，拘留",
-            "vi. 连续重击，猛击"
+            "n. đồng bảng Anh; cú đánh mạnh, tiếng nện; chuồng gia súc; trại tạm giữ",
+            "vt. giã nát; đánh đập; giam giữ, bắt giữ",
+            "vi. nện liên tục, đánh mạnh"
         ],
         "usphone": "[paʊnd]",
         "ukphone": "[paʊnd]"
@@ -254,10 +254,10 @@
     {
         "name": "over",
         "trans": [
-            "adv. 结束；越过；从头到尾",
-            "prep. 越过；在…之上；遍于…之上",
-            "adj. 结束的；上面的",
-            "vt. 越过"
+            "adv. xong; vượt qua; từ đầu đến cuối",
+            "prep. vượt qua; ở trên...; khắp trên...",
+            "adj. kết thúc; ở trên",
+            "vt. vượt qua"
         ],
         "usphone": "[ˈoʊvər]",
         "ukphone": "[ˈəʊvə(r)]"
@@ -295,8 +295,8 @@
     {
         "name": "thousand",
         "trans": [
-            "n. 一千；一千个；许许多多",
-            "adj. 成千的；无数的"
+            "n. một nghìn; một nghìn cái; rất nhiều",
+            "adj. hàng nghìn; vô số"
         ],
         "usphone": "[ˈθaʊz(ə)nd]",
         "ukphone": "[ˈθaʊznd]"
@@ -324,9 +324,9 @@
     {
         "name": "hope",
         "trans": [
-            "n. 希望；期望；信心",
-            "vi. 希望；期待；信赖",
-            "vt. 希望；期望"
+            "n. hy vọng; mong đợi; lòng tin",
+            "vi. hy vọng; mong đợi; tin tưởng",
+            "vt. hy vọng; mong đợi"
         ],
         "usphone": "[hoʊp]",
         "ukphone": "[həʊp]"
@@ -334,9 +334,9 @@
     {
         "name": "so",
         "trans": [
-            "conj. 所以；因此",
-            "adv. 如此，这么；确是如此",
-            "pron. 这样"
+            "conj. vì vậy; do đó",
+            "adv. như vậy, thế, quả đúng vậy",
+            "pron. như vậy, như thế này"
         ],
         "usphone": "[soʊ]",
         "ukphone": "[səʊ]"
@@ -344,9 +344,9 @@
     {
         "name": "get",
         "trans": [
-            "n. 生殖；幼兽",
-            "vi. 成为；变得；到达",
-            "vt. 使得；获得；受到；变成"
+            "n. sự sinh sản, thú non",
+            "vi. trở thành; trở nên; đến",
+            "vt. làm cho; đạt được; chịu; biến thành"
         ],
         "usphone": "[ɡet]",
         "ukphone": "[ɡet]"
@@ -362,8 +362,8 @@
     {
         "name": "amazing",
         "trans": [
-            "adj. 令人惊异的",
-            "v. 使吃惊（amaze的ing形式）"
+            "adj. đáng kinh ngạc, gây sửng sốt",
+            "v. làm kinh ngạc (dạng tiếp diễn của amaze)"
         ],
         "usphone": "[əˈmeɪzɪŋ]",
         "ukphone": "[əˈmeɪzɪŋ]"
@@ -371,9 +371,9 @@
     {
         "name": "take",
         "trans": [
-            "vi. 拿；获得",
-            "vt. 拿，取；采取；接受（礼物等）；买，花费；耗费（时间等）",
-            "n. 捕获量；看法；利益，盈益；（入场券的）售得金额"
+            "vi. lấy; nhận được",
+            "vt. lấy, cầm; áp dụng; nhận (quà...); mua, tốn; tốn (thời gian...)",
+            "n. lượng đánh bắt; quan điểm; lợi ích, lợi nhuận; (tiền) thu bán vé"
         ],
         "usphone": "[teɪk]",
         "ukphone": "[teɪk]"
@@ -401,9 +401,9 @@
     {
         "name": "evening",
         "trans": [
-            "n. 晚上；傍晚；（联欢性的）晚会；后期",
-            "adj. 在晚上的；为晚上的；晚上用的",
-            "int. 晚上好（等于good evening）"
+            "n. buổi tối; chập tối; dạ hội; giai đoạn cuối",
+            "adj. vào buổi tối; dành cho buổi tối; dùng buổi tối",
+            "int. chào buổi tối (= good evening)"
         ],
         "usphone": "[ˈiːvnɪŋ]",
         "ukphone": "[ˈiːvnɪŋ]"
@@ -419,8 +419,8 @@
     {
         "name": "busy",
         "trans": [
-            "adj. 忙碌的；热闹的；正被占用的",
-            "vt. 使忙于"
+            "adj. bận rộn, nhộn nhịp, đang bận",
+            "vt. làm bận rộn"
         ],
         "usphone": "[ˈbɪzi]",
         "ukphone": "[ˈbɪzi]"
@@ -439,8 +439,8 @@
     {
         "name": "Chinese",
         "trans": [
-            "n. 中文，汉语；中国人",
-            "adj. 中国的，中国人的；中国话的"
+            "n. tiếng Trung, Hán ngữ; người Trung Quốc",
+            "adj. của Trung Quốc, của người Trung Quốc; thuộc tiếng Trung"
         ],
         "usphone": "[ˌtʃaɪˈniːz]",
         "ukphone": "[ˌtʃaɪˈniːz]"
@@ -474,8 +474,8 @@
     {
         "name": "scissors",
         "trans": [
-            "n. 剪刀；剪式跳法",
-            "v. 剪开；删除（scissor的第三人称单数）"
+            "n. cái kéo; kiểu nhảy cắt kéo",
+            "v. cắt ra; xóa bỏ (ngôi thứ ba số ít của scissor)"
         ],
         "usphone": "[ˈsɪzərz]",
         "ukphone": "[ˈsɪzəz]"
@@ -518,7 +518,7 @@
     {
         "name": "men",
         "trans": [
-            "n. 男人，人类（man的复数）"
+            "n. đàn ông, nhân loại (số nhiều của man)"
         ],
         "usphone": "[men]",
         "ukphone": "[men]"
@@ -552,8 +552,8 @@
     {
         "name": "funny",
         "trans": [
-            "n. 滑稽人物；笑话，有趣的故事；滑稽连环漫画栏；（英）（比赛用）单人双桨小艇",
-            "adj. 有趣的，好笑的，滑稽的；（口）稀奇的，古怪的，奇异的；有病的，不舒服的；狡猾的，欺骗（性）的，可疑的，不光明"
+            "n. nhân vật hài hước; chuyện cười, câu chuyện vui; mục truyện tranh hài; (Anh) thuyền đơn chèo đôi thi đấu",
+            "adj. thú vị, buồn cười, hài hước; (khẩu ngữ) lạ lùng, kỳ quặc; ốm, khó chịu; xảo quyệt, đáng ngờ, mờ ám"
         ],
         "usphone": "[ˈfʌni]",
         "ukphone": "[ˈfʌni]"
@@ -571,10 +571,10 @@
     {
         "name": "put",
         "trans": [
-            "n. 掷；笨蛋；投击；怪人",
-            "adj. 固定不动的",
-            "vi. 出发；击；航行；发芽",
-            "vt. 放；表达；移动；安置；赋予"
+            "n. sự ném; kẻ ngốc; cú đánh; kẻ kỳ quặc",
+            "adj. cố định, bất động",
+            "vi. khởi hành; đánh; ra khơi; nảy mầm",
+            "vt. đặt; diễn đạt; di chuyển; sắp xếp; trao cho"
         ],
         "usphone": "[pʊt]",
         "ukphone": "[pʊt]"
@@ -634,8 +634,8 @@
     {
         "name": "August",
         "trans": [
-            "n. 八月（简写为Aug）",
-            "adj. 威严的；令人敬畏的"
+            "n. tháng Tám (viết tắt là Aug)",
+            "adj. uy nghiêm; đáng kính sợ"
         ],
         "usphone": "[ˈɔːɡəst]",
         "ukphone": "[ˈɔːɡəst]"

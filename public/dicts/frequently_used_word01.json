@@ -59,7 +59,7 @@
         "name": "across",
         "trans": [
             "prep. xuyên qua, ngang qua",
-            "在…对面"
+            "ở phía đối diện..."
         ],
         "pron": "[ә'krɔs]"
     },
@@ -75,7 +75,7 @@
         "name": "action",
         "trans": [
             "n.行动",
-            "作用",
+            "tác dụng",
             "chức năng"
         ],
         "pron": "['æ kʃәn]"
@@ -148,7 +148,7 @@
     {
         "name": "aid",
         "trans": [
-            "n.帮助",
+            "n. sự giúp đỡ",
             "救护",
             "trợ lý"
         ],
@@ -182,7 +182,7 @@
         "name": "almost",
         "trans": [
             "adv. gần như, hầu như",
-            "差不多"
+            "gần như, xấp xỉ"
         ],
         "pron": "['ɔ:lmәust]"
     },
@@ -207,14 +207,14 @@
             "ad.亦",
             "cũng, với lại",
             "hơn nữa, và còn",
-            "还"
+            "còn, vẫn còn"
         ],
         "pron": "['ɔ:lsәu]"
     },
     {
         "name": "although",
         "trans": [
-            "conj.尽管",
+            "conj. mặc dù, dù cho",
             "mặc dù; dù; tuy"
         ],
         "pron": "[ɔ:l'ðәu]"
@@ -282,7 +282,7 @@
     {
         "name": "anything",
         "trans": [
-            "pron.任何事物",
+            "pron. bất cứ thứ gì",
             "一切"
         ],
         "pron": "['eniθiŋ]"
@@ -291,7 +291,7 @@
         "name": "appear",
         "trans": [
             "vi. xuất hiện",
-            "来到",
+            "đến, tới",
             "v. dường như, có vẻ như"
         ],
         "pron": "[ә'piә]"
@@ -317,7 +317,7 @@
         "name": "army",
         "trans": [
             "n. quân đội",
-            "陆军"
+            "lục quân"
         ],
         "pron": "['a:mi]"
     },
@@ -339,7 +339,7 @@
     {
         "name": "as",
         "trans": [
-            "conj.当…的时候"
+            "conj. khi..."
         ],
         "pron": "[æ z, әz]"
     },
@@ -389,7 +389,7 @@
         "name": "available",
         "trans": [
             "a.可利用的",
-            "通用的"
+            "dùng chung, phổ thông"
         ],
         "pron": "[ә'veilәbl]"
     },
@@ -397,7 +397,7 @@
         "name": "away",
         "trans": [
             "ad.离开",
-            "远离",
+            "rời xa; cách xa",
             "…去"
         ],
         "pron": "[ә'wei]"
@@ -431,7 +431,7 @@
     {
         "name": "base",
         "trans": [
-            "n.基础",
+            "n. nền tảng, cơ sở",
             "底层",
             "căn cứ"
         ],
@@ -540,7 +540,7 @@
     {
         "name": "bit",
         "trans": [
-            "n.一点",
+            "n. một chút",
             "det. một số, vài, nào đó",
             "小片"
         ],
@@ -597,7 +597,7 @@
         "name": "boy",
         "trans": [
             "n. cậu bé, con trai, thằng nhóc",
-            "少年",
+            "thiếu niên",
             "gã; tên; thằng"
         ],
         "pron": "[bɔi]"
@@ -654,7 +654,7 @@
     {
         "name": "business",
         "trans": [
-            "n.商业",
+            "n. thương mại, kinh doanh",
             "việc kinh doanh",
             "việc, công việc, sự việc"
         ],
@@ -664,7 +664,7 @@
         "name": "but",
         "trans": [
             "conj. nhưng, nhưng mà, thế nhưng",
-            "可是"
+            "nhưng, thế nhưng"
         ],
         "pron": "[bʌt]"
     },
@@ -696,7 +696,7 @@
     {
         "name": "campaign",
         "trans": [
-            "n.战役",
+            "n. chiến dịch",
             "thể thao; vận động, chuyển động"
         ],
         "pron": "[kæ m'pein]"
@@ -753,7 +753,7 @@
     {
         "name": "case",
         "trans": [
-            "n.情况",
+            "n. tình hình",
             "n. sự thật; điều sự thật",
             "病例"
         ],
@@ -787,7 +787,7 @@
         "name": "century",
         "trans": [
             "n. thế kỷ",
-            "百年"
+            "trăm năm, thế kỷ"
         ],
         "pron": "['sentʃuri]"
     },
@@ -819,7 +819,7 @@
     {
         "name": "chief",
         "trans": [
-            "a.主要的",
+            "a. chủ yếu",
             "首席的"
         ],
         "pron": "[tʃi:f]"
@@ -827,7 +827,7 @@
     {
         "name": "child",
         "trans": [
-            "n.小孩"
+            "n. trẻ con, đứa trẻ"
         ],
         "pron": "[tʃaild]"
     },
@@ -842,7 +842,7 @@
         "name": "claim",
         "trans": [
             "vt.声称",
-            "主张",
+            "sự chủ trương, lập trường",
             "索取"
         ],
         "pron": "[kleim]"
@@ -850,7 +850,7 @@
     {
         "name": "class",
         "trans": [
-            "n.班级",
+            "n. lớp học",
             "阶级"
         ],
         "pron": "[kla:s]"
@@ -873,7 +873,7 @@
     {
         "name": "club",
         "trans": [
-            "n.俱乐部",
+            "n. câu lạc bộ",
             "hộp đêm"
         ],
         "pron": "[klʌb]"
@@ -888,8 +888,8 @@
     {
         "name": "come",
         "trans": [
-            "vi.来",
-            "来到",
+            "vi. đến, tới",
+            "đến, tới",
             "xuất hiện"
         ],
         "pron": "[kʌm]"
@@ -919,7 +919,7 @@
     {
         "name": "community",
         "trans": [
-            "n.社区"
+            "n. cộng đồng"
         ],
         "pron": "[kә'mju:niti]"
     },
@@ -1014,7 +1014,7 @@
     {
         "name": "council",
         "trans": [
-            "n.理事会",
+            "n. hội đồng, ban quản trị",
             "ủy ban"
         ],
         "pron": "['kaunsil]"
@@ -1038,7 +1038,7 @@
     {
         "name": "court",
         "trans": [
-            "n.法庭"
+            "n. tòa án, pháp đình"
         ],
         "pron": "[kɔ:t]"
     },
@@ -1055,7 +1055,7 @@
         "trans": [
             "vt.创造",
             "gây ra, gây nên",
-            "产生"
+            "sinh ra, tạo ra, phát sinh"
         ],
         "pron": "[kri(:)'eit]"
     },
@@ -1070,7 +1070,7 @@
         "name": "current",
         "trans": [
             "a.当前的",
-            "通用的"
+            "dùng chung, phổ thông"
         ],
         "pron": "['kʌrәnt]"
     },
@@ -1079,7 +1079,7 @@
         "trans": [
             "vt.切",
             "cắt, rạch",
-            "剪",
+            "cắt, xén",
             "giảm, giảm bớt"
         ],
         "pron": "[kʌt]"
@@ -1102,7 +1102,7 @@
     {
         "name": "deal",
         "trans": [
-            "n.交易 vi.处理"
+            "n. giao dịch; vi. xử lý, giải quyết"
         ],
         "pron": "[di:l]"
     },
@@ -1116,8 +1116,8 @@
     {
         "name": "decision",
         "trans": [
-            "n.决定",
-            "决心"
+            "n. quyết định",
+            "quyết tâm; sự quyết tâm"
         ],
         "pron": "[di'siʒәn]"
     },
@@ -1134,7 +1134,7 @@
         "trans": [
             "n.部",
             "司",
-            "局",
+            "cục, cuộc, ván",
             "处",
             "khoa"
         ],
@@ -1145,7 +1145,7 @@
         "trans": [
             "vt.形容",
             "描写",
-            "描绘"
+            "miêu tả, mô tả; khắc họa"
         ],
         "pron": "[dis'kraib]"
     },
@@ -1161,7 +1161,7 @@
         "name": "develop",
         "trans": [
             "vt.发展",
-            "形成",
+            "hình thành",
             "phát triển, khai thác"
         ],
         "pron": "[di'velәp]"
@@ -1169,7 +1169,7 @@
     {
         "name": "development",
         "trans": [
-            "n.发展",
+            "n. sự phát triển",
             "phát triển, khai thác",
             "phát triển"
         ],
@@ -1206,7 +1206,7 @@
     {
         "name": "direct",
         "trans": [
-            "a.直接的",
+            "a. trực tiếp",
             "thẳng thắn"
         ],
         "pron": "[di'rekt]"
@@ -1231,7 +1231,7 @@
     {
         "name": "doesn't",
         "trans": [
-            "aux. 不"
+            "aux. không"
         ],
         "pron": "[]"
     },
@@ -1245,7 +1245,7 @@
     {
         "name": "don't",
         "trans": [
-            "aux. 不"
+            "aux. không"
         ],
         "pron": "[]"
     },
@@ -1284,7 +1284,7 @@
     {
         "name": "drug",
         "trans": [
-            "n.药物",
+            "n. thuốc, dược phẩm",
             "ma túy"
         ],
         "pron": "[drʌg]"
@@ -1301,14 +1301,14 @@
         "trans": [
             "num. tám",
             "八个",
-            "第八"
+            "thứ tám"
         ],
         "pron": "[eit]"
     },
     {
         "name": "eighteen",
         "trans": [
-            "num.十八",
+            "num. mười tám",
             "十八个"
         ],
         "pron": "['ei'ti:n]"
@@ -1331,7 +1331,7 @@
     {
         "name": "election",
         "trans": [
-            "n.选举",
+            "n. cuộc bầu cử",
             "选举权",
             "当选"
         ],
@@ -1387,7 +1387,7 @@
     {
         "name": "ever",
         "trans": [
-            "ad.在任何时候",
+            "ad. bất cứ lúc nào",
             "adv. từng; đã từng"
         ],
         "pron": "['evә]"
@@ -1414,7 +1414,7 @@
         "trans": [
             "n. ví dụ",
             "ví dụ; trường hợp",
-            "模范"
+            "gương mẫu, mẫu mực"
         ],
         "pron": "[ig'za:mpl]"
     },
@@ -1431,8 +1431,8 @@
         "name": "experience",
         "trans": [
             "n. kinh nghiệm",
-            "感受",
-            "经历"
+            "cảm nhận, cảm giác",
+            "kinh nghiệm, trải qua"
         ],
         "pron": "[iks'piәriәns]"
     },
@@ -1448,14 +1448,14 @@
         "trans": [
             "n. khuôn mặt",
             "be mat",
-            "外表"
+            "vẻ ngoài, ngoại hình"
         ],
         "pron": "[feis]"
     },
     {
         "name": "fact",
         "trans": [
-            "n.事实",
+            "n. sự thật",
             "实际",
             "实情"
         ],
@@ -1499,15 +1499,15 @@
         "name": "father",
         "trans": [
             "n. người cha",
-            "神父",
-            "创始人"
+            "linh mục, cha xứ",
+            "người sáng lập"
         ],
         "pron": "['fa:ðә]"
     },
     {
         "name": "fear",
         "trans": [
-            "n.害怕",
+            "n. nỗi sợ, sự sợ hãi",
             "担心 vt.害怕"
         ],
         "pron": "[fiә]"
@@ -1516,7 +1516,7 @@
         "name": "feel",
         "trans": [
             "vt.n.感觉",
-            "觉得",
+            "cảm thấy, cho rằng",
             "chạm; đụng; sờ"
         ],
         "pron": "[fi:l]"
@@ -1582,7 +1582,7 @@
     {
         "name": "financial",
         "trans": [
-            "a.财政的",
+            "a. thuộc tài chính",
             "tài chính"
         ],
         "pron": "[fai'næ nʃәl, fi-]"
@@ -1631,7 +1631,7 @@
         "name": "follow",
         "trans": [
             "vt.跟随",
-            "结果是"
+            "kết quả là"
         ],
         "pron": "['fɔlәu]"
     },
@@ -1646,7 +1646,7 @@
         "name": "foot",
         "trans": [
             "n.脚",
-            "英尺"
+            "foot, feet (đơn vị đo Anh, khoảng 30,48 cm)"
         ],
         "pron": "[fut]"
     },
@@ -1678,8 +1678,8 @@
     {
         "name": "form",
         "trans": [
-            "n.形式",
-            "形状 vt.形成"
+            "n. hình thức",
+            "hình dạng; vt. hình thành"
         ],
         "pron": "[fɔ:m]"
     },
@@ -1748,7 +1748,7 @@
     {
         "name": "economy",
         "trans": [
-            "n.经济",
+            "n. kinh tế",
             "tiết kiệm",
             "节省"
         ],
@@ -1799,7 +1799,7 @@
     {
         "name": "friend",
         "trans": [
-            "n.朋友"
+            "n. bạn bè, người bạn"
         ],
         "pron": "[frend]"
     },
@@ -1829,7 +1829,7 @@
     {
         "name": "fund",
         "trans": [
-            "n.资金",
+            "n. vốn, quỹ",
             "quỹ",
             "tiền gửi, tiền tiết kiệm"
         ],
@@ -1845,7 +1845,7 @@
     {
         "name": "future",
         "trans": [
-            "n.未来"
+            "n. tương lai"
         ],
         "pron": "['fju:tʃә]"
     },
@@ -1860,7 +1860,7 @@
     {
         "name": "general",
         "trans": [
-            "a.总的",
+            "a. tổng, chung",
             "一般的n.将军"
         ],
         "pron": "['dʒenәrәl]"
@@ -1963,7 +1963,7 @@
     {
         "name": "group",
         "trans": [
-            "n.小组",
+            "n. nhóm, tổ",
             "群 vi.聚集"
         ],
         "pron": "[gru:p]"
@@ -1988,14 +1988,14 @@
         "name": "hand",
         "trans": [
             "n. tay",
-            "人手"
+            "nhân lực, nhân công"
         ],
         "pron": "[hæ nd]"
     },
     {
         "name": "happen",
         "trans": [
-            "vi.发生",
+            "vi. xảy ra, diễn ra",
             "碰巧",
             "恰好"
         ],
@@ -2020,7 +2020,7 @@
     {
         "name": "he",
         "trans": [
-            "pron.(主格)他"
+            "pron. (chủ cách) anh ấy"
         ],
         "pron": "[hi:]"
     },
@@ -2045,7 +2045,7 @@
         "name": "hear",
         "trans": [
             "vt.听见",
-            "听说"
+            "nghe nói"
         ],
         "pron": "[hiә]"
     },
@@ -2067,7 +2067,7 @@
     {
         "name": "here",
         "trans": [
-            "ad.这里",
+            "ad. ở đây",
             "向这里"
         ],
         "pron": "[hiә]"
@@ -2098,7 +2098,7 @@
     {
         "name": "him",
         "trans": [
-            "pron.(宾格)他"
+            "pron. (tân cách) anh ấy"
         ],
         "pron": "[him]"
     },
@@ -2129,7 +2129,7 @@
     {
         "name": "hit",
         "trans": [
-            "vt.打",
+            "vt. đánh",
             "碰撞 n.击"
         ],
         "pron": "[hit]"
@@ -2137,7 +2137,7 @@
     {
         "name": "hold",
         "trans": [
-            "vt.拿住",
+            "vt. nắm lấy, giữ lấy",
             "nắm vững, hiểu rõ",
             "sở hữu; có"
         ],
@@ -2183,7 +2183,7 @@
     {
         "name": "house",
         "trans": [
-            "n.房屋",
+            "n. nhà cửa",
             "nhà ở, khu cư trú"
         ],
         "pron": "[haus]"
@@ -2192,8 +2192,8 @@
         "name": "how",
         "trans": [
             "ad.怎么",
-            "怎样",
-            "多少"
+            "thế nào, như thế nào",
+            "bao nhiêu"
         ],
         "pron": "[hau]"
     },
@@ -2238,7 +2238,7 @@
     {
         "name": "independent",
         "trans": [
-            "a.独立的",
+            "a. độc lập",
             "自主的"
         ],
         "pron": "[indi'pendәnt]"
@@ -2247,7 +2247,7 @@
         "name": "industry",
         "trans": [
             "n. công nghiệp",
-            "产业",
+            "công nghiệp, ngành nghề",
             "勤劳"
         ],
         "pron": "['indәstri]"
@@ -2264,7 +2264,7 @@
     {
         "name": "interest",
         "trans": [
-            "n.兴趣",
+            "n. sự hứng thú, sở thích",
             "lợi ích",
             "Lãi suất"
         ],
@@ -2281,7 +2281,7 @@
         "name": "into",
         "trans": [
             "prep.进",
-            "入",
+            "vào, nhập",
             "进入到"
         ],
         "pron": "['intu, 'intә]"
@@ -2304,7 +2304,7 @@
     {
         "name": "it",
         "trans": [
-            "pron.这",
+            "pron. cái này, đây",
             "đó, kia",
             "nó"
         ],
@@ -2328,7 +2328,7 @@
         "name": "itself",
         "trans": [
             "pron. chính nó",
-            "自身"
+            "bản thân, chính mình"
         ],
         "pron": "[it'self]"
     },
@@ -2342,7 +2342,7 @@
     {
         "name": "job",
         "trans": [
-            "n.职业",
+            "n. nghề nghiệp",
             "làm việc; công việc"
         ],
         "pron": "[dʒɔb]"
@@ -2359,7 +2359,7 @@
         "name": "just",
         "trans": [
             "ad. vừa mới, mới rồi",
-            "只是",
+            "chỉ là, chỉ",
             "vừa đúng, vừa phải"
         ],
         "pron": "[dʒʌst]"
@@ -2420,8 +2420,8 @@
     {
         "name": "last",
         "trans": [
-            "vi.持续 a.最后的ad.最后n.最后",
-            "末尾"
+            "vi. kéo dài; a. cuối cùng; ad. cuối cùng; n. cuối",
+            "cuối, phần cuối"
         ],
         "pron": "[la:st]"
     },
@@ -2465,7 +2465,7 @@
     {
         "name": "leader",
         "trans": [
-            "n.领袖",
+            "n. lãnh tụ, lãnh đạo",
             "首领"
         ],
         "pron": "['li:dә]"
@@ -2593,7 +2593,7 @@
     {
         "name": "idea",
         "trans": [
-            "n.想法",
+            "n. ý tưởng, suy nghĩ",
             "tư tưởng; ý nghĩ",
             "ý kiến"
         ],
@@ -2617,7 +2617,7 @@
     {
         "name": "I'm",
         "trans": [
-            "我是"
+            "tôi là"
         ],
         "pron": "[aim]"
     },
@@ -2632,7 +2632,7 @@
         "name": "in",
         "trans": [
             "prep.在…里ad.进",
-            "入"
+            "vào, nhập"
         ],
         "pron": "[in]"
     },
@@ -2703,7 +2703,7 @@
         "trans": [
             "a. thấp",
             "矮的;低下的",
-            "卑贱的"
+            "hèn hạ, thấp hèn"
         ],
         "pron": "[lәu]"
     },
@@ -2860,8 +2860,8 @@
         "name": "mind",
         "trans": [
             "n. đầu óc, trí óc, óc óc",
-            "理智vt.注意",
-            "留心;介意",
+            "lý trí; vt. chú ý, lưu ý",
+            "lưu tâm, để ý; bận tâm, ngại",
             "phản đối, chống"
         ],
         "pron": "[maind]"
@@ -3007,7 +3007,7 @@
     {
         "name": "nation",
         "trans": [
-            "n.民族",
+            "n. dân tộc",
             "quốc gia, nhà nước"
         ],
         "pron": "['neiʃәn]"
@@ -3126,7 +3126,7 @@
         "name": "now",
         "trans": [
             "n.现在conj.既然ad.现在",
-            "立刻"
+            "ngay lập tức, lập tức"
         ],
         "pron": "[nau]"
     },
@@ -3134,7 +3134,7 @@
         "name": "number",
         "trans": [
             "n. con số, chữ số",
-            "号码"
+            "số, mã số"
         ],
         "pron": "['nʌmbә]"
     },
@@ -3257,14 +3257,14 @@
         "name": "or",
         "trans": [
             "conj.或",
-            "或者"
+            "hoặc, hay là"
         ],
         "pron": "[ɔ:, ә]"
     },
     {
         "name": "order",
         "trans": [
-            "n.命令;次序；治安，秩序vt.命令;定购"
+            "n. mệnh lệnh; thứ tự; trị an, trật tự; vt. ra lệnh; đặt hàng"
         ],
         "pron": "['ɔ:dә]"
     },
@@ -3341,7 +3341,7 @@
     {
         "name": "part",
         "trans": [
-            "vt.分开，拆散n.一部分;零件；角色"
+            "vt. tách ra, tháo rời; n. một phần; linh kiện; vai trò"
         ],
         "pron": "[pa:t]"
     },
@@ -3369,7 +3369,7 @@
     {
         "name": "pay",
         "trans": [
-            "vt.支付",
+            "vt. trả tiền, thanh toán",
             "付给vi.付款；付出代价n.工资，薪金"
         ],
         "pron": "[pei]"
@@ -3474,7 +3474,7 @@
     {
         "name": "policy",
         "trans": [
-            "n.政策",
+            "n. chính sách",
             "方针"
         ],
         "pron": "['pɔlisi]"
@@ -3534,7 +3534,7 @@
     {
         "name": "pressure",
         "trans": [
-            "n.压力"
+            "n. áp lực"
         ],
         "pron": "['preʃә]"
     },
@@ -3549,7 +3549,7 @@
         "name": "probably",
         "trans": [
             "ad.或许",
-            "大概"
+            "đại khái, có lẽ"
         ],
         "pron": "['prɔbәbli]"
     },
@@ -3628,7 +3628,7 @@
         "name": "question",
         "trans": [
             "vt.询问；怀疑 n.问题",
-            "疑问"
+            "nghi vấn, thắc mắc"
         ],
         "pron": "['kwestʃәn]"
     },
@@ -3642,7 +3642,7 @@
     {
         "name": "quite",
         "trans": [
-            "ad.完全",
+            "ad. hoàn toàn",
             "khá; tương đối"
         ],
         "pron": "[kwait]"
@@ -3806,7 +3806,7 @@
     {
         "name": "right",
         "trans": [
-            "a.正确的;右边的ad.对；正好；径直n.正确；权利；右面"
+            "a. đúng; bên phải; ad. đúng; vừa đúng; thẳng; n. điều đúng; quyền lợi; phía phải"
         ],
         "pron": "[rait]"
     },
@@ -3820,7 +3820,7 @@
     {
         "name": "road",
         "trans": [
-            "n.路",
+            "n. đường, con đường",
             "đường; con đường"
         ],
         "pron": "[rәud]"
@@ -3828,7 +3828,7 @@
     {
         "name": "role",
         "trans": [
-            "n.角色"
+            "n. vai trò, nhân vật"
         ],
         "pron": "[rәul]"
     },
@@ -3907,7 +3907,7 @@
     {
         "name": "secretary",
         "trans": [
-            "n.秘书",
+            "n. thư ký",
             "书记"
         ],
         "pron": "['sekrәtri]"
@@ -3915,7 +3915,7 @@
     {
         "name": "security",
         "trans": [
-            "n.安全"
+            "n. an toàn, an ninh"
         ],
         "pron": "[si'kjuәriti]"
     },
@@ -3979,21 +3979,21 @@
     {
         "name": "seven",
         "trans": [
-            "num.七"
+            "num. bảy"
         ],
         "pron": "['seven]"
     },
     {
         "name": "seventeen",
         "trans": [
-            "num.十七"
+            "num. mười bảy"
         ],
         "pron": "['sevәn'ti:n]"
     },
     {
         "name": "seventy",
         "trans": [
-            "num.七十"
+            "num. bảy mươi"
         ],
         "pron": "[sevnti]"
     },
@@ -4081,7 +4081,7 @@
     {
         "name": "sister",
         "trans": [
-            "n.姐妹"
+            "n. chị em gái"
         ],
         "pron": "[sistә]"
     },
@@ -4096,28 +4096,28 @@
         "name": "situation",
         "trans": [
             "n.处境",
-            "形势"
+            "tình hình, cục diện"
         ],
         "pron": "[sitju'eiʃәn]"
     },
     {
         "name": "six",
         "trans": [
-            "num.六"
+            "num. sáu"
         ],
         "pron": "[siks]"
     },
     {
         "name": "sixteen",
         "trans": [
-            "num.十六"
+            "num. mười sáu"
         ],
         "pron": "['siks'ti:n]"
     },
     {
         "name": "sixty",
         "trans": [
-            "num.六十"
+            "num. sáu mươi"
         ],
         "pron": "['siksti]"
     },
@@ -4149,7 +4149,7 @@
     {
         "name": "society",
         "trans": [
-            "n.社会"
+            "n. xã hội"
         ],
         "pron": "[sә'saiәti]"
     },
@@ -4164,7 +4164,7 @@
     {
         "name": "something",
         "trans": [
-            "pron.某事",
+            "pron. việc gì đó, điều gì đó",
             "pron. thứ gì, cái gì"
         ],
         "pron": "['sʌmθiŋ]"
@@ -4172,7 +4172,7 @@
     {
         "name": "son",
         "trans": [
-            "n.儿子"
+            "n. con trai"
         ],
         "pron": "[sʌn]"
     },
@@ -4217,7 +4217,7 @@
     {
         "name": "special",
         "trans": [
-            "a.特殊的",
+            "a. đặc biệt",
             "chuyên biệt, riêng biệt"
         ],
         "pron": "['speʃәl]"
@@ -4233,7 +4233,7 @@
     {
         "name": "staff",
         "trans": [
-            "n.全体工作人员"
+            "n. toàn thể nhân viên"
         ],
         "pron": "[sta:f]"
     },
@@ -4342,7 +4342,7 @@
     {
         "name": "study",
         "trans": [
-            "n.学习",
+            "n. sự học tập, việc học",
             "研究;书房vt.学习",
             "nghiên cứu"
         ],
@@ -4433,7 +4433,7 @@
     {
         "name": "ten",
         "trans": [
-            "num.十"
+            "num. mười"
         ],
         "pron": "[ten]"
     },
@@ -4484,7 +4484,7 @@
     {
         "name": "the",
         "trans": [
-            "art.这",
+            "art. này, đây",
             "đó, kia"
         ],
         "pron": "[ðә, ði]"
@@ -4506,7 +4506,7 @@
     {
         "name": "themselves",
         "trans": [
-            "pron.他们自己"
+            "pron. chính họ"
         ],
         "pron": "[ðәm'selvz]"
     },
@@ -4534,7 +4534,7 @@
     {
         "name": "they",
         "trans": [
-            "pron.(主格)他(她)们"
+            "pron. (chủ cách) họ"
         ],
         "pron": "[ðei]"
     },
@@ -4548,7 +4548,7 @@
     {
         "name": "thing",
         "trans": [
-            "n.东西",
+            "n. đồ vật, thứ",
             "việc; sự việc; chuyện"
         ],
         "pron": "[θiŋ]"
@@ -4563,14 +4563,14 @@
     {
         "name": "thirteen",
         "trans": [
-            "num.十三"
+            "num. mười ba"
         ],
         "pron": "['θә:'ti:n]"
     },
     {
         "name": "thirty",
         "trans": [
-            "num.三十"
+            "num. ba mươi"
         ],
         "pron": "['θә:ti]"
     },
@@ -4584,7 +4584,7 @@
     {
         "name": "those",
         "trans": [
-            "pron.那些"
+            "pron. những cái đó, những người đó"
         ],
         "pron": "[ðәuz]"
     },
@@ -4675,7 +4675,7 @@
         "name": "total",
         "trans": [
             "a.总的vi.合计",
-            "总共"
+            "tổng cộng"
         ],
         "pron": "['tәutl]"
     },
@@ -4719,14 +4719,14 @@
     {
         "name": "twelve",
         "trans": [
-            "num.十二"
+            "num. mười hai"
         ],
         "pron": "[twelv]"
     },
     {
         "name": "twenty",
         "trans": [
-            "num.二十"
+            "num. hai mươi"
         ],
         "pron": "['twenti]"
     },
@@ -4741,7 +4741,7 @@
     {
         "name": "two",
         "trans": [
-            "num.二"
+            "num. hai"
         ],
         "pron": "[tu:]"
     },
@@ -4756,14 +4756,14 @@
         "name": "understand",
         "trans": [
             "vt.理解",
-            "明白"
+            "rõ ràng, minh bạch; hiểu"
         ],
         "pron": "[ʌndә'stæ nd]"
     },
     {
         "name": "union",
         "trans": [
-            "n.联合",
+            "n. sự liên hợp, liên minh",
             "团结;协会"
         ],
         "pron": "['ju:njәn]"
@@ -4771,7 +4771,7 @@
     {
         "name": "university",
         "trans": [
-            "n.大学"
+            "n. đại học, trường đại học"
         ],
         "pron": "[ju:ni'vә:siti]"
     },
@@ -4793,16 +4793,16 @@
     {
         "name": "us",
         "trans": [
-            "pron.我们"
+            "pron. chúng tôi, chúng ta"
         ],
         "pron": "[ʌs, әs]"
     },
     {
         "name": "use",
         "trans": [
-            "vt.用",
-            "使用 n.使用",
-            "利用;用途"
+            "vt. dùng",
+            "sử dụng; n. sự sử dụng",
+            "tận dụng, lợi dụng; công dụng, mục đích sử dụng"
         ],
         "pron": "[ju:z, ju:s]"
     },
@@ -4841,7 +4841,7 @@
     {
         "name": "vote",
         "trans": [
-            "n.选举",
+            "n. cuộc bầu cử",
             "bỏ phiếu; bầu cử"
         ],
         "pron": "[vәut]"
@@ -4879,7 +4879,7 @@
     {
         "name": "war",
         "trans": [
-            "n.战争"
+            "n. chiến tranh"
         ],
         "pron": "[wɔ:]"
     },
@@ -4914,14 +4914,14 @@
     {
         "name": "we",
         "trans": [
-            "pron.我们"
+            "pron. chúng tôi, chúng ta"
         ],
         "pron": "[wi:]"
     },
     {
         "name": "week",
         "trans": [
-            "n.星期"
+            "n. tuần, tuần lễ"
         ],
         "pron": "[wi:k]"
     },
@@ -4957,7 +4957,7 @@
     {
         "name": "what",
         "trans": [
-            "pron.什么"
+            "pron. gì, cái gì"
         ],
         "pron": "[wCt]"
     },
@@ -4978,7 +4978,7 @@
     {
         "name": "whether",
         "trans": [
-            "conj.是否"
+            "conj. liệu có, có hay không"
         ],
         "pron": "['weðә]"
     },
@@ -4992,7 +4992,7 @@
     {
         "name": "while",
         "trans": [
-            "conj.当…的时候;而"
+            "conj. khi...; mà, trong khi"
         ],
         "pron": "[wail]"
     },
@@ -5027,7 +5027,7 @@
     {
         "name": "why",
         "trans": [
-            "ad.为什么"
+            "ad. tại sao, vì sao"
         ],
         "pron": "[wai]"
     },
@@ -5048,8 +5048,8 @@
     {
         "name": "will",
         "trans": [
-            "aux.将要",
-            "会;愿意n.意志；遗嘱"
+            "aux. sẽ",
+            "biết, có thể; sẵn lòng; n. ý chí; di chúc"
         ],
         "pron": "[wil]"
     },
@@ -5086,7 +5086,7 @@
     {
         "name": "woman",
         "trans": [
-            "n.妇女",
+            "n. phụ nữ",
             "phụ nữ"
         ],
         "pron": "['wumәn]"
@@ -5101,7 +5101,7 @@
     {
         "name": "word",
         "trans": [
-            "n.词",
+            "n. từ",
             "话"
         ],
         "pron": "[wә:d]"
@@ -5118,15 +5118,15 @@
     {
         "name": "worker",
         "trans": [
-            "n.工人"
+            "n. công nhân"
         ],
         "pron": "['wә:kә]"
     },
     {
         "name": "working",
         "trans": [
-            "n. 工作",
-            "作用",
+            "n. công việc",
+            "tác dụng",
             "lao động"
         ],
         "pron": "['wә:kiŋ]"
@@ -5134,7 +5134,7 @@
     {
         "name": "world",
         "trans": [
-            "n.世界"
+            "n. thế giới"
         ],
         "pron": "[wә:ld]"
     },
@@ -5191,7 +5191,7 @@
     {
         "name": "you",
         "trans": [
-            "pron.你",
+            "pron. bạn, anh, chị",
             "các bạn"
         ],
         "pron": "[ju:, ju]"
@@ -5206,7 +5206,7 @@
     {
         "name": "your",
         "trans": [
-            "pron.你的",
+            "pron. của bạn",
             "你们的"
         ],
         "pron": "[jɔ:]"

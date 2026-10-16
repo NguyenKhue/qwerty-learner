@@ -19,7 +19,7 @@
         "name": "name",
         "trans": [
             "tên; tên gọi",
-            "姓名"
+            "họ tên"
         ],
         "usphone": "neɪm",
         "ukphone": "neɪm"
@@ -28,7 +28,7 @@
         "name": "new",
         "trans": [
             "mới",
-            "新来的"
+            "mới đến"
         ],
         "usphone": "nuː",
         "ukphone": "njuː"
@@ -37,7 +37,7 @@
         "name": "year",
         "trans": [
             "năm",
-            "岁数"
+            "tuổi"
         ],
         "usphone": "jɪr",
         "ukphone": "jɪər"
@@ -45,8 +45,8 @@
     {
         "name": "old",
         "trans": [
-            "……岁的",
-            "年老的"
+            "... tuổi",
+            "già, lớn tuổi"
         ],
         "usphone": "oʊld",
         "ukphone": "əʊld"
@@ -54,7 +54,7 @@
     {
         "name": "how old",
         "trans": [
-            "（年龄）多大"
+            "(tuổi) bao nhiêu tuổi, mấy tuổi"
         ],
         "usphone": "haʊ oʊld",
         "ukphone": "haʊ əʊld"
@@ -86,7 +86,7 @@
     {
         "name": "dear",
         "trans": [
-            "亲爱的（用于书信中，表示客气）"
+            "thân mến (dùng trong thư, tỏ lịch sự)"
         ],
         "usphone": "dɪr",
         "ukphone": "dɪər"
@@ -118,7 +118,7 @@
     {
         "name": "arm",
         "trans": [
-            "胳膊"
+            "cánh tay"
         ],
         "usphone": "ɑːrm",
         "ukphone": "ɑːrm"
@@ -150,9 +150,9 @@
     {
         "name": "the matter",
         "trans": [
-            "麻烦事",
+            "chuyện phiền phức, rắc rối",
             "khó khăn",
-            "毛病"
+            "bệnh, khuyết điểm, trục trặc"
         ],
         "usphone": "ðə ˈmætər",
         "ukphone": "ðə ˈmætər"
@@ -161,7 +161,7 @@
         "name": "hurt",
         "trans": [
             "sự đau, nỗi đau đớn",
-            "弄疼"
+            "làm đau"
         ],
         "usphone": "hɜrt",
         "ukphone": "hɜːrt"
@@ -178,7 +178,7 @@
         "name": "bad",
         "trans": [
             "xấu, hỏng, độc hại",
-            "糟糕"
+            "tệ, tồi tệ"
         ],
         "usphone": "bæd",
         "ukphone": "bæd"
@@ -210,7 +210,7 @@
     {
         "name": "morning",
         "trans": [
-            "早晨"
+            "buổi sáng"
         ],
         "usphone": "ˈmɔrnɪŋ",
         "ukphone": "ˈmɔːrnɪŋ"
@@ -331,7 +331,7 @@
     {
         "name": "for",
         "trans": [
-            "当作",
+            "coi như, xem như",
             "như; với tư cách là"
         ],
         "usphone": "fɔr",
@@ -340,7 +340,7 @@
     {
         "name": "shopping list",
         "trans": [
-            "购物单"
+            "danh sách mua sắm"
         ],
         "usphone": "ˈʃɑpɪŋ lɪst",
         "ukphone": "ˈʃɒpɪŋ lɪst"
@@ -389,7 +389,7 @@
     {
         "name": "fish",
         "trans": [
-            "鱼肉"
+            "thịt cá"
         ],
         "usphone": "fɪʃ",
         "ukphone": "fɪʃ"
@@ -453,7 +453,7 @@
     {
         "name": "turtle",
         "trans": [
-            "海龟"
+            "rùa biển"
         ],
         "usphone": "ˈtɜːrtl",
         "ukphone": "ˈtɜːrtl"
@@ -575,7 +575,7 @@
     {
         "name": "coat",
         "trans": [
-            "大衣"
+            "áo khoác dài"
         ],
         "usphone": "koʊt",
         "ukphone": "kəʊt"
@@ -599,7 +599,7 @@
     {
         "name": "jacket",
         "trans": [
-            "夹克衫"
+            "áo jacket"
         ],
         "usphone": "ˈdʒækɪt",
         "ukphone": "ˈdʒækɪt"
@@ -656,7 +656,7 @@
     {
         "name": "look forward to",
         "trans": [
-            "盼望",
+            "mong mỏi, trông mong",
             "v. mong đợi; hy vọng"
         ],
         "usphone": "lʊk ˈfɔr.wərd tuː",
@@ -666,7 +666,7 @@
         "name": "T-shirt",
         "trans": [
             "áo phông",
-            "短袖圆领汗衫"
+            "áo thun cổ tròn ngắn tay"
         ],
         "usphone": "ˈtiːˌʃɜrt",
         "ukphone": "ˈtiːˌʃɜːt"
@@ -699,7 +699,7 @@
         "name": "dress",
         "trans": [
             "váy liền thân",
-            "套裙"
+            "váy bộ, chân váy bộ"
         ],
         "usphone": "drɛs",
         "ukphone": "drɛs"

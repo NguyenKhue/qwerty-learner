@@ -12,8 +12,8 @@
     {
         "name": "sorry",
         "trans": [
-            "adj. 遗憾的；对不起的，抱歉的",
-            "int. 对不起，抱歉（表示委婉的拒绝等）"
+            "adj. đáng tiếc; xin lỗi, lấy làm tiếc",
+            "int. xin lỗi, rất tiếc (tỏ ý từ chối lịch sự...)"
         ],
         "usphone": "[ˈsɑːri]",
         "ukphone": "[ˈsɒri]"
@@ -31,9 +31,9 @@
     {
         "name": "sing",
         "trans": [
-            "n. 演唱；鸣声；呼啸声",
-            "vt. 唱；用诗赞颂；唱着使",
-            "vi. 唱歌；歌颂；鸣叫；呼号"
+            "n. tiếng hát; tiếng hót; tiếng rít",
+            "vt. hát; ca ngợi bằng thơ; hát để khiến",
+            "vi. hát; ca ngợi; hót; kêu"
         ],
         "usphone": "[sɪŋ]",
         "ukphone": "[sɪŋ]"
@@ -61,12 +61,12 @@
     {
         "name": "down",
         "trans": [
-            "prep. 沿着，往下",
-            "n. 软毛，绒毛；[地质] 开阔的高地",
-            "adj. 向下的",
-            "vt. 打倒，击败",
-            "adv. 向下，下去；在下面",
-            "vi. 下降；下去"
+            "prep. dọc theo, xuống dưới",
+            "n. lông tơ; [địa chất] vùng cao trống trải",
+            "adj. hướng xuống dưới",
+            "vt. đánh gục, đánh bại",
+            "adv. xuống dưới, đi xuống; ở bên dưới",
+            "vi. giảm xuống; đi xuống"
         ],
         "usphone": "[daʊn]",
         "ukphone": "[daʊn]"
@@ -84,10 +84,10 @@
     {
         "name": "up",
         "trans": [
-            "prep. 在…之上；向…的较高处",
-            "n. 上升；繁荣",
-            "adj. 涨的；起床的；向上的",
-            "adv. 起来；上涨；向上"
+            "prep. ở trên...; về phía cao hơn của...",
+            "n. sự dâng lên; sự thịnh vượng",
+            "adj. dâng lên; đã dậy; hướng lên",
+            "adv. dậy; tăng lên; hướng lên trên"
         ],
         "usphone": "[ʌp]",
         "ukphone": "[ʌp]"
@@ -95,8 +95,8 @@
     {
         "name": "see",
         "trans": [
-            "vi. 看；看见；领会",
-            "vt. 看见；理解；领会"
+            "vi. nhìn; thấy; lĩnh hội",
+            "vt. nhìn thấy; hiểu; lĩnh hội"
         ],
         "usphone": "[siː]",
         "ukphone": "[siː]"
@@ -104,10 +104,10 @@
     {
         "name": "saw",
         "trans": [
-            "n. 锯子；谚语",
-            "v. see的过去式",
-            "vi. 锯；用锯；将某物锯成小块",
-            "vt. 看见；明白，了解；锯；锯成；锯开"
+            "n. cái cưa; tục ngữ",
+            "v. quá khứ của see",
+            "vi. cưa; dùng cưa; cưa vật gì thành mảnh nhỏ",
+            "vt. nhìn thấy; hiểu; cưa; cưa thành; cưa ra"
         ],
         "usphone": "[sɔː]",
         "ukphone": "[sɔː]"
@@ -115,9 +115,9 @@
     {
         "name": "look",
         "trans": [
-            "vt. 看；期待；注意；面向；看上去像",
-            "vi. 看；看起来；注意；面向",
-            "n. 看；样子；面容"
+            "vt. nhìn; mong đợi; chú ý; hướng về; trông giống",
+            "vi. nhìn; trông có vẻ; chú ý; hướng về",
+            "n. cái nhìn, vẻ ngoài, diện mạo"
         ],
         "usphone": "[lʊk]",
         "ukphone": "[lʊk]"
@@ -131,13 +131,13 @@
     {
         "name": "look at",
         "trans": [
-            "na. 看；考虑"
+            "na. nhìn; cân nhắc"
         ]
     },
     {
         "name": "boy",
         "trans": [
-            "n. 男孩；男人"
+            "n. con trai, đàn ông"
         ],
         "usphone": "[bɔɪ]",
         "ukphone": "[bɔɪ]"
@@ -145,8 +145,8 @@
     {
         "name": "girl",
         "trans": [
-            "n. 女孩；姑娘，未婚女子；女职员，女演员；（男人的）女朋友",
-            "n. （捷）吉尔"
+            "n. cô gái; thiếu nữ, phụ nữ chưa chồng; nữ nhân viên, nữ diễn viên; bạn gái (của đàn ông)",
+            "n. Jill (tên người Séc)"
         ],
         "usphone": "[ɡɜːrl]",
         "ukphone": "[ɡɜːl]"
@@ -156,8 +156,8 @@
         "trans": [
             "adv. bây giờ; ngày nay; ngay lập tức",
             "adj. hiện tại, hiện nay",
-            "n. 现在；目前",
-            "conj. 由于；既然"
+            "n. hiện tại; ngày nay",
+            "conj. vì; vì đã"
         ],
         "usphone": "[naʊ]",
         "ukphone": "[naʊ]"
@@ -184,7 +184,7 @@
     {
         "name": "woman",
         "trans": [
-            "n. 妇女；女性；成年女子"
+            "n. phụ nữ; phái nữ; phụ nữ trưởng thành"
         ],
         "usphone": "[ˈwʊmən]",
         "ukphone": "[ˈwʊmən]"
@@ -192,9 +192,9 @@
     {
         "name": "baby",
         "trans": [
-            "n. 婴儿，婴孩；孩子气的人",
-            "adj. 婴儿的；幼小的",
-            "vt. 纵容，娇纵；把……当婴儿般对待"
+            "n. em bé, trẻ sơ sinh; người trẻ con",
+            "adj. thuộc em bé; còn nhỏ",
+            "vt. nuông chiều, cưng chiều; đối xử như em bé"
         ],
         "usphone": "[ˈbeɪbi]",
         "ukphone": "[ˈbeɪbi]"
@@ -222,8 +222,8 @@
     {
         "name": "man",
         "trans": [
-            "n. 人；男人；人类；丈夫；雇工",
-            "vt. 操纵；给…配置人员；使增强勇气；在…就位"
+            "n. người; đàn ông; nhân loại; chồng; người làm thuê",
+            "vt. điều khiển; bố trí nhân sự cho...; làm tăng dũng khí; vào vị trí ở..."
         ],
         "usphone": "[mæn]",
         "ukphone": "[mæn]"
@@ -240,7 +240,7 @@
     {
         "name": "who",
         "trans": [
-            "pron. 谁；什么人"
+            "pron. ai; người nào"
         ],
         "usphone": "[huː]",
         "ukphone": "[huː]"
@@ -276,10 +276,10 @@
     {
         "name": "candy",
         "trans": [
-            "n. 糖果（等于sweets）；冰糖（等于sugar candy，rock candy）；毒品",
-            "adj. 新潮的（服饰）；甜言蜜语的",
-            "vt. 用糖煮；使结晶为砂糖；美化",
-            "vi. 糖煮；成为结晶"
+            "n. kẹo (bằng sweets); đường phèn (bằng sugar candy, rock candy); ma túy",
+            "adj. hợp mốt (quần áo); ngọt ngào, nịnh hót",
+            "vt. nấu đường; làm kết tinh thành đường; tô điểm",
+            "vi. nấu đường; kết tinh"
         ],
         "usphone": "[ˈkændi]",
         "ukphone": "[ˈkændi]"
@@ -296,8 +296,8 @@
     {
         "name": "many",
         "trans": [
-            "pron. 许多；许多人",
-            "adj. 许多的"
+            "pron. nhiều; nhiều người",
+            "adj. nhiều"
         ],
         "usphone": "[ˈmeni]",
         "ukphone": "[ˈmeni]"
@@ -305,7 +305,7 @@
     {
         "name": "child",
         "trans": [
-            "n. 儿童，小孩，孩子；产物；子孙；幼稚的人；弟子"
+            "n. trẻ em, đứa trẻ, con cái; sản phẩm; con cháu; người ấu trĩ; môn đệ"
         ],
         "usphone": "[tʃaɪld]",
         "ukphone": "[tʃaɪld]"
@@ -329,7 +329,7 @@
     {
         "name": "woman",
         "trans": [
-            "n. 妇女；女性；成年女子"
+            "n. phụ nữ; phái nữ; phụ nữ trưởng thành"
         ],
         "usphone": "[ˈwʊmən]",
         "ukphone": "[ˈwʊmən]"
@@ -337,7 +337,7 @@
     {
         "name": "men",
         "trans": [
-            "n. 男人，人类（man的复数）"
+            "n. đàn ông, nhân loại (số nhiều của man)"
         ],
         "usphone": "[men]",
         "ukphone": "[men]"
@@ -345,8 +345,8 @@
     {
         "name": "man",
         "trans": [
-            "n. 人；男人；人类；丈夫；雇工",
-            "vt. 操纵；给…配置人员；使增强勇气；在…就位"
+            "n. người; đàn ông; nhân loại; chồng; người làm thuê",
+            "vt. điều khiển; bố trí nhân sự cho...; làm tăng dũng khí; vào vị trí ở..."
         ],
         "usphone": "[mæn]",
         "ukphone": "[mæn]"
@@ -355,7 +355,7 @@
         "name": "say",
         "trans": [
             "vt. nói; giải thích; ví dụ; tuyên bố; giả định; chỉ định",
-            "vi. 讲；表示；念；假定；背诵"
+            "vi. nói; biểu thị; đọc; giả định; học thuộc"
         ],
         "usphone": "[seɪ]",
         "ukphone": "[seɪ]"
@@ -363,9 +363,9 @@
     {
         "name": "help",
         "trans": [
-            "n. 帮助；补救办法；帮忙者；有益的东西",
-            "vt. 帮助；促进；治疗；补救",
-            "vi. 帮助；有用；招待"
+            "n. sự giúp đỡ, cách khắc phục, người giúp, thứ có ích",
+            "vt. giúp đỡ; thúc đẩy; điều trị; khắc phục",
+            "vi. giúp đỡ; có ích; chiêu đãi"
         ],
         "usphone": "[help]",
         "ukphone": "[help]"
@@ -383,7 +383,7 @@
     {
         "name": "sad",
         "trans": [
-            "adj. 难过的；悲哀的，令人悲痛的；凄惨的，阴郁的（形容颜色）"
+            "adj. buồn, bi ai, đau thương, thê thảm, u ám (tả màu sắc)"
         ],
         "usphone": "[sæd]",
         "ukphone": "[sæd]"
@@ -391,9 +391,9 @@
     {
         "name": "take",
         "trans": [
-            "vi. 拿；获得",
-            "vt. 拿，取；采取；接受（礼物等）；买，花费；耗费（时间等）",
-            "n. 捕获量；看法；利益，盈益；（入场券的）售得金额"
+            "vi. lấy; nhận được",
+            "vt. lấy, cầm; áp dụng; nhận (quà...); mua, tốn; tốn (thời gian...)",
+            "n. lượng đánh bắt; quan điểm; lợi ích, lợi nhuận; (tiền) thu bán vé"
         ],
         "usphone": "[teɪk]",
         "ukphone": "[teɪk]"
@@ -401,13 +401,13 @@
     {
         "name": "take a picture",
         "trans": [
-            "v. 照相"
+            "v. chụp ảnh"
         ]
     },
     {
         "name": "be",
         "trans": [
-            "vt. 是； 有，存在； 做，成为； 发生"
+            "vt. là; có, tồn tại; làm, trở thành; xảy ra"
         ],
         "usphone": "[bi; biː]",
         "ukphone": "[bi]"
@@ -415,8 +415,8 @@
     {
         "name": "am",
         "trans": [
-            "abbr. 调幅",
-            "v. 是"
+            "abbr. điều biến biên độ (AM)",
+            "v. là"
         ],
         "usphone": "[əm; æm]",
         "ukphone": "[əm; æm]"
@@ -424,8 +424,8 @@
     {
         "name": "is",
         "trans": [
-            "v. 是（be的三单形式）",
-            "n. 存在"
+            "v. là (dạng ngôi ba số ít của be)",
+            "n. sự tồn tại"
         ],
         "usphone": "[ɪz]",
         "ukphone": "[ɪz]"
@@ -433,8 +433,8 @@
     {
         "name": "are",
         "trans": [
-            "v. 是（be的第二人称单复数现在式）",
-            "n. 公亩"
+            "v. thì, là, ở (hiện tại ngôi hai số ít và số nhiều của be)",
+            "n. sào (đơn vị diện tích, 100 m2)"
         ],
         "usphone": "[ər; ɑːr; er]",
         "ukphone": "[ɑ:(r)]"
@@ -489,7 +489,7 @@
     {
         "name": "for",
         "trans": [
-            "prep. 为，为了；因为；给；对于；至于；适合于",
+            "prep. vì, để; bởi vì; cho; đối với; về; thích hợp với",
             "conj. bởi vì"
         ],
         "usphone": "[fər; fɔːr]",
@@ -498,8 +498,8 @@
     {
         "name": "busy",
         "trans": [
-            "adj. 忙碌的；热闹的；正被占用的",
-            "vt. 使忙于"
+            "adj. bận rộn, nhộn nhịp, đang bận",
+            "vt. làm bận rộn"
         ],
         "usphone": "[ˈbɪzi]",
         "ukphone": "[ˈbɪzi]"
@@ -517,7 +517,7 @@
     {
         "name": "how much",
         "trans": [
-            "conj. 多少"
+            "conj. bao nhiêu"
         ],
         "usphone": "[haʊ mʌtʃ]",
         "ukphone": "[haʊ mʌtʃ]"
@@ -525,8 +525,8 @@
     {
         "name": "write",
         "trans": [
-            "vi. 写，写字；写作，作曲；写信",
-            "vt. 写，书写；写信给；著述"
+            "vi. viết, viết chữ; sáng tác; viết thư",
+            "vt. viết, ghi; viết thư cho; sáng tác"
         ],
         "usphone": "[raɪt]",
         "ukphone": "[raɪt]"
@@ -534,10 +534,10 @@
     {
         "name": "mum",
         "trans": [
-            "adj. 沉默的",
-            "n. 妈妈（口语）；沉默；菊花",
-            "vi. 演哑剧",
-            "int. 别说话"
+            "adj. trầm lặng, im lặng",
+            "n. mẹ (khẩu ngữ); sự im lặng; hoa cúc",
+            "vi. diễn kịch câm",
+            "int. im lặng, đừng nói"
         ],
         "usphone": "[mʌm]",
         "ukphone": "[mʌm]"
@@ -545,7 +545,7 @@
     {
         "name": "dad",
         "trans": [
-            "n. 爸爸；爹爹"
+            "n. bố, ba; cha"
         ],
         "usphone": "[dæd]",
         "ukphone": "[dæd]"
@@ -554,9 +554,9 @@
         "name": "dear",
         "trans": [
             "n. người thân mến",
-            "adj. 亲爱的；尊敬的；昂贵的",
-            "adv. 高价地；疼爱地",
-            "int. 哎呀"
+            "adj. thân yêu; kính mến; đắt đỏ",
+            "adv. đắt đỏ; trìu mến, âu yếm",
+            "int. ôi, chao ôi"
         ],
         "usphone": "[dɪr]",
         "ukphone": "[dɪə(r)]"
@@ -671,7 +671,7 @@
     {
         "name": "we",
         "trans": [
-            "pron. 我们（主格）；笔者，本人（作者或演讲人使用）；朕，寡人"
+            "pron. chúng ta (chủ ngữ); người viết, bản thân (tác giả hoặc diễn giả dùng); trẫm, quả nhân"
         ],
         "usphone": "[wi]",
         "ukphone": "[wi; wiː]"
@@ -697,11 +697,11 @@
     {
         "name": "do",
         "trans": [
-            "vi. 行，足够；生长",
-            "n. 要求；规定；C大调音阶中的第一音",
-            "v. 做；干；学习；研究；进行；完成；解答；整理；算出；引起；行过",
-            "aux. 助动词（构成疑问句和否定句）；（代替动词）；（用于加强语气）",
-            "n. （口语）事件；（主英国口语）诈骗；（主英国、新西兰口语）宴会；（口语）必须做到的事情"
+            "vi. được, đủ; lớn lên",
+            "n. yêu cầu; quy định; âm đô trong thang đô trưởng",
+            "v. làm; học; nghiên cứu; tiến hành; hoàn thành; giải đáp; sắp xếp; tính ra; gây ra; trải qua",
+            "aux. trợ động từ (tạo câu hỏi và câu phủ định); (thay cho động từ); (dùng để nhấn mạnh)",
+            "n. (khẩu ngữ) sự việc; (chủ yếu Anh) trò lừa đảo; (chủ yếu Anh, New Zealand) bữa tiệc; (khẩu ngữ) việc phải làm"
         ],
         "usphone": "[duː; də; du; doʊ]",
         "ukphone": "[duː; də; du; dəʊ]"
@@ -709,8 +709,8 @@
     {
         "name": "yesterday",
         "trans": [
-            "n. 昨天；往昔",
-            "adv. 昨天"
+            "n. hôm qua; quá khứ",
+            "adv. hôm qua"
         ],
         "usphone": "[ˈjestərdeɪ; ˈjestərdi]",
         "ukphone": "[ˈjestədeɪ]"
@@ -727,8 +727,8 @@
     {
         "name": "had",
         "trans": [
-            "v. 有；吃；得到（动词have的过去式和过去分词）",
-            "aux. 已经（用于过去完成时和过去完成进行时）"
+            "v. có; ăn; nhận được (quá khứ và quá khứ phân từ của have)",
+            "aux. đã (dùng cho thì quá khứ hoàn thành và quá khứ hoàn thành tiếp diễn)"
         ],
         "usphone": "[həd; əd; hæd]",
         "ukphone": "[həd; əd; hæd]"
@@ -745,7 +745,7 @@
     {
         "name": "went",
         "trans": [
-            "v. 去，过去（go的过去式）"
+            "v. đi, đã đi (quá khứ của go)"
         ],
         "usphone": "[went]",
         "ukphone": "[went]"
@@ -754,9 +754,9 @@
         "name": "go",
         "trans": [
             "n. đi; tiến hành; thử",
-            "vi. 走；达到；运转；趋于",
-            "vt. 忍受；出产；以…打赌",
-            "[复数 goes 第三人称单数 goes 过去式 went 过去分词 gone 现在分词 going]"
+            "vi. đi; đạt tới; vận hành; có xu hướng",
+            "vt. chịu đựng; sản xuất; cá cược...",
+            "[số nhiều goes ngôi ba số ít goes quá khứ went quá khứ phân từ gone hiện tại phân từ going]"
         ],
         "usphone": "[ɡoʊ]",
         "ukphone": "[ɡəʊ]"
@@ -764,10 +764,10 @@
     {
         "name": "saw",
         "trans": [
-            "n. 锯子；谚语",
-            "v. see的过去式",
-            "vi. 锯；用锯；将某物锯成小块",
-            "vt. 看见；明白，了解；锯；锯成；锯开"
+            "n. cái cưa; tục ngữ",
+            "v. quá khứ của see",
+            "vi. cưa; dùng cưa; cưa vật gì thành mảnh nhỏ",
+            "vt. nhìn thấy; hiểu; cưa; cưa thành; cưa ra"
         ],
         "usphone": "[sɔː]",
         "ukphone": "[sɔː]"
@@ -775,8 +775,8 @@
     {
         "name": "see",
         "trans": [
-            "vi. 看；看见；领会",
-            "vt. 看见；理解；领会"
+            "vi. nhìn; thấy; lĩnh hội",
+            "vt. nhìn thấy; hiểu; lĩnh hội"
         ],
         "usphone": "[siː]",
         "ukphone": "[siː]"
@@ -784,7 +784,7 @@
     {
         "name": "ate",
         "trans": [
-            "v. 吃（eat的过去式）"
+            "v. đã ăn (quá khứ của eat)"
         ],
         "usphone": "[eɪt]",
         "ukphone": "[et; eɪt]"
@@ -809,7 +809,7 @@
     {
         "name": "were",
         "trans": [
-            "v. 是，在（are的过去式）"
+            "v. là, ở (quá khứ của are)"
         ],
         "usphone": "[wər; wɜːr]",
         "ukphone": "[wə(r); wɜː(r)]"
@@ -817,8 +817,8 @@
     {
         "name": "are",
         "trans": [
-            "v. 是（be的第二人称单复数现在式）",
-            "n. 公亩"
+            "v. thì, là, ở (hiện tại ngôi hai số ít và số nhiều của be)",
+            "n. sào (đơn vị diện tích, 100 m2)"
         ],
         "usphone": "[ər; ɑːr; er]",
         "ukphone": "[ɑ:(r)]"
@@ -826,7 +826,7 @@
     {
         "name": "was",
         "trans": [
-            "be的第一和第三人称单数过去式"
+            "quá khứ số ít ngôi thứ nhất và thứ ba của be"
         ],
         "usphone": "[wəz; wʌz]",
         "ukphone": "[wəz; wɒz]"
@@ -834,8 +834,8 @@
     {
         "name": "am",
         "trans": [
-            "abbr. 调幅",
-            "v. 是"
+            "abbr. điều biến biên độ (AM)",
+            "v. là"
         ],
         "usphone": "[əm; æm]",
         "ukphone": "[əm; æm]"
@@ -843,8 +843,8 @@
     {
         "name": "is",
         "trans": [
-            "v. 是（be的三单形式）",
-            "n. 存在"
+            "v. là (dạng ngôi ba số ít của be)",
+            "n. sự tồn tại"
         ],
         "usphone": "[ɪz]",
         "ukphone": "[ɪz]"
@@ -852,7 +852,7 @@
     {
         "name": "happy",
         "trans": [
-            "adj. 幸福的；高兴的；巧妙的"
+            "adj. hạnh phúc; vui vẻ; khéo léo"
         ],
         "usphone": "[ˈhæpi]",
         "ukphone": "[ˈhæpi]"
@@ -860,7 +860,7 @@
     {
         "name": "bought",
         "trans": [
-            "v. 买（buy的过去式和过去分词）"
+            "v. mua (quá khứ và quá khứ phân từ của buy)"
         ],
         "usphone": "[bɔːt]",
         "ukphone": "[bɔːt]"
