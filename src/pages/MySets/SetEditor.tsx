@@ -10,11 +10,17 @@ import { PAGE_SIZE, filterIndexes, visibleCount } from '@/utils/custom-dict/sear
 import { CUSTOM_DICT_PREFIX, createCustomDict, customViewPath, getCustomDict, updateCustomDict } from '@/utils/db/custom-dict'
 import { isPersonalSeedPending } from '@/utils/db/personal-seed'
 import { useAtomValue } from 'jotai'
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
+import IconPlus from '~icons/tabler/plus'
 import IconSearch from '~icons/tabler/search'
 
-const emptyRow = (): EditableRow => ({ name: '', trans: '', usphone: '', ukphone: '', detail: '' })
+// The key keeps each card's own state (detail open, pop-in) with its word when a word is inserted above it
+type Row = EditableRow & { key: number }
+
+let nextKey = 0
+const withKey = (row: EditableRow): Row => ({ ...row, key: nextKey++ })
+const emptyRow = (): Row => withKey({ name: '', trans: '', usphone: '', ukphone: '', detail: '' })
 
 // Keyed by id so that moving between /my-sets/new and /my-sets/<id> (browser back/forward) starts from a clean editor
 export default function SetEditorRoute() {
@@ -29,7 +35,7 @@ function SetEditor({ id }: { id: string }) {
 
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
-  const [rows, setRows] = useState<EditableRow[]>([emptyRow()])
+  const [rows, setRows] = useState<Row[]>([emptyRow()])
   const [errors, setErrors] = useState<string[]>([])
   const [loading, setLoading] = useState(!isNew)
   const [loadError, setLoadError] = useState('')
@@ -59,7 +65,7 @@ function SetEditor({ id }: { id: string }) {
         }
         setName(record.name)
         setDescription(record.description)
-        setRows(wordsToRows(record.words))
+        setRows(wordsToRows(record.words).map(withKey))
         setLoading(false)
       })
       .catch((e) => {
@@ -104,14 +110,20 @@ function SetEditor({ id }: { id: string }) {
     setDescription(value)
   }, [])
 
-  // A new word goes to the top, out of the search filter and in view
-  const addRow = useCallback(() => {
+  // A new word goes in at the given position, in view and focused
+  const insertRow = useCallback((at: number) => {
     setDirty(true)
-    setRows((prev) => [emptyRow()].concat(prev))
+    setRows((prev) => [...prev.slice(0, at), emptyRow(), ...prev.slice(at)])
+    setShown((prev) => (at + 1 > prev ? at + 1 : prev))
+    setFocusIndex(at)
+  }, [])
+
+  // The top button also leaves the search filter, so the new word is not hidden by it
+  const addRow = useCallback(() => {
     setQuery('')
     setShown(PAGE_SIZE)
-    setFocusIndex(0)
-  }, [])
+    insertRow(0)
+  }, [insertRow])
 
   // A new search starts again from the first page
   useEffect(() => {
@@ -305,23 +317,36 @@ function SetEditor({ id }: { id: string }) {
               <p className="text-sm text-muted-foreground">No words match &quot;{query}&quot;.</p>
             ) : (
               <>
-                <div className="flex flex-col gap-3">
-                  {visible.map((wordIndex) => (
-                    <WordEditorCard
-                      key={wordIndex}
-                      row={rows[wordIndex]}
-                      index={wordIndex}
-                      issue={issues[wordIndex]}
-                      canMove={!isSearching}
-                      isFirst={wordIndex === 0}
-                      isLast={wordIndex === rows.length - 1}
-                      autoFocus={focusIndex === wordIndex}
-                      highlighted={highlightIndex === wordIndex}
-                      onChange={changeRow}
-                      onMove={moveRow}
-                      onRemove={removeRow}
-                    />
+                <div className="flex flex-col">
+                  {visible.map((wordIndex, i) => (
+                    <Fragment key={rows[wordIndex].key}>
+                      {/* While searching the cards are not neighbours in the list, so there is nowhere clear to insert */}
+                      {i > 0 && !isSearching ? <InsertGap at={wordIndex} onInsert={insertRow} /> : i > 0 && <div className="h-3" />}
+                      <WordEditorCard
+                        row={rows[wordIndex]}
+                        index={wordIndex}
+                        issue={issues[wordIndex]}
+                        canMove={!isSearching}
+                        isFirst={wordIndex === 0}
+                        isLast={wordIndex === rows.length - 1}
+                        autoFocus={focusIndex === wordIndex}
+                        highlighted={highlightIndex === wordIndex}
+                        onChange={changeRow}
+                        onMove={moveRow}
+                        onRemove={removeRow}
+                      />
+                    </Fragment>
                   ))}
+                  {!isSearching && (
+                    <button
+                      type="button"
+                      onClick={() => insertRow(visible[visible.length - 1] + 1)}
+                      className="mt-3 flex min-h-[44px] items-center justify-center gap-2 rounded-xl border border-dashed border-border text-sm font-medium text-muted-foreground transition-colors duration-fast hover:border-primary/50 hover:bg-primary/5 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                    >
+                      <IconPlus className="h-4 w-4" aria-hidden />
+                      {indexes.length > shown ? `Add word after word ${shown}` : 'Add word at the end'}
+                    </button>
+                  )}
                 </div>
                 {indexes.length > shown && (
                   <div className="flex justify-center">
@@ -335,6 +360,29 @@ function SetEditor({ id }: { id: string }) {
           </div>
         </>
       )}
+    </div>
+  )
+}
+
+// The space between two cards: a faint line that shows an insert button on hover or keyboard focus,
+// always visible on touch screens where there is no hover
+function InsertGap({ at, onInsert }: { at: number; onInsert: (at: number) => void }) {
+  return (
+    <div className="group relative z-10 -my-2.5 flex h-8 items-center justify-center">
+      <div
+        aria-hidden
+        className="absolute inset-x-4 top-1/2 h-px -translate-y-1/2 bg-primary/40 opacity-0 transition-opacity duration-fast group-focus-within:opacity-100 group-hover:opacity-100"
+      />
+      <button
+        type="button"
+        onClick={() => onInsert(at)}
+        aria-label={`Insert a word before word ${at + 1}`}
+        title="Insert a word here"
+        className="relative inline-flex h-7 items-center gap-1 rounded-full border border-primary/40 bg-background px-2.5 text-xs font-medium text-primary opacity-0 shadow-1 transition-opacity duration-fast hover:bg-primary/10 focus-visible:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring group-hover:opacity-100 [@media(hover:none)]:opacity-60"
+      >
+        <IconPlus className="h-3.5 w-3.5" aria-hidden />
+        Insert
+      </button>
     </div>
   )
 }
