@@ -188,283 +188,283 @@
     {
         "name": "INPUT",
         "trans": [
-            "输入; 将引脚设置为输入"
+            "đầu vào; đặt chân thành đầu vào"
         ]
     },
     {
         "name": "maker",
         "trans": [
-            "制造者; 指制造者或创建者"
+            "nhà sản xuất; chỉ nhà sản xuất hoặc người tạo"
         ]
     },
     {
         "name": "types",
         "trans": [
-            "类型; 变量的不同类型"
+            "kiểu; các kiểu biến khác nhau"
         ]
     },
     {
         "name": "break",
         "trans": [
-            "中断; 退出循环或switch"
+            "ngắt; thoát khỏi vòng lặp hoặc switch"
         ]
     },
     {
         "name": "while",
         "trans": [
-            "当; 条件为真时循环"
+            "khi; lặp khi điều kiện đúng"
         ]
     },
     {
         "name": "false",
         "trans": [
-            "假; 布尔值“假”"
+            "sai; giá trị boolean “sai”"
         ]
     },
     {
         "name": "delay",
         "trans": [
-            "延迟; 暂停程序执行"
+            "độ trễ; tạm dừng chương trình"
         ]
     },
     {
         "name": "sizeof",
         "trans": [
-            "大小; 返回数据类型的大小"
+            "kích thước; trả về kích thước của kiểu dữ liệu"
         ]
     },
     {
         "name": "static",
         "trans": [
-            "静态; 在函数调用之间保留变量值"
+            "tĩnh; giữ giá trị biến giữa các lần gọi hàm"
         ]
     },
     {
         "name": "noTone",
         "trans": [
-            "无音调; 停止声音生成"
+            "không âm; dừng việc tạo âm thanh"
         ]
     },
     {
         "name": "millis",
         "trans": [
-            "毫秒; 返回经过的毫秒数"
+            "mili giây; trả về số mili giây đã trôi qua"
         ]
     },
     {
         "name": "micros",
         "trans": [
-            "微秒; 返回经过的微秒数"
+            "micro giây; trả về số micro giây đã trôi qua"
         ]
     },
     {
         "name": "switch",
         "trans": [
-            "开关; 选择要执行的代码块"
+            "switch; chọn khối mã để thực thi"
         ]
     },
     {
         "name": "define",
         "trans": [
-            "定义; 定义宏"
+            "define; định nghĩa macro"
         ]
     },
     {
         "name": "Stream",
         "trans": [
-            "流; 处理数据输入/输出"
+            "luồng; xử lý nhập/xuất dữ liệu"
         ]
     },
     {
         "name": "double",
         "trans": [
-            "双精度; 定义双精度浮点变量"
+            "double; định nghĩa biến số thực dấu phẩy động độ chính xác kép"
         ]
     },
     {
         "name": "bitSet",
         "trans": [
-            "设置位; 在特定位置设置位"
+            "đặt bit; đặt bit tại vị trí cụ thể"
         ]
     },
     {
         "name": "OUTPUT",
         "trans": [
-            "输出; 将引脚设置为输出"
+            "đầu ra; đặt chân thành đầu ra"
         ]
     },
     {
         "name": "random",
         "trans": [
-            "随机; 生成随机数"
+            "ngẫu nhiên; tạo số ngẫu nhiên"
         ]
     },
     {
         "name": "Serial",
         "trans": [
-            "串行; 处理串行通信"
+            "nối tiếp; xử lý truyền thông nối tiếp"
         ]
     },
     {
         "name": "string",
         "trans": [
-            "字符串; 字符序列"
+            "chuỗi; dãy ký tự"
         ]
     },
     {
         "name": "return",
         "trans": [
-            "返回; 退出函数并可选地返回值"
+            "return; thoát hàm và tùy chọn trả về giá trị"
         ]
     },
     {
         "name": "boolean",
         "trans": [
-            "布尔值; 定义布尔变量"
+            "boolean; định nghĩa biến boolean"
         ]
     },
     {
         "name": "pulseIn",
         "trans": [
-            "脉冲输入; 读取引脚上的脉冲宽度"
+            "nhập xung; đọc độ rộng xung trên chân"
         ]
     },
     {
         "name": "lowByte",
         "trans": [
-            "低字节; 返回值的低字节"
+            "byte thấp; trả về byte thấp của giá trị"
         ]
     },
     {
         "name": "bitRead",
         "trans": [
-            "读取位; 读取特定位上的值"
+            "đọc bit; đọc giá trị tại bit cụ thể"
         ]
     },
     {
         "name": "shiftIn",
         "trans": [
-            "移入; 逐位移入数据"
+            "dịch vào; dịch dữ liệu vào theo từng bit"
         ]
     },
     {
         "name": "arduino",
         "trans": [
-            "arduino; 微控制器平台"
+            "arduino; nền tảng vi điều khiển"
         ]
     },
     {
         "name": "include",
         "trans": [
-            "包含; 在程序中包含文件"
+            "include; bao gồm tệp trong chương trình"
         ]
     },
     {
         "name": "pinMode",
         "trans": [
-            "引脚模式; 将引脚配置为输入或输出"
+            "chế độ chân; cấu hình chân thành đầu vào hoặc đầu ra"
         ]
     },
     {
         "name": "shiftOut",
         "trans": [
-            "移出; 逐位移出数据"
+            "dịch ra; dịch dữ liệu ra theo từng bit"
         ]
     },
     {
         "name": "volatile",
         "trans": [
-            "易变的; 表示变量可能会意外更改"
+            "volatile; cho biết biến có thể thay đổi bất ngờ"
         ]
     },
     {
         "name": "bitClear",
         "trans": [
-            "清除位; 清除特定位上的值"
+            "xóa bit; xóa giá trị tại bit cụ thể"
         ]
     },
     {
         "name": "unsigned",
         "trans": [
-            "无符号; 表示变量不能为负值"
+            "không dấu; cho biết biến không thể mang giá trị âm"
         ]
     },
     {
         "name": "continue",
         "trans": [
-            "继续; 跳过当前循环的剩余部分"
+            "continue; bỏ qua phần còn lại của vòng lặp hiện tại"
         ]
     },
     {
         "name": "bitWrite",
         "trans": [
-            "写入位; 在特定位上写入值"
+            "ghi bit; ghi giá trị vào bit cụ thể"
         ]
     },
     {
         "name": "highByte",
         "trans": [
-            "高字节; 返回值的高字节"
+            "byte cao; trả về byte cao của giá trị"
         ]
     },
     {
         "name": "constrain",
         "trans": [
-            "限制; 将值限制在范围内"
+            "giới hạn; giới hạn giá trị trong phạm vi"
         ]
     },
     {
         "name": "reference",
         "trans": [
-            "参考; 指向变量或函数"
+            "tham chiếu; trỏ đến biến hoặc hàm"
         ]
     },
     {
         "name": "analogRead",
         "trans": [
-            "模拟读取; 从模拟引脚读取值"
+            "đọc tương tự; đọc giá trị từ chân tương tự"
         ]
     },
     {
         "name": "randomSeed",
         "trans": [
-            "随机种子; 设置生成随机数的起始点"
+            "hạt giống ngẫu nhiên; đặt điểm bắt đầu tạo số ngẫu nhiên"
         ]
     },
     {
         "name": "digitalRead",
         "trans": [
-            "数字读取; 从数字引脚读取值"
+            "đọc số; đọc giá trị từ chân số"
         ]
     },
     {
         "name": "analogWrite",
         "trans": [
-            "模拟写入; 向引脚写入模拟值"
+            "ghi tương tự; ghi giá trị tương tự ra chân"
         ]
     },
     {
         "name": "digitalWrite",
         "trans": [
-            "数字写入; 向引脚写入数字值"
+            "ghi số; ghi giá trị số ra chân"
         ]
     },
     {
         "name": "detachInterrupt",
         "trans": [
-            "分离中断; 禁用引脚上的中断"
+            "tách ngắt; vô hiệu hóa ngắt trên chân"
         ]
     },
     {
         "name": "attachInterrupt",
         "trans": [
-            "连接中断; 启用引脚上的中断"
+            "gắn ngắt; kích hoạt ngắt trên chân"
         ]
     },
     {
         "name": "delayMicroseconds",
         "trans": [
-            "微秒延迟; 暂停程序执行几微秒"
+            "độ trễ micro giây; tạm dừng chương trình vài micro giây"
         ]
     }
 ]
