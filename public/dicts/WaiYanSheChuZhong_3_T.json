@@ -2,7 +2,7 @@
     {
         "name": "pair",
         "trans": [
-            "（相关的）两个人，一对"
+            "hai người (có liên quan), một đôi"
         ],
         "usphone": "pɛr",
         "ukphone": "peə"
@@ -10,8 +10,8 @@
     {
         "name": "correct",
         "trans": [
-            "改正；纠正",
-            "正确的；对的"
+            "sửa lại; chỉnh sửa",
+            "đúng; chính xác"
         ],
         "usphone": "kə'rɛkt",
         "ukphone": "kə'rekt"
@@ -27,7 +27,7 @@
     {
         "name": "word",
         "trans": [
-            "词；单词；字"
+            "từ; từ ngữ; chữ"
         ],
         "usphone": "wɝd",
         "ukphone": "wɜːd"
@@ -43,7 +43,7 @@
     {
         "name": "match",
         "trans": [
-            "找到与⋯⋯相配之物，使相配；使成对"
+            "tìm vật hợp với...; làm cho khớp; ghép thành đôi"
         ],
         "usphone": "mætʃ",
         "ukphone": "mætʃ"
@@ -51,7 +51,7 @@
     {
         "name": "meaning",
         "trans": [
-            "意义；意思"
+            "ý nghĩa; nghĩa"
         ],
         "usphone": "'minɪŋ",
         "ukphone": "'miːnɪŋ"
@@ -59,7 +59,7 @@
     {
         "name": "complete",
         "trans": [
-            "把⋯⋯填完整；使完全"
+            "điền đầy...; làm cho hoàn chỉnh"
         ],
         "usphone": "kəm'plit",
         "ukphone": "kəm'pliːt"
@@ -99,7 +99,7 @@
     {
         "name": "look up",
         "trans": [
-            "查；查找"
+            "tra; tìm kiếm"
         ],
         "usphone": "",
         "ukphone": ""
@@ -115,7 +115,7 @@
     {
         "name": "make a mistake",
         "trans": [
-            "犯错误"
+            "phạm lỗi; mắc lỗi"
         ],
         "usphone": "",
         "ukphone": ""
@@ -123,7 +123,7 @@
     {
         "name": "understand",
         "trans": [
-            "(understood) 理解；明白"
+            "(understood) hiểu; thấu hiểu"
         ],
         "usphone": "'ʌndɚ'stænd",
         "ukphone": "ʌndə'stænd"
@@ -131,7 +131,7 @@
     {
         "name": "advice",
         "trans": [
-            "意见；建议"
+            "ý kiến; lời khuyên"
         ],
         "usphone": "ədˈvaɪs",
         "ukphone": "əd'vaɪs"
@@ -155,7 +155,7 @@
     {
         "name": "write down",
         "trans": [
-            "写下；记下"
+            "viết ra; ghi lại"
         ],
         "usphone": "",
         "ukphone": ""
@@ -171,7 +171,7 @@
     {
         "name": "forget",
         "trans": [
-            "(forgot) 忘；忘记"
+            "(forgot) quên; quên đi"
         ],
         "usphone": "fɚ'ɡɛt",
         "ukphone": "fə'get"
@@ -179,7 +179,7 @@
     {
         "name": "pronounce",
         "trans": [
-            "发⋯⋯的音"
+            "phát âm..."
         ],
         "usphone": "prə'naʊns",
         "ukphone": "prə'naʊns"
@@ -195,7 +195,7 @@
     {
         "name": "radio",
         "trans": [
-            "电台；广播"
+            "đài phát thanh; phát thanh"
         ],
         "usphone": "'redɪo",
         "ukphone": "'reɪdɪəʊ"
@@ -211,7 +211,7 @@
     {
         "name": "key",
         "trans": [
-            "关键性的，非常重要的"
+            "then chốt, rất quan trọng"
         ],
         "usphone": "",
         "ukphone": "kiː"
@@ -219,7 +219,7 @@
     {
         "name": "main",
         "trans": [
-            "主要的；最大的"
+            "chính; lớn nhất"
         ],
         "usphone": "",
         "ukphone": "meɪn"
@@ -235,7 +235,7 @@
     {
         "name": "agree",
         "trans": [
-            "赞同"
+            "tán thành; đồng ý"
         ],
         "usphone": "ə'ɡri",
         "ukphone": "ə'griː"
@@ -243,7 +243,7 @@
     {
         "name": "agree with sb.",
         "trans": [
-            "同意某人"
+            "đồng ý với ai"
         ],
         "usphone": "",
         "ukphone": ""
@@ -259,7 +259,7 @@
     {
         "name": "ask for",
         "trans": [
-            "请求（给予）"
+            "yêu cầu (được cho)"
         ],
         "usphone": "",
         "ukphone": ""
@@ -275,7 +275,7 @@
     {
         "name": "basic",
         "trans": [
-            "主要的；基础的"
+            "chính; cơ bản"
         ],
         "usphone": "'beɪsɪk",
         "ukphone": "'beɪsɪk"
@@ -283,7 +283,7 @@
     {
         "name": "time",
         "trans": [
-            "次；回"
+            "lần"
         ],
         "usphone": "taɪm",
         "ukphone": "taɪm"
@@ -291,7 +291,7 @@
     {
         "name": "advise",
         "trans": [
-            "向⋯⋯提出意见；忠告；建议"
+            "đưa ra ý kiến với...; khuyên bảo; gợi ý"
         ],
         "usphone": "əd'vaɪz",
         "ukphone": "əd'vaɪz"
@@ -307,7 +307,7 @@
     {
         "name": "conversation",
         "trans": [
-            "谈话；交谈"
+            "nói chuyện; trò chuyện"
         ],
         "usphone": ",kɑnvɚ'seʃən",
         "ukphone": "kɒnvə'seɪʃ(ə)n"
@@ -315,7 +315,7 @@
     {
         "name": "quickly",
         "trans": [
-            "快地；迅速地"
+            "nhanh; nhanh chóng"
         ],
         "usphone": "'kwɪkli",
         "ukphone": "'kwɪklɪ"
@@ -323,7 +323,7 @@
     {
         "name": "natural",
         "trans": [
-            "合理的；合乎常情的"
+            "hợp lý; hợp tình"
         ],
         "usphone": "'nætʃrəl",
         "ukphone": "ˈnætʃrəl"
@@ -347,7 +347,7 @@
     {
         "name": "hill",
         "trans": [
-            "小山；小丘"
+            "đồi; gò"
         ],
         "usphone": "hɪl",
         "ukphone": "hɪl"
@@ -355,7 +355,7 @@
     {
         "name": "population",
         "trans": [
-            "（某一地区的）人口，全体居民"
+            "dân số (của một vùng), toàn bộ cư dân"
         ],
         "usphone": "ˌpɑpjuˈleɪʃn",
         "ukphone": "pɒpjʊ'leɪʃ(ə)n"
@@ -363,7 +363,7 @@
     {
         "name": "wide",
         "trans": [
-            "宽的；宽阔的"
+            "rộng; rộng rãi"
         ],
         "usphone": "waɪd",
         "ukphone": "waɪd"
@@ -379,7 +379,7 @@
     {
         "name": "pretty",
         "trans": [
-            "[主口]相当地；非常；很"
+            "[chủ yếu khẩu ngữ] khá; rất; lắm"
         ],
         "usphone": "ˈprɪtɪ",
         "ukphone": "'prɪtɪ"
@@ -387,7 +387,7 @@
     {
         "name": "pretty good",
         "trans": [
-            "相当好；很好"
+            "khá tốt; rất tốt"
         ],
         "usphone": "",
         "ukphone": ""
@@ -412,7 +412,7 @@
         "name": "north",
         "trans": [
             "bắc; phương bắc",
-            "在北方的；朝北的"
+            "ở phía bắc; hướng bắc"
         ],
         "usphone": "nɔrθ",
         "ukphone": "nɔːθ"
@@ -420,8 +420,8 @@
     {
         "name": "south",
         "trans": [
-            "南；南方",
-            "在南方的；朝南的"
+            "nam; phương nam",
+            "ở phía nam; hướng nam"
         ],
         "usphone": "saʊθ",
         "ukphone": "saʊθ"
@@ -430,7 +430,7 @@
         "name": "west",
         "trans": [
             "tây; phương tây",
-            "在西方的；朝西的"
+            "ở phía tây; hướng tây"
         ],
         "usphone": "wɛst",
         "ukphone": "west"
@@ -438,7 +438,7 @@
     {
         "name": "home town",
         "trans": [
-            "故乡；家乡"
+            "quê hương; quê nhà"
         ],
         "usphone": "",
         "ukphone": ""
@@ -454,7 +454,7 @@
     {
         "name": "be famous for",
         "trans": [
-            "因⋯⋯而闻名"
+            "nổi tiếng vì..."
         ],
         "usphone": "",
         "ukphone": ""
@@ -478,7 +478,7 @@
     {
         "name": "area",
         "trans": [
-            "地区；区域"
+            "khu vực; vùng"
         ],
         "usphone": "ˈeriə",
         "ukphone": "'eərɪə"
@@ -486,7 +486,7 @@
     {
         "name": "low",
         "trans": [
-            "矮的；低的"
+            "thấp; lùn"
         ],
         "usphone": "",
         "ukphone": "ləʊ"
@@ -494,7 +494,7 @@
     {
         "name": "mountain",
         "trans": [
-            "山；山岳"
+            "núi; núi non"
         ],
         "usphone": "ˈmaʊntn",
         "ukphone": "ˈmaʊntən"
@@ -502,7 +502,7 @@
     {
         "name": "countryside",
         "trans": [
-            "农村地区；乡下"
+            "vùng nông thôn; nông thôn"
         ],
         "usphone": "'kʌntrɪsaɪd",
         "ukphone": "'kʌntrɪsaɪd"
@@ -534,7 +534,7 @@
     {
         "name": "boring",
         "trans": [
-            "烦人的；无聊的"
+            "phiền phức; nhàm chán"
         ],
         "usphone": "'bɔrɪŋ",
         "ukphone": "'bɔːrɪŋ"
@@ -542,7 +542,7 @@
     {
         "name": "exciting",
         "trans": [
-            "令人激动的；使人兴奋的"
+            "gây xúc động; làm phấn khích"
         ],
         "usphone": "ɪk'saɪtɪŋ",
         "ukphone": "ɪk'saɪtɪŋ; ek-"
@@ -550,7 +550,7 @@
     {
         "name": "relaxing",
         "trans": [
-            "令人愉悦的；使人放松的"
+            "thú vị; làm thư giãn"
         ],
         "usphone": "rɪ'læksɪŋ",
         "ukphone": "rɪ'læksɪŋ"
@@ -558,7 +558,7 @@
     {
         "name": "score",
         "trans": [
-            "（体育比赛中）得（分）"
+            "(trong thi đấu thể thao) ghi (điểm)"
         ],
         "usphone": "skɔ",
         "ukphone": "skɔː"
@@ -566,7 +566,7 @@
     {
         "name": "already",
         "trans": [
-            "已经；早已"
+            "đã; từ lâu rồi"
         ],
         "usphone": "ɔl'rɛdi",
         "ukphone": "ɔːl'redɪ"
@@ -574,7 +574,7 @@
     {
         "name": "matter",
         "trans": [
-            "问题；麻烦"
+            "vấn đề; rắc rối"
         ],
         "usphone": "'mætɚ",
         "ukphone": "'mætə"
@@ -590,7 +590,7 @@
     {
         "name": "hurt",
         "trans": [
-            "(hurt) （使）疼痛；（使）受伤"
+            "(hurt) làm đau; bị thương"
         ],
         "usphone": "hɝ​t",
         "ukphone": "hɜːt"
@@ -598,7 +598,7 @@
     {
         "name": "enjoyable",
         "trans": [
-            "令人愉快的；有乐趣的"
+            "dễ chịu; thú vị"
         ],
         "usphone": "ɪn'dʒɔɪəbl",
         "ukphone": "ɪn'dʒɒɪəb(ə)l; en-"
@@ -622,7 +622,7 @@
     {
         "name": "miss",
         "trans": [
-            "未击中；未达到"
+            "trượt; không đạt được"
         ],
         "usphone": "mɪs",
         "ukphone": "mɪs"
@@ -630,7 +630,7 @@
     {
         "name": "mind",
         "trans": [
-            "介意；讨厌；反对"
+            "bận tâm; ghét; phản đối"
         ],
         "usphone": "maɪnd",
         "ukphone": "maɪnd"
@@ -654,7 +654,7 @@
     {
         "name": "beat",
         "trans": [
-            "(beat) 打败；战胜"
+            "(beat) đánh bại; chiến thắng"
         ],
         "usphone": "bit",
         "ukphone": "biːt"
@@ -662,7 +662,7 @@
     {
         "name": "careless",
         "trans": [
-            "粗心的；疏忽的"
+            "bất cẩn; cẩu thả"
         ],
         "usphone": "'kɛrləs",
         "ukphone": "'keələs"
@@ -670,7 +670,7 @@
     {
         "name": "cheer ⋯ on",
         "trans": [
-            "用欢呼声激励；为⋯⋯加油"
+            "cổ vũ bằng tiếng reo hò; cổ vũ cho..."
         ],
         "usphone": "",
         "ukphone": ""
@@ -686,7 +686,7 @@
     {
         "name": "fan club",
         "trans": [
-            "球迷（或影迷、歌迷）俱乐部"
+            "câu lạc bộ người hâm mộ (hoặc fan phim, fan nhạc)"
         ],
         "usphone": "",
         "ukphone": ""
@@ -694,7 +694,7 @@
     {
         "name": "against",
         "trans": [
-            "（在比赛或战斗中）对（某人或某事物）"
+            "(trong thi đấu hoặc chiến đấu) chống lại (ai đó hoặc cái gì)"
         ],
         "usphone": "əˈɡɛnst;əˈɡenst",
         "ukphone": "ə'genst; ə'geɪnst"
@@ -702,7 +702,7 @@
     {
         "name": "train",
         "trans": [
-            "（体育）训练，操练"
+            "(thể thao) luyện tập, rèn luyện"
         ],
         "usphone": "tren",
         "ukphone": "treɪn"
@@ -718,7 +718,7 @@
     {
         "name": "warm",
         "trans": [
-            "使暖和；使温暖"
+            "làm ấm; làm nóng"
         ],
         "usphone": "wɔrm",
         "ukphone": "wɔːm"
@@ -726,7 +726,7 @@
     {
         "name": "warm up",
         "trans": [
-            "热身；做准备活动"
+            "khởi động; chuẩn bị"
         ],
         "usphone": "",
         "ukphone": ""
@@ -734,7 +734,7 @@
     {
         "name": "usual",
         "trans": [
-            "通常的；平常的"
+            "thông thường; bình thường"
         ],
         "usphone": "'juʒuəl",
         "ukphone": "'juːʒʊəl"
@@ -751,7 +751,7 @@
     {
         "name": "after-school",
         "trans": [
-            "下午放学后的；课外的"
+            "sau giờ học buổi chiều; ngoại khóa"
         ],
         "usphone": "'æftəskʊl",
         "ukphone": ""
@@ -759,7 +759,7 @@
     {
         "name": "pleased",
         "trans": [
-            "开心的；满足的"
+            "vui vẻ; hài lòng"
         ],
         "usphone": "plizd",
         "ukphone": "pliːzd"
@@ -767,7 +767,7 @@
     {
         "name": "pass",
         "trans": [
-            "传递；传送"
+            "chuyển; truyền"
         ],
         "usphone": "pæs",
         "ukphone": "pɑːs"
@@ -783,7 +783,7 @@
     {
         "name": "chance",
         "trans": [
-            "可能性；机会"
+            "khả năng; cơ hội"
         ],
         "usphone": "tʃæns",
         "ukphone": "tʃɑːns"
@@ -791,7 +791,7 @@
     {
         "name": "loudly",
         "trans": [
-            "响亮地；大声地"
+            "vang dội; lớn tiếng"
         ],
         "usphone": "'laʊdli",
         "ukphone": "'laʊdlɪ"
@@ -807,7 +807,7 @@
     {
         "name": "road",
         "trans": [
-            "路；（尤指）公路"
+            "đường; (đặc biệt) đường lớn"
         ],
         "usphone": "rod",
         "ukphone": "rəʊd"
@@ -815,7 +815,7 @@
     {
         "name": "accident",
         "trans": [
-            "交通事故；意外事件"
+            "tai nạn giao thông; sự cố bất ngờ"
         ],
         "usphone": "'æksədənt",
         "ukphone": "'æksɪdənt"
@@ -823,7 +823,7 @@
     {
         "name": "except",
         "trans": [
-            "除⋯⋯之外"
+            "ngoài... ra"
         ],
         "usphone": "ɪk'sɛpt",
         "ukphone": "ɪkˈsept"
@@ -848,7 +848,7 @@
         "name": "far",
         "trans": [
             "xa; xa xôi",
-            "远的；遥远的"
+            "xa; xa xôi"
         ],
         "usphone": "fɑr",
         "ukphone": "fɑː"
@@ -864,8 +864,8 @@
     {
         "name": "close",
         "trans": [
-            "（距离上）近的，接近的",
-            "（距离上）接近地"
+            "(về khoảng cách) gần, gần gũi",
+            "(về khoảng cách) ở gần"
         ],
         "usphone": "kloz",
         "ukphone": "kləʊs"
@@ -873,7 +873,7 @@
     {
         "name": "crowded",
         "trans": [
-            "拥挤的；人数过多的"
+            "đông đúc; quá đông người"
         ],
         "usphone": "'kraʊdɪd",
         "ukphone": "'kraʊdɪd"
@@ -881,7 +881,7 @@
     {
         "name": "all the time",
         "trans": [
-            "一直；不断地"
+            "luôn luôn; liên tục"
         ],
         "usphone": "",
         "ukphone": ""
@@ -905,7 +905,7 @@
     {
         "name": "park",
         "trans": [
-            "停放（车）；泊（车）"
+            "đỗ (xe); đậu (xe)"
         ],
         "usphone": "pɑrk",
         "ukphone": "pɑːk"
@@ -913,10 +913,10 @@
     {
         "name": "outside",
         "trans": [
-            "在⋯⋯之外",
-            "在外面；朝户外",
-            "外面；外部",
-            "外部的；外表的"
+            "ở ngoài...",
+            "ở bên ngoài; ra ngoài trời",
+            "bên ngoài; phía ngoài",
+            "bên ngoài; bề ngoài"
         ],
         "usphone": ",aʊt'saɪd",
         "ukphone": "aʊt'saɪd; 'aʊtsaɪd"
@@ -932,8 +932,8 @@
     {
         "name": "cost",
         "trans": [
-            "(cost) 价钱为；花费",
-            "价钱；成本；代价"
+            "(cost) có giá là; tốn",
+            "giá; chi phí; cái giá"
         ],
         "usphone": "kɔst",
         "ukphone": "kɒst"
@@ -949,7 +949,7 @@
     {
         "name": "teahouse",
         "trans": [
-            "（尤指亚洲的）茶馆"
+            "quán trà (đặc biệt ở châu Á)"
         ],
         "usphone": "",
         "ukphone": "'tiːhaʊs"
@@ -957,7 +957,7 @@
     {
         "name": "offer",
         "trans": [
-            "提议；提出"
+            "đề nghị; đưa ra"
         ],
         "usphone": "'ɔfɚ",
         "ukphone": "'ɒfə"
@@ -965,7 +965,7 @@
     {
         "name": "end",
         "trans": [
-            "（时间的）最后一段，末尾",
+            "(thời gian) đoạn cuối, phần cuối",
             "v. kết thúc; chấm dứt"
         ],
         "usphone": "ɛnd",
@@ -990,7 +990,7 @@
     {
         "name": "act",
         "trans": [
-            "（戏剧、歌剧或芭蕾舞的）一幕"
+            "(kịch, opera hoặc ballet) một màn"
         ],
         "usphone": "ækt",
         "ukphone": "ækt"
@@ -998,8 +998,8 @@
     {
         "name": "show",
         "trans": [
-            "展示；显示",
-            "演出；表演"
+            "trưng bày; hiển thị",
+            "buổi biểu diễn; trình diễn"
         ],
         "usphone": "ʃo",
         "ukphone": "ʃəʊ"
@@ -1007,7 +1007,7 @@
     {
         "name": "common",
         "trans": [
-            "普通的；一般的"
+            "bình thường; phổ thông"
         ],
         "usphone": "'kɑmən",
         "ukphone": "'kɒmən"
@@ -1047,7 +1047,7 @@
     {
         "name": "college",
         "trans": [
-            "大学；学院"
+            "đại học; cao đẳng"
         ],
         "usphone": "'kɑlɪdʒ",
         "ukphone": "'kɒlɪdʒ"
@@ -1063,7 +1063,7 @@
     {
         "name": "name",
         "trans": [
-            "给⋯⋯取名；给⋯⋯命名"
+            "đặt tên cho..."
         ],
         "usphone": "nem",
         "ukphone": "neɪm"
@@ -1071,7 +1071,7 @@
     {
         "name": "if",
         "trans": [
-            "如果；若"
+            "nếu; nếu như"
         ],
         "usphone": "ɪf",
         "ukphone": "ɪf"
@@ -1079,7 +1079,7 @@
     {
         "name": "magic",
         "trans": [
-            "魔术的；戏法的"
+            "thuộc ảo thuật; thuộc trò ảo thuật"
         ],
         "usphone": "'mædʒɪk",
         "ukphone": "'mædʒɪk"
@@ -1095,7 +1095,7 @@
     {
         "name": "neck",
         "trans": [
-            "颈；脖子"
+            "cổ; cái cổ"
         ],
         "usphone": "nɛk",
         "ukphone": "nek"
@@ -1103,7 +1103,7 @@
     {
         "name": "thin",
         "trans": [
-            "薄的；细长的"
+            "mỏng; thon dài"
         ],
         "usphone": "θɪn",
         "ukphone": "θɪn"
@@ -1119,7 +1119,7 @@
     {
         "name": "in danger",
         "trans": [
-            "处于危险中"
+            "đang gặp nguy hiểm"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1127,7 +1127,7 @@
     {
         "name": "at last",
         "trans": [
-            "终于；最后"
+            "cuối cùng; sau cùng"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1135,7 +1135,7 @@
     {
         "name": "interested",
         "trans": [
-            "关心的；感兴趣的"
+            "quan tâm; hứng thú"
         ],
         "usphone": "'ɪntrəstɪd",
         "ukphone": "'ɪntrəstɪd"
@@ -1143,7 +1143,7 @@
     {
         "name": "allow",
         "trans": [
-            "允许；准许"
+            "cho phép; chấp thuận"
         ],
         "usphone": "ə'laʊ",
         "ukphone": "ə'laʊ"
@@ -1151,7 +1151,7 @@
     {
         "name": "think of",
         "trans": [
-            "想到；想出"
+            "nghĩ ra; nảy ra"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1168,7 +1168,7 @@
         "name": "wild",
         "trans": [
             "hoang dã, dại dã",
-            "野生环境"
+            "môi trường hoang dã"
         ],
         "usphone": "waɪld",
         "ukphone": "waɪld"
@@ -1176,7 +1176,7 @@
     {
         "name": "grow",
         "trans": [
-            "(grew) （逐渐）变得；生长"
+            "(grew) trở nên (dần dần); sinh trưởng"
         ],
         "usphone": "ɡro",
         "ukphone": "grəʊ"
@@ -1184,7 +1184,7 @@
     {
         "name": "take away",
         "trans": [
-            "夺去；拿走"
+            "lấy đi; tước đi"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1200,7 +1200,7 @@
     {
         "name": "peace",
         "trans": [
-            "和平；太平"
+            "hòa bình; yên bình"
         ],
         "usphone": "pis",
         "ukphone": "piːs"
@@ -1208,7 +1208,7 @@
     {
         "name": "in peace",
         "trans": [
-            "和平地；平静地"
+            "một cách hòa bình; yên tĩnh"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1216,7 +1216,7 @@
     {
         "name": "notice",
         "trans": [
-            "布告；告示"
+            "thông báo; cáo thị"
         ],
         "usphone": "'notɪs",
         "ukphone": "'nəʊtɪs"
@@ -1224,7 +1224,7 @@
     {
         "name": "look after",
         "trans": [
-            "照顾；照管"
+            "chăm sóc; trông nom"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1232,7 +1232,7 @@
     {
         "name": "raise",
         "trans": [
-            "筹集（钱款）；抚养；养育"
+            "quyên góp (tiền); nuôi nấng; nuôi dưỡng"
         ],
         "usphone": "rez",
         "ukphone": "reɪz"
@@ -1240,7 +1240,7 @@
     {
         "name": "research",
         "trans": [
-            "研究；探讨"
+            "nghiên cứu; tìm hiểu"
         ],
         "usphone": "'risɝtʃ",
         "ukphone": "rɪ'sɜːtʃ; 'riːsɜːtʃ"
@@ -1248,7 +1248,7 @@
     {
         "name": "baby",
         "trans": [
-            "婴儿；婴孩"
+            "em bé; trẻ sơ sinh"
         ],
         "usphone": "bebɪ",
         "ukphone": "'beɪbɪ"
@@ -1256,7 +1256,7 @@
     {
         "name": "situation",
         "trans": [
-            "形势；情况"
+            "tình hình; hoàn cảnh"
         ],
         "usphone": "ˌsɪtʃʊˈeʃən",
         "ukphone": "sɪtjʊ'eɪʃ(ə)n"
@@ -1272,7 +1272,7 @@
     {
         "name": "produce",
         "trans": [
-            "生育；繁殖"
+            "sinh nở; sinh sản"
         ],
         "usphone": "prəˈdus;(for n.)ˈprɒdus; prɑdus",
         "ukphone": "prəˈdju:s;(for n.)ˈprɒdju:s"
@@ -1281,7 +1281,7 @@
         "name": "southwest",
         "trans": [
             "tây nam",
-            "西南的；朝西南的"
+            "thuộc hướng tây nam; hướng tây nam"
         ],
         "usphone": ",saʊθ'wɛst",
         "ukphone": ",saʊθ'west"
@@ -1305,7 +1305,7 @@
     {
         "name": "set",
         "trans": [
-            "设置；设定"
+            "thiết lập; đặt"
         ],
         "usphone": "sɛt",
         "ukphone": "set"
@@ -1313,7 +1313,7 @@
     {
         "name": "set up",
         "trans": [
-            "开办；设立；创办；建立"
+            "mở; thành lập; sáng lập; xây dựng"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1321,7 +1321,7 @@
     {
         "name": "nature",
         "trans": [
-            "大自然；自然界"
+            "thiên nhiên; giới tự nhiên"
         ],
         "usphone": "'netʃɚ",
         "ukphone": "'neɪtʃə"
@@ -1329,7 +1329,7 @@
     {
         "name": "nature park",
         "trans": [
-            "自然公园"
+            "công viên tự nhiên"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1337,7 +1337,7 @@
     {
         "name": "develop",
         "trans": [
-            "研制；制定"
+            "phát triển; đề ra"
         ],
         "usphone": "dɪ'vɛləp",
         "ukphone": "dɪ'veləp"
@@ -1345,7 +1345,7 @@
     {
         "name": "feed",
         "trans": [
-            "(fed) 喂养；饲养"
+            "(fed) cho ăn; nuôi"
         ],
         "usphone": "fid",
         "ukphone": "fiːd"
@@ -1353,7 +1353,7 @@
     {
         "name": "symbol",
         "trans": [
-            "象征；标志"
+            "biểu tượng; dấu hiệu"
         ],
         "usphone": "'sɪmbl",
         "ukphone": "'sɪmb(ə)l"
@@ -1361,7 +1361,7 @@
     {
         "name": "fall",
         "trans": [
-            "(fell) 下落；跌落"
+            "(fell) rơi xuống; ngã"
         ],
         "usphone": "fɔl",
         "ukphone": "fɔːl"
@@ -1369,7 +1369,7 @@
     {
         "name": "follow",
         "trans": [
-            "跟随；紧跟"
+            "đi theo; bám sát"
         ],
         "usphone": "'fɑlo",
         "ukphone": "'fɒləʊ"
@@ -1377,7 +1377,7 @@
     {
         "name": "hole",
         "trans": [
-            "洞，孔；穴"
+            "lỗ, hang; hốc"
         ],
         "usphone": "hol",
         "ukphone": "həʊl"
@@ -1385,7 +1385,7 @@
     {
         "name": "rabbit",
         "trans": [
-            "兔；家兔"
+            "thỏ; thỏ nhà"
         ],
         "usphone": "'ræbɪt",
         "ukphone": "'ræbɪt"
@@ -1393,7 +1393,7 @@
     {
         "name": "ssh",
         "trans": [
-            "嘘（示意某人不要说话）"
+            "suỵt (ra hiệu ai đó im lặng)"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1409,7 +1409,7 @@
     {
         "name": "tea party",
         "trans": [
-            "茶会"
+            "tiệc trà"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1425,7 +1425,7 @@
     {
         "name": "once or twice",
         "trans": [
-            "偶尔；一两次"
+            "thỉnh thoảng; một hai lần"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1433,7 +1433,7 @@
     {
         "name": "suddenly",
         "trans": [
-            "突然地；出乎意料地"
+            "đột ngột; bất ngờ"
         ],
         "usphone": "'sʌdnlɪ",
         "ukphone": "ˈsʌdnlɪ"
@@ -1458,7 +1458,7 @@
     {
         "name": "field",
         "trans": [
-            "牧场；田地"
+            "đồng cỏ; cánh đồng"
         ],
         "usphone": "fild",
         "ukphone": "fiːld"
@@ -1474,7 +1474,7 @@
     {
         "name": "deep",
         "trans": [
-            "（从顶部向下）深的"
+            "(từ trên xuống) sâu"
         ],
         "usphone": "dip",
         "ukphone": "diːp"
@@ -1482,7 +1482,7 @@
     {
         "name": "while",
         "trans": [
-            "当⋯⋯的时候"
+            "khi... thì"
         ],
         "usphone": "hwaɪl",
         "ukphone": "waɪl"
@@ -1490,7 +1490,7 @@
     {
         "name": "land",
         "trans": [
-            "降落（或跳落、跌落）到地面（或水面上）"
+            "hạ xuống (hoặc nhảy xuống, rơi xuống) mặt đất (hoặc mặt nước)"
         ],
         "usphone": "lænd",
         "ukphone": "lænd"
@@ -1498,7 +1498,7 @@
     {
         "name": "dry",
         "trans": [
-            "干的；干燥的"
+            "khô; khô ráo"
         ],
         "usphone": "draɪ",
         "ukphone": "draɪ"
@@ -1506,7 +1506,7 @@
     {
         "name": "pale",
         "trans": [
-            "（肤色）苍白的"
+            "(màu da) nhợt nhạt"
         ],
         "usphone": "pel",
         "ukphone": "peɪl"
@@ -1522,7 +1522,7 @@
     {
         "name": "round",
         "trans": [
-            "转到（某物的）另一边"
+            "chuyển sang phía bên kia (của vật gì)"
         ],
         "usphone": "raʊnd",
         "ukphone": "raʊnd"
@@ -1530,7 +1530,7 @@
     {
         "name": "corner",
         "trans": [
-            "拐角；街角"
+            "góc phố; góc đường"
         ],
         "usphone": "'kɔrnɚ",
         "ukphone": "'kɔːnə"
@@ -1538,7 +1538,7 @@
     {
         "name": "hit",
         "trans": [
-            "(hit) （使）碰撞"
+            "(hit) (làm) va chạm"
         ],
         "usphone": "hɪt",
         "ukphone": "hɪt"
@@ -1546,7 +1546,7 @@
     {
         "name": "glad",
         "trans": [
-            "高兴的；欢喜的"
+            "vui mừng; hân hoan"
         ],
         "usphone": "ɡlæd",
         "ukphone": "glæd"
@@ -1562,7 +1562,7 @@
     {
         "name": "fall off",
         "trans": [
-            "从⋯⋯跌落"
+            "rơi khỏi..."
         ],
         "usphone": "",
         "ukphone": ""
@@ -1586,7 +1586,7 @@
     {
         "name": "pay attention",
         "trans": [
-            "注意；留心"
+            "chú ý; để ý"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1594,7 +1594,7 @@
     {
         "name": "side",
         "trans": [
-            "（物体或形状的）侧面"
+            "mặt bên (của vật thể hoặc hình dạng)"
         ],
         "usphone": "saɪd",
         "ukphone": "saɪd"
@@ -1602,7 +1602,7 @@
     {
         "name": "side by side",
         "trans": [
-            "并排地；肩并肩地"
+            "kề vai nhau; vai kề vai"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1610,7 +1610,7 @@
     {
         "name": "bite",
         "trans": [
-            "(bit) 咬；叮"
+            "(bit) cắn; đốt"
         ],
         "usphone": "baɪt",
         "ukphone": "baɪt"
@@ -1618,7 +1618,7 @@
     {
         "name": "climb",
         "trans": [
-            "爬；攀爬"
+            "bò; leo"
         ],
         "usphone": "klaɪm",
         "ukphone": "klaɪm"
@@ -1626,7 +1626,7 @@
     {
         "name": "hide",
         "trans": [
-            "(hid) 躲；躲藏"
+            "(hid) trốn; ẩn nấp"
         ],
         "usphone": "haɪd",
         "ukphone": "haɪd"
@@ -1634,7 +1634,7 @@
     {
         "name": "throw",
         "trans": [
-            "(threw) 扔；掷"
+            "(threw) ném; quăng"
         ],
         "usphone": "θro",
         "ukphone": "θrəʊ"
@@ -1658,8 +1658,8 @@
     {
         "name": "worse",
         "trans": [
-            "更糟的；更坏的",
-            "更糟；更严重"
+            "tệ hơn; xấu hơn",
+            "tệ hơn; nghiêm trọng hơn"
         ],
         "usphone": "wɜrs",
         "ukphone": "wəːs"
@@ -1667,7 +1667,7 @@
     {
         "name": "medicine",
         "trans": [
-            "药；药物"
+            "thuốc; dược phẩm"
         ],
         "usphone": "ˈmedɪsn; mɛdəsn",
         "ukphone": "ˈmedsn"
@@ -1675,7 +1675,7 @@
     {
         "name": "noise",
         "trans": [
-            "噪声；杂音"
+            "tiếng ồn; tạp âm"
         ],
         "usphone": "nɔɪz",
         "ukphone": "nɔɪz"
@@ -1691,7 +1691,7 @@
     {
         "name": "notes",
         "trans": [
-            "笔记；随笔 (pl.)"
+            "ghi chú; bút ký (pl.)"
         ],
         "usphone": "nots",
         "ukphone": "nəʊts"
@@ -1699,7 +1699,7 @@
     {
         "name": "report",
         "trans": [
-            "报告；汇报"
+            "báo cáo; tường trình"
         ],
         "usphone": "rɪ'pɔrt",
         "ukphone": "rɪ'pɔːt"
@@ -1707,7 +1707,7 @@
     {
         "name": "Grow",
         "trans": [
-            "(grew) 增长；增大"
+            "(grew) tăng lên; lớn lên"
         ],
         "usphone": "ɡro",
         "ukphone": "grəʊ"
@@ -1723,7 +1723,7 @@
     {
         "name": "cause",
         "trans": [
-            "造成；引起"
+            "gây ra; gây nên"
         ],
         "usphone": "kɔz",
         "ukphone": "kɔːz"
@@ -1731,7 +1731,7 @@
     {
         "name": "problem",
         "trans": [
-            "麻烦；问题"
+            "rắc rối; vấn đề"
         ],
         "usphone": "'prɑbləm",
         "ukphone": "'prɒbləm"
@@ -1739,7 +1739,7 @@
     {
         "name": "increase",
         "trans": [
-            "增大；增长"
+            "tăng lên; gia tăng"
         ],
         "usphone": "ɪnˈkris; ˈɪnˌkris",
         "ukphone": "ɪn'kriːs"
@@ -1771,7 +1771,7 @@
     {
         "name": "hang on",
         "trans": [
-            "[口]稍等"
+            "[khẩu ngữ] đợi một chút"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1779,7 +1779,7 @@
     {
         "name": "flat",
         "trans": [
-            "套房；公寓"
+            "căn hộ; chung cư"
         ],
         "usphone": "flæt",
         "ukphone": "flæt"
@@ -1795,7 +1795,7 @@
     {
         "name": "quiet",
         "trans": [
-            "寂静的；安静的"
+            "yên tĩnh; tĩnh lặng"
         ],
         "usphone": "'kwaɪət",
         "ukphone": "'kwaɪət"
@@ -1811,7 +1811,7 @@
     {
         "name": "close down",
         "trans": [
-            "（永久）关闭，关停"
+            "đóng cửa (vĩnh viễn), ngừng hoạt động"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1819,7 +1819,7 @@
     {
         "name": "pupil",
         "trans": [
-            "学生；（尤指）小学生"
+            "học sinh; (đặc biệt) học sinh tiểu học"
         ],
         "usphone": "pjupl",
         "ukphone": "'pjuːpɪl; -p(ə)l"
@@ -1843,7 +1843,7 @@
     {
         "name": "service",
         "trans": [
-            "公共服务；服务"
+            "dịch vụ công; dịch vụ"
         ],
         "usphone": "'sɝvɪs",
         "ukphone": "'sɜːvɪs"
@@ -1859,7 +1859,7 @@
     {
         "name": "cloud",
         "trans": [
-            "云；云雾"
+            "mây; mây mù"
         ],
         "usphone": "klaʊd",
         "ukphone": "klaʊd"
@@ -1876,7 +1876,7 @@
         "name": "snow",
         "trans": [
             "n. tuyết",
-            "下雪"
+            "tuyết rơi"
         ],
         "usphone": "sno",
         "ukphone": "snəʊ"
@@ -1900,7 +1900,7 @@
     {
         "name": "rainy",
         "trans": [
-            "多雨的；下雨的"
+            "nhiều mưa; có mưa"
         ],
         "usphone": "'reni",
         "ukphone": "'reɪnɪ"
@@ -1908,7 +1908,7 @@
     {
         "name": "snowy",
         "trans": [
-            "多雪的；下雪的"
+            "nhiều tuyết; có tuyết rơi"
         ],
         "usphone": "'snoɪ",
         "ukphone": "'snəʊɪ"
@@ -1924,7 +1924,7 @@
     {
         "name": "windy",
         "trans": [
-            "多风的；刮大风的"
+            "nhiều gió; gió lớn"
         ],
         "usphone": "'wɪndi",
         "ukphone": "'wɪndɪ"
@@ -1981,7 +1981,7 @@
     {
         "name": "minus",
         "trans": [
-            "负的；零下的"
+            "âm; dưới không độ"
         ],
         "usphone": "'maɪnəs",
         "ukphone": "'maɪnəs"
@@ -1989,7 +1989,7 @@
     {
         "name": "degree",
         "trans": [
-            "度；度数"
+            "độ; số độ"
         ],
         "usphone": "dɪ'ɡri",
         "ukphone": "dɪ'griː"
@@ -1997,7 +1997,7 @@
     {
         "name": "although",
         "trans": [
-            "然而；尽管"
+            "tuy nhiên; mặc dù"
         ],
         "usphone": "ɔl'ðo",
         "ukphone": "ɔːl'ðəʊ; ɒl-"
@@ -2005,7 +2005,7 @@
     {
         "name": "wet",
         "trans": [
-            "下雨的；湿的"
+            "có mưa; ẩm ướt"
         ],
         "usphone": "wɛt",
         "ukphone": "wet"
@@ -2013,7 +2013,7 @@
     {
         "name": "neither",
         "trans": [
-            "（某人或某事物）也不"
+            "(ai đó hoặc cái gì) cũng không"
         ],
         "usphone": "ˈniðɚ",
         "ukphone": "ˈnaɪðə; ˈniːðə"
@@ -2021,7 +2021,7 @@
     {
         "name": "terrible",
         "trans": [
-            "使人烦恼的；可怕的"
+            "gây phiền phức; đáng sợ"
         ],
         "usphone": "'tɛrəbl",
         "ukphone": "ˈterəbl"
@@ -2029,7 +2029,7 @@
     {
         "name": "wish",
         "trans": [
-            "但愿；希望"
+            "mong rằng; hy vọng"
         ],
         "usphone": "wɪʃ",
         "ukphone": "wɪʃ"
@@ -2037,7 +2037,7 @@
     {
         "name": "probably",
         "trans": [
-            "或许；可能"
+            "có lẽ; có thể"
         ],
         "usphone": "'prɑbəbli",
         "ukphone": "'prɒbəblɪ"
@@ -2061,7 +2061,7 @@
     {
         "name": "Round",
         "trans": [
-            "围绕地"
+            "xung quanh"
         ],
         "usphone": "raʊnd",
         "ukphone": "raʊnd"
@@ -2070,7 +2070,7 @@
         "name": "northwest",
         "trans": [
             "tây bắc",
-            "西北的；朝西北的"
+            "thuộc hướng tây bắc; hướng tây bắc"
         ],
         "usphone": "'nɔrθ'wɛst",
         "ukphone": ",nɔ:θ'west"
@@ -2079,7 +2079,7 @@
         "name": "southeast",
         "trans": [
             "đông nam",
-            "东南的；朝东南的"
+            "thuộc hướng đông nam; hướng đông nam"
         ],
         "usphone": ",saʊθ'ist",
         "ukphone": ",saʊθ'iːst"
@@ -2087,7 +2087,7 @@
     {
         "name": "from time to time",
         "trans": [
-            "有时；间或"
+            "đôi khi; thỉnh thoảng"
         ],
         "usphone": "",
         "ukphone": ""
@@ -2095,7 +2095,7 @@
     {
         "name": "cap",
         "trans": [
-            "（有檐的）帽子"
+            "mũ (có vành)"
         ],
         "usphone": "kæp",
         "ukphone": "kæp"
@@ -2111,7 +2111,7 @@
     {
         "name": "Set",
         "trans": [
-            "（同类事物的）（一）套，（一）副，（一）组"
+            "(cùng loại) một bộ, một đôi, một nhóm"
         ],
         "usphone": "sɛt",
         "ukphone": "set"
@@ -2119,7 +2119,7 @@
     {
         "name": "a chess set",
         "trans": [
-            "一副国际象棋"
+            "một bộ cờ vua"
         ],
         "usphone": "",
         "ukphone": ""
@@ -2143,7 +2143,7 @@
     {
         "name": "video",
         "trans": [
-            "（电子）视频的"
+            "(điện tử) thuộc video"
         ],
         "usphone": "'vɪdɪo",
         "ukphone": "'vɪdɪəʊ"
@@ -2167,8 +2167,8 @@
     {
         "name": "surprise",
         "trans": [
-            "惊奇；意外之事",
-            "使（某人）吃惊"
+            "ngạc nhiên; điều bất ngờ",
+            "làm (ai đó) ngạc nhiên"
         ],
         "usphone": "sɚ'praɪz",
         "ukphone": "sə'praɪz"
@@ -2176,7 +2176,7 @@
     {
         "name": "immediately",
         "trans": [
-            "立刻；当即"
+            "ngay lập tức; tức thì"
         ],
         "usphone": "ɪ'midɪətli",
         "ukphone": "ɪ'miːdɪətlɪ"
@@ -2184,7 +2184,7 @@
     {
         "name": "difference",
         "trans": [
-            "差别；差异"
+            "khác biệt; sự khác nhau"
         ],
         "usphone": "'dɪfrəns",
         "ukphone": "'dɪf(ə)r(ə)ns"
@@ -2192,7 +2192,7 @@
     {
         "name": "accept",
         "trans": [
-            "收受；接受"
+            "nhận; chấp nhận"
         ],
         "usphone": "əkˈsɛpt",
         "ukphone": "əkˈsept"
@@ -2200,7 +2200,7 @@
     {
         "name": "tradition",
         "trans": [
-            "传统习俗"
+            "phong tục truyền thống"
         ],
         "usphone": "trə'dɪʃən",
         "ukphone": "trə'dɪʃ(ə)n"
@@ -2208,7 +2208,7 @@
     {
         "name": "example",
         "trans": [
-            "例子；实例"
+            "ví dụ; thí dụ"
         ],
         "usphone": "ɪg'zæmpl",
         "ukphone": "ɪg'zɑːmp(ə)l; eg-"
@@ -2224,7 +2224,7 @@
     {
         "name": "must",
         "trans": [
-            "必须；应该"
+            "phải; nên"
         ],
         "usphone": "mʌst",
         "ukphone": "mʌst"
@@ -2240,7 +2240,7 @@
     {
         "name": "serious",
         "trans": [
-            "认真严肃的；不开玩笑的"
+            "nghiêm túc; không đùa cợt"
         ],
         "usphone": "'sɪrɪəs",
         "ukphone": "'sɪərɪəs"
@@ -2248,7 +2248,7 @@
     {
         "name": "taste",
         "trans": [
-            "有⋯⋯的味道",
+            "có mùi vị của...",
             "mùi vị; hương vị"
         ],
         "usphone": "test",
@@ -2257,7 +2257,7 @@
     {
         "name": "experience",
         "trans": [
-            "经历；经验"
+            "trải nghiệm; kinh nghiệm"
         ],
         "usphone": "ɪk'spɪrɪəns",
         "ukphone": "ɪkˈspɪərɪəns"
@@ -2265,7 +2265,7 @@
     {
         "name": "stay",
         "trans": [
-            "逗留；停留"
+            "lưu lại; dừng lại"
         ],
         "usphone": "steɪ",
         "ukphone": "steɪ"
@@ -2281,7 +2281,7 @@
     {
         "name": "for the first time",
         "trans": [
-            "首次；初次"
+            "lần đầu; lần đầu tiên"
         ],
         "usphone": "",
         "ukphone": ""
@@ -2289,7 +2289,7 @@
     {
         "name": "sandwich",
         "trans": [
-            "三明治；夹心面包片"
+            "bánh mì kẹp; bánh sandwich"
         ],
         "usphone": "'sænwɪtʃ",
         "ukphone": "'sæn(d)wɪdʒ; -wɪtʃ"
@@ -2297,7 +2297,7 @@
     {
         "name": "chip",
         "trans": [
-            "炸土豆条；炸薯条"
+            "khoai tây chiên; khoai tây rán"
         ],
         "usphone": "tʃɪp",
         "ukphone": "tʃɪp"
@@ -2305,7 +2305,7 @@
     {
         "name": "fish and chips",
         "trans": [
-            "炸鱼加炸薯条"
+            "cá rán kèm khoai tây chiên"
         ],
         "usphone": "",
         "ukphone": ""
@@ -2313,7 +2313,7 @@
     {
         "name": "onto",
         "trans": [
-            "到⋯⋯之上；向⋯⋯之上"
+            "lên trên...; về phía trên..."
         ],
         "usphone": "ˈɑnˌtu, -tə, ˈɔn-",
         "ukphone": "'ɒntuː"
@@ -2353,7 +2353,7 @@
     {
         "name": "stairs",
         "trans": [
-            "楼梯 (pl.)"
+            "cầu thang (pl.)"
         ],
         "usphone": "stɛrz",
         "ukphone": "stɛəz"
@@ -2361,7 +2361,7 @@
     {
         "name": "aid",
         "trans": [
-            "救助；帮助"
+            "cứu giúp; giúp đỡ"
         ],
         "usphone": "ed",
         "ukphone": "eɪd"
@@ -2369,7 +2369,7 @@
     {
         "name": "first aid",
         "trans": [
-            "急救"
+            "sơ cứu; cấp cứu"
         ],
         "usphone": "",
         "ukphone": ""
@@ -2377,7 +2377,7 @@
     {
         "name": "medical",
         "trans": [
-            "医学的；医疗的"
+            "thuộc y học; thuộc y tế"
         ],
         "usphone": "'mɛdɪkl",
         "ukphone": "'medɪk(ə)l"
@@ -2385,7 +2385,7 @@
     {
         "name": "imagine",
         "trans": [
-            "想像，设想"
+            "tưởng tượng, hình dung"
         ],
         "usphone": "ɪ'mædʒɪn",
         "ukphone": "ɪ'mædʒɪn"
@@ -2393,7 +2393,7 @@
     {
         "name": "bottom",
         "trans": [
-            "底部；下端"
+            "đáy; phần dưới"
         ],
         "usphone": "'bɑtəm",
         "ukphone": "'bɒtəm"
@@ -2401,7 +2401,7 @@
     {
         "name": "at the bottom of",
         "trans": [
-            "在⋯⋯的底部"
+            "ở đáy của..."
         ],
         "usphone": "",
         "ukphone": ""
@@ -2409,8 +2409,8 @@
     {
         "name": "wrong",
         "trans": [
-            "有毛病的；错误的",
-            "不正确地；错误地"
+            "có lỗi; sai",
+            "không đúng; sai lầm"
         ],
         "usphone": "rɔŋ",
         "ukphone": "rɒŋ"
@@ -2418,7 +2418,7 @@
     {
         "name": "What's wrong with ⋯?",
         "trans": [
-            "⋯⋯怎么了？"
+            "...bị làm sao?"
         ],
         "usphone": "",
         "ukphone": ""
@@ -2426,7 +2426,7 @@
     {
         "name": "trouble",
         "trans": [
-            "问题；烦恼；困难"
+            "vấn đề; phiền muộn; khó khăn"
         ],
         "usphone": "'trʌbl",
         "ukphone": "'trʌb(ə)l"
@@ -2434,7 +2434,7 @@
     {
         "name": "lift",
         "trans": [
-            "举起；抬起；提起",
+            "giơ lên; nâng lên; nhấc lên",
             "thang máy"
         ],
         "usphone": "lɪft",
@@ -2443,7 +2443,7 @@
     {
         "name": "lift up",
         "trans": [
-            "抬起；提起"
+            "nâng lên; nhấc lên"
         ],
         "usphone": "",
         "ukphone": ""
@@ -2459,7 +2459,7 @@
     {
         "name": "drop",
         "trans": [
-            "使落下；投下"
+            "làm rơi; thả xuống"
         ],
         "usphone": "drɑp",
         "ukphone": "drɒp"
@@ -2467,7 +2467,7 @@
     {
         "name": "training",
         "trans": [
-            "训练；培训"
+            "huấn luyện; đào tạo"
         ],
         "usphone": "'trenɪŋ",
         "ukphone": "'treɪnɪŋ"
@@ -2483,7 +2483,7 @@
     {
         "name": "cover",
         "trans": [
-            "盖；盖上"
+            "đậy; đắp lên"
         ],
         "usphone": "'kʌvɚ",
         "ukphone": "'kʌvə"
@@ -2507,11 +2507,11 @@
     {
         "name": "inside",
         "trans": [
-            "内部；里面",
-            "在里面；向室内",
+            "bên trong; phía trong",
+            "ở bên trong; vào trong nhà",
             "ở bên trong...",
             "ở bên trong...",
-            "里面的；内部的"
+            "bên trong; nội bộ"
         ],
         "usphone": "'ɪn'saɪd",
         "ukphone": "ɪn'saɪd"
@@ -2519,7 +2519,7 @@
     {
         "name": "under",
         "trans": [
-            "在⋯⋯正下方；在⋯⋯下面"
+            "ngay dưới...; ở dưới..."
         ],
         "usphone": "'ʌndɚ",
         "ukphone": "'ʌndə"
@@ -2527,7 +2527,7 @@
     {
         "name": "window",
         "trans": [
-            "窗；窗户"
+            "cửa sổ; cửa sổ"
         ],
         "usphone": "'wɪndo",
         "ukphone": "'wɪndəʊ"
@@ -2535,7 +2535,7 @@
     {
         "name": "keep",
         "trans": [
-            "(kept) 保持；留在"
+            "(kept) giữ; ở lại"
         ],
         "usphone": "kip",
         "ukphone": "kiːp"
@@ -2543,8 +2543,8 @@
     {
         "name": "clear",
         "trans": [
-            "不和⋯⋯接触的；不挨⋯⋯太近的",
-            "清除；清理；移走"
+            "không tiếp xúc với...; không ở quá gần...",
+            "dọn sạch; dọn dẹp; mang đi"
         ],
         "usphone": "klɪr",
         "ukphone": "klɪə"
@@ -2552,7 +2552,7 @@
     {
         "name": "keep clear of ⋯",
         "trans": [
-            "不和⋯⋯接触"
+            "không tiếp xúc với..."
         ],
         "usphone": "",
         "ukphone": ""
@@ -2560,7 +2560,7 @@
     {
         "name": "calm",
         "trans": [
-            "镇静的；沉着的"
+            "bình tĩnh; điềm tĩnh"
         ],
         "usphone": "kɑm",
         "ukphone": "kɑːm"
@@ -2568,7 +2568,7 @@
     {
         "name": "brave",
         "trans": [
-            "勇敢的；无畏的"
+            "dũng cảm; không sợ hãi"
         ],
         "usphone": "brev",
         "ukphone": "breɪv"
@@ -2576,7 +2576,7 @@
     {
         "name": "helpful",
         "trans": [
-            "有用的；提供帮助的"
+            "hữu ích; hay giúp đỡ"
         ],
         "usphone": "'hɛlpfl",
         "ukphone": "'helpfʊl; -f(ə)l"

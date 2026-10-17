@@ -27,9 +27,9 @@
     {
         "name": "calendar",
         "trans": [
-            "n. 日历；历法；日程表",
+            "n. lịch; lịch pháp; bảng lịch trình",
             "vt. đưa vào bảng; xếp vào lịch trình",
-            "时态:calendared, calendaring, calendars"
+            "Dạng chia: calendared, calendaring, calendars"
         ],
         "usphone": "ˈkælɪndər",
         "ukphone": "ˈkælɪndə(r)"
@@ -62,7 +62,7 @@
     {
         "name": "filing",
         "trans": [
-            "n. 锉；锉屑；文件归档",
+            "n. giũa; mạt giũa; việc lưu trữ hồ sơ",
             "vt. dũa"
         ],
         "usphone": "ˈfaɪlɪŋ",
@@ -71,7 +71,7 @@
     {
         "name": "in-tray",
         "trans": [
-            "n. (办公室使用的)公文格,收文篮"
+            "n. khay đựng công văn (dùng ở văn phòng), khay văn bản đến"
         ],
         "usphone": "'intrei",
         "ukphone": "'intrei"
@@ -97,10 +97,10 @@
     {
         "name": "partition",
         "trans": [
-            "n. 分开, 分割分割物, 隔墙",
-            "vt. 分开, 隔开",
-            "时态:partitioned, partitioning, partitions名 词:partitioner",
-            "名 词:partitionment"
+            "n. sự chia tách, sự phân chia; vật ngăn cách, vách ngăn",
+            "vt. chia tách, ngăn cách",
+            "Dạng chia: partitioned, partitioning, partitions Danh từ: partitioner",
+            "Danh từ: partitionment"
         ],
         "usphone": "pɑːrˈtɪʃn",
         "ukphone": "pɑːˈtɪʃn"
@@ -172,7 +172,7 @@
     {
         "name": "work",
         "trans": [
-            "vt.&vi. (使)工作(使)运作, 运转(使)产生效果",
+            "vt.&vi. (làm cho) hoạt động; (làm cho) vận hành, chạy; (làm cho) phát sinh hiệu quả",
             "n. công việc, lao động, bài tập; sự nghiệp; thành quả, sản phẩm; tác phẩm; nhà máy",
             "các dạng: worked",
             "also wroughtworking, works"
@@ -183,7 +183,7 @@
     {
         "name": "assignment",
         "trans": [
-            "n. 工作, 任务分配, 指派"
+            "n. công việc, nhiệm vụ; sự phân công, sự giao việc"
         ],
         "usphone": "əˈsaɪnmənt",
         "ukphone": "əˈsaɪnmənt"
@@ -193,7 +193,7 @@
         "trans": [
             "n. thông báo; công báo",
             "vt. công bố; thông báo",
-            "时态:bulletined, bulletining, bulletins"
+            "Dạng chia: bulletined, bulletining, bulletins"
         ],
         "usphone": "ˈbʊlətɪn",
         "ukphone": "ˈbʊlətɪn"
@@ -242,7 +242,7 @@
     {
         "name": "intercom",
         "trans": [
-            "n. 对讲机；内部通话装置INTERCOMabbr. Intercommunication System 内部通信系统"
+            "n. bộ đàm; thiết bị liên lạc nội bộ INTERCOM abbr. Intercommunication System hệ thống liên lạc nội bộ"
         ],
         "usphone": "ˈɪntərkɑːm",
         "ukphone": "ˈɪntəkɒm"
@@ -266,10 +266,10 @@
     {
         "name": "overtime",
         "trans": [
-            "n. 加班，加班时间；加班费；加时，加时赛",
-            "adj. 超时的；加班的ad",
-            "v. 加班地；在规定（工作）时间之外",
-            "时态:overtimed, overtiming, overtimes"
+            "n. sự làm thêm giờ, giờ làm thêm; tiền làm thêm giờ; hiệp phụ, trận đấu hiệp phụ",
+            "adj. quá giờ; làm thêm giờ ad",
+            "v. làm thêm giờ; ngoài thời gian (làm việc) quy định",
+            "Dạng chia: overtimed, overtiming, overtimes"
         ],
         "usphone": "ˈoʊvərtaɪm",
         "ukphone": "ˈəʊvətaɪm"
@@ -285,8 +285,8 @@
     {
         "name": "printed",
         "trans": [
-            "adj. 印刷的；印花样的；已印好的",
-            "v. 印刷；铭记；出版（print的过去分词和过去式）"
+            "adj. được in; in hoa; đã in sẵn",
+            "v. in; khắc ghi; xuất bản (quá khứ phân từ và quá khứ của print)"
         ],
         "usphone": "",
         "ukphone": ""
@@ -310,7 +310,7 @@
     {
         "name": "shorthand",
         "trans": [
-            "n. 速记(法)(对某事的)简短且常为故意搞得隐晦的表达方法"
+            "n. phép tốc ký; cách diễn đạt ngắn gọn và thường cố ý mơ hồ (về điều gì đó)"
         ],
         "usphone": "ˈʃɔːrthænd",
         "ukphone": "ˈʃɔːthænd"
@@ -326,8 +326,8 @@
     {
         "name": "tardy",
         "trans": [
-            "adj. 行动缓慢的, 缓缓移动的, 迟缓的晚的, 迟的比较级:tardier, tardiest副 词:tardily",
-            "名 词:tardiness"
+            "adj. hành động chậm chạp, di chuyển chậm, chậm chễ; muộn, trễ So sánh hơn: tardier, tardiest Phó từ: tardily",
+            "Danh từ: tardiness"
         ],
         "usphone": "ˈtɑːrdi",
         "ukphone": "ˈtɑːdi"
@@ -343,10 +343,10 @@
     {
         "name": "xerox",
         "trans": [
-            "n. 施乐（商标名，美国办公设备制造公司）；影印，静电印刷品",
-            "vt. 用静电复印法复印Xerox",
-            "n. 复印，影印；复印件；影印本",
-            "vt. & vi. 复印，影印"
+            "n. Xerox (tên thương hiệu, công ty sản xuất thiết bị văn phòng Hoa Kỳ); bản sao, bản in tĩnh điện",
+            "vt. sao chụp bằng phương pháp in tĩnh điện Xerox",
+            "n. sự sao chụp, sự photocopy; bản sao; bản in photocopy",
+            "vt. & vi. sao chụp, photocopy"
         ],
         "usphone": "ˈzɪrɑks",
         "ukphone": "'ziərɔks"
@@ -475,8 +475,8 @@
     {
         "name": "part-time",
         "trans": [
-            "adj. 部分时间的,非全日的兼任的,兼职的副 词:part-time",
-            "名 词:part-timer"
+            "adj. bán thời gian, không toàn ngày; kiêm nhiệm, làm thêm Phó từ: part-time",
+            "Danh từ: part-timer"
         ],
         "usphone": "ˈtaɪm",
         "ukphone": "ˈtaɪm"
@@ -661,7 +661,7 @@
         "trans": [
             "n. trợ cấp; lương hưu, tiền tuất; tiền ăn ở",
             "vt. cấp lương hưu hoặc trợ cấp",
-            "时态:pensioned, pensioning, pensions形容词:pensionable"
+            "Dạng chia: pensioned, pensioning, pensions Tính từ: pensionable"
         ],
         "usphone": "ˈpenʃn",
         "ukphone": "ˈpenʃn"
@@ -677,7 +677,7 @@
     {
         "name": "recommendation",
         "trans": [
-            "n. 推荐, 劝告, 建议(尤做法)推荐信, 介绍信形容词:recommendatory"
+            "n. sự giới thiệu, lời khuyên, đề xuất (nhất là cách làm); thư giới thiệu, thư tiến cử Tính từ: recommendatory"
         ],
         "usphone": "ˌrekəmenˈdeɪʃn",
         "ukphone": "ˌrekəmenˈdeɪʃn"
@@ -724,9 +724,9 @@
     {
         "name": "accrue",
         "trans": [
-            "vi. 自然增长或利益增加；产生",
-            "vt. 积累；获得",
-            "时态:accrued, accruing, accrues名 词:accruement"
+            "vi. tăng lên tự nhiên hoặc sinh thêm lợi tức; phát sinh",
+            "vt. tích lũy; đạt được",
+            "Dạng chia: accrued, accruing, accrues Danh từ: accruement"
         ],
         "usphone": "əˈkruː",
         "ukphone": "əˈkruː"
@@ -740,9 +740,9 @@
     {
         "name": "amplify",
         "trans": [
-            "vt. 放大, 扩大增强",
-            "vt. & vi. 详述",
-            "时态:amplified, amplifying, amplifies"
+            "vt. khuếch đại, mở rộng; tăng cường",
+            "vt. & vi. trình bày chi tiết",
+            "Dạng chia: amplified, amplifying, amplifies"
         ],
         "usphone": "ˈæmplɪfaɪ",
         "ukphone": "ˈæmplɪfaɪ"
@@ -772,7 +772,7 @@
     {
         "name": "cutback",
         "trans": [
-            "n. 削减;缩减;减少"
+            "n. sự cắt giảm; sự thu hẹp; sự giảm bớt"
         ],
         "usphone": "'kʌtbæk",
         "ukphone": "'kʌtbæk"
@@ -796,7 +796,7 @@
     {
         "name": "financier",
         "trans": [
-            "n. 金融家"
+            "n. nhà tài chính"
         ],
         "usphone": "ˌfɪnən'sɪr",
         "ukphone": "faɪ'nænsɪə"
@@ -830,8 +830,8 @@
     {
         "name": "profile",
         "trans": [
-            "n. 侧面，轮廓，外形，剖面",
-            "时态:profiled, profiling, profiles名 词:profiler"
+            "n. mặt bên, đường nét, hình dáng, mặt cắt",
+            "Dạng chia: profiled, profiling, profiles Danh từ: profiler"
         ],
         "usphone": "ˈproʊfaɪl",
         "ukphone": "ˈprəʊfaɪl"
@@ -905,9 +905,9 @@
     {
         "name": "affiliate",
         "trans": [
-            "v. （使）附属，隶属；加入，加盟，并入；接纳；紧密联系",
-            "n. 分支机构；子公司；分社；联号",
-            "时态:affiliated, affiliating, affiliates名 词:affiliation"
+            "v. (làm cho) trực thuộc, phụ thuộc; gia nhập, tham gia, sáp nhập; tiếp nhận; liên kết chặt chẽ",
+            "n. chi nhánh; công ty con; chi nhánh; cửa hàng liên kết",
+            "Dạng chia: affiliated, affiliating, affiliates Danh từ: affiliation"
         ],
         "usphone": "əˈfɪlieɪt",
         "ukphone": "əˈfɪlieɪt"
@@ -916,7 +916,7 @@
         "name": "assess",
         "trans": [
             "vt. đánh giá; định giá; đánh thuế",
-            "时态:assessed, assessing, assesses形容词:assessable"
+            "Dạng chia: assessed, assessing, assesses Tính từ: assessable"
         ],
         "usphone": "əˈses",
         "ukphone": "əˈses"
@@ -955,8 +955,8 @@
         "name": "embezzle",
         "trans": [
             "vt. chiếm đoạt; biển thủ; tham ô",
-            "时态:embezzled, embezzling, embezzles名 词:embezzlement",
-            "名 词:embezzler"
+            "Dạng chia: embezzled, embezzling, embezzles Danh từ: embezzlement",
+            "Danh từ: embezzler"
         ],
         "usphone": "ɪmˈbezl",
         "ukphone": "ɪmˈbezl"
@@ -1076,8 +1076,8 @@
     {
         "name": "undervalue",
         "trans": [
-            "vt. 对(某人或某事物)评价过低；低估(某人或某事物)",
-            "时态:undervalued，undervaluing，undervalues名 词:undervaluation"
+            "vt. đánh giá quá thấp (ai hoặc cái gì đó); coi nhẹ (ai hoặc cái gì đó)",
+            "Dạng chia: undervalued, undervaluing, undervalues Danh từ: undervaluation"
         ],
         "usphone": "ˌʌndɚ'vælju",
         "ukphone": "ʌndə'væljuː"
@@ -1118,11 +1118,11 @@
     {
         "name": "bond",
         "trans": [
-            "n. 结合；粘合剂；债券；约定",
+            "n. sự gắn kết; chất kết dính; trái phiếu; giao ước",
             "vi. kết hợp; đoàn kết",
-            "vt. 以…作保；使结合",
-            "Bond邦德, 卡丽·雅格布斯((1862-1946) 美国歌曲与歌词作家, 他的作品有“真诚爱你”(1901年)和“佳日之末”(1910年)等)",
-            "时态:bonded, bonding, bonds名 词:bonder"
+            "vt. bảo lãnh bằng...; làm cho gắn kết",
+            "Bond Bond, Carrie Jacobs ((1862-1946) nhạc sĩ và người viết lời bài hát người Mỹ, các tác phẩm gồm “I Love You Truly” (năm 1901) và “A Perfect Day” (năm 1910)...)",
+            "Dạng chia: bonded, bonding, bonds Danh từ: bonder"
         ],
         "usphone": "bɑːnd",
         "ukphone": "bɒnd"
@@ -1167,7 +1167,7 @@
     {
         "name": "depreciation",
         "trans": [
-            "n. (资产等)折旧货币贬值跌价，减值贬低；轻视，小看蹂躏"
+            "n. sự khấu hao (tài sản...); sự mất giá tiền tệ, sự giảm giá, sự sụt giá; sự giảm giá trị; sự coi nhẹ; sự xem thường, sự chà đạp"
         ],
         "usphone": "dɪ,priʃɪ'eʃən",
         "ukphone": "dɪ,priːʃɪ'eɪʃ(ə)n"
@@ -1175,7 +1175,7 @@
     {
         "name": "devaluation",
         "trans": [
-            "n. (货币)贬值"
+            "n. sự phá giá (tiền tệ)"
         ],
         "usphone": "ˌdivæljʊ'eʃən",
         "ukphone": "ˌdiːvæljʊ'eɪʃən"
@@ -1195,7 +1195,7 @@
             "vt. miễn; tha",
             "adj. được miễn; được tha",
             "n. người được miễn thuế; người được miễn nghĩa vụ",
-            "时态:exempted, exempting, exempts形容词:exemptible"
+            "Dạng chia: exempted, exempting, exempts Tính từ: exemptible"
         ],
         "usphone": "ɪɡˈzempt",
         "ukphone": "ɪɡˈzempt"
@@ -1224,9 +1224,9 @@
         "trans": [
             "adj. tổng cộng; thô lỗ; tồi tệ; hiển nhiên",
             "vt. tổng doanh thu",
-            "n. 总额，总数比较级:grosser, grossest名 词:grosser",
-            "副 词:grossly",
-            "名 词:grossness"
+            "n. tổng số, tổng cộng So sánh hơn: grosser, grossest Danh từ: grosser",
+            "Phó từ: grossly",
+            "Danh từ: grossness"
         ],
         "usphone": "ɡrəʊs",
         "ukphone": "ɡrəʊs"
@@ -1287,18 +1287,18 @@
     {
         "name": "ance",
         "trans": [
-            "19. -ance，-ancy 表名词，“状态，状况，性质”appearance★əˈpɪərəns",
-            "n. 出现；外表appear（出现）＋ance→出现disturbance★dɪˈstɜ:bəns",
-            "n. 干扰；动荡，骚乱disturb（干扰）＋ance→干扰financial disturbance 金融风波perseverance★ˌpɜ:sɪˈvɪərəns",
-            "n. 坚持不懈persevere（坚持）＋ance→坚持不懈reliance★rɪˈlaɪəns",
-            "n. 依赖；信赖reli（=rely，依赖）＋ance→依赖self reliance 自力更生resemblance★rɪˈzembləns",
-            "n. 相像resembl(e)（相像）＋ance→相像vacancy★ˈveɪkənsi",
-            "n. 空白；空缺vac（空）＋ancy→空白job vacancy 职位空缺vengeance★ˈvenʤəns",
-            "n. 复仇venge（复仇）＋ance→复仇compliancy★★kəmˈplaɪənsi",
-            "n. 服从compli（=comply，服从）＋ancy→服从forbearance★★fɔ:ˈbeərəns",
-            "n. 忍耐forbear（忍耐）＋ance→忍耐pregnancy★★ˈpreɡnənsi",
-            "n. 怀孕pre（之前）＋gn（出生）＋ancy→出生之前的状态→怀孕vigilance★★ˈvɪʤɪləns",
-            "n. 警惕vigil（醒；活）＋ance→警醒→警惕Constant vigilance is necessary in order to avoid accidents.为了避免意外事故，有必要时刻保持警惕。18. -an ① 表名词，“…地方的人；精通…的人；信仰…的人”；② 表形容词，“…的，属于…地方的”20. -ane 表形容词，“…的，有…性质的”"
+            "19. -ance, -ancy tạo danh từ, “trạng thái, tình trạng, tính chất” appearance ★əˈpɪərəns",
+            "n. sự xuất hiện; vẻ bề ngoài appear (xuất hiện) ＋ance → xuất hiện disturbance ★dɪˈstɜ:bəns",
+            "n. sự quấy nhiễu; sự biến động, sự náo loạn disturb (quấy nhiễu) ＋ance → quấy nhiễu financial disturbance biến động tài chính perseverance ★ˌpɜ:sɪˈvɪərəns",
+            "n. sự kiên trì, bền gan persevere (kiên trì) ＋ance → kiên trì reliance ★rɪˈlaɪəns",
+            "n. sự dựa dẫm; sự tin cậy reli (= rely, dựa vào) ＋ance → dựa vào self reliance tự lực cánh sinh resemblance ★rɪˈzembləns",
+            "n. sự giống nhau resembl(e) (giống nhau) ＋ance → giống nhau vacancy ★ˈveɪkənsi",
+            "n. khoảng trống; chỗ khuyết vac (trống) ＋ancy → khoảng trống job vacancy vị trí còn trống vengeance ★ˈvenʤəns",
+            "n. sự trả thù venge (trả thù) ＋ance → trả thù compliancy ★★kəmˈplaɪənsi",
+            "n. sự phục tùng compli (= comply, phục tùng) ＋ancy → phục tùng forbearance ★★fɔ:ˈbeərəns",
+            "n. sự nhẫn nhịn forbear (nhẫn nhịn) ＋ance → nhẫn nhịn pregnancy ★★ˈpreɡnənsi",
+            "n. sự mang thai pre (trước) ＋gn (sinh ra) ＋ancy → trạng thái trước khi sinh → mang thai vigilance ★★ˈvɪʤɪləns",
+            "n. sự cảnh giác vigil (thức; sống) ＋ance → tỉnh táo → cảnh giác Constant vigilance is necessary in order to avoid accidents. Để tránh tai nạn, cần phải luôn cảnh giác. 18. -an ① tạo danh từ, “…người ở địa phương...; người tinh thông...; người theo đạo...”; ② tạo tính từ, “…của, thuộc về địa phương...” 20. -ane tạo tính từ, “…có tính chất...”"
         ],
         "usphone": "",
         "ukphone": ""
@@ -1314,10 +1314,10 @@
     {
         "name": "bankrupt",
         "trans": [
-            "adj. 破产的, 倒闭的完全缺乏的",
-            "n. 破产者",
-            "vt. 使破产, 使枯竭, 使极端贫困",
-            "时态:bankrupted, bankrupting, bankrupts名 词:bankruptcy"
+            "adj. phá sản, bị đóng cửa; hoàn toàn thiếu hụt",
+            "n. người phá sản",
+            "vt. làm phá sản, làm cạn kiệt, làm cực kỳ bần cùng",
+            "Dạng chia: bankrupted, bankrupting, bankrupts Danh từ: bankruptcy"
         ],
         "usphone": "ˈbæŋkrʌpt",
         "ukphone": "ˈbæŋkrʌpt"
@@ -1406,7 +1406,7 @@
     {
         "name": "fiscal",
         "trans": [
-            "adj. 国库的；会计的，财政的副 词:fiscally"
+            "adj. thuộc ngân khố; thuộc kế toán, thuộc tài chính Phó từ: fiscally"
         ],
         "usphone": "ˈfɪskl",
         "ukphone": "ˈfɪskl"
@@ -1424,8 +1424,8 @@
     {
         "name": "holding",
         "trans": [
-            "n. 支持；举办",
-            "v. 握住；召开；担任（hold的ing形式）"
+            "n. sự ủng hộ; sự tổ chức",
+            "v. nắm giữ; triệu tập; đảm nhiệm (dạng ing của hold)"
         ],
         "usphone": "'holdɪŋ",
         "ukphone": "'həʊldɪŋ"
@@ -1433,7 +1433,7 @@
     {
         "name": "ledger",
         "trans": [
-            "n. 分类账"
+            "n. sổ cái"
         ],
         "usphone": "'lɛdʒɚ",
         "ukphone": "'ledʒə"
@@ -1449,7 +1449,7 @@
     {
         "name": "remuneration",
         "trans": [
-            "n. 酬报，酬劳；偿还，赔偿酬金；工资；赔偿金"
+            "n. sự đền đáp, thù lao; sự bồi thường tiền thù lao; tiền công; tiền bồi thường"
         ],
         "usphone": "rɪ,mjunə'reʃən",
         "ukphone": "rɪ,mjuːnə'reɪʃ(ə)n"
@@ -1465,7 +1465,7 @@
     {
         "name": "stockbroker",
         "trans": [
-            "n. 股票经纪人名 词:stockbrokerage"
+            "n. nhà môi giới chứng khoán Danh từ: stockbrokerage"
         ],
         "usphone": "ˈstɑːkbroʊkər",
         "ukphone": "ˈstɒkbrəʊkə(r)"
@@ -1512,7 +1512,7 @@
     {
         "name": "competitor",
         "trans": [
-            "n. 竞争者,对手,敌手"
+            "n. người cạnh tranh, đối thủ, địch thủ"
         ],
         "usphone": "kəmˈpetɪtər",
         "ukphone": "kəmˈpetɪtə(r)"
@@ -1540,7 +1540,7 @@
     {
         "name": "corporate",
         "trans": [
-            "adj. 社团的, 法人的副 词:corporately"
+            "adj. thuộc đoàn thể, thuộc pháp nhân Phó từ: corporately"
         ],
         "usphone": "ˈkɔːrpərət",
         "ukphone": "ˈkɔːpərət"
@@ -1558,7 +1558,7 @@
         "trans": [
             "vt. ghi vào bên nợ, ghi nợ",
             "n. bên nợ",
-            "时态:debited, debiting, debits"
+            "Dạng chia: debited, debiting, debits"
         ],
         "usphone": "ˈdebɪt",
         "ukphone": "ˈdebɪt"
@@ -1586,10 +1586,10 @@
     {
         "name": "haggle",
         "trans": [
-            "n. 讨价还价；争论",
-            "vt. 乱劈；乱砍",
-            "vi. 争论；乱劈",
-            "时态:haggled, haggling, haggles名 词:haggler"
+            "n. sự mặc cả; sự tranh cãi",
+            "vt. chặt bừa; chém bừa",
+            "vi. tranh cãi; chặt bừa",
+            "Dạng chia: haggled, haggling, haggles Danh từ: haggler"
         ],
         "usphone": "ˈhæɡl",
         "ukphone": "ˈhæɡl"
@@ -1610,9 +1610,9 @@
     {
         "name": "invoice",
         "trans": [
-            "n. 发票；发货单；货物",
-            "vt. 开发票；记清单",
-            "时态:invoiced, invoicing, invoices"
+            "n. hóa đơn; phiếu gửi hàng; hàng hóa",
+            "vt. xuất hóa đơn; ghi vào bản kê",
+            "Dạng chia: invoiced, invoicing, invoices"
         ],
         "usphone": "ˈɪnvɔɪs",
         "ukphone": "ˈɪnvɔɪs"
@@ -1620,7 +1620,7 @@
     {
         "name": "long-range",
         "trans": [
-            "adj. (飞机、火箭等)远程的,远大的,长期的"
+            "adj. (máy bay, tên lửa...) tầm xa, lớn lao, lâu dài"
         ],
         "usphone": "'lɔŋ'rendʒ",
         "ukphone": "ˈlɔ:ŋˈreɪndʒ"
@@ -1657,8 +1657,8 @@
     {
         "name": "tariff",
         "trans": [
-            "n. 关税, 关税表, 货物课税表(旅馆或饭店等的)收费表, 价目表",
-            "时态:tariffed, tariffing, tariffs"
+            "n. thuế quan, biểu thuế quan, biểu thuế hàng hóa; bảng phí, bảng giá (của khách sạn hoặc nhà hàng...)",
+            "Dạng chia: tariffed, tariffing, tariffs"
         ],
         "usphone": "ˈtærɪf",
         "ukphone": "ˈtærɪf"
@@ -1666,8 +1666,8 @@
     {
         "name": "voucher",
         "trans": [
-            "n. 证人；保证人；证明者；收据",
-            "时态:vouchered, vouchering, vouchers"
+            "n. nhân chứng; người bảo lãnh; người làm chứng; biên lai",
+            "Dạng chia: vouchered, vouchering, vouchers"
         ],
         "usphone": "ˈvaʊtʃər",
         "ukphone": "ˈvaʊtʃə(r)"
@@ -1727,8 +1727,8 @@
     {
         "name": "cost-effective",
         "trans": [
-            "adj. 有成本效益的,划算的副 词:cost-effectively",
-            "名 词:cost-effectiveness"
+            "adj. có hiệu quả về chi phí, đáng đồng tiền Phó từ: cost-effectively",
+            "Danh từ: cost-effectiveness"
         ],
         "usphone": "ˌkɔstɪˈfɛktɪv",
         "ukphone": "'kɔsti'fektiv"
@@ -1824,7 +1824,7 @@
     {
         "name": "shipment",
         "trans": [
-            "n. 船运, 水运(从海路、陆路或空运的)一批货物"
+            "n. sự chuyên chở hàng, vận tải đường biển; một lô hàng (chở bằng đường biển, đường bộ hoặc đường hàng không)"
         ],
         "usphone": "ˈʃɪpmənt",
         "ukphone": "ˈʃɪpmənt"
@@ -1862,7 +1862,7 @@
         "trans": [
             "vi. bãi họp, nghỉ họp; hoãn lại; đổi địa điểm",
             "vt. trì hoãn; làm đình chỉ; gia hạn",
-            "时态:adjourned, adjourning, adjourns名 词:adjournment"
+            "Dạng chia: adjourned, adjourning, adjourns Danh từ: adjournment"
         ],
         "usphone": "əˈdʒɜːrn",
         "ukphone": "əˈdʒɜːn"
@@ -1894,8 +1894,8 @@
     {
         "name": "attentive",
         "trans": [
-            "adj. 对某人〔物〕 注意的;留心的;警惕的殷勤的;体贴的彬彬有礼的副 词:attentively",
-            "名 词:attentiveness"
+            "adj. chú ý, để ý, cảnh giác với ai (cái gì); ân cần; chu đáo; lễ phép Phó từ: attentively",
+            "Danh từ: attentiveness"
         ],
         "usphone": "əˈtentɪv",
         "ukphone": "əˈtentɪv"
@@ -1914,9 +1914,9 @@
     {
         "name": "brainstorm",
         "trans": [
-            "n.脑猝病，(短暂的)突发性精神错乱计上心头，灵机一动；突来的灵感集体研讨；集思广益",
-            "vt. 集中各人智慧猛攻",
-            "时态:brainstormed，brainstorming，brainstorms"
+            "n. tai biến não, (cơn) rối loạn tinh thần bộc phát (ngắn); ý tưởng chợt lóe lên, linh cảm bất chợt; sự động não tập thể; sự thu thập ý kiến tập thể",
+            "vt. tập trung trí tuệ của mọi người để tấn công",
+            "Dạng chia: brainstormed, brainstorming, brainstorms"
         ],
         "usphone": "ˈbreɪnstɔːrm",
         "ukphone": "ˈbreɪnstɔːm"
@@ -1959,9 +1959,9 @@
     {
         "name": "cross-reference",
         "trans": [
-            "n. (同一书中的)互相参照,互见,对照处",
-            "vt. 为…编制互相参照使参见",
-            "时态:cross-referenced, cross-referencing, cross-references"
+            "n. sự tham chiếu chéo (trong cùng một cuốn sách), sự xem thêm, chỗ đối chiếu",
+            "vt. lập tham chiếu chéo cho...; làm cho tham chiếu",
+            "Dạng chia: cross-referenced, cross-referencing, cross-references"
         ],
         "usphone": "ˈkrɔsˈrɛfərəns",
         "ukphone": "ˌkrɔs'refərəns"
@@ -2113,8 +2113,8 @@
     {
         "name": "conclusive",
         "trans": [
-            "adj. 令人信服的,确凿的ad",
-            "v. 令人信服地,确凿地副 词:conclusively"
+            "adj. thuyết phục, xác đáng ad",
+            "v. một cách thuyết phục, một cách xác đáng Phó từ: conclusively"
         ],
         "usphone": "kənˈkluːsɪv",
         "ukphone": "kənˈkluːsɪv"
@@ -2132,8 +2132,8 @@
         "trans": [
             "adj. ngược lại, ngược hướng; đảo ngược",
             "vi. trò chuyện, nói chuyện; quen biết",
-            "n. 相反的事物；逆行，逆向；倒",
-            "时态:conversed, conversing, converses副 词:conversely"
+            "n. điều trái ngược; sự đi ngược, sự đảo ngược; sự đảo",
+            "Dạng chia: conversed, conversing, converses Phó từ: conversely"
         ],
         "usphone": "kənˈvɜːrs",
         "ukphone": "kənˈvɜːs"
@@ -2169,7 +2169,7 @@
     {
         "name": "diplomacy",
         "trans": [
-            "n. 外交, 外交手腕, 外交术交际手腕, 处世之道"
+            "n. ngoại giao, tài ngoại giao, thuật ngoại giao; tài giao tiếp, cách đối nhân xử thế"
         ],
         "usphone": "dɪ'ploməsi",
         "ukphone": "dɪ'pləʊməsɪ"
@@ -2253,7 +2253,7 @@
     {
         "name": "component",
         "trans": [
-            "n. 成分, 组成部分, 部件, 元件形容词:componential"
+            "n. thành phần, bộ phận cấu thành, linh kiện Tính từ: componential"
         ],
         "usphone": "kəmˈpoʊnənt",
         "ukphone": "kəmˈpəʊnənt"
@@ -2325,8 +2325,8 @@
     {
         "name": "leading",
         "trans": [
-            "adj. 主要的；领导的",
-            "n. 领导；[印刷]铅板；[计]行距",
+            "adj. chính, chủ yếu; lãnh đạo",
+            "n. sự lãnh đạo; [in ấn] bản chì; [tin học] khoảng cách dòng",
             "(v.) dẫn dắt"
         ],
         "usphone": "ˈliːdɪŋ",
@@ -2378,7 +2378,7 @@
     {
         "name": "rawmaterial",
         "trans": [
-            "raw material1 ENTRIES FOUND:raw material (noun)raw materialnounplural raw materialsraw materialnounplural raw materialsLearner's definition of RAW MATERIAL[count, noncount]: the basic material that can be used to make or create something原材料Wheat and rye are the raw materials for a flour mill.小麦和黑麦是面粉厂的原料。His experiences during the war were the raw material for the story.他在那场战争中的经历是这个故事的素材。"
+            "nguyên liệu raw material 1 mục từ: raw material (danh từ) raw material danh từ số nhiều raw materials raw material danh từ số nhiều raw materials định nghĩa RAW MATERIAL dành cho người học [đếm được, không đếm được]: vật liệu cơ bản có thể được dùng để làm ra hoặc tạo nên thứ gì đó nguyên liệu Lúa mì và lúa mạch đen là nguyên liệu cho nhà máy xay bột. Những trải nghiệm của ông trong chiến tranh là chất liệu cho câu chuyện."
         ],
         "usphone": "",
         "ukphone": ""
@@ -2386,7 +2386,7 @@
     {
         "name": "satellite",
         "trans": [
-            "n. 卫星人造卫星卫星国, 附庸国, 卫星都市"
+            "n. vệ tinh; vệ tinh nhân tạo; nước chư hầu, quốc gia phụ thuộc, thành phố vệ tinh"
         ],
         "usphone": "ˈsætəlaɪt",
         "ukphone": "ˈsætəlaɪt"
@@ -2402,7 +2402,7 @@
     {
         "name": "automaton",
         "trans": [
-            "n. 自动机, 机器人形容词:automatous"
+            "n. máy tự động, rô-bốt Tính từ: automatous"
         ],
         "usphone": "ɔ'tɑmətən",
         "ukphone": "ɔː'tɒmət(ə)n"
@@ -2452,7 +2452,7 @@
     {
         "name": "gadget",
         "trans": [
-            "n. 小器具；小装置；精巧的小玩意儿形容词:gadgety"
+            "n. đồ dùng nhỏ; thiết bị nhỏ; vật nhỏ tinh xảo Tính từ: gadgety"
         ],
         "usphone": "ˈɡædʒɪt",
         "ukphone": "ˈɡædʒɪt"
@@ -2468,7 +2468,7 @@
     {
         "name": "hands-on",
         "trans": [
-            "adj. 亲自动手的;躬亲的实际动手做的实用的"
+            "adj. đích thân làm; tự tay làm; thực hành; thiết thực"
         ],
         "usphone": "ˈhændzˈɑn",
         "ukphone": "'hændz'ɔn"
@@ -2502,8 +2502,8 @@
     {
         "name": "manual",
         "trans": [
-            "adj. 用手的, 手工的",
-            "n. 手册, 指南副 词:manually"
+            "adj. dùng tay, thủ công",
+            "n. sổ tay, cẩm nang Phó từ: manually"
         ],
         "usphone": "ˈmænjuəl",
         "ukphone": "ˈmænjuəl"
@@ -2520,7 +2520,7 @@
     {
         "name": "outage",
         "trans": [
-            "n. (尤指电力的)断供期;断供"
+            "n. giai đoạn mất cung cấp điện (nhất là điện lực); sự mất cung cấp"
         ],
         "usphone": "'aʊtɪdʒ",
         "ukphone": "'aʊtɪdʒ"
@@ -2566,8 +2566,8 @@
         "name": "static",
         "trans": [
             "adj. tĩnh; tĩnh lực; [lý] tĩnh điện",
-            "n. [物]静电；静电干扰形容词:statical",
-            "副 词:statically"
+            "n. [vật lý] tĩnh điện; nhiễu tĩnh điện Tính từ: statical",
+            "Phó từ: statically"
         ],
         "usphone": "ˈstætɪk",
         "ukphone": "ˈstætɪk"
@@ -2650,8 +2650,8 @@
     {
         "name": "download",
         "trans": [
-            "v. 将(程序，资料等)从大计算机系统输入小计算机系统；下载",
-            "时态:downloaded, downloading, downloads"
+            "v. truyền (chương trình, dữ liệu...) từ hệ thống máy tính lớn sang hệ thống máy tính nhỏ; tải xuống",
+            "Dạng chia: downloaded, downloading, downloads"
         ],
         "usphone": "ˌdaʊnˈloʊd",
         "ukphone": "ˌdaʊnˈləʊd"
@@ -2659,7 +2659,7 @@
     {
         "name": "hacker",
         "trans": [
-            "n. 计算机迷私自存取或篡改电脑资料者;电脑“黑客”"
+            "n. người đam mê máy tính tự ý truy cập hoặc sửa đổi dữ liệu máy tính; “hacker” máy tính"
         ],
         "usphone": "ˈhækər",
         "ukphone": "ˈhækə(r)"
@@ -2725,7 +2725,7 @@
     {
         "name": "state-of-the-art",
         "trans": [
-            "n. 艺术级的"
+            "n. đỉnh cao kỹ thuật"
         ],
         "usphone": "'steitəvði:'a:t",
         "ukphone": "'steitəvði:'a:t"
@@ -2733,7 +2733,7 @@
     {
         "name": "terminology",
         "trans": [
-            "n. 专门用语；术语；术语学术语的正确使用, 术语用法形容词:terminological"
+            "n. thuật ngữ; cách dùng thuật ngữ; thuật ngữ học; tính từ: terminological"
         ],
         "usphone": "ˌtɝmə'nɑlədʒi",
         "ukphone": "ˌtɜːmɪ'nɒlədʒɪ"
@@ -2741,7 +2741,7 @@
     {
         "name": "troubleshooting",
         "trans": [
-            "n. 发现并修理故障,解决纷争"
+            "n. việc tìm và sửa lỗi; giải quyết tranh chấp"
         ],
         "usphone": "'trʌbl,ʃu:tiŋ",
         "ukphone": "'trʌbl,ʃu:tiŋ"
@@ -2749,7 +2749,7 @@
     {
         "name": "up-to-date",
         "trans": [
-            "adj. 现代的; 最新的名 词:up-to-dateness"
+            "adj. hiện đại; mới nhất; danh từ: up-to-dateness"
         ],
         "usphone": "ˈdeɪt",
         "ukphone": "ˈdeɪt"
@@ -2775,8 +2775,8 @@
     {
         "name": "browse",
         "trans": [
-            "vi. 吃草随意翻阅",
-            "时态:browsed, browsing, browses名 词:browser"
+            "vi. gặm cỏ; lật giở tùy ý",
+            "thì: browsed, browsing, browses; danh từ: browser"
         ],
         "usphone": "braʊz",
         "ukphone": "braʊz"
@@ -2821,7 +2821,7 @@
         "name": "downgrade",
         "trans": [
             "vt. làm giảm, hạ cấp",
-            "时态:downgraded, downgrading, downgrades"
+            "thì: downgraded, downgrading, downgrades"
         ],
         "usphone": "ˌdaʊnˈɡreɪd",
         "ukphone": "ˌdaʊnˈɡreɪd"
@@ -2829,7 +2829,7 @@
     {
         "name": "floppy(disk)",
         "trans": [
-            "floppy disk1 ENTRIES FOUND:floppy disk (noun)floppy disknounplural floppy disksfloppy disknounplural floppy disksLearner's definition of FLOPPY DISK[count]: a small, thin, square case with a flexible disk inside on which data for a computer can be stored（存储计算机数据的）软盘—compare hard disk"
+            "đĩa mềm (danh từ), số nhiều floppy disks; định nghĩa: một hộp nhỏ, mỏng, hình vuông có đĩa dẻo bên trong để lưu dữ liệu cho máy tính(đĩa mềm)— so sánh với hard disk"
         ],
         "usphone": "",
         "ukphone": ""
@@ -2837,8 +2837,8 @@
     {
         "name": "hyperlink",
         "trans": [
-            "n. 超链接Hyperlink超链接（Hyperlink）是WWW上使用最多的一种技巧，它通过事先定义好的关键字或图形，只要你用鼠标点击该段文字或图形，就可以自动连上相对应的其他文件。通过这种方式，就可以实现不同网页间的跳转问题",
-            "时态:hyperlinked, hyperlinking, hyperlinks"
+            "n. siêu liên kết; Hyperlink là một kỹ thuật được dùng nhiều nhất trên WWW, nó thông qua từ khóa hoặc hình ảnh đã định trước, chỉ cần bạn dùng chuột nhấp vào đoạn văn hoặc hình ảnh đó là có thể tự động liên kết tới tệp khác tương ứng. Bằng cách này có thể chuyển đổi giữa các trang web khác nhau",
+            "thì: hyperlinked, hyperlinking, hyperlinks"
         ],
         "usphone": "ˈhaɪpɚˌlɪŋk",
         "ukphone": "ˈhaɪpəˌlɪŋk"
@@ -2856,7 +2856,7 @@
     {
         "name": "know-how",
         "trans": [
-            "n. 技术实际知识;技能;本事;窍门"
+            "n. kiến thức kỹ thuật thực hành; kỹ năng; bản lĩnh; mẹo"
         ],
         "usphone": "haʊ",
         "ukphone": "haʊ"
@@ -2873,8 +2873,8 @@
     {
         "name": "omit",
         "trans": [
-            "vt. 省略，遗漏；删掉忘记做",
-            "时态:omitted，omitting，omits"
+            "vt. lược bỏ, bỏ sót; xóa đi; quên làm",
+            "thì: omitted, omitting, omits"
         ],
         "usphone": "əˈmɪt",
         "ukphone": "əˈmɪt"
@@ -2882,7 +2882,7 @@
     {
         "name": "scanner",
         "trans": [
-            "n. 扫描仪；扫描器；光电子扫描装置"
+            "n. máy quét; máy quét quang điện tử"
         ],
         "usphone": "ˈskænər",
         "ukphone": "ˈskænə(r)"
@@ -2898,7 +2898,7 @@
     {
         "name": "spreadsheet",
         "trans": [
-            "n. 电子制表软件,电子数据表"
+            "n. phần mềm bảng tính điện tử; bảng tính điện tử"
         ],
         "usphone": "'sprɛdʃit",
         "ukphone": "ˈspredˌʃi:t"
@@ -2952,7 +2952,7 @@
     {
         "name": "appendix",
         "trans": [
-            "n. 附录；阑尾；附加物复 数: appendices"
+            "n. phụ lục; ruột thừa; phần phụ thêm; số nhiều: appendices"
         ],
         "usphone": "əˈpendɪks",
         "ukphone": "əˈpendɪks"
@@ -2987,8 +2987,8 @@
     {
         "name": "confidential",
         "trans": [
-            "adj. 秘密的, 机密的表示信任或亲密的担任机密工作的名 词:confidentiality",
-            "副 词:confidentially"
+            "adj. bí mật, mật; thể hiện sự tin cậy hoặc thân mật; làm công việc mật; danh từ: confidentiality",
+            "trạng từ: confidentially"
         ],
         "usphone": "ˌkɑːnfɪˈdenʃl",
         "ukphone": "ˌkɒnfɪˈdenʃl"
@@ -3028,8 +3028,8 @@
     {
         "name": "inquire",
         "trans": [
-            "vt. & vi. 打听, 询问",
-            "时态:inquired, inquiring, inquires名 词:inquirer"
+            "vt. & vi. hỏi thăm, hỏi",
+            "thì: inquired, inquiring, inquires; danh từ: inquirer"
         ],
         "usphone": "ɪnˈkwaɪr",
         "ukphone": "ɪnˈkwaɪə"
@@ -3112,12 +3112,12 @@
     {
         "name": "affirm",
         "trans": [
-            "vt. 断言；肯定",
-            "vi. 断言；确认",
-            "时态:affirmed, affirming, affirms形容词:affirmable",
-            "副 词:affirmably",
-            "形容词:affirmant",
-            "名 词:affirmer"
+            "vt. khẳng định; quả quyết",
+            "vi. khẳng định; xác nhận",
+            "thì: affirmed, affirming, affirms; tính từ: affirmable",
+            "trạng từ: affirmably",
+            "tính từ: affirmant",
+            "danh từ: affirmer"
         ],
         "usphone": "əˈfɜːrm",
         "ukphone": "əˈfɜːm"
@@ -3140,9 +3140,9 @@
     {
         "name": "circular",
         "trans": [
-            "adj. 圆形的，环形的；循环的",
-            "n. 通知，通告名 词:circularity",
-            "副 词:circularly"
+            "adj. hình tròn, hình vòng; tuần hoàn",
+            "n. thông báo, cáo thị; danh từ: circularity",
+            "trạng từ: circularly"
         ],
         "usphone": "ˈsɜːrkjələr",
         "ukphone": "ˈsɜːkjələ(r)"
@@ -3160,7 +3160,7 @@
         "trans": [
             "vt. triệu tập; gọi đến",
             "vi. tập hợp; hội tụ",
-            "时态:convened, convening, convenes形容词:convenable"
+            "thì: convened, convening, convenes; tính từ: convenable"
         ],
         "usphone": "kənˈviːn",
         "ukphone": "kənˈviːn"
@@ -3168,7 +3168,7 @@
     {
         "name": "courier",
         "trans": [
-            "n. 送快信的人；导游；情报员，通讯员"
+            "n. người đưa thư hỏa tốc; hướng dẫn viên; nhân viên tình báo, phóng viên"
         ],
         "usphone": "'kʊrɪɚ",
         "ukphone": "'kʊrɪə"
@@ -3188,8 +3188,8 @@
     {
         "name": "enclose",
         "trans": [
-            "vt. 把…围起来把…装入信封, 附入",
-            "时态:enclosed, enclosing, encloses"
+            "vt. rào ... lại; cho ... vào phong bì, gửi kèm",
+            "thì: enclosed, enclosing, encloses"
         ],
         "usphone": "ɪnˈkloʊz",
         "ukphone": "ɪnˈkləʊz"
@@ -3227,7 +3227,7 @@
     {
         "name": "legible",
         "trans": [
-            "adj. 易读的；清晰的；易辨认的副 词:legibly"
+            "adj. dễ đọc; rõ ràng; dễ nhận biết; trạng từ: legibly"
         ],
         "usphone": "'lɛdʒəbl",
         "ukphone": "'ledʒɪb(ə)l"
@@ -3235,9 +3235,9 @@
     {
         "name": "proofread",
         "trans": [
-            "vt. 校对；校勘",
-            "vi. 做校对工作",
-            "时态:proofread proofreading，proofreads名 词:proofreader"
+            "vt. hiệu đính; đối chiếu bản thảo",
+            "vi. làm công việc hiệu đính",
+            "thì: proofread, proofreading, proofreads; danh từ: proofreader"
         ],
         "usphone": "ˈpruːfriːd",
         "ukphone": "ˈpruːfriːd"
@@ -3253,8 +3253,8 @@
     {
         "name": "restate",
         "trans": [
-            "vt. 重新叙述；重讲；重申",
-            "时态:restated, restating, restates名 词:restatement"
+            "vt. thuật lại; kể lại; nhắc lại",
+            "thì: restated, restating, restates; danh từ: restatement"
         ],
         "usphone": "ˌri'stet",
         "ukphone": "riː'steɪt"
@@ -3270,7 +3270,7 @@
     {
         "name": "stationery",
         "trans": [
-            "n. 文具信纸"
+            "n. văn phòng phẩm; giấy viết thư"
         ],
         "usphone": "ˈsteɪʃəneri",
         "ukphone": "ˈsteɪʃənri"
@@ -3278,7 +3278,7 @@
     {
         "name": "write-up",
         "trans": [
-            "n. 报导,评论(尤指捧场文章)账面价值的提高;资产的过高估价"
+            "n. bài báo, bài bình luận (nhất là bài ca ngợi); sự tăng giá trị sổ sách; sự đánh giá quá cao tài sản"
         ],
         "usphone": "ˈraɪtˌʌp",
         "ukphone": "'rait,ʌp"
@@ -3305,9 +3305,9 @@
     {
         "name": "boarding",
         "trans": [
-            "n. 木板；寄膳宿；上船",
-            "adj. 供膳的",
-            "v. 用木板遮住；收费为…供膳（board的ing形式）"
+            "n. ván gỗ; việc ăn ở trọ; sự lên tàu",
+            "adj. có cung cấp bữa ăn",
+            "v. che bằng ván; thu tiền cung cấp bữa ăn cho ... (dạng ing của board)"
         ],
         "usphone": "'bɔrdɪŋ",
         "ukphone": "'bɔːdɪŋ"
@@ -3323,7 +3323,7 @@
     {
         "name": "checkout",
         "trans": [
-            "n. 检验；结帐台；签出；检出"
+            "n. sự kiểm tra; quầy thanh toán; sự trả phòng; sự kiểm ra"
         ],
         "usphone": "'tʃɛkaʊt",
         "ukphone": "'tʃekaʊt"
@@ -3355,8 +3355,8 @@
     {
         "name": "en",
         "trans": [
-            "n. N字,半方",
-            "prep. 〈法〉在,在…中"
+            "n. chữ N; nửa ô vuông",
+            "prep. 〈Pháp〉ở, trong ..."
         ],
         "usphone": "ɪn",
         "ukphone": "en"
@@ -3364,7 +3364,7 @@
     {
         "name": "expedition",
         "trans": [
-            "n. 远征；探险；考察迅速，动作敏捷"
+            "n. viễn chinh; thám hiểm; khảo sát; nhanh nhẹn, hành động mau lẹ"
         ],
         "usphone": "ˌekspəˈdɪʃn",
         "ukphone": "ˌekspəˈdɪʃn"
@@ -3381,10 +3381,10 @@
     {
         "name": "lodge",
         "trans": [
-            "n. 门房；旅馆；集会处；山林小屋",
-            "vt. 寄存；借住；提出；嵌入",
-            "vi. 寄宿；临时住宿Lodge洛奇(姓氏)",
-            "时态:lodged, lodging, lodges"
+            "n. nhà người gác cổng; quán trọ; nơi tụ họp; nhà nghỉ trong rừng",
+            "vt. gửi giữ; ở trọ; đệ trình; gắn vào",
+            "vi. ở trọ; tạm trú; Lodge (họ)",
+            "thì: lodged, lodging, lodges"
         ],
         "usphone": "lɑːdʒ",
         "ukphone": "lɒdʒ"
@@ -3392,7 +3392,7 @@
     {
         "name": "luxurious",
         "trans": [
-            "adj. 奢侈的; 豪华的副 词:luxuriously"
+            "adj. xa hoa; sang trọng; trạng từ: luxuriously"
         ],
         "usphone": "lʌɡˈʒʊriəs",
         "ukphone": "lʌɡˈʒʊəriəs"
@@ -3461,7 +3461,7 @@
     {
         "name": "vel",
         "trans": [
-            "conj. 或者（等于or）abbr. 上等皮纸（vellum）；速率（velocity）"
+            "conj. hoặc (bằng or); abbr. giấy da cao cấp (vellum); tốc độ (velocity)"
         ],
         "usphone": "vel",
         "ukphone": "vel"
@@ -3477,7 +3477,7 @@
     {
         "name": "breathtaking",
         "trans": [
-            "adj. 非常激动人心的,壮观的惊人的；惊险的使人透不过气来的"
+            "adj. rất hấp dẫn, hùng vĩ; đáng kinh ngạc; ly kỳ; làm nghẹt thở"
         ],
         "usphone": "'brɛθtekɪŋ",
         "ukphone": "'breθteɪkɪŋ"
@@ -3485,8 +3485,8 @@
     {
         "name": "carry-on",
         "trans": [
-            "n. 手提行李",
-            "adj. 手提的"
+            "n. hành lý xách tay",
+            "adj. xách tay"
         ],
         "usphone": "'kæriɔn",
         "ukphone": "'kæriɔn"
@@ -3513,8 +3513,8 @@
     {
         "name": "deluxe",
         "trans": [
-            "adj. 豪华的，奢华的；高级的ad",
-            "v. 豪华地"
+            "adj. sang trọng, xa hoa; cao cấp; ad",
+            "v. một cách sang trọng"
         ],
         "usphone": "dɪˈlʌks",
         "ukphone": "dɪˈlʌks"
@@ -3606,7 +3606,7 @@
     {
         "name": "round-trip",
         "trans": [
-            "adj. 来回旅程的"
+            "adj. của chuyến đi khứ hồi"
         ],
         "usphone": "ˈraʊndˈtrɪp",
         "ukphone": "'raund'trip"
@@ -3614,7 +3614,7 @@
     {
         "name": "stopover",
         "trans": [
-            "n. (尤指飞行旅程中的)中途停留"
+            "n. (nhất là trong chuyến bay) sự dừng quá cảnh"
         ],
         "usphone": "'stɑp'ovɚ",
         "ukphone": "'stɒpəʊvə"
@@ -3622,7 +3622,7 @@
     {
         "name": "vacant",
         "trans": [
-            "adj. 空的；空闲的；空缺的；空虚的；茫然的副 词:vacantly"
+            "adj. trống; nhàn rỗi; trống chỗ; trống rỗng; ngơ ngác; trạng từ: vacantly"
         ],
         "usphone": "ˈveɪkənt",
         "ukphone": "ˈveɪkənt"
@@ -3631,9 +3631,9 @@
         "name": "voyage",
         "trans": [
             "n. chuyến đi biển; hành trình; ký sự du lịch",
-            "vi. 航海；航行",
+            "vi. đi biển; đi tàu",
             "vt. bay qua; vượt qua",
-            "时态:voyaged, voyaging, voyages名 词:voyager"
+            "thì: voyaged, voyaging, voyages; danh từ: voyager"
         ],
         "usphone": "ˈvɔɪɪdʒ",
         "ukphone": "ˈvɔɪɪdʒ"
@@ -3668,8 +3668,8 @@
         "trans": [
             "vi. cài chặt, thắt chặt; cong vênh, oằn xuống",
             "vt. cài lại, thắt lại; làm cong, làm oằn",
-            "n. 皮带扣，带扣Buckle巴克尔(姓氏)",
-            "时态:buckled, buckling, buckles"
+            "n. khóa thắt lưng, khóa; Buckle (họ)",
+            "thì: buckled, buckling, buckles"
         ],
         "usphone": "ˈbʌkl",
         "ukphone": "ˈbʌkl"
@@ -3685,8 +3685,8 @@
     {
         "name": "convertible",
         "trans": [
-            "adj. 可改变的,可变换的(货币)可以自由兑换的(汽车等)有折篷的，可折叠的",
-            "n. 可改变性,可变化性副 词:convertibly"
+            "adj. có thể thay đổi, có thể biến đổi; (tiền tệ) có thể đổi tự do; (ô tô ...) có mui xếp, có thể gập lại",
+            "n. tính có thể thay đổi, tính có thể biến đổi; trạng từ: convertibly"
         ],
         "usphone": "kənˈvɜːrtəbl",
         "ukphone": "kənˈvɜːtəbl"
@@ -3740,7 +3740,7 @@
         "name": "jaywalk",
         "trans": [
             "vi. [khẩu] băng qua đường bừa bãi (không tuân thủ luật giao thông)",
-            "时态:jaywalked, jaywalking, jaywalks名 词:jaywalker"
+            "thì: jaywalked, jaywalking, jaywalks; danh từ: jaywalker"
         ],
         "usphone": "'dʒe'wɔk",
         "ukphone": "'dʒeɪwɔːk"
@@ -3761,7 +3761,7 @@
         "trans": [
             "vt. đi lại trên; lái, điều khiển; đưa qua",
             "vi. cung cấp; bay",
-            "时态:navigated, navigating, navigates"
+            "thì: navigated, navigating, navigates"
         ],
         "usphone": "ˈnævɪɡeɪt",
         "ukphone": "ˈnævɪɡeɪt"
@@ -3877,7 +3877,7 @@
     {
         "name": "airliner",
         "trans": [
-            "n. 班机；大型客机"
+            "n. chuyến bay; máy bay chở khách cỡ lớn"
         ],
         "usphone": "'ɛrlaɪnɚ",
         "ukphone": "'eəlaɪnə"
@@ -3954,7 +3954,7 @@
     {
         "name": "crossroads",
         "trans": [
-            "n. 十字路口转折点;重大的抉择时刻处于关键时刻；在紧要关头"
+            "n. ngã tư; bước ngoặt; thời khắc quyết định lớn; ở thời điểm then chốt; lúc gay cấn"
         ],
         "usphone": "'krɔsrodz",
         "ukphone": "ˈkrɔsrəʊdz"
@@ -3962,10 +3962,10 @@
     {
         "name": "ferry",
         "trans": [
-            "n. 渡口；渡船；摆渡",
+            "n. bến phà; phà; sự đưa đò",
             "vt. vô phà; vận chuyển; vận tải hàng không",
             "vi. vô phà; di chuyển qua lại",
-            "时态:ferried, ferrying, ferries"
+            "thì: ferried, ferrying, ferries"
         ],
         "usphone": "ˈferi",
         "ukphone": "ˈferi"
@@ -3983,9 +3983,9 @@
     {
         "name": "freight",
         "trans": [
-            "n. 货运；货物",
-            "vt. 运输，装货于",
-            "时态:freighted，freighting，freights"
+            "n. vận tải hàng hóa; hàng hóa",
+            "vt. vận chuyển, xếp hàng lên",
+            "thì: freighted, freighting, freights"
         ],
         "usphone": "freɪt",
         "ukphone": "freɪt"
@@ -4001,7 +4001,7 @@
     {
         "name": "intersection",
         "trans": [
-            "n. 横断；交叉交叉点，十字路口"
+            "n. sự băng qua; giao nhau; điểm giao nhau, ngã tư"
         ],
         "usphone": "ˌɪntərˈsekʃn",
         "ukphone": "ˌɪntəˈsekʃn"
@@ -4009,7 +4009,7 @@
     {
         "name": "according",
         "trans": [
-            "adj. 依照，根据，符合，配合（后接to）"
+            "adj. phù hợp, theo, căn cứ (theo sau là to)"
         ],
         "usphone": "ə'kɔrdɪŋ",
         "ukphone": "ə'kɔːdɪŋ"
@@ -4084,7 +4084,7 @@
     {
         "name": "shortcut",
         "trans": [
-            "n. 捷径；被切短的东西动 词:shortcut"
+            "n. đường tắt; thứ bị cắt ngắn; động từ: shortcut"
         ],
         "usphone": "'ʃɔrt,kʌt",
         "ukphone": "'ʃɔːtkʌt"
@@ -4153,7 +4153,7 @@
     {
         "name": "adapter",
         "trans": [
-            "n. 适配器,改编者"
+            "n. bộ chuyển đổi, người phóng tác"
         ],
         "usphone": "ə'dæptɚ",
         "ukphone": "ə'dæptə"
@@ -4229,7 +4229,7 @@
     {
         "name": "administration",
         "trans": [
-            "n. 实行, 执行管理, 经营, 支配政府, 内阁形容词:administrative"
+            "n. sự thực hiện, sự thi hành; quản lý, điều hành, chi phối; chính phủ, nội các; tính từ: administrative"
         ],
         "usphone": "ədˌmɪnɪˈstreɪʃn",
         "ukphone": "ədˌmɪnɪˈstreɪʃn"
@@ -4260,7 +4260,7 @@
     {
         "name": "distributor",
         "trans": [
-            "n. 批发公司;批发商(汽车上的)配电器名 词:distributorship"
+            "n. công ty bán buôn; nhà bán buôn; (trên ô tô) bộ chia điện; danh từ: distributorship"
         ],
         "usphone": "dɪ'strɪbjətɚ",
         "ukphone": "dɪ'strɪbjʊtə"
@@ -4277,7 +4277,7 @@
     {
         "name": "expiration",
         "trans": [
-            "n. 满期，届期；截止，告终呼气，吐气；(气的)呼出；呼出物；嘘出的声音"
+            "n. sự mãn hạn, sự hết hạn; sự chấm dứt, sự kết thúc; sự thở ra, sự xông ra; hơi thở ra; vật thở ra; tiếng huýt ra"
         ],
         "usphone": "ˌɛkspə'reʃən",
         "ukphone": "ˌekspɪ'reɪʃ(ə)n"
@@ -4285,7 +4285,7 @@
     {
         "name": "admittance",
         "trans": [
-            "n. 允许进入(或加入)权导纳"
+            "n. quyền được vào (hoặc được gia nhập); sự nhận vào"
         ],
         "usphone": "əd'mɪtns",
         "ukphone": "əd'mɪt(ə)ns"
@@ -4293,8 +4293,8 @@
     {
         "name": "itemize",
         "trans": [
-            "vt. 逐条列记",
-            "时态:itemized, itemizing, itemizes名 词:itemization"
+            "vt. ghi thành từng mục",
+            "thì: itemized, itemizing, itemizes; danh từ: itemization"
         ],
         "usphone": "'aɪtəmaɪz",
         "ukphone": "ˈaɪtəˌmaɪz"
@@ -4320,7 +4320,7 @@
     {
         "name": "neon",
         "trans": [
-            "n. 〈化〉氖"
+            "n. 〈hóa〉neon"
         ],
         "usphone": "'niɑn",
         "ukphone": "'niːɒn"
@@ -4337,7 +4337,7 @@
     {
         "name": "pickpocket",
         "trans": [
-            "n. 扒手"
+            "n. kẻ móc túi"
         ],
         "usphone": "'pɪkpɑkɪt",
         "ukphone": "'pɪkpɒkɪt"
@@ -4345,7 +4345,7 @@
     {
         "name": "advantageous",
         "trans": [
-            "adj. 有利的副 词:advantageously"
+            "adj. có lợi; trạng từ: advantageously"
         ],
         "usphone": "ˌædvənˈteɪdʒəs",
         "ukphone": "ˌædvənˈteɪdʒəs"
@@ -4382,7 +4382,7 @@
         "name": "reimburse",
         "trans": [
             "vt. hoàn trả; trả lại",
-            "时态:reimbursed, reimbursing, reimburses名 词:reimbursement"
+            "thì: reimbursed, reimbursing, reimburses; danh từ: reimbursement"
         ],
         "usphone": "ˌriːɪmˈbɜːrs",
         "ukphone": "ˌriːɪmˈbɜːs"
@@ -4440,8 +4440,8 @@
     {
         "name": "solicit",
         "trans": [
-            "vt. & vi. 恳求, 请求, 乞求(指娼妇)拉客",
-            "时态:solicited, soliciting, solicits名 词:solicitation"
+            "vt. & vi. khẩn cầu, yêu cầu, cầu xin; (chỉ gái mại dâm) mời khách",
+            "thì: solicited, soliciting, solicits; danh từ: solicitation"
         ],
         "usphone": "səˈlɪsɪt",
         "ukphone": "səˈlɪsɪt"
@@ -4458,9 +4458,9 @@
     {
         "name": "trendy",
         "trans": [
-            "adj. 时髦的,赶时髦的,追随时髦的",
-            "n. 时髦人物,赶时髦的人比较级:trendier, trendiest副 词:trendily",
-            "名 词:trendiness"
+            "adj. hợp mốt, chạy theo mốt, thời thượng",
+            "n. người thời thượng, người chạy theo mốt; so sánh hơn: trendier, trendiest; trạng từ: trendily",
+            "danh từ: trendiness"
         ],
         "usphone": "'trɛndi",
         "ukphone": "'trendɪ"
@@ -4484,9 +4484,9 @@
         "trans": [
             "n. bán buôn sỉ",
             "adj. &ad",
-            "v. 批发(的)大规模(的)",
+            "v. bán buôn; quy mô lớn",
             "vt. bán buôn sỉ",
-            "时态:wholesaled, wholesaling, wholesales名 词:wholesaler"
+            "thì: wholesaled, wholesaling, wholesales; danh từ: wholesaler"
         ],
         "usphone": "ˈhoʊlseɪl",
         "ukphone": "ˈhəʊlseɪl"
@@ -4525,7 +4525,7 @@
     {
         "name": "agreeable",
         "trans": [
-            "adj. 欣然同意的令人愉快的, 惬意的副 词:agreeably"
+            "adj. vui vẻ đồng ý; dễ chịu, thoải mái; trạng từ: agreeably"
         ],
         "usphone": "əˈɡriːəbl",
         "ukphone": "əˈɡriːəbl"
@@ -4533,7 +4533,7 @@
     {
         "name": "coupon",
         "trans": [
-            "n. 息票；赠券；联票；配给券"
+            "n. phiếu lãi; phiếu tặng; vé liên hợp; phiếu phân phối"
         ],
         "usphone": "ˈkuːpɑːn",
         "ukphone": "ˈkuːpɒn"
@@ -4541,8 +4541,8 @@
     {
         "name": "defective",
         "trans": [
-            "adj. 有错误的，有缺陷的；不完美的，有瑕疵的副 词:defectively",
-            "名 词:defectiveness"
+            "adj. có sai sót, có khuyết tật; không hoàn hảo, có tì vết; trạng từ: defectively",
+            "danh từ: defectiveness"
         ],
         "usphone": "dɪˈfektɪv",
         "ukphone": "dɪˈfektɪv"
@@ -4597,7 +4597,7 @@
     {
         "name": "flea",
         "trans": [
-            "n. 跳蚤爱财如命没好气地(拒绝某人的要求)"
+            "n. bọ chét; yêu tiền như mạng; cáu kỉnh (từ chối yêu cầu của ai)"
         ],
         "usphone": "fli",
         "ukphone": "fliː"
@@ -4634,8 +4634,8 @@
         "trans": [
             "vt. sửa đổi, trang trí; thay đổi",
             "vi. sửa đổi",
-            "时态:modified, modifying, modifies名 词:modifiability",
-            "形容词:modifiable"
+            "thì: modified, modifying, modifies; danh từ: modifiability",
+            "tính từ: modifiable"
         ],
         "usphone": "ˈmɑːdɪfaɪ",
         "ukphone": "ˈmɒdɪfaɪ"
@@ -4691,8 +4691,8 @@
     {
         "name": "ambitious",
         "trans": [
-            "adj. 有抱负的, 雄心勃勃的有野心的副 词:ambitiously",
-            "名 词:ambitiousness"
+            "adj. có hoài bão, đầy tham vọng; có dã tâm; trạng từ: ambitiously",
+            "danh từ: ambitiousness"
         ],
         "usphone": "æmˈbɪʃəs",
         "ukphone": "æmˈbɪʃəs"
@@ -4700,10 +4700,10 @@
     {
         "name": "refund",
         "trans": [
-            "n. 归还, 偿还额, 退款",
-            "vt. 归还, 退还",
-            "时态:refunded, refunding, refunds形容词:refundable",
-            "名 词:refundment"
+            "n. sự trả lại, số tiền hoàn trả, tiền hoàn lại",
+            "vt. trả lại, hoàn lại",
+            "thì: refunded, refunding, refunds; tính từ: refundable",
+            "danh từ: refundment"
         ],
         "usphone": "ˈriːfʌnd",
         "ukphone": "ˈriːfʌnd"
@@ -4771,7 +4771,7 @@
     {
         "name": "thrift",
         "trans": [
-            "n. 节俭, 节约"
+            "n. tính tiết kiệm, sự tiết kiệm"
         ],
         "usphone": "θrɪft",
         "ukphone": "θrɪft"
@@ -4780,8 +4780,8 @@
         "name": "analyze",
         "trans": [
             "vt. phân tích, phân hủy (tương đương analyse)",
-            "时态:analyzed, analyzing, analyzes形容词:analyzable",
-            "名 词:analyzer"
+            "thì: analyzed, analyzing, analyzes; tính từ: analyzable",
+            "danh từ: analyzer"
         ],
         "usphone": "ˈænəlaɪz",
         "ukphone": "ˈænəlaɪz"
@@ -4789,7 +4789,7 @@
     {
         "name": "vender",
         "trans": [
-            "n. 卖主,售卖者"
+            "n. người bán, người bán hàng"
         ],
         "usphone": "'vɛndɚ",
         "ukphone": "'vendə"
@@ -4797,7 +4797,7 @@
     {
         "name": "announcement",
         "trans": [
-            "n. 通告，布告，通知；预告宣告，宣布"
+            "n. thông cáo, yết thị, thông báo; sự báo trước; sự tuyên bố, sự công bố"
         ],
         "usphone": "əˈnaʊnsmənt",
         "ukphone": "əˈnaʊnsmənt"
@@ -4821,7 +4821,7 @@
     {
         "name": "workmanship",
         "trans": [
-            "n. 技艺,工艺"
+            "n. kỹ nghệ, kỹ thuật"
         ],
         "usphone": "'wɝkmənʃɪp",
         "ukphone": "'wɜːkmənʃɪp"
@@ -4900,10 +4900,10 @@
     {
         "name": "bland",
         "trans": [
-            "adj. 乏味的；冷漠的；温和的",
-            "vt. 使…变得淡而无味；除掉…的特性",
-            "vi. 变得平淡无奇；丧失特性比较级:blander, blandest副 词:blandly",
-            "名 词:blandness"
+            "adj. nhạt nhẽo; lạnh lùng; ôn hòa",
+            "vt. làm ... trở nên nhạt nhẽo; loại bỏ đặc tính của ...",
+            "vi. trở nên nhạt nhẽo; mất đặc tính; so sánh hơn: blander, blandest; trạng từ: blandly",
+            "danh từ: blandness"
         ],
         "usphone": "blænd",
         "ukphone": "blænd"
@@ -4919,9 +4919,9 @@
     {
         "name": "crave",
         "trans": [
-            "vt. 恳求；渴望",
+            "vt. khẩn cầu; khao khát",
             "vi. khao khát; van xin",
-            "时态:craved, craving, craves"
+            "thì: craved, craving, craves"
         ],
         "usphone": "kreɪv",
         "ukphone": "kreɪv"
@@ -4929,7 +4929,7 @@
     {
         "name": "delicacy",
         "trans": [
-            "n. 精致，精美；娇嫩精美的食物棘手；微妙对…感到棘手"
+            "n. sự tinh tế, sự tao nhã; món ăn ngon tinh tế; sự tế nhị; sự vi tế; thấy ... khó xử"
         ],
         "usphone": "ˈdelɪkəsi",
         "ukphone": "ˈdelɪkəsi"
@@ -4947,8 +4947,8 @@
         "trans": [
             "vt. tiêu hóa; hấp thụ; hiểu sâu sắc",
             "vi. tiêu hóa",
-            "n. 摘要；文摘",
-            "时态:digested, digesting, digests"
+            "n. bản tóm tắt; bản trích lược",
+            "thì: digested, digesting, digests"
         ],
         "usphone": "daɪˈdʒest",
         "ukphone": "daɪˈdʒest"
@@ -4982,10 +4982,10 @@
     {
         "name": "liquor",
         "trans": [
-            "n. 酒，含酒精饮料；液体；烈酒；溶液",
-            "vi. 喝酒，灌酒",
-            "vt. 使喝醉",
-            "时态:liquored, liquoring, liquors"
+            "n. rượu, đồ uống có cồn; chất lỏng; rượu mạnh; dung dịch",
+            "vi. uống rượu, nốc rượu",
+            "vt. làm cho say",
+            "thì: liquored, liquoring, liquors"
         ],
         "usphone": "ˈlɪkər",
         "ukphone": "ˈlɪkə(r)"
@@ -4993,7 +4993,7 @@
     {
         "name": "appreciable",
         "trans": [
-            "adj. 可预见的, 可估计的增值的相当可观的副 词:appreciably"
+            "adj. có thể thấy trước, có thể ước tính; tăng lên; khá lớn; trạng từ: appreciably"
         ],
         "usphone": "ə'priʃəbl",
         "ukphone": "ə'priːʃəb(ə)l"
@@ -5003,8 +5003,8 @@
         "trans": [
             "vt. nhai mạnh; nhai thành tiếng",
             "vi. nhai mạnh; nhai thành tiếng",
-            "n. 用力的咀嚼",
-            "时态:munched, munching, munches名 词:muncher"
+            "n. sự nhai mạnh",
+            "thì: munched, munching, munches; danh từ: muncher"
         ],
         "usphone": "mʌntʃ",
         "ukphone": "mʌntʃ"
@@ -5023,8 +5023,8 @@
     {
         "name": "palatable",
         "trans": [
-            "adj. 可口的,美味的合意的,认可的,认同的ad",
-            "v. 合意地,可口地副 词:palatably"
+            "adj. ngon miệng, ngon lành; hợp ý, được chấp nhận, được công nhận; ad",
+            "v. một cách hợp ý, một cách ngon miệng; trạng từ: palatably"
         ],
         "usphone": "ˈpælətəbl",
         "ukphone": "ˈpælətəbl"
@@ -5051,7 +5051,7 @@
     {
         "name": "appreciative",
         "trans": [
-            "adj. 有欣赏力的；能确认价值的表示赞赏的，感谢的"
+            "adj. biết thưởng thức; biết đánh giá giá trị; thể hiện sự tán thưởng, biết ơn"
         ],
         "usphone": "əˈpriːʃətɪv",
         "ukphone": "əˈpriːʃətɪv"
@@ -5071,7 +5071,7 @@
         "name": "apprentice",
         "trans": [
             "n. người học việc, đồ đệ",
-            "时态:apprenticed, apprenticing, apprentices名 词:apprenticeship"
+            "thì: apprenticed, apprenticing, apprentices; danh từ: apprenticeship"
         ],
         "usphone": "əˈprentɪs",
         "ukphone": "əˈprentɪs"
@@ -5079,7 +5079,7 @@
     {
         "name": "ravenous",
         "trans": [
-            "adj. 极饿的(指饥饿、渴求等)极度的副 词:ravenously"
+            "adj. cực kỳ đói; (chỉ đói khát, khao khát ...) cực độ; trạng từ: ravenously"
         ],
         "usphone": "ˈrævənəs",
         "ukphone": "ˈrævənəs"
@@ -5098,7 +5098,7 @@
     {
         "name": "refreshment",
         "trans": [
-            "n. 茶点；点心(精力的)恢复，精神爽快"
+            "n. bữa ăn nhẹ; điểm tâm; sự hồi phục (sức lực), sự sảng khoái tinh thần"
         ],
         "usphone": "rɪˈfreʃmənt",
         "ukphone": "rɪˈfreʃmənt"
@@ -5106,7 +5106,7 @@
     {
         "name": "silverware",
         "trans": [
-            "n. 银器, 镀银器皿(尤指餐具)(体育比赛中的)银杯"
+            "n. đồ bạc, đồ mạ bạc (nhất là bộ đồ ăn); (trong thi đấu thể thao) cúp bạc"
         ],
         "usphone": "'sɪlvɚwɛr",
         "ukphone": "'sɪlvəweə"
@@ -5125,8 +5125,8 @@
     {
         "name": "specialty",
         "trans": [
-            "n. 专业；专长特制品，特产，名产特性，特征；特殊性盖印的契约",
-            "adj. 特色的"
+            "n. chuyên môn; sở trường; đặc sản, đặc sản nổi tiếng; đặc tính, đặc trưng; tính đặc thù; hợp đồng có đóng dấu",
+            "adj. mang nét đặc trưng"
         ],
         "usphone": "ˈspeʃəlti",
         "ukphone": "ˈspeʃəlti"
@@ -5153,8 +5153,8 @@
     {
         "name": "arbitrate",
         "trans": [
-            "vt. & vi. 仲裁, 公断",
-            "时态:arbitrated, arbitrating, arbitrates"
+            "vt. & vi. trọng tài, phân xử",
+            "thì: arbitrated, arbitrating, arbitrates"
         ],
         "usphone": "ˈɑːrbɪtreɪt",
         "ukphone": "ˈɑːbɪtreɪt"
@@ -5176,7 +5176,7 @@
     {
         "name": "aperitif",
         "trans": [
-            "n. (饭前饮用的)开胃酒"
+            "n. (uống trước bữa ăn) rượu khai vị"
         ],
         "usphone": "ə,pɛrə'tif",
         "ukphone": "ə'perɪtiːf"
@@ -5194,7 +5194,7 @@
     {
         "name": "appetizer",
         "trans": [
-            "n. 开胃品促进食欲的活动刺激欲望的东西；吊胃口的东西"
+            "n. món khai vị; hoạt động kích thích thèm ăn; thứ kích thích ham muốn; thứ gợi thèm"
         ],
         "usphone": "'æpə'taɪzɚ",
         "ukphone": "'æpɪtaɪzə"
@@ -5228,11 +5228,11 @@
     {
         "name": "buffet",
         "trans": [
-            "n. 打击；小卖部；猛烈冲击；自助餐",
-            "vt. 与…搏斗；连续猛击",
-            "vi. 斗争；奋勇前进",
-            "adj. 自助的；自助餐的",
-            "时态:buffeted, buffeting, buffets"
+            "n. cú đánh; quầy bán hàng; cú va đập mạnh; tiệc tự chọn",
+            "vt. vật lộn với ...; đập liên tục",
+            "vi. đấu tranh; dũng cảm tiến lên",
+            "adj. tự phục vụ; tự chọn",
+            "các dạng: buffeted, buffeting, buffets"
         ],
         "usphone": "bəˈfeɪ",
         "ukphone": "ˈbʊfeɪ"
@@ -5266,7 +5266,7 @@
     {
         "name": "cuisine",
         "trans": [
-            "n. 烹饪艺术菜肴"
+            "n. nghệ thuật nấu ăn, món ăn"
         ],
         "usphone": "kwɪˈziːn",
         "ukphone": "kwɪˈziːn"
@@ -5309,8 +5309,8 @@
     {
         "name": "hors",
         "trans": [
-            "prep. 不必；在…之外ad",
-            "v. 不必"
+            "prep. không cần; ở ngoài… ad",
+            "v. không cần"
         ],
         "usphone": "ɔr",
         "ukphone": "ɔr"
@@ -5318,7 +5318,7 @@
     {
         "name": "leftovers",
         "trans": [
-            "n. (用复数)剩余物;残羹剩菜(事物、习惯等的)遗留;遗物"
+            "n. (thường dùng số nhiều) phần còn lại; cơm thừa canh cặn; dấu tích (của sự vật, thói quen…) còn lại; di vật"
         ],
         "usphone": "ɛftovɚ",
         "ukphone": "ɛftovɚ"
@@ -5371,7 +5371,7 @@
     {
         "name": "parched",
         "trans": [
-            "adj. 炎热的"
+            "adj. nóng bức"
         ],
         "usphone": "pɑrtʃt",
         "ukphone": "pɑrtʃt"
@@ -5395,7 +5395,7 @@
     {
         "name": "preservative",
         "trans": [
-            "n. 防腐剂"
+            "n. chất bảo quản"
         ],
         "usphone": "prɪˈzɜːrvətɪv",
         "ukphone": "prɪˈzɜːvətɪv"
@@ -5413,7 +5413,7 @@
     {
         "name": "recipe",
         "trans": [
-            "n. 烹饪法; 食谱方法; 秘诀; 诀窍"
+            "n. cách nấu ăn; công thức nấu ăn; phương pháp; bí quyết; mẹo"
         ],
         "usphone": "ˈresəpi",
         "ukphone": "ˈresəpi"
@@ -5430,7 +5430,7 @@
         "name": "attentively",
         "trans": [
             "ad",
-            "v. 聚精会神地周到地"
+            "v. một cách tập trung, chu đáo"
         ],
         "usphone": "ɛntɪvlɪ",
         "ukphone": "ɛntɪvlɪ"
@@ -5438,9 +5438,9 @@
     {
         "name": "snack",
         "trans": [
-            "n. 小吃；点心；快餐",
-            "vi. 吃快餐；吃点心",
-            "时态:snacked，snacking，snacks"
+            "n. món ăn nhẹ; điểm tâm; đồ ăn nhanh",
+            "vi. ăn đồ ăn nhanh; ăn món ăn nhẹ",
+            "các dạng: snacked, snacking, snacks"
         ],
         "usphone": "snæk",
         "ukphone": "snæk"
@@ -5468,8 +5468,8 @@
     {
         "name": "vegetarian",
         "trans": [
-            "n. 吃素的人；素食者；素食主义者食草动物",
-            "adj. 素食者的只有蔬菜的"
+            "n. người ăn chay; người ăn chay trường; động vật ăn cỏ",
+            "adj. của người ăn chay; chỉ có rau"
         ],
         "usphone": "ˌvedʒəˈteriən",
         "ukphone": "ˌvedʒəˈteəriən"
@@ -5503,7 +5503,7 @@
     {
         "name": "acquaintance",
         "trans": [
-            "n. 相识的人, 熟人对…有了解, 熟知, 认识名 词:acquaintanceship"
+            "n. người quen, người thân quen; hiểu biết về…, thông hiểu, biết rõ; n.: acquaintanceship"
         ],
         "usphone": "əˈkweɪntəns",
         "ukphone": "əˈkweɪntəns"
@@ -5546,9 +5546,9 @@
     {
         "name": "banquet",
         "trans": [
-            "n. 宴会, 盛宴",
-            "vt.宴请，设宴款待",
-            "时态:banqueted, banqueting, banquets"
+            "n. yến tiệc, đại tiệc",
+            "vt. thết tiệc, khoản đãi bằng tiệc",
+            "các dạng: banqueted, banqueting, banquets"
         ],
         "usphone": "ˈbæŋkwɪt",
         "ukphone": "ˈbæŋkwɪt"
@@ -5607,7 +5607,7 @@
     {
         "name": "B",
         "trans": [
-            "abbr. 生于"
+            "abbr. sinh năm"
         ],
         "usphone": "biː",
         "ukphone": "biː"
@@ -5643,10 +5643,10 @@
     {
         "name": "backpack",
         "trans": [
-            "n. (指登山者、步行者使用或背小孩时使用的)背包, (有轻金属框的)箱形背包",
-            "vi. 背着背包徒步旅行",
-            "时态:backpacked, backpacking, backpacks名 词:backpacker",
-            "名 词:backpacking"
+            "n. ba lô (dùng cho người leo núi, người đi bộ hoặc để địu trẻ em), ba lô khung kim loại nhẹ",
+            "vi. đi bộ đường dài mang ba lô",
+            "các dạng: backpacked, backpacking, backpacks; n.: backpacker",
+            "n.: backpacking"
         ],
         "usphone": "'bæk'pæk",
         "ukphone": "'bækpæk"
@@ -5668,7 +5668,7 @@
     {
         "name": "get-together",
         "trans": [
-            "n. 〈口〉聚会; 联欢会"
+            "n. 〈khẩu ngữ〉buổi họp mặt; buổi liên hoan"
         ],
         "usphone": "ˈɡɛttəˌɡɛðɚ",
         "ukphone": "'gettə,geðə(r)"
@@ -5676,7 +5676,7 @@
     {
         "name": "greeting",
         "trans": [
-            "n. 招呼, 问候祝贺, 祝词"
+            "n. lời chào, lời thăm hỏi; lời chúc mừng, lời chúc"
         ],
         "usphone": "ˈɡriːtɪŋ",
         "ukphone": "ˈɡriːtɪŋ"
@@ -5695,10 +5695,10 @@
     {
         "name": "hug",
         "trans": [
-            "vt. 紧抱；拥抱；抱有，坚持",
+            "vt. ôm chặt; ôm ấp; ôm giữ, kiên trì",
             "vi. ôm; ôm chặt nhau; chen chúc nhau",
-            "n. 紧抱；拥抱；固执",
-            "时态:hugged, hugging, hugs形容词:huggable"
+            "n. sự ôm chặt; sự ôm ấp; sự cố chấp",
+            "các dạng: hugged, hugging, hugs; adj.: huggable"
         ],
         "usphone": "hʌɡ",
         "ukphone": "hʌɡ"
@@ -5708,8 +5708,8 @@
         "trans": [
             "adj. phung phí; phong phú; hào phóng",
             "vt. lãng phí; cho dư dả; lạm dụng",
-            "时态:lavished, lavishing, lavishes副 词:lavishly",
-            "名 词:lavishness"
+            "các dạng: lavished, lavishing, lavishes; adv.: lavishly",
+            "n.: lavishness"
         ],
         "usphone": "ˈlævɪʃ",
         "ukphone": "ˈlævɪʃ"
@@ -5725,8 +5725,8 @@
     {
         "name": "nosy",
         "trans": [
-            "adj. 好管闲事的；爱追问的大鼻子的有香味(或臭味)的包打听；好管闲事的人比较级:nosier，nosiest副 词:nosily",
-            "名 词:nosiness"
+            "adj. thích xen vào chuyện người khác; thích hỏi dò; có mũi to; có mùi thơm (hoặc mùi khó chịu); n. kẻ tọc mạch; so sánh hơn: nosier, nosiest; adv.: nosily",
+            "n.: nosiness"
         ],
         "usphone": "'nozi",
         "ukphone": "'nəʊzɪ"
@@ -5772,7 +5772,7 @@
     {
         "name": "regards",
         "trans": [
-            "n. 问候关于； 至于"
+            "n. lời thăm hỏi; về, đối với"
         ],
         "usphone": "rɪˈɡɑrdz",
         "ukphone": "ri'ga:dz"
@@ -5780,7 +5780,7 @@
     {
         "name": "belongings",
         "trans": [
-            "n. 动产;财物家眷；亲属；亲戚"
+            "n. động sản; của cải; gia quyến; thân thuộc; họ hàng"
         ],
         "usphone": "bɪˈlɔːŋɪŋz",
         "ukphone": "bɪˈlɒŋɪŋz"
@@ -5788,10 +5788,10 @@
     {
         "name": "salute",
         "trans": [
-            "vt. & vi. 欢迎；致敬",
-            "vt. 赞扬；赞颂",
-            "n. 致敬，欢迎，敬礼",
-            "时态:saluted，saluting，salutes名 词:saluter"
+            "vt. & vi. chào đón; chào kính",
+            "vt. ca ngợi; tán dương",
+            "n. sự chào kính, sự chào đón, sự chào",
+            "các dạng: saluted, saluting, salutes; n.: saluter"
         ],
         "usphone": "səˈluːt",
         "ukphone": "səˈluːt"
@@ -5852,7 +5852,7 @@
     {
         "name": "binder",
         "trans": [
-            "n. (书籍的)装订机；装订者活页封面，活页夹黏合物(购买不动产时包括预付订金在内的)保证书，临时契约捆缚(或包扎)用具；绳索，带子割捆机；(收割机上的)捆缚装置"
+            "n. máy đóng sách; thợ đóng sách; bìa rời, kẹp tài liệu; chất kết dính; giấy bảo đảm (gồm cả tiền đặt cọc khi mua bất động sản), hợp đồng tạm thời; dụng cụ buộc (hoặc băng bó); dây thừng, dây đai; máy bó lúa; bộ phận buộc (trên máy gặt)"
         ],
         "usphone": "'baɪndɚ",
         "ukphone": "'baɪndə"
@@ -5860,9 +5860,9 @@
     {
         "name": "compliment",
         "trans": [
-            "n. 赞美(话)，恭维(话)向…送礼以表示敬意",
-            "vt. 表扬；恭维",
-            "时态:complimented，complimenting，compliments"
+            "n. lời khen (nói), lời tán tụng; tặng quà cho… để tỏ lòng kính trọng",
+            "vt. khen ngợi; tán tụng",
+            "các dạng: complimented, complimenting, compliments"
         ],
         "usphone": "ˈkɑːmplɪmənt",
         "ukphone": "ˈkɒmplɪmənt"
@@ -5901,7 +5901,7 @@
     {
         "name": "eloquent",
         "trans": [
-            "adj. 雄辩的，有口才的；有说服力的；意味深长的；动人的副 词:eloquently"
+            "adj. hùng biện, có tài ăn nói; có sức thuyết phục; đầy ý nghĩa; cảm động; adv.: eloquently"
         ],
         "usphone": "ˈeləkwənt",
         "ukphone": "ˈeləkwənt"
@@ -5935,7 +5935,7 @@
     {
         "name": "boardroom",
         "trans": [
-            "n. 会议室,交换场所"
+            "n. phòng họp, nơi trao đổi"
         ],
         "usphone": "ˈbɔrdˌrum",
         "ukphone": "'bɔ:drum"
@@ -5943,8 +5943,8 @@
     {
         "name": "favorable",
         "trans": [
-            "adj. 赞同的；称赞的有利的，顺利的，适合的讨人喜欢的名 词:favorableness",
-            "副 词:favorably"
+            "adj. tán thành; khen ngợi; có lợi, thuận lợi, thích hợp; dễ mến; n.: favorableness",
+            "adv.: favorably"
         ],
         "usphone": "ˈfevərəbl",
         "ukphone": "ˈfeɪvərəbəl"
@@ -5966,8 +5966,8 @@
         "trans": [
             "n. tin tức vặt vãnh; bài tiểu luận; người hay nói xấu người",
             "vi. tán gẫu; nói xấu người",
-            "时态:gossiped, gossiping, gossips名 词:gossiper",
-            "形容词:gossipy"
+            "các dạng: gossiped, gossiping, gossips; n.: gossiper",
+            "adj.: gossipy"
         ],
         "usphone": "ˈɡɑːsɪp",
         "ukphone": "ˈɡɒsɪp"
@@ -6005,9 +6005,9 @@
     {
         "name": "intrude",
         "trans": [
-            "vi. 侵入, 侵扰, 打扰",
-            "vt. 把…强加于",
-            "时态:intruded, intruding, intrudes名 词:intruder"
+            "vi. xâm nhập, quấy nhiễu, làm phiền",
+            "vt. áp đặt… lên",
+            "các dạng: intruded, intruding, intrudes; n.: intruder"
         ],
         "usphone": "ɪnˈtruːd",
         "ukphone": "ɪnˈtruːd"
@@ -6080,9 +6080,9 @@
     {
         "name": "quarrel",
         "trans": [
-            "n. 争吵，不和，口角抱怨…的原因[理由]",
-            "vi. 争吵，争辩不同意；挑剔",
-            "时态:quarreled，quarrelled quarreling，quarrelling quarrels，quarrels"
+            "n. cuộc cãi cọ, sự bất hòa, lời đôi co; lý do [cớ] để phàn nàn về…",
+            "vi. cãi vã, tranh cãi; không đồng ý; bắt bẻ",
+            "các dạng: quarreled, quarrelled; quarreling, quarrelling; quarrels, quarrels"
         ],
         "usphone": "ˈkwɑːrəl",
         "ukphone": "ˈkwɒrəl"
@@ -6172,9 +6172,9 @@
     {
         "name": "broaden",
         "trans": [
-            "vi. 变宽，加宽；扩大，变阔",
-            "vt. 使变宽；使扩大",
-            "时态:broadened, broadening, broadens"
+            "vi. trở nên rộng, mở rộng ra; khuếch trương, rộng rãi hơn",
+            "vt. làm rộng ra; làm mở rộng",
+            "các dạng: broadened, broadening, broadens"
         ],
         "usphone": "ˈbrɔːdn",
         "ukphone": "ˈbrɔːdn"
@@ -6182,7 +6182,7 @@
     {
         "name": "celebrity",
         "trans": [
-            "n. (尤指娱乐界的)名人, 名流名声, 名誉"
+            "n. người nổi tiếng (nhất là trong giới giải trí), danh nhân; danh tiếng, thanh danh"
         ],
         "usphone": "səˈlebrəti",
         "ukphone": "səˈlebrəti"
@@ -6238,7 +6238,7 @@
     {
         "name": "conductor",
         "trans": [
-            "n. (乐队)指挥售票员, 列车长〈电〉导体"
+            "n. nhạc trưởng (ban nhạc); người bán vé, trưởng tàu; 〈điện〉vật dẫn"
         ],
         "usphone": "kənˈdʌktər",
         "ukphone": "kənˈdʌktə(r)"
@@ -6257,8 +6257,8 @@
         "name": "C",
         "trans": [
             "abbr. ",
-            "n. century 世纪C",
-            "n. 字母C"
+            "n. century: thế kỷ; C",
+            "n. chữ C"
         ],
         "usphone": "si:",
         "ukphone": "si:"
@@ -6298,8 +6298,8 @@
     {
         "name": "headline",
         "trans": [
-            "n. 大字标题新闻提要",
-            "时态:headlined, headlining, headlines"
+            "n. tiêu đề lớn; điểm tin chính",
+            "các dạng: headlined, headlining, headlines"
         ],
         "usphone": "ˈhedlaɪn",
         "ukphone": "ˈhedlaɪn"
@@ -6316,7 +6316,7 @@
     {
         "name": "newscast",
         "trans": [
-            "n. 〈美〉新闻广播名 词:newscaster"
+            "n. 〈Mỹ〉bản tin phát thanh; n.: newscaster"
         ],
         "usphone": "'njʊzkæst",
         "ukphone": "'njuːzkɑːst"
@@ -6340,8 +6340,8 @@
     {
         "name": "premiere",
         "trans": [
-            "n. (戏剧、电影等)首次公演",
-            "时态:premiered, premièred premiering, premièring premieres, premières"
+            "n. buổi công diễn đầu tiên (kịch, phim…)",
+            "các dạng: premiered, premièred; premiering, premièring; premieres, premières"
         ],
         "usphone": "prɪˈmɪr",
         "ukphone": "ˈpremieə(r)"
@@ -6380,7 +6380,7 @@
     {
         "name": "cancellation",
         "trans": [
-            "n. 取消，注销；作废，废除；删去，划掉被取消的事物(相)约；(相)消盖销记号；戳记"
+            "n. sự hủy bỏ, xóa bỏ; sự bãi bỏ, thủ tiêu; sự gạch bỏ, xóa đi; vật bị hủy bỏ; sự (thỏa thuận) hủy nhau; dấu hủy, con dấu"
         ],
         "usphone": "ˌkænsə'leʃən",
         "ukphone": "ˌkænsə'leɪʃ(ə)n"
@@ -6394,7 +6394,7 @@
     {
         "name": "candidacy",
         "trans": [
-            "n. 候选人的资格(或身份)"
+            "n. tư cách (hoặc thân phận) ứng cử viên"
         ],
         "usphone": "ˈkændɪdəsi",
         "ukphone": "ˈkændɪdəsi"
@@ -6489,8 +6489,8 @@
         "name": "cashier",
         "trans": [
             "n. thủ quỹ, người giữ tiền",
-            "vt. 革除(军官)职务",
-            "时态:cashiered, cashiering, cashiers"
+            "vt. cách chức (sĩ quan)",
+            "các dạng: cashiered, cashiering, cashiers"
         ],
         "usphone": "kæˈʃɪr",
         "ukphone": "kæˈʃɪə(r)"
@@ -6590,7 +6590,7 @@
     {
         "name": "finale",
         "trans": [
-            "n. 终曲,末乐章"
+            "n. khúc kết, chương cuối"
         ],
         "usphone": "fɪˈnæli",
         "ukphone": "fɪˈnɑːli"
@@ -6646,9 +6646,9 @@
     {
         "name": "preview",
         "trans": [
-            "n. 预览；试映；事先查看",
-            "vt. 预演；预览；事先查看",
-            "时态:previewed",
+            "n. sự xem trước; buổi chiếu thử; sự kiểm tra trước",
+            "vt. diễn thử; xem trước; kiểm tra trước",
+            "các dạng: previewed",
             "also prevued previewingprevuing previewsprevues"
         ],
         "usphone": "ˈpriːvjuː",
@@ -6694,7 +6694,7 @@
     {
         "name": "chairperson",
         "trans": [
-            "n. 主席"
+            "n. chủ tịch"
         ],
         "usphone": "ˈtʃerpɜːrsn",
         "ukphone": "ˈtʃeəpɜːsn"
@@ -6702,10 +6702,10 @@
     {
         "name": "stunt",
         "trans": [
-            "n. 绝技；噱头，手腕",
-            "vt. 阻碍…的正常生长或发展",
-            "vi. 表演特技；作惊人表演",
-            "时态:stunted, stunting, stunts"
+            "n. tuyệt kỹ; chiêu trò, thủ đoạn",
+            "vt. cản trở sự sinh trưởng hoặc phát triển bình thường của…",
+            "vi. biểu diễn tuyệt kỹ; biểu diễn gây kinh ngạc",
+            "các dạng: stunted, stunting, stunts"
         ],
         "usphone": "stʌnt",
         "ukphone": "stʌnt"
@@ -6737,7 +6737,7 @@
     {
         "name": "violin",
         "trans": [
-            "n. 小提琴；小提琴手名 词:violinist"
+            "n. đàn vi-ô-lông; nghệ sĩ vi-ô-lông; n.: violinist"
         ],
         "usphone": "ˌvaɪə'lɪn",
         "ukphone": "vaɪə'lɪn"
@@ -6823,7 +6823,7 @@
     {
         "name": "fitness",
         "trans": [
-            "n. 健康适当,适合"
+            "n. sức khỏe; sự thích hợp, sự phù hợp"
         ],
         "usphone": "'fɪtnəs",
         "ukphone": "'fɪtnəs"
@@ -6831,7 +6831,7 @@
     {
         "name": "gym",
         "trans": [
-            "n. 〈非正〉健身房，体育馆室内健身操；体操"
+            "n. 〈không trang trọng〉phòng tập thể hình, nhà thi đấu; bài tập thể dục trong nhà; thể dục"
         ],
         "usphone": "dʒɪm",
         "ukphone": "dʒɪm"
@@ -6839,7 +6839,7 @@
     {
         "name": "circumstances",
         "trans": [
-            "circumstance3 ENTRIES FOUND:circumstance (noun)pomp (noun)reduce (verb)circumstance/ˈsɚkəmˌstæns/nounplural circumstancescircumstance/ˈsɚkəmˌstæns/ nounplural circumstancesLearner's definition of CIRCUMSTANCE1[count] : a condition or fact that affects a situation情况；条件I can't imagine a circumstance in/under which I would do that.我真想象不出自己在什么情形下能做出那样的事。— usually plural通常用复数If our business is to survive, we must be able to adapt to changing circumstances.如果我们想继续把生意做下去，我们必须能够适应千变万化的环境。It is impossible under these circumstances to meet our deadline.在这样的情况下，根本不可能如期完成。Do not, under any circumstances, open that door. = Under no circumstances are you to open that door. [=no matter what happens, do not open that door]无论如何都不要打开那扇门。Due to circumstances beyond our control [=things that have happened that we cannot change or influence], the flight is canceled.由于出现无法控制的情况，航班被取消。There is nothing we can do under the circumstances. [=in this specific situation]在这种情况下，我们毫无办法。Given the circumstances, I think we did well. [=when you consider how everything went, I think we did well]鉴于当时的情况，我认为我们做得够好了。2circumstances [plural] : the way something happens : the specific details of an event情况；细节；详情The circumstances of his death are suspicious.他死亡的情形十分可疑。3: an event or situation that you cannot control（非人力所能控制的）机缘，命运，机遇[noncount]She says that her client is a victim of circumstance and should not be blamed for the accident.她说她的委托人也是客观环境的受害者，不应把事故的责任推给他。[plural]He was a victim of circumstances.他是客观环境的牺牲品。4circumstances [plural] : the conditions in which someone lives境遇；境况；经济状况Their circumstances changed dramatically after she lost her job.她失业后他们的经济状况发生了巨大的变化。I don't know anything about his financial circumstances. [=about how much money he has]我对他的经济状况一无所知。They have been forced to live in reduced circumstances. [=to live with less money]他们被迫过着紧巴巴的日子。pomp and circumstance—see pomp"
+            "circumstance 3 MỤC TỪ ĐƯỢC TÌM THẤY:circumstance (danh từ)pomp (danh từ)reduce (động từ)circumstance/ˈsɚkəmˌstæns/noun plural circumstances circumstance/ˈsɚkəmˌstæns/ noun plural circumstances Định nghĩa kiểu từ điển cho người học của CIRCUMSTANCE 1[đếm được] : điều kiện hay sự việc tác động đến một tình huống — hoàn cảnh; tình hình; điều kiện. Tôi không thể hình dung nổi một hoàn cảnh mà trong đó/trong đó tôi lại làm điều ấy. — thường dùng ở số nhiều. Nếu công việc buôn bán của chúng tôi muốn tồn tại, chúng tôi phải có khả năng thích ứng với hoàn cảnh luôn thay đổi. Trong những hoàn cảnh như thế này, không thể nào hoàn thành đúng hạn được. Trong bất cứ hoàn cảnh nào, đừng mở cánh cửa đó. = Dù bất cứ điều gì xảy ra, bạn cũng không được mở cánh cửa đó. [=dù bất cứ chuyện gì xảy ra, đừng mở cánh cửa đó] Do những hoàn cảnh nằm ngoài tầm kiểm soát của chúng tôi [=những việc đã xảy ra mà chúng tôi không thể thay đổi hay tác động], chuyến bay bị hủy. Trong hoàn cảnh này [=trong tình huống cụ thể này], chúng tôi không thể làm gì được. Xét theo hoàn cảnh, tôi nghĩ chúng tôi đã làm tốt. [=khi bạn xem xét mọi việc đã diễn ra, tôi nghĩ chúng tôi đã làm tốt] 2circumstances [số nhiều] : cách một việc gì đó xảy ra: những chi tiết cụ thể của một sự kiện — tình tiết; chi tiết. Tình tiết về cái chết của ông ta rất đáng ngờ. 3: một sự kiện hay tình huống mà bạn không thể kiểm soát được (cơ may, vận mệnh, thời cơ không do sức người) [không đếm được] Bà ấy nói rằng thân chủ của mình là nạn nhân của hoàn cảnh và không nên bị đổ lỗi cho vụ tai nạn. [số nhiều] Ông ta là nạn nhân của hoàn cảnh. 4circumstances [số nhiều] : những điều kiện mà một người sống trong đó — cảnh ngộ; tình cảnh; tình hình kinh tế. Cảnh ngộ của họ thay đổi hết sức chóng mặt sau khi bà ấy mất việc. Tôi không biết gì về tình hình tài chính của ông ta. [=về việc ông ta có bao nhiêu tiền] Họ buộc phải sống trong cảnh túng thiếu. [=sống với ít tiền hơn] pomp and circumstance — xem pomp"
         ],
         "usphone": "",
         "ukphone": ""
@@ -6876,7 +6876,7 @@
     {
         "name": "mountaineering",
         "trans": [
-            "n. 登山，爬山；登山运动"
+            "n. sự leo núi, việc leo núi; môn leo núi"
         ],
         "usphone": "ˌmaʊntn'ɪrɪŋ",
         "ukphone": "maʊntə'nɪərɪŋ"
@@ -6892,9 +6892,9 @@
     {
         "name": "participate",
         "trans": [
-            "vt. & vi. 参加, 参与",
-            "时态:participated, participating, participates形容词:participative",
-            "名 词:participator"
+            "vt. & vi. tham gia, dự phần",
+            "các dạng: participated, participating, participates; adj.: participative",
+            "n.: participator"
         ],
         "usphone": "pɑːrˈtɪsɪpeɪt",
         "ukphone": "pɑːˈtɪsɪpeɪt"
@@ -6919,7 +6919,7 @@
     {
         "name": "relaxation",
         "trans": [
-            "n. 消遣，娱乐松懈；松弛；放松；放宽"
+            "n. sự tiêu khiển, giải trí; sự lơi lỏng; sự thư giãn; sự nới lỏng"
         ],
         "usphone": "ˌriːlækˈseɪʃn",
         "ukphone": "ˌriːlækˈseɪʃn"
@@ -6927,7 +6927,7 @@
     {
         "name": "rigor",
         "trans": [
-            "n. 严格，严厉；严谨，严密严酷；艰苦(发热前的)寒战(由惊吓或中毒等导致的身体)僵直，强直"
+            "n. sự nghiêm khắc, sự khắt khe; sự chặt chẽ, sự nghiêm mật; sự khắc nghiệt; gian khổ; cơn rét run (trước khi lên sốt); sự cứng đờ (cơ thể do hãi sợ hoặc trúng độc…)"
         ],
         "usphone": "ˈrɪɡɚ",
         "ukphone": "ˈrɪɡə"
@@ -6961,7 +6961,7 @@
     {
         "name": "stadium",
         "trans": [
-            "n. (周围有看台的)露天大型运动场, 体育场复 数: stadia"
+            "n. sân vận động lớn ngoài trời (có khán đài bao quanh), sân thể thao; số nhiều: stadia"
         ],
         "usphone": "ˈsteɪdiəm",
         "ukphone": "ˈsteɪdiəm"
@@ -6971,8 +6971,8 @@
         "trans": [
             "n. đi lang thang; đi dạo; lưu diễn",
             "vi. đi lang thang; đi dạo; lưu diễn",
-            "vt. 闲逛；散步",
-            "时态:strolled, strolling, strolls"
+            "vt. đi dạo; tản bộ",
+            "các dạng: strolled, strolling, strolls"
         ],
         "usphone": "stroʊl",
         "ukphone": "strəʊl"
@@ -7012,7 +7012,7 @@
     {
         "name": "time-out",
         "trans": [
-            "n. 暂停,休息时间"
+            "n. sự tạm dừng, thời gian nghỉ"
         ],
         "usphone": "ˈtaɪmˈaʊt",
         "ukphone": "'taim'aut"
@@ -7040,9 +7040,9 @@
     {
         "name": "usher",
         "trans": [
-            "n. 引座员, 招待员, 迎宾员门房, 传达员助理教员, 助教",
-            "vt. 引, 领, 陪同",
-            "时态:ushered, ushering, ushers"
+            "n. người dẫn chỗ, người tiếp đãi, người đón khách; người gác cửa, người trực cổng; trợ giảng, trợ tá",
+            "vt. dẫn, dắt, hộ tống",
+            "các dạng: ushered, ushering, ushers"
         ],
         "usphone": "ˈʌʃər",
         "ukphone": "ˈʌʃə(r)"
@@ -7059,7 +7059,7 @@
     {
         "name": "billiards",
         "trans": [
-            "n. 台球,桌球戏，弹子球"
+            "n. bi-da, trò chơi bi-da, bi-a"
         ],
         "usphone": "'bɪljɚdz",
         "ukphone": "'bɪljədz"
@@ -7075,7 +7075,7 @@
     {
         "name": "combative",
         "trans": [
-            "adj. 好战的；好事的副 词:combatively"
+            "adj. hiếu chiến; hay gây gổ; adv.: combatively"
         ],
         "usphone": "kəmˈbætɪv",
         "ukphone": "ˈkɒmbətɪv"
@@ -7116,7 +7116,7 @@
         "trans": [
             "n. phòng vệ; bảo vệ; biện pháp phòng thủ; sự phòng thủ",
             "vt. lên kế hoạch kháng cự",
-            "时态:defensed, defensing, defenses形容词:defenseless"
+            "các dạng: defensed, defensing, defenses; adj.: defenseless"
         ],
         "usphone": "dɪˈfɛns",
         "ukphone": "dɪˈfens"
@@ -7126,9 +7126,9 @@
         "trans": [
             "n. tiền phạt; vật tịch thu; thứ bị mất",
             "adj. bị mất do phạt; bị tịch thu",
-            "vt. （因犯罪、失职、违约等）丧失（权利、名誉、生命等）",
-            "时态:forfeited, forfeiting, forfeits形容词:forfeitable",
-            "名 词:forfeiter"
+            "vt. mất (quyền lợi, danh dự, tính mạng…) do phạm tội, thiếu trách nhiệm, vi phạm hợp đồng…",
+            "các dạng: forfeited, forfeiting, forfeits; adj.: forfeitable",
+            "n.: forfeiter"
         ],
         "usphone": "ˈfɔːrfɪt",
         "ukphone": "ˈfɔːfɪt"
@@ -7171,8 +7171,8 @@
     {
         "name": "massage",
         "trans": [
-            "n. 按摩, 推拿",
-            "时态:massaged, massaging, massages名 词:massager"
+            "n. sự xoa bóp, sự đấm bóp",
+            "các dạng: massaged, massaging, massages; n.: massager"
         ],
         "usphone": "məˈsɑːʒ",
         "ukphone": "ˈmæsɑːʒ"
@@ -7202,7 +7202,7 @@
     {
         "name": "compatible",
         "trans": [
-            "adj. 可以并存的, 相容的, 协调的副 词:compatibly"
+            "adj. có thể cùng tồn tại, tương thích, hài hòa; adv.: compatibly"
         ],
         "usphone": "kəmˈpætəbl",
         "ukphone": "kəmˈpætəbl"
@@ -7210,7 +7210,7 @@
     {
         "name": "pastime",
         "trans": [
-            "n. 消遣, 娱乐"
+            "n. sự tiêu khiển, sự giải trí"
         ],
         "usphone": "ˈpæstaɪm",
         "ukphone": "ˈpɑːstaɪm"
@@ -7325,10 +7325,10 @@
     {
         "name": "umpire",
         "trans": [
-            "n. 裁判员；仲裁人；裁决者",
-            "vt. 仲裁；裁判",
-            "vi. 做仲裁人；当裁判",
-            "时态:umpired，umpiring，umpires"
+            "n. trọng tài; người phân xử; người ra phán quyết",
+            "vt. phân xử; làm trọng tài",
+            "vi. làm người phân xử; làm trọng tài",
+            "các dạng: umpired, umpiring, umpires"
         ],
         "usphone": "ˈʌmpaɪər",
         "ukphone": "ˈʌmpaɪə(r)"
@@ -7411,8 +7411,8 @@
     {
         "name": "complimentary",
         "trans": [
-            "adj. 表示敬意的，赞美的，恭维的赠送的ad",
-            "v. 崇敬地,赞美地,赞许地"
+            "adj. tỏ lòng kính trọng, ca ngợi, tán tụng; được tặng; adv.",
+            "v. một cách tôn kính, ngợi ca, tán thưởng"
         ],
         "usphone": "ˌkɑmplɪ'mɛntri",
         "ukphone": "kɒmplɪ'ment(ə)rɪ"
@@ -7437,7 +7437,7 @@
     {
         "name": "contagious",
         "trans": [
-            "adj. (病)有传染性的(人)患传染病的有感染力的副 词:contagiously"
+            "adj. (bệnh) lây nhiễm; (người) mắc bệnh truyền nhiễm; có sức lan tỏa; adv.: contagiously"
         ],
         "usphone": "kənˈteɪdʒəs",
         "ukphone": "kənˈteɪdʒəs"
@@ -7539,7 +7539,7 @@
     {
         "name": "concourse",
         "trans": [
-            "n. 宽敞的大厅，广场聚集，汇集；群众"
+            "n. sảnh lớn, quảng trường; sự tụ tập, sự tụ họp; đám đông"
         ],
         "usphone": "ˈkɑnˌkɔrs",
         "ukphone": "ˈkɔŋkɔːs"
@@ -7650,7 +7650,7 @@
     {
         "name": "antibiotic",
         "trans": [
-            "n. 抗生素, 抗菌素",
+            "n. thuốc kháng sinh, chất kháng sinh",
             "adj. kháng sinh; kháng khuẩn"
         ],
         "usphone": "ˌæntibaɪˈɑːtɪk",
@@ -7731,7 +7731,7 @@
     {
         "name": "consignment",
         "trans": [
-            "n. 托付货物;托卖货物寄售;托运;托付;交付以寄售方式"
+            "n. hàng ký gửi; hàng bán ký gửi; sự ký gửi; sự gửi gắm; sự giao hàng; theo lối ký gửi"
         ],
         "usphone": "kən'saɪnmənt",
         "ukphone": "kən'saɪnm(ə)nt"
@@ -7766,7 +7766,7 @@
     {
         "name": "consistent",
         "trans": [
-            "adj. 一贯的, 始终如一的一致的, 符合的副 词:consistently"
+            "adj. kiên định, nhất quán; phù hợp, thống nhất; adv.: consistently"
         ],
         "usphone": "kənˈsɪstənt",
         "ukphone": "kənˈsɪstənt"
@@ -7791,9 +7791,9 @@
     {
         "name": "handicap",
         "trans": [
-            "n. 障碍(生理或智力上的)缺陷；残疾加给强对手的不利条件",
-            "vt. 妨碍；使不利使(某人)行动和生活不正常",
-            "时态:handicapped，handicapping，handicaps"
+            "n. trở ngại; khuyết tật (về thể chất hoặc trí tuệ); sự tàn tật; điều kiện bất lợi gán cho đối thủ mạnh",
+            "vt. cản trở; gây bất lợi; làm cho (ai) hành động và sinh hoạt không bình thường",
+            "các dạng: handicapped, handicapping, handicaps"
         ],
         "usphone": "ˈhændikæp",
         "ukphone": "ˈhændikæp"
@@ -7809,7 +7809,7 @@
     {
         "name": "indemnity",
         "trans": [
-            "n. 保障, 赔偿, 补偿赔款, 补偿金, 赔偿物"
+            "n. sự bảo đảm, sự bồi thường, sự đền bù; tiền bồi thường, tiền đền bù, vật đền bù"
         ],
         "usphone": "ɪn'dɛmnəti",
         "ukphone": "ɪn'demnɪtɪ"
@@ -7885,8 +7885,8 @@
     {
         "name": "consume",
         "trans": [
-            "vt. 消耗, 消费, 耗尽大吃, 大喝烧毁, 毁灭",
-            "时态:consumed, consuming, consumes"
+            "vt. tiêu thụ, tiêu dùng, làm cạn kiệt; ăn ngấu nghiến, uống ừng ực; thiêu hủy, hủy diệt",
+            "các dạng: consumed, consuming, consumes"
         ],
         "usphone": "kənˈsuːm",
         "ukphone": "kənˈsjuːm"
@@ -7902,7 +7902,7 @@
     {
         "name": "purification",
         "trans": [
-            "n. 洗净，净化提纯，精炼涤罪，洗罪；斋戒(犹太妇女按教规在月经后行的)洁净礼"
+            "n. sự rửa sạch, sự thanh tẩy; sự tinh chế, sự luyện tinh; sự tẩy uế, sự rửa tội; sự ăn chay; lễ tẩy uế (của phụ nữ Do Thái theo giáo luật sau kỳ kinh nguyệt)"
         ],
         "usphone": "ˌpjʊrəfə'keʃən",
         "ukphone": "ˌpjʊərəfɪˈkeɪʃən"
@@ -7946,7 +7946,7 @@
     {
         "name": "continual",
         "trans": [
-            "adj. 不间断的, 不停的多次重复的, 频繁的副 词:continually"
+            "adj. không ngừng, không dứt; lặp đi lặp lại nhiều lần, thường xuyên; adv.: continually"
         ],
         "usphone": "kənˈtɪnjuəl",
         "ukphone": "kənˈtɪnjuəl"
@@ -7962,7 +7962,7 @@
     {
         "name": "continuation",
         "trans": [
-            "n. 继续,连续,持续延长部分"
+            "n. sự tiếp tục, sự liên tục, sự kéo dài; phần kéo dài"
         ],
         "usphone": "kənˌtɪnjuˈeɪʃn",
         "ukphone": "kənˌtɪnjuˈeɪʃn"
@@ -7971,7 +7971,7 @@
         "name": "waive",
         "trans": [
             "vt. từ bỏ; gác lại",
-            "时态:waived, waiving, waives"
+            "các dạng: waived, waiving, waives"
         ],
         "usphone": "weɪv",
         "ukphone": "weɪv"
@@ -8086,7 +8086,7 @@
         "name": "conveniently",
         "trans": [
             "ad",
-            "v. 方便地，便利地；合宜地"
+            "v. một cách thuận tiện, tiện lợi; thích hợp"
         ],
         "usphone": "kənˈvinjəntlɪ",
         "ukphone": "kən'vi:njəntli"
@@ -8119,7 +8119,7 @@
     {
         "name": "laundry",
         "trans": [
-            "n. 洗衣店，洗衣房洗好的衣服；待洗的衣服"
+            "n. hiệu giặt, phòng giặt; quần áo đã giặt; quần áo chờ giặt"
         ],
         "usphone": "ˈlɔːndri",
         "ukphone": "ˈlɔːndri"
@@ -8128,10 +8128,10 @@
         "name": "lease",
         "trans": [
             "n. hợp đồng thuê; thời hạn thuê; vật cho thuê; quyền thuê",
-            "vt. 出租；租得",
-            "vi. 出租",
-            "时态:leased, leasing, leases形容词:leasable",
-            "名 词:leaser"
+            "vt. cho thuê; thuê được",
+            "vi. cho thuê",
+            "các dạng: leased, leasing, leases; adj.: leasable",
+            "n.: leaser"
         ],
         "usphone": "liːs",
         "ukphone": "liːs"
@@ -8180,9 +8180,9 @@
     {
         "name": "ornament",
         "trans": [
-            "n. 装饰；装饰物；教堂用品",
+            "n. sự trang trí; đồ trang trí; đồ thờ (nhà thờ)",
             "vt. trang trí; làm đẹp",
-            "时态:ornamented, ornamenting, ornaments名 词:ornamenter"
+            "các dạng: ornamented, ornamenting, ornaments; n.: ornamenter"
         ],
         "usphone": "ˈɔːrnəmənt",
         "ukphone": "ˈɔːnəmənt"
@@ -8190,8 +8190,8 @@
     {
         "name": "plumbing",
         "trans": [
-            "n. 铅工业；铅管品制造",
-            "v. 探究；垂直悬挂；用铅锤测量；灌铅以增重（plumb的现在分词）"
+            "n. công nghiệp chì; nghề làm đồ chì",
+            "v. dò xét; treo thẳng đứng; đo bằng dây dọi; đổ chì để tăng trọng lượng (phân từ hiện tại của plumb)"
         ],
         "usphone": "ˈplʌmɪŋ",
         "ukphone": "ˈplʌmɪŋ"
@@ -8232,8 +8232,8 @@
         "name": "renovate",
         "trans": [
             "v. sửa chữa; tân trang; sơn lại; trùng tu (nhất là công trình)",
-            "时态:renovated，renovating，renovates名 词:renovation",
-            "名 词:renovator"
+            "các dạng: renovated, renovating, renovates; n.: renovation",
+            "n.: renovator"
         ],
         "usphone": "ˈrenəveɪt",
         "ukphone": "ˈrenəveɪt"
@@ -8249,7 +8249,7 @@
     {
         "name": "credentials",
         "trans": [
-            "n. 资格证书; 国书(任何证明人的能力、资格等的)证书; 资格"
+            "n. giấy chứng nhận tư cách; quốc thư; chứng chỉ (chứng minh năng lực, tư cách… của một người); tư cách"
         ],
         "usphone": "krəˈdenʃlz",
         "ukphone": "krəˈdenʃlz"
@@ -8331,7 +8331,7 @@
     {
         "name": "furnishings",
         "trans": [
-            "n. 家具陈设服饰"
+            "n. đồ đạc trong nhà, trang bị, quần áo"
         ],
         "usphone": "'fɝnɪʃɪŋz",
         "ukphone": "ˈfə:niʃiŋz"
@@ -8365,7 +8365,7 @@
     {
         "name": "kitchenware",
         "trans": [
-            "n. 厨房用具"
+            "n. đồ dùng nhà bếp"
         ],
         "usphone": "'kɪtʃɪnwɛr",
         "ukphone": "'kɪtʃɪnweə"
@@ -8373,7 +8373,7 @@
     {
         "name": "laundromat",
         "trans": [
-            "n. 自助洗衣店"
+            "n. tiệm giặt tự phục vụ"
         ],
         "usphone": "ˈlɔndrəˌmæt",
         "ukphone": "'lɔ:ndrəumæt"
@@ -8417,7 +8417,7 @@
     {
         "name": "messy",
         "trans": [
-            "adj. 肮脏的，污秽的；凌乱的，散乱的；麻烦的比较级:messier, messiest副 词:messily"
+            "adj. bẩn thỉu, dơ dáy; lộn xộn, bừa bãi; rắc rối; so sánh hơn: messier, messiest; adv.: messily"
         ],
         "usphone": "ˈmesi",
         "ukphone": "ˈmesi"
@@ -8425,7 +8425,7 @@
     {
         "name": "neighborhood",
         "trans": [
-            "n. 地区;某地区的人;与某处邻近的地区"
+            "n. vùng, khu vực; người của một vùng; vùng lân cận một nơi nào đó"
         ],
         "usphone": "ˈnebɚˌhʊd",
         "ukphone": "ˈneɪbəˌhʊd"
@@ -8474,7 +8474,7 @@
     {
         "name": "D",
         "trans": [
-            "直接指出的;直接证明的;直证的;指示的"
+            "chỉ ra trực tiếp; chứng minh trực tiếp; chứng cứ trực tiếp; có tính chỉ định"
         ],
         "usphone": "diː",
         "ukphone": "diː"
@@ -8482,10 +8482,10 @@
     {
         "name": "relocate",
         "trans": [
-            "vt. 重新安置；迁移",
-            "vi. 迁移新址；重新安置",
-            "n. [计算机]浮动",
-            "时态:relocated, relocating, relocates名 词:relocation"
+            "vt. tái định cư; di chuyển",
+            "vi. chuyển đến nơi mới; tái định cư",
+            "n. [máy tính] sự nổi, phao động",
+            "các dạng: relocated, relocating, relocates; n.: relocation"
         ],
         "usphone": "ˌri'loket",
         "ukphone": "riːlə(ʊ)'keɪt"
@@ -8586,8 +8586,8 @@
     {
         "name": "brag",
         "trans": [
-            "vt. & vi. 自夸, 吹嘘",
-            "时态:bragged, bragging, brags名 词:bragger"
+            "vt. & vi. tự khoe, khoác lác",
+            "thì: bragged, bragging, brags danh từ: bragger"
         ],
         "usphone": "bræɡ",
         "ukphone": "bræɡ"
@@ -8625,7 +8625,7 @@
         "name": "detest",
         "trans": [
             "vt. căm ghét; chán ghét",
-            "时态:detested, detesting, detests"
+            "thì: detested, detesting, detests"
         ],
         "usphone": "dɪˈtest",
         "ukphone": "dɪˈtest"
@@ -8634,7 +8634,7 @@
         "name": "dedicate",
         "trans": [
             "vt. cống hiến; tâm huyết; dâng hiến",
-            "时态:dedicated, dedicating, dedicates名 词:dedicator"
+            "thì: dedicated, dedicating, dedicates danh từ: dedicator"
         ],
         "usphone": "ˈdedɪkeɪt",
         "ukphone": "ˈdedɪkeɪt"
@@ -8653,7 +8653,7 @@
         "name": "deduct",
         "trans": [
             "vt. khấu trừ, trừ đi; suy diễn",
-            "时态:deducted, deducting, deducts"
+            "thì: deducted, deducting, deducts"
         ],
         "usphone": "dɪˈdʌkt",
         "ukphone": "dɪˈdʌkt"
@@ -8690,9 +8690,9 @@
     {
         "name": "esteem",
         "trans": [
-            "vt. 认为；尊敬；考虑；估价",
+            "vt. cho là; tôn trọng; xem xét; định giá",
             "n. sự tôn trọng; sự kính trọng",
-            "时态:esteemed, esteeming, esteems"
+            "thì: esteemed, esteeming, esteems"
         ],
         "usphone": "ɪˈstiːm",
         "ukphone": "ɪˈstiːm"
@@ -8709,7 +8709,7 @@
     {
         "name": "fascination",
         "trans": [
-            "n. 魅力；有魅力的东西迷恋，陶醉"
+            "n. sức hấp dẫn; thứ quyến rũ say mê, mê đắm"
         ],
         "usphone": "ˌfæsɪˈneɪʃn",
         "ukphone": "ˌfæsɪˈneɪʃn"
@@ -8726,8 +8726,8 @@
     {
         "name": "gloomy",
         "trans": [
-            "adj. 黑暗的；沮丧的；阴郁的比较级:gloomier, gloomiest副 词:gloomily",
-            "名 词:gloominess"
+            "adj. tối tăm; u sầu; ảm đạm so sánh hơn: gloomier, gloomiest phó từ: gloomily",
+            "danh từ: gloominess"
         ],
         "usphone": "ˈɡluːmi",
         "ukphone": "ˈɡluːmi"
@@ -8752,9 +8752,9 @@
     {
         "name": "impulsive",
         "trans": [
-            "adj. (指人或人的行为)冲动的,易冲动的ad",
-            "v. 易冲动地",
-            "n. 易冲动副 词:impulsively"
+            "adj. (chỉ người hoặc hành vi của con người) bốc đồng, dễ bốc đồng ad",
+            "v. một cách bốc đồng",
+            "n. tính bốc đồng phó từ: impulsively"
         ],
         "usphone": "ɪmˈpʌlsɪv",
         "ukphone": "ɪmˈpʌlsɪv"
@@ -8842,7 +8842,7 @@
     {
         "name": "repulsive",
         "trans": [
-            "adj. 令人厌恶的,可憎的副 词:repulsively"
+            "adj. đáng ghê tởm, đáng căm ghét phó từ: repulsively"
         ],
         "usphone": "rɪ'pʌlsɪv",
         "ukphone": "rɪ'pʌlsɪv"
@@ -8858,7 +8858,7 @@
     {
         "name": "tranquility",
         "trans": [
-            "n. 平静;安静;安宁平稳;稳定"
+            "n. yên tĩnh; yên lặng; thanh bình êm ả; ổn định"
         ],
         "usphone": "træŋˈkwɪləti",
         "ukphone": "træŋˈkwɪləti"
@@ -8894,7 +8894,7 @@
     {
         "name": "contentment",
         "trans": [
-            "n. 满足,满意"
+            "n. sự thỏa mãn, sự hài lòng"
         ],
         "usphone": "kən'tɛntmənt",
         "ukphone": "kən'tentm(ə)nt"
@@ -8910,9 +8910,9 @@
     {
         "name": "despair",
         "trans": [
-            "n. 绝望使人绝望的人(或事物)",
-            "vi. 绝望",
-            "时态:despaired, despairing, despairs"
+            "n. sự tuyệt vọng người (hoặc vật) khiến người ta tuyệt vọng",
+            "vi. tuyệt vọng",
+            "thì: despaired, despairing, despairs"
         ],
         "usphone": "dɪˈsper",
         "ukphone": "dɪˈspeə(r)"
@@ -8935,7 +8935,7 @@
     {
         "name": "disposition",
         "trans": [
-            "n. 气质, 天性, 性格安排, 布置"
+            "n. khí chất, bản tính, tính cách sự sắp xếp, bài trí"
         ],
         "usphone": "ˌdɪspəˈzɪʃn",
         "ukphone": "ˌdɪspəˈzɪʃn"
@@ -8960,7 +8960,7 @@
         "name": "entice",
         "trans": [
             "vt. dụ dỗ; xúi giục",
-            "时态:enticed, enticing, entices名 词:enticement"
+            "thì: enticed, enticing, entices danh từ: enticement"
         ],
         "usphone": "ɪnˈtaɪs",
         "ukphone": "ɪnˈtaɪs"
@@ -8997,7 +8997,7 @@
     {
         "name": "fondness",
         "trans": [
-            "n. 喜爱;钟爱溺爱"
+            "n. sự yêu thích; sự quý mến sự nuông chiều"
         ],
         "usphone": "ˈfɑːndnəs",
         "ukphone": "ˈfɒndnəs"
@@ -9014,7 +9014,7 @@
     {
         "name": "hideous",
         "trans": [
-            "adj. 可怕的；丑恶的副 词:hideously"
+            "adj. đáng sợ; gớm ghiếc phó từ: hideously"
         ],
         "usphone": "ˈhɪdiəs",
         "ukphone": "'hɪdɪəs"
@@ -9076,8 +9076,8 @@
     {
         "name": "detect",
         "trans": [
-            "vt. 发现；发觉，查明",
-            "时态:detected，detecting，detects名 词:detecter"
+            "vt. phát hiện; nhận ra, tìm ra",
+            "thì: detected, detecting, detects danh từ: detecter"
         ],
         "usphone": "dɪˈtekt",
         "ukphone": "dɪˈtekt"
@@ -9093,7 +9093,7 @@
     {
         "name": "deterioration",
         "trans": [
-            "n. 恶化，变坏；退化；堕落"
+            "n. sự xấu đi, sự tồi tệ hơn; sự thoái hóa; sự sa đọa"
         ],
         "usphone": "dɪˌtɪrɪəˈreʃən",
         "ukphone": "di,tiəriə'reiʃən"
@@ -9144,7 +9144,7 @@
             "vt. làm giật mình; làm ngạc nhiên; làm sốc",
             "vi. giật mình; nhảy; ngạc nhiên",
             "n. sợ hãi; kinh hãi; giật mình",
-            "时态:startled, startling, startles副 词:startlingly"
+            "thì: startled, startling, startles phó từ: startlingly"
         ],
         "usphone": "ˈstɑːrtl",
         "ukphone": "ˈstɑːtl"
@@ -9174,7 +9174,7 @@
     {
         "name": "developer",
         "trans": [
-            "n. 开发者显影剂"
+            "n. nhà phát triển thuốc hiện hình"
         ],
         "usphone": "dɪˈveləpər",
         "ukphone": "dɪˈveləpə(r)"
@@ -9227,8 +9227,8 @@
     {
         "name": "differential",
         "trans": [
-            "adj. 不同的，有分别的；基于差别的；区别性的",
-            "n. 差异；工资级差"
+            "adj. khác nhau, có phân biệt; dựa trên sự khác biệt; mang tính phân biệt",
+            "n. sự khác biệt; mức chênh lệch tiền lương"
         ],
         "usphone": "'dɪfə'rɛnʃəl",
         "ukphone": "ˌdɪfə'renʃ(ə)l"
@@ -9255,7 +9255,7 @@
             "n. nỗ lực; cố gắng (tương đương endeavour)",
             "vi. nỗ lực; cố gắng (tương đương endeavour)",
             "vt. nỗ lực; cố gắng (tương đương endeavour)",
-            "时态:endeavored, endeavoring, endeavors"
+            "thì: endeavored, endeavoring, endeavors"
         ],
         "usphone": "ɪnˈdevər",
         "ukphone": "ɪnˈdevə(r)"
@@ -9314,8 +9314,8 @@
     {
         "name": "disconnect",
         "trans": [
-            "vt. 切断,断开拆开,分离",
-            "时态:disconnected, disconnecting, disconnects名 词:disconnection"
+            "vt. cắt đứt, ngắt kết nối tháo rời, tách ra",
+            "thì: disconnected, disconnecting, disconnects danh từ: disconnection"
         ],
         "usphone": "ˌdɪskə'nɛkt",
         "ukphone": "dɪskə'nekt"
@@ -9323,8 +9323,8 @@
     {
         "name": "inspire",
         "trans": [
-            "vt. 鼓舞；激发；启示；产生；使生灵感",
-            "时态:inspired, inspiring, inspires名 词:inspirer"
+            "vt. khích lệ; khơi gợi; truyền cảm hứng; tạo ra; gây cảm hứng",
+            "thì: inspired, inspiring, inspires danh từ: inspirer"
         ],
         "usphone": "ɪnˈspaɪər",
         "ukphone": "ɪnˈspaɪə(r)"
@@ -9440,7 +9440,7 @@
     {
         "name": "dismissive",
         "trans": [
-            "adj. 轻视的, 轻蔑的, 鄙视的"
+            "adj. coi thường, khinh miệt, khinh bỉ"
         ],
         "usphone": "dɪs'mɪsɪv",
         "ukphone": "dɪs'mɪsɪv"
@@ -9469,7 +9469,7 @@
     {
         "name": "disposable",
         "trans": [
-            "adj. 一次使用后即丢掉的, 一次性的(纳税后的钱)可自由支配的"
+            "adj. dùng một lần rồi bỏ, dùng một lần (tiền sau thuế) có thể tự do chi tiêu"
         ],
         "usphone": "dɪˈspoʊzəbl",
         "ukphone": "dɪˈspəʊzəbl"
@@ -9628,7 +9628,7 @@
             "vt. quyên góp; tặng",
             "vi. quyên góp; tặng",
             "n. sự quyên góp; sự tặng",
-            "时态:donated, donating, donates名 词:donator"
+            "thì: donated, donating, donates danh từ: donator"
         ],
         "usphone": "ˈdoʊneɪt",
         "ukphone": "dəʊˈneɪt"
@@ -9697,7 +9697,7 @@
         "name": "downsize",
         "trans": [
             "vt. thiết kế kích cỡ nhỏ; giảm kích cỡ; cắt giảm nhân sự",
-            "时态:downsized, downsizing, downsizes"
+            "thì: downsized, downsizing, downsizes"
         ],
         "usphone": "ˈdaʊnsaɪz",
         "ukphone": "ˈdaʊnsaɪz"
@@ -9760,9 +9760,9 @@
     {
         "name": "submit",
         "trans": [
-            "vi. 屈服, 认输",
-            "vt. 提交, 呈递〈正〉建议, 主张, 申辩",
-            "时态:submitted, submitting, submits名 词:submittal"
+            "vi. khuất phục, chịu thua",
+            "vt. đệ trình, trình lên <trang trọng> đề nghị, chủ trương, biện hộ",
+            "thì: submitted, submitting, submits danh từ: submittal"
         ],
         "usphone": "səbˈmɪt",
         "ukphone": "səbˈmɪt"
@@ -9771,7 +9771,7 @@
         "name": "drastic",
         "trans": [
             "adj. dữ dội; mạnh mẽ",
-            "n. 烈性泻药副 词:drastically"
+            "n. thuốc tẩy mạnh phó từ: drastically"
         ],
         "usphone": "ˈdræstɪk",
         "ukphone": "ˈdræstɪk"
@@ -9790,7 +9790,7 @@
         "name": "drastically",
         "trans": [
             "ad",
-            "v. 大大地;彻底地激烈地"
+            "v. một cách to lớn; triệt để một cách quyết liệt"
         ],
         "usphone": "ˈdræstɪkli",
         "ukphone": "ˈdræstɪkli"
@@ -9858,8 +9858,8 @@
     {
         "name": "ample",
         "trans": [
-            "adj. 丰富的；足够的；宽敞的比较级:ampler, amplest名 词:ampleness",
-            "副 词:amply"
+            "adj. phong phú; đầy đủ; rộng rãi so sánh hơn: ampler, amplest danh từ: ampleness",
+            "phó từ: amply"
         ],
         "usphone": "ˈæmpl",
         "ukphone": "ˈæmpl"
@@ -9878,7 +9878,7 @@
     {
         "name": "decent",
         "trans": [
-            "adj. 得体的；正派的；相当好的副 词:decently"
+            "adj. đứng đắn; đoan chính; khá tốt phó từ: decently"
         ],
         "usphone": "ˈdiːsnt",
         "ukphone": "ˈdiːsnt"
@@ -9897,7 +9897,7 @@
     {
         "name": "dreadful",
         "trans": [
-            "adj. 可怕的；糟透的，令人不快的副 词:dreadfully"
+            "adj. đáng sợ; tồi tệ, khó chịu phó từ: dreadfully"
         ],
         "usphone": "ˈdredfl",
         "ukphone": "ˈdredfl"
@@ -9921,8 +9921,8 @@
     {
         "name": "duty-free",
         "trans": [
-            "adj. 免税的ad",
-            "v. 免税地副 词:duty-free"
+            "adj. miễn thuế ad",
+            "v. một cách miễn thuế phó từ: duty-free"
         ],
         "usphone": "ˈfriː",
         "ukphone": "ˈfriː"
@@ -9930,7 +9930,7 @@
     {
         "name": "exquisite",
         "trans": [
-            "adj. 精致的, 精美的敏感的, 细致的副 词:exquisitely"
+            "adj. tinh tế, tinh xảo nhạy cảm, tỉ mỉ phó từ: exquisitely"
         ],
         "usphone": "ɪkˈskwɪzɪt",
         "ukphone": "ɪkˈskwɪzɪt"
@@ -9938,7 +9938,7 @@
     {
         "name": "E",
         "trans": [
-            "n. 字母E"
+            "n. chữ cái E"
         ],
         "usphone": "i:",
         "ukphone": "i:"
@@ -9946,7 +9946,7 @@
     {
         "name": "farfetched",
         "trans": [
-            "adj. 牵强的"
+            "adj. gượng gạo"
         ],
         "usphone": "'fɑr'fɛtʃt",
         "ukphone": "ˈfɑ:ˈfetʃt"
@@ -9974,7 +9974,7 @@
     {
         "name": "ingenious",
         "trans": [
-            "adj. 灵巧的, 善于创造发明的设计独特的, 制作精巧的副 词:ingeniously"
+            "adj. khéo léo, giỏi sáng chế thiết kế độc đáo, chế tác tinh xảo phó từ: ingeniously"
         ],
         "usphone": "ɪnˈdʒiːniəs",
         "ukphone": "ɪnˈdʒiːniəs"
@@ -9982,7 +9982,7 @@
     {
         "name": "economical",
         "trans": [
-            "adj. 节约的, 节俭的, 经济的副 词:economically"
+            "adj. tiết kiệm, tằn tiện, kinh tế phó từ: economically"
         ],
         "usphone": "ˌiːkəˈnɑːmɪkl",
         "ukphone": "ˌiːkəˈnɒmɪkl"
@@ -9999,8 +9999,8 @@
     {
         "name": "economize",
         "trans": [
-            "vi. 节省；减少开支",
-            "时态:economized，economizing，economizes名 词:economizer"
+            "vi. tiết kiệm; giảm chi tiêu",
+            "thì: economized, economizing, economizes danh từ: economizer"
         ],
         "usphone": "ɪˈkɑːnəmaɪz",
         "ukphone": "ɪˈkɒnəmaɪz"
@@ -10148,8 +10148,8 @@
     {
         "name": "versatile",
         "trans": [
-            "adj. 有多种学问、技能或职业的；多才多艺的(指工具、机器等)多用途的，多功能的副 词:versatilely",
-            "名 词:versatility"
+            "adj. có nhiều học vấn, kỹ năng hoặc nghề nghiệp; đa tài (chỉ dụng cụ, máy móc...) đa dụng, đa năng phó từ: versatilely",
+            "danh từ: versatility"
         ],
         "usphone": "ˈvɜːrsətl",
         "ukphone": "ˈvɜːsətaɪl"
@@ -10292,7 +10292,7 @@
         "name": "inferior",
         "trans": [
             "adj. cấp dưới, hạ đẳng; kém; tự ti",
-            "n. 次品；下级名 词:inferiority"
+            "n. hàng kém chất lượng; cấp dưới danh từ: inferiority"
         ],
         "usphone": "ɪnˈfɪriər",
         "ukphone": "ɪnˈfɪəriə(r)"
@@ -10321,7 +10321,7 @@
     {
         "name": "irresistible",
         "trans": [
-            "adj. 不可抵抗的；不能压制的；极为诱人的副 词:irresistibly"
+            "adj. không thể cưỡng lại; không thể đàn áp; vô cùng quyến rũ phó từ: irresistibly"
         ],
         "usphone": "ˌɪrɪˈzɪstəbl",
         "ukphone": "ˌɪrɪˈzɪstəbl"
@@ -10338,8 +10338,8 @@
     {
         "name": "miscellaneous",
         "trans": [
-            "adj. 不同种类的，多种多样的；混杂的ad",
-            "v. 不同种类地，多种多样地；混杂地"
+            "adj. thuộc nhiều loại khác nhau, đa dạng; hỗn tạp ad",
+            "v. một cách khác loại, đa dạng; một cách hỗn tạp"
         ],
         "usphone": "'mɪsə'lenɪəs",
         "ukphone": "ˌmɪsə'leɪnɪəs"
@@ -10355,8 +10355,8 @@
     {
         "name": "noteworthy",
         "trans": [
-            "adj. 值得注意的；显著的；重要的比较级:noteworthier，noteworthiest副 词:noteworthily",
-            "名 词:noteworthiness"
+            "adj. đáng chú ý; nổi bật; quan trọng so sánh hơn: noteworthier, noteworthiest phó từ: noteworthily",
+            "danh từ: noteworthiness"
         ],
         "usphone": "ˈnoʊtwɜːrði",
         "ukphone": "ˈnəʊtwɜːði"
@@ -10383,7 +10383,7 @@
     {
         "name": "self-explanatory",
         "trans": [
-            "adj. 不解自明的;明显的"
+            "adj. hiển nhiên; rõ ràng"
         ],
         "usphone": "ˌsɛlfɪkˈsplænəˌtɔri",
         "ukphone": "'selfiks'plænətəri"
@@ -10407,10 +10407,10 @@
     {
         "name": "enhance",
         "trans": [
-            "vt. 提高, 增加, 加强",
-            "时态:enhanced, enhancing, enhances名 词:enhancement",
-            "名 词:enhancer",
-            "形容词:enhancive"
+            "vt. nâng cao, tăng thêm, tăng cường",
+            "thì: enhanced, enhancing, enhances danh từ: enhancement",
+            "danh từ: enhancer",
+            "tính từ: enhancive"
         ],
         "usphone": "ɪnˈhæns",
         "ukphone": "ɪnˈhɑːns"
@@ -10427,9 +10427,9 @@
     {
         "name": "enroll",
         "trans": [
-            "v. 【美】（使）加入；注册；登记；招收（成员）；招（生）登记入学；注册（课程）（【英】enrol）",
-            "时态:enrolled, enrolling, enrolls ",
-            "also enrols名 词:enrollee"
+            "v. [Mỹ] (làm cho) tham gia; đăng ký; ghi danh; tuyển (thành viên); tuyển (sinh) ghi danh nhập học; đăng ký (khóa học) ([Anh] enrol)",
+            "thì: enrolled, enrolling, enrolls",
+            "cũng enrols danh từ: enrollee"
         ],
         "usphone": "ɪnˈrəʊl",
         "ukphone": "ɪnˈrəʊl"
@@ -10455,8 +10455,8 @@
     {
         "name": "vivid",
         "trans": [
-            "adj. 鲜明的；鲜艳的；生动的比较级:vivider, vividest副 词:vividly",
-            "名 词:vividness"
+            "adj. rõ nét; tươi sáng; sinh động so sánh hơn: vivider, vividest phó từ: vividly",
+            "danh từ: vividness"
         ],
         "usphone": "ˈvɪvɪd",
         "ukphone": "ˈvɪvɪd"
@@ -10473,7 +10473,7 @@
     {
         "name": "entitlement",
         "trans": [
-            "n. 授权, 有资格有权得到的东西"
+            "n. sự ủy quyền, sự đủ tư cách thứ có quyền được hưởng"
         ],
         "usphone": "ɪnˈtaɪtlmənt",
         "ukphone": "ɪnˈtaɪtlmənt"
@@ -10481,7 +10481,7 @@
     {
         "name": "entrée",
         "trans": [
-            "n. 主菜两道正菜(鱼和肉)之间的小菜入场权"
+            "n. món chính món nhỏ giữa hai món chính (cá và thịt) quyền vào cửa"
         ],
         "usphone": "'ɒntreɪ",
         "ukphone": "'ɒntreɪ"
@@ -10516,10 +10516,10 @@
     {
         "name": "evaluate",
         "trans": [
-            "vt. 评价, 估计, 估价",
-            "时态:evaluated, evaluating, evaluates名 词:evaluation",
-            "形容词:evaluative",
-            "名 词:evaluator"
+            "vt. đánh giá, ước lượng, định giá",
+            "thì: evaluated, evaluating, evaluates danh từ: evaluation",
+            "tính từ: evaluative",
+            "danh từ: evaluator"
         ],
         "usphone": "ɪˈvæljueɪt",
         "ukphone": "ɪˈvæljueɪt"
@@ -10586,8 +10586,8 @@
         "name": "excel",
         "trans": [
             "vt. vượt trội, thắng hơn; giỏi về",
-            "vi. 胜过他人；优秀Excel微软公司生产的表格处理软件",
-            "时态:excelled, excelling, excels"
+            "vi. vượt trội hơn người khác; xuất sắc Excel phần mềm bảng tính do Microsoft sản xuất",
+            "thì: excelled, excelling, excels"
         ],
         "usphone": "ɪkˈsel",
         "ukphone": "ɪkˈsel"
@@ -10684,7 +10684,7 @@
     {
         "name": "exploration",
         "trans": [
-            "n. 探险旅行；搜寻考察，探索形容词:exploratory"
+            "n. chuyến thám hiểm; sự tìm kiếm khảo sát, thăm dò tính từ: exploratory"
         ],
         "usphone": "ˌekspləˈreɪʃn",
         "ukphone": "ˌekspləˈreɪʃn"
@@ -10715,8 +10715,8 @@
     {
         "name": "external",
         "trans": [
-            "adj. 外部的；表面的；外面的；[药]外用的；外国的",
-            "n. 外部；外面；外观副 词:externally"
+            "adj. bên ngoài; bề mặt; phía ngoài; [y học] dùng ngoài; nước ngoài",
+            "n. bên ngoài; phía ngoài; ngoại hình phó từ: externally"
         ],
         "usphone": "ɪkˈstɜːrnl",
         "ukphone": "ɪkˈstɜːnl"
@@ -10724,7 +10724,7 @@
     {
         "name": "F",
         "trans": [
-            "(以态度、言语、抚摸)表示爱抚"
+            "(bằng thái độ, lời nói, sự vuốt ve) thể hiện sự âu yếm"
         ],
         "usphone": "ef",
         "ukphone": "ef"
@@ -10798,8 +10798,8 @@
     {
         "name": "faulty",
         "trans": [
-            "adj. 有错误的，有缺点的；出毛病的比较级:faultier，faultiest副 词:faultily",
-            "名 词:faultiness"
+            "adj. có sai sót, có khuyết điểm; bị hỏng so sánh hơn: faultier, faultiest phó từ: faultily",
+            "danh từ: faultiness"
         ],
         "usphone": "ˈfɔːlti",
         "ukphone": "ˈfɔːlti"
@@ -10807,10 +10807,10 @@
     {
         "name": "favor",
         "trans": [
-            "n. 好感,宠爱,关切,欢心,好意,喜爱",
-            "vt. 支持,赞成,照顾,促成,喜欢,证实,赐予",
-            "时态:favored, favoring, favors名 词:favorer",
-            "副 词:favoringly"
+            "n. thiện cảm, sự sủng ái, sự quan tâm, sự hài lòng, thiện ý, sự yêu mến",
+            "vt. ủng hộ, tán thành, chăm sóc, thúc đẩy, yêu thích, xác nhận, ban cho",
+            "thì: favored, favoring, favors danh từ: favorer",
+            "phó từ: favoringly"
         ],
         "usphone": "ˈfeɪvə",
         "ukphone": "ˈfeɪvər"
@@ -10818,9 +10818,9 @@
     {
         "name": "fax",
         "trans": [
-            "vt. 传真传输",
-            "n. 传真机传真文件FAX固定航空导航电台(电信符号)",
-            "时态:faxed, faxing, faxes"
+            "vt. truyền fax",
+            "n. máy fax tài liệu fax FAX đài dẫn đường hàng không cố định (ký hiệu viễn thông)",
+            "thì: faxed, faxing, faxes"
         ],
         "usphone": "fæks",
         "ukphone": "fæks"
@@ -10915,7 +10915,7 @@
     {
         "name": "flexible",
         "trans": [
-            "adj. 灵活的；柔韧的；易弯曲的副 词:flexibly"
+            "adj. linh hoạt; mềm dẻo; dễ uốn phó từ: flexibly"
         ],
         "usphone": "ˈfleksəbl",
         "ukphone": "ˈfleksəbl"
@@ -10929,9 +10929,9 @@
     {
         "name": "fluctuate",
         "trans": [
-            "vi. 波动, 涨落, 起伏",
-            "时态:fluctuated, fluctuating, fluctuates形容词:fluctuant",
-            "名 词:fluctuation"
+            "vi. dao động, lên xuống, nhấp nhô",
+            "thì: fluctuated, fluctuating, fluctuates tính từ: fluctuant",
+            "danh từ: fluctuation"
         ],
         "usphone": "ˈflʌktʃueɪt",
         "ukphone": "ˈflʌktʃueɪt"
@@ -10949,7 +10949,7 @@
     {
         "name": "focused",
         "trans": [
-            "adj. 聚焦的"
+            "adj. được hội tụ"
         ],
         "usphone": "'fokəst",
         "ukphone": "'fokəst"
@@ -11012,8 +11012,8 @@
     {
         "name": "forgetful",
         "trans": [
-            "adj. 健忘的;好忘事的疏忽的;不经心的副 词:forgetfully",
-            "名 词:forgetfulness"
+            "adj. hay quên; đãng trí cẩu thả; lơ đễnh phó từ: forgetfully",
+            "danh từ: forgetfulness"
         ],
         "usphone": "fɚ'gɛtfəl",
         "ukphone": "fə'getfʊl"
@@ -11032,8 +11032,8 @@
     {
         "name": "founded",
         "trans": [
-            "adj. 有基础的",
-            "v. 创立；建立（found的过去分词）"
+            "adj. có cơ sở",
+            "v. thành lập; thiết lập (phân từ quá khứ của found)"
         ],
         "usphone": "'ɪl'faʊndɪd",
         "ukphone": "'ɪl'faʊndɪd"
@@ -11043,8 +11043,8 @@
         "trans": [
             "adj. thẳng thắn, thẳng thừng; trung thực",
             "n. quyền gửi thư miễn phí",
-            "vt. 免费邮寄Frank",
-            "n. 弗兰克（男子名）比较级:franker, frankest名 词:frankness"
+            "vt. gửi miễn phí Frank",
+            "n. Frank (tên nam) so sánh hơn: franker, frankest danh từ: frankness"
         ],
         "usphone": "fræŋk",
         "ukphone": "fræŋk"
@@ -11061,8 +11061,8 @@
     {
         "name": "fulfill",
         "trans": [
-            "vt. 履行；满足；实现；使结束（等于fulfil）",
-            "时态:fulfilled, fulfilling, fulfills",
+            "vt. thực hiện; thỏa mãn; hoàn thành; kết thúc (bằng fulfil)",
+            "thì: fulfilled, fulfilling, fulfills",
             "also fulfils"
         ],
         "usphone": "fʊlˈfɪl",
@@ -11110,7 +11110,7 @@
     {
         "name": "G",
         "trans": [
-            "n. 英语字母的第七个字母"
+            "n. chữ cái thứ bảy của bảng chữ cái tiếng Anh"
         ],
         "usphone": "dʒiː",
         "ukphone": "dʒiː"
@@ -11161,10 +11161,10 @@
     {
         "name": "grill",
         "trans": [
-            "vt. 烧，烤；拷问",
-            "vi. 烧，烤；严加盘问",
+            "vt. nướng, quay; tra tấn",
+            "vi. nướng, quay; tra hỏi gay gắt",
             "n. vỉ nướng, khung sắt; thịt nướng",
-            "时态:grilled, grilling, grills"
+            "thì: grilled, grilling, grills"
         ],
         "usphone": "ɡrɪl",
         "ukphone": "ɡrɪl"
@@ -11198,7 +11198,7 @@
     {
         "name": "H",
         "trans": [
-            "n. 字母hHabbr. hard （铅笔心硬度）硬hydrogen 氢"
+            "n. chữ cái h H abbr. hard (độ cứng ruột bút chì) cứng hydrogen hiđro"
         ],
         "usphone": "etʃ",
         "ukphone": "eɪtʃ"
@@ -11225,9 +11225,9 @@
     {
         "name": "harbor",
         "trans": [
-            "n. （海）港；港口；港湾（【英式英语】harbour）",
+            "n. cảng (biển); bến cảng; vũng tàu ([tiếng Anh Anh] harbour)",
             "v. che giấu, chứa chấp, cất giấu tội phạm hoặc tang vật; ôm ấp, nuôi dưỡng tình cảm; mang mầm bệnh",
-            "时态:harbors, harboring, harbored名 词:harborer"
+            "thì: harbors, harboring, harbored danh từ: harborer"
         ],
         "usphone": "ˈhɑːrbər",
         "ukphone": "ˈhɑːbə(r)"
@@ -11244,9 +11244,9 @@
     {
         "name": "hazardous",
         "trans": [
-            "adj. 冒险的,有危险的ad",
-            "v. 冒险地,有危险地",
-            "n. 冒险,危险"
+            "adj. mạo hiểm, nguy hiểm ad",
+            "v. một cách mạo hiểm, nguy hiểm",
+            "n. sự mạo hiểm, nguy hiểm"
         ],
         "usphone": "ˈhæzərdəs",
         "ukphone": "ˈhæzədəs"
@@ -11270,7 +11270,7 @@
     {
         "name": "hesitation",
         "trans": [
-            "n. 犹豫, 踌躇, 不愿犹豫(之事或行为)"
+            "n. sự do dự, sự chần chừ, sự không muốn điều do dự (việc hoặc hành vi)"
         ],
         "usphone": "ˌhezɪˈteɪʃn",
         "ukphone": "ˌhezɪˈteɪʃn"
@@ -11308,10 +11308,10 @@
     {
         "name": "hike",
         "trans": [
-            "n. (在乡间)徒步旅行〈口〉(数量、价格等)增加, 上升",
-            "vi. 徒步旅行",
-            "vt. 〈口〉提高(价格等)",
-            "时态:hiked, hiking, hikes名 词:hiker"
+            "n. đi bộ đường dài (ở nông thôn) <khẩu ngữ> (số lượng, giá cả...) tăng lên, đi lên",
+            "vi. đi bộ đường dài",
+            "vt. <khẩu ngữ> nâng cao (giá cả...)",
+            "thì: hiked, hiking, hikes danh từ: hiker"
         ],
         "usphone": "haɪk",
         "ukphone": "haɪk"
@@ -11351,7 +11351,7 @@
     {
         "name": "homepage",
         "trans": [
-            "n. 主页"
+            "n. trang chủ"
         ],
         "usphone": "ˈhomˌpedʒ",
         "ukphone": "ˈhəʊmˌpeɪdʒ"
@@ -11399,7 +11399,7 @@
     {
         "name": "imaginative",
         "trans": [
-            "adj. 富于想像力的; 运用想像力的副 词:imaginatively"
+            "adj. giàu trí tưởng tượng; sử dụng trí tưởng tượng phó từ: imaginatively"
         ],
         "usphone": "ɪˈmædʒɪnətɪv",
         "ukphone": "ɪˈmædʒɪnətɪv"
@@ -11452,7 +11452,7 @@
     {
         "name": "improper",
         "trans": [
-            "adj. 不合适的, 不适当的不正派的, 下流的副 词:improperly"
+            "adj. không thích hợp, không đúng đắn không đứng đắn, tục tĩu phó từ: improperly"
         ],
         "usphone": "ɪmˈprɑːpər",
         "ukphone": "ɪmˈprɒpə(r)"
@@ -11503,9 +11503,9 @@
     {
         "name": "inconvenience",
         "trans": [
-            "n. 不方便, 麻烦, 打扰不便之处, 麻烦事",
-            "vt. 给…带来不便, 给…添麻烦, 打扰",
-            "时态:inconvenienced, inconveniencing, inconveniences"
+            "n. sự bất tiện, phiền phức, quấy rầy điều bất tiện, việc phiền phức",
+            "vt. gây bất tiện cho..., gây phiền phức cho..., quấy rầy",
+            "thì: inconvenienced, inconveniencing, inconveniences"
         ],
         "usphone": "ˌɪnkən'vinɪəns",
         "ukphone": "ɪnkən'viːnɪəns"
@@ -11552,7 +11552,7 @@
         "name": "individually",
         "trans": [
             "ad",
-            "v. 分别地，各个地；各自地独特地，与众不同地"
+            "v. một cách riêng biệt, từng cái một; một cách riêng rẽ một cách độc đáo, khác biệt"
         ],
         "usphone": "ˌɪndɪˈvɪdʒuəli",
         "ukphone": "ˌɪndɪˈvɪdʒuəli"
@@ -11560,7 +11560,7 @@
     {
         "name": "inexperienced",
         "trans": [
-            "adj. 经验不足的,不熟练的"
+            "adj. thiếu kinh nghiệm, chưa thành thạo"
         ],
         "usphone": "ˌɪnɪk'spɪrɪənst",
         "ukphone": "ˌɪnɪkˈspɪərɪənst"
@@ -11580,7 +11580,7 @@
         "trans": [
             "(vt.) bơm hơi; làm lạm phát",
             "(vi.) phồng lên; bơm hơi",
-            "时态:inflated, inflating, inflates"
+            "thì: inflated, inflating, inflates"
         ],
         "usphone": "ɪnˈfleɪt",
         "ukphone": "ɪnˈfleɪt"
@@ -11640,7 +11640,7 @@
         "trans": [
             "vt. đảm bảo; bảo hiểm",
             "vi. đảm bảo; mua bảo hiểm",
-            "时态:insured, insuring, insures形容词:insurable"
+            "thì: insured, insuring, insures tính từ: insurable"
         ],
         "usphone": "ɪnˈʃʊr",
         "ukphone": "ɪnˈʃʊə(r)"
@@ -11659,7 +11659,7 @@
         "name": "intently",
         "trans": [
             "ad",
-            "v. 专心地,专注地热切地,热心地"
+            "v. một cách chuyên tâm, tập trung một cách tha thiết, nhiệt tình"
         ],
         "usphone": "ɛntlɪ",
         "ukphone": "ɛntlɪ"
@@ -11669,7 +11669,7 @@
         "trans": [
             "n. bác sĩ nội trú thực tập",
             "vt. giam giữ, bắt giam",
-            "时态:interned, interning, interns名 词:internship"
+            "thì: interned, interning, interns danh từ: internship"
         ],
         "usphone": "'ɪntɝn",
         "ukphone": "'ɪntɜːn"
@@ -11702,7 +11702,7 @@
     {
         "name": "invaluable",
         "trans": [
-            "adj. 无法估计的, 非常宝贵的副 词:invaluably"
+            "adj. không thể ước định, vô cùng quý giá phó từ: invaluably"
         ],
         "usphone": "ɪnˈvæljuəbl",
         "ukphone": "ɪnˈvæljuəbl"
@@ -11795,7 +11795,7 @@
     {
         "name": "J",
         "trans": [
-            "n. 字母j"
+            "n. chữ cái j"
         ],
         "usphone": "dʒeɪ",
         "ukphone": "dʒeɪ"
@@ -11804,7 +11804,7 @@
         "name": "jeopardize",
         "trans": [
             "vt. gây nguy hiểm, làm tổn hại",
-            "时态:jeopardized, jeopardizing, jeopardizes"
+            "thì: jeopardized, jeopardizing, jeopardizes"
         ],
         "usphone": "ˈdʒepərdaɪz",
         "ukphone": "ˈdʒepədaɪz"
@@ -11896,7 +11896,7 @@
     {
         "name": "K",
         "trans": [
-            "n. 字母k"
+            "n. chữ cái k"
         ],
         "usphone": "kei",
         "ukphone": "kei"
@@ -11956,7 +11956,7 @@
     {
         "name": "knowledgeable",
         "trans": [
-            "adj. 博学的;有见识的;知识渊博的副 词:knowledgeably"
+            "adj. uyên bác; hiểu biết; thông thái phó từ: knowledgeably"
         ],
         "usphone": "ˈnɑːlɪdʒəbl",
         "ukphone": "ˈnɒlɪdʒəbl"
@@ -11975,7 +11975,7 @@
             "n. lao động; sự sinh đẻ; công việc",
             "vi. lao động; làm lụng vất vả; nỗ lực",
             "vt. phân tích chi tiết; gây chán nản",
-            "时态:labored, laboring, labors名 词:laborer"
+            "thì: labored, laboring, labors danh từ: laborer"
         ],
         "usphone": "ˈleɪbər",
         "ukphone": "ˈleɪbə"
@@ -12044,7 +12044,7 @@
     {
         "name": "liability",
         "trans": [
-            "n. 责任，义务；倾向债务〈口〉妨碍，不利"
+            "n. trách nhiệm, nghĩa vụ; khuynh hướng món nợ <khẩu ngữ> trở ngại, bất lợi"
         ],
         "usphone": "ˌlaɪəˈbɪləti",
         "ukphone": "ˌlaɪəˈbɪləti"
@@ -12062,7 +12062,7 @@
     {
         "name": "licensing",
         "trans": [
-            "许可证发放"
+            "việc cấp giấy phép"
         ],
         "usphone": "'laɪsns",
         "ukphone": "'laɪsns"
@@ -12070,11 +12070,11 @@
     {
         "name": "lie",
         "trans": [
-            "vi. 躺, 卧位于展现, 伸展说谎",
+            "vi. nằm, nằm ở hiện ra, trải dài nói dối",
             "vi. & link ",
-            "v. 平放",
-            "n. 谎话LIE液体离子蒸发",
-            "时态:lay lain lying lies"
+            "v. đặt nằm ngang",
+            "n. lời nói dối LIE chất lỏng ion bay hơi",
+            "thì: lay lain lying lies"
         ],
         "usphone": "laɪ",
         "ukphone": "laɪ"
@@ -12165,7 +12165,7 @@
     {
         "name": "luxury",
         "trans": [
-            "n. 奢侈, 豪华奢侈品"
+            "n. sự xa hoa, sang trọng hàng xa xỉ"
         ],
         "usphone": "ˈlʌkʃəri",
         "ukphone": "ˈlʌkʃəri"
@@ -12173,7 +12173,7 @@
     {
         "name": "M",
         "trans": [
-            "abbr. meter 米"
+            "abbr. meter mét"
         ],
         "usphone": "em",
         "ukphone": "em"
@@ -12225,7 +12225,7 @@
     {
         "name": "managerial",
         "trans": [
-            "adj. 经理的;管理上的"
+            "adj. thuộc người quản lý; thuộc quản lý"
         ],
         "usphone": "ˌmænəˈdʒɪriəl",
         "ukphone": "ˌmænəˈdʒɪəriəl"
@@ -12270,7 +12270,7 @@
     {
         "name": "medic",
         "trans": [
-            "n. 医师；医科学生；[植]苜蓿属植物（等于medick）"
+            "n. thầy thuốc; sinh viên y khoa; [thực vật] cây linh túc (tức medick)"
         ],
         "usphone": "'mɛdɪk",
         "ukphone": "'medɪk"
@@ -12321,7 +12321,7 @@
     {
         "name": "memorandum",
         "trans": [
-            "n. (备忘的)记录非正式商业书信,便函复 数: memoranda"
+            "n. bản ghi nhớ; thư thương mại không chính thức, công hàm; số nhiều: memoranda"
         ],
         "usphone": "ˌmeməˈrændəm",
         "ukphone": "ˌmeməˈrændəm"
@@ -12339,10 +12339,10 @@
     {
         "name": "merchandise",
         "trans": [
-            "n. 商品, 货物",
-            "vt. 买卖, 经营",
-            "时态:merchandised",
-            "also merchandized merchandisingmerchandizing merchandisesmerchandizes名 词:merchandiser"
+            "n. hàng hóa, hàng",
+            "vt. mua bán, kinh doanh",
+            "thì: merchandised",
+            "cũng: merchandized, merchandising, merchandizing, merchandises, merchandizes; danh từ: merchandiser"
         ],
         "usphone": "ˈmɜːrtʃəndaɪs",
         "ukphone": "ˈmɜːtʃəndaɪs"
@@ -12386,9 +12386,9 @@
     {
         "name": "mishear",
         "trans": [
-            "vt. 听错",
-            "vi. 听错",
-            "时态:misheard mishearing, mishears"
+            "vt. nghe nhầm",
+            "vi. nghe nhầm",
+            "thì: misheard, mishearing, mishears"
         ],
         "usphone": "'mɪs'hɪr",
         "ukphone": "mɪs'hɪə"
@@ -12404,11 +12404,11 @@
     {
         "name": "misrepresent",
         "trans": [
-            "vt. 故意对…作错误的报道",
-            "n. 误传",
-            "时态:misrepresented, misrepresenting, misrepresents名 词:misrepresentation",
-            "形容词:misrepresentative",
-            "名 词:misrepresenter"
+            "vt. cố ý đưa tin sai về…",
+            "n. thông tin sai lệch",
+            "thì: misrepresented, misrepresenting, misrepresents; danh từ: misrepresentation",
+            "tính từ: misrepresentative",
+            "danh từ: misrepresenter"
         ],
         "usphone": "ˌmɪs,rɛprɪ'zɛnt",
         "ukphone": "ˌmɪsreprɪ'zent"
@@ -12443,7 +12443,7 @@
     {
         "name": "N",
         "trans": [
-            "n. 字母n"
+            "n. chữ n"
         ],
         "usphone": "en",
         "ukphone": "en"
@@ -12464,7 +12464,7 @@
     {
         "name": "narrowing",
         "trans": [
-            "n. 断面收缩,缩小,窄化,变窄,收针"
+            "n. sự co mặt cắt, sự thu nhỏ, sự hẹp lại, sự thu hẹp, sự giảm mũi đan"
         ],
         "usphone": "'næro",
         "ukphone": "'næro"
@@ -12500,7 +12500,7 @@
     {
         "name": "O",
         "trans": [
-            "哦,哟,…啊,唉,哎呀(表示惊讶、痛苦、恐惧、赞叹等)"
+            "ồ, yo, …a, than ôi, ôi chao (biểu thị ngạc nhiên, đau đớn, sợ hãi, tán thán…)"
         ],
         "usphone": "əʊ",
         "ukphone": "əʊ"
@@ -12580,7 +12580,7 @@
     {
         "name": "onward",
         "trans": [
-            "adj. 向前的；前进的ad",
+            "adj. hướng về phía trước; tiến lên; adv.",
             "v. về phía trước; ở phía trước"
         ],
         "usphone": "ˈɑːnwərd",
@@ -12712,7 +12712,7 @@
     {
         "name": "P",
         "trans": [
-            "abbr. 〈军〉personnel 人员"
+            "abbr. 〈quân sự〉personnel: nhân sự"
         ],
         "usphone": "pi:",
         "ukphone": "pi:"
@@ -12736,9 +12736,9 @@
     {
         "name": "parcel",
         "trans": [
-            "n. 包裹一块地",
-            "vt. 给…打成包裹分成若干部分",
-            "时态:parceled",
+            "n. bưu kiện; một thửa đất",
+            "vt. đóng gói…; chia thành nhiều phần",
+            "thì: parceled",
             "also parcelled parcelingparcelling parcelsparcels"
         ],
         "usphone": "ˈpɑːrsl",
@@ -12753,7 +12753,7 @@
     {
         "name": "participant",
         "trans": [
-            "n. 参加者, 参与者名 词:participance"
+            "n. người tham gia, người tham dự; danh từ: participance"
         ],
         "usphone": "pɑːrˈtɪsɪpənt",
         "ukphone": "pɑːˈtɪsɪpənt"
@@ -12770,8 +12770,8 @@
     {
         "name": "patented",
         "trans": [
-            "patent (noun) patent (verb)patent4 ENTRIES FOUND:patent (adjective)patent (noun)patent (verb)patent leather (noun)1 patentadjective1 patentadjectiveLearner's definition of PATENTalways used before a noun1/ˈpætn̩t/ Brit /ˈpeɪtn̩t/ : of, relating to, or concerned with patents专利的a patent law/lawyer专利法/律师The company settled a patent dispute last year.公司去年解决了一起专利纠纷。the licensing of patent rights颁发专利权许可证a patent application专利申请They were sued for patent infringement.他们被起诉专利侵权。a patent holder/owner专利权人2/ˈpeɪtn̩t/ formal : obvious or clear明显的；清楚的His explanation turned out to be a patent lie.他的解释显然是在撒谎。She acted with patent disregard for the rules.她的举止明显表现出对规则的漠视。— patently adverbIt is patently obvious that she is overqualified for the job.很明显，对于这个工作岗位她的资历过高。2 patent/ˈpætn̩t/ Brit /ˈpeɪtn̩t/nounplural patents2 patent/ˈpætn̩t/ Brit /ˈpeɪtn̩t/nounplural patentsLearner's definition of PATENT: an official document that gives a person or company the right to be the only one that makes or sells a product for a certain period of time专利证书；专利；专利权[count] — often + onThe company holds the/a patent on the product.公司拥有这一产品的专利权。They want to take out a patent on [=obtain a patent for] the process.他们想获得此项工艺的专利。— often + forShe applied for patents for several of her inventions.她为她的几项发明申请了专利。[noncount]The product is protected by patent.这一产品受到专利保护。3 patent/ˈpætn̩t/ Brit /ˈpeɪtn̩t/verbpatents; patented; patenting3 patent/ˈpætn̩t/ Brit /ˈpeɪtn̩t/verbpatents; patented; patentingLearner's definition of PATENT[+ object]: to get a patent for (something)取得专利权They patented their inventio",
-            "n.他们为自己的发明拿到了专利权。The product was patented by its inventor.这一产品的发明者获得了专利。a patented process/drug已有专利权的工艺流程/药品"
+            "adj. thuộc/liên quan đến bằng sáng chế (patent law: luật bằng sáng chế); rõ ràng, hiển nhiên (patent lie: lời nói dối lộ liễu); n. bằng sáng chế, giấy chứng nhận độc quyền (hold/take out a patent on: giữ/xin cấp bằng sáng chế); v. lấy bằng sáng chế cho (something)",
+            "n. họ đã lấy được bằng sáng chế cho phát minh của mình. Sản phẩm đã được nhà phát minh lấy bằng sáng chế. quy trình/thuốc đã được cấp bằng sáng chế"
         ],
         "usphone": "",
         "ukphone": ""
@@ -12827,8 +12827,8 @@
         "trans": [
             "— personalized ",
             "also British personalised adjectiveThe children have personalized towels with their names sewn i",
-            "n.孩子们各自的毛巾上都绣着自己的名字。You can receive personalized service at the salo",
-            "n.在那个沙龙，你能享有个性化的服务。a personalized license plate标有车主姓名首字母的车牌 personalize"
+            "n. khăn của mỗi đứa trẻ đều được thêu tên riêng. Bạn có thể nhận được dịch vụ cá nhân hóa tại salo…",
+            "n. tại salon đó, bạn có thể hưởng dịch vụ cá nhân hóa. biển số xe cá nhân hóa (ghi chữ cái đầu tên chủ xe); personalize"
         ],
         "usphone": "",
         "ukphone": ""
@@ -12871,10 +12871,10 @@
     {
         "name": "plow",
         "trans": [
-            "n. 犁",
-            "v. 耕,犁,犁耕,费力穿过,艰苦前进,在考试中淘汰",
-            "时态:plowed",
-            "also ploughed plowingploughing plowsploughs形容词:plowable"
+            "n. cái cày",
+            "v. cày, cày ruộng, len lỏi vất vả qua, tiến lên gian khổ, bị loại trong kỳ thi",
+            "thì: plowed",
+            "cũng: ploughed, plowing, ploughing, plows, ploughs; tính từ: plowable"
         ],
         "usphone": "plaʊ",
         "ukphone": "plaʊ"
@@ -12907,9 +12907,9 @@
     {
         "name": "pointless",
         "trans": [
-            "adj. 无意义的；不可能有结果的；无用的；无益的ad",
-            "v. 无意义地；无用地；无益地",
-            "n. 无意义，空洞"
+            "adj. vô nghĩa; không thể có kết quả; vô ích; vô bổ; adv.",
+            "v. một cách vô nghĩa; một cách vô ích; một cách vô bổ",
+            "n. sự vô nghĩa, sự rỗng tuếch"
         ],
         "usphone": "ˈpɔɪntləs",
         "ukphone": "ˈpɔɪntləs"
@@ -12963,7 +12963,7 @@
         "name": "pollute",
         "trans": [
             "vt. ô nhiễm; làm suy đồi; hư hỏng",
-            "时态:polluted, polluting, pollutes名 词:polluter"
+            "thì: polluted, polluting, pollutes; danh từ: polluter"
         ],
         "usphone": "pə'lut",
         "ukphone": "pə'luːt"
@@ -12979,7 +12979,7 @@
     {
         "name": "popularity",
         "trans": [
-            "n. 普遍，流行；受欢迎；有声望"
+            "n. sự phổ biến, sự thịnh hành; sự được ưa chuộng; sự có uy tín"
         ],
         "usphone": "ˌpɑːpjuˈlærəti",
         "ukphone": "ˌpɒpjuˈlærəti"
@@ -12998,7 +12998,7 @@
     {
         "name": "postponement",
         "trans": [
-            "n. 延期, 推迟延期的事"
+            "n. sự hoãn lại, việc bị hoãn lại"
         ],
         "usphone": "post'ponmənt",
         "ukphone": "post'ponmənt"
@@ -13154,7 +13154,7 @@
     {
         "name": "priceless",
         "trans": [
-            "adj. 无价的, 贵重的, 无法估价的极荒唐而有趣的"
+            "adj. vô giá, quý giá, không thể định giá; cực kỳ lố bịch mà thú vị"
         ],
         "usphone": "ˈpraɪsləs",
         "ukphone": "ˈpraɪsləs"
@@ -13206,7 +13206,7 @@
     {
         "name": "probationary",
         "trans": [
-            "adj. 试用的,缓刑的"
+            "adj. để thử, thuộc án treo"
         ],
         "usphone": "prəu'beiʃənəri",
         "ukphone": "prəu'beiʃənəri"
@@ -13331,7 +13331,7 @@
         "name": "publicize",
         "trans": [
             "vt. quảng bá (việc gì đó) (đặc biệt bằng quảng cáo)",
-            "时态:publicized, publicizing, publicizes"
+            "thì: publicized, publicizing, publicizes"
         ],
         "usphone": "ˈpʌblɪsaɪz",
         "ukphone": "ˈpʌblɪsaɪz"
@@ -13360,7 +13360,7 @@
     {
         "name": "Q",
         "trans": [
-            "n. 字母q"
+            "n. chữ q"
         ],
         "usphone": "kjuː",
         "ukphone": "kjuː"
@@ -13402,7 +13402,7 @@
     {
         "name": "quotation",
         "trans": [
-            "n. 引用, 引述引文, 引语, 语录时价, 报价, 行情"
+            "n. sự trích dẫn, lời trích dẫn, câu trích dẫn, ngữ lục; giá hiện hành, giá báo, thị giá"
         ],
         "usphone": "kwoʊˈteɪʃn",
         "ukphone": "kwəʊˈteɪʃn"
@@ -13410,7 +13410,7 @@
     {
         "name": "R",
         "trans": [
-            "n. 字母r"
+            "n. chữ r"
         ],
         "usphone": "ɑ:",
         "ukphone": "ɑ:"
@@ -13486,8 +13486,8 @@
     {
         "name": "rearrange",
         "trans": [
-            "vt. 重新安排, 重新布置改变既定的(计划等)做无用功，于事无补(就像重新摆放泰坦尼克号上的甲板躺椅一样)",
-            "时态:rearranged, rearranging, rearranges名 词:rearrangement"
+            "vt. sắp xếp lại, bố trí lại; thay đổi (kế hoạch…) đã định; làm việc vô ích, chẳng ích gì (như xếp lại ghế boong trên tàu Titanic)",
+            "thì: rearranged, rearranging, rearranges; danh từ: rearrangement"
         ],
         "usphone": "ˌriə'rendʒ",
         "ukphone": "riːə'reɪn(d)ʒ"
@@ -13531,7 +13531,7 @@
     {
         "name": "receptive",
         "trans": [
-            "adj. (对新的思想等)善于接受的副 词:receptively"
+            "adj. (đối với tư tưởng mới…) dễ tiếp thu; trạng từ: receptively"
         ],
         "usphone": "rɪˈseptɪv",
         "ukphone": "rɪˈseptɪv"
@@ -13589,7 +13589,7 @@
     {
         "name": "redundant",
         "trans": [
-            "adj. 因人员过剩而被解雇的不需要的; 多余的副 词:redundantly"
+            "adj. bị sa thải vì dư thừa nhân sự; không cần thiết; dư thừa; trạng từ: redundantly"
         ],
         "usphone": "rɪˈdʌndənt",
         "ukphone": "rɪˈdʌndənt"
@@ -13605,7 +13605,7 @@
     {
         "name": "refundable",
         "trans": [
-            "adj. 可归还的，可退还的"
+            "adj. có thể trả lại, có thể hoàn lại"
         ],
         "usphone": "'rifʌndəbl",
         "ukphone": "rɪˈfʌndəbl"
@@ -13621,9 +13621,9 @@
     {
         "name": "refuse",
         "trans": [
-            "vt. & vi. 拒绝；回绝",
+            "vt. & vi. từ chối; khước từ",
             "n. phế thải; rác",
-            "时态:refused，refusing，refuses名 词:refuser"
+            "thì: refused, refusing, refuses; danh từ: refuser"
         ],
         "usphone": "ri'fjʊz",
         "ukphone": "rɪ'fjuːz"
@@ -13710,7 +13710,7 @@
         "trans": [
             "vt. diễn tập; tổng duyệt",
             "vi. diễn tập; diễn tập quân sự",
-            "时态:rehearsed, rehearsing, rehearses"
+            "thì: rehearsed, rehearsing, rehearses"
         ],
         "usphone": "rɪˈhɜːrs",
         "ukphone": "rɪˈhɜːs"
@@ -13775,7 +13775,7 @@
     {
         "name": "remittance",
         "trans": [
-            "n. 汇寄汇款;汇款额"
+            "n. sự gửi tiền; tiền gửi; số tiền chuyển"
         ],
         "usphone": "rɪˈmɪtns",
         "ukphone": "rɪˈmɪtns"
@@ -13825,7 +13825,7 @@
     {
         "name": "repayment",
         "trans": [
-            "n. 偿还;报答;偿付的钱物"
+            "n. sự đền trả; sự đền đáp; tiền của trả lại"
         ],
         "usphone": "rɪˈpeɪmənt",
         "ukphone": "rɪˈpeɪmənt"
@@ -13833,7 +13833,7 @@
     {
         "name": "repetitive",
         "trans": [
-            "adj. 重复的, 啰嗦的名 词:repetitiveness"
+            "adj. lặp đi lặp lại, lắm lời; danh từ: repetitiveness"
         ],
         "usphone": "rɪˈpetətɪv",
         "ukphone": "rɪˈpetətɪv"
@@ -13899,8 +13899,8 @@
     {
         "name": "reschedule",
         "trans": [
-            "vt. 重订时间表",
-            "时态:rescheduled, rescheduling, reschedules"
+            "vt. lên lịch lại",
+            "thì: rescheduled, rescheduling, reschedules"
         ],
         "usphone": "riˈskɛdʒul",
         "ukphone": "ri:'ʃedju:l"
@@ -13971,8 +13971,8 @@
     {
         "name": "respectable",
         "trans": [
-            "adj. 人格高尚的；值得尊敬的；相当数量的",
-            "n. 可敬的人副 词:respectably"
+            "adj. có nhân cách cao thượng; đáng kính trọng; khá lớn (số lượng)",
+            "n. người đáng kính; trạng từ: respectably"
         ],
         "usphone": "rɪˈspektəbl",
         "ukphone": "rɪˈspektəbl"
@@ -13980,7 +13980,7 @@
     {
         "name": "respectful",
         "trans": [
-            "adj. 有礼貌的;恭敬的副 词:respectfully"
+            "adj. lễ phép; cung kính; trạng từ: respectfully"
         ],
         "usphone": "rɪˈspektfl",
         "ukphone": "rɪˈspektfl"
@@ -14025,8 +14025,8 @@
     {
         "name": "restructure",
         "trans": [
-            "vt. 重建, 改建, 重组",
-            "时态:restructured, restructuring, restructures"
+            "vt. tái thiết, cải tạo, tái cơ cấu",
+            "thì: restructured, restructuring, restructures"
         ],
         "usphone": "ri'strʌktʃɚ",
         "ukphone": "riː'strʌktʃə"
@@ -14035,8 +14035,8 @@
         "name": "résumé",
         "trans": [
             "résumé ★ ˈrezjumeɪ ",
-            "n.简历Please send your résumé to this address if you're interested in this postio",
-            "n. 如果你对此职位感兴趣，请把简历发到这个地址。同类记忆法:多彩生活-&gt;快乐工作-&gt;职场新人"
+            "n. sơ yếu lý lịch. Vui lòng gửi sơ yếu lý lịch của bạn đến địa chỉ này nếu bạn quan tâm đến vị trí này",
+            "n. nếu bạn quan tâm đến vị trí này, hãy gửi sơ yếu lý lịch đến địa chỉ này. cách ghi nhớ cùng loại: cuộc sống muôn màu -&gt; công việc vui vẻ -&gt; người mới nơi công sở"
         ],
         "usphone": "",
         "ukphone": ""
@@ -14090,8 +14090,8 @@
     {
         "name": "roadside",
         "trans": [
-            "n. 路边；路旁",
-            "adj. 路旁的；路边的"
+            "n. lề đường; ven đường",
+            "adj. bên lề đường; ven đường"
         ],
         "usphone": "'rodsaɪd",
         "ukphone": "'rəʊdsaɪd"
@@ -14108,7 +14108,7 @@
     {
         "name": "S",
         "trans": [
-            "n. 字母s"
+            "n. chữ s"
         ],
         "usphone": "es",
         "ukphone": "es"
@@ -14126,8 +14126,8 @@
         "trans": [
             "n. trục vớt; cứu hộ trên biển; cứu tài sản; tiền thưởng cứu nạn",
             "vt. cứu hộ; cứu hộ trên biển",
-            "时态:salvaged, salvaging, salvages形容词:salvageable",
-            "名 词:salvager"
+            "thì: salvaged, salvaging, salvages; tính từ: salvageable",
+            "danh từ: salvager"
         ],
         "usphone": "ˈsælvɪdʒ",
         "ukphone": "ˈsælvɪdʒ"
@@ -14135,7 +14135,7 @@
     {
         "name": "satisfactory",
         "trans": [
-            "adj. 令人满意的, 符合要求的副 词:satisfactorily"
+            "adj. làm hài lòng, đáp ứng yêu cầu; trạng từ: satisfactorily"
         ],
         "usphone": "ˌsætɪsˈfæktəri",
         "ukphone": "ˌsætɪsˈfæktəri"
@@ -14192,7 +14192,7 @@
         "name": "scrutinize",
         "trans": [
             "vt. kiểm tra kỹ, xem xét chi tiết",
-            "时态:scrutinized, scrutinizing, scrutinizes"
+            "thì: scrutinized, scrutinizing, scrutinizes"
         ],
         "usphone": "ˈskruːtənaɪz",
         "ukphone": "ˈskruːtənaɪz"
@@ -14206,8 +14206,8 @@
     {
         "name": "secluded",
         "trans": [
-            "adj. 隐退的，隐居的；隐蔽的",
-            "v. 隔绝（seclude的过去式）"
+            "adj. ẩn dật, sống ẩn dật; kín đáo",
+            "v. cô lập, tách biệt (thì quá khứ của seclude)"
         ],
         "usphone": "sɪ'kludɪd",
         "ukphone": "sɪ'kluːdɪd"
@@ -14341,7 +14341,7 @@
             "n. thoi; đi lại con thoi; chuyến bay, xe buýt con thoi; tàu con thoi",
             "vt. di chuyển qua lại; vận chuyển liên tục",
             "vi. di chuyển qua lại",
-            "时态:shuttled, shuttling, shuttles名 词:shuttler"
+            "thì: shuttled, shuttling, shuttles; danh từ: shuttler"
         ],
         "usphone": "ˈʃʌtl",
         "ukphone": "ˈʃʌtl"
@@ -14358,8 +14358,8 @@
         "name": "simplify",
         "trans": [
             "vt. đơn giản hóa; làm đơn thuần; làm đơn giản",
-            "时态:simplified, simplifying, simplifies名 词:simplification",
-            "名 词:simplifier"
+            "thì: simplified, simplifying, simplifies; danh từ: simplification",
+            "danh từ: simplifier"
         ],
         "usphone": "ˈsɪmplɪfaɪ",
         "ukphone": "ˈsɪmplɪfaɪ"
@@ -14375,9 +14375,9 @@
     {
         "name": "slump",
         "trans": [
-            "vi. 大幅度下降, 暴跌沉重或突然地落下[倒下]",
-            "n. 萧条期〈美〉(个人、球队等的)低潮状态",
-            "时态:slumped, slumping, slumps"
+            "vi. giảm mạnh, lao dốc; rơi [ngã] nặng nề hoặc đột ngột",
+            "n. thời kỳ suy thoái; 〈Mỹ〉trạng thái xuống dốc (của cá nhân, đội bóng…)",
+            "thì: slumped, slumping, slumps"
         ],
         "usphone": "slʌmp",
         "ukphone": "slʌmp"
@@ -14393,8 +14393,8 @@
     {
         "name": "spacious",
         "trans": [
-            "adj. 宽敞的，广阔的；无边无际的副 词:spaciously",
-            "名 词:spaciousness"
+            "adj. rộng rãi, bao la; vô tận; trạng từ: spaciously",
+            "danh từ: spaciousness"
         ],
         "usphone": "ˈspeɪʃəs",
         "ukphone": "ˈspeɪʃəs"
@@ -14454,7 +14454,7 @@
     {
         "name": "starter",
         "trans": [
-            "n. 赛跑、赛马等起跑线上的人(马, 汽车等)发令员起动装置"
+            "n. người (ngựa, xe…) ở vạch xuất phát trong cuộc đua; trọng tài xuất phát; thiết bị khởi động"
         ],
         "usphone": "ˈstɑːrtər",
         "ukphone": "ˈstɑːtə(r)"
@@ -14491,8 +14491,8 @@
     {
         "name": "streamline",
         "trans": [
-            "vt. 把…做成流线型简化使效率更高",
-            "时态:streamlined, streamlining, streamlines"
+            "vt. làm… thành hình dòng chảy; đơn giản hóa để nâng cao hiệu quả",
+            "thì: streamlined, streamlining, streamlines"
         ],
         "usphone": "ˈstriːmlaɪn",
         "ukphone": "ˈstriːmlaɪn"
@@ -14508,9 +14508,9 @@
     {
         "name": "subscribe",
         "trans": [
-            "vt. & vi. 捐助签署，题词",
-            "vi. 订购，预订同意；赞同",
-            "时态:subscribed，subscribing，subscribes名 词:subscriber"
+            "vt. & vi. quyên góp, đóng góp; ký tên, đề từ",
+            "vi. đặt mua, đặt trước; đồng ý; tán thành",
+            "thì: subscribed, subscribing, subscribes; danh từ: subscriber"
         ],
         "usphone": "səbˈskraɪb",
         "ukphone": "səbˈskraɪb"
@@ -14630,7 +14630,7 @@
     {
         "name": "switchboard",
         "trans": [
-            "n. 电话总机, 电话交换台"
+            "n. tổng đài điện thoại, bảng chuyển mạch điện thoại"
         ],
         "usphone": "'swɪtʃbɔrd",
         "ukphone": "'swɪtʃbɔːd"
@@ -14646,7 +14646,7 @@
     {
         "name": "T",
         "trans": [
-            "n. 字母tTsymb.tritium 氚"
+            "n. chữ t; T; ký hiệu: tritium (triti)"
         ],
         "usphone": "tiː",
         "ukphone": "tiː"
@@ -14654,7 +14654,7 @@
     {
         "name": "takeover",
         "trans": [
-            "n. 收购；接收；接管强行接管，控制形容词:takeover"
+            "n. sự thâu tóm; sự tiếp nhận; sự tiếp quản; tiếp quản cưỡng chế, kiểm soát; tính từ: takeover"
         ],
         "usphone": "ˈteɪkoʊvər",
         "ukphone": "ˈteɪkəʊvə(r)"
@@ -14955,7 +14955,7 @@
     {
         "name": "U",
         "trans": [
-            "n. 字母U"
+            "n. chữ U"
         ],
         "usphone": "juː",
         "ukphone": "juː"
@@ -14963,7 +14963,7 @@
     {
         "name": "unconditional",
         "trans": [
-            "adj. 无条件的;绝对的副 词:unconditionally"
+            "adj. vô điều kiện; tuyệt đối; trạng từ: unconditionally"
         ],
         "usphone": "ˌʌnkən'dɪʃənl",
         "ukphone": "ʌnkən'dɪʃ(ə)n(ə)l"
@@ -14983,7 +14983,7 @@
     {
         "name": "unfavorable",
         "trans": [
-            "adj. 不利的;不适宜的;不顺利的相反的;反对的令人不快的不吉利的副 词:unfavorably"
+            "adj. bất lợi; không thích hợp; không thuận lợi; trái ngược; phản đối; khó chịu; không may; trạng từ: unfavorably"
         ],
         "usphone": "ʌn'fevrəbl",
         "ukphone": "ʌnˈfeɪvərəbəl"
@@ -15018,8 +15018,8 @@
     {
         "name": "unwrap",
         "trans": [
-            "vt. 打开",
-            "时态:unwrapped, unwrapping, unwraps"
+            "vt. mở ra",
+            "thì: unwrapped, unwrapping, unwraps"
         ],
         "usphone": "ʌn'ræp",
         "ukphone": "ʌn'ræp"
@@ -15037,7 +15037,7 @@
         "trans": [
             "vt. cập nhật; sửa chữa; làm hiện đại",
             "n. cập nhật; hiện đại hóa",
-            "时态:updated, updating, updates"
+            "thì: updated, updating, updates"
         ],
         "usphone": "ˌʌpˈdeɪt",
         "ukphone": "ˌʌpˈdeɪt"
@@ -15061,7 +15061,7 @@
     {
         "name": "V",
         "trans": [
-            "n. 字母v,罗马数字5,V形物VH region@重链可变区VL region@轻链可变区"
+            "n. chữ v, số La Mã 5, vật hình chữ V; vùng VH@vùng biến đổi chuỗi nặng; vùng VL@vùng biến đổi chuỗi nhẹ"
         ],
         "usphone": "vi:",
         "ukphone": "vi:"
@@ -15069,7 +15069,7 @@
     {
         "name": "vacancy",
         "trans": [
-            "n. 空房间空虚；空白空缺；空职；空额(心灵的)空虚；失神，心不在焉"
+            "n. phòng trống; sự trống rỗng; khoảng trống; chỗ trống; chức vụ trống; chỉ tiêu trống; (của tâm hồn) sự trống rỗng; sự thẫn thờ, sự lơ đãng"
         ],
         "usphone": "ˈveɪkənsi",
         "ukphone": "ˈveɪkənsi"
@@ -15087,7 +15087,7 @@
     {
         "name": "vaccination",
         "trans": [
-            "n. 种痘;接种牛痘疤"
+            "n. sự chủng đậu; sẹo tiêm chủng đậu mùa"
         ],
         "usphone": "ˌvæksn'eʃən",
         "ukphone": "ˌvæksɪ'neɪʃən"
@@ -15147,7 +15147,7 @@
     {
         "name": "venue",
         "trans": [
-            "n. 聚集地点;会场;(尤指)体育比赛场所犯罪地点;审判地争论中所持的立场"
+            "n. nơi tụ họp; hội trường; (đặc biệt) nơi diễn ra thi đấu thể thao; hiện trường phạm tội; nơi xét xử; lập trường trong tranh luận"
         ],
         "usphone": "ˈvenjuː",
         "ukphone": "ˈvenjuː"
@@ -15155,8 +15155,8 @@
     {
         "name": "W",
         "trans": [
-            "abbr. wickets (板球)三柱门Wabbr. aircraft weight 飞机重量；飞行器重量(代号)component of velocity 速度分量electric energy 电能Korean won 韩国圆(货币单位)total weight 总重(量)tungsten 钨waist 腰(部)，腰围Wales 威尔士warden 看守人，监护人warehouse 货栈，仓库warehousing 仓储，仓储费，仓储业Washington 华盛顿(美国首都，美国州名)watch time 钟表时间water compartments 水舱Waterloo 滑铁卢(比利时城镇)Waterman Steamship 沃男曼轮船公司water vapour content 水蒸汽含量watt(s)【电】瓦(特)Wattmeter 瓦特计，瓦特表wave height correction【海】浪高修正weather reconnaissance 气象侦察websterite 二辉石；矾石Wednesday 星期三wehnelt 威尼特(X线硬度单位)weight ton 重量吨weight 重量well 井，油井Welsh 威尔士的；威尔士人(的)；威尔士语(的)Wesleyan 美以美会教徒Western Postal District 西区(伦敦邮区之一)western 西的，西方的，西部的，朝西的Westinghouse Electric Company 西屋电气公司west 西，西方，西部；西方的，朝西的we 我们，我方W flag W旗(本船需要医疗救护)Whampoa 黄埔港white 白色(的)Whitworth screw 惠氏螺纹width 宽度，阔度wild throw 野传(棒球)winter loading (on load-line) 冬季吃水线winter loadline【船】冬季载重水线wire 金属丝；导线won 圆(韩国货币单位)wooden 木头的，木制的wooden deck【船】木甲板word fluency【心】语言流畅work 功，工作Worldwide Marine 世界海运公司Wrangell Shipping 兰格尔航运公司wring 收缩量，过盈量W",
-            "n. 字母W"
+            "abbr. wickets (cricket) khung gôn ba cọc; W: ký hiệu viết tắt của nhiều từ (aircraft weight: trọng lượng máy bay; component of velocity: thành phần vận tốc; electric energy: điện năng; Korean won: won Hàn Quốc; total weight: tổng trọng lượng; tungsten: vonfram; waist: vòng eo; Wales: xứ Wales; warehouse: kho hàng; Washington: Washington; watt: oát; Wednesday: thứ Tư; west: phía tây; white: màu trắng; width: chiều rộng; winter loadline: đường chịu tải mùa đông; work: công, công việc…)",
+            "n. chữ W"
         ],
         "usphone": "'dʌb(ə)ljuː",
         "ukphone": "'dʌb(ə)ljuː"
@@ -15175,7 +15175,7 @@
     {
         "name": "walkway",
         "trans": [
-            "n. 走道;通道"
+            "n. lối đi; hành lang"
         ],
         "usphone": "'wɔkwe",
         "ukphone": "'wɔːkweɪ"
@@ -15211,7 +15211,7 @@
     {
         "name": "wastage",
         "trans": [
-            "n. 消瘦；衰老；损耗"
+            "n. sự hao gầy; sự già đi; sự hao mòn"
         ],
         "usphone": "'westɪdʒ",
         "ukphone": "'weɪstɪdʒ"
@@ -15220,8 +15220,8 @@
         "name": "waterproof",
         "trans": [
             "adj. không thấm nước, chống thấm nước",
-            "vt. 使防水；使不透水",
-            "时态:waterproofed，waterproofing，waterproofs"
+            "vt. làm cho không thấm nước; làm cho không thấm",
+            "thì: waterproofed, waterproofing, waterproofs"
         ],
         "usphone": "ˈwɔːtərpruːf",
         "ukphone": "ˈwɔːtəpruːf"
@@ -15319,7 +15319,7 @@
     {
         "name": "worthless",
         "trans": [
-            "adj. 无价值的, 没有用处的名 词:worthlessness"
+            "adj. không có giá trị, vô dụng; danh từ: worthlessness"
         ],
         "usphone": "ˈwɜːrθləs",
         "ukphone": "ˈwɜːθləs"
@@ -15338,8 +15338,8 @@
     {
         "name": "X",
         "trans": [
-            "n. 字母x,罗马数字10",
-            "adj. X形的,X级的(电影等),第二十四的Xabbr. Xs或 X's X级电影，成人电影（十八岁以下儿童不得观看）"
+            "n. chữ x, số La Mã 10",
+            "adj. hình chữ X, loại X (phim…), thứ hai mươi tư; X: abbr. phim loại X, phim người lớn (trẻ dưới mười tám tuổi không được xem)"
         ],
         "usphone": "eks",
         "ukphone": "eks"
@@ -15347,11 +15347,11 @@
     {
         "name": "X-ray",
         "trans": [
-            "n. X光照片",
-            "vt. 照X光X-ray",
-            "n. X射线, X光X光检查X光片",
-            "vt. & vi. 用X光摄影[检查, 治疗]",
-            "时态:x-rayed",
+            "n. ảnh chụp X-quang",
+            "vt. chụp X-quang; X-ray",
+            "n. tia X, tia Rơnghen; sự chụp X-quang; phim X-quang",
+            "vt. & vi. chụp [kiểm tra, điều trị] bằng tia X",
+            "thì: x-rayed",
             "also X-rayed x-rayingX-raying x-raysX-rays"
         ],
         "usphone": "ˈɛksˌre",
@@ -15360,7 +15360,7 @@
     {
         "name": "Y",
         "trans": [
-            "n. 字母y"
+            "n. chữ y"
         ],
         "usphone": "wai",
         "ukphone": "wai"
@@ -15368,8 +15368,8 @@
     {
         "name": "yearly",
         "trans": [
-            "adj. 每年的ad",
-            "v. 每年；一年一次",
+            "adj. hàng năm; adv.",
+            "v. hàng năm; mỗi năm một lần",
             "n. tập san hằng năm; niên giám"
         ],
         "usphone": "ˈjɪrli",
@@ -15386,7 +15386,7 @@
     {
         "name": "Z",
         "trans": [
-            "n. 字母z"
+            "n. chữ z"
         ],
         "usphone": "ziː",
         "ukphone": "zed"

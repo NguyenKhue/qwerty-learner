@@ -20,7 +20,7 @@
         "name": "bench",
         "trans": [
             "(n.) ghế dài; bàn làm việc; cầu thủ dự bị",
-            "vt. 给…以席位；为…设置条凳"
+            "vt. cho... chỗ ngồi; kê ghế dài cho..."
         ],
         "usphone": "[bentʃ]",
         "ukphone": "[bentʃ]"
@@ -92,8 +92,8 @@
     {
         "name": "trick or treat",
         "trans": [
-            "int. 不给糖就捣蛋",
-            "n. 不给糖就捣蛋"
+            "int. cho kẹo hay bị ghẹo",
+            "n. trò cho kẹo hay bị ghẹo"
         ]
     },
     {
@@ -164,8 +164,8 @@
     {
         "name": "chick",
         "trans": [
-            "n. 小鸡；小鸟；少妇",
-            "adj. 胆小的；懦弱的"
+            "n. gà con; chim non; thiếu phụ",
+            "adj. nhút nhát; hèn nhát"
         ],
         "usphone": "[tʃɪk]",
         "ukphone": "[tʃɪk]"
@@ -182,7 +182,7 @@
     {
         "name": "stories",
         "trans": [
-            "n. 故事（story的复数）"
+            "n. câu chuyện (số nhiều của story)"
         ],
         "usphone": "[ˈstɔːriz]",
         "ukphone": "[ˈstɔːriz]"
@@ -297,7 +297,7 @@
     {
         "name": "That's OK.",
         "trans": [
-            " 不用了；可以；没有关系"
+            "  không cần đâu; được; không sao"
         ]
     },
     {
@@ -502,16 +502,16 @@
     {
         "name": "couldn't",
         "trans": [
-            "v. 不能（等于could not）"
+            "v. không thể (viết tắt của could not)"
         ]
     },
     {
         "name": "could not",
         "trans": [
-            "auxv. 能；行；难道会；(可)能",
-            "modalv. 会；得；难道会；（表示知道如何做）懂得",
-            "n. （盛食品或饮料的）金属罐；一罐（的量）；塑料容器；喷雾罐",
-            "v. 把（食品）装罐保存；解雇；让…卷铺盖走人；炒…的鱿鱼"
+            "auxv. có thể; được; lẽ nào lại; (có) thể",
+            "modalv. sẽ; phải; lẽ nào lại; (tỏ ý biết cách làm) biết cách",
+            "n. lon kim loại (đựng thức ăn hoặc đồ uống); một lon (lượng); hộp nhựa; bình xịt",
+            "v. đóng hộp (thực phẩm) để bảo quản; sa thải; cho... cuốn gói; đuổi việc..."
         ]
     },
     {
@@ -657,7 +657,7 @@
     {
         "name": "drank",
         "trans": [
-            "v. 喝；喝酒（drink的过去式）"
+            "v. uống; uống rượu (quá khứ của drink)"
         ],
         "usphone": "[dræŋk]",
         "ukphone": "[dræŋk]"
@@ -673,19 +673,19 @@
     {
         "name": "go to bed",
         "trans": [
-            "na. 睡；同床；【印】付印"
+            "na. ngủ; chung giường; [in ấn] đưa in"
         ]
     },
     {
         "name": "shouldn't",
         "trans": [
-            "不应该，不应（等于should not）"
+            "không nên, không được (viết tắt của should not)"
         ]
     },
     {
         "name": "should not",
         "trans": [
-            " 不应该；不应当；不宜"
+            "  không nên; không được phép; không thích hợp"
         ]
     },
     {

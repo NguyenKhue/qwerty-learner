@@ -2,187 +2,187 @@
     {
         "name": "do",
         "trans": [
-            "做; 执行代码块"
+            "Do; thực thi khối mã"
         ]
     },
     {
         "name": "if",
         "trans": [
-            "如果; 条件语句"
+            "If; câu lệnh điều kiện"
         ]
     },
     {
         "name": "for",
         "trans": [
-            "循环; 循环结构"
+            "Vòng lặp; cấu trúc lặp"
         ]
     },
     {
         "name": "abs",
         "trans": [
-            "绝对值; 返回绝对值"
+            "Giá trị tuyệt đối; trả về giá trị tuyệt đối"
         ]
     },
     {
         "name": "max",
         "trans": [
-            "最大; 返回最大值"
+            "Max; trả về giá trị lớn nhất"
         ]
     },
     {
         "name": "sin",
         "trans": [
-            "正弦; 计算角度的正弦值"
+            "Sin; tính sin của một góc"
         ]
     },
     {
         "name": "int",
         "trans": [
-            "整数; 定义整数变量"
+            "Số nguyên; khai báo biến số nguyên"
         ]
     },
     {
         "name": "LOW",
         "trans": [
-            "低; 低电平"
+            "Low; mức thấp"
         ]
     },
     {
         "name": "min",
         "trans": [
-            "最小; 返回最小值"
+            "Min; trả về giá trị nhỏ nhất"
         ]
     },
     {
         "name": "map",
         "trans": [
-            "映射; 将一个范围内的值映射到另一个范围"
+            "Map; ánh xạ giá trị từ miền này sang miền khác"
         ]
     },
     {
         "name": "tan",
         "trans": [
-            "正切; 计算角度的正切值"
+            "Tan; tính tang của một góc"
         ]
     },
     {
         "name": "pow",
         "trans": [
-            "幂; 计算一个数的幂"
+            "Lũy thừa; tính lũy thừa của một số"
         ]
     },
     {
         "name": "bit",
         "trans": [
-            "位; 单个二进制位"
+            "Bit; một bit nhị phân"
         ]
     },
     {
         "name": "cos",
         "trans": [
-            "余弦; 计算角度的余弦值"
+            "Cos; tính cosin của một góc"
         ]
     },
     {
         "name": "true",
         "trans": [
-            "真; 布尔值“真”"
+            "True; giá trị boolean đúng"
         ]
     },
     {
         "name": "data",
         "trans": [
-            "数据; 存储在变量中的信息"
+            "Dữ liệu; thông tin lưu trong biến"
         ]
     },
     {
         "name": "void",
         "trans": [
-            "无效; 表示无返回值"
+            "Void; biểu thị không có giá trị trả về"
         ]
     },
     {
         "name": "else",
         "trans": [
-            "否则; 条件的替代分支"
+            "Else; nhánh thay thế của điều kiện"
         ]
     },
     {
         "name": "word",
         "trans": [
-            "单词; 16位无符号数据类型"
+            "Word; kiểu dữ liệu không dấu 16 bit"
         ]
     },
     {
         "name": "sqrt",
         "trans": [
-            "平方根; 计算平方根"
+            "Căn bậc hai; tính căn bậc hai"
         ]
     },
     {
         "name": "HIGH",
         "trans": [
-            "高; 高电平"
+            "High; mức cao"
         ]
     },
     {
         "name": "case",
         "trans": [
-            "情况; switch语句中的情况"
+            "Case; nhánh trong câu lệnh switch"
         ]
     },
     {
         "name": "long",
         "trans": [
-            "长; 定义长整数变量"
+            "Long; khai báo biến số nguyên dài"
         ]
     },
     {
         "name": "code",
         "trans": [
-            "代码; 编程指令"
+            "Code; các chỉ thị lập trình"
         ]
     },
     {
         "name": "tone",
         "trans": [
-            "音调; 生成音频频率"
+            "Tone; tạo tần số âm thanh"
         ]
     },
     {
         "name": "char",
         "trans": [
-            "字符; 定义字符变量"
+            "Ký tự; khai báo biến ký tự"
         ]
     },
     {
         "name": "byte",
         "trans": [
-            "字节; 8位无符号数据类型"
+            "Byte; kiểu dữ liệu không dấu 8 bit"
         ]
     },
     {
         "name": "array",
         "trans": [
-            "数组; 元素的集合"
+            "Mảng; tập hợp các phần tử"
         ]
     },
     {
         "name": "index",
         "trans": [
-            "索引; 数组中的位置"
+            "Chỉ số; vị trí trong mảng"
         ]
     },
     {
         "name": "const",
         "trans": [
-            "常量; 常量值"
+            "Hằng; giá trị hằng"
         ]
     },
     {
         "name": "float",
         "trans": [
-            "浮点; 定义浮点变量"
+            "Số thực; khai báo biến số thực"
         ]
     },
     {
