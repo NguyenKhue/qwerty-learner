@@ -118,4 +118,3 @@ Supersedes "random sentences from the pool": a run draws **words**, and shows **
 - A run takes the words in queue order (most urgent first), keeps the first N (10 / 20 / all), picks one random sentence of each (a word with several sentences never appears twice) and shuffles the order. For "All words" the words are picked at random.
 - The words are only **read** from the study cards (a live read of the set's cards); nothing is written to the schedule, the review log or typing history. Writing grades from a run stays a possible later step (a perfect hidden word on a due card would count as good, a miss or a peek as again).
 - "Practise mistakes" is unchanged: it repeats the sentences that were missed.
-
