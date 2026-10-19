@@ -29,4 +29,14 @@ describe('extractExamplesFromDetail', () => {
     expect(extractExamplesFromDetail(detail)).toEqual([{ text: 'A', trans: 'B' }])
     expect(extractExamplesFromDetail('no label here')).toEqual([])
   })
+
+  it('ignores a comment that follows the closing parenthesis after a dash', () => {
+    const detail = 'Câu mẫu: The system aggregates signals. (Hệ thống tổng hợp các tín hiệu) — đây chính là câu bạn vừa đọc!'
+    expect(extractExamplesFromDetail(detail)).toEqual([{ text: 'The system aggregates signals.', trans: 'Hệ thống tổng hợp các tín hiệu' }])
+  })
+
+  it('keeps a dash that is part of the sentence', () => {
+    const detail = 'Câu mẫu: Containment — isolating the servers. (Cô lập các máy chủ).'
+    expect(extractExamplesFromDetail(detail)).toEqual([{ text: 'Containment — isolating the servers.', trans: 'Cô lập các máy chủ' }])
+  })
 })

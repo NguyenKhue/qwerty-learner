@@ -4,7 +4,9 @@ import type { WordExample } from '@/typings'
 const LABEL = /^câu mẫu\s*:\s*/i
 
 /** Splits a `sentence (translation)` body, scanning the trailing parentheses from the end. */
-function splitTranslation(body: string): WordExample {
+function splitTranslation(rawBody: string): WordExample {
+  // Some lines end with a remark after the translation, as in `... (translation) — this is the sentence you just read!`
+  const body = rawBody.replace(/\)\s*[—–]\s.*$/u, ')')
   // The label line may end with a period after the closing parenthesis
   const line = body.endsWith('.') ? body.slice(0, -1).trimEnd() : body
   if (!line.endsWith(')')) return { text: body }
