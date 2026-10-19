@@ -2,7 +2,7 @@ import { CUSTOM_DICT_PREFIX } from './custom-dict'
 import { db } from './database'
 import type { Word } from '@/typings'
 import { normalizeWords } from '@/utils/custom-dict/parse'
-import { attachExtras } from '@/utils/detail/sidecar'
+import { mergeExtras } from '@/utils/detail/sidecar'
 import type { WordExtras } from '@/utils/detail/sidecar'
 
 export type PersonalSeedInput = {
@@ -66,15 +66,24 @@ export async function migratePersonalSet(input: PersonalSeedInput): Promise<Pers
   })
 }
 
+/** Bumped whenever the example sentences of a built-in file change, so a set created earlier is topped up once more. */
+export const EXTRAS_VERSION = 2
+
+/** The entry of the "already topped up" list for a built-in set at the current data version. */
+export function extrasFlag(builtInId: string): string {
+  return `${builtInId}@${EXTRAS_VERSION}`
+}
+
 /**
- * Tops up an already created set with the extras (details, examples) of its built-in file: only words that lack them get them, so
- * the user's own edits are never overwritten. Returns the number of words that changed; the record is untouched when it is 0.
+ * Tops up an already created set with the extras (details, examples) of its built-in file: a word keeps its own detail and its own
+ * sentences (they stay first) and only receives what it does not have yet, so the user's edits are never lost. Returns the number of
+ * words that changed; the record is untouched when it is 0.
  */
 export async function backfillPersonalExtras(customId: string, map: Record<string, WordExtras>): Promise<number> {
   return db.transaction('rw', db.customDicts, async () => {
     const record = await db.customDicts.get(customId)
     if (!record) return 0
-    const words = attachExtras(record.words, map)
+    const words = mergeExtras(record.words, map)
     const changed = words.filter((word, index) => word !== record.words[index]).length
     if (changed > 0) await db.customDicts.put({ ...record, words, updatedAt: Date.now() })
     return changed

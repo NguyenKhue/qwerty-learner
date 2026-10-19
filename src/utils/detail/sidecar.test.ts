@@ -1,4 +1,4 @@
-import { attachExtras, fetchWordExtras, sidecarUrlOf } from './sidecar'
+import { attachExtras, fetchWordExtras, mergeExtras, sidecarUrlOf } from './sidecar'
 import type { WordExtras } from './sidecar'
 import type { Word } from '@/typings'
 import { afterEach, describe, expect, it, vi } from 'vitest'
@@ -129,5 +129,58 @@ describe('sidecarUrlOf', () => {
     expect(sidecarUrlOf({ extrasUrl: '/extras.json' })).toBe('/extras.json')
     expect(sidecarUrlOf({ detailUrl: '/detail.json' })).toBe('/detail.json')
     expect(sidecarUrlOf({})).toBeUndefined()
+  })
+})
+
+describe('mergeExtras', () => {
+  it('adds the sentences a word does not have yet after its own, without duplicates', () => {
+    const own: Word = { ...word('strict'), examples: [{ text: 'Mine.' }, { text: 'Shared.' }] }
+    const [merged] = mergeExtras([own], {
+      strict: {
+        examples: [
+          { text: 'Shared.', trans: 'x' },
+          { text: 'New.', trans: 'y' },
+        ],
+      },
+    })
+    expect(merged.examples).toEqual([{ text: 'Mine.' }, { text: 'Shared.' }, { text: 'New.', trans: 'y' }])
+  })
+
+  it('fills a missing detail but never replaces an existing one', () => {
+    const [a, b] = mergeExtras([word('a'), { ...word('b'), detail: 'Own' }], { a: { detail: 'Long' }, b: { detail: 'Other' } })
+    expect(a.detail).toBe('Long')
+    expect(b.detail).toBe('Own')
+  })
+
+  it('returns the very same word when nothing is added, and the same array for an empty map', () => {
+    const own: Word = { ...word('strict'), examples: [{ text: 'Mine.' }] }
+    const words = [own, word('plain')]
+    const result = mergeExtras(words, { strict: { examples: [{ text: 'Mine.' }] } })
+    expect(result[0]).toBe(own)
+    expect(result[1]).toBe(words[1])
+    expect(mergeExtras(words, {})).toBe(words)
+    expect(mergeExtras(words, undefined)).toBe(words)
+  })
+
+  it('matches names without regard to case and does not mutate the input', () => {
+    const plain = word('Strict')
+    const [merged] = mergeExtras([plain], { STRICT: { examples: [{ text: 'New.' }] } })
+    expect(merged.examples).toEqual([{ text: 'New.' }])
+    expect(plain.examples).toBeUndefined()
+  })
+
+  it('replaces a sentence that has its translation glued to the text by the repaired version, and keeps unrelated ones', () => {
+    const own: Word = {
+      ...word('assure'),
+      examples: [{ text: 'It assures a server. (Nó đảm bảo với máy chủ) — đây chính là câu bạn vừa đọc!' }, { text: 'Mine.' }],
+    }
+    const [merged] = mergeExtras([own], { assure: { examples: [{ text: 'It assures a server.', trans: 'Nó đảm bảo với máy chủ' }] } })
+    expect(merged.examples).toEqual([{ text: 'Mine.' }, { text: 'It assures a server.', trans: 'Nó đảm bảo với máy chủ' }])
+  })
+
+  it('does not drop a sentence that merely starts like another one when it has its own translation', () => {
+    const own: Word = { ...word('a'), examples: [{ text: 'Go. (not a translation)', trans: 'Đi' }] }
+    const [merged] = mergeExtras([own], { a: { examples: [{ text: 'Go.' }] } })
+    expect(merged.examples).toEqual([{ text: 'Go. (not a translation)', trans: 'Đi' }, { text: 'Go.' }])
   })
 })

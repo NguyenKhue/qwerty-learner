@@ -1,6 +1,6 @@
 import { getCustomDict } from './custom-dict'
 import { db } from './database'
-import { backfillPersonalExtras, isPersonalSeedPending, migratePersonalSet } from './personal-seed'
+import { EXTRAS_VERSION, backfillPersonalExtras, extrasFlag, isPersonalSeedPending, migratePersonalSet } from './personal-seed'
 import type { IWordRecord } from './record'
 import type { Word } from '@/typings'
 import { beforeEach, describe, expect, it } from 'vitest'
@@ -149,11 +149,20 @@ describe('backfillPersonalExtras', () => {
     expect((await getCustomDict('myvocab'))?.updatedAt).toBe(before)
   })
 
-  it('never overwrites what the user already has on a word', async () => {
+  it('keeps the learner own detail and sentences first and only adds the sentences that are missing', async () => {
     const own: Word = { ...word('strict', 'My own detail'), examples: [{ text: 'Mine.' }] }
     await migratePersonalSet(input([own]))
+    expect(await backfillPersonalExtras('myvocab', map)).toBe(1)
+    expect((await getCustomDict('myvocab'))?.words[0]).toMatchObject({
+      detail: 'My own detail',
+      examples: [{ text: 'Mine.' }, { text: 'Be strict.', trans: 'Hãy nghiêm.' }],
+    })
     expect(await backfillPersonalExtras('myvocab', map)).toBe(0)
-    expect((await getCustomDict('myvocab'))?.words[0]).toMatchObject({ detail: 'My own detail', examples: [{ text: 'Mine.' }] })
+  })
+
+  it('names the done flag after the data version, so an older flag does not count', () => {
+    expect(extrasFlag('myVocab')).toBe(`myVocab@${EXTRAS_VERSION}`)
+    expect(extrasFlag('myVocab')).not.toBe('myVocab')
   })
 
   it('returns 0 for a set that does not exist', async () => {

@@ -1,5 +1,5 @@
 import type { Word, WordExample } from '@/typings'
-import { normalizeExamples } from '@/utils/examples/format'
+import { mergeExamples, normalizeExamples } from '@/utils/examples/format'
 
 export type WordExtras = {
   detail?: string
@@ -67,6 +67,34 @@ export function attachExtras(words: Word[], map: Record<string, WordExtras> | un
     result.push({ ...word, ...(detail === undefined ? {} : { detail }), ...(examples === undefined ? {} : { examples }) })
   }
   return result
+}
+
+/**
+ * Like `attachExtras`, but a word that already has example sentences also receives the sidecar sentences it does not have yet:
+ * its own come first and duplicates (by text) are dropped; a sentence whose translation is glued to its text is replaced by the repaired one. A detail the word has is never replaced. Words that gain nothing stay
+ * the very same object; the input is never mutated.
+ */
+export function mergeExtras(words: Word[], map: Record<string, WordExtras> | undefined): Word[] {
+  if (!map) return words
+  if (Object.keys(map).length === 0) return words
+
+  return words.map((word) => {
+    const name = typeof word.name === 'string' ? word.name.trim().toLowerCase() : ''
+    const extras = findExtras(map, name)
+    if (!extras) return word
+    const detail = word.detail !== undefined ? undefined : extras.detail
+    const own = word.examples ?? []
+    // A sentence stored with its translation glued to the text (an old extraction bug) gives way to its repaired version
+    const kept = own.filter(
+      (example) =>
+        example.trans !== undefined ||
+        !(extras.examples ?? []).some((e) => e.text !== example.text && example.text.startsWith(`${e.text} (`)),
+    )
+    const merged = mergeExamples(kept, extras.examples)
+    const examples = merged !== undefined && (kept.length !== own.length || merged.length > kept.length) ? merged : undefined
+    if (detail === undefined && examples === undefined) return word
+    return { ...word, ...(detail === undefined ? {} : { detail }), ...(examples === undefined ? {} : { examples }) }
+  })
 }
 
 /**
