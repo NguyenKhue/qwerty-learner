@@ -87,9 +87,11 @@ export default function StudySession({ dictId, queue, progress, reverse, details
     onFinish({ reviewed: sessionRef.current.reviewed, again: sessionRef.current.again, practice })
   }, [onFinish, practice])
 
+  // The last card's grade is applied to the session before it is saved, so wait for the save: finishing earlier makes the overview
+  // reload progress that still has that card as unseen/due, and it would be asked again.
   useEffect(() => {
-    if (!item) finish()
-  }, [item, finish])
+    if (!item && !saving) finish()
+  }, [item, saving, finish])
 
   const onFlip = useCallback(() => updateSession(toggleFlip(sessionRef.current)), [updateSession])
   const onGrade = useCallback((grade: Grade) => {
