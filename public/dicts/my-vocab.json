@@ -500,7 +500,7 @@
         "ukphone": "spɪ sɪ fɪk"
     },
     {
-        "name": "disclamer",
+        "name": "disclaimer",
         "trans": [
             "n. tuyên bố miễn trừ trách nhiệm",
             "n. thông báo miễn trừ trách nhiệm pháp lý",
@@ -551,7 +551,7 @@
         "ukphone": "rɪˈtenʃən"
     },
     {
-        "name": "reponsive",
+        "name": "responsive",
         "trans": [
             "adj. phản hồi nhanh, đáp ứng tốt",
             "adj. nhanh nhạy tiếp thu phản hồi",
@@ -890,7 +890,7 @@
         "ukphone": "hɔːlt"
     },
     {
-        "name": "widepread",
+        "name": "widespread",
         "trans": [
             "adj. lan rộng, phổ biến khắp nơi",
             "adj. ảnh hưởng rộng rãi, mở rộng",
@@ -1942,15 +1942,6 @@
         ],
         "usphone": "ˈkɑmpləˌkeɪtɪd",
         "ukphone": "ˈkɒmplɪkeɪtɪd"
-    },
-    {
-        "name": "accommplish",
-        "trans": [
-            "v. hoàn thành, đạt được (mục tiêu)",
-            "v. cảm thấy mãn nguyện, tự hào"
-        ],
-        "usphone": "əˈkɑmplɪʃ",
-        "ukphone": "əˈkɒmplɪʃ"
     },
     {
         "name": "deterministic",
@@ -3702,7 +3693,9 @@
         "name": "accomplish",
         "trans": [
             "v. hoàn thành, đạt được",
-            "v. hoàn tất một mục tiêu"
+            "v. hoàn tất một mục tiêu",
+            "v. hoàn thành, đạt được (mục tiêu)",
+            "v. cảm thấy mãn nguyện, tự hào"
         ],
         "usphone": "əkɑmplɪʃ",
         "ukphone": "əkɒmplɪʃ"
