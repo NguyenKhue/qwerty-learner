@@ -18,10 +18,11 @@ function seeded(seed: number): () => number {
 
 describe('buildRun', () => {
   it('returns the requested number of distinct items from the pool', () => {
-    const run = buildRun(pool, 3, seeded(1))
-    expect(run).toHaveLength(3)
-    expect(new Set(run.map((entry) => entry.text)).size).toBe(3)
-    run.forEach((entry) => expect(pool).toContain(entry))
+    const big = Array.from({ length: 15 }, (_, i) => item(`s${i}`))
+    const run = buildRun(big, 10, seeded(1))
+    expect(run).toHaveLength(10)
+    expect(new Set(run.map((entry) => entry.text)).size).toBe(10)
+    run.forEach((entry) => expect(big).toContain(entry))
   })
 
   it("returns every item, as a permutation, for length 'all'", () => {
