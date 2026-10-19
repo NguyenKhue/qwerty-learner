@@ -19,6 +19,11 @@ export const PRONUNCIATION_PHONETIC_MAP: Pronunciation2PhoneticMap = {
   id: 'id',
 }
 
+export type WordExample = {
+  text: string
+  trans?: string
+}
+
 export type Word = {
   name: string
   trans: string[]
@@ -27,6 +32,8 @@ export type Word = {
   notation?: string
   // A long, detailed meaning shown on the back of a flashcard; every other mode uses `trans`
   detail?: string
+  // Example sentences used by the sentence mode; `detail` keeps the free text
+  examples?: WordExample[]
 }
 
 export type WordWithIndex = Word & {
