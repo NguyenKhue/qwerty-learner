@@ -110,4 +110,3 @@ Not in this revision: any write to the flashcard schedule (SRS) stays out; the o
 - 33 words that had no usable sentence got new example sentences with Vietnamese translations (30 had none at all; `specification` had sentences that belong to another word; `take an approach` and `regulatory landscapes` had none containing the exact phrase).
 - The sidecar backfill of already created sets becomes versioned and merges: sentences not yet in a word are added (the learner's own sentences are kept, duplicates are dropped), once per version.
 - Not touched, reported to the learner: four headwords look misspelled in the learner's own data (`disclamer`, `reponsive`, `widepread`, `accommplish`), so their sentences cannot be matched until those words are corrected.
-
