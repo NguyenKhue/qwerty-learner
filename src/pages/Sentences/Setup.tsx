@@ -27,7 +27,7 @@ const LENGTHS: { value: SentenceLength; label: string }[] = [
 ]
 
 const SCOPES: { value: SentenceScope; label: string; description: string }[] = [
-  { value: 'due', label: 'Due + new', description: 'Words due for review and new words to learn today, the same list as Flashcards.' },
+  { value: 'due', label: 'Today', description: 'Every word that is due for review or new today, the same list as Flashcards.' },
   { value: 'all', label: 'All words', description: 'Every word of the set that has a sentence.' },
 ]
 
@@ -57,22 +57,6 @@ export default function SentencesSetup({
         ) : (
           <Card className="space-y-5 p-6 text-sm">
             <div className="flex items-center justify-between gap-4">
-              <span>Sentences</span>
-              <div className="flex gap-2" role="group" aria-label="Number of sentences">
-                {LENGTHS.map((option) => (
-                  <Button
-                    key={String(option.value)}
-                    className="h-11 min-w-[44px] px-4"
-                    variant={length === option.value ? 'default' : 'outline'}
-                    aria-pressed={length === option.value}
-                    onClick={() => onLengthChange(option.value)}
-                  >
-                    {option.label}
-                  </Button>
-                ))}
-              </div>
-            </div>
-            <div className="flex items-center justify-between gap-4">
               <span>Words</span>
               <div className="flex gap-2" role="group" aria-label="Which words">
                 {SCOPES.map((option) => (
@@ -89,6 +73,24 @@ export default function SentencesSetup({
               </div>
             </div>
             <p className="text-muted-foreground">{SCOPES.find((option) => option.value === scope)?.description}</p>
+            {scope === 'all' && (
+              <div className="flex items-center justify-between gap-4">
+                <span>Sentences</span>
+                <div className="flex gap-2" role="group" aria-label="Number of sentences">
+                  {LENGTHS.map((option) => (
+                    <Button
+                      key={String(option.value)}
+                      className="h-11 min-w-[44px] px-4"
+                      variant={length === option.value ? 'default' : 'outline'}
+                      aria-pressed={length === option.value}
+                      onClick={() => onLengthChange(option.value)}
+                    >
+                      {option.label}
+                    </Button>
+                  ))}
+                </div>
+              </div>
+            )}
             <p className="text-muted-foreground">
               Each sentence is shown with its key word hidden: type the whole sentence and recall the missing word.
             </p>

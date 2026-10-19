@@ -71,7 +71,9 @@ function Sentences({ id }: { id: string }) {
   const start = useCallback(
     (source?: SentenceItem[]) => {
       setRound((r) => r + 1)
-      setItems(source ? source.slice() : buildRun(pool, length, Math.random, scope === 'due' ? dueAndNew() : undefined))
+      setItems(
+        source ? source.slice() : buildRun(pool, scope === 'due' ? 'all' : length, Math.random, scope === 'due' ? dueAndNew() : undefined),
+      )
       setStage('run')
     },
     [pool, length, scope, dueAndNew],
