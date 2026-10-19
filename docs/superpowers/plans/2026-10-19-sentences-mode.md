@@ -32,19 +32,19 @@
 
 ## File Structure
 
-| File | Responsibility |
-|---|---|
-| `src/utils/sentences/types.ts` (create) | `SentenceItem`, `SentenceLength` |
-| `src/utils/sentences/pool.ts` (create) | character equivalences, `isPlayable`, `buildPool`, `poolFor` |
-| `src/utils/sentences/highlight.ts` (create) | `findTarget` |
-| `src/utils/sentences/turn.ts` (create) | per-sentence state machine |
-| `src/utils/sentences/session.ts` (create) | run state, advance, summary |
-| `src/utils/sentences/run.ts` (create) | `buildRun`, `sanitizeSentenceLength`, `sanitizeHide` |
-| `src/store/sentences.ts` (create) | `sentencesLengthAtom`, `sentencesHideAtom` |
-| `src/hooks/useExampleWords.ts` (create) | words of a set with sidecar extras attached |
-| `src/pages/Sentences/index.tsx`, `Setup.tsx`, `Run.tsx`, `TypingLine.tsx`, `Result.tsx` (create) | the screens |
-| `src/components/AppShell/navItems.ts`, `index.tsx`, `navItems.test.ts` (modify) | nav item + More link + icon |
-| `src/components/SelectDictRedirect.tsx`, `src/index.tsx` (modify) | `/sentences`, `/sentences/:dictId` |
+| File                                                                                             | Responsibility                                               |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| `src/utils/sentences/types.ts` (create)                                                          | `SentenceItem`, `SentenceLength`                             |
+| `src/utils/sentences/pool.ts` (create)                                                           | character equivalences, `isPlayable`, `buildPool`, `poolFor` |
+| `src/utils/sentences/highlight.ts` (create)                                                      | `findTarget`                                                 |
+| `src/utils/sentences/turn.ts` (create)                                                           | per-sentence state machine                                   |
+| `src/utils/sentences/session.ts` (create)                                                        | run state, advance, summary                                  |
+| `src/utils/sentences/run.ts` (create)                                                            | `buildRun`, `sanitizeSentenceLength`, `sanitizeHide`         |
+| `src/store/sentences.ts` (create)                                                                | `sentencesLengthAtom`, `sentencesHideAtom`                   |
+| `src/hooks/useExampleWords.ts` (create)                                                          | words of a set with sidecar extras attached                  |
+| `src/pages/Sentences/index.tsx`, `Setup.tsx`, `Run.tsx`, `TypingLine.tsx`, `Result.tsx` (create) | the screens                                                  |
+| `src/components/AppShell/navItems.ts`, `index.tsx`, `navItems.test.ts` (modify)                  | nav item + More link + icon                                  |
+| `src/components/SelectDictRedirect.tsx`, `src/index.tsx` (modify)                                | `/sentences`, `/sentences/:dictId`                           |
 
 Order and delegation:
 
@@ -62,10 +62,13 @@ T1 and T2 run in parallel after T0. T4 and T5 run in parallel after T1–T3 (the
 ### Task 0: Shared types and remembered settings (main session)
 
 **Files:**
+
 - Create: `src/utils/sentences/types.ts`, `src/store/sentences.ts`
 
 **Interfaces:**
+
 - Produces:
+
   - `export type SentenceItem = { word: Word; text: string; trans?: string }` — `text` is already normalised to typeable ASCII (see Task 1).
   - `export type SentenceLength = QuizLength` (`10 | 20 | 'all'`)
   - `sentencesLengthAtom = atomWithStorage<SentenceLength>('sentencesLength', 10)`, `sentencesHideAtom = atomWithStorage<boolean>('sentencesHide', false)`
@@ -79,12 +82,15 @@ T1 and T2 run in parallel after T0. T4 and T5 run in parallel after T1–T3 (the
 ### Task 1: Playable pool and target word (delegate)
 
 **Files:**
+
 - Create: `src/utils/sentences/pool.ts`, `src/utils/sentences/highlight.ts`
 - Test: `src/utils/sentences/pool.test.ts`, `src/utils/sentences/highlight.test.ts`
 
 **Interfaces:**
+
 - Consumes: `SentenceItem` (Task 0), `Word.examples` from `@/typings`.
 - Produces:
+
   - `normalizeTypedChar(ch: string): string` — maps one character through the equivalences (`’ ‘`→`'`, `“ ”`→`"`, `– —`→`-`, ` `→` `); any other character is returned unchanged.
   - `normalizeSentence(text: string): string` — `normalizeTypedChar` over every character, after trimming.
   - `isPlayable(text: string): boolean` — the Global Constraints rule, applied to the normalised trimmed text.
@@ -105,10 +111,12 @@ T1 and T2 run in parallel after T0. T4 and T5 run in parallel after T1–T3 (the
 ### Task 2: Typing turn, session, run (delegate, parallel with Task 1)
 
 **Files:**
+
 - Create: `src/utils/sentences/turn.ts`, `session.ts`, `run.ts`
 - Test: `src/utils/sentences/turn.test.ts`, `session.test.ts`, `run.test.ts`
 
 **Interfaces:**
+
 - Consumes: `SentenceItem`, `SentenceLength` (Task 0); `normalizeTypedChar` from `./pool` (Task 1: if it does not exist yet when this task runs, import it anyway; the main session runs the tests after both tasks are done); `shuffle(items, rng)` and `sanitizeQuizLength` from `@/utils/quiz/questions`.
 - Produces in `turn.ts`:
   - `type Turn = { expected: string; typed: number; wrong: number; peeked: boolean; lastWrong: boolean; startedAt: number | null; endedAt: number | null }`
@@ -127,6 +135,7 @@ T1 and T2 run in parallel after T0. T4 and T5 run in parallel after T1–T3 (the
   - `type SentenceSummary = { completed: number; typed: number; wrong: number; accuracy: number; wpm: number; ms: number; missed: SentenceResult[]; missedMore: number }` where `accuracy = typed / (typed + wrong)` (1 when both are 0), `wpm = (typed / 5) / (ms / 60000)` (0 when `ms` is 0), `ms` is the sum of result `ms`, `missed` = results with mistakes (`wrong` + peek) sorted by mistakes descending then by original order, at most 50, `missedMore` = how many more there were.
   - `summarize(s: SentenceSession): SentenceSummary`, `retryItems(s: SentenceSession): SentenceItem[]` (items of every result with mistakes, in run order)
 - Produces in `run.ts`:
+
   - `buildRun(pool: SentenceItem[], length: SentenceLength, rng: () => number): SentenceItem[]` — `pool` is already filtered by the caller with `poolFor`; returns a shuffled copy cut to `length` (`'all'` = everything), no repeats, `[]` for an empty pool, input not mutated.
   - `sanitizeSentenceLength = sanitizeQuizLength` (re-export with that name), `sanitizeHide(value: unknown): boolean` (`true` only for `true`).
 
@@ -144,12 +153,15 @@ T1 and T2 run in parallel after T0. T4 and T5 run in parallel after T1–T3 (the
 ### Task 3: Loading, nav and routes (main session)
 
 **Files:**
+
 - Create: `src/hooks/useExampleWords.ts`
 - Modify: `src/components/AppShell/navItems.ts`, `src/components/AppShell/index.tsx`, `src/components/AppShell/navItems.test.ts`, `src/components/SelectDictRedirect.tsx`, `src/index.tsx`
 - Test: `src/components/AppShell/navItems.test.ts`
 
 **Interfaces:**
+
 - Produces:
+
   - `useExampleWords(id: string): { dict: Dictionary | undefined; words: Word[] | undefined; error: unknown }` — `useDictionaryWords(id)` plus the extras sidecar of the dictionary (`sidecarUrlOf(dict)`, fetched with SWR + `fetchWordExtras`) attached with `attachExtras`. `words` stays `undefined` until both the words and (when the dictionary has a sidecar) the extras have loaded; a failed extras load must not block (`fetchWordExtras` already returns `{}`).
   - `NavItem.id` gains `'sentences'`, `NavItem.icon` gains `'sentences'` (`IconAlignLeft` from `~icons/tabler/align-left` in `ICONS`).
   - `SelectDictRedirect` accepts `mode: 'study' | 'quiz' | 'match' | 'sentences'`.
@@ -166,11 +178,14 @@ T1 and T2 run in parallel after T0. T4 and T5 run in parallel after T1–T3 (the
 ### Task 4: Setup, Result and the stage owner (delegate, parallel with Task 5)
 
 **Files:**
+
 - Create/replace: `src/pages/Sentences/index.tsx`, `src/pages/Sentences/Setup.tsx`, `src/pages/Sentences/Result.tsx`
 
 **Interfaces:**
+
 - Consumes: `useCurrentDictId`, `useExampleWords` (Task 3), atoms (Task 0), `buildPool`, `poolFor` (Task 1), `buildRun`, `sanitizeSentenceLength`, `sanitizeHide` (Task 2), `SentenceSession`, `summarize`, `retryItems` (Task 2), `useSetProgress` as `Quiz/index.tsx` does. `Run` and its props are produced by Task 5 and must be used exactly as defined below.
 - Props fixed for the parallel tasks:
+
   - `Run`: `{ items: SentenceItem[]; hide: boolean; onHideChange: (hide: boolean) => void; onExit: () => void; onFinish: (session: SentenceSession) => void }` (default export of `./Run`)
   - `Setup`: `{ dictName: string; playable: number /* poolFor(pool, hide).length, computed by index.tsx */; length: SentenceLength; onLengthChange: (v: SentenceLength) => void; hide: boolean; onHideChange: (v: boolean) => void; onStart: () => void; onBack: () => void; progress?: ProgressSummary | null }`
   - `Result`: `{ summary: SentenceSummary; canPractiseMistakes: boolean; onPractiseMistakes: () => void; onTryAgain: () => void; onBack: () => void }`
@@ -186,9 +201,11 @@ T1 and T2 run in parallel after T0. T4 and T5 run in parallel after T1–T3 (the
 ### Task 5: Run screen and typing line (delegate, parallel with Task 4)
 
 **Files:**
+
 - Create: `src/pages/Sentences/Run.tsx`, `src/pages/Sentences/TypingLine.tsx`
 
 **Interfaces:**
+
 - Consumes: `createSession`, `currentItem`, `isComplete`, `typeKey`, `peekSentence`, `advance`, `SentenceSession` (Task 2), `findTarget` (Task 1), `isDone`, `Turn` (Task 2).
 - Produces: `Run` (props above) and `TypingLine` with props `{ text: string; typed: number; hidden: boolean; lastWrong: boolean; target: { start: number; end: number } | null }` rendering one `<span>` per character: typed characters in the "correct" token colour, the next character underlined/marked as the cursor and with a visible mark plus the red token when `lastWrong`, the rest muted; the target range gets an emphasised weight/underline; when `hidden`, untyped characters show as `_` (letters/digits) while spaces and punctuation are shown, typed ones show as themselves. Colour is never the only signal (use underline/weight/`_`).
 

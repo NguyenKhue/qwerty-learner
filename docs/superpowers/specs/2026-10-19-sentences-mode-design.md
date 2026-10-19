@@ -74,7 +74,7 @@ A new mode, a page at `/sentences`, built like Quiz and Match: setup screen, run
 
 ## Decided by the learner
 
-Separate mode (not inside Typing) · both copy and from-memory styles, copy is the default, a toggle hides the sentence · no SRS change · no text-to-speech · setup-run-result flow like Quiz · 10-sentence default · everything labelled *guess* in the chat was confirmed as right ("ok đúng rồi").
+Separate mode (not inside Typing) · both copy and from-memory styles, copy is the default, a toggle hides the sentence · no SRS change · no text-to-speech · setup-run-result flow like Quiz · 10-sentence default · everything labelled _guess_ in the chat was confirmed as right ("ok đúng rồi").
 
 ## What goes into the pool, and how the target word is found (settled after the builder check; the author's calls, measured on My Vocabulary: 1,166 sentences)
 
