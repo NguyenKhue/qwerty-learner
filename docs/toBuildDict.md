@@ -59,6 +59,26 @@
 
 #### 1.1.4 如果你卡在了这一步，可以回到 0 部分，交给我们来帮你完成这一步 🔄
 
+#### 1.1.5 Optional: long details and example sentences (extras file) 📝
+
+A word may also carry a long `detail` text (shown on the back of flashcards) and a list of `examples` (sentences, used by the sentence mode). They live in a second file next to the word list, `词典名.extras.json`, and are linked with `extrasUrl` in the dictionary entry (see 1.3). One entry per word, matched by word name without regard to case:
+
+```json
+{
+  "strict": {
+    "detail": "Strict - Loại từ: Tính từ ...\nCâu mẫu: Enabling strict mode helps catch mistakes. (Bật chế độ nghiêm ngặt giúp phát hiện lỗi).",
+    "examples": [{ "text": "Enabling strict mode helps catch mistakes.", "trans": "Bật chế độ nghiêm ngặt giúp phát hiện lỗi." }]
+  }
+}
+```
+
+- `detail` is free text: write whatever helps. A `Câu mẫu:` line inside it is just text, it is **not** read as an example.
+- `examples` is what the sentence mode reads: `text` is the sentence, `trans` its translation (optional). A sentence appears once per word; duplicates are dropped.
+- A plain string value (`"strict": "long text"`) is still accepted and means `detail` only, and the old `detailUrl` name keeps working.
+- To build the file from an old `{ word: detail }` file whose details contain `Câu mẫu: English. (Translation).` lines, run `npx vite-node -c vitest.config.ts scripts/build-word-extras.ts <in.detail.json> <out.extras.json>`.
+
+In **My Sets**, the same data is entered in the editor ("Add examples", one sentence per line as `sentence | translation`) or imported: CSV gets an optional `examples` column (same line syntax inside the cell), JSON gets an optional `examples` array of `{ "text", "trans" }`. A `|` only separates when it stands alone (`a || b` stays inside a sentence); a line that has a translation but no sentence is rejected.
+
 ### 1.2 词典的目标文件位置 📍
 
 词典的目标文件位置是 `/public/dicts/`，请将处理好的词典文件放置在该目录下
