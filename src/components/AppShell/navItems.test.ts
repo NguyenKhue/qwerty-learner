@@ -10,13 +10,14 @@ const byId = (id: string) => {
 describe('buildNavItems', () => {
   it('lists the modes in order and marks five tabs for phones', () => {
     const items = buildNavItems()
-    expect(items.map((i) => i.id)).toEqual(['home', 'typing', 'study', 'quiz', 'match', 'my-sets', 'library'])
+    expect(items.map((i) => i.id)).toEqual(['home', 'typing', 'study', 'quiz', 'match', 'sentences', 'my-sets', 'library'])
     expect(items.filter((i) => i.tab).map((i) => i.id)).toEqual(['home', 'typing', 'study', 'quiz', 'match'])
   })
   it('points the mode links at the pages that use the current set', () => {
     expect(byId('study').to).toBe('/study')
     expect(byId('quiz').to).toBe('/quiz')
     expect(byId('match').to).toBe('/match')
+    expect(byId('sentences').to).toBe('/sentences')
   })
 })
 
@@ -30,6 +31,8 @@ describe('isNavActive', () => {
     expect(isNavActive(byId('study'), '/study/custom%3A12')).toBe(true)
     expect(isNavActive(byId('quiz'), '/quiz/anything')).toBe(true)
     expect(isNavActive(byId('quiz'), '/quizzes')).toBe(false)
+    expect(isNavActive(byId('sentences'), '/sentences/custom%3A1')).toBe(true)
+    expect(isNavActive(byId('sentences'), '/sentencesx')).toBe(false)
   })
   it('keeps My Sets active inside the set editor', () => {
     expect(isNavActive(byId('my-sets'), '/my-sets/3')).toBe(true)
@@ -41,6 +44,6 @@ describe('isNavActive', () => {
 
 describe('MORE_LINKS', () => {
   it('offers the pages that have no tab', () => {
-    expect(MORE_LINKS.map((l) => l.to)).toEqual(['/my-sets', '/gallery', '/error-book', '/analysis', '/about'])
+    expect(MORE_LINKS.map((l) => l.to)).toEqual(['/my-sets', '/gallery', '/sentences', '/error-book', '/analysis', '/about'])
   })
 })

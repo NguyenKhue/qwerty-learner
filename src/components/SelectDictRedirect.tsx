@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 import { Navigate, useParams } from 'react-router-dom'
 
 /** Old `/study/:dictId` style links: make that set the current one, then continue to the page that reads the current set. */
-export default function SelectDictRedirect({ mode }: { mode: 'study' | 'quiz' | 'match' }) {
+export default function SelectDictRedirect({ mode }: { mode: 'study' | 'quiz' | 'match' | 'sentences' }) {
   // React Router has already decoded the param
   const { dictId = '' } = useParams()
   const byId = useAtomValue(dictionaryByIdAtom)

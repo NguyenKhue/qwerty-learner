@@ -7,6 +7,7 @@ import { nextFocusIndex } from '@/utils/focusTrap'
 import { useAtom, useAtomValue } from 'jotai'
 import { Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
+import IconAlignLeft from '~icons/tabler/align-left'
 import IconBooks from '~icons/tabler/books'
 import IconCards from '~icons/tabler/cards'
 import IconChevronDown from '~icons/tabler/chevron-down'
@@ -26,6 +27,7 @@ const ICONS: Record<NavItem['icon'], typeof IconHome> = {
   cards: IconCards,
   quiz: IconListCheck,
   match: IconPuzzle,
+  sentences: IconAlignLeft,
   sets: IconFolders,
   library: IconBooks,
 }

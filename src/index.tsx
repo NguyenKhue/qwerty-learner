@@ -27,6 +27,7 @@ const SetDetailPage = lazy(() => import('./pages/MySets/SetDetail'))
 const StudyPage = lazy(() => import('./pages/Study'))
 const QuizPage = lazy(() => import('./pages/Quiz'))
 const MatchPage = lazy(() => import('./pages/Match'))
+const SentencesPage = lazy(() => import('./pages/Sentences'))
 
 if (process.env.NODE_ENV === 'production') {
   // for prod
@@ -60,9 +61,11 @@ function Root() {
               <Route path="/study" element={<StudyPage />} />
               <Route path="/quiz" element={<QuizPage />} />
               <Route path="/match" element={<MatchPage />} />
+              <Route path="/sentences" element={<SentencesPage />} />
               <Route path="/study/:dictId" element={<SelectDictRedirect mode="study" />} />
               <Route path="/quiz/:dictId" element={<SelectDictRedirect mode="quiz" />} />
               <Route path="/match/:dictId" element={<SelectDictRedirect mode="match" />} />
+              <Route path="/sentences/:dictId" element={<SelectDictRedirect mode="sentences" />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/friend-links" element={<FriendLinks />} />
               <Route path="/mobile" element={<Navigate to="/" replace />} />
