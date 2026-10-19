@@ -63,7 +63,7 @@ describe('buildPool', () => {
   it('keeps only playable examples and normalises the text and translation', () => {
     const strict = word('strict', [{ text: 'Be strict.', trans: 'Hãy nghiêm.' }, { text: 'Xin chào', trans: 'x' }, { text: '  ' }])
     const plain = word('plain')
-    expect(buildPool([strict, plain])).toEqual([{ word: strict, text: 'Be strict.', trans: 'Hãy nghiêm.' }])
+    expect(buildPool([strict, plain])).toEqual([{ word: strict, text: 'Be strict.', trans: 'Hãy nghiêm.', target: { start: 3, end: 9 } }])
   })
 
   it('omits the trans key when an example has no translation', () => {
@@ -87,14 +87,35 @@ describe('buildPool', () => {
   })
 })
 
-describe('poolFor', () => {
-  const pool = buildPool([word('strict', [{ text: 'Be strict.', trans: 'Hãy nghiêm.' }]), word('plain', [{ text: 'Hello.' }])])
-
-  it('returns the same array instance when hide is false', () => {
-    expect(poolFor(pool, false)).toBe(pool)
+describe('buildPool target', () => {
+  it('records where the headword is in the sentence, and leaves it out when it is not found', () => {
+    const pool = buildPool([word('strict', [{ text: 'Be strict about it.' }]), word('plain', [{ text: 'Nothing to see here.' }])])
+    expect(pool[0].target).toEqual({ start: 3, end: 9 })
+    expect(pool[1].target).toBeUndefined()
+    expect('target' in pool[1]).toBe(false)
   })
 
-  it('keeps only items with a translation when hide is true', () => {
-    expect(poolFor(pool, true)).toEqual([pool[0]])
+  it('finds an inflected form of the headword', () => {
+    expect(buildPool([word('embody', [{ text: 'It embodies trust.' }])])[0].target).toEqual({ start: 3, end: 11 })
+  })
+})
+
+describe('poolFor', () => {
+  const pool = buildPool([
+    word('strict', [{ text: 'Be strict.', trans: 'Hãy nghiêm.' }]),
+    word('plain', [{ text: 'Hello.', trans: 'Xin chào.' }]),
+    word('bare', [{ text: 'Bare bare.' }]),
+  ])
+
+  it("keeps every item for 'copy' (the same array instance)", () => {
+    expect(poolFor(pool, 'copy')).toBe(pool)
+  })
+
+  it("keeps only items whose target was found for 'word'", () => {
+    expect(poolFor(pool, 'word').map((item) => item.word.name)).toEqual(['strict', 'bare'])
+  })
+
+  it("keeps only items with a translation for 'sentence'", () => {
+    expect(poolFor(pool, 'sentence').map((item) => item.word.name)).toEqual(['strict', 'plain'])
   })
 })

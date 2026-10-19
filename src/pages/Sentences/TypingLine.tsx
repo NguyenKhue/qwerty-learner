@@ -14,21 +14,24 @@ type Props = {
   hidden: boolean
   lastWrong: boolean
   target: { start: number; end: number } | null
+  maskRange: { start: number; end: number } | null
 }
 
 /**
  * One sentence rendered character by character. Typed characters take the primary colour, the character at the cursor is
  * underlined, and a wrong key is also bold and red. The target word is heavier. Colour is never the only signal: the cursor
  * and the wrong key carry an underline and a weight change, and hidden letters show as `_` while spaces and punctuation stay.
+ * `hidden` masks the whole sentence; `maskRange` masks only the letters and digits inside that range.
  */
-export default function TypingLine({ text, typed, hidden, lastWrong, target }: Props) {
+export default function TypingLine({ text, typed, hidden, lastWrong, target, maskRange }: Props) {
   return (
     <p className="whitespace-pre-wrap break-words text-center font-mono text-xl leading-relaxed sm:text-2xl">
       {Array.from(text).map((ch, i) => {
         const done = i < typed
         const current = i === typed
         const inTarget = target !== null && i >= target.start && i < target.end
-        const blank = hidden && !done && BLANKABLE.test(ch)
+        const inMask = maskRange !== null && i >= maskRange.start && i < maskRange.end
+        const blank = !done && BLANKABLE.test(ch) && (hidden || inMask)
         const classes = [
           'transition-colors',
           characterColour(done, current, lastWrong, inTarget),

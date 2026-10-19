@@ -6,10 +6,10 @@ import { ModeFrame, PageMessage } from '@/components/ModePage'
 import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { useExampleWords } from '@/hooks/useExampleWords'
 import { useSetProgress } from '@/hooks/useSetProgress'
-import { sentencesHideAtom, sentencesLengthAtom } from '@/store/sentences'
+import { sentencesLengthAtom, sentencesModeAtom } from '@/store/sentences'
 import { canGoBack } from '@/utils/history'
 import { buildPool, poolFor } from '@/utils/sentences/pool'
-import { buildRun, sanitizeHide, sanitizeSentenceLength } from '@/utils/sentences/run'
+import { buildRun, sanitizeMode, sanitizeSentenceLength } from '@/utils/sentences/run'
 import { retryItems, summarize } from '@/utils/sentences/session'
 import type { SentenceSession, SentenceSummary } from '@/utils/sentences/session'
 import type { SentenceItem } from '@/utils/sentences/types'
@@ -31,9 +31,9 @@ function Sentences({ id }: { id: string }) {
   const { dict, words, error } = useExampleWords(id)
   const progress = useSetProgress(id, words)
   const [lengthStored, setLength] = useAtom(sentencesLengthAtom)
-  const [hideStored, setHide] = useAtom(sentencesHideAtom)
+  const [modeStored, setMode] = useAtom(sentencesModeAtom)
   const length = sanitizeSentenceLength(lengthStored)
-  const hide = sanitizeHide(hideStored)
+  const mode = sanitizeMode(modeStored)
 
   const [stage, setStage] = useState<Stage>('setup')
   const [items, setItems] = useState<SentenceItem[]>([])
@@ -43,7 +43,7 @@ function Sentences({ id }: { id: string }) {
   const [mistakes, setMistakes] = useState<SentenceItem[]>([])
 
   const pool = useMemo(() => (words ? buildPool(words) : []), [words])
-  const playable = useMemo(() => poolFor(pool, hide).length, [pool, hide])
+  const playable = useMemo(() => poolFor(pool, mode).length, [pool, mode])
 
   // Nothing earlier in this app's history (a bookmark, or a redirect in a new tab): fall back to the dashboard
   const onBack = useCallback(() => (canGoBack() ? navigate(-1) : navigate('/')), [navigate])
@@ -52,10 +52,10 @@ function Sentences({ id }: { id: string }) {
   const start = useCallback(
     (source?: SentenceItem[]) => {
       setRound((r) => r + 1)
-      setItems(source ? source.slice() : buildRun(poolFor(pool, hide), length, Math.random))
+      setItems(source ? source.slice() : buildRun(poolFor(pool, mode), length, Math.random))
       setStage('run')
     },
-    [pool, hide, length],
+    [pool, mode, length],
   )
 
   const onFinish = useCallback((session: SentenceSession) => {
@@ -75,7 +75,7 @@ function Sentences({ id }: { id: string }) {
   if (!words) return message('Loading…')
 
   if (stage === 'run') {
-    return <Run key={round} items={items} hide={hide} onHideChange={setHide} onExit={() => setStage('setup')} onFinish={onFinish} />
+    return <Run key={round} items={items} mode={mode} onModeChange={setMode} onExit={() => setStage('setup')} onFinish={onFinish} />
   }
 
   if (stage === 'result' && summary) {
@@ -97,8 +97,8 @@ function Sentences({ id }: { id: string }) {
       playable={playable}
       length={length}
       onLengthChange={setLength}
-      hide={hide}
-      onHideChange={setHide}
+      mode={mode}
+      onModeChange={setMode}
       onStart={() => start()}
       onBack={onBack}
     />

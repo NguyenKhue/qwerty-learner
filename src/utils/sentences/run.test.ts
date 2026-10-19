@@ -1,4 +1,4 @@
-import { buildRun, sanitizeHide, sanitizeSentenceLength } from './run'
+import { buildRun, sanitizeMode, sanitizeSentenceLength } from './run'
 import type { SentenceItem } from './types'
 import type { Word } from '@/typings'
 import { describe, expect, it } from 'vitest'
@@ -55,11 +55,13 @@ describe('sanitizeSentenceLength', () => {
   })
 })
 
-describe('sanitizeHide', () => {
-  it('treats only the boolean true as hidden', () => {
-    expect(sanitizeHide(true)).toBe(true)
-    expect(sanitizeHide('true')).toBe(false)
-    expect(sanitizeHide(1)).toBe(false)
-    expect(sanitizeHide(undefined)).toBe(false)
+describe('sanitizeMode', () => {
+  it("keeps the three known modes and falls back to 'word'", () => {
+    expect(sanitizeMode('word')).toBe('word')
+    expect(sanitizeMode('copy')).toBe('copy')
+    expect(sanitizeMode('sentence')).toBe('sentence')
+    expect(sanitizeMode('x')).toBe('word')
+    expect(sanitizeMode(true)).toBe('word')
+    expect(sanitizeMode(undefined)).toBe('word')
   })
 })

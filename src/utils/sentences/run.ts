@@ -1,12 +1,12 @@
-import type { SentenceItem, SentenceLength } from './types'
+import type { SentenceItem, SentenceLength, SentenceMode } from './types'
 import { sanitizeQuizLength, shuffle } from '@/utils/quiz/questions'
 
 /** The remembered run length, sanitised the same way as the quiz length. */
 export const sanitizeSentenceLength = sanitizeQuizLength
 
-/** Only the literal `true` means "hide the sentence". */
-export function sanitizeHide(value: unknown): boolean {
-  return value === true
+/** The remembered mode; anything unknown is the default, hiding the word. */
+export function sanitizeMode(value: unknown): SentenceMode {
+  return value === 'copy' || value === 'sentence' ? value : 'word'
 }
 
 /** A shuffled copy of the pool cut to `length` (`'all'` = everything). No repeats; empty for an empty pool. */
