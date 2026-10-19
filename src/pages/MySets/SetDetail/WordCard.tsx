@@ -39,6 +39,16 @@ function WordCard({ word, onEdit }: WordCardProps) {
               <li key={index}>{meaning}</li>
             ))}
           </ul>
+          {word.examples && word.examples.length > 0 && (
+            <ul className="mt-3 space-y-2">
+              {word.examples.map((example, index) => (
+                <li key={index}>
+                  <p className="text-sm text-foreground">{example.text}</p>
+                  {example.trans && <p className="text-xs text-muted-foreground">{example.trans}</p>}
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
 

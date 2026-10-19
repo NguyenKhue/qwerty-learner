@@ -20,7 +20,7 @@ type Row = EditableRow & { key: number }
 
 let nextKey = 0
 const withKey = (row: EditableRow): Row => ({ ...row, key: nextKey++ })
-const emptyRow = (): Row => withKey({ name: '', trans: '', usphone: '', ukphone: '', detail: '' })
+const emptyRow = (): Row => withKey({ name: '', trans: '', usphone: '', ukphone: '', detail: '', examples: '' })
 
 // Keyed by id so that moving between /my-sets/new and /my-sets/<id> (browser back/forward) starts from a clean editor
 export default function SetEditorRoute() {
@@ -285,7 +285,8 @@ function SetEditor({ id }: { id: string }) {
               </Field>
             </div>
             <p className="mt-3 text-sm text-muted-foreground">
-              Put one meaning per line. Phonetics and the detail are optional; the detail is shown on the back of flashcards.
+              Put one meaning per line. Phonetics, the detail and example sentences are optional; the detail is shown on the back of
+              flashcards and example sentences are shown on the set page.
             </p>
           </Panel>
 

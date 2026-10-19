@@ -95,8 +95,13 @@ export default function ImportPanel() {
           meanings with <code className="rounded bg-muted px-1 py-0.5 text-xs">;</code>; the{' '}
           <code className="rounded bg-muted px-1 py-0.5 text-xs">detail</code> column is optional and may contain line breaks if the cell is
           quoted; the header row may name the columns in any order, including{' '}
-          <code className="rounded bg-muted px-1 py-0.5 text-xs">detail</code>), or a JSON file in the same format as the built-in
-          dictionaries (an optional <code className="rounded bg-muted px-1 py-0.5 text-xs">detail</code> string per word).
+          <code className="rounded bg-muted px-1 py-0.5 text-xs">detail</code>; the optional{' '}
+          <code className="rounded bg-muted px-1 py-0.5 text-xs">examples</code> column holds one{' '}
+          <code className="rounded bg-muted px-1 py-0.5 text-xs">sentence | translation</code> per line inside the cell, quoted if it has
+          line breaks), or a JSON file in the same format as the built-in dictionaries (an optional{' '}
+          <code className="rounded bg-muted px-1 py-0.5 text-xs">detail</code> string per word and an optional{' '}
+          <code className="rounded bg-muted px-1 py-0.5 text-xs">examples</code> array of{' '}
+          <code className="rounded bg-muted px-1 py-0.5 text-xs">{'{ text, trans }'}</code>).
         </p>
       </details>
       {warning && <p className="text-sm text-amber-700 dark:text-amber-400">{warning}</p>}

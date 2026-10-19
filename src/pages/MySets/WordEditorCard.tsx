@@ -43,7 +43,9 @@ function WordEditorCard({
 }: WordEditorCardProps) {
   const wordRef = useRef<HTMLInputElement>(null)
   const [open, setOpen] = useState(false)
+  const [examplesOpen, setExamplesOpen] = useState(false)
   const hasDetail = (row.detail ?? '').trim() !== ''
+  const exampleCount = (row.examples ?? '').split('\n').filter((line) => line.trim() !== '').length
 
   useEffect(() => {
     if (autoFocus) wordRef.current?.focus()
@@ -162,6 +164,41 @@ function WordEditorCard({
               rows={8}
               placeholder="A longer explanation shown on the back of flashcards"
               onChange={(e) => onChange(index, { detail: e.target.value })}
+            />
+          </Field>
+        </div>
+      )}
+
+      <button
+        type="button"
+        aria-expanded={examplesOpen}
+        aria-controls={`examples-${index}`}
+        onClick={() => setExamplesOpen(!examplesOpen)}
+        className="mt-4 flex min-h-[44px] w-full items-center justify-between gap-3 rounded-lg bg-muted/60 px-3 text-sm font-medium text-foreground transition-colors duration-fast hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+      >
+        <span className="flex items-center gap-2">
+          {examplesOpen ? 'Hide examples' : exampleCount > 0 ? 'Edit examples' : 'Add examples'}
+          {exampleCount > 0 && (
+            <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
+              {exampleCount} {exampleCount === 1 ? 'example' : 'examples'}
+            </span>
+          )}
+        </span>
+        <IconChevronDown
+          className={cn('h-4 w-4 text-muted-foreground transition-transform duration-base ease-out', examplesOpen && 'rotate-180')}
+          aria-hidden
+        />
+      </button>
+
+      {examplesOpen && (
+        <div id={`examples-${index}`} className="mt-3">
+          <Field label="Example sentences (one per line: sentence | translation)" htmlFor={`examples-text-${index}`}>
+            <Textarea
+              id={`examples-text-${index}`}
+              value={row.examples ?? ''}
+              rows={4}
+              placeholder="Enabling strict mode helps catch mistakes. | Bật chế độ nghiêm ngặt giúp phát hiện lỗi."
+              onChange={(e) => onChange(index, { examples: e.target.value })}
             />
           </Field>
         </div>
