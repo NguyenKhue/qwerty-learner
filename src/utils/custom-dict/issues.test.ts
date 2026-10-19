@@ -29,4 +29,17 @@ describe('rowIssues', () => {
   it('reports the missing meaning before the duplicate warning', () => {
     expect(rowIssues([row('a', 'adj. x'), row('a', '')])[1]).toBe('Add at least one meaning')
   })
+
+  it('treats examples as content when deciding whether a row is blank', () => {
+    expect(rowIssues([row('', '', { examples: 'x | y' })])).toEqual(['Add the word'])
+  })
+
+  it('flags an example line with a translation but no sentence, with its line number', () => {
+    expect(rowIssues([row('a', 'adj. x', { examples: ' | only trans' })])[0]).toBe('Example line 1 has no sentence before "|"')
+    expect(rowIssues([row('a', 'adj. x', { examples: 'x | y\n | only trans' })])[0]).toBe('Example line 2 has no sentence before "|"')
+  })
+
+  it('gives null for a row with valid examples', () => {
+    expect(rowIssues([row('a', 'adj. x', { examples: 'A b. | Một hai.\nC d.' })])).toEqual([null])
+  })
 })

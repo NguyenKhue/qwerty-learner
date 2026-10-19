@@ -1,21 +1,23 @@
-import type { Word } from '@/typings'
+import type { Word, WordExample } from '@/typings'
+import { formatExamples, mergeExamples, normalizeExamples, parseExamples } from '@/utils/examples/format'
 
 export type ParseError = { line: number; message: string }
 export type ParseResult = { words: Word[]; errors: ParseError[]; duplicates: string[] }
-export type EditableRow = { name: string; trans: string; usphone: string; ukphone: string; detail?: string }
+export type EditableRow = { name: string; trans: string; usphone: string; ukphone: string; detail?: string; examples?: string }
 
 const MISSING_WORD = 'Missing word'
 const HEADER_NAMES = ['name', 'word', 'headword', 'term']
 
-type Field = 'name' | 'trans' | 'usphone' | 'ukphone' | 'detail'
+type Field = 'name' | 'trans' | 'usphone' | 'ukphone' | 'detail' | 'examples'
 const FIELD_ALIASES: Record<Field, string[]> = {
   name: HEADER_NAMES,
   trans: ['trans', 'meaning', 'meanings', 'translation'],
   usphone: ['usphone'],
   ukphone: ['ukphone'],
   detail: ['detail', 'details'],
+  examples: ['examples', 'example', 'sentences'],
 }
-const FIELDS: Field[] = ['name', 'trans', 'usphone', 'ukphone', 'detail']
+const FIELDS: Field[] = ['name', 'trans', 'usphone', 'ukphone', 'detail', 'examples']
 const noMeaning = (name: string) => `"${name}" has no meaning`
 
 // Excel and Notepad prepend a byte order mark to UTF-8 files
@@ -38,6 +40,11 @@ export function splitMeanings(value: string): string[] {
     .filter(Boolean)
 }
 
+/** Examples from a CSV cell or editor field: one `sentence | translation` per line, deduplicated by text. */
+function examplesFromText(text: string): WordExample[] {
+  return normalizeExamples(parseExamples(text))
+}
+
 /** True when text was decoded with the wrong encoding (e.g. an ANSI CSV read as UTF-8). */
 export function hasReplacementChars(text: string): boolean {
   return text.indexOf('\uFFFD') !== -1
@@ -55,6 +62,9 @@ export function normalizeWords(words: Word[]): { words: Word[]; duplicates: stri
         if (existing.trans.indexOf(t) === -1) existing.trans.push(t)
       })
       if (!existing.detail && word.detail) existing.detail = word.detail
+      const examples = mergeExamples(existing.examples, word.examples)
+      if (examples) existing.examples = examples
+      else delete existing.examples
       return
     }
     byName.set(name, { ...word, name, trans: word.trans.slice() })
@@ -155,9 +165,9 @@ function isHeaderRow(cells: string[]): boolean {
   return fields.indexOf('name') !== -1 && fields.filter((field) => field !== null).length >= 2
 }
 
-/** Column index of each field: positional by default (name, trans, usphone, ukphone, detail); columns named in the header win. */
+/** Column index of each field: positional by default (name, trans, usphone, ukphone, detail, examples); columns named in the header win. */
 function columnsFromHeader(cells: string[]): Record<Field, number> {
-  const columns: Record<Field, number> = { name: 0, trans: 1, usphone: 2, ukphone: 3, detail: 4 }
+  const columns: Record<Field, number> = { name: 0, trans: 1, usphone: 2, ukphone: 3, detail: 4, examples: 5 }
   const named: Partial<Record<Field, number>> = {}
   cells.forEach((cell, index) => {
     const field = fieldOf(cell)
@@ -176,7 +186,8 @@ export function parseWordsCsv(text: string): ParseResult {
   const scan = scanCsv(text, detectDelimiter(text))
   const rows = scan.rows.filter((row) => row.cells.some((c) => c.trim() !== ''))
   const hasHeader = rows.length > 0 && isHeaderRow(rows[0].cells)
-  const columns = hasHeader ? columnsFromHeader(rows[0].cells) : { name: 0, trans: 1, usphone: 2, ukphone: 3, detail: 4 }
+  const positional: Record<Field, number> = { name: 0, trans: 1, usphone: 2, ukphone: 3, detail: 4, examples: 5 }
+  const columns = hasHeader ? columnsFromHeader(rows[0].cells) : positional
   const start = hasHeader ? 1 : 0
   const words: Word[] = []
   const errors: ParseError[] = []
@@ -197,6 +208,8 @@ export function parseWordsCsv(text: string): ParseResult {
     const word: Word = { name, trans: meanings, usphone: cell('usphone'), ukphone: cell('ukphone') }
     const detail = cell('detail')
     if (detail) word.detail = detail
+    const examples = examplesFromText(cell('examples'))
+    if (examples.length > 0) word.examples = examples
     words.push(word)
   })
 
@@ -250,6 +263,8 @@ export function parseWordsJson(text: string): ParseResult {
     }
     if (typeof o.notation === 'string' && o.notation) word.notation = o.notation
     if (typeof o.detail === 'string' && o.detail.trim()) word.detail = o.detail.trim()
+    const examples = normalizeExamples(o.examples)
+    if (examples.length > 0) word.examples = examples
     words.push(word)
   })
 
@@ -281,13 +296,15 @@ export function rowsToWords(rows: EditableRow[]): ParseResult {
     const word: Word = { name, trans: meanings, usphone: row.usphone.trim(), ukphone: row.ukphone.trim() }
     const detail = (row.detail ?? '').trim()
     if (detail) word.detail = detail
+    const examples = examplesFromText(row.examples ?? '')
+    if (examples.length > 0) word.examples = examples
     words.push(word)
   })
   const normalized = normalizeWords(words)
   return { words: normalized.words, errors, duplicates: normalized.duplicates }
 }
 
-/** Inverse of `rowsToWords`: editor cells hold one meaning per line and keep the detail, so opening a set never loses it. */
+/** Inverse of `rowsToWords`: editor cells hold one meaning per line and keep the detail and examples, so opening a set never loses them. */
 export function wordsToRows(words: Word[]): EditableRow[] {
   return words.map((word) => ({
     name: word.name,
@@ -295,5 +312,6 @@ export function wordsToRows(words: Word[]): EditableRow[] {
     usphone: word.usphone,
     ukphone: word.ukphone,
     detail: word.detail ?? '',
+    examples: formatExamples(word.examples),
   }))
 }

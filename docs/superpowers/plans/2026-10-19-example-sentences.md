@@ -30,7 +30,7 @@
 
 ## Review Focus
 
-- Sentence containing code operators (`if (a || b)`) or a literal `|` inside the translation: only ` | ` with surrounding whitespace splits; test pins it.
+- Sentence containing code operators (`if (a || b)`) or a literal `|` inside the translation: only `|` with surrounding whitespace splits; test pins it.
 - CRLF line endings, blank lines, lines with only whitespace, a line that is only ` | trans` (no sentence): blank lines vanish; a translation-only line is dropped AND the editor shows an issue so input is not lost silently.
 - The same sentence imported twice or merged from two duplicate rows: deduplicated by trimmed `text`, order preserved.
 - Garbage in stored/JSON data (`examples: "x"`, `[null, 5, {}]`, `{text: 3}`): never throws, yields `[]` or the valid subset.
@@ -40,23 +40,23 @@
 
 ## File Structure
 
-| File | Responsibility |
-|---|---|
-| `src/typings/index.ts` (modify) | `WordExample`, `Word.examples?` |
-| `src/typings/resource.ts` (modify) | `extrasUrl?` next to the legacy `detailUrl?` |
-| `src/utils/examples/format.ts` (create) | `parseExamples`, `formatExamples`, `normalizeExamples`, `mergeExamples` |
-| `src/utils/examples/fromDetail.ts` (create) | `extractExamplesFromDetail` (used by the migration script only) |
-| `src/utils/custom-dict/parse.ts` (modify) | `examples` column / field in CSV, JSON, editor rows, merge on duplicates |
-| `src/utils/custom-dict/issues.ts`, `search.ts` (modify) | row issue for lost lines; search over sentences |
-| `src/utils/normalizeWordList.ts` (modify) | repair bad `examples` in built-in word files |
-| `src/utils/detail/sidecar.ts` (modify) | `WordExtras`, `fetchWordExtras`, `attachExtras`, `sidecarUrlOf` (replace `attachDetails`/`fetchDetailMap`) |
-| `src/utils/db/personal-seed.ts` (modify) | `backfillPersonalExtras` |
-| `src/hooks/usePersonalSeeds.ts`, `src/utils/db/copy-dict.ts`, `src/pages/Study/*` (modify) | switch callers to extras |
-| `src/store/personal.ts` (modify) | `backfilledPersonalExtrasAtom` |
-| `src/pages/MySets/WordEditorCard.tsx`, `SetEditor.tsx`, `ImportPanel.tsx`, `SetDetail/WordCard.tsx` (modify) | editor field, help text, display |
-| `scripts/build-word-extras.ts` (create) | one-off: `my-vocab.detail.json` → `my-vocab.extras.json` |
-| `public/dicts/my-vocab.extras.json` (create), `my-vocab.detail.json` (delete), `src/resources/dictionary.ts` (modify) | the migrated data |
-| `docs/toBuildDict.md` (modify) | document `examples` and the extras sidecar |
+| File                                                                                                                  | Responsibility                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `src/typings/index.ts` (modify)                                                                                       | `WordExample`, `Word.examples?`                                                                            |
+| `src/typings/resource.ts` (modify)                                                                                    | `extrasUrl?` next to the legacy `detailUrl?`                                                               |
+| `src/utils/examples/format.ts` (create)                                                                               | `parseExamples`, `formatExamples`, `normalizeExamples`, `mergeExamples`                                    |
+| `src/utils/examples/fromDetail.ts` (create)                                                                           | `extractExamplesFromDetail` (used by the migration script only)                                            |
+| `src/utils/custom-dict/parse.ts` (modify)                                                                             | `examples` column / field in CSV, JSON, editor rows, merge on duplicates                                   |
+| `src/utils/custom-dict/issues.ts`, `search.ts` (modify)                                                               | row issue for lost lines; search over sentences                                                            |
+| `src/utils/normalizeWordList.ts` (modify)                                                                             | repair bad `examples` in built-in word files                                                               |
+| `src/utils/detail/sidecar.ts` (modify)                                                                                | `WordExtras`, `fetchWordExtras`, `attachExtras`, `sidecarUrlOf` (replace `attachDetails`/`fetchDetailMap`) |
+| `src/utils/db/personal-seed.ts` (modify)                                                                              | `backfillPersonalExtras`                                                                                   |
+| `src/hooks/usePersonalSeeds.ts`, `src/utils/db/copy-dict.ts`, `src/pages/Study/*` (modify)                            | switch callers to extras                                                                                   |
+| `src/store/personal.ts` (modify)                                                                                      | `backfilledPersonalExtrasAtom`                                                                             |
+| `src/pages/MySets/WordEditorCard.tsx`, `SetEditor.tsx`, `ImportPanel.tsx`, `SetDetail/WordCard.tsx` (modify)          | editor field, help text, display                                                                           |
+| `scripts/build-word-extras.ts` (create)                                                                               | one-off: `my-vocab.detail.json` → `my-vocab.extras.json`                                                   |
+| `public/dicts/my-vocab.extras.json` (create), `my-vocab.detail.json` (delete), `src/resources/dictionary.ts` (modify) | the migrated data                                                                                          |
+| `docs/toBuildDict.md` (modify)                                                                                        | document `examples` and the extras sidecar                                                                 |
 
 Execution order and delegation (opencode = `opencode/deepseek-v4.1-flash-free`, `-v high` only for Task 3b):
 
@@ -73,12 +73,15 @@ T2, T3a and T5 touch different files and may run in parallel after T1; T3b needs
 ### Task 1: Example type and the format module (delegate)
 
 **Files:**
+
 - Modify: `src/typings/index.ts` (the `Word` type, ~line 22)
 - Create: `src/utils/examples/format.ts`, `src/utils/examples/fromDetail.ts`
 - Test: `src/utils/examples/format.test.ts`, `src/utils/examples/fromDetail.test.ts`
 
 **Interfaces:**
+
 - Produces:
+
   - `export type WordExample = { text: string; trans?: string }` and `Word.examples?: WordExample[]` in `@/typings`
   - `parseExamples(text: string): WordExample[]`
   - `formatExamples(examples: WordExample[] | undefined): string`
@@ -111,10 +114,12 @@ T2, T3a and T5 touch different files and may run in parallel after T1; T3b needs
 ### Task 2: Import, editor rows, merge, validation (delegate, parallel with T3a/T5)
 
 **Files:**
+
 - Modify: `src/utils/custom-dict/parse.ts`, `issues.ts`, `search.ts`, `src/utils/normalizeWordList.ts`
 - Test: `parse.test.ts`, `issues.test.ts`, `search.test.ts` (same folder), `src/utils/normalizeWordList.test.ts`
 
 **Interfaces:**
+
 - Consumes: Task 1 `parseExamples`, `formatExamples`, `normalizeExamples`, `mergeExamples`.
 - Produces: `EditableRow.examples?: string`; CSV/JSON/editor all fill `Word.examples`; `rowIssues` row type gains `examples?: string`.
 
@@ -137,12 +142,15 @@ T2, T3a and T5 touch different files and may run in parallel after T1; T3b needs
 ### Task 3a: Unified extras sidecar functions (delegate, parallel)
 
 **Files:**
+
 - Modify: `src/utils/detail/sidecar.ts`, `src/typings/resource.ts`
 - Test: `src/utils/detail/sidecar.test.ts` (rewrite the `attachDetails` cases for `attachExtras`; keep the same behaviours)
 
 **Interfaces:**
+
 - Consumes: Task 1 `normalizeExamples`, `WordExample`.
 - Produces:
+
   - `export type WordExtras = { detail?: string; examples?: WordExample[] }`
   - `attachExtras(words: Word[], map: Record<string, WordExtras> | undefined): Word[]` — same matching/immutability rules as the old `attachDetails` (case-insensitive name and key, own properties only, same object when nothing is added, never overwrites an existing `detail` or non-empty `examples`)
   - `fetchWordExtras(url: string): Promise<Record<string, WordExtras>>` — value string ⇒ `{ detail }`; value object ⇒ `{ detail?, examples: normalizeExamples(...) }` with empty parts omitted; anything else skipped; non-object/array/non-ok/throw ⇒ `{}`
@@ -161,12 +169,15 @@ T2, T3a and T5 touch different files and may run in parallel after T1; T3b needs
 ### Task 3b: Callers, backfill, store (main session)
 
 **Files:**
+
 - Modify: `src/pages/Study/index.tsx` (+ `StudySession.tsx` prop `details`→`extras`), `src/utils/db/copy-dict.ts`, `src/hooks/usePersonalSeeds.ts`, `src/utils/db/personal-seed.ts`, `src/store/personal.ts`
 - Test: `src/utils/db/personal-seed.test.ts` (extend), `src/utils/db/copy-dict.test.ts` if present else create
 
 **Interfaces:**
+
 - Consumes: Task 3a functions.
 - Produces:
+
   - `backfillPersonalExtras(customId: string, map: Record<string, WordExtras>): Promise<number>` in `personal-seed.ts` — one Dexie transaction on `db.customDicts`; applies `attachExtras` to the record's words; writes (and bumps `updatedAt`) only if at least one word changed; returns the number of changed words; missing record ⇒ `0`.
   - `backfilledPersonalExtrasAtom = atomWithStorage<string[]>('backfilledPersonalExtras', [])` in `store/personal.ts` (built-in ids already backfilled).
 
@@ -181,9 +192,11 @@ T2, T3a and T5 touch different files and may run in parallel after T1; T3b needs
 ### Task 4: Editor field, help text, display (delegate, main verifies in browser)
 
 **Files:**
+
 - Modify: `src/pages/MySets/WordEditorCard.tsx`, `SetEditor.tsx` (`emptyRow`, help text near line 288), `ImportPanel.tsx` (format help), `SetDetail/WordCard.tsx`
 
 **Interfaces:**
+
 - Consumes: Task 2 `EditableRow.examples`, `rowIssues`; Task 1 types.
 
 - [ ] **Step 1: Implement.**
@@ -200,11 +213,13 @@ T2, T3a and T5 touch different files and may run in parallel after T1; T3b needs
 ### Task 5: Migrate My Vocabulary to the extras sidecar (delegate script, main runs and checks)
 
 **Files:**
+
 - Create: `scripts/build-word-extras.ts`, `public/dicts/my-vocab.extras.json`
 - Delete: `public/dicts/my-vocab.detail.json`
 - Modify: `src/resources/dictionary.ts` (the `myVocab` entry: `detailUrl` → `extrasUrl: '/dicts/my-vocab.extras.json'`)
 
 **Interfaces:**
+
 - Consumes: Task 1 `extractExamplesFromDetail`.
 
 - [ ] **Step 1: Implement the script** `scripts/build-word-extras.ts <in.detail.json> <out.extras.json>`: for each `{ word: detail }` write `{ detail, examples? }` (examples only when non-empty; `detail` unchanged byte for byte, including its `Câu mẫu:` lines); keys keep their original order; pretty print with 2 spaces. Run with `npx vite-node -c vitest.config.ts scripts/build-word-extras.ts ...` (so the `@/` alias resolves).

@@ -1,10 +1,24 @@
-import type { Word } from '@/typings'
+import type { Word, WordExample } from '@/typings'
+import { normalizeExamples } from '@/utils/examples/format'
 
 /** `null` when `trans` is already a list of strings; otherwise the repaired list. */
 function repairedTrans(trans: unknown): string[] | null {
   if (Array.isArray(trans) && trans.every((item) => typeof item === 'string')) return null
   const list: unknown[] = Array.isArray(trans) ? trans : typeof trans === 'string' ? [trans] : []
   return list.filter((item): item is string => typeof item === 'string')
+}
+
+const isExample = (item: unknown): item is WordExample => {
+  if (!item || typeof item !== 'object') return false
+  const example = item as WordExample
+  return typeof example.text === 'string' && (example.trans === undefined || typeof example.trans === 'string')
+}
+
+/** `null` when `examples` is already a list of examples; otherwise the repaired list. */
+function repairedExamples(examples: unknown): WordExample[] | null {
+  if (examples === undefined) return null
+  if (Array.isArray(examples) && examples.every(isExample)) return null
+  return normalizeExamples(examples)
 }
 
 /**
@@ -19,7 +33,8 @@ export function normalizeWordList(raw: unknown): Word[] {
     const word = item as Word
     const trans = repairedTrans(word.trans)
     const detailOk = word.detail === undefined || typeof word.detail === 'string'
-    if (trans === null && typeof word.usphone === 'string' && typeof word.ukphone === 'string' && detailOk) {
+    const examples = repairedExamples(word.examples)
+    if (trans === null && typeof word.usphone === 'string' && typeof word.ukphone === 'string' && detailOk && examples === null) {
       result.push(word)
       return
     }
@@ -30,6 +45,10 @@ export function normalizeWordList(raw: unknown): Word[] {
       ukphone: typeof word.ukphone === 'string' ? word.ukphone : '',
     }
     if (!detailOk) delete repaired.detail
+    if (examples !== null) {
+      if (examples.length > 0) repaired.examples = examples
+      else delete repaired.examples
+    }
     result.push(repaired)
   })
   return result

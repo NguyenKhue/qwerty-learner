@@ -45,6 +45,20 @@ describe('filterIndexes', () => {
     expect(filterIndexes(rows, 'ba')).toEqual([1])
     expect(filterIndexes(rows, 'zzz')).toEqual([])
   })
+
+  it('matches a term that appears only in an example sentence or its translation', () => {
+    const withExamples = [
+      {
+        name: 'strict',
+        trans: ['adj. x'],
+        examples: [{ text: 'Be strict with yourself.', trans: 'Hãy nghiêm khắc với bản thân.' }],
+      },
+      { name: 'other', trans: ['n. khác'] },
+    ]
+    expect(filterIndexes(withExamples, 'yourself')).toEqual([0])
+    expect(filterIndexes(withExamples, 'nghiem khac')).toEqual([0])
+    expect(filterIndexes(withExamples, 'zzz')).toEqual([])
+  })
 })
 
 describe('visibleCount', () => {

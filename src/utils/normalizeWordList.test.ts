@@ -40,3 +40,27 @@ describe('normalizeWordList detail', () => {
     expect('detail' in dropped).toBe(false)
   })
 })
+
+describe('normalizeWordList examples', () => {
+  it('keeps a valid examples array as the very same word object', () => {
+    const word: Word = { name: 'a', trans: ['x'], usphone: '', ukphone: '', examples: [{ text: 'A', trans: 'B' }] }
+    expect(normalizeWordList([word])[0]).toBe(word)
+  })
+
+  it('repairs or drops examples that are not an array of examples', () => {
+    const raw = [
+      { name: 'a', trans: ['x'], usphone: '', ukphone: '', examples: 'x' },
+      { name: 'b', trans: ['y'], usphone: '', ukphone: '', examples: [1, { text: 2 }] },
+      { name: 'c', trans: ['z'], usphone: '', ukphone: '', examples: [1, { text: ' ok ' }] },
+    ] as unknown as Word[]
+    const result = normalizeWordList(raw)
+    expect('examples' in result[0]).toBe(false)
+    expect('examples' in result[1]).toBe(false)
+    expect(result[2].examples).toEqual([{ text: 'ok' }])
+  })
+
+  it('leaves a word without the key as the same object', () => {
+    const word: Word = { name: 'a', trans: ['x'], usphone: '', ukphone: '' }
+    expect(normalizeWordList([word])[0]).toBe(word)
+  })
+})

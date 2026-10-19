@@ -262,13 +262,106 @@ describe('wordsToRows (loading a stored set into the editor)', () => {
 
   it('puts one meaning per line and keeps the detail (an empty string when there is none)', () => {
     expect(wordsToRows(words)).toEqual([
-      { name: 'strict', trans: 'adj. nghiêm ngặt\nadj. khắc khe', usphone: 'strɪkt', ukphone: 'strɪkt', detail: 'Long text\nsecond line' },
-      { name: 'plain', trans: 'n. đơn giản', usphone: '', ukphone: '', detail: '' },
+      {
+        name: 'strict',
+        trans: 'adj. nghiêm ngặt\nadj. khắc khe',
+        usphone: 'strɪkt',
+        ukphone: 'strɪkt',
+        detail: 'Long text\nsecond line',
+        examples: '',
+      },
+      { name: 'plain', trans: 'n. đơn giản', usphone: '', ukphone: '', detail: '', examples: '' },
     ])
   })
 
   it('does not lose a detail when a set is opened in the editor and saved again', () => {
     const saved = rowsToWords(wordsToRows(words)).words
     expect(saved).toEqual(words)
+  })
+
+  it('round trips examples and gives an empty string when there are none', () => {
+    const withExamples = [
+      { name: 'a', trans: ['x'], usphone: '', ukphone: '', examples: [{ text: 'A', trans: 'B' }, { text: 'C' }] },
+      { name: 'b', trans: ['y'], usphone: '', ukphone: '' },
+    ]
+    const rows = wordsToRows(withExamples)
+    expect(rows[0].examples).toBe('A | B\nC')
+    expect(rows[1].examples).toBe('')
+    expect(rowsToWords(rows).words).toEqual(withExamples)
+  })
+})
+
+describe('examples in CSV', () => {
+  it('reads an examples column, including a quoted multi-line cell', () => {
+    const result = parseWordsCsv('name,trans,examples\nstrict,adj. x,"A b. | Một\nC d."\n')
+    expect(result.errors).toEqual([])
+    expect(result.words[0].examples).toEqual([{ text: 'A b.', trans: 'Một' }, { text: 'C d.' }])
+  })
+
+  it('accepts example and sentences as header names for the examples column', () => {
+    expect(parseWordsCsv('name,trans,example\na,adj. x,A | B').words[0].examples).toEqual([{ text: 'A', trans: 'B' }])
+    expect(parseWordsCsv('name,trans,sentences\na,adj. x,A | B').words[0].examples).toEqual([{ text: 'A', trans: 'B' }])
+  })
+
+  it('reads examples from column index 5 without a header and omits the key when the column is absent', () => {
+    const result = parseWordsCsv('a,adj. x,,,Long text,A | B\nb,n. y')
+    expect(result.words[0].examples).toEqual([{ text: 'A', trans: 'B' }])
+    expect('examples' in result.words[1]).toBe(false)
+  })
+
+  it('deduplicates sentences inside one cell and merges them across duplicate rows', () => {
+    const result = parseWordsCsv('name,trans,examples\na,adj. x,"A | B\nA | other\nC"\na,adj. y,"A | B\nD"')
+    expect(result.words[0].examples).toEqual([{ text: 'A', trans: 'B' }, { text: 'C' }, { text: 'D' }])
+  })
+})
+
+describe('examples in JSON', () => {
+  it('normalizes the array, keeps strings as text and skips garbage', () => {
+    const result = parseWordsJson(JSON.stringify([{ name: 'a', trans: ['x'], examples: [{ text: 'A', trans: 'B' }, 'plain', null] }]))
+    expect(result.words[0].examples).toEqual([{ text: 'A', trans: 'B' }, { text: 'plain' }])
+  })
+
+  it('drops examples that are not an array and leaves words without the key unchanged', () => {
+    const words = parseWordsJson(
+      JSON.stringify([
+        { name: 'a', trans: ['x'], examples: 'bad' },
+        { name: 'b', trans: ['y'] },
+      ]),
+    ).words
+    expect('examples' in words[0]).toBe(false)
+    expect('examples' in words[1]).toBe(false)
+  })
+})
+
+describe('examples in editor rows', () => {
+  it('parses sentence lines and deduplicates by text, keeping the first', () => {
+    const result = rowsToWords([{ name: 'a', trans: 'x', usphone: '', ukphone: '', examples: 'A | B\nA | other\nC' }])
+    expect(result.words[0].examples).toEqual([{ text: 'A', trans: 'B' }, { text: 'C' }])
+  })
+
+  it('omits examples for an empty or whitespace-only field', () => {
+    const result = rowsToWords([
+      { name: 'a', trans: 'x', usphone: '', ukphone: '', examples: '  \n ' },
+      { name: 'b', trans: 'y', usphone: '', ukphone: '' },
+    ])
+    expect('examples' in result.words[0]).toBe(false)
+    expect('examples' in result.words[1]).toBe(false)
+  })
+})
+
+describe('normalizeWords examples', () => {
+  it('unions examples of duplicate words by text without mutating the inputs', () => {
+    const first = { name: 'run', trans: ['v. chạy'], usphone: '', ukphone: '', examples: [{ text: 'I run.' }] }
+    const second = {
+      name: ' run ',
+      trans: ['n. cuộc chạy'],
+      usphone: '',
+      ukphone: '',
+      examples: [{ text: 'Run fast.' }, { text: 'I run.', trans: 'Tôi chạy.' }],
+    }
+    const { words } = normalizeWords([first, second])
+    expect(words[0].examples).toEqual([{ text: 'I run.' }, { text: 'Run fast.' }])
+    expect(first.examples).toEqual([{ text: 'I run.' }])
+    expect(second.examples).toEqual([{ text: 'Run fast.' }, { text: 'I run.', trans: 'Tôi chạy.' }])
   })
 })
