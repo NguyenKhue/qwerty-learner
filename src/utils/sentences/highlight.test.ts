@@ -33,4 +33,28 @@ describe('findTarget', () => {
       expect(findTarget(text, '')).toBeNull()
     }
   })
+
+  it('finds a hyphenated or phrase headword with an inflected tail, and treats a space like a hyphen', () => {
+    expect(findTarget('The team fine-tuned the model.', 'fine-tune')).toEqual({ start: 9, end: 19 })
+    expect(findTarget('Logging is a cross-cutting concern.', 'cross cutting')).toEqual({ start: 13, end: 26 })
+    expect(findTarget('The committee consists of five members.', 'consist of')).toEqual({ start: 14, end: 25 })
+  })
+
+  it('finds an inflection of a headword that ends in e or y by dropping that letter', () => {
+    expect(findTarget('The design embodies trust.', 'embody')).toEqual({ start: 11, end: 19 })
+    expect(findTarget('It is evolving fast.', 'evolve')).toEqual({ start: 6, end: 14 })
+    expect(findTarget('Everything was justified later.', 'justify')).toEqual({ start: 15, end: 24 })
+  })
+
+  it('does not stem short headwords, phrases or a word that only contains the stem', () => {
+    expect(findTarget('A typing test.', 'type')).toBeNull()
+    expect(findTarget('Prevention helps.', 'prevent')).toEqual({ start: 0, end: 10 })
+    expect(findTarget('Nothing to see.', 'a phrase')).toBeNull()
+    expect(findTarget('The disembodies it.', 'embody')).toBeNull()
+  })
+
+  it('never throws for odd headwords', () => {
+    for (const headword of ['-', ' - ', '++', '(', '[a', 'a--b', '\\'])
+      expect(() => findTarget('Some (text) [a] a--b ++', headword)).not.toThrow()
+  })
 })
