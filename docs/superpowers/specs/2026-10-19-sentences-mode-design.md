@@ -89,3 +89,25 @@ Separate mode (not inside Typing) · both copy and from-memory styles, copy is t
 ## Left to the builder
 
 Component and file names inside the structure above · exact visual layout and animation of the typing line and blanks · how the per-turn state machine is shaped · how sentences are sampled for a run (random, no repeats within a run; a word with several sentences may appear more than once only when the pool is smaller than the run length) · the touch-device input approach · whether to reuse the key-sound hook · copy of the messages.
+
+## Revision: "Hide word" becomes the default mode (2026-10-19, decided by the learner)
+
+Supersedes the copy / hide-sentence toggle described above. The run has three **modes**, chosen on the setup screen and switchable during a run (remembered):
+
+- **Hide word (default):** the full sentence is shown, only the target word is masked (letters shown as `_`, the rest of the word such as `-` or spaces stays visible as in hidden mode). The translation is shown as the hint. The learner types the whole sentence: copies what is visible, recalls the masked word. Peek reveals the masked word and counts one mistake. A sentence is playable in this mode only if its target word was found (see below); the setup count reflects that.
+- **Copy:** the sentence is fully visible (the earlier default).
+- **Hide sentence:** only the translation is shown (the earlier toggle). Needs a translation.
+
+Not in this revision: any write to the flashcard schedule (SRS) stays out; the other modes are unchanged apart from the setting becoming a three-way choice.
+
+### Finding the target word (replaces the earlier rule)
+
+`findTarget` tries, in order, each case-insensitive and starting at a word boundary: (1) the whole headword as a standalone word; (2) the headword's tokens (split on spaces and hyphens, so `cross cutting` finds `cross-cutting` and `consist of` finds `consists of`), each token allowed to carry a tail of letters/digits (`fine-tune` finds `fine-tuned`); (3) for a one-token headword of at least 5 letters ending in `e` or `y`, the headword without that last letter plus a tail (`embody` finds `embodies`, `evolve` finds `evolving`). The range covers the whole matched span. No match returns null (the sentence is then not used in Hide word mode).
+
+### Data fixes done together with this revision
+
+- The 21 sentences of My Vocabulary whose translation was glued to the English text (a comment `— ...` follows the closing parenthesis) are repaired by making the detail extractor ignore that comment.
+- 33 words that had no usable sentence got new example sentences with Vietnamese translations (30 had none at all; `specification` had sentences that belong to another word; `take an approach` and `regulatory landscapes` had none containing the exact phrase).
+- The sidecar backfill of already created sets becomes versioned and merges: sentences not yet in a word are added (the learner's own sentences are kept, duplicates are dropped), once per version.
+- Not touched, reported to the learner: four headwords look misspelled in the learner's own data (`disclamer`, `reponsive`, `widepread`, `accommplish`), so their sentences cannot be matched until those words are corrected.
+
