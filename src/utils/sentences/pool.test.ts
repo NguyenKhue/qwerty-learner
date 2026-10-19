@@ -1,4 +1,4 @@
-import { buildPool, isPlayable, normalizeSentence, normalizeTypedChar, poolFor } from './pool'
+import { buildPool, isPlayable, normalizeSentence, normalizeTypedChar } from './pool'
 import type { Word } from '@/typings'
 import { describe, expect, it } from 'vitest'
 
@@ -67,18 +67,18 @@ describe('buildPool', () => {
   })
 
   it('omits the trans key when an example has no translation', () => {
-    const [item] = buildPool([word('plain', [{ text: 'Hello.' }])])
+    const [item] = buildPool([word('hello', [{ text: 'Hello.' }])])
     expect(item.text).toBe('Hello.')
     expect('trans' in item).toBe(false)
   })
 
   it('drops a translation that is empty after trimming', () => {
-    const [item] = buildPool([word('plain', [{ text: 'Hi.', trans: '   ' }])])
+    const [item] = buildPool([word('hi', [{ text: 'Hi.', trans: '   ' }])])
     expect('trans' in item).toBe(false)
   })
 
   it('normalises curly characters in the kept text', () => {
-    expect(buildPool([word('quote', [{ text: 'It’s fine — really' }])])[0].text).toBe("It's fine - really")
+    expect(buildPool([word('fine', [{ text: 'It’s fine — really' }])])[0].text).toBe("It's fine - really")
   })
 
   it('keeps the order of words and of their examples', () => {
@@ -88,34 +88,19 @@ describe('buildPool', () => {
 })
 
 describe('buildPool target', () => {
-  it('records where the headword is in the sentence, and leaves it out when it is not found', () => {
-    const pool = buildPool([word('strict', [{ text: 'Be strict about it.' }]), word('plain', [{ text: 'Nothing to see here.' }])])
-    expect(pool[0].target).toEqual({ start: 3, end: 9 })
-    expect(pool[1].target).toBeUndefined()
-    expect('target' in pool[1]).toBe(false)
+  it('records where the headword is in the sentence', () => {
+    expect(buildPool([word('strict', [{ text: 'Be strict about it.' }])])[0].target).toEqual({ start: 3, end: 9 })
+  })
+
+  it('leaves out a sentence in which the headword cannot be found, because it has nothing to hide', () => {
+    const pool = buildPool([
+      word('strict', [{ text: 'Be strict about it.' }, { text: 'Nothing to see here.' }]),
+      word('plain', [{ text: 'Hello.' }]),
+    ])
+    expect(pool.map((item) => item.text)).toEqual(['Be strict about it.'])
   })
 
   it('finds an inflected form of the headword', () => {
     expect(buildPool([word('embody', [{ text: 'It embodies trust.' }])])[0].target).toEqual({ start: 3, end: 11 })
-  })
-})
-
-describe('poolFor', () => {
-  const pool = buildPool([
-    word('strict', [{ text: 'Be strict.', trans: 'Hãy nghiêm.' }]),
-    word('plain', [{ text: 'Hello.', trans: 'Xin chào.' }]),
-    word('bare', [{ text: 'Bare bare.' }]),
-  ])
-
-  it("keeps every item for 'copy' (the same array instance)", () => {
-    expect(poolFor(pool, 'copy')).toBe(pool)
-  })
-
-  it("keeps only items whose target was found for 'word'", () => {
-    expect(poolFor(pool, 'word').map((item) => item.word.name)).toEqual(['strict', 'bare'])
-  })
-
-  it("keeps only items with a translation for 'sentence'", () => {
-    expect(poolFor(pool, 'sentence').map((item) => item.word.name)).toEqual(['strict', 'plain'])
   })
 })

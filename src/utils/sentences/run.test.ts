@@ -1,10 +1,10 @@
-import { buildRun, sanitizeMode, sanitizeSentenceLength } from './run'
+import { buildRun, sanitizeSentenceLength } from './run'
 import type { SentenceItem } from './types'
 import type { Word } from '@/typings'
 import { describe, expect, it } from 'vitest'
 
 const word: Word = { name: 'w', trans: ['x'], usphone: '', ukphone: '' }
-const item = (text: string): SentenceItem => ({ word, text })
+const item = (text: string): SentenceItem => ({ word, text, target: { start: 0, end: 1 } })
 const pool = ['a', 'b', 'c', 'd', 'e'].map(item)
 
 /** Deterministic RNG: a small linear congruential generator. */
@@ -52,16 +52,5 @@ describe('sanitizeSentenceLength', () => {
     expect(sanitizeSentenceLength('all')).toBe('all')
     expect(sanitizeSentenceLength(7)).toBe(10)
     expect(sanitizeSentenceLength(undefined)).toBe(10)
-  })
-})
-
-describe('sanitizeMode', () => {
-  it("keeps the three known modes and falls back to 'word'", () => {
-    expect(sanitizeMode('word')).toBe('word')
-    expect(sanitizeMode('copy')).toBe('copy')
-    expect(sanitizeMode('sentence')).toBe('sentence')
-    expect(sanitizeMode('x')).toBe('word')
-    expect(sanitizeMode(true)).toBe('word')
-    expect(sanitizeMode(undefined)).toBe('word')
   })
 })

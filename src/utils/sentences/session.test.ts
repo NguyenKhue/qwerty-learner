@@ -6,7 +6,7 @@ import type { Word } from '@/typings'
 import { describe, expect, it } from 'vitest'
 
 const word: Word = { name: 'w', trans: ['x'], usphone: '', ukphone: '' }
-const item = (text: string): SentenceItem => ({ word, text })
+const item = (text: string): SentenceItem => ({ word, text, target: { start: 0, end: 1 } })
 
 /** Presses every character of `text` through the session, one ms apart from `start`. */
 function typeAll(session: SentenceSession, text: string, start: number): SentenceSession {

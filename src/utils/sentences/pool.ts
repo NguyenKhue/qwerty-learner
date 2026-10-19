@@ -1,5 +1,5 @@
 import { findTarget } from './highlight'
-import type { SentenceItem, SentenceMode } from './types'
+import type { SentenceItem } from './types'
 import type { Word } from '@/typings'
 
 /** The longest sentence a run will ask the learner to type. */
@@ -36,26 +36,23 @@ export function isPlayable(text: string): boolean {
   return /^[\x20-\x7e]+$/.test(normalized)
 }
 
-/** Flattens each word's examples in order, keeping the playable ones as normalised sentences. */
+/**
+ * Flattens each word's examples in order, keeping the playable ones as normalised sentences. A sentence in which the headword cannot
+ * be found has nothing to hide, so it is left out.
+ */
 export function buildPool(words: Word[]): SentenceItem[] {
   const pool: SentenceItem[] = []
   for (const word of words) {
     for (const example of word.examples ?? []) {
       if (!isPlayable(example.text)) continue
       const text = normalizeSentence(example.text)
-      const item: SentenceItem = { word, text }
       const target = findTarget(text, word.name)
-      if (target) item.target = target
+      if (!target) continue
+      const item: SentenceItem = { word, text, target }
       const trans = example.trans?.trim()
       if (trans) item.trans = trans
       pool.push(item)
     }
   }
   return pool
-}
-
-/** The sentences a mode can use: all of them to copy, those whose target word was found to mask it, those with a translation to hide the sentence. */
-export function poolFor(pool: SentenceItem[], mode: SentenceMode): SentenceItem[] {
-  if (mode === 'copy') return pool
-  return pool.filter((item) => (mode === 'word' ? item.target !== undefined : Boolean(item.trans)))
 }

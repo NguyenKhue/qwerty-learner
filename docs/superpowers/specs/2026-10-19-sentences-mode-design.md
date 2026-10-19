@@ -90,15 +90,14 @@ Separate mode (not inside Typing) · both copy and from-memory styles, copy is t
 
 Component and file names inside the structure above · exact visual layout and animation of the typing line and blanks · how the per-turn state machine is shaped · how sentences are sampled for a run (random, no repeats within a run; a word with several sentences may appear more than once only when the pool is smaller than the run length) · the touch-device input approach · whether to reuse the key-sound hook · copy of the messages.
 
-## Revision: "Hide word" becomes the default mode (2026-10-19, decided by the learner)
+## Revision: one mode, "Hide word" (2026-10-19, decided by the learner)
 
-Supersedes the copy / hide-sentence toggle described above. The run has three **modes**, chosen on the setup screen and switchable during a run (remembered):
+Supersedes the copy / hide-sentence toggle and the three-mode selector described above: there is **only one way to practise**, and no mode setting.
 
-- **Hide word (default):** the full sentence is shown, only the target word is masked (letters shown as `_`, the rest of the word such as `-` or spaces stays visible as in hidden mode). The translation is shown as the hint. The learner types the whole sentence: copies what is visible, recalls the masked word. Peek reveals the masked word and counts one mistake. A sentence is playable in this mode only if its target word was found (see below); the setup count reflects that.
-- **Copy:** the sentence is fully visible (the earlier default).
-- **Hide sentence:** only the translation is shown (the earlier toggle). Needs a translation.
-
-Not in this revision: any write to the flashcard schedule (SRS) stays out; the other modes are unchanged apart from the setting becoming a three-way choice.
+- The full sentence is shown, only the target word is masked (its letters and digits shown as `_`; spaces and hyphens of the word stay visible). The translation is shown as the hint. The learner types the whole sentence: copies what is visible, recalls the masked word.
+- Peek reveals the masked word for the rest of the turn and counts one mistake. A screen reader hears the sentence with the word replaced by "blank" until the learner peeks.
+- A sentence is used only if its target word was found (see below); the count on the setup screen is the number of such sentences.
+- Not in this revision: any write to the flashcard schedule (SRS) stays out.
 
 ### Finding the target word (replaces the earlier rule)
 

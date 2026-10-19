@@ -6,24 +6,15 @@ import { isActivatableButton } from '@/utils/keyboard'
 import { advance, createSession, currentItem, isComplete, peekSentence, summarize, typeKey } from '@/utils/sentences/session'
 import type { SentenceSession } from '@/utils/sentences/session'
 import { isDone } from '@/utils/sentences/turn'
-import type { SentenceItem, SentenceMode } from '@/utils/sentences/types'
+import type { SentenceItem } from '@/utils/sentences/types'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { MouseEvent } from 'react'
 
 type Props = {
   items: SentenceItem[]
-  mode: SentenceMode
-  onModeChange: (mode: SentenceMode) => void
   onExit: () => void
   onFinish: (session: SentenceSession) => void
 }
-
-/** The three modes, in the same order and with the same labels as the setup screen. */
-const MODES: { value: SentenceMode; label: string }[] = [
-  { value: 'word', label: 'Hide word' },
-  { value: 'copy', label: 'Copy' },
-  { value: 'sentence', label: 'Hide sentence' },
-]
 
 /** A text field feeds the session through its own input event, so the global listener must leave every key to it. */
 function isTextTarget(target: EventTarget | null): boolean {
@@ -36,7 +27,7 @@ function releaseFocus(e: MouseEvent<HTMLButtonElement>) {
 }
 
 /** Types one sentence per turn, then hands the whole session to the caller once every sentence is done. */
-export default function Run({ items, mode, onModeChange, onExit, onFinish }: Props) {
+export default function Run({ items, onExit, onFinish }: Props) {
   const [session, setSession] = useState<SentenceSession>(() => createSession(items))
   // The listener and the timer read this ref, updated synchronously, so a burst of keys never works off a stale render
   const sessionRef = useRef(session)
@@ -49,7 +40,6 @@ export default function Run({ items, mode, onModeChange, onExit, onFinish }: Pro
 
   const item = currentItem(session)
   const stats = useMemo(() => summarize(session), [session])
-  const target = item?.target ?? null
   const turnDone = item !== undefined && isDone(session.turn)
 
   const requestExit = useCallback(() => {
@@ -98,10 +88,9 @@ export default function Run({ items, mode, onModeChange, onExit, onFinish }: Pro
   if (!item) return null
 
   const position = session.index + 1
-  // A turn falls back to copy when the chosen mode cannot show it: no translation to hide, or no word to mask
-  const effectiveMode = (mode === 'sentence' && !item.trans) || (mode === 'word' && !item.target) ? 'copy' : mode
-  const lineHidden = effectiveMode === 'sentence' && !session.turn.peeked
-  const maskRange = effectiveMode === 'word' && !session.turn.peeked ? item.target ?? null : null
+  // The word to recall stays hidden until the learner peeks; a screen reader hears the same blank
+  const masked = !session.turn.peeked
+  const spoken = masked ? `${item.text.slice(0, item.target.start)}blank${item.text.slice(item.target.end)}` : item.text
 
   return (
     <ModeFrame>
@@ -111,21 +100,7 @@ export default function Run({ items, mode, onModeChange, onExit, onFinish }: Pro
             {position} / {session.items.length} · {Math.round(stats.accuracy * 100)}% · {Math.round(stats.wpm)} wpm
           </span>
           <div className="flex flex-wrap items-center gap-2">
-            {MODES.map((option) => (
-              <Button
-                key={option.value}
-                size="sm"
-                variant={mode === option.value ? 'default' : 'outline'}
-                aria-pressed={mode === option.value}
-                onClick={(e) => {
-                  releaseFocus(e)
-                  onModeChange(option.value)
-                }}
-              >
-                {option.label}
-              </Button>
-            ))}
-            {effectiveMode !== 'copy' && !session.turn.peeked && (
+            {masked && (
               <Button
                 size="sm"
                 variant="outline"
@@ -144,19 +119,11 @@ export default function Run({ items, mode, onModeChange, onExit, onFinish }: Pro
         </div>
 
         <div className="flex w-full flex-col items-center gap-4">
-          <TypingLine
-            text={item.text}
-            typed={session.turn.typed}
-            hidden={lineHidden}
-            lastWrong={session.turn.lastWrong}
-            target={target}
-            maskRange={maskRange}
-          />
+          <TypingLine text={item.text} typed={session.turn.typed} lastWrong={session.turn.lastWrong} target={item.target} masked={masked} />
           {item.trans && <p className="text-center text-muted-foreground">{item.trans}</p>}
-          {effectiveMode === 'word' && !session.turn.peeked && (
+          {masked && (
             <p className="text-xs text-muted-foreground">Type the whole sentence: recall the hidden word, or press Peek to reveal it</p>
           )}
-          {lineHidden && <p className="text-xs text-muted-foreground">Type the sentence, or press Peek to reveal it</p>}
         </div>
 
         {coarse && (
@@ -176,7 +143,7 @@ export default function Run({ items, mode, onModeChange, onExit, onFinish }: Pro
         )}
 
         <p className="sr-only" aria-live="polite">
-          {item.text}
+          {spoken}
         </p>
       </ScrollCenter>
     </ModeFrame>
