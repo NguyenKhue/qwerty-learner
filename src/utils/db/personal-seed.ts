@@ -2,6 +2,8 @@ import { CUSTOM_DICT_PREFIX } from './custom-dict'
 import { db } from './database'
 import type { Word } from '@/typings'
 import { normalizeWords } from '@/utils/custom-dict/parse'
+import { attachExtras } from '@/utils/detail/sidecar'
+import type { WordExtras } from '@/utils/detail/sidecar'
 
 export type PersonalSeedInput = {
   /** Id of the built-in dictionary being turned into the user's own set (e.g. `myVocab`) */
@@ -61,5 +63,20 @@ export async function migratePersonalSet(input: PersonalSeedInput): Promise<Pers
     const reviews = await db.reviewRecords.where('dict').equals(input.builtInId).modify({ dict: newDictId })
     const log = await db.reviewLog.where('dict').equals(input.builtInId).modify({ dict: newDictId })
     return { created, cards: oldCards.length, typedWords, chapters, reviews, log }
+  })
+}
+
+/**
+ * Tops up an already created set with the extras (details, examples) of its built-in file: only words that lack them get them, so
+ * the user's own edits are never overwritten. Returns the number of words that changed; the record is untouched when it is 0.
+ */
+export async function backfillPersonalExtras(customId: string, map: Record<string, WordExtras>): Promise<number> {
+  return db.transaction('rw', db.customDicts, async () => {
+    const record = await db.customDicts.get(customId)
+    if (!record) return 0
+    const words = attachExtras(record.words, map)
+    const changed = words.filter((word, index) => word !== record.words[index]).length
+    if (changed > 0) await db.customDicts.put({ ...record, words, updatedAt: Date.now() })
+    return changed
   })
 }

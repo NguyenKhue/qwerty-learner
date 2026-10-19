@@ -12,7 +12,12 @@ const words: Word[] = [
 vi.mock('@/utils/wordListFetcher', () => ({ wordListFetcher: vi.fn(async () => words.map((w) => ({ ...w }))) }))
 vi.mock('@/utils/detail/sidecar', async (importOriginal) => {
   const original = await importOriginal<typeof Sidecar>()
-  return { ...original, fetchDetailMap: vi.fn(async () => ({ strict: 'Long detail for strict' })) }
+  return {
+    ...original,
+    fetchWordExtras: vi.fn(async () => ({
+      strict: { detail: 'Long detail for strict', examples: [{ text: 'Be strict.', trans: 'Hãy nghiêm.' }] },
+    })),
+  }
 })
 
 const dict = (over: Partial<Dictionary> = {}): Dictionary => ({
@@ -33,7 +38,7 @@ beforeEach(() => {
   vi.clearAllMocks()
 })
 
-describe('duplicateDictionaryAsCustom with details', () => {
+describe('duplicateDictionaryAsCustom with extras', () => {
   it('copies the details of a built-in set that has a detail file, so the copy keeps its flip-card text', async () => {
     const record = await duplicateDictionaryAsCustom(dict({ detailUrl: '/dicts/built-in.detail.json' }))
     const copied = await getCustomDictWords(record.id)
@@ -41,10 +46,18 @@ describe('duplicateDictionaryAsCustom with details', () => {
     expect(copied.find((w) => w.name === 'plain')?.detail).toBeUndefined()
   })
 
+  it('copies the example sentences along with the detail, from either url name', async () => {
+    const viaExtras = await getCustomDictWords((await duplicateDictionaryAsCustom(dict({ extrasUrl: '/dicts/built-in.extras.json' }))).id)
+    expect(viaExtras.find((w) => w.name === 'strict')?.examples).toEqual([{ text: 'Be strict.', trans: 'Hãy nghiêm.' }])
+    expect(viaExtras.find((w) => w.name === 'plain')?.examples).toBeUndefined()
+    const viaLegacy = await getCustomDictWords((await duplicateDictionaryAsCustom(dict({ detailUrl: '/dicts/built-in.detail.json' }))).id)
+    expect(viaLegacy.find((w) => w.name === 'strict')?.examples).toHaveLength(1)
+  })
+
   it('does not fetch a detail file for a set that has none', async () => {
-    const { fetchDetailMap } = await import('@/utils/detail/sidecar')
+    const { fetchWordExtras } = await import('@/utils/detail/sidecar')
     const record = await duplicateDictionaryAsCustom(dict())
-    expect(fetchDetailMap).not.toHaveBeenCalled()
+    expect(fetchWordExtras).not.toHaveBeenCalled()
     expect((await getCustomDictWords(record.id)).every((w) => w.detail === undefined)).toBe(true)
   })
 })

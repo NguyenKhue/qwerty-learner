@@ -1,6 +1,6 @@
 import { getCustomDict } from './custom-dict'
 import { db } from './database'
-import { isPersonalSeedPending, migratePersonalSet } from './personal-seed'
+import { backfillPersonalExtras, isPersonalSeedPending, migratePersonalSet } from './personal-seed'
 import type { IWordRecord } from './record'
 import type { Word } from '@/typings'
 import { beforeEach, describe, expect, it } from 'vitest'
@@ -120,5 +120,43 @@ describe('isPersonalSeedPending', () => {
   it('is false for any other id, so a missing set is reported as missing', () => {
     expect(isPersonalSeedPending('abc123', [])).toBe(false)
     expect(isPersonalSeedPending('', [])).toBe(false)
+  })
+})
+
+describe('backfillPersonalExtras', () => {
+  const map = {
+    strict: { detail: 'Long', examples: [{ text: 'Be strict.', trans: 'Hãy nghiêm.' }] },
+    plain: { examples: [{ text: 'Plain.' }] },
+  }
+
+  it('adds the examples of the sidecar to the words that have none and reports how many words changed', async () => {
+    await migratePersonalSet(input([word('strict'), word('plain'), word('other')]))
+    expect(await backfillPersonalExtras('myvocab', map)).toBe(2)
+    const words = (await getCustomDict('myvocab'))?.words ?? []
+    expect(words.find((w) => w.name === 'strict')).toMatchObject({
+      detail: 'Long',
+      examples: [{ text: 'Be strict.', trans: 'Hãy nghiêm.' }],
+    })
+    expect(words.find((w) => w.name === 'plain')?.examples).toEqual([{ text: 'Plain.' }])
+    expect(words.find((w) => w.name === 'other')?.examples).toBeUndefined()
+  })
+
+  it('is idempotent and leaves updatedAt alone when nothing changes', async () => {
+    await migratePersonalSet(input([word('strict')]))
+    await backfillPersonalExtras('myvocab', map)
+    const before = (await getCustomDict('myvocab'))?.updatedAt
+    expect(await backfillPersonalExtras('myvocab', map)).toBe(0)
+    expect((await getCustomDict('myvocab'))?.updatedAt).toBe(before)
+  })
+
+  it('never overwrites what the user already has on a word', async () => {
+    const own: Word = { ...word('strict', 'My own detail'), examples: [{ text: 'Mine.' }] }
+    await migratePersonalSet(input([own]))
+    expect(await backfillPersonalExtras('myvocab', map)).toBe(0)
+    expect((await getCustomDict('myvocab'))?.words[0]).toMatchObject({ detail: 'My own detail', examples: [{ text: 'Mine.' }] })
+  })
+
+  it('returns 0 for a set that does not exist', async () => {
+    expect(await backfillPersonalExtras('missing', map)).toBe(0)
   })
 })

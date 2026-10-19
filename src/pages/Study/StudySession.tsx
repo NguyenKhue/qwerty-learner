@@ -6,7 +6,8 @@ import { Button } from '@/components/ui/button'
 import { reviewCard } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
 import { parseDetail } from '@/utils/detail/format'
-import { attachDetails } from '@/utils/detail/sidecar'
+import { attachExtras } from '@/utils/detail/sidecar'
+import type { WordExtras } from '@/utils/detail/sidecar'
 import { isActivatableButton } from '@/utils/keyboard'
 import { createGrader } from '@/utils/srs/grader'
 import type { QueueItem } from '@/utils/srs/queue'
@@ -28,7 +29,7 @@ type Props = {
   queue: QueueItem[]
   progress: ICardProgress[]
   reverse: boolean
-  details?: Record<string, string>
+  extras?: Record<string, WordExtras>
   /** A practice round: grades only move the card in this round, nothing is saved and the schedule stays as it is */
   practice?: boolean
   onFinish: (summary: SessionSummary) => void
@@ -43,7 +44,7 @@ const GRADE_STYLE: Record<Grade, string> = {
 }
 const GRADE_NAME: Record<Grade, string> = { again: 'Again', hard: 'Hard', good: 'Good', easy: 'Easy' }
 
-export default function StudySession({ dictId, queue, progress, reverse, details, practice = false, onFinish }: Props) {
+export default function StudySession({ dictId, queue, progress, reverse, extras, practice = false, onFinish }: Props) {
   const [session, setSession] = useState(() => createSession(queue))
   // The session guards read this ref, which is updated synchronously, instead of the value captured by the last render
   const sessionRef = useRef(session)
@@ -132,7 +133,7 @@ export default function StudySession({ dictId, queue, progress, reverse, details
   )
 
   // The sidecar of this set, when it has one, carries the long meanings that only the back of the card shows
-  const shown = attachDetails([word], details)[0]
+  const shown = attachExtras([word], extras)[0]
   const detailLines = shown.detail ? parseDetail(shown.detail) : []
   const detailBlock =
     detailLines.length === 0 ? null : (

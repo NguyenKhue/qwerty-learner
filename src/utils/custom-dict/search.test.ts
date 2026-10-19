@@ -72,4 +72,12 @@ describe('visibleCount', () => {
     expect(visibleCount(0, 12)).toBe(12)
     expect(visibleCount(0, 0)).toBe(0)
   })
+
+  it('also searches the raw example text of an editor row', () => {
+    const rows = [
+      { name: 'a', trans: 'x', examples: 'Enabling strict mode helps. | Bật chế độ nghiêm ngặt.' },
+      { name: 'b', trans: 'y', examples: '' },
+    ]
+    expect(filterIndexes(rows, 'nghiem ngat')).toEqual([0])
+  })
 })

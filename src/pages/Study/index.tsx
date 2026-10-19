@@ -8,7 +8,7 @@ import { customDictionariesLoadedAtom, dictionaryByIdAtom, isCustomDictPending, 
 import { extraNewCardsAtom, newCardsPerDayAtom, studyReverseAtom } from '@/store/study'
 import { getDictProgress, getHardWordsToday } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
-import { fetchDetailMap } from '@/utils/detail/sidecar'
+import { fetchWordExtras, sidecarUrlOf } from '@/utils/detail/sidecar'
 import { canGoBack } from '@/utils/history'
 import { type ProgressSummary, progressSummary } from '@/utils/progress/status'
 import shuffle from '@/utils/shuffle'
@@ -48,7 +48,7 @@ function Study({ id }: { id: string }) {
 
   const { data: words, error: wordsError } = useSWR(dict ? dict.url : null, wordListFetcher)
   // The sidecar only enriches the back of a flashcard, so it is fetched in the background and never blocks the session
-  const { data: detailMap } = useSWR(dict?.detailUrl ? dict.detailUrl : null, fetchDetailMap)
+  const { data: extrasMap } = useSWR((dict ? sidecarUrlOf(dict) : undefined) ?? null, fetchWordExtras)
   const [progress, setProgress] = useState<ICardProgress[] | null>(null)
   const [progressError, setProgressError] = useState('')
   const [now, setNow] = useState(() => Date.now())
@@ -166,7 +166,7 @@ function Study({ id }: { id: string }) {
         queue={queue}
         progress={progress}
         reverse={reverse}
-        details={detailMap}
+        extras={extrasMap}
         practice={practicing}
         onFinish={onFinish}
       />
