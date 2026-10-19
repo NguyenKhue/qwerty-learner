@@ -63,7 +63,9 @@ export default function Run({ items, hide, onHideChange, onExit, onFinish }: Pro
   // One listener for the whole screen: characters feed the turn, everything else is left to the page
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
-      if (e.ctrlKey || e.metaKey || e.altKey || e.repeat) return
+      // AltGr (reported as Ctrl+Alt on Windows) types a character on many layouts, so it is not a shortcut
+      const altGraph = e.getModifierState('AltGraph')
+      if (((e.ctrlKey || e.altKey) && !altGraph) || e.metaKey || e.repeat) return
       if (e.key === 'Escape') {
         e.preventDefault()
         requestExit()
