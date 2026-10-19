@@ -9,6 +9,7 @@ import {
 import { Field, Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import type { EditableRow } from '@/utils/custom-dict/parse'
+import { parseExamples } from '@/utils/examples/format'
 import { cn } from '@/utils/ui'
 import { memo, useEffect, useRef, useState } from 'react'
 import IconChevronDown from '~icons/tabler/chevron-down'
@@ -45,7 +46,7 @@ function WordEditorCard({
   const [open, setOpen] = useState(false)
   const [examplesOpen, setExamplesOpen] = useState(false)
   const hasDetail = (row.detail ?? '').trim() !== ''
-  const exampleCount = (row.examples ?? '').split('\n').filter((line) => line.trim() !== '').length
+  const exampleCount = parseExamples(row.examples ?? '').length
 
   useEffect(() => {
     if (autoFocus) wordRef.current?.focus()

@@ -1,6 +1,7 @@
 import type { WordExample } from '@/typings'
 
-const SEPARATOR = /\s\|\s/
+// A `|` that stands alone: surrounded by whitespace or at the start/end of the line, so `a || b` stays inside a sentence
+const SEPARATOR = /(?:^|\s)\|(?:\s|$)/
 
 /**
  * Parses `sentence | translation` lines into examples. Blank lines are dropped, a line without a
@@ -23,6 +24,19 @@ export function parseExamples(text: string): WordExample[] {
     result.push(trans === '' ? { text: sentence } : { text: sentence, trans })
   }
   return result
+}
+
+/**
+ * The message for the first line that has a translation but no sentence before the separator (such a line would be dropped), or null.
+ * Lines are counted as they are typed, blank ones included.
+ */
+export function exampleLinesProblem(text: string): string | null {
+  const lines = text.split(/\r?\n/)
+  for (let i = 0; i < lines.length; i++) {
+    const match = SEPARATOR.exec(lines[i])
+    if (match && lines[i].slice(0, match.index).trim() === '') return `Example line ${i + 1} has no sentence before "|"`
+  }
+  return null
 }
 
 /** Formats examples as one `sentence | translation` line each; a missing translation keeps the bare sentence. */

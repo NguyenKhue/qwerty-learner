@@ -1,4 +1,4 @@
-import { formatExamples, mergeExamples, normalizeExamples, parseExamples } from './format'
+import { exampleLinesProblem, formatExamples, mergeExamples, normalizeExamples, parseExamples } from './format'
 import { describe, expect, it } from 'vitest'
 
 describe('parseExamples', () => {
@@ -65,5 +65,27 @@ describe('mergeExamples', () => {
 
   it('returns undefined when the result is empty', () => {
     expect(mergeExamples([], [])).toBeUndefined()
+  })
+})
+
+describe('exampleLinesProblem', () => {
+  it('is null for valid text, blank text and a bare sentence', () => {
+    expect(exampleLinesProblem('')).toBeNull()
+    expect(exampleLinesProblem('A | B\nC\nif (a || b) x | y')).toBeNull()
+  })
+
+  it('names the first line that has a translation but no sentence, counting every line', () => {
+    expect(exampleLinesProblem('A | B\n | only trans\n | again')).toBe('Example line 2 has no sentence before "|"')
+    expect(exampleLinesProblem('A\n\n | x')).toBe('Example line 3 has no sentence before "|"')
+    expect(exampleLinesProblem('A\r\n | x')).toBe('Example line 2 has no sentence before "|"')
+  })
+})
+
+describe('a separator at the very start or end of a line', () => {
+  it('treats a leading | as a missing sentence and a trailing | as a missing translation', () => {
+    expect(parseExamples('| only trans')).toEqual([])
+    expect(exampleLinesProblem('Fine.\n| only trans')).toBe('Example line 2 has no sentence before "|"')
+    expect(parseExamples('Hello |')).toEqual([{ text: 'Hello' }])
+    expect(parseExamples('if (a || b) go')).toEqual([{ text: 'if (a || b) go' }])
   })
 })

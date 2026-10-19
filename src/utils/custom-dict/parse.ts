@@ -1,5 +1,5 @@
 import type { Word, WordExample } from '@/typings'
-import { formatExamples, mergeExamples, normalizeExamples, parseExamples } from '@/utils/examples/format'
+import { exampleLinesProblem, formatExamples, mergeExamples, normalizeExamples, parseExamples } from '@/utils/examples/format'
 
 export type ParseError = { line: number; message: string }
 export type ParseResult = { words: Word[]; errors: ParseError[]; duplicates: string[] }
@@ -208,6 +208,11 @@ export function parseWordsCsv(text: string): ParseResult {
     const word: Word = { name, trans: meanings, usphone: cell('usphone'), ukphone: cell('ukphone') }
     const detail = cell('detail')
     if (detail) word.detail = detail
+    const exampleProblem = exampleLinesProblem(cell('examples'))
+    if (exampleProblem) {
+      errors.push({ line, message: exampleProblem })
+      return
+    }
     const examples = examplesFromText(cell('examples'))
     if (examples.length > 0) word.examples = examples
     words.push(word)
@@ -296,6 +301,11 @@ export function rowsToWords(rows: EditableRow[]): ParseResult {
     const word: Word = { name, trans: meanings, usphone: row.usphone.trim(), ukphone: row.ukphone.trim() }
     const detail = (row.detail ?? '').trim()
     if (detail) word.detail = detail
+    const exampleProblem = exampleLinesProblem(row.examples ?? '')
+    if (exampleProblem) {
+      errors.push({ line, message: exampleProblem })
+      return
+    }
     const examples = examplesFromText(row.examples ?? '')
     if (examples.length > 0) word.examples = examples
     words.push(word)

@@ -365,3 +365,20 @@ describe('normalizeWords examples', () => {
     expect(second.examples).toEqual([{ text: 'Run fast.' }, { text: 'I run.', trans: 'Tôi chạy.' }])
   })
 })
+
+describe('an example line with a translation but no sentence blocks the row instead of being dropped', () => {
+  it('rowsToWords reports it with the row number and does not keep the row', () => {
+    const result = rowsToWords([
+      { name: 'ok', trans: 'a', usphone: '', ukphone: '', examples: 'Fine. | Tốt.' },
+      { name: 'bad', trans: 'b', usphone: '', ukphone: '', examples: 'Fine.\n | lost translation' },
+    ])
+    expect(result.words.map((w) => w.name)).toEqual(['ok'])
+    expect(result.errors).toEqual([{ line: 2, message: 'Example line 2 has no sentence before "|"' }])
+  })
+
+  it('parseWordsCsv reports it as a skipped row', () => {
+    const result = parseWordsCsv('name,trans,examples\nbad,x," | only trans"\ngood,y,Hello.\n')
+    expect(result.words.map((w) => w.name)).toEqual(['good'])
+    expect(result.errors).toEqual([{ line: 2, message: 'Example line 1 has no sentence before "|"' }])
+  })
+})
