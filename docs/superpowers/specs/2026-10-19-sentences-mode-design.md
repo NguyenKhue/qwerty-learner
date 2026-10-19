@@ -109,3 +109,13 @@ Supersedes the copy / hide-sentence toggle and the three-mode selector described
 - 33 words that had no usable sentence got new example sentences with Vietnamese translations (30 had none at all; `specification` had sentences that belong to another word; `take an approach` and `regulatory landscapes` had none containing the exact phrase).
 - The sidecar backfill of already created sets becomes versioned and merges: sentences not yet in a word are added (the learner's own sentences are kept, duplicates are dropped), once per version.
 - Four misspelled headwords of My Vocabulary (`disclamer`, `reponsive`, `widepread`, `accommplish`) are fixed in the data and, once, in a set that already exists in the browser: three are renamed (their detail is respelled and their study card, review log and typing history move to the new name); `accommplish` duplicated the existing `accomplish`, so it is merged into it (meanings and sentences are united, the existing card is kept, history is re-pointed). The seed word list now has 554 words.
+
+## Revision: practise the words that are due or new (2026-10-19, decided by the learner)
+
+Supersedes "random sentences from the pool": a run draws **words**, and shows **one sentence per word**.
+
+- Setup has a "Words" choice, remembered: **Due + new** (default) or **All words**. Due + new is exactly the flashcard queue (`buildQueue`: due cards oldest first, then new cards up to the daily limit and the extra cards asked for today), so it lists the same words as Flashcards. The setup screen says how many words a run can use ("N words to practise"); when none is due or new it says so and points to "All words", and Start is disabled.
+- A run takes the words in queue order (most urgent first), keeps the first N (10 / 20 / all), picks one random sentence of each (a word with several sentences never appears twice) and shuffles the order. For "All words" the words are picked at random.
+- The words are only **read** from the study cards (a live read of the set's cards); nothing is written to the schedule, the review log or typing history. Writing grades from a run stays a possible later step (a perfect hidden word on a due card would count as good, a miss or a peek as again).
+- "Practise mistakes" is unchanged: it repeats the sentences that were missed.
+

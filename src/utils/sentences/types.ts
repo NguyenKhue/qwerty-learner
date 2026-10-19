@@ -12,3 +12,6 @@ export type SentenceItem = {
 
 /** How many sentences a run has; the same options as the quiz. */
 export type SentenceLength = QuizLength
+
+/** Which words a run draws from: the ones due or new today, as in the flashcard queue, or every word of the set. */
+export type SentenceScope = 'due' | 'all'
