@@ -46,8 +46,12 @@ export function usePersonalSeeds() {
           if (best !== null && readBest(newId) === null) writeBest(newId, best)
           setCurrentDictId((current) => (current === seed.builtInId ? newId : current))
           setSeeded((list) => (list.indexOf(seed.builtInId) === -1 ? list.concat(seed.builtInId) : list))
-          // A set created just now already carries the extras
-          setBackfilled((list) => (list.indexOf(seed.builtInId) === -1 ? list.concat(seed.builtInId) : list))
+          // The set may already exist (the stored flags can still be loading on a restart): top it up instead of assuming it is new
+          const extrasLoaded = extras !== undefined && Object.keys(extras).length > 0
+          if (extras && extrasLoaded) await backfillPersonalExtras(seed.customId, extras)
+          // A sidecar that could not be read is retried on the next start instead of being marked done
+          if (extrasLoaded || !sidecarUrl)
+            setBackfilled((list) => (list.indexOf(seed.builtInId) === -1 ? list.concat(seed.builtInId) : list))
         } catch (error) {
           console.warn('Could not turn the built-in set into your own set yet', seed.builtInId, error)
         }
