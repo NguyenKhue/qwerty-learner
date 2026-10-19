@@ -4165,7 +4165,7 @@ const myVocab: DictionaryResource[] = [
     category: 'My Vocabulary',
     tags: ['Personal'],
     url: '/dicts/my-vocab.json',
-    detailUrl: '/dicts/my-vocab.detail.json',
+    extrasUrl: '/dicts/my-vocab.extras.json',
     length: 555,
     language: 'en',
     languageCategory: 'en',
