@@ -4,6 +4,7 @@ import type { Word } from '@/typings'
 import { normalizeWords } from '@/utils/custom-dict/parse'
 import { mergeExtras } from '@/utils/detail/sidecar'
 import type { WordExtras } from '@/utils/detail/sidecar'
+import { mergeExamples } from '@/utils/examples/format'
 
 export type PersonalSeedInput = {
   /** Id of the built-in dictionary being turned into the user's own set (e.g. `myVocab`) */
@@ -87,5 +88,75 @@ export async function backfillPersonalExtras(customId: string, map: Record<strin
     const changed = words.filter((word, index) => word !== record.words[index]).length
     if (changed > 0) await db.customDicts.put({ ...record, words, updatedAt: Date.now() })
     return changed
+  })
+}
+
+/** Words of a built-in personal set whose name was misspelled in the original data, with the correct spelling. */
+export const PERSONAL_RENAMES: Record<string, { from: string; to: string }[]> = {
+  myVocab: [
+    { from: 'disclamer', to: 'disclaimer' },
+    { from: 'reponsive', to: 'responsive' },
+    { from: 'widepread', to: 'widespread' },
+    { from: 'accommplish', to: 'accomplish' },
+  ],
+}
+
+/** The entry of the "already topped up" list that marks the spelling fixes of a built-in set as done. */
+export function namesFlag(builtInId: string): string {
+  return `${builtInId}#names1`
+}
+
+/** Replaces a misspelling in a text, case-insensitively and as a whole word, keeping a leading capital. */
+function respell(text: string, from: string, to: string): string {
+  const pattern = new RegExp(`\\b${from.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi')
+  return text.replace(pattern, (match) => (match[0] === match[0].toUpperCase() ? to[0].toUpperCase() + to.slice(1) : to))
+}
+
+/**
+ * Corrects misspelled word names of a set. A word whose correct spelling is not in the set is renamed (its detail is respelled and its
+ * study card, review log and typing history move to the new name). When the correct word already exists the two are merged: it keeps
+ * its own card, meanings and detail and gains the meanings and sentences it lacked; history is re-pointed to it. Returns how many
+ * words were fixed; nothing is written when it is 0.
+ */
+export async function fixWordNames(customId: string, renames: { from: string; to: string }[]): Promise<number> {
+  const dictId = CUSTOM_DICT_PREFIX + customId
+  return db.transaction('rw', [db.customDicts, db.cardProgress, db.reviewLog, db.wordRecords], async () => {
+    const record = await db.customDicts.get(customId)
+    if (!record) return 0
+    let words = record.words.slice()
+    let fixed = 0
+    for (const { from, to } of renames) {
+      const fromIndex = words.findIndex((w) => w.name === from)
+      if (fromIndex === -1) continue
+      const source = words[fromIndex]
+      const toIndex = words.findIndex((w) => w.name === to)
+      if (toIndex === -1) {
+        words[fromIndex] = { ...source, name: to, ...(source.detail === undefined ? {} : { detail: respell(source.detail, from, to) }) }
+      } else {
+        const target = words[toIndex]
+        const examples = mergeExamples(target.examples, source.examples)
+        const trans = target.trans.concat(source.trans.filter((t) => target.trans.indexOf(t) === -1))
+        words[toIndex] = { ...target, trans, ...(examples === undefined ? {} : { examples }) }
+        words = words.filter((_, index) => index !== fromIndex)
+      }
+      const oldCard = await db.cardProgress.get([dictId, from])
+      if (oldCard) {
+        if (!(await db.cardProgress.get([dictId, to]))) await db.cardProgress.put({ ...oldCard, word: to })
+        await db.cardProgress.delete([dictId, from])
+      }
+      await db.reviewLog
+        .where('dict')
+        .equals(dictId)
+        .filter((entry) => entry.word === from)
+        .modify({ word: to })
+      await db.wordRecords
+        .where('dict')
+        .equals(dictId)
+        .filter((entry) => entry.word === from)
+        .modify({ word: to })
+      fixed++
+    }
+    if (fixed > 0) await db.customDicts.put({ ...record, words, updatedAt: Date.now() })
+    return fixed
   })
 }

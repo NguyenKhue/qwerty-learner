@@ -2,7 +2,15 @@ import { idDictionaryMap } from '@/resources/dictionary'
 import { currentDictIdAtom } from '@/store'
 import { backfilledPersonalExtrasAtom, seededPersonalSetsAtom } from '@/store/personal'
 import { CUSTOM_DICT_PREFIX } from '@/utils/db/custom-dict'
-import { PERSONAL_SEEDS, backfillPersonalExtras, extrasFlag, migratePersonalSet } from '@/utils/db/personal-seed'
+import {
+  PERSONAL_RENAMES,
+  PERSONAL_SEEDS,
+  backfillPersonalExtras,
+  extrasFlag,
+  fixWordNames,
+  migratePersonalSet,
+  namesFlag,
+} from '@/utils/db/personal-seed'
 import { attachExtras, fetchWordExtras, sidecarUrlOf } from '@/utils/detail/sidecar'
 import { readBest, writeBest } from '@/utils/match/best'
 import { wordListFetcher } from '@/utils/wordListFetcher'
@@ -22,12 +30,15 @@ export function usePersonalSeeds() {
 
   useEffect(() => {
     const pending = PERSONAL_SEEDS.filter((seed) => seeded.indexOf(seed.builtInId) === -1)
-    // Sets created before the examples existed get them once, without touching what the user already has
-    const toBackfill = PERSONAL_SEEDS.filter(
-      (seed) => seeded.indexOf(seed.builtInId) !== -1 && backfilled.indexOf(extrasFlag(seed.builtInId)) === -1,
+    // Sets created before the example sentences and the spelling fixes existed are brought up to date once, without losing the user's edits
+    const toMaintain = PERSONAL_SEEDS.filter(
+      (seed) =>
+        seeded.indexOf(seed.builtInId) !== -1 &&
+        (backfilled.indexOf(namesFlag(seed.builtInId)) === -1 || backfilled.indexOf(extrasFlag(seed.builtInId)) === -1),
     )
-    if ((pending.length === 0 && toBackfill.length === 0) || running.current) return
+    if ((pending.length === 0 && toMaintain.length === 0) || running.current) return
     running.current = true
+    const markDone = (flag: string) => setBackfilled((list) => (list.indexOf(flag) === -1 ? list.concat(flag) : list))
     ;(async () => {
       for (const seed of pending) {
         const dict = idDictionaryMap[seed.builtInId]
@@ -48,28 +59,36 @@ export function usePersonalSeeds() {
           if (best !== null && readBest(newId) === null) writeBest(newId, best)
           setCurrentDictId((current) => (current === seed.builtInId ? newId : current))
           setSeeded((list) => (list.indexOf(seed.builtInId) === -1 ? list.concat(seed.builtInId) : list))
-          // The set may already exist (the stored flags can still be loading on a restart): top it up instead of assuming it is new
+          // The set may already exist (the stored flags can still be loading on a restart): fix its spelling, then top it up
+          await fixWordNames(seed.customId, PERSONAL_RENAMES[seed.builtInId] ?? [])
+          markDone(namesFlag(seed.builtInId))
           const extrasLoaded = extras !== undefined && Object.keys(extras).length > 0
           if (extras && extrasLoaded) await backfillPersonalExtras(seed.customId, extras)
           // A sidecar that could not be read is retried on the next start instead of being marked done
-          if (extrasLoaded || !sidecarUrl)
-            setBackfilled((list) => (list.indexOf(extrasFlag(seed.builtInId)) === -1 ? list.concat(extrasFlag(seed.builtInId)) : list))
+          if (extrasLoaded || !sidecarUrl) markDone(extrasFlag(seed.builtInId))
         } catch (error) {
           console.warn('Could not turn the built-in set into your own set yet', seed.builtInId, error)
         }
       }
-      for (const seed of toBackfill) {
-        const dict = idDictionaryMap[seed.builtInId]
-        const sidecarUrl = dict ? sidecarUrlOf(dict) : undefined
-        if (!sidecarUrl) continue
+      for (const seed of toMaintain) {
         try {
-          const extras = await fetchWordExtras(sidecarUrl)
-          // An empty map means the file could not be read: try again on the next start instead of marking it done
-          if (Object.keys(extras).length === 0) continue
-          await backfillPersonalExtras(seed.customId, extras)
-          setBackfilled((list) => (list.indexOf(extrasFlag(seed.builtInId)) === -1 ? list.concat(extrasFlag(seed.builtInId)) : list))
+          // The spelling comes first: the sentence file knows the words by their correct names
+          if (backfilled.indexOf(namesFlag(seed.builtInId)) === -1) {
+            await fixWordNames(seed.customId, PERSONAL_RENAMES[seed.builtInId] ?? [])
+            markDone(namesFlag(seed.builtInId))
+          }
+          if (backfilled.indexOf(extrasFlag(seed.builtInId)) === -1) {
+            const dict = idDictionaryMap[seed.builtInId]
+            const sidecarUrl = dict ? sidecarUrlOf(dict) : undefined
+            if (!sidecarUrl) continue
+            const extras = await fetchWordExtras(sidecarUrl)
+            // An empty map means the file could not be read: try again on the next start instead of marking it done
+            if (Object.keys(extras).length === 0) continue
+            await backfillPersonalExtras(seed.customId, extras)
+            markDone(extrasFlag(seed.builtInId))
+          }
         } catch (error) {
-          console.warn('Could not add the example sentences to your set yet', seed.builtInId, error)
+          console.warn('Could not bring your set up to date yet', seed.builtInId, error)
         }
       }
       running.current = false

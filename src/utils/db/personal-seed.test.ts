@@ -1,6 +1,15 @@
 import { getCustomDict } from './custom-dict'
 import { db } from './database'
-import { EXTRAS_VERSION, backfillPersonalExtras, extrasFlag, isPersonalSeedPending, migratePersonalSet } from './personal-seed'
+import {
+  EXTRAS_VERSION,
+  PERSONAL_RENAMES,
+  backfillPersonalExtras,
+  extrasFlag,
+  fixWordNames,
+  isPersonalSeedPending,
+  migratePersonalSet,
+  namesFlag,
+} from './personal-seed'
 import type { IWordRecord } from './record'
 import type { Word } from '@/typings'
 import { beforeEach, describe, expect, it } from 'vitest'
@@ -167,5 +176,65 @@ describe('backfillPersonalExtras', () => {
 
   it('returns 0 for a set that does not exist', async () => {
     expect(await backfillPersonalExtras('missing', map)).toBe(0)
+  })
+})
+
+describe('fixWordNames', () => {
+  const DICT = 'custom:myvocab'
+  const renames = [{ from: 'disclamer', to: 'disclaimer' }]
+
+  it('renames a misspelled word with its detail spelling and moves its card, review log and typing history', async () => {
+    const typo: Word = {
+      ...word('disclamer', 'Disclamer - Loại từ: Danh từ. Disclamer là lời tuyên bố.'),
+      examples: [{ text: 'A disclaimer.' }],
+    }
+    await migratePersonalSet(input([typo, word('other')]))
+    await db.cardProgress.put(card(DICT, 'disclamer', { reps: 5 }))
+    await db.reviewLog.add({ at: 1, dict: DICT, word: 'disclamer', kind: 'flashcard', grade: 'good' })
+    await db.wordRecords.add({ ...wordRecord(DICT), word: 'disclamer' })
+
+    expect(await fixWordNames('myvocab', renames)).toBe(1)
+
+    const words = (await getCustomDict('myvocab'))?.words ?? []
+    expect(words.map((w) => w.name)).toEqual(['disclaimer', 'other'])
+    expect(words[0].detail).toBe('Disclaimer - Loại từ: Danh từ. Disclaimer là lời tuyên bố.')
+    expect(words[0].examples).toEqual([{ text: 'A disclaimer.' }])
+    expect(await db.cardProgress.get([DICT, 'disclamer'])).toBeUndefined()
+    expect((await db.cardProgress.get([DICT, 'disclaimer']))?.reps).toBe(5)
+    expect((await db.reviewLog.toArray()).map((entry) => entry.word)).toEqual(['disclaimer'])
+    expect((await db.wordRecords.toArray()).map((entry) => entry.word)).toEqual(['disclaimer'])
+  })
+
+  it('merges into the correctly spelled word when both exist, keeping its card and adding what is new', async () => {
+    const typo: Word = { ...word('disclamer'), trans: ['n. lời miễn trừ', 'n. extra'], examples: [{ text: 'Typo sentence.' }] }
+    const right: Word = { ...word('disclaimer'), trans: ['n. lời miễn trừ'], examples: [{ text: 'Right sentence.' }] }
+    await migratePersonalSet(input([typo, right]))
+    await db.cardProgress.put(card(DICT, 'disclamer', { reps: 1 }))
+    await db.cardProgress.put(card(DICT, 'disclaimer', { reps: 9 }))
+    await db.reviewLog.add({ at: 1, dict: DICT, word: 'disclamer', kind: 'quiz' })
+
+    expect(await fixWordNames('myvocab', renames)).toBe(1)
+
+    const words = (await getCustomDict('myvocab'))?.words ?? []
+    expect(words.map((w) => w.name)).toEqual(['disclaimer'])
+    expect(words[0].trans).toEqual(['n. lời miễn trừ', 'n. extra'])
+    expect(words[0].examples).toEqual([{ text: 'Right sentence.' }, { text: 'Typo sentence.' }])
+    expect(await db.cardProgress.get([DICT, 'disclamer'])).toBeUndefined()
+    expect((await db.cardProgress.get([DICT, 'disclaimer']))?.reps).toBe(9)
+    expect((await db.reviewLog.toArray()).map((entry) => entry.word)).toEqual(['disclaimer'])
+  })
+
+  it('does nothing when the misspelled word is not in the set, and is safe to run again', async () => {
+    await migratePersonalSet(input([word('disclaimer')]))
+    const before = (await getCustomDict('myvocab'))?.updatedAt
+    expect(await fixWordNames('myvocab', renames)).toBe(0)
+    expect((await getCustomDict('myvocab'))?.updatedAt).toBe(before)
+    expect(await fixWordNames('missing', renames)).toBe(0)
+  })
+
+  it('lists the four known misspellings and names its done flag apart from the extras flag', () => {
+    expect(PERSONAL_RENAMES.myVocab.map((r) => r.from)).toEqual(['disclamer', 'reponsive', 'widepread', 'accommplish'])
+    expect(PERSONAL_RENAMES.myVocab.map((r) => r.to)).toEqual(['disclaimer', 'responsive', 'widespread', 'accomplish'])
+    expect(namesFlag('myVocab')).not.toBe(extrasFlag('myVocab'))
   })
 })
