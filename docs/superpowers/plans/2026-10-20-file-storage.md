@@ -52,7 +52,10 @@ export type Procedures = {
   'chapters.add': { args: [record: IChapterRecord]; result: number }
   'chapters.byDict': { args: [dict: string]; result: StoredChapterRecord[] }
   'chapters.byDictChapter': { args: [dict: string, chapter: number]; result: StoredChapterRecord[] }
-  'stats.summary': { args: []; result: { chapterCount: number; wordCount: number; firstWordTimestamp: number | null; sumWrongCount: number } }
+  'stats.summary': {
+    args: []
+    result: { chapterCount: number; wordCount: number; firstWordTimestamp: number | null; sumWrongCount: number }
+  }
   'reviews.latestUnfinished': { args: [dict: string]; result: StoredReviewRecord | null }
   'reviews.put': { args: [record: IReviewRecord]; result: number }
   'meta.getAll': { args: []; result: Record<string, string> }
@@ -130,6 +133,7 @@ T1, T2 and T7 run in parallel after T0. T3a, T3b and T5 run in parallel after T2
 **Files:** Create `server/adapter.ts`, `server/folder.ts`; Test `server/adapter.test.ts`, `server/folder.test.ts`.
 
 **Interfaces:**
+
 - Produces in `adapter.ts`:
   ```ts
   export type Db = {
@@ -139,19 +143,23 @@ T1, T2 and T7 run in parallel after T0. T3a, T3b and T5 run in parallel after T2
     all<T>(sql: string, params?: unknown[]): T[]
     /** Runs fn inside BEGIN/COMMIT; any throw rolls back and rethrows. Not re-entrant: a nested call joins the outer transaction. */
     transaction<T>(fn: () => T): T
-    backupTo(path: string): void   // VACUUM INTO, refuses an existing path
+    backupTo(path: string): void // VACUUM INTO, refuses an existing path
     close(): void
   }
-  export function openDb(file: string | ':memory:'): Db   // WAL + synchronous=FULL + foreign_keys=ON for files
+  export function openDb(file: string | ':memory:'): Db // WAL + synchronous=FULL + foreign_keys=ON for files
   ```
 - Produces in `folder.ts`:
+
   ```ts
   export type Role = 'dev' | 'stable'
   export type OpenedFolder = { db: Db; dir: string; role: Role; close(): void }
   export function openFolder(opts: { dir: string; role: Role; now?: () => number }): OpenedFolder
   export function runBackups(folder: OpenedFolder, now: number): { created: string | null; removed: string[] }
-  export class FolderError extends Error { code: 'LOCKED' | 'ROLE_MISMATCH' | 'NEWER_SCHEMA' | 'CORRUPT' | 'NOT_WRITABLE' }
+  export class FolderError extends Error {
+    code: 'LOCKED' | 'ROLE_MISMATCH' | 'NEWER_SCHEMA' | 'CORRUPT' | 'NOT_WRITABLE'
+  }
   ```
+
   `openFolder` creates the folder, `README.txt` and `.role`; takes `server.lock` (`wx`, writes the pid; a lock whose pid is dead is taken over, a live one throws `LOCKED`); refuses a different recorded role (`ROLE_MISMATCH`); runs `PRAGMA quick_check` (`CORRUPT`); schema work is not here (Task 2) but `openFolder` accepts an `ensureSchema(db)` hook passed in tests and by `main`, so this task stays independent. `runBackups` writes `backups/qwerty-YYYY-MM-DD.db` (local date of `now`) when today's file is missing, keeps the last 14 daily files and, from the Sunday files, the last 8, and returns what it created and removed.
 
 - [ ] **Step 1: Write the failing tests.** `adapter`: insert/select round trip with params, `lastInsertRowid`, `transaction` commits, a throw inside rolls back and rethrows, nested `transaction` joins the outer one (outer throw rolls back both), `backupTo` produces a file that opens and has the rows and refuses an existing path, `openDb(':memory:')` isolation between two instances. `folder` (temp dirs via `fs.mkdtempSync`): creates the layout; second `openFolder` on the same dir while the first is open throws `LOCKED`; after `close()` it opens; a lock file with a dead pid is taken over; role `stable` on a `dev` folder throws `ROLE_MISMATCH`; a garbage `qwerty.db` throws `CORRUPT`; `runBackups` with a fake clock: first call creates today's file, second call the same day creates nothing, 20 consecutive days leave 14 daily files, and Sunday files beyond 8 weeks are removed while non-matching files in the folder are never deleted.
@@ -167,6 +175,7 @@ T1, T2 and T7 run in parallel after T0. T3a, T3b and T5 run in parallel after T2
 **Files:** Create `server/schema.ts`, `server/repo/*.ts` (7 files); Test next to each.
 
 **Interfaces:**
+
 - Consumes `Db` (Task 1), record types from `src/utils/db/record.ts`.
 - Produces `ensureSchema(db: Db): void` (forward-only by `PRAGMA user_version`; version 1 creates everything; a database with a higher version throws `FolderError`-like `NEWER_SCHEMA` by throwing `Error('NEWER_SCHEMA')` that Task 1's wrapper maps).
 - Tables (names fixed; columns are snake_case of the record fields; booleans as 0/1; JSON columns hold the arrays/objects as text): `word_records(id INTEGER PRIMARY KEY AUTOINCREMENT, word, timestamp, dict, chapter NULL, wrong_count, timing, mistakes)` with indexes `(timestamp)`, `(dict, word)`, `(wrong_count)`, `(dict, chapter)`; `chapter_records(id INTEGER PRIMARY KEY AUTOINCREMENT, dict, chapter NULL, timestamp, time, correct_count, wrong_count, word_count, correct_word_indexes, word_number, word_record_ids)` with `(dict, chapter)`, `(timestamp)`; `review_records(id INTEGER PRIMARY KEY AUTOINCREMENT, dict, position, create_time, is_finished, words)` with `(dict)`; `custom_dicts(id TEXT PRIMARY KEY, name, description, words, created_at, updated_at)` with `(created_at)`; `card_progress(dict, word, state, due, interval, ease, reps, lapses, first_seen, last_reviewed, PRIMARY KEY (dict, word))` with `(dict, due)`; `review_log(id INTEGER PRIMARY KEY AUTOINCREMENT, at, dict, word, kind, grade NULL)` with `(at)`, `(dict)`; `meta(key TEXT PRIMARY KEY, value)`.
@@ -213,6 +222,7 @@ T1, T2 and T7 run in parallel after T0. T3a, T3b and T5 run in parallel after T2
 **Files:** Create `server/http.ts`, `server/events.ts`; Test `server/http.test.ts`, `server/events.test.ts`.
 
 **Interfaces:**
+
 - Produces `createApp(deps: { db: Db; role: Role; dir: string; staticDir?: string; now?: () => number }): { handle(req, res): void; close(): void; publish(topics: string[]): void }` over `node:http` types, and `startServer(opts): Promise<{ port: number; close(): Promise<void> }>` (`port: 0` allowed, binds `127.0.0.1` only).
 - Behaviour: `POST /api/rpc/<name>` (unknown name → 404 `NOT_FOUND`, bad JSON or args → 400, handler `ProcedureError` → its code, anything else → 500 `INTERNAL` with the message and no stack in the body); after a successful call the app publishes `topicsOf(name, args)` (when not empty) to every SSE client; `GET /api/events` keeps the connection open, sends a comment heartbeat every 15 s and `event: change\ndata: {"topics":[...]}\n\n` per publish; `GET /api/health` as in the contract; request bodies over 64 MB → 413; any other method/path under `/api` → 404; with `staticDir`, files are served with correct content types and any non-`/api` GET that is not a file returns `index.html`; a `Host` header that is not `localhost`, `127.0.0.1` or `[::1]` (any port) → 403 (guards against DNS rebinding).
 
@@ -257,6 +267,7 @@ T1, T2 and T7 run in parallel after T0. T3a, T3b and T5 run in parallel after T2
 **Files:** Create `src/data/rpc.ts`, `events.ts`, `useLive.ts`, `hydrate.ts`, `src/test/serverHarness.ts`; Test `src/data/rpc.test.ts`, `events.test.ts`, `hydrate.test.ts`.
 
 **Interfaces:**
+
 - `rpc.ts`: `export class DataError extends Error { code: DataErrorCode }`; `call<N extends ProcedureName>(name: N, ...args: Procedures[N]['args']): Promise<Procedures[N]['result']>` (`POST /api/rpc/<name>`; a network failure throws `DataError('UNREACHABLE')`, which also makes `events.ts` report the server down; the base URL is relative so it works behind the Vite proxy and from the static server).
 - `events.ts`: `subscribe(topics: string[] | '*', fn: () => void): () => void`, `notifyLocal(topics: string[])` (the client that wrote refreshes at once), `connectionState` store (`'connecting' | 'open' | 'down'`) fed by one `EventSource('/api/events')` with automatic reconnect; the connection is created lazily on the first subscription.
 - `useLive.ts`: `useLive<T>(query: () => Promise<T>, topics: string[], deps: unknown[]): T | undefined` (runs now and again after any of the topics changes; ignores a late answer of an older run; `undefined` until the first answer).
@@ -330,6 +341,7 @@ T1, T2 and T7 run in parallel after T0. T3a, T3b and T5 run in parallel after T2
 **Files:** Create `server/migration.ts`, `src/data/legacy/detect.ts`, `read.ts`, `migrate.ts`; Modify `server/http.ts` (mount the four routes); Test `server/migration.test.ts`, `src/data/legacy/migrate.test.ts`.
 
 **Interfaces:**
+
 - Server: `POST /api/migrate/begin` → `{ session }` (creates `staging-<session>.db` with the same schema inside the data folder; refuses when the main database has learning data or the marker `migratedAt` exists → 409 `CONFLICT`); `POST /api/migrate/batch` `{ session, table, rows }` inserts into staging preserving ids (tables: `wordRecords`, `chapterRecords`, `reviewRecords`, `customDicts`, `cardProgress`, `reviewLog`); `POST /api/migrate/commit` `{ session, counts, meta }` verifies the staging row counts equal `counts` (else 409, staging kept for inspection), then in one transaction copies staging into the main database (`ATTACH`, `INSERT … SELECT`), resets autoincrements, writes `meta.migratedAt` and the flag lists, deletes the staging file, takes a backup of the new file, and returns the final counts read from the main database; `POST /api/migrate/abort` deletes staging; stale staging files older than a day are removed at server start.
 - Client: `detectLegacy(): Promise<LegacyCounts | null>` opens `RecordDB` with the raw IndexedDB API (no Dexie), returns per-table counts or `null` when the database does not exist or all tables are empty; `readTable(name, batchSize)` async-iterates rows by primary key; `runMigration(onProgress): Promise<{ counts: LegacyCounts }>` reads localStorage `seededPersonalSets` and `backfilledPersonalExtras`, calls begin → batches of 2,000 → commit, then compares the server's final counts with what it read and throws `MigrationMismatch` if any differ; `deleteLegacyCopy()` deletes the `RecordDB` database and the two localStorage keys (called only from the explicit button).
 
@@ -391,19 +403,19 @@ Done step by step with the learner present; nothing here is automated, and nothi
 
 ## Risks and how the plan answers them
 
-| Risk | Answer |
-|---|---|
-| `node:sqlite` is marked experimental and may change | One adapter file; Node pinned in `engines`/`.nvmrc`; tests exercise the adapter directly, so an upgrade failure shows at once; swapping to another engine changes `adapter.ts` only |
-| Semantic drift from Dexie (default ordering, `put` vs `add`, key types) | Faithful port with explicit `ORDER BY`; the existing assertions run unchanged against the server logic; ids and counts checked in migration and import tests |
-| Class getters lost over JSON | `hydrate.ts` rebuilds the classes; tests cover `totalTime`, `wpm` |
-| Race on flags at start (the earlier "flags still loading" bug) | The gate loads `meta` before rendering anything |
-| Heavy statistics queries now cross HTTP | Ported faithfully; Task 15 measures; optimisation only if a number fails |
-| Learner's running dev server breaks | Work is in a worktree; the main folder is not touched |
-| Real data touched by a test or by dev | Role marker, stable requires explicit folder, dev folder inside the project, tests use temp/in-memory folders |
-| Migration mismatch or interruption | Staging file + count verification + single commit transaction + backup after; browser copy never deleted automatically |
-| Old build used after migrating (split brain) | Gate notice and guide; cannot be enforced technically, documented as a rule |
-| Two different browser stores | Second one refused, never merged; path via export/import described |
-| Static hosting (Pages/Docker) can no longer serve the app | Stated non-goal; do not merge into `master` while it deploys |
+| Risk                                                                    | Answer                                                                                                                                                                              |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `node:sqlite` is marked experimental and may change                     | One adapter file; Node pinned in `engines`/`.nvmrc`; tests exercise the adapter directly, so an upgrade failure shows at once; swapping to another engine changes `adapter.ts` only |
+| Semantic drift from Dexie (default ordering, `put` vs `add`, key types) | Faithful port with explicit `ORDER BY`; the existing assertions run unchanged against the server logic; ids and counts checked in migration and import tests                        |
+| Class getters lost over JSON                                            | `hydrate.ts` rebuilds the classes; tests cover `totalTime`, `wpm`                                                                                                                   |
+| Race on flags at start (the earlier "flags still loading" bug)          | The gate loads `meta` before rendering anything                                                                                                                                     |
+| Heavy statistics queries now cross HTTP                                 | Ported faithfully; Task 15 measures; optimisation only if a number fails                                                                                                            |
+| Learner's running dev server breaks                                     | Work is in a worktree; the main folder is not touched                                                                                                                               |
+| Real data touched by a test or by dev                                   | Role marker, stable requires explicit folder, dev folder inside the project, tests use temp/in-memory folders                                                                       |
+| Migration mismatch or interruption                                      | Staging file + count verification + single commit transaction + backup after; browser copy never deleted automatically                                                              |
+| Old build used after migrating (split brain)                            | Gate notice and guide; cannot be enforced technically, documented as a rule                                                                                                         |
+| Two different browser stores                                            | Second one refused, never merged; path via export/import described                                                                                                                  |
+| Static hosting (Pages/Docker) can no longer serve the app               | Stated non-goal; do not merge into `master` while it deploys                                                                                                                        |
 
 ## Estimate
 
