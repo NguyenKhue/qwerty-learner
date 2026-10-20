@@ -88,6 +88,13 @@ describe('the live connection', () => {
     expect(fn).toHaveBeenCalledTimes(1)
   })
 
+  it("treats a change event for '*' as a change of everything", () => {
+    const fn = vi.fn()
+    subscribe(['wordRecords'], fn)
+    created[0].handlers.change({ data: JSON.stringify({ topics: ['*'] }) })
+    expect(fn).toHaveBeenCalledTimes(1)
+  })
+
   it('ignores an event whose data is not what it expects', () => {
     const fn = vi.fn()
     subscribe('*', fn)

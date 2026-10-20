@@ -73,7 +73,10 @@ function connect() {
   created.addEventListener('change', (event) => {
     try {
       const parsed = JSON.parse(event.data) as { topics?: unknown }
-      if (Array.isArray(parsed.topics)) emit(parsed.topics.filter((topic): topic is string => typeof topic === 'string'))
+      if (!Array.isArray(parsed.topics)) return
+      const topics = parsed.topics.filter((topic): topic is string => typeof topic === 'string')
+      // The server announces '*' after an import: everything may have changed
+      emit(topics.indexOf('*') !== -1 ? '*' : topics)
     } catch {
       // A malformed event is ignored: the next one or the next reconnect refreshes everything
     }

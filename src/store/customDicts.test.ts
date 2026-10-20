@@ -12,7 +12,10 @@ import { seededPersonalSetsAtom } from './personal'
 import { dictionaries } from '@/resources/dictionary'
 import type { Dictionary } from '@/typings'
 import { createStore } from 'jotai'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
+
+// Setting the list saves it to the data file; there is no server in this test
+vi.mock('@/data/rpc', () => ({ call: vi.fn().mockResolvedValue(null) }))
 
 const custom: Dictionary = {
   id: 'custom:abc',
