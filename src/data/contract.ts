@@ -52,6 +52,39 @@ export type Procedures = {
 
 export type ProcedureName = keyof Procedures
 
+const NAME_TABLE: Record<ProcedureName, true> = {
+  'cards.byDict': true,
+  'cards.review': true,
+  'cards.reviewQuiz': true,
+  'log.hardWordsSince': true,
+  'activity.times': true,
+  'sets.list': true,
+  'sets.get': true,
+  'sets.create': true,
+  'sets.update': true,
+  'sets.delete': true,
+  'personal.migrate': true,
+  'personal.backfill': true,
+  'personal.fixNames': true,
+  'words.add': true,
+  'words.deleteByWord': true,
+  'words.between': true,
+  'words.wrong': true,
+  'words.wrongByDict': true,
+  'words.revisionCount': true,
+  'chapters.add': true,
+  'chapters.byDict': true,
+  'chapters.byDictChapter': true,
+  'stats.summary': true,
+  'reviews.latestUnfinished': true,
+  'reviews.put': true,
+  'meta.getAll': true,
+  'meta.set': true,
+}
+
+/** Every operation name at run time. The table above is typed against `Procedures`, so a missing or extra name is a compile error. */
+export const PROCEDURE_NAMES = Object.keys(NAME_TABLE) as ProcedureName[]
+
 /**
  * The live-update topics a call changes. The server publishes them after the write has committed; a read changes nothing.
  * Topics: `customDicts`, `cards:<dict>`, `reviewLog`, `wordRecords`, `chapterRecords`, `reviewRecords`, `meta`.

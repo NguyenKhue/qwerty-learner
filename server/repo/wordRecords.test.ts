@@ -127,4 +127,18 @@ describe('word_records', () => {
     expect(wordRecords.deleteByDict(db, 'd')).toBe(2)
     expect(wordRecords.count(db)).toBe(1)
   })
+
+  it('moves every record of one dict to another dict and reports how many, leaving other dicts alone', () => {
+    wordRecords.insert(db, record({ dict: 'old' }))
+    wordRecords.insert(db, record({ dict: 'old' }))
+    wordRecords.insert(db, record({ dict: 'other' }))
+    expect(wordRecords.moveDict(db, 'old', 'new')).toBe(2)
+    expect(wordRecords.moveDict(db, 'old', 'new')).toBe(0)
+    expect(
+      wordRecords
+        .between(db, 0, 1e12)
+        .map((row) => row.dict)
+        .sort(),
+    ).toEqual(['new', 'new', 'other'])
+  })
 })

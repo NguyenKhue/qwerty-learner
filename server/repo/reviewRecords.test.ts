@@ -72,4 +72,13 @@ describe('review_records', () => {
     expect(reviewRecords.deleteByDict(db, 'missing')).toBe(0)
     expect(reviewRecords.latestUnfinished(db, 'e')?.dict).toBe('e')
   })
+
+  it('moves every review record of one dict to another dict and reports how many', () => {
+    reviewRecords.put(db, { dict: 'old', index: 0, createTime: 1, isFinished: false, words: [] })
+    reviewRecords.put(db, { dict: 'other', index: 0, createTime: 1, isFinished: false, words: [] })
+    expect(reviewRecords.moveDict(db, 'old', 'new')).toBe(1)
+    expect(reviewRecords.latestUnfinished(db, 'new')).not.toBeNull()
+    expect(reviewRecords.latestUnfinished(db, 'old')).toBeNull()
+    expect(reviewRecords.latestUnfinished(db, 'other')).not.toBeNull()
+  })
 })

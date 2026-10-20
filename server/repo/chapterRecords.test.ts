@@ -72,4 +72,13 @@ describe('chapter_records', () => {
     expect(chapterRecords.count(db)).toBe(1)
     expect(chapterRecords.deleteByDict(db, 'missing')).toBe(0)
   })
+
+  it('moves every record of one dict to another dict and reports how many, keeping ids', () => {
+    const id = chapterRecords.insert(db, record({ dict: 'old' }))
+    chapterRecords.insert(db, record({ dict: 'other' }))
+    expect(chapterRecords.moveDict(db, 'old', 'new')).toBe(1)
+    expect(chapterRecords.byDict(db, 'new').map((row) => row.id)).toEqual([id])
+    expect(chapterRecords.byDict(db, 'old')).toEqual([])
+    expect(chapterRecords.byDict(db, 'other')).toHaveLength(1)
+  })
 })

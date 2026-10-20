@@ -82,3 +82,8 @@ export function sumWrong(db: Db): number {
 export function deleteByDict(db: Db, dict: string): number {
   return db.run('DELETE FROM chapter_records WHERE dict = ?', [dict]).changes
 }
+
+/** Moves every record of one dict to another dict and returns the number moved. */
+export function moveDict(db: Db, from: string, to: string): number {
+  return db.run('UPDATE chapter_records SET dict = ? WHERE dict = ?', [to, from]).changes
+}
