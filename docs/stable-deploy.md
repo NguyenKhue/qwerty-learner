@@ -128,3 +128,19 @@ no password, so do not expose it to other computers.
 - **"CORRUPT"**: the database file is damaged; restore a backup (section 5).
 - Static hosting (GitHub Pages, Docker) cannot serve this version of the app, because it needs the data server. Do not merge this
   branch into a branch that deploys to such a host.
+
+## Measured on this machine (2026-10-20)
+
+Database with 100,006 word records and 5,000 chapter records (13 MB), local requests:
+
+| Operation | Time |
+|---|---|
+| `words.add` (one write, `synchronous=FULL`) | 1-2 ms |
+| `stats.summary` | 1 ms |
+| `words.between` (30 days, 1 MB) | 18 ms |
+| `activity.times` (120 days, 1.4 MB) | 33 ms |
+| `words.wrong` (2 MB) | 45 ms |
+| Export JSON (1.6 MB) | 0.27 s |
+| Import of that export into an empty folder | 0.92 s, reads back identical |
+
+Fault checks: a second server on the same folder is refused (`LOCKED`), a stable server on a dev folder is refused (`ROLE_MISMATCH`), a damaged file is refused (`CORRUPT`), a higher `user_version` is refused (`NEWER_SCHEMA`). A folder whose `qwerty.db` was deleted starts empty (restore a file from `backups/` by hand).
