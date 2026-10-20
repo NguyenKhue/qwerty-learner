@@ -294,6 +294,54 @@ describe('RPC', () => {
   })
 })
 
+describe('migrate', () => {
+  const emptyCounts = { wordRecords: 0, chapterRecords: 0, reviewRecords: 0, customDicts: 0, cardProgress: 0, reviewLog: 0 }
+  const migrate = (step: string, body: unknown = {}) => post(`/api/migrate/${step}`, JSON.stringify(body), 'application/json')
+  const wordRow = (id: number) => ({ id, word: 'w', timeStamp: 1, dict: 'd', chapter: 0, timing: [], wrongCount: 0, mistakes: {} })
+
+  it('moves staged rows into the database, keeping ids, and the health answer then says migrated', async () => {
+    const begin = await migrate('begin')
+    expect(begin.status).toBe(200)
+    const session = (begin.json as { result: { session: string } }).result.session
+
+    expect((await migrate('batch', { session, table: 'wordRecords', rows: [wordRow(7), wordRow(9)] })).json).toEqual({
+      result: { inserted: 2 },
+    })
+    const commit = await migrate('commit', {
+      session,
+      counts: { ...emptyCounts, wordRecords: 2 },
+      meta: { seededPersonalSets: '["myVocab"]' },
+    })
+    expect(commit.status).toBe(200)
+    expect((commit.json as { result: { counts: Record<string, number> } }).result.counts.wordRecords).toBe(2)
+
+    expect(((await get('/api/health')).json as Health).migrated).toBe(true)
+    expect((await rpc('meta.getAll')).json).toEqual({
+      result: expect.objectContaining({
+        seededPersonalSets: '["myVocab"]',
+        migratedFrom: JSON.stringify({ ...emptyCounts, wordRecords: 2 }),
+      }),
+    })
+    expect(((await rpc('words.add', [wordRow(0)])).json as { result: number }).result).toBe(10)
+  })
+
+  it('answers the code of a refused step: unknown session 404, bad rows 400, wrong counts 409, a second begin 409', async () => {
+    expect(errorCode(await migrate('batch', { session: 'nope', table: 'wordRecords', rows: [] }))).toBe('NOT_FOUND')
+    const session = ((await migrate('begin')).json as { result: { session: string } }).result.session
+    expect(errorCode(await migrate('batch', { session, table: 'wordRecords', rows: [{ id: 1 }] }))).toBe('BAD_REQUEST')
+    expect(errorCode(await migrate('commit', { session, counts: { ...emptyCounts, wordRecords: 5 }, meta: {} }))).toBe('CONFLICT')
+    await migrate('abort', { session })
+    expect(errorCode(await migrate('batch', { session, table: 'wordRecords', rows: [] }))).toBe('NOT_FOUND')
+  })
+
+  it('refuses a begin once the folder holds data, and unknown steps and malformed bodies', async () => {
+    await rpc('words.add', [wordRow(0)])
+    expect(errorCode(await migrate('begin'))).toBe('CONFLICT')
+    expect((await migrate('nonsense')).status).toBe(404)
+    expect((await post('/api/migrate/begin', 'not json', 'application/json')).status).toBe(400)
+  })
+})
+
 describe('health', () => {
   it('reports an empty folder, then data and the migration marker', async () => {
     const initial = (await get('/api/health')).json as Health

@@ -353,6 +353,46 @@ function parseExport(bytes: Uint8Array): ParsedImport {
   return { rows, warnings }
 }
 
+/** The names of the six tables of the learner's data, in the order they are imported. */
+export const TABLE_NAMES: DexieTableName[] = TABLES.map((spec) => spec.name)
+
+/** Whether a name is one of the six table names. */
+export function isTableName(name: unknown): name is DexieTableName {
+  return typeof name === 'string' && TABLE_BY_NAME.has(name)
+}
+
+/** Why `rows` cannot be inserted into the table (a row of the wrong shape or the same key twice), or null when they are fine. */
+export function checkRows(name: DexieTableName, rows: unknown): string | null {
+  const spec = TABLE_BY_NAME.get(name)
+  if (!spec) return `unknown table "${name}"`
+  if (!Array.isArray(rows)) return 'rows must be a list'
+  const keys = new Set<string>()
+  for (let index = 0; index < rows.length; index++) {
+    const row: unknown = rows[index]
+    if (!isObject(row)) return `row ${index + 1} is not an object`
+    const problem = spec.check(row)
+    if (problem) return `row ${index + 1}: ${problem}`
+    const key = spec.key(row)
+    if (keys.has(key)) return `more than one row for ${key}`
+    keys.add(key)
+  }
+  return null
+}
+
+/** Inserts rows that passed `checkRows`, keeping their ids. A key that already exists makes the insert throw. */
+export function insertRows(db: Db, name: DexieTableName, rows: Record<string, unknown>[]): void {
+  const spec = TABLE_BY_NAME.get(name)
+  if (!spec) throw new Error(`unknown table "${name}"`)
+  for (const row of rows) spec.insert(db, row)
+}
+
+/** The number of rows in each of the six tables, keyed by the Dexie table name. */
+export function countTables(db: Db): Record<string, number> {
+  const counts: Record<string, number> = {}
+  for (const spec of TABLES) counts[spec.name] = db.get<{ n: number }>(`SELECT COUNT(*) AS n FROM ${spec.table}`)?.n ?? 0
+  return counts
+}
+
 /** Exports every table in the documented Dexie format, gzipped. */
 export function exportDexieJson(db: Db): Uint8Array {
   const tables = TABLES.map((spec) => ({ name: spec.name, schema: spec.schema, rows: spec.rows(db) }))

@@ -2,6 +2,7 @@ import type { Db } from './adapter'
 import { createEventHub } from './events'
 import { exportDexieJson, importDexieJson, snapshotDb } from './exchange'
 import type { Role } from './folder'
+import { MigrationError, createMigrationManager } from './migration'
 import { ProcedureError, handlers } from './procedures/index'
 import type { Handler } from './procedures/index'
 import { getAll as getAllMeta } from './repo/meta'
@@ -145,6 +146,7 @@ export function createApp(deps: AppDeps): App {
   const now = deps.now ?? Date.now
   const procedures = deps.procedures ?? handlers
   const hub = createEventHub({ heartbeatMs: deps.heartbeatMs })
+  const migration = createMigrationManager({ db, dir, now })
 
   /** Calls a procedure and maps its outcome to the contract's HTTP answer. */
   async function handleRpc(req: IncomingMessage, res: ServerResponse, name: string): Promise<void> {
@@ -286,6 +288,53 @@ export function createApp(deps: AppDeps): App {
     sendJson(res, 200, { result: counts })
   }
 
+  /** `POST /api/migrate/<begin|batch|commit|abort>`: moving the data an older version kept in a browser (see server/migration.ts). */
+  async function handleMigrate(req: IncomingMessage, res: ServerResponse, step: string): Promise<void> {
+    if (['begin', 'batch', 'commit', 'abort'].indexOf(step) === -1) {
+      sendError(res, STATUS.NOT_FOUND, 'NOT_FOUND', 'Not found')
+      return
+    }
+    let body: Buffer
+    try {
+      body = await readBody(req, RPC_LIMIT)
+    } catch (error) {
+      if (error instanceof BodyTooLarge) sendError(res, 413, 'BAD_REQUEST', 'Request body too large')
+      else sendError(res, STATUS.BAD_REQUEST, 'BAD_REQUEST', 'The request body could not be read')
+      return
+    }
+    let payload: Record<string, unknown> = {}
+    if (body.length > 0) {
+      try {
+        const parsed: unknown = JSON.parse(body.toString('utf8'))
+        if (!isObject(parsed)) throw new Error('not an object')
+        payload = parsed
+      } catch {
+        sendError(res, STATUS.BAD_REQUEST, 'BAD_REQUEST', 'The request body must be a JSON object')
+        return
+      }
+    }
+    const session = typeof payload.session === 'string' ? payload.session : ''
+
+    let result: unknown
+    try {
+      if (step === 'begin') result = migration.begin()
+      else if (step === 'batch') result = migration.batch(session, String(payload.table), payload.rows)
+      else if (step === 'commit')
+        result = migration.commit(session, payload.counts as Record<string, number>, (payload.meta ?? {}) as Record<string, string>)
+      else {
+        migration.abort(session)
+        result = null
+      }
+    } catch (error) {
+      if (error instanceof MigrationError) sendError(res, STATUS[error.code], error.code, error.message)
+      else sendError(res, STATUS.INTERNAL, 'INTERNAL', messageOf(error))
+      return
+    }
+
+    if (step === 'commit') hub.publish(['*'])
+    sendJson(res, 200, { result })
+  }
+
   /** Every `/api` path that is not one of the endpoints above. */
   async function handleApi(req: IncomingMessage, res: ServerResponse, method: string, pathname: string): Promise<void> {
     if (method === 'POST' && pathname.startsWith('/api/rpc/')) {
@@ -306,6 +355,10 @@ export function createApp(deps: AppDeps): App {
     }
     if (method === 'GET' && pathname === '/api/export/json') {
       handleExportJson(res)
+      return
+    }
+    if (method === 'POST' && pathname.startsWith('/api/migrate/')) {
+      await handleMigrate(req, res, pathname.slice('/api/migrate/'.length))
       return
     }
     if (method === 'POST' && pathname === '/api/import') {
@@ -414,6 +467,7 @@ export function createApp(deps: AppDeps): App {
 
     close(): void {
       hub.closeAll()
+      migration.closeAll()
     },
   }
 }
