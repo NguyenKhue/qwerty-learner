@@ -2,6 +2,7 @@ import AppShell from './components/AppShell'
 import CustomDictsSync from './components/CustomDictsSync'
 import Loading from './components/Loading'
 import SelectDictRedirect from './components/SelectDictRedirect'
+import DataGate from './data/DataGate'
 import './index.css'
 import { ErrorBook } from './pages/ErrorBook'
 import { FriendLinks } from './pages/FriendLinks'
@@ -45,37 +46,39 @@ function Root() {
 
   return (
     <React.StrictMode>
-      <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
-        <Suspense fallback={<Loading />}>
-          <Routes>
-            <Route element={<AppShell />}>
-              <Route index element={<DashboardPage />} />
-              <Route path="/typing" element={<TypingGate />} />
-              <Route path="/gallery" element={<GalleryPage />} />
-              <Route path="/analysis" element={<AnalysisPage />} />
-              <Route path="/error-book" element={<ErrorBook />} />
-              <Route path="/my-sets" element={<MySetsPage />} />
-              <Route path="/my-sets/new" element={<SetEditorPage />} />
-              <Route path="/my-sets/:id/edit" element={<SetEditorPage />} />
-              <Route path="/my-sets/:id" element={<SetDetailPage />} />
-              <Route path="/study" element={<StudyPage />} />
-              <Route path="/quiz" element={<QuizPage />} />
-              <Route path="/match" element={<MatchPage />} />
-              <Route path="/sentences" element={<SentencesPage />} />
-              <Route path="/study/:dictId" element={<SelectDictRedirect mode="study" />} />
-              <Route path="/quiz/:dictId" element={<SelectDictRedirect mode="quiz" />} />
-              <Route path="/match/:dictId" element={<SelectDictRedirect mode="match" />} />
-              <Route path="/sentences/:dictId" element={<SelectDictRedirect mode="sentences" />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/friend-links" element={<FriendLinks />} />
-              <Route path="/mobile" element={<Navigate to="/" replace />} />
-              <Route path="/*" element={<Navigate to="/" />} />
-            </Route>
-          </Routes>
-        </Suspense>
-      </BrowserRouter>
-      <CustomDictsSync />
-      <Analytics />
+      <DataGate>
+        <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
+          <Suspense fallback={<Loading />}>
+            <Routes>
+              <Route element={<AppShell />}>
+                <Route index element={<DashboardPage />} />
+                <Route path="/typing" element={<TypingGate />} />
+                <Route path="/gallery" element={<GalleryPage />} />
+                <Route path="/analysis" element={<AnalysisPage />} />
+                <Route path="/error-book" element={<ErrorBook />} />
+                <Route path="/my-sets" element={<MySetsPage />} />
+                <Route path="/my-sets/new" element={<SetEditorPage />} />
+                <Route path="/my-sets/:id/edit" element={<SetEditorPage />} />
+                <Route path="/my-sets/:id" element={<SetDetailPage />} />
+                <Route path="/study" element={<StudyPage />} />
+                <Route path="/quiz" element={<QuizPage />} />
+                <Route path="/match" element={<MatchPage />} />
+                <Route path="/sentences" element={<SentencesPage />} />
+                <Route path="/study/:dictId" element={<SelectDictRedirect mode="study" />} />
+                <Route path="/quiz/:dictId" element={<SelectDictRedirect mode="quiz" />} />
+                <Route path="/match/:dictId" element={<SelectDictRedirect mode="match" />} />
+                <Route path="/sentences/:dictId" element={<SelectDictRedirect mode="sentences" />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/friend-links" element={<FriendLinks />} />
+                <Route path="/mobile" element={<Navigate to="/" replace />} />
+                <Route path="/*" element={<Navigate to="/" />} />
+              </Route>
+            </Routes>
+          </Suspense>
+        </BrowserRouter>
+        <CustomDictsSync />
+        <Analytics />
+      </DataGate>
     </React.StrictMode>
   )
 }
