@@ -1,3 +1,5 @@
+// The database an older version of the app kept in the browser. It is only used by the tests of the move into the data folder
+// and of the export format, to build the data such a browser held; the application itself no longer has any such database.
 import type {
   CustomDictRecord,
   ICardProgress,
@@ -6,8 +8,8 @@ import type {
   IReviewRecord,
   IRevisionDictRecord,
   IWordRecord,
-} from './record'
-import { ChapterRecord, ReviewRecord, WordRecord } from './record'
+} from '@/utils/db/record'
+import { ChapterRecord, ReviewRecord, WordRecord } from '@/utils/db/record'
 import type { Table } from 'dexie'
 import Dexie from 'dexie'
 

@@ -2692,11 +2692,6 @@
   resolved "https://registry.npmmirror.com/@types/node/-/node-18.14.6.tgz"
   integrity sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==
 
-"@types/pako@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmmirror.com/@types/pako/-/pako-2.0.0.tgz"
-  integrity sha512-10+iaz93qR5WYxTo+PMifD5TSxiOtdRaxBf7INGGXMQgTCu8Z/7GYWYFUOS3q/G0nE5boj1r4FEB+WSy7s5gbA==
-
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.npmmirror.com/@types/parse-json/-/parse-json-4.0.0.tgz"
@@ -3810,11 +3805,6 @@ dexie-export-import@^4.0.7:
   version "4.0.7"
   resolved "https://registry.npmmirror.com/dexie-export-import/-/dexie-export-import-4.0.7.tgz"
   integrity sha512-h22soiockhhWch6edw8XL/JNfn7akPLuLf6kPQdR4uneG/P0XQus4I8wpjV86dck61oEYKPHm36jyft/zVK0jQ==
-
-dexie-react-hooks@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npmmirror.com/dexie-react-hooks/-/dexie-react-hooks-1.1.3.tgz"
-  integrity sha512-bXXE1gfYtfuVYTNiOlyam+YVaO8KaqacgRuxFuP37YtpS6o/jxT6KOl5h+hhqY36s0UavlHWbL+HWJFMcQumIg==
 
 dexie@^3.2.3:
   version "3.2.3"
@@ -5870,11 +5860,6 @@ p-map@^4.0.0:
   integrity sha512-/bjOqmgETBYB5BoEeGVea8dmvHb2m9GLy1E9W43yeyfP6QQCZGFNa+XRceJEuDB6zqr+gKpIAmlLebMpykw/MQ==
   dependencies:
     aggregate-error "^3.0.0"
-
-pako@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npmmirror.com/pako/-/pako-2.1.0.tgz"
-  integrity sha512-w+eufiZ1WuJYgPXbV/PO3NCMEc3xqylkKHzp8bxp1uW4qaSNQUkwmLLEc3kKsfz8lpV1F8Ht3U1Cm+9Srog2ug==
 
 parent-module@^1.0.0:
   version "1.0.1"

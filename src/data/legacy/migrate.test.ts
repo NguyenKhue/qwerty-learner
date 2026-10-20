@@ -1,8 +1,8 @@
 import { call } from '../rpc'
 import { deleteLegacyCopy, detectLegacy, runMigration } from './index'
 import { MigrationMismatch } from './migrate'
+import { db as legacy } from '@/test/legacyDb'
 import { withTestServer } from '@/test/serverHarness'
-import { db as legacy } from '@/utils/db/database'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
 const COUNTS = { wordRecords: 2, chapterRecords: 1, reviewRecords: 1, customDicts: 1, cardProgress: 1, reviewLog: 1 }

@@ -16,7 +16,7 @@ type Row = Record<string, unknown>
 
 const TABLE_NAMES: DexieTableName[] = ['wordRecords', 'chapterRecords', 'reviewRecords', 'customDicts', 'cardProgress', 'reviewLog']
 
-/** The schema strings of `RecordDB` version 5 in `src/utils/db/database.ts`. */
+/** The schema strings of `RecordDB` version 5 in `src/test/legacyDb.ts`. */
 const SCHEMAS: Record<DexieTableName, string> = {
   wordRecords: '++id,word,timeStamp,dict,chapter,wrongCount,[dict+chapter]',
   chapterRecords: '++id,timeStamp,dict,chapter,time,[dict+chapter]',
