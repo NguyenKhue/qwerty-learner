@@ -27,7 +27,7 @@ module.exports = {
       plugins: ['@typescript-eslint'],
     },
     {
-      files: ['server/**/*.ts'],
+      files: ['server/**/*.ts', 'scripts/**/*.ts'],
       env: { node: true },
       extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
       parser: '@typescript-eslint/parser',

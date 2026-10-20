@@ -28,6 +28,10 @@ export default defineConfig(async ({ mode }) => {
         },
       }),
     ],
+    server: {
+      // The data server (yarn dev:full) answers /api on this port; see server/config.ts
+      proxy: { '/api': { target: `http://127.0.0.1:${process.env.QWERTY_API_PORT ?? 5180}` } },
+    },
     build: {
       minify: true,
       outDir: 'build',
