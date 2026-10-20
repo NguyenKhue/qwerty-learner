@@ -2,6 +2,7 @@ import { CUSTOM_DICT_PREFIX } from './custom-dict'
 import { db } from './database'
 import type { Word } from '@/typings'
 import { normalizeWords } from '@/utils/custom-dict/parse'
+import { respell } from '@/utils/detail/respell'
 import { mergeExtras } from '@/utils/detail/sidecar'
 import type { WordExtras } from '@/utils/detail/sidecar'
 import { mergeExamples } from '@/utils/examples/format'
@@ -104,12 +105,6 @@ export const PERSONAL_RENAMES: Record<string, { from: string; to: string }[]> = 
 /** The entry of the "already topped up" list that marks the spelling fixes of a built-in set as done. */
 export function namesFlag(builtInId: string): string {
   return `${builtInId}#names1`
-}
-
-/** Replaces a misspelling in a text, case-insensitively and as a whole word, keeping a leading capital. */
-function respell(text: string, from: string, to: string): string {
-  const pattern = new RegExp(`\\b${from.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi')
-  return text.replace(pattern, (match) => (match[0] === match[0].toUpperCase() ? to[0].toUpperCase() + to.slice(1) : to))
 }
 
 /**
