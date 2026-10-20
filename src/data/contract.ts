@@ -1,0 +1,96 @@
+import type { Word } from '@/typings'
+import type { PersonalSeedInput, PersonalSeedResult } from '@/utils/db/personal-seed'
+import type { CustomDictRecord, ICardProgress, IChapterRecord, IReviewRecord, IWordRecord } from '@/utils/db/record'
+import type { WordExtras } from '@/utils/detail/sidecar'
+import type { Grade } from '@/utils/srs/scheduler'
+
+/** The input of creating or updating a set of the learner's own (the same shape the app uses today). */
+export type CustomDictInput = { name: string; description?: string; words: Word[] }
+
+export type StoredWordRecord = IWordRecord & { id: number }
+export type StoredChapterRecord = IChapterRecord & { id: number }
+export type StoredReviewRecord = IReviewRecord & { id: number }
+
+export type DataErrorCode = 'BAD_REQUEST' | 'NOT_FOUND' | 'CONFLICT' | 'INTERNAL' | 'UNREACHABLE'
+
+/**
+ * Every operation of the data server: the single list that both the server handlers and the client callers are typed from.
+ * The server shares the pure TypeScript logic (scheduling, set normalising) by import; only these operations cross the wire.
+ */
+export type Procedures = {
+  'cards.byDict': { args: [dict: string]; result: ICardProgress[] }
+  'cards.review': { args: [dict: string, word: string, grade: Grade, now?: number]; result: ICardProgress }
+  'cards.reviewQuiz': { args: [dict: string, word: string, correct: boolean, now?: number]; result: ICardProgress | null }
+  'log.hardWordsSince': { args: [dict: string, sinceMs: number]; result: string[] }
+  'activity.times': { args: [fromMs: number]; result: { reviewTimes: number[]; typedSeconds: number[] } }
+  'sets.list': { args: []; result: CustomDictRecord[] }
+  'sets.get': { args: [id: string]; result: CustomDictRecord | null }
+  'sets.create': { args: [input: CustomDictInput]; result: CustomDictRecord }
+  'sets.update': { args: [id: string, input: CustomDictInput]; result: null }
+  'sets.delete': { args: [id: string]; result: null }
+  'personal.migrate': { args: [input: PersonalSeedInput]; result: PersonalSeedResult }
+  'personal.backfill': { args: [customId: string, extras: Record<string, WordExtras>]; result: number }
+  'personal.fixNames': { args: [customId: string, renames: { from: string; to: string }[]]; result: number }
+  'words.add': { args: [record: IWordRecord]; result: number }
+  'words.deleteByWord': { args: [word: string, dict: string]; result: number }
+  'words.between': { args: [startTs: number, endTs: number]; result: StoredWordRecord[] }
+  'words.wrong': { args: []; result: StoredWordRecord[] }
+  'words.wrongByDict': { args: [dict: string]; result: StoredWordRecord[] }
+  'words.revisionCount': { args: [dict: string]; result: number }
+  'chapters.add': { args: [record: IChapterRecord]; result: number }
+  'chapters.byDict': { args: [dict: string]; result: StoredChapterRecord[] }
+  'chapters.byDictChapter': { args: [dict: string, chapter: number]; result: StoredChapterRecord[] }
+  'stats.summary': {
+    args: []
+    result: { chapterCount: number; wordCount: number; firstWordTimestamp: number | null; sumWrongCount: number }
+  }
+  'reviews.latestUnfinished': { args: [dict: string]; result: StoredReviewRecord | null }
+  'reviews.put': { args: [record: IReviewRecord]; result: number }
+  'meta.getAll': { args: []; result: Record<string, string> }
+  'meta.set': { args: [key: string, value: string]; result: null }
+}
+
+export type ProcedureName = keyof Procedures
+
+/**
+ * The live-update topics a call changes. The server publishes them after the write has committed; a read changes nothing.
+ * Topics: `customDicts`, `cards:<dict>`, `reviewLog`, `wordRecords`, `chapterRecords`, `reviewRecords`, `meta`.
+ */
+export function topicsOf(name: ProcedureName, args: unknown[]): string[] {
+  switch (name) {
+    case 'cards.review':
+    case 'cards.reviewQuiz':
+      return [`cards:${args[0]}`, 'reviewLog']
+    case 'sets.create':
+    case 'sets.update':
+    case 'personal.backfill':
+      return ['customDicts']
+    case 'sets.delete':
+      return ['customDicts', `cards:custom:${args[0]}`, 'wordRecords', 'chapterRecords', 'reviewRecords']
+    case 'personal.migrate': {
+      const input = args[0] as Pick<PersonalSeedInput, 'builtInId' | 'customId'>
+      return [
+        'customDicts',
+        `cards:${input.builtInId}`,
+        `cards:custom:${input.customId}`,
+        'reviewLog',
+        'wordRecords',
+        'chapterRecords',
+        'reviewRecords',
+      ]
+    }
+    case 'personal.fixNames':
+      return ['customDicts', `cards:custom:${args[0]}`, 'reviewLog', 'wordRecords']
+    case 'words.add':
+    case 'words.deleteByWord':
+      return ['wordRecords']
+    case 'chapters.add':
+      return ['chapterRecords']
+    case 'reviews.put':
+      return ['reviewRecords']
+    case 'meta.set':
+      return ['meta']
+    default:
+      return []
+  }
+}

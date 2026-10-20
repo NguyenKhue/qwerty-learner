@@ -65,7 +65,9 @@
     "test:e2e": "playwright test",
     "lint": "eslint .",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "server:build": "esbuild server/main.ts --bundle --platform=node --format=esm --target=node22 --alias:@=./src --outfile=dist-server/server.mjs --log-level=warning",
+    "server:dev": "vite-node -c vitest.config.ts server/main.ts"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
@@ -126,5 +128,8 @@
     "unplugin-icons": "^0.16.1",
     "vite": "^4.1.1",
     "vitest": "^0.34.6"
+  },
+  "engines": {
+    "node": ">=22.13"
   }
 }

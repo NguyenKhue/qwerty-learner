@@ -34,3 +34,6 @@ stats.html
 /blob-report/
 /playwright/.cache/
 playwright-report
+# Local data folder of the dev server and the bundled server
+/.dev-data/
+/dist-server/
