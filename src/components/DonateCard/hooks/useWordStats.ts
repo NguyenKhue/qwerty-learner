@@ -1,4 +1,4 @@
-import { db } from '@/utils/db'
+import { call } from '@/data/rpc'
 import dayjs from 'dayjs'
 import { useEffect, useState } from 'react'
 
@@ -7,8 +7,8 @@ export function useChapterNumber() {
 
   useEffect(() => {
     const fetchChapterNumber = async () => {
-      const number = await db.chapterRecords.count()
-      setChapterNumber(number)
+      const summary = await call('stats.summary')
+      setChapterNumber(summary.chapterCount)
     }
 
     fetchChapterNumber()
@@ -22,8 +22,8 @@ export function useDayFromFirstWordRecord() {
 
   useEffect(() => {
     const fetchDayFromFirstWordRecord = async () => {
-      const firstWordRecord = await db.wordRecords.orderBy('timeStamp').first()
-      const firstWordRecordTimeStamp = firstWordRecord?.timeStamp || 0
+      const summary = await call('stats.summary')
+      const firstWordRecordTimeStamp = summary.firstWordTimestamp ?? 0
       const now = dayjs()
       const timestamp = dayjs.unix(firstWordRecordTimeStamp)
       const daysPassed = now.diff(timestamp, 'day')
@@ -41,8 +41,8 @@ export function useWordNumber() {
 
   useEffect(() => {
     const fetchWordNumber = async () => {
-      const number = await db.wordRecords.count()
-      setWordNumber(number)
+      const summary = await call('stats.summary')
+      setWordNumber(summary.wordCount)
     }
 
     fetchWordNumber()
@@ -56,12 +56,8 @@ export function useSumWrongCount() {
 
   useEffect(() => {
     const fetchSumWrongCount = async () => {
-      let totalWrongCount = 0
-
-      await db.chapterRecords.each((record) => {
-        totalWrongCount += record.wrongCount || 0
-      })
-      setSumWrongCount(totalWrongCount)
+      const summary = await call('stats.summary')
+      setSumWrongCount(summary.sumWrongCount)
     }
 
     fetchSumWrongCount()

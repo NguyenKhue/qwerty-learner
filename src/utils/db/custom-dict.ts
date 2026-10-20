@@ -1,17 +1,13 @@
-import { db } from './database'
 import type { CustomDictRecord } from './record'
 import { CHAPTER_LENGTH } from '@/constants'
+import type { CustomDictInput } from '@/data/contract'
+import { call } from '@/data/rpc'
 import type { Dictionary, Word } from '@/typings'
-import { normalizeWords } from '@/utils/custom-dict/parse'
+
+export type { CustomDictInput }
 
 export const CUSTOM_DICT_PREFIX = 'custom:'
 export const CUSTOM_URL_PREFIX = 'idb:'
-
-export type CustomDictInput = { name: string; description?: string; words: Word[] }
-
-function newId(): string {
-  return Date.now().toString(36) + Math.random().toString(36).slice(2, 8)
-}
 
 export function isCustomDictId(dictId: string): boolean {
   return dictId.indexOf(CUSTOM_DICT_PREFIX) === 0
@@ -50,33 +46,15 @@ export function customDictToDictionary(rec: CustomDictRecord): Dictionary {
 }
 
 export async function createCustomDict(input: CustomDictInput): Promise<CustomDictRecord> {
-  const now = Date.now()
-  const record: CustomDictRecord = {
-    id: newId(),
-    name: input.name.trim(),
-    description: (input.description ?? '').trim(),
-    words: normalizeWords(input.words).words,
-    createdAt: now,
-    updatedAt: now,
-  }
-  await db.customDicts.add(record)
-  return record
+  return call('sets.create', input)
 }
 
 export async function updateCustomDict(id: string, input: CustomDictInput): Promise<void> {
-  const existing = await db.customDicts.get(id)
-  if (!existing) throw new Error(`Custom dictionary ${id} not found`)
-  await db.customDicts.put({
-    ...existing,
-    name: input.name.trim(),
-    description: (input.description ?? '').trim(),
-    words: normalizeWords(input.words).words,
-    updatedAt: Date.now(),
-  })
+  await call('sets.update', id, input)
 }
 
 export async function duplicateCustomDict(id: string): Promise<CustomDictRecord> {
-  const existing = await db.customDicts.get(id)
+  const existing = await call('sets.get', id)
   if (!existing) throw new Error(`Custom dictionary ${id} not found`)
   return createCustomDict({
     name: `${existing.name} (copy)`,
@@ -87,26 +65,19 @@ export async function duplicateCustomDict(id: string): Promise<CustomDictRecord>
 }
 
 export async function deleteCustomDict(id: string): Promise<void> {
-  const dictId = CUSTOM_DICT_PREFIX + id
-  await db.transaction('rw', [db.customDicts, db.cardProgress, db.wordRecords, db.chapterRecords, db.reviewRecords], async () => {
-    await db.cardProgress.where('dict').equals(dictId).delete()
-    await db.wordRecords.where('dict').equals(dictId).delete()
-    await db.chapterRecords.where('dict').equals(dictId).delete()
-    await db.reviewRecords.where('dict').equals(dictId).delete()
-    await db.customDicts.delete(id)
-  })
+  await call('sets.delete', id)
 }
 
 export async function getCustomDict(id: string): Promise<CustomDictRecord | undefined> {
-  return db.customDicts.get(id)
+  return (await call('sets.get', id)) ?? undefined
 }
 
 export async function listCustomDicts(): Promise<CustomDictRecord[]> {
-  return db.customDicts.orderBy('createdAt').toArray()
+  return call('sets.list')
 }
 
 export async function getCustomDictWords(id: string): Promise<Word[]> {
-  const record = await db.customDicts.get(id)
+  const record = await call('sets.get', id)
   if (!record) throw new Error(`Custom dictionary ${id} not found`)
   return record.words
 }

@@ -2,13 +2,13 @@ import WordCard from './WordCard'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { PageHeader } from '@/components/ui/page-header'
+import { useLive } from '@/data/useLive'
 import { currentChapterAtom, currentDictIdAtom } from '@/store'
 import { seededPersonalSetsAtom } from '@/store/personal'
 import type { Word } from '@/typings'
 import { PAGE_SIZE, filterIndexes, visibleCount } from '@/utils/custom-dict/search'
 import { CUSTOM_DICT_PREFIX, customEditPath, getCustomDict } from '@/utils/db/custom-dict'
 import { isPersonalSeedPending } from '@/utils/db/personal-seed'
-import { useLiveQuery } from 'dexie-react-hooks'
 import { useAtomValue, useSetAtom } from 'jotai'
 import type { CSSProperties } from 'react'
 import { useEffect, useMemo, useState } from 'react'
@@ -28,7 +28,7 @@ function SetDetail({ id }: { id: string }) {
   const navigate = useNavigate()
   const setCurrentDictId = useSetAtom(currentDictIdAtom)
   const setCurrentChapter = useSetAtom(currentChapterAtom)
-  const data = useLiveQuery(async () => ({ record: (await getCustomDict(id)) ?? null }), [id])
+  const data = useLive(async () => ({ record: (await getCustomDict(id)) ?? null }), ['customDicts'], [id])
   const [query, setQuery] = useState('')
   const [shown, setShown] = useState(PAGE_SIZE)
 

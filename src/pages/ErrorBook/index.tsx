@@ -6,8 +6,9 @@ import Pagination, { ITEM_PER_PAGE } from './Pagination'
 import RowDetail from './RowDetail'
 import { currentRowDetailAtom } from './store'
 import type { groupedWordRecords } from './type'
-import { db, useDeleteWordRecord } from '@/utils/db'
-import type { WordRecord } from '@/utils/db/record'
+import { toWordRecord } from '@/data/hydrate'
+import { call } from '@/data/rpc'
+import { useDeleteWordRecord } from '@/utils/db'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useAtomValue } from 'jotai'
 import { useCallback, useEffect, useMemo, useState } from 'react'
@@ -62,31 +63,28 @@ export function ErrorBook() {
   }, [currentPage, sortedRecords])
 
   useEffect(() => {
-    db.wordRecords
-      .where('wrongCount')
-      .above(0)
-      .toArray()
-      .then((records) => {
-        const groups: groupedWordRecords[] = []
+    call('words.wrong').then((rows) => {
+      const records = rows.map(toWordRecord)
+      const groups: groupedWordRecords[] = []
 
-        records.forEach((record) => {
-          let group = groups.find((g) => g.word === record.word && g.dict === record.dict)
-          if (!group) {
-            group = { word: record.word, dict: record.dict, records: [], wrongCount: 0 }
-            groups.push(group)
-          }
-          group.records.push(record as WordRecord)
-        })
-
-        groups.forEach((group) => {
-          group.wrongCount = group.records.reduce((acc, cur) => {
-            acc += cur.wrongCount
-            return acc
-          }, 0)
-        })
-
-        setGroupedRecords(groups)
+      records.forEach((record) => {
+        let group = groups.find((g) => g.word === record.word && g.dict === record.dict)
+        if (!group) {
+          group = { word: record.word, dict: record.dict, records: [], wrongCount: 0 }
+          groups.push(group)
+        }
+        group.records.push(record)
       })
+
+      groups.forEach((group) => {
+        group.wrongCount = group.records.reduce((acc, cur) => {
+          acc += cur.wrongCount
+          return acc
+        }, 0)
+      })
+
+      setGroupedRecords(groups)
+    })
   }, [reload])
 
   const handleDelete = async (word: string, dict: string) => {

@@ -4,6 +4,7 @@ import type { NavItem } from '@/components/AppShell/navItems'
 import SetProgress from '@/components/SetProgress'
 import { Card, CardEyebrow, CardTitle } from '@/components/ui/card'
 import { PageHeader } from '@/components/ui/page-header'
+import { useLive } from '@/data/useLive'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
 import { useNow } from '@/hooks/useNow'
 import { currentDictInfoAtom } from '@/store'
@@ -17,7 +18,6 @@ import { formatDuration, readBest } from '@/utils/match/best'
 import { progressSummary } from '@/utils/progress/status'
 import { sanitizeNewPerDay } from '@/utils/srs/queue'
 import { cn } from '@/utils/ui'
-import { useLiveQuery } from 'dexie-react-hooks'
 import { useAtomValue } from 'jotai'
 import type { CSSProperties, ComponentType, ReactNode } from 'react'
 import { useCallback, useMemo } from 'react'
@@ -86,14 +86,14 @@ function ModeCard({ title, description, icon: Icon, to, state, detail }: ModeCar
 export default function Dashboard() {
   const dict = useAtomValue(currentDictInfoAtom)
   const { words, error } = useDictionaryWords(dict.id)
-  const progress = useLiveQuery(() => getDictProgress(dict.id), [dict.id])
+  const progress = useLive(() => getDictProgress(dict.id), [`cards:${dict.id}`], [dict.id])
   const newPerDay = sanitizeNewPerDay(useAtomValue(newCardsPerDayAtom))
   const getDelay = useCallback(
     (at: number) => (words && progress ? dashboardRefreshDelay(words, progress, at) : 60 * 1000),
     [words, progress],
   )
   const now = useNow(getDelay)
-  const activity = useLiveQuery(() => loadActivity(now), [now])
+  const activity = useLive(() => loadActivity(now), ['reviewLog', 'wordRecords'], [now])
   const stats = useMemo(
     () => (words && progress ? dashboardStats({ words, progress, now, newPerDay }) : null),
     [words, progress, now, newPerDay],

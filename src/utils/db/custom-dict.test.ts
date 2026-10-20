@@ -1,3 +1,5 @@
+import * as cardProgress from '../../../server/repo/cardProgress'
+import * as wordRecords from '../../../server/repo/wordRecords'
 import {
   CUSTOM_DICT_PREFIX,
   createCustomDict,
@@ -13,9 +15,9 @@ import {
   listCustomDicts,
   updateCustomDict,
 } from './custom-dict'
-import { db } from './database'
 import type { ICardProgress, IWordRecord } from './record'
-import { beforeEach, describe, expect, it } from 'vitest'
+import { withTestServer } from '@/test/serverHarness'
+import { describe, expect, it } from 'vitest'
 
 const word = (name: string) => ({ name, trans: [`n. ${name}`], usphone: '', ukphone: '' })
 const progress = (dict: string, w: string): ICardProgress => ({
@@ -33,17 +35,9 @@ const progress = (dict: string, w: string): ICardProgress => ({
 const typingRecord = (dict: string) =>
   ({ word: 'x', timeStamp: 1, dict, chapter: 0, timing: [], wrongCount: 0, mistakes: {} } as unknown as IWordRecord)
 
-beforeEach(async () => {
-  await Promise.all([
-    db.customDicts.clear(),
-    db.cardProgress.clear(),
-    db.wordRecords.clear(),
-    db.chapterRecords.clear(),
-    db.reviewRecords.clear(),
-  ])
-})
-
 describe('custom dictionaries', () => {
+  const server = withTestServer()
+
   it('creates, reads and lists sets; ids are unique and words are de-duplicated', async () => {
     const a = await createCustomDict({ name: ' Set A ', description: 'd', words: [word('x'), word('x'), word('y')] })
     // createdAt is the list order; make sure the second set gets a later timestamp
@@ -73,17 +67,22 @@ describe('custom dictionaries', () => {
     const b = await createCustomDict({ name: 'B', words: [word('x')] })
     const dictA = CUSTOM_DICT_PREFIX + a.id
     const dictB = CUSTOM_DICT_PREFIX + b.id
-    await db.cardProgress.bulkPut([progress(dictA, 'x'), progress(dictB, 'x')])
-    await db.wordRecords.bulkAdd([typingRecord(dictA), typingRecord(dictB), typingRecord('cet4')])
+    cardProgress.put(server.db, progress(dictA, 'x'))
+    cardProgress.put(server.db, progress(dictB, 'x'))
+    wordRecords.insert(server.db, typingRecord(dictA))
+    wordRecords.insert(server.db, typingRecord(dictB))
+    wordRecords.insert(server.db, typingRecord('cet4'))
+    const wordCount = (dict: string) =>
+      server.db.get<{ count: number }>('SELECT COUNT(*) AS count FROM word_records WHERE dict = ?', [dict])?.count ?? 0
 
     await deleteCustomDict(a.id)
 
     expect(await getCustomDict(a.id)).toBeUndefined()
-    expect(await db.cardProgress.where('dict').equals(dictA).count()).toBe(0)
-    expect(await db.wordRecords.where('dict').equals(dictA).count()).toBe(0)
-    expect(await db.cardProgress.where('dict').equals(dictB).count()).toBe(1)
-    expect(await db.wordRecords.where('dict').equals(dictB).count()).toBe(1)
-    expect(await db.wordRecords.where('dict').equals('cet4').count()).toBe(1)
+    expect(cardProgress.byDict(server.db, dictA)).toHaveLength(0)
+    expect(wordCount(dictA)).toBe(0)
+    expect(cardProgress.byDict(server.db, dictB)).toHaveLength(1)
+    expect(wordCount(dictB)).toBe(1)
+    expect(wordCount('cet4')).toBe(1)
     expect(await getCustomDict(b.id)).toBeDefined()
   })
 
@@ -128,6 +127,8 @@ describe('isCustomDictId', () => {
 })
 
 describe('duplicateCustomDict', () => {
+  const server = withTestServer()
+
   it('copies a set under a new id and name, leaving the original untouched', async () => {
     const a = await createCustomDict({ name: 'A', description: 'd', words: [word('x'), word('y')] })
     const copy = await duplicateCustomDict(a.id)

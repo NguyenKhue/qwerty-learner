@@ -1,8 +1,11 @@
 import { createCustomDict } from './db/custom-dict'
 import { wordListFetcher } from './wordListFetcher'
+import { withTestServer } from '@/test/serverHarness'
 import { describe, expect, it } from 'vitest'
 
 describe('wordListFetcher', () => {
+  withTestServer()
+
   it('reads a custom set through an idb: url', async () => {
     const rec = await createCustomDict({ name: 'S', words: [{ name: 'a', trans: ['b'], usphone: '', ukphone: '' }] })
     const words = await wordListFetcher(`idb:${rec.id}`)

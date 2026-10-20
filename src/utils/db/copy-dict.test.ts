@@ -1,5 +1,7 @@
+import * as customDicts from '../../../server/repo/customDicts'
 import { duplicateDictionaryAsCustom } from './copy-dict'
 import { getCustomDictWords } from './custom-dict'
+import { withTestServer } from '@/test/serverHarness'
 import type { Dictionary, Word } from '@/typings'
 import type * as Sidecar from '@/utils/detail/sidecar'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
@@ -39,8 +41,11 @@ beforeEach(() => {
 })
 
 describe('duplicateDictionaryAsCustom with extras', () => {
+  const server = withTestServer()
+
   it('copies the details of a built-in set that has a detail file, so the copy keeps its flip-card text', async () => {
     const record = await duplicateDictionaryAsCustom(dict({ detailUrl: '/dicts/built-in.detail.json' }))
+    expect(customDicts.get(server.db, record.id)).not.toBeNull()
     const copied = await getCustomDictWords(record.id)
     expect(copied.find((w) => w.name === 'strict')?.detail).toBe('Long detail for strict')
     expect(copied.find((w) => w.name === 'plain')?.detail).toBeUndefined()

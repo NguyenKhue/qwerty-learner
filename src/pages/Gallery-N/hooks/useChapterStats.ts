@@ -1,6 +1,6 @@
+import { toChapterRecord } from '@/data/hydrate'
+import { call } from '@/data/rpc'
 import { toFixedNumber } from '@/utils'
-import { db } from '@/utils/db'
-import type { IChapterRecord } from '@/utils/db/record'
 import { useEffect, useState } from 'react'
 
 export function useChapterStats(chapter: number, dictID: string, isStartLoad: boolean) {
@@ -27,8 +27,8 @@ interface IChapterStats {
   avgWrongInputCount: number
 }
 
-async function getChapterStats(dict: string, chapter: number | null): Promise<IChapterStats> {
-  const records: IChapterRecord[] = await db.chapterRecords.where({ dict, chapter }).toArray()
+async function getChapterStats(dict: string, chapter: number): Promise<IChapterStats> {
+  const records = (await call('chapters.byDictChapter', dict, chapter)).map(toChapterRecord)
 
   const exerciseCount = records.length
   const totalWrongWordCount = records.reduce(

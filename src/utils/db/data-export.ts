@@ -1,5 +1,6 @@
-import { db } from '.'
 import { getCurrentDate, recordDataAction } from '..'
+import { emit } from '@/data/events'
+import { call } from '@/data/rpc'
 
 export type ExportProgress = {
   totalRows?: number
@@ -14,26 +15,21 @@ export type ImportProgress = {
 }
 
 export async function exportDatabase(callback: (exportProgress: ExportProgress) => boolean) {
-  const [pako, { saveAs }] = await Promise.all([import('pako'), import('file-saver'), import('dexie-export-import')])
+  callback({ completedRows: 0, done: false })
 
-  const blob = await db.export({
-    progressCallback: ({ totalRows, completedRows, done }) => {
-      return callback({ totalRows, completedRows, done })
-    },
-  })
-  const [wordCount, chapterCount] = await Promise.all([db.wordRecords.count(), db.chapterRecords.count()])
+  const response = await fetch('/api/export/json')
+  if (!response.ok) throw new Error('The export failed')
+  const blob = await response.blob()
 
-  const json = await blob.text()
-  const compressed = pako.gzip(json)
-  const compressedBlob = new Blob([compressed])
-  const currentDate = getCurrentDate()
-  saveAs(compressedBlob, `Qwerty-Learner-User-Data-${currentDate}.gz`)
-  recordDataAction({ type: 'export', size: compressedBlob.size, wordCount, chapterCount })
+  const { saveAs } = await import('file-saver')
+  saveAs(blob, `Qwerty-Learner-User-Data-${getCurrentDate()}.gz`)
+  callback({ completedRows: 1, totalRows: 1, done: true })
+
+  const { chapterCount, wordCount } = await call('stats.summary')
+  recordDataAction({ type: 'export', size: blob.size, wordCount, chapterCount })
 }
 
 export async function importDatabase(onStart: () => void, callback: (importProgress: ImportProgress) => boolean) {
-  const [pako] = await Promise.all([import('pako'), import('dexie-export-import')])
-
   const input = document.createElement('input')
   input.type = 'file'
   input.accept = 'application/gzip'
@@ -43,23 +39,22 @@ export async function importDatabase(onStart: () => void, callback: (importProgr
 
     onStart()
 
-    const compressed = await file.arrayBuffer()
-    const json = pako.ungzip(compressed, { to: 'string' })
-    const blob = new Blob([json])
+    const response = await fetch('/api/import', { method: 'POST', body: file })
+    if (!response.ok) {
+      let message = 'The import failed'
+      try {
+        const body = (await response.json()) as { error?: { message?: string } }
+        if (body.error?.message) message = body.error.message
+      } catch {
+        // Keep the default message when the answer has no readable body
+      }
+      throw new Error(message)
+    }
 
-    await db.import(blob, {
-      acceptVersionDiff: true,
-      acceptMissingTables: true,
-      acceptNameDiff: false,
-      acceptChangedPrimaryKey: false,
-      overwriteValues: true,
-      clearTablesBeforeImport: true,
-      progressCallback: ({ totalRows, completedRows, done }) => {
-        return callback({ totalRows, completedRows, done })
-      },
-    })
+    emit('*')
+    callback({ completedRows: 1, totalRows: 1, done: true })
 
-    const [wordCount, chapterCount] = await Promise.all([db.wordRecords.count(), db.chapterRecords.count()])
+    const { chapterCount, wordCount } = await call('stats.summary')
     recordDataAction({ type: 'import', size: file.size, wordCount, chapterCount })
   })
 

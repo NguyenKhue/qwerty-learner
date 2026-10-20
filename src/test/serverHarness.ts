@@ -52,7 +52,7 @@ export async function installTestServer(): Promise<TestServer> {
 }
 
 /** Registers the hooks of a test suite: one server for the suite, emptied before every test. Returns a handle whose `db` is current. */
-export function useTestServer(): { readonly db: Db } {
+export function withTestServer(): { readonly db: Db } {
   let current: TestServer | null = null
   beforeAll(async () => {
     current = await installTestServer()

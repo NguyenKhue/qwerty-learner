@@ -1,33 +1,32 @@
+import * as reviewLog from '../../../server/repo/reviewLog'
+import * as wordRecords from '../../../server/repo/wordRecords'
 import { STREAK_WINDOW_DAYS, loadActivity } from './activity'
-import { db } from './database'
 import type { IWordRecord } from './record'
+import { withTestServer } from '@/test/serverHarness'
 import { addLocalDays } from '@/utils/srs/time'
-import { beforeEach, describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vitest'
 
 const NOW = new Date(2026, 9, 14, 15, 30).getTime()
 const at = (offset: number, hours: number) => {
   const d = new Date(addLocalDays(NOW, offset))
   return new Date(d.getFullYear(), d.getMonth(), d.getDate(), hours).getTime()
 }
-const review = (time: number) => db.reviewLog.add({ at: time, dict: 'd', word: 'w', kind: 'flashcard' })
-// Word records store epoch SECONDS
-const typed = (ms: number) =>
-  db.wordRecords.add({
-    word: 'w',
-    timeStamp: Math.floor(ms / 1000),
-    dict: 'd',
-    chapter: 0,
-    timing: [],
-    wrongCount: 0,
-    mistakes: {},
-  } as unknown as IWordRecord)
-
-beforeEach(async () => {
-  await db.reviewLog.clear()
-  await db.wordRecords.clear()
-})
 
 describe('loadActivity', () => {
+  const server = withTestServer()
+  const review = (time: number) => reviewLog.insert(server.db, { at: time, dict: 'd', word: 'w', kind: 'flashcard' })
+  // Word records store epoch SECONDS
+  const typed = (ms: number) =>
+    wordRecords.insert(server.db, {
+      word: 'w',
+      timeStamp: Math.floor(ms / 1000),
+      dict: 'd',
+      chapter: 0,
+      timing: [],
+      wrongCount: 0,
+      mistakes: {},
+    } as unknown as IWordRecord)
+
   it('is seven empty days and no streak for an empty database', async () => {
     const { week, streak } = await loadActivity(NOW)
     expect(week).toHaveLength(7)
@@ -55,7 +54,7 @@ describe('loadActivity', () => {
   it('looks back past the visible week for the streak and ignores activity older than the window', async () => {
     for (let i = 0; i < 20; i++) await review(at(-i, 9))
     expect((await loadActivity(NOW)).streak).toBe(20)
-    await db.reviewLog.clear()
+    server.db.exec('DELETE FROM review_log')
     await review(at(-(STREAK_WINDOW_DAYS + 5), 9))
     expect((await loadActivity(NOW)).streak).toBe(0)
   })

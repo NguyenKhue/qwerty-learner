@@ -1,5 +1,6 @@
-import { db } from '.'
 import { ReviewRecord } from './record'
+import { toReviewRecord } from '@/data/hydrate'
+import { call } from '@/data/rpc'
 import type { TErrorWordData } from '@/pages/Gallery-N/hooks/useErrorWords'
 import type { Word } from '@/typings'
 import { useEffect, useState } from 'react'
@@ -19,11 +20,8 @@ export function useGetLatestReviewRecord(dictID: string) {
 }
 
 async function getReviewRecords(dictID: string): Promise<ReviewRecord | undefined> {
-  const records = await db.reviewRecords.where('dict').equals(dictID).toArray()
-
-  const latestRecord = records.sort((a, b) => a.createTime - b.createTime).pop()
-
-  return latestRecord && (latestRecord.isFinished ? undefined : latestRecord)
+  const row = await call('reviews.latestUnfinished', dictID)
+  return row ? toReviewRecord(row) : undefined
 }
 
 type TRankedErrorWordData = TErrorWordData & {
@@ -58,11 +56,10 @@ export async function generateNewWordReviewRecord(dictID: string, errorData: TEr
     .map((item) => item.originData)
 
   const record = new ReviewRecord(dictID, sortedWords)
-
-  await db.reviewRecords.put(record)
+  record.id = await call('reviews.put', record)
   return record
 }
 
 export async function putWordReviewRecord(record: ReviewRecord) {
-  db.reviewRecords.put(record)
+  return call('reviews.put', record)
 }

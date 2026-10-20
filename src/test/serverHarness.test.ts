@@ -1,9 +1,9 @@
-import { useTestServer } from './serverHarness'
+import { withTestServer } from './serverHarness'
 import { call } from '@/data/rpc'
 import { describe, expect, it } from 'vitest'
 
 describe('the in-process test server', () => {
-  const server = useTestServer()
+  const server = withTestServer()
 
   it('answers the same calls the app makes, through the real server logic', async () => {
     await call('meta.set', 'k', 'v')

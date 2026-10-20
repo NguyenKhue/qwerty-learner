@@ -1,5 +1,10 @@
+import * as cardProgress from '../../../server/repo/cardProgress'
+import * as chapterRecords from '../../../server/repo/chapterRecords'
+import * as customDicts from '../../../server/repo/customDicts'
+import * as reviewLog from '../../../server/repo/reviewLog'
+import * as reviewRecords from '../../../server/repo/reviewRecords'
+import * as wordRecords from '../../../server/repo/wordRecords'
 import { getCustomDict } from './custom-dict'
-import { db } from './database'
 import {
   EXTRAS_VERSION,
   PERSONAL_RENAMES,
@@ -11,8 +16,9 @@ import {
   namesFlag,
 } from './personal-seed'
 import type { IWordRecord } from './record'
+import { withTestServer } from '@/test/serverHarness'
 import type { Word } from '@/typings'
-import { beforeEach, describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vitest'
 
 const BUILT_IN = 'myVocab'
 const input = (words: Word[] = []) => ({ builtInId: BUILT_IN, customId: 'myvocab', name: 'My Vocabulary', description: 'Mine', words })
@@ -39,18 +45,13 @@ const card = (dict: string, name: string, over: Record<string, unknown> = {}) =>
 const wordRecord = (dict: string) =>
   ({ word: 'w', timeStamp: 5, dict, chapter: 0, timing: [], wrongCount: 0, mistakes: {} } as unknown as IWordRecord)
 
-beforeEach(async () => {
-  await Promise.all([
-    db.customDicts.clear(),
-    db.cardProgress.clear(),
-    db.wordRecords.clear(),
-    db.chapterRecords.clear(),
-    db.reviewRecords.clear(),
-    db.reviewLog.clear(),
-  ])
-})
-
 describe('migratePersonalSet', () => {
+  const server = withTestServer()
+  const wordCount = (dict: string) =>
+    server.db.get<{ count: number }>('SELECT COUNT(*) AS count FROM word_records WHERE dict = ?', [dict])?.count ?? 0
+  const countIn = (table: string, dict: string) =>
+    server.db.get<{ count: number }>(`SELECT COUNT(*) AS count FROM ${table} WHERE dict = ?`, [dict])?.count ?? 0
+
   it('creates the editable set with the words and details, under a fixed id', async () => {
     const result = await migratePersonalSet(input([word('strict', 'Long text'), word('plain')]))
     expect(result.created).toBe(true)
@@ -61,18 +62,22 @@ describe('migratePersonalSet', () => {
   })
 
   it('moves the study progress to the new set and leaves nothing behind under the old id', async () => {
-    await db.cardProgress.bulkPut([card(BUILT_IN, 'strict', { reps: 7 }), card(BUILT_IN, 'plain'), card('cet4', 'other')])
+    cardProgress.put(server.db, card(BUILT_IN, 'strict', { reps: 7 }))
+    cardProgress.put(server.db, card(BUILT_IN, 'plain'))
+    cardProgress.put(server.db, card('cet4', 'other'))
     const result = await migratePersonalSet(input([word('strict'), word('plain')]))
     expect(result.cards).toBe(2)
-    expect(await db.cardProgress.where('dict').equals(BUILT_IN).count()).toBe(0)
-    const moved = await db.cardProgress.get(['custom:myvocab', 'strict'])
+    expect(cardProgress.byDict(server.db, BUILT_IN)).toHaveLength(0)
+    const moved = cardProgress.get(server.db, 'custom:myvocab', 'strict')
     expect(moved).toMatchObject({ dict: 'custom:myvocab', word: 'strict', reps: 7 })
-    expect(await db.cardProgress.get(['cet4', 'other'])).toBeDefined()
+    expect(cardProgress.get(server.db, 'cet4', 'other')).toBeDefined()
   })
 
   it('moves typing history, mistake reviews and the review log, and only those of this set', async () => {
-    await db.wordRecords.bulkAdd([wordRecord(BUILT_IN), wordRecord(BUILT_IN), wordRecord('cet4')])
-    await db.chapterRecords.add({
+    wordRecords.insert(server.db, wordRecord(BUILT_IN))
+    wordRecords.insert(server.db, wordRecord(BUILT_IN))
+    wordRecords.insert(server.db, wordRecord('cet4'))
+    chapterRecords.insert(server.db, {
       dict: BUILT_IN,
       chapter: 0,
       timeStamp: 1,
@@ -84,33 +89,36 @@ describe('migratePersonalSet', () => {
       wordNumber: 1,
       wordRecordIds: [],
     })
-    await db.reviewRecords.add({ dict: BUILT_IN, createTime: 1, isFinished: false } as never)
-    await db.reviewLog.add({ at: 1, dict: BUILT_IN, word: 'strict', kind: 'flashcard' })
+    reviewRecords.put(server.db, { dict: BUILT_IN, index: 0, createTime: 1, isFinished: false, words: [] })
+    reviewLog.insert(server.db, { at: 1, dict: BUILT_IN, word: 'strict', kind: 'flashcard' })
     const result = await migratePersonalSet(input([word('strict')]))
     expect(result).toMatchObject({ typedWords: 2, chapters: 1, reviews: 1, log: 1 })
-    expect(await db.wordRecords.where('dict').equals('custom:myvocab').count()).toBe(2)
-    expect(await db.wordRecords.where('dict').equals('cet4').count()).toBe(1)
-    expect(await db.chapterRecords.where('dict').equals('custom:myvocab').count()).toBe(1)
-    expect(await db.reviewRecords.where('dict').equals('custom:myvocab').count()).toBe(1)
-    expect(await db.reviewLog.where('dict').equals('custom:myvocab').count()).toBe(1)
-    expect(await db.wordRecords.where('dict').equals(BUILT_IN).count()).toBe(0)
+    expect(wordCount('custom:myvocab')).toBe(2)
+    expect(wordCount('cet4')).toBe(1)
+    expect(chapterRecords.byDict(server.db, 'custom:myvocab')).toHaveLength(1)
+    expect(countIn('review_records', 'custom:myvocab')).toBe(1)
+    expect(countIn('review_log', 'custom:myvocab')).toBe(1)
+    expect(wordCount(BUILT_IN)).toBe(0)
   })
 
   it("is safe to run again: it neither duplicates the set nor overwrites the user's edits", async () => {
     await migratePersonalSet(input([word('strict', 'Original')]))
-    await db.customDicts.update('myvocab', { words: [word('strict', 'My own edit'), word('added')] })
+    const existing = customDicts.get(server.db, 'myvocab')
+    if (!existing) throw new Error('the personal set was not created')
+    customDicts.replace(server.db, { ...existing, words: [word('strict', 'My own edit'), word('added')] })
     const again = await migratePersonalSet(input([word('strict', 'Original')]))
     expect(again.created).toBe(false)
-    expect(await db.customDicts.count()).toBe(1)
+    expect(customDicts.list(server.db)).toHaveLength(1)
     const record = await getCustomDict('myvocab')
     expect(record?.words.map((w) => w.detail ?? w.name)).toEqual(['My own edit', 'added'])
   })
 
   it('keeps the progress that already exists on the new set if a card is on both', async () => {
-    await db.cardProgress.bulkPut([card(BUILT_IN, 'strict', { reps: 1 }), card('custom:myvocab', 'strict', { reps: 9 })])
+    cardProgress.put(server.db, card(BUILT_IN, 'strict', { reps: 1 }))
+    cardProgress.put(server.db, card('custom:myvocab', 'strict', { reps: 9 }))
     await migratePersonalSet(input([word('strict')]))
-    expect((await db.cardProgress.get(['custom:myvocab', 'strict']))?.reps).toBe(9)
-    expect(await db.cardProgress.where('dict').equals(BUILT_IN).count()).toBe(0)
+    expect(cardProgress.get(server.db, 'custom:myvocab', 'strict')?.reps).toBe(9)
+    expect(cardProgress.byDict(server.db, BUILT_IN)).toHaveLength(0)
   })
 
   it('works on an empty database (a fresh install)', async () => {
@@ -133,6 +141,7 @@ describe('isPersonalSeedPending', () => {
 })
 
 describe('backfillPersonalExtras', () => {
+  withTestServer()
   const map = {
     strict: { detail: 'Long', examples: [{ text: 'Be strict.', trans: 'Hãy nghiêm.' }] },
     plain: { examples: [{ text: 'Plain.' }] },
@@ -180,6 +189,7 @@ describe('backfillPersonalExtras', () => {
 })
 
 describe('fixWordNames', () => {
+  const server = withTestServer()
   const DICT = 'custom:myvocab'
   const renames = [{ from: 'disclamer', to: 'disclaimer' }]
 
@@ -189,9 +199,9 @@ describe('fixWordNames', () => {
       examples: [{ text: 'A disclaimer.' }],
     }
     await migratePersonalSet(input([typo, word('other')]))
-    await db.cardProgress.put(card(DICT, 'disclamer', { reps: 5 }))
-    await db.reviewLog.add({ at: 1, dict: DICT, word: 'disclamer', kind: 'flashcard', grade: 'good' })
-    await db.wordRecords.add({ ...wordRecord(DICT), word: 'disclamer' })
+    cardProgress.put(server.db, card(DICT, 'disclamer', { reps: 5 }))
+    reviewLog.insert(server.db, { at: 1, dict: DICT, word: 'disclamer', kind: 'flashcard', grade: 'good' })
+    wordRecords.insert(server.db, { ...wordRecord(DICT), word: 'disclamer' })
 
     expect(await fixWordNames('myvocab', renames)).toBe(1)
 
@@ -199,19 +209,19 @@ describe('fixWordNames', () => {
     expect(words.map((w) => w.name)).toEqual(['disclaimer', 'other'])
     expect(words[0].detail).toBe('Disclaimer - Loại từ: Danh từ. Disclaimer là lời tuyên bố.')
     expect(words[0].examples).toEqual([{ text: 'A disclaimer.' }])
-    expect(await db.cardProgress.get([DICT, 'disclamer'])).toBeUndefined()
-    expect((await db.cardProgress.get([DICT, 'disclaimer']))?.reps).toBe(5)
-    expect((await db.reviewLog.toArray()).map((entry) => entry.word)).toEqual(['disclaimer'])
-    expect((await db.wordRecords.toArray()).map((entry) => entry.word)).toEqual(['disclaimer'])
+    expect(cardProgress.get(server.db, DICT, 'disclamer')).toBeNull()
+    expect(cardProgress.get(server.db, DICT, 'disclaimer')?.reps).toBe(5)
+    expect(reviewLog.since(server.db, 0).map((entry) => entry.word)).toEqual(['disclaimer'])
+    expect(wordRecords.between(server.db, 0, 10).map((entry) => entry.word)).toEqual(['disclaimer'])
   })
 
   it('merges into the correctly spelled word when both exist, keeping its card and adding what is new', async () => {
     const typo: Word = { ...word('disclamer'), trans: ['n. lời miễn trừ', 'n. extra'], examples: [{ text: 'Typo sentence.' }] }
     const right: Word = { ...word('disclaimer'), trans: ['n. lời miễn trừ'], examples: [{ text: 'Right sentence.' }] }
     await migratePersonalSet(input([typo, right]))
-    await db.cardProgress.put(card(DICT, 'disclamer', { reps: 1 }))
-    await db.cardProgress.put(card(DICT, 'disclaimer', { reps: 9 }))
-    await db.reviewLog.add({ at: 1, dict: DICT, word: 'disclamer', kind: 'quiz' })
+    cardProgress.put(server.db, card(DICT, 'disclamer', { reps: 1 }))
+    cardProgress.put(server.db, card(DICT, 'disclaimer', { reps: 9 }))
+    reviewLog.insert(server.db, { at: 1, dict: DICT, word: 'disclamer', kind: 'quiz' })
 
     expect(await fixWordNames('myvocab', renames)).toBe(1)
 
@@ -219,9 +229,9 @@ describe('fixWordNames', () => {
     expect(words.map((w) => w.name)).toEqual(['disclaimer'])
     expect(words[0].trans).toEqual(['n. lời miễn trừ', 'n. extra'])
     expect(words[0].examples).toEqual([{ text: 'Right sentence.' }, { text: 'Typo sentence.' }])
-    expect(await db.cardProgress.get([DICT, 'disclamer'])).toBeUndefined()
-    expect((await db.cardProgress.get([DICT, 'disclaimer']))?.reps).toBe(9)
-    expect((await db.reviewLog.toArray()).map((entry) => entry.word)).toEqual(['disclaimer'])
+    expect(cardProgress.get(server.db, DICT, 'disclamer')).toBeNull()
+    expect(cardProgress.get(server.db, DICT, 'disclaimer')?.reps).toBe(9)
+    expect(reviewLog.since(server.db, 0).map((entry) => entry.word)).toEqual(['disclaimer'])
   })
 
   it('does nothing when the misspelled word is not in the set, and is safe to run again', async () => {

@@ -1,13 +1,11 @@
-import { db } from './database'
 import type { LetterMistakes } from './record'
 import { ChapterRecord, WordRecord } from './record'
+import { call } from '@/data/rpc'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import type { TypingState } from '@/pages/Typing/store/type'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom } from '@/store'
 import { useAtomValue } from 'jotai'
 import { useCallback, useContext } from 'react'
-
-export { db }
 
 export function useSaveChapterRecord() {
   const currentChapter = useAtomValue(currentChapterAtom)
@@ -33,7 +31,7 @@ export function useSaveChapterRecord() {
         words.length,
         wordRecordIds ?? [],
       )
-      db.chapterRecords.add(chapterRecord)
+      call('chapters.add', chapterRecord).catch((error) => console.error(error))
     },
     [currentChapter, dictID, isRevision],
   )
@@ -75,7 +73,7 @@ export function useSaveWordRecord() {
 
       let dbID = -1
       try {
-        dbID = await db.wordRecords.add(wordRecord)
+        dbID = await call('words.add', wordRecord)
       } catch (e) {
         console.error(e)
       }
@@ -93,7 +91,7 @@ export function useSaveWordRecord() {
 export function useDeleteWordRecord() {
   const deleteWordRecord = useCallback(async (word: string, dict: string) => {
     try {
-      const deletedCount = await db.wordRecords.where({ word, dict }).delete()
+      const deletedCount = await call('words.deleteByWord', word, dict)
       return deletedCount
     } catch (error) {
       console.error(`Error while deleting word record:`, error)

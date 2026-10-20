@@ -1,8 +1,8 @@
 // @vitest-environment node
 import { openDb } from './adapter'
 import type { Db } from './adapter'
-import { MigrationError, createMigrationManager } from './migration'
-import type { MigrationManager } from './migration'
+import { createMigrationManager } from './migration'
+import type { MigrationError, MigrationManager } from './migration'
 import * as cardProgress from './repo/cardProgress'
 import * as chapterRecords from './repo/chapterRecords'
 import * as customDicts from './repo/customDicts'
