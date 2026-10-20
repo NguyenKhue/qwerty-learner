@@ -65,7 +65,10 @@
     "server:build": "esbuild server/cli.ts --bundle --platform=node --format=esm --target=node22 --alias:@=./src --outfile=dist-server/server.mjs --log-level=warning",
     "server:dev": "vite-node -c vitest.config.ts server/cli.ts",
     "dev:full": "node scripts/dev-full.mjs",
-    "data:copy-to-dev": "node --disable-warning=ExperimentalWarning scripts/data-copy-to-dev.mjs"
+    "data:copy-to-dev": "node --disable-warning=ExperimentalWarning scripts/data-copy-to-dev.mjs",
+    "stable:build": "node scripts/stable-build.mjs",
+    "stable:start": "node scripts/stable-start.mjs",
+    "stable:launchd": "node scripts/stable-launchd.mjs"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
