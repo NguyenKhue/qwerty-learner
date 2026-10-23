@@ -1,4 +1,5 @@
-import { createLiveRunner } from './useLive'
+import { DataError } from './rpc'
+import { createLiveRunner, retryDelay } from './useLive'
 import { describe, expect, it, vi } from 'vitest'
 
 /** Lets every pending promise reaction run (the spy library adds a few of its own). */
@@ -57,5 +58,18 @@ describe('createLiveRunner', () => {
     runner.refresh()
     await flush()
     expect(onValue).toHaveBeenCalledWith(2)
+  })
+})
+
+describe('retryDelay', () => {
+  it('asks again, with growing waits capped at 5 s, when the server could not be reached', () => {
+    expect(retryDelay(0, new DataError('UNREACHABLE', 'x'))).toBe(500)
+    expect(retryDelay(2, new TypeError('Failed to fetch'))).toBe(2000)
+    expect(retryDelay(10, new DataError('UNREACHABLE', 'x'))).toBe(5000)
+  })
+
+  it('does not ask again when the server answered with an error', () => {
+    expect(retryDelay(0, new DataError('BAD_REQUEST', 'x'))).toBeNull()
+    expect(retryDelay(0, new DataError('INTERNAL', 'x'))).toBeNull()
   })
 })

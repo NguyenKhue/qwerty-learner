@@ -9,9 +9,14 @@ type Listener = { topics: string[] | '*'; fn: () => void }
 type SourceLike = {
   onopen: (() => void) | null
   onerror: (() => void) | null
+  /** 2 = closed for good (the browser gave up reconnecting) */
+  readyState?: number
   addEventListener(name: string, fn: (event: { data: string }) => void): void
   close(): void
 }
+
+/** After the page was hidden this long (a sleeping computer, another tab) everything is read again when it comes back. */
+export const STALE_AFTER_MS = 10000
 
 const defaultFactory = (): SourceLike | null =>
   typeof EventSource === 'undefined' ? null : (new EventSource('/api/events') as unknown as SourceLike)
@@ -63,7 +68,33 @@ export function notifyLocal(topics: string[]) {
   Promise.resolve().then(() => emit(topics))
 }
 
+let hiddenAt: number | null = null
+let wakeListening = false
+
+/** The page is visible or online again: reopen a stream that died and read everything again if it may have missed changes. */
+export function refreshAfterWake(force = false) {
+  if (source && source.readyState === 2) {
+    source = null
+    connect()
+  }
+  const stale = hiddenAt !== null && Date.now() - hiddenAt >= STALE_AFTER_MS
+  hiddenAt = null
+  if (force || stale || state === 'down') emit('*')
+}
+
+function listenForWake() {
+  if (wakeListening || typeof document === 'undefined' || typeof window === 'undefined') return
+  wakeListening = true
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') hiddenAt = Date.now()
+    else refreshAfterWake()
+  })
+  window.addEventListener('online', () => refreshAfterWake(true))
+  window.addEventListener('pageshow', (event) => refreshAfterWake((event as PageTransitionEvent).persisted === true))
+}
+
 function connect() {
+  listenForWake()
   if (source) return
   const created = factory()
   if (!created) return
@@ -101,6 +132,7 @@ export function setEventSourceFactory(next: () => SourceLike) {
 export function __resetEventsForTests() {
   source?.close()
   source = null
+  hiddenAt = null
   state = 'connecting'
   factory = defaultFactory
   listeners.clear()

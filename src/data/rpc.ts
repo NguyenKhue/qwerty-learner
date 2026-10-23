@@ -2,6 +2,9 @@ import { topicsOf } from './contract'
 import type { DataErrorCode, ProcedureName, Procedures } from './contract'
 import { notifyLocal, reportReachable, reportUnreachable } from './events'
 
+/** A request that has no answer after this long is given up: after the computer sleeps a connection can hang for good. */
+export const REQUEST_TIMEOUT_MS = 15000
+
 const KNOWN_CODES: DataErrorCode[] = ['BAD_REQUEST', 'NOT_FOUND', 'CONFLICT', 'INTERNAL', 'UNREACHABLE']
 
 export class DataError extends Error {
@@ -24,15 +27,20 @@ export async function call<N extends ProcedureName>(name: N, ...args: Procedures
   while (sent.length > 0 && sent[sent.length - 1] === undefined) sent.pop()
 
   let response: Response
+  const controller = new AbortController()
+  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS)
   try {
     response = await fetch(`/api/rpc/${name}`, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ args: sent }),
+      signal: controller.signal,
     })
   } catch (error) {
     reportUnreachable()
     throw new DataError('UNREACHABLE', error instanceof Error ? error.message : 'The data server cannot be reached')
+  } finally {
+    clearTimeout(timer)
   }
   reportReachable()
 

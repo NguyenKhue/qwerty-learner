@@ -1,4 +1,5 @@
 import { subscribe } from './events'
+import { DataError } from './rpc'
 import { useEffect, useRef, useState } from 'react'
 
 /**
@@ -26,6 +27,12 @@ export function createLiveRunner<T>(query: () => Promise<T>, onValue: (value: T)
   }
 }
 
+/** How long to wait before asking again after a failed query, or null when asking again cannot help (the server answered with an error). */
+export function retryDelay(attempt: number, error: unknown): number | null {
+  if (error instanceof DataError && error.code !== 'UNREACHABLE') return null
+  return Math.min(5000, 500 * 2 ** attempt)
+}
+
 const sameDeps = (a: unknown[], b: unknown[]) => a.length === b.length && a.every((value, index) => Object.is(value, b[index]))
 
 /**
@@ -42,11 +49,27 @@ export function useLive<T>(query: () => Promise<T>, topics: string[], deps: unkn
       lastDeps.current = deps
       setValue(undefined)
     }
-    const runner = createLiveRunner(query, setValue)
+    // A query that could not reach the server (the computer just woke up) is asked again instead of leaving the screen loading forever
+    let attempt = 0
+    let timer: ReturnType<typeof setTimeout> | undefined
+    const runner = createLiveRunner(
+      query,
+      (answer) => {
+        attempt = 0
+        setValue(answer)
+      },
+      (error) => {
+        const delay = retryDelay(attempt++, error)
+        if (delay === null) return
+        clearTimeout(timer)
+        timer = setTimeout(runner.refresh, delay)
+      },
+    )
     runner.refresh()
     const stop = subscribe(topics, runner.refresh)
     return () => {
       stop()
+      clearTimeout(timer)
       runner.stop()
     }
     // The query and topics are described by `deps` and `topicKey`, as with useLiveQuery

@@ -1,4 +1,14 @@
-import { __resetEventsForTests, emit, getConnectionState, notifyLocal, onConnectionState, setEventSourceFactory, subscribe } from './events'
+import {
+  STALE_AFTER_MS,
+  __resetEventsForTests,
+  emit,
+  getConnectionState,
+  notifyLocal,
+  onConnectionState,
+  refreshAfterWake,
+  setEventSourceFactory,
+  subscribe,
+} from './events'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
 type Fake = {
@@ -121,6 +131,47 @@ describe('the live connection', () => {
     created[0].onerror?.()
     fn.mockClear()
     created[0].onopen?.()
+    expect(fn).toHaveBeenCalledTimes(1)
+  })
+})
+
+describe('refreshAfterWake', () => {
+  it('re-runs every subscriber after the page was hidden for a long time', () => {
+    vi.useFakeTimers()
+    try {
+      const fn = vi.fn()
+      subscribe(['cards:a'], fn)
+      Object.defineProperty(document, 'visibilityState', { value: 'hidden', configurable: true })
+      document.dispatchEvent(new Event('visibilitychange'))
+      vi.advanceTimersByTime(STALE_AFTER_MS + 1)
+      Object.defineProperty(document, 'visibilityState', { value: 'visible', configurable: true })
+      document.dispatchEvent(new Event('visibilitychange'))
+      expect(fn).toHaveBeenCalledTimes(1)
+    } finally {
+      vi.useRealTimers()
+    }
+  })
+
+  it('does not re-run anything after a short absence while the connection is fine', () => {
+    const fn = vi.fn()
+    subscribe(['cards:a'], fn)
+    created[0].onopen?.()
+    refreshAfterWake()
+    expect(fn).not.toHaveBeenCalled()
+  })
+
+  it('opens a new stream when the old one was closed for good', () => {
+    subscribe(['cards:a'], vi.fn())
+    ;(created[0] as unknown as { readyState: number }).readyState = 2
+    refreshAfterWake()
+    expect(created).toHaveLength(2)
+  })
+
+  it('re-runs when the connection is marked down', () => {
+    const fn = vi.fn()
+    subscribe(['cards:a'], fn)
+    created[0].onerror?.()
+    refreshAfterWake()
     expect(fn).toHaveBeenCalledTimes(1)
   })
 })
