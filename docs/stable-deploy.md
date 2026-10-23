@@ -80,6 +80,8 @@ yarn stable:build --ref <branch or tag>
 launchctl kickstart -k gui/$(id -u)/vn.khue.qwerty-learner
 ```
 
+Shortcut for the usual case (builds `feat/study-modes` and restarts the launchd service): `yarn stable:update`.
+
 The data folder is never touched by a build. `~/stable/qwerty/VERSION` says which commit is installed.
 
 ## 5. Backups and restoring

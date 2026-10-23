@@ -68,7 +68,8 @@
     "data:copy-to-dev": "node --disable-warning=ExperimentalWarning scripts/data-copy-to-dev.mjs",
     "stable:build": "node scripts/stable-build.mjs",
     "stable:start": "node scripts/stable-start.mjs",
-    "stable:launchd": "node scripts/stable-launchd.mjs"
+    "stable:launchd": "node scripts/stable-launchd.mjs",
+    "stable:update": "node scripts/stable-build.mjs --ref feat/study-modes && launchctl kickstart -k gui/$(id -u)/vn.khue.qwerty-learner"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
