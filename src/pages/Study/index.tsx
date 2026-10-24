@@ -3,6 +3,9 @@ import StudySession from './StudySession'
 import type { SessionSummary } from './StudySession'
 import { InlineLoading } from '@/components/Loading'
 import { ModeFrame, PageMessage } from '@/components/ModePage'
+import { subscribe } from '@/data/events'
+import { DataError } from '@/data/rpc'
+import { retryDelay } from '@/data/useLive'
 import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { customDictionariesLoadedAtom, dictionaryByIdAtom, isCustomDictPending, lookupDictionary } from '@/store/customDicts'
 import { extraNewCardsAtom, newCardsPerDayAtom, studyReverseAtom } from '@/store/study'
@@ -51,6 +54,8 @@ function Study({ id }: { id: string }) {
   const { data: extrasMap } = useSWR((dict ? sidecarUrlOf(dict) : undefined) ?? null, fetchWordExtras)
   const [progress, setProgress] = useState<ICardProgress[] | null>(null)
   const [progressError, setProgressError] = useState('')
+  // Counts the failed reads in a row so that every failure schedules the next try, even when its message is the same
+  const [failures, setFailures] = useState(0)
   const [now, setNow] = useState(() => Date.now())
   const [queue, setQueue] = useState<QueueItem[] | null>(null)
   const [summary, setSummary] = useState<SessionSummary | null>(null)
@@ -67,14 +72,25 @@ function Study({ id }: { id: string }) {
       setHardToday(hard)
       setNow(Date.now())
       setProgressError('')
+      setFailures(0)
     } catch (e) {
       setProgressError(e instanceof Error ? e.message : 'Could not read your progress')
+      setFailures((n) => n + 1)
     }
   }, [id])
 
   useEffect(() => {
     reloadProgress()
   }, [reloadProgress])
+
+  // After the computer sleeps the first read can fail: ask again instead of leaving the page on an error, and read again when the page
+  // wakes up ('*' is announced then) or when another tab changed this set's cards
+  useEffect(() => {
+    if (failures === 0) return
+    const timer = window.setTimeout(reloadProgress, retryDelay(failures - 1, new DataError('UNREACHABLE', '')) ?? 5000)
+    return () => window.clearTimeout(timer)
+  }, [failures, reloadProgress])
+  useEffect(() => subscribe(['cards:' + id, 'reviewLog'], reloadProgress), [id, reloadProgress])
 
   // Keep the overview's idea of "now" current: when the next card becomes due, at midnight, and when the tab becomes visible again
   useEffect(() => {
