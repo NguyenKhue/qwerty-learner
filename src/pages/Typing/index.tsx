@@ -67,7 +67,7 @@ const App: React.FC = () => {
   }, [state.chapterData.words])
 
   useEffect(() => {
-    if (!state.isTyping) {
+    if (!state.isTyping && !state.isFinished) {
       const onKeyDown = (e: KeyboardEvent) => {
         if (!isLoading && e.key !== 'Enter' && (isLegal(e.key) || e.key === ' ') && !e.altKey && !e.ctrlKey && !e.metaKey) {
           e.preventDefault()
@@ -78,7 +78,7 @@ const App: React.FC = () => {
 
       return () => window.removeEventListener('keydown', onKeyDown)
     }
-  }, [state.isTyping, isLoading, dispatch])
+  }, [state.isTyping, state.isFinished, isLoading, dispatch])
 
   useEffect(() => {
     if (words !== undefined) {

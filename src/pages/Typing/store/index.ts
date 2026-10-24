@@ -108,10 +108,13 @@ export const typingReducer = (state: TypingState, action: TypingStateAction) => 
       state.isShowSkip = action.payload
       break
     case TypingStateActionType.SET_IS_TYPING:
+      // A finished chapter stays stopped: a key pressed on the result screen must not start its timer again
+      if (state.isFinished && action.payload) break
       state.isTyping = action.payload
       break
 
     case TypingStateActionType.TOGGLE_IS_TYPING:
+      if (state.isFinished && !state.isTyping) break
       state.isTyping = !state.isTyping
       break
     case TypingStateActionType.REPORT_CORRECT_WORD: {
@@ -189,6 +192,7 @@ export const typingReducer = (state: TypingState, action: TypingStateAction) => 
       state.isTransVisible = !state.isTransVisible
       break
     case TypingStateActionType.TICK_TIMER: {
+      if (state.isFinished) break
       const increment = action.addTime === undefined ? 1 : action.addTime
       const newTime = state.timerData.time + increment
       const inputSum =
