@@ -1,0 +1,7 @@
+{
+  "events": [
+    { "tStartMs": 1000, "dDurationMs": 3000, "segs": [{ "utf8": "Hello everyone. Thanks for\ncoming today." }] },
+    { "tStartMs": 4500, "dDurationMs": 2000, "segs": [{ "utf8": "Mr. Smith will start." }] },
+    { "tStartMs": 7000, "dDurationMs": 2000, "segs": [{ "utf8": "[Applause] Is that okay? Yes." }] }
+  ]
+}

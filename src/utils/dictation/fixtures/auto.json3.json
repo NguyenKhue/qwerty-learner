@@ -1,0 +1,59 @@
+{
+  "wireMagic": "pb3",
+  "events": [
+    { "tStartMs": 0, "dDurationMs": 20000, "id": 1, "wpWinPosId": 1, "wsWinStyleId": 1 },
+    { "tStartMs": 0, "dDurationMs": 1500, "wWinId": 1, "segs": [{ "utf8": "[Music]" }] },
+    {
+      "tStartMs": 2000,
+      "dDurationMs": 3000,
+      "wWinId": 1,
+      "segs": [
+        { "utf8": "so", "acAsrConf": 0 },
+        { "utf8": " today", "tOffsetMs": 300 },
+        { "utf8": " we're", "tOffsetMs": 600 },
+        { "utf8": " going", "tOffsetMs": 900 },
+        { "utf8": " to", "tOffsetMs": 1100 },
+        { "utf8": " talk", "tOffsetMs": 1300 },
+        { "utf8": " about", "tOffsetMs": 1600 }
+      ]
+    },
+    { "tStartMs": 3650, "dDurationMs": 50, "wWinId": 1, "aAppend": 1, "segs": [{ "utf8": "\n" }] },
+    {
+      "tStartMs": 3700,
+      "dDurationMs": 2500,
+      "wWinId": 1,
+      "segs": [
+        { "utf8": "talk" },
+        { "utf8": " about", "tOffsetMs": 200 },
+        { "utf8": " how", "tOffsetMs": 400 },
+        { "utf8": " memory", "tOffsetMs": 700 },
+        { "utf8": " works", "tOffsetMs": 1100 }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 2000,
+      "wWinId": 1,
+      "segs": [
+        { "utf8": "and" },
+        { "utf8": " why", "tOffsetMs": 300 },
+        { "utf8": " we", "tOffsetMs": 500 },
+        { "utf8": " forget", "tOffsetMs": 700 },
+        { "utf8": " things", "tOffsetMs": 1000 }
+      ]
+    },
+    {
+      "tStartMs": 8500,
+      "dDurationMs": 2000,
+      "wWinId": 1,
+      "segs": [
+        { "utf8": "and" },
+        { "utf8": " why", "tOffsetMs": 300 },
+        { "utf8": " we", "tOffsetMs": 500 },
+        { "utf8": " forget", "tOffsetMs": 700 },
+        { "utf8": " things", "tOffsetMs": 1000 }
+      ]
+    },
+    { "tStartMs": 11000, "dDurationMs": 1000, "wWinId": 1, "segs": [{ "utf8": "♪" }] }
+  ]
+}
