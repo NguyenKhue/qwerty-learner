@@ -97,4 +97,17 @@ describe('the dictation service', () => {
     await service.idle()
     expect(tools.calls).toEqual([])
   })
+
+  it('gives each Vietnamese line, whole, to the sentence it overlaps most', async () => {
+    const lines = {
+      events: [
+        { tStartMs: 1900, dDurationMs: 4000, segs: [{ utf8: 'hôm nay ta nói về trí nhớ' }] },
+        { tStartMs: 7800, dDurationMs: 2700, segs: [{ utf8: 'và vì sao ta quên' }] },
+      ],
+    }
+    const { db, service } = setup({ info, files: { 'en.json3': JSON.stringify(auto), 'vi.json3': JSON.stringify(lines) } })
+    service.prepare(ID)
+    await service.idle()
+    expect(getVideo(db, ID)?.sentences.map((s) => s.vi)).toEqual(['hôm nay ta nói về trí nhớ', 'và vì sao ta quên'])
+  })
 })

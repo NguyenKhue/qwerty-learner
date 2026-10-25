@@ -174,3 +174,40 @@ export function parseVtt(text: string): TimedWord[] {
 export function parseSubtitles(text: string, format: 'json3' | 'vtt'): TimedWord[] {
   return format === 'vtt' ? parseVtt(text) : parseJson3(text)
 }
+
+/** One subtitle line and when it is shown, in milliseconds. */
+export type Cue = { startMs: number; endMs: number; text: string }
+
+/** Reads subtitles as whole lines (for a translation track, whose words do not line up with the English words). */
+export function parseCues(text: string, format: 'json3' | 'vtt'): Cue[] {
+  const cues: Cue[] = []
+  const push = (startMs: number, endMs: number, raw: string) => {
+    const line = raw.replace(/\s+/g, ' ').trim()
+    if (line !== '' && endMs > startMs) cues.push({ startMs, endMs, text: line })
+  }
+  if (format === 'json3') {
+    const data = JSON.parse(text) as { events?: unknown }
+    if (!data || !Array.isArray(data.events)) throw new Error('Not a json3 subtitle file')
+    for (const event of data.events as Json3Event[]) {
+      if (!event || !Array.isArray(event.segs)) continue
+      const base = num(event.tStartMs)
+      push(base, base + num(event.dDurationMs), (event.segs as Seg[]).map((seg) => (typeof seg.utf8 === 'string' ? seg.utf8 : '')).join(''))
+    }
+    return cues
+  }
+  const normalized = text.replace(/\r\n?/g, '\n')
+  if (!normalized.trimStart().startsWith('WEBVTT')) throw new Error('Not a WebVTT subtitle file')
+  const rolling = INLINE_TIME.test(normalized)
+  for (const block of normalized.split(/\n{2,}/)) {
+    const lines = block.split('\n')
+    const timingIndex = lines.findIndex((line) => TIMING.test(line))
+    if (timingIndex === -1) continue
+    const [, from, to] = TIMING.exec(lines[timingIndex]) as RegExpExecArray
+    const startMs = toMs(from)
+    const endMs = toMs(to)
+    const textLines = lines.slice(timingIndex + 1).filter((line) => line.trim() !== '')
+    if (textLines.length === 0 || (rolling && endMs - startMs <= FLASH_MS)) continue
+    push(startMs, endMs, stripTags(rolling ? textLines[textLines.length - 1] : textLines.join(' ')))
+  }
+  return cues
+}

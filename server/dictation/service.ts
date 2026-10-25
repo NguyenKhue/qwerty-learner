@@ -4,7 +4,7 @@ import type { RunTool } from './tools'
 import { translateBatches } from './translate'
 import { DictationFailure, fetchSubtitles } from './youtube'
 import type { SubtitleFile } from './youtube'
-import { parseSubtitles } from '@/utils/dictation/captions'
+import { parseCues, parseSubtitles } from '@/utils/dictation/captions'
 import { buildSentences } from '@/utils/dictation/sentences'
 import type { DictationSentence, DictationStatus } from '@/utils/dictation/types'
 import { isVideoId } from '@/utils/dictation/videoId'
@@ -22,24 +22,32 @@ type Step = NonNullable<DictationStatus['step']>
 
 const TRANSLATION_NOTE = 'Some sentences have no Vietnamese: the translation with the Claude CLI failed or is not available.'
 
-/** Gives each sentence the words of YouTube's Vietnamese track that start while it is spoken. */
+/** Gives each line of YouTube's Vietnamese track, whole, to the sentence it overlaps most in time. */
 function attachYoutubeVietnamese(sentences: DictationSentence[], vi: SubtitleFile): void {
-  let words
+  let cues
   try {
-    words = parseSubtitles(vi.text, vi.format)
+    cues = parseCues(vi.text, vi.format)
   } catch {
     return
   }
-  for (const sentence of sentences) {
-    const text = words
-      .filter((w) => w.startMs >= sentence.start * 1000 && w.startMs < sentence.end * 1000)
-      .map((w) => w.text)
-      .join(' ')
-    if (text !== '') {
-      sentence.vi = text
-      sentence.viSource = 'youtube'
-    }
+  const parts: string[][] = sentences.map(() => [])
+  for (const cue of cues) {
+    let best = -1
+    let bestOverlap = 0
+    sentences.forEach((sentence, i) => {
+      const overlap = Math.min(cue.endMs, sentence.end * 1000) - Math.max(cue.startMs, sentence.start * 1000)
+      if (overlap > bestOverlap) {
+        bestOverlap = overlap
+        best = i
+      }
+    })
+    if (best !== -1) parts[best].push(cue.text)
   }
+  sentences.forEach((sentence, i) => {
+    if (parts[i].length === 0) return
+    sentence.vi = parts[i].join(' ')
+    sentence.viSource = 'youtube'
+  })
 }
 
 /**

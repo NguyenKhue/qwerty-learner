@@ -1,4 +1,4 @@
-import { parseJson3, parseSubtitles, parseVtt } from './captions'
+import { parseCues, parseJson3, parseSubtitles, parseVtt } from './captions'
 import auto from './fixtures/auto.json3.json'
 import manual from './fixtures/manual.json3.json'
 import { readFileSync } from 'node:fs'
@@ -60,5 +60,15 @@ describe('parseSubtitles', () => {
   it('reads either format', () => {
     expect(parseSubtitles(fixture('auto.vtt'), 'vtt').map((w) => w.text)).toEqual(texts(auto))
     expect(parseSubtitles(JSON.stringify(auto), 'json3').map((w) => w.text)).toEqual(texts(auto))
+  })
+})
+
+describe('parseCues', () => {
+  it('reads whole subtitle lines with their times, in either format', () => {
+    expect(parseCues(fixture('manual.vtt'), 'vtt')).toEqual([
+      { startMs: 1000, endMs: 4000, text: 'Hello everyone. Thanks for coming today.' },
+      { startMs: 4500, endMs: 6500, text: "Mr. Smith & I won't be late." },
+    ])
+    expect(parseCues(JSON.stringify(manual), 'json3')[1]).toEqual({ startMs: 4500, endMs: 6500, text: 'Mr. Smith will start.' })
   })
 })
