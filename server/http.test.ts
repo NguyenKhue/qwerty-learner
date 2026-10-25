@@ -347,7 +347,7 @@ describe('health', () => {
     const initial = (await get('/api/health')).json as Health
     expect(initial).toMatchObject({
       ok: true,
-      schemaVersion: 1,
+      schemaVersion: 2,
       role: 'dev',
       dataDir: dir,
       dbBytes: 0,

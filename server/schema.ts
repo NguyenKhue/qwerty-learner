@@ -1,10 +1,10 @@
 import type { Db } from './adapter'
 
 /** The schema version this server knows; `PRAGMA user_version` holds the version of a file. */
-export const SCHEMA_VERSION = 1
+export const SCHEMA_VERSION = 2
 
 /** Version 1: every table and index of the app's data. */
-const SCHEMA_V1 = `
+export const SCHEMA_V1 = `
   CREATE TABLE word_records (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     word TEXT NOT NULL,
@@ -88,6 +88,32 @@ const SCHEMA_V1 = `
   );
 `
 
+/** Version 2: the dictation cache (a prepared video and its sentences) and the learner's progress in each video. */
+const MIGRATE_V1_TO_V2 = `
+  CREATE TABLE video_cache (
+    id TEXT PRIMARY KEY,
+    title TEXT NOT NULL,
+    channel TEXT NOT NULL,
+    duration_sec REAL NOT NULL,
+    subtitle_kind TEXT NOT NULL,
+    prepared_at INTEGER NOT NULL,
+    note TEXT,
+    sentences TEXT NOT NULL
+  );
+
+  CREATE TABLE video_progress (
+    video_id TEXT PRIMARY KEY,
+    position INTEGER NOT NULL,
+    correct INTEGER NOT NULL,
+    wrong INTEGER NOT NULL,
+    finished INTEGER NOT NULL,
+    updated_at INTEGER NOT NULL
+  );
+`
+
+/** Forward-only steps: entry `n` moves a database from version `n` to `n + 1`. */
+const MIGRATIONS: Record<number, string> = { 1: MIGRATE_V1_TO_V2 }
+
 /**
  * Creates the tables of a fresh database and moves an older one forward.
  * A file written by a newer server is refused with `NEWER_SCHEMA`.
@@ -96,13 +122,13 @@ export function ensureSchema(db: Db): void {
   const version = db.get<{ user_version: number }>('PRAGMA user_version')?.user_version ?? 0
   if (version > SCHEMA_VERSION) throw new Error('NEWER_SCHEMA')
   if (version === SCHEMA_VERSION) return
-  if (version === 0) {
-    db.transaction(() => {
+  db.transaction(() => {
+    let current = version
+    if (current === 0) {
       db.exec(SCHEMA_V1)
-      db.exec(`PRAGMA user_version = ${SCHEMA_VERSION}`)
-    })
-    return
-  }
-  // forward-only migrations for versions 1..SCHEMA_VERSION-1 belong here, one transaction each
-  throw new Error('NEWER_SCHEMA')
+      current = 1
+    }
+    for (; current < SCHEMA_VERSION; current++) db.exec(MIGRATIONS[current])
+    db.exec(`PRAGMA user_version = ${SCHEMA_VERSION}`)
+  })
 }
