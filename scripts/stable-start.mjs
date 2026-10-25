@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Usage: yarn stable:start
 // Starts the installed stable server with the settings in ~/.config/qwerty-learner/stable.json (see docs/stable-deploy.md).
-import { parseStableConfig, stableConfigPath } from './lib/stable.mjs'
+import { parseStableConfig, stableConfigPath, toolArgs } from './lib/stable.mjs'
 import { spawn } from 'node:child_process'
 import { existsSync, readFileSync } from 'node:fs'
 import { homedir } from 'node:os'
@@ -39,6 +39,7 @@ const child = spawn(
     String(config.port),
     '--static',
     site,
+    ...toolArgs(config),
   ],
   { cwd: config.installDir, stdio: 'inherit' },
 )

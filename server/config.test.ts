@@ -66,3 +66,22 @@ describe('parseConfig errors', () => {
     expect(() => parse(['stray'])).toThrow(ConfigError)
   })
 })
+
+describe('parseConfig for the dictation tools', () => {
+  it('leaves the tool paths unset by default, so the server looks them up on the PATH', () => {
+    expect(parse([]).ytDlp).toBeUndefined()
+    expect(parse([]).claude).toBeUndefined()
+  })
+
+  it('takes the tool paths from the flags or the environment, the flag winning', () => {
+    expect(parse(['--yt-dlp', '/opt/homebrew/bin/yt-dlp', '--claude', '/Users/me/.local/bin/claude'])).toMatchObject({
+      ytDlp: '/opt/homebrew/bin/yt-dlp',
+      claude: '/Users/me/.local/bin/claude',
+    })
+    expect(parse([], { QWERTY_YT_DLP: '/env/yt-dlp', QWERTY_CLAUDE: '/env/claude' })).toMatchObject({
+      ytDlp: '/env/yt-dlp',
+      claude: '/env/claude',
+    })
+    expect(parse(['--yt-dlp', '/flag/yt-dlp'], { QWERTY_YT_DLP: '/env/yt-dlp' }).ytDlp).toBe('/flag/yt-dlp')
+  })
+})

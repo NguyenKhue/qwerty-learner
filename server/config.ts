@@ -1,7 +1,15 @@
 import type { Role } from './folder'
 import { isAbsolute, relative, resolve, sep } from 'node:path'
 
-export type Config = { role: Role; dir: string; port: number; staticDir: string | undefined }
+export type Config = {
+  role: Role
+  dir: string
+  port: number
+  staticDir: string | undefined
+  /** The yt-dlp and claude commands for dictation; unset means they are looked up on the PATH. */
+  ytDlp?: string
+  claude?: string
+}
 
 /** A problem with the start arguments, worded for the person who started the server. */
 export class ConfigError extends Error {
@@ -12,7 +20,7 @@ export class ConfigError extends Error {
 }
 
 const DEFAULT_PORT: Record<Role, number> = { dev: 5180, stable: 4173 }
-const FLAGS = ['--role', '--data', '--port', '--static']
+const FLAGS = ['--role', '--data', '--port', '--static', '--yt-dlp', '--claude']
 
 function isInside(child: string, parent: string): boolean {
   const path = relative(parent, child)
@@ -58,5 +66,7 @@ export function parseConfig(argv: string[], env: Record<string, string | undefin
   }
 
   const staticDir = values['--static'] === undefined ? undefined : resolve(opts.cwd, values['--static'])
-  return { role, dir, port, staticDir }
+  const ytDlp = values['--yt-dlp'] ?? env.QWERTY_YT_DLP
+  const claude = values['--claude'] ?? env.QWERTY_CLAUDE
+  return { role, dir, port, staticDir, ...(ytDlp ? { ytDlp } : {}), ...(claude ? { claude } : {}) }
 }

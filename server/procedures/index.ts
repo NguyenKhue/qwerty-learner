@@ -1,4 +1,5 @@
 import { handlers as cardsHandlers } from './cards'
+import { handlers as dictationHandlers } from './dictation'
 import { handlers as metaHandlers } from './meta'
 import { handlers as personalHandlers } from './personal'
 import { handlers as reviewsHandlers } from './reviews'
@@ -18,4 +19,5 @@ export const handlers: Partial<Record<ProcedureName, Handler>> = {
   ...typingHandlers,
   ...reviewsHandlers,
   ...metaHandlers,
+  ...dictationHandlers,
 }

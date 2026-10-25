@@ -1,7 +1,8 @@
 import type { Db } from '../adapter'
+import type { DictationService } from '../dictation/service'
 
-/** Everything a handler needs: the database and the clock (the browser sends its own times). */
-export type Ctx = { db: Db; now: () => number }
+/** Everything a handler needs: the database, the clock (the browser sends its own times) and the dictation jobs. */
+export type Ctx = { db: Db; now: () => number; dictation?: DictationService }
 
 /** A procedure handler: validates the raw arguments and returns the result of the contract. */
 export type Handler = (ctx: Ctx, args: unknown[]) => unknown

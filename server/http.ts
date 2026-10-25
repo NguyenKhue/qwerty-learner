@@ -1,4 +1,5 @@
 import type { Db } from './adapter'
+import type { DictationService } from './dictation/service'
 import { createEventHub } from './events'
 import { exportDexieJson, importDexieJson, snapshotDb } from './exchange'
 import type { Role } from './folder'
@@ -22,6 +23,8 @@ export type AppDeps = {
   now?: () => number
   heartbeatMs?: number
   procedures?: Partial<Record<ProcedureName, Handler>>
+  /** Builds the dictation jobs; it receives the function that announces live-update topics. */
+  createDictation?: (publish: (topics: string[]) => void) => DictationService
 }
 
 export type App = {
@@ -147,6 +150,7 @@ export function createApp(deps: AppDeps): App {
   const procedures = deps.procedures ?? handlers
   const hub = createEventHub({ heartbeatMs: deps.heartbeatMs })
   const migration = createMigrationManager({ db, dir, now })
+  const dictation = deps.createDictation?.((topics) => hub.publish(topics))
 
   /** Calls a procedure and maps its outcome to the contract's HTTP answer. */
   async function handleRpc(req: IncomingMessage, res: ServerResponse, name: string): Promise<void> {
@@ -181,7 +185,7 @@ export function createApp(deps: AppDeps): App {
 
     let result: unknown
     try {
-      result = await handler({ db, now }, args)
+      result = await handler({ db, now, dictation }, args)
     } catch (error) {
       if (error instanceof ProcedureError) sendError(res, STATUS[error.code], error.code, error.message)
       else sendError(res, STATUS.INTERNAL, 'INTERNAL', messageOf(error))

@@ -130,3 +130,22 @@ describe('swapInto', () => {
     expect(readFileSync(join(install, 'site', 'index.html'), 'utf8')).toBe('one')
   })
 })
+
+describe('the dictation tool paths in the stable settings', () => {
+  it('expands ~/ and refuses a relative path', () => {
+    expect(parseStableConfig(JSON.stringify({ dataDir: '/d', ytDlpPath: '~/bin/yt-dlp', claudePath: '/c/claude' }), HOME)).toMatchObject({
+      ytDlpPath: `${HOME}/bin/yt-dlp`,
+      claudePath: '/c/claude',
+    })
+    expect(() => parseStableConfig(JSON.stringify({ dataDir: '/d', ytDlpPath: 'bin/yt-dlp' }), HOME)).toThrow(/ytDlpPath/)
+    expect(() => parseStableConfig(JSON.stringify({ dataDir: '/d', claudePath: 5 }), HOME)).toThrow(/claudePath/)
+  })
+
+  it('passes the tool paths to the server only when they are set', () => {
+    const base = { nodePath: '/n', installDir: '/i', dataDir: '/d', port: 4173, logPath: '/l' }
+    expect(buildPlist(base)).not.toContain('--yt-dlp')
+    const plist = buildPlist({ ...base, ytDlpPath: '/opt/homebrew/bin/yt-dlp', claudePath: '/u/claude' })
+    expect(plist).toContain('<string>--yt-dlp</string>\n    <string>/opt/homebrew/bin/yt-dlp</string>')
+    expect(plist).toContain('<string>--claude</string>\n    <string>/u/claude</string>')
+  })
+})

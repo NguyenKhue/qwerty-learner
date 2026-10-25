@@ -37,15 +37,29 @@ export function parseStableConfig(text, home) {
   if (path === '' || (!path.startsWith('..') && !isAbsolute(path))) {
     throw new Error('"dataDir" must not be inside the install folder: an update would replace it')
   }
-  return { dataDir: resolve(dataDir), port, installDir }
+  const tool = (key) => {
+    const value = raw[key]
+    if (value === undefined) return undefined
+    const path = typeof value === 'string' ? expandHome(value, home) : ''
+    if (!isAbsolute(path)) throw new Error(`"${key}" must be an absolute path (or start with ~/)`)
+    return path
+  }
+  const ytDlpPath = tool('ytDlpPath')
+  const claudePath = tool('claudePath')
+  return { dataDir: resolve(dataDir), port, installDir, ...(ytDlpPath ? { ytDlpPath } : {}), ...(claudePath ? { claudePath } : {}) }
 }
 
 function escapeXml(text) {
   return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 }
 
+/** The server flags for the dictation tools that the stable settings name (launchd starts the server with a minimal PATH). */
+export function toolArgs({ ytDlpPath, claudePath }) {
+  return [...(ytDlpPath ? ['--yt-dlp', ytDlpPath] : []), ...(claudePath ? ['--claude', claudePath] : [])]
+}
+
 /** The launchd file that starts the stable server at login and starts it again if it stops with an error. */
-export function buildPlist({ nodePath, installDir, dataDir, port, label = PLIST_LABEL, logPath }) {
+export function buildPlist({ nodePath, installDir, dataDir, port, label = PLIST_LABEL, logPath, ytDlpPath, claudePath }) {
   const args = [
     nodePath,
     '--disable-warning=ExperimentalWarning',
@@ -58,6 +72,7 @@ export function buildPlist({ nodePath, installDir, dataDir, port, label = PLIST_
     String(port),
     '--static',
     join(installDir, 'site'),
+    ...toolArgs({ ytDlpPath, claudePath }),
   ]
   const items = args.map((argument) => `    <string>${escapeXml(argument)}</string>`).join('\n')
   return `<?xml version="1.0" encoding="UTF-8"?>

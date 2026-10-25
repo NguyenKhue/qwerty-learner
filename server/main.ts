@@ -1,4 +1,6 @@
 import type { Config } from './config'
+import { createDictationService } from './dictation/service'
+import { runTool } from './dictation/tools'
 import { openFolder, runBackups } from './folder'
 import type { Role } from './folder'
 import { startServer } from './http'
@@ -39,6 +41,14 @@ export async function start(
       staticDir: config.staticDir,
       now,
       port: config.port,
+      createDictation: (publish) =>
+        createDictationService({
+          db: folder.db,
+          runTool,
+          tools: { ytDlp: config.ytDlp ?? 'yt-dlp', claude: config.claude ?? 'claude' },
+          publish,
+          now,
+        }),
     })
     const timer = setInterval(backup, opts.backupEveryMs ?? HOUR_MS)
     timer.unref()
