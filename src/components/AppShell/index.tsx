@@ -13,6 +13,7 @@ import IconCards from '~icons/tabler/cards'
 import IconChevronDown from '~icons/tabler/chevron-down'
 import IconDots from '~icons/tabler/dots'
 import IconFolders from '~icons/tabler/folders'
+import IconHeadphones from '~icons/tabler/headphones'
 import IconHome from '~icons/tabler/home'
 import IconInfoCircle from '~icons/tabler/info-circle'
 import IconKeyboard from '~icons/tabler/keyboard'
@@ -28,6 +29,7 @@ const ICONS: Record<NavItem['icon'], typeof IconHome> = {
   quiz: IconListCheck,
   match: IconPuzzle,
   sentences: IconAlignLeft,
+  dictation: IconHeadphones,
   sets: IconFolders,
   library: IconBooks,
 }

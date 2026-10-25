@@ -29,6 +29,7 @@ const StudyPage = lazy(() => import('./pages/Study'))
 const QuizPage = lazy(() => import('./pages/Quiz'))
 const MatchPage = lazy(() => import('./pages/Match'))
 const SentencesPage = lazy(() => import('./pages/Sentences'))
+const DictationPage = lazy(() => import('./pages/Dictation'))
 
 if (process.env.NODE_ENV === 'production') {
   // for prod
@@ -64,6 +65,8 @@ function Root() {
                 <Route path="/quiz" element={<QuizPage />} />
                 <Route path="/match" element={<MatchPage />} />
                 <Route path="/sentences" element={<SentencesPage />} />
+                <Route path="/dictation" element={<DictationPage />} />
+                <Route path="/dictation/:videoId" element={<DictationPage />} />
                 <Route path="/study/:dictId" element={<SelectDictRedirect mode="study" />} />
                 <Route path="/quiz/:dictId" element={<SelectDictRedirect mode="quiz" />} />
                 <Route path="/match/:dictId" element={<SelectDictRedirect mode="match" />} />

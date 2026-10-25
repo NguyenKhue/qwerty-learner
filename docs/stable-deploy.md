@@ -146,3 +146,28 @@ Database with 100,006 word records and 5,000 chapter records (13 MB), local requ
 | Import of that export into an empty folder  | 0.92 s, reads back identical |
 
 Fault checks: a second server on the same folder is refused (`LOCKED`), a stable server on a dev folder is refused (`ROLE_MISMATCH`), a damaged file is refused (`CORRUPT`), a higher `user_version` is refused (`NEWER_SCHEMA`). A folder whose `qwerty.db` was deleted starts empty (restore a file from `backups/` by hand).
+
+## 7. Dictation (listening to YouTube videos)
+
+The Dictation page plays a YouTube video one sentence at a time. The data server prepares a video the first time it is opened: it
+fetches the subtitles with **yt-dlp** (no video is downloaded), splits them into sentences, takes the Vietnamese from YouTube when the
+video offers it and asks the **Claude CLI** to translate the rest. Everything is cached in the data folder (`qwerty.db`), so a video
+opens at once afterwards. Your progress in each video is kept there too.
+
+Install yt-dlp once:
+
+```bash
+brew install yt-dlp
+```
+
+The `claude` command is the Claude Code CLI; you are already signed in to it.
+
+launchd starts the stable server with a very short `PATH`, so it may not find either command. Name them in
+`~/.config/qwerty-learner/stable.json`:
+
+```json
+{ "dataDir": "~/Library/Application Support/qwerty-learner", "ytDlpPath": "/opt/homebrew/bin/yt-dlp", "claudePath": "~/.local/bin/claude" }
+```
+
+Find the paths with `which yt-dlp` and `which claude`. Then rewrite the launchd file and restart (section 3). The development server
+uses your shell's `PATH`, or `QWERTY_YT_DLP` and `QWERTY_CLAUDE`.
