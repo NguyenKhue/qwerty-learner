@@ -50,19 +50,27 @@
 ### Task 1: Contract, types and the video id
 
 **Files:**
+
 - Create: `src/utils/dictation/types.ts`, `src/utils/dictation/videoId.ts`
 - Modify: `src/data/contract.ts`
 - Test: `src/utils/dictation/videoId.test.ts`, `src/data/contract.test.ts` (extend)
 
 **Interfaces:**
+
 - Produces (`types.ts`):
   ```ts
   export type DictationSentence = { start: number; end: number; en: string; vi?: string; viSource?: 'youtube' | 'ai' }
   export type VideoProgress = { position: number; correct: number; wrong: number; finished: boolean; updatedAt: number }
   export type DictationVideo = {
-    id: string; title: string; channel: string; durationSec: number
-    subtitleKind: 'manual' | 'auto'; sentences: DictationSentence[]; preparedAt: number
-    note?: string; progress?: VideoProgress
+    id: string
+    title: string
+    channel: string
+    durationSec: number
+    subtitleKind: 'manual' | 'auto'
+    sentences: DictationSentence[]
+    preparedAt: number
+    note?: string
+    progress?: VideoProgress
   }
   export type DictationVideoSummary = Omit<DictationVideo, 'sentences'> & { sentenceCount: number }
   export type DictationErrorCode = 'NO_YTDLP' | 'NO_SUBTITLES' | 'FETCH_FAILED' | 'TIMEOUT' | 'BAD_VIDEO'
@@ -86,10 +94,12 @@
 ### Task 2: Subtitle parsing, sentence building and lenient text
 
 **Files:**
+
 - Create: `src/utils/dictation/{normalize,captions,sentences}.ts`, `src/utils/dictation/fixtures/auto.json3.json`, `fixtures/manual.json3.json`
 - Test: `src/utils/dictation/{normalize,captions,sentences}.test.ts`
 
 **Interfaces:**
+
 - Consumes: `DictationSentence` (Task 1).
 - Produces: `normalize.ts`: `dictationText(en: string): string | null` (lowercases, maps `’ ‘` to `'`, turns every character other than `a-z 0-9 '` into a space, collapses and trims; returns `null` when the original had a letter outside ASCII, or the result is empty or longer than 200 characters); `captions.ts`: `type TimedWord = { startMs: number; text: string }`, `parseJson3(json: string): TimedWord[]` (word timing from `tOffsetMs` when present, otherwise the words of an event are spread evenly across its duration; drops `[Music]`-style tags, newline-only and empty segments, and exact repeats of the previous word group that overlap in time); `sentences.ts`: `buildSentences(words: TimedWord[], totalMs: number): Omit<DictationSentence, 'vi' | 'viSource'>[]` (applies the Global Constraints sentence limits; splits at terminal punctuation when the text has any, else at pauses; a sentence's `end` is the next sentence's start or `totalMs`; drops sentences whose `dictationText` is `null` or under 3 words).
 
@@ -104,11 +114,13 @@
 ### Task 3: Schema version 2 and the video repository
 
 **Files:**
+
 - Modify: `server/schema.ts` (SCHEMA_VERSION 2, forward migration 1→2), `server/schema.test.ts`
 - Create: `server/repo/videos.ts`
 - Test: `server/repo/videos.test.ts`
 
 **Interfaces:**
+
 - Consumes: `DictationVideo`, `DictationVideoSummary`, `VideoProgress` (Task 1), `Db` (`server/adapter.ts`).
 - Produces (`videos.ts`): `saveVideo(db: Db, video: Omit<DictationVideo, 'progress'>): void` (replaces an existing cache and keeps its progress), `getVideo(db: Db, id: string): DictationVideo | null` (with `progress` when saved), `listVideos(db: Db): DictationVideoSummary[]` (newest opened first), `saveProgress(db: Db, id: string, p: Omit<VideoProgress, 'updatedAt'>, now: number): void` (throws `NOT_FOUND`-style `Error` when the video is not cached), `removeVideo(db: Db, id: string): void` (removes cache and progress).
 - Tables: `video_cache (id TEXT PRIMARY KEY, title, channel, duration_sec, subtitle_kind, prepared_at, note, sentences TEXT)` and `video_progress (video_id TEXT PRIMARY KEY, position, correct, wrong, finished, updated_at)`.
@@ -124,10 +136,12 @@
 ### Task 4: Tool runner, subtitle fetch, translation and the preparation job
 
 **Files:**
+
 - Create: `server/dictation/tools.ts`, `server/dictation/youtube.ts`, `server/dictation/translate.ts`, `server/dictation/service.ts`
 - Test: `server/dictation/{tools,youtube,translate,service}.test.ts`
 
 **Interfaces:**
+
 - Consumes: `parseJson3`, `buildSentences`, `dictationText` (Task 2), `videos` repo (Task 3), `isVideoId` (Task 1).
 - Produces (`tools.ts`):
   ```ts
@@ -139,14 +153,23 @@
 - Produces (`youtube.ts`): `export class DictationFailure extends Error { code: DictationErrorCode }` (also thrown by the service for `NO_SUBTITLES`), and `fetchSubtitles(id: string, d: { runTool: RunTool; ytDlp: string; tmpDir: string }): Promise<{ title: string; channel: string; durationSec: number; kind: 'manual' | 'auto'; enJson3: string; viJson3?: string }>` — rejects with `DictationFailure` (`{ code: DictationErrorCode; message: string }`) for `NO_YTDLP`, `NO_SUBTITLES`, `FETCH_FAILED`, `TIMEOUT`.
 - Produces (`translate.ts`): `translateBatches(sentences: string[], d: { runTool: RunTool; claude: string }): Promise<(string | undefined)[]>` — batches of 40, one entry per input, `undefined` where a batch failed or its reply did not validate (a JSON array of strings of the same length); never rejects.
 - Produces (`service.ts`):
+
   ```ts
   export type DictationService = {
-    prepare(id: string): DictationStatus   // starts a job when none runs and the video is not cached; returns the current status
+    prepare(id: string): DictationStatus // starts a job when none runs and the video is not cached; returns the current status
     status(id: string): DictationStatus
-    idle(): Promise<void>                  // resolves when no job runs (tests)
+    idle(): Promise<void> // resolves when no job runs (tests)
   }
-  export function createDictationService(d: { db: Db; runTool: RunTool; tools: { ytDlp: string; claude: string }; publish(topics: string[]): void; now(): number; tmpDir?: string }): DictationService
+  export function createDictationService(d: {
+    db: Db
+    runTool: RunTool
+    tools: { ytDlp: string; claude: string }
+    publish(topics: string[]): void
+    now(): number
+    tmpDir?: string
+  }): DictationService
   ```
+
   A cached video has status `ready`; a running job reports its `step`; a failed job reports `error` until the next `prepare` starts a new one. Steps publish `dictation:<id>`; success also publishes `dictation`.
 
 - [ ] **Step 1: Write the failing tests** (fake `RunTool` returns fixtures; never the network). `tools.test.ts`: `runTool` with `node -e` returns stdout; a missing command throws kind `missing`; a sleeping command with `timeoutMs: 100` throws `timeout` and the process is gone; output over `maxBytes` throws `toobig`. `youtube.test.ts`: the fake returns an info JSON and writes json3 files into `tmpDir`; `kind` is `manual` when an English manual track exists, else `auto`; no English track → `NO_SUBTITLES`; missing command → `NO_YTDLP`; an invalid id never reaches `runTool`. `translate.test.ts`: 85 sentences make 3 calls; a reply of the wrong length leaves that batch `undefined` and the others filled; non-JSON reply and a `ToolError` leave `undefined`; the prompt carries the sentences as a JSON array. `service.test.ts`: success stores a video with sentences, `viSource` `youtube` where the fake supplied a Vietnamese track and `ai` where translation filled the rest; a subtitle file with only `[Music]` ends `error` `NO_SUBTITLES` and stores nothing; two `prepare` calls for one id call `fetchSubtitles` once; after an error a new `prepare` runs again; translation failure still stores the video with a `note` saying why; `status` of an unknown id is `idle`; published topics include `dictation:<id>` at each step.
@@ -160,11 +183,13 @@
 ### Task 5: Procedures, server wiring and tool settings
 
 **Files:**
+
 - Create: `server/procedures/dictation.ts`
 - Modify: `server/procedures/index.ts`, `server/procedures/support.ts` (Ctx gains `dictation: DictationService`), `server/http.ts` (AppDeps gains `dictation?: DictationService`, passed into the handler context), `server/config.ts`, `server/main.ts`, `server/cli.ts`, `scripts/lib/stable.mjs`, `scripts/stable-start.mjs`, `scripts/stable-launchd.mjs` if it lists arguments, `docs/stable-deploy.md`
 - Test: `server/procedures/dictation.test.ts`, `server/config.test.ts`, `scripts/stable.test.ts` (extend), `server/procedures/registry.test.ts` (must pass)
 
 **Interfaces:**
+
 - Consumes: Tasks 1, 3, 4.
 - Produces: handlers for the six `dictation.*` names (ids validated with `isVideoId`, else `BAD_REQUEST`); `Config` gains `tools: { ytDlp: string; claude: string }` (defaults `'yt-dlp'` and `'claude'`, flags `--yt-dlp <path>` and `--claude <path>`, environment `QWERTY_YT_DLP` and `QWERTY_CLAUDE`); `parseStableConfig` accepts optional `ytDlpPath` and `claudePath` (absolute or `~/…`) and returns them; `stable-start.mjs` and the plist pass them as `--yt-dlp` and `--claude` when set.
 
@@ -179,11 +204,13 @@
 ### Task 6: Generic typing session and dictation items
 
 **Files:**
+
 - Modify: `src/utils/sentences/session.ts` (generic over the item type, default `SentenceItem`)
 - Create: `src/utils/dictation/items.ts`, `src/utils/dictation/session.ts`
 - Test: `src/utils/sentences/session.test.ts` (must still pass unchanged), `src/utils/dictation/{items,session}.test.ts`
 
 **Interfaces:**
+
 - Produces (`sentences/session.ts`): `SentenceSession<T extends { text: string } = SentenceItem>`, with `createSession`, `currentItem`, `typeKey`, `peekSentence`, `advance`, `summarize`, `retryItems` typed over `T`; `SentenceResult<T>`, `SentenceSummary<T>`.
 - Produces (`items.ts`): `export type DictationItem = { text: string; index: number; start: number; end: number; en: string; vi?: string; viSource?: 'youtube' | 'ai' }` and `toItems(sentences: DictationSentence[], from = 0): DictationItem[]` (`text = dictationText(en)`, sentences whose text is `null` are skipped; `index` is the position in the original list; `from` skips earlier sentences).
 - Produces (`session.ts`): `typeDictationKey(s: SentenceSession<DictationItem>, key: string, now: number): SentenceSession<DictationItem>` — lowercases a single letter key, then `typeKey`.
@@ -199,10 +226,12 @@
 ### Task 7: The YouTube player hook
 
 **Files:**
+
 - Create: `src/pages/Dictation/useYouTubePlayer.ts`, `src/pages/Dictation/segment.ts`
 - Test: `src/pages/Dictation/segment.test.ts`
 
 **Interfaces:**
+
 - Produces (`segment.ts`, pure): `segmentWindow(start: number, end: number): { from: number; to: number }` (lead-in and tail of 0.3 s, `from` not below 0), `shouldStop(currentTime: number, to: number): boolean` (true once `currentTime >= to`).
 - Produces (`useYouTubePlayer.ts`): `useYouTubePlayer(videoId: string, onSegmentEnd: () => void): { containerRef: RefObject<HTMLDivElement>; state: 'loading' | 'ready' | 'blocked' | 'error'; playSegment(start: number, end: number): void; pause(): void }`. Loads `https://www.youtube.com/iframe_api` once per page (a shared promise), creates the player in `containerRef` at speed 1 with modest controls, polls `getCurrentTime()` every 100 ms while a segment plays and pauses at `to`, calls `onSegmentEnd`, and reports `blocked` when the player raises error 101 or 150 (embedding disabled) and `error` when the API cannot load (offline).
 
@@ -217,10 +246,12 @@
 ### Task 8: Dictation pages
 
 **Files:**
+
 - Create: `src/pages/Dictation/index.tsx`, `Setup.tsx`, `Run.tsx`, `Result.tsx`
 - Modify: none outside the folder (the typing line is reused as it is)
 
 **Interfaces:**
+
 - Consumes: Tasks 1, 5, 6, 7; `call` from `@/data/rpc`; `useLive` from `@/data/useLive`; `TypingLine` and `ModeFrame`/`ScrollCenter` as used by `src/pages/Sentences`; `summarize`, `retryItems`, `advance`, `peekSentence`, `createSession`, `isComplete` from the generic session.
 - Produces: `export default function DictationPage()` handling `/dictation` and `/dictation/:videoId` (setup, then run, then result, as `src/pages/Sentences/index.tsx` does).
 
@@ -236,11 +267,13 @@
 ### Task 9: Route, navigation, built-in list and docs
 
 **Files:**
+
 - Modify: `src/index.tsx` (lazy `DictationPage`, routes `/dictation` and `/dictation/:videoId`), `src/components/AppShell/navItems.ts` (`id: 'dictation'` after `sentences`, `tab: false`, added to `MORE_LINKS` too), `src/components/AppShell/index.tsx` (icon for `'dictation'`), `docs/stable-deploy.md` (a "Dictation" section: install `yt-dlp`, the `claude` CLI, `ytDlpPath` and `claudePath` in the stable settings, why launchd needs them)
 - Create: `public/dictation/videos.json`
 - Test: `src/components/AppShell/navItems.test.ts` (extend)
 
 **Interfaces:**
+
 - Produces: `public/dictation/videos.json` = `{ id: string; title: string; channel: string; category: string }[]`, initially four TED talks as placeholders to be verified by the learner in Task 10: `qp0HIF3SfI4` (Simon Sinek, "How great leaders inspire action"), `iG9CE55wbtY` (Ken Robinson, "Do schools kill creativity?"), `eIho2S0ZahI` (Julian Treasure, "How to speak so that people want to listen"), `iCvmsMzlF7o` (Brené Brown, "The power of vulnerability"), category `Talks`.
 
 - [ ] **Step 1: Write the failing test** in `navItems.test.ts`: the ids list now contains `'dictation'` after `'sentences'`; `byId('dictation').to` is `'/dictation'`; `isNavActive` is true for `/dictation/dQw4w9WgXcQ`; `MORE_LINKS` contains Dictation.
