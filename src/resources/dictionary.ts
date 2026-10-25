@@ -4172,12 +4172,29 @@ const myVocab: DictionaryResource[] = [
   },
 ]
 
+// Vocabulary and phrases for English job interviews: talking to HR, to developers, and negotiating the offer
+const interviewEnglish: DictionaryResource[] = [
+  {
+    id: 'interviewEnglish',
+    name: 'Interview English',
+    description: 'Words and phrases for HR interviews, technical talks and salary and benefits negotiation',
+    category: 'Interview English',
+    tags: ['Career'],
+    url: '/dicts/interview-english.json',
+    extrasUrl: '/dicts/interview-english.extras.json',
+    length: 136,
+    language: 'en',
+    languageCategory: 'en',
+  },
+]
+
 /**
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
  */
 export const dictionaryResources: DictionaryResource[] = [
   ...myVocab,
+  ...interviewEnglish,
   ...chinaExam,
   ...internationalExam,
   ...childrenEnglish,

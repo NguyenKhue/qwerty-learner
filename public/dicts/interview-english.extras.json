@@ -1,0 +1,1770 @@
+{
+  "walk me through": {
+    "detail": "Walk me through - Loại từ: Cụm động từ (Phrasal expression).\nMẹo nhớ: \"Dẫn ai đó đi từng bước\".\nKhi dùng: Interviewer dùng để yêu cầu bạn kể tuần tự, thường là \"Walk me through your resume\" hoặc \"Walk me through your last project\".\nLưu ý: Bạn nên trả lời theo thứ tự thời gian hoặc theo bước (bối cảnh, việc bạn làm, kết quả), không kể lan man.",
+    "examples": [
+      {
+        "text": "Could you walk me through your resume, starting with your current role?",
+        "trans": "Bạn có thể kể cho tôi nghe CV của bạn, bắt đầu từ vị trí hiện tại không?"
+      },
+      {
+        "text": "Could you walk me through how the payment service handles retries?",
+        "trans": "Bạn có thể giải thích từng bước cách dịch vụ thanh toán xử lý thử lại không?"
+      }
+    ]
+  },
+  "background": {
+    "detail": "Background - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Cái nền phía sau con người bạn\".\nKhi dùng: Dùng khi giới thiệu bản thân: \"My background is in backend development.\" Nghĩa là học vấn và kinh nghiệm chính của bạn.\nLưu ý: Interviewer hay hỏi \"Tell me about your background\" để bạn tóm tắt ngắn gọn trong 1-2 phút.",
+    "examples": [
+      {
+        "text": "My background is in backend development, mostly with Java and Kotlin.",
+        "trans": "Nền tảng của tôi là phát triển backend, chủ yếu với Java và Kotlin."
+      },
+      {
+        "text": "Can you tell us a bit about your background?",
+        "trans": "Bạn có thể kể sơ về nền tảng của bạn không?"
+      }
+    ]
+  },
+  "years of experience": {
+    "detail": "Years of experience - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Số năm bạn đã làm\".\nKhi dùng: Dùng khi nói về thâm niên: \"I have five years of experience in mobile development.\" Luôn dùng \"of\", không dùng \"in\" ngay sau years.\nLưu ý: Nên đi kèm lĩnh vực cụ thể để câu có sức nặng hơn.",
+    "examples": [
+      {
+        "text": "I have six years of experience building Android apps.",
+        "trans": "Tôi có sáu năm kinh nghiệm xây dựng ứng dụng Android."
+      },
+      {
+        "text": "The role requires at least three years of experience with distributed systems.",
+        "trans": "Vị trí này yêu cầu ít nhất ba năm kinh nghiệm với hệ thống phân tán."
+      }
+    ]
+  },
+  "responsible for": {
+    "detail": "Responsible for - Loại từ: Cụm tính từ (Adjective phrase).\nMẹo nhớ: \"Việc nằm trong tay mình\".\nKhi dùng: Dùng khi mô tả phạm vi công việc: \"I was responsible for the release process.\" Tự nhiên và phổ biến trong phần kinh nghiệm.\nLưu ý: Dễ nghe thụ động. Khi kể thành tích, nên thêm động từ hành động (led, built, reduced) để thể hiện đóng góp thực sự.",
+    "examples": [
+      {
+        "text": "In my last job, I was responsible for the mobile release pipeline.",
+        "trans": "Ở công việc trước, tôi chịu trách nhiệm về quy trình phát hành ứng dụng di động."
+      },
+      {
+        "text": "Who is responsible for deploying to production on your team?",
+        "trans": "Ai chịu trách nhiệm triển khai lên production trong nhóm của bạn?"
+      }
+    ]
+  },
+  "hands-on experience": {
+    "detail": "Hands-on experience - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Tự tay làm, không chỉ đọc sách\".\nKhi dùng: Nói rằng bạn đã trực tiếp dùng công nghệ trong dự án thật: \"I have hands-on experience with Kubernetes.\"\nLưu ý: Interviewer sẽ hỏi sâu vào phần này, nên chỉ nói khi bạn thật sự đã làm.",
+    "examples": [
+      {
+        "text": "I have hands-on experience with CI/CD pipelines on GitHub Actions.",
+        "trans": "Tôi có kinh nghiệm thực tế với các pipeline CI/CD trên GitHub Actions."
+      },
+      {
+        "text": "We prefer candidates with hands-on experience in cloud infrastructure.",
+        "trans": "Chúng tôi ưu tiên ứng viên có kinh nghiệm thực tế về hạ tầng đám mây."
+      }
+    ]
+  },
+  "proficient in": {
+    "detail": "Proficient in - Loại từ: Cụm tính từ (Adjective phrase).\nMẹo nhớ: \"Thành thạo, dùng tự tin\".\nKhi dùng: Mô tả mức độ kỹ năng cao: \"I'm proficient in Kotlin.\" Cao hơn \"familiar with\", thấp hơn hoặc ngang \"expert in\".\nLưu ý: Đi với \"in\" (proficient in Python), không phải \"at\".",
+    "examples": [
+      {
+        "text": "I'm proficient in Kotlin and comfortable with Jetpack Compose.",
+        "trans": "Tôi thành thạo Kotlin và thoải mái với Jetpack Compose."
+      },
+      {
+        "text": "She is proficient in English and can present to international clients.",
+        "trans": "Cô ấy thành thạo tiếng Anh và có thể thuyết trình cho khách hàng quốc tế."
+      }
+    ]
+  },
+  "key strength": {
+    "detail": "Key strength - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Điểm mạnh số một\".\nKhi dùng: Mẫu trả lời: \"One of my key strengths is...\" rồi đưa một ví dụ cụ thể thay vì liệt kê nhiều đức tính.\nLưu ý: Chọn một điểm mạnh liên quan trực tiếp đến vị trí và chứng minh bằng ví dụ có số liệu.",
+    "examples": [
+      {
+        "text": "One of my key strengths is breaking complex problems into small tasks.",
+        "trans": "Một trong những điểm mạnh chính của tôi là chia vấn đề phức tạp thành các việc nhỏ."
+      },
+      {
+        "text": "My key strength is communication, which helped our team ship two weeks early.",
+        "trans": "Điểm mạnh chính của tôi là giao tiếp, điều đã giúp nhóm giao sản phẩm sớm hai tuần."
+      }
+    ]
+  },
+  "area for improvement": {
+    "detail": "Area for improvement - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Điểm yếu nói cho khéo\".\nKhi dùng: Trả lời câu hỏi điểm yếu: nêu một điểm thật, rồi nói bạn đang làm gì để cải thiện.\nLưu ý: Tránh \"I'm a perfectionist\" vì nghe sáo rỗng. Hãy chọn điểm yếu thật nhưng không phải kỹ năng cốt lõi của vị trí.",
+    "examples": [
+      {
+        "text": "An area for improvement for me is public speaking, so I now present in our weekly demos.",
+        "trans": "Một điểm tôi cần cải thiện là nói trước đám đông, nên giờ tôi trình bày trong buổi demo hằng tuần."
+      },
+      {
+        "text": "I see delegating as an area for improvement, and I'm working on it.",
+        "trans": "Tôi thấy việc giao việc là điểm cần cải thiện, và tôi đang cố gắng cải thiện."
+      }
+    ]
+  },
+  "detail-oriented": {
+    "detail": "Detail-oriented - Loại từ: Tính từ (Adjective).\nMẹo nhớ: \"Để ý từng chi tiết nhỏ\".\nKhi dùng: Mô tả tính cách làm việc cẩn thận: \"I'm detail-oriented, so I rarely miss edge cases.\"\nLưu ý: Nên có bằng chứng, ví dụ: bắt lỗi trong code review. Có thể viết \"detail oriented\" không gạch nối.",
+    "examples": [
+      {
+        "text": "I'm detail-oriented, so I always check edge cases before opening a pull request.",
+        "trans": "Tôi tỉ mỉ nên luôn kiểm tra các trường hợp biên trước khi mở pull request."
+      },
+      {
+        "text": "We need someone detail-oriented to review our financial reports.",
+        "trans": "Chúng tôi cần người tỉ mỉ để rà soát các báo cáo tài chính."
+      }
+    ]
+  },
+  "proactive": {
+    "detail": "Proactive - Loại từ: Tính từ (Adjective).\nMẹo nhớ: \"Làm trước khi bị yêu cầu\".\nKhi dùng: Nói bạn tự phát hiện vấn đề và hành động: \"I'm proactive about fixing technical debt.\"\nLưu ý: Trái nghĩa là reactive (chỉ phản ứng khi có vấn đề).",
+    "examples": [
+      {
+        "text": "I'm proactive about raising risks before they delay the release.",
+        "trans": "Tôi chủ động nêu rủi ro trước khi chúng làm chậm bản phát hành."
+      },
+      {
+        "text": "Our manager values engineers who are proactive and take initiative.",
+        "trans": "Quản lý của chúng tôi đánh giá cao các kỹ sư chủ động và có sáng kiến."
+      }
+    ]
+  },
+  "collaborative": {
+    "detail": "Collaborative - Loại từ: Tính từ (Adjective).\nMẹo nhớ: \"Cùng làm việc với nhau\".\nKhi dùng: Mô tả phong cách làm việc nhóm: \"I have a collaborative approach to code reviews.\"\nLưu ý: Danh từ là collaboration, động từ là collaborate (collaborate with).",
+    "examples": [
+      {
+        "text": "I enjoy a collaborative environment where people share feedback openly.",
+        "trans": "Tôi thích môi trường hợp tác nơi mọi người chia sẻ phản hồi cởi mở."
+      },
+      {
+        "text": "The project needed close, collaborative work between design and engineering.",
+        "trans": "Dự án cần sự phối hợp chặt chẽ giữa thiết kế và kỹ thuật."
+      }
+    ]
+  },
+  "adaptable": {
+    "detail": "Adaptable - Loại từ: Tính từ (Adjective).\nMẹo nhớ: \"Thích nghi khi điều kiện đổi\".\nKhi dùng: Nói bạn xử lý tốt khi yêu cầu hoặc công nghệ thay đổi: \"I'm adaptable and learn new tools quickly.\"\nLưu ý: Nên kèm ví dụ: chuyển sang stack mới trong bao lâu.",
+    "examples": [
+      {
+        "text": "I'm adaptable: I moved from Java to Kotlin within a month.",
+        "trans": "Tôi dễ thích nghi: tôi chuyển từ Java sang Kotlin trong vòng một tháng."
+      },
+      {
+        "text": "Startups need adaptable people who can handle changing priorities.",
+        "trans": "Các startup cần những người dễ thích nghi, xử lý được các ưu tiên thay đổi."
+      }
+    ]
+  },
+  "self-motivated": {
+    "detail": "Self-motivated - Loại từ: Tính từ (Adjective).\nMẹo nhớ: \"Tự mình có động lực\".\nKhi dùng: Hay dùng cho vị trí remote hoặc ít giám sát: \"I'm self-motivated and work well independently.\"\nLưu ý: Đi cùng ví dụ về việc bạn tự học hoặc tự khởi xướng cải tiến.",
+    "examples": [
+      {
+        "text": "I'm self-motivated, so I don't need close supervision to meet my goals.",
+        "trans": "Tôi tự có động lực nên không cần giám sát chặt để đạt mục tiêu."
+      },
+      {
+        "text": "Remote work suits self-motivated people who manage their time well.",
+        "trans": "Làm việc từ xa hợp với những người tự có động lực và quản lý thời gian tốt."
+      }
+    ]
+  },
+  "take ownership": {
+    "detail": "Take ownership - Loại từ: Cụm động từ (Verb phrase).\nMẹo nhớ: \"Việc này là của tôi\".\nKhi dùng: Rất được đánh giá cao ở công ty toàn cầu: \"I take ownership of my features from design to production.\"\nLưu ý: Dùng cả khi thành công lẫn khi có lỗi: \"I took ownership of the incident.\"",
+    "examples": [
+      {
+        "text": "I take ownership of my features from design to production.",
+        "trans": "Tôi chịu trách nhiệm đến cùng cho các tính năng của mình, từ thiết kế đến production."
+      },
+      {
+        "text": "When the release failed, I decided to take ownership and lead the fix.",
+        "trans": "Khi bản phát hành thất bại, tôi quyết định nhận trách nhiệm và dẫn dắt việc sửa lỗi."
+      }
+    ]
+  },
+  "track record": {
+    "detail": "Track record - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Dấu vết thành tích của bạn\".\nKhi dùng: Dùng khi nói về kết quả đã đạt: \"I have a track record of delivering on time.\"\nLưu ý: Thường đi với \"proven\" (a proven track record).",
+    "examples": [
+      {
+        "text": "I have a strong track record of delivering projects on time.",
+        "trans": "Tôi có thành tích mạnh về việc giao dự án đúng hạn."
+      },
+      {
+        "text": "The team has a proven track record in building scalable APIs.",
+        "trans": "Nhóm có thành tích đã được chứng minh trong việc xây dựng API có khả năng mở rộng."
+      }
+    ]
+  },
+  "achievement": {
+    "detail": "Achievement - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Cái bạn đạt được\".\nKhi dùng: Trả lời \"What is your biggest achievement?\": nêu việc cụ thể, vai trò của bạn và con số kết quả.\nLưu ý: Nên dùng số liệu: giảm 30% thời gian tải, tăng 20% tỉ lệ giữ chân người dùng.",
+    "examples": [
+      {
+        "text": "My biggest achievement was cutting app startup time by 40 percent.",
+        "trans": "Thành tích lớn nhất của tôi là giảm 40 phần trăm thời gian khởi động ứng dụng."
+      },
+      {
+        "text": "Which achievement from the last year are you most proud of?",
+        "trans": "Bạn tự hào nhất về thành tích nào trong năm qua?"
+      }
+    ]
+  },
+  "deliver results": {
+    "detail": "Deliver results - Loại từ: Cụm động từ (Verb phrase).\nMẹo nhớ: \"Giao được kết quả\".\nKhi dùng: Cụm rất hay gặp trong mô tả công việc: \"We want people who can deliver results.\"\nLưu ý: Khi trả lời, hãy gắn với một kết quả đo được thay vì chỉ lặp lại cụm này.",
+    "examples": [
+      {
+        "text": "I focus on delivering results that the business can measure.",
+        "trans": "Tôi tập trung tạo ra kết quả mà doanh nghiệp đo lường được."
+      },
+      {
+        "text": "Our team delivered results in the first quarter despite the tight schedule.",
+        "trans": "Nhóm chúng tôi tạo ra kết quả ngay quý đầu dù lịch rất gấp."
+      }
+    ]
+  },
+  "meet deadlines": {
+    "detail": "Meet deadlines - Loại từ: Cụm động từ (Verb phrase).\nMẹo nhớ: \"Kịp mốc thời gian\".\nKhi dùng: Nói về khả năng quản lý thời gian: \"I'm good at meeting deadlines.\" Động từ đi với deadline là meet.\nLưu ý: Có thể nói thêm cách bạn xử lý khi sắp trễ: báo sớm, cắt phạm vi.",
+    "examples": [
+      {
+        "text": "I meet deadlines by breaking work into small milestones.",
+        "trans": "Tôi đáp ứng thời hạn bằng cách chia việc thành các mốc nhỏ."
+      },
+      {
+        "text": "If we cannot meet deadlines, I tell my manager as early as possible.",
+        "trans": "Nếu không thể đáp ứng thời hạn, tôi báo quản lý sớm nhất có thể."
+      }
+    ]
+  },
+  "under pressure": {
+    "detail": "Under pressure - Loại từ: Cụm giới từ (Prepositional phrase).\nMẹo nhớ: \"Khi bị ép thời gian\".\nKhi dùng: Trả lời \"How do you handle pressure?\": \"I stay calm under pressure and prioritize tasks.\"\nLưu ý: Nên kể một tình huống thật (sự cố production, deadline gấp) và cách bạn xử lý.",
+    "examples": [
+      {
+        "text": "I stay calm under pressure and focus on what matters most.",
+        "trans": "Tôi giữ bình tĩnh dưới áp lực và tập trung vào điều quan trọng nhất."
+      },
+      {
+        "text": "She makes good decisions even under pressure during incidents.",
+        "trans": "Cô ấy ra quyết định tốt ngay cả dưới áp lực khi có sự cố."
+      }
+    ]
+  },
+  "cross-functional": {
+    "detail": "Cross-functional - Loại từ: Tính từ (Adjective).\nMẹo nhớ: \"Nhiều vai trò chung một nhóm\".\nKhi dùng: Rất hay gặp ở công ty toàn cầu: \"I work closely with cross-functional teams.\"\nLưu ý: Cụm hay đi kèm: cross-functional team, cross-functional collaboration.",
+    "examples": [
+      {
+        "text": "I work closely with cross-functional teams, including design and product.",
+        "trans": "Tôi làm việc sát với các nhóm liên chức năng, gồm thiết kế và sản phẩm."
+      },
+      {
+        "text": "The launch needed cross-functional coordination across five departments.",
+        "trans": "Đợt ra mắt cần sự phối hợp liên chức năng giữa năm phòng ban."
+      }
+    ]
+  },
+  "stakeholder": {
+    "detail": "Stakeholder - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Người quan tâm đến kết quả\".\nKhi dùng: Dùng khi nói về người bạn phải báo cáo hoặc làm hài lòng: \"I update stakeholders weekly.\"\nLưu ý: Không có nghĩa là cổ đông. Có thể là product manager, khách hàng hoặc lãnh đạo.",
+    "examples": [
+      {
+        "text": "I update stakeholders every week so nobody is surprised.",
+        "trans": "Tôi cập nhật cho các bên liên quan mỗi tuần để không ai bất ngờ."
+      },
+      {
+        "text": "Gathering requirements from all stakeholders took two weeks.",
+        "trans": "Thu thập yêu cầu từ tất cả các bên liên quan mất hai tuần."
+      }
+    ]
+  },
+  "mentor": {
+    "detail": "Mentor - Loại từ: Động từ và Danh từ (Verb, Noun).\nMẹo nhớ: \"Người đi trước chỉ đường\".\nKhi dùng: Nói về kinh nghiệm dẫn dắt: \"I mentored two junior developers.\" Cũng dùng để hỏi công ty có chương trình mentoring không.\nLưu ý: Danh từ mentee là người được hướng dẫn.",
+    "examples": [
+      {
+        "text": "I mentored two junior developers and helped them join code reviews.",
+        "trans": "Tôi đã kèm hai lập trình viên junior và giúp họ tham gia code review."
+      },
+      {
+        "text": "Does the company offer a mentoring program for new engineers?",
+        "trans": "Công ty có chương trình mentoring cho kỹ sư mới không?"
+      }
+    ]
+  },
+  "reason for leaving": {
+    "detail": "Reason for leaving - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Vì sao bạn đi\".\nKhi dùng: Luôn nói tích cực: tập trung vào điều bạn tìm kiếm, không chê công ty cũ.\nLưu ý: Mẫu: \"I'm looking for more growth and new technical challenges.\" Không phàn nàn về sếp hoặc lương.",
+    "examples": [
+      {
+        "text": "My reason for leaving is that I want broader technical challenges.",
+        "trans": "Lý do tôi rời đi là tôi muốn những thử thách kỹ thuật rộng hơn."
+      },
+      {
+        "text": "When asked about your reason for leaving, stay positive and focus on the future.",
+        "trans": "Khi được hỏi lý do rời đi, hãy giữ tích cực và tập trung vào tương lai."
+      }
+    ]
+  },
+  "new challenges": {
+    "detail": "New challenges - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Muốn thử điều mới\".\nKhi dùng: Mẫu: \"I'm looking for new challenges where I can grow.\" Dùng khi giải thích lý do đổi việc.\nLưu ý: Nên cụ thể: thử thách về quy mô hệ thống, dẫn dắt nhóm, sản phẩm toàn cầu.",
+    "examples": [
+      {
+        "text": "I'm looking for new challenges where I can work on systems at scale.",
+        "trans": "Tôi đang tìm những thử thách mới để làm việc với hệ thống quy mô lớn."
+      },
+      {
+        "text": "After four years, I felt ready for new challenges.",
+        "trans": "Sau bốn năm, tôi cảm thấy sẵn sàng cho những thử thách mới."
+      }
+    ]
+  },
+  "laid off": {
+    "detail": "Laid off - Loại từ: Cụm động từ bị động (Passive phrasal verb).\nMẹo nhớ: \"Công ty cắt người, không phải lỗi bạn\".\nKhi dùng: Nếu bạn bị cắt giảm nhân sự, nói thẳng và ngắn gọn: \"My team was laid off during a restructuring.\"\nLưu ý: Khác với fired (sa thải vì lỗi cá nhân). Nói ngắn rồi chuyển sang điều bạn muốn làm tiếp.",
+    "examples": [
+      {
+        "text": "My team was laid off when the company restructured last year.",
+        "trans": "Nhóm của tôi bị cắt giảm khi công ty tái cấu trúc năm ngoái."
+      },
+      {
+        "text": "Being laid off gave me time to learn cloud architecture.",
+        "trans": "Việc bị cắt giảm cho tôi thời gian học kiến trúc đám mây."
+      }
+    ]
+  },
+  "gap in employment": {
+    "detail": "Gap in employment - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Khoảng thời gian không đi làm\".\nKhi dùng: Nếu CV có khoảng trống, giải thích ngắn gọn và nêu điều bạn đã làm: học, dự án cá nhân, chăm sóc gia đình.\nLưu ý: Trung thực, tích cực, rồi nói về hiện tại.",
+    "examples": [
+      {
+        "text": "I had a gap in employment because I took time to study cloud engineering.",
+        "trans": "Tôi có một khoảng nghỉ vì tôi dành thời gian học kỹ thuật đám mây."
+      },
+      {
+        "text": "Recruiters may ask about a gap in employment on your resume.",
+        "trans": "Nhà tuyển dụng có thể hỏi về khoảng trống đi làm trong CV của bạn."
+      }
+    ]
+  },
+  "references": {
+    "detail": "References - Loại từ: Danh từ số nhiều (Plural noun).\nMẹo nhớ: \"Người nói tốt về bạn\".\nKhi dùng: Giai đoạn cuối công ty thường xin: \"Could you provide two references?\" Thường là quản lý cũ hoặc đồng nghiệp.\nLưu ý: Hãy xin phép người đó trước khi đưa tên và cho họ biết vị trí bạn ứng tuyển.",
+    "examples": [
+      {
+        "text": "I can provide two references from my previous managers.",
+        "trans": "Tôi có thể cung cấp hai người giới thiệu là các quản lý trước đây."
+      },
+      {
+        "text": "The company will contact your references after the final interview.",
+        "trans": "Công ty sẽ liên hệ người giới thiệu của bạn sau vòng phỏng vấn cuối."
+      }
+    ]
+  },
+  "career path": {
+    "detail": "Career path - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Đường đi của sự nghiệp\".\nKhi dùng: Hỏi hoặc nói về hướng phát triển: \"What does a typical career path look like here?\"\nLưu ý: Hỏi câu này cho thấy bạn quan tâm dài hạn, rất nên hỏi ở cuối buổi phỏng vấn.",
+    "examples": [
+      {
+        "text": "What does a typical career path look like for engineers here?",
+        "trans": "Lộ trình nghề nghiệp thông thường của kỹ sư ở đây trông như thế nào?"
+      },
+      {
+        "text": "I want a career path that lets me grow into a technical leader.",
+        "trans": "Tôi muốn một lộ trình giúp tôi phát triển thành người dẫn dắt kỹ thuật."
+      }
+    ]
+  },
+  "growth opportunities": {
+    "detail": "Growth opportunities - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Chỗ để lớn lên\".\nKhi dùng: Mẫu: \"I'm looking for growth opportunities in a global team.\" Là lý do tích cực khi muốn đổi việc.\nLưu ý: Nên cụ thể: kỹ năng nào, vai trò nào bạn muốn phát triển.",
+    "examples": [
+      {
+        "text": "I'm looking for growth opportunities, especially in system design.",
+        "trans": "Tôi tìm kiếm cơ hội phát triển, đặc biệt về thiết kế hệ thống."
+      },
+      {
+        "text": "What growth opportunities are available for someone in this role?",
+        "trans": "Có cơ hội phát triển nào dành cho người ở vị trí này?"
+      }
+    ]
+  },
+  "work-life balance": {
+    "detail": "Work-life balance - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Cân bằng giữa làm và sống\".\nKhi dùng: Hỏi văn hóa công ty: \"How does the team maintain work-life balance?\"\nLưu ý: Hỏi khéo léo để không nghe như bạn né việc. Nên kèm điều bạn coi trọng ở công việc.",
+    "examples": [
+      {
+        "text": "How does the team support work-life balance during busy periods?",
+        "trans": "Nhóm hỗ trợ cân bằng công việc và cuộc sống thế nào trong giai đoạn bận?"
+      },
+      {
+        "text": "Good work-life balance helps me stay productive in the long term.",
+        "trans": "Cân bằng công việc và cuộc sống tốt giúp tôi làm việc hiệu quả lâu dài."
+      }
+    ]
+  },
+  "company culture": {
+    "detail": "Company culture - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Không khí và cách làm việc của công ty\".\nKhi dùng: Hỏi hoặc nhận xét: \"How would you describe the company culture?\"\nLưu ý: Câu hỏi hay ở cuối phỏng vấn, giúp bạn đánh giá công ty có hợp với mình không.",
+    "examples": [
+      {
+        "text": "How would you describe the company culture on this team?",
+        "trans": "Bạn mô tả văn hóa công ty của nhóm này như thế nào?"
+      },
+      {
+        "text": "I value a company culture that encourages open feedback.",
+        "trans": "Tôi coi trọng văn hóa công ty khuyến khích phản hồi cởi mở."
+      }
+    ]
+  },
+  "team dynamics": {
+    "detail": "Team dynamics - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Cách cả nhóm vận hành\".\nKhi dùng: Hỏi về cách nhóm giao tiếp, ra quyết định: \"Could you tell me about the team dynamics?\"\nLưu ý: Thường dùng ở dạng số nhiều, đi với động từ số ít hoặc nhiều đều gặp.",
+    "examples": [
+      {
+        "text": "Could you tell me more about the team dynamics?",
+        "trans": "Bạn có thể cho tôi biết thêm về cách nhóm làm việc cùng nhau không?"
+      },
+      {
+        "text": "Good team dynamics make code reviews feel supportive, not stressful.",
+        "trans": "Tương tác nhóm tốt khiến code review mang tính hỗ trợ chứ không căng thẳng."
+      }
+    ]
+  },
+  "remote work": {
+    "detail": "Remote work - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Làm việc từ nơi khác\".\nKhi dùng: Hỏi chính sách: \"Is remote work an option for this role?\" Cũng nói về kinh nghiệm: \"I have two years of remote work experience.\"\nLưu ý: Các cụm liên quan: fully remote (toàn thời gian từ xa), hybrid (kết hợp), on-site (tại văn phòng).",
+    "examples": [
+      {
+        "text": "Is remote work an option, or is the role fully on-site?",
+        "trans": "Làm việc từ xa có được không, hay vị trí này làm hoàn toàn tại văn phòng?"
+      },
+      {
+        "text": "I have two years of remote work experience across three time zones.",
+        "trans": "Tôi có hai năm kinh nghiệm làm việc từ xa qua ba múi giờ."
+      }
+    ]
+  },
+  "hybrid": {
+    "detail": "Hybrid - Loại từ: Tính từ và Danh từ (Adjective, Noun).\nMẹo nhớ: \"Một nửa văn phòng, một nửa ở nhà\".\nKhi dùng: Hỏi mô hình: \"Is it a hybrid setup? How many days in the office?\"\nLưu ý: Cần hỏi rõ số ngày bắt buộc đến văn phòng mỗi tuần.",
+    "examples": [
+      {
+        "text": "Is the team hybrid, and how many days are required in the office?",
+        "trans": "Nhóm làm việc hybrid không, và cần bao nhiêu ngày ở văn phòng?"
+      },
+      {
+        "text": "A hybrid schedule lets me focus at home and collaborate in person.",
+        "trans": "Lịch hybrid cho tôi tập trung ở nhà và cộng tác trực tiếp."
+      }
+    ]
+  },
+  "flexible hours": {
+    "detail": "Flexible hours - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Giờ giấc không cố định\".\nKhi dùng: Hỏi quyền lợi: \"Does the company offer flexible hours?\" Thường đi với core hours (khung giờ bắt buộc có mặt).\nLưu ý: Có thể là một điều khoản bạn đàm phán thay cho tăng lương.",
+    "examples": [
+      {
+        "text": "Does the company offer flexible hours as long as I attend core meetings?",
+        "trans": "Công ty có cho giờ làm linh hoạt miễn là tôi dự các cuộc họp chính không?"
+      },
+      {
+        "text": "Flexible hours help me work with teammates in other time zones.",
+        "trans": "Giờ làm linh hoạt giúp tôi làm việc với đồng đội ở múi giờ khác."
+      }
+    ]
+  },
+  "mentorship": {
+    "detail": "Mentorship - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Có người đi trước dẫn dắt\".\nKhi dùng: Hỏi hoặc nói mong muốn: \"I'm looking for strong mentorship from senior engineers.\"\nLưu ý: Hay đi với junior hoặc người đổi hướng chuyên môn.",
+    "examples": [
+      {
+        "text": "I'm looking for mentorship from senior engineers on system design.",
+        "trans": "Tôi tìm kiếm sự kèm cặp từ các kỹ sư senior về thiết kế hệ thống."
+      },
+      {
+        "text": "Does your team offer formal mentorship for new hires?",
+        "trans": "Nhóm bạn có chương trình mentoring chính thức cho người mới không?"
+      }
+    ]
+  },
+  "long-term goals": {
+    "detail": "Long-term goals - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Điều bạn muốn trong nhiều năm\".\nKhi dùng: Trả lời câu hỏi \"Where do you see yourself in five years?\" bằng mục tiêu gắn với công ty.\nLưu ý: Không cần nói 'sẽ ở công ty này mãi', nhưng nên cho thấy bạn có hướng và muốn học.",
+    "examples": [
+      {
+        "text": "My long-term goals include becoming a technical lead who mentors others.",
+        "trans": "Mục tiêu dài hạn của tôi gồm trở thành tech lead biết dẫn dắt người khác."
+      },
+      {
+        "text": "Our long-term goals include expanding the product to new markets.",
+        "trans": "Mục tiêu dài hạn của chúng tôi gồm mở rộng sản phẩm ra thị trường mới."
+      }
+    ]
+  },
+  "passionate about": {
+    "detail": "Passionate about - Loại từ: Cụm tính từ (Adjective phrase).\nMẹo nhớ: \"Rất thích và dồn tâm huyết\".\nKhi dùng: Giải thích động lực: \"I'm passionate about building products that people use every day.\"\nLưu ý: Đừng lạm dụng. Hãy kèm một ví dụ chứng minh bạn thật sự đam mê.",
+    "examples": [
+      {
+        "text": "I'm passionate about building apps that make everyday tasks simpler.",
+        "trans": "Tôi đam mê xây dựng ứng dụng giúp việc hằng ngày đơn giản hơn."
+      },
+      {
+        "text": "She is passionate about clean code and mentoring junior developers.",
+        "trans": "Cô ấy đam mê code sạch và hướng dẫn các lập trình viên junior."
+      }
+    ]
+  },
+  "align with": {
+    "detail": "Align with - Loại từ: Cụm động từ (Phrasal verb).\nMẹo nhớ: \"Cùng một hướng\".\nKhi dùng: Nói giá trị của bạn khớp công ty: \"Your mission aligns with my goals.\" Hoặc thống nhất công việc: \"Let's align on the priorities.\"\nLưu ý: Rất phổ biến ở công ty toàn cầu, nghĩa 'thống nhất ý kiến'.",
+    "examples": [
+      {
+        "text": "Your mission to simplify payments aligns with what I want to work on.",
+        "trans": "Sứ mệnh đơn giản hóa thanh toán của bạn phù hợp với điều tôi muốn làm."
+      },
+      {
+        "text": "Let's align with the product team on the priorities before the sprint starts.",
+        "trans": "Hãy thống nhất với nhóm sản phẩm về các ưu tiên trước khi sprint bắt đầu."
+      }
+    ]
+  },
+  "autonomy": {
+    "detail": "Autonomy - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Tự quyết định cách làm\".\nKhi dùng: Nói điều bạn muốn ở công việc: \"I value autonomy and clear goals.\" Hoặc hỏi: \"How much autonomy do engineers have?\"\nLưu ý: Đi cùng accountability (chịu trách nhiệm) để nghe cân bằng.",
+    "examples": [
+      {
+        "text": "I do my best work when I have autonomy and clear goals.",
+        "trans": "Tôi làm tốt nhất khi có quyền tự chủ và mục tiêu rõ ràng."
+      },
+      {
+        "text": "How much autonomy do engineers have in choosing the technical approach?",
+        "trans": "Kỹ sư có bao nhiêu quyền tự chủ trong việc chọn hướng kỹ thuật?"
+      }
+    ]
+  },
+  "fast-paced environment": {
+    "detail": "Fast-paced environment - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Mọi thứ diễn ra nhanh\".\nKhi dùng: Mẫu: \"I thrive in a fast-paced environment.\" Nói bạn xử lý tốt nhịp độ cao.\nLưu ý: Nên kèm ví dụ cụ thể. Có thể hỏi lại để biết 'fast-paced' thực tế là gì.",
+    "examples": [
+      {
+        "text": "I thrive in a fast-paced environment where priorities can change quickly.",
+        "trans": "Tôi phát huy tốt trong môi trường nhịp độ nhanh nơi ưu tiên thay đổi nhanh."
+      },
+      {
+        "text": "The job description mentions a fast-paced environment, so I asked about on-call duties.",
+        "trans": "Mô tả công việc nhắc đến môi trường nhịp độ nhanh, nên tôi hỏi về trực on-call."
+      }
+    ]
+  },
+  "onboarding": {
+    "detail": "Onboarding - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Những tuần đầu khi mới vào\".\nKhi dùng: Hỏi: \"What does onboarding look like for new engineers?\" Cho thấy bạn quan tâm cách bắt đầu hiệu quả.\nLưu ý: Động từ là onboard. Nhiều công ty có kế hoạch 30-60-90 ngày.",
+    "examples": [
+      {
+        "text": "What does onboarding look like for new engineers in the first month?",
+        "trans": "Quá trình hội nhập của kỹ sư mới trong tháng đầu như thế nào?"
+      },
+      {
+        "text": "A structured onboarding plan helped me become productive within two weeks.",
+        "trans": "Một kế hoạch hội nhập có cấu trúc giúp tôi làm việc hiệu quả trong hai tuần."
+      }
+    ]
+  },
+  "performance review": {
+    "detail": "Performance review - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Buổi nhìn lại kết quả làm việc\".\nKhi dùng: Hỏi hoặc nói: \"How often are performance reviews conducted?\" Thường nửa năm hoặc hằng năm.\nLưu ý: Liên quan trực tiếp đến tăng lương và thăng chức, nên đáng hỏi tiêu chí đánh giá.",
+    "examples": [
+      {
+        "text": "How often do you hold performance reviews, and what are the criteria?",
+        "trans": "Bao lâu bạn tổ chức đánh giá hiệu suất, và tiêu chí là gì?"
+      },
+      {
+        "text": "My last performance review highlighted my work on reducing crashes.",
+        "trans": "Lần đánh giá hiệu suất gần nhất nêu bật việc tôi giảm lỗi crash."
+      }
+    ]
+  },
+  "promotion": {
+    "detail": "Promotion - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Lên bậc cao hơn\".\nKhi dùng: Hỏi cơ hội thăng tiến: \"What is the process for getting promoted?\" Động từ: be promoted.\nLưu ý: Nên hỏi tiêu chí rõ ràng và thời gian trung bình giữa các cấp.",
+    "examples": [
+      {
+        "text": "What does the process for a promotion look like here?",
+        "trans": "Quy trình thăng chức ở đây như thế nào?"
+      },
+      {
+        "text": "I earned a promotion to senior engineer after two years.",
+        "trans": "Tôi được thăng chức lên kỹ sư senior sau hai năm."
+      }
+    ]
+  },
+  "career ladder": {
+    "detail": "Career ladder - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Các nấc thang trong nghề\".\nKhi dùng: Ở công ty toàn cầu thường có career ladder rõ ràng: junior, mid, senior, staff.\nLưu ý: Hỏi bạn đang được tuyển ở level nào, vì level quyết định khoảng lương.",
+    "examples": [
+      {
+        "text": "Is there a clear career ladder for engineers, with defined levels?",
+        "trans": "Có thang bậc nghề nghiệp rõ ràng cho kỹ sư với các level xác định không?"
+      },
+      {
+        "text": "The career ladder describes what is expected at each level.",
+        "trans": "Thang bậc nghề nghiệp mô tả kỳ vọng ở từng level."
+      }
+    ]
+  },
+  "feedback culture": {
+    "detail": "Feedback culture - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Quen với việc góp ý cho nhau\".\nKhi dùng: Hỏi: \"How does the team give and receive feedback?\" Cho thấy bạn cởi mở với việc học hỏi.\nLưu ý: Hay đi với blameless (không đổ lỗi) trong postmortem.",
+    "examples": [
+      {
+        "text": "How would you describe the feedback culture on your team?",
+        "trans": "Bạn mô tả văn hóa phản hồi của nhóm như thế nào?"
+      },
+      {
+        "text": "A healthy feedback culture helps people improve without fear.",
+        "trans": "Văn hóa phản hồi lành mạnh giúp mọi người tiến bộ mà không sợ hãi."
+      }
+    ]
+  },
+  "one-on-one": {
+    "detail": "One-on-one - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Gặp riêng giữa bạn và sếp\".\nKhi dùng: Hỏi: \"Do you have regular one-on-ones with your manager?\" Rất phổ biến ở công ty toàn cầu.\nLưu ý: Dùng được cả danh từ lẫn tính từ (a one-on-one meeting).",
+    "examples": [
+      {
+        "text": "Will I have regular one-on-ones with my manager?",
+        "trans": "Tôi sẽ có các buổi 1-1 định kỳ với quản lý không?"
+      },
+      {
+        "text": "We use our one-on-one to discuss goals and any blockers.",
+        "trans": "Chúng tôi dùng buổi 1-1 để bàn mục tiêu và các vướng mắc."
+      }
+    ]
+  },
+  "individual contributor": {
+    "detail": "Individual contributor - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Làm chuyên môn, không quản lý\".\nKhi dùng: Nói hướng phát triển: \"I'd like to grow as an individual contributor.\" Ngược lại là engineering manager.\nLưu ý: Ở công ty toàn cầu có hai nhánh: IC (staff, principal) và management.",
+    "examples": [
+      {
+        "text": "I'd like to continue growing as an individual contributor rather than move into management.",
+        "trans": "Tôi muốn tiếp tục phát triển theo hướng chuyên môn thay vì chuyển sang quản lý."
+      },
+      {
+        "text": "Senior individual contributors can influence design across several teams.",
+        "trans": "Các IC senior có thể ảnh hưởng thiết kế qua nhiều nhóm."
+      }
+    ]
+  },
+  "tech lead": {
+    "detail": "Tech lead - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Người dẫn dắt kỹ thuật\".\nKhi dùng: Nói vai trò: \"I served as tech lead for a team of five.\" Chịu trách nhiệm quyết định kỹ thuật và review.\nLưu ý: Khác engineering manager (quản lý con người, hiệu suất, thuê tuyển).",
+    "examples": [
+      {
+        "text": "I served as tech lead for a team of five engineers.",
+        "trans": "Tôi từng là tech lead cho một nhóm năm kỹ sư."
+      },
+      {
+        "text": "The tech lead runs design reviews and helps unblock the team.",
+        "trans": "Tech lead tổ chức design review và giúp nhóm gỡ vướng."
+      }
+    ]
+  },
+  "engineering manager": {
+    "detail": "Engineering manager - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Người quản lý nhóm kỹ sư\".\nKhi dùng: Hỏi: \"Will I report to the engineering manager?\" Họ lo hiệu suất, tuyển dụng, phát triển người.\nLưu ý: Thường viết tắt EM. Khác tech lead ở trọng tâm quản lý con người.",
+    "examples": [
+      {
+        "text": "Who will I report to, the engineering manager or the tech lead?",
+        "trans": "Tôi sẽ báo cáo cho ai, engineering manager hay tech lead?"
+      },
+      {
+        "text": "The engineering manager helps each person grow through regular feedback.",
+        "trans": "Engineering manager giúp từng người phát triển qua phản hồi đều đặn."
+      }
+    ]
+  },
+  "impact": {
+    "detail": "Impact - Loại từ: Danh từ và Động từ (Noun, Verb).\nMẹo nhớ: \"Việc bạn làm tạo ra thay đổi gì\".\nKhi dùng: Ở công ty toàn cầu hay hỏi về impact: \"What was the impact of your work?\" Hãy trả lời bằng số liệu.\nLưu ý: Nói về impact thay vì chỉ liệt kê nhiệm vụ sẽ gây ấn tượng mạnh hơn.",
+    "examples": [
+      {
+        "text": "My work had a clear impact: crashes dropped by thirty percent.",
+        "trans": "Công việc của tôi có tác động rõ ràng: số lỗi crash giảm ba mươi phần trăm."
+      },
+      {
+        "text": "I want a role where I can see the impact of my work on users.",
+        "trans": "Tôi muốn vị trí mà tôi thấy được tác động của công việc lên người dùng."
+      }
+    ]
+  },
+  "just to confirm": {
+    "detail": "Just to confirm - Loại từ: Cụm mở đầu (Discourse phrase).\nMẹo nhớ: \"Nhắc lại để chắc chắn\".\nKhi dùng: Dùng trước khi làm bài hoặc trả lời: \"Just to confirm, the input is already sorted?\" Giúp tránh hiểu sai đề.\nLưu ý: Nhắc lại bằng lời của bạn rồi hỏi \"Is that correct?\" thể hiện bạn cẩn thận chứ không kém tự tin.",
+    "examples": [
+      {
+        "text": "Just to confirm, the input is a list of user IDs, and it can be empty?",
+        "trans": "Để xác nhận lại, đầu vào là danh sách user ID và có thể rỗng đúng không?"
+      },
+      {
+        "text": "Just to confirm, we need to support both Android and iOS in this release?",
+        "trans": "Để xác nhận, chúng ta cần hỗ trợ cả Android và iOS trong bản phát hành này?"
+      }
+    ]
+  },
+  "could you clarify": {
+    "detail": "Could you clarify - Loại từ: Cụm hỏi (Question phrase).\nMẹo nhớ: \"Nhờ nói rõ hơn\".\nKhi dùng: Dùng khi chưa hiểu: \"Could you clarify what you mean by 'fast enough'?\" Lịch sự và chuyên nghiệp.\nLưu ý: Tốt hơn \"I don't understand\". Chỉ ra đúng chỗ chưa rõ.",
+    "examples": [
+      {
+        "text": "Could you clarify what you mean by fast enough in this case?",
+        "trans": "Bạn có thể làm rõ 'đủ nhanh' nghĩa là gì trong trường hợp này không?"
+      },
+      {
+        "text": "Could you clarify whether we should optimize for memory or for speed?",
+        "trans": "Bạn có thể làm rõ chúng ta nên tối ưu bộ nhớ hay tốc độ không?"
+      }
+    ]
+  },
+  "assumption": {
+    "detail": "Assumption - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Điều tạm coi là đúng\".\nKhi dùng: Nói giả định của bạn: \"My assumption is that the data fits in memory.\" Cho phép interviewer sửa nếu sai.\nLưu ý: Nói giả định thành tiếng là dấu hiệu của kỹ sư tốt.",
+    "examples": [
+      {
+        "text": "My assumption is that the input fits in memory. Is that reasonable?",
+        "trans": "Giả định của tôi là đầu vào vừa đủ trong bộ nhớ. Điều đó hợp lý không?"
+      },
+      {
+        "text": "We should write down our assumptions before designing the API.",
+        "trans": "Chúng ta nên ghi lại các giả định trước khi thiết kế API."
+      }
+    ]
+  },
+  "constraint": {
+    "detail": "Constraint - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Giới hạn của bài toán\".\nKhi dùng: Hỏi để thu hẹp bài toán: \"Are there any constraints on memory or latency?\"\nLưu ý: Hỏi về constraint ngay từ đầu cho thấy bạn tư duy như kỹ sư.",
+    "examples": [
+      {
+        "text": "Are there any constraints on memory or response time I should know about?",
+        "trans": "Có ràng buộc nào về bộ nhớ hoặc thời gian phản hồi mà tôi cần biết không?"
+      },
+      {
+        "text": "The biggest constraint was the three-week deadline.",
+        "trans": "Ràng buộc lớn nhất là thời hạn ba tuần."
+      }
+    ]
+  },
+  "edge case": {
+    "detail": "Edge case - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Tình huống ở rìa\".\nKhi dùng: Nhắc đến trường hợp đặc biệt: \"What happens with an empty list? That's an edge case.\"\nLưu ý: Danh sách ví dụ: rỗng, một phần tử, giá trị trùng, số âm, rất lớn.",
+    "examples": [
+      {
+        "text": "Let me think about edge cases, like an empty list or duplicate values.",
+        "trans": "Để tôi nghĩ về các trường hợp biên, như danh sách rỗng hoặc giá trị trùng."
+      },
+      {
+        "text": "Most of our production bugs came from edge cases we hadn't tested.",
+        "trans": "Hầu hết lỗi production của chúng tôi đến từ các trường hợp biên chưa được kiểm thử."
+      }
+    ]
+  },
+  "trade-off": {
+    "detail": "Trade-off - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Được cái này, mất cái kia\".\nKhi dùng: Giải thích lựa chọn: \"The trade-off is between speed and memory.\" Rất quan trọng khi bàn thiết kế.\nLưu ý: Cấu trúc hay: \"The trade-off is X versus Y\". Luôn nêu vì sao bạn chọn một bên.",
+    "examples": [
+      {
+        "text": "The trade-off is between faster reads and more storage.",
+        "trans": "Sự đánh đổi là giữa đọc nhanh hơn và tốn thêm lưu trữ."
+      },
+      {
+        "text": "Every design has trade-offs, so I explain why I chose this one.",
+        "trans": "Thiết kế nào cũng có đánh đổi, nên tôi giải thích vì sao chọn cách này."
+      }
+    ]
+  },
+  "it depends on": {
+    "detail": "It depends on - Loại từ: Cụm (Phrase).\nMẹo nhớ: \"Còn tùy tình huống\".\nKhi dùng: Dùng khi không có đáp án duy nhất: \"It depends on the read-to-write ratio.\" Sau đó nêu hai ba trường hợp.\nLưu ý: Đừng chỉ nói \"It depends\" rồi dừng. Hãy giải thích nó phụ thuộc vào cái gì.",
+    "examples": [
+      {
+        "text": "It depends on how often the data changes. If it's rare, caching works well.",
+        "trans": "Còn tùy dữ liệu thay đổi thường xuyên không. Nếu hiếm, cache hoạt động tốt."
+      },
+      {
+        "text": "It depends on the team size and how fast we need to ship.",
+        "trans": "Còn tùy quy mô nhóm và tốc độ chúng ta cần giao."
+      }
+    ]
+  },
+  "let me think out loud": {
+    "detail": "Let me think out loud - Loại từ: Cụm (Phrase).\nMẹo nhớ: \"Nói ra điều đang nghĩ\".\nKhi dùng: Dùng khi cần thời gian suy nghĩ: \"Let me think out loud for a moment.\" Giúp interviewer theo dõi tư duy của bạn.\nLưu ý: Im lặng lâu khiến người nghe không biết bạn nghĩ gì. Nói thành tiếng giúp họ hỗ trợ bạn.",
+    "examples": [
+      {
+        "text": "Let me think out loud for a moment about the possible approaches.",
+        "trans": "Để tôi nghĩ thành tiếng một chút về các cách tiếp cận có thể."
+      },
+      {
+        "text": "Let me think out loud so you can follow my reasoning.",
+        "trans": "Để tôi nghĩ thành tiếng để bạn theo dõi được lập luận của tôi."
+      }
+    ]
+  },
+  "off the top of my head": {
+    "detail": "Off the top of my head - Loại từ: Thành ngữ (Idiom).\nMẹo nhớ: \"Nói ngay từ trong đầu\".\nKhi dùng: Dùng khi không chắc chi tiết: \"Off the top of my head, it's O(n log n).\" Báo hiệu câu trả lời chưa kiểm chứng.\nLưu ý: Nên kèm \"I'd double-check\" nếu con số quan trọng.",
+    "examples": [
+      {
+        "text": "Off the top of my head, I think the query takes under a second.",
+        "trans": "Theo trí nhớ, tôi nghĩ truy vấn chạy dưới một giây."
+      },
+      {
+        "text": "I can't give exact numbers off the top of my head, but I can find them.",
+        "trans": "Tôi không nhớ chính xác con số, nhưng có thể tìm lại."
+      }
+    ]
+  },
+  "I'm not familiar with": {
+    "detail": "I'm not familiar with - Loại từ: Cụm (Phrase).\nMẹo nhớ: \"Chưa biết công nghệ đó\".\nKhi dùng: Trung thực khi không biết: \"I'm not familiar with that tool, but I've used something similar.\" Tốt hơn đoán bừa.\nLưu ý: Thừa nhận rồi nối sang kinh nghiệm gần nhất và cách bạn sẽ học.",
+    "examples": [
+      {
+        "text": "I'm not familiar with that framework, but I've used a similar one.",
+        "trans": "Tôi chưa quen với framework đó, nhưng tôi đã dùng một cái tương tự."
+      },
+      {
+        "text": "I'm not familiar with their API, so I'd read the documentation first.",
+        "trans": "Tôi chưa quen với API của họ, nên tôi sẽ đọc tài liệu trước."
+      }
+    ]
+  },
+  "if I understand correctly": {
+    "detail": "If I understand correctly - Loại từ: Cụm (Phrase).\nMẹo nhớ: \"Nhắc lại ý đối phương\".\nKhi dùng: Dùng để xác nhận trước khi trả lời hoặc phản biện: \"If I understand correctly, you want to reduce latency, not cost.\"\nLưu ý: Giúp tranh luận nhẹ nhàng và tránh hiểu nhầm.",
+    "examples": [
+      {
+        "text": "If I understand correctly, the main goal is to reduce latency.",
+        "trans": "Nếu tôi hiểu đúng, mục tiêu chính là giảm độ trễ."
+      },
+      {
+        "text": "If I understand correctly, we can't change the database schema this quarter.",
+        "trans": "Nếu tôi hiểu đúng, quý này chúng ta không được đổi schema cơ sở dữ liệu."
+      }
+    ]
+  },
+  "in my experience": {
+    "detail": "In my experience - Loại từ: Cụm (Phrase).\nMẹo nhớ: \"Dựa trên điều tôi từng làm\".\nKhi dùng: Đưa ý kiến lịch sự: \"In my experience, small pull requests are easier to review.\"\nLưu ý: Nghe khiêm tốn và có căn cứ hơn là khẳng định tuyệt đối.",
+    "examples": [
+      {
+        "text": "In my experience, small pull requests are reviewed faster and break less.",
+        "trans": "Theo kinh nghiệm của tôi, pull request nhỏ được review nhanh hơn và ít gây lỗi hơn."
+      },
+      {
+        "text": "In my experience, writing tests first saves time later.",
+        "trans": "Theo kinh nghiệm của tôi, viết test trước tiết kiệm thời gian về sau."
+      }
+    ]
+  },
+  "I'd go with": {
+    "detail": "I'd go with - Loại từ: Cụm (Phrase).\nMẹo nhớ: \"Tôi chọn phương án này\".\nKhi dùng: Chốt lựa chọn sau khi nêu trade-off: \"I'd go with a message queue because it decouples the services.\"\nLưu ý: Luôn đưa lý do. Không chọn mà không giải thích sẽ mất điểm.",
+    "examples": [
+      {
+        "text": "I'd go with a message queue because it decouples the two services.",
+        "trans": "Tôi sẽ chọn message queue vì nó tách rời hai dịch vụ."
+      },
+      {
+        "text": "Given the deadline, I'd go with the simpler approach first.",
+        "trans": "Với thời hạn này, tôi sẽ chọn cách đơn giản trước."
+      }
+    ]
+  },
+  "on the other hand": {
+    "detail": "On the other hand - Loại từ: Cụm nối (Linking phrase).\nMẹo nhớ: \"Nhìn từ phía còn lại\".\nKhi dùng: So sánh hai lựa chọn: \"A cache is fast; on the other hand, it can serve stale data.\"\nLưu ý: Đi cặp với \"on the one hand\" (một mặt).",
+    "examples": [
+      {
+        "text": "A cache is fast. On the other hand, it can return stale data.",
+        "trans": "Cache nhanh. Mặt khác, nó có thể trả dữ liệu cũ."
+      },
+      {
+        "text": "Microservices scale well. On the other hand, they add operational complexity.",
+        "trans": "Microservices mở rộng tốt. Mặt khác, chúng làm tăng độ phức tạp vận hành."
+      }
+    ]
+  },
+  "pros and cons": {
+    "detail": "Pros and cons - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Điểm cộng và điểm trừ\".\nKhi dùng: Trình bày so sánh: \"Let me walk through the pros and cons of each option.\"\nLưu ý: Nên chốt bằng một khuyến nghị, không dừng ở việc liệt kê.",
+    "examples": [
+      {
+        "text": "Let me walk through the pros and cons of each option.",
+        "trans": "Để tôi trình bày ưu và nhược điểm của từng phương án."
+      },
+      {
+        "text": "The pros and cons were clear, so we chose the managed service.",
+        "trans": "Ưu và nhược điểm khá rõ, nên chúng tôi chọn dịch vụ được quản lý."
+      }
+    ]
+  },
+  "break down": {
+    "detail": "Break down - Loại từ: Cụm động từ (Phrasal verb).\nMẹo nhớ: \"Chia nhỏ ra\".\nKhi dùng: Nói cách bạn tiếp cận: \"I'd break the problem down into three steps.\" Rất tự nhiên khi giải thích tư duy.\nLưu ý: Danh từ: breakdown (bản phân tích chi tiết, hoặc sự cố hỏng hóc).",
+    "examples": [
+      {
+        "text": "I'd break down the problem into three smaller steps.",
+        "trans": "Tôi sẽ chia vấn đề thành ba bước nhỏ hơn."
+      },
+      {
+        "text": "Can you break down how the pipeline works from commit to release?",
+        "trans": "Bạn có thể giải thích từng phần pipeline chạy từ commit đến phát hành không?"
+      }
+    ]
+  },
+  "bottleneck": {
+    "detail": "Bottleneck - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Chỗ hẹp nhất của chai\".\nKhi dùng: Nói về hiệu năng: \"The database is the bottleneck.\" Trước khi tối ưu, hãy đo để tìm bottleneck.\nLưu ý: Câu hay: \"We should measure first to find the real bottleneck.\"",
+    "examples": [
+      {
+        "text": "The bottleneck was a slow query that ran on every request.",
+        "trans": "Điểm nghẽn là một truy vấn chậm chạy ở mọi request."
+      },
+      {
+        "text": "We profiled the app to find the real bottleneck before optimizing.",
+        "trans": "Chúng tôi profile ứng dụng để tìm điểm nghẽn thật sự trước khi tối ưu."
+      }
+    ]
+  },
+  "scalability": {
+    "detail": "Scalability - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Mở rộng khi tải tăng\".\nKhi dùng: Trong thiết kế: \"How would this design handle scalability?\" Tính từ: scalable.\nLưu ý: Nên nêu con số tải giả định (ví dụ 10.000 request mỗi giây).",
+    "examples": [
+      {
+        "text": "How would this design handle scalability if traffic grows ten times?",
+        "trans": "Thiết kế này xử lý khả năng mở rộng thế nào nếu lưu lượng tăng mười lần?"
+      },
+      {
+        "text": "Scalability was our main concern when choosing the database.",
+        "trans": "Khả năng mở rộng là mối quan tâm chính khi chúng tôi chọn cơ sở dữ liệu."
+      }
+    ]
+  },
+  "technical debt": {
+    "detail": "Technical debt - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Vay thời gian hôm nay, trả sau\".\nKhi dùng: Nói về chất lượng mã: \"We carry some technical debt from the first release.\" Cách nói quen thuộc với dev.\nLưu ý: Nêu cách bạn quản lý: ghi lại, ưu tiên, dành thời gian mỗi sprint.",
+    "examples": [
+      {
+        "text": "We reserve ten percent of each sprint to pay down technical debt.",
+        "trans": "Chúng tôi dành mười phần trăm mỗi sprint để trả nợ kỹ thuật."
+      },
+      {
+        "text": "The quick fix added technical debt that we had to refactor later.",
+        "trans": "Bản sửa nhanh làm tăng nợ kỹ thuật mà sau này chúng tôi phải refactor."
+      }
+    ]
+  },
+  "root cause": {
+    "detail": "Root cause - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Nguyên nhân gốc rễ\".\nKhi dùng: Kể lại sự cố: \"We found the root cause: a missing database index.\" Thể hiện tư duy giải quyết tận gốc.\nLưu ý: Khác workaround (cách tạm thời). Hãy phân biệt hai điều này khi kể.",
+    "examples": [
+      {
+        "text": "We found the root cause was a missing index on the orders table.",
+        "trans": "Chúng tôi tìm ra nguyên nhân gốc là thiếu index ở bảng orders."
+      },
+      {
+        "text": "A quick restart is a workaround; we also need the root cause.",
+        "trans": "Khởi động lại là cách tạm; chúng ta còn cần tìm nguyên nhân gốc."
+      }
+    ]
+  },
+  "workaround": {
+    "detail": "Workaround - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Đường vòng tạm thời\".\nKhi dùng: Nói khi chưa thể sửa tận gốc: \"We shipped a workaround until the fix is ready.\"\nLưu ý: Hãy nói rõ giới hạn và kế hoạch thay thế cách tạm này.",
+    "examples": [
+      {
+        "text": "We shipped a workaround and planned the real fix for next sprint.",
+        "trans": "Chúng tôi phát hành cách xử lý tạm và lên kế hoạch sửa thật cho sprint sau."
+      },
+      {
+        "text": "There is a simple workaround: clear the cache and retry.",
+        "trans": "Có một cách tạm đơn giản: xóa cache và thử lại."
+      }
+    ]
+  },
+  "refactor": {
+    "detail": "Refactor - Loại từ: Động từ (Verb).\nMẹo nhớ: \"Sắp xếp lại mã bên trong\".\nKhi dùng: Nói về cải thiện mã: \"I refactored the module to make it testable.\" Có thể dùng như danh từ (a refactor).\nLưu ý: Nên nhấn mạnh hành vi bên ngoài không đổi và có test bảo vệ.",
+    "examples": [
+      {
+        "text": "I refactored the payment module to make it easier to test.",
+        "trans": "Tôi đã refactor module thanh toán để dễ kiểm thử hơn."
+      },
+      {
+        "text": "We should refactor this class before adding more features.",
+        "trans": "Chúng ta nên refactor lớp này trước khi thêm tính năng."
+      }
+    ]
+  },
+  "code review": {
+    "detail": "Code review - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Người khác đọc mã bạn viết\".\nKhi dùng: Nói về quy trình làm việc: \"I do thorough code reviews and give constructive feedback.\"\nLưu ý: Nên nhắc cách góp ý: cụ thể, lịch sự, tập trung vào mã chứ không vào người.",
+    "examples": [
+      {
+        "text": "I give constructive feedback during code review and explain my reasoning.",
+        "trans": "Tôi góp ý mang tính xây dựng trong code review và giải thích lý do."
+      },
+      {
+        "text": "Every change goes through code review before it is merged.",
+        "trans": "Mọi thay đổi đều qua code review trước khi được gộp."
+      }
+    ]
+  },
+  "pull request": {
+    "detail": "Pull request - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Đề nghị gộp mã vào nhánh chính\".\nKhi dùng: Nói tắt PR: \"I'll open a PR by the end of the day.\" Nên giữ PR nhỏ và có mô tả rõ.\nLưu ý: Động từ: open, review, merge, approve a pull request.",
+    "examples": [
+      {
+        "text": "I'll open a pull request with a short description by the end of the day.",
+        "trans": "Tôi sẽ mở pull request kèm mô tả ngắn trước cuối ngày."
+      },
+      {
+        "text": "Small pull requests are easier to review and safer to merge.",
+        "trans": "Pull request nhỏ dễ review hơn và an toàn hơn khi gộp."
+      }
+    ]
+  },
+  "unit test": {
+    "detail": "Unit test - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Test từng mảnh nhỏ\".\nKhi dùng: Nói về chất lượng: \"I write unit tests for the core logic.\" Có thể nhắc test coverage (độ phủ test).\nLưu ý: Phân biệt với integration test (nhiều thành phần) và end-to-end test.",
+    "examples": [
+      {
+        "text": "I write unit tests for the core logic before opening a pull request.",
+        "trans": "Tôi viết unit test cho logic cốt lõi trước khi mở pull request."
+      },
+      {
+        "text": "The bug was caught by a unit test in the CI pipeline.",
+        "trans": "Lỗi được bắt bởi một unit test trong pipeline CI."
+      }
+    ]
+  },
+  "in production": {
+    "detail": "In production - Loại từ: Cụm giới từ (Prepositional phrase).\nMẹo nhớ: \"Nơi người dùng thật đang dùng\".\nKhi dùng: Kể sự cố hoặc kinh nghiệm: \"The bug only appeared in production.\"\nLưu ý: Phân biệt: development, staging, production. Câu hỏi hay gặp: \"Have you worked on systems in production?\"",
+    "examples": [
+      {
+        "text": "The bug only appeared in production, so we added more logging.",
+        "trans": "Lỗi chỉ xuất hiện trên production, nên chúng tôi thêm log."
+      },
+      {
+        "text": "I have supported services in production with thousands of daily users.",
+        "trans": "Tôi đã hỗ trợ các dịch vụ chạy trên production với hàng nghìn người dùng mỗi ngày."
+      }
+    ]
+  },
+  "roll back": {
+    "detail": "Roll back - Loại từ: Cụm động từ (Phrasal verb).\nMẹo nhớ: \"Quay lại bản trước\".\nKhi dùng: Nói về xử lý sự cố: \"We rolled back the release within ten minutes.\" Quan trọng khi bàn kế hoạch triển khai.\nLưu ý: Danh từ viết liền: rollback. Câu hỏi: \"What is your rollback plan?\"",
+    "examples": [
+      {
+        "text": "We rolled back the release within ten minutes of the alert.",
+        "trans": "Chúng tôi hoàn tác bản phát hành trong mười phút sau cảnh báo."
+      },
+      {
+        "text": "Always have a plan to roll back if the deployment fails.",
+        "trans": "Luôn có kế hoạch quay lại nếu việc triển khai thất bại."
+      }
+    ]
+  },
+  "incident": {
+    "detail": "Incident - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Có chuyện xảy ra với hệ thống\".\nKhi dùng: Kể kinh nghiệm: \"I led the response during a major incident.\" Câu hỏi phổ biến: \"Tell me about a time you handled an incident.\"\nLưu ý: Nên kể theo thứ tự: phát hiện, giảm thiểu, sửa gốc, rút kinh nghiệm.",
+    "examples": [
+      {
+        "text": "I led the response during a major incident that affected payments.",
+        "trans": "Tôi dẫn dắt việc xử lý trong một sự cố lớn ảnh hưởng đến thanh toán."
+      },
+      {
+        "text": "After each incident, we write a short postmortem and share it.",
+        "trans": "Sau mỗi sự cố, chúng tôi viết postmortem ngắn và chia sẻ."
+      }
+    ]
+  },
+  "postmortem": {
+    "detail": "Postmortem - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Mổ xẻ sự cố để rút kinh nghiệm\".\nKhi dùng: Nói về văn hóa kỹ thuật: \"We run blameless postmortems.\" Mục tiêu là học hỏi, không tìm người để đổ lỗi.\nLưu ý: Thường gồm: dòng thời gian, nguyên nhân gốc, hành động khắc phục.",
+    "examples": [
+      {
+        "text": "We run blameless postmortems to learn from every incident.",
+        "trans": "Chúng tôi tổ chức postmortem không đổ lỗi để học từ mọi sự cố."
+      },
+      {
+        "text": "The postmortem showed that missing alerts delayed the response.",
+        "trans": "Postmortem cho thấy thiếu cảnh báo đã làm chậm việc xử lý."
+      }
+    ]
+  },
+  "on-call": {
+    "detail": "On-call - Loại từ: Tính từ và Danh từ (Adjective, Noun).\nMẹo nhớ: \"Sẵn sàng khi hệ thống báo động\".\nKhi dùng: Hỏi công việc: \"Is there an on-call rotation, and is it compensated?\" Đây là quyền lợi có thể thương lượng.\nLưu ý: Nên hỏi tần suất trực, tải sự cố và phụ cấp hoặc ngày nghỉ bù.",
+    "examples": [
+      {
+        "text": "Is there an on-call rotation, and how is it compensated?",
+        "trans": "Có lịch trực on-call luân phiên không, và được bù đắp thế nào?"
+      },
+      {
+        "text": "I was on-call every fifth week for our payments service.",
+        "trans": "Tôi trực on-call mỗi tuần thứ năm cho dịch vụ thanh toán."
+      }
+    ]
+  },
+  "sprint": {
+    "detail": "Sprint - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Một vòng làm việc ngắn\".\nKhi dùng: Nói về quy trình Agile: \"We work in two-week sprints.\" Thường kèm sprint planning, retrospective.\nLưu ý: Từ đi kèm: backlog (danh sách việc), stand-up (họp ngắn hằng ngày).",
+    "examples": [
+      {
+        "text": "We work in two-week sprints with planning and a retrospective.",
+        "trans": "Chúng tôi làm việc theo sprint hai tuần với buổi lập kế hoạch và retrospective."
+      },
+      {
+        "text": "We moved the task to the next sprint because the scope grew.",
+        "trans": "Chúng tôi chuyển việc sang sprint sau vì phạm vi tăng lên."
+      }
+    ]
+  },
+  "scope creep": {
+    "detail": "Scope creep - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Việc cứ thêm vào dần dần\".\nKhi dùng: Nói về quản lý yêu cầu: \"We avoided scope creep by agreeing on a clear definition of done.\"\nLưu ý: Cách xử lý: ghi lại yêu cầu mới, đánh giá tác động, thương lượng thời hạn.",
+    "examples": [
+      {
+        "text": "We avoided scope creep by agreeing on a clear definition of done.",
+        "trans": "Chúng tôi tránh được scope creep bằng cách thống nhất định nghĩa hoàn thành rõ ràng."
+      },
+      {
+        "text": "Scope creep pushed the release back by three weeks.",
+        "trans": "Việc phạm vi phình ra đã đẩy bản phát hành lùi ba tuần."
+      }
+    ]
+  },
+  "push back": {
+    "detail": "Push back - Loại từ: Cụm động từ (Phrasal verb).\nMẹo nhớ: \"Đẩy ngược lại một yêu cầu\".\nKhi dùng: Dùng khi bạn nêu ý kiến trái chiều một cách lịch sự: \"I pushed back on the deadline and proposed a smaller scope.\"\nLưu ý: Nên nêu lý do và giải pháp thay thế. Công ty toàn cầu đánh giá cao việc góp ý thẳng thắn.",
+    "examples": [
+      {
+        "text": "I pushed back on the deadline and proposed a smaller scope.",
+        "trans": "Tôi phản biện về thời hạn và đề xuất phạm vi nhỏ hơn."
+      },
+      {
+        "text": "It's fine to push back politely if a requirement doesn't make sense.",
+        "trans": "Việc phản biện lịch sự là ổn nếu yêu cầu không hợp lý."
+      }
+    ]
+  },
+  "raise concerns": {
+    "detail": "Raise concerns - Loại từ: Cụm động từ (Verb phrase).\nMẹo nhớ: \"Nói ra điều đang lo\".\nKhi dùng: Dùng khi thấy rủi ro: \"I raised concerns about the migration plan early.\" Nêu sớm và kèm đề xuất.\nLưu ý: Mẫu: \"I have a concern about X. Could we consider Y?\"",
+    "examples": [
+      {
+        "text": "I raised concerns about the migration plan and suggested a safer option.",
+        "trans": "Tôi nêu mối lo về kế hoạch di chuyển dữ liệu và đề xuất phương án an toàn hơn."
+      },
+      {
+        "text": "Please raise concerns early so we can adjust the plan.",
+        "trans": "Hãy nêu mối lo sớm để chúng ta điều chỉnh kế hoạch."
+      }
+    ]
+  },
+  "unblock": {
+    "detail": "Unblock - Loại từ: Động từ (Verb).\nMẹo nhớ: \"Gỡ cản trở\".\nKhi dùng: Dùng khi hỗ trợ đồng đội: \"I helped unblock the mobile team by finishing the API first.\"\nLưu ý: Danh từ blocker: thứ đang chặn tiến độ. Báo blocker sớm là thói quen tốt ở stand-up.",
+    "examples": [
+      {
+        "text": "I helped unblock the mobile team by finishing the API first.",
+        "trans": "Tôi giúp gỡ vướng cho nhóm mobile bằng cách hoàn thành API trước."
+      },
+      {
+        "text": "I'm blocked on access to the staging server. Could you help me unblock it?",
+        "trans": "Tôi đang bị kẹt vì chưa có quyền vào server staging. Bạn giúp gỡ được không?"
+      }
+    ]
+  },
+  "circle back": {
+    "detail": "Circle back - Loại từ: Cụm động từ (Phrasal verb).\nMẹo nhớ: \"Quay lại điểm đó sau\".\nKhi dùng: Dùng khi cần thêm thời gian: \"Let me circle back to you with the numbers by tomorrow.\" Rất phổ biến trong công ty toàn cầu.\nLưu ý: Nhớ thực sự quay lại đúng hạn đã hứa.",
+    "examples": [
+      {
+        "text": "Let me circle back to you with the exact numbers by tomorrow.",
+        "trans": "Để tôi quay lại báo bạn số liệu chính xác trước ngày mai."
+      },
+      {
+        "text": "We can circle back to the pricing question at the end of the meeting.",
+        "trans": "Chúng ta có thể quay lại câu hỏi về giá vào cuối cuộc họp."
+      }
+    ]
+  },
+  "base salary": {
+    "detail": "Base salary - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Phần lương cố định\".\nKhi dùng: Nói về lương: \"Is the base salary negotiable?\" Chưa gồm thưởng, cổ phần hay phụ cấp.\nLưu ý: Ở Việt Nam, offer thường ghi theo tháng và theo gross hoặc net. Hãy hỏi rõ.",
+    "examples": [
+      {
+        "text": "Could you confirm whether the base salary is quoted gross or net?",
+        "trans": "Bạn có thể xác nhận mức lương cơ bản được ghi theo gross hay net không?"
+      },
+      {
+        "text": "My expected base salary is based on my experience and the market.",
+        "trans": "Mức lương cơ bản tôi mong đợi dựa trên kinh nghiệm và thị trường."
+      }
+    ]
+  },
+  "gross salary": {
+    "detail": "Gross salary - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Lương trước khi trừ\".\nKhi dùng: Hỏi cách ghi lương: \"Is that figure gross or net?\" Gross cao hơn net vì chưa trừ bảo hiểm và thuế thu nhập cá nhân.\nLưu ý: Ở Việt Nam, người lao động thường đóng khoảng 10,5 phần trăm bảo hiểm bắt buộc và thuế thu nhập cá nhân tùy mức lương.",
+    "examples": [
+      {
+        "text": "Is the offer of forty million dong per month a gross salary or a net salary?",
+        "trans": "Mức đề nghị bốn mươi triệu đồng mỗi tháng là lương gross hay lương net?"
+      },
+      {
+        "text": "Gross salary is higher than net because insurance and tax are deducted.",
+        "trans": "Lương gross cao hơn net vì bảo hiểm và thuế bị trừ."
+      }
+    ]
+  },
+  "net salary": {
+    "detail": "Net salary - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Số tiền thật sự vào tài khoản\".\nKhi dùng: Nói về số nhận được: \"I'd like to understand my net salary after tax and insurance.\"\nLưu ý: Nên so sánh các offer theo cùng một cách (gross với gross).",
+    "examples": [
+      {
+        "text": "I'd like to understand my net salary after tax and insurance.",
+        "trans": "Tôi muốn hiểu mức lương net của mình sau thuế và bảo hiểm."
+      },
+      {
+        "text": "The company guarantees a net salary of thirty million dong per month.",
+        "trans": "Công ty đảm bảo lương net ba mươi triệu đồng mỗi tháng."
+      }
+    ]
+  },
+  "take-home pay": {
+    "detail": "Take-home pay - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Số tiền mang về nhà\".\nKhi dùng: Nói đời thường về lương: \"What would my take-home pay be?\"\nLưu ý: Thường dùng trong hội thoại hơn trong văn bản hợp đồng.",
+    "examples": [
+      {
+        "text": "What would my take-home pay be after all deductions?",
+        "trans": "Tiền thực nhận của tôi sẽ là bao nhiêu sau mọi khoản khấu trừ?"
+      },
+      {
+        "text": "Take-home pay matters more to me than the headline number.",
+        "trans": "Tiền thực nhận quan trọng với tôi hơn con số đầu tiên được nêu."
+      }
+    ]
+  },
+  "total compensation": {
+    "detail": "Total compensation - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Toàn bộ những gì bạn nhận được\".\nKhi dùng: Nói khi so sánh offer: \"I look at total compensation, not just base salary.\" Ở công ty toàn cầu rất hay dùng.\nLưu ý: Gồm: lương, thưởng, cổ phần, bảo hiểm, ngày phép, học tập.",
+    "examples": [
+      {
+        "text": "I look at total compensation, not just the base salary.",
+        "trans": "Tôi xem xét tổng đãi ngộ, không chỉ lương cơ bản."
+      },
+      {
+        "text": "Could you break down the total compensation for this role?",
+        "trans": "Bạn có thể chia nhỏ tổng đãi ngộ cho vị trí này không?"
+      }
+    ]
+  },
+  "compensation package": {
+    "detail": "Compensation package - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Cả gói quyền lợi\".\nKhi dùng: Nói khi thương lượng: \"I'm open to discussing the whole compensation package.\" Cho thấy bạn linh hoạt.\nLưu ý: Gần nghĩa với total compensation; package nhấn vào các thành phần cụ thể.",
+    "examples": [
+      {
+        "text": "I'm open to discussing the whole compensation package.",
+        "trans": "Tôi sẵn sàng bàn về toàn bộ gói đãi ngộ."
+      },
+      {
+        "text": "The compensation package includes a bonus and extra health coverage.",
+        "trans": "Gói đãi ngộ gồm tiền thưởng và bảo hiểm sức khỏe bổ sung."
+      }
+    ]
+  },
+  "salary range": {
+    "detail": "Salary range - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Khoảng lương của vị trí\".\nKhi dùng: Hỏi sớm: \"What is the salary range for this role?\" Nhiều công ty toàn cầu sẵn sàng chia sẻ.\nLưu ý: Biết khung lương giúp bạn không đòi quá thấp hoặc quá cao.",
+    "examples": [
+      {
+        "text": "What is the salary range for this role and level?",
+        "trans": "Khung lương cho vị trí và cấp bậc này là bao nhiêu?"
+      },
+      {
+        "text": "The salary range depends on experience and the level we assign.",
+        "trans": "Khung lương phụ thuộc vào kinh nghiệm và cấp bậc chúng tôi xếp."
+      }
+    ]
+  },
+  "market rate": {
+    "detail": "Market rate - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Mức người khác đang trả\".\nKhi dùng: Lập luận cho mức lương: \"Based on the market rate for senior engineers, I'm looking for...\"\nLưu ý: Nên có nguồn tham khảo (khảo sát lương, nhà tuyển dụng, đồng nghiệp).",
+    "examples": [
+      {
+        "text": "Based on the market rate for senior engineers, I'm targeting this range.",
+        "trans": "Dựa trên mức thị trường cho kỹ sư senior, tôi nhắm khung này."
+      },
+      {
+        "text": "We review salaries yearly to stay close to the market rate.",
+        "trans": "Chúng tôi xem xét lương hằng năm để sát mức thị trường."
+      }
+    ]
+  },
+  "salary expectation": {
+    "detail": "Salary expectation - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Số bạn kỳ vọng\".\nKhi dùng: Mẫu trả lời: \"Based on my experience and the market, my expectation is between X and Y, and I'm flexible depending on the full package.\"\nLưu ý: Nên nêu khoảng, không nêu một con số cứng. Không nên nêu quá sớm nếu chưa hiểu vị trí.",
+    "examples": [
+      {
+        "text": "My salary expectation is in the range of X to Y, depending on the full package.",
+        "trans": "Mức lương mong muốn của tôi trong khoảng X đến Y, tùy toàn bộ gói đãi ngộ."
+      },
+      {
+        "text": "May I ask what your salary expectation is for this position?",
+        "trans": "Tôi xin hỏi mức lương mong muốn của bạn cho vị trí này là bao nhiêu?"
+      }
+    ]
+  },
+  "ballpark": {
+    "detail": "Ballpark - Loại từ: Danh từ và Tính từ (Noun, Adjective).\nMẹo nhớ: \"Con số trong tầm\".\nKhi dùng: Dùng khi chưa chắc: \"Can you give me a ballpark figure for the salary?\" Lịch sự và thân thiện.\nLưu ý: Dùng trong hội thoại, ít dùng trong văn bản chính thức.",
+    "examples": [
+      {
+        "text": "Could you give me a ballpark figure for the salary range?",
+        "trans": "Bạn có thể cho tôi con số ước chừng về khung lương không?"
+      },
+      {
+        "text": "A ballpark estimate is enough for now; we can refine it later.",
+        "trans": "Một ước tính sơ bộ là đủ lúc này; chúng ta có thể tinh chỉnh sau."
+      }
+    ]
+  },
+  "counteroffer": {
+    "detail": "Counteroffer - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Đề nghị ngược lại\".\nKhi dùng: Khi chưa hài lòng với offer: \"Thank you for the offer. I'd like to make a counteroffer.\" Luôn bắt đầu bằng cảm ơn.\nLưu ý: Nên có lý do (kinh nghiệm, thị trường, thành tích) và giữ thái độ hợp tác.",
+    "examples": [
+      {
+        "text": "Thank you for the offer. I'd like to propose a counteroffer.",
+        "trans": "Cảm ơn bạn về offer. Tôi muốn đưa ra một đề nghị đáp lại."
+      },
+      {
+        "text": "My current employer made a counteroffer, but I prefer this role.",
+        "trans": "Công ty hiện tại đưa ra đề nghị giữ chân, nhưng tôi thích vị trí này hơn."
+      }
+    ]
+  },
+  "negotiate": {
+    "detail": "Negotiate - Loại từ: Động từ (Verb).\nMẹo nhớ: \"Bàn bạc để đạt thỏa thuận\".\nKhi dùng: Dùng khi đàm phán: \"Is the salary negotiable?\" hay \"I'd like to negotiate the start date.\" Tính từ: negotiable.\nLưu ý: Thương lượng là bình thường và được mong đợi. Hãy lịch sự, có căn cứ và sẵn sàng thỏa hiệp.",
+    "examples": [
+      {
+        "text": "Is there room to negotiate on the base salary?",
+        "trans": "Có chỗ để thương lượng về lương cơ bản không?"
+      },
+      {
+        "text": "I'd like to negotiate the start date because of my notice period.",
+        "trans": "Tôi muốn thương lượng ngày bắt đầu vì thời gian báo trước của tôi."
+      }
+    ]
+  },
+  "flexibility": {
+    "detail": "Flexibility - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Có thể nhích thêm không\".\nKhi dùng: Mẫu hay nhất khi thương lượng: \"Is there any flexibility on the base salary?\" Lịch sự, ít đối đầu.\nLưu ý: Có thể hỏi về lương, ngày bắt đầu, chính sách làm từ xa, ngày phép.",
+    "examples": [
+      {
+        "text": "Is there any flexibility on the base salary?",
+        "trans": "Có chút linh hoạt nào về lương cơ bản không?"
+      },
+      {
+        "text": "I have some flexibility on the start date if the team needs me earlier.",
+        "trans": "Tôi có chút linh hoạt về ngày bắt đầu nếu nhóm cần tôi sớm hơn."
+      }
+    ]
+  },
+  "sign-on bonus": {
+    "detail": "Sign-on bonus - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Thưởng cho việc nhận lời\".\nKhi dùng: Có thể hỏi khi công ty không tăng được lương: \"Would a sign-on bonus be possible?\" Thường kèm điều kiện ở lại tối thiểu.\nLưu ý: Cẩn thận điều khoản hoàn trả (clawback) nếu nghỉ sớm trong 6-12 tháng.",
+    "examples": [
+      {
+        "text": "If the base salary is fixed, would a sign-on bonus be possible?",
+        "trans": "Nếu lương cơ bản cố định, liệu có thể có thưởng ký hợp đồng không?"
+      },
+      {
+        "text": "The sign-on bonus must be repaid if you leave within twelve months.",
+        "trans": "Tiền thưởng ký hợp đồng phải hoàn trả nếu bạn nghỉ trong mười hai tháng."
+      }
+    ]
+  },
+  "performance bonus": {
+    "detail": "Performance bonus - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Thưởng khi đạt kết quả\".\nKhi dùng: Hỏi cách tính: \"How is the performance bonus calculated?\" Cần biết tiêu chí, tỷ lệ và thời điểm trả.\nLưu ý: Hỏi xem thưởng có được đảm bảo (guaranteed) hay phụ thuộc vào kết quả công ty và cá nhân.",
+    "examples": [
+      {
+        "text": "How is the performance bonus calculated, and is it guaranteed?",
+        "trans": "Thưởng hiệu suất được tính thế nào, và có được đảm bảo không?"
+      },
+      {
+        "text": "The performance bonus is up to twenty percent of the annual base salary.",
+        "trans": "Thưởng hiệu suất tối đa hai mươi phần trăm lương cơ bản hằng năm."
+      }
+    ]
+  },
+  "13th-month salary": {
+    "detail": "13th-month salary - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Thêm một tháng lương\".\nKhi dùng: Phổ biến ở công ty ở Việt Nam: \"Does the offer include a 13th-month salary?\" Hãy hỏi có đảm bảo hay phụ thuộc kết quả.\nLưu ý: Theo luật Việt Nam, đây không phải khoản bắt buộc; nó tùy hợp đồng hoặc chính sách công ty.",
+    "examples": [
+      {
+        "text": "Does the offer include a guaranteed 13th-month salary?",
+        "trans": "Offer có bao gồm lương tháng thứ 13 được đảm bảo không?"
+      },
+      {
+        "text": "The 13th-month salary is paid in December, depending on company performance.",
+        "trans": "Lương tháng thứ 13 được trả vào tháng Mười Hai, tùy kết quả kinh doanh của công ty."
+      }
+    ]
+  },
+  "equity": {
+    "detail": "Equity - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Một phần công ty thuộc về bạn\".\nKhi dùng: Hỏi trong offer: \"Is equity part of the compensation package?\" Thường dưới dạng stock options hoặc RSU.\nLưu ý: Cần hỏi: loại cổ phần, số lượng, lịch vesting, cách định giá, thuế.",
+    "examples": [
+      {
+        "text": "Is equity part of the compensation package for this role?",
+        "trans": "Cổ phần có nằm trong gói đãi ngộ cho vị trí này không?"
+      },
+      {
+        "text": "Equity can be valuable, but it is not guaranteed income.",
+        "trans": "Cổ phần có thể có giá trị, nhưng không phải thu nhập được đảm bảo."
+      }
+    ]
+  },
+  "stock options": {
+    "detail": "Stock options - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Quyền được mua với giá đã định\".\nKhi dùng: Hỏi: \"What is the strike price of the stock options?\" Có giá trị khi giá cổ phiếu cao hơn giá thực hiện.\nLưu ý: Rủi ro: có thể không có giá trị nếu công ty không lên sàn hoặc giá giảm.",
+    "examples": [
+      {
+        "text": "What is the strike price of the stock options, and when do they vest?",
+        "trans": "Giá thực hiện của quyền chọn cổ phiếu là bao nhiêu, và khi nào chúng được vesting?"
+      },
+      {
+        "text": "Stock options are common at startups instead of high base salaries.",
+        "trans": "Quyền chọn cổ phiếu phổ biến ở startup thay cho lương cơ bản cao."
+      }
+    ]
+  },
+  "RSU": {
+    "detail": "RSU - Loại từ: Từ viết tắt (Acronym).\nMẹo nhớ: \"Cổ phiếu trao dần cho bạn\".\nKhi dùng: Viết tắt của restricted stock unit. Hỏi: \"How many RSUs are included, and what is the vesting schedule?\"\nLưu ý: Khác stock options: bạn không phải bỏ tiền mua, nhưng thường chịu thuế khi nhận cổ phiếu.",
+    "examples": [
+      {
+        "text": "How many RSUs are included, and what is the vesting schedule?",
+        "trans": "Có bao nhiêu RSU, và lịch vesting như thế nào?"
+      },
+      {
+        "text": "The RSUs vest over four years, with a one-year cliff.",
+        "trans": "RSU được vesting trong bốn năm, với một năm cliff."
+      }
+    ]
+  },
+  "vesting schedule": {
+    "detail": "Vesting schedule - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Lịch nhận dần cổ phần\".\nKhi dùng: Hỏi khi có equity: \"What does the vesting schedule look like?\" Phổ biến: 4 năm, cliff 1 năm.\nLưu ý: Cliff: nếu nghỉ trước mốc đầu (thường 1 năm), bạn không nhận được gì.",
+    "examples": [
+      {
+        "text": "What does the vesting schedule look like for the equity?",
+        "trans": "Lịch vesting của cổ phần trông như thế nào?"
+      },
+      {
+        "text": "A standard vesting schedule is four years with a one-year cliff.",
+        "trans": "Lịch vesting thông thường là bốn năm với cliff một năm."
+      }
+    ]
+  },
+  "salary review": {
+    "detail": "Salary review - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Lúc xét tăng lương\".\nKhi dùng: Hỏi: \"How often is there a salary review?\" Thường mỗi năm một lần, liên quan performance review.\nLưu ý: Có thể xin đưa vào offer một mốc xét lương sớm, ví dụ sau 6 tháng.",
+    "examples": [
+      {
+        "text": "How often is there a salary review, and what is it based on?",
+        "trans": "Bao lâu có kỳ xét lương, và dựa trên tiêu chí nào?"
+      },
+      {
+        "text": "Could we schedule a salary review after the first six months?",
+        "trans": "Chúng ta có thể lên lịch xét lương sau sáu tháng đầu không?"
+      }
+    ]
+  },
+  "raise": {
+    "detail": "Raise - Loại từ: Danh từ và Động từ (Noun, Verb).\nMẹo nhớ: \"Mức lương được nâng lên\".\nKhi dùng: Hỏi về tăng lương: \"What is the typical raise after a good review?\" Tiếng Anh Anh thường nói pay rise.\nLưu ý: Động từ: ask for a raise, get a raise.",
+    "examples": [
+      {
+        "text": "What is the typical raise after a strong performance review?",
+        "trans": "Mức tăng lương thông thường sau một đánh giá hiệu suất tốt là bao nhiêu?"
+      },
+      {
+        "text": "I asked for a raise after taking on additional responsibilities.",
+        "trans": "Tôi xin tăng lương sau khi nhận thêm trách nhiệm."
+      }
+    ]
+  },
+  "benefits package": {
+    "detail": "Benefits package - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Quyền lợi đi kèm công việc\".\nKhi dùng: Hỏi: \"Could you walk me through the benefits package?\" Gồm bảo hiểm, nghỉ phép, học tập, thiết bị.\nLưu ý: Phúc lợi có thể chiếm phần đáng kể trong tổng đãi ngộ.",
+    "examples": [
+      {
+        "text": "Could you walk me through the benefits package?",
+        "trans": "Bạn có thể giải thích gói phúc lợi cho tôi không?"
+      },
+      {
+        "text": "The benefits package includes private health insurance and a learning budget.",
+        "trans": "Gói phúc lợi gồm bảo hiểm sức khỏe tư nhân và ngân sách học tập."
+      }
+    ]
+  },
+  "health insurance": {
+    "detail": "Health insurance - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Bảo hiểm chi trả khi khám chữa bệnh\".\nKhi dùng: Hỏi: \"Does the company provide private health insurance for me and my family?\" Ở Việt Nam, bảo hiểm y tế bắt buộc là một phần bảo hiểm xã hội.\nLưu ý: Phân biệt bảo hiểm bắt buộc theo luật và bảo hiểm sức khỏe tư nhân do công ty mua thêm.",
+    "examples": [
+      {
+        "text": "Does the company provide private health insurance, and does it cover family members?",
+        "trans": "Công ty có cung cấp bảo hiểm sức khỏe tư nhân không, và có bao gồm người thân không?"
+      },
+      {
+        "text": "Private health insurance is offered in addition to the mandatory insurance.",
+        "trans": "Bảo hiểm sức khỏe tư nhân được cung cấp thêm ngoài bảo hiểm bắt buộc."
+      }
+    ]
+  },
+  "social insurance": {
+    "detail": "Social insurance - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Bảo hiểm bắt buộc theo luật\".\nKhi dùng: Ở Việt Nam, công ty và nhân viên đều đóng bảo hiểm xã hội. Hỏi: \"Is social insurance paid on the full salary?\"\nLưu ý: Quan trọng: mức đóng dựa trên lương ghi trong hợp đồng, nên ảnh hưởng quyền lợi hưu trí.",
+    "examples": [
+      {
+        "text": "Is social insurance paid on my full salary or only on the base amount?",
+        "trans": "Bảo hiểm xã hội đóng trên toàn bộ lương hay chỉ trên phần cơ bản?"
+      },
+      {
+        "text": "The company pays social insurance from the first day of the contract.",
+        "trans": "Công ty đóng bảo hiểm xã hội từ ngày đầu của hợp đồng."
+      }
+    ]
+  },
+  "annual leave": {
+    "detail": "Annual leave - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Số ngày nghỉ phép trong năm\".\nKhi dùng: Hỏi: \"How many days of annual leave do I get?\" Theo Bộ luật Lao động 2019, tối thiểu 12 ngày làm việc/năm cho điều kiện bình thường.\nLưu ý: Nhiều công ty toàn cầu cho thêm (15-20 ngày). Có thể thương lượng thêm ngày phép.",
+    "examples": [
+      {
+        "text": "How many days of annual leave do I get, and can I carry unused days over?",
+        "trans": "Tôi được bao nhiêu ngày phép năm, và có chuyển ngày chưa dùng sang năm sau được không?"
+      },
+      {
+        "text": "I'd like to ask for two extra days of annual leave.",
+        "trans": "Tôi muốn xin thêm hai ngày phép năm."
+      }
+    ]
+  },
+  "sick leave": {
+    "detail": "Sick leave - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Nghỉ khi bị bệnh\".\nKhi dùng: Hỏi: \"What is the sick leave policy?\" Cần biết có giấy xác nhận của bác sĩ không và công ty trả thế nào.\nLưu ý: Ở Việt Nam, chế độ ốm đau thường do quỹ bảo hiểm xã hội chi trả; công ty có thể hỗ trợ thêm.",
+    "examples": [
+      {
+        "text": "What is the sick leave policy, and is a doctor's note required?",
+        "trans": "Chính sách nghỉ ốm là gì, và có cần giấy xác nhận của bác sĩ không?"
+      },
+      {
+        "text": "I took three days of sick leave after the surgery.",
+        "trans": "Tôi nghỉ ốm ba ngày sau ca phẫu thuật."
+      }
+    ]
+  },
+  "paid time off": {
+    "detail": "Paid time off - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Nghỉ nhưng vẫn có lương\".\nKhi dùng: Viết tắt PTO. Hỏi: \"How much paid time off is included?\" Cách tính khác nhau tùy công ty.\nLưu ý: Hỏi rõ PTO có gồm sick leave và nghỉ lễ không.",
+    "examples": [
+      {
+        "text": "How much paid time off is included, and does it cover sick days?",
+        "trans": "Có bao nhiêu ngày nghỉ có lương, và có bao gồm nghỉ ốm không?"
+      },
+      {
+        "text": "Our paid time off policy gives twenty days per year.",
+        "trans": "Chính sách nghỉ có lương của chúng tôi cho hai mươi ngày mỗi năm."
+      }
+    ]
+  },
+  "public holidays": {
+    "detail": "Public holidays - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Ngày lễ cả nước nghỉ\".\nKhi dùng: Hỏi: \"Does the company follow the national public holidays?\" Công ty toàn cầu đôi khi thêm ngày nghỉ riêng.\nLưu ý: Theo luật, nếu ngày lễ trùng ngày nghỉ, người lao động được nghỉ bù.",
+    "examples": [
+      {
+        "text": "Does the company follow the national public holidays in Vietnam?",
+        "trans": "Công ty có theo các ngày nghỉ lễ quốc gia ở Việt Nam không?"
+      },
+      {
+        "text": "We get the public holidays plus two company days off.",
+        "trans": "Chúng tôi được nghỉ các ngày lễ cộng thêm hai ngày nghỉ của công ty."
+      }
+    ]
+  },
+  "overtime": {
+    "detail": "Overtime - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Làm quá giờ thường\".\nKhi dùng: Hỏi: \"Is overtime paid or compensated with time off?\" Theo luật Việt Nam, làm thêm được trả tối thiểu 150% ngày thường, 200% ngày nghỉ, 300% ngày lễ.\nLưu ý: Nhiều vị trí lương cao, chức vụ cao có thể thỏa thuận khác. Hãy hỏi rõ trước.",
+    "examples": [
+      {
+        "text": "Is overtime paid, or is it compensated with time off instead?",
+        "trans": "Làm thêm giờ được trả tiền, hay được bù bằng ngày nghỉ?"
+      },
+      {
+        "text": "Overtime during release weeks is paid at one and a half times the normal rate.",
+        "trans": "Làm thêm trong tuần phát hành được trả gấp rưỡi mức bình thường."
+      }
+    ]
+  },
+  "working hours": {
+    "detail": "Working hours - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Giờ làm hằng ngày\".\nKhi dùng: Hỏi: \"What are the normal working hours?\" Có thể có core hours (giờ bắt buộc có mặt) và phần còn lại linh hoạt.\nLưu ý: Hỏi thêm về họp với đồng đội ở múi giờ khác.",
+    "examples": [
+      {
+        "text": "What are the normal working hours, and are there core hours?",
+        "trans": "Giờ làm việc bình thường là gì, và có khung giờ bắt buộc không?"
+      },
+      {
+        "text": "Our working hours are flexible as long as you attend the daily stand-up.",
+        "trans": "Giờ làm của chúng tôi linh hoạt miễn là bạn dự buổi stand-up hằng ngày."
+      }
+    ]
+  },
+  "probation period": {
+    "detail": "Probation period - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Thời gian thử việc\".\nKhi dùng: Hỏi: \"How long is the probation period, and what are the terms?\" Ở Việt Nam, thử việc cho vị trí trình độ cao thường tối đa 60 ngày, lương thử việc ít nhất 85% lương chính thức theo luật.\nLưu ý: Hỏi rõ về quyền lợi trong thử việc (bảo hiểm, ngày phép) và tiêu chí để được xác nhận chính thức.",
+    "examples": [
+      {
+        "text": "How long is the probation period, and is the salary the same during it?",
+        "trans": "Thời gian thử việc dài bao lâu, và lương trong thời gian đó có như nhau không?"
+      },
+      {
+        "text": "I passed the probation period and was offered a permanent contract.",
+        "trans": "Tôi vượt qua thời gian thử việc và được đề nghị hợp đồng chính thức."
+      }
+    ]
+  },
+  "notice period": {
+    "detail": "Notice period - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Thời gian báo trước\".\nKhi dùng: Nói về ngày bắt đầu: \"My notice period is 30 days, so I can start in early March.\" Theo luật, hợp đồng không xác định thời hạn thường báo trước 45 ngày.\nLưu ý: Hỏi công ty cũ có cho rút ngắn không. Nên nói thẳng thời gian này khi trao đổi ngày bắt đầu.",
+    "examples": [
+      {
+        "text": "My notice period is thirty days, so I could start in early March.",
+        "trans": "Thời gian báo trước của tôi là ba mươi ngày, nên tôi có thể bắt đầu vào đầu tháng Ba."
+      },
+      {
+        "text": "Is it possible to shorten the notice period if both companies agree?",
+        "trans": "Có thể rút ngắn thời gian báo trước nếu cả hai công ty đồng ý không?"
+      }
+    ]
+  },
+  "start date": {
+    "detail": "Start date - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Ngày đi làm đầu tiên\".\nKhi dùng: Thương lượng sau offer: \"Would it be possible to start on the first of March?\" Phụ thuộc vào notice period của bạn.\nLưu ý: Nếu cần thời gian nghỉ giữa hai công việc, hãy đề nghị sớm.",
+    "examples": [
+      {
+        "text": "Would it be possible to move my start date to the first of March?",
+        "trans": "Liệu tôi có thể dời ngày bắt đầu sang mùng một tháng Ba không?"
+      },
+      {
+        "text": "The start date is flexible, but we hope you can join within six weeks.",
+        "trans": "Ngày bắt đầu linh hoạt, nhưng chúng tôi hy vọng bạn có thể vào làm trong sáu tuần."
+      }
+    ]
+  },
+  "employment contract": {
+    "detail": "Employment contract - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Văn bản ràng buộc hai bên\".\nKhi dùng: Hỏi: \"Could I review the employment contract before signing?\" Hãy đọc kỹ lương, thời hạn, thử việc, báo trước, điều khoản bảo mật.\nLưu ý: Ở Việt Nam có hợp đồng xác định thời hạn và không xác định thời hạn. Hỏi cái nào áp dụng.",
+    "examples": [
+      {
+        "text": "Could I review the employment contract before I sign it?",
+        "trans": "Tôi có thể xem hợp đồng lao động trước khi ký không?"
+      },
+      {
+        "text": "Please read the employment contract carefully, including the notice period.",
+        "trans": "Hãy đọc kỹ hợp đồng lao động, gồm cả thời gian báo trước."
+      }
+    ]
+  },
+  "fixed-term contract": {
+    "detail": "Fixed-term contract - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Hợp đồng có kỳ hạn\".\nKhi dùng: Hỏi: \"Is this a fixed-term or an indefinite-term contract?\" Hợp đồng xác định thời hạn tối đa 36 tháng theo luật Việt Nam.\nLưu ý: Hợp đồng không xác định thời hạn (indefinite-term) ổn định hơn nhưng có thời gian báo trước dài hơn.",
+    "examples": [
+      {
+        "text": "Is this a fixed-term contract, and what happens when it ends?",
+        "trans": "Đây là hợp đồng xác định thời hạn không, và điều gì xảy ra khi nó kết thúc?"
+      },
+      {
+        "text": "I started on a one-year fixed-term contract before moving to a permanent one.",
+        "trans": "Tôi bắt đầu với hợp đồng một năm trước khi chuyển sang hợp đồng không thời hạn."
+      }
+    ]
+  },
+  "offer letter": {
+    "detail": "Offer letter - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Thư đề nghị chính thức\".\nKhi dùng: Hỏi: \"Could you send the offer in writing?\" Chỉ chấp nhận khi mọi điều khoản đã được ghi rõ.\nLưu ý: Đọc kỹ điều khoản thưởng, thời hạn trả lời và điều kiện đi kèm.",
+    "examples": [
+      {
+        "text": "Could you send the offer letter in writing so I can review it?",
+        "trans": "Bạn có thể gửi thư mời nhận việc bằng văn bản để tôi xem không?"
+      },
+      {
+        "text": "I received the offer letter yesterday and need a few days to consider.",
+        "trans": "Tôi nhận thư mời hôm qua và cần vài ngày để cân nhắc."
+      }
+    ]
+  },
+  "relocation": {
+    "detail": "Relocation - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Chuyển sang nơi khác\".\nKhi dùng: Hỏi nếu phải đổi nơi làm: \"Does the company offer relocation support?\" Gồm vé máy bay, nhà ở tạm, vận chuyển đồ.\nLưu ý: Động từ: relocate. Có thể thương lượng khoản hỗ trợ một lần.",
+    "examples": [
+      {
+        "text": "Does the company offer relocation support for moving to Ho Chi Minh City?",
+        "trans": "Công ty có hỗ trợ chuyển nơi ở khi chuyển đến TP. Hồ Chí Minh không?"
+      },
+      {
+        "text": "The relocation package covers flights and one month of housing.",
+        "trans": "Gói hỗ trợ chuyển nơi ở bao gồm vé máy bay và một tháng nhà ở."
+      }
+    ]
+  },
+  "equipment allowance": {
+    "detail": "Equipment allowance - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Tiền mua đồ cho góc làm việc\".\nKhi dùng: Hỏi khi làm từ xa: \"Is there an equipment allowance for a home office?\" Hoặc công ty cấp laptop trực tiếp.\nLưu ý: Hỏi về cách quản lý: công ty giữ tài sản hay thuộc về bạn sau một thời gian.",
+    "examples": [
+      {
+        "text": "Is there an equipment allowance for setting up a home office?",
+        "trans": "Có trợ cấp thiết bị để lập góc làm việc tại nhà không?"
+      },
+      {
+        "text": "The company provides a laptop and a yearly equipment allowance.",
+        "trans": "Công ty cung cấp laptop và trợ cấp thiết bị hằng năm."
+      }
+    ]
+  },
+  "learning budget": {
+    "detail": "Learning budget - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Tiền công ty cho bạn học\".\nKhi dùng: Hỏi: \"Is there an annual learning budget for courses and conferences?\" Rất đáng hỏi vì đầu tư cho chính bạn.\nLưu ý: Có thể thương lượng thêm nếu muốn một chứng chỉ cụ thể.",
+    "examples": [
+      {
+        "text": "Is there an annual learning budget for courses and certifications?",
+        "trans": "Có ngân sách học tập hằng năm cho khóa học và chứng chỉ không?"
+      },
+      {
+        "text": "My learning budget covered an advanced cloud certification this year.",
+        "trans": "Ngân sách học tập của tôi đã chi trả một chứng chỉ đám mây nâng cao năm nay."
+      }
+    ]
+  },
+  "retention bonus": {
+    "detail": "Retention bonus - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Thưởng để bạn ở lại\".\nKhi dùng: Công ty có thể đề nghị khi bạn đang cân nhắc nghỉ: \"They offered a retention bonus to stay for another year.\"\nLưu ý: Hỏi rõ điều kiện, thời hạn và thời điểm nhận.",
+    "examples": [
+      {
+        "text": "They offered me a retention bonus to stay for another year.",
+        "trans": "Họ đề nghị tôi một khoản thưởng giữ chân để ở lại thêm một năm."
+      },
+      {
+        "text": "A retention bonus is paid only if you stay until the end date.",
+        "trans": "Thưởng giữ chân chỉ được trả nếu bạn ở lại đến ngày kết thúc."
+      }
+    ]
+  },
+  "competing offer": {
+    "detail": "Competing offer - Loại từ: Cụm danh từ (Noun phrase).\nMẹo nhớ: \"Offer đang cạnh tranh\".\nKhi dùng: Dùng khi đã có offer khác: \"I have a competing offer, but this role is my first choice.\" Chỉ nói khi đó là sự thật.\nLưu ý: Nói lịch sự, không đe dọa. Có thể hỏi liệu công ty có thể điều chỉnh để cạnh tranh.",
+    "examples": [
+      {
+        "text": "I have a competing offer, but this role is my first choice.",
+        "trans": "Tôi có một offer khác, nhưng vị trí này là lựa chọn đầu tiên của tôi."
+      },
+      {
+        "text": "A competing offer can help, but only mention it if it's real.",
+        "trans": "Một offer cạnh tranh có thể giúp, nhưng chỉ nhắc nếu nó có thật."
+      }
+    ]
+  },
+  "deal-breaker": {
+    "detail": "Deal-breaker - Loại từ: Danh từ (Noun).\nMẹo nhớ: \"Điều làm hỏng thỏa thuận\".\nKhi dùng: Nói rõ giới hạn: \"Working fully on-site would be a deal-breaker for me.\" Nên dùng chọn lọc.\nLưu ý: Nói rõ ít điều thật sự quan trọng để không bị coi là cứng nhắc.",
+    "examples": [
+      {
+        "text": "Fully on-site work would be a deal-breaker for me.",
+        "trans": "Làm việc hoàn toàn tại văn phòng sẽ là điều khiến tôi từ chối."
+      },
+      {
+        "text": "Salary alone isn't a deal-breaker, but unclear benefits are.",
+        "trans": "Riêng lương không phải điều khiến tôi từ chối, nhưng quyền lợi không rõ ràng thì có."
+      }
+    ]
+  },
+  "non-negotiable": {
+    "detail": "Non-negotiable - Loại từ: Tính từ (Adjective).\nMẹo nhớ: \"Không bàn lại\".\nKhi dùng: Có thể nghe từ HR: \"The base salary band is non-negotiable, but we can discuss other items.\" Khi đó hãy chuyển sang điều khác.\nLưu ý: Nếu một điều không đổi được, hãy hỏi về các điều khác (ngày phép, thưởng, học tập).",
+    "examples": [
+      {
+        "text": "I understand the salary is non-negotiable, so can we discuss other benefits?",
+        "trans": "Tôi hiểu lương không thể thương lượng, vậy chúng ta bàn về các quyền lợi khác được không?"
+      },
+      {
+        "text": "Our security rules are non-negotiable for every team.",
+        "trans": "Quy tắc bảo mật của chúng tôi không thể thương lượng với mọi nhóm."
+      }
+    ]
+  },
+  "meet in the middle": {
+    "detail": "Meet in the middle - Loại từ: Thành ngữ (Idiom).\nMẹo nhớ: \"Mỗi bên nhích một chút\".\nKhi dùng: Dùng khi gần đạt thỏa thuận: \"Could we meet in the middle at 45 million?\" Thể hiện bạn sẵn sàng thỏa hiệp.\nLưu ý: Chỉ dùng khi con số ở giữa vẫn chấp nhận được với bạn.",
+    "examples": [
+      {
+        "text": "Could we meet in the middle at forty-five million dong?",
+        "trans": "Chúng ta có thể gặp nhau ở giữa, bốn mươi lăm triệu đồng không?"
+      },
+      {
+        "text": "Both sides agreed to meet in the middle on the start date.",
+        "trans": "Cả hai bên đồng ý nhượng bộ một chút về ngày bắt đầu."
+      }
+    ]
+  },
+  "in writing": {
+    "detail": "In writing - Loại từ: Cụm giới từ (Prepositional phrase).\nMẹo nhớ: \"Ghi lại thành chữ\".\nKhi dùng: Sau khi thỏa thuận miệng: \"Could you confirm these terms in writing?\" Tránh hiểu nhầm về sau.\nLưu ý: Gửi email tóm tắt các điều khoản và nhờ HR xác nhận.",
+    "examples": [
+      {
+        "text": "Could you please confirm these terms in writing?",
+        "trans": "Bạn có thể xác nhận các điều khoản này bằng văn bản không?"
+      },
+      {
+        "text": "Everything we discussed should be in writing before I sign.",
+        "trans": "Mọi điều chúng ta bàn nên được ghi bằng văn bản trước khi tôi ký."
+      }
+    ]
+  },
+  "need some time to consider": {
+    "detail": "Need some time to consider - Loại từ: Cụm (Phrase).\nMẹo nhớ: \"Xin thời gian nghĩ kỹ\".\nKhi dùng: Khi nhận offer: \"Thank you. I'd like to take a couple of days to consider.\" Hợp lý và được chấp nhận.\nLưu ý: Hỏi luôn hạn chót trả lời để cả hai bên rõ.",
+    "examples": [
+      {
+        "text": "Thank you for the offer. I need some time to consider it.",
+        "trans": "Cảm ơn bạn về offer. Tôi cần chút thời gian để cân nhắc."
+      },
+      {
+        "text": "I need some time to consider the offer, so could I reply on Friday?",
+        "trans": "Tôi cần chút thời gian để cân nhắc offer, nên tôi có thể trả lời vào thứ Sáu không?"
+      }
+    ]
+  },
+  "happy to accept": {
+    "detail": "Happy to accept - Loại từ: Cụm (Phrase).\nMẹo nhớ: \"Vui vẻ đồng ý\".\nKhi dùng: Khi đã đồng ý: \"I'm happy to accept the offer and I'm excited to join the team.\" Rồi xác nhận ngày bắt đầu.\nLưu ý: Chỉ nói sau khi đã chốt các điều khoản bằng văn bản.",
+    "examples": [
+      {
+        "text": "I'm happy to accept the offer and excited to join the team.",
+        "trans": "Tôi rất vui nhận offer và háo hức gia nhập nhóm."
+      },
+      {
+        "text": "We were happy to accept the revised terms.",
+        "trans": "Chúng tôi vui vẻ chấp nhận các điều khoản đã điều chỉnh."
+      }
+    ]
+  },
+  "lowball": {
+    "detail": "Lowball - Loại từ: Động từ và Danh từ (Verb, Noun).\nMẹo nhớ: \"Đưa con số quá thấp\".\nKhi dùng: Dùng khi mô tả offer quá thấp: \"It felt like a lowball offer compared to the market.\" Thường là từ thân mật, không dùng khi nói thẳng với HR.\nLưu ý: Với HR, nên nói lịch sự: \"That's below my expectation based on the market.\"",
+    "examples": [
+      {
+        "text": "It felt like a lowball offer, so I politely asked for more.",
+        "trans": "Nó giống một offer quá thấp, nên tôi lịch sự xin cao hơn."
+      },
+      {
+        "text": "A lowball first offer is common, so don't accept it immediately.",
+        "trans": "Offer đầu tiên quá thấp là chuyện thường, nên đừng nhận ngay."
+      }
+    ]
+  }
+}
