@@ -3,7 +3,8 @@ import { getVideo, saveVideo } from '../repo/videos'
 import type { RunTool } from './tools'
 import { translateBatches } from './translate'
 import { DictationFailure, fetchSubtitles } from './youtube'
-import { parseJson3 } from '@/utils/dictation/captions'
+import type { SubtitleFile } from './youtube'
+import { parseSubtitles } from '@/utils/dictation/captions'
 import { buildSentences } from '@/utils/dictation/sentences'
 import type { DictationSentence, DictationStatus } from '@/utils/dictation/types'
 import { isVideoId } from '@/utils/dictation/videoId'
@@ -22,10 +23,10 @@ type Step = NonNullable<DictationStatus['step']>
 const TRANSLATION_NOTE = 'Some sentences have no Vietnamese: the translation with the Claude CLI failed or is not available.'
 
 /** Gives each sentence the words of YouTube's Vietnamese track that start while it is spoken. */
-function attachYoutubeVietnamese(sentences: DictationSentence[], viJson3: string): void {
+function attachYoutubeVietnamese(sentences: DictationSentence[], vi: SubtitleFile): void {
   let words
   try {
-    words = parseJson3(viJson3)
+    words = parseSubtitles(vi.text, vi.format)
   } catch {
     return
   }
@@ -75,11 +76,11 @@ export function createDictationService(d: {
     try {
       const subtitles = await fetchSubtitles(id, { runTool: d.runTool, ytDlp: d.tools.ytDlp, tmpDir: d.tmpDir ?? tmpdir() })
       setStep(id, 'sentences')
-      const words = parseJson3(subtitles.enJson3)
+      const words = parseSubtitles(subtitles.en.text, subtitles.en.format)
       const totalMs = subtitles.durationSec > 0 ? subtitles.durationSec * 1000 : (words[words.length - 1]?.startMs ?? 0) + 2000
       const sentences: DictationSentence[] = buildSentences(words, totalMs)
       if (sentences.length === 0) throw new DictationFailure('NO_SUBTITLES', 'The subtitles of this video have no sentences to type')
-      if (subtitles.viJson3) attachYoutubeVietnamese(sentences, subtitles.viJson3)
+      if (subtitles.vi) attachYoutubeVietnamese(sentences, subtitles.vi)
 
       let note: string | undefined
       const missing = sentences.filter((s) => s.vi === undefined)

@@ -10,7 +10,7 @@ import auto from '@/utils/dictation/fixtures/auto.json3.json'
 import { describe, expect, it } from 'vitest'
 
 const ID = 'dQw4w9WgXcQ'
-const info = { title: 'Memory', channel: 'TED', duration: 20, automatic_captions: { en: [{}] } }
+const info = { title: 'Memory', channel: 'TED', duration: 20, language: 'en', automatic_captions: { en: [{}], vi: [{}] } }
 /** A Vietnamese track whose only line falls inside the second sentence of the auto fixture (8 s to 10.5 s). */
 const vi = { events: [{ tStartMs: 8100, dDurationMs: 1500, segs: [{ utf8: 'và tại sao chúng ta quên' }] }] }
 
@@ -29,11 +29,13 @@ function setup(ytDlp: FakeYtDlp, translate?: Parameters<typeof fakeTools>[0]['tr
   return { db, tools, service, published }
 }
 
-const ytCalls = (calls: { command: string }[]) => calls.filter((c) => c.command === 'yt-dlp').length
+/** One preparation lists the video once (then downloads its tracks). */
+const ytCalls = (calls: { command: string; args: string[] }[]) =>
+  calls.filter((c) => c.command === 'yt-dlp' && c.args.indexOf('--dump-single-json') !== -1).length
 
 describe('the dictation service', () => {
   it('prepares a video: sentences, Vietnamese from YouTube where it has it and from the CLI for the rest', async () => {
-    const { db, service, published } = setup({ info, subtitles: { en: auto, vi } })
+    const { db, service, published } = setup({ info, files: { 'en.json3': JSON.stringify(auto), 'vi.json3': JSON.stringify(vi) } })
     expect(service.status(ID)).toEqual({ state: 'idle' })
     expect(service.prepare(ID).state).toBe('running')
     await service.idle()
@@ -50,7 +52,7 @@ describe('the dictation service', () => {
   })
 
   it('shares one job between two calls and does not fetch a cached video again', async () => {
-    const { tools, service } = setup({ info, subtitles: { en: auto } })
+    const { tools, service } = setup({ info, files: { 'en.json3': JSON.stringify(auto) } })
     service.prepare(ID)
     service.prepare(ID)
     await service.idle()
@@ -62,7 +64,7 @@ describe('the dictation service', () => {
 
   it('ends in NO_SUBTITLES and stores nothing when the subtitles are only sound tags', async () => {
     const onlyMusic = { events: [{ tStartMs: 0, dDurationMs: 5000, segs: [{ utf8: '[Music]' }] }] }
-    const { db, service } = setup({ info, subtitles: { en: onlyMusic } })
+    const { db, service } = setup({ info, files: { 'en.json3': JSON.stringify(onlyMusic) } })
     service.prepare(ID)
     await service.idle()
     expect(service.status(ID)).toMatchObject({ state: 'error', error: { code: 'NO_SUBTITLES' } })
@@ -80,7 +82,7 @@ describe('the dictation service', () => {
   })
 
   it('keeps a usable video with a note when the translation fails', async () => {
-    const { db, service } = setup({ info, subtitles: { en: auto } }, () => new ToolError('missing', 'no claude'))
+    const { db, service } = setup({ info, files: { 'en.json3': JSON.stringify(auto) } }, () => new ToolError('missing', 'no claude'))
     service.prepare(ID)
     await service.idle()
     const video = getVideo(db, ID)
@@ -90,7 +92,7 @@ describe('the dictation service', () => {
   })
 
   it('refuses a value that is not a video id without running anything', async () => {
-    const { tools, service } = setup({ info, subtitles: { en: auto } })
+    const { tools, service } = setup({ info, files: { 'en.json3': JSON.stringify(auto) } })
     expect(service.prepare('../../etc')).toMatchObject({ state: 'error', error: { code: 'BAD_VIDEO' } })
     await service.idle()
     expect(tools.calls).toEqual([])
