@@ -66,4 +66,13 @@ describe('topicsOf', () => {
     // @ts-expect-error not a procedure
     expect(() => topicsOf('nope', [])).not.toThrow()
   })
+
+  it('announces the dictation list and the video for the dictation writes, and nothing for the reads', () => {
+    expect(topicsOf('dictation.prepare', ['abcdefghijk'])).toEqual(['dictation', 'dictation:abcdefghijk'])
+    expect(topicsOf('dictation.saveProgress', ['abcdefghijk', {}])).toEqual(['dictation', 'dictation:abcdefghijk'])
+    expect(topicsOf('dictation.remove', ['abcdefghijk'])).toEqual(['dictation', 'dictation:abcdefghijk'])
+    expect(topicsOf('dictation.videos', [])).toEqual([])
+    expect(topicsOf('dictation.get', ['abcdefghijk'])).toEqual([])
+    expect(topicsOf('dictation.status', ['abcdefghijk'])).toEqual([])
+  })
 })

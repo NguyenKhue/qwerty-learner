@@ -2,6 +2,7 @@ import type { Word } from '@/typings'
 import type { PersonalSeedInput, PersonalSeedResult } from '@/utils/db/personal-seed'
 import type { CustomDictRecord, ICardProgress, IChapterRecord, IReviewRecord, IWordRecord } from '@/utils/db/record'
 import type { WordExtras } from '@/utils/detail/sidecar'
+import type { DictationStatus, DictationVideo, DictationVideoSummary, VideoProgress } from '@/utils/dictation/types'
 import type { Grade } from '@/utils/srs/scheduler'
 
 /** The input of creating or updating a set of the learner's own (the same shape the app uses today). */
@@ -47,6 +48,12 @@ export type Procedures = {
   'reviews.latestUnfinished': { args: [dict: string]; result: StoredReviewRecord | null }
   'reviews.put': { args: [record: IReviewRecord]; result: number }
   'meta.getAll': { args: []; result: Record<string, string> }
+  'dictation.videos': { args: []; result: DictationVideoSummary[] }
+  'dictation.get': { args: [videoId: string]; result: DictationVideo | null }
+  'dictation.prepare': { args: [videoId: string]; result: DictationStatus }
+  'dictation.status': { args: [videoId: string]; result: DictationStatus }
+  'dictation.saveProgress': { args: [videoId: string, progress: Omit<VideoProgress, 'updatedAt'>]; result: null }
+  'dictation.remove': { args: [videoId: string]; result: null }
   'meta.set': { args: [key: string, value: string]; result: null }
 }
 
@@ -80,6 +87,12 @@ const NAME_TABLE: Record<ProcedureName, true> = {
   'reviews.put': true,
   'meta.getAll': true,
   'meta.set': true,
+  'dictation.videos': true,
+  'dictation.get': true,
+  'dictation.prepare': true,
+  'dictation.status': true,
+  'dictation.saveProgress': true,
+  'dictation.remove': true,
 }
 
 /** Every operation name at run time. The table above is typed against `Procedures`, so a missing or extra name is a compile error. */
@@ -87,7 +100,8 @@ export const PROCEDURE_NAMES = Object.keys(NAME_TABLE) as ProcedureName[]
 
 /**
  * The live-update topics a call changes. The server publishes them after the write has committed; a read changes nothing.
- * Topics: `customDicts`, `cards:<dict>`, `reviewLog`, `wordRecords`, `chapterRecords`, `reviewRecords`, `meta`.
+ * Topics: `customDicts`, `cards:<dict>`, `reviewLog`, `wordRecords`, `chapterRecords`, `reviewRecords`, `meta`, `dictation` (the list of
+ * prepared videos) and `dictation:<videoId>` (one video's preparation and progress).
  */
 export function topicsOf(name: ProcedureName, args: unknown[]): string[] {
   switch (name) {
@@ -123,6 +137,10 @@ export function topicsOf(name: ProcedureName, args: unknown[]): string[] {
       return ['reviewRecords']
     case 'meta.set':
       return ['meta']
+    case 'dictation.prepare':
+    case 'dictation.saveProgress':
+    case 'dictation.remove':
+      return ['dictation', `dictation:${args[0]}`]
     default:
       return []
   }
