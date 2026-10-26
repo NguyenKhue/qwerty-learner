@@ -1,6 +1,7 @@
 import DictationResult from './Result'
 import DictationRun from './Run'
 import DictationSetup from './Setup'
+import { InlineLoading, LoadingUI } from '@/components/Loading'
 import { ModeFrame, ModePage, PageMessage } from '@/components/ModePage'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
@@ -16,10 +17,36 @@ import type { SentenceSession, SentenceSummary } from '@/utils/sentences/session
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
-const STEP_LABEL: Record<NonNullable<DictationStatus['step']>, string> = {
-  subtitles: 'Fetching the subtitles…',
-  sentences: 'Splitting the subtitles into sentences…',
-  translating: 'Translating into Vietnamese…',
+type Step = NonNullable<DictationStatus['step']>
+const STEPS: Step[] = ['subtitles', 'sentences', 'translating']
+/** Heard by screen readers only: the screen shows a spinner and the step bars. */
+const STEP_LABEL: Record<Step, string> = {
+  subtitles: 'Fetching the subtitles',
+  sentences: 'Splitting the subtitles into sentences',
+  translating: 'Translating into Vietnamese',
+}
+
+/** A spinner over three short bars: done steps are filled, the current one pulses. */
+function PreparingAnimation({ step }: { step?: Step }) {
+  const current = step ? STEPS.indexOf(step) : 0
+  return (
+    <div className="flex flex-col items-center gap-5 py-10">
+      <LoadingUI />
+      <div className="flex gap-2" aria-hidden>
+        {STEPS.map((s, i) => (
+          <span
+            key={s}
+            className={`h-1.5 w-10 rounded-full transition-colors duration-300 ${
+              i < current ? 'bg-primary' : i === current ? 'animate-pulse bg-primary' : 'bg-muted'
+            }`}
+          />
+        ))}
+      </div>
+      <p className="sr-only" aria-live="polite">
+        {STEP_LABEL[step ?? 'subtitles']}
+      </p>
+    </div>
+  )
 }
 
 /** `/dictation` chooses a video; `/dictation/:videoId` prepares it if needed and runs it. */
@@ -70,7 +97,13 @@ function VideoScreen({ id, onBack }: { id: string; onBack: () => void }) {
     setPhase({ kind: 'run', items: list, practice, base, key: runKey.current })
   }
 
-  if (video === undefined || status === undefined) return <ModeFrame>{null}</ModeFrame>
+  if (video === undefined || status === undefined) {
+    return (
+      <ModeFrame>
+        <InlineLoading />
+      </ModeFrame>
+    )
+  }
 
   if (video === null) {
     const failed = status.state === 'error' ? status.error : undefined
@@ -91,10 +124,7 @@ function VideoScreen({ id, onBack }: { id: string; onBack: () => void }) {
                 </div>
               </>
             ) : (
-              <p className="text-muted-foreground" aria-live="polite">
-                {status.step ? STEP_LABEL[status.step] : 'Starting…'} The first time takes a little while; after that the video opens at
-                once.
-              </p>
+              <PreparingAnimation step={status.step} />
             )}
             {startError && (
               <p role="alert" className="text-sm text-destructive">
