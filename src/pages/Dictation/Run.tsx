@@ -11,6 +11,7 @@ import { isDone } from '@/utils/sentences/turn'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { MouseEvent, ReactNode } from 'react'
 import IconEye from '~icons/tabler/eye'
+import IconEyeOff from '~icons/tabler/eye-off'
 import IconReplay from '~icons/tabler/rotate-clockwise'
 import IconX from '~icons/tabler/x'
 
@@ -77,6 +78,8 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
   }, [])
   const finished = useRef(false)
   const [playing, setPlaying] = useState(false)
+  /** The index of the sentence whose text is shown, if any. */
+  const [revealedAt, setRevealedAt] = useState<number | null>(null)
   const [coarse] = useState(() => typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches)
   const { containerRef, state: playerState, playSegment, pause } = useYouTubePlayer(videoId, () => setPlaying(false))
 
@@ -145,7 +148,8 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
 
   if (!item) return null
 
-  const masked = !session.turn.peeked
+  // Show/Hide toggles the sentence for this turn; the first time it is shown counts one mistake (a peek), hiding it again is free
+  const masked = revealedAt !== session.index
   const playerMessage =
     playerState === 'blocked'
       ? 'The owner of this video does not allow it to be played here. Choose another video.'
@@ -169,17 +173,20 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
               playing ? 'opacity-0' : 'opacity-100'
             }`}
           >
-            {masked && (
-              <VideoControl
-                label="Peek at the sentence"
-                onClick={(e) => {
-                  releaseFocus(e)
-                  updateSession(peekSentence(sessionRef.current))
-                }}
-              >
-                <IconEye className="h-5 w-5" />
-              </VideoControl>
-            )}
+            <VideoControl
+              label={masked ? 'Show the sentence' : 'Hide the sentence'}
+              onClick={(e) => {
+                releaseFocus(e)
+                if (!masked) {
+                  setRevealedAt(null)
+                  return
+                }
+                if (!sessionRef.current.turn.peeked) updateSession(peekSentence(sessionRef.current))
+                setRevealedAt(sessionRef.current.index)
+              }}
+            >
+              {masked ? <IconEye className="h-5 w-5" /> : <IconEyeOff className="h-5 w-5" />}
+            </VideoControl>
             <VideoControl
               large
               label="Replay the sentence"
