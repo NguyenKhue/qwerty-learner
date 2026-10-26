@@ -9,7 +9,7 @@ import { parseVideoId } from '@/utils/dictation/videoId'
 import { useEffect, useState } from 'react'
 import type { FormEvent } from 'react'
 
-/** A suggested video of the built-in list (`public/dictation/videos.json`). */
+/** A suggested video of the built-in list (`public/dictation-videos.json`). */
 type Suggestion = { id: string; title: string; channel: string; category: string }
 
 type Props = { onOpen: (videoId: string) => void; onBack: () => void }
@@ -29,7 +29,7 @@ export default function DictationSetup({ onOpen, onBack }: Props) {
 
   useEffect(() => {
     let cancelled = false
-    fetch('/dictation/videos.json')
+    fetch('/dictation-videos.json')
       .then((response) => (response.ok ? response.json() : []))
       .then((list: unknown) => {
         if (!cancelled && Array.isArray(list)) setSuggestions(list as Suggestion[])

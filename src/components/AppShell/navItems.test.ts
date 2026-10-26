@@ -1,4 +1,5 @@
 import { MORE_LINKS, buildNavItems, isNavActive } from './navItems'
+import { existsSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 
 const byId = (id: string) => {
@@ -47,5 +48,11 @@ describe('isNavActive', () => {
 describe('MORE_LINKS', () => {
   it('offers the pages that have no tab', () => {
     expect(MORE_LINKS.map((l) => l.to)).toEqual(['/my-sets', '/gallery', '/sentences', '/dictation', '/error-book', '/analysis', '/about'])
+  })
+})
+
+describe('the page addresses', () => {
+  it('are not shadowed by a file or folder of public/, which the dev server and the static server would serve instead', () => {
+    for (const item of buildNavItems()) if (item.base !== '/') expect(existsSync(`public${item.base}`), item.base).toBe(false)
   })
 })
