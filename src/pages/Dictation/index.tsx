@@ -76,6 +76,8 @@ function VideoScreen({ id, onBack }: { id: string; onBack: () => void }) {
   const status = useLive(() => call('dictation.status', id), [`dictation:${id}`], [id])
   const [phase, setPhase] = useState<Phase>({ kind: 'intro' })
   const [startError, setStartError] = useState('')
+  // Removing asks again on the page itself: a browser dialog can be blocked or dismissed without being seen
+  const [confirmRemove, setConfirmRemove] = useState(false)
   const runKey = useRef(0)
 
   const prepare = useCallback(() => {
@@ -203,17 +205,27 @@ function VideoScreen({ id, onBack }: { id: string; onBack: () => void }) {
             ) : (
               <Button onClick={() => start(video, 0)}>{progress?.finished ? 'Start again' : 'Start'}</Button>
             )}
-            <Button
-              variant="ghost"
-              onClick={() => {
-                if (!window.confirm('Remove this video and your progress in it?')) return
-                // Leave first: once the cache is gone this screen would start preparing the video again
-                onBack()
-                call('dictation.remove', id).catch(() => undefined)
-              }}
-            >
-              Remove
-            </Button>
+            {confirmRemove ? (
+              <>
+                <Button
+                  variant="destructive"
+                  onClick={() => {
+                    // Leave first: once the cache is gone this screen would start preparing the video again
+                    onBack()
+                    call('dictation.remove', id).catch(() => undefined)
+                  }}
+                >
+                  Remove video and progress
+                </Button>
+                <Button variant="ghost" onClick={() => setConfirmRemove(false)}>
+                  Cancel
+                </Button>
+              </>
+            ) : (
+              <Button variant="ghost" onClick={() => setConfirmRemove(true)}>
+                Remove
+              </Button>
+            )}
           </div>
         </Card>
       </ModePage>

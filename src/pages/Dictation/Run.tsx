@@ -64,10 +64,9 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
     if (playerState === 'ready') play()
   }, [playerState, session.index, play])
 
+  // No confirmation: progress is saved after every sentence, so leaving loses at most the sentence being typed (and a blocked
+  // or auto-dismissed dialog would otherwise make Exit do nothing)
   const requestExit = useCallback(() => {
-    const current = sessionRef.current
-    const typedSomething = current.results.length > 0 || current.turn.startedAt !== null
-    if (typedSomething && !window.confirm('Leave this video? Your progress is saved.')) return
     pause()
     onExit()
   }, [onExit, pause])
