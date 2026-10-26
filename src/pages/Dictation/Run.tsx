@@ -124,14 +124,18 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
   return (
     <ModeFrame>
       <ScrollCenter className="max-w-3xl gap-5">
-        <div className="flex w-full flex-wrap items-center justify-between gap-2 text-sm text-muted-foreground">
-          <span className="num">
-            {item.index + 1} / {total} · {Math.round(stats.accuracy * 100)}% · {Math.round(stats.wpm)} wpm
-          </span>
-          <div className="flex flex-wrap items-center gap-2">
+        <p className="num w-full text-sm text-muted-foreground">
+          {item.index + 1} / {total} · {Math.round(stats.accuracy * 100)}% · {Math.round(stats.wpm)} wpm
+        </p>
+
+        <div className="relative w-full">
+          {/* The player never takes the keyboard focus: typing always goes to the sentence */}
+          <div ref={containerRef} className="pointer-events-none aspect-video w-full overflow-hidden rounded-xl bg-muted" aria-hidden />
+          {/* The controls sit on the video, where the eyes already are */}
+          <div className="absolute bottom-3 right-3 flex items-center gap-1 rounded-lg bg-background/80 p-1 shadow-2 backdrop-blur">
             <Button
               size="sm"
-              variant="outline"
+              variant="ghost"
               disabled={playerState !== 'ready'}
               onClick={(e) => {
                 releaseFocus(e)
@@ -143,7 +147,7 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
             {masked && (
               <Button
                 size="sm"
-                variant="outline"
+                variant="ghost"
                 onClick={(e) => {
                   releaseFocus(e)
                   updateSession(peekSentence(sessionRef.current))
@@ -152,14 +156,11 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
                 Peek
               </Button>
             )}
-            <Button size="sm" variant="outline" onClick={requestExit}>
+            <Button size="sm" variant="ghost" onClick={requestExit}>
               Exit
             </Button>
           </div>
         </div>
-
-        {/* The player never takes the keyboard focus: typing always goes to the sentence */}
-        <div ref={containerRef} className="pointer-events-none aspect-video w-full overflow-hidden rounded-xl bg-muted" aria-hidden />
         {playerMessage && (
           <p role="alert" className="text-center text-sm text-destructive">
             {playerMessage}
