@@ -1,8 +1,10 @@
 import FlipCard from './FlipCard'
+import { autoPlayKey } from './autoplay'
 import { ModeFrame } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { Button } from '@/components/ui/button'
+import { pronunciationIsOpenAtom } from '@/store'
 import { reviewCard } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
 import { parseDetail } from '@/utils/detail/format'
@@ -16,6 +18,7 @@ import { GRADES, previewLabels } from '@/utils/srs/scheduler'
 import type { Grade } from '@/utils/srs/scheduler'
 import { createSession, currentItem, toggleFlip } from '@/utils/srs/session'
 import type { StudySession as SessionState } from '@/utils/srs/session'
+import { useAtomValue } from 'jotai'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 
@@ -109,6 +112,10 @@ export default function StudySession({ dictId, queue, progress, reverse, extras,
   const currentName = item?.word.name
   const labelsNow = useMemo(() => Date.now(), [currentName, session.revealed]) // eslint-disable-line react-hooks/exhaustive-deps
 
+  // The word is pronounced on its own, as in Typing (the pronunciation setting turns it off)
+  const pronunciationIsOpen = useAtomValue(pronunciationIsOpenAtom)
+  const playKey = autoPlayKey({ word: currentName, reverse, revealed: session.revealed, enabled: pronunciationIsOpen })
+
   if (!item) return null
 
   const { word } = item
@@ -119,7 +126,7 @@ export default function StudySession({ dictId, queue, progress, reverse, extras,
     <div className="flex flex-col items-center gap-2">
       <div className="flex items-center gap-3">
         <span className="text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">{word.name}</span>
-        <WordPronunciationIcon key={word.name} word={word} lang="en" iconClassName="h-8 w-8" />
+        <WordPronunciationIcon key={word.name} autoPlay={playKey} word={word} lang="en" iconClassName="h-8 w-8" />
       </div>
       {phonetic && <span className="text-lg text-muted-foreground">[{phonetic}]</span>}
     </div>

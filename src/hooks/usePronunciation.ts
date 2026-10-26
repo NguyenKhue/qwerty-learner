@@ -69,7 +69,8 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     }
   }, [sound])
 
-  return { play, stop, isPlaying }
+  // `play` does nothing until the sound has loaded, so a caller that plays on its own waits for `ready`
+  return { play, stop, isPlaying, ready: sound !== null && sound !== undefined }
 }
 
 export function usePrefetchPronunciationSound(word: string | undefined) {
