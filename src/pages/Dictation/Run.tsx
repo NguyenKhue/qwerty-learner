@@ -1,7 +1,6 @@
 import { useYouTubePlayer } from './useYouTubePlayer'
 import { ModeFrame } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
-import { Button } from '@/components/ui/button'
 import TypingLine from '@/pages/Sentences/TypingLine'
 import type { DictationItem } from '@/utils/dictation/items'
 import { typeDictationKey } from '@/utils/dictation/session'
@@ -10,7 +9,10 @@ import { advance, createSession, currentItem, isComplete, peekSentence, summariz
 import type { SentenceSession } from '@/utils/sentences/session'
 import { isDone } from '@/utils/sentences/turn'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import type { MouseEvent } from 'react'
+import type { MouseEvent, ReactNode } from 'react'
+import IconEye from '~icons/tabler/eye'
+import IconReplay from '~icons/tabler/rotate-clockwise'
+import IconX from '~icons/tabler/x'
 
 type Props = {
   videoId: string
@@ -33,6 +35,36 @@ function isTextTarget(target: EventTarget | null): boolean {
 /** After a mouse or touch click the button must not keep the focus: the next Space is a typed character, not a second click. */
 function releaseFocus(e: MouseEvent<HTMLButtonElement>) {
   if (e.detail > 0) e.currentTarget.blur()
+}
+
+/** A round icon button on the video, like YouTube's own controls; its name is in `label` (tooltip and screen readers). */
+function VideoControl({
+  label,
+  large = false,
+  disabled = false,
+  onClick,
+  children,
+}: {
+  label: string
+  large?: boolean
+  disabled?: boolean
+  onClick: (e: MouseEvent<HTMLButtonElement>) => void
+  children: ReactNode
+}) {
+  return (
+    <button
+      type="button"
+      aria-label={label}
+      title={label}
+      disabled={disabled}
+      onClick={onClick}
+      className={`pointer-events-auto flex items-center justify-center rounded-full bg-background/70 text-foreground shadow-2 backdrop-blur transition-[transform,background-color] duration-fast hover:scale-105 hover:bg-background/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-95 disabled:opacity-40 ${
+        large ? 'h-16 w-16' : 'h-11 w-11'
+      }`}
+    >
+      {children}
+    </button>
+  )
 }
 
 /** Plays one sentence of the video, then the learner types it from blanks; the next sentence plays once it is typed. */
@@ -128,37 +160,40 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
           {item.index + 1} / {total} · {Math.round(stats.accuracy * 100)}% · {Math.round(stats.wpm)} wpm
         </p>
 
-        <div className="relative w-full">
+        <div className="group relative w-full">
           {/* The player never takes the keyboard focus: typing always goes to the sentence */}
           <div ref={containerRef} className="pointer-events-none aspect-video w-full overflow-hidden rounded-xl bg-muted" aria-hidden />
-          {/* The controls sit on the video, where the eyes already are */}
-          <div className="absolute bottom-3 right-3 flex items-center gap-1 rounded-lg bg-background/80 p-1 shadow-2 backdrop-blur">
-            <Button
-              size="sm"
-              variant="ghost"
+          {/* The controls sit in the middle of the video, as on YouTube: hidden while a sentence plays, back on hover or pause */}
+          <div
+            className={`pointer-events-none absolute inset-0 flex items-center justify-center gap-5 transition-opacity duration-300 focus-within:opacity-100 group-hover:opacity-100 ${
+              playing ? 'opacity-0' : 'opacity-100'
+            }`}
+          >
+            {masked && (
+              <VideoControl
+                label="Peek at the sentence"
+                onClick={(e) => {
+                  releaseFocus(e)
+                  updateSession(peekSentence(sessionRef.current))
+                }}
+              >
+                <IconEye className="h-5 w-5" />
+              </VideoControl>
+            )}
+            <VideoControl
+              large
+              label="Replay the sentence"
               disabled={playerState !== 'ready'}
               onClick={(e) => {
                 releaseFocus(e)
                 play()
               }}
             >
-              {playing ? 'Playing…' : 'Replay'}
-            </Button>
-            {masked && (
-              <Button
-                size="sm"
-                variant="ghost"
-                onClick={(e) => {
-                  releaseFocus(e)
-                  updateSession(peekSentence(sessionRef.current))
-                }}
-              >
-                Peek
-              </Button>
-            )}
-            <Button size="sm" variant="ghost" onClick={requestExit}>
-              Exit
-            </Button>
+              <IconReplay className="h-8 w-8" />
+            </VideoControl>
+            <VideoControl label="Exit" onClick={requestExit}>
+              <IconX className="h-5 w-5" />
+            </VideoControl>
           </div>
         </div>
         {playerMessage && (
