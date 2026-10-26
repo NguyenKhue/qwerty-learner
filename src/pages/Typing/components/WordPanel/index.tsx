@@ -163,14 +163,16 @@ export default function WordPanel() {
           <div className="relative flex w-full justify-center">
             {!state.isTyping && (
               <div className="absolute flex h-full w-full justify-center">
-                <div className="z-10 flex w-full items-center backdrop-blur-sm">
-                  <p className="w-full select-none text-center text-xl text-muted-foreground ">
+                {/* A solid chip, so the prompt reads over the blurred word */}
+                <div className="z-10 flex w-full items-center justify-center">
+                  <p className="select-none rounded-full border border-border bg-card px-5 py-2 text-lg font-medium text-card-foreground shadow-2">
                     Press any key to {state.timerData.time ? 'continue' : 'start'}
                   </p>
                 </div>
               </div>
             )}
-            <div className="relative">
+            {/* The word is blurred itself until typing starts: a backdrop blur on the overlay does not always render */}
+            <div className={`relative transition-[filter] duration-200 ${state.isTyping ? '' : 'select-none blur-md'}`}>
               <WordComponent word={currentWord} onFinish={onFinish} key={wordComponentKey} />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
               <Translation
