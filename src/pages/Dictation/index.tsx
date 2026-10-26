@@ -222,7 +222,7 @@ function VideoScreen({ id, onBack }: { id: string; onBack: () => void }) {
                 </Button>
               </>
             ) : (
-              <Button variant="ghost" onClick={() => setConfirmRemove(true)}>
+              <Button variant="destructive" onClick={() => setConfirmRemove(true)}>
                 Remove
               </Button>
             )}
