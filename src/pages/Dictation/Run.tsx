@@ -1,18 +1,30 @@
 import { useYouTubePlayer } from './useYouTubePlayer'
 import { ModeFrame } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
 import TypingLine from '@/pages/Sentences/TypingLine'
+import { dictationCaptionsAtom, dictationSpeedAtom } from '@/store/dictation'
 import type { DictationItem } from '@/utils/dictation/items'
 import { typeDictationKey } from '@/utils/dictation/session'
+import { DICTATION_SPEEDS, sanitizeSpeed } from '@/utils/dictation/settings'
 import { isActivatableButton } from '@/utils/keyboard'
 import { advance, createSession, currentItem, isComplete, peekSentence, summarize } from '@/utils/sentences/session'
 import type { SentenceSession } from '@/utils/sentences/session'
 import { isDone } from '@/utils/sentences/turn'
+import { useAtom } from 'jotai'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { MouseEvent, ReactNode } from 'react'
+import IconCheck from '~icons/tabler/check'
 import IconEye from '~icons/tabler/eye'
 import IconEyeOff from '~icons/tabler/eye-off'
 import IconReplay from '~icons/tabler/rotate-clockwise'
+import IconSettings from '~icons/tabler/settings'
 import IconX from '~icons/tabler/x'
 
 type Props = {
@@ -81,7 +93,10 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
   /** The index of the sentence whose text is shown, if any. */
   const [revealedAt, setRevealedAt] = useState<number | null>(null)
   const [coarse] = useState(() => typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches)
-  const { containerRef, state: playerState, playSegment, pause } = useYouTubePlayer(videoId, () => setPlaying(false))
+  const [speedStored, setSpeed] = useAtom(dictationSpeedAtom)
+  const speed = sanitizeSpeed(speedStored)
+  const [captions, setCaptions] = useAtom(dictationCaptionsAtom)
+  const { containerRef, state: playerState, playSegment, pause } = useYouTubePlayer(videoId, () => setPlaying(false), { speed, captions })
 
   const item = currentItem(session)
   const stats = useMemo(() => summarize(session), [session])
@@ -125,6 +140,8 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
     const onKeyDown = (e: KeyboardEvent) => {
       const altGraph = e.getModifierState('AltGraph')
       if (((e.ctrlKey || e.altKey) && !altGraph) || e.metaKey || e.repeat) return
+      // While the settings menu is open its keys belong to it (Esc closes the menu, it does not leave the video)
+      if (e.target instanceof Element && e.target.closest('[role="menu"]')) return
       if (e.key === 'Escape') {
         e.preventDefault()
         requestExit()
@@ -201,6 +218,54 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
             <VideoControl label="Exit" onClick={requestExit}>
               <IconX className="h-5 w-5" />
             </VideoControl>
+          </div>
+          <div
+            className={`absolute bottom-3 right-3 transition-opacity duration-300 focus-within:opacity-100 group-hover:opacity-100 ${
+              playing ? 'opacity-0' : 'opacity-100'
+            }`}
+          >
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  type="button"
+                  aria-label="Settings"
+                  title="Settings"
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-background/70 text-foreground shadow-2 backdrop-blur transition-colors duration-fast hover:bg-background/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                >
+                  <IconSettings className="h-5 w-5" />
+                </button>
+              </DropdownMenuTrigger>
+              {/* Closing the menu must not leave the focus on the button: the next Space is a typed character */}
+              <DropdownMenuContent side="top" onCloseAutoFocus={(e) => e.preventDefault()}>
+                <DropdownMenuItem
+                  role="menuitemcheckbox"
+                  aria-checked={captions}
+                  onSelect={(e) => {
+                    e.preventDefault()
+                    setCaptions(!captions)
+                  }}
+                >
+                  <span className="flex-1">Subtitles</span>
+                  <span className="text-muted-foreground">{captions ? 'On' : 'Off'}</span>
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+                <p className="px-3 pb-1 pt-2 text-xs text-muted-foreground">Speed</p>
+                {DICTATION_SPEEDS.map((option) => (
+                  <DropdownMenuItem
+                    key={option}
+                    role="menuitemradio"
+                    aria-checked={speed === option}
+                    onSelect={(e) => {
+                      e.preventDefault()
+                      setSpeed(option)
+                    }}
+                  >
+                    <span className="flex-1">{option === 1 ? 'Normal' : `${option}×`}</span>
+                    {speed === option && <IconCheck className="h-4 w-4 text-primary" />}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
         </div>
         {playerMessage && (

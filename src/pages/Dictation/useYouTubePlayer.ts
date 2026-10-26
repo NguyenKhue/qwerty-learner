@@ -10,6 +10,8 @@ type YTPlayer = {
   getCurrentTime(): number
   setPlaybackRate(rate: number): void
   unloadModule?(name: string): void
+  loadModule?(name: string): void
+  setOption?(module: string, option: string, value: unknown): void
   destroy(): void
 }
 type YTNamespace = {
@@ -20,7 +22,7 @@ type YTNamespace = {
       width?: string
       height?: string
       playerVars?: Record<string, number | string>
-      events?: { onReady?: () => void; onError?: (event: { data: number }) => void }
+      events?: { onReady?: () => void; onError?: (event: { data: number }) => void; onStateChange?: (event: { data: number }) => void }
     },
   ) => YTPlayer
 }
@@ -37,6 +39,8 @@ const LOAD_TIMEOUT_MS = 15000
 const POLL_MS = 100
 /** Player errors that mean the owner does not allow the video to be embedded. */
 const EMBED_BLOCKED = [101, 150]
+/** The player state reported when the video starts playing. */
+const PLAYING = 1
 
 let apiPromise: Promise<YTNamespace> | null = null
 
@@ -72,12 +76,13 @@ export type PlayerState = 'loading' | 'ready' | 'blocked' | 'error'
 
 /**
  * An embedded YouTube player that plays one sentence at a time: `playSegment` seeks to the sentence (with a short margin),
- * plays it at normal speed and pauses at its end, then calls `onSegmentEnd`. Subtitles are turned off, since they would show the
- * sentence. `blocked` means the video cannot be embedded; `error` that the player could not load (for example offline).
+ * plays it at the chosen speed and pauses at its end, then calls `onSegmentEnd`. YouTube's subtitles are off unless the learner
+ * turns them on, since they would show the sentence. `blocked` means the video cannot be embedded; `error` that the player could not load (for example offline).
  */
 export function useYouTubePlayer(
   videoId: string,
   onSegmentEnd: () => void,
+  settings: { speed: number; captions: boolean } = { speed: 1, captions: false },
 ): { containerRef: RefObject<HTMLDivElement>; state: PlayerState; playSegment(start: number, end: number): void; pause(): void } {
   const containerRef = useRef<HTMLDivElement>(null)
   const playerRef = useRef<YTPlayer | null>(null)
@@ -85,6 +90,24 @@ export function useYouTubePlayer(
   const onEndRef = useRef(onSegmentEnd)
   onEndRef.current = onSegmentEnd
   const [state, setState] = useState<PlayerState>('loading')
+  const settingsRef = useRef(settings)
+  settingsRef.current = settings
+
+  /** Applies the learner's speed and subtitle choice to the player (YouTube's subtitles stay off unless asked for). */
+  const applySettings = useCallback((player: YTPlayer) => {
+    const { speed, captions } = settingsRef.current
+    player.setPlaybackRate(speed)
+    try {
+      if (captions) {
+        player.loadModule?.('captions')
+        player.setOption?.('captions', 'track', { languageCode: 'en' })
+      } else {
+        player.unloadModule?.('captions')
+      }
+    } catch {
+      // Subtitles that cannot be switched leave the exercise as it is
+    }
+  }, [])
 
   const stopPolling = useCallback(() => {
     window.clearInterval(pollRef.current)
@@ -104,18 +127,25 @@ export function useYouTubePlayer(
           videoId,
           width: '100%',
           height: '100%',
-          playerVars: { controls: 0, disablekb: 1, rel: 0, playsinline: 1, iv_load_policy: 3, cc_load_policy: 0, fs: 0 },
+          playerVars: {
+            controls: 0,
+            disablekb: 1,
+            rel: 0,
+            playsinline: 1,
+            iv_load_policy: 3,
+            cc_load_policy: settingsRef.current.captions ? 1 : 0,
+            cc_lang_pref: 'en',
+            fs: 0,
+          },
           events: {
             onReady: () => {
               if (cancelled) return
-              const player = playerRef.current
-              player?.setPlaybackRate(1)
-              try {
-                player?.unloadModule?.('captions')
-              } catch {
-                // Subtitles that cannot be turned off only make the exercise easier
-              }
+              if (playerRef.current) applySettings(playerRef.current)
               setState('ready')
+            },
+            // A video whose owner turned subtitles on by default shows them again once it plays: apply the choice again then
+            onStateChange: (event) => {
+              if (!cancelled && event.data === PLAYING && playerRef.current) applySettings(playerRef.current)
             },
             onError: (event) => {
               if (!cancelled) setState(EMBED_BLOCKED.indexOf(event.data) !== -1 ? 'blocked' : 'error')
@@ -133,7 +163,12 @@ export function useYouTubePlayer(
       playerRef.current = null
       host.remove()
     }
-  }, [videoId, stopPolling])
+  }, [videoId, stopPolling, applySettings])
+
+  // A change made in the settings menu applies at once
+  useEffect(() => {
+    if (state === 'ready' && playerRef.current) applySettings(playerRef.current)
+  }, [state, settings.speed, settings.captions, applySettings])
 
   const playSegment = useCallback(
     (start: number, end: number) => {
