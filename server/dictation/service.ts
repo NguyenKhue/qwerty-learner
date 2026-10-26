@@ -5,6 +5,7 @@ import { translateBatches } from './translate'
 import { DictationFailure, fetchSubtitles } from './youtube'
 import type { SubtitleFile } from './youtube'
 import { parseCues, parseSubtitles } from '@/utils/dictation/captions'
+import type { Cue } from '@/utils/dictation/captions'
 import { buildSentences } from '@/utils/dictation/sentences'
 import type { DictationSentence, DictationStatus } from '@/utils/dictation/types'
 import { isVideoId } from '@/utils/dictation/videoId'
@@ -22,11 +23,57 @@ type Step = NonNullable<DictationStatus['step']>
 
 const TRANSLATION_NOTE = 'Some sentences have no Vietnamese: the translation with the Claude CLI failed or is not available.'
 
-/** Gives each line of YouTube's Vietnamese track, whole, to the sentence it overlaps most in time. */
-function attachYoutubeVietnamese(sentences: DictationSentence[], vi: SubtitleFile): void {
+/** How far apart a Vietnamese line and an English line may start and still count as shown together. */
+const ALIGN_TOLERANCE_MS = 500
+/** The time shifts tried against the Vietnamese track, to see whether one fits the English lines better than none. */
+const MAX_SHIFT_MS = 60_000
+const SHIFT_STEP_MS = 100
+
+/** The share of the Vietnamese lines that start near an English line once moved by `shiftMs`. */
+function startsMatched(enStarts: number[], viStarts: number[], shiftMs: number): number {
+  let matched = 0
+  for (const start of viStarts) {
+    const at = start + shiftMs
+    let lo = 0
+    let hi = enStarts.length
+    while (lo < hi) {
+      const mid = (lo + hi) >> 1
+      if (enStarts[mid] < at) lo = mid + 1
+      else hi = mid
+    }
+    const near = [lo - 1, lo].some((i) => i >= 0 && i < enStarts.length && Math.abs(enStarts[i] - at) <= ALIGN_TOLERANCE_MS)
+    if (near) matched++
+  }
+  return matched / viStarts.length
+}
+
+/**
+ * True when the Vietnamese track is timed like the English one. Some videos' tracks are not: the English track was retimed (an
+ * intro cut or added) and the Vietnamese one was not, so time overlap hands each sentence the lines of another. A translation
+ * written for the English lines starts its lines with them, so most of its lines must start near an English line as they are, and
+ * no shift of the whole track may fit clearly better. The second test catches a shifted track even when the English lines are so
+ * dense that many lines start near one by chance.
+ */
+function timedLikeEnglish(en: Cue[], vi: Cue[]): boolean {
+  if (vi.length === 0 || en.length === 0) return false
+  const enStarts = en.map((cue) => cue.startMs).sort((a, b) => a - b)
+  const viStarts = vi.map((cue) => cue.startMs)
+  const asIs = startsMatched(enStarts, viStarts, 0)
+  let best = asIs
+  for (let shift = -MAX_SHIFT_MS; shift <= MAX_SHIFT_MS; shift += SHIFT_STEP_MS)
+    best = Math.max(best, startsMatched(enStarts, viStarts, shift))
+  return asIs >= 0.5 && asIs >= 0.8 * best
+}
+
+/**
+ * Gives each line of YouTube's Vietnamese track, whole, to the sentence it overlaps most in time, unless the track is timed
+ * differently from the English one (then the sentences are left to the Claude CLI).
+ */
+function attachYoutubeVietnamese(sentences: DictationSentence[], en: SubtitleFile, vi: SubtitleFile): void {
   let cues
   try {
     cues = parseCues(vi.text, vi.format)
+    if (!timedLikeEnglish(parseCues(en.text, en.format), cues)) return
   } catch {
     return
   }
@@ -88,7 +135,7 @@ export function createDictationService(d: {
       const totalMs = subtitles.durationSec > 0 ? subtitles.durationSec * 1000 : (words[words.length - 1]?.startMs ?? 0) + 2000
       const sentences: DictationSentence[] = buildSentences(words, totalMs)
       if (sentences.length === 0) throw new DictationFailure('NO_SUBTITLES', 'The subtitles of this video have no sentences to type')
-      if (subtitles.vi) attachYoutubeVietnamese(sentences, subtitles.vi)
+      if (subtitles.vi) attachYoutubeVietnamese(sentences, subtitles.en, subtitles.vi)
 
       let note: string | undefined
       const missing = sentences.filter((s) => s.vi === undefined)

@@ -110,4 +110,54 @@ describe('the dictation service', () => {
     await service.idle()
     expect(getVideo(db, ID)?.sentences.map((s) => s.vi)).toEqual(['hôm nay ta nói về trí nhớ', 'và vì sao ta quên'])
   })
+
+  describe('a Vietnamese track timed differently from the English one', () => {
+    type Line = { start: number; en: string; vi: string }
+    const lines = (starts: number[]): Line[] =>
+      starts.map((start, i) => ({ start, en: `This is sentence number ${i + 1}.`, vi: `Đây là câu số ${i + 1}.` }))
+    /** Eight spoken lines, one sentence each, at uneven times (as in a real talk). */
+    const english = lines([10000, 12500, 16000, 17800, 21500, 24000, 27300, 29000])
+    const track = (cues: { start: number; text: string }[]) => ({
+      events: cues.map((c) => ({ tStartMs: c.start, dDurationMs: 1000, segs: [{ utf8: c.text }] })),
+    })
+    const prepare = async (viCues: { start: number; text: string }[], enLines: Line[] = english) => {
+      const en = track(enLines.map((l) => ({ start: l.start, text: l.en })))
+      const { db, service } = setup({
+        info: { ...info, duration: Math.ceil(enLines[enLines.length - 1].start / 1000) + 5 },
+        files: { 'en.json3': JSON.stringify(en), 'vi.json3': JSON.stringify(track(viCues)) },
+      })
+      service.prepare(ID)
+      await service.idle()
+      return getVideo(db, ID)?.sentences ?? []
+    }
+
+    it('keeps a track whose lines start with the English lines, give or take a moment and a credit line', async () => {
+      const sentences = await prepare([
+        { start: 0, text: 'Dịch: Ai Đó' },
+        ...english.map((l, i) => ({ start: l.start + (i % 2 === 0 ? 200 : -150), text: l.vi })),
+      ])
+      expect(sentences.map((s) => s.viSource)).toEqual(english.map(() => 'youtube'))
+      expect(sentences.map((s) => s.vi)).toEqual(english.map((l) => l.vi))
+    })
+
+    it('ignores a track shifted against the English one and translates every sentence with the CLI', async () => {
+      // Each Vietnamese line starts 4.1 s before its English line, so time overlap would give sentences the wrong lines
+      const sentences = await prepare(english.map((l) => ({ start: l.start - 4100, text: l.vi })))
+      expect(sentences.map((s) => [s.vi, s.viSource])).toEqual(english.map((l) => [`VI: ${l.en}`, 'ai']))
+    })
+
+    it('ignores a track shifted far against dense English lines, though many of its lines start near one by chance', async () => {
+      // 60 lines 1 to 1.6 s apart and a Vietnamese track 22 s early: about 70% of its lines still start near an English line
+      const gaps = [1000, 1600, 1200, 1400, 1100, 1500, 1300, 1250, 1550, 1050]
+      const starts = [30000]
+      while (starts.length < 60) starts.push(starts[starts.length - 1] + gaps[starts.length % gaps.length])
+      const dense = lines(starts)
+      const sentences = await prepare(
+        dense.map((l) => ({ start: l.start - 22000, text: l.vi })),
+        dense,
+      )
+      expect(sentences).toHaveLength(60)
+      expect(sentences.every((s) => s.viSource === 'ai' && s.vi === `VI: ${s.en}`)).toBe(true)
+    })
+  })
 })
