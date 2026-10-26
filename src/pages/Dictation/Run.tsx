@@ -176,96 +176,99 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
 
   return (
     <ModeFrame>
-      <ScrollCenter className="max-w-3xl gap-5">
-        <p className="num w-full text-sm text-muted-foreground">
-          {item.index + 1} / {total} · {Math.round(stats.accuracy * 100)}% · {Math.round(stats.wpm)} wpm
-        </p>
+      <ScrollCenter className="max-w-6xl gap-5">
+        {/* The video grows with the window while the sentence below stays on screen (19rem); never narrower than 48rem */}
+        <div className="flex w-full max-w-[max(48rem,calc((100dvh-19rem)*16/9))] flex-col gap-5">
+          <p className="num w-full text-sm text-muted-foreground">
+            {item.index + 1} / {total} · {Math.round(stats.accuracy * 100)}% · {Math.round(stats.wpm)} wpm
+          </p>
 
-        <div className="group relative w-full">
-          {/* The player never takes the keyboard focus: typing always goes to the sentence */}
-          <div ref={containerRef} className="pointer-events-none aspect-video w-full overflow-hidden rounded-xl bg-muted" aria-hidden />
-          {/* The controls sit in the middle of the video, as on YouTube: hidden while a sentence plays, back on hover or pause */}
-          <div
-            className={`pointer-events-none absolute inset-0 flex items-center justify-center gap-5 transition-opacity duration-300 focus-within:opacity-100 group-hover:opacity-100 ${
-              playing ? 'opacity-0' : 'opacity-100'
-            }`}
-          >
-            <VideoControl
-              label={masked ? 'Show the sentence' : 'Hide the sentence'}
-              onClick={(e) => {
-                releaseFocus(e)
-                if (!masked) {
-                  setRevealedAt(null)
-                  return
-                }
-                if (!sessionRef.current.turn.peeked) updateSession(peekSentence(sessionRef.current))
-                setRevealedAt(sessionRef.current.index)
-              }}
+          <div className="group relative w-full">
+            {/* The player never takes the keyboard focus: typing always goes to the sentence */}
+            <div ref={containerRef} className="pointer-events-none aspect-video w-full overflow-hidden rounded-xl bg-muted" aria-hidden />
+            {/* The controls sit in the middle of the video, as on YouTube: hidden while a sentence plays, back on hover or pause */}
+            <div
+              className={`pointer-events-none absolute inset-0 flex items-center justify-center gap-5 transition-opacity duration-300 focus-within:opacity-100 group-hover:opacity-100 ${
+                playing ? 'opacity-0' : 'opacity-100'
+              }`}
             >
-              {masked ? <IconEye className="h-5 w-5" /> : <IconEyeOff className="h-5 w-5" />}
-            </VideoControl>
-            <VideoControl
-              large
-              label="Replay the sentence"
-              disabled={playerState !== 'ready'}
-              onClick={(e) => {
-                releaseFocus(e)
-                play()
-              }}
+              <VideoControl
+                label={masked ? 'Show the sentence' : 'Hide the sentence'}
+                onClick={(e) => {
+                  releaseFocus(e)
+                  if (!masked) {
+                    setRevealedAt(null)
+                    return
+                  }
+                  if (!sessionRef.current.turn.peeked) updateSession(peekSentence(sessionRef.current))
+                  setRevealedAt(sessionRef.current.index)
+                }}
+              >
+                {masked ? <IconEye className="h-5 w-5" /> : <IconEyeOff className="h-5 w-5" />}
+              </VideoControl>
+              <VideoControl
+                large
+                label="Replay the sentence"
+                disabled={playerState !== 'ready'}
+                onClick={(e) => {
+                  releaseFocus(e)
+                  play()
+                }}
+              >
+                <IconReplay className="h-8 w-8" />
+              </VideoControl>
+              <VideoControl label="Exit" onClick={requestExit}>
+                <IconX className="h-5 w-5" />
+              </VideoControl>
+            </div>
+            <div
+              className={`absolute bottom-3 right-3 transition-opacity duration-300 focus-within:opacity-100 group-hover:opacity-100 ${
+                playing ? 'opacity-0' : 'opacity-100'
+              }`}
             >
-              <IconReplay className="h-8 w-8" />
-            </VideoControl>
-            <VideoControl label="Exit" onClick={requestExit}>
-              <IconX className="h-5 w-5" />
-            </VideoControl>
-          </div>
-          <div
-            className={`absolute bottom-3 right-3 transition-opacity duration-300 focus-within:opacity-100 group-hover:opacity-100 ${
-              playing ? 'opacity-0' : 'opacity-100'
-            }`}
-          >
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <button
-                  type="button"
-                  aria-label="Settings"
-                  title="Settings"
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-background/70 text-foreground shadow-2 backdrop-blur transition-colors duration-fast hover:bg-background/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                >
-                  <IconSettings className="h-5 w-5" />
-                </button>
-              </DropdownMenuTrigger>
-              {/* Closing the menu must not leave the focus on the button: the next Space is a typed character */}
-              <DropdownMenuContent side="top" onCloseAutoFocus={(e) => e.preventDefault()}>
-                <DropdownMenuItem
-                  role="menuitemcheckbox"
-                  aria-checked={captions}
-                  onSelect={(e) => {
-                    e.preventDefault()
-                    setCaptions(!captions)
-                  }}
-                >
-                  <span className="flex-1">Subtitles</span>
-                  <span className="text-muted-foreground">{captions ? 'On' : 'Off'}</span>
-                </DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <p className="px-3 pb-1 pt-2 text-xs text-muted-foreground">Speed</p>
-                {DICTATION_SPEEDS.map((option) => (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <button
+                    type="button"
+                    aria-label="Settings"
+                    title="Settings"
+                    className="flex h-10 w-10 items-center justify-center rounded-full bg-background/70 text-foreground shadow-2 backdrop-blur transition-colors duration-fast hover:bg-background/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                  >
+                    <IconSettings className="h-5 w-5" />
+                  </button>
+                </DropdownMenuTrigger>
+                {/* Closing the menu must not leave the focus on the button: the next Space is a typed character */}
+                <DropdownMenuContent side="top" onCloseAutoFocus={(e) => e.preventDefault()}>
                   <DropdownMenuItem
-                    key={option}
-                    role="menuitemradio"
-                    aria-checked={speed === option}
+                    role="menuitemcheckbox"
+                    aria-checked={captions}
                     onSelect={(e) => {
                       e.preventDefault()
-                      setSpeed(option)
+                      setCaptions(!captions)
                     }}
                   >
-                    <span className="flex-1">{option === 1 ? 'Normal' : `${option}×`}</span>
-                    {speed === option && <IconCheck className="h-4 w-4 text-primary" />}
+                    <span className="flex-1">Subtitles</span>
+                    <span className="text-muted-foreground">{captions ? 'On' : 'Off'}</span>
                   </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
+                  <DropdownMenuSeparator />
+                  <p className="px-3 pb-1 pt-2 text-xs text-muted-foreground">Speed</p>
+                  {DICTATION_SPEEDS.map((option) => (
+                    <DropdownMenuItem
+                      key={option}
+                      role="menuitemradio"
+                      aria-checked={speed === option}
+                      onSelect={(e) => {
+                        e.preventDefault()
+                        setSpeed(option)
+                      }}
+                    >
+                      <span className="flex-1">{option === 1 ? 'Normal' : `${option}×`}</span>
+                      {speed === option && <IconCheck className="h-4 w-4 text-primary" />}
+                    </DropdownMenuItem>
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
           </div>
         </div>
         {playerMessage && (
@@ -274,7 +277,7 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
           </p>
         )}
 
-        <div className="flex w-full flex-col items-center gap-3">
+        <div className="flex w-full max-w-3xl flex-col items-center gap-3">
           <TypingLine
             text={item.text}
             typed={session.turn.typed}
@@ -300,7 +303,7 @@ export default function DictationRun({ videoId, items, total, onExit, onFinish, 
             spellCheck={false}
             aria-label="Type here"
             placeholder="Type here"
-            className="w-full rounded-md border border-border px-3 py-2 text-sm focus-visible:ring-2 focus-visible:ring-ring"
+            className="w-full max-w-3xl rounded-md border border-border px-3 py-2 text-sm focus-visible:ring-2 focus-visible:ring-ring"
             onInput={(e) => {
               for (const ch of e.currentTarget.value) updateSession(typeDictationKey(sessionRef.current, ch, Date.now()))
               e.currentTarget.value = ''
