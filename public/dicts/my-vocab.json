@@ -5295,5 +5295,62 @@
         ],
         "usphone": "spæn",
         "ukphone": "spæn"
+    },
+    {
+        "name": "influence",
+        "trans": [
+            "n. sự ảnh hưởng, tác động",
+            "v. ảnh hưởng đến, tác động đến",
+            "n. người, điều có sức ảnh hưởng"
+        ],
+        "usphone": "ˈɪnfluəns",
+        "ukphone": "ˈɪnfluəns"
+    },
+    {
+        "name": "virtualization",
+        "trans": [
+            "n. ảo hóa (chạy nhiều máy ảo trên một máy thật)",
+            "n. (IT) công nghệ ảo hóa máy chủ, hạ tầng"
+        ],
+        "usphone": "ˌvɜːrtʃuələˈzeɪʃn",
+        "ukphone": "ˌvɜːtʃuəlaɪˈzeɪʃn"
+    },
+    {
+        "name": "explicit",
+        "trans": [
+            "adj. rõ ràng, tường minh",
+            "adj. (IT) khai báo tường minh, không ngầm định",
+            "adj. nói thẳng, cụ thể"
+        ],
+        "usphone": "ɪkˈsplɪsɪt",
+        "ukphone": "ɪkˈsplɪsɪt"
+    },
+    {
+        "name": "exhaustively",
+        "trans": [
+            "adv. một cách toàn diện, thấu đáo",
+            "adv. kỹ lưỡng, không bỏ sót trường hợp nào"
+        ],
+        "usphone": "ɪɡˈzɔːstɪvli",
+        "ukphone": "ɪɡˈzɔːstɪvli"
+    },
+    {
+        "name": "confidential",
+        "trans": [
+            "adj. bí mật, bảo mật",
+            "adj. (tài liệu) mật, chỉ dùng nội bộ",
+            "adj. riêng tư, kín đáo"
+        ],
+        "usphone": "ˌkɑːnfɪˈdenʃl",
+        "ukphone": "ˌkɒnfɪˈdenʃl"
+    },
+    {
+        "name": "anagram",
+        "trans": [
+            "n. phép đảo chữ, từ đảo chữ",
+            "n. từ tạo ra bằng cách sắp xếp lại các chữ cái của từ khác"
+        ],
+        "usphone": "ˈænəɡræm",
+        "ukphone": "ˈænəɡræm"
     }
 ]
