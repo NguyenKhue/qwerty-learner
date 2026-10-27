@@ -1555,16 +1555,8 @@
     ]
   },
   "specification": {
-    "detail": "Specification - Loại từ: Danh từ (Noun, số nhiều) - tính từ liên quan là Demographic, danh từ khoa học nghiên cứu là Demography.\nMẹo nhớ: \"Nhân khẩu học / Đặc điểm về dân số\". Chỉ tập hợp các đặc điểm thống kê của một nhóm người: độ tuổi, giới tính, thu nhập, khu vực sống, v.v. — thường dùng để phân tích, phân khúc đối tượng.\n1. Trong IT / Sản phẩm: Đặc điểm nhân khẩu học của người dùng để phân tích/nhắm mục tiêu Thường dùng trong phân tích dữ liệu người dùng, marketing sản phẩm — xem người dùng thuộc nhóm tuổi, khu vực, thu nhập nào để tối ưu sản phẩm/quảng cáo.\nUser demographics: Đặc điểm nhân khẩu học của người dùng (tuổi, giới tính, vị trí...).\nTarget demographics: Nhóm nhân khẩu học mục tiêu (mà sản phẩm/quảng cáo hướng đến).\nCâu mẫu: The analytics dashboard shows user demographics like age and location. (Bảng phân tích hiển thị đặc điểm nhân khẩu học của người dùng như độ tuổi và vị trí).\n2. Trong Công việc & Đời sống: Đặc điểm dân số của một khu vực/nhóm xã hội Dùng khi nói về cơ cấu dân số của một thành phố, quốc gia, hoặc phân khúc khách hàng trong kinh doanh.\nChanging demographics: Cơ cấu dân số đang thay đổi (già hóa, đô thị hóa...).\nDemographic shift: Sự dịch chuyển về nhân khẩu học.\nCâu mẫu: The country is experiencing a demographic shift toward an aging population. (Quốc gia này đang trải qua sự dịch chuyển nhân khẩu học theo hướng dân số già hóa).",
+    "detail": "Specification - Loại từ: Danh từ (Noun) - động từ liên quan là Specify (chỉ rõ, quy định cụ thể), tính từ là Specific (cụ thể); hay viết tắt là spec / specs.\nMẹo nhớ: \"Bản đặc tả / Thông số kỹ thuật\". Văn bản mô tả chính xác một thứ phải như thế nào: phải làm gì, đạt tiêu chuẩn nào, có thông số ra sao, để mọi người làm theo cùng một chuẩn.\n1. Trong IT / Phần mềm: Bản đặc tả yêu cầu, đặc tả kỹ thuật Mô tả chi tiết hành vi của một tính năng, API hay hệ thống trước khi viết code, để dev, tester và khách hàng cùng hiểu giống nhau.\nRequirements specification: Bản đặc tả yêu cầu (mô tả hệ thống phải làm gì).\nAPI specification: Đặc tả API (endpoint, tham số, dữ liệu trả về), ví dụ OpenAPI.\nCâu mẫu: Before we write any code, we need a clear specification of what the feature must do. (Trước khi viết code, chúng ta cần một bản đặc tả rõ ràng về việc tính năng phải làm gì).\n2. Trong Phần cứng / Sản phẩm: Thông số kỹ thuật Các con số mô tả một thiết bị hay sản phẩm: bộ nhớ, tốc độ, kích thước, công suất.\nTechnical specifications (specs): Thông số kỹ thuật.\nMeet the specification: Đạt đúng thông số, đúng tiêu chuẩn đã quy định.\nCâu mẫu: The hardware specification says the device needs at least eight gigabytes of memory. (Thông số kỹ thuật phần cứng nói thiết bị cần ít nhất tám gigabyte bộ nhớ).\nPhân biệt nhanh:\nSpecification (danh từ): bản đặc tả, thông số\nSpecify (động từ): chỉ rõ, quy định\nSpecific (tính từ): cụ thể, riêng biệt",
     "examples": [
-      {
-        "text": "The analytics dashboard shows user demographics like age and location.",
-        "trans": "Bảng phân tích hiển thị đặc điểm nhân khẩu học của người dùng như độ tuổi và vị trí"
-      },
-      {
-        "text": "The country is experiencing a demographic shift toward an aging population.",
-        "trans": "Quốc gia này đang trải qua sự dịch chuyển nhân khẩu học theo hướng dân số già hóa"
-      },
       {
         "text": "Before we write any code, we need a clear specification of what the feature must do.",
         "trans": "Trước khi viết code, chúng ta cần một bản đặc tả rõ ràng về việc tính năng phải làm gì."
@@ -1572,6 +1564,10 @@
       {
         "text": "The hardware specification says the device needs at least eight gigabytes of memory.",
         "trans": "Thông số kỹ thuật phần cứng nói thiết bị cần ít nhất tám gigabyte bộ nhớ."
+      },
+      {
+        "text": "The new laptop does not meet the specification, so we sent it back to the supplier.",
+        "trans": "Chiếc laptop mới không đạt đúng thông số kỹ thuật, nên chúng tôi đã gửi trả nhà cung cấp."
       }
     ]
   },
