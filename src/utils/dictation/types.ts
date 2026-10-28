@@ -21,7 +21,7 @@ export type DictationVideo = {
 /** A prepared video in a list, without its sentences. */
 export type DictationVideoSummary = Omit<DictationVideo, 'sentences'> & { sentenceCount: number }
 
-export type DictationErrorCode = 'NO_YTDLP' | 'NO_SUBTITLES' | 'FETCH_FAILED' | 'TIMEOUT' | 'BAD_VIDEO'
+export type DictationErrorCode = 'NO_YTDLP' | 'NO_SUBTITLES' | 'FETCH_FAILED' | 'TIMEOUT' | 'BAD_VIDEO' | 'RATE_LIMITED'
 
 /** Where the preparation of a video stands. A cached video is `ready`; a failed one stays `error` until it is prepared again. */
 export type DictationStatus = {

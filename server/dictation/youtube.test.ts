@@ -16,12 +16,16 @@ const info = (extra: Record<string, unknown> = {}) => ({ title: 'A talk', channe
 const setup = (ytDlp: FakeYtDlp) => {
   const tools = fakeTools({ ytDlp })
   const tmpDir = mkdtempSync(join(tmpdir(), 'qwerty-yt-'))
-  return { tools, deps: { runTool: tools.runTool, ytDlp: '/opt/bin/yt-dlp', tmpDir }, tmpDir }
+  const waits: number[] = []
+  const sleep = async (ms: number) => {
+    waits.push(ms)
+  }
+  return { tools, deps: { runTool: tools.runTool, ytDlp: '/opt/bin/yt-dlp', tmpDir, sleep }, tmpDir, waits }
 }
 const argAfter = (args: string[], flag: string) => args[args.indexOf(flag) + 1]
 
 describe('fetchSubtitles', () => {
-  it('lists the video first, then downloads only the English and Vietnamese tracks it needs', async () => {
+  it('lists the video first, then downloads the English track and the Vietnamese track one at a time', async () => {
     const { tools, deps, tmpDir } = setup({
       info: info({ subtitles: {}, automatic_captions: { en: track, vi: track, fr: track, 'zh-CN': track } }),
       files: { 'en.vtt': fixture('auto.vtt'), 'vi.vtt': fixture('manual.vtt'), 'fr.vtt': 'x' },
@@ -30,12 +34,13 @@ describe('fetchSubtitles', () => {
     expect(result).toMatchObject({ title: 'A talk', channel: 'TED', durationSec: 612.5, kind: 'auto' })
     expect(result.en).toEqual({ text: fixture('auto.vtt'), format: 'vtt' })
     expect(result.vi).toEqual({ text: fixture('manual.vtt'), format: 'vtt' })
-    expect(tools.calls).toHaveLength(2)
+    expect(tools.calls).toHaveLength(3)
     expect(tools.calls[0].args).toEqual(
       expect.arrayContaining(['--dump-single-json', '--skip-download', '--', `https://www.youtube.com/watch?v=${ID}`]),
     )
     const download = tools.calls[1].args
-    expect(argAfter(download, '--sub-langs')).toBe('en,vi')
+    expect(argAfter(download, '--sub-langs')).toBe('en')
+    expect(argAfter(tools.calls[2].args, '--sub-langs')).toBe('vi')
     expect(argAfter(download, '--sub-format')).toBe('json3/vtt')
     expect(download).toEqual(expect.arrayContaining(['--skip-download', '--write-auto-subs']))
     expect(readdirSync(tmpDir)).toEqual([])
@@ -81,12 +86,60 @@ describe('fetchSubtitles', () => {
     await expect(fetchSubtitles(ID, setup({ fail: new ToolError('timeout', 'x') }).deps)).rejects.toMatchObject({ code: 'TIMEOUT' })
     const gone = fetchSubtitles(ID, setup({ code: 1, stderr: 'ERROR: [youtube] dQw4w9WgXcQ: Video unavailable\n' }).deps)
     await expect(gone).rejects.toMatchObject({ code: 'FETCH_FAILED', message: expect.stringContaining('Video unavailable') })
-    const limited = setup({
+  })
+
+  it('keeps the English subtitles when YouTube refuses the Vietnamese track', async () => {
+    const { deps } = setup({
+      info: info({ automatic_captions: { en: track, vi: track } }),
+      files: { 'en.vtt': fixture('auto.vtt'), 'vi.vtt': fixture('manual.vtt') },
+      rateLimited: { vi: Infinity },
+    })
+    const result = await fetchSubtitles(ID, deps)
+    expect(result.en.format).toBe('vtt')
+    expect(result.vi).toBeUndefined()
+  })
+
+  it('tries the English track again, waiting longer each time, when YouTube answers 429', async () => {
+    const { tools, deps, waits } = setup({
+      info: info({ automatic_captions: { en: track } }),
+      files: { 'en.vtt': fixture('auto.vtt') },
+      rateLimited: { en: 2 },
+    })
+    const result = await fetchSubtitles(ID, deps)
+    expect(result.en.format).toBe('vtt')
+    expect(tools.calls.filter((c) => argAfter(c.args, '--sub-langs') === 'en')).toHaveLength(3)
+    expect(waits).toEqual([5000, 15000])
+  })
+
+  it('tries the listing again too when YouTube answers 429', async () => {
+    const { deps, waits } = setup({
+      info: info({ automatic_captions: { en: track } }),
+      files: { 'en.vtt': fixture('auto.vtt') },
+      listRateLimited: 1,
+    })
+    await expect(fetchSubtitles(ID, deps)).resolves.toMatchObject({ kind: 'auto' })
+    expect(waits).toEqual([5000])
+  })
+
+  it('says YouTube is limiting requests when it keeps answering 429', async () => {
+    const { tools, deps } = setup({
+      info: info({ automatic_captions: { en: track } }),
+      files: { 'en.vtt': fixture('auto.vtt') },
+      rateLimited: { en: Infinity },
+    })
+    await expect(fetchSubtitles(ID, deps)).rejects.toMatchObject({ code: 'RATE_LIMITED', message: expect.stringContaining('few minutes') })
+    expect(tools.calls.filter((c) => argAfter(c.args, '--sub-langs') === 'en')).toHaveLength(3)
+  })
+
+  it('does not wait and try again for an error that is not a rate limit', async () => {
+    const { tools, deps, waits } = setup({
       info: info({ automatic_captions: { en: track } }),
       downloadCode: 1,
-      stderr: "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests\n",
+      stderr: 'ERROR: Some other failure\n',
     })
-    await expect(fetchSubtitles(ID, limited.deps)).rejects.toMatchObject({ code: 'FETCH_FAILED', message: expect.stringContaining('429') })
+    await expect(fetchSubtitles(ID, deps)).rejects.toMatchObject({ code: 'FETCH_FAILED', message: 'Some other failure' })
+    expect(waits).toEqual([])
+    expect(tools.calls).toHaveLength(2)
   })
 
   it('never runs anything for a value that is not a video id', async () => {
