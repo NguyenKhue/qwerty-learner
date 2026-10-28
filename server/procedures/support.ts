@@ -46,6 +46,13 @@ export function argOptionalNumber(args: unknown[], index: number, name: string):
   return argNumber(args, index, name)
 }
 
+/** Reads a whole-number argument. */
+export function argInteger(args: unknown[], index: number, name: string): number {
+  const value = argNumber(args, index, name)
+  if (!Number.isInteger(value)) return badArgument(index, name, 'a whole number')
+  return value
+}
+
 /** Reads a boolean argument. */
 export function argBoolean(args: unknown[], index: number, name: string): boolean {
   const value = args[index]

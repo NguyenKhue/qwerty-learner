@@ -1,7 +1,7 @@
 // @vitest-environment node
 import { openDb } from '../adapter'
 import { ensureSchema } from '../schema'
-import { getVideo, listVideos, removeVideo, saveProgress, saveVideo } from './videos'
+import { getVideo, listVideos, removeVideo, replaceSentences, saveProgress, saveVideo } from './videos'
 import type { DictationVideo } from '@/utils/dictation/types'
 import { describe, expect, it } from 'vitest'
 
@@ -46,6 +46,22 @@ describe('the video repository', () => {
   it('refuses progress for a video that is not cached', () => {
     const db = fresh()
     expect(() => saveProgress(db, 'zzzzzzzzzzz', { position: 0, correct: 0, wrong: 0, finished: false }, 1)).toThrow()
+  })
+
+  it('replaces sentences and note, and clamps progress to the new sentence count', () => {
+    const db = fresh()
+    saveVideo(db, video('aaaaaaaaaaa'))
+    saveProgress(db, 'aaaaaaaaaaa', { position: 2, correct: 9, wrong: 1, finished: true }, 6000)
+    replaceSentences(db, 'aaaaaaaaaaa', [{ start: 1, end: 2, en: 'we walk to the river at night' }], 'Translation tool missing')
+    const read = getVideo(db, 'aaaaaaaaaaa')
+    expect(read).toMatchObject({ title: 'Title aaaaaaaaaaa', note: 'Translation tool missing' })
+    expect(read?.sentences).toEqual([{ start: 1, end: 2, en: 'we walk to the river at night' }])
+    expect(read?.progress).toEqual({ position: 1, correct: 9, wrong: 1, finished: false, updatedAt: 6000 })
+  })
+
+  it('refuses sentences for a video that is not cached', () => {
+    const db = fresh()
+    expect(() => replaceSentences(db, 'zzzzzzzzzzz', [], null)).toThrow()
   })
 
   it('lists videos without their sentences, the most recently used first', () => {

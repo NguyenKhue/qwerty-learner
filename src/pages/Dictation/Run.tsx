@@ -38,7 +38,7 @@ type Props = {
   onProgress?: (session: SentenceSession<DictationItem>) => void
 }
 
-const SOURCE_LABEL = { ai: 'AI translation', youtube: 'YouTube translation' } as const
+const SOURCE_LABEL = { ai: 'AI translation', youtube: 'YouTube translation', manual: 'Edited translation' } as const
 
 /** A text field feeds the session through its own input event, so the global listener must leave every key to it. */
 function isTextTarget(target: EventTarget | null): boolean {

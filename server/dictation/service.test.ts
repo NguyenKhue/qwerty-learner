@@ -1,6 +1,6 @@
 // @vitest-environment node
 import { openDb } from '../adapter'
-import { getVideo } from '../repo/videos'
+import { getVideo, saveProgress, saveVideo } from '../repo/videos'
 import { ensureSchema } from '../schema'
 import { fakeTools } from './fakes'
 import type { FakeYtDlp } from './fakes'
@@ -60,6 +60,95 @@ describe('the dictation service', () => {
     expect(service.prepare(ID)).toEqual({ state: 'ready' })
     await service.idle()
     expect(ytCalls(tools.calls)).toBe(1)
+  })
+
+  it('prepares a cached video again when asked to refetch and keeps its progress', async () => {
+    const { db, tools, service } = setup({ info, files: { 'en.json3': JSON.stringify(auto) } })
+    service.prepare(ID)
+    await service.idle()
+    saveProgress(db, ID, { position: 1, correct: 4, wrong: 1, finished: false }, 500)
+    expect(service.prepare(ID, { refetch: true })).toEqual({ state: 'running', step: 'subtitles' })
+    await service.idle()
+    expect(ytCalls(tools.calls)).toBe(2)
+    expect(getVideo(db, ID)?.progress).toMatchObject({ position: 1, correct: 4, wrong: 1, finished: false })
+  })
+
+  it('retranslates only the sentences without Vietnamese and saves them', async () => {
+    const asked: string[][] = []
+    const { db, service } = setup({ info, files: {} }, (sentences) => {
+      asked.push(sentences)
+      return JSON.stringify(sentences.map((sentence) => `VI: ${sentence}`))
+    })
+    saveVideo(db, {
+      id: ID,
+      title: 'Memory',
+      channel: 'TED',
+      durationSec: 8,
+      subtitleKind: 'auto',
+      preparedAt: 1,
+      sentences: [
+        { start: 0, end: 4, en: 'we walk to the river at night', vi: 'chúng ta đi dọc bờ sông', viSource: 'manual' },
+        { start: 4, end: 8, en: 'the water is cold and clear' },
+      ],
+    })
+    expect(service.retranslate(ID)).toEqual({ state: 'running', step: 'translating' })
+    await service.idle()
+    expect(asked).toEqual([['the water is cold and clear']])
+    const sentences = getVideo(db, ID)?.sentences ?? []
+    expect(sentences[0]).toMatchObject({ vi: 'chúng ta đi dọc bờ sông', viSource: 'manual' })
+    expect(sentences[1]).toEqual({
+      start: 4,
+      end: 8,
+      en: 'the water is cold and clear',
+      vi: 'VI: the water is cold and clear',
+      viSource: 'ai',
+    })
+  })
+
+  it('keeps an edit made while the Vietnamese is being translated again', async () => {
+    const base = {
+      id: ID,
+      title: 'Memory',
+      channel: 'TED',
+      durationSec: 8,
+      subtitleKind: 'auto' as const,
+      preparedAt: 1,
+    }
+    let edited = false
+    const { db, service } = setup({ info, files: {} }, (sentences) => {
+      // The learner fixes the second sentence while the CLI translates the first batch
+      if (!edited) {
+        edited = true
+        saveVideo(db, {
+          ...base,
+          sentences: [
+            { start: 0, end: 4, en: 'we walk to the river at night' },
+            { start: 4, end: 8, en: 'the water is warm and clear' },
+          ],
+        })
+      }
+      return JSON.stringify(sentences.map((sentence) => `VI: ${sentence}`))
+    })
+    saveVideo(db, {
+      ...base,
+      sentences: [
+        { start: 0, end: 4, en: 'we walk to the river at night' },
+        { start: 4, end: 8, en: 'the water is cold and clear' },
+      ],
+    })
+    service.retranslate(ID)
+    await service.idle()
+    const sentences = getVideo(db, ID)?.sentences ?? []
+    expect(sentences[0]).toMatchObject({ vi: 'VI: we walk to the river at night', viSource: 'ai' })
+    expect(sentences[1].en).toBe('the water is warm and clear')
+    expect(sentences[1].vi).toBe('VI: the water is warm and clear')
+  })
+
+  it('does nothing when asked to retranslate a video that was never prepared', async () => {
+    const { tools, service } = setup({ info, files: {} })
+    expect(service.retranslate(ID)).toEqual({ state: 'idle' })
+    await service.idle()
+    expect(tools.calls).toEqual([])
   })
 
   it('ends in NO_SUBTITLES and stores nothing when the subtitles are only sound tags', async () => {

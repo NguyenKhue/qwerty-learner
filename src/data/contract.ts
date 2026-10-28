@@ -2,11 +2,15 @@ import type { Word } from '@/typings'
 import type { PersonalSeedInput, PersonalSeedResult } from '@/utils/db/personal-seed'
 import type { CustomDictRecord, ICardProgress, IChapterRecord, IReviewRecord, IWordRecord } from '@/utils/db/record'
 import type { WordExtras } from '@/utils/detail/sidecar'
-import type { DictationStatus, DictationVideo, DictationVideoSummary, VideoProgress } from '@/utils/dictation/types'
+import type { AlignReport } from '@/utils/dictation/lyrics'
+import type { DictationSentence, DictationStatus, DictationVideo, DictationVideoSummary, VideoProgress } from '@/utils/dictation/types'
 import type { Grade } from '@/utils/srs/scheduler'
 
 /** The input of creating or updating a set of the learner's own (the same shape the app uses today). */
 export type CustomDictInput = { name: string; description?: string; words: Word[] }
+
+/** The fields of a sentence an agent may change; a changed `en` drops the Vietnamese unless `vi` is given too. */
+export type DictationSentencePatch = { en?: string; vi?: string; start?: number; end?: number }
 
 export type StoredWordRecord = IWordRecord & { id: number }
 export type StoredChapterRecord = IChapterRecord & { id: number }
@@ -54,6 +58,16 @@ export type Procedures = {
   'dictation.status': { args: [videoId: string]; result: DictationStatus }
   'dictation.saveProgress': { args: [videoId: string, progress: Omit<VideoProgress, 'updatedAt'>]; result: null }
   'dictation.remove': { args: [videoId: string]; result: null }
+  'dictation.importLines': { args: [videoId: string, lines: string[]]; result: AlignReport }
+  'dictation.editSentence': { args: [videoId: string, index: number, patch: DictationSentencePatch]; result: DictationSentence }
+  'dictation.mergeSentences': { args: [videoId: string, index: number]; result: DictationSentence }
+  'dictation.splitSentence': {
+    args: [videoId: string, index: number, atWord: number]
+    result: [DictationSentence, DictationSentence]
+  }
+  'dictation.deleteSentence': { args: [videoId: string, index: number]; result: null }
+  'dictation.retranslate': { args: [videoId: string]; result: DictationStatus }
+  'dictation.refetch': { args: [videoId: string]; result: DictationStatus }
   'meta.set': { args: [key: string, value: string]; result: null }
 }
 
@@ -93,6 +107,13 @@ const NAME_TABLE: Record<ProcedureName, true> = {
   'dictation.status': true,
   'dictation.saveProgress': true,
   'dictation.remove': true,
+  'dictation.importLines': true,
+  'dictation.editSentence': true,
+  'dictation.mergeSentences': true,
+  'dictation.splitSentence': true,
+  'dictation.deleteSentence': true,
+  'dictation.retranslate': true,
+  'dictation.refetch': true,
 }
 
 /** Every operation name at run time. The table above is typed against `Procedures`, so a missing or extra name is a compile error. */
@@ -140,6 +161,13 @@ export function topicsOf(name: ProcedureName, args: unknown[]): string[] {
     case 'dictation.prepare':
     case 'dictation.saveProgress':
     case 'dictation.remove':
+    case 'dictation.importLines':
+    case 'dictation.editSentence':
+    case 'dictation.mergeSentences':
+    case 'dictation.splitSentence':
+    case 'dictation.deleteSentence':
+    case 'dictation.retranslate':
+    case 'dictation.refetch':
       return ['dictation', `dictation:${args[0]}`]
     default:
       return []

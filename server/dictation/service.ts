@@ -1,5 +1,5 @@
 import type { Db } from '../adapter'
-import { getVideo, saveVideo } from '../repo/videos'
+import { getVideo, replaceSentences, saveVideo } from '../repo/videos'
 import type { RunTool } from './tools'
 import { translateBatches } from './translate'
 import { DictationFailure, fetchSubtitles } from './youtube'
@@ -12,9 +12,13 @@ import { isVideoId } from '@/utils/dictation/videoId'
 import { tmpdir } from 'node:os'
 
 export type DictationService = {
-  /** Starts preparing a video unless it is cached or already being prepared, and returns where it stands. */
-  prepare(id: string): DictationStatus
+  /** Starts preparing a video unless it is cached (or already being prepared), and returns where it stands. */
+  prepare(id: string, opts?: { refetch?: boolean }): DictationStatus
   status(id: string): DictationStatus
+  /** True while a video is being prepared from YouTube: its sentences must not be edited until that job saves them. */
+  preparing(id: string): boolean
+  /** Translates the sentences that have no Vietnamese yet in the background, and returns where it stands. */
+  retranslate(id: string): DictationStatus
   /** Resolves once no preparation is running (for tests). */
   idle(): Promise<void>
 }
@@ -111,12 +115,15 @@ export function createDictationService(d: {
   tmpDir?: string
 }): DictationService {
   const running = new Map<string, Step>()
+  /** Videos whose Vietnamese is being translated again; their sentences stay editable meanwhile. */
+  const translating = new Set<string>()
   const failed = new Map<string, NonNullable<DictationStatus['error']>>()
   const jobs = new Set<Promise<void>>()
 
   const status = (id: string): DictationStatus => {
     const step = running.get(id)
     if (step) return { state: 'running', step }
+    if (translating.has(id)) return { state: 'running', step: 'translating' }
     const error = failed.get(id)
     if (error) return { state: 'error', error }
     return getVideo(d.db, id) ? { state: 'ready' } : { state: 'idle' }
@@ -178,10 +185,43 @@ export function createDictationService(d: {
     }
   }
 
+  /**
+   * Translates the sentences without Vietnamese, then gives each translation to the sentences that still have that English and
+   * no Vietnamese, so edits made meanwhile are kept. It goes on while edits leave English it has not tried yet.
+   */
+  async function retranslateJob(id: string): Promise<void> {
+    const tried = new Set<string>()
+    for (;;) {
+      const video = getVideo(d.db, id)
+      if (!video) break
+      const english = Array.from(new Set(video.sentences.filter((s) => s.vi === undefined && !tried.has(s.en)).map((s) => s.en)))
+      if (english.length === 0) break
+      english.forEach((en) => tried.add(en))
+      let translated: (string | undefined)[]
+      try {
+        translated = await translateBatches(english, { runTool: d.runTool, claude: d.tools.claude })
+      } catch {
+        translated = english.map(() => undefined)
+      }
+      const viOf = new Map(english.map((en, i) => [en, translated[i]]))
+      const latest = getVideo(d.db, id)
+      if (!latest) break
+      const sentences = latest.sentences.map((sentence) => {
+        const vi = sentence.vi === undefined ? viOf.get(sentence.en) : undefined
+        return vi === undefined ? sentence : { ...sentence, vi, viSource: 'ai' as const }
+      })
+      replaceSentences(d.db, id, sentences, sentences.some((s) => s.vi === undefined) ? TRANSLATION_NOTE : null)
+      d.publish(['dictation', `dictation:${id}`])
+    }
+    translating.delete(id)
+    d.publish([`dictation:${id}`])
+  }
+
   return {
-    prepare(id) {
+    prepare(id, opts) {
       if (!isVideoId(id)) return { state: 'error', error: { code: 'BAD_VIDEO', message: 'That is not a YouTube video id' } }
-      if (running.has(id) || getVideo(d.db, id)) return status(id)
+      if (running.has(id)) return status(id)
+      if (getVideo(d.db, id) && !opts?.refetch) return status(id)
       failed.delete(id)
       setStep(id, 'subtitles')
       const promise = job(id).finally(() => jobs.delete(promise))
@@ -189,6 +229,17 @@ export function createDictationService(d: {
       return status(id)
     },
     status,
+    preparing: (id) => running.has(id),
+    retranslate(id) {
+      if (running.has(id)) return status(id)
+      if (!getVideo(d.db, id)) return { state: 'idle' }
+      if (translating.has(id)) return status(id)
+      translating.add(id)
+      d.publish([`dictation:${id}`])
+      const promise = retranslateJob(id).finally(() => jobs.delete(promise))
+      jobs.add(promise)
+      return status(id)
+    },
     async idle() {
       while (jobs.size > 0) await Promise.all(Array.from(jobs))
     },

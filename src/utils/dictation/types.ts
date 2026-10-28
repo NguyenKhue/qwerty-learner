@@ -1,5 +1,5 @@
 /** One sentence of a video: when it is spoken (seconds), what is said, and its Vietnamese translation when there is one. */
-export type DictationSentence = { start: number; end: number; en: string; vi?: string; viSource?: 'youtube' | 'ai' }
+export type DictationSentence = { start: number; end: number; en: string; vi?: string; viSource?: 'youtube' | 'ai' | 'manual' }
 
 /** How far the learner got in a video. `position` is the index of the next sentence to type. */
 export type VideoProgress = { position: number; correct: number; wrong: number; finished: boolean; updatedAt: number }

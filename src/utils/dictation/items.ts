@@ -9,7 +9,7 @@ export type DictationItem = {
   end: number
   en: string
   vi?: string
-  viSource?: 'youtube' | 'ai'
+  viSource?: DictationSentence['viSource']
 }
 
 /** The sentences from position `from` on, as items to type; a sentence that cannot be typed is skipped. */

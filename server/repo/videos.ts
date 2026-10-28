@@ -54,6 +54,18 @@ export function saveVideo(db: Db, video: Omit<DictationVideo, 'progress'>): void
   )
 }
 
+/** Replaces the sentences and note of a cached video, keeping its other details; throws when it is not cached. */
+export function replaceSentences(db: Db, id: string, sentences: DictationSentence[], note: string | null): void {
+  db.transaction(() => {
+    if (!db.get('SELECT 1 FROM video_cache WHERE id = ?', [id])) throw new Error(`Video ${id} is not prepared`)
+    db.run('UPDATE video_cache SET sentences = ?, note = ? WHERE id = ?', [JSON.stringify(sentences), note, id])
+    const progress = progressRow(db, id)
+    if (progress && progress.position > sentences.length) {
+      db.run('UPDATE video_progress SET position = ?, finished = 0 WHERE video_id = ?', [sentences.length, id])
+    }
+  })
+}
+
 /** A cached video with its sentences and progress, or null when it was never prepared. */
 export function getVideo(db: Db, id: string): DictationVideo | null {
   const row = db.get<CacheRow>('SELECT * FROM video_cache WHERE id = ?', [id])

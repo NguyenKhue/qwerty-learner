@@ -104,6 +104,30 @@ Paste a YouTube link or pick a suggested talk. The first time, the video is prep
   (0.5× to 1.25×).
 - Progress is saved after every sentence; next time you continue where you stopped.
 
+### AI agents (MCP)
+
+`server/mcp/` is an MCP server that lets an AI agent work on the web's data:
+
+- **Dictionaries and sets**: list them, read and search words, edit a word (meanings, phonetics, detail, examples), add and
+  remove words, create, rename, copy or delete sets. A built-in dictionary is a file of this repo (`public/dicts/`): the dev
+  server shows an edit at once, the stable app after `yarn stable:update`. Your own sets change at once.
+- **Studying**: the flashcard schedule (what is new, learning, due), grading a card, typing stats, the words you get wrong most,
+  history per day, chapter results, activity, hard words, mistake-review progress, and a backup of all your data.
+- **Dictation**: read a video's sentences, fix their text or times, merge, split or delete them, translate them again, fetch
+  the video again from YouTube (which undoes every edit), and the list of suggested videos.
+- One more tool calls any other procedure of the data server.
+
+The settings of the screens (dark mode, the dictionary you picked, sounds...) are kept by the browser and cannot be reached.
+
+Claude Code picks it up from `.mcp.json` when it is opened in this folder. It talks to the stable server
+(`http://127.0.0.1:4173`); set `QWERTY_URL` in `.mcp.json` to `http://127.0.0.1:5180` to work on the dev data instead. Any other
+MCP client starts it with `node_modules/.bin/vite-node -c vitest.config.ts server/mcp/cli.ts` from this folder.
+
+**Wrong subtitles in a song.** YouTube's automatic subtitles often mishear lyrics. Save the correct lyrics in a text file (one line
+per line; an `.lrc` file works too, its time tags are ignored) and ask the agent to import it for the video. The server lines the
+file up with the timing of the current sentences and replaces them; the agent only gets back numbers (each line's times and how
+well it matched), never the text, and fixes the lines that matched poorly by their number.
+
 ### My Sets
 
 - **New set**: type the words in by hand (word, meanings one per line, optional US/UK phonetics and a detail shown on the back of a

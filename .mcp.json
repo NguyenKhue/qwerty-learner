@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "qwerty-learner": {
+      "command": "node_modules/.bin/vite-node",
+      "args": ["-c", "vitest.config.ts", "server/mcp/cli.ts"],
+      "env": { "QWERTY_URL": "http://127.0.0.1:4173" }
+    }
+  }
+}
