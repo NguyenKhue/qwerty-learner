@@ -1,6 +1,6 @@
 import * as reviewLog from '../../../server/repo/reviewLog'
 import * as wordRecords from '../../../server/repo/wordRecords'
-import { STREAK_WINDOW_DAYS, loadActivity } from './activity'
+import { ACTIVITY_WINDOW_DAYS, loadActivity } from './activity'
 import type { IWordRecord } from './record'
 import { withTestServer } from '@/test/serverHarness'
 import { addLocalDays } from '@/utils/srs/time'
@@ -28,9 +28,9 @@ describe('loadActivity', () => {
     } as unknown as IWordRecord)
 
   it('is seven empty days and no streak for an empty database', async () => {
-    const { week, streak } = await loadActivity(NOW)
-    expect(week).toHaveLength(7)
-    expect(week.every((d) => d.reviews === 0 && d.typed === 0)).toBe(true)
+    const { bars, streak } = await loadActivity(NOW)
+    expect(bars.week).toHaveLength(7)
+    expect(bars.week.every((d) => d.reviews === 0 && d.typed === 0)).toBe(true)
     expect(streak).toBe(0)
   })
 
@@ -39,9 +39,19 @@ describe('loadActivity', () => {
     await review(at(0, 10))
     await typed(at(0, 11))
     await typed(at(-1, 20))
-    const { week } = await loadActivity(NOW)
+    const { week } = (await loadActivity(NOW)).bars
     expect(week[6]).toMatchObject({ reviews: 2, typed: 1 })
     expect(week[5]).toMatchObject({ reviews: 0, typed: 1 })
+  })
+
+  it('reaches the whole twelve months for the year but only 30 days for the month', async () => {
+    await review(at(-29, 9))
+    await typed(at(-300, 9))
+    const { month, year } = (await loadActivity(NOW)).bars
+    expect(month[0]).toMatchObject({ reviews: 1, typed: 0 })
+    expect(month.reduce((n, d) => n + d.typed, 0)).toBe(0)
+    expect(year.reduce((n, m) => n + m.reviews, 0)).toBe(1)
+    expect(year.reduce((n, m) => n + m.typed, 0)).toBe(1)
   })
 
   it('counts a day with only typing, or only reviews, towards the streak', async () => {
@@ -55,7 +65,7 @@ describe('loadActivity', () => {
     for (let i = 0; i < 20; i++) await review(at(-i, 9))
     expect((await loadActivity(NOW)).streak).toBe(20)
     server.db.exec('DELETE FROM review_log')
-    await review(at(-(STREAK_WINDOW_DAYS + 5), 9))
+    await review(at(-(ACTIVITY_WINDOW_DAYS + 5), 9))
     expect((await loadActivity(NOW)).streak).toBe(0)
   })
 })

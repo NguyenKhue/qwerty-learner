@@ -1,4 +1,4 @@
-import WeekCard from './WeekCard'
+import ActivityCard from './ActivityCard'
 import { buildNavItems } from '@/components/AppShell/navItems'
 import type { NavItem } from '@/components/AppShell/navItems'
 import SetProgress from '@/components/SetProgress'
@@ -184,7 +184,7 @@ export default function Dashboard() {
 
         {activity ? (
           <div style={step(2)}>
-            <WeekCard week={activity.week} streak={activity.streak} now={now} />
+            <ActivityCard bars={activity.bars} streak={activity.streak} />
           </div>
         ) : (
           <Skeleton className="h-48" style={step(2)} />
