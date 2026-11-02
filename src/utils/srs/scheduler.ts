@@ -66,10 +66,10 @@ export function nextState(card: ICardProgress | undefined, identity: CardIdentit
   }
 }
 
-/** Short label for the time until `due`: 10m, 1d, 2mo, 1y. */
+/** Short label for the time until `due`: 10m, 1d, 2mo, 1y. A review falls due at local midnight and counts in days, even late in the evening. */
 export function describeInterval(due: number, now: number): string {
   const diff = due - now
-  if (diff < HOUR_MS) return `${Math.max(1, Math.round(diff / MINUTE_MS))}m`
+  if (diff < HOUR_MS && due !== startOfLocalDay(due)) return `${Math.max(1, Math.round(diff / MINUTE_MS))}m`
   const days = Math.max(1, Math.round((startOfLocalDay(due) - startOfLocalDay(now)) / DAY_MS))
   if (days < 30) return `${days}d`
   if (days < 365) return `${Math.round(days / 30)}mo`

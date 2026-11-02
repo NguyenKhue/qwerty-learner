@@ -121,7 +121,8 @@ export default function StudySession({ dictId, queue, progress, reverse, extras,
 
   const { word } = item
   const phonetic = word.usphone || word.ukphone
-  const labels = practice ? null : previewLabels(cards.get(word.name), { dict: dictId, word: word.name }, labelsNow)
+  // Also shown in practice, as what a real review would schedule: the header says these grades are not saved
+  const labels = previewLabels(cards.get(word.name), { dict: dictId, word: word.name }, labelsNow)
 
   const wordBlock = (
     <div className="flex flex-col items-center gap-2">
@@ -244,7 +245,7 @@ export default function StudySession({ dictId, queue, progress, reverse, extras,
                 <Keycap className="hidden md:inline-flex">{index + 1}</Keycap>
                 {GRADE_NAME[grade]}
               </span>
-              {labels && <span className="block text-xs font-normal text-muted-foreground">{labels[grade]}</span>}
+              <span className="block text-xs font-normal text-muted-foreground">{labels[grade]}</span>
             </button>
           ))}
         </div>

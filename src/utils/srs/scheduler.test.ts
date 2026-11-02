@@ -151,6 +151,11 @@ describe('describeInterval / previewLabels', () => {
     expect(previewLabels(undefined, identity, NOW)).toEqual({ again: '10m', hard: '1d', good: '1d', easy: '3d' })
   })
 
+  it('still counts a review in days when local midnight is minutes away', () => {
+    const lateEvening = new Date(2026, 9, 12, 23, 52).getTime()
+    expect(previewLabels(undefined, identity, lateEvening)).toEqual({ again: '10m', hard: '1d', good: '1d', easy: '3d' })
+  })
+
   it('GRADES lists the four grades in button order', () => {
     expect(GRADES).toEqual(['again', 'hard', 'good', 'easy'])
   })
