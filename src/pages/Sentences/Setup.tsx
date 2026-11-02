@@ -1,9 +1,8 @@
 import { ModeFrame, ModePage } from '@/components/ModePage'
-import SetProgress from '@/components/SetProgress'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
-import type { ProgressSummary } from '@/utils/progress/status'
 import type { SentenceLength, SentenceScope } from '@/utils/sentences/types'
+import { Link } from 'react-router-dom'
 
 type Props = {
   dictName: string
@@ -16,8 +15,6 @@ type Props = {
   length: SentenceLength
   onLengthChange: (value: SentenceLength) => void
   onStart: () => void
-  onBack: () => void
-  progress?: ProgressSummary | null
 }
 
 const LENGTHS: { value: SentenceLength; label: string }[] = [
@@ -31,28 +28,22 @@ const SCOPES: { value: SentenceScope; label: string; description: string }[] = [
   { value: 'all', label: 'All words', description: 'Every word of the set that has a sentence.' },
 ]
 
-export default function SentencesSetup({
-  dictName,
-  total,
-  playable,
-  scope,
-  onScopeChange,
-  length,
-  onLengthChange,
-  onStart,
-  onBack,
-  progress,
-}: Props) {
+export default function SentencesSetup({ dictName, total, playable, scope, onScopeChange, length, onLengthChange, onStart }: Props) {
   return (
     <ModeFrame>
-      <ModePage title={dictName} onBack={onBack}>
+      <ModePage title="Sentences" subtitle={dictName}>
         {total === 0 ? (
-          <Card className="space-y-2 p-6 text-muted-foreground">
-            <p>This set has no example sentences you can type yet.</p>
-            <p>
-              Only sentences in which the word can be found are used; sentences with characters outside the English keyboard or longer than
-              200 characters are skipped.
-            </p>
+          <Card className="space-y-4 p-6">
+            <div className="space-y-2">
+              <p className="font-medium">{dictName} has no example sentences to type</p>
+              <p className="text-sm text-muted-foreground">
+                A sentence counts when it contains the word, fits the English keyboard and is at most 200 characters long. Pick another set
+                or add examples to one of yours.
+              </p>
+            </div>
+            <Button asChild>
+              <Link to="/gallery">Change set</Link>
+            </Button>
           </Card>
         ) : (
           <Card className="space-y-5 p-6 text-sm">
@@ -99,11 +90,6 @@ export default function SentencesSetup({
             <Button className="h-12 w-full text-base shadow-2" disabled={playable === 0} onClick={onStart}>
               Start
             </Button>
-          </Card>
-        )}
-        {progress && (
-          <Card>
-            <SetProgress summary={progress} />
           </Card>
         )}
       </ModePage>

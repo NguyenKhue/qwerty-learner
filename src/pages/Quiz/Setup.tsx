@@ -14,7 +14,6 @@ type Props = {
   direction: QuizDirection
   onDirectionChange: (value: QuizDirection) => void
   onStart: () => void
-  onBack: () => void
   progress?: ProgressSummary | null
 }
 
@@ -33,12 +32,11 @@ export default function QuizSetup({
   direction,
   onDirectionChange,
   onStart,
-  onBack,
   progress,
 }: Props) {
   return (
     <ModeFrame>
-      <ModePage title={dictName} onBack={onBack}>
+      <ModePage title="Quiz" subtitle={dictName}>
         {!available ? (
           <Card className="p-6 text-muted-foreground">
             This set cannot be quizzed yet: it needs at least 4 words with different meanings (found {distinctMeanings}).

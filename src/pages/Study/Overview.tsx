@@ -35,7 +35,6 @@ type Props = {
   onStart: () => void
   onLearnMore: (count: number) => void
   onPractice: (scope: PracticeScope) => void
-  onBack: () => void
 }
 
 export default function StudyOverview({
@@ -54,7 +53,6 @@ export default function StudyOverview({
   onStart,
   onLearnMore,
   onPractice,
-  onBack,
 }: Props) {
   const [limitText, setLimitText] = useState(String(newPerDay))
   // Follow the stored value if it changes after mount (e.g. another tab)
@@ -82,7 +80,7 @@ export default function StudyOverview({
 
   return (
     <ModeFrame>
-      <ModePage title={dictName} onBack={onBack}>
+      <ModePage title="Flashcards" subtitle={dictName}>
         {summary && (
           <p className="rounded-lg bg-primary/10 p-4 text-sm text-primary">
             {summary.practice ? 'Practice finished' : 'Session finished'}: {summary.reviewed}{' '}
@@ -114,11 +112,15 @@ export default function StudyOverview({
             </div>
           ) : (
             <div className="space-y-4">
-              <p>
-                <span className="num text-5xl font-semibold tracking-tight">{counts.due}</span>{' '}
-                <span className="text-muted-foreground">due</span> ·{' '}
-                <span className="num text-5xl font-semibold tracking-tight">{counts.new}</span>{' '}
-                <span className="text-muted-foreground">new</span>
+              <p className="flex flex-wrap items-baseline gap-x-6">
+                <span>
+                  <span className="num text-5xl font-semibold tracking-tight">{counts.due}</span>{' '}
+                  <span className="text-muted-foreground">due</span>
+                </span>
+                <span>
+                  <span className="num text-5xl font-semibold tracking-tight">{counts.new}</span>{' '}
+                  <span className="text-muted-foreground">new</span>
+                </span>
               </p>
               <Button className="h-12 px-6 text-base shadow-2" onClick={onStart}>
                 Start

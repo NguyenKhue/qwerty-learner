@@ -1,9 +1,9 @@
 export type NavItem = {
-  id: 'home' | 'typing' | 'study' | 'quiz' | 'match' | 'sentences' | 'dictation' | 'my-sets' | 'library'
+  id: 'home' | 'typing' | 'study' | 'quiz' | 'match' | 'sentences' | 'dictation' | 'my-sets' | 'library' | 'mistakes' | 'analysis'
   label: string
   to: string
   base: string
-  icon: 'home' | 'keyboard' | 'cards' | 'quiz' | 'match' | 'sentences' | 'dictation' | 'sets' | 'library'
+  icon: 'home' | 'keyboard' | 'cards' | 'quiz' | 'match' | 'sentences' | 'dictation' | 'sets' | 'library' | 'mistakes' | 'analysis'
   tab: boolean
 }
 
@@ -28,6 +28,8 @@ export function buildNavItems(): NavItem[] {
     { id: 'dictation', label: 'Dictation', to: '/dictation', base: '/dictation', icon: 'dictation', tab: false },
     { id: 'my-sets', label: 'My Sets', to: '/my-sets', base: '/my-sets', icon: 'sets', tab: false },
     { id: 'library', label: 'Library', to: '/gallery', base: '/gallery', icon: 'library', tab: false },
+    { id: 'mistakes', label: 'Error book', to: '/error-book', base: '/error-book', icon: 'mistakes', tab: false },
+    { id: 'analysis', label: 'Analysis', to: '/analysis', base: '/analysis', icon: 'analysis', tab: false },
   ]
 }
 

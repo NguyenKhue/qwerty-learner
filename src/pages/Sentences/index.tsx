@@ -6,10 +6,8 @@ import { ModeFrame, PageMessage } from '@/components/ModePage'
 import { useCardProgress } from '@/hooks/useCardProgress'
 import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { useExampleWords } from '@/hooks/useExampleWords'
-import { useSetProgress } from '@/hooks/useSetProgress'
 import { sentencesLengthAtom, sentencesScopeAtom } from '@/store/sentences'
 import { extraNewCardsAtom, newCardsPerDayAtom } from '@/store/study'
-import { canGoBack } from '@/utils/history'
 import { buildPool } from '@/utils/sentences/pool'
 import { buildRun, sanitizeScope, sanitizeSentenceLength, scopeWordCount } from '@/utils/sentences/run'
 import { retryItems, summarize } from '@/utils/sentences/session'
@@ -18,7 +16,6 @@ import type { SentenceItem } from '@/utils/sentences/types'
 import { buildQueue, extraNewToday, sanitizeNewPerDay } from '@/utils/srs/queue'
 import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function SentencesRoute() {
@@ -30,9 +27,7 @@ export default function SentencesRoute() {
 type Stage = 'setup' | 'run' | 'result'
 
 function Sentences({ id }: { id: string }) {
-  const navigate = useNavigate()
   const { dict, words, error } = useExampleWords(id)
-  const progress = useSetProgress(id, words)
   const [lengthStored, setLength] = useAtom(sentencesLengthAtom)
   const length = sanitizeSentenceLength(lengthStored)
   const [scopeStored, setScope] = useAtom(sentencesScopeAtom)
@@ -63,9 +58,6 @@ function Sentences({ id }: { id: string }) {
   const priority = useMemo(() => (scope === 'due' ? dueAndNew() : undefined), [scope, dueAndNew, stage]) // eslint-disable-line react-hooks/exhaustive-deps
   const total = useMemo(() => scopeWordCount(pool), [pool])
   const playable = useMemo(() => scopeWordCount(pool, priority), [pool, priority])
-
-  // Nothing earlier in this app's history (a bookmark, or a redirect in a new tab): fall back to the dashboard
-  const onBack = useCallback(() => (canGoBack() ? navigate(-1) : navigate('/')), [navigate])
 
   // "Try again" builds a new run from the pool; "Practise mistakes" starts one over the given items
   const start = useCallback(
@@ -113,7 +105,6 @@ function Sentences({ id }: { id: string }) {
 
   return (
     <Setup
-      progress={progress}
       dictName={dict.name}
       total={total}
       playable={playable}
@@ -122,7 +113,6 @@ function Sentences({ id }: { id: string }) {
       length={length}
       onLengthChange={setLength}
       onStart={() => start()}
-      onBack={onBack}
     />
   )
 }

@@ -1,18 +1,14 @@
 import MatchBoard from './MatchBoard'
 import { InlineLoading } from '@/components/Loading'
 import { ModeFrame, ModePage, PageMessage } from '@/components/ModePage'
-import SetProgress from '@/components/SetProgress'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
-import { useSetProgress } from '@/hooks/useSetProgress'
-import { canGoBack } from '@/utils/history'
 import { formatDuration, readBest } from '@/utils/match/best'
 import { buildBoard, canPlay } from '@/utils/match/board'
 import type { Tile } from '@/utils/match/board'
 import { useCallback, useMemo, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function MatchRoute() {
@@ -22,18 +18,13 @@ export default function MatchRoute() {
 }
 
 function Match({ id }: { id: string }) {
-  const navigate = useNavigate()
   const { dict, words, error } = useDictionaryWords(id)
-  const progress = useSetProgress(id, words)
   const [tiles, setTiles] = useState<Tile[] | null>(null)
   // Bumped on every start so MatchBoard remounts with a fresh game ("Play again")
   const [round, setRound] = useState(0)
   const [best, setBest] = useState<number | null>(() => readBest(id))
 
   const playable = useMemo(() => (words ? canPlay(words) : false), [words])
-
-  // Nothing earlier in this app's history (a bookmark, or a redirect in a new tab): fall back to the dashboard
-  const onBack = useCallback(() => (canGoBack() ? navigate(-1) : navigate('/')), [navigate])
 
   const start = useCallback(() => {
     if (!words) return
@@ -59,7 +50,7 @@ function Match({ id }: { id: string }) {
 
   return (
     <ModeFrame>
-      <ModePage title={dict.name} onBack={onBack}>
+      <ModePage title="Match" subtitle={dict.name}>
         {playable ? (
           <Card className="space-y-4">
             <p>Match 6 words with their meanings as fast as you can.</p>
@@ -75,11 +66,6 @@ function Match({ id }: { id: string }) {
           </Card>
         ) : (
           <Card className="text-muted-foreground">This set cannot be played yet: it needs at least 6 words with different meanings.</Card>
-        )}
-        {progress && (
-          <Card>
-            <SetProgress summary={progress} />
-          </Card>
         )}
       </ModePage>
     </ModeFrame>

@@ -10,6 +10,7 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 import IconAlignLeft from '~icons/tabler/align-left'
 import IconBooks from '~icons/tabler/books'
 import IconCards from '~icons/tabler/cards'
+import IconChartBar from '~icons/tabler/chart-bar'
 import IconChevronDown from '~icons/tabler/chevron-down'
 import IconDots from '~icons/tabler/dots'
 import IconFolders from '~icons/tabler/folders'
@@ -19,6 +20,7 @@ import IconInfoCircle from '~icons/tabler/info-circle'
 import IconKeyboard from '~icons/tabler/keyboard'
 import IconListCheck from '~icons/tabler/list-check'
 import IconMoon from '~icons/tabler/moon'
+import IconNotebook from '~icons/tabler/notebook'
 import IconPuzzle from '~icons/tabler/puzzle'
 import IconSun from '~icons/tabler/sun'
 
@@ -32,6 +34,8 @@ const ICONS: Record<NavItem['icon'], typeof IconHome> = {
   dictation: IconHeadphones,
   sets: IconFolders,
   library: IconBooks,
+  mistakes: IconNotebook,
+  analysis: IconChartBar,
 }
 
 const focusRing = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring'
@@ -105,7 +109,9 @@ function Sidebar({ items, pathname, compact }: { items: NavItem[]; pathname: str
   const label = compact ? 'sr-only' : 'sr-only lg:not-sr-only'
   return (
     <aside
-      className={`hidden shrink-0 flex-col gap-6 border-r border-border bg-card p-3 md:flex ${compact ? 'w-[72px]' : 'w-[72px] lg:w-60'}`}
+      className={`hidden shrink-0 select-none flex-col gap-6 border-r border-border bg-card p-3 md:flex ${
+        compact ? 'w-[72px]' : 'w-[72px] lg:w-60'
+      }`}
     >
       <Link to="/" title="Home" className={`flex h-14 items-center gap-2.5 rounded-lg px-2 ${focusRing}`}>
         <img src={logo} className="h-8 w-8 shrink-0" alt="" />
@@ -126,7 +132,7 @@ function Sidebar({ items, pathname, compact }: { items: NavItem[]; pathname: str
         <IconChevronDown className={`h-4 w-4 shrink-0 text-muted-foreground ${compact ? 'hidden' : 'hidden lg:block'}`} aria-hidden />
       </Link>
 
-      <nav aria-label="Main" className="flex flex-1 flex-col gap-6">
+      <nav aria-label="Main" className="flex min-h-0 flex-1 flex-col gap-6 overflow-y-auto">
         <div className="flex flex-col gap-0.5">
           {items
             .filter((item) => item.tab)
@@ -227,7 +233,7 @@ function TabBar({ items, pathname }: { items: NavItem[]; pathname: string }) {
       )}
       <nav
         aria-label="Main"
-        className="relative z-40 flex border-t border-border bg-card/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden"
+        className="relative z-40 flex select-none border-t border-border bg-card/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden"
       >
         {items
           .filter((item) => item.tab)
@@ -263,7 +269,7 @@ export default function AppShell() {
       <Sidebar items={items} pathname={pathname} compact={compact} />
       <div className="flex min-h-0 min-w-0 flex-1 flex-col">
         <main className="relative min-h-0 flex-1 overflow-y-auto">
-          <div key={pathname} className="page-enter h-full">
+          <div key={pathname} className="h-full">
             <Suspense fallback={<InlineLoading />}>
               <Outlet />
             </Suspense>

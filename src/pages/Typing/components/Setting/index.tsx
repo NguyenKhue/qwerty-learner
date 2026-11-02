@@ -33,10 +33,11 @@ export default function Setting() {
       <button
         type="button"
         onClick={openModal}
-        className={`flex items-center justify-center rounded p-[2px] text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground  ${
+        className={`flex h-9 w-9 items-center justify-center rounded-md text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground  ${
           isOpen && 'bg-primary text-primary-foreground'
         }`}
         title="Open settings dialog"
+        aria-label="Open settings dialog"
       >
         <IconCog6Tooth className="icon" />
       </button>

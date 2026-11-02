@@ -14,7 +14,7 @@
     --ring: 79 70 229;
     --primary: 79 70 229;
     --primary-foreground: 255 255 255;
-    --accent: 21 128 61;
+    --accent: 20 120 58;
     --accent-foreground: 255 255 255;
     --destructive: 220 38 38;
     --destructive-foreground: 255 255 255;
@@ -68,14 +68,12 @@
 
 body {
   margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: 'cv11', 'ss01';
   background-color: rgb(var(--background));
   color: rgb(var(--foreground));
   @apply transition-colors duration-300;
-  user-select: none;
 }
 
 code {
@@ -131,6 +129,12 @@ body,
 
   .icon {
     @apply h-5.5 w-5.5 focus:outline-none;
+  }
+
+  /* A key seen from the front: lit top edge, deeper bottom edge */
+  .keycap {
+    @apply inline-flex h-6 min-w-[1.5rem] items-center justify-center rounded-md border border-b-[3px] border-border bg-background px-1.5 font-mono text-xs font-semibold leading-none text-foreground;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.08);
   }
 
   .word-chip {
@@ -254,6 +258,10 @@ body,
   .num {
     font-variant-numeric: tabular-nums;
   }
+  /* The studied word when it is the point of the screen */
+  .text-word {
+    @apply text-5xl font-semibold leading-none tracking-tight sm:text-7xl;
+  }
 }
 
 /* Entrances. Every keyframe ends in the visible state, so nothing depends on the animation running */
@@ -308,9 +316,6 @@ body,
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .page-enter {
-    animation: enter-up var(--dur-enter) var(--ease-out) both;
-  }
   /* Children appear one after another; set `--i` on a child to place it in the sequence */
   .stagger > * {
     animation: enter-up var(--dur-enter) var(--ease-out) both;

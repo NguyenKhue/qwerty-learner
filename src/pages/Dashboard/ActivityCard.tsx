@@ -102,7 +102,7 @@ export default function ActivityCard({ bars: barsByPeriod, streak }: { bars: Rec
           aria-label="Activity period"
         >
           {ACTIVITY_PERIODS.map((value) => (
-            <ToggleGroupItem key={value} value={value}>
+            <ToggleGroupItem key={value} value={value} className="h-11 md:h-9">
               {PERIODS[value].label}
             </ToggleGroupItem>
           ))}

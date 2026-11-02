@@ -1,4 +1,5 @@
 import InfoPanel from '@/components/InfoPanel'
+import { Button } from '@/components/ui/button'
 import { trackPromotionEvent } from '@/utils/trackEvent'
 import { useCallback, useState } from 'react'
 import IconBook2 from '~icons/tabler/book-2'
@@ -106,15 +107,9 @@ export default function DictRequest() {
             */}
         </InfoPanel>
       )}
-      <button
-        type="button"
-        onClick={onOpenPanel}
-        className="group flex items-center space-x-2 rounded-lg border border-primary bg-primary/10 px-4 py-2.5 text-sm font-medium text-primary shadow-sm transition-all duration-200 hover:scale-105 hover:border-primary hover:bg-primary/20 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-      >
-        <IconBook2 className="h-4 w-4" />
-        <span>Find more dictionaries</span>
-        <span className="transform transition-transform group-hover:translate-x-1">✨</span>
-      </button>
+      <Button variant="outline" onClick={onOpenPanel}>
+        Find more dictionaries
+      </Button>
     </>
   )
 }

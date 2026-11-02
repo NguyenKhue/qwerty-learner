@@ -2,6 +2,7 @@ import { ModeFrame } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
+import { Keycap } from '@/components/ui/keycap'
 import { reviewQuizAnswer } from '@/utils/db/card-progress'
 import { isActivatableButton } from '@/utils/keyboard'
 import { describeSaveFailures } from '@/utils/quiz/failures'
@@ -170,9 +171,7 @@ export default function QuizRun({ dictId, questions, onRestart, onBack }: Props)
                 onClick={() => onChoose(index)}
                 className={`flex min-h-[56px] w-full items-center gap-3 rounded-xl border px-4 text-left transition-[transform,box-shadow,border-color,background-color] duration-fast ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${state}`}
               >
-                <span className="num flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-muted text-xs font-semibold">
-                  {index + 1}
-                </span>
+                <Keycap className="shrink-0">{index + 1}</Keycap>
                 <span className="min-w-0 flex-1 break-words">{option}</span>
                 {answered && isAnswer && <IconCheck aria-hidden="true" className="h-5 w-5 shrink-0 text-accent" />}
                 {answered && isChosen && !isAnswer && <IconX aria-hidden="true" className="h-5 w-5 shrink-0 text-destructive" />}
@@ -196,7 +195,8 @@ export default function QuizRun({ dictId, questions, onRestart, onBack }: Props)
         )}
 
         <Button className="h-12 px-6 text-base shadow-2" disabled={!answered} onClick={onNext}>
-          {session.index + 1 === session.questions.length ? 'Finish' : 'Next'} (Enter)
+          {session.index + 1 === session.questions.length ? 'Finish' : 'Next'}
+          <Keycap className="hidden text-foreground md:inline-flex">Enter</Keycap>
         </Button>
       </ScrollCenter>
     </ModeFrame>

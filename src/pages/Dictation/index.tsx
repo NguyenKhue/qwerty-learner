@@ -11,7 +11,6 @@ import { toItems } from '@/utils/dictation/items'
 import type { DictationItem } from '@/utils/dictation/items'
 import type { DictationStatus, DictationVideo } from '@/utils/dictation/types'
 import { isVideoId } from '@/utils/dictation/videoId'
-import { canGoBack } from '@/utils/history'
 import { retryItems, summarize } from '@/utils/sentences/session'
 import type { SentenceSession, SentenceSummary } from '@/utils/sentences/session'
 import { useCallback, useEffect, useRef, useState } from 'react'
@@ -53,9 +52,8 @@ function PreparingAnimation({ step }: { step?: Step }) {
 export default function DictationPage() {
   const { videoId } = useParams()
   const navigate = useNavigate()
-  const back = useCallback(() => (canGoBack() ? navigate(-1) : navigate('/')), [navigate])
 
-  if (!videoId) return <DictationSetup onOpen={(id) => navigate(`/dictation/${id}`)} onBack={back} />
+  if (!videoId) return <DictationSetup onOpen={(id) => navigate(`/dictation/${id}`)} />
   if (!isVideoId(videoId)) {
     return (
       <ModeFrame>
@@ -222,7 +220,7 @@ function VideoScreen({ id, onBack }: { id: string; onBack: () => void }) {
                 </Button>
               </>
             ) : (
-              <Button variant="destructive" onClick={() => setConfirmRemove(true)}>
+              <Button variant="ghost" className="ml-auto text-destructive hover:text-destructive" onClick={() => setConfirmRemove(true)}>
                 Remove
               </Button>
             )}

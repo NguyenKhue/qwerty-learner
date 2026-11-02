@@ -11,7 +11,19 @@ const byId = (id: string) => {
 describe('buildNavItems', () => {
   it('lists the modes in order and marks five tabs for phones', () => {
     const items = buildNavItems()
-    expect(items.map((i) => i.id)).toEqual(['home', 'typing', 'study', 'quiz', 'match', 'sentences', 'dictation', 'my-sets', 'library'])
+    expect(items.map((i) => i.id)).toEqual([
+      'home',
+      'typing',
+      'study',
+      'quiz',
+      'match',
+      'sentences',
+      'dictation',
+      'my-sets',
+      'library',
+      'mistakes',
+      'analysis',
+    ])
     expect(items.filter((i) => i.tab).map((i) => i.id)).toEqual(['home', 'typing', 'study', 'quiz', 'match'])
   })
   it('points the mode links at the pages that use the current set', () => {
@@ -41,7 +53,7 @@ describe('isNavActive', () => {
     expect(isNavActive(byId('my-sets'), '/my-sets/3')).toBe(true)
   })
   it('does not activate anything on unrelated paths', () => {
-    for (const item of buildNavItems()) expect(isNavActive(item, '/error-book')).toBe(false)
+    for (const item of buildNavItems()) expect(isNavActive(item, '/friend-links')).toBe(false)
   })
 })
 

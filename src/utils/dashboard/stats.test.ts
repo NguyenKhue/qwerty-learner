@@ -44,6 +44,13 @@ describe('dashboardStats counts', () => {
   })
 })
 
+describe('dashboardStats next word', () => {
+  it('is the word the queue starts with, or nothing when the queue is empty', () => {
+    expect(stats([word('a')]).next?.name).toBe('a')
+    expect(stats([word('a')], [], 0).next).toBeNull()
+  })
+})
+
 describe('dashboardStats mode states', () => {
   const distinct = (count: number) => Array.from({ length: count }, (_, i) => word(`w${i}`, `n. meaning ${i}`))
   it('enables Quiz from 4 distinct meanings and explains why not below', () => {

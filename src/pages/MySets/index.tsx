@@ -48,7 +48,7 @@ export default function MySetsPage() {
   }
 
   return (
-    <div className="stagger mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-6 md:px-8 md:py-8">
+    <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-6 md:px-8 md:py-8">
       <div style={{ '--i': 0 } as CSSProperties}>
         <PageHeader title="My sets" actions={<Button onClick={() => navigate('/my-sets/new')}>New set</Button>} />
       </div>

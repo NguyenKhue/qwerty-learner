@@ -20,8 +20,9 @@ export default function HandPositionIllustration() {
       <button
         type="button"
         onClick={openModal}
-        className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
-          isOpen && 'bg-indigo-500 text-white'
+        aria-label="Hand position guide"
+        className={`flex h-9 w-9 items-center justify-center rounded-md text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus-visible:ring-2 focus-visible:ring-ring ${
+          isOpen ? 'bg-primary text-primary-foreground' : ''
         }`}
       >
         <IconKeyboard className="icon"></IconKeyboard>

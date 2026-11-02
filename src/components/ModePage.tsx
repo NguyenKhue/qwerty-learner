@@ -22,18 +22,31 @@ export function Panel({ className = '', children }: { className?: string; childr
   return <Card className={cn('text-card-foreground', callerPadding(className), className)}>{children}</Card>
 }
 
-/** A centered column with the set name and a Back button, used by the start screens of the study modes. */
-export function ModePage({ title, onBack, children }: { title: string; onBack: () => void; children: ReactNode }) {
+/** A centered column under the page's name, used by the start screens of the study modes. `onBack` is for a screen one level below a mode. */
+export function ModePage({
+  title,
+  subtitle,
+  onBack,
+  children,
+}: {
+  title: string
+  subtitle?: ReactNode
+  onBack?: () => void
+  children: ReactNode
+}) {
   return (
     // `my-auto` on the inner column (not `justify-center`) keeps the top reachable when the content is taller than the screen
     <div className="flex min-h-0 w-full flex-1 flex-col overflow-y-auto px-4 py-6 md:px-6">
-      <div className="mx-auto my-auto flex w-full max-w-xl animate-enter-up flex-col gap-6">
+      <div className="mx-auto my-auto flex w-full max-w-xl flex-col gap-6">
         <PageHeader
           title={title}
+          subtitle={subtitle}
           actions={
-            <Button variant="outline" onClick={onBack}>
-              Back
-            </Button>
+            onBack && (
+              <Button variant="outline" onClick={onBack}>
+                Back
+              </Button>
+            )
           }
         />
         {children}

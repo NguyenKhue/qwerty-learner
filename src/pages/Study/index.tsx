@@ -12,7 +12,6 @@ import { extraNewCardsAtom, newCardsPerDayAtom, studyReverseAtom } from '@/store
 import { getDictProgress, getHardWordsToday } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
 import { fetchWordExtras, sidecarUrlOf } from '@/utils/detail/sidecar'
-import { canGoBack } from '@/utils/history'
 import { type ProgressSummary, progressSummary } from '@/utils/progress/status'
 import shuffle from '@/utils/shuffle'
 import { practiceWords } from '@/utils/srs/practice'
@@ -206,8 +205,6 @@ function Study({ id }: { id: string }) {
       onStart={onStart}
       onLearnMore={onLearnMore}
       onPractice={onPractice}
-      // Nothing earlier in this app's history: fall back to the dashboard
-      onBack={() => (canGoBack() ? navigate(-1) : navigate('/'))}
     />
   )
 }

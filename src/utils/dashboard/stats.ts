@@ -5,7 +5,16 @@ import { MIN_DISTINCT_MEANINGS, canQuiz } from '@/utils/quiz/questions'
 import { buildQueue, nextDueTime, nextRefreshDelay, queueCounts } from '@/utils/srs/queue'
 
 export type ModeState = { enabled: boolean; reason: string | null }
-export type DashboardStats = { due: number; newToday: number; seen: number; total: number; quiz: ModeState; match: ModeState }
+export type DashboardStats = {
+  due: number
+  newToday: number
+  /** The word the flashcard queue starts with */
+  next: Word | null
+  seen: number
+  total: number
+  quiz: ModeState
+  match: ModeState
+}
 
 const needs = (count: number): string => `Needs at least ${count} words with different meanings`
 
@@ -16,10 +25,12 @@ export function dashboardStats(input: { words: Word[]; progress: ICardProgress[]
   input.progress.forEach((card) => {
     if (names.has(card.word)) seenNames.add(card.word)
   })
-  const counts = queueCounts(buildQueue(input))
+  const queue = buildQueue(input)
+  const counts = queueCounts(queue)
   return {
     due: counts.due,
     newToday: counts.new,
+    next: queue[0]?.word ?? null,
     seen: seenNames.size,
     total: names.size,
     quiz: canQuiz(input.words) ? { enabled: true, reason: null } : { enabled: false, reason: needs(MIN_DISTINCT_MEANINGS) },

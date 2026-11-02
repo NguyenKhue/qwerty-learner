@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import { dictionaryByIdAtom } from '@/store/customDicts'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
@@ -101,23 +102,23 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords }) => {
   }
 
   return (
-    <div className="z-10">
+    <div>
       <DropdownMenu.Root>
         <DropdownMenu.Trigger asChild>
-          <button className="my-btn-primary h-8 shadow transition hover:bg-primary disabled:opacity-50" disabled={isExporting}>
+          <Button variant="outline" disabled={isExporting}>
             {isExporting ? 'Exporting...' : 'Export'}
-          </button>
+          </Button>
         </DropdownMenu.Trigger>
-        <DropdownMenu.Content className="mt-1 rounded bg-primary text-primary-foreground shadow-lg">
+        <DropdownMenu.Content align="end" className="z-10 mt-1 rounded-lg border border-border bg-card p-1 text-foreground shadow-2">
           <DropdownMenu.Item
-            className="hover:bg-primary-foreground/15 focus:bg-primary-foreground/15 cursor-pointer rounded px-4 py-2 focus:outline-none"
+            className="flex min-h-[44px] cursor-pointer items-center rounded px-4 text-sm hover:bg-muted focus:bg-muted focus:outline-none"
             onClick={() => handleExport('xlsx')}
             disabled={isExporting}
           >
             .xlsx
           </DropdownMenu.Item>
           <DropdownMenu.Item
-            className="hover:bg-primary-foreground/15 focus:bg-primary-foreground/15 cursor-pointer rounded px-4 py-2 focus:outline-none"
+            className="flex min-h-[44px] cursor-pointer items-center rounded px-4 text-sm hover:bg-muted focus:bg-muted focus:outline-none"
             onClick={() => handleExport('csv')}
             disabled={isExporting}
           >

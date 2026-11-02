@@ -119,7 +119,7 @@ const App: React.FC = () => {
     <TypingContext.Provider value={{ state: state, dispatch }}>
       {state.isFinished && <DonateCard />}
       {state.isFinished && <ResultScreen />}
-      <Layout>
+      <Layout className="select-none">
         <Header>
           <DictChapterButton />
           <PronunciationSwitcher />

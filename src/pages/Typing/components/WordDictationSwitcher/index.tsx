@@ -66,7 +66,7 @@ export default function WordDictationSwitcher() {
       {({ open }) => (
         <>
           <Popover.Button
-            className={`flex items-center justify-center rounded p-[2px] text-lg ${
+            className={`flex h-9 w-9 items-center justify-center rounded-md text-lg ${
               wordDictationConfig.isOpen ? 'text-primary' : 'text-muted-foreground'
             } outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground  ${
               open ? 'bg-primary text-primary-foreground' : ''

@@ -12,7 +12,7 @@ import type { FormEvent } from 'react'
 /** A suggested video of the built-in list (`public/dictation-videos.json`). */
 type Suggestion = { id: string; title: string; channel: string; category: string }
 
-type Props = { onOpen: (videoId: string) => void; onBack: () => void }
+type Props = { onOpen: (videoId: string) => void }
 
 function progressLabel(video: DictationVideoSummary): string {
   if (video.progress?.finished) return 'Finished'
@@ -21,7 +21,7 @@ function progressLabel(video: DictationVideoSummary): string {
 }
 
 /** Choosing a video: paste a link, continue a prepared video, or pick a suggestion. */
-export default function DictationSetup({ onOpen, onBack }: Props) {
+export default function DictationSetup({ onOpen }: Props) {
   const [link, setLink] = useState('')
   const [linkError, setLinkError] = useState('')
   const prepared = useLive(() => call('dictation.videos'), ['dictation'], [])
@@ -56,7 +56,7 @@ export default function DictationSetup({ onOpen, onBack }: Props) {
 
   return (
     <ModeFrame>
-      <ModePage title="Dictation" onBack={onBack}>
+      <ModePage title="Dictation">
         <Card className="space-y-3 p-6">
           <p className="text-sm text-muted-foreground">
             Listen to a YouTube video one sentence at a time and type what you hear. The Vietnamese meaning is shown as a hint.

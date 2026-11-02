@@ -130,7 +130,7 @@ function SetDetail({ id }: { id: string }) {
         <p className="text-sm text-muted-foreground">No words match &quot;{query}&quot;.</p>
       ) : (
         <>
-          <ul className="stagger flex flex-col gap-3">
+          <ul className="flex flex-col gap-3">
             {indexes.slice(0, shown).map((wordIndex, index) => (
               <li key={record.words[wordIndex].name + wordIndex} style={{ '--i': Math.min(index, 10) } as CSSProperties}>
                 <WordCard word={record.words[wordIndex]} onEdit={() => openEditor(record.words[wordIndex].name)} />

@@ -4,6 +4,7 @@ import { ModeFrame } from '@/components/ModePage'
 import ScrollCenter from '@/components/ScrollCenter'
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { Button } from '@/components/ui/button'
+import { Keycap } from '@/components/ui/keycap'
 import { pronunciationIsOpenAtom } from '@/store'
 import { reviewCard } from '@/utils/db/card-progress'
 import type { ICardProgress } from '@/utils/db/record'
@@ -169,7 +170,7 @@ export default function StudySession({ dictId, queue, progress, reverse, extras,
   const kindLabel = practice ? 'Practice' : item.kind === 'new' ? 'New' : 'Due'
   const front = (
     <div className="flex flex-col items-center gap-6">
-      <span className="text-xs uppercase tracking-wide text-muted-foreground">{kindLabel}</span>
+      <span className="text-sm text-muted-foreground">{kindLabel}</span>
       {reverse ? meaningBlock : wordBlock}
     </div>
   )
@@ -178,12 +179,14 @@ export default function StudySession({ dictId, queue, progress, reverse, extras,
       {wordBlock}
       {detailBlock && <div className="w-full border-t border-border pt-6">{detailBlock}</div>}
     </div>
-  ) : detailBlock ? (
-    detailBlock
   ) : (
-    <div className="flex flex-col items-center gap-4">
-      <span className="text-sm text-muted-foreground">{word.name}</span>
-      {meaningBlock}
+    // The word stays large on the back: this is where it is checked against what was recalled
+    <div className={`flex flex-col gap-6 ${detailBlock ? '' : 'items-center'}`}>
+      <div className={`flex flex-col gap-1 ${detailBlock ? '' : 'items-center'}`}>
+        <span className="break-words text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">{word.name}</span>
+        {phonetic && <span className="text-muted-foreground">[{phonetic}]</span>}
+      </div>
+      {detailBlock ? <div className="border-t border-border pt-6">{detailBlock}</div> : meaningBlock}
     </div>
   )
 
@@ -201,7 +204,7 @@ export default function StudySession({ dictId, queue, progress, reverse, extras,
               New {counts.new} · Due {counts.due}
             </span>
           )}
-          <Button size="sm" variant="outline" disabled={saving} onClick={finish}>
+          <Button variant="outline" disabled={saving} onClick={finish}>
             Exit
           </Button>
         </div>
@@ -211,7 +214,13 @@ export default function StudySession({ dictId, queue, progress, reverse, extras,
           <FlipCard flipped={session.flipped} onFlip={onFlip} front={front} back={back} />
         </div>
 
-        <p className="text-xs text-muted-foreground">Tap the card or press Space to flip it</p>
+        <p className="text-sm text-muted-foreground">
+          Tap the card{' '}
+          <span className="hidden md:inline">
+            or press <Keycap>Space</Keycap>{' '}
+          </span>
+          to flip it
+        </p>
 
         <p className="sr-only" aria-live="polite">
           {session.flipped ? `${word.name}: ${word.trans.join('; ')}` : `${kindLabel} card: ${reverse ? word.trans.join('; ') : word.name}`}
@@ -231,8 +240,9 @@ export default function StudySession({ dictId, queue, progress, reverse, extras,
               onClick={() => onGrade(grade)}
               className={`flex min-h-[56px] flex-col items-center justify-center rounded-xl border border-border bg-card px-3 text-sm font-semibold shadow-1 transition-[transform,box-shadow,background-color] duration-fast ease-out hover:-translate-y-0.5 hover:shadow-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-95 disabled:opacity-30 ${GRADE_STYLE[grade]}`}
             >
-              <span>
-                {GRADE_NAME[grade]} ({index + 1})
+              <span className="flex items-center gap-2">
+                <Keycap className="hidden md:inline-flex">{index + 1}</Keycap>
+                {GRADE_NAME[grade]}
               </span>
               {labels && <span className="block text-xs font-normal text-muted-foreground">{labels[grade]}</span>}
             </button>

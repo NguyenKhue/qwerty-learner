@@ -1,29 +1,22 @@
 import { TypingContext, TypingStateActionType } from '../../store'
-import AnalysisButton from '../AnalysisButton'
-import ErrorBookButton from '../ErrorBookButton'
 import HandPositionIllustration from '../HandPositionIllustration'
 import LoopWordSwitcher from '../LoopWordSwitcher'
 import Setting from '../Setting'
 import SoundSwitcher from '../SoundSwitcher'
 import WordDictationSwitcher from '../WordDictationSwitcher'
 import Tooltip from '@/components/Tooltip'
-import { isOpenDarkModeAtom } from '@/store'
 import { CTRL } from '@/utils'
-import { useAtom } from 'jotai'
 import { useContext } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
-import IconMoon from '~icons/heroicons/moon-solid'
-import IconSun from '~icons/heroicons/sun-solid'
 import IconLanguage from '~icons/tabler/language'
 import IconLanguageOff from '~icons/tabler/language-off'
 
-export default function Switcher() {
-  const [isOpenDarkMode, setIsOpenDarkMode] = useAtom(isOpenDarkModeAtom)
-  const { state, dispatch } = useContext(TypingContext) ?? {}
+function Divider() {
+  return <span aria-hidden className="mx-1 h-6 w-px bg-border" />
+}
 
-  const changeDarkModeState = () => {
-    setIsOpenDarkMode((old) => !old)
-  }
+export default function Switcher() {
+  const { state, dispatch } = useContext(TypingContext) ?? {}
 
   const changeTransVisibleState = () => {
     if (dispatch) {
@@ -41,21 +34,24 @@ export default function Switcher() {
   )
 
   return (
-    <div className="flex items-center justify-center gap-2">
+    <div className="flex items-center justify-center gap-1">
+      <Divider />
       <Tooltip content="Sound settings">
         <SoundSwitcher />
       </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="Loop a single word">
+      <Tooltip content="Loop a single word">
         <LoopWordSwitcher />
       </Tooltip>
 
-      <Tooltip className="h-7 w-7" content={`Toggle dictation mode (${CTRL} + V)`}>
+      <Tooltip content={`Toggle dictation mode (${CTRL} + V)`}>
         <WordDictationSwitcher />
       </Tooltip>
-      <Tooltip className="h-7 w-7" content={`Toggle definition display (${CTRL} + Shift + V)`}>
+      <Tooltip content={`Toggle definition display (${CTRL} + Shift + V)`}>
         <button
-          className={`p-[2px] ${state?.isTransVisible ? 'text-primary' : 'text-muted-foreground'} text-lg focus:outline-none`}
+          className={`flex h-9 w-9 items-center justify-center rounded-md ${
+            state?.isTransVisible ? 'text-primary' : 'text-muted-foreground'
+          } text-lg transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus:outline-none focus-visible:ring-2 focus-visible:ring-ring`}
           type="button"
           onClick={(e) => {
             changeTransVisibleState()
@@ -67,33 +63,14 @@ export default function Switcher() {
         </button>
       </Tooltip>
 
-      <Tooltip content="Error book">
-        <ErrorBookButton />
-      </Tooltip>
-
-      <Tooltip className="h-7 w-7" content="View statistics">
-        <AnalysisButton />
-      </Tooltip>
-
-      <Tooltip className="h-7 w-7" content="Toggle dark mode">
-        <button
-          className={`p-[2px] text-lg text-primary focus:outline-none`}
-          type="button"
-          onClick={(e) => {
-            changeDarkModeState()
-            e.currentTarget.blur()
-          }}
-          aria-label="Toggle dark mode"
-        >
-          {isOpenDarkMode ? <IconMoon className="icon" /> : <IconSun className="icon" />}
-        </button>
-      </Tooltip>
-      <Tooltip className="h-7 w-7" content="Hand position guide">
+      <Divider />
+      <Tooltip content="Hand position guide">
         <HandPositionIllustration></HandPositionIllustration>
       </Tooltip>
       <Tooltip content="Settings">
         <Setting />
       </Tooltip>
+      <Divider />
     </div>
   )
 }

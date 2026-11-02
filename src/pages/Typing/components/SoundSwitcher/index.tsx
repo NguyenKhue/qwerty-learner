@@ -27,7 +27,7 @@ export default function SoundSwitcher() {
       {({ open }) => (
         <>
           <Popover.Button
-            className={`flex items-center justify-center rounded p-[2px] text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground  ${
+            className={`flex h-9 w-9 items-center justify-center rounded-md text-lg text-primary outline-none transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground  ${
               open ? 'bg-primary text-primary-foreground' : ''
             }`}
             onFocus={(e) => {

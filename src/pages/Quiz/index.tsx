@@ -6,12 +6,10 @@ import { useCurrentDictId } from '@/hooks/useCurrentDictId'
 import { useDictionaryWords } from '@/hooks/useDictionaryWords'
 import { useSetProgress } from '@/hooks/useSetProgress'
 import { quizDirectionAtom, quizLengthAtom } from '@/store/quiz'
-import { canGoBack } from '@/utils/history'
 import { buildQuiz, canQuiz, distinctMeaningCount, sanitizeQuizLength } from '@/utils/quiz/questions'
 import type { QuizQuestion } from '@/utils/quiz/questions'
 import { useAtom } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 
 // Keyed by id so moving between two sets in place starts from a clean state
 export default function QuizRoute() {
@@ -21,7 +19,6 @@ export default function QuizRoute() {
 }
 
 function Quiz({ id }: { id: string }) {
-  const navigate = useNavigate()
   const { dict, words, error } = useDictionaryWords(id)
   const progress = useSetProgress(id, words)
   const [lengthStored, setLength] = useAtom(quizLengthAtom)
@@ -34,9 +31,6 @@ function Quiz({ id }: { id: string }) {
 
   const distinctMeanings = useMemo(() => (words ? distinctMeaningCount(words) : 0), [words])
   const available = useMemo(() => (words ? canQuiz(words) : false), [words])
-
-  // Nothing earlier in this app's history (a bookmark, or a redirect in a new tab): fall back to the dashboard
-  const onBack = useCallback(() => (canGoBack() ? navigate(-1) : navigate('/')), [navigate])
 
   const start = useCallback(() => {
     if (!words) return
@@ -69,7 +63,6 @@ function Quiz({ id }: { id: string }) {
       direction={direction}
       onDirectionChange={setDirection}
       onStart={start}
-      onBack={onBack}
     />
   )
 }

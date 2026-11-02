@@ -1,10 +1,4 @@
 import { GalleryContext } from '.'
-import codeFlag from '@/assets/flags/code.png'
-import deFlag from '@/assets/flags/de.png'
-import enFlag from '@/assets/flags/en.png'
-import idFlag from '@/assets/flags/id.png'
-import jpFlag from '@/assets/flags/ja.png'
-import kkFlag from '@/assets/flags/kk.png'
 import type { LanguageCategoryType } from '@/typings'
 import { RadioGroup } from '@headlessui/react'
 import { useCallback, useContext } from 'react'
@@ -12,16 +6,15 @@ import { useCallback, useContext } from 'react'
 export type LanguageTabOption = {
   id: LanguageCategoryType
   name: string
-  flag: string
 }
 
 const options: LanguageTabOption[] = [
-  { id: 'en', name: 'English', flag: enFlag },
-  { id: 'ja', name: 'Japanese', flag: jpFlag },
-  { id: 'de', name: 'German', flag: deFlag },
-  { id: 'kk', name: 'Kazakh', flag: kkFlag },
-  { id: 'id', name: 'Indonesian', flag: idFlag },
-  { id: 'code', name: 'Code', flag: codeFlag },
+  { id: 'en', name: 'English' },
+  { id: 'ja', name: 'Japanese' },
+  { id: 'de', name: 'German' },
+  { id: 'kk', name: 'Kazakh' },
+  { id: 'id', name: 'Indonesian' },
+  { id: 'code', name: 'Code' },
 ]
 
 export function LanguageTabSwitcher() {
@@ -39,13 +32,20 @@ export function LanguageTabSwitcher() {
 
   return (
     <RadioGroup value={state.currentLanguageTab} onChange={onChangeTab}>
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+      <div className="flex gap-1 overflow-x-auto">
         {options.map((option) => (
-          <RadioGroup.Option key={option.id} value={option.id} className="cursor-pointer">
+          <RadioGroup.Option
+            key={option.id}
+            value={option.id}
+            className="shrink-0 cursor-pointer rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          >
             {({ checked }) => (
-              <div className={`flex items-center border-b-2 px-2 pb-1 ${checked ? 'border-primary' : 'border-transparent'}`}>
-                <img src={option.flag} className="mr-1.5 h-7 w-7" />
-                <p className={`text-lg font-medium text-foreground `}>{option.name}</p>
+              <div
+                className={`flex min-h-[44px] items-center rounded-lg px-4 text-sm font-medium transition-colors duration-fast ${
+                  checked ? 'bg-primary/10 text-primary' : 'text-muted-foreground hover:bg-muted hover:text-foreground'
+                }`}
+              >
+                {option.name}
               </div>
             )}
           </RadioGroup.Option>

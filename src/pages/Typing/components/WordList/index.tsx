@@ -41,8 +41,9 @@ export default function WordList() {
       <Tooltip content="List" placement="top" className="!absolute left-5 top-[50%] z-20">
         <button
           type="button"
+          aria-label="Word list"
           onClick={openModal}
-          className="absolute left-0 top-[50%] z-20 rounded-lg rounded-l-none bg-primary/10 px-2 py-3 text-lg hover:bg-primary/10 focus:outline-none  "
+          className="absolute left-0 top-[50%] z-20 rounded-lg rounded-l-none bg-primary/10 px-2 py-3 text-lg hover:bg-primary/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         >
           <ListIcon className="h-6 w-6 text-lg text-primary " />
         </button>

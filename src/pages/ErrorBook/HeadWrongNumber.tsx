@@ -23,9 +23,16 @@ const HeadWrongNumber: FC<IHeadWrongNumberProps> = ({ className, sortType, setSo
   }, [setSortType, sortType])
 
   return (
-    <span className={`relative cursor-pointer ${className}`} onClick={onClick}>
-      Error count
-      <div className="absolute -right-2 bottom-0 top-0 flex flex-col items-center justify-center text-[12px]">
+    <button
+      type="button"
+      aria-label="Sort by error count"
+      className={`flex min-h-[44px] items-center gap-1 whitespace-nowrap rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
+        className ?? ''
+      }`}
+      onClick={onClick}
+    >
+      Errors
+      <span className="flex flex-col items-center justify-center text-[12px]" aria-hidden>
         <UPIcon
           className={classNames('-mb-2 ', {
             'text-primary': sortType === 'asc',
@@ -38,8 +45,8 @@ const HeadWrongNumber: FC<IHeadWrongNumberProps> = ({ className, sortType, setSo
             'text-muted-foreground': sortType !== 'desc',
           })}
         />
-      </div>
-    </span>
+      </span>
+    </button>
   )
 }
 

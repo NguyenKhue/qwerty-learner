@@ -28,7 +28,7 @@ module.exports = {
         spring: 'var(--ease-spring)',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['Be Vietnam Pro', ...defaultTheme.fontFamily.sans],
       },
       keyframes: {
         'accordion-down': {

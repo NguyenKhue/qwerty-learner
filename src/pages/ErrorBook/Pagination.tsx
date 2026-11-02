@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import type { FC } from 'react'
 import { useCallback } from 'react'
 import NextIcon from '~icons/ooui/next-ltr'
@@ -21,15 +22,17 @@ const Pagination: FC<IPaginationProps> = ({ className, page, setPage, totalPages
     setPage(page - 1)
   }, [page, setPage])
 
+  if (totalPages <= 1) return null
+
   return (
-    <div className={`flex items-center gap-2 ${className}`}>
-      <button className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md  " onClick={prevPage}>
-        <PrevIcon />
-      </button>
-      <span className="text-foreground">{`${page} / ${totalPages}`}</span>
-      <button className="cursor-pointer rounded-full bg-card p-2 text-primary shadow-md  " onClick={nextPage}>
-        <NextIcon />
-      </button>
+    <div className={`flex items-center gap-2 ${className ?? ''}`}>
+      <Button variant="outline" size="icon" aria-label="Previous page" disabled={page <= 1} onClick={prevPage}>
+        <PrevIcon aria-hidden />
+      </Button>
+      <span className="num text-sm text-foreground">{`${page} / ${totalPages}`}</span>
+      <Button variant="outline" size="icon" aria-label="Next page" disabled={page >= totalPages} onClick={nextPage}>
+        <NextIcon aria-hidden />
+      </Button>
     </div>
   )
 }

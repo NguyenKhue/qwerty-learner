@@ -17,18 +17,18 @@ export default function DictTagSwitcher({ tagList, currentTag, onChangeCurrentTa
 
   return (
     <RadioGroup value={currentTag} onChange={onChangeTag}>
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+      <div className="flex flex-wrap items-center gap-2">
         {tagList.map((option) => (
           <RadioGroup.Option
             key={option}
             value={option}
             className={({ checked }) =>
-              `cursor-pointer whitespace-nowrap rounded-[3rem] px-4 py-2 ${
-                checked ? 'bg-primary text-primary-foreground' : 'bg-card text-muted-foreground  '
-              } ${!checked && 'hover:bg-primary/10 '}`
+              `flex min-h-[44px] cursor-pointer items-center whitespace-nowrap rounded-full border px-4 text-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
+                checked ? 'border-primary bg-primary/10 text-primary' : 'border-border bg-card text-muted-foreground hover:bg-muted'
+              }`
             }
           >
-            <p className={`font-normal `}>{option}</p>
+            <p>{option}</p>
           </RadioGroup.Option>
         ))}
       </div>
