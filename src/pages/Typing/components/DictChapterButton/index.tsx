@@ -13,8 +13,11 @@ export const DictChapterButton = () => {
   const chapterCount = currentDictInfo.chapterCount
   const isReviewMode = useAtomValue(isReviewModeAtom)
 
+  // Space and Enter belong to the page (start, next chapter); a chapter picked with the mouse leaves the focus here, and Headless UI would
+  // open the list on these keys as well. Headless UI runs its own key handler before ours and skips it only when the event is already
+  // prevented, so this runs in the capture phase
   const handleKeyDown: React.KeyboardEventHandler<HTMLButtonElement> = (event) => {
-    if (event.key === ' ') {
+    if (event.key === ' ' || event.key === 'Enter') {
       event.preventDefault()
     }
   }
@@ -32,7 +35,7 @@ export const DictChapterButton = () => {
         <Tooltip content="Switch chapter">
           <Listbox value={currentChapter} onChange={setCurrentChapter}>
             <Listbox.Button
-              onKeyDown={handleKeyDown}
+              onKeyDownCapture={handleKeyDown}
               className="rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-primary hover:text-primary-foreground focus:outline-none   "
             >
               Chapter {currentChapter + 1}
